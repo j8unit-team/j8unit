@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CopyOnWriteArraySetTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CopyOnWriteArraySetClassTests<SUT extends java.util.concurrent.CopyOnWriteArraySet<E>, E>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
+public abstract interface CopyOnWriteArraySetClassTests<SUT extends java.util.concurrent.CopyOnWriteArraySet>
+extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.CopyOnWriteArraySet#CopyOnWriteArraySet() public
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.CopyOnWriteArraySet<E> sut = null; // = new CopyOnWriteArraySet();
+        final java.util.concurrent.CopyOnWriteArraySet<?> sut = null; // = new CopyOnWriteArraySet();
     }
 
     /**
@@ -61,7 +62,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.CopyOnWriteArraySet<E> sut = null; // = new
+        final java.util.concurrent.CopyOnWriteArraySet<?> sut = null; // = new
                                                                       // CopyOnWriteArraySet(java.util.Collection);
     }
 

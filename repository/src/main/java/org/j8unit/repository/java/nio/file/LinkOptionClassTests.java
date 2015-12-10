@@ -35,7 +35,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface LinkOptionClassTests<SUT extends java.nio.file.LinkOption>
 extends org.j8unit.repository.java.nio.file.OpenOptionClassTests<SUT>, org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.LinkOption> {
+org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

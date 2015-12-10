@@ -35,7 +35,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UIDefaultsClassTests<SUT extends javax.swing.UIDefaults>
-extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Object, java.lang.Object> {
+extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
 
     /**
      * <p>

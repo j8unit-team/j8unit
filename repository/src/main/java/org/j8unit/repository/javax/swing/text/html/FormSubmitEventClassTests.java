@@ -65,7 +65,7 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MethodTypeClassTests<SUT extends javax.swing.text.html.FormSubmitEvent.MethodType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.text.html.FormSubmitEvent.MethodType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

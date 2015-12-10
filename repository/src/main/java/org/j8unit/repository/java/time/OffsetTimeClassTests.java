@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface OffsetTimeClassTests<SUT extends java.time.OffsetTime>
 extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.OffsetTime>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

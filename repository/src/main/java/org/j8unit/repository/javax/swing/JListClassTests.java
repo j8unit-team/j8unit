@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JListTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JListClassTests<SUT extends javax.swing.JList<E>, E>
+public abstract interface JListClassTests<SUT extends javax.swing.JList>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -88,7 +89,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList();
+        final javax.swing.JList<?> sut = null; // = new JList();
     }
 
     /**
@@ -102,7 +103,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList(javax.swing.ListModel);
+        final javax.swing.JList<?> sut = null; // = new JList(javax.swing.ListModel);
     }
 
     /**
@@ -115,7 +116,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList(java.lang.Object[]);
+        final javax.swing.JList<?> sut = null; // = new JList(java.lang.Object[]);
     }
 
     /**
@@ -128,7 +129,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList(java.util.Vector);
+        final javax.swing.JList<?> sut = null; // = new JList(java.util.Vector);
     }
 
     @Override

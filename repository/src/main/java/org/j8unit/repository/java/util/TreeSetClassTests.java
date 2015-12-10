@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.TreeSetTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TreeSetClassTests<SUT extends java.util.TreeSet<E>, E>
-extends org.j8unit.repository.java.util.NavigableSetClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
+public abstract interface TreeSetClassTests<SUT extends java.util.TreeSet>
+extends org.j8unit.repository.java.util.NavigableSetClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.TreeSet#TreeSet() public java.util.TreeSet()}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeSet<E> sut = null; // = new TreeSet();
+        final java.util.TreeSet<?> sut = null; // = new TreeSet();
     }
 
     /**
@@ -60,7 +61,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeSet<E> sut = null; // = new TreeSet(java.util.Collection);
+        final java.util.TreeSet<?> sut = null; // = new TreeSet(java.util.Collection);
     }
 
     /**
@@ -74,7 +75,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeSet<E> sut = null; // = new TreeSet(java.util.Comparator);
+        final java.util.TreeSet<?> sut = null; // = new TreeSet(java.util.Comparator);
     }
 
     /**
@@ -88,7 +89,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeSet<E> sut = null; // = new TreeSet(java.util.SortedSet);
+        final java.util.TreeSet<?> sut = null; // = new TreeSet(java.util.SortedSet);
     }
 
     @Override

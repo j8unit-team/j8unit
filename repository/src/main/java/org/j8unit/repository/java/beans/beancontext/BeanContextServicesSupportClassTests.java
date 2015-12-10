@@ -32,11 +32,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextServicesSupportTests
  */
-@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextServicesSupportClassTests<SUT extends java.beans.beancontext.BeanContextServicesSupport>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesClassTests, org.j8unit.repository.java.beans.beancontext.BeanContextSupportClassTests {
+extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesClassTests<SUT>,
+org.j8unit.repository.java.beans.beancontext.BeanContextSupportClassTests<SUT> {
 
     /**
      * Test method for {@link java.beans.beancontext.BeanContextServicesSupport#BeanContextServicesSupport() public
@@ -120,12 +120,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesClassTes
         final java.beans.beancontext.BeanContextServicesSupport sut = null; // = new
                                                                             // BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,java.util.Locale,boolean,boolean);
     }
-
-    // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this test class (caused
-    // by the "rawtypes" nature of the class-under-test).
-    @Override
-    public abstract Class<SUT> createNewSUT();
 
     @Override
     @Test

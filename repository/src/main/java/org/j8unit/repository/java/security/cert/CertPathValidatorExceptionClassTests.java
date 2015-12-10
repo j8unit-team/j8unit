@@ -66,7 +66,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     @Category(J8UnitRepository.class)
     public static abstract interface BasicReasonClassTests<SUT extends java.security.cert.CertPathValidatorException.BasicReason>
     extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>,
-    org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.CertPathValidatorException.BasicReason> {
+    org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

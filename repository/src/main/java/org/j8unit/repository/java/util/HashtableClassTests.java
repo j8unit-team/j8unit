@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.HashtableTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HashtableClassTests<SUT extends java.util.Hashtable<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.DictionaryClassTests<SUT, K, V> {
+public abstract interface HashtableClassTests<SUT extends java.util.Hashtable>
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.DictionaryClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.Hashtable#Hashtable() public java.util.Hashtable()}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Hashtable<K, V> sut = null; // = new Hashtable();
+        final java.util.Hashtable<?, ?> sut = null; // = new Hashtable();
     }
 
     /**
@@ -59,7 +60,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Hashtable<K, V> sut = null; // = new Hashtable(int);
+        final java.util.Hashtable<?, ?> sut = null; // = new Hashtable(int);
     }
 
     /**
@@ -72,7 +73,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Hashtable<K, V> sut = null; // = new Hashtable(int,float);
+        final java.util.Hashtable<?, ?> sut = null; // = new Hashtable(int,float);
     }
 
     /**
@@ -85,7 +86,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Hashtable<K, V> sut = null; // = new Hashtable(java.util.Map);
+        final java.util.Hashtable<?, ?> sut = null; // = new Hashtable(java.util.Map);
     }
 
     @Override

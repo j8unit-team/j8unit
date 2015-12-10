@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConcurrentHashMapClassTests<SUT extends java.util.concurrent.ConcurrentHashMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+public abstract interface ConcurrentHashMapClassTests<SUT extends java.util.concurrent.ConcurrentHashMap>
+extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * <p>
@@ -63,11 +64,12 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeySetViewClassTests<SUT extends java.util.concurrent.ConcurrentHashMap.KeySetView<K, V>, K, V>
-    extends org.j8unit.repository.java.util.SetClassTests<SUT, K>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.util.CollectionClassTests<SUT, K>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface KeySetViewClassTests<SUT extends java.util.concurrent.ConcurrentHashMap.KeySetView>
+    extends org.j8unit.repository.java.util.SetClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+    org.j8unit.repository.java.util.CollectionClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
         @Test
@@ -92,7 +94,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentHashMap<K, V> sut = null; // = new ConcurrentHashMap();
+        final java.util.concurrent.ConcurrentHashMap<?, ?> sut = null; // = new ConcurrentHashMap();
     }
 
     /**
@@ -106,7 +108,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentHashMap<K, V> sut = null; // = new ConcurrentHashMap(int);
+        final java.util.concurrent.ConcurrentHashMap<?, ?> sut = null; // = new ConcurrentHashMap(int);
     }
 
     /**
@@ -120,7 +122,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentHashMap<K, V> sut = null; // = new ConcurrentHashMap(int,float);
+        final java.util.concurrent.ConcurrentHashMap<?, ?> sut = null; // = new ConcurrentHashMap(int,float);
     }
 
     /**
@@ -134,7 +136,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentHashMap<K, V> sut = null; // = new ConcurrentHashMap(int,float,int);
+        final java.util.concurrent.ConcurrentHashMap<?, ?> sut = null; // = new ConcurrentHashMap(int,float,int);
     }
 
     /**
@@ -148,7 +150,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentHashMap<K, V> sut = null; // = new ConcurrentHashMap(java.util.Map);
+        final java.util.concurrent.ConcurrentHashMap<?, ?> sut = null; // = new ConcurrentHashMap(java.util.Map);
     }
 
     /**

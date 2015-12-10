@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.FutureTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FutureClassTests<SUT extends java.util.concurrent.Future<V>, V>
+public abstract interface FutureClassTests<SUT extends java.util.concurrent.Future>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

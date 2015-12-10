@@ -35,7 +35,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface LocalDateTimeClassTests<SUT extends java.time.LocalDateTime>
 extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests<SUT, java.time.LocalDate>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

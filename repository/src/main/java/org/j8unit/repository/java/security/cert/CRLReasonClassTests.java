@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CRLReasonClassTests<SUT extends java.security.cert.CRLReason>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.CRLReason> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

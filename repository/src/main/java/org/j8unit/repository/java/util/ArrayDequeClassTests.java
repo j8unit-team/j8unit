@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ArrayDequeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayDequeClassTests<SUT extends java.util.ArrayDeque<E>, E>
-extends org.j8unit.repository.java.util.DequeClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT, E> {
+public abstract interface ArrayDequeClassTests<SUT extends java.util.ArrayDeque>
+extends org.j8unit.repository.java.util.DequeClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.ArrayDeque#ArrayDeque() public java.util.ArrayDeque()}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.ArrayDeque<E> sut = null; // = new ArrayDeque();
+        final java.util.ArrayDeque<?> sut = null; // = new ArrayDeque();
     }
 
     /**
@@ -60,7 +61,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.ArrayDeque<E> sut = null; // = new ArrayDeque(java.util.Collection);
+        final java.util.ArrayDeque<?> sut = null; // = new ArrayDeque(java.util.Collection);
     }
 
     /**
@@ -73,7 +74,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.ArrayDeque<E> sut = null; // = new ArrayDeque(int);
+        final java.util.ArrayDeque<?> sut = null; // = new ArrayDeque(int);
     }
 
     @Override

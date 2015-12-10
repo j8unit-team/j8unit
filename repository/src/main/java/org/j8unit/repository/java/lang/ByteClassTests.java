@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ByteClassTests<SUT extends java.lang.Byte>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
      * Test method for {@link java.lang.Byte#Byte(byte) public java.lang.Byte(byte)}.

@@ -32,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface NameClassTests<SUT extends javax.naming.Name>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Object> {
+org.j8unit.repository.java.lang.ComparableClassTests<SUT> {
 
     @Override
     @Test

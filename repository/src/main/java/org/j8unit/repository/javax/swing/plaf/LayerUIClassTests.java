@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.LayerUITests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LayerUIClassTests<SUT extends javax.swing.plaf.LayerUI<V>, V extends java.awt.Component>
+public abstract interface LayerUIClassTests<SUT extends javax.swing.plaf.LayerUI>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.ComponentUIClassTests<SUT> {
 
     /**
@@ -46,7 +47,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.plaf.LayerUI<V> sut = null; // = new LayerUI();
+        final javax.swing.plaf.LayerUI<?> sut = null; // = new LayerUI();
     }
 
     @Override

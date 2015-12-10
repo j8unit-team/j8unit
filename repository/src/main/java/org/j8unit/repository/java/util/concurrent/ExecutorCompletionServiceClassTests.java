@@ -32,10 +32,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ExecutorCompletionServiceTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExecutorCompletionServiceClassTests<SUT extends java.util.concurrent.ExecutorCompletionService<V>, V>
-extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<SUT, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface ExecutorCompletionServiceClassTests<SUT extends java.util.concurrent.ExecutorCompletionService>
+extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
@@ -49,7 +50,7 @@ extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ExecutorCompletionService<V> sut = null; // = new
+        final java.util.concurrent.ExecutorCompletionService<?> sut = null; // = new
                                                                             // ExecutorCompletionService(java.util.concurrent.Executor);
     }
 
@@ -67,7 +68,7 @@ extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ExecutorCompletionService<V> sut = null; // = new
+        final java.util.concurrent.ExecutorCompletionService<?> sut = null; // = new
                                                                             // ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue);
     }
 

@@ -30,10 +30,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.EnumTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumClassTests<SUT extends java.lang.Enum<E>, E extends java.lang.Enum<E>>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+public abstract interface EnumClassTests<SUT extends java.lang.Enum>
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

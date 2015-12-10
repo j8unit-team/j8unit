@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.TypeKindVisitor6Tests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TypeKindVisitor6ClassTests<SUT extends javax.lang.model.util.TypeKindVisitor6<R, P>, R, P>
-extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6ClassTests<SUT, R, P> {
+public abstract interface TypeKindVisitor6ClassTests<SUT extends javax.lang.model.util.TypeKindVisitor6>
+extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6ClassTests<SUT> {
 
     @Override
     @Test

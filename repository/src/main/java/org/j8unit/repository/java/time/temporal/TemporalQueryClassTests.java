@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.TemporalQueryTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TemporalQueryClassTests<SUT extends java.time.temporal.TemporalQuery<R>, R>
+public abstract interface TemporalQueryClassTests<SUT extends java.time.temporal.TemporalQuery>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

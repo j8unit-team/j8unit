@@ -29,9 +29,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.PainterTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PainterClassTests<SUT extends javax.swing.Painter<T>, T>
+public abstract interface PainterClassTests<SUT extends javax.swing.Painter>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

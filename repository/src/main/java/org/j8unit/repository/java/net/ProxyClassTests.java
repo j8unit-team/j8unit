@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends java.net.Proxy.Type>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.net.Proxy.Type> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JDBCTypeClassTests<SUT extends java.sql.JDBCType>
-extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.sql.JDBCType> {
+extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

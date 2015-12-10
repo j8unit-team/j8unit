@@ -30,12 +30,13 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ArrayListTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayListClassTests<SUT extends java.util.ArrayList<E>, E>
-extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
+public abstract interface ArrayListClassTests<SUT extends java.util.ArrayList>
+extends org.j8unit.repository.java.util.ListClassTests<SUT>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
+org.j8unit.repository.java.util.AbstractListClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.ArrayList#ArrayList() public java.util.ArrayList()}.
@@ -47,7 +48,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.ArrayList<E> sut = null; // = new ArrayList();
+        final java.util.ArrayList<?> sut = null; // = new ArrayList();
     }
 
     /**
@@ -61,7 +62,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.ArrayList<E> sut = null; // = new ArrayList(java.util.Collection);
+        final java.util.ArrayList<?> sut = null; // = new ArrayList(java.util.Collection);
     }
 
     /**
@@ -74,7 +75,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.ArrayList<E> sut = null; // = new ArrayList(int);
+        final java.util.ArrayList<?> sut = null; // = new ArrayList(int);
     }
 
     @Override

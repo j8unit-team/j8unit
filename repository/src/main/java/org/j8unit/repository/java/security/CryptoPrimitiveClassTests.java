@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CryptoPrimitiveClassTests<SUT extends java.security.CryptoPrimitive>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.CryptoPrimitive> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

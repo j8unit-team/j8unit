@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentPlacementClassTests<SUT extends javax.swing.LayoutStyle.ComponentPlacement>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.LayoutStyle.ComponentPlacement> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

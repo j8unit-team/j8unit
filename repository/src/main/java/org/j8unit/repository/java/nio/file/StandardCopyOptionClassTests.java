@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardCopyOptionClassTests<SUT extends java.nio.file.StandardCopyOption>
-extends org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.StandardCopyOption> {
+extends org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

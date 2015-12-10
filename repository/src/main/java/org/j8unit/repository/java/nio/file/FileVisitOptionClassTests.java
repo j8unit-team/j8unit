@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileVisitOptionClassTests<SUT extends java.nio.file.FileVisitOption>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.FileVisitOption> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

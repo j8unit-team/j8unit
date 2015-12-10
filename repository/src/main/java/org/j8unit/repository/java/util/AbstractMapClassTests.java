@@ -30,10 +30,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractMapClassTests<SUT extends java.util.AbstractMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface AbstractMapClassTests<SUT extends java.util.AbstractMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
@@ -60,10 +61,11 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SimpleEntryClassTests<SUT extends java.util.AbstractMap.SimpleEntry<K, V>, K, V>
-    extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+    public static abstract interface SimpleEntryClassTests<SUT extends java.util.AbstractMap.SimpleEntry>
+    extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -77,7 +79,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.util.AbstractMap.SimpleEntry<K, V> sut = null; // = new SimpleEntry(java.util.Map.Entry);
+            final java.util.AbstractMap.SimpleEntry<?, ?> sut = null; // = new SimpleEntry(java.util.Map.Entry);
         }
 
         /**
@@ -91,7 +93,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.util.AbstractMap.SimpleEntry<K, V> sut = null; // = new
+            final java.util.AbstractMap.SimpleEntry<?, ?> sut = null; // = new
                                                                       // SimpleEntry(java.lang.Object,java.lang.Object);
         }
 
@@ -133,10 +135,11 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SimpleImmutableEntryClassTests<SUT extends java.util.AbstractMap.SimpleImmutableEntry<K, V>, K, V>
-    extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+    public static abstract interface SimpleImmutableEntryClassTests<SUT extends java.util.AbstractMap.SimpleImmutableEntry>
+    extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -150,7 +153,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.util.AbstractMap.SimpleImmutableEntry<K, V> sut = null; // = new
+            final java.util.AbstractMap.SimpleImmutableEntry<?, ?> sut = null; // = new
                                                                                // SimpleImmutableEntry(java.util.Map.Entry);
         }
 
@@ -166,7 +169,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.util.AbstractMap.SimpleImmutableEntry<K, V> sut = null; // = new
+            final java.util.AbstractMap.SimpleImmutableEntry<?, ?> sut = null; // = new
                                                                                // SimpleImmutableEntry(java.lang.Object,java.lang.Object);
         }
 

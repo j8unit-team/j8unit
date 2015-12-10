@@ -31,11 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ChronoZonedDateTimeClassTests<SUT extends java.time.chrono.ChronoZonedDateTime<D>, D extends java.time.chrono.ChronoLocalDate>
-extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.ChronoZonedDateTime<?>> {
+public abstract interface ChronoZonedDateTimeClassTests<SUT extends java.time.chrono.ChronoZonedDateTime>
+extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT> {
 
     /**
      * <p>

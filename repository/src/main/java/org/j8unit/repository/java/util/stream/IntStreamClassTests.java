@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntStreamClassTests<SUT extends java.util.stream.IntStream>
-extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.lang.Integer, java.util.stream.IntStream> {
+extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
 
     /**
      * <p>

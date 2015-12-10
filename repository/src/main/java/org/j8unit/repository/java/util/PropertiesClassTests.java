@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertiesClassTests<SUT extends java.util.Properties>
-extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Object, java.lang.Object> {
+extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.Properties#Properties() public java.util.Properties()}.

@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends javax.xml.ws.Service.Mode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.Service.Mode> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

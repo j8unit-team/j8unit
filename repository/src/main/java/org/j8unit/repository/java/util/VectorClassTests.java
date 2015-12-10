@@ -30,12 +30,13 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.VectorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VectorClassTests<SUT extends java.util.Vector<E>, E>
-extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
+public abstract interface VectorClassTests<SUT extends java.util.Vector>
+extends org.j8unit.repository.java.util.ListClassTests<SUT>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
+org.j8unit.repository.java.util.AbstractListClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.Vector#Vector() public java.util.Vector()}.
@@ -47,7 +48,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Vector<E> sut = null; // = new Vector();
+        final java.util.Vector<?> sut = null; // = new Vector();
     }
 
     /**
@@ -61,7 +62,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Vector<E> sut = null; // = new Vector(java.util.Collection);
+        final java.util.Vector<?> sut = null; // = new Vector(java.util.Collection);
     }
 
     /**
@@ -74,7 +75,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Vector<E> sut = null; // = new Vector(int);
+        final java.util.Vector<?> sut = null; // = new Vector(int);
     }
 
     /**
@@ -87,7 +88,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Vector<E> sut = null; // = new Vector(int,int);
+        final java.util.Vector<?> sut = null; // = new Vector(int,int);
     }
 
     @Override

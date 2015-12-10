@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongBufferClassTests<SUT extends java.nio.LongBuffer>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.LongBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
     /**
      * <p>

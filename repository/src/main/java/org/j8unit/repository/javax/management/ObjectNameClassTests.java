@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectNameClassTests<SUT extends javax.management.ObjectName>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, javax.management.ObjectName>, org.j8unit.repository.javax.management.QueryExpClassTests<SUT>,
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.javax.management.QueryExpClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

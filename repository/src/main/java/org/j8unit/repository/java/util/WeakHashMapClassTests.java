@@ -30,10 +30,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.WeakHashMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WeakHashMapClassTests<SUT extends java.util.WeakHashMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+public abstract interface WeakHashMapClassTests<SUT extends java.util.WeakHashMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.WeakHashMap#WeakHashMap() public java.util.WeakHashMap()}.
@@ -45,7 +46,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap();
+        final java.util.WeakHashMap<?, ?> sut = null; // = new WeakHashMap();
     }
 
     /**
@@ -58,7 +59,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap(int);
+        final java.util.WeakHashMap<?, ?> sut = null; // = new WeakHashMap(int);
     }
 
     /**
@@ -71,7 +72,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap(int,float);
+        final java.util.WeakHashMap<?, ?> sut = null; // = new WeakHashMap(int,float);
     }
 
     /**
@@ -85,7 +86,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap(java.util.Map);
+        final java.util.WeakHashMap<?, ?> sut = null; // = new WeakHashMap(java.util.Map);
     }
 
     @Override

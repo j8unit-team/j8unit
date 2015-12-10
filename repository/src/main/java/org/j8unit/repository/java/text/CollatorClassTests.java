@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollatorClassTests<SUT extends java.text.Collator>
-extends org.j8unit.repository.java.util.ComparatorClassTests<SUT, java.lang.Object>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+extends org.j8unit.repository.java.util.ComparatorClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

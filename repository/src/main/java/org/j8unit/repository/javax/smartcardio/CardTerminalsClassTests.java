@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateClassTests<SUT extends javax.smartcardio.CardTerminals.State>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.smartcardio.CardTerminals.State> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

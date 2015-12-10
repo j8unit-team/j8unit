@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.CollectionTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CollectionClassTests<SUT extends java.util.Collection<E>, E>
-extends org.j8unit.repository.java.lang.IterableClassTests<SUT, E> {
+public abstract interface CollectionClassTests<SUT extends java.util.Collection>
+extends org.j8unit.repository.java.lang.IterableClassTests<SUT> {
 
     @Override
     @Test

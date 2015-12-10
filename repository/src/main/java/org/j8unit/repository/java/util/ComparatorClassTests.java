@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ComparatorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ComparatorClassTests<SUT extends java.util.Comparator<T>, T>
+public abstract interface ComparatorClassTests<SUT extends java.util.Comparator>
 extends J8UnitTest<Class<SUT>> {
 
     /**

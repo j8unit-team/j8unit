@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LinkedHashMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkedHashMapClassTests<SUT extends java.util.LinkedHashMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.util.HashMapClassTests<SUT, K, V> {
+public abstract interface LinkedHashMapClassTests<SUT extends java.util.LinkedHashMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.util.HashMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.LinkedHashMap#LinkedHashMap() public java.util.LinkedHashMap()}.
@@ -46,7 +47,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap();
+        final java.util.LinkedHashMap<?, ?> sut = null; // = new LinkedHashMap();
     }
 
     /**
@@ -59,7 +60,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(int);
+        final java.util.LinkedHashMap<?, ?> sut = null; // = new LinkedHashMap(int);
     }
 
     /**
@@ -73,7 +74,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(int,float);
+        final java.util.LinkedHashMap<?, ?> sut = null; // = new LinkedHashMap(int,float);
     }
 
     /**
@@ -87,7 +88,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(int,float,boolean);
+        final java.util.LinkedHashMap<?, ?> sut = null; // = new LinkedHashMap(int,float,boolean);
     }
 
     /**
@@ -101,7 +102,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(java.util.Map);
+        final java.util.LinkedHashMap<?, ?> sut = null; // = new LinkedHashMap(java.util.Map);
     }
 
     @Override

@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentLinkedQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConcurrentLinkedQueueClassTests<SUT extends java.util.concurrent.ConcurrentLinkedQueue<E>, E>
-extends org.j8unit.repository.java.util.QueueClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface ConcurrentLinkedQueueClassTests<SUT extends java.util.concurrent.ConcurrentLinkedQueue>
+extends org.j8unit.repository.java.util.QueueClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.ConcurrentLinkedQueue#ConcurrentLinkedQueue() public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentLinkedQueue<E> sut = null; // = new ConcurrentLinkedQueue();
+        final java.util.concurrent.ConcurrentLinkedQueue<?> sut = null; // = new ConcurrentLinkedQueue();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentLinkedQueue<E> sut = null; // = new
+        final java.util.concurrent.ConcurrentLinkedQueue<?> sut = null; // = new
                                                                         // ConcurrentLinkedQueue(java.util.Collection);
     }
 

@@ -32,10 +32,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CompletableFutureTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompletableFutureClassTests<SUT extends java.util.concurrent.CompletableFuture<T>, T>
-extends org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT, T>, org.j8unit.repository.java.util.concurrent.CompletionStageClassTests<SUT, T>,
+public abstract interface CompletableFutureClassTests<SUT extends java.util.concurrent.CompletableFuture>
+extends org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT>, org.j8unit.repository.java.util.concurrent.CompletionStageClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -91,7 +92,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.CompletableFuture<T> sut = null; // = new CompletableFuture();
+        final java.util.concurrent.CompletableFuture<?> sut = null; // = new CompletableFuture();
     }
 
     /**

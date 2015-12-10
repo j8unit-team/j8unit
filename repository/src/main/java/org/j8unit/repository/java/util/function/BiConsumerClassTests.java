@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.BiConsumerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BiConsumerClassTests<SUT extends java.util.function.BiConsumer<T, U>, T, U>
+public abstract interface BiConsumerClassTests<SUT extends java.util.function.BiConsumer>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

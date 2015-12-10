@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.BlockingDequeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BlockingDequeClassTests<SUT extends java.util.concurrent.BlockingDeque<E>, E>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, E>, org.j8unit.repository.java.util.DequeClassTests<SUT, E> {
+public abstract interface BlockingDequeClassTests<SUT extends java.util.concurrent.BlockingDeque>
+extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT>, org.j8unit.repository.java.util.DequeClassTests<SUT> {
 
     @Override
     @Test

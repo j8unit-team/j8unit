@@ -30,10 +30,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.StackTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StackClassTests<SUT extends java.util.Stack<E>, E>
-extends org.j8unit.repository.java.util.VectorClassTests<SUT, E> {
+public abstract interface StackClassTests<SUT extends java.util.Stack>
+extends org.j8unit.repository.java.util.VectorClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.Stack#Stack() public java.util.Stack()}.
@@ -45,7 +46,7 @@ extends org.j8unit.repository.java.util.VectorClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Stack<E> sut = null; // = new Stack();
+        final java.util.Stack<?> sut = null; // = new Stack();
     }
 
     @Override

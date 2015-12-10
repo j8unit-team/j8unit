@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.WatchEventTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WatchEventClassTests<SUT extends java.nio.file.WatchEvent<T>, T>
+public abstract interface WatchEventClassTests<SUT extends java.nio.file.WatchEvent>
 extends J8UnitTest<Class<SUT>> {
 
     /**
@@ -60,9 +61,10 @@ extends J8UnitTest<Class<SUT>> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.WatchEventTests.KindTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KindClassTests<SUT extends java.nio.file.WatchEvent.Kind<T>, T>
+    public static abstract interface KindClassTests<SUT extends java.nio.file.WatchEvent.Kind>
     extends J8UnitTest<Class<SUT>> {
 
         @Test

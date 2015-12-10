@@ -28,10 +28,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.QueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface QueueClassTests<SUT extends java.util.Queue<E>, E>
-extends org.j8unit.repository.java.util.CollectionClassTests<SUT, E> {
+public abstract interface QueueClassTests<SUT extends java.util.Queue>
+extends org.j8unit.repository.java.util.CollectionClassTests<SUT> {
 
     @Override
     @Test

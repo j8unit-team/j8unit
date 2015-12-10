@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.LinkedTransferQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkedTransferQueueClassTests<SUT extends java.util.concurrent.LinkedTransferQueue<E>, E>
-extends org.j8unit.repository.java.util.concurrent.TransferQueueClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface LinkedTransferQueueClassTests<SUT extends java.util.concurrent.LinkedTransferQueue>
+extends org.j8unit.repository.java.util.concurrent.TransferQueueClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.LinkedTransferQueue#LinkedTransferQueue() public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.LinkedTransferQueue<E> sut = null; // = new LinkedTransferQueue();
+        final java.util.concurrent.LinkedTransferQueue<?> sut = null; // = new LinkedTransferQueue();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.LinkedTransferQueue<E> sut = null; // = new
+        final java.util.concurrent.LinkedTransferQueue<?> sut = null; // = new
                                                                       // LinkedTransferQueue(java.util.Collection);
     }
 

@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.DelayQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DelayQueueClassTests<SUT extends java.util.concurrent.DelayQueue<E>, E extends java.util.concurrent.Delayed>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, E>, org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface DelayQueueClassTests<SUT extends java.util.concurrent.DelayQueue>
+extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT>, org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.DelayQueue#DelayQueue() public java.util.concurrent.DelayQueue()}.
@@ -46,7 +47,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.DelayQueue<E> sut = null; // = new DelayQueue();
+        final java.util.concurrent.DelayQueue<?> sut = null; // = new DelayQueue();
     }
 
     /**
@@ -60,7 +61,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.DelayQueue<E> sut = null; // = new DelayQueue(java.util.Collection);
+        final java.util.concurrent.DelayQueue<?> sut = null; // = new DelayQueue(java.util.Collection);
     }
 
     @Override

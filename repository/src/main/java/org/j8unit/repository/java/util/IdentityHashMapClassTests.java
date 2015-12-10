@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IdentityHashMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IdentityHashMapClassTests<SUT extends java.util.IdentityHashMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+public abstract interface IdentityHashMapClassTests<SUT extends java.util.IdentityHashMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.IdentityHashMap#IdentityHashMap() public java.util.IdentityHashMap()}.
@@ -47,7 +48,7 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.IdentityHashMap<K, V> sut = null; // = new IdentityHashMap();
+        final java.util.IdentityHashMap<?, ?> sut = null; // = new IdentityHashMap();
     }
 
     /**
@@ -60,7 +61,7 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.IdentityHashMap<K, V> sut = null; // = new IdentityHashMap(int);
+        final java.util.IdentityHashMap<?, ?> sut = null; // = new IdentityHashMap(int);
     }
 
     /**
@@ -74,7 +75,7 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.IdentityHashMap<K, V> sut = null; // = new IdentityHashMap(java.util.Map);
+        final java.util.IdentityHashMap<?, ?> sut = null; // = new IdentityHashMap(java.util.Map);
     }
 
     @Override

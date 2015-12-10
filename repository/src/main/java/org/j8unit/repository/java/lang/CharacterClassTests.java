@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterClassTests<SUT extends java.lang.Character>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Character>,
+extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -196,7 +196,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeScriptClassTests<SUT extends java.lang.Character.UnicodeScript>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.lang.Character.UnicodeScript> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

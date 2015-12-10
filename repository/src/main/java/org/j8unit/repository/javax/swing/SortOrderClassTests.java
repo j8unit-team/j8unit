@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SortOrderClassTests<SUT extends javax.swing.SortOrder>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SortOrder> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

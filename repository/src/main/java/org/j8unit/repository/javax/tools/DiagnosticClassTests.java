@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DiagnosticTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DiagnosticClassTests<SUT extends javax.tools.Diagnostic<S>, S>
+public abstract interface DiagnosticClassTests<SUT extends javax.tools.Diagnostic>
 extends J8UnitTest<Class<SUT>> {
 
     /**
@@ -65,7 +66,7 @@ extends J8UnitTest<Class<SUT>> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KindClassTests<SUT extends javax.tools.Diagnostic.Kind>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.Diagnostic.Kind> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

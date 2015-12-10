@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.SocketOptionTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SocketOptionClassTests<SUT extends java.net.SocketOption<T>, T>
+public abstract interface SocketOptionClassTests<SUT extends java.net.SocketOption>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

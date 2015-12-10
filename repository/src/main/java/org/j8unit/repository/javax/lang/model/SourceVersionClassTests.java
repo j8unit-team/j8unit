@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SourceVersionClassTests<SUT extends javax.lang.model.SourceVersion>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.SourceVersion> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

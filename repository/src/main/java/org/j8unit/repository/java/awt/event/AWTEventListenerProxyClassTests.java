@@ -34,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AWTEventListenerProxyClassTests<SUT extends java.awt.event.AWTEventListenerProxy>
-extends org.j8unit.repository.java.awt.event.AWTEventListenerClassTests<SUT>,
-org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT, java.awt.event.AWTEventListener> {
+extends org.j8unit.repository.java.awt.event.AWTEventListenerClassTests<SUT>, org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT> {
 
     /**
      * Test method for

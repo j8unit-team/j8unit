@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface MonthDayClassTests<SUT extends java.time.MonthDay>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.MonthDay>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

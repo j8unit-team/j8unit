@@ -30,12 +30,13 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LinkedListTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkedListClassTests<SUT extends java.util.LinkedList<E>, E>
-extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.DequeClassTests<SUT, E>,
+public abstract interface LinkedListClassTests<SUT extends java.util.LinkedList>
+extends org.j8unit.repository.java.util.ListClassTests<SUT>, org.j8unit.repository.java.util.DequeClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractSequentialListClassTests<SUT, E> {
+org.j8unit.repository.java.util.AbstractSequentialListClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.LinkedList#LinkedList() public java.util.LinkedList()}.
@@ -47,7 +48,7 @@ org.j8unit.repository.java.util.AbstractSequentialListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedList<E> sut = null; // = new LinkedList();
+        final java.util.LinkedList<?> sut = null; // = new LinkedList();
     }
 
     /**
@@ -61,7 +62,7 @@ org.j8unit.repository.java.util.AbstractSequentialListClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedList<E> sut = null; // = new LinkedList(java.util.Collection);
+        final java.util.LinkedList<?> sut = null; // = new LinkedList(java.util.Collection);
     }
 
     @Override

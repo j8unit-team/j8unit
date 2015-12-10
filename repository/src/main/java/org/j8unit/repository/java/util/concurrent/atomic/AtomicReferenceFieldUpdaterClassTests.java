@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceFieldUpdaterTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AtomicReferenceFieldUpdaterClassTests<SUT extends java.util.concurrent.atomic.AtomicReferenceFieldUpdater<T, V>, T, V>
+public abstract interface AtomicReferenceFieldUpdaterClassTests<SUT extends java.util.concurrent.atomic.AtomicReferenceFieldUpdater>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OptionClassTests<SUT extends java.security.cert.PKIXRevocationChecker.Option>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.PKIXRevocationChecker.Option> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

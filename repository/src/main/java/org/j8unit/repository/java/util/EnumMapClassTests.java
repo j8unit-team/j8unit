@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EnumMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumMapClassTests<SUT extends java.util.EnumMap<K, V>, K extends java.lang.Enum<K>, V>
+public abstract interface EnumMapClassTests<SUT extends java.util.EnumMap>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.EnumMap#EnumMap(java.lang.Class) public java.util.EnumMap(java.lang.Class)}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.EnumMap<K, V> sut = null; // = new EnumMap(java.lang.Class);
+        final java.util.EnumMap<?, ?> sut = null; // = new EnumMap(java.lang.Class);
     }
 
     /**
@@ -59,7 +60,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.EnumMap<K, V> sut = null; // = new EnumMap(java.util.EnumMap);
+        final java.util.EnumMap<?, ?> sut = null; // = new EnumMap(java.util.EnumMap);
     }
 
     /**
@@ -72,7 +73,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.EnumMap<K, V> sut = null; // = new EnumMap(java.util.Map);
+        final java.util.EnumMap<?, ?> sut = null; // = new EnumMap(java.util.Map);
     }
 
     @Override

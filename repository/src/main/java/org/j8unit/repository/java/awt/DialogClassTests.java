@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalExclusionTypeClassTests<SUT extends java.awt.Dialog.ModalExclusionType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Dialog.ModalExclusionType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalityTypeClassTests<SUT extends java.awt.Dialog.ModalityType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Dialog.ModalityType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

@@ -34,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VetoableChangeListenerProxyClassTests<SUT extends java.beans.VetoableChangeListenerProxy>
-extends org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>,
-org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT, java.beans.VetoableChangeListener> {
+extends org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>, org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT> {
 
     /**
      * Test method for

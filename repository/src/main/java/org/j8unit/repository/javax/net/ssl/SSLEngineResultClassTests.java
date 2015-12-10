@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HandshakeStatusClassTests<SUT extends javax.net.ssl.SSLEngineResult.HandshakeStatus>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.HandshakeStatus> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>
@@ -140,7 +140,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StatusClassTests<SUT extends javax.net.ssl.SSLEngineResult.Status>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.Status> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

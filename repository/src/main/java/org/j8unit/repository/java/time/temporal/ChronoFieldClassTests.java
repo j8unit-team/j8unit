@@ -34,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronoFieldClassTests<SUT extends java.time.temporal.ChronoField>
-extends org.j8unit.repository.java.time.temporal.TemporalFieldClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.temporal.ChronoField> {
+extends org.j8unit.repository.java.time.temporal.TemporalFieldClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

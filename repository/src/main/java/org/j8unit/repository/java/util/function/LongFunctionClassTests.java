@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.LongFunctionTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LongFunctionClassTests<SUT extends java.util.function.LongFunction<R>, R>
+public abstract interface LongFunctionClassTests<SUT extends java.util.function.LongFunction>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

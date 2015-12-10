@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EventListenerProxyTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EventListenerProxyClassTests<SUT extends java.util.EventListenerProxy<T>, T extends java.util.EventListener>
+public abstract interface EventListenerProxyClassTests<SUT extends java.util.EventListenerProxy>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT>, org.j8unit
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.EventListenerProxy<T> sut = null; // = new EventListenerProxy(java.util.EventListener);
+        final java.util.EventListenerProxy<?> sut = null; // = new EventListenerProxy(java.util.EventListener);
     }
 
     @Override

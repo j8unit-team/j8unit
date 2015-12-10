@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HijrahEraClassTests<SUT extends java.time.chrono.HijrahEra>
-extends org.j8unit.repository.java.time.chrono.EraClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.chrono.HijrahEra> {
+extends org.j8unit.repository.java.time.chrono.EraClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.SupplierTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SupplierClassTests<SUT extends java.util.function.Supplier<T>, T>
+public abstract interface SupplierClassTests<SUT extends java.util.function.Supplier>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

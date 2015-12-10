@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FloatClassTests<SUT extends java.lang.Float>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Float>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
      * Test method for {@link java.lang.Float#Float(double) public java.lang.Float(double)}.

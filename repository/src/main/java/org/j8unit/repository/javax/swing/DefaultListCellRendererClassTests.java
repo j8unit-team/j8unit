@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultListCellRendererClassTests<SUT extends javax.swing.DefaultListCellRenderer>
-extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT, java.lang.Object>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
 
     /**

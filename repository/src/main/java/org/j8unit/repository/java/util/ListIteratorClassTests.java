@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ListIteratorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ListIteratorClassTests<SUT extends java.util.ListIterator<E>, E>
-extends org.j8unit.repository.java.util.IteratorClassTests<SUT, E> {
+public abstract interface ListIteratorClassTests<SUT extends java.util.ListIterator>
+extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
 
     @Override
     @Test

@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ScheduledFutureTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ScheduledFutureClassTests<SUT extends java.util.concurrent.ScheduledFuture<V>, V>
-extends org.j8unit.repository.java.util.concurrent.DelayedClassTests<SUT>, org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT, V> {
+public abstract interface ScheduledFutureClassTests<SUT extends java.util.concurrent.ScheduledFuture>
+extends org.j8unit.repository.java.util.concurrent.DelayedClassTests<SUT>, org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT> {
 
     @Override
     @Test

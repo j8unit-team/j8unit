@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlAccessTypeClassTests<SUT extends javax.xml.bind.annotation.XmlAccessType>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annotation.XmlAccessType> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

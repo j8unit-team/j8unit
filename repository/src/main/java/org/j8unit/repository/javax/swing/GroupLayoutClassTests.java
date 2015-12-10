@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AlignmentClassTests<SUT extends javax.swing.GroupLayout.Alignment>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.GroupLayout.Alignment> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

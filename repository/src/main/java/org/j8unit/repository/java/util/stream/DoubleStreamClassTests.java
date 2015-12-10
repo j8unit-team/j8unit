@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleStreamClassTests<SUT extends java.util.stream.DoubleStream>
-extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.lang.Double, java.util.stream.DoubleStream> {
+extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
 
     /**
      * <p>

@@ -29,9 +29,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.nimbus.StateTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StateClassTests<SUT extends javax.swing.plaf.nimbus.State<T>, T extends javax.swing.JComponent>
+public abstract interface StateClassTests<SUT extends javax.swing.plaf.nimbus.State>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override

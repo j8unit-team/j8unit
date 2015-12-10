@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentLinkedDequeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConcurrentLinkedDequeClassTests<SUT extends java.util.concurrent.ConcurrentLinkedDeque<E>, E>
-extends org.j8unit.repository.java.util.DequeClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT, E> {
+public abstract interface ConcurrentLinkedDequeClassTests<SUT extends java.util.concurrent.ConcurrentLinkedDeque>
+extends org.j8unit.repository.java.util.DequeClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.ConcurrentLinkedDeque#ConcurrentLinkedDeque() public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentLinkedDeque<E> sut = null; // = new ConcurrentLinkedDeque();
+        final java.util.concurrent.ConcurrentLinkedDeque<?> sut = null; // = new ConcurrentLinkedDeque();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentLinkedDeque<E> sut = null; // = new
+        final java.util.concurrent.ConcurrentLinkedDeque<?> sut = null; // = new
                                                                         // ConcurrentLinkedDeque(java.util.Collection);
     }
 

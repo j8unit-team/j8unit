@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ref.ReferenceQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ReferenceQueueClassTests<SUT extends java.lang.ref.ReferenceQueue<T>, T>
+public abstract interface ReferenceQueueClassTests<SUT extends java.lang.ref.ReferenceQueue>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -46,7 +47,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.ref.ReferenceQueue<T> sut = null; // = new ReferenceQueue();
+        final java.lang.ref.ReferenceQueue<?> sut = null; // = new ReferenceQueue();
     }
 
     @Override

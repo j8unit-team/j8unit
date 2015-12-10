@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.ElementScanner6Tests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ElementScanner6ClassTests<SUT extends javax.lang.model.util.ElementScanner6<R, P>, R, P>
-extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6ClassTests<SUT, R, P> {
+public abstract interface ElementScanner6ClassTests<SUT extends javax.lang.model.util.ElementScanner6>
+extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6ClassTests<SUT> {
 
     @Override
     @Test

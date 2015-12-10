@@ -64,7 +64,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BaselineResizeBehaviorClassTests<SUT extends java.awt.Component.BaselineResizeBehavior>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Component.BaselineResizeBehavior> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

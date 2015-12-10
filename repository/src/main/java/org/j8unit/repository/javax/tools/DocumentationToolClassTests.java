@@ -65,7 +65,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DocumentationTaskClassTests<SUT extends javax.tools.DocumentationTool.DocumentationTask>
-    extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT, java.lang.Boolean> {
+    extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT> {
 
         @Override
         @Test
@@ -107,8 +107,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LocationClassTests<SUT extends javax.tools.DocumentationTool.Location>
-    extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>,
-    org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.DocumentationTool.Location> {
+    extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

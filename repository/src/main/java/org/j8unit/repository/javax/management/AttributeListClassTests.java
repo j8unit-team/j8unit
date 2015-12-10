@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeListClassTests<SUT extends javax.management.AttributeList>
-extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {
+extends org.j8unit.repository.java.util.ArrayListClassTests<SUT> {
 
     /**
      * Test method for {@link javax.management.AttributeList#AttributeList() public javax.management.AttributeList()}.

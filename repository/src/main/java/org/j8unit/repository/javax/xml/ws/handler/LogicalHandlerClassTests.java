@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.handler.LogicalHandlerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LogicalHandlerClassTests<SUT extends javax.xml.ws.handler.LogicalHandler<C>, C extends javax.xml.ws.handler.LogicalMessageContext>
-extends org.j8unit.repository.javax.xml.ws.handler.HandlerClassTests<SUT, C> {
+public abstract interface LogicalHandlerClassTests<SUT extends javax.xml.ws.handler.LogicalHandler>
+extends org.j8unit.repository.javax.xml.ws.handler.HandlerClassTests<SUT> {
 
     @Override
     @Test

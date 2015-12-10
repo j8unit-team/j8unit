@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PseudoColumnUsageClassTests<SUT extends java.sql.PseudoColumnUsage>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.sql.PseudoColumnUsage> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

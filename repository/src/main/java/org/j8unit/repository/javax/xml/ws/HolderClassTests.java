@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.HolderTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HolderClassTests<SUT extends javax.xml.ws.Holder<T>, T>
+public abstract interface HolderClassTests<SUT extends javax.xml.ws.Holder>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -45,7 +46,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.ws.Holder<T> sut = null; // = new Holder();
+        final javax.xml.ws.Holder<?> sut = null; // = new Holder();
     }
 
     /**
@@ -59,7 +60,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.ws.Holder<T> sut = null; // = new Holder(java.lang.Object);
+        final javax.xml.ws.Holder<?> sut = null; // = new Holder(java.lang.Object);
     }
 
     @Override

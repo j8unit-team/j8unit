@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.HashSetTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HashSetClassTests<SUT extends java.util.HashSet<E>, E>
-extends org.j8unit.repository.java.util.SetClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
+public abstract interface HashSetClassTests<SUT extends java.util.HashSet>
+extends org.j8unit.repository.java.util.SetClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.HashSet#HashSet() public java.util.HashSet()}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashSet<E> sut = null; // = new HashSet();
+        final java.util.HashSet<?> sut = null; // = new HashSet();
     }
 
     /**
@@ -60,7 +61,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashSet<E> sut = null; // = new HashSet(java.util.Collection);
+        final java.util.HashSet<?> sut = null; // = new HashSet(java.util.Collection);
     }
 
     /**
@@ -73,7 +74,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashSet<E> sut = null; // = new HashSet(int);
+        final java.util.HashSet<?> sut = null; // = new HashSet(int);
     }
 
     /**
@@ -86,7 +87,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashSet<E> sut = null; // = new HashSet(int,float);
+        final java.util.HashSet<?> sut = null; // = new HashSet(int,float);
     }
 
     @Override

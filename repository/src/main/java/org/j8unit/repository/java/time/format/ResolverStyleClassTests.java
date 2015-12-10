@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResolverStyleClassTests<SUT extends java.time.format.ResolverStyle>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.format.ResolverStyle> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

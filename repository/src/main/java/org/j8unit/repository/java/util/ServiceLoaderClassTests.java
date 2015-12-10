@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ServiceLoaderTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServiceLoaderClassTests<SUT extends java.util.ServiceLoader<S>, S>
-extends org.j8unit.repository.java.lang.IterableClassTests<SUT, S>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface ServiceLoaderClassTests<SUT extends java.util.ServiceLoader>
+extends org.j8unit.repository.java.lang.IterableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>

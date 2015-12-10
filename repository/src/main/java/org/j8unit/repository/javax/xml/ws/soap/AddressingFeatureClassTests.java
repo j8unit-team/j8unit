@@ -65,7 +65,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ResponsesClassTests<SUT extends javax.xml.ws.soap.AddressingFeature.Responses>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.soap.AddressingFeature.Responses> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

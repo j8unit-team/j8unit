@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CompletionServiceTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompletionServiceClassTests<SUT extends java.util.concurrent.CompletionService<V>, V>
+public abstract interface CompletionServiceClassTests<SUT extends java.util.concurrent.CompletionService>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

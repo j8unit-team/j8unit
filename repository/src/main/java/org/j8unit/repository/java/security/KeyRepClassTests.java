@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends java.security.KeyRep.Type>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.KeyRep.Type> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

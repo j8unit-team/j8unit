@@ -6,12 +6,26 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.lang.reflect.TypeVariable;
 import java.util.Arrays;
+import java.util.EnumMap;
 
 public enum GeneratorUtil {
     ;
 
     public static final String getClassNameWithTypeVariableNames(final Class<?> clazz, final Membership membership) {
         final String tpUsage = stream(clazz.getTypeParameters()).map(TypeVariable::getName).collect(joining(","));
+        final String name = GeneratorSetup.getClassName(clazz) + (tpUsage.isEmpty() ? "" : "<" + tpUsage + ">");
+        switch (membership) {
+            case CLASS:
+                return "Class<? extends " + name + ">";
+            case INSTANCE:
+                return name;
+        }
+        assert false;
+        return name;
+    }
+
+    public static final String getClassNameWithUUnboundTypeVariableNames(final Class<?> clazz, final Membership membership) {
+        final String tpUsage = stream(clazz.getTypeParameters()).map(t -> "?").collect(joining(","));
         final String name = GeneratorSetup.getClassName(clazz) + (tpUsage.isEmpty() ? "" : "<" + tpUsage + ">");
         switch (membership) {
             case CLASS:
@@ -35,6 +49,11 @@ public enum GeneratorUtil {
 
     static String createTypeParametersStatement2(final Class<?> clazz) {
         return stream(clazz.getTypeParameters()).map(TypeVariable::toString).collect(joining(", "));
+    }
+
+    public static void main(final String[] args) {
+        System.out.println(createTypeParametersUsage(EnumMap.class));
+        System.out.println(createTypeParametersStatement2(EnumMap.class));
     }
 
     static String createTypeParametersStatement(final Class<?> clazz) {

@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LinkedHashSetTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkedHashSetClassTests<SUT extends java.util.LinkedHashSet<E>, E>
-extends org.j8unit.repository.java.util.SetClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.HashSetClassTests<SUT, E> {
+public abstract interface LinkedHashSetClassTests<SUT extends java.util.LinkedHashSet>
+extends org.j8unit.repository.java.util.SetClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.HashSetClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.LinkedHashSet#LinkedHashSet() public java.util.LinkedHashSet()}.
@@ -47,7 +48,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet();
+        final java.util.LinkedHashSet<?> sut = null; // = new LinkedHashSet();
     }
 
     /**
@@ -61,7 +62,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet(java.util.Collection);
+        final java.util.LinkedHashSet<?> sut = null; // = new LinkedHashSet(java.util.Collection);
     }
 
     /**
@@ -74,7 +75,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet(int);
+        final java.util.LinkedHashSet<?> sut = null; // = new LinkedHashSet(int);
     }
 
     /**
@@ -88,7 +89,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet(int,float);
+        final java.util.LinkedHashSet<?> sut = null; // = new LinkedHashSet(int,float);
     }
 
     @Override

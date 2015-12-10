@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends javax.jws.WebParam.Mode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.WebParam.Mode> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

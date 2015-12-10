@@ -32,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BindingsClassTests<SUT extends javax.script.Bindings>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.String, java.lang.Object> {
+extends org.j8unit.repository.java.util.MapClassTests<SUT> {
 
     @Override
     @Test

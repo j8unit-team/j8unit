@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DomHandlerClassTests<SUT extends javax.xml.bind.annotation.DomHandler<ElementT, ResultT>, ElementT, ResultT extends javax.xml.transform.Result>
+public abstract interface DomHandlerClassTests<SUT extends javax.xml.bind.annotation.DomHandler>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TimeDefinitionClassTests<SUT extends java.time.zone.ZoneOffsetTransitionRule.TimeDefinition>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

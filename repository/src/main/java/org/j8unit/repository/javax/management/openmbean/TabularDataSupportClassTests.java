@@ -34,9 +34,9 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TabularDataSupportClassTests<SUT extends javax.management.openmbean.TabularDataSupport>
-extends org.j8unit.repository.javax.management.openmbean.TabularDataClassTests<SUT>,
-org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, java.lang.Object>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends org.j8unit.repository.javax.management.openmbean.TabularDataClassTests<SUT>, org.j8unit.repository.java.util.MapClassTests<SUT>,
+org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for

@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ExchangerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExchangerClassTests<SUT extends java.util.concurrent.Exchanger<V>, V>
+public abstract interface ExchangerClassTests<SUT extends java.util.concurrent.Exchanger>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -46,7 +47,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.Exchanger<V> sut = null; // = new Exchanger();
+        final java.util.concurrent.Exchanger<?> sut = null; // = new Exchanger();
     }
 
     @Override

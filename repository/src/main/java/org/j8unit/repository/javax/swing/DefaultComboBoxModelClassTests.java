@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultComboBoxModelTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultComboBoxModelClassTests<SUT extends javax.swing.DefaultComboBoxModel<E>, E>
-extends org.j8unit.repository.javax.swing.MutableComboBoxModelClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
+public abstract interface DefaultComboBoxModelClassTests<SUT extends javax.swing.DefaultComboBoxModel>
+extends org.j8unit.repository.javax.swing.MutableComboBoxModelClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT> {
 
     /**
      * Test method for {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel() public
@@ -48,7 +49,7 @@ org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel();
+        final javax.swing.DefaultComboBoxModel<?> sut = null; // = new DefaultComboBoxModel();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel(java.lang.Object[]);
+        final javax.swing.DefaultComboBoxModel<?> sut = null; // = new DefaultComboBoxModel(java.lang.Object[]);
     }
 
     /**
@@ -76,7 +77,7 @@ org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel(java.util.Vector);
+        final javax.swing.DefaultComboBoxModel<?> sut = null; // = new DefaultComboBoxModel(java.util.Vector);
     }
 
     @Override

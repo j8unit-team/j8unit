@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.JAXBElementTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JAXBElementClassTests<SUT extends javax.xml.bind.JAXBElement<T>, T>
+public abstract interface JAXBElementClassTests<SUT extends javax.xml.bind.JAXBElement>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -104,7 +105,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.bind.JAXBElement<T> sut = null; // = new
+        final javax.xml.bind.JAXBElement<?> sut = null; // = new
                                                         // JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object);
     }
 
@@ -120,7 +121,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.bind.JAXBElement<T> sut = null; // = new
+        final javax.xml.bind.JAXBElement<?> sut = null; // = new
                                                         // JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object);
     }
 

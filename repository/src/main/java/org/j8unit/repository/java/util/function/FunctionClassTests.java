@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.FunctionTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FunctionClassTests<SUT extends java.util.function.Function<T, R>, T, R>
+public abstract interface FunctionClassTests<SUT extends java.util.function.Function>
 extends J8UnitTest<Class<SUT>> {
 
     /**

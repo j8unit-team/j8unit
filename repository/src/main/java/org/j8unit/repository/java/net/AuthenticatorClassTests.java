@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RequestorTypeClassTests<SUT extends java.net.Authenticator.RequestorType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.net.Authenticator.RequestorType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

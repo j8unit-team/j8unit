@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConcurrentSkipListMapClassTests<SUT extends java.util.concurrent.ConcurrentSkipListMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.concurrent.ConcurrentNavigableMapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+public abstract interface ConcurrentSkipListMapClassTests<SUT extends java.util.concurrent.ConcurrentSkipListMap>
+extends org.j8unit.repository.java.util.concurrent.ConcurrentNavigableMapClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap() public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new ConcurrentSkipListMap();
+        final java.util.concurrent.ConcurrentSkipListMap<?, ?> sut = null; // = new ConcurrentSkipListMap();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new
+        final java.util.concurrent.ConcurrentSkipListMap<?, ?> sut = null; // = new
                                                                            // ConcurrentSkipListMap(java.util.Comparator);
     }
 
@@ -77,7 +78,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new
+        final java.util.concurrent.ConcurrentSkipListMap<?, ?> sut = null; // = new
                                                                            // ConcurrentSkipListMap(java.util.Map);
     }
 
@@ -92,7 +93,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new
+        final java.util.concurrent.ConcurrentSkipListMap<?, ?> sut = null; // = new
                                                                            // ConcurrentSkipListMap(java.util.SortedMap);
     }
 

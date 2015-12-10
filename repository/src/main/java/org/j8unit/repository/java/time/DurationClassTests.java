@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DurationClassTests<SUT extends java.time.Duration>
-extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.Duration>,
+extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

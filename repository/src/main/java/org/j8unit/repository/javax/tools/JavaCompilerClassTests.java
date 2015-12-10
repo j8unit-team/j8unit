@@ -63,7 +63,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CompilationTaskClassTests<SUT extends javax.tools.JavaCompiler.CompilationTask>
-    extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT, java.lang.Boolean> {
+    extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT> {
 
         @Override
         @Test

@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AnnotationValueVisitorClassTests<SUT extends javax.lang.model.element.AnnotationValueVisitor<R, P>, R, P>
+public abstract interface AnnotationValueVisitorClassTests<SUT extends javax.lang.model.element.AnnotationValueVisitor>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MessageContextClassTests<SUT extends javax.xml.ws.handler.MessageContext>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.String, java.lang.Object> {
+extends org.j8unit.repository.java.util.MapClassTests<SUT> {
 
     /**
      * <p>
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.String, jav
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScopeClassTests<SUT extends javax.xml.ws.handler.MessageContext.Scope>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.handler.MessageContext.Scope> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

@@ -32,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractRegionPainterClassTests<SUT extends javax.swing.plaf.nimbus.AbstractRegionPainter>
-extends org.j8unit.repository.javax.swing.PainterClassTests<SUT, javax.swing.JComponent>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends org.j8unit.repository.javax.swing.PainterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
     @Test

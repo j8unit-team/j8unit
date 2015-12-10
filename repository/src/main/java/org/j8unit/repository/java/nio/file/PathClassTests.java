@@ -31,8 +31,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PathClassTests<SUT extends java.nio.file.Path>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.file.Path>,
-org.j8unit.repository.java.lang.IterableClassTests<SUT, java.nio.file.Path>, org.j8unit.repository.java.nio.file.WatchableClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.IterableClassTests<SUT>,
+org.j8unit.repository.java.nio.file.WatchableClassTests<SUT> {
 
     @Override
     @Test

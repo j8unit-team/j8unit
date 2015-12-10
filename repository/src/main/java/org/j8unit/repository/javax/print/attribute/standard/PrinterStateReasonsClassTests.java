@@ -35,8 +35,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterStateReasonsClassTests<SUT extends javax.print.attribute.standard.PrinterStateReasons>
-extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests<SUT>,
-org.j8unit.repository.java.util.HashMapClassTests<SUT, javax.print.attribute.standard.PrinterStateReason, javax.print.attribute.standard.Severity> {
+extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests<SUT>, org.j8unit.repository.java.util.HashMapClassTests<SUT> {
 
     /**
      * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons() public

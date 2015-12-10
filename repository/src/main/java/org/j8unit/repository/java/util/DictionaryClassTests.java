@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.DictionaryTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DictionaryClassTests<SUT extends java.util.Dictionary<K, V>, K, V>
+public abstract interface DictionaryClassTests<SUT extends java.util.Dictionary>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -45,7 +46,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Dictionary<K, V> sut = null; // = new Dictionary();
+        final java.util.Dictionary<?, ?> sut = null; // = new Dictionary();
     }
 
     @Override

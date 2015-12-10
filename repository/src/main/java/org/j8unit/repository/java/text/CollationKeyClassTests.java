@@ -32,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollationKeyClassTests<SUT extends java.text.CollationKey>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.text.CollationKey>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
     @Test

@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConcurrentMapClassTests<SUT extends java.util.concurrent.ConcurrentMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V> {
+public abstract interface ConcurrentMapClassTests<SUT extends java.util.concurrent.ConcurrentMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT> {
 
     @Override
     @Test

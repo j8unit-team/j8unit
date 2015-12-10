@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShortClassTests<SUT extends java.lang.Short>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Short>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
      * Test method for {@link java.lang.Short#Short(short) public java.lang.Short(short)}.

@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface URIClassTests<SUT extends java.net.URI>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.net.URI>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

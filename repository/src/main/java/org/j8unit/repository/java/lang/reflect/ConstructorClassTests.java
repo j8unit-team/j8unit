@@ -29,9 +29,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ConstructorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConstructorClassTests<SUT extends java.lang.reflect.Constructor<T>, T>
+public abstract interface ConstructorClassTests<SUT extends java.lang.reflect.Constructor>
 extends org.j8unit.repository.java.lang.reflect.ExecutableClassTests<SUT> {
 
     @Override

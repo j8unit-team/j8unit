@@ -32,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DelayedClassTests<SUT extends java.util.concurrent.Delayed>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.concurrent.Delayed> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT> {
 
     @Override
     @Test

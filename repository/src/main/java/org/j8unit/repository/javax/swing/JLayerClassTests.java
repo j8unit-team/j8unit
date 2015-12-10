@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JLayerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JLayerClassTests<SUT extends javax.swing.JLayer<V>, V extends java.awt.Component>
+public abstract interface JLayerClassTests<SUT extends javax.swing.JLayer>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
 org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -46,7 +47,7 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JLayer<V> sut = null; // = new JLayer();
+        final javax.swing.JLayer<?> sut = null; // = new JLayer();
     }
 
     /**
@@ -60,7 +61,7 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JLayer<V> sut = null; // = new JLayer(java.awt.Component);
+        final javax.swing.JLayer<?> sut = null; // = new JLayer(java.awt.Component);
     }
 
     /**
@@ -74,7 +75,7 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JLayer<V> sut = null; // = new JLayer(java.awt.Component,javax.swing.plaf.LayerUI);
+        final javax.swing.JLayer<?> sut = null; // = new JLayer(java.awt.Component,javax.swing.plaf.LayerUI);
     }
 
     @Override

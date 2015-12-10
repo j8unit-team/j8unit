@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RangeClassTests<SUT extends java.awt.font.NumericShaper.Range>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.font.NumericShaper.Range> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

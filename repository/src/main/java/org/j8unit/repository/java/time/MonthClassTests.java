@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface MonthClassTests<SUT extends java.time.Month>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.Month> {
+org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

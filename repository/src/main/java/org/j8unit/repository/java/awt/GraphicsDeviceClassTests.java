@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface WindowTranslucencyClassTests<SUT extends java.awt.GraphicsDevice.WindowTranslucency>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.GraphicsDevice.WindowTranslucency> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

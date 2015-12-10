@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DiagnosticCollectorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DiagnosticCollectorClassTests<SUT extends javax.tools.DiagnosticCollector<S>, S>
-extends org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<SUT, S>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface DiagnosticCollectorClassTests<SUT extends javax.tools.DiagnosticCollector>
+extends org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for {@link javax.tools.DiagnosticCollector#DiagnosticCollector() public
@@ -47,7 +48,7 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<SUT, S>, 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.tools.DiagnosticCollector<S> sut = null; // = new DiagnosticCollector();
+        final javax.tools.DiagnosticCollector<?> sut = null; // = new DiagnosticCollector();
     }
 
     @Override

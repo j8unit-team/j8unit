@@ -28,10 +28,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SortedMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SortedMapClassTests<SUT extends java.util.SortedMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V> {
+public abstract interface SortedMapClassTests<SUT extends java.util.SortedMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT> {
 
     @Override
     @Test

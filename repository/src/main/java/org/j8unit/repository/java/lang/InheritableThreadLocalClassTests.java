@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.InheritableThreadLocalTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InheritableThreadLocalClassTests<SUT extends java.lang.InheritableThreadLocal<T>, T>
-extends org.j8unit.repository.java.lang.ThreadLocalClassTests<SUT, T> {
+public abstract interface InheritableThreadLocalClassTests<SUT extends java.lang.InheritableThreadLocal>
+extends org.j8unit.repository.java.lang.ThreadLocalClassTests<SUT> {
 
     /**
      * Test method for {@link java.lang.InheritableThreadLocal#InheritableThreadLocal() public
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.lang.ThreadLocalClassTests<SUT, T> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.InheritableThreadLocal<T> sut = null; // = new InheritableThreadLocal();
+        final java.lang.InheritableThreadLocal<?> sut = null; // = new InheritableThreadLocal();
     }
 
     @Override

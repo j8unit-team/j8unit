@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.TableRowSorterTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TableRowSorterClassTests<SUT extends javax.swing.table.TableRowSorter<M>, M extends javax.swing.table.TableModel>
-extends org.j8unit.repository.javax.swing.DefaultRowSorterClassTests<SUT, M, java.lang.Integer> {
+public abstract interface TableRowSorterClassTests<SUT extends javax.swing.table.TableRowSorter>
+extends org.j8unit.repository.javax.swing.DefaultRowSorterClassTests<SUT> {
 
     /**
      * Test method for {@link javax.swing.table.TableRowSorter#TableRowSorter() public
@@ -47,7 +48,7 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterClassTests<SUT, M, jav
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.TableRowSorter<M> sut = null; // = new TableRowSorter();
+        final javax.swing.table.TableRowSorter<?> sut = null; // = new TableRowSorter();
     }
 
     /**
@@ -61,7 +62,7 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterClassTests<SUT, M, jav
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.TableRowSorter<M> sut = null; // = new TableRowSorter(javax.swing.table.TableModel);
+        final javax.swing.table.TableRowSorter<?> sut = null; // = new TableRowSorter(javax.swing.table.TableModel);
     }
 
     @Override

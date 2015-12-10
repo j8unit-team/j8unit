@@ -30,10 +30,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor8Tests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractAnnotationValueVisitor8ClassTests<SUT extends javax.lang.model.util.AbstractAnnotationValueVisitor8<R, P>, R, P>
-extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor7ClassTests<SUT, R, P> {
+public abstract interface AbstractAnnotationValueVisitor8ClassTests<SUT extends javax.lang.model.util.AbstractAnnotationValueVisitor8>
+extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor7ClassTests<SUT> {
 
     @Override
     @Test

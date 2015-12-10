@@ -34,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardLocationClassTests<SUT extends javax.tools.StandardLocation>
-extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.StandardLocation> {
+extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

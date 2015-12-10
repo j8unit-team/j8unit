@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BigIntegerClassTests<SUT extends java.math.BigInteger>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigInteger>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
      * Test method for {@link java.math.BigInteger#BigInteger(byte[]) public java.math.BigInteger(byte[])}.

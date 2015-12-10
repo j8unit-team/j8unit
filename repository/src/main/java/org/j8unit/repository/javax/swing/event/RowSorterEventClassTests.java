@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends javax.swing.event.RowSorterEvent.Type>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.event.RowSorterEvent.Type> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

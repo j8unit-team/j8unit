@@ -28,10 +28,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.DequeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DequeClassTests<SUT extends java.util.Deque<E>, E>
-extends org.j8unit.repository.java.util.QueueClassTests<SUT, E> {
+public abstract interface DequeClassTests<SUT extends java.util.Deque>
+extends org.j8unit.repository.java.util.QueueClassTests<SUT> {
 
     @Override
     @Test

@@ -64,7 +64,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KindClassTests<SUT extends javax.tools.JavaFileObject.Kind>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.JavaFileObject.Kind> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

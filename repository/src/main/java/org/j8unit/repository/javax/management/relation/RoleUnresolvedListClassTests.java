@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RoleUnresolvedListClassTests<SUT extends javax.management.relation.RoleUnresolvedList>
-extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {
+extends org.j8unit.repository.java.util.ArrayListClassTests<SUT> {
 
     /**
      * Test method for {@link javax.management.relation.RoleUnresolvedList#RoleUnresolvedList() public

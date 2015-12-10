@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ComboBoxModelTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ComboBoxModelClassTests<SUT extends javax.swing.ComboBoxModel<E>, E>
-extends org.j8unit.repository.javax.swing.ListModelClassTests<SUT, E> {
+public abstract interface ComboBoxModelClassTests<SUT extends javax.swing.ComboBoxModel>
+extends org.j8unit.repository.javax.swing.ListModelClassTests<SUT> {
 
     @Override
     @Test

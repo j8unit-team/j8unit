@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.AbstractListModelTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractListModelClassTests<SUT extends javax.swing.AbstractListModel<E>, E>
-extends org.j8unit.repository.javax.swing.ListModelClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+public abstract interface AbstractListModelClassTests<SUT extends javax.swing.AbstractListModel>
+extends org.j8unit.repository.javax.swing.ListModelClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -47,7 +48,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.AbstractListModel<E> sut = null; // = new AbstractListModel();
+        final javax.swing.AbstractListModel<?> sut = null; // = new AbstractListModel();
     }
 
     @Override

@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.NavigableSetTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NavigableSetClassTests<SUT extends java.util.NavigableSet<E>, E>
-extends org.j8unit.repository.java.util.SortedSetClassTests<SUT, E> {
+public abstract interface NavigableSetClassTests<SUT extends java.util.NavigableSet>
+extends org.j8unit.repository.java.util.SortedSetClassTests<SUT> {
 
     @Override
     @Test

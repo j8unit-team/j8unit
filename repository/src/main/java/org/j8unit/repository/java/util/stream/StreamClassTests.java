@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.StreamTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StreamClassTests<SUT extends java.util.stream.Stream<T>, T>
-extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java.util.stream.Stream<T>> {
+public abstract interface StreamClassTests<SUT extends java.util.stream.Stream>
+extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
 
     /**
      * <p>
@@ -61,10 +62,11 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.StreamTests.BuilderTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BuilderClassTests<SUT extends java.util.stream.Stream.Builder<T>, T>
-    extends org.j8unit.repository.java.util.function.ConsumerClassTests<SUT, T> {
+    public static abstract interface BuilderClassTests<SUT extends java.util.stream.Stream.Builder>
+    extends org.j8unit.repository.java.util.function.ConsumerClassTests<SUT> {
 
         @Override
         @Test

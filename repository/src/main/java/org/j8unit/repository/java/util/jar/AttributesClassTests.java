@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributesClassTests<SUT extends java.util.jar.Attributes>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, java.lang.Object>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

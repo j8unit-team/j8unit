@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleClassTests<SUT extends java.lang.Double>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Double>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
      * Test method for {@link java.lang.Double#Double(double) public java.lang.Double(double)}.

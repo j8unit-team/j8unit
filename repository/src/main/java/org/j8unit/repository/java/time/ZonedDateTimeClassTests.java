@@ -34,9 +34,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZonedDateTimeClassTests<SUT extends java.time.ZonedDateTime>
-extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>,
-org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests<SUT, java.time.LocalDate>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>

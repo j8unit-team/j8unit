@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RetentionPolicyClassTests<SUT extends java.lang.annotation.RetentionPolicy>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.lang.annotation.RetentionPolicy> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

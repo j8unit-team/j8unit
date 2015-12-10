@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SwingWorkerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SwingWorkerClassTests<SUT extends javax.swing.SwingWorker<T, V>, T, V>
-extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface SwingWorkerClassTests<SUT extends javax.swing.SwingWorker>
+extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
@@ -64,7 +65,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateValueClassTests<SUT extends javax.swing.SwingWorker.StateValue>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SwingWorker.StateValue> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>
@@ -120,7 +121,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.SwingWorker<T, V> sut = null; // = new SwingWorker();
+        final javax.swing.SwingWorker<?, ?> sut = null; // = new SwingWorker();
     }
 
     @Override

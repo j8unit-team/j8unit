@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PriorityQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PriorityQueueClassTests<SUT extends java.util.PriorityQueue<E>, E>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface PriorityQueueClassTests<SUT extends java.util.PriorityQueue>
+extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.PriorityQueue#PriorityQueue() public java.util.PriorityQueue()}.
@@ -46,7 +47,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue();
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue();
     }
 
     /**
@@ -60,7 +61,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.Collection);
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue(java.util.Collection);
     }
 
     /**
@@ -74,7 +75,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.Comparator);
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue(java.util.Comparator);
     }
 
     /**
@@ -87,7 +88,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(int);
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue(int);
     }
 
     /**
@@ -101,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(int,java.util.Comparator);
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue(int,java.util.Comparator);
     }
 
     /**
@@ -115,7 +116,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.PriorityQueue);
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue(java.util.PriorityQueue);
     }
 
     /**
@@ -129,7 +130,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.SortedSet);
+        final java.util.PriorityQueue<?> sut = null; // = new PriorityQueue(java.util.SortedSet);
     }
 
     @Override

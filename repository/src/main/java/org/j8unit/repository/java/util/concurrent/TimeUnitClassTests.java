@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimeUnitClassTests<SUT extends java.util.concurrent.TimeUnit>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.concurrent.TimeUnit> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

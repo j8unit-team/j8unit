@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JComboBoxTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JComboBoxClassTests<SUT extends javax.swing.JComboBox<E>, E>
+public abstract interface JComboBoxClassTests<SUT extends javax.swing.JComboBox>
 extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
@@ -90,7 +91,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox();
+        final javax.swing.JComboBox<?> sut = null; // = new JComboBox();
     }
 
     /**
@@ -104,7 +105,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
+        final javax.swing.JComboBox<?> sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
     }
 
     /**
@@ -118,7 +119,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(java.lang.Object[]);
+        final javax.swing.JComboBox<?> sut = null; // = new JComboBox(java.lang.Object[]);
     }
 
     /**
@@ -132,7 +133,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(java.util.Vector);
+        final javax.swing.JComboBox<?> sut = null; // = new JComboBox(java.util.Vector);
     }
 
     @Override

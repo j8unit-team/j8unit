@@ -29,9 +29,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.TypeVariableTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TypeVariableClassTests<SUT extends java.lang.reflect.TypeVariable<D>, D extends java.lang.reflect.GenericDeclaration>
+public abstract interface TypeVariableClassTests<SUT extends java.lang.reflect.TypeVariable>
 extends org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT>, org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<SUT> {
 
     @Override

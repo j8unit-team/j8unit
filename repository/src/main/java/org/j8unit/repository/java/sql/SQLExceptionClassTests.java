@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLExceptionClassTests<SUT extends java.sql.SQLException>
-extends org.j8unit.repository.java.lang.IterableClassTests<SUT, java.lang.Throwable>, org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
+extends org.j8unit.repository.java.lang.IterableClassTests<SUT>, org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
      * Test method for {@link java.sql.SQLException#SQLException() public java.sql.SQLException()}.

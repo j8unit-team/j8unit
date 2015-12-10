@@ -191,10 +191,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractSpliteratorClassTests<SUT extends java.util.Spliterators.AbstractSpliterator<T>, T>
-    extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface AbstractSpliteratorClassTests<SUT extends java.util.Spliterators.AbstractSpliterator>
+    extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
         @Test

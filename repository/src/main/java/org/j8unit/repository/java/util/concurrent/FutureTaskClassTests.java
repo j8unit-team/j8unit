@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.FutureTaskTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FutureTaskClassTests<SUT extends java.util.concurrent.FutureTask<V>, V>
-extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface FutureTaskClassTests<SUT extends java.util.concurrent.FutureTask>
+extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.FutureTask#FutureTask(java.util.concurrent.Callable) public
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.FutureTask<V> sut = null; // = new FutureTask(java.util.concurrent.Callable);
+        final java.util.concurrent.FutureTask<?> sut = null; // = new FutureTask(java.util.concurrent.Callable);
     }
 
     /**
@@ -61,7 +62,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.FutureTask<V> sut = null; // = new FutureTask(java.lang.Runnable,java.lang.Object);
+        final java.util.concurrent.FutureTask<?> sut = null; // = new FutureTask(java.lang.Runnable,java.lang.Object);
     }
 
     @Override

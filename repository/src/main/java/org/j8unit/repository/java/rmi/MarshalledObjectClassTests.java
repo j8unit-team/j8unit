@@ -31,9 +31,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.MarshalledObjectTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MarshalledObjectClassTests<SUT extends java.rmi.MarshalledObject<T>, T>
+public abstract interface MarshalledObjectClassTests<SUT extends java.rmi.MarshalledObject>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.rmi.MarshalledObject<T> sut = null; // = new MarshalledObject(java.lang.Object);
+        final java.rmi.MarshalledObject<?> sut = null; // = new MarshalledObject(java.lang.Object);
     }
 
     @Override

@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayBlockingQueueClassTests<SUT extends java.util.concurrent.ArrayBlockingQueue<E>, E>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface ArrayBlockingQueueClassTests<SUT extends java.util.concurrent.ArrayBlockingQueue>
+extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int) public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ArrayBlockingQueue<E> sut = null; // = new ArrayBlockingQueue(int);
+        final java.util.concurrent.ArrayBlockingQueue<?> sut = null; // = new ArrayBlockingQueue(int);
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ArrayBlockingQueue<E> sut = null; // = new ArrayBlockingQueue(int,boolean);
+        final java.util.concurrent.ArrayBlockingQueue<?> sut = null; // = new ArrayBlockingQueue(int,boolean);
     }
 
     /**
@@ -77,7 +78,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ArrayBlockingQueue<E> sut = null; // = new
+        final java.util.concurrent.ArrayBlockingQueue<?> sut = null; // = new
                                                                      // ArrayBlockingQueue(int,boolean,java.util.Collection);
     }
 

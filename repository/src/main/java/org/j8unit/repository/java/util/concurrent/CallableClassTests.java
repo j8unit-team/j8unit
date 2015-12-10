@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CallableTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CallableClassTests<SUT extends java.util.concurrent.Callable<V>, V>
+public abstract interface CallableClassTests<SUT extends java.util.concurrent.Callable>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DropModeClassTests<SUT extends javax.swing.DropMode>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.DropMode> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

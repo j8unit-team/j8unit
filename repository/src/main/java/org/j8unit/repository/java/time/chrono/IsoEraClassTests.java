@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IsoEraClassTests<SUT extends java.time.chrono.IsoEra>
-extends org.j8unit.repository.java.time.chrono.EraClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.chrono.IsoEra> {
+extends org.j8unit.repository.java.time.chrono.EraClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

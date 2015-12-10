@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BigDecimalClassTests<SUT extends java.math.BigDecimal>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigDecimal>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
      * Test method for {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger) public

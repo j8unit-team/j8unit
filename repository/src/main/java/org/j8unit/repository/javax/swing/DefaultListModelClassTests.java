@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultListModelTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultListModelClassTests<SUT extends javax.swing.DefaultListModel<E>, E>
-extends org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
+public abstract interface DefaultListModelClassTests<SUT extends javax.swing.DefaultListModel>
+extends org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT> {
 
     /**
      * Test method for {@link javax.swing.DefaultListModel#DefaultListModel() public javax.swing.DefaultListModel()}.
@@ -46,7 +47,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultListModel<E> sut = null; // = new DefaultListModel();
+        final javax.swing.DefaultListModel<?> sut = null; // = new DefaultListModel();
     }
 
     @Override

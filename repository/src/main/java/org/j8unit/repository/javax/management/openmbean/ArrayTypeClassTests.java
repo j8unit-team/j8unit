@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.ArrayTypeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayTypeClassTests<SUT extends javax.management.openmbean.ArrayType<T>, T>
-extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT, T> {
+public abstract interface ArrayTypeClassTests<SUT extends javax.management.openmbean.ArrayType>
+extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT> {
 
     /**
      * Test method for {@link javax.management.openmbean.ArrayType#ArrayType(int,javax.management.openmbean.OpenType)
@@ -48,7 +49,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT,
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.openmbean.ArrayType<T> sut = null; // = new
+        final javax.management.openmbean.ArrayType<?> sut = null; // = new
                                                                   // ArrayType(int,javax.management.openmbean.OpenType);
     }
 
@@ -65,7 +66,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT,
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.openmbean.ArrayType<T> sut = null; // = new
+        final javax.management.openmbean.ArrayType<?> sut = null; // = new
                                                                   // ArrayType(javax.management.openmbean.SimpleType,boolean);
     }
 

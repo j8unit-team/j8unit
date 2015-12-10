@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.OptionalTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OptionalClassTests<SUT extends java.util.Optional<T>, T>
+public abstract interface OptionalClassTests<SUT extends java.util.Optional>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**

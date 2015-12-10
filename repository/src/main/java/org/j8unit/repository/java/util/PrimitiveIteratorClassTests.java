@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PrimitiveIteratorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrimitiveIteratorClassTests<SUT extends java.util.PrimitiveIterator<T, T_CONS>, T, T_CONS>
-extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
+public abstract interface PrimitiveIteratorClassTests<SUT extends java.util.PrimitiveIterator>
+extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
 
     /**
      * <p>
@@ -62,7 +63,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleClassTests<SUT extends java.util.PrimitiveIterator.OfDouble>
-    extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT, java.lang.Double, java.util.function.DoubleConsumer> {
+    extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
         @Override
         @Test
@@ -104,7 +105,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntClassTests<SUT extends java.util.PrimitiveIterator.OfInt>
-    extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT, java.lang.Integer, java.util.function.IntConsumer> {
+    extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
         @Override
         @Test
@@ -146,7 +147,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongClassTests<SUT extends java.util.PrimitiveIterator.OfLong>
-    extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT, java.lang.Long, java.util.function.LongConsumer> {
+    extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
         @Override
         @Test

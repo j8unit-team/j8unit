@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FloatBufferClassTests<SUT extends java.nio.FloatBuffer>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.FloatBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
     /**
      * <p>

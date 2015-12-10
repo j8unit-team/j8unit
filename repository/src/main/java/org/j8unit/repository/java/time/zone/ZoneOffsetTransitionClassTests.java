@@ -34,8 +34,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneOffsetTransitionClassTests<SUT extends java.time.zone.ZoneOffsetTransition>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.zone.ZoneOffsetTransition>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>

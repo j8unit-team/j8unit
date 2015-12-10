@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.CompletionHandlerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompletionHandlerClassTests<SUT extends java.nio.channels.CompletionHandler<V, A>, V, A>
+public abstract interface CompletionHandlerClassTests<SUT extends java.nio.channels.CompletionHandler>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

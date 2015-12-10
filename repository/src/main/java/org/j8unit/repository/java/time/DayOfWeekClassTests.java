@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface DayOfWeekClassTests<SUT extends java.time.DayOfWeek>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.DayOfWeek> {
+org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

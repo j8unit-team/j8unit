@@ -119,7 +119,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CategoryClassTests<SUT extends java.util.Locale.Category>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.Locale.Category> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>
@@ -193,7 +193,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilteringModeClassTests<SUT extends java.util.Locale.FilteringMode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.Locale.FilteringMode> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

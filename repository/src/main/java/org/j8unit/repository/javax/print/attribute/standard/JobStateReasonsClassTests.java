@@ -35,8 +35,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobStateReasonsClassTests<SUT extends javax.print.attribute.standard.JobStateReasons>
-extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>,
-org.j8unit.repository.java.util.HashSetClassTests<SUT, javax.print.attribute.standard.JobStateReason> {
+extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>, org.j8unit.repository.java.util.HashSetClassTests<SUT> {
 
     /**
      * Test method for {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons() public

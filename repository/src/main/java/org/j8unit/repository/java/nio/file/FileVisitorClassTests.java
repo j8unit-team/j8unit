@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileVisitorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileVisitorClassTests<SUT extends java.nio.file.FileVisitor<T>, T>
+public abstract interface FileVisitorClassTests<SUT extends java.nio.file.FileVisitor>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

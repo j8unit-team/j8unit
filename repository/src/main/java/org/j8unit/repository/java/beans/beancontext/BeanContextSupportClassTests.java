@@ -31,13 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextSupportTests
  */
-@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextSupportClassTests<SUT extends java.beans.beancontext.BeanContextSupport>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests, org.j8unit.repository.java.io.SerializableClassTests,
-org.j8unit.repository.java.beans.PropertyChangeListenerClassTests, org.j8unit.repository.java.beans.VetoableChangeListenerClassTests,
-org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests {
+extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>,
+org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests<SUT> {
 
     /**
      * Test method for {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport() public
@@ -117,12 +116,6 @@ org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests {
         final java.beans.beancontext.BeanContextSupport sut = null; // = new
                                                                     // BeanContextSupport(java.beans.beancontext.BeanContext,java.util.Locale,boolean,boolean);
     }
-
-    // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this test class (caused
-    // by the "rawtypes" nature of the class-under-test).
-    @Override
-    public abstract Class<SUT> createNewSUT();
 
     @Override
     @Test

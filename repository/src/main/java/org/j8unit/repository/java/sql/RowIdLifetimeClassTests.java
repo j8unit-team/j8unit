@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowIdLifetimeClassTests<SUT extends java.sql.RowIdLifetime>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.sql.RowIdLifetime> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

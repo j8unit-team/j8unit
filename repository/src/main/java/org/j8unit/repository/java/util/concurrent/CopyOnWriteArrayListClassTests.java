@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CopyOnWriteArrayListTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CopyOnWriteArrayListClassTests<SUT extends java.util.concurrent.CopyOnWriteArrayList<E>, E>
-extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
+public abstract interface CopyOnWriteArrayListClassTests<SUT extends java.util.concurrent.CopyOnWriteArrayList>
+extends org.j8unit.repository.java.util.ListClassTests<SUT>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -49,7 +50,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.CopyOnWriteArrayList<E> sut = null; // = new CopyOnWriteArrayList();
+        final java.util.concurrent.CopyOnWriteArrayList<?> sut = null; // = new CopyOnWriteArrayList();
     }
 
     /**
@@ -63,7 +64,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.CopyOnWriteArrayList<E> sut = null; // = new
+        final java.util.concurrent.CopyOnWriteArrayList<?> sut = null; // = new
                                                                        // CopyOnWriteArrayList(java.util.Collection);
     }
 
@@ -78,7 +79,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.CopyOnWriteArrayList<E> sut = null; // = new
+        final java.util.concurrent.CopyOnWriteArrayList<?> sut = null; // = new
                                                                        // CopyOnWriteArrayList(java.lang.Object[]);
     }
 

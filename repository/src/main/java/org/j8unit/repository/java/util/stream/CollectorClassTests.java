@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.CollectorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CollectorClassTests<SUT extends java.util.stream.Collector<T, A, R>, T, A, R>
+public abstract interface CollectorClassTests<SUT extends java.util.stream.Collector>
 extends J8UnitTest<Class<SUT>> {
 
     /**
@@ -66,7 +67,7 @@ extends J8UnitTest<Class<SUT>> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacteristicsClassTests<SUT extends java.util.stream.Collector.Characteristics>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.stream.Collector.Characteristics> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

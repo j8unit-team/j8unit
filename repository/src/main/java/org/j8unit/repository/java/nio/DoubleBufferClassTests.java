@@ -33,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleBufferClassTests<SUT extends java.nio.DoubleBuffer>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.DoubleBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
     /**
      * <p>

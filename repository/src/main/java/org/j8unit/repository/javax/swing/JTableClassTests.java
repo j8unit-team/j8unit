@@ -108,7 +108,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintModeClassTests<SUT extends javax.swing.JTable.PrintMode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.JTable.PrintMode> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

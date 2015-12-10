@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface CalendarClassTests<SUT extends java.util.Calendar>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>

@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultRowSorterTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultRowSorterClassTests<SUT extends javax.swing.DefaultRowSorter<M, I>, M, I>
-extends org.j8unit.repository.javax.swing.RowSorterClassTests<SUT, M> {
+public abstract interface DefaultRowSorterClassTests<SUT extends javax.swing.DefaultRowSorter>
+extends org.j8unit.repository.javax.swing.RowSorterClassTests<SUT> {
 
     /**
      * Test method for {@link javax.swing.DefaultRowSorter#DefaultRowSorter() public javax.swing.DefaultRowSorter()}.
@@ -46,7 +47,7 @@ extends org.j8unit.repository.javax.swing.RowSorterClassTests<SUT, M> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultRowSorter<M, I> sut = null; // = new DefaultRowSorter();
+        final javax.swing.DefaultRowSorter<?, ?> sut = null; // = new DefaultRowSorter();
     }
 
     @Override

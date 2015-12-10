@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.RowFilterTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RowFilterClassTests<SUT extends javax.swing.RowFilter<M, I>, M, I>
+public abstract interface RowFilterClassTests<SUT extends javax.swing.RowFilter>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -63,7 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComparisonTypeClassTests<SUT extends javax.swing.RowFilter.ComparisonType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.RowFilter.ComparisonType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>
@@ -134,9 +135,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowFilterTests.EntryTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EntryClassTests<SUT extends javax.swing.RowFilter.Entry<M, I>, M, I>
+    public static abstract interface EntryClassTests<SUT extends javax.swing.RowFilter.Entry>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -149,7 +151,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final javax.swing.RowFilter.Entry<M, I> sut = null; // = new Entry();
+            final javax.swing.RowFilter.Entry<?, ?> sut = null; // = new Entry();
         }
 
         @Override
@@ -174,7 +176,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.RowFilter<M, I> sut = null; // = new RowFilter();
+        final javax.swing.RowFilter<?, ?> sut = null; // = new RowFilter();
     }
 
     /**

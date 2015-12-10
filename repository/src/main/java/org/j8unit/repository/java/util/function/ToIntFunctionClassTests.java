@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.ToIntFunctionTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ToIntFunctionClassTests<SUT extends java.util.function.ToIntFunction<T>, T>
+public abstract interface ToIntFunctionClassTests<SUT extends java.util.function.ToIntFunction>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

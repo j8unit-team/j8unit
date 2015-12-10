@@ -29,18 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextTests
  */
-@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextClassTests<SUT extends java.beans.beancontext.BeanContext>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextChildClassTests, org.j8unit.repository.java.util.CollectionClassTests,
-org.j8unit.repository.java.beans.DesignModeClassTests, org.j8unit.repository.java.beans.VisibilityClassTests {
-
-    // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this test class (caused
-    // by the "rawtypes" nature of the class-under-test).
-    @Override
-    public abstract Class<SUT> createNewSUT();
+extends org.j8unit.repository.java.beans.beancontext.BeanContextChildClassTests<SUT>, org.j8unit.repository.java.util.CollectionClassTests<SUT>,
+org.j8unit.repository.java.beans.DesignModeClassTests<SUT>, org.j8unit.repository.java.beans.VisibilityClassTests<SUT> {
 
     @Override
     @Test

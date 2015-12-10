@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PriorityBlockingQueueClassTests<SUT extends java.util.concurrent.PriorityBlockingQueue<E>, E>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface PriorityBlockingQueueClassTests<SUT extends java.util.concurrent.PriorityBlockingQueue>
+extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue() public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new PriorityBlockingQueue();
+        final java.util.concurrent.PriorityBlockingQueue<?> sut = null; // = new PriorityBlockingQueue();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new
+        final java.util.concurrent.PriorityBlockingQueue<?> sut = null; // = new
                                                                         // PriorityBlockingQueue(java.util.Collection);
     }
 
@@ -77,7 +78,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new PriorityBlockingQueue(int);
+        final java.util.concurrent.PriorityBlockingQueue<?> sut = null; // = new PriorityBlockingQueue(int);
     }
 
     /**
@@ -91,7 +92,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new
+        final java.util.concurrent.PriorityBlockingQueue<?> sut = null; // = new
                                                                         // PriorityBlockingQueue(int,java.util.Comparator);
     }
 

@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FormClassTests<SUT extends java.text.Normalizer.Form>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.text.Normalizer.Form> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

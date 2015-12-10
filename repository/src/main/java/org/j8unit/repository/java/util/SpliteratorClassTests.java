@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SpliteratorTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SpliteratorClassTests<SUT extends java.util.Spliterator<T>, T>
+public abstract interface SpliteratorClassTests<SUT extends java.util.Spliterator>
 extends J8UnitTest<Class<SUT>> {
 
     /**
@@ -63,8 +64,7 @@ extends J8UnitTest<Class<SUT>> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleClassTests<SUT extends java.util.Spliterator.OfDouble>
-    extends
-    org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT, java.lang.Double, java.util.function.DoubleConsumer, java.util.Spliterator.OfDouble> {
+    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT> {
 
         @Override
         @Test
@@ -106,8 +106,7 @@ extends J8UnitTest<Class<SUT>> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntClassTests<SUT extends java.util.Spliterator.OfInt>
-    extends
-    org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT, java.lang.Integer, java.util.function.IntConsumer, java.util.Spliterator.OfInt> {
+    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT> {
 
         @Override
         @Test
@@ -149,8 +148,7 @@ extends J8UnitTest<Class<SUT>> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongClassTests<SUT extends java.util.Spliterator.OfLong>
-    extends
-    org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT, java.lang.Long, java.util.function.LongConsumer, java.util.Spliterator.OfLong> {
+    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT> {
 
         @Override
         @Test
@@ -189,10 +187,11 @@ extends J8UnitTest<Class<SUT>> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests
      */
+    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfPrimitiveClassTests<SUT extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>, T, T_CONS, T_SPLITR extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>
-    extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT, T> {
+    public static abstract interface OfPrimitiveClassTests<SUT extends java.util.Spliterator.OfPrimitive>
+    extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT> {
 
         @Override
         @Test

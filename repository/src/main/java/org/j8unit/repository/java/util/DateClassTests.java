@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface DateClassTests<SUT extends java.util.Date>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.Date#Date() public java.util.Date()}.

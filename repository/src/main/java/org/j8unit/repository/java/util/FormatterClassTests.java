@@ -64,7 +64,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BigDecimalLayoutFormClassTests<SUT extends java.util.Formatter.BigDecimalLayoutForm>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.Formatter.BigDecimalLayoutForm> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MessageTypeClassTests<SUT extends java.awt.TrayIcon.MessageType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.TrayIcon.MessageType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

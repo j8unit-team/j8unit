@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AuthenticationTypeClassTests<SUT extends javax.annotation.Resource.AuthenticationType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.annotation.Resource.AuthenticationType> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

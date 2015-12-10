@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceArrayTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AtomicReferenceArrayClassTests<SUT extends java.util.concurrent.atomic.AtomicReferenceArray<E>, E>
+public abstract interface AtomicReferenceArrayClassTests<SUT extends java.util.concurrent.atomic.AtomicReferenceArray>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -48,7 +49,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicReferenceArray<E> sut = null; // = new AtomicReferenceArray(int);
+        final java.util.concurrent.atomic.AtomicReferenceArray<?> sut = null; // = new AtomicReferenceArray(int);
     }
 
     /**
@@ -62,7 +63,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicReferenceArray<E> sut = null; // = new
+        final java.util.concurrent.atomic.AtomicReferenceArray<?> sut = null; // = new
                                                                               // AtomicReferenceArray(java.lang.Object[]);
     }
 

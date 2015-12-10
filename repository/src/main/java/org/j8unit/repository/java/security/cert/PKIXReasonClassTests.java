@@ -35,7 +35,7 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface PKIXReasonClassTests<SUT extends java.security.cert.PKIXReason>
 extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.PKIXReason> {
+org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

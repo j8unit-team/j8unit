@@ -30,9 +30,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.ProviderTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ProviderClassTests<SUT extends javax.xml.ws.Provider<T>, T>
+public abstract interface ProviderClassTests<SUT extends javax.xml.ws.Provider>
 extends J8UnitTest<Class<SUT>> {
 
     @Test

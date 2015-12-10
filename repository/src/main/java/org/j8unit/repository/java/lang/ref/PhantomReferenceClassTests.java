@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ref.PhantomReferenceTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PhantomReferenceClassTests<SUT extends java.lang.ref.PhantomReference<T>, T>
-extends org.j8unit.repository.java.lang.ref.ReferenceClassTests<SUT, T> {
+public abstract interface PhantomReferenceClassTests<SUT extends java.lang.ref.PhantomReference>
+extends org.j8unit.repository.java.lang.ref.ReferenceClassTests<SUT> {
 
     /**
      * Test method for
@@ -48,7 +49,7 @@ extends org.j8unit.repository.java.lang.ref.ReferenceClassTests<SUT, T> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.ref.PhantomReference<T> sut = null; // = new
+        final java.lang.ref.PhantomReference<?> sut = null; // = new
                                                             // PhantomReference(java.lang.Object,java.lang.ref.ReferenceQueue);
     }
 

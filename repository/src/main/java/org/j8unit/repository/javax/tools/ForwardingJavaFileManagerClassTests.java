@@ -29,9 +29,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.ForwardingJavaFileManagerTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ForwardingJavaFileManagerClassTests<SUT extends javax.tools.ForwardingJavaFileManager<M>, M extends javax.tools.JavaFileManager>
+public abstract interface ForwardingJavaFileManagerClassTests<SUT extends javax.tools.ForwardingJavaFileManager>
 extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override

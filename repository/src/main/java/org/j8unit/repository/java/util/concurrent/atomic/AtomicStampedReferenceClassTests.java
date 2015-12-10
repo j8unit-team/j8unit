@@ -32,9 +32,10 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicStampedReferenceTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AtomicStampedReferenceClassTests<SUT extends java.util.concurrent.atomic.AtomicStampedReference<V>, V>
+public abstract interface AtomicStampedReferenceClassTests<SUT extends java.util.concurrent.atomic.AtomicStampedReference>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -49,7 +50,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicStampedReference<V> sut = null; // = new
+        final java.util.concurrent.atomic.AtomicStampedReference<?> sut = null; // = new
                                                                                 // AtomicStampedReference(java.lang.Object,int);
     }
 

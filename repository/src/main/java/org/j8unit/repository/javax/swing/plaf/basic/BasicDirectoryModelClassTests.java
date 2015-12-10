@@ -34,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicDirectoryModelClassTests<SUT extends javax.swing.plaf.basic.BasicDirectoryModel>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
-org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, java.lang.Object> {
+extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT> {
 
     /**
      * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#BasicDirectoryModel(javax.swing.JFileChooser)

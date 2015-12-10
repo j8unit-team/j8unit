@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileTimeClassTests<SUT extends java.nio.file.attribute.FileTime>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.file.attribute.FileTime>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>

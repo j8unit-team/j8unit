@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateClassTests<SUT extends java.lang.Thread.State>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.lang.Thread.State> {
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
          * <p>

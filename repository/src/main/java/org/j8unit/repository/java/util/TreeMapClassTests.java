@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.TreeMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TreeMapClassTests<SUT extends java.util.TreeMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.NavigableMapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+public abstract interface TreeMapClassTests<SUT extends java.util.TreeMap>
+extends org.j8unit.repository.java.util.NavigableMapClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.TreeMap#TreeMap() public java.util.TreeMap()}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap();
+        final java.util.TreeMap<?, ?> sut = null; // = new TreeMap();
     }
 
     /**
@@ -60,7 +61,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.Comparator);
+        final java.util.TreeMap<?, ?> sut = null; // = new TreeMap(java.util.Comparator);
     }
 
     /**
@@ -73,7 +74,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.Map);
+        final java.util.TreeMap<?, ?> sut = null; // = new TreeMap(java.util.Map);
     }
 
     /**
@@ -87,7 +88,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.SortedMap);
+        final java.util.TreeMap<?, ?> sut = null; // = new TreeMap(java.util.SortedMap);
     }
 
     @Override

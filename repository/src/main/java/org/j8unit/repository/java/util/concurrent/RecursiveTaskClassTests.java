@@ -31,10 +31,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.RecursiveTaskTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RecursiveTaskClassTests<SUT extends java.util.concurrent.RecursiveTask<V>, V>
-extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<SUT, V> {
+public abstract interface RecursiveTaskClassTests<SUT extends java.util.concurrent.RecursiveTask>
+extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.RecursiveTask#RecursiveTask() public
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<SUT, V
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.RecursiveTask<V> sut = null; // = new RecursiveTask();
+        final java.util.concurrent.RecursiveTask<?> sut = null; // = new RecursiveTask();
     }
 
     @Override

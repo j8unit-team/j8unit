@@ -29,10 +29,11 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.SimpleTypeTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SimpleTypeClassTests<SUT extends javax.management.openmbean.SimpleType<T>, T>
-extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT, T> {
+public abstract interface SimpleTypeClassTests<SUT extends javax.management.openmbean.SimpleType>
+extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT> {
 
     @Override
     @Test

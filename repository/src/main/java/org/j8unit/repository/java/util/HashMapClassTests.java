@@ -30,11 +30,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.HashMapTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HashMapClassTests<SUT extends java.util.HashMap<K, V>, K, V>
-extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
+public abstract interface HashMapClassTests<SUT extends java.util.HashMap>
+extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.HashMap#HashMap() public java.util.HashMap()}.
@@ -46,7 +47,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashMap<K, V> sut = null; // = new HashMap();
+        final java.util.HashMap<?, ?> sut = null; // = new HashMap();
     }
 
     /**
@@ -59,7 +60,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashMap<K, V> sut = null; // = new HashMap(int);
+        final java.util.HashMap<?, ?> sut = null; // = new HashMap(int);
     }
 
     /**
@@ -72,7 +73,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashMap<K, V> sut = null; // = new HashMap(int,float);
+        final java.util.HashMap<?, ?> sut = null; // = new HashMap(int,float);
     }
 
     /**
@@ -85,7 +86,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashMap<K, V> sut = null; // = new HashMap(java.util.Map);
+        final java.util.HashMap<?, ?> sut = null; // = new HashMap(java.util.Map);
     }
 
     @Override

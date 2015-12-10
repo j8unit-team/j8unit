@@ -35,7 +35,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HexBinaryAdapterClassTests<SUT extends javax.xml.bind.annotation.adapters.HexBinaryAdapter>
-extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterClassTests<SUT, java.lang.String, byte[]> {
+extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterClassTests<SUT> {
 
     /**
      * Test method for {@link javax.xml.bind.annotation.adapters.HexBinaryAdapter#HexBinaryAdapter() public

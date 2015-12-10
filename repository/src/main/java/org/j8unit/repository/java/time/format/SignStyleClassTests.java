@@ -34,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SignStyleClassTests<SUT extends java.time.format.SignStyle>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.format.SignStyle> {
+extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
     /**
      * <p>

@@ -31,11 +31,12 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueTests
  */
+@SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkedBlockingQueueClassTests<SUT extends java.util.concurrent.LinkedBlockingQueue<E>, E>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
+public abstract interface LinkedBlockingQueueClassTests<SUT extends java.util.concurrent.LinkedBlockingQueue>
+extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
 
     /**
      * Test method for {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue() public
@@ -48,7 +49,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.LinkedBlockingQueue<E> sut = null; // = new LinkedBlockingQueue();
+        final java.util.concurrent.LinkedBlockingQueue<?> sut = null; // = new LinkedBlockingQueue();
     }
 
     /**
@@ -62,7 +63,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.LinkedBlockingQueue<E> sut = null; // = new
+        final java.util.concurrent.LinkedBlockingQueue<?> sut = null; // = new
                                                                       // LinkedBlockingQueue(java.util.Collection);
     }
 
@@ -77,7 +78,7 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.LinkedBlockingQueue<E> sut = null; // = new LinkedBlockingQueue(int);
+        final java.util.concurrent.LinkedBlockingQueue<?> sut = null; // = new LinkedBlockingQueue(int);
     }
 
     @Override
