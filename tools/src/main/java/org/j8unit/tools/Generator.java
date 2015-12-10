@@ -632,11 +632,11 @@ public class Generator {
             sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
             sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(createTypeParametersStatement(clazz)).surround("<", ">").orElse("")
                       + NL);
-            sb.append(indent + "implements FactoryBasedJ8UnitTest<" + sutSuper + ">, " + testClassSuper2 + " {" + NL);
+            sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
             sb.append(NL);
             sb.append(indent + SPACE + "@Override" + NL);
-            sb.append(indent + SPACE + "public Supplier<" + sutSuper + "> getSUTFactory() {" + NL);
-            sb.append(indent + SPACE + SPACE + "return " + className + "::new;" + NL);
+            sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
+            sb.append(indent + SPACE + SPACE + "return new " + className + "();" + NL);
             sb.append(indent + SPACE + "}" + NL);
             sb.append(NL);
             // collect sub-classes
@@ -681,10 +681,10 @@ public class Generator {
             sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
             sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(createTypeParametersStatement(clazz)).surround("<", ">").orElse("")
                       + NL);
-            sb.append(indent + "implements FactoryBasedJ8UnitTest<" + sutSuper + ">, " + testClassSuper2 + " {" + NL);
+            sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
             sb.append(NL);
             sb.append(indent + SPACE + "@Override" + NL);
-            sb.append(indent + SPACE + "public Supplier<" + sutSuper + "> getSUTFactory() {" + NL);
+            sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
             sb.append(indent + SPACE + SPACE + "throw new AssertionError(\"There is no default constructor for [" + className + "] available.\");" + NL);
             sb.append(indent + SPACE + "}" + NL);
             sb.append(NL);
@@ -713,20 +713,17 @@ public class Generator {
         final String testClassSuper = testSetup.getTestClassName(clazz, membership) //
                                       + "<SUT" + ofEmptyable(createTypeParametersStatement2(clazz)).prepend(",").orElse("") + ">";
         final String testClassSuper2 = testSetup.getTestClassName(clazz, membership) //
-                                       + "<" + getClassNameWithTypeVariableNames(clazz, Membership.INSTANCE)
-                                       + ofEmptyable(createTypeParametersStatement2(clazz)).prepend(",").orElse("") + ">";
+                                       + "<" + GeneratorSetup.getClassName(clazz) + ">";
         final String className = GeneratorSetup.getClassName(clazz);
         final StringBuilder sb = new StringBuilder();
         sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
-        sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(createTypeParametersStatement(clazz)).surround("<", ">").orElse("")
-                  + NL);
+        sb.append(ofEmptyable(createTypeParametersStatement(clazz)).map(s -> indent + "@SuppressWarnings(\"rawtypes\")" + NL).orElse(""));
+        sb.append(indent + "public " + nested + "class " + testClassName + NL);
         sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
         sb.append(NL);
-        sb.append(ofEmptyable(createTypeParametersStatement(clazz)).map(s -> indent + SPACE + "@SuppressWarnings(\"unchecked\")" + NL).orElse(""));
         sb.append(indent + SPACE + "@Override" + NL);
-        sb.append(indent + SPACE + "public Class<" + getClassNameWithTypeVariableNames(clazz, Membership.INSTANCE) + "> createNewSUT() {" + NL);
-        sb.append(indent + SPACE + SPACE + "return " + ofEmptyable(createTypeParametersStatement(clazz)).map(s -> "(" + sutSuper + ") ").orElse("") + className
-                  + ".class;" + NL);
+        sb.append(indent + SPACE + "public Class<" + GeneratorSetup.getClassName(clazz) + "> createNewSUT() {" + NL);
+        sb.append(indent + SPACE + SPACE + "return " + className + ".class;" + NL);
         sb.append(indent + SPACE + "}" + NL);
         sb.append(NL);
         // collect sub-classes
