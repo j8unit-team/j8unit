@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PropertyResourceBundleTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PropertyResourceBundleClassTests<SUT extends Class<? extends java.util.PropertyResourceBundle>>
+public abstract interface PropertyResourceBundleClassTests<SUT extends java.util.PropertyResourceBundle>
 extends org.j8unit.repository.java.util.ResourceBundleClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.util.ResourceBundleClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.PropertyResourceBundle> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.PropertyResourceBundle.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGQTableTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JPEGQTableClassTests<SUT extends Class<? extends javax.imageio.plugins.jpeg.JPEGQTable>>
+public abstract interface JPEGQTableClassTests<SUT extends javax.imageio.plugins.jpeg.JPEGQTable>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.imageio.plugins.jpeg.JPEGQTable> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.imageio.plugins.jpeg.JPEGQTable.class.isAssignableFrom(sut));
     }

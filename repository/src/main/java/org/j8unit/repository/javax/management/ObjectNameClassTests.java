@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.ObjectNameTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectNameClassTests<SUT extends Class<? extends javax.management.ObjectName>>
+public abstract interface ObjectNameClassTests<SUT extends javax.management.ObjectName>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, javax.management.ObjectName>, org.j8unit.repository.javax.management.QueryExpClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -94,7 +94,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInstance_ObjectName()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -128,7 +128,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInstance_String_Hashtable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -147,7 +147,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInstance_String_String_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -163,7 +163,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_quote_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -179,7 +179,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unquote_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -188,7 +188,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.ObjectName> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.ObjectName.class.isAssignableFrom(sut));
     }

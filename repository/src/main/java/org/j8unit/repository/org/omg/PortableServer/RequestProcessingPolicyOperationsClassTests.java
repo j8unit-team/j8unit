@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyOperationsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RequestProcessingPolicyOperationsClassTests<SUT extends Class<? extends org.omg.PortableServer.RequestProcessingPolicyOperations>>
+public abstract interface RequestProcessingPolicyOperationsClassTests<SUT extends org.omg.PortableServer.RequestProcessingPolicyOperations>
 extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<SUT> {
 
     @Override
@@ -40,7 +40,7 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.PortableServer.RequestProcessingPolicyOperations> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.PortableServer.RequestProcessingPolicyOperations.class.isAssignableFrom(sut));
     }

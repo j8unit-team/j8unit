@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.RunnableFutureTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RunnableFutureClassTests<SUT extends Class<? extends java.util.concurrent.RunnableFuture<V>>, V>
+public abstract interface RunnableFutureClassTests<SUT extends java.util.concurrent.RunnableFuture<V>, V>
 extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT, V> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.RunnableFuture<V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.RunnableFuture.class.isAssignableFrom(sut));
     }

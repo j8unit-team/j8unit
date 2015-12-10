@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.DriverManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DriverManagerClassTests<SUT extends Class<? extends java.sql.DriverManager>>
+public abstract interface DriverManagerClassTests<SUT extends java.sql.DriverManager>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_deregisterDriver_Driver()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getConnection_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getConnection_String_Properties()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -99,7 +99,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getConnection_String_String_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -115,7 +115,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getDriver_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -131,7 +131,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getDrivers()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -147,7 +147,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getLoginTimeout()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -163,7 +163,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getLogStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -179,7 +179,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getLogWriter()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -195,7 +195,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_println_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -211,7 +211,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_registerDriver_Driver()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -228,7 +228,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_registerDriver_Driver_DriverAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -244,7 +244,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setLoginTimeout_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -260,7 +260,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setLogStream_PrintStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -276,7 +276,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setLogWriter_PrintWriter()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -285,7 +285,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.sql.DriverManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.sql.DriverManager.class.isAssignableFrom(sut));
     }

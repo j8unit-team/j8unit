@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboBoxEditorClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxEditor>>
+public abstract interface BasicComboBoxEditorClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxEditor>
 extends org.j8unit.repository.javax.swing.ComboBoxEditorClassTests<SUT>, org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -59,13 +59,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests.UIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxEditor.UIResource>>
+    public static abstract interface UIResourceClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxEditor.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests<SUT> {
 
         /**
@@ -87,7 +87,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxEditor.UIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxEditor.UIResource.class.isAssignableFrom(sut));
         }
@@ -113,7 +113,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicComboBoxEditor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicComboBoxEditor.class.isAssignableFrom(sut));
     }

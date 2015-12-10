@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.spi.AbstractSelectorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractSelectorClassTests<SUT extends Class<? extends java.nio.channels.spi.AbstractSelector>>
+public abstract interface AbstractSelectorClassTests<SUT extends java.nio.channels.spi.AbstractSelector>
 extends org.j8unit.repository.java.nio.channels.SelectorClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.nio.channels.SelectorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.spi.AbstractSelector> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.spi.AbstractSelector.class.isAssignableFrom(sut));
     }

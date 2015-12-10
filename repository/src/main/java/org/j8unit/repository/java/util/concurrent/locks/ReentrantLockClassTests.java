@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantLockTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ReentrantLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantLock>>
+public abstract interface ReentrantLockClassTests<SUT extends java.util.concurrent.locks.ReentrantLock>
 extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -70,7 +70,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.locks.ReentrantLock> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.locks.ReentrantLock.class.isAssignableFrom(sut));
     }

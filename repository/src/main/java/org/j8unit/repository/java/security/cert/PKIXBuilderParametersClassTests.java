@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.PKIXBuilderParametersTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PKIXBuilderParametersClassTests<SUT extends Class<? extends java.security.cert.PKIXBuilderParameters>>
+public abstract interface PKIXBuilderParametersClassTests<SUT extends java.security.cert.PKIXBuilderParameters>
 extends org.j8unit.repository.java.security.cert.PKIXParametersClassTests<SUT> {
 
     /**
@@ -75,7 +75,7 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.PKIXBuilderParameters> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.PKIXBuilderParameters.class.isAssignableFrom(sut));
     }

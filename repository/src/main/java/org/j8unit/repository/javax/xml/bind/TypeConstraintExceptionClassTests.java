@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TypeConstraintExceptionClassTests<SUT extends Class<? extends javax.xml.bind.TypeConstraintException>>
+public abstract interface TypeConstraintExceptionClassTests<SUT extends javax.xml.bind.TypeConstraintException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
@@ -117,7 +117,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.TypeConstraintException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.TypeConstraintException.class.isAssignableFrom(sut));
     }

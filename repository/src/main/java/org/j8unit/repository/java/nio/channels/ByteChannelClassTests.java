@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.ByteChannelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ByteChannelClassTests<SUT extends Class<? extends java.nio.channels.ByteChannel>>
+public abstract interface ByteChannelClassTests<SUT extends java.nio.channels.ByteChannel>
 extends org.j8unit.repository.java.nio.channels.ReadableByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.WritableByteChannelClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.nio.channels.ReadableByteChannelClassTests<SU
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.ByteChannel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.ByteChannel.class.isAssignableFrom(sut));
     }

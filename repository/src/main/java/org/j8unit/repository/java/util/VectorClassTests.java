@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.VectorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VectorClassTests<SUT extends Class<? extends java.util.Vector<E>>, E>
+public abstract interface VectorClassTests<SUT extends java.util.Vector<E>, E>
 extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
@@ -95,7 +95,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Vector<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Vector.class.isAssignableFrom(sut));
     }

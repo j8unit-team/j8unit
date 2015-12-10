@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.GeneralPathTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface GeneralPathClassTests<SUT extends Class<? extends java.awt.geom.GeneralPath>>
+public abstract interface GeneralPathClassTests<SUT extends java.awt.geom.GeneralPath>
 extends org.j8unit.repository.java.awt.geom.Path2DClassTests.FloatClassTests<SUT> {
 
     /**
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.awt.geom.Path2DClassTests.FloatClassTests<SUT
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.geom.GeneralPath> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.geom.GeneralPath.class.isAssignableFrom(sut));
     }

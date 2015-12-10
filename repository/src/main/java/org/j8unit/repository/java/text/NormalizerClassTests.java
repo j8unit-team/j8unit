@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.NormalizerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NormalizerClassTests<SUT extends Class<? extends java.text.Normalizer>>
+public abstract interface NormalizerClassTests<SUT extends java.text.Normalizer>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.NormalizerTests.FormTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FormClassTests<SUT extends Class<? extends java.text.Normalizer.Form>>
+    public static abstract interface FormClassTests<SUT extends java.text.Normalizer.Form>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.text.Normalizer.Form> {
 
         /**
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -93,7 +93,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.text.Normalizer.Form> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.text.Normalizer.Form.class.isAssignableFrom(sut));
         }
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isNormalized_CharSequence_Form()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_normalize_CharSequence_Form()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.Normalizer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.Normalizer.class.isAssignableFrom(sut));
     }

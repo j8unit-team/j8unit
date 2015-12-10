@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.loading.MLetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MLetClassTests<SUT extends Class<? extends javax.management.loading.MLet>>
+public abstract interface MLetClassTests<SUT extends javax.management.loading.MLet>
 extends org.j8unit.repository.javax.management.loading.MLetMBeanClassTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>,
 org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.repository.java.net.URLClassLoaderClassTests<SUT> {
 
@@ -144,7 +144,7 @@ org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.reposito
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.loading.MLet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.loading.MLet.class.isAssignableFrom(sut));
     }

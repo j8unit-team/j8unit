@@ -28,14 +28,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.CollectorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CollectorClassTests<SUT extends Class<? extends java.util.stream.Collector<T, A, R>>, T, A, R>
-extends J8UnitTest<SUT> {
+public abstract interface CollectorClassTests<SUT extends java.util.stream.Collector<T, A, R>, T, A, R>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -59,13 +59,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.CollectorTests.CharacteristicsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CharacteristicsClassTests<SUT extends Class<? extends java.util.stream.Collector.Characteristics>>
+    public static abstract interface CharacteristicsClassTests<SUT extends java.util.stream.Collector.Characteristics>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.stream.Collector.Characteristics> {
 
         /**
@@ -81,7 +81,7 @@ extends J8UnitTest<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -97,7 +97,7 @@ extends J8UnitTest<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -106,7 +106,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.stream.Collector.Characteristics> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.stream.Collector.Characteristics.class.isAssignableFrom(sut));
         }
@@ -128,7 +128,7 @@ extends J8UnitTest<SUT> {
     public default void test_of_Supplier_BiConsumer_BinaryOperator_CharacteristicsArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -147,7 +147,7 @@ extends J8UnitTest<SUT> {
     public default void test_of_Supplier_BiConsumer_BinaryOperator_Function_CharacteristicsArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -155,7 +155,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.stream.Collector<T, A, R>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.stream.Collector.class.isAssignableFrom(sut));
     }

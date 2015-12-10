@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.UnknownHostExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnknownHostExceptionClassTests<SUT extends Class<? extends java.rmi.UnknownHostException>>
+public abstract interface UnknownHostExceptionClassTests<SUT extends java.rmi.UnknownHostException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.UnknownHostException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.UnknownHostException.class.isAssignableFrom(sut));
     }

@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.TreeCellRendererTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TreeCellRendererClassTests<SUT extends Class<? extends javax.swing.tree.TreeCellRenderer>>
-extends J8UnitTest<SUT> {
+public abstract interface TreeCellRendererClassTests<SUT extends javax.swing.tree.TreeCellRenderer>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.tree.TreeCellRenderer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.tree.TreeCellRenderer.class.isAssignableFrom(sut));
     }

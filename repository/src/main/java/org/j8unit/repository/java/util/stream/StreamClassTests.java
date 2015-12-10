@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.StreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StreamClassTests<SUT extends Class<? extends java.util.stream.Stream<T>>, T>
+public abstract interface StreamClassTests<SUT extends java.util.stream.Stream<T>, T>
 extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java.util.stream.Stream<T>> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.StreamTests.BuilderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.stream.Stream.Builder<T>>, T>
+    public static abstract interface BuilderClassTests<SUT extends java.util.stream.Stream.Builder<T>, T>
     extends org.j8unit.repository.java.util.function.ConsumerClassTests<SUT, T> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.stream.Stream.Builder<T>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.stream.Stream.Builder.class.isAssignableFrom(sut));
         }
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_builder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -106,7 +106,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_concat_Stream_Stream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_empty()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -138,7 +138,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_generate_Supplier()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -155,7 +155,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_iterate_Object_UnaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -171,7 +171,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_of_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -187,7 +187,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void test_of_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -196,7 +196,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.stream.Stream<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.stream.Stream.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicColorChooserUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicColorChooserUI>>
+public abstract interface BasicColorChooserUIClassTests<SUT extends javax.swing.plaf.basic.BasicColorChooserUI>
 extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests.PropertyHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler>>
+    public static abstract interface PropertyHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler.class.isAssignableFrom(sut));
         }
@@ -123,7 +123,7 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -132,7 +132,7 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicColorChooserUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicColorChooserUI.class.isAssignableFrom(sut));
     }

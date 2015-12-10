@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.KeyStrokeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KeyStrokeClassTests<SUT extends Class<? extends javax.swing.KeyStroke>>
+public abstract interface KeyStrokeClassTests<SUT extends javax.swing.KeyStroke>
 extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
 
     /**
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStroke_char()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStroke_char_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStroke_Character_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStroke_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStroke_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -127,7 +127,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStroke_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -143,7 +143,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void test_getKeyStrokeForEvent_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -152,7 +152,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.KeyStroke> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.KeyStroke.class.isAssignableFrom(sut));
     }

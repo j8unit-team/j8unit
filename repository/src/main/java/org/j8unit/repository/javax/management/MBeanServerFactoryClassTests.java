@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanServerFactoryTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MBeanServerFactoryClassTests<SUT extends Class<? extends javax.management.MBeanServerFactory>>
+public abstract interface MBeanServerFactoryClassTests<SUT extends javax.management.MBeanServerFactory>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createMBeanServer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createMBeanServer_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_findMBeanServer_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getClassLoaderRepository_MBeanServer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newMBeanServer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,7 +129,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newMBeanServer_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_releaseMBeanServer_MBeanServer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -154,7 +154,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.MBeanServerFactory> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.MBeanServerFactory.class.isAssignableFrom(sut));
     }

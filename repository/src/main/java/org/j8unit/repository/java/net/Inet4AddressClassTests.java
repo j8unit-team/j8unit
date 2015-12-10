@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.Inet4AddressTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface Inet4AddressClassTests<SUT extends Class<? extends java.net.Inet4Address>>
+public abstract interface Inet4AddressClassTests<SUT extends java.net.Inet4Address>
 extends org.j8unit.repository.java.net.InetAddressClassTests<SUT> {
 
     @Override
@@ -38,7 +38,7 @@ extends org.j8unit.repository.java.net.InetAddressClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.Inet4Address> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.net.Inet4Address.class.isAssignableFrom(sut));
     }

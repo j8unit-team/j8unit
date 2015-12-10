@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.PropertyEditorSupportTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PropertyEditorSupportClassTests<SUT extends Class<? extends java.beans.PropertyEditorSupport>>
+public abstract interface PropertyEditorSupportClassTests<SUT extends java.beans.PropertyEditorSupport>
 extends org.j8unit.repository.java.beans.PropertyEditorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.beans.PropertyEditorClassTests<SUT>, org.j8un
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.PropertyEditorSupport> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.PropertyEditorSupport.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.RemoteObjectInvocationHandlerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RemoteObjectInvocationHandlerClassTests<SUT extends Class<? extends java.rmi.server.RemoteObjectInvocationHandler>>
+public abstract interface RemoteObjectInvocationHandlerClassTests<SUT extends java.rmi.server.RemoteObjectInvocationHandler>
 extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<SUT> {
 
     /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.server.RemoteObjectInvocationHandler> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.server.RemoteObjectInvocationHandler.class.isAssignableFrom(sut));
     }

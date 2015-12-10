@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.ImageTypeSpecifierTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageTypeSpecifierClassTests<SUT extends Class<? extends javax.imageio.ImageTypeSpecifier>>
+public abstract interface ImageTypeSpecifierClassTests<SUT extends javax.imageio.ImageTypeSpecifier>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createBanded_ColorSpace_intArray_intArray_int_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createFromBufferedImageType_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createFromRenderedImage_RenderedImage()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,7 +129,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createGrayscale_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createGrayscale_int_int_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -162,7 +162,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createIndexed_byteArray_byteArray_byteArray_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -180,7 +180,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createInterleaved_ColorSpace_intArray_int_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -198,7 +198,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createPacked_ColorSpace_int_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -207,7 +207,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.imageio.ImageTypeSpecifier> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.imageio.ImageTypeSpecifier.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.BinaryOperatorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BinaryOperatorClassTests<SUT extends Class<? extends java.util.function.BinaryOperator<T>>, T>
+public abstract interface BinaryOperatorClassTests<SUT extends java.util.function.BinaryOperator<T>, T>
 extends org.j8unit.repository.java.util.function.BiFunctionClassTests<SUT, T, T, T> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.util.function.BiFunctionClassTests<SUT, T, T,
     public default void test_maxBy_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.util.function.BiFunctionClassTests<SUT, T, T,
     public default void test_minBy_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.util.function.BiFunctionClassTests<SUT, T, T,
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.function.BinaryOperator<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.function.BinaryOperator.class.isAssignableFrom(sut));
     }

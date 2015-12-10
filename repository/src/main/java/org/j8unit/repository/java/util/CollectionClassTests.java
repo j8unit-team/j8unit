@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.CollectionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CollectionClassTests<SUT extends Class<? extends java.util.Collection<E>>, E>
+public abstract interface CollectionClassTests<SUT extends java.util.Collection<E>, E>
 extends org.j8unit.repository.java.lang.IterableClassTests<SUT, E> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.IterableClassTests<SUT, E> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Collection<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Collection.class.isAssignableFrom(sut));
     }

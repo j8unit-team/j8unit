@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CompletableFutureTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompletableFutureClassTests<SUT extends Class<? extends java.util.concurrent.CompletableFuture<T>>, T>
+public abstract interface CompletableFutureClassTests<SUT extends java.util.concurrent.CompletableFuture<T>, T>
 extends org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT, T>, org.j8unit.repository.java.util.concurrent.CompletionStageClassTests<SUT, T>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -60,20 +60,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.CompletableFutureTests.AsynchronousCompletionTaskTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AsynchronousCompletionTaskClassTests<SUT extends Class<? extends java.util.concurrent.CompletableFuture.AsynchronousCompletionTask>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface AsynchronousCompletionTaskClassTests<SUT extends java.util.concurrent.CompletableFuture.AsynchronousCompletionTask>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.CompletableFuture.AsynchronousCompletionTask> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.CompletableFuture.AsynchronousCompletionTask.class.isAssignableFrom(sut));
         }
@@ -107,7 +107,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_allOf_CompletableFutureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -124,7 +124,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_anyOf_CompletableFutureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -140,7 +140,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_completedFuture_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -156,7 +156,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_runAsync_Runnable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -174,7 +174,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_runAsync_Runnable_Executor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -191,7 +191,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_supplyAsync_Supplier()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -209,7 +209,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_supplyAsync_Supplier_Executor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -218,7 +218,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.CompletableFuture<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.CompletableFuture.class.isAssignableFrom(sut));
     }

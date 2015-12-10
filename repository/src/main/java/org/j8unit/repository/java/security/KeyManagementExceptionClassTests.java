@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.KeyManagementExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KeyManagementExceptionClassTests<SUT extends Class<? extends java.security.KeyManagementException>>
+public abstract interface KeyManagementExceptionClassTests<SUT extends java.security.KeyManagementException>
 extends org.j8unit.repository.java.security.KeyExceptionClassTests<SUT> {
 
     /**
@@ -99,7 +99,7 @@ extends org.j8unit.repository.java.security.KeyExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.KeyManagementException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.KeyManagementException.class.isAssignableFrom(sut));
     }

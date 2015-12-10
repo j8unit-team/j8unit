@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FactoryConfigurationErrorClassTests<SUT extends Class<? extends javax.xml.parsers.FactoryConfigurationError>>
+public abstract interface FactoryConfigurationErrorClassTests<SUT extends javax.xml.parsers.FactoryConfigurationError>
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.parsers.FactoryConfigurationError> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.parsers.FactoryConfigurationError.class.isAssignableFrom(sut));
     }

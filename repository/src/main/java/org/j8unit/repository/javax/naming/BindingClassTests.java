@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.BindingTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BindingClassTests<SUT extends Class<? extends javax.naming.Binding>>
+public abstract interface BindingClassTests<SUT extends javax.naming.Binding>
 extends org.j8unit.repository.javax.naming.NameClassPairClassTests<SUT> {
 
     /**
@@ -97,7 +97,7 @@ extends org.j8unit.repository.javax.naming.NameClassPairClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.Binding> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.Binding.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.ActivationDataFlavorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivationDataFlavorClassTests<SUT extends Class<? extends javax.activation.ActivationDataFlavor>>
+public abstract interface ActivationDataFlavorClassTests<SUT extends javax.activation.ActivationDataFlavor>
 extends org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<SUT> {
 
     /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.activation.ActivationDataFlavor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.activation.ActivationDataFlavor.class.isAssignableFrom(sut));
     }

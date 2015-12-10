@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.PosixFileAttributeViewTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PosixFileAttributeViewClassTests<SUT extends Class<? extends java.nio.file.attribute.PosixFileAttributeView>>
+public abstract interface PosixFileAttributeViewClassTests<SUT extends java.nio.file.attribute.PosixFileAttributeView>
 extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewClassTests<SUT>,
 org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewClassTests<SUT> {
 
@@ -41,7 +41,7 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.attribute.PosixFileAttributeView> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.attribute.PosixFileAttributeView.class.isAssignableFrom(sut));
     }

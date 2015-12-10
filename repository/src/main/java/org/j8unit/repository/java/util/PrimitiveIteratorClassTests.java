@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PrimitiveIteratorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrimitiveIteratorClassTests<SUT extends Class<? extends java.util.PrimitiveIterator<T, T_CONS>>, T, T_CONS>
+public abstract interface PrimitiveIteratorClassTests<SUT extends java.util.PrimitiveIterator<T, T_CONS>, T, T_CONS>
 extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
 
     /**
@@ -55,13 +55,13 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfDoubleClassTests<SUT extends Class<? extends java.util.PrimitiveIterator.OfDouble>>
+    public static abstract interface OfDoubleClassTests<SUT extends java.util.PrimitiveIterator.OfDouble>
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT, java.lang.Double, java.util.function.DoubleConsumer> {
 
         @Override
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.PrimitiveIterator.OfDouble> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.PrimitiveIterator.OfDouble.class.isAssignableFrom(sut));
         }
@@ -97,13 +97,13 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfIntClassTests<SUT extends Class<? extends java.util.PrimitiveIterator.OfInt>>
+    public static abstract interface OfIntClassTests<SUT extends java.util.PrimitiveIterator.OfInt>
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT, java.lang.Integer, java.util.function.IntConsumer> {
 
         @Override
@@ -111,7 +111,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.PrimitiveIterator.OfInt> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.PrimitiveIterator.OfInt.class.isAssignableFrom(sut));
         }
@@ -139,13 +139,13 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfLongClassTests<SUT extends Class<? extends java.util.PrimitiveIterator.OfLong>>
+    public static abstract interface OfLongClassTests<SUT extends java.util.PrimitiveIterator.OfLong>
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT, java.lang.Long, java.util.function.LongConsumer> {
 
         @Override
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.PrimitiveIterator.OfLong> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.PrimitiveIterator.OfLong.class.isAssignableFrom(sut));
         }
@@ -165,7 +165,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, T> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.PrimitiveIterator<T, T_CONS>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.PrimitiveIterator.class.isAssignableFrom(sut));
     }

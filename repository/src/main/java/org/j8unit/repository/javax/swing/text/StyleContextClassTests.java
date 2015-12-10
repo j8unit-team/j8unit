@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.StyleContextTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StyleContextClassTests<SUT extends Class<? extends javax.swing.text.StyleContext>>
+public abstract interface StyleContextClassTests<SUT extends javax.swing.text.StyleContext>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeContextClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -58,13 +58,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface NamedStyleClassTests<SUT extends Class<? extends javax.swing.text.StyleContext.NamedStyle>>
+    public static abstract interface NamedStyleClassTests<SUT extends javax.swing.text.StyleContext.NamedStyle>
     extends org.j8unit.repository.javax.swing.text.StyleClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -122,7 +122,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.StyleContext.NamedStyle> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.StyleContext.NamedStyle.class.isAssignableFrom(sut));
         }
@@ -151,13 +151,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SmallAttributeSetClassTests<SUT extends Class<? extends javax.swing.text.StyleContext.SmallAttributeSet>>
+    public static abstract interface SmallAttributeSetClassTests<SUT extends javax.swing.text.StyleContext.SmallAttributeSet>
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -199,7 +199,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.StyleContext.SmallAttributeSet> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.StyleContext.SmallAttributeSet.class.isAssignableFrom(sut));
         }
@@ -231,7 +231,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void test_getDefaultStyleContext()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -247,7 +247,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void test_getStaticAttribute_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -263,7 +263,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void test_getStaticAttributeKey_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -282,7 +282,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void test_readAttributeSet_ObjectInputStream_MutableAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -298,7 +298,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void test_registerStaticAttributeKey_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -317,7 +317,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void test_writeAttributeSet_ObjectOutputStream_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -326,7 +326,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.StyleContext> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.StyleContext.class.isAssignableFrom(sut));
     }

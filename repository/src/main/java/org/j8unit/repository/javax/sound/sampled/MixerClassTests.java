@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.MixerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MixerClassTests<SUT extends Class<? extends javax.sound.sampled.Mixer>>
+public abstract interface MixerClassTests<SUT extends javax.sound.sampled.Mixer>
 extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
 
     /**
@@ -55,13 +55,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.MixerTests.InfoTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InfoClassTests<SUT extends Class<? extends javax.sound.sampled.Mixer.Info>>
+    public static abstract interface InfoClassTests<SUT extends javax.sound.sampled.Mixer.Info>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.sound.sampled.Mixer.Info> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.sound.sampled.Mixer.Info.class.isAssignableFrom(sut));
         }
@@ -81,7 +81,7 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.sampled.Mixer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.sampled.Mixer.class.isAssignableFrom(sut));
     }

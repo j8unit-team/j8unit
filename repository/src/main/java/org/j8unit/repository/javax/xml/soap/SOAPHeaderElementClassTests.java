@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.soap.SOAPHeaderElementTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SOAPHeaderElementClassTests<SUT extends Class<? extends javax.xml.soap.SOAPHeaderElement>>
+public abstract interface SOAPHeaderElementClassTests<SUT extends javax.xml.soap.SOAPHeaderElement>
 extends org.j8unit.repository.javax.xml.soap.SOAPElementClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.soap.SOAPHeaderElement> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.soap.SOAPHeaderElement.class.isAssignableFrom(sut));
     }

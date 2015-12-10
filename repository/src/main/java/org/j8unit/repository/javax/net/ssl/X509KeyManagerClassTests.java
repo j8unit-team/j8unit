@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.X509KeyManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface X509KeyManagerClassTests<SUT extends Class<? extends javax.net.ssl.X509KeyManager>>
+public abstract interface X509KeyManagerClassTests<SUT extends javax.net.ssl.X509KeyManager>
 extends org.j8unit.repository.javax.net.ssl.KeyManagerClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.net.ssl.X509KeyManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.net.ssl.X509KeyManager.class.isAssignableFrom(sut));
     }

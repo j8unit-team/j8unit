@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.JobKOctetsSupportedTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JobKOctetsSupportedClassTests<SUT extends Class<? extends javax.print.attribute.standard.JobKOctetsSupported>>
+public abstract interface JobKOctetsSupportedClassTests<SUT extends javax.print.attribute.standard.JobKOctetsSupported>
 extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
 
@@ -57,7 +57,7 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.JobKOctetsSupported> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.JobKOctetsSupported.class.isAssignableFrom(sut));
     }

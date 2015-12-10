@@ -1,6 +1,7 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code javax.print.attribute}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * {@code javax.print.attribute}.
  * </p>
  *
  * <p>

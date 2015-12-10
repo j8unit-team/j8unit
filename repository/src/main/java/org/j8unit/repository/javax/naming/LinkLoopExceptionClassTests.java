@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.LinkLoopExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkLoopExceptionClassTests<SUT extends Class<? extends javax.naming.LinkLoopException>>
+public abstract interface LinkLoopExceptionClassTests<SUT extends javax.naming.LinkLoopException>
 extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.LinkLoopException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.LinkLoopException.class.isAssignableFrom(sut));
     }

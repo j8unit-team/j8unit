@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.LookAndFeelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LookAndFeelClassTests<SUT extends Class<? extends javax.swing.LookAndFeel>>
+public abstract interface LookAndFeelClassTests<SUT extends javax.swing.LookAndFeel>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -61,7 +61,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getDesktopPropertyValue_String_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_installBorder_JComponent_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_installColors_JComponent_String_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_installColorsAndFont_JComponent_String_String_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -130,7 +130,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_installProperty_JComponent_String_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_loadKeyBindings_InputMap_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -163,7 +163,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_makeComponentInputMap_JComponent_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -179,7 +179,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_makeIcon_Class_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -195,7 +195,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_makeInputMap_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -211,7 +211,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_makeKeyBindings_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -227,7 +227,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_uninstallBorder_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -236,7 +236,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.LookAndFeel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.LookAndFeel.class.isAssignableFrom(sut));
     }

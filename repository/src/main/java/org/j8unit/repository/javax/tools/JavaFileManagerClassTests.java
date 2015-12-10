@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.JavaFileManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JavaFileManagerClassTests<SUT extends Class<? extends javax.tools.JavaFileManager>>
+public abstract interface JavaFileManagerClassTests<SUT extends javax.tools.JavaFileManager>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.io.FlushableClassTests<SUT>,
 org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
 
@@ -57,20 +57,20 @@ org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.JavaFileManagerTests.LocationTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LocationClassTests<SUT extends Class<? extends javax.tools.JavaFileManager.Location>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface LocationClassTests<SUT extends javax.tools.JavaFileManager.Location>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.tools.JavaFileManager.Location> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.tools.JavaFileManager.Location.class.isAssignableFrom(sut));
         }
@@ -82,7 +82,7 @@ org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.JavaFileManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.JavaFileManager.class.isAssignableFrom(sut));
     }

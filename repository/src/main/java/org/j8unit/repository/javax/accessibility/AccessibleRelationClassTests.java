@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleRelationTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleRelationClassTests<SUT extends Class<? extends javax.accessibility.AccessibleRelation>>
+public abstract interface AccessibleRelationClassTests<SUT extends javax.accessibility.AccessibleRelation>
 extends org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests<SUT> {
 
     /**
@@ -87,7 +87,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests<SUT
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.accessibility.AccessibleRelation> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.accessibility.AccessibleRelation.class.isAssignableFrom(sut));
     }

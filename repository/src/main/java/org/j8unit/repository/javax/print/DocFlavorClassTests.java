@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.DocFlavorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocFlavorClassTests<SUT extends Class<? extends javax.print.DocFlavor>>
+public abstract interface DocFlavorClassTests<SUT extends javax.print.DocFlavor>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -57,13 +57,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BYTE_ARRAYClassTests<SUT extends Class<? extends javax.print.DocFlavor.BYTE_ARRAY>>
+    public static abstract interface BYTE_ARRAYClassTests<SUT extends javax.print.DocFlavor.BYTE_ARRAY>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -85,7 +85,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.BYTE_ARRAY> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.BYTE_ARRAY.class.isAssignableFrom(sut));
         }
@@ -113,13 +113,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CHAR_ARRAYClassTests<SUT extends Class<? extends javax.print.DocFlavor.CHAR_ARRAY>>
+    public static abstract interface CHAR_ARRAYClassTests<SUT extends javax.print.DocFlavor.CHAR_ARRAY>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -141,7 +141,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.CHAR_ARRAY> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.CHAR_ARRAY.class.isAssignableFrom(sut));
         }
@@ -169,13 +169,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface INPUT_STREAMClassTests<SUT extends Class<? extends javax.print.DocFlavor.INPUT_STREAM>>
+    public static abstract interface INPUT_STREAMClassTests<SUT extends javax.print.DocFlavor.INPUT_STREAM>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -197,7 +197,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.INPUT_STREAM> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.INPUT_STREAM.class.isAssignableFrom(sut));
         }
@@ -225,13 +225,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.READERTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface READERClassTests<SUT extends Class<? extends javax.print.DocFlavor.READER>>
+    public static abstract interface READERClassTests<SUT extends javax.print.DocFlavor.READER>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -253,7 +253,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.READER> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.READER.class.isAssignableFrom(sut));
         }
@@ -281,13 +281,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SERVICE_FORMATTEDClassTests<SUT extends Class<? extends javax.print.DocFlavor.SERVICE_FORMATTED>>
+    public static abstract interface SERVICE_FORMATTEDClassTests<SUT extends javax.print.DocFlavor.SERVICE_FORMATTED>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -309,7 +309,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.SERVICE_FORMATTED> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.SERVICE_FORMATTED.class.isAssignableFrom(sut));
         }
@@ -337,13 +337,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface STRINGClassTests<SUT extends Class<? extends javax.print.DocFlavor.STRING>>
+    public static abstract interface STRINGClassTests<SUT extends javax.print.DocFlavor.STRING>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -365,7 +365,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.STRING> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.STRING.class.isAssignableFrom(sut));
         }
@@ -393,13 +393,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.URLTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface URLClassTests<SUT extends Class<? extends javax.print.DocFlavor.URL>>
+    public static abstract interface URLClassTests<SUT extends javax.print.DocFlavor.URL>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         /**
@@ -421,7 +421,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.DocFlavor.URL> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.URL.class.isAssignableFrom(sut));
         }
@@ -447,7 +447,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.DocFlavor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.DocFlavor.class.isAssignableFrom(sut));
     }

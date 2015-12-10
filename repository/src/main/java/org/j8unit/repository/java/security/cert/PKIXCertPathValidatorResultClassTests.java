@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PKIXCertPathValidatorResultClassTests<SUT extends Class<? extends java.security.cert.PKIXCertPathValidatorResult>>
+public abstract interface PKIXCertPathValidatorResultClassTests<SUT extends java.security.cert.PKIXCertPathValidatorResult>
 extends org.j8unit.repository.java.security.cert.CertPathValidatorResultClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -60,7 +60,7 @@ extends org.j8unit.repository.java.security.cert.CertPathValidatorResultClassTes
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.PKIXCertPathValidatorResult> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.PKIXCertPathValidatorResult.class.isAssignableFrom(sut));
     }

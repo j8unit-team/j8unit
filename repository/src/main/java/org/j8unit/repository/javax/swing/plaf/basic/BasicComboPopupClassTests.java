@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboPopupClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboPopup>>
+public abstract interface BasicComboPopupClassTests<SUT extends javax.swing.plaf.basic.BasicComboPopup>
 extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.InvocationKeyHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InvocationKeyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler>>
+    public static abstract interface InvocationKeyHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyAdapterClassTests<SUT> {
 
         /**
@@ -88,7 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler.class.isAssignableFrom(sut));
         }
@@ -117,13 +117,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.ListDataHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListDataHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboPopup.ListDataHandler>>
+    public static abstract interface ListDataHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboPopup.ListDataHandler>
     extends org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboPopup.ListDataHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboPopup.ListDataHandler.class.isAssignableFrom(sut));
         }
@@ -173,7 +173,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicComboPopup> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicComboPopup.class.isAssignableFrom(sut));
     }

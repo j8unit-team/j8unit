@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StyleConstantsClassTests<SUT extends Class<? extends javax.swing.text.StyleConstants>>
+public abstract interface StyleConstantsClassTests<SUT extends javax.swing.text.StyleConstants>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CharacterConstantsClassTests<SUT extends Class<? extends javax.swing.text.StyleConstants.CharacterConstants>>
+    public static abstract interface CharacterConstantsClassTests<SUT extends javax.swing.text.StyleConstants.CharacterConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<SUT>,
     org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
 
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.StyleConstants.CharacterConstants> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.StyleConstants.CharacterConstants.class.isAssignableFrom(sut));
         }
@@ -102,13 +102,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.ColorConstantsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorConstantsClassTests<SUT extends Class<? extends javax.swing.text.StyleConstants.ColorConstants>>
+    public static abstract interface ColorConstantsClassTests<SUT extends javax.swing.text.StyleConstants.ColorConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests<SUT>,
     org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<SUT>,
     org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
@@ -118,7 +118,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.StyleConstants.ColorConstants> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.StyleConstants.ColorConstants.class.isAssignableFrom(sut));
         }
@@ -147,13 +147,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.FontConstantsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FontConstantsClassTests<SUT extends Class<? extends javax.swing.text.StyleConstants.FontConstants>>
+    public static abstract interface FontConstantsClassTests<SUT extends javax.swing.text.StyleConstants.FontConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests<SUT>,
     org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<SUT>,
     org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
@@ -163,7 +163,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.StyleConstants.FontConstants> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.StyleConstants.FontConstants.class.isAssignableFrom(sut));
         }
@@ -192,13 +192,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParagraphConstantsClassTests<SUT extends Class<? extends javax.swing.text.StyleConstants.ParagraphConstants>>
+    public static abstract interface ParagraphConstantsClassTests<SUT extends javax.swing.text.StyleConstants.ParagraphConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ParagraphAttributeClassTests<SUT>,
     org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
 
@@ -207,7 +207,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.StyleConstants.ParagraphConstants> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.StyleConstants.ParagraphConstants.class.isAssignableFrom(sut));
         }
@@ -226,7 +226,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAlignment_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -242,7 +242,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getBackground_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -258,7 +258,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getBidiLevel_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -274,7 +274,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getComponent_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -290,7 +290,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFirstLineIndent_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -306,7 +306,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFontFamily_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -322,7 +322,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFontSize_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -338,7 +338,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getForeground_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -354,7 +354,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getIcon_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -370,7 +370,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getLeftIndent_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -386,7 +386,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getLineSpacing_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -402,7 +402,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getRightIndent_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -418,7 +418,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getSpaceAbove_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -434,7 +434,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getSpaceBelow_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -450,7 +450,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getTabSet_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -466,7 +466,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isBold_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -482,7 +482,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isItalic_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -498,7 +498,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isStrikeThrough_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -514,7 +514,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isSubscript_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -530,7 +530,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isSuperscript_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -546,7 +546,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isUnderline_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -562,7 +562,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setAlignment_MutableAttributeSet_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -579,7 +579,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setBackground_MutableAttributeSet_Color()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -595,7 +595,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setBidiLevel_MutableAttributeSet_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -611,7 +611,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setBold_MutableAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -629,7 +629,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setComponent_MutableAttributeSet_Component()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -646,7 +646,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setFirstLineIndent_MutableAttributeSet_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -664,7 +664,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setFontFamily_MutableAttributeSet_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -680,7 +680,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setFontSize_MutableAttributeSet_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -697,7 +697,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setForeground_MutableAttributeSet_Color()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -714,7 +714,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setIcon_MutableAttributeSet_Icon()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -730,7 +730,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setItalic_MutableAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -746,7 +746,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setLeftIndent_MutableAttributeSet_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -762,7 +762,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setLineSpacing_MutableAttributeSet_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -778,7 +778,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setRightIndent_MutableAttributeSet_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -794,7 +794,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setSpaceAbove_MutableAttributeSet_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -810,7 +810,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setSpaceBelow_MutableAttributeSet_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -827,7 +827,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setStrikeThrough_MutableAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -843,7 +843,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setSubscript_MutableAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -860,7 +860,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setSuperscript_MutableAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -878,7 +878,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setTabSet_MutableAttributeSet_TabSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -894,7 +894,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setUnderline_MutableAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -903,7 +903,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.StyleConstants> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.StyleConstants.class.isAssignableFrom(sut));
     }

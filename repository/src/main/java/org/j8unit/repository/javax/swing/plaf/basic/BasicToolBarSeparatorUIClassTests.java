@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarSeparatorUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicToolBarSeparatorUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicToolBarSeparatorUI>>
+public abstract interface BasicToolBarSeparatorUIClassTests<SUT extends javax.swing.plaf.basic.BasicToolBarSeparatorUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<SUT> {
 
     /**
@@ -65,7 +65,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -74,7 +74,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicToolBarSeparatorUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicToolBarSeparatorUI.class.isAssignableFrom(sut));
     }

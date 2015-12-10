@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.DocumentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentClassTests<SUT extends Class<? extends org.w3c.dom.Document>>
+public abstract interface DocumentClassTests<SUT extends org.w3c.dom.Document>
 extends org.j8unit.repository.org.w3c.dom.NodeClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.w3c.dom.Document> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.w3c.dom.Document.class.isAssignableFrom(sut));
     }

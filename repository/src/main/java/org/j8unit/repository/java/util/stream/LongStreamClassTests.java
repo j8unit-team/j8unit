@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.LongStreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LongStreamClassTests<SUT extends Class<? extends java.util.stream.LongStream>>
+public abstract interface LongStreamClassTests<SUT extends java.util.stream.LongStream>
 extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.lang.Long, java.util.stream.LongStream> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.LongStreamTests.BuilderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.stream.LongStream.Builder>>
+    public static abstract interface BuilderClassTests<SUT extends java.util.stream.LongStream.Builder>
     extends org.j8unit.repository.java.util.function.LongConsumerClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.stream.LongStream.Builder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.stream.LongStream.Builder.class.isAssignableFrom(sut));
         }
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_builder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -108,7 +108,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_concat_LongStream_LongStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_empty()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -140,7 +140,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_generate_LongSupplier()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -157,7 +157,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_iterate_long_LongUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -173,7 +173,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_of_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_of_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -205,7 +205,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_range_long_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -221,7 +221,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void test_rangeClosed_long_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -230,7 +230,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.stream.LongStream> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.stream.LongStream.class.isAssignableFrom(sut));
     }

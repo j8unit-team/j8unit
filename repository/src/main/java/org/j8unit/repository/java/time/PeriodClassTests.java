@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.PeriodTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PeriodClassTests<SUT extends Class<? extends java.time.Period>>
+public abstract interface PeriodClassTests<SUT extends java.time.Period>
 extends org.j8unit.repository.java.time.chrono.ChronoPeriodClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -48,7 +48,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_between_LocalDate_LocalDate()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_from_TemporalAmount()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -80,7 +80,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_of_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_ofDays_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_ofMonths_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -127,7 +127,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_ofWeeks_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -143,7 +143,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_ofYears_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -159,7 +159,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parse_CharSequence()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -168,7 +168,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.Period> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.Period.class.isAssignableFrom(sut));
     }

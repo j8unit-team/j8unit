@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.ResolveResultTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ResolveResultClassTests<SUT extends Class<? extends javax.naming.spi.ResolveResult>>
+public abstract interface ResolveResultClassTests<SUT extends javax.naming.spi.ResolveResult>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.spi.ResolveResult> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.spi.ResolveResult.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.GroupLayoutTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface GroupLayoutClassTests<SUT extends Class<? extends javax.swing.GroupLayout>>
+public abstract interface GroupLayoutClassTests<SUT extends javax.swing.GroupLayout>
 extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AlignmentClassTests<SUT extends Class<? extends javax.swing.GroupLayout.Alignment>>
+    public static abstract interface AlignmentClassTests<SUT extends javax.swing.GroupLayout.Alignment>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.GroupLayout.Alignment> {
 
         /**
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.GroupLayout.Alignment> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.GroupLayout.Alignment.class.isAssignableFrom(sut));
         }
@@ -131,13 +131,13 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface GroupClassTests<SUT extends Class<? extends javax.swing.GroupLayout.Group>>
+    public static abstract interface GroupClassTests<SUT extends javax.swing.GroupLayout.Group>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.GroupLayout.Group> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.GroupLayout.Group.class.isAssignableFrom(sut));
         }
@@ -173,13 +173,13 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.ParallelGroupTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParallelGroupClassTests<SUT extends Class<? extends javax.swing.GroupLayout.ParallelGroup>>
+    public static abstract interface ParallelGroupClassTests<SUT extends javax.swing.GroupLayout.ParallelGroup>
     extends org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<SUT> {
 
         @Override
@@ -187,7 +187,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.GroupLayout.ParallelGroup> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.GroupLayout.ParallelGroup.class.isAssignableFrom(sut));
         }
@@ -215,13 +215,13 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SequentialGroupClassTests<SUT extends Class<? extends javax.swing.GroupLayout.SequentialGroup>>
+    public static abstract interface SequentialGroupClassTests<SUT extends javax.swing.GroupLayout.SequentialGroup>
     extends org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<SUT> {
 
         @Override
@@ -229,7 +229,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.GroupLayout.SequentialGroup> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.GroupLayout.SequentialGroup.class.isAssignableFrom(sut));
         }
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.GroupLayout> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.GroupLayout.class.isAssignableFrom(sut));
     }

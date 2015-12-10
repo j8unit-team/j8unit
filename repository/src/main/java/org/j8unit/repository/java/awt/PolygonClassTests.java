@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PolygonTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PolygonClassTests<SUT extends Class<? extends java.awt.Polygon>>
+public abstract interface PolygonClassTests<SUT extends java.awt.Polygon>
 extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -67,7 +67,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Polygon> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Polygon.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicProgressBarUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicProgressBarUI>>
+public abstract interface BasicProgressBarUIClassTests<SUT extends javax.swing.plaf.basic.BasicProgressBarUI>
 extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests.ChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler>>
+    public static abstract interface ChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -88,7 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler.class.isAssignableFrom(sut));
         }
@@ -122,7 +122,7 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -131,7 +131,7 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicProgressBarUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicProgressBarUI.class.isAssignableFrom(sut));
     }

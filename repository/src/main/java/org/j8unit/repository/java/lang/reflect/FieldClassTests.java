@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.FieldTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FieldClassTests<SUT extends Class<? extends java.lang.reflect.Field>>
+public abstract interface FieldClassTests<SUT extends java.lang.reflect.Field>
 extends org.j8unit.repository.java.lang.reflect.MemberClassTests<SUT>, org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.reflect.MemberClassTests<SUT>, org.j8uni
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.reflect.Field> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.reflect.Field.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JListTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JListClassTests<SUT extends Class<? extends javax.swing.JList<E>>, E>
+public abstract interface JListClassTests<SUT extends javax.swing.JList<E>, E>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -57,13 +57,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JListTests.DropLocationTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.JList.DropLocation>>
+    public static abstract interface DropLocationClassTests<SUT extends javax.swing.JList.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JList.DropLocation> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JList.DropLocation.class.isAssignableFrom(sut));
         }
@@ -136,7 +136,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JList<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JList.class.isAssignableFrom(sut));
     }

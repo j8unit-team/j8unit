@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.color.ICC_ColorSpaceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ICC_ColorSpaceClassTests<SUT extends Class<? extends java.awt.color.ICC_ColorSpace>>
+public abstract interface ICC_ColorSpaceClassTests<SUT extends java.awt.color.ICC_ColorSpace>
 extends org.j8unit.repository.java.awt.color.ColorSpaceClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.color.ICC_ColorSpace> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.color.ICC_ColorSpace.class.isAssignableFrom(sut));
     }

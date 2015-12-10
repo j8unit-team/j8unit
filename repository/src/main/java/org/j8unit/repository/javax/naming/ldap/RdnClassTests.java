@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.RdnTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RdnClassTests<SUT extends Class<? extends javax.naming.ldap.Rdn>>
+public abstract interface RdnClassTests<SUT extends javax.naming.ldap.Rdn>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Object>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -104,7 +104,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_escapeValue_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -120,7 +120,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unescapeValue_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,7 +129,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.ldap.Rdn> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.ldap.Rdn.class.isAssignableFrom(sut));
     }

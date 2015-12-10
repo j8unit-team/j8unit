@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.loading.PrivateMLetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrivateMLetClassTests<SUT extends Class<? extends javax.management.loading.PrivateMLet>>
+public abstract interface PrivateMLetClassTests<SUT extends javax.management.loading.PrivateMLet>
 extends org.j8unit.repository.javax.management.loading.PrivateClassLoaderClassTests<SUT>, org.j8unit.repository.javax.management.loading.MLetClassTests<SUT> {
 
     /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.javax.management.loading.PrivateClassLoaderClassTe
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.loading.PrivateMLet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.loading.PrivateMLet.class.isAssignableFrom(sut));
     }

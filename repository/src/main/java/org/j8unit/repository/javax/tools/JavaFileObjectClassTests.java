@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.JavaFileObjectTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JavaFileObjectClassTests<SUT extends Class<? extends javax.tools.JavaFileObject>>
+public abstract interface JavaFileObjectClassTests<SUT extends javax.tools.JavaFileObject>
 extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.JavaFileObjectTests.KindTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KindClassTests<SUT extends Class<? extends javax.tools.JavaFileObject.Kind>>
+    public static abstract interface KindClassTests<SUT extends javax.tools.JavaFileObject.Kind>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.JavaFileObject.Kind> {
 
         /**
@@ -78,7 +78,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.tools.JavaFileObject.Kind> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.tools.JavaFileObject.Kind.class.isAssignableFrom(sut));
         }
@@ -115,7 +115,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.JavaFileObject> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.JavaFileObject.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.BindingIteratorPOATests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BindingIteratorPOAClassTests<SUT extends Class<? extends org.omg.CosNaming.BindingIteratorPOA>>
+public abstract interface BindingIteratorPOAClassTests<SUT extends org.omg.CosNaming.BindingIteratorPOA>
 extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsClassTests<SUT>,
 org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT>, org.j8unit.repository.org.omg.PortableServer.ServantClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT>, org.j
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CosNaming.BindingIteratorPOA> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CosNaming.BindingIteratorPOA.class.isAssignableFrom(sut));
     }

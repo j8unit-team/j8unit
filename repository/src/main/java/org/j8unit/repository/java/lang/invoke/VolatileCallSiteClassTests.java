@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.VolatileCallSiteTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VolatileCallSiteClassTests<SUT extends Class<? extends java.lang.invoke.VolatileCallSite>>
+public abstract interface VolatileCallSiteClassTests<SUT extends java.lang.invoke.VolatileCallSite>
 extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.invoke.VolatileCallSite> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.invoke.VolatileCallSite.class.isAssignableFrom(sut));
     }

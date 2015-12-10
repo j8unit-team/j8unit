@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.BufferCapabilitiesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BufferCapabilitiesClassTests<SUT extends Class<? extends java.awt.BufferCapabilities>>
+public abstract interface BufferCapabilitiesClassTests<SUT extends java.awt.BufferCapabilities>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.BufferCapabilitiesTests.FlipContentsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FlipContentsClassTests<SUT extends Class<? extends java.awt.BufferCapabilities.FlipContents>>
+    public static abstract interface FlipContentsClassTests<SUT extends java.awt.BufferCapabilities.FlipContents>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.BufferCapabilities.FlipContents> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.BufferCapabilities.FlipContents.class.isAssignableFrom(sut));
         }
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.BufferCapabilities> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.BufferCapabilities.class.isAssignableFrom(sut));
     }

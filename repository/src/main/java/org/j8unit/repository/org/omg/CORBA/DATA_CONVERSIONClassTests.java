@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DATA_CONVERSIONClassTests<SUT extends Class<? extends org.omg.CORBA.DATA_CONVERSION>>
+public abstract interface DATA_CONVERSIONClassTests<SUT extends org.omg.CORBA.DATA_CONVERSION>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
@@ -98,7 +98,7 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA.DATA_CONVERSION> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA.DATA_CONVERSION.class.isAssignableFrom(sut));
     }

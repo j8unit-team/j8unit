@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ArrayListTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayListClassTests<SUT extends Class<? extends java.util.ArrayList<E>>, E>
+public abstract interface ArrayListClassTests<SUT extends java.util.ArrayList<E>, E>
 extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
@@ -82,7 +82,7 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.ArrayList<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.ArrayList.class.isAssignableFrom(sut));
     }

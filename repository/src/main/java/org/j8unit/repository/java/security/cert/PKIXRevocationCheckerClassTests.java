@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PKIXRevocationCheckerClassTests<SUT extends Class<? extends java.security.cert.PKIXRevocationChecker>>
+public abstract interface PKIXRevocationCheckerClassTests<SUT extends java.security.cert.PKIXRevocationChecker>
 extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OptionClassTests<SUT extends Class<? extends java.security.cert.PKIXRevocationChecker.Option>>
+    public static abstract interface OptionClassTests<SUT extends java.security.cert.PKIXRevocationChecker.Option>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.PKIXRevocationChecker.Option> {
 
         /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.security.cert.PKIXRevocationChecker.Option> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.security.cert.PKIXRevocationChecker.Option.class.isAssignableFrom(sut));
         }
@@ -117,7 +117,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.PKIXRevocationChecker> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.PKIXRevocationChecker.class.isAssignableFrom(sut));
     }

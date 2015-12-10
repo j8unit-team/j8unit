@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.InvalidRelationIdExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvalidRelationIdExceptionClassTests<SUT extends Class<? extends javax.management.relation.InvalidRelationIdException>>
+public abstract interface InvalidRelationIdExceptionClassTests<SUT extends javax.management.relation.InvalidRelationIdException>
 extends org.j8unit.repository.javax.management.relation.RelationExceptionClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.javax.management.relation.RelationExceptionClassTe
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.relation.InvalidRelationIdException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.relation.InvalidRelationIdException.class.isAssignableFrom(sut));
     }

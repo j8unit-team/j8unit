@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboBoxUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI>>
+public abstract interface BasicComboBoxUIClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI>
 extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ComboBoxLayoutManagerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ComboBoxLayoutManagerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager>>
+    public static abstract interface ComboBoxLayoutManagerClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -88,7 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager.class.isAssignableFrom(sut));
         }
@@ -117,13 +117,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.FocusHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler>>
+    public static abstract interface FocusHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler.class.isAssignableFrom(sut));
         }
@@ -176,13 +176,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ItemHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ItemHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler>>
+    public static abstract interface ItemHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler>
     extends org.j8unit.repository.java.awt.event.ItemListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -206,7 +206,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler.class.isAssignableFrom(sut));
         }
@@ -235,13 +235,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.KeyHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler>>
+    public static abstract interface KeyHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyAdapterClassTests<SUT> {
 
         /**
@@ -265,7 +265,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler.class.isAssignableFrom(sut));
         }
@@ -294,13 +294,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ListDataHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListDataHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler>>
+    public static abstract interface ListDataHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler>
     extends org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -324,7 +324,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler.class.isAssignableFrom(sut));
         }
@@ -353,13 +353,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler>>
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -383,7 +383,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
@@ -417,7 +417,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -426,7 +426,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.class.isAssignableFrom(sut));
     }

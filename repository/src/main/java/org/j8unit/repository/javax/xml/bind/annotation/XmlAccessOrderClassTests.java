@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlAccessOrderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XmlAccessOrderClassTests<SUT extends Class<? extends javax.xml.bind.annotation.XmlAccessOrder>>
+public abstract interface XmlAccessOrderClassTests<SUT extends javax.xml.bind.annotation.XmlAccessOrder>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annotation.XmlAccessOrder> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annot
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annot
     public default void test_values()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annot
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.annotation.XmlAccessOrder> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.annotation.XmlAccessOrder.class.isAssignableFrom(sut));
     }

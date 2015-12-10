@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.KeyboardFocusManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KeyboardFocusManagerClassTests<SUT extends Class<? extends java.awt.KeyboardFocusManager>>
+public abstract interface KeyboardFocusManagerClassTests<SUT extends java.awt.KeyboardFocusManager>
 extends org.j8unit.repository.java.awt.KeyEventDispatcherClassTests<SUT>, org.j8unit.repository.java.awt.KeyEventPostProcessorClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -63,7 +63,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getCurrentKeyboardFocusManager()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setCurrentKeyboardFocusManager_KeyboardFocusManager()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -90,7 +90,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.KeyboardFocusManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.KeyboardFocusManager.class.isAssignableFrom(sut));
     }

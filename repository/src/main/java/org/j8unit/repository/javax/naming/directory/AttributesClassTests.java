@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.directory.AttributesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributesClassTests<SUT extends Class<? extends javax.naming.directory.Attributes>>
+public abstract interface AttributesClassTests<SUT extends javax.naming.directory.Attributes>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.directory.Attributes> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.directory.Attributes.class.isAssignableFrom(sut));
     }

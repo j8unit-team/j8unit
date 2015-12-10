@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.SocketChannelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SocketChannelClassTests<SUT extends Class<? extends java.nio.channels.SocketChannel>>
+public abstract interface SocketChannelClassTests<SUT extends java.nio.channels.SocketChannel>
 extends org.j8unit.repository.java.nio.channels.ByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.NetworkChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
@@ -50,7 +50,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<
     public default void test_open()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -67,7 +67,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<
     public default void test_open_SocketAddress()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -76,7 +76,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.SocketChannel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.SocketChannel.class.isAssignableFrom(sut));
     }

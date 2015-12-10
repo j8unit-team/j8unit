@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.ManifestTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ManifestClassTests<SUT extends Class<? extends java.util.jar.Manifest>>
+public abstract interface ManifestClassTests<SUT extends java.util.jar.Manifest>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -82,7 +82,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.jar.Manifest> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.jar.Manifest.class.isAssignableFrom(sut));
     }

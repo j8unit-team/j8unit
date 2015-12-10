@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.ssl.SslRMIClientSocketFactoryTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SslRMIClientSocketFactoryClassTests<SUT extends Class<? extends javax.rmi.ssl.SslRMIClientSocketFactory>>
+public abstract interface SslRMIClientSocketFactoryClassTests<SUT extends javax.rmi.ssl.SslRMIClientSocketFactory>
 extends org.j8unit.repository.java.rmi.server.RMIClientSocketFactoryClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.rmi.ssl.SslRMIClientSocketFactory> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.rmi.ssl.SslRMIClientSocketFactory.class.isAssignableFrom(sut));
     }

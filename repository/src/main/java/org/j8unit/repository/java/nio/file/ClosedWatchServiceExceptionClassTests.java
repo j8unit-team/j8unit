@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.ClosedWatchServiceExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ClosedWatchServiceExceptionClassTests<SUT extends Class<? extends java.nio.file.ClosedWatchServiceException>>
+public abstract interface ClosedWatchServiceExceptionClassTests<SUT extends java.nio.file.ClosedWatchServiceException>
 extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.ClosedWatchServiceException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.ClosedWatchServiceException.class.isAssignableFrom(sut));
     }

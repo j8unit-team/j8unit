@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.BooleanControlTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BooleanControlClassTests<SUT extends Class<? extends javax.sound.sampled.BooleanControl>>
+public abstract interface BooleanControlClassTests<SUT extends javax.sound.sampled.BooleanControl>
 extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
 
     /**
@@ -55,13 +55,13 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.BooleanControlTests.TypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TypeClassTests<SUT extends Class<? extends javax.sound.sampled.BooleanControl.Type>>
+    public static abstract interface TypeClassTests<SUT extends javax.sound.sampled.BooleanControl.Type>
     extends org.j8unit.repository.javax.sound.sampled.ControlClassTests.TypeClassTests<SUT> {
 
         @Override
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.sound.sampled.BooleanControl.Type> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.sound.sampled.BooleanControl.Type.class.isAssignableFrom(sut));
         }
@@ -81,7 +81,7 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.sampled.BooleanControl> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.sampled.BooleanControl.class.isAssignableFrom(sut));
     }

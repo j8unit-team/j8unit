@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.MidiDeviceTransmitterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MidiDeviceTransmitterClassTests<SUT extends Class<? extends javax.sound.midi.MidiDeviceTransmitter>>
+public abstract interface MidiDeviceTransmitterClassTests<SUT extends javax.sound.midi.MidiDeviceTransmitter>
 extends org.j8unit.repository.javax.sound.midi.TransmitterClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.sound.midi.TransmitterClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.midi.MidiDeviceTransmitter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.midi.MidiDeviceTransmitter.class.isAssignableFrom(sut));
     }

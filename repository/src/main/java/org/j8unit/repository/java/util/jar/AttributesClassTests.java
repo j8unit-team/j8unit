@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.AttributesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributesClassTests<SUT extends Class<? extends java.util.jar.Attributes>>
+public abstract interface AttributesClassTests<SUT extends java.util.jar.Attributes>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, java.lang.Object>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -58,13 +58,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.jar.AttributesTests.NameTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface NameClassTests<SUT extends Class<? extends java.util.jar.Attributes.Name>>
+    public static abstract interface NameClassTests<SUT extends java.util.jar.Attributes.Name>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.jar.Attributes.Name> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.jar.Attributes.Name.class.isAssignableFrom(sut));
         }
@@ -138,7 +138,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.jar.Attributes> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.jar.Attributes.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.events.MutationEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MutationEventClassTests<SUT extends Class<? extends org.w3c.dom.events.MutationEvent>>
+public abstract interface MutationEventClassTests<SUT extends org.w3c.dom.events.MutationEvent>
 extends org.j8unit.repository.org.w3c.dom.events.EventClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.w3c.dom.events.EventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.w3c.dom.events.MutationEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.w3c.dom.events.MutationEvent.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicTableUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTableUI>>
+public abstract interface BasicTableUIClassTests<SUT extends javax.swing.plaf.basic.BasicTableUI>
 extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.FocusHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTableUI.FocusHandler>>
+    public static abstract interface FocusHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTableUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -88,7 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTableUI.FocusHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTableUI.FocusHandler.class.isAssignableFrom(sut));
         }
@@ -117,13 +117,13 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTableUI.KeyHandler>>
+    public static abstract interface KeyHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTableUI.KeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTableUI.KeyHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTableUI.KeyHandler.class.isAssignableFrom(sut));
         }
@@ -176,13 +176,13 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.MouseInputHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MouseInputHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTableUI.MouseInputHandler>>
+    public static abstract interface MouseInputHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTableUI.MouseInputHandler>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -206,7 +206,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTableUI.MouseInputHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTableUI.MouseInputHandler.class.isAssignableFrom(sut));
         }
@@ -240,7 +240,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -249,7 +249,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicTableUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicTableUI.class.isAssignableFrom(sut));
     }

@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.FormatTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FormatClassTests<SUT extends Class<? extends java.text.Format>>
+public abstract interface FormatClassTests<SUT extends java.text.Format>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -55,13 +55,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.FormatTests.FieldTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FieldClassTests<SUT extends Class<? extends java.text.Format.Field>>
+    public static abstract interface FieldClassTests<SUT extends java.text.Format.Field>
     extends org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.AttributeClassTests<SUT> {
 
         @Override
@@ -69,7 +69,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.text.Format.Field> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.text.Format.Field.class.isAssignableFrom(sut));
         }
@@ -81,7 +81,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.Format> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.Format.class.isAssignableFrom(sut));
     }

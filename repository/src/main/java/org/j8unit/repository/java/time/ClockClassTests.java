@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.ClockTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ClockClassTests<SUT extends Class<? extends java.time.Clock>>
+public abstract interface ClockClassTests<SUT extends java.time.Clock>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fixed_Instant_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_offset_Clock_Duration()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_system_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_systemDefaultZone()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -110,7 +110,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_systemUTC()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_tick_Clock_Duration()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -142,7 +142,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_tickMinutes_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -158,7 +158,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_tickSeconds_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.Clock> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.Clock.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ExecutorsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExecutorsClassTests<SUT extends Class<? extends java.util.concurrent.Executors>>
+public abstract interface ExecutorsClassTests<SUT extends java.util.concurrent.Executors>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_callable_PrivilegedAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_callable_PrivilegedExceptionAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_callable_Runnable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_callable_Runnable_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_defaultThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,7 +129,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newCachedThreadPool()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newCachedThreadPool_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -162,7 +162,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newFixedThreadPool_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -179,7 +179,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newFixedThreadPool_int_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -195,7 +195,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newScheduledThreadPool_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newScheduledThreadPool_int_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -229,7 +229,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newSingleThreadExecutor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -246,7 +246,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newSingleThreadExecutor_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -262,7 +262,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newSingleThreadScheduledExecutor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -280,7 +280,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newSingleThreadScheduledExecutor_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -296,7 +296,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newWorkStealingPool()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -312,7 +312,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newWorkStealingPool_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -329,7 +329,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_privilegedCallable_Callable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -347,7 +347,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_privilegedCallableUsingCurrentClassLoader_Callable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -363,7 +363,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_privilegedThreadFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -381,7 +381,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unconfigurableExecutorService_ExecutorService()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -400,7 +400,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unconfigurableScheduledExecutorService_ScheduledExecutorService()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -409,7 +409,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.Executors> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.Executors.class.isAssignableFrom(sut));
     }

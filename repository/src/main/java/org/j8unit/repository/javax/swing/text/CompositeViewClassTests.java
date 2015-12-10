@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.CompositeViewTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompositeViewClassTests<SUT extends Class<? extends javax.swing.text.CompositeView>>
+public abstract interface CompositeViewClassTests<SUT extends javax.swing.text.CompositeView>
 extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.CompositeView> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.CompositeView.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SOAPBindingClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding>>
+public abstract interface SOAPBindingClassTests<SUT extends javax.jws.soap.SOAPBinding>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.ParameterStyleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParameterStyleClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding.ParameterStyle>>
+    public static abstract interface ParameterStyleClassTests<SUT extends javax.jws.soap.SOAPBinding.ParameterStyle>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.soap.SOAPBinding.ParameterStyle> {
 
         /**
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.jws.soap.SOAPBinding.ParameterStyle> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.jws.soap.SOAPBinding.ParameterStyle.class.isAssignableFrom(sut));
         }
@@ -132,13 +132,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StyleClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding.Style>>
+    public static abstract interface StyleClassTests<SUT extends javax.jws.soap.SOAPBinding.Style>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.soap.SOAPBinding.Style> {
 
         /**
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -178,7 +178,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.jws.soap.SOAPBinding.Style> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.jws.soap.SOAPBinding.Style.class.isAssignableFrom(sut));
         }
@@ -206,13 +206,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UseClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding.Use>>
+    public static abstract interface UseClassTests<SUT extends javax.jws.soap.SOAPBinding.Use>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.soap.SOAPBinding.Use> {
 
         /**
@@ -227,7 +227,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -243,7 +243,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -252,7 +252,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.jws.soap.SOAPBinding.Use> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.jws.soap.SOAPBinding.Use.class.isAssignableFrom(sut));
         }
@@ -264,7 +264,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.jws.soap.SOAPBinding> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.jws.soap.SOAPBinding.class.isAssignableFrom(sut));
     }

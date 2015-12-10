@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.JobAttributesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JobAttributesClassTests<SUT extends Class<? extends java.awt.JobAttributes>>
+public abstract interface JobAttributesClassTests<SUT extends java.awt.JobAttributes>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DefaultSelectionTypeClassTests<SUT extends Class<? extends java.awt.JobAttributes.DefaultSelectionType>>
+    public static abstract interface DefaultSelectionTypeClassTests<SUT extends java.awt.JobAttributes.DefaultSelectionType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.JobAttributes.DefaultSelectionType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.JobAttributes.DefaultSelectionType.class.isAssignableFrom(sut));
         }
@@ -100,13 +100,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DestinationTypeClassTests<SUT extends Class<? extends java.awt.JobAttributes.DestinationType>>
+    public static abstract interface DestinationTypeClassTests<SUT extends java.awt.JobAttributes.DestinationType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.JobAttributes.DestinationType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.JobAttributes.DestinationType.class.isAssignableFrom(sut));
         }
@@ -142,13 +142,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DialogTypeClassTests<SUT extends Class<? extends java.awt.JobAttributes.DialogType>>
+    public static abstract interface DialogTypeClassTests<SUT extends java.awt.JobAttributes.DialogType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -156,7 +156,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.JobAttributes.DialogType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.JobAttributes.DialogType.class.isAssignableFrom(sut));
         }
@@ -185,13 +185,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MultipleDocumentHandlingTypeClassTests<SUT extends Class<? extends java.awt.JobAttributes.MultipleDocumentHandlingType>>
+    public static abstract interface MultipleDocumentHandlingTypeClassTests<SUT extends java.awt.JobAttributes.MultipleDocumentHandlingType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -199,7 +199,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.JobAttributes.MultipleDocumentHandlingType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.JobAttributes.MultipleDocumentHandlingType.class.isAssignableFrom(sut));
         }
@@ -227,13 +227,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SidesTypeClassTests<SUT extends Class<? extends java.awt.JobAttributes.SidesType>>
+    public static abstract interface SidesTypeClassTests<SUT extends java.awt.JobAttributes.SidesType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -241,7 +241,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.JobAttributes.SidesType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.JobAttributes.SidesType.class.isAssignableFrom(sut));
         }
@@ -298,7 +298,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.JobAttributes> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.JobAttributes.class.isAssignableFrom(sut));
     }

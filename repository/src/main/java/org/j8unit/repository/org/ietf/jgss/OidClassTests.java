@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.ietf.jgss.OidTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OidClassTests<SUT extends Class<? extends org.ietf.jgss.Oid>>
+public abstract interface OidClassTests<SUT extends org.ietf.jgss.Oid>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -82,7 +82,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.ietf.jgss.Oid> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.ietf.jgss.Oid.class.isAssignableFrom(sut));
     }

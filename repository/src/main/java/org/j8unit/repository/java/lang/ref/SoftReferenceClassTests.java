@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ref.SoftReferenceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SoftReferenceClassTests<SUT extends Class<? extends java.lang.ref.SoftReference<T>>, T>
+public abstract interface SoftReferenceClassTests<SUT extends java.lang.ref.SoftReference<T>, T>
 extends org.j8unit.repository.java.lang.ref.ReferenceClassTests<SUT, T> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.lang.ref.ReferenceClassTests<SUT, T> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.ref.SoftReference<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.ref.SoftReference.class.isAssignableFrom(sut));
     }

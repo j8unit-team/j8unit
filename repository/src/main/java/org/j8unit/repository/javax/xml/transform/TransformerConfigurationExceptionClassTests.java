@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.TransformerConfigurationExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TransformerConfigurationExceptionClassTests<SUT extends Class<? extends javax.xml.transform.TransformerConfigurationException>>
+public abstract interface TransformerConfigurationExceptionClassTests<SUT extends javax.xml.transform.TransformerConfigurationException>
 extends org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTests<SUT> {
 
     /**
@@ -140,7 +140,7 @@ extends org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTests
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.transform.TransformerConfigurationException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.transform.TransformerConfigurationException.class.isAssignableFrom(sut));
     }

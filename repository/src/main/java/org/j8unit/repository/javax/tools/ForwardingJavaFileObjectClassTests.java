@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.ForwardingJavaFileObjectTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ForwardingJavaFileObjectClassTests<SUT extends Class<? extends javax.tools.ForwardingJavaFileObject<F>>, F extends javax.tools.JavaFileObject>
+public abstract interface ForwardingJavaFileObjectClassTests<SUT extends javax.tools.ForwardingJavaFileObject<F>, F extends javax.tools.JavaFileObject>
 extends org.j8unit.repository.javax.tools.JavaFileObjectClassTests<SUT>, org.j8unit.repository.javax.tools.ForwardingFileObjectClassTests<SUT, F> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectClassTests<SUT>, org.j8u
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.ForwardingJavaFileObject<F>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.ForwardingJavaFileObject.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.im.InputSubsetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InputSubsetClassTests<SUT extends Class<? extends java.awt.im.InputSubset>>
+public abstract interface InputSubsetClassTests<SUT extends java.awt.im.InputSubset>
 extends org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<SUT
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.im.InputSubset> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.im.InputSubset.class.isAssignableFrom(sut));
     }

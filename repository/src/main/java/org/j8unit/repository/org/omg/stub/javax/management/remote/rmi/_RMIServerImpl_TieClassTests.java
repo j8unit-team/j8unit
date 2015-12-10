@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServerImpl_TieTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _RMIServerImpl_TieClassTests<SUT extends Class<? extends org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie>>
+public abstract interface _RMIServerImpl_TieClassTests<SUT extends org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie>
 extends org.j8unit.repository.javax.rmi.CORBA.TieClassTests<SUT>, org.j8unit.repository.org.omg.CORBA_2_3.portable.ObjectImplClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.class.isAssignableFrom(sut));
     }

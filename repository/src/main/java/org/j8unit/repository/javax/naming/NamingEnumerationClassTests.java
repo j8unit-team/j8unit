@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.NamingEnumerationTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NamingEnumerationClassTests<SUT extends Class<? extends javax.naming.NamingEnumeration<T>>, T>
+public abstract interface NamingEnumerationClassTests<SUT extends javax.naming.NamingEnumeration<T>, T>
 extends org.j8unit.repository.java.util.EnumerationClassTests<SUT, T> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.util.EnumerationClassTests<SUT, T> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.NamingEnumeration<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.NamingEnumeration.class.isAssignableFrom(sut));
     }

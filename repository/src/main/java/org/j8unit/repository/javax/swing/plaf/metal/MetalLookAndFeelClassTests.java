@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalLookAndFeelClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalLookAndFeel>>
+public abstract interface MetalLookAndFeelClassTests<SUT extends javax.swing.plaf.metal.MetalLookAndFeel>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<SUT> {
 
     /**
@@ -62,7 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getAcceleratorForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -78,7 +78,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getAcceleratorSelectedForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getBlack()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -110,7 +110,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControl()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -126,7 +126,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlDarkShadow()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -142,7 +142,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlDisabled()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -158,7 +158,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlHighlight()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -174,7 +174,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlInfo()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -190,7 +190,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlShadow()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -206,7 +206,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlTextColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -222,7 +222,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getControlTextFont()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -238,7 +238,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getCurrentTheme()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -254,7 +254,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getDesktopColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -270,7 +270,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getFocusColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -286,7 +286,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getHighlightedTextColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -302,7 +302,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getInactiveControlTextColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -318,7 +318,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getInactiveSystemTextColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -334,7 +334,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getMenuBackground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -350,7 +350,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getMenuDisabledForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -366,7 +366,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getMenuForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -382,7 +382,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getMenuSelectedBackground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -398,7 +398,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getMenuSelectedForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -414,7 +414,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getMenuTextFont()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -430,7 +430,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getPrimaryControl()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -446,7 +446,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getPrimaryControlDarkShadow()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -462,7 +462,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getPrimaryControlHighlight()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -478,7 +478,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getPrimaryControlInfo()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -494,7 +494,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getPrimaryControlShadow()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -510,7 +510,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getSeparatorBackground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -526,7 +526,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getSeparatorForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -542,7 +542,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getSubTextFont()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -558,7 +558,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getSystemTextColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -574,7 +574,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getSystemTextFont()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -590,7 +590,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getTextHighlightColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -606,7 +606,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getUserTextColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -622,7 +622,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getUserTextFont()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -638,7 +638,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWhite()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -654,7 +654,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWindowBackground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -670,7 +670,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWindowTitleBackground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -686,7 +686,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWindowTitleFont()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -702,7 +702,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWindowTitleForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -718,7 +718,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWindowTitleInactiveBackground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -734,7 +734,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_getWindowTitleInactiveForeground()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -750,7 +750,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void test_setCurrentTheme_MetalTheme()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -759,7 +759,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalLookAndFeel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.metal.MetalLookAndFeel.class.isAssignableFrom(sut));
     }

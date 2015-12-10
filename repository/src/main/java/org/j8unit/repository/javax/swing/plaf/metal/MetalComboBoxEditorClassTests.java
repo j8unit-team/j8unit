@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalComboBoxEditorClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxEditor>>
+public abstract interface MetalComboBoxEditorClassTests<SUT extends javax.swing.plaf.metal.MetalComboBoxEditor>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTes
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests.UIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxEditor.UIResource>>
+    public static abstract interface UIResourceClassTests<SUT extends javax.swing.plaf.metal.MetalComboBoxEditor.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTes
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.metal.MetalComboBoxEditor.UIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.metal.MetalComboBoxEditor.UIResource.class.isAssignableFrom(sut));
         }
@@ -112,7 +112,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTes
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalComboBoxEditor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.metal.MetalComboBoxEditor.class.isAssignableFrom(sut));
     }

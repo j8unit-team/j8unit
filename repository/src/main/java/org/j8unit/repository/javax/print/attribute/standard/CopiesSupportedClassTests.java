@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.CopiesSupportedTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CopiesSupportedClassTests<SUT extends Class<? extends javax.print.attribute.standard.CopiesSupported>>
+public abstract interface CopiesSupportedClassTests<SUT extends javax.print.attribute.standard.CopiesSupported>
 extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
 
@@ -71,7 +71,7 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.CopiesSupported> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.CopiesSupported.class.isAssignableFrom(sut));
     }

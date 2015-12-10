@@ -27,14 +27,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextSupportTests
  */
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BeanContextSupportClassTests<SUT extends Class<? extends java.beans.beancontext.BeanContextSupport>>
+public abstract interface BeanContextSupportClassTests<SUT extends java.beans.beancontext.BeanContextSupport>
 extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests, org.j8unit.repository.java.io.SerializableClassTests,
 org.j8unit.repository.java.beans.PropertyChangeListenerClassTests, org.j8unit.repository.java.beans.VetoableChangeListenerClassTests,
 org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests {
@@ -122,14 +122,14 @@ org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests {
     // because of the "rawtypes" nature of this test class (caused
     // by the "rawtypes" nature of the class-under-test).
     @Override
-    public abstract SUT createNewSUT();
+    public abstract Class<SUT> createNewSUT();
 
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.beancontext.BeanContextSupport> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.beancontext.BeanContextSupport.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.ProviderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ProviderClassTests<SUT extends Class<? extends java.security.Provider>>
+public abstract interface ProviderClassTests<SUT extends java.security.Provider>
 extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.ProviderTests.ServiceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ServiceClassTests<SUT extends Class<? extends java.security.Provider.Service>>
+    public static abstract interface ServiceClassTests<SUT extends java.security.Provider.Service>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.security.Provider.Service> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.security.Provider.Service.class.isAssignableFrom(sut));
         }
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.Provider> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.Provider.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.ByteBufferTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ByteBufferClassTests<SUT extends Class<? extends java.nio.ByteBuffer>>
+public abstract interface ByteBufferClassTests<SUT extends java.nio.ByteBuffer>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
     /**
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteB
     public default void test_allocate_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteB
     public default void test_allocateDirect_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteB
     public default void test_wrap_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteB
     public default void test_wrap_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteB
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.ByteBuffer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.ByteBuffer.class.isAssignableFrom(sut));
     }

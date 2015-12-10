@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SpliteratorsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SpliteratorsClassTests<SUT extends Class<? extends java.util.Spliterators>>
+public abstract interface SpliteratorsClassTests<SUT extends java.util.Spliterators>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractDoubleSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractDoubleSpliterator>>
+    public static abstract interface AbstractDoubleSpliteratorClassTests<SUT extends java.util.Spliterators.AbstractDoubleSpliterator>
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterators.AbstractDoubleSpliterator> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterators.AbstractDoubleSpliterator.class.isAssignableFrom(sut));
         }
@@ -101,13 +101,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractIntSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractIntSpliterator>>
+    public static abstract interface AbstractIntSpliteratorClassTests<SUT extends java.util.Spliterators.AbstractIntSpliterator>
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -115,7 +115,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterators.AbstractIntSpliterator> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterators.AbstractIntSpliterator.class.isAssignableFrom(sut));
         }
@@ -144,13 +144,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractLongSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractLongSpliterator>>
+    public static abstract interface AbstractLongSpliteratorClassTests<SUT extends java.util.Spliterators.AbstractLongSpliterator>
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -158,7 +158,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterators.AbstractLongSpliterator> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterators.AbstractLongSpliterator.class.isAssignableFrom(sut));
         }
@@ -187,13 +187,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractSpliterator<T>>, T>
+    public static abstract interface AbstractSpliteratorClassTests<SUT extends java.util.Spliterators.AbstractSpliterator<T>, T>
     extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -201,7 +201,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterators.AbstractSpliterator<T>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterators.AbstractSpliterator.class.isAssignableFrom(sut));
         }
@@ -220,7 +220,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_emptyDoubleSpliterator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -236,7 +236,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_emptyIntSpliterator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -252,7 +252,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_emptyLongSpliterator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -268,7 +268,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_emptySpliterator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -284,7 +284,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_iterator_OfDouble()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -300,7 +300,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_iterator_OfInt()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -316,7 +316,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_iterator_OfLong()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -332,7 +332,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_iterator_Spliterator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -348,7 +348,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_Collection_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -364,7 +364,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -380,7 +380,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_doubleArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -396,7 +396,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_intArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -412,7 +412,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_intArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -428,7 +428,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_Iterator_long_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -444,7 +444,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_longArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -460,7 +460,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_longArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -476,7 +476,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_ObjectArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -492,7 +492,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_ObjectArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -509,7 +509,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_OfDouble_long_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -526,7 +526,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_OfInt_long_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -543,7 +543,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_OfLong_long_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -559,7 +559,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliteratorUnknownSize_Iterator_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -576,7 +576,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliteratorUnknownSize_OfDouble_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -593,7 +593,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliteratorUnknownSize_OfInt_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -610,7 +610,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliteratorUnknownSize_OfLong_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -619,7 +619,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Spliterators> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Spliterators.class.isAssignableFrom(sut));
     }

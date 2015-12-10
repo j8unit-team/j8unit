@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.sasl.SaslTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SaslClassTests<SUT extends Class<? extends javax.security.sasl.Sasl>>
+public abstract interface SaslClassTests<SUT extends javax.security.sasl.Sasl>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -51,7 +51,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createSaslClient_StringArray_String_String_String_Map_CallbackHandler()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createSaslServer_String_String_String_Map_CallbackHandler()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -86,7 +86,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getSaslClientFactories()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getSaslServerFactories()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.security.sasl.Sasl> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.security.sasl.Sasl.class.isAssignableFrom(sut));
     }

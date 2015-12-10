@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.helpers.ParserFactoryTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ParserFactoryClassTests<SUT extends Class<? extends org.xml.sax.helpers.ParserFactory>>
+public abstract interface ParserFactoryClassTests<SUT extends org.xml.sax.helpers.ParserFactory>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -50,7 +50,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_makeParser()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -68,7 +68,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_makeParser_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.xml.sax.helpers.ParserFactory> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.xml.sax.helpers.ParserFactory.class.isAssignableFrom(sut));
     }

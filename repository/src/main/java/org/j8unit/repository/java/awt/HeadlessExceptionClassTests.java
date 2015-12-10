@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.HeadlessExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HeadlessExceptionClassTests<SUT extends Class<? extends java.awt.HeadlessException>>
+public abstract interface HeadlessExceptionClassTests<SUT extends java.awt.HeadlessException>
 extends org.j8unit.repository.java.lang.UnsupportedOperationExceptionClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.java.lang.UnsupportedOperationExceptionClassTests<
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.HeadlessException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.HeadlessException.class.isAssignableFrom(sut));
     }

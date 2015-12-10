@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLClassTests<SUT extends Class<? extends javax.swing.text.html.HTML>>
+public abstract interface HTMLClassTests<SUT extends javax.swing.text.html.HTML>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AttributeClassTests<SUT extends Class<? extends javax.swing.text.html.HTML.Attribute>>
+    public static abstract interface AttributeClassTests<SUT extends javax.swing.text.html.HTML.Attribute>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTML.Attribute> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTML.Attribute.class.isAssignableFrom(sut));
         }
@@ -99,13 +99,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TagClassTests<SUT extends Class<? extends javax.swing.text.html.HTML.Tag>>
+    public static abstract interface TagClassTests<SUT extends javax.swing.text.html.HTML.Tag>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTML.Tag> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTML.Tag.class.isAssignableFrom(sut));
         }
@@ -154,13 +154,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLTests.UnknownTagTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UnknownTagClassTests<SUT extends Class<? extends javax.swing.text.html.HTML.UnknownTag>>
+    public static abstract interface UnknownTagClassTests<SUT extends javax.swing.text.html.HTML.UnknownTag>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests<SUT> {
 
         /**
@@ -182,7 +182,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTML.UnknownTag> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTML.UnknownTag.class.isAssignableFrom(sut));
         }
@@ -214,7 +214,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAllAttributeKeys()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -230,7 +230,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAllTags()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -246,7 +246,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAttributeKey_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -265,7 +265,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getIntegerAttributeValue_AttributeSet_Attribute_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -281,7 +281,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getTag_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -290,7 +290,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.html.HTML> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.html.HTML.class.isAssignableFrom(sut));
     }

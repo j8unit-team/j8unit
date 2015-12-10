@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractDocumentClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument>>
+public abstract interface AbstractDocumentClassTests<SUT extends javax.swing.text.AbstractDocument>
 extends org.j8unit.repository.javax.swing.text.DocumentClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -60,13 +60,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractElementClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.AbstractElement>>
+    public static abstract interface AbstractElementClassTests<SUT extends javax.swing.text.AbstractDocument.AbstractElement>
     extends org.j8unit.repository.javax.swing.text.ElementClassTests<SUT>, org.j8unit.repository.javax.swing.text.MutableAttributeSetClassTests<SUT>,
     org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeNodeClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -94,7 +94,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.AbstractElement> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.AbstractElement.class.isAssignableFrom(sut));
         }
@@ -123,20 +123,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AttributeContextClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.AttributeContext>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface AttributeContextClassTests<SUT extends javax.swing.text.AbstractDocument.AttributeContext>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.AttributeContext> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.AttributeContext.class.isAssignableFrom(sut));
         }
@@ -165,13 +165,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BranchElementClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.BranchElement>>
+    public static abstract interface BranchElementClassTests<SUT extends javax.swing.text.AbstractDocument.BranchElement>
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests<SUT> {
 
         /**
@@ -197,7 +197,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.BranchElement> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.BranchElement.class.isAssignableFrom(sut));
         }
@@ -226,20 +226,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ContentTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ContentClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.Content>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface ContentClassTests<SUT extends javax.swing.text.AbstractDocument.Content>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.Content> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.Content.class.isAssignableFrom(sut));
         }
@@ -268,13 +268,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DefaultDocumentEventClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.DefaultDocumentEvent>>
+    public static abstract interface DefaultDocumentEventClassTests<SUT extends javax.swing.text.AbstractDocument.DefaultDocumentEvent>
     extends org.j8unit.repository.javax.swing.event.DocumentEventClassTests<SUT>, org.j8unit.repository.javax.swing.undo.CompoundEditClassTests<SUT> {
 
         /**
@@ -300,7 +300,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.DefaultDocumentEvent> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.DefaultDocumentEvent.class.isAssignableFrom(sut));
         }
@@ -329,13 +329,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ElementEditClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.ElementEdit>>
+    public static abstract interface ElementEditClassTests<SUT extends javax.swing.text.AbstractDocument.ElementEdit>
     extends org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests<SUT>,
     org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SUT> {
 
@@ -362,7 +362,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.ElementEdit> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.ElementEdit.class.isAssignableFrom(sut));
         }
@@ -391,13 +391,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.LeafElementTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LeafElementClassTests<SUT extends Class<? extends javax.swing.text.AbstractDocument.LeafElement>>
+    public static abstract interface LeafElementClassTests<SUT extends javax.swing.text.AbstractDocument.LeafElement>
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests<SUT> {
 
         /**
@@ -423,7 +423,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AbstractDocument.LeafElement> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AbstractDocument.LeafElement.class.isAssignableFrom(sut));
         }
@@ -435,7 +435,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.AbstractDocument> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.AbstractDocument.class.isAssignableFrom(sut));
     }

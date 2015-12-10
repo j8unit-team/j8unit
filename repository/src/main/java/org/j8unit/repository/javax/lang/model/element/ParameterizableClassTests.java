@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.ParameterizableTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ParameterizableClassTests<SUT extends Class<? extends javax.lang.model.element.Parameterizable>>
+public abstract interface ParameterizableClassTests<SUT extends javax.lang.model.element.Parameterizable>
 extends org.j8unit.repository.javax.lang.model.element.ElementClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.lang.model.element.ElementClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.element.Parameterizable> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.element.Parameterizable.class.isAssignableFrom(sut));
     }

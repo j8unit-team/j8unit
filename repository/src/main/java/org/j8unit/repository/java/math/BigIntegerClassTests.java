@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.math.BigIntegerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BigIntegerClassTests<SUT extends Class<? extends java.math.BigInteger>>
+public abstract interface BigIntegerClassTests<SUT extends java.math.BigInteger>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigInteger>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
@@ -129,7 +129,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigI
     public default void test_probablePrime_int_Random()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigI
     public default void test_valueOf_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -154,7 +154,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigI
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.math.BigInteger> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.math.BigInteger.class.isAssignableFrom(sut));
     }

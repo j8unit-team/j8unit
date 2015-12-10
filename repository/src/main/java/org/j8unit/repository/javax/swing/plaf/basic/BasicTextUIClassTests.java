@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicTextUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI>>
+public abstract interface BasicTextUIClassTests<SUT extends javax.swing.plaf.basic.BasicTextUI>
 extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.TextUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicCaretClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicCaret>>
+    public static abstract interface BasicCaretClassTests<SUT extends javax.swing.plaf.basic.BasicTextUI.BasicCaret>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.text.DefaultCaretClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicCaret> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTextUI.BasicCaret.class.isAssignableFrom(sut));
         }
@@ -115,13 +115,13 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicHighlighterClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter>>
+    public static abstract interface BasicHighlighterClassTests<SUT extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<SUT> {
 
         /**
@@ -143,7 +143,7 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTextUI.BasicHighlighter.class.isAssignableFrom(sut));
         }
@@ -169,7 +169,7 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicTextUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicTextUI.class.isAssignableFrom(sut));
     }

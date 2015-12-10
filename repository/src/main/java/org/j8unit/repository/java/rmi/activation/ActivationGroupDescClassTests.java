@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivationGroupDescClassTests<SUT extends Class<? extends java.rmi.activation.ActivationGroupDesc>>
+public abstract interface ActivationGroupDescClassTests<SUT extends java.rmi.activation.ActivationGroupDesc>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests.CommandEnvironmentTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CommandEnvironmentClassTests<SUT extends Class<? extends java.rmi.activation.ActivationGroupDesc.CommandEnvironment>>
+    public static abstract interface CommandEnvironmentClassTests<SUT extends java.rmi.activation.ActivationGroupDesc.CommandEnvironment>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -88,7 +88,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.rmi.activation.ActivationGroupDesc.CommandEnvironment> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.rmi.activation.ActivationGroupDesc.CommandEnvironment.class.isAssignableFrom(sut));
         }
@@ -136,7 +136,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.activation.ActivationGroupDesc> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.activation.ActivationGroupDesc.class.isAssignableFrom(sut));
     }

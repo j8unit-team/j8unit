@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.MimetypesFileTypeMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MimetypesFileTypeMapClassTests<SUT extends Class<? extends javax.activation.MimetypesFileTypeMap>>
+public abstract interface MimetypesFileTypeMapClassTests<SUT extends javax.activation.MimetypesFileTypeMap>
 extends org.j8unit.repository.javax.activation.FileTypeMapClassTests<SUT> {
 
     /**
@@ -83,7 +83,7 @@ extends org.j8unit.repository.javax.activation.FileTypeMapClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.activation.MimetypesFileTypeMap> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.activation.MimetypesFileTypeMap.class.isAssignableFrom(sut));
     }

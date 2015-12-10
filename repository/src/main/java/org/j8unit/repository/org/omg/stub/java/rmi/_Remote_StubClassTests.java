@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _Remote_StubClassTests<SUT extends Class<? extends org.omg.stub.java.rmi._Remote_Stub>>
+public abstract interface _Remote_StubClassTests<SUT extends org.omg.stub.java.rmi._Remote_Stub>
 extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT>, org.j8unit.reposit
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.stub.java.rmi._Remote_Stub> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.stub.java.rmi._Remote_Stub.class.isAssignableFrom(sut));
     }

@@ -27,14 +27,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests
  */
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboBoxRendererClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer>>
+public abstract interface BasicComboBoxRendererClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxRenderer>
 extends org.j8unit.repository.javax.swing.ListCellRendererClassTests, org.j8unit.repository.java.io.SerializableClassTests,
 org.j8unit.repository.javax.swing.JLabelClassTests {
 
@@ -60,13 +60,13 @@ org.j8unit.repository.javax.swing.JLabelClassTests {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests.UIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource>>
+    public static abstract interface UIResourceClassTests<SUT extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests {
 
         /**
@@ -87,14 +87,14 @@ org.j8unit.repository.javax.swing.JLabelClassTests {
         // because of the "rawtypes" nature of this test class (caused
         // by the "rawtypes" nature of the class-under-test).
         @Override
-        public abstract SUT createNewSUT();
+        public abstract Class<SUT> createNewSUT();
 
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource.class.isAssignableFrom(sut));
         }
@@ -119,14 +119,14 @@ org.j8unit.repository.javax.swing.JLabelClassTests {
     // because of the "rawtypes" nature of this test class (caused
     // by the "rawtypes" nature of the class-under-test).
     @Override
-    public abstract SUT createNewSUT();
+    public abstract Class<SUT> createNewSUT();
 
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicComboBoxRenderer.class.isAssignableFrom(sut));
     }

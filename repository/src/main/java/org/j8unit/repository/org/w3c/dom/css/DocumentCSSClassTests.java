@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.css.DocumentCSSTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentCSSClassTests<SUT extends Class<? extends org.w3c.dom.css.DocumentCSS>>
+public abstract interface DocumentCSSClassTests<SUT extends org.w3c.dom.css.DocumentCSS>
 extends org.j8unit.repository.org.w3c.dom.stylesheets.DocumentStyleClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.DocumentStyleClassTests<SU
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.w3c.dom.css.DocumentCSS> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.w3c.dom.css.DocumentCSS.class.isAssignableFrom(sut));
     }

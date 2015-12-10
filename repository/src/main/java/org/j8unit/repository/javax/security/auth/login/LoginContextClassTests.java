@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.login.LoginContextTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LoginContextClassTests<SUT extends Class<? extends javax.security.auth.login.LoginContext>>
+public abstract interface LoginContextClassTests<SUT extends javax.security.auth.login.LoginContext>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.security.auth.login.LoginContext> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.security.auth.login.LoginContext.class.isAssignableFrom(sut));
     }

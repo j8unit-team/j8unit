@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MediaSizeClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize>>
+public abstract interface MediaSizeClassTests<SUT extends javax.print.attribute.standard.MediaSize>
 extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.Size2DSyntaxClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.EngineeringTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EngineeringClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.Engineering>>
+    public static abstract interface EngineeringClassTests<SUT extends javax.print.attribute.standard.MediaSize.Engineering>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -72,7 +72,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.attribute.standard.MediaSize.Engineering> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.attribute.standard.MediaSize.Engineering.class.isAssignableFrom(sut));
         }
@@ -101,13 +101,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.ISOTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ISOClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.ISO>>
+    public static abstract interface ISOClassTests<SUT extends javax.print.attribute.standard.MediaSize.ISO>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -115,7 +115,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.attribute.standard.MediaSize.ISO> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.attribute.standard.MediaSize.ISO.class.isAssignableFrom(sut));
         }
@@ -144,13 +144,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface JISClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.JIS>>
+    public static abstract interface JISClassTests<SUT extends javax.print.attribute.standard.MediaSize.JIS>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -158,7 +158,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.attribute.standard.MediaSize.JIS> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.attribute.standard.MediaSize.JIS.class.isAssignableFrom(sut));
         }
@@ -187,13 +187,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface NAClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.NA>>
+    public static abstract interface NAClassTests<SUT extends javax.print.attribute.standard.MediaSize.NA>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -201,7 +201,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.attribute.standard.MediaSize.NA> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.attribute.standard.MediaSize.NA.class.isAssignableFrom(sut));
         }
@@ -230,13 +230,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OtherClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.Other>>
+    public static abstract interface OtherClassTests<SUT extends javax.print.attribute.standard.MediaSize.Other>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -244,7 +244,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.print.attribute.standard.MediaSize.Other> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.attribute.standard.MediaSize.Other.class.isAssignableFrom(sut));
         }
@@ -324,7 +324,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
     public default void test_findMedia_float_float_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -342,7 +342,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
     public default void test_getMediaSizeForName_MediaSizeName()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -351,7 +351,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.MediaSize> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.MediaSize.class.isAssignableFrom(sut));
     }

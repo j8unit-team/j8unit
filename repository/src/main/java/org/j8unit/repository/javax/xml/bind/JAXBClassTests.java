@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.JAXBTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JAXBClassTests<SUT extends Class<? extends javax.xml.bind.JAXB>>
+public abstract interface JAXBClassTests<SUT extends javax.xml.bind.JAXB>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_File()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_OutputStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_Result()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_URI()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -127,7 +127,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_URL()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -143,7 +143,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_marshal_Object_Writer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -159,7 +159,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_File_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -175,7 +175,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_InputStream_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -191,7 +191,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_Reader_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -207,7 +207,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_Source_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -223,7 +223,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_String_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -239,7 +239,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_URI_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmarshal_URL_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -264,7 +264,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.JAXB> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.JAXB.class.isAssignableFrom(sut));
     }

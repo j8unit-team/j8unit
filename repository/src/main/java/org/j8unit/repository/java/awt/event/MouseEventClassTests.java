@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.MouseEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MouseEventClassTests<SUT extends Class<? extends java.awt.event.MouseEvent>>
+public abstract interface MouseEventClassTests<SUT extends java.awt.event.MouseEvent>
 extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
 
     /**
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
     public default void test_getMouseModifiersText_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.event.MouseEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.event.MouseEvent.class.isAssignableFrom(sut));
     }

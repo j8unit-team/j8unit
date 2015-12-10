@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.XMLEncoderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLEncoderClassTests<SUT extends Class<? extends java.beans.XMLEncoder>>
+public abstract interface XMLEncoderClassTests<SUT extends java.beans.XMLEncoder>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit.repository.java.beans.EncoderClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.XMLEncoder> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.XMLEncoder.class.isAssignableFrom(sut));
     }

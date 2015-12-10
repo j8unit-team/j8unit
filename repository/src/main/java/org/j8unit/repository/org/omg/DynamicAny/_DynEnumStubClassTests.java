@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny._DynEnumStubTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _DynEnumStubClassTests<SUT extends Class<? extends org.omg.DynamicAny._DynEnumStub>>
+public abstract interface _DynEnumStubClassTests<SUT extends org.omg.DynamicAny._DynEnumStub>
 extends org.j8unit.repository.org.omg.DynamicAny.DynEnumClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
 
     /**
@@ -54,7 +54,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynEnumClassTests<SUT>, org.j8u
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.DynamicAny._DynEnumStub> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.DynamicAny._DynEnumStub.class.isAssignableFrom(sut));
     }

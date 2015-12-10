@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.HashtableTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HashtableClassTests<SUT extends Class<? extends java.util.Hashtable<K, V>>, K, V>
+public abstract interface HashtableClassTests<SUT extends java.util.Hashtable<K, V>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.DictionaryClassTests<SUT, K, V> {
 
@@ -93,7 +93,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Hashtable<K, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Hashtable.class.isAssignableFrom(sut));
     }

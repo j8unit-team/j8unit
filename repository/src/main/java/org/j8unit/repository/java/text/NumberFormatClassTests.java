@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.NumberFormatTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NumberFormatClassTests<SUT extends Class<? extends java.text.NumberFormat>>
+public abstract interface NumberFormatClassTests<SUT extends java.text.NumberFormat>
 extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.NumberFormatTests.FieldTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FieldClassTests<SUT extends Class<? extends java.text.NumberFormat.Field>>
+    public static abstract interface FieldClassTests<SUT extends java.text.NumberFormat.Field>
     extends org.j8unit.repository.java.text.FormatClassTests.FieldClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.text.NumberFormat.Field> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.text.NumberFormat.Field.class.isAssignableFrom(sut));
         }
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getAvailableLocales()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -106,7 +106,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getCurrencyInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getCurrencyInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -138,7 +138,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -154,7 +154,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -170,7 +170,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getIntegerInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -186,7 +186,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getIntegerInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -202,7 +202,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getNumberInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -218,7 +218,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getNumberInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -234,7 +234,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getPercentInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -250,7 +250,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getPercentInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -259,7 +259,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.NumberFormat> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.NumberFormat.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.IntBufferTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IntBufferClassTests<SUT extends Class<? extends java.nio.IntBuffer>>
+public abstract interface IntBufferClassTests<SUT extends java.nio.IntBuffer>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.IntBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
     /**
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.IntBu
     public default void test_allocate_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.IntBu
     public default void test_wrap_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.IntBu
     public default void test_wrap_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -88,7 +88,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.IntBu
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.IntBuffer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.IntBuffer.class.isAssignableFrom(sut));
     }

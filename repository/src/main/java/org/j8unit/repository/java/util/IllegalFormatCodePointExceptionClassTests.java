@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IllegalFormatCodePointExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IllegalFormatCodePointExceptionClassTests<SUT extends Class<? extends java.util.IllegalFormatCodePointException>>
+public abstract interface IllegalFormatCodePointExceptionClassTests<SUT extends java.util.IllegalFormatCodePointException>
 extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.IllegalFormatCodePointException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.IllegalFormatCodePointException.class.isAssignableFrom(sut));
     }

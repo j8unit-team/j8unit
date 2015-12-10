@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FilesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FilesClassTests<SUT extends Class<? extends java.nio.file.Files>>
+public abstract interface FilesClassTests<SUT extends java.nio.file.Files>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -49,7 +49,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copy_InputStream_Path_CopyOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copy_Path_OutputStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -83,7 +83,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copy_Path_Path_CopyOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createDirectories_Path_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createDirectory_Path_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -139,7 +139,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createFile_Path_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -156,7 +156,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createLink_Path_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -175,7 +175,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createSymbolicLink_Path_Path_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -194,7 +194,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createTempDirectory_Path_String_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createTempDirectory_String_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createTempFile_Path_String_String_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -251,7 +251,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createTempFile_String_String_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -267,7 +267,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_delete_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -283,7 +283,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_deleteIfExists_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -299,7 +299,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_exists_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -318,7 +318,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_find_Path_int_BiPredicate_FileVisitOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -337,7 +337,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAttribute_Path_String_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -355,7 +355,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFileAttributeView_Path_Class_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -371,7 +371,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFileStore_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -389,7 +389,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getLastModifiedTime_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -406,7 +406,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getOwner_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -424,7 +424,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getPosixFilePermissions_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -440,7 +440,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isDirectory_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -456,7 +456,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isExecutable_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -472,7 +472,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isHidden_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -488,7 +488,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isReadable_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -504,7 +504,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isRegularFile_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -520,7 +520,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isSameFile_Path_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -536,7 +536,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isSymbolicLink_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -552,7 +552,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isWritable_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -568,7 +568,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_lines_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -585,7 +585,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_lines_Path_Charset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -601,7 +601,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_list_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -619,7 +619,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_move_Path_Path_CopyOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -635,7 +635,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newBufferedReader_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -652,7 +652,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newBufferedReader_Path_Charset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -671,7 +671,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newBufferedWriter_Path_Charset_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -689,7 +689,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newBufferedWriter_Path_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -706,7 +706,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newByteChannel_Path_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -725,7 +725,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newByteChannel_Path_Set_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -742,7 +742,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newDirectoryStream_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -761,7 +761,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newDirectoryStream_Path_Filter()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -778,7 +778,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newDirectoryStream_Path_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -795,7 +795,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newInputStream_Path_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -812,7 +812,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newOutputStream_Path_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -828,7 +828,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_notExists_Path_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -844,7 +844,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_probeContentType_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -860,7 +860,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_readAllBytes_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -876,7 +876,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_readAllLines_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -893,7 +893,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_readAllLines_Path_Charset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -912,7 +912,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_readAttributes_Path_Class_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -931,7 +931,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_readAttributes_Path_String_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -947,7 +947,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_readSymbolicLink_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -966,7 +966,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setAttribute_Path_String_Object_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -984,7 +984,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setLastModifiedTime_Path_FileTime()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1002,7 +1002,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setOwner_Path_UserPrincipal()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1019,7 +1019,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setPosixFilePermissions_Path_Set()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1035,7 +1035,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_size_Path()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1052,7 +1052,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_walk_Path_FileVisitOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1069,7 +1069,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_walk_Path_int_FileVisitOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1086,7 +1086,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_walkFileTree_Path_FileVisitor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1105,7 +1105,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_walkFileTree_Path_Set_int_FileVisitor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1122,7 +1122,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_write_Path_byteArray_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1141,7 +1141,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_write_Path_Iterable_Charset_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1159,7 +1159,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_write_Path_Iterable_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1168,7 +1168,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.Files> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.Files.class.isAssignableFrom(sut));
     }

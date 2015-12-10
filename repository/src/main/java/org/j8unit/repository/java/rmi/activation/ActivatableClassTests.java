@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivatableTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivatableClassTests<SUT extends Class<? extends java.rmi.activation.Activatable>>
+public abstract interface ActivatableClassTests<SUT extends java.rmi.activation.Activatable>
 extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
 
     /**
@@ -51,7 +51,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote_ActivationID_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote_ActivationID_int_RMIClientSocketFactory_RMIServerSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,7 +89,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote_String_MarshalledObject_boolean_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -108,7 +108,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote_String_MarshalledObject_boolean_int_RMIClientSocketFactory_RMIServerSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_inactive_ActivationID()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -142,7 +142,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_register_ActivationDesc()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -159,7 +159,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_unexportObject_Remote_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -176,7 +176,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_unregister_ActivationID()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -185,7 +185,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.activation.Activatable> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.activation.Activatable.class.isAssignableFrom(sut));
     }

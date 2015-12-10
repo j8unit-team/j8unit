@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JColorChooserTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JColorChooserClassTests<SUT extends Class<? extends javax.swing.JColorChooser>>
+public abstract interface JColorChooserClassTests<SUT extends javax.swing.JColorChooser>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
@@ -93,7 +93,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createDialog_Component_String_boolean_JColorChooser_ActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_showDialog_Component_String_Color()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -120,7 +120,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JColorChooser> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JColorChooser.class.isAssignableFrom(sut));
     }

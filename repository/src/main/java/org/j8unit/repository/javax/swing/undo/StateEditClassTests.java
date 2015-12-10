@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.undo.StateEditTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StateEditClassTests<SUT extends Class<? extends javax.swing.undo.StateEdit>>
+public abstract interface StateEditClassTests<SUT extends javax.swing.undo.StateEdit>
 extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SU
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.undo.StateEdit> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.undo.StateEdit.class.isAssignableFrom(sut));
     }

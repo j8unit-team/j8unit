@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.DragSourceContextTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DragSourceContextClassTests<SUT extends Class<? extends java.awt.dnd.DragSourceContext>>
+public abstract interface DragSourceContextClassTests<SUT extends java.awt.dnd.DragSourceContext>
 extends org.j8unit.repository.java.awt.dnd.DragSourceListenerClassTests<SUT>, org.j8unit.repository.java.awt.dnd.DragSourceMotionListenerClassTests<SUT>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -60,7 +60,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.dnd.DragSourceContext> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.dnd.DragSourceContext.class.isAssignableFrom(sut));
     }

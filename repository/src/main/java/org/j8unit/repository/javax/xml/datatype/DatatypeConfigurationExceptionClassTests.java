@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DatatypeConfigurationExceptionClassTests<SUT extends Class<? extends javax.xml.datatype.DatatypeConfigurationException>>
+public abstract interface DatatypeConfigurationExceptionClassTests<SUT extends javax.xml.datatype.DatatypeConfigurationException>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.datatype.DatatypeConfigurationException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.datatype.DatatypeConfigurationException.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.math.BigDecimalTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BigDecimalClassTests<SUT extends Class<? extends java.math.BigDecimal>>
+public abstract interface BigDecimalClassTests<SUT extends java.math.BigDecimal>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigDecimal>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
@@ -267,7 +267,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     public default void test_valueOf_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -283,7 +283,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     public default void test_valueOf_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -299,7 +299,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     public default void test_valueOf_long_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -308,7 +308,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.math.BigDecimal> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.math.BigDecimal.class.isAssignableFrom(sut));
     }

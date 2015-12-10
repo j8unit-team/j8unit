@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.DosFileAttributeViewTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DosFileAttributeViewClassTests<SUT extends Class<? extends java.nio.file.attribute.DosFileAttributeView>>
+public abstract interface DosFileAttributeViewClassTests<SUT extends java.nio.file.attribute.DosFileAttributeView>
 extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewClas
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.attribute.DosFileAttributeView> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.attribute.DosFileAttributeView.class.isAssignableFrom(sut));
     }

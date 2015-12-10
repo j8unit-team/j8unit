@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JComboBoxTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JComboBoxClassTests<SUT extends Class<? extends javax.swing.JComboBox<E>>, E>
+public abstract interface JComboBoxClassTests<SUT extends javax.swing.JComboBox<E>, E>
 extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
@@ -60,20 +60,20 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JComboBoxTests.KeySelectionManagerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeySelectionManagerClassTests<SUT extends Class<? extends javax.swing.JComboBox.KeySelectionManager>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface KeySelectionManagerClassTests<SUT extends javax.swing.JComboBox.KeySelectionManager>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JComboBox.KeySelectionManager> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JComboBox.KeySelectionManager.class.isAssignableFrom(sut));
         }
@@ -140,7 +140,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JComboBox<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JComboBox.class.isAssignableFrom(sut));
     }

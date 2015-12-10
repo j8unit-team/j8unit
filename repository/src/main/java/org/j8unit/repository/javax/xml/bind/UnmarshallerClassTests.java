@@ -28,14 +28,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.UnmarshallerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnmarshallerClassTests<SUT extends Class<? extends javax.xml.bind.Unmarshaller>>
-extends J8UnitTest<SUT> {
+public abstract interface UnmarshallerClassTests<SUT extends javax.xml.bind.Unmarshaller>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -58,13 +58,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.bind.UnmarshallerTests.ListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListenerClassTests<SUT extends Class<? extends javax.xml.bind.Unmarshaller.Listener>>
+    public static abstract interface ListenerClassTests<SUT extends javax.xml.bind.Unmarshaller.Listener>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.xml.bind.Unmarshaller.Listener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.xml.bind.Unmarshaller.Listener.class.isAssignableFrom(sut));
         }
@@ -97,7 +97,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.Unmarshaller> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.Unmarshaller.class.isAssignableFrom(sut));
     }

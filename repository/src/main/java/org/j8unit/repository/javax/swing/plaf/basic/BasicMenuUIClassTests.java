@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicMenuUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicMenuUI>>
+public abstract interface BasicMenuUIClassTests<SUT extends javax.swing.plaf.basic.BasicMenuUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests.ChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicMenuUI.ChangeHandler>>
+    public static abstract interface ChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicMenuUI.ChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -90,7 +90,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicMenuUI.ChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicMenuUI.ChangeHandler.class.isAssignableFrom(sut));
         }
@@ -124,7 +124,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -133,7 +133,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicMenuUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicMenuUI.class.isAssignableFrom(sut));
     }

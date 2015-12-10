@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming._NamingContextExtStubTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _NamingContextExtStubClassTests<SUT extends Class<? extends org.omg.CosNaming._NamingContextExtStub>>
+public abstract interface _NamingContextExtStubClassTests<SUT extends org.omg.CosNaming._NamingContextExtStub>
 extends org.j8unit.repository.org.omg.CosNaming.NamingContextExtClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextExtClassTests<SUT>,
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CosNaming._NamingContextExtStub> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CosNaming._NamingContextExtStub.class.isAssignableFrom(sut));
     }

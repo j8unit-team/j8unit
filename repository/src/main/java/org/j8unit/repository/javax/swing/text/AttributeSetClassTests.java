@@ -26,14 +26,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.AttributeSetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributeSetClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet>>
-extends J8UnitTest<SUT> {
+public abstract interface AttributeSetClassTests<SUT extends javax.swing.text.AttributeSet>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -57,20 +57,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CharacterAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.CharacterAttribute>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface CharacterAttributeClassTests<SUT extends javax.swing.text.AttributeSet.CharacterAttribute>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AttributeSet.CharacterAttribute> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AttributeSet.CharacterAttribute.class.isAssignableFrom(sut));
         }
@@ -99,20 +99,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.ColorAttribute>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface ColorAttributeClassTests<SUT extends javax.swing.text.AttributeSet.ColorAttribute>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AttributeSet.ColorAttribute> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AttributeSet.ColorAttribute.class.isAssignableFrom(sut));
         }
@@ -141,20 +141,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FontAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.FontAttribute>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface FontAttributeClassTests<SUT extends javax.swing.text.AttributeSet.FontAttribute>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AttributeSet.FontAttribute> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AttributeSet.FontAttribute.class.isAssignableFrom(sut));
         }
@@ -183,20 +183,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.ParagraphAttributeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParagraphAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.ParagraphAttribute>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface ParagraphAttributeClassTests<SUT extends javax.swing.text.AttributeSet.ParagraphAttribute>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AttributeSet.ParagraphAttribute> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AttributeSet.ParagraphAttribute.class.isAssignableFrom(sut));
         }
@@ -207,7 +207,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.AttributeSet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.AttributeSet.class.isAssignableFrom(sut));
     }

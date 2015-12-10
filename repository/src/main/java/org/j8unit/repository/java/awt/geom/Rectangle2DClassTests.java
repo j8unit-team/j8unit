@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.Rectangle2DTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface Rectangle2DClassTests<SUT extends Class<? extends java.awt.geom.Rectangle2D>>
+public abstract interface Rectangle2DClassTests<SUT extends java.awt.geom.Rectangle2D>
 extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Rectangle2DTests.DoubleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DoubleClassTests<SUT extends Class<? extends java.awt.geom.Rectangle2D.Double>>
+    public static abstract interface DoubleClassTests<SUT extends java.awt.geom.Rectangle2D.Double>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
 
         /**
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.geom.Rectangle2D.Double> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.geom.Rectangle2D.Double.class.isAssignableFrom(sut));
         }
@@ -126,13 +126,13 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Rectangle2DTests.FloatTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FloatClassTests<SUT extends Class<? extends java.awt.geom.Rectangle2D.Float>>
+    public static abstract interface FloatClassTests<SUT extends java.awt.geom.Rectangle2D.Float>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
 
         /**
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.geom.Rectangle2D.Float> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.geom.Rectangle2D.Float.class.isAssignableFrom(sut));
         }
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     public default void test_intersect_Rectangle2D_Rectangle2D_Rectangle2D()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -207,7 +207,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     public default void test_union_Rectangle2D_Rectangle2D_Rectangle2D()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -216,7 +216,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.geom.Rectangle2D> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.geom.Rectangle2D.class.isAssignableFrom(sut));
     }

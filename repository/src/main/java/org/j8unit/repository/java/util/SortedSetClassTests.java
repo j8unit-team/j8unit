@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SortedSetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SortedSetClassTests<SUT extends Class<? extends java.util.SortedSet<E>>, E>
+public abstract interface SortedSetClassTests<SUT extends java.util.SortedSet<E>, E>
 extends org.j8unit.repository.java.util.SetClassTests<SUT, E> {
 
     @Override
@@ -38,7 +38,7 @@ extends org.j8unit.repository.java.util.SetClassTests<SUT, E> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.SortedSet<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.SortedSet.class.isAssignableFrom(sut));
     }

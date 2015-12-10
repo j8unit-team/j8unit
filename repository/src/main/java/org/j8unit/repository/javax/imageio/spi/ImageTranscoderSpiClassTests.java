@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.spi.ImageTranscoderSpiTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageTranscoderSpiClassTests<SUT extends Class<? extends javax.imageio.spi.ImageTranscoderSpi>>
+public abstract interface ImageTranscoderSpiClassTests<SUT extends javax.imageio.spi.ImageTranscoderSpi>
 extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderClassTests<SUT
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.imageio.spi.ImageTranscoderSpi> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.imageio.spi.ImageTranscoderSpi.class.isAssignableFrom(sut));
     }

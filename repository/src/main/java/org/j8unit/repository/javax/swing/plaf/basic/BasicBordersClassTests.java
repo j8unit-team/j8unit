@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicBordersClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders>>
+public abstract interface BasicBordersClassTests<SUT extends javax.swing.plaf.basic.BasicBorders>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.ButtonBorder>>
+    public static abstract interface ButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.ButtonBorder>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
         /**
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.ButtonBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.ButtonBorder.class.isAssignableFrom(sut));
         }
@@ -119,13 +119,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.FieldBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FieldBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.FieldBorder>>
+    public static abstract interface FieldBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.FieldBorder>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
         /**
@@ -151,7 +151,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.FieldBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.FieldBorder.class.isAssignableFrom(sut));
         }
@@ -180,13 +180,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MarginBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MarginBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.MarginBorder>>
+    public static abstract interface MarginBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.MarginBorder>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
         /**
@@ -208,7 +208,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.MarginBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.MarginBorder.class.isAssignableFrom(sut));
         }
@@ -237,13 +237,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MenuBarBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MenuBarBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.MenuBarBorder>>
+    public static abstract interface MenuBarBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.MenuBarBorder>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
         /**
@@ -267,7 +267,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.MenuBarBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.MenuBarBorder.class.isAssignableFrom(sut));
         }
@@ -296,13 +296,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RadioButtonBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RadioButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder>>
+    public static abstract interface RadioButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
 
         /**
@@ -328,7 +328,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.RadioButtonBorder.class.isAssignableFrom(sut));
         }
@@ -357,13 +357,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RolloverButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>>
+    public static abstract interface RolloverButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
 
         /**
@@ -389,7 +389,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder.class.isAssignableFrom(sut));
         }
@@ -418,13 +418,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.SplitPaneBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SplitPaneBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.SplitPaneBorder>>
+    public static abstract interface SplitPaneBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.SplitPaneBorder>
     extends org.j8unit.repository.javax.swing.border.BorderClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -449,7 +449,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.SplitPaneBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.SplitPaneBorder.class.isAssignableFrom(sut));
         }
@@ -478,13 +478,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ToggleButtonBorderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ToggleButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>>
+    public static abstract interface ToggleButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
 
         /**
@@ -510,7 +510,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder.class.isAssignableFrom(sut));
         }
@@ -543,7 +543,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getButtonBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -559,7 +559,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInternalFrameBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -575,7 +575,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getMenuBarBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -591,7 +591,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getProgressBarBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -607,7 +607,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getRadioButtonBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -623,7 +623,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getSplitPaneBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -639,7 +639,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getSplitPaneDividerBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -655,7 +655,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getTextFieldBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -671,7 +671,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getToggleButtonBorder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -680,7 +680,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicBorders> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicBorders.class.isAssignableFrom(sut));
     }

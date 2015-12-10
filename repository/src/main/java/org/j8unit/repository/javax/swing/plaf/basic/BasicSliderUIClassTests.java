@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicSliderUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI>>
+public abstract interface BasicSliderUIClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI>
 extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ActionScrollerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ActionScrollerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.ActionScroller>>
+    public static abstract interface ActionScrollerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ActionScroller>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -90,7 +90,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.ActionScroller> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.ActionScroller.class.isAssignableFrom(sut));
         }
@@ -119,13 +119,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.ChangeHandler>>
+    public static abstract interface ChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -149,7 +149,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.ChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.ChangeHandler.class.isAssignableFrom(sut));
         }
@@ -178,13 +178,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ComponentHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ComponentHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.ComponentHandler>>
+    public static abstract interface ComponentHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ComponentHandler>
     extends org.j8unit.repository.java.awt.event.ComponentAdapterClassTests<SUT> {
 
         /**
@@ -208,7 +208,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.ComponentHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.ComponentHandler.class.isAssignableFrom(sut));
         }
@@ -237,13 +237,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.FocusHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.FocusHandler>>
+    public static abstract interface FocusHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -267,7 +267,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.FocusHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.FocusHandler.class.isAssignableFrom(sut));
         }
@@ -296,13 +296,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.PropertyChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler>>
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -326,7 +326,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
@@ -355,13 +355,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ScrollListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ScrollListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.ScrollListener>>
+    public static abstract interface ScrollListenerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ScrollListener>
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -402,7 +402,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.ScrollListener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.ScrollListener.class.isAssignableFrom(sut));
         }
@@ -431,13 +431,13 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.TrackListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TrackListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSliderUI.TrackListener>>
+    public static abstract interface TrackListenerClassTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.TrackListener>
     extends org.j8unit.repository.javax.swing.event.MouseInputAdapterClassTests<SUT> {
 
         /**
@@ -461,7 +461,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicSliderUI.TrackListener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicSliderUI.TrackListener.class.isAssignableFrom(sut));
         }
@@ -495,7 +495,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -504,7 +504,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicSliderUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicSliderUI.class.isAssignableFrom(sut));
     }

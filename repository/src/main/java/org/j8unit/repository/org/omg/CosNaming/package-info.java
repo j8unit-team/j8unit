@@ -1,6 +1,7 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code org.omg.CosNaming}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * {@code org.omg.CosNaming}.
  * </p>
  *
  * <p>

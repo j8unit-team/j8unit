@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource>>
+public abstract interface BorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource>
 extends org.j8unit.repository.javax.swing.border.BorderClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -59,13 +59,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.BevelBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BevelBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.BevelBorderUIResource>>
+    public static abstract interface BevelBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.BevelBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.BevelBorderClassTests<SUT> {
 
         /**
@@ -122,7 +122,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.BevelBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.BevelBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -151,13 +151,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.CompoundBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CompoundBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.CompoundBorderUIResource>>
+    public static abstract interface CompoundBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.CompoundBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.CompoundBorderClassTests<SUT> {
 
         /**
@@ -183,7 +183,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.CompoundBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.CompoundBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -212,13 +212,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.EmptyBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EmptyBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.EmptyBorderUIResource>>
+    public static abstract interface EmptyBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.EmptyBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<SUT> {
 
         /**
@@ -258,7 +258,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.EmptyBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.EmptyBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -287,13 +287,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.EtchedBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EtchedBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.EtchedBorderUIResource>>
+    public static abstract interface EtchedBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.EtchedBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<SUT> {
 
         /**
@@ -363,7 +363,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.EtchedBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.EtchedBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -392,13 +392,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.LineBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LineBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.LineBorderUIResource>>
+    public static abstract interface LineBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.LineBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.LineBorderClassTests<SUT> {
 
         /**
@@ -438,7 +438,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.LineBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.LineBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -467,13 +467,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.MatteBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MatteBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.MatteBorderUIResource>>
+    public static abstract interface MatteBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.MatteBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.MatteBorderClassTests<SUT> {
 
         /**
@@ -529,7 +529,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.MatteBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.MatteBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -558,13 +558,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.TitledBorderUIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TitledBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.TitledBorderUIResource>>
+    public static abstract interface TitledBorderUIResourceClassTests<SUT extends javax.swing.plaf.BorderUIResource.TitledBorderUIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.TitledBorderClassTests<SUT> {
 
         /**
@@ -674,7 +674,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.BorderUIResource.TitledBorderUIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.BorderUIResource.TitledBorderUIResource.class.isAssignableFrom(sut));
         }
@@ -707,7 +707,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void test_getBlackLineBorderUIResource()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -723,7 +723,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void test_getEtchedBorderUIResource()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -739,7 +739,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void test_getLoweredBevelBorderUIResource()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -755,7 +755,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void test_getRaisedBevelBorderUIResource()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -764,7 +764,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.BorderUIResource> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.BorderUIResource.class.isAssignableFrom(sut));
     }

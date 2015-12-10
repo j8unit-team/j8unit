@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextServicesListenerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BeanContextServicesListenerClassTests<SUT extends Class<? extends java.beans.beancontext.BeanContextServicesListener>>
+public abstract interface BeanContextServicesListenerClassTests<SUT extends java.beans.beancontext.BeanContextServicesListener>
 extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedListenerClassTests<SUT> {
 
     @Override
@@ -40,7 +40,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedLi
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.beancontext.BeanContextServicesListener> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.beancontext.BeanContextServicesListener.class.isAssignableFrom(sut));
     }

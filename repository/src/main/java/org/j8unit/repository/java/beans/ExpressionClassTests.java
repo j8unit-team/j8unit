@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.ExpressionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExpressionClassTests<SUT extends Class<? extends java.beans.Expression>>
+public abstract interface ExpressionClassTests<SUT extends java.beans.Expression>
 extends org.j8unit.repository.java.beans.StatementClassTests<SUT> {
 
     /**
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.beans.StatementClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.Expression> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.Expression.class.isAssignableFrom(sut));
     }

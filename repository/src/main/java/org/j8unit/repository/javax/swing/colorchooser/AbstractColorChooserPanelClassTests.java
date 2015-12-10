@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.colorchooser.AbstractColorChooserPanelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractColorChooserPanelClassTests<SUT extends Class<? extends javax.swing.colorchooser.AbstractColorChooserPanel>>
+public abstract interface AbstractColorChooserPanelClassTests<SUT extends javax.swing.colorchooser.AbstractColorChooserPanel>
 extends org.j8unit.repository.javax.swing.JPanelClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.swing.JPanelClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.colorchooser.AbstractColorChooserPanel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.colorchooser.AbstractColorChooserPanel.class.isAssignableFrom(sut));
     }

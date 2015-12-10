@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.PixelInterleavedSampleModelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PixelInterleavedSampleModelClassTests<SUT extends Class<? extends java.awt.image.PixelInterleavedSampleModel>>
+public abstract interface PixelInterleavedSampleModelClassTests<SUT extends java.awt.image.PixelInterleavedSampleModel>
 extends org.j8unit.repository.java.awt.image.ComponentSampleModelClassTests<SUT> {
 
     /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.image.PixelInterleavedSampleModel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.image.PixelInterleavedSampleModel.class.isAssignableFrom(sut));
     }

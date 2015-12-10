@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SortedMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SortedMapClassTests<SUT extends Class<? extends java.util.SortedMap<K, V>>, K, V>
+public abstract interface SortedMapClassTests<SUT extends java.util.SortedMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V> {
 
     @Override
@@ -38,7 +38,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.SortedMap<K, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.SortedMap.class.isAssignableFrom(sut));
     }

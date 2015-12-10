@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.VirtualMachineErrorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VirtualMachineErrorClassTests<SUT extends Class<? extends java.lang.VirtualMachineError>>
+public abstract interface VirtualMachineErrorClassTests<SUT extends java.lang.VirtualMachineError>
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.VirtualMachineError> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.VirtualMachineError.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.soap.SOAPMessageHandlerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SOAPMessageHandlerClassTests<SUT extends Class<? extends javax.jws.soap.SOAPMessageHandler>>
+public abstract interface SOAPMessageHandlerClassTests<SUT extends javax.jws.soap.SOAPMessageHandler>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.jws.soap.SOAPMessageHandler> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.jws.soap.SOAPMessageHandler.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.MenuKeyEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MenuKeyEventClassTests<SUT extends Class<? extends javax.swing.event.MenuKeyEvent>>
+public abstract interface MenuKeyEventClassTests<SUT extends javax.swing.event.MenuKeyEvent>
 extends org.j8unit.repository.java.awt.event.KeyEventClassTests<SUT> {
 
     /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.awt.event.KeyEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.event.MenuKeyEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.event.MenuKeyEvent.class.isAssignableFrom(sut));
     }

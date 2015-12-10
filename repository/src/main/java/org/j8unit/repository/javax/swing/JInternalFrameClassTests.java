@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JInternalFrameTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JInternalFrameClassTests<SUT extends Class<? extends javax.swing.JInternalFrame>>
+public abstract interface JInternalFrameClassTests<SUT extends javax.swing.JInternalFrame>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.WindowConstantsClassTests<SUT>,
 org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -58,13 +58,13 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface JDesktopIconClassTests<SUT extends Class<? extends javax.swing.JInternalFrame.JDesktopIcon>>
+    public static abstract interface JDesktopIconClassTests<SUT extends javax.swing.JInternalFrame.JDesktopIcon>
     extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JInternalFrame.JDesktopIcon> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JInternalFrame.JDesktopIcon.class.isAssignableFrom(sut));
         }
@@ -183,7 +183,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JInternalFrame> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JInternalFrame.class.isAssignableFrom(sut));
     }

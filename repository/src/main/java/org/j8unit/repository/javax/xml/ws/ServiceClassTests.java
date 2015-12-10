@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.ServiceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServiceClassTests<SUT extends Class<? extends javax.xml.ws.Service>>
+public abstract interface ServiceClassTests<SUT extends javax.xml.ws.Service>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ModeClassTests<SUT extends Class<? extends javax.xml.ws.Service.Mode>>
+    public static abstract interface ModeClassTests<SUT extends javax.xml.ws.Service.Mode>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.Service.Mode> {
 
         /**
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -93,7 +93,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.xml.ws.Service.Mode> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.xml.ws.Service.Mode.class.isAssignableFrom(sut));
         }
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_QName()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -138,7 +138,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_QName_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -154,7 +154,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_URL_QName()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -172,7 +172,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_URL_QName_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -181,7 +181,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.Service> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.Service.class.isAssignableFrom(sut));
     }

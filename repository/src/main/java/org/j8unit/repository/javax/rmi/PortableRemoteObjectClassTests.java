@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.PortableRemoteObjectTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PortableRemoteObjectClassTests<SUT extends Class<? extends javax.rmi.PortableRemoteObject>>
+public abstract interface PortableRemoteObjectClassTests<SUT extends javax.rmi.PortableRemoteObject>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_connect_Remote_Remote()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_exportObject_Remote()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_narrow_Object_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toStub_Remote()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unexportObject_Remote()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.rmi.PortableRemoteObject> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.rmi.PortableRemoteObject.class.isAssignableFrom(sut));
     }

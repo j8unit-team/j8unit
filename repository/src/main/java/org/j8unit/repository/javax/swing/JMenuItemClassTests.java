@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JMenuItemTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JMenuItemClassTests<SUT extends Class<? extends javax.swing.JMenuItem>>
+public abstract interface JMenuItemClassTests<SUT extends javax.swing.JMenuItem>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.MenuElementClassTests<SUT>,
 org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
 
@@ -124,7 +124,7 @@ org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JMenuItem> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JMenuItem.class.isAssignableFrom(sut));
     }

@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.ConnectionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConnectionClassTests<SUT extends Class<? extends java.sql.Connection>>
+public abstract interface ConnectionClassTests<SUT extends java.sql.Connection>
 extends org.j8unit.repository.java.sql.WrapperClassTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
 
     @Override
@@ -38,7 +38,7 @@ extends org.j8unit.repository.java.sql.WrapperClassTests<SUT>, org.j8unit.reposi
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.sql.Connection> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.sql.Connection.class.isAssignableFrom(sut));
     }

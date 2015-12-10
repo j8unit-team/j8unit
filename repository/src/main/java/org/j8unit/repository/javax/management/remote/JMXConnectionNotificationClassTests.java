@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.JMXConnectionNotificationTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JMXConnectionNotificationClassTests<SUT extends Class<? extends javax.management.remote.JMXConnectionNotification>>
+public abstract interface JMXConnectionNotificationClassTests<SUT extends javax.management.remote.JMXConnectionNotification>
 extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
 
     /**
@@ -60,7 +60,7 @@ extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.remote.JMXConnectionNotification> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.remote.JMXConnectionNotification.class.isAssignableFrom(sut));
     }

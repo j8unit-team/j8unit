@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.xpath.XPathFactoryConfigurationExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XPathFactoryConfigurationExceptionClassTests<SUT extends Class<? extends javax.xml.xpath.XPathFactoryConfigurationException>>
+public abstract interface XPathFactoryConfigurationExceptionClassTests<SUT extends javax.xml.xpath.XPathFactoryConfigurationException>
 extends org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests<SUT> {
 
     /**
@@ -74,7 +74,7 @@ extends org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.xpath.XPathFactoryConfigurationException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.xpath.XPathFactoryConfigurationException.class.isAssignableFrom(sut));
     }

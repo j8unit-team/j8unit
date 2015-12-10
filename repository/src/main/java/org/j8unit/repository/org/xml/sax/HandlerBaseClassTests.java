@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.HandlerBaseTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HandlerBaseClassTests<SUT extends Class<? extends org.xml.sax.HandlerBase>>
+public abstract interface HandlerBaseClassTests<SUT extends org.xml.sax.HandlerBase>
 extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT>, org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT>,
 org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -56,7 +56,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.xml.sax.HandlerBase> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.xml.sax.HandlerBase.class.isAssignableFrom(sut));
     }

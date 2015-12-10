@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.UIDefaultsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UIDefaultsClassTests<SUT extends Class<? extends javax.swing.UIDefaults>>
+public abstract interface UIDefaultsClassTests<SUT extends javax.swing.UIDefaults>
 extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Object, java.lang.Object> {
 
     /**
@@ -58,20 +58,20 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ActiveValueClassTests<SUT extends Class<? extends javax.swing.UIDefaults.ActiveValue>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface ActiveValueClassTests<SUT extends javax.swing.UIDefaults.ActiveValue>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.UIDefaults.ActiveValue> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.UIDefaults.ActiveValue.class.isAssignableFrom(sut));
         }
@@ -99,13 +99,13 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LazyInputMapClassTests<SUT extends Class<? extends javax.swing.UIDefaults.LazyInputMap>>
+    public static abstract interface LazyInputMapClassTests<SUT extends javax.swing.UIDefaults.LazyInputMap>
     extends org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -127,7 +127,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.UIDefaults.LazyInputMap> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.UIDefaults.LazyInputMap.class.isAssignableFrom(sut));
         }
@@ -155,20 +155,20 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.LazyValueTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LazyValueClassTests<SUT extends Class<? extends javax.swing.UIDefaults.LazyValue>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface LazyValueClassTests<SUT extends javax.swing.UIDefaults.LazyValue>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.UIDefaults.LazyValue> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.UIDefaults.LazyValue.class.isAssignableFrom(sut));
         }
@@ -196,13 +196,13 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.ProxyLazyValueTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ProxyLazyValueClassTests<SUT extends Class<? extends javax.swing.UIDefaults.ProxyLazyValue>>
+    public static abstract interface ProxyLazyValueClassTests<SUT extends javax.swing.UIDefaults.ProxyLazyValue>
     extends org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -272,7 +272,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.UIDefaults.ProxyLazyValue> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.UIDefaults.ProxyLazyValue.class.isAssignableFrom(sut));
         }
@@ -324,7 +324,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.UIDefaults> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.UIDefaults.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JWindowTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JWindowClassTests<SUT extends Class<? extends javax.swing.JWindow>>
+public abstract interface JWindowClassTests<SUT extends javax.swing.JWindow>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>,
 org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
@@ -108,7 +108,7 @@ org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JWindow> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JWindow.class.isAssignableFrom(sut));
     }

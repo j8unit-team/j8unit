@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.PropertyEditorManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PropertyEditorManagerClassTests<SUT extends Class<? extends java.beans.PropertyEditorManager>>
+public abstract interface PropertyEditorManagerClassTests<SUT extends java.beans.PropertyEditorManager>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -62,7 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_findEditor_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getEditorSearchPath()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_registerEditor_Class_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -110,7 +110,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setEditorSearchPath_StringArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -119,7 +119,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.PropertyEditorManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.PropertyEditorManager.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.spi.DecimalFormatSymbolsProviderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DecimalFormatSymbolsProviderClassTests<SUT extends Class<? extends java.text.spi.DecimalFormatSymbolsProvider>>
+public abstract interface DecimalFormatSymbolsProviderClassTests<SUT extends java.text.spi.DecimalFormatSymbolsProvider>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.spi.DecimalFormatSymbolsProvider> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.spi.DecimalFormatSymbolsProvider.class.isAssignableFrom(sut));
     }

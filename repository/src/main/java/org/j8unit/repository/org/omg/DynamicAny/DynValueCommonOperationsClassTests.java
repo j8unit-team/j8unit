@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynValueCommonOperationsClassTests<SUT extends Class<? extends org.omg.DynamicAny.DynValueCommonOperations>>
+public abstract interface DynValueCommonOperationsClassTests<SUT extends org.omg.DynamicAny.DynValueCommonOperations>
 extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.DynamicAny.DynValueCommonOperations> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.DynamicAny.DynValueCommonOperations.class.isAssignableFrom(sut));
     }

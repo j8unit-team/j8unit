@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.WebServiceExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebServiceExceptionClassTests<SUT extends Class<? extends javax.xml.ws.WebServiceException>>
+public abstract interface WebServiceExceptionClassTests<SUT extends javax.xml.ws.WebServiceException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.WebServiceException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.WebServiceException.class.isAssignableFrom(sut));
     }

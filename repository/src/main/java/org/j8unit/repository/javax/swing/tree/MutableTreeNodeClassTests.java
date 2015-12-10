@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.MutableTreeNodeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MutableTreeNodeClassTests<SUT extends Class<? extends javax.swing.tree.MutableTreeNode>>
+public abstract interface MutableTreeNodeClassTests<SUT extends javax.swing.tree.MutableTreeNode>
 extends org.j8unit.repository.javax.swing.tree.TreeNodeClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.tree.MutableTreeNode> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.tree.MutableTreeNode.class.isAssignableFrom(sut));
     }

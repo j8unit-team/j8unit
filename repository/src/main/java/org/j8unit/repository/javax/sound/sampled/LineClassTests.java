@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.LineTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LineClassTests<SUT extends Class<? extends javax.sound.sampled.Line>>
+public abstract interface LineClassTests<SUT extends javax.sound.sampled.Line>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.LineTests.InfoTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InfoClassTests<SUT extends Class<? extends javax.sound.sampled.Line.Info>>
+    public static abstract interface InfoClassTests<SUT extends javax.sound.sampled.Line.Info>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -85,7 +85,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.sound.sampled.Line.Info> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.sound.sampled.Line.Info.class.isAssignableFrom(sut));
         }
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.sampled.Line> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.sampled.Line.class.isAssignableFrom(sut));
     }

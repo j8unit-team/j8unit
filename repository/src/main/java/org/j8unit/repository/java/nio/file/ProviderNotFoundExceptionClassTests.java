@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.ProviderNotFoundExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ProviderNotFoundExceptionClassTests<SUT extends Class<? extends java.nio.file.ProviderNotFoundException>>
+public abstract interface ProviderNotFoundExceptionClassTests<SUT extends java.nio.file.ProviderNotFoundException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.ProviderNotFoundException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.ProviderNotFoundException.class.isAssignableFrom(sut));
     }

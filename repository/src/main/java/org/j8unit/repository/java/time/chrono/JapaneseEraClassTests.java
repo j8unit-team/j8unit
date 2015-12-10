@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.JapaneseEraTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JapaneseEraClassTests<SUT extends Class<? extends java.time.chrono.JapaneseEra>>
+public abstract interface JapaneseEraClassTests<SUT extends java.time.chrono.JapaneseEra>
 extends org.j8unit.repository.java.time.chrono.EraClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -49,7 +49,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_of_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -65,7 +65,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_values()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -90,7 +90,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.chrono.JapaneseEra> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.chrono.JapaneseEra.class.isAssignableFrom(sut));
     }

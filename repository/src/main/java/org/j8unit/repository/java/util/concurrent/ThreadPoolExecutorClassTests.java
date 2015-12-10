@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ThreadPoolExecutorClassTests<SUT extends Class<? extends java.util.concurrent.ThreadPoolExecutor>>
+public abstract interface ThreadPoolExecutorClassTests<SUT extends java.util.concurrent.ThreadPoolExecutor>
 extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbortPolicyClassTests<SUT extends Class<? extends java.util.concurrent.ThreadPoolExecutor.AbortPolicy>>
+    public static abstract interface AbortPolicyClassTests<SUT extends java.util.concurrent.ThreadPoolExecutor.AbortPolicy>
     extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.ThreadPoolExecutor.AbortPolicy> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.ThreadPoolExecutor.AbortPolicy.class.isAssignableFrom(sut));
         }
@@ -115,13 +115,13 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.CallerRunsPolicyTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CallerRunsPolicyClassTests<SUT extends Class<? extends java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy>>
+    public static abstract interface CallerRunsPolicyClassTests<SUT extends java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy>
     extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -143,7 +143,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy.class.isAssignableFrom(sut));
         }
@@ -172,13 +172,13 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardOldestPolicyTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DiscardOldestPolicyClassTests<SUT extends Class<? extends java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy>>
+    public static abstract interface DiscardOldestPolicyClassTests<SUT extends java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy>
     extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -201,7 +201,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy.class.isAssignableFrom(sut));
         }
@@ -230,13 +230,13 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DiscardPolicyClassTests<SUT extends Class<? extends java.util.concurrent.ThreadPoolExecutor.DiscardPolicy>>
+    public static abstract interface DiscardPolicyClassTests<SUT extends java.util.concurrent.ThreadPoolExecutor.DiscardPolicy>
     extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -258,7 +258,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.ThreadPoolExecutor.DiscardPolicy.class.isAssignableFrom(sut));
         }
@@ -342,7 +342,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.ThreadPoolExecutor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.ThreadPoolExecutor.class.isAssignableFrom(sut));
     }

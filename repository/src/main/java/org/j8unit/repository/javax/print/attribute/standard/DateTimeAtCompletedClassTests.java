@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.DateTimeAtCompletedTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DateTimeAtCompletedClassTests<SUT extends Class<? extends javax.print.attribute.standard.DateTimeAtCompleted>>
+public abstract interface DateTimeAtCompletedClassTests<SUT extends javax.print.attribute.standard.DateTimeAtCompleted>
 extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.DateTimeSyntaxClassTests<SUT> {
 
@@ -58,7 +58,7 @@ org.j8unit.repository.javax.print.attribute.DateTimeSyntaxClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.DateTimeAtCompleted> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.DateTimeAtCompleted.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.charset.CharsetEncoderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CharsetEncoderClassTests<SUT extends Class<? extends java.nio.charset.CharsetEncoder>>
+public abstract interface CharsetEncoderClassTests<SUT extends java.nio.charset.CharsetEncoder>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.charset.CharsetEncoder> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.charset.CharsetEncoder.class.isAssignableFrom(sut));
     }

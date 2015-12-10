@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.script.AbstractScriptEngineTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractScriptEngineClassTests<SUT extends Class<? extends javax.script.AbstractScriptEngine>>
+public abstract interface AbstractScriptEngineClassTests<SUT extends javax.script.AbstractScriptEngine>
 extends org.j8unit.repository.javax.script.ScriptEngineClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.script.ScriptEngineClassTests<SUT>, org.j8un
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.script.AbstractScriptEngine> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.script.AbstractScriptEngine.class.isAssignableFrom(sut));
     }

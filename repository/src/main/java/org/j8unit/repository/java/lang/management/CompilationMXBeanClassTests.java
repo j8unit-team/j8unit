@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.management.CompilationMXBeanTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompilationMXBeanClassTests<SUT extends Class<? extends java.lang.management.CompilationMXBean>>
+public abstract interface CompilationMXBeanClassTests<SUT extends java.lang.management.CompilationMXBean>
 extends org.j8unit.repository.java.lang.management.PlatformManagedObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectClassTes
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.management.CompilationMXBean> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.management.CompilationMXBean.class.isAssignableFrom(sut));
     }

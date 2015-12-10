@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.http.HTTPBindingTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTTPBindingClassTests<SUT extends Class<? extends javax.xml.ws.http.HTTPBinding>>
+public abstract interface HTTPBindingClassTests<SUT extends javax.xml.ws.http.HTTPBinding>
 extends org.j8unit.repository.javax.xml.ws.BindingClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.xml.ws.BindingClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.http.HTTPBinding> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.http.HTTPBinding.class.isAssignableFrom(sut));
     }

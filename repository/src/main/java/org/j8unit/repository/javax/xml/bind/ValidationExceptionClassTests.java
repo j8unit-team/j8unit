@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.ValidationExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ValidationExceptionClassTests<SUT extends Class<? extends javax.xml.bind.ValidationException>>
+public abstract interface ValidationExceptionClassTests<SUT extends javax.xml.bind.ValidationException>
 extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
 
     /**
@@ -116,7 +116,7 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.ValidationException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.ValidationException.class.isAssignableFrom(sut));
     }

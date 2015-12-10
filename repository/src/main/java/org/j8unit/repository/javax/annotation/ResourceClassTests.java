@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.annotation.ResourceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ResourceClassTests<SUT extends Class<? extends javax.annotation.Resource>>
+public abstract interface ResourceClassTests<SUT extends javax.annotation.Resource>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AuthenticationTypeClassTests<SUT extends Class<? extends javax.annotation.Resource.AuthenticationType>>
+    public static abstract interface AuthenticationTypeClassTests<SUT extends javax.annotation.Resource.AuthenticationType>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.annotation.Resource.AuthenticationType> {
 
         /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.annotation.Resource.AuthenticationType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.annotation.Resource.AuthenticationType.class.isAssignableFrom(sut));
         }
@@ -117,7 +117,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.annotation.Resource> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.annotation.Resource.class.isAssignableFrom(sut));
     }

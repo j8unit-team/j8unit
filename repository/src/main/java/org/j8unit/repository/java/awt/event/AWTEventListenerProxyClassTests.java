@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.AWTEventListenerProxyTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AWTEventListenerProxyClassTests<SUT extends Class<? extends java.awt.event.AWTEventListenerProxy>>
+public abstract interface AWTEventListenerProxyClassTests<SUT extends java.awt.event.AWTEventListenerProxy>
 extends org.j8unit.repository.java.awt.event.AWTEventListenerClassTests<SUT>,
 org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT, java.awt.event.AWTEventListener> {
 
@@ -58,7 +58,7 @@ org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT, java.awt.event
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.event.AWTEventListenerProxy> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.event.AWTEventListenerProxy.class.isAssignableFrom(sut));
     }

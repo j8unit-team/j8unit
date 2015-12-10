@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.MultipleGradientPaintTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MultipleGradientPaintClassTests<SUT extends Class<? extends java.awt.MultipleGradientPaint>>
+public abstract interface MultipleGradientPaintClassTests<SUT extends java.awt.MultipleGradientPaint>
 extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorSpaceTypeClassTests<SUT extends Class<? extends java.awt.MultipleGradientPaint.ColorSpaceType>>
+    public static abstract interface ColorSpaceTypeClassTests<SUT extends java.awt.MultipleGradientPaint.ColorSpaceType>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.MultipleGradientPaint.ColorSpaceType> {
 
         /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.MultipleGradientPaint.ColorSpaceType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.MultipleGradientPaint.ColorSpaceType.class.isAssignableFrom(sut));
         }
@@ -134,13 +134,13 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CycleMethodClassTests<SUT extends Class<? extends java.awt.MultipleGradientPaint.CycleMethod>>
+    public static abstract interface CycleMethodClassTests<SUT extends java.awt.MultipleGradientPaint.CycleMethod>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.MultipleGradientPaint.CycleMethod> {
 
         /**
@@ -156,7 +156,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -172,7 +172,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -181,7 +181,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.MultipleGradientPaint.CycleMethod> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.MultipleGradientPaint.CycleMethod.class.isAssignableFrom(sut));
         }
@@ -193,7 +193,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.MultipleGradientPaint> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.MultipleGradientPaint.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.DoubleTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DoubleClassTests<SUT extends Class<? extends java.lang.Double>>
+public abstract interface DoubleClassTests<SUT extends java.lang.Double>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Double>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
@@ -74,7 +74,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_compare_double_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_doubleToLongBits_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -106,7 +106,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_doubleToRawLongBits_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_hashCode_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_isFinite_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_isInfinite_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_isNaN_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -184,7 +184,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_longBitsToDouble_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -200,7 +200,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_max_double_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -216,7 +216,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_min_double_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_parseDouble_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -248,7 +248,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_sum_double_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -264,7 +264,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_toHexString_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -280,7 +280,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_toString_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -296,7 +296,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_valueOf_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -312,7 +312,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -321,7 +321,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.Double> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.Double.class.isAssignableFrom(sut));
     }

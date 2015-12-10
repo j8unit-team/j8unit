@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SwingPropertyChangeSupportClassTests<SUT extends Class<? extends javax.swing.event.SwingPropertyChangeSupport>>
+public abstract interface SwingPropertyChangeSupportClassTests<SUT extends javax.swing.event.SwingPropertyChangeSupport>
 extends org.j8unit.repository.java.beans.PropertyChangeSupportClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.event.SwingPropertyChangeSupport> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.event.SwingPropertyChangeSupport.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.BooleanTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BooleanClassTests<SUT extends Class<? extends java.lang.Boolean>>
+public abstract interface BooleanClassTests<SUT extends java.lang.Boolean>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Boolean>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -74,7 +74,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_compare_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -90,7 +90,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getBoolean_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -106,7 +106,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -122,7 +122,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_logicalAnd_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -138,7 +138,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_logicalOr_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -154,7 +154,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_logicalXor_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -170,7 +170,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parseBoolean_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -186,7 +186,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -202,7 +202,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -218,7 +218,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -227,7 +227,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.Boolean> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.Boolean.class.isAssignableFrom(sut));
     }

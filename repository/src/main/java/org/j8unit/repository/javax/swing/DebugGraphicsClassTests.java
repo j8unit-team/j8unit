@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DebugGraphicsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DebugGraphicsClassTests<SUT extends Class<? extends javax.swing.DebugGraphics>>
+public abstract interface DebugGraphicsClassTests<SUT extends javax.swing.DebugGraphics>
 extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
 
     /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_flashColor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_flashCount()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_flashTime()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_logStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_setFlashColor_Color()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_setFlashCount_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -185,7 +185,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_setFlashTime_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,7 +201,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void test_setLogStream_PrintStream()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -210,7 +210,7 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.DebugGraphics> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.DebugGraphics.class.isAssignableFrom(sut));
     }

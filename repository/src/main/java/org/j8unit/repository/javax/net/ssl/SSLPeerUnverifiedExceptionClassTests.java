@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLPeerUnverifiedExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SSLPeerUnverifiedExceptionClassTests<SUT extends Class<? extends javax.net.ssl.SSLPeerUnverifiedException>>
+public abstract interface SSLPeerUnverifiedExceptionClassTests<SUT extends javax.net.ssl.SSLPeerUnverifiedException>
 extends org.j8unit.repository.javax.net.ssl.SSLExceptionClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.net.ssl.SSLExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.net.ssl.SSLPeerUnverifiedException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.net.ssl.SSLPeerUnverifiedException.class.isAssignableFrom(sut));
     }

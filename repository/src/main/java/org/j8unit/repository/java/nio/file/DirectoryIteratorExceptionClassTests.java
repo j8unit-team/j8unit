@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.DirectoryIteratorExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DirectoryIteratorExceptionClassTests<SUT extends Class<? extends java.nio.file.DirectoryIteratorException>>
+public abstract interface DirectoryIteratorExceptionClassTests<SUT extends java.nio.file.DirectoryIteratorException>
 extends org.j8unit.repository.java.util.ConcurrentModificationExceptionClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.ConcurrentModificationExceptionClassTest
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.DirectoryIteratorException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.DirectoryIteratorException.class.isAssignableFrom(sut));
     }

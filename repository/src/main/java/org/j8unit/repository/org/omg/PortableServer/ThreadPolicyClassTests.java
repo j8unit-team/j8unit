@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.ThreadPolicyTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ThreadPolicyClassTests<SUT extends Class<? extends org.omg.PortableServer.ThreadPolicy>>
+public abstract interface ThreadPolicyClassTests<SUT extends org.omg.PortableServer.ThreadPolicy>
 extends org.j8unit.repository.org.omg.PortableServer.ThreadPolicyOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT>,
 org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
 
@@ -40,7 +40,7 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.PortableServer.ThreadPolicy> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.PortableServer.ThreadPolicy.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.ext.Locator2ImplTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface Locator2ImplClassTests<SUT extends Class<? extends org.xml.sax.ext.Locator2Impl>>
+public abstract interface Locator2ImplClassTests<SUT extends org.xml.sax.ext.Locator2Impl>
 extends org.j8unit.repository.org.xml.sax.ext.Locator2ClassTests<SUT>, org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2ClassTests<SUT>, org.j8uni
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.xml.sax.ext.Locator2Impl> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.xml.sax.ext.Locator2Impl.class.isAssignableFrom(sut));
     }

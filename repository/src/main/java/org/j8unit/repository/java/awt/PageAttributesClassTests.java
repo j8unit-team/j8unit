@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PageAttributesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PageAttributesClassTests<SUT extends Class<? extends java.awt.PageAttributes>>
+public abstract interface PageAttributesClassTests<SUT extends java.awt.PageAttributes>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesTests.ColorTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorTypeClassTests<SUT extends Class<? extends java.awt.PageAttributes.ColorType>>
+    public static abstract interface ColorTypeClassTests<SUT extends java.awt.PageAttributes.ColorType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.PageAttributes.ColorType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.PageAttributes.ColorType.class.isAssignableFrom(sut));
         }
@@ -99,13 +99,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MediaTypeClassTests<SUT extends Class<? extends java.awt.PageAttributes.MediaType>>
+    public static abstract interface MediaTypeClassTests<SUT extends java.awt.PageAttributes.MediaType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.PageAttributes.MediaType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.PageAttributes.MediaType.class.isAssignableFrom(sut));
         }
@@ -142,13 +142,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OrientationRequestedTypeClassTests<SUT extends Class<? extends java.awt.PageAttributes.OrientationRequestedType>>
+    public static abstract interface OrientationRequestedTypeClassTests<SUT extends java.awt.PageAttributes.OrientationRequestedType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -156,7 +156,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.PageAttributes.OrientationRequestedType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.PageAttributes.OrientationRequestedType.class.isAssignableFrom(sut));
         }
@@ -184,13 +184,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OriginTypeClassTests<SUT extends Class<? extends java.awt.PageAttributes.OriginType>>
+    public static abstract interface OriginTypeClassTests<SUT extends java.awt.PageAttributes.OriginType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -198,7 +198,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.PageAttributes.OriginType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.PageAttributes.OriginType.class.isAssignableFrom(sut));
         }
@@ -226,13 +226,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PrintQualityTypeClassTests<SUT extends Class<? extends java.awt.PageAttributes.PrintQualityType>>
+    public static abstract interface PrintQualityTypeClassTests<SUT extends java.awt.PageAttributes.PrintQualityType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -240,7 +240,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.PageAttributes.PrintQualityType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.PageAttributes.PrintQualityType.class.isAssignableFrom(sut));
         }
@@ -297,7 +297,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.PageAttributes> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.PageAttributes.class.isAssignableFrom(sut));
     }

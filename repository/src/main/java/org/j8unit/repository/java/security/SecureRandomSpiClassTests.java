@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.SecureRandomSpiTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SecureRandomSpiClassTests<SUT extends Class<? extends java.security.SecureRandomSpi>>
+public abstract interface SecureRandomSpiClassTests<SUT extends java.security.SecureRandomSpi>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -54,7 +54,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.SecureRandomSpi> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.SecureRandomSpi.class.isAssignableFrom(sut));
     }

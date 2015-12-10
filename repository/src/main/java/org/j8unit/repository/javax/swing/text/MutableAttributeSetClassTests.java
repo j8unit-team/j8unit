@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.MutableAttributeSetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MutableAttributeSetClassTests<SUT extends Class<? extends javax.swing.text.MutableAttributeSet>>
+public abstract interface MutableAttributeSetClassTests<SUT extends javax.swing.text.MutableAttributeSet>
 extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.MutableAttributeSet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.MutableAttributeSet.class.isAssignableFrom(sut));
     }

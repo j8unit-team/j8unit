@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.RandomAccessFileTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RandomAccessFileClassTests<SUT extends Class<? extends java.io.RandomAccessFile>>
+public abstract interface RandomAccessFileClassTests<SUT extends java.io.RandomAccessFile>
 extends org.j8unit.repository.java.io.DataOutputClassTests<SUT>, org.j8unit.repository.java.io.DataInputClassTests<SUT>,
 org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -70,7 +70,7 @@ org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.ja
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.io.RandomAccessFile> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.io.RandomAccessFile.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.StringSelectionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StringSelectionClassTests<SUT extends Class<? extends java.awt.datatransfer.StringSelection>>
+public abstract interface StringSelectionClassTests<SUT extends java.awt.datatransfer.StringSelection>
 extends org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<SUT>, org.j8unit.repository.java.awt.datatransfer.ClipboardOwnerClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.datatransfer.StringSelection> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.datatransfer.StringSelection.class.isAssignableFrom(sut));
     }

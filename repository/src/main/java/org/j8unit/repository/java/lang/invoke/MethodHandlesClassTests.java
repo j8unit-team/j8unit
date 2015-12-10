@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.MethodHandlesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MethodHandlesClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandles>>
+public abstract interface MethodHandlesClassTests<SUT extends java.lang.invoke.MethodHandles>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.invoke.MethodHandlesTests.LookupTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LookupClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandles.Lookup>>
+    public static abstract interface LookupClassTests<SUT extends java.lang.invoke.MethodHandles.Lookup>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.lang.invoke.MethodHandles.Lookup> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.lang.invoke.MethodHandles.Lookup.class.isAssignableFrom(sut));
         }
@@ -91,7 +91,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_arrayElementGetter_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -108,7 +108,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_arrayElementSetter_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -127,7 +127,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_catchException_MethodHandle_Class_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_collectArguments_MethodHandle_int_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -162,7 +162,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_constant_Class_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -180,7 +180,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_dropArguments_MethodHandle_int_ClassArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -198,7 +198,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_dropArguments_MethodHandle_int_List()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -214,7 +214,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_exactInvoker_MethodType()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_explicitCastArguments_MethodHandle_MethodType()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -251,7 +251,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_filterArguments_MethodHandle_int_MethodHandleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -269,7 +269,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_filterReturnValue_MethodHandle_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -287,7 +287,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_foldArguments_MethodHandle_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -306,7 +306,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_guardWithTest_MethodHandle_MethodHandle_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -322,7 +322,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_identity_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -340,7 +340,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_insertArguments_MethodHandle_int_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -356,7 +356,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_invoker_MethodType()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -372,7 +372,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_lookup()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -391,7 +391,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_permuteArguments_MethodHandle_MethodType_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -407,7 +407,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_publicLookup()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -424,7 +424,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_reflectAs_Class_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -441,7 +441,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spreadInvoker_MethodType_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -458,7 +458,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_throwException_Class_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -467,7 +467,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.invoke.MethodHandles> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.invoke.MethodHandles.class.isAssignableFrom(sut));
     }

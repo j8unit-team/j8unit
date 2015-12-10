@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.EntityResolverTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EntityResolverClassTests<SUT extends Class<? extends org.xml.sax.EntityResolver>>
-extends J8UnitTest<SUT> {
+public abstract interface EntityResolverClassTests<SUT extends org.xml.sax.EntityResolver>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.xml.sax.EntityResolver> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.xml.sax.EntityResolver.class.isAssignableFrom(sut));
     }

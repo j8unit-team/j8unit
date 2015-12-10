@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.WebRowSetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebRowSetClassTests<SUT extends Class<? extends javax.sql.rowset.WebRowSet>>
+public abstract interface WebRowSetClassTests<SUT extends javax.sql.rowset.WebRowSet>
 extends org.j8unit.repository.javax.sql.rowset.CachedRowSetClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sql.rowset.WebRowSet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sql.rowset.WebRowSet.class.isAssignableFrom(sut));
     }

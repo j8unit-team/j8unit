@@ -28,14 +28,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DiagnosticTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DiagnosticClassTests<SUT extends Class<? extends javax.tools.Diagnostic<S>>, S>
-extends J8UnitTest<SUT> {
+public abstract interface DiagnosticClassTests<SUT extends javax.tools.Diagnostic<S>, S>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -58,13 +58,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.DiagnosticTests.KindTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KindClassTests<SUT extends Class<? extends javax.tools.Diagnostic.Kind>>
+    public static abstract interface KindClassTests<SUT extends javax.tools.Diagnostic.Kind>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.Diagnostic.Kind> {
 
         /**
@@ -79,7 +79,7 @@ extends J8UnitTest<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -95,7 +95,7 @@ extends J8UnitTest<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -104,7 +104,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.tools.Diagnostic.Kind> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.tools.Diagnostic.Kind.class.isAssignableFrom(sut));
         }
@@ -115,7 +115,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.Diagnostic<S>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.Diagnostic.class.isAssignableFrom(sut));
     }

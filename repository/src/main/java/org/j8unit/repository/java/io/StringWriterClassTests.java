@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.StringWriterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StringWriterClassTests<SUT extends Class<? extends java.io.StringWriter>>
+public abstract interface StringWriterClassTests<SUT extends java.io.StringWriter>
 extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
 
     /**
@@ -66,7 +66,7 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.io.StringWriter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.io.StringWriter.class.isAssignableFrom(sut));
     }

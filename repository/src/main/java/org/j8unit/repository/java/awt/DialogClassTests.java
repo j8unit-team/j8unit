@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.DialogTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DialogClassTests<SUT extends Class<? extends java.awt.Dialog>>
+public abstract interface DialogClassTests<SUT extends java.awt.Dialog>
 extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ModalExclusionTypeClassTests<SUT extends Class<? extends java.awt.Dialog.ModalExclusionType>>
+    public static abstract interface ModalExclusionTypeClassTests<SUT extends java.awt.Dialog.ModalExclusionType>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Dialog.ModalExclusionType> {
 
         /**
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -93,7 +93,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.Dialog.ModalExclusionType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.Dialog.ModalExclusionType.class.isAssignableFrom(sut));
         }
@@ -130,13 +130,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ModalityTypeClassTests<SUT extends Class<? extends java.awt.Dialog.ModalityType>>
+    public static abstract interface ModalityTypeClassTests<SUT extends java.awt.Dialog.ModalityType>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Dialog.ModalityType> {
 
         /**
@@ -151,7 +151,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -176,7 +176,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.Dialog.ModalityType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.Dialog.ModalityType.class.isAssignableFrom(sut));
         }
@@ -389,7 +389,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Dialog> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Dialog.class.isAssignableFrom(sut));
     }

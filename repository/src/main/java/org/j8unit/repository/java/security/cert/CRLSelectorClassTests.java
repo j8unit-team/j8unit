@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CRLSelectorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CRLSelectorClassTests<SUT extends Class<? extends java.security.cert.CRLSelector>>
+public abstract interface CRLSelectorClassTests<SUT extends java.security.cert.CRLSelector>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.CRLSelector> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.CRLSelector.class.isAssignableFrom(sut));
     }

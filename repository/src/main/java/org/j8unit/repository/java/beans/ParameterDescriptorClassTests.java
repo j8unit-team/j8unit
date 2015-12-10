@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.ParameterDescriptorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ParameterDescriptorClassTests<SUT extends Class<? extends java.beans.ParameterDescriptor>>
+public abstract interface ParameterDescriptorClassTests<SUT extends java.beans.ParameterDescriptor>
 extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.ParameterDescriptor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.ParameterDescriptor.class.isAssignableFrom(sut));
     }

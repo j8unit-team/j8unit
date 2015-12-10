@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.DirectoryStreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DirectoryStreamClassTests<SUT extends Class<? extends java.nio.file.DirectoryStream<T>>, T>
+public abstract interface DirectoryStreamClassTests<SUT extends java.nio.file.DirectoryStream<T>, T>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.IterableClassTests<SUT, T> {
 
     /**
@@ -56,20 +56,20 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.DirectoryStreamTests.FilterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FilterClassTests<SUT extends Class<? extends java.nio.file.DirectoryStream.Filter<T>>, T>
-    extends J8UnitTest<SUT> {
+    public static abstract interface FilterClassTests<SUT extends java.nio.file.DirectoryStream.Filter<T>, T>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.nio.file.DirectoryStream.Filter<T>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.nio.file.DirectoryStream.Filter.class.isAssignableFrom(sut));
         }
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.DirectoryStream<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.DirectoryStream.class.isAssignableFrom(sut));
     }

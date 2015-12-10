@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.RelationSupportTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RelationSupportClassTests<SUT extends Class<? extends javax.management.relation.RelationSupport>>
+public abstract interface RelationSupportClassTests<SUT extends javax.management.relation.RelationSupport>
 extends org.j8unit.repository.javax.management.relation.RelationSupportMBeanClassTests<SUT>,
 org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -78,7 +78,7 @@ org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>, org.j8u
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.relation.RelationSupport> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.relation.RelationSupport.class.isAssignableFrom(sut));
     }

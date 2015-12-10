@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertPathBuilderExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CertPathBuilderExceptionClassTests<SUT extends Class<? extends java.security.cert.CertPathBuilderException>>
+public abstract interface CertPathBuilderExceptionClassTests<SUT extends java.security.cert.CertPathBuilderException>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.CertPathBuilderException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.CertPathBuilderException.class.isAssignableFrom(sut));
     }

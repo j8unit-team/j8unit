@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.NumberOfDocumentsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NumberOfDocumentsClassTests<SUT extends Class<? extends javax.print.attribute.standard.NumberOfDocuments>>
+public abstract interface NumberOfDocumentsClassTests<SUT extends javax.print.attribute.standard.NumberOfDocuments>
 extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.IntegerSyntaxClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.NumberOfDocuments> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.NumberOfDocuments.class.isAssignableFrom(sut));
     }

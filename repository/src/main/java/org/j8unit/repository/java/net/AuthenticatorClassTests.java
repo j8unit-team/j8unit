@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.AuthenticatorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AuthenticatorClassTests<SUT extends Class<? extends java.net.Authenticator>>
+public abstract interface AuthenticatorClassTests<SUT extends java.net.Authenticator>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.net.AuthenticatorTests.RequestorTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RequestorTypeClassTests<SUT extends Class<? extends java.net.Authenticator.RequestorType>>
+    public static abstract interface RequestorTypeClassTests<SUT extends java.net.Authenticator.RequestorType>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.net.Authenticator.RequestorType> {
 
         /**
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.net.Authenticator.RequestorType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.net.Authenticator.RequestorType.class.isAssignableFrom(sut));
         }
@@ -138,7 +138,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_requestPasswordAuthentication_InetAddress_int_String_String_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -157,7 +157,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_requestPasswordAuthentication_String_InetAddress_int_String_String_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -176,7 +176,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_requestPasswordAuthentication_String_InetAddress_int_String_String_String_URL_RequestorType()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -192,7 +192,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setDefault_Authenticator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,7 +201,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.Authenticator> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.net.Authenticator.class.isAssignableFrom(sut));
     }

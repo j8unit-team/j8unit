@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationGroupTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivationGroupClassTests<SUT extends Class<? extends java.rmi.activation.ActivationGroup>>
+public abstract interface ActivationGroupClassTests<SUT extends java.rmi.activation.ActivationGroup>
 extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTests<SUT>,
 org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
 
@@ -52,7 +52,7 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
     public default void test_createGroup_ActivationGroupID_ActivationGroupDesc_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -68,7 +68,7 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
     public default void test_currentGroupID()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -85,7 +85,7 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
     public default void test_getSystem()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,7 +102,7 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
     public default void test_setSystem_ActivationSystem()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.activation.ActivationGroup> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.activation.ActivationGroup.class.isAssignableFrom(sut));
     }

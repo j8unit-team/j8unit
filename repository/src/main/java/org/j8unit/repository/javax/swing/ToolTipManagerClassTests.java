@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ToolTipManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ToolTipManagerClassTests<SUT extends Class<? extends javax.swing.ToolTipManager>>
+public abstract interface ToolTipManagerClassTests<SUT extends javax.swing.ToolTipManager>
 extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
     public default void test_sharedInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.ToolTipManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.ToolTipManager.class.isAssignableFrom(sut));
     }

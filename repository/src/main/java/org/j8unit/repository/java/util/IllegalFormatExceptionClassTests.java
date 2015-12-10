@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IllegalFormatExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IllegalFormatExceptionClassTests<SUT extends Class<? extends java.util.IllegalFormatException>>
+public abstract interface IllegalFormatExceptionClassTests<SUT extends java.util.IllegalFormatException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.IllegalFormatException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.IllegalFormatException.class.isAssignableFrom(sut));
     }

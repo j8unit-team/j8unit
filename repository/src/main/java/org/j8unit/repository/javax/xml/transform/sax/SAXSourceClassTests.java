@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.sax.SAXSourceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SAXSourceClassTests<SUT extends Class<? extends javax.xml.transform.sax.SAXSource>>
+public abstract interface SAXSourceClassTests<SUT extends javax.xml.transform.sax.SAXSource>
 extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -91,7 +91,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8u
     public default void test_sourceToInputSource_Source()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -100,7 +100,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8u
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.transform.sax.SAXSource> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.transform.sax.SAXSource.class.isAssignableFrom(sut));
     }

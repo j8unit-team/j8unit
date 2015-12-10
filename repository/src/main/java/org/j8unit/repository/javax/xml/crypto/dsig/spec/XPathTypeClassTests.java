@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XPathTypeClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.spec.XPathType>>
+public abstract interface XPathTypeClassTests<SUT extends javax.xml.crypto.dsig.spec.XPathType>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests.FilterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FilterClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.spec.XPathType.Filter>>
+    public static abstract interface FilterClassTests<SUT extends javax.xml.crypto.dsig.spec.XPathType.Filter>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.xml.crypto.dsig.spec.XPathType.Filter> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.xml.crypto.dsig.spec.XPathType.Filter.class.isAssignableFrom(sut));
         }
@@ -118,7 +118,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.crypto.dsig.spec.XPathType> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.crypto.dsig.spec.XPathType.class.isAssignableFrom(sut));
     }

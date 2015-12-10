@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.SourceVersionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SourceVersionClassTests<SUT extends Class<? extends javax.lang.model.SourceVersion>>
+public abstract interface SourceVersionClassTests<SUT extends javax.lang.model.SourceVersion>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.SourceVersion> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_isIdentifier_CharSequence()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_isKeyword_CharSequence()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_isName_CharSequence()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_latest()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -112,7 +112,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_latestSupported()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -128,7 +128,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void test_values()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.SourceVersion> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.SourceVersion.class.isAssignableFrom(sut));
     }

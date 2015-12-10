@@ -28,14 +28,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.MarshallerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MarshallerClassTests<SUT extends Class<? extends javax.xml.bind.Marshaller>>
-extends J8UnitTest<SUT> {
+public abstract interface MarshallerClassTests<SUT extends javax.xml.bind.Marshaller>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -58,13 +58,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.bind.MarshallerTests.ListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListenerClassTests<SUT extends Class<? extends javax.xml.bind.Marshaller.Listener>>
+    public static abstract interface ListenerClassTests<SUT extends javax.xml.bind.Marshaller.Listener>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.xml.bind.Marshaller.Listener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.xml.bind.Marshaller.Listener.class.isAssignableFrom(sut));
         }
@@ -97,7 +97,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.Marshaller> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.Marshaller.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.ListPeerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ListPeerClassTests<SUT extends Class<? extends java.awt.peer.ListPeer>>
+public abstract interface ListPeerClassTests<SUT extends java.awt.peer.ListPeer>
 extends org.j8unit.repository.java.awt.peer.ComponentPeerClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.peer.ListPeer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.peer.ListPeer.class.isAssignableFrom(sut));
     }

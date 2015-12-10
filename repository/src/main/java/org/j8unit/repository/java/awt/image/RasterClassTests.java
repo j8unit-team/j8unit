@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.RasterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RasterClassTests<SUT extends Class<? extends java.awt.image.Raster>>
+public abstract interface RasterClassTests<SUT extends java.awt.image.Raster>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -49,7 +49,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createBandedRaster_DataBuffer_int_int_int_intArray_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -66,7 +66,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createBandedRaster_int_int_int_int_intArray_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -82,7 +82,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createBandedRaster_int_int_int_int_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createInterleavedRaster_DataBuffer_int_int_int_int_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -117,7 +117,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createInterleavedRaster_int_int_int_int_int_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -134,7 +134,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createInterleavedRaster_int_int_int_int_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -152,7 +152,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createPackedRaster_DataBuffer_int_int_int_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -170,7 +170,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createPackedRaster_DataBuffer_int_int_int_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -186,7 +186,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createPackedRaster_int_int_int_int_int_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -202,7 +202,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createPackedRaster_int_int_int_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -220,7 +220,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createRaster_SampleModel_DataBuffer_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -238,7 +238,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createWritableRaster_SampleModel_DataBuffer_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_createWritableRaster_SampleModel_Point()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -264,7 +264,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.image.Raster> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.image.Raster.class.isAssignableFrom(sut));
     }

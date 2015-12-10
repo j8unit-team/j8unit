@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JTreeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JTreeClassTests<SUT extends Class<? extends javax.swing.JTree>>
+public abstract interface JTreeClassTests<SUT extends javax.swing.JTree>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -57,13 +57,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTreeTests.DropLocationTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.JTree.DropLocation>>
+    public static abstract interface DropLocationClassTests<SUT extends javax.swing.JTree.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         @Override
@@ -71,7 +71,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JTree.DropLocation> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JTree.DropLocation.class.isAssignableFrom(sut));
         }
@@ -99,13 +99,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTreeTests.DynamicUtilTreeNodeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DynamicUtilTreeNodeClassTests<SUT extends Class<? extends javax.swing.JTree.DynamicUtilTreeNode>>
+    public static abstract interface DynamicUtilTreeNodeClassTests<SUT extends javax.swing.JTree.DynamicUtilTreeNode>
     extends org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeClassTests<SUT> {
 
         /**
@@ -139,7 +139,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void test_createChildren_DefaultMutableTreeNode_Object()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -148,7 +148,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JTree.DynamicUtilTreeNode> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JTree.DynamicUtilTreeNode.class.isAssignableFrom(sut));
         }
@@ -255,7 +255,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JTree> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JTree.class.isAssignableFrom(sut));
     }

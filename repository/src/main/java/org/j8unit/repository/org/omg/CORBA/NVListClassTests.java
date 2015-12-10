@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.NVListTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NVListClassTests<SUT extends Class<? extends org.omg.CORBA.NVList>>
+public abstract interface NVListClassTests<SUT extends org.omg.CORBA.NVList>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -53,7 +53,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA.NVList> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA.NVList.class.isAssignableFrom(sut));
     }

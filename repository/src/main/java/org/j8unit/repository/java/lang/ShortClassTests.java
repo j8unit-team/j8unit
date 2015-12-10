@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ShortTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ShortClassTests<SUT extends Class<? extends java.lang.Short>>
+public abstract interface ShortClassTests<SUT extends java.lang.Short>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Short>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
@@ -74,7 +74,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_compare_short_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_decode_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_hashCode_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_parseShort_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_parseShort_String_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_reverseBytes_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_toString_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -185,7 +185,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_toUnsignedInt_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,7 +201,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_toUnsignedLong_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -217,7 +217,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_valueOf_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -233,7 +233,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -249,7 +249,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void test_valueOf_String_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -258,7 +258,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.Short> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.Short.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DiagnosticCollectorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DiagnosticCollectorClassTests<SUT extends Class<? extends javax.tools.DiagnosticCollector<S>>, S>
+public abstract interface DiagnosticCollectorClassTests<SUT extends javax.tools.DiagnosticCollector<S>, S>
 extends org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<SUT, S>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<SUT, S>, 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.DiagnosticCollector<S>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.DiagnosticCollector.class.isAssignableFrom(sut));
     }

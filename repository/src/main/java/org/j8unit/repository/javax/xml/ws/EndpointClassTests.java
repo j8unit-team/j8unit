@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.EndpointTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EndpointClassTests<SUT extends Class<? extends javax.xml.ws.Endpoint>>
+public abstract interface EndpointClassTests<SUT extends javax.xml.ws.Endpoint>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -60,7 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -76,7 +76,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_Object_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -92,7 +92,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_String_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -110,7 +110,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_create_String_Object_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_publish_String_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_publish_String_Object_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.Endpoint> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.Endpoint.class.isAssignableFrom(sut));
     }

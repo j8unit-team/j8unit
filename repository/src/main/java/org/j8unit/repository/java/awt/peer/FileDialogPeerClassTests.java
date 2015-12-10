@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.FileDialogPeerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileDialogPeerClassTests<SUT extends Class<? extends java.awt.peer.FileDialogPeer>>
+public abstract interface FileDialogPeerClassTests<SUT extends java.awt.peer.FileDialogPeer>
 extends org.j8unit.repository.java.awt.peer.DialogPeerClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.awt.peer.DialogPeerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.peer.FileDialogPeer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.peer.FileDialogPeer.class.isAssignableFrom(sut));
     }

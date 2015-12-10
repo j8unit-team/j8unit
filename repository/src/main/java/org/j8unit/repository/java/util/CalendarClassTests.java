@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.CalendarTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CalendarClassTests<SUT extends Class<? extends java.util.Calendar>>
+public abstract interface CalendarClassTests<SUT extends java.util.Calendar>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -57,13 +57,13 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.CalendarTests.BuilderTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.Calendar.Builder>>
+    public static abstract interface BuilderClassTests<SUT extends java.util.Calendar.Builder>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -84,7 +84,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Calendar.Builder> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Calendar.Builder.class.isAssignableFrom(sut));
         }
@@ -103,7 +103,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void test_getAvailableCalendarTypes()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -119,7 +119,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void test_getAvailableLocales()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -135,7 +135,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void test_getInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -151,7 +151,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void test_getInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -167,7 +167,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void test_getInstance_TimeZone()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -183,7 +183,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void test_getInstance_TimeZone_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -192,7 +192,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Calendar> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Calendar.class.isAssignableFrom(sut));
     }

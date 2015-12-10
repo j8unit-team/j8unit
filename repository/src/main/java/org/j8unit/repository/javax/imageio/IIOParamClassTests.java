@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.IIOParamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IIOParamClassTests<SUT extends Class<? extends javax.imageio.IIOParam>>
+public abstract interface IIOParamClassTests<SUT extends javax.imageio.IIOParam>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.imageio.IIOParam> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.imageio.IIOParam.class.isAssignableFrom(sut));
     }

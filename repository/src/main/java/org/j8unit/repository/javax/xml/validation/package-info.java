@@ -1,6 +1,7 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code javax.xml.validation}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * {@code javax.xml.validation}.
  * </p>
  *
  * <p>

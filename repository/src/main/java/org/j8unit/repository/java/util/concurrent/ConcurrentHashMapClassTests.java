@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConcurrentHashMapClassTests<SUT extends Class<? extends java.util.concurrent.ConcurrentHashMap<K, V>>, K, V>
+public abstract interface ConcurrentHashMapClassTests<SUT extends java.util.concurrent.ConcurrentHashMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
 
@@ -59,13 +59,13 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeySetViewClassTests<SUT extends Class<? extends java.util.concurrent.ConcurrentHashMap.KeySetView<K, V>>, K, V>
+    public static abstract interface KeySetViewClassTests<SUT extends java.util.concurrent.ConcurrentHashMap.KeySetView<K, V>, K, V>
     extends org.j8unit.repository.java.util.SetClassTests<SUT, K>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.util.CollectionClassTests<SUT, K>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -74,7 +74,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.ConcurrentHashMap.KeySetView<K, V>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.ConcurrentHashMap.KeySetView.class.isAssignableFrom(sut));
         }
@@ -163,7 +163,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     public default void test_newKeySet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -179,7 +179,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     public default void test_newKeySet_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -188,7 +188,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.ConcurrentHashMap<K, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.ConcurrentHashMap.class.isAssignableFrom(sut));
     }

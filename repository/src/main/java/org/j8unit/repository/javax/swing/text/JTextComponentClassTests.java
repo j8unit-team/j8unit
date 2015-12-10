@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.JTextComponentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JTextComponentClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent>>
+public abstract interface JTextComponentClassTests<SUT extends javax.swing.text.JTextComponent>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -59,13 +59,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AccessibleJTextComponentClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent.AccessibleJTextComponent>>
+    public static abstract interface AccessibleJTextComponentClassTests<SUT extends javax.swing.text.JTextComponent.AccessibleJTextComponent>
     extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT>, org.j8unit.repository.javax.swing.event.CaretListenerClassTests<SUT>,
     org.j8unit.repository.javax.swing.event.DocumentListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleActionClassTests<SUT>,
     org.j8unit.repository.javax.accessibility.AccessibleEditableTextClassTests<SUT>,
@@ -93,7 +93,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.JTextComponent.AccessibleJTextComponent> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.JTextComponent.AccessibleJTextComponent.class.isAssignableFrom(sut));
         }
@@ -122,13 +122,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent.DropLocation>>
+    public static abstract interface DropLocationClassTests<SUT extends javax.swing.text.JTextComponent.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         @Override
@@ -136,7 +136,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.JTextComponent.DropLocation> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.JTextComponent.DropLocation.class.isAssignableFrom(sut));
         }
@@ -165,13 +165,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyBindingClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent.KeyBinding>>
+    public static abstract interface KeyBindingClassTests<SUT extends javax.swing.text.JTextComponent.KeyBinding>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -195,7 +195,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.JTextComponent.KeyBinding> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.JTextComponent.KeyBinding.class.isAssignableFrom(sut));
         }
@@ -229,7 +229,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void test_addKeymap_String_Keymap()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -245,7 +245,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void test_getKeymap_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -264,7 +264,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void test_loadKeymap_Keymap_KeyBindingArray_ActionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -280,7 +280,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void test_removeKeymap_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -289,7 +289,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.JTextComponent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.JTextComponent.class.isAssignableFrom(sut));
     }

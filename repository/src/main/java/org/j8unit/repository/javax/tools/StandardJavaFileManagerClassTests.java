@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.StandardJavaFileManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StandardJavaFileManagerClassTests<SUT extends Class<? extends javax.tools.StandardJavaFileManager>>
+public abstract interface StandardJavaFileManagerClassTests<SUT extends javax.tools.StandardJavaFileManager>
 extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.StandardJavaFileManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.StandardJavaFileManager.class.isAssignableFrom(sut));
     }

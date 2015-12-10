@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.DecimalFormatSymbolsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DecimalFormatSymbolsClassTests<SUT extends Class<? extends java.text.DecimalFormatSymbols>>
+public abstract interface DecimalFormatSymbolsClassTests<SUT extends java.text.DecimalFormatSymbols>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -77,7 +77,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAvailableLocales()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -93,7 +93,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -109,7 +109,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -118,7 +118,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.DecimalFormatSymbols> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.DecimalFormatSymbols.class.isAssignableFrom(sut));
     }

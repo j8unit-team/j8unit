@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultEditorKitClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit>>
+public abstract interface DefaultEditorKitClassTests<SUT extends javax.swing.text.DefaultEditorKit>
 extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.BeepActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BeepActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.BeepAction>>
+    public static abstract interface BeepActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.BeepAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.BeepAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.BeepAction.class.isAssignableFrom(sut));
         }
@@ -115,13 +115,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.CopyActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CopyActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.CopyAction>>
+    public static abstract interface CopyActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.CopyAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -143,7 +143,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.CopyAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.CopyAction.class.isAssignableFrom(sut));
         }
@@ -172,13 +172,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.CutActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CutActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.CutAction>>
+    public static abstract interface CutActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.CutAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -200,7 +200,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.CutAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.CutAction.class.isAssignableFrom(sut));
         }
@@ -229,13 +229,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.DefaultKeyTypedActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DefaultKeyTypedActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction>>
+    public static abstract interface DefaultKeyTypedActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -257,7 +257,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction.class.isAssignableFrom(sut));
         }
@@ -286,13 +286,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.InsertBreakActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertBreakActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.InsertBreakAction>>
+    public static abstract interface InsertBreakActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.InsertBreakAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -314,7 +314,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.InsertBreakAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.InsertBreakAction.class.isAssignableFrom(sut));
         }
@@ -343,13 +343,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.InsertContentActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertContentActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.InsertContentAction>>
+    public static abstract interface InsertContentActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.InsertContentAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -371,7 +371,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.InsertContentAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.InsertContentAction.class.isAssignableFrom(sut));
         }
@@ -400,13 +400,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.InsertTabActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertTabActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.InsertTabAction>>
+    public static abstract interface InsertTabActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.InsertTabAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -428,7 +428,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.InsertTabAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.InsertTabAction.class.isAssignableFrom(sut));
         }
@@ -457,13 +457,13 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitTests.PasteActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PasteActionClassTests<SUT extends Class<? extends javax.swing.text.DefaultEditorKit.PasteAction>>
+    public static abstract interface PasteActionClassTests<SUT extends javax.swing.text.DefaultEditorKit.PasteAction>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
 
         /**
@@ -485,7 +485,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultEditorKit.PasteAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultEditorKit.PasteAction.class.isAssignableFrom(sut));
         }
@@ -511,7 +511,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.DefaultEditorKit> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.DefaultEditorKit.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.sax.TemplatesHandlerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TemplatesHandlerClassTests<SUT extends Class<? extends javax.xml.transform.sax.TemplatesHandler>>
+public abstract interface TemplatesHandlerClassTests<SUT extends javax.xml.transform.sax.TemplatesHandler>
 extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.transform.sax.TemplatesHandler> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.transform.sax.TemplatesHandler.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertPathParametersTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CertPathParametersClassTests<SUT extends Class<? extends java.security.cert.CertPathParameters>>
+public abstract interface CertPathParametersClassTests<SUT extends java.security.cert.CertPathParameters>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.CertPathParameters> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.CertPathParameters.class.isAssignableFrom(sut));
     }

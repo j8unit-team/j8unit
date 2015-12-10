@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultStyledDocumentClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument>>
+public abstract interface DefaultStyledDocumentClassTests<SUT extends javax.swing.text.DefaultStyledDocument>
 extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AttributeUndoableEditClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit>>
+    public static abstract interface AttributeUndoableEditClassTests<SUT extends javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit>
     extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SUT> {
 
         /**
@@ -90,7 +90,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit.class.isAssignableFrom(sut));
         }
@@ -119,13 +119,13 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ElementBufferClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument.ElementBuffer>>
+    public static abstract interface ElementBufferClassTests<SUT extends javax.swing.text.DefaultStyledDocument.ElementBuffer>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -151,7 +151,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultStyledDocument.ElementBuffer> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultStyledDocument.ElementBuffer.class.isAssignableFrom(sut));
         }
@@ -180,13 +180,13 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ElementSpecClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument.ElementSpec>>
+    public static abstract interface ElementSpecClassTests<SUT extends javax.swing.text.DefaultStyledDocument.ElementSpec>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -243,7 +243,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.DefaultStyledDocument.ElementSpec> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.DefaultStyledDocument.ElementSpec.class.isAssignableFrom(sut));
         }
@@ -302,7 +302,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.DefaultStyledDocument> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.DefaultStyledDocument.class.isAssignableFrom(sut));
     }

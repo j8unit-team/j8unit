@@ -26,14 +26,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SpliteratorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SpliteratorClassTests<SUT extends Class<? extends java.util.Spliterator<T>>, T>
-extends J8UnitTest<SUT> {
+public abstract interface SpliteratorClassTests<SUT extends java.util.Spliterator<T>, T>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -56,13 +56,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfDoubleClassTests<SUT extends Class<? extends java.util.Spliterator.OfDouble>>
+    public static abstract interface OfDoubleClassTests<SUT extends java.util.Spliterator.OfDouble>
     extends
     org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT, java.lang.Double, java.util.function.DoubleConsumer, java.util.Spliterator.OfDouble> {
 
@@ -71,7 +71,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterator.OfDouble> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterator.OfDouble.class.isAssignableFrom(sut));
         }
@@ -99,13 +99,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfIntTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfIntClassTests<SUT extends Class<? extends java.util.Spliterator.OfInt>>
+    public static abstract interface OfIntClassTests<SUT extends java.util.Spliterator.OfInt>
     extends
     org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT, java.lang.Integer, java.util.function.IntConsumer, java.util.Spliterator.OfInt> {
 
@@ -114,7 +114,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterator.OfInt> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterator.OfInt.class.isAssignableFrom(sut));
         }
@@ -142,13 +142,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfLongTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfLongClassTests<SUT extends Class<? extends java.util.Spliterator.OfLong>>
+    public static abstract interface OfLongClassTests<SUT extends java.util.Spliterator.OfLong>
     extends
     org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT, java.lang.Long, java.util.function.LongConsumer, java.util.Spliterator.OfLong> {
 
@@ -157,7 +157,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterator.OfLong> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterator.OfLong.class.isAssignableFrom(sut));
         }
@@ -185,13 +185,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfPrimitiveClassTests<SUT extends Class<? extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>, T, T_CONS, T_SPLITR extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>
+    public static abstract interface OfPrimitiveClassTests<SUT extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>, T, T_CONS, T_SPLITR extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>
     extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT, T> {
 
         @Override
@@ -199,7 +199,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Spliterator.OfPrimitive.class.isAssignableFrom(sut));
         }
@@ -210,7 +210,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Spliterator<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Spliterator.class.isAssignableFrom(sut));
     }

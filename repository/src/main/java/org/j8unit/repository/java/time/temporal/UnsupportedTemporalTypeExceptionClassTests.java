@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.UnsupportedTemporalTypeExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnsupportedTemporalTypeExceptionClassTests<SUT extends Class<? extends java.time.temporal.UnsupportedTemporalTypeException>>
+public abstract interface UnsupportedTemporalTypeExceptionClassTests<SUT extends java.time.temporal.UnsupportedTemporalTypeException>
 extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {
 
     /**
@@ -74,7 +74,7 @@ extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.temporal.UnsupportedTemporalTypeException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.temporal.UnsupportedTemporalTypeException.class.isAssignableFrom(sut));
     }

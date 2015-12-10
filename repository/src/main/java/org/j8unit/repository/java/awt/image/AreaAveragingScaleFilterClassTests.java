@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.AreaAveragingScaleFilterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AreaAveragingScaleFilterClassTests<SUT extends Class<? extends java.awt.image.AreaAveragingScaleFilter>>
+public abstract interface AreaAveragingScaleFilterClassTests<SUT extends java.awt.image.AreaAveragingScaleFilter>
 extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.image.AreaAveragingScaleFilter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.image.AreaAveragingScaleFilter.class.isAssignableFrom(sut));
     }

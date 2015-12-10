@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.SortResponseControlTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SortResponseControlClassTests<SUT extends Class<? extends javax.naming.ldap.SortResponseControl>>
+public abstract interface SortResponseControlClassTests<SUT extends javax.naming.ldap.SortResponseControl>
 extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.ldap.SortResponseControl> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.ldap.SortResponseControl.class.isAssignableFrom(sut));
     }

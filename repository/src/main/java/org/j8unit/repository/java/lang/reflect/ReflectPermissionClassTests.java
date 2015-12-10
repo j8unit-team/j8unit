@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ReflectPermissionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ReflectPermissionClassTests<SUT extends Class<? extends java.lang.reflect.ReflectPermission>>
+public abstract interface ReflectPermissionClassTests<SUT extends java.lang.reflect.ReflectPermission>
 extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.reflect.ReflectPermission> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.reflect.ReflectPermission.class.isAssignableFrom(sut));
     }

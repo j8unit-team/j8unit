@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultFormatterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultFormatterClassTests<SUT extends Class<? extends javax.swing.text.DefaultFormatter>>
+public abstract interface DefaultFormatterClassTests<SUT extends javax.swing.text.DefaultFormatter>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatte
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.DefaultFormatter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.DefaultFormatter.class.isAssignableFrom(sut));
     }

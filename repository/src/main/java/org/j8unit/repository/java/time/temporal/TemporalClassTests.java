@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.TemporalTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TemporalClassTests<SUT extends Class<? extends java.time.temporal.Temporal>>
+public abstract interface TemporalClassTests<SUT extends java.time.temporal.Temporal>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.temporal.Temporal> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.temporal.Temporal.class.isAssignableFrom(sut));
     }

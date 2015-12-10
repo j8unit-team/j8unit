@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.MinguoChronologyTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MinguoChronologyClassTests<SUT extends Class<? extends java.time.chrono.MinguoChronology>>
+public abstract interface MinguoChronologyClassTests<SUT extends java.time.chrono.MinguoChronology>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.time.chrono.AbstractChronologyClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.chrono.MinguoChronology> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.chrono.MinguoChronology.class.isAssignableFrom(sut));
     }

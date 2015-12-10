@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.JarInputStreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JarInputStreamClassTests<SUT extends Class<? extends java.util.jar.JarInputStream>>
+public abstract interface JarInputStreamClassTests<SUT extends java.util.jar.JarInputStream>
 extends org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.jar.JarInputStream> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.jar.JarInputStream.class.isAssignableFrom(sut));
     }

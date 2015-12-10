@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.RowSorterEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RowSorterEventClassTests<SUT extends Class<? extends javax.swing.event.RowSorterEvent>>
+public abstract interface RowSorterEventClassTests<SUT extends javax.swing.event.RowSorterEvent>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.RowSorterEventTests.TypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TypeClassTests<SUT extends Class<? extends javax.swing.event.RowSorterEvent.Type>>
+    public static abstract interface TypeClassTests<SUT extends javax.swing.event.RowSorterEvent.Type>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.event.RowSorterEvent.Type> {
 
         /**
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.event.RowSorterEvent.Type> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.event.RowSorterEvent.Type.class.isAssignableFrom(sut));
         }
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.event.RowSorterEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.event.RowSorterEvent.class.isAssignableFrom(sut));
     }

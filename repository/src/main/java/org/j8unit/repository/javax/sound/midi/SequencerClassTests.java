@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.SequencerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SequencerClassTests<SUT extends Class<? extends javax.sound.midi.Sequencer>>
+public abstract interface SequencerClassTests<SUT extends javax.sound.midi.Sequencer>
 extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
 
     /**
@@ -55,13 +55,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.midi.SequencerTests.SyncModeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SyncModeClassTests<SUT extends Class<? extends javax.sound.midi.Sequencer.SyncMode>>
+    public static abstract interface SyncModeClassTests<SUT extends javax.sound.midi.Sequencer.SyncMode>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.sound.midi.Sequencer.SyncMode> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.sound.midi.Sequencer.SyncMode.class.isAssignableFrom(sut));
         }
@@ -81,7 +81,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.midi.Sequencer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.midi.Sequencer.class.isAssignableFrom(sut));
     }

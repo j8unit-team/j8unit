@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.sasl.RealmCallbackTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RealmCallbackClassTests<SUT extends Class<? extends javax.security.sasl.RealmCallback>>
+public abstract interface RealmCallbackClassTests<SUT extends javax.security.sasl.RealmCallback>
 extends org.j8unit.repository.javax.security.auth.callback.TextInputCallbackClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.security.auth.callback.TextInputCallbackClas
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.security.sasl.RealmCallback> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.security.sasl.RealmCallback.class.isAssignableFrom(sut));
     }

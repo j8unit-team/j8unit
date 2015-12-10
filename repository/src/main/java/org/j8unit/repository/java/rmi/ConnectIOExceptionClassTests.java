@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.ConnectIOExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ConnectIOExceptionClassTests<SUT extends Class<? extends java.rmi.ConnectIOException>>
+public abstract interface ConnectIOExceptionClassTests<SUT extends java.rmi.ConnectIOException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.ConnectIOException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.ConnectIOException.class.isAssignableFrom(sut));
     }

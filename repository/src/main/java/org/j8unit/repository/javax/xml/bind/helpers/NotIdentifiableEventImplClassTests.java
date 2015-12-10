@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.helpers.NotIdentifiableEventImplTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NotIdentifiableEventImplClassTests<SUT extends Class<? extends javax.xml.bind.helpers.NotIdentifiableEventImpl>>
+public abstract interface NotIdentifiableEventImplClassTests<SUT extends javax.xml.bind.helpers.NotIdentifiableEventImpl>
 extends org.j8unit.repository.javax.xml.bind.NotIdentifiableEventClassTests<SUT>,
 org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClassTests<SUT> {
 
@@ -78,7 +78,7 @@ org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClassTests<SUT> 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.helpers.NotIdentifiableEventImpl> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.helpers.NotIdentifiableEventImpl.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.StringTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StringClassTests<SUT extends Class<? extends java.lang.String>>
+public abstract interface StringClassTests<SUT extends java.lang.String>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.String>,
 org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -249,7 +249,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_copyValueOf_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -265,7 +265,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_copyValueOf_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -281,7 +281,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_format_Locale_String_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -297,7 +297,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_format_String_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -313,7 +313,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_join_CharSequence_CharSequenceArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -329,7 +329,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_join_CharSequence_Iterable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -345,7 +345,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -361,7 +361,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_char()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -377,7 +377,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -393,7 +393,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -409,7 +409,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -425,7 +425,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -441,7 +441,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -457,7 +457,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -473,7 +473,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void test_valueOf_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -482,7 +482,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.String> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.String.class.isAssignableFrom(sut));
     }

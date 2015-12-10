@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.SubjectDomainCombinerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SubjectDomainCombinerClassTests<SUT extends Class<? extends javax.security.auth.SubjectDomainCombiner>>
+public abstract interface SubjectDomainCombinerClassTests<SUT extends javax.security.auth.SubjectDomainCombiner>
 extends org.j8unit.repository.java.security.DomainCombinerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.security.DomainCombinerClassTests<SUT>, org.j
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.security.auth.SubjectDomainCombiner> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.security.auth.SubjectDomainCombiner.class.isAssignableFrom(sut));
     }

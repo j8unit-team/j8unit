@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DatatypeConstantsClassTests<SUT extends Class<? extends javax.xml.datatype.DatatypeConstants>>
+public abstract interface DatatypeConstantsClassTests<SUT extends javax.xml.datatype.DatatypeConstants>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests.FieldTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FieldClassTests<SUT extends Class<? extends javax.xml.datatype.DatatypeConstants.Field>>
+    public static abstract interface FieldClassTests<SUT extends javax.xml.datatype.DatatypeConstants.Field>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.xml.datatype.DatatypeConstants.Field> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.xml.datatype.DatatypeConstants.Field.class.isAssignableFrom(sut));
         }
@@ -82,7 +82,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.datatype.DatatypeConstants> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.datatype.DatatypeConstants.class.isAssignableFrom(sut));
     }

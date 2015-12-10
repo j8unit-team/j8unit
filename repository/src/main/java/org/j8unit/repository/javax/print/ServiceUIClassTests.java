@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.ServiceUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServiceUIClassTests<SUT extends Class<? extends javax.print.ServiceUI>>
+public abstract interface ServiceUIClassTests<SUT extends javax.print.ServiceUI>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_printDialog_GraphicsConfiguration_int_int_PrintServiceArray_PrintService_DocFlavor_PrintRequestAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.ServiceUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.ServiceUI.class.isAssignableFrom(sut));
     }

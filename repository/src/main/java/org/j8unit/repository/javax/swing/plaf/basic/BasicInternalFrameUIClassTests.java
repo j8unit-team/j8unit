@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicInternalFrameUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameUI>>
+public abstract interface BasicInternalFrameUIClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI>
 extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests.InternalFrameLayoutTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InternalFrameLayoutClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout>>
+    public static abstract interface InternalFrameLayoutClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -90,7 +90,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout.class.isAssignableFrom(sut));
         }
@@ -120,14 +120,14 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests.
      *      InternalFramePropertyChangeListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InternalFramePropertyChangeListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener>>
+    public static abstract interface InternalFramePropertyChangeListenerClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -153,7 +153,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener.class.isAssignableFrom(sut));
         }
@@ -189,7 +189,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -198,7 +198,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicInternalFrameUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicInternalFrameUI.class.isAssignableFrom(sut));
     }

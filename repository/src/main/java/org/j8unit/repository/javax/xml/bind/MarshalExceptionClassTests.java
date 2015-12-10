@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.MarshalExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MarshalExceptionClassTests<SUT extends Class<? extends javax.xml.bind.MarshalException>>
+public abstract interface MarshalExceptionClassTests<SUT extends javax.xml.bind.MarshalException>
 extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
 
     /**
@@ -114,7 +114,7 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.MarshalException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.MarshalException.class.isAssignableFrom(sut));
     }

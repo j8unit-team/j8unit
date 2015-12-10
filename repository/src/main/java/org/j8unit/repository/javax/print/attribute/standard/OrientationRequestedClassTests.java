@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.OrientationRequestedTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OrientationRequestedClassTests<SUT extends Class<? extends javax.print.attribute.standard.OrientationRequested>>
+public abstract interface OrientationRequestedClassTests<SUT extends javax.print.attribute.standard.OrientationRequested>
 extends org.j8unit.repository.javax.print.attribute.DocAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
@@ -42,7 +42,7 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.OrientationRequested> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.OrientationRequested.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.LabelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LabelClassTests<SUT extends Class<? extends java.awt.Label>>
+public abstract interface LabelClassTests<SUT extends java.awt.Label>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
 
     /**
@@ -81,7 +81,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Label> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Label.class.isAssignableFrom(sut));
     }

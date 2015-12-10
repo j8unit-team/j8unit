@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleEditableTextTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleEditableTextClassTests<SUT extends Class<? extends javax.accessibility.AccessibleEditableText>>
+public abstract interface AccessibleEditableTextClassTests<SUT extends javax.accessibility.AccessibleEditableText>
 extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT> 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.accessibility.AccessibleEditableText> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.accessibility.AccessibleEditableText.class.isAssignableFrom(sut));
     }

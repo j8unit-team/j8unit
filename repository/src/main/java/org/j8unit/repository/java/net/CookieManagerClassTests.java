@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.CookieManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CookieManagerClassTests<SUT extends Class<? extends java.net.CookieManager>>
+public abstract interface CookieManagerClassTests<SUT extends java.net.CookieManager>
 extends org.j8unit.repository.java.net.CookieHandlerClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.java.net.CookieHandlerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.CookieManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.net.CookieManager.class.isAssignableFrom(sut));
     }

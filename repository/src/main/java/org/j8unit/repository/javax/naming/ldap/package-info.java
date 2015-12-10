@@ -1,6 +1,7 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code javax.naming.ldap}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * {@code javax.naming.ldap}.
  * </p>
  *
  * <p>

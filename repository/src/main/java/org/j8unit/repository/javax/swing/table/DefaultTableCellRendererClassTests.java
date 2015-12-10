@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultTableCellRendererClassTests<SUT extends Class<? extends javax.swing.table.DefaultTableCellRenderer>>
+public abstract interface DefaultTableCellRendererClassTests<SUT extends javax.swing.table.DefaultTableCellRenderer>
 extends org.j8unit.repository.javax.swing.table.TableCellRendererClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
 
@@ -59,13 +59,13 @@ org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests.UIResourceTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceClassTests<SUT extends Class<? extends javax.swing.table.DefaultTableCellRenderer.UIResource>>
+    public static abstract interface UIResourceClassTests<SUT extends javax.swing.table.DefaultTableCellRenderer.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests<SUT> {
 
         /**
@@ -87,7 +87,7 @@ org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.table.DefaultTableCellRenderer.UIResource> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.table.DefaultTableCellRenderer.UIResource.class.isAssignableFrom(sut));
         }
@@ -113,7 +113,7 @@ org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.table.DefaultTableCellRenderer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.table.DefaultTableCellRenderer.class.isAssignableFrom(sut));
     }

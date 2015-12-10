@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.registry.RegistryTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RegistryClassTests<SUT extends Class<? extends java.rmi.registry.Registry>>
+public abstract interface RegistryClassTests<SUT extends java.rmi.registry.Registry>
 extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.registry.Registry> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.registry.Registry.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.JavaCompilerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JavaCompilerClassTests<SUT extends Class<? extends javax.tools.JavaCompiler>>
+public abstract interface JavaCompilerClassTests<SUT extends javax.tools.JavaCompiler>
 extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.JavaCompilerTests.CompilationTaskTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CompilationTaskClassTests<SUT extends Class<? extends javax.tools.JavaCompiler.CompilationTask>>
+    public static abstract interface CompilationTaskClassTests<SUT extends javax.tools.JavaCompiler.CompilationTask>
     extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT, java.lang.Boolean> {
 
         @Override
@@ -70,7 +70,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.tools.JavaCompiler.CompilationTask> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.tools.JavaCompiler.CompilationTask.class.isAssignableFrom(sut));
         }
@@ -82,7 +82,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.JavaCompiler> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.JavaCompiler.class.isAssignableFrom(sut));
     }

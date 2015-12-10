@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.spec.SecretKeySpecTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SecretKeySpecClassTests<SUT extends Class<? extends javax.crypto.spec.SecretKeySpec>>
+public abstract interface SecretKeySpecClassTests<SUT extends javax.crypto.spec.SecretKeySpec>
 extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8unit.repository.javax.crypto.SecretKeyClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -70,7 +70,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.crypto.spec.SecretKeySpec> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.crypto.spec.SecretKeySpec.class.isAssignableFrom(sut));
     }

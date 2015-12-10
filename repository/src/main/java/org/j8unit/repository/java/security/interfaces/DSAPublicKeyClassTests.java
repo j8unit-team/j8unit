@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.interfaces.DSAPublicKeyTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DSAPublicKeyClassTests<SUT extends Class<? extends java.security.interfaces.DSAPublicKey>>
+public abstract interface DSAPublicKeyClassTests<SUT extends java.security.interfaces.DSAPublicKey>
 extends org.j8unit.repository.java.security.interfaces.DSAKeyClassTests<SUT>, org.j8unit.repository.java.security.PublicKeyClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.security.interfaces.DSAKeyClassTests<SUT>, or
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.interfaces.DSAPublicKey> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.interfaces.DSAPublicKey.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.PipeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PipeClassTests<SUT extends Class<? extends java.nio.channels.Pipe>>
+public abstract interface PipeClassTests<SUT extends java.nio.channels.Pipe>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SinkChannelClassTests<SUT extends Class<? extends java.nio.channels.Pipe.SinkChannel>>
+    public static abstract interface SinkChannelClassTests<SUT extends java.nio.channels.Pipe.SinkChannel>
     extends org.j8unit.repository.java.nio.channels.WritableByteChannelClassTests<SUT>,
     org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>,
     org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.nio.channels.Pipe.SinkChannel> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.nio.channels.Pipe.SinkChannel.class.isAssignableFrom(sut));
         }
@@ -101,13 +101,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SourceChannelClassTests<SUT extends Class<? extends java.nio.channels.Pipe.SourceChannel>>
+    public static abstract interface SourceChannelClassTests<SUT extends java.nio.channels.Pipe.SourceChannel>
     extends org.j8unit.repository.java.nio.channels.ReadableByteChannelClassTests<SUT>,
     org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
     org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
@@ -117,7 +117,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.nio.channels.Pipe.SourceChannel> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.nio.channels.Pipe.SourceChannel.class.isAssignableFrom(sut));
         }
@@ -136,7 +136,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_open()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.Pipe> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.Pipe.class.isAssignableFrom(sut));
     }

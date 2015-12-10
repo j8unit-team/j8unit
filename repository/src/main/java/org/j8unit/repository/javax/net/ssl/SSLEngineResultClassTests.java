@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SSLEngineResultClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult>>
+public abstract interface SSLEngineResultClassTests<SUT extends javax.net.ssl.SSLEngineResult>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HandshakeStatusClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult.HandshakeStatus>>
+    public static abstract interface HandshakeStatusClassTests<SUT extends javax.net.ssl.SSLEngineResult.HandshakeStatus>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.HandshakeStatus> {
 
         /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.net.ssl.SSLEngineResult.HandshakeStatus> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.net.ssl.SSLEngineResult.HandshakeStatus.class.isAssignableFrom(sut));
         }
@@ -133,13 +133,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StatusClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult.Status>>
+    public static abstract interface StatusClassTests<SUT extends javax.net.ssl.SSLEngineResult.Status>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.Status> {
 
         /**
@@ -154,7 +154,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -170,7 +170,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -179,7 +179,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.net.ssl.SSLEngineResult.Status> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.net.ssl.SSLEngineResult.Status.class.isAssignableFrom(sut));
         }
@@ -209,7 +209,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.net.ssl.SSLEngineResult> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.net.ssl.SSLEngineResult.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.interfaces.ECPrivateKeyTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ECPrivateKeyClassTests<SUT extends Class<? extends java.security.interfaces.ECPrivateKey>>
+public abstract interface ECPrivateKeyClassTests<SUT extends java.security.interfaces.ECPrivateKey>
 extends org.j8unit.repository.java.security.PrivateKeyClassTests<SUT>, org.j8unit.repository.java.security.interfaces.ECKeyClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.security.PrivateKeyClassTests<SUT>, org.j8uni
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.interfaces.ECPrivateKey> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.interfaces.ECPrivateKey.class.isAssignableFrom(sut));
     }

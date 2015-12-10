@@ -1,6 +1,7 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code org.ietf.jgss}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * {@code org.ietf.jgss}.
  * </p>
  *
  * <p>

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.InvalidApplicationExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvalidApplicationExceptionClassTests<SUT extends Class<? extends javax.management.InvalidApplicationException>>
+public abstract interface InvalidApplicationExceptionClassTests<SUT extends javax.management.InvalidApplicationException>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.InvalidApplicationException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.InvalidApplicationException.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.UnicastRemoteObjectTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnicastRemoteObjectClassTests<SUT extends Class<? extends java.rmi.server.UnicastRemoteObject>>
+public abstract interface UnicastRemoteObjectClassTests<SUT extends java.rmi.server.UnicastRemoteObject>
 extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
 
     /**
@@ -49,7 +49,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -66,7 +66,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -85,7 +85,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_exportObject_Remote_int_RMIClientSocketFactory_RMIServerSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void test_unexportObject_Remote_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.server.UnicastRemoteObject> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.server.UnicastRemoteObject.class.isAssignableFrom(sut));
     }

@@ -1,6 +1,7 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code java.text}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * {@code java.text}.
  * </p>
  *
  * <p>

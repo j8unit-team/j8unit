@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.RoleListTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RoleListClassTests<SUT extends Class<? extends javax.management.relation.RoleList>>
+public abstract interface RoleListClassTests<SUT extends javax.management.relation.RoleList>
 extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {
 
     /**
@@ -83,7 +83,7 @@ extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Objec
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.relation.RoleList> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.relation.RoleList.class.isAssignableFrom(sut));
     }

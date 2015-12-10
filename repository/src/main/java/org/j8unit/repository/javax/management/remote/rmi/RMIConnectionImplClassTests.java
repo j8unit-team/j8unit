@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImplTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RMIConnectionImplClassTests<SUT extends Class<? extends javax.management.remote.rmi.RMIConnectionImpl>>
+public abstract interface RMIConnectionImplClassTests<SUT extends javax.management.remote.rmi.RMIConnectionImpl>
 extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionClassTests<SUT>, org.j8unit.repository.java.rmi.server.UnreferencedClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -60,7 +60,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.remote.rmi.RMIConnectionImpl> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.remote.rmi.RMIConnectionImpl.class.isAssignableFrom(sut));
     }

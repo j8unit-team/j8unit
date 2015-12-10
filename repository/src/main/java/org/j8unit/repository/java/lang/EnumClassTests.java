@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.EnumTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumClassTests<SUT extends Class<? extends java.lang.Enum<E>>, E extends java.lang.Enum<E>>
+public abstract interface EnumClassTests<SUT extends java.lang.Enum<E>, E extends java.lang.Enum<E>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -48,7 +48,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_Class_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -57,7 +57,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.Enum<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.Enum.class.isAssignableFrom(sut));
     }

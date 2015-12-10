@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.UnsupportedClassVersionErrorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnsupportedClassVersionErrorClassTests<SUT extends Class<? extends java.lang.UnsupportedClassVersionError>>
+public abstract interface UnsupportedClassVersionErrorClassTests<SUT extends java.lang.UnsupportedClassVersionError>
 extends org.j8unit.repository.java.lang.ClassFormatErrorClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.lang.ClassFormatErrorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.UnsupportedClassVersionError> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.UnsupportedClassVersionError.class.isAssignableFrom(sut));
     }

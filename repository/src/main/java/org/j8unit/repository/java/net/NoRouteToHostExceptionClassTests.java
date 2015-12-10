@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.NoRouteToHostExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NoRouteToHostExceptionClassTests<SUT extends Class<? extends java.net.NoRouteToHostException>>
+public abstract interface NoRouteToHostExceptionClassTests<SUT extends java.net.NoRouteToHostException>
 extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.NoRouteToHostException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.net.NoRouteToHostException.class.isAssignableFrom(sut));
     }

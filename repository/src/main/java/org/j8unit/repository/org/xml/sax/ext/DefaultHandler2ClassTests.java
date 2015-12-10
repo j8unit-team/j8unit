@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.ext.DefaultHandler2Tests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultHandler2ClassTests<SUT extends Class<? extends org.xml.sax.ext.DefaultHandler2>>
+public abstract interface DefaultHandler2ClassTests<SUT extends org.xml.sax.ext.DefaultHandler2>
 extends org.j8unit.repository.org.xml.sax.ext.LexicalHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ext.DeclHandlerClassTests<SUT>,
 org.j8unit.repository.org.xml.sax.ext.EntityResolver2ClassTests<SUT>, org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2ClassTests<SUT>, org.j8unit
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.xml.sax.ext.DefaultHandler2> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.xml.sax.ext.DefaultHandler2.class.isAssignableFrom(sut));
     }

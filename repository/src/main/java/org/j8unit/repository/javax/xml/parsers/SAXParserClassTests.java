@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.parsers.SAXParserTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SAXParserClassTests<SUT extends Class<? extends javax.xml.parsers.SAXParser>>
+public abstract interface SAXParserClassTests<SUT extends javax.xml.parsers.SAXParser>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.parsers.SAXParser> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.parsers.SAXParser.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.SystemFlavorMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SystemFlavorMapClassTests<SUT extends Class<? extends java.awt.datatransfer.SystemFlavorMap>>
+public abstract interface SystemFlavorMapClassTests<SUT extends java.awt.datatransfer.SystemFlavorMap>
 extends org.j8unit.repository.java.awt.datatransfer.FlavorMapClassTests<SUT>, org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -50,7 +50,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_decodeDataFlavor_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -66,7 +66,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_decodeJavaMIMEType_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -83,7 +83,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_encodeDataFlavor_DataFlavor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -99,7 +99,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_encodeJavaMIMEType_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -115,7 +115,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getDefaultFlavorMap()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -131,7 +131,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isJavaMIMEType_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -140,7 +140,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.datatransfer.SystemFlavorMap> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.datatransfer.SystemFlavorMap.class.isAssignableFrom(sut));
     }

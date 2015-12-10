@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.ietf.jgss.GSSCredentialTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface GSSCredentialClassTests<SUT extends Class<? extends org.ietf.jgss.GSSCredential>>
+public abstract interface GSSCredentialClassTests<SUT extends org.ietf.jgss.GSSCredential>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.ietf.jgss.GSSCredential> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.ietf.jgss.GSSCredential.class.isAssignableFrom(sut));
     }

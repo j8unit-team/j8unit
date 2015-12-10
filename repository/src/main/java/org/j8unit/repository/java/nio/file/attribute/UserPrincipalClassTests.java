@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.UserPrincipalTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UserPrincipalClassTests<SUT extends Class<? extends java.nio.file.attribute.UserPrincipal>>
+public abstract interface UserPrincipalClassTests<SUT extends java.nio.file.attribute.UserPrincipal>
 extends org.j8unit.repository.java.security.PrincipalClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.security.PrincipalClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.attribute.UserPrincipal> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.attribute.UserPrincipal.class.isAssignableFrom(sut));
     }

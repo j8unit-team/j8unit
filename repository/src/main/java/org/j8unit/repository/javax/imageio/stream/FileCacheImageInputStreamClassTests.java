@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.stream.FileCacheImageInputStreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileCacheImageInputStreamClassTests<SUT extends Class<? extends javax.imageio.stream.FileCacheImageInputStream>>
+public abstract interface FileCacheImageInputStreamClassTests<SUT extends javax.imageio.stream.FileCacheImageInputStream>
 extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassTests<SUT> {
 
     /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassTest
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.imageio.stream.FileCacheImageInputStream> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.imageio.stream.FileCacheImageInputStream.class.isAssignableFrom(sut));
     }

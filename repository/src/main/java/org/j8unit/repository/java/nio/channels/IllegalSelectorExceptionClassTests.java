@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.IllegalSelectorExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IllegalSelectorExceptionClassTests<SUT extends Class<? extends java.nio.channels.IllegalSelectorException>>
+public abstract interface IllegalSelectorExceptionClassTests<SUT extends java.nio.channels.IllegalSelectorException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.IllegalSelectorException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.IllegalSelectorException.class.isAssignableFrom(sut));
     }

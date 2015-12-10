@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLEditorKitClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit>>
+public abstract interface HTMLEditorKitClassTests<SUT extends javax.swing.text.html.HTMLEditorKit>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLFactoryTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HTMLFactoryClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLFactory>>
+    public static abstract interface HTMLFactoryClassTests<SUT extends javax.swing.text.html.HTMLEditorKit.HTMLFactory>
     extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLFactory> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.HTMLFactory.class.isAssignableFrom(sut));
         }
@@ -115,13 +115,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HTMLTextActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLTextAction>>
+    public static abstract interface HTMLTextActionClassTests<SUT extends javax.swing.text.html.HTMLEditorKit.HTMLTextAction>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         /**
@@ -144,7 +144,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLTextAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.HTMLTextAction.class.isAssignableFrom(sut));
         }
@@ -173,13 +173,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertHTMLTextActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction>>
+    public static abstract interface InsertHTMLTextActionClassTests<SUT extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction>
     extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
 
         /**
@@ -223,7 +223,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction.class.isAssignableFrom(sut));
         }
@@ -252,13 +252,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LinkControllerClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController>>
+    public static abstract interface LinkControllerClassTests<SUT extends javax.swing.text.html.HTMLEditorKit.LinkController>
     extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
 
@@ -281,7 +281,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.LinkController.class.isAssignableFrom(sut));
         }
@@ -310,13 +310,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParserCallbackClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback>>
+    public static abstract interface ParserCallbackClassTests<SUT extends javax.swing.text.html.HTMLEditorKit.ParserCallback>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -338,7 +338,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.ParserCallback.class.isAssignableFrom(sut));
         }
@@ -367,13 +367,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParserClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.Parser>>
+    public static abstract interface ParserClassTests<SUT extends javax.swing.text.html.HTMLEditorKit.Parser>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -395,7 +395,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.Parser> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.Parser.class.isAssignableFrom(sut));
         }
@@ -421,7 +421,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.html.HTMLEditorKit> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.html.HTMLEditorKit.class.isAssignableFrom(sut));
     }

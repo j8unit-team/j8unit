@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.PropertyChangeEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PropertyChangeEventClassTests<SUT extends Class<? extends java.beans.PropertyChangeEvent>>
+public abstract interface PropertyChangeEventClassTests<SUT extends java.beans.PropertyChangeEvent>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.PropertyChangeEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.beans.PropertyChangeEvent.class.isAssignableFrom(sut));
     }

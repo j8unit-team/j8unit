@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnsolicitedNotificationEventClassTests<SUT extends Class<? extends javax.naming.ldap.UnsolicitedNotificationEvent>>
+public abstract interface UnsolicitedNotificationEventClassTests<SUT extends javax.naming.ldap.UnsolicitedNotificationEvent>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.ldap.UnsolicitedNotificationEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.ldap.UnsolicitedNotificationEvent.class.isAssignableFrom(sut));
     }

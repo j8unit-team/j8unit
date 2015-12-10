@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanServerInvocationHandlerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MBeanServerInvocationHandlerClassTests<SUT extends Class<? extends javax.management.MBeanServerInvocationHandler>>
+public abstract interface MBeanServerInvocationHandlerClassTests<SUT extends javax.management.MBeanServerInvocationHandler>
 extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -87,7 +87,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
     public default void test_newProxyInstance_MBeanServerConnection_ObjectName_Class_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.MBeanServerInvocationHandler> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.MBeanServerInvocationHandler.class.isAssignableFrom(sut));
     }

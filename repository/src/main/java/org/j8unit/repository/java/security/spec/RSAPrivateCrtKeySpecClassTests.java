@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RSAPrivateCrtKeySpecClassTests<SUT extends Class<? extends java.security.spec.RSAPrivateCrtKeySpec>>
+public abstract interface RSAPrivateCrtKeySpecClassTests<SUT extends java.security.spec.RSAPrivateCrtKeySpec>
 extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecClassTests<SUT> {
 
     /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecClassTests<SUT
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.spec.RSAPrivateCrtKeySpec> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.spec.RSAPrivateCrtKeySpec.class.isAssignableFrom(sut));
     }

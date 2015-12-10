@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.ContainerEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ContainerEventClassTests<SUT extends Class<? extends java.awt.event.ContainerEvent>>
+public abstract interface ContainerEventClassTests<SUT extends java.awt.event.ContainerEvent>
 extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.event.ContainerEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.event.ContainerEvent.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IdentityHashMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IdentityHashMapClassTests<SUT extends Class<? extends java.util.IdentityHashMap<K, V>>, K, V>
+public abstract interface IdentityHashMapClassTests<SUT extends java.util.IdentityHashMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
 
@@ -82,7 +82,7 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.IdentityHashMap<K, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.IdentityHashMap.class.isAssignableFrom(sut));
     }

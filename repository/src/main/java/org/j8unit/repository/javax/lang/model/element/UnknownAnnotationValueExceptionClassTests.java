@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.UnknownAnnotationValueExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnknownAnnotationValueExceptionClassTests<SUT extends Class<? extends javax.lang.model.element.UnknownAnnotationValueException>>
+public abstract interface UnknownAnnotationValueExceptionClassTests<SUT extends javax.lang.model.element.UnknownAnnotationValueException>
 extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTests<SUT> {
 
     /**
@@ -60,7 +60,7 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTests<
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.element.UnknownAnnotationValueException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.element.UnknownAnnotationValueException.class.isAssignableFrom(sut));
     }

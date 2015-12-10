@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.DragSourceDropEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DragSourceDropEventClassTests<SUT extends Class<? extends java.awt.dnd.DragSourceDropEvent>>
+public abstract interface DragSourceDropEventClassTests<SUT extends java.awt.dnd.DragSourceDropEvent>
 extends org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<SUT> {
 
     /**
@@ -87,7 +87,7 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.dnd.DragSourceDropEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.dnd.DragSourceDropEvent.class.isAssignableFrom(sut));
     }

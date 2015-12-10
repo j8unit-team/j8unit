@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributeSetUtilitiesClassTests<SUT extends Class<? extends javax.print.attribute.AttributeSetUtilities>>
+public abstract interface AttributeSetUtilitiesClassTests<SUT extends javax.print.attribute.AttributeSetUtilities>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -50,7 +50,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_synchronizedView_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -68,7 +68,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_synchronizedView_DocAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -86,7 +86,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_synchronizedView_PrintJobAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_synchronizedView_PrintRequestAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_synchronizedView_PrintServiceAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -140,7 +140,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmodifiableView_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -158,7 +158,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmodifiableView_DocAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -176,7 +176,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmodifiableView_PrintJobAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -194,7 +194,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmodifiableView_PrintRequestAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -212,7 +212,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_unmodifiableView_PrintServiceAttributeSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -230,7 +230,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_verifyAttributeCategory_Object_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -248,7 +248,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_verifyAttributeValue_Object_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -267,7 +267,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_verifyCategoryForValue_Class_Attribute()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -276,7 +276,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.AttributeSetUtilities> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.AttributeSetUtilities.class.isAssignableFrom(sut));
     }

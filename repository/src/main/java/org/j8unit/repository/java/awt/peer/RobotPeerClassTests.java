@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.RobotPeerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RobotPeerClassTests<SUT extends Class<? extends java.awt.peer.RobotPeer>>
-extends J8UnitTest<SUT> {
+public abstract interface RobotPeerClassTests<SUT extends java.awt.peer.RobotPeer>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.peer.RobotPeer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.peer.RobotPeer.class.isAssignableFrom(sut));
     }

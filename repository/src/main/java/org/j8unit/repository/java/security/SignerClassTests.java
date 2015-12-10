@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.SignerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SignerClassTests<SUT extends Class<? extends java.security.Signer>>
+public abstract interface SignerClassTests<SUT extends java.security.Signer>
 extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.Signer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.Signer.class.isAssignableFrom(sut));
     }

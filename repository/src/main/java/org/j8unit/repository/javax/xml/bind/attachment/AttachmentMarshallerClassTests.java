@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.attachment.AttachmentMarshallerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttachmentMarshallerClassTests<SUT extends Class<? extends javax.xml.bind.attachment.AttachmentMarshaller>>
+public abstract interface AttachmentMarshallerClassTests<SUT extends javax.xml.bind.attachment.AttachmentMarshaller>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.attachment.AttachmentMarshaller> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.attachment.AttachmentMarshaller.class.isAssignableFrom(sut));
     }

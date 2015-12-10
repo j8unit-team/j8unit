@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.events.XMLEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLEventClassTests<SUT extends Class<? extends javax.xml.stream.events.XMLEvent>>
+public abstract interface XMLEventClassTests<SUT extends javax.xml.stream.events.XMLEvent>
 extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.stream.events.XMLEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.stream.events.XMLEvent.class.isAssignableFrom(sut));
     }

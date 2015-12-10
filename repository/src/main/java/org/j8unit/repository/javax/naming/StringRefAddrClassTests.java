@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.StringRefAddrTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StringRefAddrClassTests<SUT extends Class<? extends javax.naming.StringRefAddr>>
+public abstract interface StringRefAddrClassTests<SUT extends javax.naming.StringRefAddr>
 extends org.j8unit.repository.javax.naming.RefAddrClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.javax.naming.RefAddrClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.StringRefAddr> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.StringRefAddr.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.CellRendererPaneTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CellRendererPaneClassTests<SUT extends Class<? extends javax.swing.CellRendererPane>>
+public abstract interface CellRendererPaneClassTests<SUT extends javax.swing.CellRendererPane>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
 
     /**
@@ -54,7 +54,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.CellRendererPane> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.CellRendererPane.class.isAssignableFrom(sut));
     }

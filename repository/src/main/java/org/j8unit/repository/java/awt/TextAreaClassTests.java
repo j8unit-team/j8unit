@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.TextAreaTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TextAreaClassTests<SUT extends Class<? extends java.awt.TextArea>>
+public abstract interface TextAreaClassTests<SUT extends java.awt.TextArea>
 extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
 
     /**
@@ -110,7 +110,7 @@ extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.TextArea> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.TextArea.class.isAssignableFrom(sut));
     }

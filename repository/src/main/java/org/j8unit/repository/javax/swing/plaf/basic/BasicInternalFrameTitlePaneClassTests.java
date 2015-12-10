@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicInternalFrameTitlePaneClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane>>
+public abstract interface BasicInternalFrameTitlePaneClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane>
 extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
@@ -59,13 +59,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CloseActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction>>
+    public static abstract interface CloseActionClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -91,7 +91,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction.class.isAssignableFrom(sut));
         }
@@ -120,13 +120,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface IconifyActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction>>
+    public static abstract interface IconifyActionClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -152,7 +152,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction.class.isAssignableFrom(sut));
         }
@@ -181,13 +181,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MaximizeActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction>>
+    public static abstract interface MaximizeActionClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -213,7 +213,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction.class.isAssignableFrom(sut));
         }
@@ -242,13 +242,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MoveActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction>>
+    public static abstract interface MoveActionClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -274,7 +274,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction.class.isAssignableFrom(sut));
         }
@@ -303,13 +303,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler>>
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -335,7 +335,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
@@ -364,13 +364,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RestoreActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction>>
+    public static abstract interface RestoreActionClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -396,7 +396,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction.class.isAssignableFrom(sut));
         }
@@ -425,13 +425,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SizeActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction>>
+    public static abstract interface SizeActionClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -457,7 +457,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction.class.isAssignableFrom(sut));
         }
@@ -486,13 +486,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SystemMenuBarClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar>>
+    public static abstract interface SystemMenuBarClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar>
     extends org.j8unit.repository.javax.swing.JMenuBarClassTests<SUT> {
 
         /**
@@ -518,7 +518,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar.class.isAssignableFrom(sut));
         }
@@ -547,13 +547,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TitlePaneLayoutClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout>>
+    public static abstract interface TitlePaneLayoutClassTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -579,7 +579,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout.class.isAssignableFrom(sut));
         }
@@ -607,7 +607,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicInternalFrameTitlePane.class.isAssignableFrom(sut));
     }

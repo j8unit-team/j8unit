@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.CipherInputStreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CipherInputStreamClassTests<SUT extends Class<? extends javax.crypto.CipherInputStream>>
+public abstract interface CipherInputStreamClassTests<SUT extends javax.crypto.CipherInputStream>
 extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.crypto.CipherInputStream> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.crypto.CipherInputStream.class.isAssignableFrom(sut));
     }

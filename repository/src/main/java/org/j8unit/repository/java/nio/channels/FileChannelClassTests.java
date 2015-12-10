@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.FileChannelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileChannelClassTests<SUT extends Class<? extends java.nio.channels.FileChannel>>
+public abstract interface FileChannelClassTests<SUT extends java.nio.channels.FileChannel>
 extends org.j8unit.repository.java.nio.channels.SeekableByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests<SUT> {
@@ -59,13 +59,13 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.channels.FileChannelTests.MapModeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MapModeClassTests<SUT extends Class<? extends java.nio.channels.FileChannel.MapMode>>
+    public static abstract interface MapModeClassTests<SUT extends java.nio.channels.FileChannel.MapMode>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -73,7 +73,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.nio.channels.FileChannel.MapMode> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.nio.channels.FileChannel.MapMode.class.isAssignableFrom(sut));
         }
@@ -93,7 +93,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
     public default void test_open_Path_OpenOptionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -112,7 +112,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
     public default void test_open_Path_Set_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.FileChannel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.FileChannel.class.isAssignableFrom(sut));
     }

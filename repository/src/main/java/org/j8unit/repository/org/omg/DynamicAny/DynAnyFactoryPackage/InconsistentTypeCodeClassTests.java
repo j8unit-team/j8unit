@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InconsistentTypeCodeClassTests<SUT extends Class<? extends org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode>>
+public abstract interface InconsistentTypeCodeClassTests<SUT extends org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode.class.isAssignableFrom(sut));
     }

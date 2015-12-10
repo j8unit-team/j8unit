@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectInputStreamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectInputStreamClassTests<SUT extends Class<? extends java.io.ObjectInputStream>>
+public abstract interface ObjectInputStreamClassTests<SUT extends java.io.ObjectInputStream>
 extends org.j8unit.repository.java.io.ObjectInputClassTests<SUT>, org.j8unit.repository.java.io.ObjectStreamConstantsClassTests<SUT>,
 org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
 
@@ -58,13 +58,13 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface GetFieldClassTests<SUT extends Class<? extends java.io.ObjectInputStream.GetField>>
+    public static abstract interface GetFieldClassTests<SUT extends java.io.ObjectInputStream.GetField>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.io.ObjectInputStream.GetField> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.io.ObjectInputStream.GetField.class.isAssignableFrom(sut));
         }
@@ -112,7 +112,7 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.io.ObjectInputStream> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.io.ObjectInputStream.class.isAssignableFrom(sut));
     }

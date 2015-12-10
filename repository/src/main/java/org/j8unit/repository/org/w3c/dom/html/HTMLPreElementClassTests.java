@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.html.HTMLPreElementTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLPreElementClassTests<SUT extends Class<? extends org.w3c.dom.html.HTMLPreElement>>
+public abstract interface HTMLPreElementClassTests<SUT extends org.w3c.dom.html.HTMLPreElement>
 extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.w3c.dom.html.HTMLPreElement> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.w3c.dom.html.HTMLPreElement.class.isAssignableFrom(sut));
     }

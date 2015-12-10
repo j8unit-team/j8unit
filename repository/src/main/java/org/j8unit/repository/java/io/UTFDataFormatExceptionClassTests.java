@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.UTFDataFormatExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UTFDataFormatExceptionClassTests<SUT extends Class<? extends java.io.UTFDataFormatException>>
+public abstract interface UTFDataFormatExceptionClassTests<SUT extends java.io.UTFDataFormatException>
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.io.UTFDataFormatException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.io.UTFDataFormatException.class.isAssignableFrom(sut));
     }

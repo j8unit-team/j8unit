@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.PrinterResolutionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrinterResolutionClassTests<SUT extends Class<? extends javax.print.attribute.standard.PrinterResolution>>
+public abstract interface PrinterResolutionClassTests<SUT extends javax.print.attribute.standard.PrinterResolution>
 extends org.j8unit.repository.javax.print.attribute.DocAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>,
 org.j8unit.repository.javax.print.attribute.ResolutionSyntaxClassTests<SUT> {
@@ -58,7 +58,7 @@ org.j8unit.repository.javax.print.attribute.ResolutionSyntaxClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.PrinterResolution> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.PrinterResolution.class.isAssignableFrom(sut));
     }

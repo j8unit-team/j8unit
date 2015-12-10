@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.StandardProtocolFamilyTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StandardProtocolFamilyClassTests<SUT extends Class<? extends java.net.StandardProtocolFamily>>
+public abstract interface StandardProtocolFamilyClassTests<SUT extends java.net.StandardProtocolFamily>
 extends org.j8unit.repository.java.net.ProtocolFamilyClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.net.StandardProtocolFamily> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.net.ProtocolFamilyClassTests<SUT>, org.j8unit
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.net.ProtocolFamilyClassTests<SUT>, org.j8unit
     public default void test_values()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.net.ProtocolFamilyClassTests<SUT>, org.j8unit
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.StandardProtocolFamily> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.net.StandardProtocolFamily.class.isAssignableFrom(sut));
     }

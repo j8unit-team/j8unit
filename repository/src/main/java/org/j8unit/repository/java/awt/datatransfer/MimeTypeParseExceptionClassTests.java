@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.MimeTypeParseExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MimeTypeParseExceptionClassTests<SUT extends Class<? extends java.awt.datatransfer.MimeTypeParseException>>
+public abstract interface MimeTypeParseExceptionClassTests<SUT extends java.awt.datatransfer.MimeTypeParseException>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.datatransfer.MimeTypeParseException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.datatransfer.MimeTypeParseException.class.isAssignableFrom(sut));
     }

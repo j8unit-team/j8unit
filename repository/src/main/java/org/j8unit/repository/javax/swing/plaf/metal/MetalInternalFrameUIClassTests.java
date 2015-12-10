@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalInternalFrameUIClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalInternalFrameUI>>
+public abstract interface MetalInternalFrameUIClassTests<SUT extends javax.swing.plaf.metal.MetalInternalFrameUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests<SUT> {
 
     /**
@@ -65,7 +65,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTe
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -74,7 +74,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTe
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalInternalFrameUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.metal.MetalInternalFrameUI.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultTreeCellEditorClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor>>
+public abstract interface DefaultTreeCellEditorClassTests<SUT extends javax.swing.tree.DefaultTreeCellEditor>
 extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests<SUT>,
 org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -59,13 +59,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DefaultTextFieldClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField>>
+    public static abstract interface DefaultTextFieldClassTests<SUT extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField>
     extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
 
         /**
@@ -91,7 +91,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.tree.DefaultTreeCellEditor.DefaultTextField.class.isAssignableFrom(sut));
         }
@@ -120,13 +120,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EditorContainerClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor.EditorContainer>>
+    public static abstract interface EditorContainerClassTests<SUT extends javax.swing.tree.DefaultTreeCellEditor.EditorContainer>
     extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
 
         /**
@@ -150,7 +150,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.tree.DefaultTreeCellEditor.EditorContainer> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.tree.DefaultTreeCellEditor.EditorContainer.class.isAssignableFrom(sut));
         }
@@ -196,7 +196,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.tree.DefaultTreeCellEditor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.tree.DefaultTreeCellEditor.class.isAssignableFrom(sut));
     }

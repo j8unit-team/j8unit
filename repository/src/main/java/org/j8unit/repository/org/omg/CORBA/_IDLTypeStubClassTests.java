@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA._IDLTypeStubTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _IDLTypeStubClassTests<SUT extends Class<? extends org.omg.CORBA._IDLTypeStub>>
+public abstract interface _IDLTypeStubClassTests<SUT extends org.omg.CORBA._IDLTypeStub>
 extends org.j8unit.repository.org.omg.CORBA.IDLTypeClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeClassTests<SUT>, org.j8unit.r
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA._IDLTypeStub> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA._IDLTypeStub.class.isAssignableFrom(sut));
     }

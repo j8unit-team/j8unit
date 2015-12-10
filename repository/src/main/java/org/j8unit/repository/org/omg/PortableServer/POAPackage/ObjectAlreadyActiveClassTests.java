@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlreadyActiveTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectAlreadyActiveClassTests<SUT extends Class<? extends org.omg.PortableServer.POAPackage.ObjectAlreadyActive>>
+public abstract interface ObjectAlreadyActiveClassTests<SUT extends org.omg.PortableServer.POAPackage.ObjectAlreadyActive>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.PortableServer.POAPackage.ObjectAlreadyActive> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.PortableServer.POAPackage.ObjectAlreadyActive.class.isAssignableFrom(sut));
     }

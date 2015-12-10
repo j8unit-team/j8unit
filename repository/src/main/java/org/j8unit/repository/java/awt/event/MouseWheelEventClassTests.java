@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.MouseWheelEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MouseWheelEventClassTests<SUT extends Class<? extends java.awt.event.MouseWheelEvent>>
+public abstract interface MouseWheelEventClassTests<SUT extends java.awt.event.MouseWheelEvent>
 extends org.j8unit.repository.java.awt.event.MouseEventClassTests<SUT> {
 
     /**
@@ -90,7 +90,7 @@ extends org.j8unit.repository.java.awt.event.MouseEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.event.MouseWheelEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.event.MouseWheelEvent.class.isAssignableFrom(sut));
     }

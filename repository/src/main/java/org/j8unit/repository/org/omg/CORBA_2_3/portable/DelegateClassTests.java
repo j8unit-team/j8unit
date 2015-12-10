@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA_2_3.portable.DelegateTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DelegateClassTests<SUT extends Class<? extends org.omg.CORBA_2_3.portable.Delegate>>
+public abstract interface DelegateClassTests<SUT extends org.omg.CORBA_2_3.portable.Delegate>
 extends org.j8unit.repository.org.omg.CORBA.portable.DelegateClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.DelegateClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA_2_3.portable.Delegate> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA_2_3.portable.Delegate.class.isAssignableFrom(sut));
     }

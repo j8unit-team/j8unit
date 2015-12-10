@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.OptionalDataExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OptionalDataExceptionClassTests<SUT extends Class<? extends java.io.OptionalDataException>>
+public abstract interface OptionalDataExceptionClassTests<SUT extends java.io.OptionalDataException>
 extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.io.OptionalDataException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.io.OptionalDataException.class.isAssignableFrom(sut));
     }

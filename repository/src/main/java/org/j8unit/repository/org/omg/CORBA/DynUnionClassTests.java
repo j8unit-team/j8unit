@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DynUnionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynUnionClassTests<SUT extends Class<? extends org.omg.CORBA.DynUnion>>
+public abstract interface DynUnionClassTests<SUT extends org.omg.CORBA.DynUnion>
 extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynAnyClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA.DynUnion> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA.DynUnion.class.isAssignableFrom(sut));
     }

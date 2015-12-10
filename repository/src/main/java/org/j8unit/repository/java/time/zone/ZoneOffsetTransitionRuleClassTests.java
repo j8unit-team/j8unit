@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ZoneOffsetTransitionRuleClassTests<SUT extends Class<? extends java.time.zone.ZoneOffsetTransitionRule>>
+public abstract interface ZoneOffsetTransitionRuleClassTests<SUT extends java.time.zone.ZoneOffsetTransitionRule>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests.TimeDefinitionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TimeDefinitionClassTests<SUT extends Class<? extends java.time.zone.ZoneOffsetTransitionRule.TimeDefinition>>
+    public static abstract interface TimeDefinitionClassTests<SUT extends java.time.zone.ZoneOffsetTransitionRule.TimeDefinition>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition> {
 
         /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -106,7 +106,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.time.zone.ZoneOffsetTransitionRule.TimeDefinition> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.time.zone.ZoneOffsetTransitionRule.TimeDefinition.class.isAssignableFrom(sut));
         }
@@ -128,7 +128,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void test_of_Month_int_DayOfWeek_LocalTime_boolean_TimeDefinition_ZoneOffset_ZoneOffset_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.zone.ZoneOffsetTransitionRule> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.zone.ZoneOffsetTransitionRule.class.isAssignableFrom(sut));
     }

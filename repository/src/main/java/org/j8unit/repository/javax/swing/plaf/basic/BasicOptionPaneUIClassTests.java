@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicOptionPaneUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI>>
+public abstract interface BasicOptionPaneUIClassTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI>
 extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ButtonActionListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener>>
+    public static abstract interface ButtonActionListenerClassTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener>
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener.class.isAssignableFrom(sut));
         }
@@ -118,13 +118,13 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonAreaLayoutTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ButtonAreaLayoutClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout>>
+    public static abstract interface ButtonAreaLayoutClassTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -148,7 +148,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout.class.isAssignableFrom(sut));
         }
@@ -177,13 +177,13 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler>>
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -208,7 +208,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
@@ -242,7 +242,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -251,7 +251,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicOptionPaneUI.class.isAssignableFrom(sut));
     }

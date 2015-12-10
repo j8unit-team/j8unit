@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalComboBoxUIClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI>>
+public abstract interface MetalComboBoxUIClassTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager>>
+    public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests<SUT> {
 
         /**
@@ -89,7 +89,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager.class.isAssignableFrom(sut));
         }
@@ -118,13 +118,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalComboPopupClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup>>
+    public static abstract interface MetalComboPopupClassTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests<SUT> {
 
         /**
@@ -150,7 +150,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup.class.isAssignableFrom(sut));
         }
@@ -179,13 +179,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalPropertyChangeListenerClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener>>
+    public static abstract interface MetalPropertyChangeListenerClassTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<SUT> {
 
         /**
@@ -210,7 +210,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener.class.isAssignableFrom(sut));
         }
@@ -244,7 +244,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -253,7 +253,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalComboBoxUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.class.isAssignableFrom(sut));
     }

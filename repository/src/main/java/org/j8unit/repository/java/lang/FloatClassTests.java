@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.FloatTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FloatClassTests<SUT extends Class<? extends java.lang.Float>>
+public abstract interface FloatClassTests<SUT extends java.lang.Float>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Float>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
@@ -87,7 +87,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_compare_float_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_floatToIntBits_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -119,7 +119,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_floatToRawIntBits_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -134,7 +134,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_hashCode_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -150,7 +150,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_intBitsToFloat_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -165,7 +165,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_isFinite_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -181,7 +181,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_isInfinite_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -196,7 +196,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_isNaN_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -211,7 +211,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_max_float_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -226,7 +226,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_min_float_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -242,7 +242,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_parseFloat_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -257,7 +257,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_sum_float_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -273,7 +273,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_toHexString_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -289,7 +289,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_toString_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -305,7 +305,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_valueOf_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -321,7 +321,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -330,7 +330,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Floa
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.Float> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.Float.class.isAssignableFrom(sut));
     }

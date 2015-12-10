@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DocumentationToolTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentationToolClassTests<SUT extends Class<? extends javax.tools.DocumentationTool>>
+public abstract interface DocumentationToolClassTests<SUT extends javax.tools.DocumentationTool>
 extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.DocumentationToolTests.DocumentationTaskTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DocumentationTaskClassTests<SUT extends Class<? extends javax.tools.DocumentationTool.DocumentationTask>>
+    public static abstract interface DocumentationTaskClassTests<SUT extends javax.tools.DocumentationTool.DocumentationTask>
     extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT, java.lang.Boolean> {
 
         @Override
@@ -72,7 +72,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.tools.DocumentationTool.DocumentationTask> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.tools.DocumentationTool.DocumentationTask.class.isAssignableFrom(sut));
         }
@@ -100,13 +100,13 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.DocumentationToolTests.LocationTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LocationClassTests<SUT extends Class<? extends javax.tools.DocumentationTool.Location>>
+    public static abstract interface LocationClassTests<SUT extends javax.tools.DocumentationTool.Location>
     extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>,
     org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.DocumentationTool.Location> {
 
@@ -122,7 +122,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -138,7 +138,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.tools.DocumentationTool.Location> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.tools.DocumentationTool.Location.class.isAssignableFrom(sut));
         }
@@ -159,7 +159,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.tools.DocumentationTool> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.tools.DocumentationTool.class.isAssignableFrom(sut));
     }

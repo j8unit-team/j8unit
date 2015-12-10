@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.annotation.processing.SupportedOptionsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SupportedOptionsClassTests<SUT extends Class<? extends javax.annotation.processing.SupportedOptions>>
+public abstract interface SupportedOptionsClassTests<SUT extends javax.annotation.processing.SupportedOptions>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.annotation.processing.SupportedOptions> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.annotation.processing.SupportedOptions.class.isAssignableFrom(sut));
     }

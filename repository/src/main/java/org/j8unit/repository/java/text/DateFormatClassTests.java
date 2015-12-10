@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.DateFormatTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DateFormatClassTests<SUT extends Class<? extends java.text.DateFormat>>
+public abstract interface DateFormatClassTests<SUT extends java.text.DateFormat>
 extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.DateFormatTests.FieldTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FieldClassTests<SUT extends Class<? extends java.text.DateFormat.Field>>
+    public static abstract interface FieldClassTests<SUT extends java.text.DateFormat.Field>
     extends org.j8unit.repository.java.text.FormatClassTests.FieldClassTests<SUT> {
 
         /**
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
         public default void test_ofCalendarField_int()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -86,7 +86,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.text.DateFormat.Field> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.text.DateFormat.Field.class.isAssignableFrom(sut));
         }
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getAvailableLocales()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getDateInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getDateInstance_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -153,7 +153,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getDateInstance_int_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getDateTimeInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -185,7 +185,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getDateTimeInstance_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,7 +201,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getDateTimeInstance_int_int_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -217,7 +217,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -233,7 +233,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getTimeInstance()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -249,7 +249,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getTimeInstance_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -265,7 +265,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void test_getTimeInstance_int_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -274,7 +274,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.DateFormat> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.DateFormat.class.isAssignableFrom(sut));
     }

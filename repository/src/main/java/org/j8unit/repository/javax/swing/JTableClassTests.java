@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JTableTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JTableClassTests<SUT extends Class<? extends javax.swing.JTable>>
+public abstract interface JTableClassTests<SUT extends javax.swing.JTable>
 extends org.j8unit.repository.javax.swing.event.TableModelListenerClassTests<SUT>, org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>,
 org.j8unit.repository.javax.swing.event.TableColumnModelListenerClassTests<SUT>, org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests<SUT>,
 org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
@@ -59,13 +59,13 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTableTests.DropLocationTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.JTable.DropLocation>>
+    public static abstract interface DropLocationClassTests<SUT extends javax.swing.JTable.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         @Override
@@ -73,7 +73,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JTable.DropLocation> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JTable.DropLocation.class.isAssignableFrom(sut));
         }
@@ -101,13 +101,13 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTableTests.PrintModeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PrintModeClassTests<SUT extends Class<? extends javax.swing.JTable.PrintMode>>
+    public static abstract interface PrintModeClassTests<SUT extends javax.swing.JTable.PrintMode>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.JTable.PrintMode> {
 
         /**
@@ -122,7 +122,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -138,7 +138,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -147,7 +147,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JTable.PrintMode> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JTable.PrintMode.class.isAssignableFrom(sut));
         }
@@ -267,7 +267,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
     public default void test_createScrollPaneForTable_JTable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -276,7 +276,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JTable> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JTable.class.isAssignableFrom(sut));
     }

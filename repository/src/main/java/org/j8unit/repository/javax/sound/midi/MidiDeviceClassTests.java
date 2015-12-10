@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.MidiDeviceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MidiDeviceClassTests<SUT extends Class<? extends javax.sound.midi.MidiDevice>>
+public abstract interface MidiDeviceClassTests<SUT extends javax.sound.midi.MidiDevice>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
 
     /**
@@ -55,13 +55,13 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.midi.MidiDeviceTests.InfoTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InfoClassTests<SUT extends Class<? extends javax.sound.midi.MidiDevice.Info>>
+    public static abstract interface InfoClassTests<SUT extends javax.sound.midi.MidiDevice.Info>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.sound.midi.MidiDevice.Info> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.sound.midi.MidiDevice.Info.class.isAssignableFrom(sut));
         }
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.midi.MidiDevice> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.midi.MidiDevice.class.isAssignableFrom(sut));
     }

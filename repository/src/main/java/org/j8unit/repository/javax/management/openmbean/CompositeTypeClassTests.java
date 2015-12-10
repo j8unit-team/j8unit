@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.CompositeTypeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CompositeTypeClassTests<SUT extends Class<? extends javax.management.openmbean.CompositeType>>
+public abstract interface CompositeTypeClassTests<SUT extends javax.management.openmbean.CompositeType>
 extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT, javax.management.openmbean.CompositeData> {
 
     /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT,
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.openmbean.CompositeType> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.openmbean.CompositeType.class.isAssignableFrom(sut));
     }

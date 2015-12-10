@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.spi.AsynchronousChannelProviderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AsynchronousChannelProviderClassTests<SUT extends Class<? extends java.nio.channels.spi.AsynchronousChannelProvider>>
+public abstract interface AsynchronousChannelProviderClassTests<SUT extends java.nio.channels.spi.AsynchronousChannelProvider>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -49,7 +49,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_provider()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.spi.AsynchronousChannelProvider> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.spi.AsynchronousChannelProvider.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.RMISocketFactoryTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RMISocketFactoryClassTests<SUT extends Class<? extends java.rmi.server.RMISocketFactory>>
+public abstract interface RMISocketFactoryClassTests<SUT extends java.rmi.server.RMISocketFactory>
 extends org.j8unit.repository.java.rmi.server.RMIClientSocketFactoryClassTests<SUT>,
 org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -63,7 +63,7 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     public default void test_getDefaultSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     public default void test_getFailureHandler()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     public default void test_getSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -112,7 +112,7 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     public default void test_setFailureHandler_RMIFailureHandler()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,7 +129,7 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     public default void test_setSocketFactory_RMISocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -138,7 +138,7 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.server.RMISocketFactory> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.server.RMISocketFactory.class.isAssignableFrom(sut));
     }

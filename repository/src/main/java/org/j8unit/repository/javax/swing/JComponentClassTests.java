@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JComponentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JComponentClassTests<SUT extends Class<? extends javax.swing.JComponent>>
+public abstract interface JComponentClassTests<SUT extends javax.swing.JComponent>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AccessibleJComponentClassTests<SUT extends Class<? extends javax.swing.JComponent.AccessibleJComponent>>
+    public static abstract interface AccessibleJComponentClassTests<SUT extends javax.swing.JComponent.AccessibleJComponent>
     extends org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.javax.accessibility.AccessibleComponentClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleContextClassTests<SUT> {
 
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JComponent.AccessibleJComponent> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JComponent.AccessibleJComponent.class.isAssignableFrom(sut));
         }
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void test_getDefaultLocale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void test_isLightweightComponent_Component()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -137,7 +137,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void test_setDefaultLocale_Locale()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JComponent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JComponent.class.isAssignableFrom(sut));
     }

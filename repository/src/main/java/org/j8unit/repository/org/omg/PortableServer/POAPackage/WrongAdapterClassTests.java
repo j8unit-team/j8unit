@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WrongAdapterClassTests<SUT extends Class<? extends org.omg.PortableServer.POAPackage.WrongAdapter>>
+public abstract interface WrongAdapterClassTests<SUT extends org.omg.PortableServer.POAPackage.WrongAdapter>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.PortableServer.POAPackage.WrongAdapter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.PortableServer.POAPackage.WrongAdapter.class.isAssignableFrom(sut));
     }

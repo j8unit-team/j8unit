@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JLayerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JLayerClassTests<SUT extends Class<? extends javax.swing.JLayer<V>>, V extends java.awt.Component>
+public abstract interface JLayerClassTests<SUT extends javax.swing.JLayer<V>, V extends java.awt.Component>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
 org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
@@ -82,7 +82,7 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JLayer<V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JLayer.class.isAssignableFrom(sut));
     }

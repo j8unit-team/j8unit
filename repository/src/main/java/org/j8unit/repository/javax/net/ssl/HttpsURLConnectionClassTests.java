@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.HttpsURLConnectionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HttpsURLConnectionClassTests<SUT extends Class<? extends javax.net.ssl.HttpsURLConnection>>
+public abstract interface HttpsURLConnectionClassTests<SUT extends javax.net.ssl.HttpsURLConnection>
 extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
     public default void test_getDefaultHostnameVerifier()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
     public default void test_getDefaultSSLSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
     public default void test_setDefaultHostnameVerifier_HostnameVerifier()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
     public default void test_setDefaultSSLSocketFactory_SSLSocketFactory()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -107,7 +107,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.net.ssl.HttpsURLConnection> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.net.ssl.HttpsURLConnection.class.isAssignableFrom(sut));
     }

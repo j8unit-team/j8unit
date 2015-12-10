@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ThreadLocalRandomTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ThreadLocalRandomClassTests<SUT extends Class<? extends java.util.concurrent.ThreadLocalRandom>>
+public abstract interface ThreadLocalRandomClassTests<SUT extends java.util.concurrent.ThreadLocalRandom>
 extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
 
     /**
@@ -48,7 +48,7 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
     public default void test_current()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.ThreadLocalRandom> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.ThreadLocalRandom.class.isAssignableFrom(sut));
     }

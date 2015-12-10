@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.AWTEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AWTEventClassTests<SUT extends Class<? extends java.awt.AWTEvent>>
+public abstract interface AWTEventClassTests<SUT extends java.awt.AWTEvent>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
@@ -67,7 +67,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.AWTEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.AWTEvent.class.isAssignableFrom(sut));
     }

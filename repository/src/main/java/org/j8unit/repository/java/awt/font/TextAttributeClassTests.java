@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.TextAttributeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TextAttributeClassTests<SUT extends Class<? extends java.awt.font.TextAttribute>>
+public abstract interface TextAttributeClassTests<SUT extends java.awt.font.TextAttribute>
 extends org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.AttributeClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.At
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.font.TextAttribute> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.font.TextAttribute.class.isAssignableFrom(sut));
     }

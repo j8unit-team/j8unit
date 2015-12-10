@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.IllegalBlockSizeExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IllegalBlockSizeExceptionClassTests<SUT extends Class<? extends javax.crypto.IllegalBlockSizeException>>
+public abstract interface IllegalBlockSizeExceptionClassTests<SUT extends javax.crypto.IllegalBlockSizeException>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.crypto.IllegalBlockSizeException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.crypto.IllegalBlockSizeException.class.isAssignableFrom(sut));
     }

@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanConstructorInfoTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ModelMBeanConstructorInfoClassTests<SUT extends Class<? extends javax.management.modelmbean.ModelMBeanConstructorInfo>>
+public abstract interface ModelMBeanConstructorInfoClassTests<SUT extends javax.management.modelmbean.ModelMBeanConstructorInfo>
 extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests<SUT> {
 
     /**
@@ -112,7 +112,7 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.modelmbean.ModelMBeanConstructorInfo> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.modelmbean.ModelMBeanConstructorInfo.class.isAssignableFrom(sut));
     }

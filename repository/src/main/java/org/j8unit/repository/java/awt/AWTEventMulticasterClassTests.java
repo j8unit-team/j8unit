@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.AWTEventMulticasterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AWTEventMulticasterClassTests<SUT extends Class<? extends java.awt.AWTEventMulticaster>>
+public abstract interface AWTEventMulticasterClassTests<SUT extends java.awt.AWTEventMulticaster>
 extends org.j8unit.repository.java.awt.event.ComponentListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.ContainerListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.KeyListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.MouseListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
@@ -58,7 +58,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_ActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -76,7 +76,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_AdjustmentListener_AdjustmentListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -94,7 +94,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_ComponentListener_ComponentListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -112,7 +112,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_ContainerListener_ContainerListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -130,7 +130,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_FocusListener_FocusListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -148,7 +148,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_HierarchyBoundsListener_HierarchyBoundsListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -166,7 +166,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_HierarchyListener_HierarchyListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -184,7 +184,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_InputMethodListener_InputMethodListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,7 +201,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_ItemListener_ItemListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -218,7 +218,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_KeyListener_KeyListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -236,7 +236,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_MouseListener_MouseListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -254,7 +254,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_MouseMotionListener_MouseMotionListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -272,7 +272,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_MouseWheelListener_MouseWheelListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -289,7 +289,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_TextListener_TextListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -307,7 +307,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_WindowFocusListener_WindowFocusListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -325,7 +325,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_WindowListener_WindowListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -343,7 +343,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_add_WindowStateListener_WindowStateListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -360,7 +360,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_getListeners_EventListener_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -378,7 +378,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_ActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -396,7 +396,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_AdjustmentListener_AdjustmentListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -414,7 +414,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_ComponentListener_ComponentListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -432,7 +432,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_ContainerListener_ContainerListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -450,7 +450,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_FocusListener_FocusListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -469,7 +469,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_HierarchyBoundsListener_HierarchyBoundsListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -487,7 +487,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_HierarchyListener_HierarchyListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -505,7 +505,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_InputMethodListener_InputMethodListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -523,7 +523,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_ItemListener_ItemListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -540,7 +540,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_KeyListener_KeyListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -558,7 +558,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_MouseListener_MouseListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -576,7 +576,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_MouseMotionListener_MouseMotionListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -594,7 +594,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_MouseWheelListener_MouseWheelListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -612,7 +612,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_TextListener_TextListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -630,7 +630,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_WindowFocusListener_WindowFocusListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -648,7 +648,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_WindowListener_WindowListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -666,7 +666,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void test_remove_WindowStateListener_WindowStateListener()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -675,7 +675,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.AWTEventMulticaster> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.AWTEventMulticaster.class.isAssignableFrom(sut));
     }

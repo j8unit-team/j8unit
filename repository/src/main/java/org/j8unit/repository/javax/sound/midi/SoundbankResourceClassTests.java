@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.SoundbankResourceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SoundbankResourceClassTests<SUT extends Class<? extends javax.sound.midi.SoundbankResource>>
+public abstract interface SoundbankResourceClassTests<SUT extends javax.sound.midi.SoundbankResource>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sound.midi.SoundbankResource> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sound.midi.SoundbankResource.class.isAssignableFrom(sut));
     }

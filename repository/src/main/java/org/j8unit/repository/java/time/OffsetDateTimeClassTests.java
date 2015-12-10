@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.OffsetDateTimeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OffsetDateTimeClassTests<SUT extends Class<? extends java.time.OffsetDateTime>>
+public abstract interface OffsetDateTimeClassTests<SUT extends java.time.OffsetDateTime>
 extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.OffsetDateTime>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -50,7 +50,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_from_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -66,7 +66,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_now()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -82,7 +82,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_now_Clock()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -98,7 +98,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_now_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -114,7 +114,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_of_int_int_int_int_int_int_int_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -131,7 +131,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_of_LocalDate_LocalTime_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -147,7 +147,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_of_LocalDateTime_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -163,7 +163,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_ofInstant_Instant_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -179,7 +179,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parse_CharSequence()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -196,7 +196,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parse_CharSequence_DateTimeFormatter()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -212,7 +212,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_timeLineOrder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -221,7 +221,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.time.OffsetDateTime> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.time.OffsetDateTime.class.isAssignableFrom(sut));
     }

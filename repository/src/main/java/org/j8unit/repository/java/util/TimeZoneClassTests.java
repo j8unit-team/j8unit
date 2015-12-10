@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.TimeZoneTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TimeZoneClassTests<SUT extends Class<? extends java.util.TimeZone>>
+public abstract interface TimeZoneClassTests<SUT extends java.util.TimeZone>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -61,7 +61,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAvailableIDs()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -77,7 +77,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getAvailableIDs_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -93,7 +93,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getDefault()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -109,7 +109,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getTimeZone_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -125,7 +125,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getTimeZone_ZoneId()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -141,7 +141,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setDefault_TimeZone()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -150,7 +150,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.TimeZone> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.TimeZone.class.isAssignableFrom(sut));
     }

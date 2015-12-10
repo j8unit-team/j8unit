@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ref.ReferenceQueueTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ReferenceQueueClassTests<SUT extends Class<? extends java.lang.ref.ReferenceQueue<T>>, T>
+public abstract interface ReferenceQueueClassTests<SUT extends java.lang.ref.ReferenceQueue<T>, T>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -54,7 +54,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.ref.ReferenceQueue<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.ref.ReferenceQueue.class.isAssignableFrom(sut));
     }

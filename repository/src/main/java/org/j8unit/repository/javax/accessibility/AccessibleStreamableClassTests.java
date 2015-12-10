@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleStreamableTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleStreamableClassTests<SUT extends Class<? extends javax.accessibility.AccessibleStreamable>>
-extends J8UnitTest<SUT> {
+public abstract interface AccessibleStreamableClassTests<SUT extends javax.accessibility.AccessibleStreamable>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.accessibility.AccessibleStreamable> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.accessibility.AccessibleStreamable.class.isAssignableFrom(sut));
     }

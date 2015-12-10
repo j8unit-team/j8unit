@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.BAD_QOSTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BAD_QOSClassTests<SUT extends Class<? extends org.omg.CORBA.BAD_QOS>>
+public abstract interface BAD_QOSClassTests<SUT extends org.omg.CORBA.BAD_QOS>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
@@ -95,7 +95,7 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA.BAD_QOS> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA.BAD_QOS.class.isAssignableFrom(sut));
     }

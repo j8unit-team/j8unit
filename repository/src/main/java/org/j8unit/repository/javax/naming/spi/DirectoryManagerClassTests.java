@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.DirectoryManagerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DirectoryManagerClassTests<SUT extends Class<? extends javax.naming.spi.DirectoryManager>>
+public abstract interface DirectoryManagerClassTests<SUT extends javax.naming.spi.DirectoryManager>
 extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
 
     /**
@@ -51,7 +51,7 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
     public default void test_getContinuationDirContext_CannotProceedException()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -70,7 +70,7 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
     public default void test_getObjectInstance_Object_Name_Context_Hashtable_Attributes()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,7 +89,7 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
     public default void test_getStateToBind_Object_Name_Context_Hashtable_Attributes()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -98,7 +98,7 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.spi.DirectoryManager> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.spi.DirectoryManager.class.isAssignableFrom(sut));
     }

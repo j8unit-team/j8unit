@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.NullTypeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NullTypeClassTests<SUT extends Class<? extends javax.lang.model.type.NullType>>
+public abstract interface NullTypeClassTests<SUT extends javax.lang.model.type.NullType>
 extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.type.NullType> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.type.NullType.class.isAssignableFrom(sut));
     }

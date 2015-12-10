@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.sasl.AuthenticationExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AuthenticationExceptionClassTests<SUT extends Class<? extends javax.security.sasl.AuthenticationException>>
+public abstract interface AuthenticationExceptionClassTests<SUT extends javax.security.sasl.AuthenticationException>
 extends org.j8unit.repository.javax.security.sasl.SaslExceptionClassTests<SUT> {
 
     /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.security.sasl.SaslExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.security.sasl.AuthenticationException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.security.sasl.AuthenticationException.class.isAssignableFrom(sut));
     }

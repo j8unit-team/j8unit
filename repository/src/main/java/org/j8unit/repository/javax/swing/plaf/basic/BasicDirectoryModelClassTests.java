@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicDirectoryModelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicDirectoryModelClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicDirectoryModel>>
+public abstract interface BasicDirectoryModelClassTests<SUT extends javax.swing.plaf.basic.BasicDirectoryModel>
 extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
 org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, java.lang.Object> {
 
@@ -57,7 +57,7 @@ org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, java.lang.Obj
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicDirectoryModel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicDirectoryModel.class.isAssignableFrom(sut));
     }

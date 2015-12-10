@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileAlreadyExistsExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileAlreadyExistsExceptionClassTests<SUT extends Class<? extends java.nio.file.FileAlreadyExistsException>>
+public abstract interface FileAlreadyExistsExceptionClassTests<SUT extends java.nio.file.FileAlreadyExistsException>
 extends org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.FileAlreadyExistsException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.FileAlreadyExistsException.class.isAssignableFrom(sut));
     }

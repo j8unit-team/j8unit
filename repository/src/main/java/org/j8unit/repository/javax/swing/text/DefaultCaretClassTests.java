@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultCaretTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultCaretClassTests<SUT extends Class<? extends javax.swing.text.DefaultCaret>>
+public abstract interface DefaultCaretClassTests<SUT extends javax.swing.text.DefaultCaret>
 extends org.j8unit.repository.javax.swing.text.CaretClassTests<SUT>, org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.MouseListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.RectangleClassTests<SUT> {
@@ -56,7 +56,7 @@ org.j8unit.repository.java.awt.RectangleClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.DefaultCaret> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.DefaultCaret.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.JMXConnectorFactoryTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JMXConnectorFactoryClassTests<SUT extends Class<? extends javax.management.remote.JMXConnectorFactory>>
+public abstract interface JMXConnectorFactoryClassTests<SUT extends javax.management.remote.JMXConnectorFactory>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -50,7 +50,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_connect_JMXServiceURL()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_connect_JMXServiceURL_Map()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -88,7 +88,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newJMXConnector_JMXServiceURL_Map()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.remote.JMXConnectorFactory> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.remote.JMXConnectorFactory.class.isAssignableFrom(sut));
     }

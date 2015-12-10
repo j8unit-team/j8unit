@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.BitSetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BitSetClassTests<SUT extends Class<? extends java.util.BitSet>>
+public abstract interface BitSetClassTests<SUT extends java.util.BitSet>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -74,7 +74,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -90,7 +90,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_ByteBuffer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -106,7 +106,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -122,7 +122,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_valueOf_LongBuffer()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -131,7 +131,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.BitSet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.BitSet.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractMapClassTests<SUT extends Class<? extends java.util.AbstractMap<K, V>>, K, V>
+public abstract interface AbstractMapClassTests<SUT extends java.util.AbstractMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SimpleEntryClassTests<SUT extends Class<? extends java.util.AbstractMap.SimpleEntry<K, V>>, K, V>
+    public static abstract interface SimpleEntryClassTests<SUT extends java.util.AbstractMap.SimpleEntry<K, V>, K, V>
     extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.AbstractMap.SimpleEntry<K, V>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.AbstractMap.SimpleEntry.class.isAssignableFrom(sut));
         }
@@ -129,13 +129,13 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SimpleImmutableEntryClassTests<SUT extends Class<? extends java.util.AbstractMap.SimpleImmutableEntry<K, V>>, K, V>
+    public static abstract interface SimpleImmutableEntryClassTests<SUT extends java.util.AbstractMap.SimpleImmutableEntry<K, V>, K, V>
     extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -175,7 +175,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.AbstractMap.SimpleImmutableEntry<K, V>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.AbstractMap.SimpleImmutableEntry.class.isAssignableFrom(sut));
         }
@@ -187,7 +187,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.AbstractMap<K, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.AbstractMap.class.isAssignableFrom(sut));
     }

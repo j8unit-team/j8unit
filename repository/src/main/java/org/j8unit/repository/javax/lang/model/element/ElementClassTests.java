@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.ElementTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ElementClassTests<SUT extends Class<? extends javax.lang.model.element.Element>>
+public abstract interface ElementClassTests<SUT extends javax.lang.model.element.Element>
 extends org.j8unit.repository.javax.lang.model.AnnotatedConstructClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.element.Element> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.element.Element.class.isAssignableFrom(sut));
     }

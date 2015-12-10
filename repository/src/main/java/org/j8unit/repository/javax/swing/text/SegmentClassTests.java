@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.SegmentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SegmentClassTests<SUT extends Class<? extends javax.swing.text.Segment>>
+public abstract interface SegmentClassTests<SUT extends javax.swing.text.Segment>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT>,
 org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -69,7 +69,7 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.Segment> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.Segment.class.isAssignableFrom(sut));
     }

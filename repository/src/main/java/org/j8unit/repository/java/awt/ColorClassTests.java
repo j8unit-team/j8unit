@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.ColorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ColorClassTests<SUT extends Class<? extends java.awt.Color>>
+public abstract interface ColorClassTests<SUT extends java.awt.Color>
 extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -141,7 +141,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_decode_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -157,7 +157,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getColor_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -173,7 +173,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getColor_String_Color()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -189,7 +189,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getColor_String_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -205,7 +205,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getHSBColor_float_float_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -221,7 +221,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_HSBtoRGB_float_float_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -237,7 +237,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_RGBtoHSB_int_int_int_floatArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -246,7 +246,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Color> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Color.class.isAssignableFrom(sut));
     }

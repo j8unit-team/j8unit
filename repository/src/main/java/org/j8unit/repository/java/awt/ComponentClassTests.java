@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.ComponentTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ComponentClassTests<SUT extends Class<? extends java.awt.Component>>
+public abstract interface ComponentClassTests<SUT extends java.awt.Component>
 extends org.j8unit.repository.java.awt.image.ImageObserverClassTests<SUT>, org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -57,13 +57,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.ComponentTests.BaselineResizeBehaviorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BaselineResizeBehaviorClassTests<SUT extends Class<? extends java.awt.Component.BaselineResizeBehavior>>
+    public static abstract interface BaselineResizeBehaviorClassTests<SUT extends java.awt.Component.BaselineResizeBehavior>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Component.BaselineResizeBehavior> {
 
         /**
@@ -79,7 +79,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -95,7 +95,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -104,7 +104,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.Component.BaselineResizeBehavior> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.Component.BaselineResizeBehavior.class.isAssignableFrom(sut));
         }
@@ -116,7 +116,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Component> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Component.class.isAssignableFrom(sut));
     }

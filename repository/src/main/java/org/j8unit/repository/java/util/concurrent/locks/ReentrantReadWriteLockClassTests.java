@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ReentrantReadWriteLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock>>
+public abstract interface ReentrantReadWriteLockClassTests<SUT extends java.util.concurrent.locks.ReentrantReadWriteLock>
 extends org.j8unit.repository.java.util.concurrent.locks.ReadWriteLockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -60,13 +60,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ReadLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock>>
+    public static abstract interface ReadLockClassTests<SUT extends java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock>
     extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -75,7 +75,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock.class.isAssignableFrom(sut));
         }
@@ -104,13 +104,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface WriteLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock>>
+    public static abstract interface WriteLockClassTests<SUT extends java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock>
     extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -119,7 +119,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock.class.isAssignableFrom(sut));
         }
@@ -159,7 +159,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.locks.ReentrantReadWriteLock.class.isAssignableFrom(sut));
     }

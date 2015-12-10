@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.HierarchyEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HierarchyEventClassTests<SUT extends Class<? extends java.awt.event.HierarchyEvent>>
+public abstract interface HierarchyEventClassTests<SUT extends java.awt.event.HierarchyEvent>
 extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
 
     /**
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.event.HierarchyEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.event.HierarchyEvent.class.isAssignableFrom(sut));
     }

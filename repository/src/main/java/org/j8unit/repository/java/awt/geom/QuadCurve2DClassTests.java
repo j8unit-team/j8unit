@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.QuadCurve2DTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface QuadCurve2DClassTests<SUT extends Class<? extends java.awt.geom.QuadCurve2D>>
+public abstract interface QuadCurve2DClassTests<SUT extends java.awt.geom.QuadCurve2D>
 extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -58,13 +58,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.QuadCurve2DTests.DoubleTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DoubleClassTests<SUT extends Class<? extends java.awt.geom.QuadCurve2D.Double>>
+    public static abstract interface DoubleClassTests<SUT extends java.awt.geom.QuadCurve2D.Double>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<SUT> {
 
         /**
@@ -100,7 +100,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.geom.QuadCurve2D.Double> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.geom.QuadCurve2D.Double.class.isAssignableFrom(sut));
         }
@@ -128,13 +128,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.QuadCurve2DTests.FloatTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FloatClassTests<SUT extends Class<? extends java.awt.geom.QuadCurve2D.Float>>
+    public static abstract interface FloatClassTests<SUT extends java.awt.geom.QuadCurve2D.Float>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<SUT> {
 
         /**
@@ -169,7 +169,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.geom.QuadCurve2D.Float> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.geom.QuadCurve2D.Float.class.isAssignableFrom(sut));
         }
@@ -188,7 +188,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFlatness_double_double_double_double_double_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -204,7 +204,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFlatness_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -220,7 +220,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFlatnessSq_double_double_double_double_double_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -236,7 +236,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getFlatnessSq_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -252,7 +252,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_solveQuadratic_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -268,7 +268,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_solveQuadratic_doubleArray_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -284,7 +284,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_subdivide_doubleArray_int_doubleArray_int_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -303,7 +303,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_subdivide_QuadCurve2D_QuadCurve2D_QuadCurve2D()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -312,7 +312,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.geom.QuadCurve2D> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.geom.QuadCurve2D.class.isAssignableFrom(sut));
     }

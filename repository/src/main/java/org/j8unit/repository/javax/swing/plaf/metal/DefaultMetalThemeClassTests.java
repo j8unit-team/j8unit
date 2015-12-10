@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultMetalThemeClassTests<SUT extends Class<? extends javax.swing.plaf.metal.DefaultMetalTheme>>
+public abstract interface DefaultMetalThemeClassTests<SUT extends javax.swing.plaf.metal.DefaultMetalTheme>
 extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.metal.DefaultMetalTheme> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.metal.DefaultMetalTheme.class.isAssignableFrom(sut));
     }

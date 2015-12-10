@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.AccessControllerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessControllerClassTests<SUT extends Class<? extends java.security.AccessController>>
+public abstract interface AccessControllerClassTests<SUT extends java.security.AccessController>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -49,7 +49,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_checkPermission_Permission()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -65,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivileged_PrivilegedAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -83,7 +83,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivileged_PrivilegedAction_AccessControlContext()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivileged_PrivilegedAction_AccessControlContext_PermissionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -120,7 +120,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivileged_PrivilegedExceptionAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -139,7 +139,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivileged_PrivilegedExceptionAction_AccessControlContext()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -158,7 +158,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivileged_PrivilegedExceptionAction_AccessControlContext_PermissionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -175,7 +175,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivilegedWithCombiner_PrivilegedAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -194,7 +194,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivilegedWithCombiner_PrivilegedAction_AccessControlContext_PermissionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivilegedWithCombiner_PrivilegedExceptionAction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_doPrivilegedWithCombiner_PrivilegedExceptionAction_AccessControlContext_PermissionArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -248,7 +248,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_getContext()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -257,7 +257,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.AccessController> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.AccessController.class.isAssignableFrom(sut));
     }

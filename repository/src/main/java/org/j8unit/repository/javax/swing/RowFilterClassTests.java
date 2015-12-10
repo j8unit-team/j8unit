@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.RowFilterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RowFilterClassTests<SUT extends Class<? extends javax.swing.RowFilter<M, I>>, M, I>
+public abstract interface RowFilterClassTests<SUT extends javax.swing.RowFilter<M, I>, M, I>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowFilterTests.ComparisonTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ComparisonTypeClassTests<SUT extends Class<? extends javax.swing.RowFilter.ComparisonType>>
+    public static abstract interface ComparisonTypeClassTests<SUT extends javax.swing.RowFilter.ComparisonType>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.RowFilter.ComparisonType> {
 
         /**
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -93,7 +93,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.RowFilter.ComparisonType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.RowFilter.ComparisonType.class.isAssignableFrom(sut));
         }
@@ -130,13 +130,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowFilterTests.EntryTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EntryClassTests<SUT extends Class<? extends javax.swing.RowFilter.Entry<M, I>>, M, I>
+    public static abstract interface EntryClassTests<SUT extends javax.swing.RowFilter.Entry<M, I>, M, I>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -157,7 +157,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.RowFilter.Entry<M, I>> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.RowFilter.Entry.class.isAssignableFrom(sut));
         }
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_andFilter_Iterable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -207,7 +207,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_dateFilter_ComparisonType_Date_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -223,7 +223,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_notFilter_RowFilter()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -241,7 +241,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_numberFilter_ComparisonType_Number_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -257,7 +257,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_orFilter_Iterable()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -273,7 +273,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_regexFilter_String_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -282,7 +282,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.RowFilter<M, I>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.RowFilter.class.isAssignableFrom(sut));
     }

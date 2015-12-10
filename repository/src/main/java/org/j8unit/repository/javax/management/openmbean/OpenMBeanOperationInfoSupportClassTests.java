@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoSupportTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OpenMBeanOperationInfoSupportClassTests<SUT extends Class<? extends javax.management.openmbean.OpenMBeanOperationInfoSupport>>
+public abstract interface OpenMBeanOperationInfoSupportClassTests<SUT extends javax.management.openmbean.OpenMBeanOperationInfoSupport>
 extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoClassTests<SUT>,
 org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<SUT> {
 
@@ -79,7 +79,7 @@ org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.openmbean.OpenMBeanOperationInfoSupport> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.openmbean.OpenMBeanOperationInfoSupport.class.isAssignableFrom(sut));
     }

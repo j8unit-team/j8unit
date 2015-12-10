@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.FormatFlagsConversionMismatchExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FormatFlagsConversionMismatchExceptionClassTests<SUT extends Class<? extends java.util.FormatFlagsConversionMismatchException>>
+public abstract interface FormatFlagsConversionMismatchExceptionClassTests<SUT extends java.util.FormatFlagsConversionMismatchException>
 extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {
 
     /**
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.FormatFlagsConversionMismatchException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.FormatFlagsConversionMismatchException.class.isAssignableFrom(sut));
     }

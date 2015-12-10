@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.DropTargetDropEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DropTargetDropEventClassTests<SUT extends Class<? extends java.awt.dnd.DropTargetDropEvent>>
+public abstract interface DropTargetDropEventClassTests<SUT extends java.awt.dnd.DropTargetDropEvent>
 extends org.j8unit.repository.java.awt.dnd.DropTargetEventClassTests<SUT> {
 
     /**
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.dnd.DropTargetDropEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.dnd.DropTargetDropEvent.class.isAssignableFrom(sut));
     }

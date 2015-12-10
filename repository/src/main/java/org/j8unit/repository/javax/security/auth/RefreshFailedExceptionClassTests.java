@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.RefreshFailedExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RefreshFailedExceptionClassTests<SUT extends Class<? extends javax.security.auth.RefreshFailedException>>
+public abstract interface RefreshFailedExceptionClassTests<SUT extends javax.security.auth.RefreshFailedException>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.security.auth.RefreshFailedException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.security.auth.RefreshFailedException.class.isAssignableFrom(sut));
     }

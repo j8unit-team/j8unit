@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractSelectableChannelClassTests<SUT extends Class<? extends java.nio.channels.spi.AbstractSelectableChannel>>
+public abstract interface AbstractSelectableChannelClassTests<SUT extends java.nio.channels.spi.AbstractSelectableChannel>
 extends org.j8unit.repository.java.nio.channels.SelectableChannelClassTests<SUT> {
 
     @Override
@@ -40,7 +40,7 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.channels.spi.AbstractSelectableChannel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.channels.spi.AbstractSelectableChannel.class.isAssignableFrom(sut));
     }

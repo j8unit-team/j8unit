@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicButtonListenerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicButtonListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicButtonListener>>
+public abstract interface BasicButtonListenerClassTests<SUT extends javax.swing.plaf.basic.BasicButtonListener>
 extends org.j8unit.repository.java.awt.event.MouseListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>,
 org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -58,7 +58,7 @@ org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8un
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicButtonListener> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicButtonListener.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.AttributedCharacterIteratorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributedCharacterIteratorClassTests<SUT extends Class<? extends java.text.AttributedCharacterIterator>>
+public abstract interface AttributedCharacterIteratorClassTests<SUT extends java.text.AttributedCharacterIterator>
 extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.AttributedCharacterIteratorTests.AttributeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AttributeClassTests<SUT extends Class<? extends java.text.AttributedCharacterIterator.Attribute>>
+    public static abstract interface AttributeClassTests<SUT extends java.text.AttributedCharacterIterator.Attribute>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.text.AttributedCharacterIterator.Attribute> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.text.AttributedCharacterIterator.Attribute.class.isAssignableFrom(sut));
         }
@@ -82,7 +82,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.AttributedCharacterIterator> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.AttributedCharacterIterator.class.isAssignableFrom(sut));
     }

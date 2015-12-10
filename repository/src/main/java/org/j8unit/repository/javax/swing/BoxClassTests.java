@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.BoxTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BoxClassTests<SUT extends Class<? extends javax.swing.Box>>
+public abstract interface BoxClassTests<SUT extends javax.swing.Box>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.BoxTests.FillerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FillerClassTests<SUT extends Class<? extends javax.swing.Box.Filler>>
+    public static abstract interface FillerClassTests<SUT extends javax.swing.Box.Filler>
     extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.Box.Filler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.Box.Filler.class.isAssignableFrom(sut));
         }
@@ -118,7 +118,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createGlue()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -134,7 +134,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createHorizontalBox()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -150,7 +150,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createHorizontalGlue()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -166,7 +166,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createHorizontalStrut_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -182,7 +182,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createRigidArea_Dimension()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -198,7 +198,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createVerticalBox()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -214,7 +214,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createVerticalGlue()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -230,7 +230,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void test_createVerticalStrut_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -239,7 +239,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.Box> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.Box.class.isAssignableFrom(sut));
     }

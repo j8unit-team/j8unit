@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AddressingFeatureClassTests<SUT extends Class<? extends javax.xml.ws.soap.AddressingFeature>>
+public abstract interface AddressingFeatureClassTests<SUT extends javax.xml.ws.soap.AddressingFeature>
 extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ResponsesClassTests<SUT extends Class<? extends javax.xml.ws.soap.AddressingFeature.Responses>>
+    public static abstract interface ResponsesClassTests<SUT extends javax.xml.ws.soap.AddressingFeature.Responses>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.soap.AddressingFeature.Responses> {
 
         /**
@@ -80,7 +80,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -96,7 +96,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -105,7 +105,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.xml.ws.soap.AddressingFeature.Responses> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.xml.ws.soap.AddressingFeature.Responses.class.isAssignableFrom(sut));
         }
@@ -175,7 +175,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.soap.AddressingFeature> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.soap.AddressingFeature.class.isAssignableFrom(sut));
     }

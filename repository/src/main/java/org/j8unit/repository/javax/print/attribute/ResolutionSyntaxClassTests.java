@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.ResolutionSyntaxTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ResolutionSyntaxClassTests<SUT extends Class<? extends javax.print.attribute.ResolutionSyntax>>
+public abstract interface ResolutionSyntaxClassTests<SUT extends javax.print.attribute.ResolutionSyntax>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.ResolutionSyntax> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.ResolutionSyntax.class.isAssignableFrom(sut));
     }

@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.transaction.TransactionRolledbackExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TransactionRolledbackExceptionClassTests<SUT extends Class<? extends javax.transaction.TransactionRolledbackException>>
+public abstract interface TransactionRolledbackExceptionClassTests<SUT extends javax.transaction.TransactionRolledbackException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.transaction.TransactionRolledbackException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.transaction.TransactionRolledbackException.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ByteTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ByteClassTests<SUT extends Class<? extends java.lang.Byte>>
+public abstract interface ByteClassTests<SUT extends java.lang.Byte>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
@@ -73,7 +73,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_compare_byte_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,7 +89,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_decode_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_hashCode_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -120,7 +120,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_parseByte_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -136,7 +136,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_parseByte_String_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -152,7 +152,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_toString_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_toUnsignedInt_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -183,7 +183,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_toUnsignedLong_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -198,7 +198,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_valueOf_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -214,7 +214,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -230,7 +230,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void test_valueOf_String_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -239,7 +239,7 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.Byte> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.Byte.class.isAssignableFrom(sut));
     }

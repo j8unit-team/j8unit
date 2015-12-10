@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.BinderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BinderClassTests<SUT extends Class<? extends javax.xml.bind.Binder<XmlNode>>, XmlNode>
+public abstract interface BinderClassTests<SUT extends javax.xml.bind.Binder<XmlNode>, XmlNode>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -53,7 +53,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.Binder<XmlNode>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.Binder.class.isAssignableFrom(sut));
     }

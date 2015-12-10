@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.FontUIResourceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FontUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.FontUIResource>>
+public abstract interface FontUIResourceClassTests<SUT extends javax.swing.plaf.FontUIResource>
 extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.java.awt.FontClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.FontUIResource> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.FontUIResource.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JFormattedTextFieldTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JFormattedTextFieldClassTests<SUT extends Class<? extends javax.swing.JFormattedTextField>>
+public abstract interface JFormattedTextFieldClassTests<SUT extends javax.swing.JFormattedTextField>
 extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractFormatterClassTests<SUT extends Class<? extends javax.swing.JFormattedTextField.AbstractFormatter>>
+    public static abstract interface AbstractFormatterClassTests<SUT extends javax.swing.JFormattedTextField.AbstractFormatter>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JFormattedTextField.AbstractFormatter> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JFormattedTextField.AbstractFormatter.class.isAssignableFrom(sut));
         }
@@ -115,13 +115,13 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterFactoryTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AbstractFormatterFactoryClassTests<SUT extends Class<? extends javax.swing.JFormattedTextField.AbstractFormatterFactory>>
+    public static abstract interface AbstractFormatterFactoryClassTests<SUT extends javax.swing.JFormattedTextField.AbstractFormatterFactory>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -144,7 +144,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JFormattedTextField.AbstractFormatterFactory> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JFormattedTextField.AbstractFormatterFactory.class.isAssignableFrom(sut));
         }
@@ -247,7 +247,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JFormattedTextField> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JFormattedTextField.class.isAssignableFrom(sut));
     }

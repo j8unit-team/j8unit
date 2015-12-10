@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.TextLayoutTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TextLayoutClassTests<SUT extends Class<? extends java.awt.font.TextLayout>>
+public abstract interface TextLayoutClassTests<SUT extends java.awt.font.TextLayout>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.font.TextLayoutTests.CaretPolicyTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CaretPolicyClassTests<SUT extends Class<? extends java.awt.font.TextLayout.CaretPolicy>>
+    public static abstract interface CaretPolicyClassTests<SUT extends java.awt.font.TextLayout.CaretPolicy>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -85,7 +85,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.awt.font.TextLayout.CaretPolicy> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.awt.font.TextLayout.CaretPolicy.class.isAssignableFrom(sut));
         }
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.font.TextLayout> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.font.TextLayout.class.isAssignableFrom(sut));
     }

@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA_2_3.ORBTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ORBClassTests<SUT extends Class<? extends org.omg.CORBA_2_3.ORB>>
+public abstract interface ORBClassTests<SUT extends org.omg.CORBA_2_3.ORB>
 extends org.j8unit.repository.org.omg.CORBA.ORBClassTests<SUT> {
 
     /**
@@ -54,7 +54,7 @@ extends org.j8unit.repository.org.omg.CORBA.ORBClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA_2_3.ORB> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA_2_3.ORB.class.isAssignableFrom(sut));
     }

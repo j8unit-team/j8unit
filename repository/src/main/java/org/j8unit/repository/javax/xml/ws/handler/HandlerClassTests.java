@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.handler.HandlerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HandlerClassTests<SUT extends Class<? extends javax.xml.ws.handler.Handler<C>>, C extends javax.xml.ws.handler.MessageContext>
-extends J8UnitTest<SUT> {
+public abstract interface HandlerClassTests<SUT extends javax.xml.ws.handler.Handler<C>, C extends javax.xml.ws.handler.MessageContext>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.handler.Handler<C>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.handler.Handler.class.isAssignableFrom(sut));
     }

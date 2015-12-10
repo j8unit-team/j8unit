@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor8Tests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractAnnotationValueVisitor8ClassTests<SUT extends Class<? extends javax.lang.model.util.AbstractAnnotationValueVisitor8<R, P>>, R, P>
+public abstract interface AbstractAnnotationValueVisitor8ClassTests<SUT extends javax.lang.model.util.AbstractAnnotationValueVisitor8<R, P>, R, P>
 extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor7ClassTests<SUT, R, P> {
 
     @Override
@@ -40,7 +40,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.util.AbstractAnnotationValueVisitor8<R, P>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.util.AbstractAnnotationValueVisitor8.class.isAssignableFrom(sut));
     }

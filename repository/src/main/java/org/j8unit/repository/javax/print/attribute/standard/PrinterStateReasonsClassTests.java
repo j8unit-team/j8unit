@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.PrinterStateReasonsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrinterStateReasonsClassTests<SUT extends Class<? extends javax.print.attribute.standard.PrinterStateReasons>>
+public abstract interface PrinterStateReasonsClassTests<SUT extends javax.print.attribute.standard.PrinterStateReasons>
 extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests<SUT>,
 org.j8unit.repository.java.util.HashMapClassTests<SUT, javax.print.attribute.standard.PrinterStateReason, javax.print.attribute.standard.Severity> {
 
@@ -100,7 +100,7 @@ org.j8unit.repository.java.util.HashMapClassTests<SUT, javax.print.attribute.sta
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.print.attribute.standard.PrinterStateReasons> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.print.attribute.standard.PrinterStateReasons.class.isAssignableFrom(sut));
     }

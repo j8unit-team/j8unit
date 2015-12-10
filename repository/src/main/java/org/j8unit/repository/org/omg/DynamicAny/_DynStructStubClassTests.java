@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny._DynStructStubTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _DynStructStubClassTests<SUT extends Class<? extends org.omg.DynamicAny._DynStructStub>>
+public abstract interface _DynStructStubClassTests<SUT extends org.omg.DynamicAny._DynStructStub>
 extends org.j8unit.repository.org.omg.DynamicAny.DynStructClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynStructClassTests<SUT>, org.j
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.DynamicAny._DynStructStub> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.DynamicAny._DynStructStub.class.isAssignableFrom(sut));
     }

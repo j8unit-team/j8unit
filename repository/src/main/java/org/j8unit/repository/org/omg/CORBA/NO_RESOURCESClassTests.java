@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.NO_RESOURCESTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NO_RESOURCESClassTests<SUT extends Class<? extends org.omg.CORBA.NO_RESOURCES>>
+public abstract interface NO_RESOURCESClassTests<SUT extends org.omg.CORBA.NO_RESOURCES>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
@@ -98,7 +98,7 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA.NO_RESOURCES> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA.NO_RESOURCES.class.isAssignableFrom(sut));
     }

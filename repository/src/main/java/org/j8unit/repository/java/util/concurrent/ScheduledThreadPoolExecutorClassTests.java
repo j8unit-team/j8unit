@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ScheduledThreadPoolExecutorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ScheduledThreadPoolExecutorClassTests<SUT extends Class<? extends java.util.concurrent.ScheduledThreadPoolExecutor>>
+public abstract interface ScheduledThreadPoolExecutorClassTests<SUT extends java.util.concurrent.ScheduledThreadPoolExecutor>
 extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceClassTests<SUT>,
 org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<SUT> {
 
@@ -107,7 +107,7 @@ org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.ScheduledThreadPoolExecutor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.ScheduledThreadPoolExecutor.class.isAssignableFrom(sut));
     }

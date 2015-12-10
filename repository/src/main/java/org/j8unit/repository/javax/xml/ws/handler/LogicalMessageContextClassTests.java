@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.handler.LogicalMessageContextTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LogicalMessageContextClassTests<SUT extends Class<? extends javax.xml.ws.handler.LogicalMessageContext>>
+public abstract interface LogicalMessageContextClassTests<SUT extends javax.xml.ws.handler.LogicalMessageContext>
 extends org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<SUT>
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.ws.handler.LogicalMessageContext> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.ws.handler.LogicalMessageContext.class.isAssignableFrom(sut));
     }

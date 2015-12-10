@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.ErrorTypeTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ErrorTypeClassTests<SUT extends Class<? extends javax.lang.model.type.ErrorType>>
+public abstract interface ErrorTypeClassTests<SUT extends javax.lang.model.type.ErrorType>
 extends org.j8unit.repository.javax.lang.model.type.DeclaredTypeClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.lang.model.type.DeclaredTypeClassTests<SUT> 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.lang.model.type.ErrorType> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.lang.model.type.ErrorType.class.isAssignableFrom(sut));
     }

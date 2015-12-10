@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.LinkRefTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkRefClassTests<SUT extends Class<? extends javax.naming.LinkRef>>
+public abstract interface LinkRefClassTests<SUT extends javax.naming.LinkRef>
 extends org.j8unit.repository.javax.naming.ReferenceClassTests<SUT> {
 
     /**
@@ -68,7 +68,7 @@ extends org.j8unit.repository.javax.naming.ReferenceClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.LinkRef> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.LinkRef.class.isAssignableFrom(sut));
     }

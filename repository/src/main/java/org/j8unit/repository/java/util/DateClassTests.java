@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.DateTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DateClassTests<SUT extends Class<? extends java.util.Date>>
+public abstract interface DateClassTests<SUT extends java.util.Date>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -127,7 +127,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
     public default void test_from_Instant()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -143,7 +143,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
     public default void test_parse_String()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -159,7 +159,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
     public default void test_UTC_int_int_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -168,7 +168,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Date> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Date.class.isAssignableFrom(sut));
     }

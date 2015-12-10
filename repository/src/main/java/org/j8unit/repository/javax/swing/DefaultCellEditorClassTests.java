@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultCellEditorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultCellEditorClassTests<SUT extends Class<? extends javax.swing.DefaultCellEditor>>
+public abstract interface DefaultCellEditorClassTests<SUT extends javax.swing.DefaultCellEditor>
 extends org.j8unit.repository.javax.swing.table.TableCellEditorClassTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests<SUT>,
 org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<SUT> {
 
@@ -84,7 +84,7 @@ org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.DefaultCellEditor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.DefaultCellEditor.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractListTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractListClassTests<SUT extends Class<? extends java.util.AbstractList<E>>, E>
+public abstract interface AbstractListClassTests<SUT extends java.util.AbstractList<E>, E>
 extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT, E> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repos
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.AbstractList<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.AbstractList.class.isAssignableFrom(sut));
     }

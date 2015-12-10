@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.AnnotatedElementTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AnnotatedElementClassTests<SUT extends Class<? extends java.lang.reflect.AnnotatedElement>>
-extends J8UnitTest<SUT> {
+public abstract interface AnnotatedElementClassTests<SUT extends java.lang.reflect.AnnotatedElement>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.reflect.AnnotatedElement> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.reflect.AnnotatedElement.class.isAssignableFrom(sut));
     }

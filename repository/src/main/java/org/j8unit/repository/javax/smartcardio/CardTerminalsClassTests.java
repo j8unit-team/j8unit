@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.smartcardio.CardTerminalsTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CardTerminalsClassTests<SUT extends Class<? extends javax.smartcardio.CardTerminals>>
+public abstract interface CardTerminalsClassTests<SUT extends javax.smartcardio.CardTerminals>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.smartcardio.CardTerminalsTests.StateTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StateClassTests<SUT extends Class<? extends javax.smartcardio.CardTerminals.State>>
+    public static abstract interface StateClassTests<SUT extends javax.smartcardio.CardTerminals.State>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.smartcardio.CardTerminals.State> {
 
         /**
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.smartcardio.CardTerminals.State> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.smartcardio.CardTerminals.State.class.isAssignableFrom(sut));
         }
@@ -115,7 +115,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.smartcardio.CardTerminals> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.smartcardio.CardTerminals.class.isAssignableFrom(sut));
     }

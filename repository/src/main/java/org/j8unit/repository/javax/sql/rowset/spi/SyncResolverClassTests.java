@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.spi.SyncResolverTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SyncResolverClassTests<SUT extends Class<? extends javax.sql.rowset.spi.SyncResolver>>
+public abstract interface SyncResolverClassTests<SUT extends javax.sql.rowset.spi.SyncResolver>
 extends org.j8unit.repository.javax.sql.RowSetClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.sql.RowSetClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.sql.rowset.spi.SyncResolver> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.sql.rowset.spi.SyncResolver.class.isAssignableFrom(sut));
     }

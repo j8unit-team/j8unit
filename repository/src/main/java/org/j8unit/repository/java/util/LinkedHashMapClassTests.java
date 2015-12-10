@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LinkedHashMapTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkedHashMapClassTests<SUT extends Class<? extends java.util.LinkedHashMap<K, V>>, K, V>
+public abstract interface LinkedHashMapClassTests<SUT extends java.util.LinkedHashMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.util.HashMapClassTests<SUT, K, V> {
 
     /**
@@ -109,7 +109,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.LinkedHashMap<K, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.LinkedHashMap.class.isAssignableFrom(sut));
     }

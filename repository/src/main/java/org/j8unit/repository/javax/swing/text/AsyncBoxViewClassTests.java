@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AsyncBoxViewClassTests<SUT extends Class<? extends javax.swing.text.AsyncBoxView>>
+public abstract interface AsyncBoxViewClassTests<SUT extends javax.swing.text.AsyncBoxView>
 extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ChildLocatorClassTests<SUT extends Class<? extends javax.swing.text.AsyncBoxView.ChildLocator>>
+    public static abstract interface ChildLocatorClassTests<SUT extends javax.swing.text.AsyncBoxView.ChildLocator>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -87,7 +87,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AsyncBoxView.ChildLocator> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AsyncBoxView.ChildLocator.class.isAssignableFrom(sut));
         }
@@ -115,13 +115,13 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildStateTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ChildStateClassTests<SUT extends Class<? extends javax.swing.text.AsyncBoxView.ChildState>>
+    public static abstract interface ChildStateClassTests<SUT extends javax.swing.text.AsyncBoxView.ChildState>
     extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -145,7 +145,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.AsyncBoxView.ChildState> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.AsyncBoxView.ChildState.class.isAssignableFrom(sut));
         }
@@ -171,7 +171,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.AsyncBoxView> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.AsyncBoxView.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GridBagLayoutInfoTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface GridBagLayoutInfoClassTests<SUT extends Class<? extends java.awt.GridBagLayoutInfo>>
+public abstract interface GridBagLayoutInfoClassTests<SUT extends java.awt.GridBagLayoutInfo>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.GridBagLayoutInfo> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.GridBagLayoutInfo.class.isAssignableFrom(sut));
     }

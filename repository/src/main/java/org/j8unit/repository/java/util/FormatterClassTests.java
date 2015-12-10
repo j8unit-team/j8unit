@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.FormatterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FormatterClassTests<SUT extends Class<? extends java.util.Formatter>>
+public abstract interface FormatterClassTests<SUT extends java.util.Formatter>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.io.FlushableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -57,13 +57,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BigDecimalLayoutFormClassTests<SUT extends Class<? extends java.util.Formatter.BigDecimalLayoutForm>>
+    public static abstract interface BigDecimalLayoutFormClassTests<SUT extends java.util.Formatter.BigDecimalLayoutForm>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.Formatter.BigDecimalLayoutForm> {
 
         /**
@@ -78,7 +78,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.Formatter.BigDecimalLayoutForm> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Formatter.BigDecimalLayoutForm.class.isAssignableFrom(sut));
         }
@@ -316,7 +316,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Formatter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Formatter.class.isAssignableFrom(sut));
     }

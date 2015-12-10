@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLTransactionRollbackExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SQLTransactionRollbackExceptionClassTests<SUT extends Class<? extends java.sql.SQLTransactionRollbackException>>
+public abstract interface SQLTransactionRollbackExceptionClassTests<SUT extends java.sql.SQLTransactionRollbackException>
 extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
 
     /**
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.sql.SQLTransactionRollbackException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.sql.SQLTransactionRollbackException.class.isAssignableFrom(sut));
     }

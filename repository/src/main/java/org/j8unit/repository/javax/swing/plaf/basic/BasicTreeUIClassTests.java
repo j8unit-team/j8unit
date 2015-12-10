@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicTreeUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI>>
+public abstract interface BasicTreeUIClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI>
 extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CellEditorHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler>>
+    public static abstract interface CellEditorHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler>
     extends org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -88,7 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler.class.isAssignableFrom(sut));
         }
@@ -117,13 +117,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ComponentHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.ComponentHandler>>
+    public static abstract interface ComponentHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.ComponentHandler>
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.ComponentAdapterClassTests<SUT> {
 
         /**
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.ComponentHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.ComponentHandler.class.isAssignableFrom(sut));
         }
@@ -176,13 +176,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.FocusHandler>>
+    public static abstract interface FocusHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -206,7 +206,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.FocusHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.FocusHandler.class.isAssignableFrom(sut));
         }
@@ -235,13 +235,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.KeyHandler>>
+    public static abstract interface KeyHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.KeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyAdapterClassTests<SUT> {
 
         /**
@@ -265,7 +265,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.KeyHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.KeyHandler.class.isAssignableFrom(sut));
         }
@@ -294,13 +294,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MouseHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.MouseHandler>>
+    public static abstract interface MouseHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.MouseHandler>
     extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
 
         /**
@@ -324,7 +324,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.MouseHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.MouseHandler.class.isAssignableFrom(sut));
         }
@@ -353,13 +353,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MouseInputHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler>>
+    public static abstract interface MouseInputHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -385,7 +385,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler.class.isAssignableFrom(sut));
         }
@@ -414,13 +414,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.NodeDimensionsHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface NodeDimensionsHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler>>
+    public static abstract interface NodeDimensionsHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler>
     extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests<SUT> {
 
         /**
@@ -444,7 +444,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler.class.isAssignableFrom(sut));
         }
@@ -473,13 +473,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler>>
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -503,7 +503,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
@@ -532,13 +532,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SelectionModelPropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler>>
+    public static abstract interface SelectionModelPropertyChangeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -563,7 +563,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler.class.isAssignableFrom(sut));
         }
@@ -592,13 +592,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeCancelEditingActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction>>
+    public static abstract interface TreeCancelEditingActionClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -624,7 +624,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction.class.isAssignableFrom(sut));
         }
@@ -653,13 +653,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeExpansionHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeExpansionHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler>>
+    public static abstract interface TreeExpansionHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler>
     extends org.j8unit.repository.javax.swing.event.TreeExpansionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -683,7 +683,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler.class.isAssignableFrom(sut));
         }
@@ -712,13 +712,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeHomeActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction>>
+    public static abstract interface TreeHomeActionClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -743,7 +743,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction.class.isAssignableFrom(sut));
         }
@@ -772,13 +772,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeIncrementActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction>>
+    public static abstract interface TreeIncrementActionClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -804,7 +804,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction.class.isAssignableFrom(sut));
         }
@@ -833,13 +833,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeModelHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeModelHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler>>
+    public static abstract interface TreeModelHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler>
     extends org.j8unit.repository.javax.swing.event.TreeModelListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -863,7 +863,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler.class.isAssignableFrom(sut));
         }
@@ -892,13 +892,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreePageActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreePageActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreePageAction>>
+    public static abstract interface TreePageActionClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreePageAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -923,7 +923,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreePageAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreePageAction.class.isAssignableFrom(sut));
         }
@@ -952,13 +952,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeSelectionHandlerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeSelectionHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler>>
+    public static abstract interface TreeSelectionHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler>
     extends org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -982,7 +982,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler.class.isAssignableFrom(sut));
         }
@@ -1011,13 +1011,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeToggleActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction>>
+    public static abstract interface TreeToggleActionClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -1042,7 +1042,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction.class.isAssignableFrom(sut));
         }
@@ -1071,13 +1071,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeTraverseActionTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeTraverseActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction>>
+    public static abstract interface TreeTraverseActionClassTests<SUT extends javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
@@ -1103,7 +1103,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction.class.isAssignableFrom(sut));
         }
@@ -1137,7 +1137,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1146,7 +1146,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicTreeUI> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicTreeUI.class.isAssignableFrom(sut));
     }

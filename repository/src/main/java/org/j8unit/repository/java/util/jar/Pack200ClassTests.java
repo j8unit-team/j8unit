@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.Pack200Tests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface Pack200ClassTests<SUT extends Class<? extends java.util.jar.Pack200>>
+public abstract interface Pack200ClassTests<SUT extends java.util.jar.Pack200>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,20 +57,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.jar.Pack200Tests.PackerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PackerClassTests<SUT extends Class<? extends java.util.jar.Pack200.Packer>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface PackerClassTests<SUT extends java.util.jar.Pack200.Packer>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.jar.Pack200.Packer> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.jar.Pack200.Packer.class.isAssignableFrom(sut));
         }
@@ -98,20 +98,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.jar.Pack200Tests.UnpackerTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UnpackerClassTests<SUT extends Class<? extends java.util.jar.Pack200.Unpacker>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface UnpackerClassTests<SUT extends java.util.jar.Pack200.Unpacker>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.jar.Pack200.Unpacker> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.jar.Pack200.Unpacker.class.isAssignableFrom(sut));
         }
@@ -130,7 +130,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newPacker()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_newUnpacker()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -155,7 +155,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.jar.Pack200> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.jar.Pack200.class.isAssignableFrom(sut));
     }

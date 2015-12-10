@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.OverlayLayoutTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OverlayLayoutClassTests<SUT extends Class<? extends javax.swing.OverlayLayout>>
+public abstract interface OverlayLayoutClassTests<SUT extends javax.swing.OverlayLayout>
 extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.OverlayLayout> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.OverlayLayout.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.MethodHandleProxiesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MethodHandleProxiesClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandleProxies>>
+public abstract interface MethodHandleProxiesClassTests<SUT extends java.lang.invoke.MethodHandleProxies>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -50,7 +50,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_asInterfaceInstance_Class_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -66,7 +66,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_isWrapperInstance_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -82,7 +82,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_wrapperInstanceTarget_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_wrapperInstanceType_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -107,7 +107,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.invoke.MethodHandleProxies> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.invoke.MethodHandleProxies.class.isAssignableFrom(sut));
     }

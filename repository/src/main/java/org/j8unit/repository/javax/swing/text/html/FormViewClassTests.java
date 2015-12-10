@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.FormViewTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FormViewClassTests<SUT extends Class<? extends javax.swing.text.html.FormView>>
+public abstract interface FormViewClassTests<SUT extends javax.swing.text.html.FormView>
 extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.javax.swing.text.ComponentViewClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.html.FormView> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.html.FormView.class.isAssignableFrom(sut));
     }

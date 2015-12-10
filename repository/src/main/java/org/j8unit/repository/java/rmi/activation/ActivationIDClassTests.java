@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationIDTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivationIDClassTests<SUT extends Class<? extends java.rmi.activation.ActivationID>>
+public abstract interface ActivationIDClassTests<SUT extends java.rmi.activation.ActivationID>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.activation.ActivationID> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.rmi.activation.ActivationID.class.isAssignableFrom(sut));
     }

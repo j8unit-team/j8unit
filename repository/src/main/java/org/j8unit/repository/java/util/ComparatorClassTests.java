@@ -28,14 +28,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ComparatorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ComparatorClassTests<SUT extends Class<? extends java.util.Comparator<T>>, T>
-extends J8UnitTest<SUT> {
+public abstract interface ComparatorClassTests<SUT extends java.util.Comparator<T>, T>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -49,7 +49,7 @@ extends J8UnitTest<SUT> {
     public default void test_comparing_Function()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -65,7 +65,7 @@ extends J8UnitTest<SUT> {
     public default void test_comparing_Function_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -81,7 +81,7 @@ extends J8UnitTest<SUT> {
     public default void test_comparingDouble_ToDoubleFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -97,7 +97,7 @@ extends J8UnitTest<SUT> {
     public default void test_comparingInt_ToIntFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -113,7 +113,7 @@ extends J8UnitTest<SUT> {
     public default void test_comparingLong_ToLongFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,7 +129,7 @@ extends J8UnitTest<SUT> {
     public default void test_naturalOrder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,7 +145,7 @@ extends J8UnitTest<SUT> {
     public default void test_nullsFirst_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -161,7 +161,7 @@ extends J8UnitTest<SUT> {
     public default void test_nullsLast_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -177,7 +177,7 @@ extends J8UnitTest<SUT> {
     public default void test_reverseOrder()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -185,7 +185,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Comparator<T>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Comparator.class.isAssignableFrom(sut));
     }

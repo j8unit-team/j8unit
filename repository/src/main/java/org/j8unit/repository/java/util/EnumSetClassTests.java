@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EnumSetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumSetClassTests<SUT extends Class<? extends java.util.EnumSet<E>>, E extends java.lang.Enum<E>>
+public abstract interface EnumSetClassTests<SUT extends java.util.EnumSet<E>, E extends java.lang.Enum<E>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
@@ -48,7 +48,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_allOf_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -64,7 +64,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_complementOf_EnumSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -80,7 +80,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_copyOf_Collection()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -96,7 +96,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_copyOf_EnumSet()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -112,7 +112,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_noneOf_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -128,7 +128,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_of_Enum()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -144,7 +144,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_of_Enum_Enum()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -160,7 +160,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_of_Enum_Enum_Enum()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -176,7 +176,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_of_Enum_Enum_Enum_Enum()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -194,7 +194,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_of_Enum_Enum_Enum_Enum_Enum()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -210,7 +210,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_of_Enum_EnumArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -226,7 +226,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void test_range_Enum_Enum()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -235,7 +235,7 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.EnumSet<E>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.EnumSet.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.prefs.AbstractPreferencesTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractPreferencesClassTests<SUT extends Class<? extends java.util.prefs.AbstractPreferences>>
+public abstract interface AbstractPreferencesClassTests<SUT extends java.util.prefs.AbstractPreferences>
 extends org.j8unit.repository.java.util.prefs.PreferencesClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.java.util.prefs.PreferencesClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.prefs.AbstractPreferences> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.prefs.AbstractPreferences.class.isAssignableFrom(sut));
     }

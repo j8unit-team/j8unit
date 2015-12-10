@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.css.CSSCharsetRuleTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CSSCharsetRuleClassTests<SUT extends Class<? extends org.w3c.dom.css.CSSCharsetRule>>
+public abstract interface CSSCharsetRuleClassTests<SUT extends org.w3c.dom.css.CSSCharsetRule>
 extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.w3c.dom.css.CSSCharsetRule> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.w3c.dom.css.CSSCharsetRule.class.isAssignableFrom(sut));
     }

@@ -25,13 +25,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StringMonitorMBeanClassTests<SUT extends Class<? extends javax.management.monitor.StringMonitorMBean>>
+public abstract interface StringMonitorMBeanClassTests<SUT extends javax.management.monitor.StringMonitorMBean>
 extends org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests<SUT> {
 
     @Override
@@ -39,7 +39,7 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests<SU
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.monitor.StringMonitorMBean> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.monitor.StringMonitorMBean.class.isAssignableFrom(sut));
     }

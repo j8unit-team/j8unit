@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanTrustPermissionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MBeanTrustPermissionClassTests<SUT extends Class<? extends javax.management.MBeanTrustPermission>>
+public abstract interface MBeanTrustPermissionClassTests<SUT extends javax.management.MBeanTrustPermission>
 extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
 
     /**
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.MBeanTrustPermission> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.MBeanTrustPermission.class.isAssignableFrom(sut));
     }

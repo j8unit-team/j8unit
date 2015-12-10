@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface W3CDomHandlerClassTests<SUT extends Class<? extends javax.xml.bind.annotation.W3CDomHandler>>
+public abstract interface W3CDomHandlerClassTests<SUT extends javax.xml.bind.annotation.W3CDomHandler>
 extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerClassTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMResult>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -71,7 +71,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.annotation.W3CDomHandler> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.annotation.W3CDomHandler.class.isAssignableFrom(sut));
     }

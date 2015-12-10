@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.spec.PSourceTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PSourceClassTests<SUT extends Class<? extends javax.crypto.spec.PSource>>
+public abstract interface PSourceClassTests<SUT extends javax.crypto.spec.PSource>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.crypto.spec.PSourceTests.PSpecifiedTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PSpecifiedClassTests<SUT extends Class<? extends javax.crypto.spec.PSource.PSpecified>>
+    public static abstract interface PSpecifiedClassTests<SUT extends javax.crypto.spec.PSource.PSpecified>
     extends org.j8unit.repository.javax.crypto.spec.PSourceClassTests<SUT> {
 
         /**
@@ -85,7 +85,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.crypto.spec.PSource.PSpecified> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.crypto.spec.PSource.PSpecified.class.isAssignableFrom(sut));
         }
@@ -97,7 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.crypto.spec.PSource> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.crypto.spec.PSource.class.isAssignableFrom(sut));
     }

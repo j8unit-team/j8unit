@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvocationTargetExceptionClassTests<SUT extends Class<? extends java.lang.reflect.InvocationTargetException>>
+public abstract interface InvocationTargetExceptionClassTests<SUT extends java.lang.reflect.InvocationTargetException>
 extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<SUT> {
 
     /**
@@ -72,7 +72,7 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.reflect.InvocationTargetException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.reflect.InvocationTargetException.class.isAssignableFrom(sut));
     }

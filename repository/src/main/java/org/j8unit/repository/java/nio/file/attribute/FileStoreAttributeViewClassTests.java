@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.FileStoreAttributeViewTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileStoreAttributeViewClassTests<SUT extends Class<? extends java.nio.file.attribute.FileStoreAttributeView>>
+public abstract interface FileStoreAttributeViewClassTests<SUT extends java.nio.file.attribute.FileStoreAttributeView>
 extends org.j8unit.repository.java.nio.file.attribute.AttributeViewClassTests<SUT> {
 
     @Override
@@ -40,7 +40,7 @@ extends org.j8unit.repository.java.nio.file.attribute.AttributeViewClassTests<SU
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.attribute.FileStoreAttributeView> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.attribute.FileStoreAttributeView.class.isAssignableFrom(sut));
     }

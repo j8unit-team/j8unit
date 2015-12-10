@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.LongLongSeqHolderTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LongLongSeqHolderClassTests<SUT extends Class<? extends org.omg.CORBA.LongLongSeqHolder>>
+public abstract interface LongLongSeqHolderClassTests<SUT extends org.omg.CORBA.LongLongSeqHolder>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -69,7 +69,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, 
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.CORBA.LongLongSeqHolder> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.CORBA.LongLongSeqHolder.class.isAssignableFrom(sut));
     }

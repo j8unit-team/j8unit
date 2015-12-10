@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.URISyntaxExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface URISyntaxExceptionClassTests<SUT extends Class<? extends java.net.URISyntaxException>>
+public abstract interface URISyntaxExceptionClassTests<SUT extends java.net.URISyntaxException>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.URISyntaxException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.net.URISyntaxException.class.isAssignableFrom(sut));
     }

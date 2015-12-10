@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JSpinnerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JSpinnerClassTests<SUT extends Class<? extends javax.swing.JSpinner>>
+public abstract interface JSpinnerClassTests<SUT extends javax.swing.JSpinner>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DateEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.DateEditor>>
+    public static abstract interface DateEditorClassTests<SUT extends javax.swing.JSpinner.DateEditor>
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
 
         /**
@@ -99,7 +99,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JSpinner.DateEditor> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JSpinner.DateEditor.class.isAssignableFrom(sut));
         }
@@ -127,13 +127,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DefaultEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.DefaultEditor>>
+    public static abstract interface DefaultEditorClassTests<SUT extends javax.swing.JSpinner.DefaultEditor>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
     org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.javax.swing.JPanelClassTests<SUT> {
 
@@ -156,7 +156,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JSpinner.DefaultEditor> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JSpinner.DefaultEditor.class.isAssignableFrom(sut));
         }
@@ -184,13 +184,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.ListEditorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.ListEditor>>
+    public static abstract interface ListEditorClassTests<SUT extends javax.swing.JSpinner.ListEditor>
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
 
         /**
@@ -212,7 +212,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JSpinner.ListEditor> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JSpinner.ListEditor.class.isAssignableFrom(sut));
         }
@@ -240,13 +240,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.NumberEditorTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface NumberEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.NumberEditor>>
+    public static abstract interface NumberEditorClassTests<SUT extends javax.swing.JSpinner.NumberEditor>
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
 
         /**
@@ -283,7 +283,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.JSpinner.NumberEditor> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.JSpinner.NumberEditor.class.isAssignableFrom(sut));
         }
@@ -322,7 +322,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JSpinner> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.JSpinner.class.isAssignableFrom(sut));
     }

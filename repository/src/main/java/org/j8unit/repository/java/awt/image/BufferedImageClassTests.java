@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.BufferedImageTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BufferedImageClassTests<SUT extends Class<? extends java.awt.image.BufferedImage>>
+public abstract interface BufferedImageClassTests<SUT extends java.awt.image.BufferedImage>
 extends org.j8unit.repository.java.awt.image.WritableRenderedImageClassTests<SUT>, org.j8unit.repository.java.awt.TransparencyClassTests<SUT>,
 org.j8unit.repository.java.awt.ImageClassTests<SUT> {
 
@@ -89,7 +89,7 @@ org.j8unit.repository.java.awt.ImageClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.image.BufferedImage> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.image.BufferedImage.class.isAssignableFrom(sut));
     }

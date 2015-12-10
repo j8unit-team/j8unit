@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.adapters.NormalizedStringAdapterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NormalizedStringAdapterClassTests<SUT extends Class<? extends javax.xml.bind.annotation.adapters.NormalizedStringAdapter>>
+public abstract interface NormalizedStringAdapterClassTests<SUT extends javax.xml.bind.annotation.adapters.NormalizedStringAdapter>
 extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterClassTests<SUT, java.lang.String, java.lang.String> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterClass
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.bind.annotation.adapters.NormalizedStringAdapter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.bind.annotation.adapters.NormalizedStringAdapter.class.isAssignableFrom(sut));
     }

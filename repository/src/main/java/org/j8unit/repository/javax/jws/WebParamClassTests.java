@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.WebParamTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebParamClassTests<SUT extends Class<? extends javax.jws.WebParam>>
+public abstract interface WebParamClassTests<SUT extends javax.jws.WebParam>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     /**
@@ -56,13 +56,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.WebParamTests.ModeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ModeClassTests<SUT extends Class<? extends javax.jws.WebParam.Mode>>
+    public static abstract interface ModeClassTests<SUT extends javax.jws.WebParam.Mode>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.WebParam.Mode> {
 
         /**
@@ -77,7 +77,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -93,7 +93,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.jws.WebParam.Mode> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.jws.WebParam.Mode.class.isAssignableFrom(sut));
         }
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.jws.WebParam> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.jws.WebParam.class.isAssignableFrom(sut));
     }

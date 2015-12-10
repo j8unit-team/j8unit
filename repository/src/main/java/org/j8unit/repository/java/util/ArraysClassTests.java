@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ArraysTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArraysClassTests<SUT extends Class<? extends java.util.Arrays>>
+public abstract interface ArraysClassTests<SUT extends java.util.Arrays>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_asList_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -63,7 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_byteArray_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_byteArray_int_int_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -95,7 +95,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_charArray_char()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -111,7 +111,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_charArray_int_int_char()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -127,7 +127,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_doubleArray_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -143,7 +143,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_doubleArray_int_int_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -159,7 +159,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_floatArray_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -175,7 +175,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_floatArray_int_int_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -191,7 +191,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_intArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -207,7 +207,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_intArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -223,7 +223,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_longArray_int_int_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -239,7 +239,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_longArray_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_ObjectArray_int_int_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -272,7 +272,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_ObjectArray_int_int_Object_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -288,7 +288,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_ObjectArray_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -304,7 +304,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_ObjectArray_Object_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -320,7 +320,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_shortArray_int_int_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -336,7 +336,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_binarySearch_shortArray_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -352,7 +352,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_booleanArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -368,7 +368,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_byteArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -384,7 +384,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_charArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -400,7 +400,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -416,7 +416,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_floatArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -432,7 +432,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_intArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -448,7 +448,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_longArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -464,7 +464,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_ObjectArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -480,7 +480,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_ObjectArray_int_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -496,7 +496,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOf_shortArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -512,7 +512,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_booleanArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -528,7 +528,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -544,7 +544,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -560,7 +560,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -576,7 +576,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_floatArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -592,7 +592,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -608,7 +608,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_longArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -624,7 +624,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_ObjectArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -640,7 +640,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_ObjectArray_int_int_Class()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -656,7 +656,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_copyOfRange_shortArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -672,7 +672,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_deepEquals_ObjectArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -688,7 +688,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_deepHashCode_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -704,7 +704,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_deepToString_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -720,7 +720,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_booleanArray_booleanArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -736,7 +736,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_byteArray_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -752,7 +752,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_charArray_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -768,7 +768,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_doubleArray_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -784,7 +784,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_floatArray_floatArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -800,7 +800,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_intArray_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -816,7 +816,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_longArray_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -832,7 +832,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_ObjectArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -848,7 +848,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_equals_shortArray_shortArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -864,7 +864,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_booleanArray_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -880,7 +880,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_booleanArray_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -895,7 +895,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_byteArray_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -911,7 +911,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_byteArray_int_int_byte()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -926,7 +926,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_charArray_char()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -942,7 +942,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_charArray_int_int_char()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -958,7 +958,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_doubleArray_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -974,7 +974,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_doubleArray_int_int_double()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -990,7 +990,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_floatArray_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1006,7 +1006,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_floatArray_int_int_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1021,7 +1021,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_intArray_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1037,7 +1037,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_intArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1053,7 +1053,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_longArray_int_int_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1068,7 +1068,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_longArray_long()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1084,7 +1084,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_ObjectArray_int_int_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1100,7 +1100,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_ObjectArray_Object()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1116,7 +1116,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_shortArray_int_int_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1132,7 +1132,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_fill_shortArray_short()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1148,7 +1148,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_booleanArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1163,7 +1163,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1178,7 +1178,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1194,7 +1194,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1209,7 +1209,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_floatArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1224,7 +1224,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1239,7 +1239,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1255,7 +1255,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1270,7 +1270,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_hashCode_shortArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1286,7 +1286,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_doubleArray_DoubleBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1302,7 +1302,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_doubleArray_int_int_DoubleBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1318,7 +1318,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_intArray_int_int_IntBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1334,7 +1334,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_intArray_IntBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1350,7 +1350,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_longArray_int_int_LongBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1366,7 +1366,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_longArray_LongBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1382,7 +1382,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_ObjectArray_BinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1399,7 +1399,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelPrefix_ObjectArray_int_int_BinaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1415,7 +1415,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSetAll_doubleArray_IntToDoubleFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1431,7 +1431,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSetAll_intArray_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1447,7 +1447,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSetAll_longArray_IntToLongFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1463,7 +1463,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSetAll_ObjectArray_IntFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1479,7 +1479,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1495,7 +1495,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1511,7 +1511,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1527,7 +1527,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1543,7 +1543,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_ComparableArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1559,7 +1559,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_ComparableArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1575,7 +1575,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1591,7 +1591,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1607,7 +1607,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_floatArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1623,7 +1623,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_floatArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1639,7 +1639,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1655,7 +1655,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1671,7 +1671,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1687,7 +1687,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_longArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1703,7 +1703,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_ObjectArray_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1719,7 +1719,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_ObjectArray_int_int_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1735,7 +1735,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_shortArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1751,7 +1751,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_parallelSort_shortArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1767,7 +1767,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setAll_doubleArray_IntToDoubleFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1783,7 +1783,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setAll_intArray_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1799,7 +1799,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setAll_longArray_IntToLongFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1815,7 +1815,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_setAll_ObjectArray_IntFunction()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1830,7 +1830,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1846,7 +1846,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1861,7 +1861,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1877,7 +1877,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1892,7 +1892,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1908,7 +1908,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1923,7 +1923,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_floatArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1939,7 +1939,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_floatArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1954,7 +1954,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1970,7 +1970,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -1985,7 +1985,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2001,7 +2001,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_longArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2017,7 +2017,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2033,7 +2033,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_ObjectArray_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2049,7 +2049,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_ObjectArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2065,7 +2065,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_ObjectArray_int_int_Comparator()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2080,7 +2080,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_shortArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2096,7 +2096,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_sort_shortArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2112,7 +2112,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2128,7 +2128,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2144,7 +2144,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2160,7 +2160,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2176,7 +2176,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2192,7 +2192,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_longArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2208,7 +2208,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2224,7 +2224,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_spliterator_ObjectArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2240,7 +2240,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2256,7 +2256,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2272,7 +2272,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2288,7 +2288,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2304,7 +2304,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2320,7 +2320,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_longArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2336,7 +2336,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2352,7 +2352,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_stream_ObjectArray_int_int()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2368,7 +2368,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_booleanArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2384,7 +2384,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_byteArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2400,7 +2400,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_charArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2416,7 +2416,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_doubleArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2432,7 +2432,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_floatArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2448,7 +2448,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_intArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2464,7 +2464,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_longArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2480,7 +2480,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2496,7 +2496,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void test_toString_shortArray()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -2505,7 +2505,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.Arrays> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Arrays.class.isAssignableFrom(sut));
     }

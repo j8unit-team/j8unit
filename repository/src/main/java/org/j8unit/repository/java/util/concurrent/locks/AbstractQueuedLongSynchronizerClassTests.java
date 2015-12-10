@@ -28,13 +28,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractQueuedLongSynchronizerClassTests<SUT extends Class<? extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer>>
+public abstract interface AbstractQueuedLongSynchronizerClassTests<SUT extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchronizerClassTests<SUT> {
 
     /**
@@ -60,13 +60,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests.ConditionObjectTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ConditionObjectClassTests<SUT extends Class<? extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject>>
+    public static abstract interface ConditionObjectClassTests<SUT extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject>
     extends org.j8unit.repository.java.util.concurrent.locks.ConditionClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -93,7 +93,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject.class.isAssignableFrom(sut));
         }
@@ -105,7 +105,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.concurrent.locks.AbstractQueuedLongSynchronizer.class.isAssignableFrom(sut));
     }

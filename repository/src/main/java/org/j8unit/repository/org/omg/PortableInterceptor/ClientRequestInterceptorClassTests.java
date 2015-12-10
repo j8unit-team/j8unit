@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInterceptorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ClientRequestInterceptorClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.ClientRequestInterceptor>>
+public abstract interface ClientRequestInterceptorClassTests<SUT extends org.omg.PortableInterceptor.ClientRequestInterceptor>
 extends org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInterceptorOperationsClassTests<SUT>,
 org.j8unit.repository.org.omg.PortableInterceptor.InterceptorClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
 
@@ -41,7 +41,7 @@ org.j8unit.repository.org.omg.PortableInterceptor.InterceptorClassTests<SUT>, or
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends org.omg.PortableInterceptor.ClientRequestInterceptor> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(org.omg.PortableInterceptor.ClientRequestInterceptor.class.isAssignableFrom(sut));
     }

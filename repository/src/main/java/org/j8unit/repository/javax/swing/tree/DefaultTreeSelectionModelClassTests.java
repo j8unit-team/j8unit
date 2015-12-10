@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.DefaultTreeSelectionModelTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultTreeSelectionModelClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeSelectionModel>>
+public abstract interface DefaultTreeSelectionModelClassTests<SUT extends javax.swing.tree.DefaultTreeSelectionModel>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.javax.swing.tree.TreeSelectionModelClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
@@ -56,7 +56,7 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelClassTests<SUT>, org.j8
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.tree.DefaultTreeSelectionModel> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.tree.DefaultTreeSelectionModel.class.isAssignableFrom(sut));
     }

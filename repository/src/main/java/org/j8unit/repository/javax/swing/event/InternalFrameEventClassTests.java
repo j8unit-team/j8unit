@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.InternalFrameEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InternalFrameEventClassTests<SUT extends Class<? extends javax.swing.event.InternalFrameEvent>>
+public abstract interface InternalFrameEventClassTests<SUT extends javax.swing.event.InternalFrameEvent>
 extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
 
     /**
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.event.InternalFrameEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.event.InternalFrameEvent.class.isAssignableFrom(sut));
     }

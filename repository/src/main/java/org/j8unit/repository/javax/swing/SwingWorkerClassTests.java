@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SwingWorkerTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SwingWorkerClassTests<SUT extends Class<? extends javax.swing.SwingWorker<T, V>>, T, V>
+public abstract interface SwingWorkerClassTests<SUT extends javax.swing.SwingWorker<T, V>, T, V>
 extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -57,13 +57,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StateValueClassTests<SUT extends Class<? extends javax.swing.SwingWorker.StateValue>>
+    public static abstract interface StateValueClassTests<SUT extends javax.swing.SwingWorker.StateValue>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SwingWorker.StateValue> {
 
         /**
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -94,7 +94,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.SwingWorker.StateValue> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.SwingWorker.StateValue.class.isAssignableFrom(sut));
         }
@@ -128,7 +128,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.SwingWorker<T, V>> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.SwingWorker.class.isAssignableFrom(sut));
     }

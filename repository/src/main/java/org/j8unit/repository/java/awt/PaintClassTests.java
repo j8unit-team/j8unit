@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PaintTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PaintClassTests<SUT extends Class<? extends java.awt.Paint>>
+public abstract interface PaintClassTests<SUT extends java.awt.Paint>
 extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT> {
 
     @Override
@@ -38,7 +38,7 @@ extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Paint> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Paint.class.isAssignableFrom(sut));
     }

@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractLayoutCacheClassTests<SUT extends Class<? extends javax.swing.tree.AbstractLayoutCache>>
+public abstract interface AbstractLayoutCacheClassTests<SUT extends javax.swing.tree.AbstractLayoutCache>
 extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests.NodeDimensionsTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface NodeDimensionsClassTests<SUT extends Class<? extends javax.swing.tree.AbstractLayoutCache.NodeDimensions>>
+    public static abstract interface NodeDimensionsClassTests<SUT extends javax.swing.tree.AbstractLayoutCache.NodeDimensions>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.tree.AbstractLayoutCache.NodeDimensions> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.tree.AbstractLayoutCache.NodeDimensions.class.isAssignableFrom(sut));
         }
@@ -112,7 +112,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.tree.AbstractLayoutCache> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.tree.AbstractLayoutCache.class.isAssignableFrom(sut));
     }

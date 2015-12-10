@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.AttributeChangeNotificationTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributeChangeNotificationClassTests<SUT extends Class<? extends javax.management.AttributeChangeNotification>>
+public abstract interface AttributeChangeNotificationClassTests<SUT extends javax.management.AttributeChangeNotification>
 extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
 
     /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.management.AttributeChangeNotification> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.management.AttributeChangeNotification.class.isAssignableFrom(sut));
     }

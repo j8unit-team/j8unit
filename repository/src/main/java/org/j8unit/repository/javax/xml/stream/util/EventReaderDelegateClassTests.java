@@ -27,14 +27,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateTests
  */
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EventReaderDelegateClassTests<SUT extends Class<? extends javax.xml.stream.util.EventReaderDelegate>>
+public abstract interface EventReaderDelegateClassTests<SUT extends javax.xml.stream.util.EventReaderDelegate>
 extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests, org.j8unit.repository.java.lang.ObjectClassTests {
 
     /**
@@ -71,14 +71,14 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests, org.j8u
     // because of the "rawtypes" nature of this test class (caused
     // by the "rawtypes" nature of the class-under-test).
     @Override
-    public abstract SUT createNewSUT();
+    public abstract Class<SUT> createNewSUT();
 
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.stream.util.EventReaderDelegate> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.xml.stream.util.EventReaderDelegate.class.isAssignableFrom(sut));
     }

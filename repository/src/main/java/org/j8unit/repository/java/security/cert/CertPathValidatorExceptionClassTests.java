@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CertPathValidatorExceptionClassTests<SUT extends Class<? extends java.security.cert.CertPathValidatorException>>
+public abstract interface CertPathValidatorExceptionClassTests<SUT extends java.security.cert.CertPathValidatorException>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicReasonClassTests<SUT extends Class<? extends java.security.cert.CertPathValidatorException.BasicReason>>
+    public static abstract interface BasicReasonClassTests<SUT extends java.security.cert.CertPathValidatorException.BasicReason>
     extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>,
     org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.CertPathValidatorException.BasicReason> {
 
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         public default void test_valueOf_String()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         public default void test_values()
         throws Exception {
             // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
+            final Class<SUT> sut = this.createNewSUT();
             assert sut != null;
         }
 
@@ -107,7 +107,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.security.cert.CertPathValidatorException.BasicReason> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.security.cert.CertPathValidatorException.BasicReason.class.isAssignableFrom(sut));
         }
@@ -136,13 +136,13 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ReasonClassTests<SUT extends Class<? extends java.security.cert.CertPathValidatorException.Reason>>
+    public static abstract interface ReasonClassTests<SUT extends java.security.cert.CertPathValidatorException.Reason>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
 
         @Override
@@ -150,7 +150,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends java.security.cert.CertPathValidatorException.Reason> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(java.security.cert.CertPathValidatorException.Reason.class.isAssignableFrom(sut));
         }
@@ -259,7 +259,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.security.cert.CertPathValidatorException> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.security.cert.CertPathValidatorException.class.isAssignableFrom(sut));
     }

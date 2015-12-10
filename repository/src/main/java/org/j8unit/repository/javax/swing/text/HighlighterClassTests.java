@@ -26,14 +26,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.HighlighterTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HighlighterClassTests<SUT extends Class<? extends javax.swing.text.Highlighter>>
-extends J8UnitTest<SUT> {
+public abstract interface HighlighterClassTests<SUT extends javax.swing.text.Highlighter>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -56,20 +56,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HighlightClassTests<SUT extends Class<? extends javax.swing.text.Highlighter.Highlight>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface HighlightClassTests<SUT extends javax.swing.text.Highlighter.Highlight>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.Highlighter.Highlight> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.Highlighter.Highlight.class.isAssignableFrom(sut));
         }
@@ -98,20 +98,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightPainterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HighlightPainterClassTests<SUT extends Class<? extends javax.swing.text.Highlighter.HighlightPainter>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface HighlightPainterClassTests<SUT extends javax.swing.text.Highlighter.HighlightPainter>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.Highlighter.HighlightPainter> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.Highlighter.HighlightPainter.class.isAssignableFrom(sut));
         }
@@ -122,7 +122,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.Highlighter> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.Highlighter.class.isAssignableFrom(sut));
     }

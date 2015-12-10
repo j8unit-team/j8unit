@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.StyleSheetTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StyleSheetClassTests<SUT extends Class<? extends javax.swing.text.html.StyleSheet>>
+public abstract interface StyleSheetClassTests<SUT extends javax.swing.text.html.StyleSheet>
 extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
 
     /**
@@ -58,13 +58,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BoxPainterClassTests<SUT extends Class<? extends javax.swing.text.html.StyleSheet.BoxPainter>>
+    public static abstract interface BoxPainterClassTests<SUT extends javax.swing.text.html.StyleSheet.BoxPainter>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -72,7 +72,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.StyleSheet.BoxPainter> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.StyleSheet.BoxPainter.class.isAssignableFrom(sut));
         }
@@ -101,13 +101,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListPainterClassTests<SUT extends Class<? extends javax.swing.text.html.StyleSheet.ListPainter>>
+    public static abstract interface ListPainterClassTests<SUT extends javax.swing.text.html.StyleSheet.ListPainter>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -115,7 +115,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.text.html.StyleSheet.ListPainter> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.StyleSheet.ListPainter.class.isAssignableFrom(sut));
         }
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
     public default void test_getIndexOfSize_float()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -156,7 +156,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.text.html.StyleSheet> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.text.html.StyleSheet.class.isAssignableFrom(sut));
     }

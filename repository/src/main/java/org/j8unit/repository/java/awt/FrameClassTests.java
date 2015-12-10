@@ -26,13 +26,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.FrameTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FrameClassTests<SUT extends Class<? extends java.awt.Frame>>
+public abstract interface FrameClassTests<SUT extends java.awt.Frame>
 extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     public default void test_getFrames()
     throws Exception {
         // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
+        final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -110,7 +110,7 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Frame> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.awt.Frame.class.isAssignableFrom(sut));
     }

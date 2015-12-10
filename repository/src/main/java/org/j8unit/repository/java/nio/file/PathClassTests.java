@@ -24,13 +24,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.PathTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PathClassTests<SUT extends Class<? extends java.nio.file.Path>>
+public abstract interface PathClassTests<SUT extends java.nio.file.Path>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.file.Path>,
 org.j8unit.repository.java.lang.IterableClassTests<SUT, java.nio.file.Path>, org.j8unit.repository.java.nio.file.WatchableClassTests<SUT> {
 
@@ -39,7 +39,7 @@ org.j8unit.repository.java.lang.IterableClassTests<SUT, java.nio.file.Path>, org
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.nio.file.Path> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.nio.file.Path.class.isAssignableFrom(sut));
     }

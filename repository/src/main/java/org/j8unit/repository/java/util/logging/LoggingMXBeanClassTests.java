@@ -26,20 +26,20 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.LoggingMXBeanTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LoggingMXBeanClassTests<SUT extends Class<? extends java.util.logging.LoggingMXBean>>
-extends J8UnitTest<SUT> {
+public abstract interface LoggingMXBeanClassTests<SUT extends java.util.logging.LoggingMXBean>
+extends J8UnitTest<Class<SUT>> {
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.util.logging.LoggingMXBean> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.logging.LoggingMXBean.class.isAssignableFrom(sut));
     }

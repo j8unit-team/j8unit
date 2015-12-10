@@ -27,13 +27,13 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.RuleBasedCollatorTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RuleBasedCollatorClassTests<SUT extends Class<? extends java.text.RuleBasedCollator>>
+public abstract interface RuleBasedCollatorClassTests<SUT extends java.text.RuleBasedCollator>
 extends org.j8unit.repository.java.text.CollatorClassTests<SUT> {
 
     /**
@@ -55,7 +55,7 @@ extends org.j8unit.repository.java.text.CollatorClassTests<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends java.text.RuleBasedCollator> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.text.RuleBasedCollator.class.isAssignableFrom(sut));
     }

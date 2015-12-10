@@ -26,14 +26,14 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * @param SUT
- *            the type of the subject-under-test
+ *            the class' type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.DocumentEventTests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentEventClassTests<SUT extends Class<? extends javax.swing.event.DocumentEvent>>
-extends J8UnitTest<SUT> {
+public abstract interface DocumentEventClassTests<SUT extends javax.swing.event.DocumentEvent>
+extends J8UnitTest<Class<SUT>> {
 
     /**
      * <p>
@@ -57,20 +57,20 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ElementChangeClassTests<SUT extends Class<? extends javax.swing.event.DocumentEvent.ElementChange>>
-    extends J8UnitTest<SUT> {
+    public static abstract interface ElementChangeClassTests<SUT extends javax.swing.event.DocumentEvent.ElementChange>
+    extends J8UnitTest<Class<SUT>> {
 
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.event.DocumentEvent.ElementChange> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.event.DocumentEvent.ElementChange.class.isAssignableFrom(sut));
         }
@@ -98,13 +98,13 @@ extends J8UnitTest<SUT> {
      * </p>
      *
      * @param SUT
-     *            the type of the subject-under-test
+     *            the class' type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.DocumentEventTests.EventTypeTests
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EventTypeClassTests<SUT extends Class<? extends javax.swing.event.DocumentEvent.EventType>>
+    public static abstract interface EventTypeClassTests<SUT extends javax.swing.event.DocumentEvent.EventType>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         @Override
@@ -112,7 +112,7 @@ extends J8UnitTest<SUT> {
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.event.DocumentEvent.EventType> sut = createNewSUT();
+            final Class<SUT> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.event.DocumentEvent.EventType.class.isAssignableFrom(sut));
         }
@@ -123,7 +123,7 @@ extends J8UnitTest<SUT> {
     public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.event.DocumentEvent> sut = createNewSUT();
+        final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.event.DocumentEvent.class.isAssignableFrom(sut));
     }
