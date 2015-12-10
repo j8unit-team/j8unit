@@ -2,7 +2,7 @@ package org.j8unit.repository.java.util;
 
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
-import static org.j8unit.util.TestDataUtil.testDataOfSingletons;
+import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.Collection;
 import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
@@ -21,7 +21,7 @@ implements UnmodifiableCollectionTests<Collection<String>, String> {
 
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> data() {
-        return testDataOfSingletons(emptyList(), singletonList("single-element"));
+        return testParametersOf(emptyList(), singletonList("single-element"));
     }
 
     @Parameter(0)
