@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.awt;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.java.awt.JobAttributesTests<java.awt.JobAttribu
 
         @Override
         public java.awt.JobAttributes.DefaultSelectionType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.JobAttributes.DefaultSelectionType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.JobAttributes.DefaultSelectionType] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.java.awt.JobAttributesTests<java.awt.JobAttribu
 
         @Override
         public java.awt.JobAttributes.DestinationType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.JobAttributes.DestinationType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.JobAttributes.DestinationType] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.java.awt.JobAttributesTests<java.awt.JobAttribu
 
         @Override
         public java.awt.JobAttributes.DialogType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.JobAttributes.DialogType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.JobAttributes.DialogType] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.java.awt.JobAttributesTests<java.awt.JobAttribu
 
         @Override
         public java.awt.JobAttributes.MultipleDocumentHandlingType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.JobAttributes.MultipleDocumentHandlingType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.JobAttributes.MultipleDocumentHandlingType] available.");
         }
 
     }
@@ -57,7 +58,7 @@ implements org.j8unit.repository.java.awt.JobAttributesTests<java.awt.JobAttribu
 
         @Override
         public java.awt.JobAttributes.SidesType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.JobAttributes.SidesType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.JobAttributes.SidesType] available.");
         }
 
     }

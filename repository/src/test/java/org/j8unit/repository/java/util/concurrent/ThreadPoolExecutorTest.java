@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -55,7 +56,7 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<ja
 
     @Override
     public java.util.concurrent.ThreadPoolExecutor createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.util.concurrent.ThreadPoolExecutor] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.ThreadPoolExecutor] available.");
     }
 
 }

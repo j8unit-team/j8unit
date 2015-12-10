@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
 
         @Override
         public javax.print.attribute.standard.MediaSize.Engineering createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.MediaSize.Engineering] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.Engineering] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
 
         @Override
         public javax.print.attribute.standard.MediaSize.ISO createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.MediaSize.ISO] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.ISO] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
 
         @Override
         public javax.print.attribute.standard.MediaSize.JIS createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.MediaSize.JIS] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.JIS] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
 
         @Override
         public javax.print.attribute.standard.MediaSize.NA createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.MediaSize.NA] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.NA] available.");
         }
 
     }
@@ -57,14 +58,14 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
 
         @Override
         public javax.print.attribute.standard.MediaSize.Other createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.MediaSize.Other] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.Other] available.");
         }
 
     }
 
     @Override
     public javax.print.attribute.standard.MediaSize createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.MediaSize] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize] available.");
     }
 
 }

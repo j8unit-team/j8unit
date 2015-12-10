@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<jav
 
         @Override
         public javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit] available.");
         }
 
     }
@@ -25,7 +26,7 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<jav
 
         @Override
         public javax.swing.text.DefaultStyledDocument.ElementBuffer createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.DefaultStyledDocument.ElementBuffer] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.DefaultStyledDocument.ElementBuffer] available.");
         }
 
     }
@@ -36,7 +37,7 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<jav
 
         @Override
         public javax.swing.text.DefaultStyledDocument.ElementSpec createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.DefaultStyledDocument.ElementSpec] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.DefaultStyledDocument.ElementSpec] available.");
         }
 
     }

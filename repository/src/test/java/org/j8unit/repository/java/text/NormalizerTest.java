@@ -4,6 +4,7 @@ import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -35,7 +36,7 @@ implements org.j8unit.repository.java.text.NormalizerTests<java.text.Normalizer>
 
     @Override
     public java.text.Normalizer createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.text.Normalizer] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.text.Normalizer] available.");
     }
 
 }

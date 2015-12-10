@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager] available.");
         }
 
     }
@@ -26,7 +27,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager] available.");
         }
 
     }
@@ -37,7 +38,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler] available.");
         }
 
     }
@@ -49,7 +50,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler] available.");
         }
 
     }
@@ -61,7 +62,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler] available.");
         }
 
     }
@@ -73,7 +74,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler] available.");
         }
 
     }
@@ -85,7 +86,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler] available.");
         }
 
     }
@@ -97,7 +98,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler] available.");
         }
 
     }
@@ -109,7 +110,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<ja
 
         @Override
         public javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler] available.");
         }
 
     }

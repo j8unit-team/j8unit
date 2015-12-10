@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler] available.");
         }
 
     }
@@ -25,14 +26,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboPopup.ListDataHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup.ListDataHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup.ListDataHandler] available.");
         }
 
     }
 
     @Override
     public javax.swing.plaf.basic.BasicComboPopup createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup] available.");
     }
 
 }

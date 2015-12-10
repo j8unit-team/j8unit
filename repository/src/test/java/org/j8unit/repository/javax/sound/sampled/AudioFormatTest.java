@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.sound.sampled;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,14 +14,14 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatTests<javax.soun
 
         @Override
         public javax.sound.sampled.AudioFormat.Encoding createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.sound.sampled.AudioFormat.Encoding] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.sound.sampled.AudioFormat.Encoding] available.");
         }
 
     }
 
     @Override
     public javax.sound.sampled.AudioFormat createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.sound.sampled.AudioFormat] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.sound.sampled.AudioFormat] available.");
     }
 
 }

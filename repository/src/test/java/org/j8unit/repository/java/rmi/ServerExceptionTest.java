@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.rmi;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.rmi.ServerExceptionTests<java.rmi.ServerEx
 
     @Override
     public java.rmi.ServerException createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.rmi.ServerException] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.rmi.ServerException] available.");
     }
 
 }

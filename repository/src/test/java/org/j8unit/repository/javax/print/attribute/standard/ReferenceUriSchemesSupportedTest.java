@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.ReferenceUriSche
 
     @Override
     public javax.print.attribute.standard.ReferenceUriSchemesSupported createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.print.attribute.standard.ReferenceUriSchemesSupported] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.ReferenceUriSchemesSupported] available.");
     }
 
 }

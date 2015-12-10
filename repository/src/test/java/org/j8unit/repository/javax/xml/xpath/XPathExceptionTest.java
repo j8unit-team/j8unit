@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.xml.xpath;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExceptionTests<javax.xml.x
 
     @Override
     public javax.xml.xpath.XPathException createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.xml.xpath.XPathException] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.xpath.XPathException] available.");
     }
 
 }

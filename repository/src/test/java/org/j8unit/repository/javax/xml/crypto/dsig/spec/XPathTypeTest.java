@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,14 +14,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests<javax
 
         @Override
         public javax.xml.crypto.dsig.spec.XPathType.Filter createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.xml.crypto.dsig.spec.XPathType.Filter] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.xml.crypto.dsig.spec.XPathType.Filter] available.");
         }
 
     }
 
     @Override
     public javax.xml.crypto.dsig.spec.XPathType createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.xml.crypto.dsig.spec.XPathType] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.crypto.dsig.spec.XPathType] available.");
     }
 
 }

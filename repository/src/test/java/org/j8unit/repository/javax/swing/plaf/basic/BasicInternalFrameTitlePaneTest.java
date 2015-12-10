@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction] available.");
         }
 
     }
@@ -26,7 +27,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction] available.");
         }
 
     }
@@ -38,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction] available.");
         }
 
     }
@@ -50,7 +51,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction] available.");
         }
 
     }
@@ -62,7 +63,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler] available.");
         }
 
     }
@@ -74,7 +75,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction] available.");
         }
 
     }
@@ -86,7 +87,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction] available.");
         }
 
     }
@@ -98,7 +99,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar] available.");
         }
 
     }
@@ -110,14 +111,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout] available.");
         }
 
     }
 
     @Override
     public javax.swing.plaf.basic.BasicInternalFrameTitlePane createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameTitlePane] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.ButtonBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.ButtonBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.ButtonBorder] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.FieldBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.FieldBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.FieldBorder] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.MenuBarBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.MenuBarBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.MenuBarBorder] available.");
         }
 
     }
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.RadioButtonBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.RadioButtonBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.RadioButtonBorder] available.");
         }
 
     }
@@ -69,7 +70,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder] available.");
         }
 
     }
@@ -80,7 +81,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.SplitPaneBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.SplitPaneBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.SplitPaneBorder] available.");
         }
 
     }
@@ -91,7 +92,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder] available.");
         }
 
     }

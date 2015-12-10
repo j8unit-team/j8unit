@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.rmi;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.rmi.MarshalExceptionTests<java.rmi.Marshal
 
     @Override
     public java.rmi.MarshalException createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.rmi.MarshalException] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.rmi.MarshalException] available.");
     }
 
 }

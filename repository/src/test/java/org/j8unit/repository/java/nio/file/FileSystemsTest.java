@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.nio.file;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.nio.file.FileSystemsTests<java.nio.file.Fi
 
     @Override
     public java.nio.file.FileSystems createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.nio.file.FileSystems] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.nio.file.FileSystems] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITest
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout] available.");
         }
 
     }
@@ -26,14 +27,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITest
 
         @Override
         public javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener] available.");
         }
 
     }
 
     @Override
     public javax.swing.plaf.basic.BasicInternalFrameUI createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI] available.");
     }
 
 }

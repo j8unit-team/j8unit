@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicStampedRefere
 
     @Override
     public java.util.concurrent.atomic.AtomicStampedReference<V> createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.util.concurrent.atomic.AtomicStampedReference] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.atomic.AtomicStampedReference] available.");
     }
 
 }

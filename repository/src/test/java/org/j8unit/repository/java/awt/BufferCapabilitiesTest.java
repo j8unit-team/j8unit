@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.awt;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,14 +14,14 @@ implements org.j8unit.repository.java.awt.BufferCapabilitiesTests<java.awt.Buffe
 
         @Override
         public java.awt.BufferCapabilities.FlipContents createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.BufferCapabilities.FlipContents] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.BufferCapabilities.FlipContents] available.");
         }
 
     }
 
     @Override
     public java.awt.BufferCapabilities createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.awt.BufferCapabilities] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.BufferCapabilities] available.");
     }
 
 }

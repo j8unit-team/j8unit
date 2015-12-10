@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.event;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.swing.event.InternalFrameEventTests<javax
 
     @Override
     public javax.swing.event.InternalFrameEvent createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.event.InternalFrameEvent] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.event.InternalFrameEvent] available.");
     }
 
 }

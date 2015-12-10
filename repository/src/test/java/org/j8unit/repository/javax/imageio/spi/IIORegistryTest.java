@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.imageio.spi;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.imageio.spi.IIORegistryTests<javax.imagei
 
     @Override
     public javax.imageio.spi.IIORegistry createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.imageio.spi.IIORegistry] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.imageio.spi.IIORegistry] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener] available.");
         }
 
     }
@@ -26,7 +27,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout] available.");
         }
 
     }
@@ -38,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler] available.");
         }
 
     }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.util;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.java.util.Base64Tests<java.util.Base64> {
 
         @Override
         public java.util.Base64.Decoder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.util.Base64.Decoder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.util.Base64.Decoder] available.");
         }
 
     }
@@ -24,14 +25,14 @@ implements org.j8unit.repository.java.util.Base64Tests<java.util.Base64> {
 
         @Override
         public java.util.Base64.Encoder createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.util.Base64.Encoder] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.util.Base64.Encoder] available.");
         }
 
     }
 
     @Override
     public java.util.Base64 createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.util.Base64] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.util.Base64] available.");
     }
 
 }

@@ -57,6 +57,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.j8unit.util.TestParametersUtil;
+import org.junit.AssumptionViolatedException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -661,7 +662,8 @@ public class Generator {
             sb.append(indent + SPACE + "try {" + NL);
             sb.append(indent + SPACE + SPACE + "return new " + className + "();" + NL);
             sb.append(indent + SPACE + "} catch (final Exception cause) {" + NL);
-            sb.append(indent + SPACE + SPACE + "throw new AssertionError(\"Failed to create new subject-under-test instance!\", cause);" + NL);
+            sb.append(indent + SPACE + SPACE + "throw new " + AssertionError.class.getSimpleName()
+                      + "(\"Failed to create new subject-under-test instance!\", cause);" + NL);
             sb.append(indent + SPACE + "}" + NL);
             sb.append(NL);
             sb.append(indent + "}" + NL);
@@ -685,7 +687,8 @@ public class Generator {
             sb.append(NL);
             sb.append(indent + SPACE + "@Override" + NL);
             sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
-            sb.append(indent + SPACE + SPACE + "throw new AssertionError(\"There is no default constructor for [" + className + "] available.\");" + NL);
+            sb.append(indent + SPACE + SPACE + "throw new " + AssumptionViolatedException.class.getSimpleName() + "(\"There is no default constructor for ["
+                      + className + "] available.\");" + NL);
             sb.append(indent + SPACE + "}" + NL);
             sb.append(NL);
             // collect sub-classes

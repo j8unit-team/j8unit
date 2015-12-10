@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CosNaming;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeTests<org.omg.CosN
 
     @Override
     public org.omg.CosNaming.BindingType createNewSUT() {
-        throw new AssertionError("There is no default constructor for [org.omg.CosNaming.BindingType] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [org.omg.CosNaming.BindingType] available.");
     }
 
 }

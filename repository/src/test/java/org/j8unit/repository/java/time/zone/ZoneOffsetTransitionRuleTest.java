@@ -4,6 +4,7 @@ import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -35,7 +36,7 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests<ja
 
     @Override
     public java.time.zone.ZoneOffsetTransitionRule createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.time.zone.ZoneOffsetTransitionRule] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.time.zone.ZoneOffsetTransitionRule] available.");
     }
 
 }

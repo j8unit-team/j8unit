@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<javax.swing.
 
         @Override
         public javax.swing.text.AsyncBoxView.ChildLocator createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.AsyncBoxView.ChildLocator] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.AsyncBoxView.ChildLocator] available.");
         }
 
     }
@@ -24,14 +25,14 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<javax.swing.
 
         @Override
         public javax.swing.text.AsyncBoxView.ChildState createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.AsyncBoxView.ChildState] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.AsyncBoxView.ChildState] available.");
         }
 
     }
 
     @Override
     public javax.swing.text.AsyncBoxView createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.text.AsyncBoxView] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.AsyncBoxView] available.");
     }
 
 }

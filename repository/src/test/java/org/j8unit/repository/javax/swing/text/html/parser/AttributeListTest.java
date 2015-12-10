@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.swing.text.html.parser.AttributeListTests
 
     @Override
     public javax.swing.text.html.parser.AttributeList createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.text.html.parser.AttributeList] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.parser.AttributeList] available.");
     }
 
 }

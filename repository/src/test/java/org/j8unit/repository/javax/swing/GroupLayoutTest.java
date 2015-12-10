@@ -4,6 +4,7 @@ import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -39,7 +40,7 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<javax.swing.GroupL
 
         @Override
         public javax.swing.GroupLayout.ParallelGroup createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.GroupLayout.ParallelGroup] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout.ParallelGroup] available.");
         }
 
     }
@@ -50,14 +51,14 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<javax.swing.GroupL
 
         @Override
         public javax.swing.GroupLayout.SequentialGroup createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.GroupLayout.SequentialGroup] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout.SequentialGroup] available.");
         }
 
     }
 
     @Override
     public javax.swing.GroupLayout createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.GroupLayout] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout] available.");
     }
 
 }

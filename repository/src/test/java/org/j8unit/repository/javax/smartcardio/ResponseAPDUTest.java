@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.smartcardio;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.smartcardio.ResponseAPDUTests<javax.smart
 
     @Override
     public javax.smartcardio.ResponseAPDU createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.smartcardio.ResponseAPDU] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.smartcardio.ResponseAPDU] available.");
     }
 
 }

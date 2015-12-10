@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.xml.transform.stax;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXSourceTests<javax.
 
     @Override
     public javax.xml.transform.stax.StAXSource createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.xml.transform.stax.StAXSource] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.transform.stax.StAXSource] available.");
     }
 
 }

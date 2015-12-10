@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager] available.");
         }
 
     }
@@ -25,7 +26,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup] available.");
         }
 
     }
@@ -37,7 +38,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener] available.");
         }
 
     }

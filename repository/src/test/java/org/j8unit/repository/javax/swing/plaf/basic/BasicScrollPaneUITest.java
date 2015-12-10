@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener] available.");
         }
 
     }
@@ -26,7 +27,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler] available.");
         }
 
     }
@@ -38,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler] available.");
         }
 
     }
@@ -50,7 +51,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<j
 
         @Override
         public javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener] available.");
         }
 
     }

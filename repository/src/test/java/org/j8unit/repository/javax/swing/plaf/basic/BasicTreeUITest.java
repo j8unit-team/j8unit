@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.ComponentHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.ComponentHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.ComponentHandler] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.FocusHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.FocusHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.FocusHandler] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.KeyHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.KeyHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.KeyHandler] available.");
         }
 
     }
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.MouseHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.MouseHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.MouseHandler] available.");
         }
 
     }
@@ -68,7 +69,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler] available.");
         }
 
     }
@@ -80,7 +81,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler] available.");
         }
 
     }
@@ -92,7 +93,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler] available.");
         }
 
     }
@@ -104,7 +105,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler] available.");
         }
 
     }
@@ -116,7 +117,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction] available.");
         }
 
     }
@@ -128,7 +129,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler] available.");
         }
 
     }
@@ -139,7 +140,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction] available.");
         }
 
     }
@@ -150,7 +151,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction] available.");
         }
 
     }
@@ -161,7 +162,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler] available.");
         }
 
     }
@@ -172,7 +173,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreePageAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreePageAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreePageAction] available.");
         }
 
     }
@@ -184,7 +185,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler] available.");
         }
 
     }
@@ -195,7 +196,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction] available.");
         }
 
     }
@@ -206,7 +207,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction] available.");
         }
 
     }

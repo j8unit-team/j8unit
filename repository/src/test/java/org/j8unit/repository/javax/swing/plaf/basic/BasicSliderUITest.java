@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.ActionScroller createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ActionScroller] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ActionScroller] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.ChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ChangeHandler] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.ComponentHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ComponentHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ComponentHandler] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.FocusHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.FocusHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.FocusHandler] available.");
         }
 
     }
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler] available.");
         }
 
     }
@@ -69,7 +70,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.ScrollListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ScrollListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ScrollListener] available.");
         }
 
     }
@@ -80,14 +81,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
 
         @Override
         public javax.swing.plaf.basic.BasicSliderUI.TrackListener createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.TrackListener] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.TrackListener] available.");
         }
 
     }
 
     @Override
     public javax.swing.plaf.basic.BasicSliderUI createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.util;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<java.util.Spliterat
 
     @Override
     public java.util.Spliterators createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.util.Spliterators] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.util.Spliterators] available.");
     }
 
 }

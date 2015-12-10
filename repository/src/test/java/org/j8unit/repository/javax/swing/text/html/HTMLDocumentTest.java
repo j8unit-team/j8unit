@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text.html;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
         @Override
         public javax.swing.text.html.HTMLDocument.BlockElement createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.BlockElement] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.BlockElement] available.");
         }
 
     }
@@ -29,7 +30,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction] available.");
             }
 
         }
@@ -41,7 +42,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction] available.");
             }
 
         }
@@ -53,7 +54,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.FormAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.FormAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.FormAction] available.");
             }
 
         }
@@ -65,7 +66,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction] available.");
             }
 
         }
@@ -77,7 +78,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction] available.");
             }
 
         }
@@ -89,7 +90,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction] available.");
             }
 
         }
@@ -101,7 +102,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.PreAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.PreAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.PreAction] available.");
             }
 
         }
@@ -113,7 +114,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction] available.");
             }
 
         }
@@ -125,14 +126,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.TagAction createNewSUT() {
-                throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.TagAction] available.");
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.TagAction] available.");
             }
 
         }
 
         @Override
         public javax.swing.text.html.HTMLDocument.HTMLReader createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader] available.");
         }
 
     }
@@ -143,7 +144,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
         @Override
         public javax.swing.text.html.HTMLDocument.RunElement createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.html.HTMLDocument.RunElement] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.RunElement] available.");
         }
 
     }

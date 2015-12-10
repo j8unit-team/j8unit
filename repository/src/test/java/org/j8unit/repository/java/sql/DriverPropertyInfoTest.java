@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.sql;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.sql.DriverPropertyInfoTests<java.sql.Drive
 
     @Override
     public java.sql.DriverPropertyInfo createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.sql.DriverPropertyInfo] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.sql.DriverPropertyInfo] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.print;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.BYTE_ARRAY createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.BYTE_ARRAY] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.BYTE_ARRAY] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.CHAR_ARRAY createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.CHAR_ARRAY] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.CHAR_ARRAY] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.INPUT_STREAM createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.INPUT_STREAM] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.INPUT_STREAM] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.READER createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.READER] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.READER] available.");
         }
 
     }
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.SERVICE_FORMATTED createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.SERVICE_FORMATTED] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.SERVICE_FORMATTED] available.");
         }
 
     }
@@ -68,7 +69,7 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.STRING createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.STRING] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.STRING] available.");
         }
 
     }
@@ -79,14 +80,14 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<javax.print.DocFlavo
 
         @Override
         public javax.print.DocFlavor.URL createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.print.DocFlavor.URL] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor.URL] available.");
         }
 
     }
 
     @Override
     public javax.print.DocFlavor createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.print.DocFlavor] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.print.DocFlavor] available.");
     }
 
 }

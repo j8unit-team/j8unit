@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.TransferHandlerTests<javax.swing.Tr
 
         @Override
         public javax.swing.TransferHandler.DropLocation createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.TransferHandler.DropLocation] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler.DropLocation] available.");
         }
 
     }
@@ -24,14 +25,14 @@ implements org.j8unit.repository.javax.swing.TransferHandlerTests<javax.swing.Tr
 
         @Override
         public javax.swing.TransferHandler.TransferSupport createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.TransferHandler.TransferSupport] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler.TransferSupport] available.");
         }
 
     }
 
     @Override
     public javax.swing.TransferHandler createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.TransferHandler] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler] available.");
     }
 
 }

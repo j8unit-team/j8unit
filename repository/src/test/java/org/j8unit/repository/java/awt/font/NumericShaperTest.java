@@ -4,6 +4,7 @@ import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -35,7 +36,7 @@ implements org.j8unit.repository.java.awt.font.NumericShaperTests<java.awt.font.
 
     @Override
     public java.awt.font.NumericShaper createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.awt.font.NumericShaper] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.font.NumericShaper] available.");
     }
 
 }

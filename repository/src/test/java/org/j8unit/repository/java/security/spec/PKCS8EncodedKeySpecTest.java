@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.security.spec;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecTests<jav
 
     @Override
     public java.security.spec.PKCS8EncodedKeySpec createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.security.spec.PKCS8EncodedKeySpec] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.security.spec.PKCS8EncodedKeySpec] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,14 +14,14 @@ implements org.j8unit.repository.javax.swing.BoxTests<javax.swing.Box> {
 
         @Override
         public javax.swing.Box.Filler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.Box.Filler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.Box.Filler] available.");
         }
 
     }
 
     @Override
     public javax.swing.Box createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.Box] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.Box] available.");
     }
 
 }

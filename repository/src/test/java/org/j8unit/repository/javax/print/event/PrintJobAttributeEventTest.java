@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.print.event;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.print.event.PrintJobAttributeEventTests<j
 
     @Override
     public javax.print.event.PrintJobAttributeEvent createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.print.event.PrintJobAttributeEvent] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.print.event.PrintJobAttributeEvent] available.");
     }
 
 }

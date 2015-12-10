@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicTableUI.FocusHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.FocusHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.FocusHandler] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicTableUI.KeyHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.KeyHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.KeyHandler] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests<javax.
 
         @Override
         public javax.swing.plaf.basic.BasicTableUI.MouseInputHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.MouseInputHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.MouseInputHandler] available.");
         }
 
     }

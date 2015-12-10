@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager] available.");
         }
 
     }
@@ -25,7 +26,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler] available.");
         }
 
     }
@@ -36,7 +37,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler] available.");
         }
 
     }
@@ -47,7 +48,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler] available.");
         }
 
     }
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler] available.");
         }
 
     }
@@ -70,7 +71,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<jav
 
         @Override
         public javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler] available.");
         }
 
     }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.xml.datatype;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,14 +14,14 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<javax
 
         @Override
         public javax.xml.datatype.DatatypeConstants.Field createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.xml.datatype.DatatypeConstants.Field] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.xml.datatype.DatatypeConstants.Field] available.");
         }
 
     }
 
     @Override
     public javax.xml.datatype.DatatypeConstants createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.xml.datatype.DatatypeConstants] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.datatype.DatatypeConstants] available.");
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.xml.soap;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.xml.soap.MimeHeaderTests<javax.xml.soap.M
 
     @Override
     public javax.xml.soap.MimeHeader createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.xml.soap.MimeHeader] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.soap.MimeHeader] available.");
     }
 
 }

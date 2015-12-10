@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicListUI.FocusHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.FocusHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.FocusHandler] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicListUI.ListDataHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.ListDataHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.ListDataHandler] available.");
         }
 
     }
@@ -36,7 +37,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicListUI.ListSelectionHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.ListSelectionHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.ListSelectionHandler] available.");
         }
 
     }
@@ -47,7 +48,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicListUI.MouseInputHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.MouseInputHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.MouseInputHandler] available.");
         }
 
     }
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests<javax.s
 
         @Override
         public javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler] available.");
         }
 
     }

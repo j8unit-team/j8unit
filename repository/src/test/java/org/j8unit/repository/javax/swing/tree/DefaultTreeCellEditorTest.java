@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.tree;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<jav
 
         @Override
         public javax.swing.tree.DefaultTreeCellEditor.DefaultTextField createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor.DefaultTextField] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor.DefaultTextField] available.");
         }
 
     }
@@ -25,14 +26,14 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<jav
 
         @Override
         public javax.swing.tree.DefaultTreeCellEditor.EditorContainer createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor.EditorContainer] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor.EditorContainer] available.");
         }
 
     }
 
     @Override
     public javax.swing.tree.DefaultTreeCellEditor createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor] available.");
     }
 
 }

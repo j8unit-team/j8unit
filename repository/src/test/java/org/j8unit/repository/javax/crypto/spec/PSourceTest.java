@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.crypto.spec;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,14 +14,14 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceTests<javax.crypto.spe
 
         @Override
         public javax.crypto.spec.PSource.PSpecified createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.crypto.spec.PSource.PSpecified] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.crypto.spec.PSource.PSpecified] available.");
         }
 
     }
 
     @Override
     public javax.crypto.spec.PSource createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.crypto.spec.PSource] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.crypto.spec.PSource] available.");
     }
 
 }

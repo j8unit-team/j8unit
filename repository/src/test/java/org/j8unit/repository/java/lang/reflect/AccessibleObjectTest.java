@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.lang.reflect;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.java.lang.reflect.AccessibleObjectTests<java.la
 
     @Override
     public java.lang.reflect.AccessibleObject createNewSUT() {
-        throw new AssertionError("There is no default constructor for [java.lang.reflect.AccessibleObject] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [java.lang.reflect.AccessibleObject] available.");
     }
 
 }

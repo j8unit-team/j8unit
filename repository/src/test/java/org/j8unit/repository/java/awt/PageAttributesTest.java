@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.awt;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.java.awt.PageAttributesTests<java.awt.PageAttri
 
         @Override
         public java.awt.PageAttributes.ColorType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.PageAttributes.ColorType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.PageAttributes.ColorType] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.java.awt.PageAttributesTests<java.awt.PageAttri
 
         @Override
         public java.awt.PageAttributes.MediaType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.PageAttributes.MediaType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.PageAttributes.MediaType] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.java.awt.PageAttributesTests<java.awt.PageAttri
 
         @Override
         public java.awt.PageAttributes.OrientationRequestedType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.PageAttributes.OrientationRequestedType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.PageAttributes.OrientationRequestedType] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.java.awt.PageAttributesTests<java.awt.PageAttri
 
         @Override
         public java.awt.PageAttributes.OriginType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.PageAttributes.OriginType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.PageAttributes.OriginType] available.");
         }
 
     }
@@ -57,7 +58,7 @@ implements org.j8unit.repository.java.awt.PageAttributesTests<java.awt.PageAttri
 
         @Override
         public java.awt.PageAttributes.PrintQualityType createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.awt.PageAttributes.PrintQualityType] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.awt.PageAttributes.PrintQualityType] available.");
         }
 
     }

@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -9,7 +10,7 @@ implements org.j8unit.repository.javax.management.openmbean.TabularTypeTests<jav
 
     @Override
     public javax.management.openmbean.TabularType createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.management.openmbean.TabularType] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.management.openmbean.TabularType] available.");
     }
 
 }

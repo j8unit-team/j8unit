@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests<javax.swi
 
         @Override
         public javax.swing.text.StyledEditorKit.AlignmentAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyledEditorKit.AlignmentAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyledEditorKit.AlignmentAction] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests<javax.swi
 
         @Override
         public javax.swing.text.StyledEditorKit.FontFamilyAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyledEditorKit.FontFamilyAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyledEditorKit.FontFamilyAction] available.");
         }
 
     }
@@ -46,7 +47,7 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests<javax.swi
 
         @Override
         public javax.swing.text.StyledEditorKit.FontSizeAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyledEditorKit.FontSizeAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyledEditorKit.FontSizeAction] available.");
         }
 
     }
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests<javax.swi
 
         @Override
         public javax.swing.text.StyledEditorKit.ForegroundAction createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyledEditorKit.ForegroundAction] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyledEditorKit.ForegroundAction] available.");
         }
 
     }

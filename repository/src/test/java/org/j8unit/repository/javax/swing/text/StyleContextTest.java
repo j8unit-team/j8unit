@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.text.StyleContextTests<javax.swing.
 
         @Override
         public javax.swing.text.StyleContext.NamedStyle createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyleContext.NamedStyle] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleContext.NamedStyle] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.text.StyleContextTests<javax.swing.
 
         @Override
         public javax.swing.text.StyleContext.SmallAttributeSet createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyleContext.SmallAttributeSet] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleContext.SmallAttributeSet] available.");
         }
 
     }

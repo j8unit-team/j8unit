@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -13,7 +14,7 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<javax.swin
 
         @Override
         public javax.swing.text.StyleConstants.CharacterConstants createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyleConstants.CharacterConstants] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.CharacterConstants] available.");
         }
 
     }
@@ -24,7 +25,7 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<javax.swin
 
         @Override
         public javax.swing.text.StyleConstants.ColorConstants createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyleConstants.ColorConstants] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.ColorConstants] available.");
         }
 
     }
@@ -35,7 +36,7 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<javax.swin
 
         @Override
         public javax.swing.text.StyleConstants.FontConstants createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyleConstants.FontConstants] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.FontConstants] available.");
         }
 
     }
@@ -46,14 +47,14 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<javax.swin
 
         @Override
         public javax.swing.text.StyleConstants.ParagraphConstants createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.text.StyleConstants.ParagraphConstants] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.ParagraphConstants] available.");
         }
 
     }
 
     @Override
     public javax.swing.text.StyleConstants createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.text.StyleConstants] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants] available.");
     }
 
 }

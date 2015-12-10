@@ -1,6 +1,7 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
 
         @Override
         public java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock] available.");
         }
 
     }
@@ -26,7 +27,7 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
 
         @Override
         public java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock createNewSUT() {
-            throw new AssertionError("There is no default constructor for [java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock] available.");
         }
 
     }

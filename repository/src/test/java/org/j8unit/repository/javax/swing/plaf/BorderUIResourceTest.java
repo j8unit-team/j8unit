@@ -1,6 +1,7 @@
 package org.j8unit.repository.javax.swing.plaf;
 
 import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -14,7 +15,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<javax.sw
 
         @Override
         public javax.swing.plaf.BorderUIResource.BevelBorderUIResource createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource.BevelBorderUIResource] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource.BevelBorderUIResource] available.");
         }
 
     }
@@ -26,7 +27,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<javax.sw
 
         @Override
         public javax.swing.plaf.BorderUIResource.CompoundBorderUIResource createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource.CompoundBorderUIResource] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource.CompoundBorderUIResource] available.");
         }
 
     }
@@ -38,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<javax.sw
 
         @Override
         public javax.swing.plaf.BorderUIResource.EmptyBorderUIResource createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource.EmptyBorderUIResource] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource.EmptyBorderUIResource] available.");
         }
 
     }
@@ -61,7 +62,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<javax.sw
 
         @Override
         public javax.swing.plaf.BorderUIResource.LineBorderUIResource createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource.LineBorderUIResource] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource.LineBorderUIResource] available.");
         }
 
     }
@@ -73,7 +74,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<javax.sw
 
         @Override
         public javax.swing.plaf.BorderUIResource.MatteBorderUIResource createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource.MatteBorderUIResource] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource.MatteBorderUIResource] available.");
         }
 
     }
@@ -85,14 +86,14 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<javax.sw
 
         @Override
         public javax.swing.plaf.BorderUIResource.TitledBorderUIResource createNewSUT() {
-            throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource.TitledBorderUIResource] available.");
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource.TitledBorderUIResource] available.");
         }
 
     }
 
     @Override
     public javax.swing.plaf.BorderUIResource createNewSUT() {
-        throw new AssertionError("There is no default constructor for [javax.swing.plaf.BorderUIResource] available.");
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.BorderUIResource] available.");
     }
 
 }

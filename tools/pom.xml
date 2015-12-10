@@ -22,7 +22,6 @@
     <dependency>
       <groupId>org.j8unit</groupId>
       <artifactId>repository</artifactId>
-      <version>${version.j8unit.repository}</version>
     </dependency>
   </dependencies>
 
