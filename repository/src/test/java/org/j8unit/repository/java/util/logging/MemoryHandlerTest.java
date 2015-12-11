@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util.logging;
 
+import static org.junit.Assume.assumeTrue;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
@@ -9,6 +10,7 @@ implements org.j8unit.repository.java.util.logging.MemoryHandlerTests<java.util.
 
     @Override
     public java.util.logging.MemoryHandler createNewSUT() {
+        assumeTrue("Somebody needs to specify/setup a 'LogManager' at first.", false);
         return new java.util.logging.MemoryHandler();
     }
 
