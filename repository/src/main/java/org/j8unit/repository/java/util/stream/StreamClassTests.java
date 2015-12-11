@@ -62,7 +62,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.StreamTests.BuilderTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends java.util.stream.Stream.Builder>

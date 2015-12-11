@@ -64,7 +64,6 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeySetViewClassTests<SUT extends java.util.concurrent.ConcurrentHashMap.KeySetView>

@@ -9,7 +9,6 @@ public class StreamClassTest
 implements org.j8unit.repository.java.util.stream.StreamClassTests<java.util.stream.Stream> {
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.stream.StreamClassTests.BuilderClassTests<java.util.stream.Stream.Builder> {
 

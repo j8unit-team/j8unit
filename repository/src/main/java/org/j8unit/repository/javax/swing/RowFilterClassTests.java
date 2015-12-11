@@ -135,7 +135,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowFilterTests.EntryTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends javax.swing.RowFilter.Entry>

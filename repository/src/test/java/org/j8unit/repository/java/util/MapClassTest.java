@@ -9,7 +9,6 @@ public class MapClassTest
 implements org.j8unit.repository.java.util.MapClassTests<java.util.Map> {
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class EntryClassTest
     implements org.j8unit.repository.java.util.MapClassTests.EntryClassTests<java.util.Map.Entry> {
 

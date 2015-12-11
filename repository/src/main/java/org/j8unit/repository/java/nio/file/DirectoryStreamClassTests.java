@@ -61,7 +61,6 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.DirectoryStreamTests.FilterTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterClassTests<SUT extends java.nio.file.DirectoryStream.Filter>

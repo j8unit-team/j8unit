@@ -62,7 +62,6 @@ extends J8UnitTest<Class<SUT>> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.MapTests.EntryTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends java.util.Map.Entry>

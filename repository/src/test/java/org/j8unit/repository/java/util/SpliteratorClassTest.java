@@ -42,7 +42,6 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<java.util.Split
     }
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class OfPrimitiveClassTest
     implements org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<java.util.Spliterator.OfPrimitive> {
 

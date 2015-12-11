@@ -9,7 +9,6 @@ public class AbstractMapClassTest
 implements org.j8unit.repository.java.util.AbstractMapClassTests<java.util.AbstractMap> {
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class SimpleEntryClassTest
     implements org.j8unit.repository.java.util.AbstractMapClassTests.SimpleEntryClassTests<java.util.AbstractMap.SimpleEntry> {
 
@@ -21,7 +20,6 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<java.util.Abstr
     }
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class SimpleImmutableEntryClassTest
     implements org.j8unit.repository.java.util.AbstractMapClassTests.SimpleImmutableEntryClassTests<java.util.AbstractMap.SimpleImmutableEntry> {
 

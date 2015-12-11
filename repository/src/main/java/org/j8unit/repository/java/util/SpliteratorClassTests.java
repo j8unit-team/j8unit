@@ -187,7 +187,6 @@ extends J8UnitTest<Class<SUT>> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfPrimitiveClassTests<SUT extends java.util.Spliterator.OfPrimitive>

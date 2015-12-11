@@ -20,7 +20,6 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<javax.swing.Row
     }
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class EntryClassTest
     implements org.j8unit.repository.javax.swing.RowFilterClassTests.EntryClassTests<javax.swing.RowFilter.Entry> {
 

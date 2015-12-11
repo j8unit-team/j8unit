@@ -61,7 +61,6 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleEntryClassTests<SUT extends java.util.AbstractMap.SimpleEntry>
@@ -135,7 +134,6 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleImmutableEntryClassTests<SUT extends java.util.AbstractMap.SimpleImmutableEntry>

@@ -9,7 +9,6 @@ public class WatchEventClassTest
 implements org.j8unit.repository.java.nio.file.WatchEventClassTests<java.nio.file.WatchEvent> {
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class KindClassTest
     implements org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests<java.nio.file.WatchEvent.Kind> {
 

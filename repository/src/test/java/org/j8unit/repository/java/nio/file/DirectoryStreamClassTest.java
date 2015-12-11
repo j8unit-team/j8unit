@@ -9,7 +9,6 @@ public class DirectoryStreamClassTest
 implements org.j8unit.repository.java.nio.file.DirectoryStreamClassTests<java.nio.file.DirectoryStream> {
 
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
     public static class FilterClassTest
     implements org.j8unit.repository.java.nio.file.DirectoryStreamClassTests.FilterClassTests<java.nio.file.DirectoryStream.Filter> {
 
