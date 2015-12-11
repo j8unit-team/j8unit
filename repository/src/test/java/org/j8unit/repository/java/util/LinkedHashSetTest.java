@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.LinkedHashSetTests<java.util.LinkedHa
 
     @Override
     public java.util.LinkedHashSet<E> createNewSUT() {
-        return new java.util.LinkedHashSet();
+        return new java.util.LinkedHashSet<>();
     }
 
 }

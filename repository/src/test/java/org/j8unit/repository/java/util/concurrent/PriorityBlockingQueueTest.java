@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueTests
 
     @Override
     public java.util.concurrent.PriorityBlockingQueue<E> createNewSUT() {
-        return new java.util.concurrent.PriorityBlockingQueue();
+        return new java.util.concurrent.PriorityBlockingQueue<>();
     }
 
 }

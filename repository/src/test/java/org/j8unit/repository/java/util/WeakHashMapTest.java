@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.WeakHashMapTests<java.util.WeakHashMa
 
     @Override
     public java.util.WeakHashMap<K, V> createNewSUT() {
-        return new java.util.WeakHashMap();
+        return new java.util.WeakHashMap<>();
     }
 
 }

@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.xml.ws.HolderTests<javax.xml.ws.Holder<T>
 
     @Override
     public javax.xml.ws.Holder<T> createNewSUT() {
-        return new javax.xml.ws.Holder();
+        return new javax.xml.ws.Holder<>();
     }
 
 }

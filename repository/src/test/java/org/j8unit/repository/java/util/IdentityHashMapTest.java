@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.IdentityHashMapTests<java.util.Identi
 
     @Override
     public java.util.IdentityHashMap<K, V> createNewSUT() {
-        return new java.util.IdentityHashMap();
+        return new java.util.IdentityHashMap<>();
     }
 
 }

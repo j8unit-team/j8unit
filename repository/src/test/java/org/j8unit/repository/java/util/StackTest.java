@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.StackTests<java.util.Stack<E>, E> {
 
     @Override
     public java.util.Stack<E> createNewSUT() {
-        return new java.util.Stack();
+        return new java.util.Stack<>();
     }
 
 }

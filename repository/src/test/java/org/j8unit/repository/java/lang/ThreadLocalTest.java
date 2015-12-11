@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.lang.ThreadLocalTests<java.lang.ThreadLoca
 
     @Override
     public java.lang.ThreadLocal<T> createNewSUT() {
-        return new java.lang.ThreadLocal();
+        return new java.lang.ThreadLocal<>();
     }
 
 }

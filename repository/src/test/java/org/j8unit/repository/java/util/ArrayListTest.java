@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.ArrayListTests<java.util.ArrayList<E>
 
     @Override
     public java.util.ArrayList<E> createNewSUT() {
-        return new java.util.ArrayList();
+        return new java.util.ArrayList<>();
     }
 
 }

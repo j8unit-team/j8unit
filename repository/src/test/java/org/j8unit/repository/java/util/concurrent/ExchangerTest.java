@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.ExchangerTests<java.util.c
 
     @Override
     public java.util.concurrent.Exchanger<V> createNewSUT() {
-        return new java.util.concurrent.Exchanger();
+        return new java.util.concurrent.Exchanger<>();
     }
 
 }

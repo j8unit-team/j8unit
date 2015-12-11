@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.LinkedTransferQueueTests<j
 
     @Override
     public java.util.concurrent.LinkedTransferQueue<E> createNewSUT() {
-        return new java.util.concurrent.LinkedTransferQueue();
+        return new java.util.concurrent.LinkedTransferQueue<>();
     }
 
 }

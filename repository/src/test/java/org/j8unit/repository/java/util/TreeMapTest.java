@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.TreeMapTests<java.util.TreeMap<K, V>,
 
     @Override
     public java.util.TreeMap<K, V> createNewSUT() {
-        return new java.util.TreeMap();
+        return new java.util.TreeMap<>();
     }
 
 }

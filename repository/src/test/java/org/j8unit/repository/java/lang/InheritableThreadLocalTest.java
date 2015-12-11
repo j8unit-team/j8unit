@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.lang.InheritableThreadLocalTests<java.lang
 
     @Override
     public java.lang.InheritableThreadLocal<T> createNewSUT() {
-        return new java.lang.InheritableThreadLocal();
+        return new java.lang.InheritableThreadLocal<>();
     }
 
 }

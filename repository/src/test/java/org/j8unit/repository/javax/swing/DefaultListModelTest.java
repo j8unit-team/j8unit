@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.swing.DefaultListModelTests<javax.swing.D
 
     @Override
     public javax.swing.DefaultListModel<E> createNewSUT() {
-        return new javax.swing.DefaultListModel();
+        return new javax.swing.DefaultListModel<>();
     }
 
 }

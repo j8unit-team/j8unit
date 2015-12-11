@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JListTests<javax.swing.JList<E>, E>
 
     @Override
     public javax.swing.JList<E> createNewSUT() {
-        return new javax.swing.JList();
+        return new javax.swing.JList<>();
     }
 
 }

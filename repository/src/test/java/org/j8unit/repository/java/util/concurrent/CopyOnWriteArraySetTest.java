@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.CopyOnWriteArraySetTests<j
 
     @Override
     public java.util.concurrent.CopyOnWriteArraySet<E> createNewSUT() {
-        return new java.util.concurrent.CopyOnWriteArraySet();
+        return new java.util.concurrent.CopyOnWriteArraySet<>();
     }
 
 }

@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.swing.plaf.LayerUITests<javax.swing.plaf.
 
     @Override
     public javax.swing.plaf.LayerUI<V> createNewSUT() {
-        return new javax.swing.plaf.LayerUI();
+        return new javax.swing.plaf.LayerUI<>();
     }
 
 }

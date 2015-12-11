@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests<jav
 
     @Override
     public java.util.concurrent.ConcurrentHashMap<K, V> createNewSUT() {
-        return new java.util.concurrent.ConcurrentHashMap();
+        return new java.util.concurrent.ConcurrentHashMap<>();
     }
 
 }

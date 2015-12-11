@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureTests<jav
 
     @Override
     public java.util.concurrent.CompletableFuture<T> createNewSUT() {
-        return new java.util.concurrent.CompletableFuture();
+        return new java.util.concurrent.CompletableFuture<>();
     }
 
 }

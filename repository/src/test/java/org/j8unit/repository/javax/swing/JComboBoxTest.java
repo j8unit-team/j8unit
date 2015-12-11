@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.swing.JComboBoxTests<javax.swing.JComboBo
 
     @Override
     public javax.swing.JComboBox<E> createNewSUT() {
-        return new javax.swing.JComboBox();
+        return new javax.swing.JComboBox<>();
     }
 
 }

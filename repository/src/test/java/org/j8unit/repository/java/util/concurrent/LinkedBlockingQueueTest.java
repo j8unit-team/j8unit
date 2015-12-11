@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueTests<j
 
     @Override
     public java.util.concurrent.LinkedBlockingQueue<E> createNewSUT() {
-        return new java.util.concurrent.LinkedBlockingQueue();
+        return new java.util.concurrent.LinkedBlockingQueue<>();
     }
 
 }

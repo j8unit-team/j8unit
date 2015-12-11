@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.SynchronousQueueTests<java
 
     @Override
     public java.util.concurrent.SynchronousQueue<E> createNewSUT() {
-        return new java.util.concurrent.SynchronousQueue();
+        return new java.util.concurrent.SynchronousQueue<>();
     }
 
 }

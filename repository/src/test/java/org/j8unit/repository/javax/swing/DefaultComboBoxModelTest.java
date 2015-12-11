@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.swing.DefaultComboBoxModelTests<javax.swi
 
     @Override
     public javax.swing.DefaultComboBoxModel<E> createNewSUT() {
-        return new javax.swing.DefaultComboBoxModel();
+        return new javax.swing.DefaultComboBoxModel<>();
     }
 
 }

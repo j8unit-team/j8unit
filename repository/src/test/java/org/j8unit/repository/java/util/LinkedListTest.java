@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.LinkedListTests<java.util.LinkedList<
 
     @Override
     public java.util.LinkedList<E> createNewSUT() {
-        return new java.util.LinkedList();
+        return new java.util.LinkedList<>();
     }
 
 }
