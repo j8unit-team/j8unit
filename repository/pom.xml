@@ -47,6 +47,7 @@
         <artifactId>build-helper-maven-plugin</artifactId>
         <executions>
           <execution>
+            <id>unmodifiable-source</id>
             <goals>
               <goal>add-source</goal>
             </goals>
@@ -57,6 +58,7 @@
             </configuration>
           </execution>
           <execution>
+            <id>unmodifiable-test-source</id>
             <goals>
               <goal>add-test-source</goal>
             </goals>
