@@ -310,7 +310,7 @@ public class Generator {
                 sb.append(indent + " * In addition, there may be assertions concerning the class itself." + NL);
                 sb.append(indent + " * For example, <a href=\"https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1\"><q>by" + NL);
                 sb.append(indent + " * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type" + NL);
-                sb.append(indent + " * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>" + NL);
+                sb.append(indent + " * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>)." + NL);
                 sb.append(indent + " * Thus, {@link " + this.setup.getTestClassName(Annotation.class, membership) + "}" + NL);
                 sb.append(indent + " * provides a corresponding, inheritable test method:" + NL);
                 sb.append(indent + " * {@link " + this.setup.getTestClassName(Annotation.class, membership) + "#hasNoCustomParametrizedMethod()}." + NL);
