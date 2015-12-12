@@ -1,28 +1,91 @@
 package org.j8unit.repository;
 
-import static org.junit.Assert.assertNull;
+import java.util.concurrent.Callable;
+import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
+import javax.accessibility.AccessibleStateSet;
+import javax.management.AttributeValueExp;
+import javax.management.StringValueExp;
+import javax.swing.DebugGraphics;
+import javax.swing.text.html.HTML;
+import javax.swing.text.html.parser.ContentModel;
+import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
+import org.j8unit.repository.javax.accessibility.AccessibleStateSetTests;
+import org.j8unit.repository.javax.management.AttributeValueExpTests;
+import org.j8unit.repository.javax.management.StringValueExpTests;
+import org.j8unit.repository.javax.swing.DebugGraphicsTests;
+import org.j8unit.repository.javax.swing.text.html.HTMLTests;
+import org.j8unit.repository.javax.swing.text.html.parser.ContentModelTests;
 import org.junit.Test;
 
 public class KnownJavaBugs {
 
-    @Test
+    public static @interface AnnotationWithLambdaField {
+
+        public static final Supplier<String> FOO = () -> "foo";
+
+        public static final UnaryOperator<String> BAR = s -> "bar";
+
+        public static final UnaryOperator<? extends String> BARR = s -> "barr";
+
+        public static final Callable<String> FOOBAR = () -> "foobar";
+
+        public String value() default "";
+
+    }
+
+    @Test(expected = AssertionError.class)
+    public void declaredMethodHasFormalParameters_AnnotationClassTests() {
+        final AnnotationClassTests<AnnotationWithLambdaField> awlf = () -> AnnotationWithLambdaField.class;
+        awlf.declaredMethodsCannotHaveFormalParameters();
+    }
+
+    @Test(expected = AssertionError.class)
+    public void declaredMethodHasThrowClause_AnnotationClassTests() {
+        final AnnotationClassTests<AnnotationWithLambdaField> awlf = () -> AnnotationWithLambdaField.class;
+        awlf.declaredMethodsCannotHaveThrowsClause();
+    }
+
+    @Test(expected = AssertionError.class)
+    public void toStringReturnsNull_AccessibleStateSet() {
+        final AccessibleStateSetTests<AccessibleStateSet> ass = AccessibleStateSet::new;
+        ass.toStringMustReturnNotNull();
+    }
+
+    @Test(expected = AssertionError.class)
     public void toStringReturnsNull_AttributeValueExp() {
-        assertNull(new javax.management.AttributeValueExp().toString());
+        final AttributeValueExpTests<AttributeValueExp> ave = AttributeValueExp::new;
+        ave.toStringMustReturnNotNull();
     }
 
-    @Test
+    @Test(expected = AssertionError.class)
+    public void toStringReturnsNull_HTML_Tag() {
+        final HTMLTests.TagTests<HTML.Tag> t = HTML.Tag::new;
+        t.toStringMustReturnNotNull();
+    }
+
+    @Test(expected = AssertionError.class)
     public void toStringReturnsNull2_AttributeValueExp() {
-        assertNull(new javax.management.AttributeValueExp(null).toString());
-    }
-
-    @Test(expected = NullPointerException.class)
-    public void toStringThrowsAnException_DebugGraphics() {
-        new javax.swing.DebugGraphics().toString();
+        final AttributeValueExpTests<AttributeValueExp> ave = () -> new AttributeValueExp(null);
+        ave.toStringMustReturnNotNull();
     }
 
     @Test(expected = NullPointerException.class)
     public void toStringThrowsAnException_ContentModel() {
-        new javax.swing.text.html.parser.ContentModel().toString();
+        final ContentModelTests<ContentModel> cm = ContentModel::new;
+        cm.toStringMustReturnNotNull();
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void toStringThrowsAnException_DebugGraphics() {
+        final DebugGraphicsTests<DebugGraphics> dg = DebugGraphics::new;
+        dg.toStringMustReturnNotNull();
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void toStringThrowsAnException_StringValueExp() {
+        final StringValueExpTests<StringValueExp> sve = StringValueExp::new;
+        sve.toStringMustReturnNotNull();
     }
 
 }

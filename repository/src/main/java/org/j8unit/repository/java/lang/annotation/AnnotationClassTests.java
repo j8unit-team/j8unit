@@ -1,6 +1,9 @@
 package org.j8unit.repository.java.lang.annotation;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Method;
+import java.lang.reflect.TypeVariable;
 import org.j8unit.J8UnitTest;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Test;
@@ -42,6 +45,63 @@ extends J8UnitTest<Class<SUT>> {
         final Class<SUT> sut = createNewSUT();
         // assert assignability
         assertTrue(java.lang.annotation.Annotation.class.isAssignableFrom(sut));
+    }
+
+    @Test
+    public default void declaredMethodsCannotHaveFormalParameters() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final Class<?>[] formals = method.getParameterTypes();
+                assert formals != null;
+                assertEquals(0, formals.length);
+            }
+        }
+    }
+
+    @Test
+    public default void declaredMethodsCannotHaveTypeParameters() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final TypeVariable<Method>[] types = method.getTypeParameters();
+                assert types != null;
+                assertEquals(0, types.length);
+            }
+        }
+    }
+
+    @Test
+    public default void declaredMethodsCannotHaveThrowsClause() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final Class<?>[] exceptions = method.getExceptionTypes();
+                assert exceptions != null;
+                assertEquals(0, exceptions.length);
+            }
+        }
     }
 
 }
