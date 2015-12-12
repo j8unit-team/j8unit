@@ -1,7 +1,9 @@
 package org.j8unit.repository.javax.swing.text.html;
 
+import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -26,6 +28,12 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLTests<javax.swing.tex
         @Override
         public javax.swing.text.html.HTML.Tag createNewSUT() {
             return new javax.swing.text.html.HTML.Tag();
+        }
+
+        @Category(JavaBug.class)
+        @Override
+        public void toStringMustReturnNotNull() {
+            HTMLTests.TagTests.super.toStringMustReturnNotNull();
         }
 
     }
