@@ -152,6 +152,16 @@ extends J8UnitTest<SUT> {
         assert sut != null;
     }
 
+    /**
+     * According to the general contract of {@link Object#toString()}, it
+     * <q>returns a string that "textually represents"</q> the object.
+     *
+     * Thus, there is absolutely no reason why {@code null} could be returned. Especially because even a {@code null}
+     * can be easily represented textually by {@link java.util.Objects#toString(Object)}.
+     *
+     * (And obviously, no however reached (problematic) inner state of an object is allowed to cause an exception while
+     * computing the textual representation. It instead should be represented accordingly.)
+     */
     @Test
     public default void toStringMustReturnNotNull() {
         final SUT sut = this.createNewSUT();
