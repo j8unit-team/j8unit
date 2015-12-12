@@ -5,7 +5,6 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
-@Category(JavaBug.class)
 @RunWith(J8Unit4.class)
 public class DebugGraphicsTest
 implements org.j8unit.repository.javax.swing.DebugGraphicsTests<javax.swing.DebugGraphics> {
@@ -13,6 +12,12 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsTests<javax.swing.Debu
     @Override
     public javax.swing.DebugGraphics createNewSUT() {
         return new javax.swing.DebugGraphics();
+    }
+
+    @Category(JavaBug.class)
+    @Override
+    public void toStringMustReturnNotNull() {
+        DebugGraphicsTests.super.toStringMustReturnNotNull();
     }
 
 }
