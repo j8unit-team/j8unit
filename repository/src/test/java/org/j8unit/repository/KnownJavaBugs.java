@@ -26,8 +26,6 @@ public class KnownJavaBugs {
 
         public static final UnaryOperator<String> BAR = s -> "bar";
 
-        public static final UnaryOperator<? extends String> BARR = s -> "barr";
-
         public static final Callable<String> FOOBAR = () -> "foobar";
 
         public String value() default "";
@@ -35,13 +33,13 @@ public class KnownJavaBugs {
     }
 
     @Test(expected = AssertionError.class)
-    public void declaredMethodHasFormalParameters_AnnotationClassTests() {
+    public void javaCompilerCrashesVirtueOfAnnotationByMethodWithFormalParameters_AnnotationClassTests() {
         final AnnotationClassTests<AnnotationWithLambdaField> awlf = () -> AnnotationWithLambdaField.class;
         awlf.declaredMethodsCannotHaveFormalParameters();
     }
 
     @Test(expected = AssertionError.class)
-    public void declaredMethodHasThrowClause_AnnotationClassTests() {
+    public void javaCompilerCrashesVirtueOfAnnotationByMethodWithThrowsClause_AnnotationClassTests() {
         final AnnotationClassTests<AnnotationWithLambdaField> awlf = () -> AnnotationWithLambdaField.class;
         awlf.declaredMethodsCannotHaveThrowsClause();
     }
