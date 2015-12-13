@@ -39,15 +39,6 @@ public abstract interface AnnotationClassTests<SUT extends java.lang.annotation.
 extends J8UnitTest<Class<SUT>> {
 
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.annotation.Annotation.class.isAssignableFrom(sut));
-    }
-
-    @Test
     public default void declaredMethodsCannotHaveFormalParameters() {
         final Class<SUT> sut = createNewSUT();
         assert sut != null;
@@ -62,6 +53,25 @@ extends J8UnitTest<Class<SUT>> {
                 final Class<?>[] formals = method.getParameterTypes();
                 assert formals != null;
                 assertEquals(0, formals.length);
+            }
+        }
+    }
+
+    @Test
+    public default void declaredMethodsCannotHaveThrowsClause() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final Class<?>[] exceptions = method.getExceptionTypes();
+                assert exceptions != null;
+                assertEquals(0, exceptions.length);
             }
         }
     }
@@ -86,22 +96,12 @@ extends J8UnitTest<Class<SUT>> {
     }
 
     @Test
-    public default void declaredMethodsCannotHaveThrowsClause() {
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
         final Class<SUT> sut = createNewSUT();
-        assert sut != null;
-        final Method[] methods = sut.getDeclaredMethods();
-        assert methods != null;
-        for (final Method method : methods) {
-            try {
-                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
-                assert origin != null;
-                continue;
-            } catch (final NoSuchMethodException ignore) {
-                final Class<?>[] exceptions = method.getExceptionTypes();
-                assert exceptions != null;
-                assertEquals(0, exceptions.length);
-            }
-        }
+        // assert assignability
+        assertTrue(java.lang.annotation.Annotation.class.isAssignableFrom(sut));
     }
 
 }
