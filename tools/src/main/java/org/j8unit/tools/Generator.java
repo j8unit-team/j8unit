@@ -657,7 +657,6 @@ implements GeneratorLogMessages {
             sb.append(indent + SPACE + SPACE + "throw new " + AssertionError.class.getSimpleName()
                       + "(\"Failed to create new subject-under-test instance!\", cause);" + NL);
             sb.append(indent + SPACE + "}" + NL);
-            sb.append(NL);
             sb.append(indent + "}" + NL);
             sb.append(NL);
             // collect sub-classes
