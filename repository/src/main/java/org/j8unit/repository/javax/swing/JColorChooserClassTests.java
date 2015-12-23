@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JColorChooser class javax.swing.JColorChooser}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JColorChooser class javax.swing.JColorChooser}, containing
+ * all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.JColorChooserTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.JColorChooserTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JColorChooserTests
+ *
+ * @j8unit.aim javax.swing.JColorChooser
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,7 +40,15 @@ public abstract interface JColorChooserClassTests<SUT extends javax.swing.JColor
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.swing.JColorChooser#JColorChooser() public javax.swing.JColorChooser()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.JColorChooser#JColorChooser()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -50,8 +61,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.JColorChooser#JColorChooser(java.awt.Color) public
      * javax.swing.JColorChooser(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.JColorChooser#JColorChooser(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,8 +83,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.JColorChooser#JColorChooser(javax.swing.colorchooser.ColorSelectionModel)
      * public javax.swing.JColorChooser(javax.swing.colorchooser.ColorSelectionModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.JColorChooser#JColorChooser(javax.swing.colorchooser.ColorSelectionModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,11 +108,18 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.JColorChooser#createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
+     * {@link javax.swing.JColorChooser#createDialog(java.awt.Component, java.lang.String, boolean, javax.swing.JColorChooser, java.awt.event.ActionListener, java.awt.event.ActionListener)
      * public static javax.swing.JDialog
      * javax.swing.JColorChooser.createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
      * throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JColorChooser#createDialog(java.awt.Component, java.lang.String, boolean,
+     *             javax.swing.JColorChooser, java.awt.event.ActionListener, java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,11 +133,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JColorChooser#showDialog(java.awt.Component,java.lang.String,java.awt.Color)
+     * Test method for {@link javax.swing.JColorChooser#showDialog(java.awt.Component, java.lang.String, java.awt.Color)
      * public static java.awt.Color
      * javax.swing.JColorChooser.showDialog(java.awt.Component,java.lang.String,java.awt.Color) throws
      * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JColorChooser#showDialog(java.awt.Component, java.lang.String, java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,6 +155,11 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.JColorChooser#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

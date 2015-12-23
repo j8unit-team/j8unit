@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.crypto.dom.DOMCryptoContext class javax.xml.crypto.dom.DOMCryptoContext}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dom.DOMCryptoContext class
+ * javax.xml.crypto.dom.DOMCryptoContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests
+ *
+ * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#get(java.lang.Object) public java.lang.Object
      * javax.xml.crypto.dom.DOMCryptoContext.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#get(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#getBaseURI() public java.lang.String
      * javax.xml.crypto.dom.DOMCryptoContext.getBaseURI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getBaseURI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#getDefaultNamespacePrefix() public java.lang.String
      * javax.xml.crypto.dom.DOMCryptoContext.getDefaultNamespacePrefix()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getDefaultNamespacePrefix()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#getElementById(java.lang.String) public
      * org.w3c.dom.Element javax.xml.crypto.dom.DOMCryptoContext.getElementById(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getElementById(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#getKeySelector() public javax.xml.crypto.KeySelector
      * javax.xml.crypto.dom.DOMCryptoContext.getKeySelector()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getKeySelector()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,9 +144,15 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.crypto.dom.DOMCryptoContext#getNamespacePrefix(java.lang.String,java.lang.String) public
+     * {@link javax.xml.crypto.dom.DOMCryptoContext#getNamespacePrefix(java.lang.String, java.lang.String) public
      * java.lang.String javax.xml.crypto.dom.DOMCryptoContext.getNamespacePrefix(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getNamespacePrefix(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +169,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#getProperty(java.lang.String) public
      * java.lang.Object javax.xml.crypto.dom.DOMCryptoContext.getProperty(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getProperty(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +192,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#getURIDereferencer() public
      * javax.xml.crypto.URIDereferencer javax.xml.crypto.dom.DOMCryptoContext.getURIDereferencer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#getURIDereferencer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +215,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#iterator() public java.util.Iterator
      * javax.xml.crypto.dom.DOMCryptoContext.iterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#iterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,9 +235,15 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#put(java.lang.Object,java.lang.Object) public
+     * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#put(java.lang.Object, java.lang.Object) public
      * java.lang.Object javax.xml.crypto.dom.DOMCryptoContext.put(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#put(java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,9 +259,15 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.crypto.dom.DOMCryptoContext#putNamespacePrefix(java.lang.String,java.lang.String) public
+     * {@link javax.xml.crypto.dom.DOMCryptoContext#putNamespacePrefix(java.lang.String, java.lang.String) public
      * java.lang.String javax.xml.crypto.dom.DOMCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#putNamespacePrefix(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,7 +284,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#setBaseURI(java.lang.String) public void
      * javax.xml.crypto.dom.DOMCryptoContext.setBaseURI(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#setBaseURI(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -230,7 +307,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#setDefaultNamespacePrefix(java.lang.String) public
      * void javax.xml.crypto.dom.DOMCryptoContext.setDefaultNamespacePrefix(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#setDefaultNamespacePrefix(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,10 +329,17 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.crypto.dom.DOMCryptoContext#setIdAttributeNS(org.w3c.dom.Element,java.lang.String,java.lang.String)
+     * {@link javax.xml.crypto.dom.DOMCryptoContext#setIdAttributeNS(org.w3c.dom.Element, java.lang.String, java.lang.String)
      * public void
      * javax.xml.crypto.dom.DOMCryptoContext.setIdAttributeNS(org.w3c.dom.Element,java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#setIdAttributeNS(org.w3c.dom.Element, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -265,7 +355,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#setKeySelector(javax.xml.crypto.KeySelector) public
      * void javax.xml.crypto.dom.DOMCryptoContext.setKeySelector(javax.xml.crypto.KeySelector)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#setKeySelector(javax.xml.crypto.KeySelector)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -280,9 +376,15 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#setProperty(java.lang.String,java.lang.Object)
+     * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#setProperty(java.lang.String, java.lang.Object)
      * public java.lang.Object javax.xml.crypto.dom.DOMCryptoContext.setProperty(java.lang.String,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#setProperty(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,7 +401,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
      * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer)
      * public void javax.xml.crypto.dom.DOMCryptoContext.setURIDereferencer(javax.xml.crypto.URIDereferencer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dom.DOMCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

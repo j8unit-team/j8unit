@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.lang.model.util.SimpleTypeVisitor6 class javax.lang.model.util.SimpleTypeVisitor6},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.lang.model.util.SimpleTypeVisitor6 class
+ * javax.lang.model.util.SimpleTypeVisitor6}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6ClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6ClassTests
+ *
+ * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,10 +30,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitArray(javax.lang.model.type.ArrayType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitArray(javax.lang.model.type.ArrayType, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitArray(javax.lang.model.type.ArrayType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitArray(javax.lang.model.type.ArrayType,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,10 +56,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitDeclared(javax.lang.model.type.DeclaredType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitDeclared(javax.lang.model.type.DeclaredType, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitDeclared(javax.lang.model.type.DeclaredType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitDeclared(javax.lang.model.type.DeclaredType,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,10 +82,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitError(javax.lang.model.type.ErrorType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitError(javax.lang.model.type.ErrorType, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitError(javax.lang.model.type.ErrorType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitError(javax.lang.model.type.ErrorType,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,10 +108,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitExecutable(javax.lang.model.type.ExecutableType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitExecutable(javax.lang.model.type.ExecutableType, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitExecutable(javax.lang.model.type.ExecutableType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitExecutable(javax.lang.model.type.ExecutableType,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -101,10 +134,16 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType,java.lang.Object) public
-     * java.lang.Object
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType, java.lang.Object)
+     * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitNoType(javax.lang.model.type.NoType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,10 +159,16 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNull(javax.lang.model.type.NullType,java.lang.Object) public
-     * java.lang.Object
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNull(javax.lang.model.type.NullType, java.lang.Object)
+     * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitNull(javax.lang.model.type.NullType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitNull(javax.lang.model.type.NullType, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,10 +184,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitPrimitive(javax.lang.model.type.PrimitiveType, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitPrimitive(javax.lang.model.type.PrimitiveType,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,10 +210,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitTypeVariable(javax.lang.model.type.TypeVariable,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitTypeVariable(javax.lang.model.type.TypeVariable, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitTypeVariable(javax.lang.model.type.TypeVariable,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitTypeVariable(javax.lang.model.type.TypeVariable,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -177,10 +236,17 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitWildcard(javax.lang.model.type.WildcardType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitWildcard(javax.lang.model.type.WildcardType, java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.SimpleTypeVisitor6.visitWildcard(javax.lang.model.type.WildcardType,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.lang.model.util.SimpleTypeVisitor6#visitWildcard(javax.lang.model.type.WildcardType,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class HyperlinkEventClassTest
 implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<javax.swing.event.HyperlinkEvent> {
 
+    @Override
+    public Class<javax.swing.event.HyperlinkEvent> createNewSUT() {
+        return javax.swing.event.HyperlinkEvent.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class EventTypeClassTest
     implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests.EventTypeClassTests<javax.swing.event.HyperlinkEvent.EventType> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<java
             return javax.swing.event.HyperlinkEvent.EventType.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.event.HyperlinkEvent> createNewSUT() {
-        return javax.swing.event.HyperlinkEvent.class;
     }
 
 }

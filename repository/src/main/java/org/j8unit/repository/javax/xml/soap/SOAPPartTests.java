@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.soap.SOAPPart class javax.xml.soap.SOAPPart}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.soap.SOAPPart class javax.xml.soap.SOAPPart}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.soap.SOAPPartTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.soap.SOAPPartClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.soap.SOAPPartClassTests
+ *
+ * @j8unit.aim javax.xml.soap.SOAPPart
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPPart#addMimeHeader(java.lang.String,java.lang.String) public abstract
+     * Test method for {@link javax.xml.soap.SOAPPart#addMimeHeader(java.lang.String, java.lang.String) public abstract
      * void javax.xml.soap.SOAPPart.addMimeHeader(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#addMimeHeader(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getAllMimeHeaders() public abstract java.util.Iterator
      * javax.xml.soap.SOAPPart.getAllMimeHeaders()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getAllMimeHeaders()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getContent() public abstract javax.xml.transform.Source
      * javax.xml.soap.SOAPPart.getContent() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getContent()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getContentId() public java.lang.String
      * javax.xml.soap.SOAPPart.getContentId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getContentId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getContentLocation() public java.lang.String
      * javax.xml.soap.SOAPPart.getContentLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getContentLocation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getEnvelope() public abstract javax.xml.soap.SOAPEnvelope
      * javax.xml.soap.SOAPPart.getEnvelope() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getEnvelope()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +164,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getMatchingMimeHeaders(java.lang.String[]) public abstract
      * java.util.Iterator javax.xml.soap.SOAPPart.getMatchingMimeHeaders(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getMatchingMimeHeaders(java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +186,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getMimeHeader(java.lang.String) public abstract java.lang.String[]
      * javax.xml.soap.SOAPPart.getMimeHeader(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getMimeHeader(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -155,7 +208,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#getNonMatchingMimeHeaders(java.lang.String[]) public abstract
      * java.util.Iterator javax.xml.soap.SOAPPart.getNonMatchingMimeHeaders(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#getNonMatchingMimeHeaders(java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,7 +230,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#removeAllMimeHeaders() public abstract void
      * javax.xml.soap.SOAPPart.removeAllMimeHeaders()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#removeAllMimeHeaders()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,7 +252,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#removeMimeHeader(java.lang.String) public abstract void
      * javax.xml.soap.SOAPPart.removeMimeHeader(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#removeMimeHeader(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,7 +274,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#setContent(javax.xml.transform.Source) public abstract void
      * javax.xml.soap.SOAPPart.setContent(javax.xml.transform.Source) throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#setContent(javax.xml.transform.Source)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,7 +296,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#setContentId(java.lang.String) public void
      * javax.xml.soap.SOAPPart.setContentId(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#setContentId(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -235,7 +318,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.soap.SOAPPart#setContentLocation(java.lang.String) public void
      * javax.xml.soap.SOAPPart.setContentLocation(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#setContentLocation(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,9 +338,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPPart#setMimeHeader(java.lang.String,java.lang.String) public abstract
+     * Test method for {@link javax.xml.soap.SOAPPart#setMimeHeader(java.lang.String, java.lang.String) public abstract
      * void javax.xml.soap.SOAPPart.setMimeHeader(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.soap.SOAPPart#setMimeHeader(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

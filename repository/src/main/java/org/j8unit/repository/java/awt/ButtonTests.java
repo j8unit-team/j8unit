@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.Button class java.awt.Button}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.Button class java.awt.Button}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.ButtonTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.ButtonClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.ButtonClassTests
+ *
+ * @j8unit.aim java.awt.Button
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +30,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#addActionListener(java.awt.event.ActionListener) public synchronized void
      * java.awt.Button.addActionListener(java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#addActionListener(java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,7 +51,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for {@link java.awt.Button#addNotify() public void java.awt.Button.addNotify()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#addNotify()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#getAccessibleContext() public javax.accessibility.AccessibleContext
      * java.awt.Button.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +97,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#getActionCommand() public java.lang.String
      * java.awt.Button.getActionCommand()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#getActionCommand()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +119,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#getActionListeners() public synchronized java.awt.event.ActionListener[]
      * java.awt.Button.getActionListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#getActionListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +140,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for {@link java.awt.Button#getLabel() public java.lang.String java.awt.Button.getLabel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#getLabel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +162,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#getListeners(java.lang.Class) public java.util.EventListener[]
      * java.awt.Button.getListeners(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#getListeners(java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +185,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#removeActionListener(java.awt.event.ActionListener) public synchronized
      * void java.awt.Button.removeActionListener(java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#removeActionListener(java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -155,7 +207,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#setActionCommand(java.lang.String) public void
      * java.awt.Button.setActionCommand(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#setActionCommand(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,7 +229,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link java.awt.Button#setLabel(java.lang.String) public void
      * java.awt.Button.setLabel(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Button#setLabel(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

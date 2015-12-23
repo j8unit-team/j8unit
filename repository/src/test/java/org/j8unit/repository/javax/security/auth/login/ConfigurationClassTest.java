@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ConfigurationClassTest
 implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests<javax.security.auth.login.Configuration> {
 
+    @Override
+    public Class<javax.security.auth.login.Configuration> createNewSUT() {
+        return javax.security.auth.login.Configuration.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ParametersClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
             return javax.security.auth.login.Configuration.Parameters.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.security.auth.login.Configuration> createNewSUT() {
-        return javax.security.auth.login.Configuration.class;
     }
 
 }

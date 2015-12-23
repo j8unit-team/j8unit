@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.Graphics2D class java.awt.Graphics2D}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.Graphics2D class java.awt.Graphics2D}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.Graphics2DTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.Graphics2DClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.Graphics2DClassTests
+ *
+ * @j8unit.aim java.awt.Graphics2D
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +30,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#addRenderingHints(java.util.Map) public abstract void
      * java.awt.Graphics2D.addRenderingHints(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#addRenderingHints(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#clip(java.awt.Shape) public abstract void
      * java.awt.Graphics2D.clip(java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#clip(java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#draw(java.awt.Shape) public abstract void
      * java.awt.Graphics2D.draw(java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#draw(java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,9 +94,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#draw3DRect(int,int,int,int,boolean) public void
+     * Test method for {@link java.awt.Graphics2D#draw3DRect(int, int, int, int, boolean) public void
      * java.awt.Graphics2D.draw3DRect(int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#draw3DRect(int, int, int, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,9 +117,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#drawGlyphVector(java.awt.font.GlyphVector,float,float) public abstract
-     * void java.awt.Graphics2D.drawGlyphVector(java.awt.font.GlyphVector,float,float)}.
+     * Test method for {@link java.awt.Graphics2D#drawGlyphVector(java.awt.font.GlyphVector, float, float) public
+     * abstract void java.awt.Graphics2D.drawGlyphVector(java.awt.font.GlyphVector,float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawGlyphVector(java.awt.font.GlyphVector, float, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,10 +140,16 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.Graphics2D#drawImage(java.awt.image.BufferedImage,java.awt.image.BufferedImageOp,int,int) public
-     * abstract void java.awt.Graphics2D.drawImage(java.awt.image.BufferedImage,java.awt.image.BufferedImageOp,int,int)}
-     * .
+     * {@link java.awt.Graphics2D#drawImage(java.awt.image.BufferedImage, java.awt.image.BufferedImageOp, int, int)
+     * public abstract void
+     * java.awt.Graphics2D.drawImage(java.awt.image.BufferedImage,java.awt.image.BufferedImageOp,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawImage(java.awt.image.BufferedImage, java.awt.image.BufferedImageOp, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,10 +164,17 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.Graphics2D#drawImage(java.awt.Image,java.awt.geom.AffineTransform,java.awt.image.ImageObserver)
+     * {@link java.awt.Graphics2D#drawImage(java.awt.Image, java.awt.geom.AffineTransform, java.awt.image.ImageObserver)
      * public abstract boolean
      * java.awt.Graphics2D.drawImage(java.awt.Image,java.awt.geom.AffineTransform,java.awt.image.ImageObserver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawImage(java.awt.Image, java.awt.geom.AffineTransform,
+     *             java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,11 +189,18 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.Graphics2D#drawRenderableImage(java.awt.image.renderable.RenderableImage,java.awt.geom.AffineTransform)
+     * {@link java.awt.Graphics2D#drawRenderableImage(java.awt.image.renderable.RenderableImage, java.awt.geom.AffineTransform)
      * public abstract void
      * java.awt.Graphics2D.drawRenderableImage(java.awt.image.renderable.RenderableImage,java.awt.geom.AffineTransform)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawRenderableImage(java.awt.image.renderable.RenderableImage,
+     *             java.awt.geom.AffineTransform)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,9 +215,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.Graphics2D#drawRenderedImage(java.awt.image.RenderedImage,java.awt.geom.AffineTransform) public
+     * {@link java.awt.Graphics2D#drawRenderedImage(java.awt.image.RenderedImage, java.awt.geom.AffineTransform) public
      * abstract void java.awt.Graphics2D.drawRenderedImage(java.awt.image.RenderedImage,java.awt.geom.AffineTransform)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawRenderedImage(java.awt.image.RenderedImage, java.awt.geom.AffineTransform)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -177,9 +237,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#drawString(java.text.AttributedCharacterIterator,float,float) public
+     * Test method for {@link java.awt.Graphics2D#drawString(java.text.AttributedCharacterIterator, float, float) public
      * abstract void java.awt.Graphics2D.drawString(java.text.AttributedCharacterIterator,float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawString(java.text.AttributedCharacterIterator, float, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,9 +259,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#drawString(java.text.AttributedCharacterIterator,int,int) public
+     * Test method for {@link java.awt.Graphics2D#drawString(java.text.AttributedCharacterIterator, int, int) public
      * abstract void java.awt.Graphics2D.drawString(java.text.AttributedCharacterIterator,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawString(java.text.AttributedCharacterIterator, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,9 +282,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#drawString(java.lang.String,float,float) public abstract void
+     * Test method for {@link java.awt.Graphics2D#drawString(java.lang.String, float, float) public abstract void
      * java.awt.Graphics2D.drawString(java.lang.String,float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawString(java.lang.String, float, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,9 +304,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#drawString(java.lang.String,int,int) public abstract void
+     * Test method for {@link java.awt.Graphics2D#drawString(java.lang.String, int, int) public abstract void
      * java.awt.Graphics2D.drawString(java.lang.String,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#drawString(java.lang.String, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,7 +329,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#fill(java.awt.Shape) public abstract void
      * java.awt.Graphics2D.fill(java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#fill(java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -259,9 +349,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#fill3DRect(int,int,int,int,boolean) public void
+     * Test method for {@link java.awt.Graphics2D#fill3DRect(int, int, int, int, boolean) public void
      * java.awt.Graphics2D.fill3DRect(int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#fill3DRect(int, int, int, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,7 +374,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getBackground() public abstract java.awt.Color
      * java.awt.Graphics2D.getBackground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getBackground()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -294,7 +396,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getComposite() public abstract java.awt.Composite
      * java.awt.Graphics2D.getComposite()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getComposite()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -310,7 +418,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getDeviceConfiguration() public abstract
      * java.awt.GraphicsConfiguration java.awt.Graphics2D.getDeviceConfiguration()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getDeviceConfiguration()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -326,7 +440,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getFontRenderContext() public abstract java.awt.font.FontRenderContext
      * java.awt.Graphics2D.getFontRenderContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getFontRenderContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -342,7 +462,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getPaint() public abstract java.awt.Paint
      * java.awt.Graphics2D.getPaint()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getPaint()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -358,7 +484,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getRenderingHint(java.awt.RenderingHints.Key) public abstract
      * java.lang.Object java.awt.Graphics2D.getRenderingHint(java.awt.RenderingHints$Key)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getRenderingHint(java.awt.RenderingHints.Key)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,7 +506,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getRenderingHints() public abstract java.awt.RenderingHints
      * java.awt.Graphics2D.getRenderingHints()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getRenderingHints()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -390,7 +528,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getStroke() public abstract java.awt.Stroke
      * java.awt.Graphics2D.getStroke()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getStroke()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -406,7 +550,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#getTransform() public abstract java.awt.geom.AffineTransform
      * java.awt.Graphics2D.getTransform()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#getTransform()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -420,9 +570,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#hit(java.awt.Rectangle,java.awt.Shape,boolean) public abstract boolean
-     * java.awt.Graphics2D.hit(java.awt.Rectangle,java.awt.Shape,boolean)}.
+     * Test method for {@link java.awt.Graphics2D#hit(java.awt.Rectangle, java.awt.Shape, boolean) public abstract
+     * boolean java.awt.Graphics2D.hit(java.awt.Rectangle,java.awt.Shape,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#hit(java.awt.Rectangle, java.awt.Shape, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -438,7 +594,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#rotate(double) public abstract void
      * java.awt.Graphics2D.rotate(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#rotate(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -452,9 +614,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#rotate(double,double,double) public abstract void
+     * Test method for {@link java.awt.Graphics2D#rotate(double, double, double) public abstract void
      * java.awt.Graphics2D.rotate(double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#rotate(double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -468,9 +636,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#scale(double,double) public abstract void
+     * Test method for {@link java.awt.Graphics2D#scale(double, double) public abstract void
      * java.awt.Graphics2D.scale(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#scale(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -486,7 +660,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#setBackground(java.awt.Color) public abstract void
      * java.awt.Graphics2D.setBackground(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setBackground(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -502,7 +682,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#setComposite(java.awt.Composite) public abstract void
      * java.awt.Graphics2D.setComposite(java.awt.Composite)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setComposite(java.awt.Composite)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -518,7 +704,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#setPaint(java.awt.Paint) public abstract void
      * java.awt.Graphics2D.setPaint(java.awt.Paint)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setPaint(java.awt.Paint)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -532,9 +724,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#setRenderingHint(java.awt.RenderingHints.Key,java.lang.Object) public
+     * Test method for {@link java.awt.Graphics2D#setRenderingHint(java.awt.RenderingHints.Key, java.lang.Object) public
      * abstract void java.awt.Graphics2D.setRenderingHint(java.awt.RenderingHints$Key,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setRenderingHint(java.awt.RenderingHints.Key, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -550,7 +748,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#setRenderingHints(java.util.Map) public abstract void
      * java.awt.Graphics2D.setRenderingHints(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setRenderingHints(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -566,7 +770,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#setStroke(java.awt.Stroke) public abstract void
      * java.awt.Graphics2D.setStroke(java.awt.Stroke)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setStroke(java.awt.Stroke)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -582,7 +792,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#setTransform(java.awt.geom.AffineTransform) public abstract void
      * java.awt.Graphics2D.setTransform(java.awt.geom.AffineTransform)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#setTransform(java.awt.geom.AffineTransform)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -596,9 +812,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#shear(double,double) public abstract void
+     * Test method for {@link java.awt.Graphics2D#shear(double, double) public abstract void
      * java.awt.Graphics2D.shear(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#shear(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -614,7 +836,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Graphics2D#transform(java.awt.geom.AffineTransform) public abstract void
      * java.awt.Graphics2D.transform(java.awt.geom.AffineTransform)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#transform(java.awt.geom.AffineTransform)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -628,9 +856,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#translate(double,double) public abstract void
+     * Test method for {@link java.awt.Graphics2D#translate(double, double) public abstract void
      * java.awt.Graphics2D.translate(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#translate(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -644,9 +878,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Graphics2D#translate(int,int) public abstract void
+     * Test method for {@link java.awt.Graphics2D#translate(int, int) public abstract void
      * java.awt.Graphics2D.translate(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Graphics2D#translate(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

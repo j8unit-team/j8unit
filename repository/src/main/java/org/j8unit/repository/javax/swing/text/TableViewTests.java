@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.TableView class javax.swing.text.TableView}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.TableView class javax.swing.text.TableView},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.TableViewTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.TableViewClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.TableViewClassTests
+ *
+ * @j8unit.aim javax.swing.text.TableView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.TableView$TableCell class javax.swing.text.TableView$TableCell},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.TableView.TableCell class
+     * javax.swing.text.TableView$TableCell}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.javax.swing.text.TableViewTests.TableCellTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.TableViewClassTests.TableCellClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.TableViewClassTests.TableCellClassTests
+     *
+     * @j8unit.aim javax.swing.text.TableView.TableCell
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +52,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.text.TableView.TableCell#getColumnCount() public int
          * javax.swing.text.TableView$TableCell.getColumnCount()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableCell#getColumnCount()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.text.TableView.TableCell#getGridColumn() public int
          * javax.swing.text.TableView$TableCell.getGridColumn()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableCell#getGridColumn()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -74,7 +96,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.text.TableView.TableCell#getGridRow() public int
          * javax.swing.text.TableView$TableCell.getGridRow()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableCell#getGridRow()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -90,7 +118,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.text.TableView.TableCell#getRowCount() public int
          * javax.swing.text.TableView$TableCell.getRowCount()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableCell#getRowCount()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -104,9 +138,15 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.TableView.TableCell#setGridLocation(int,int) public void
+         * Test method for {@link javax.swing.text.TableView.TableCell#setGridLocation(int, int) public void
          * javax.swing.text.TableView$TableCell.setGridLocation(int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableCell#setGridLocation(int, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -122,14 +162,19 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.TableView$TableRow class javax.swing.text.TableView$TableRow}, containing
-     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.TableView.TableRow class
+     * javax.swing.text.TableView$TableRow}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.javax.swing.text.TableViewTests.TableRowTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.TableViewClassTests.TableRowClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.TableViewClassTests.TableRowClassTests
+     *
+     * @j8unit.aim javax.swing.text.TableView.TableRow
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -140,7 +185,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.text.TableView.TableRow#getResizeWeight(int) public int
          * javax.swing.text.TableView$TableRow.getResizeWeight(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableRow#getResizeWeight(int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -155,9 +206,15 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.TableView.TableRow#replace(int,int,javax.swing.text.View[]) public
+         * Test method for {@link javax.swing.text.TableView.TableRow#replace(int, int, javax.swing.text.View[]) public
          * void javax.swing.text.TableView$TableRow.replace(int,int,javax.swing.text.View[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.TableView.TableRow#replace(int, int, javax.swing.text.View[])
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -174,9 +231,15 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.TableView#replace(int,int,javax.swing.text.View[]) public void
+     * Test method for {@link javax.swing.text.TableView#replace(int, int, javax.swing.text.View[]) public void
      * javax.swing.text.TableView.replace(int,int,javax.swing.text.View[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.TableView#replace(int, int, javax.swing.text.View[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

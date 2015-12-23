@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.BoxView class javax.swing.text.BoxView}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.BoxView class javax.swing.text.BoxView}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.BoxViewTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.BoxViewClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.BoxViewClassTests
+ *
+ * @j8unit.aim javax.swing.text.BoxView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getAlignment(int) public float
      * javax.swing.text.BoxView.getAlignment(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getAlignment(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getAxis() public int javax.swing.text.BoxView.getAxis()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getAxis()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,9 +73,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#getChildAllocation(int,java.awt.Shape) public java.awt.Shape
+     * Test method for {@link javax.swing.text.BoxView#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
      * javax.swing.text.BoxView.getChildAllocation(int,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getChildAllocation(int, java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getHeight() public int javax.swing.text.BoxView.getHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getHeight()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getMaximumSpan(int) public float
      * javax.swing.text.BoxView.getMaximumSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getMaximumSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getMinimumSpan(int) public float
      * javax.swing.text.BoxView.getMinimumSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getMinimumSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,7 +165,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getPreferredSpan(int) public float
      * javax.swing.text.BoxView.getPreferredSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getPreferredSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,7 +188,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getResizeWeight(int) public int
      * javax.swing.text.BoxView.getResizeWeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getResizeWeight(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,7 +210,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.text.BoxView#getWidth() public int javax.swing.text.BoxView.getWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#getWidth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,7 +232,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.BoxView#layoutChanged(int) public void
      * javax.swing.text.BoxView.layoutChanged(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#layoutChanged(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,10 +252,16 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#modelToView(int,java.awt.Shape,javax.swing.text.Position.Bias)
+     * Test method for {@link javax.swing.text.BoxView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
      * public java.awt.Shape javax.swing.text.BoxView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,9 +276,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * Test method for {@link javax.swing.text.BoxView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.BoxView.paint(java.awt.Graphics,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#paint(java.awt.Graphics, java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,9 +299,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#preferenceChanged(javax.swing.text.View,boolean,boolean) public
+     * Test method for {@link javax.swing.text.BoxView#preferenceChanged(javax.swing.text.View, boolean, boolean) public
      * void javax.swing.text.BoxView.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#preferenceChanged(javax.swing.text.View, boolean, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -239,9 +322,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#replace(int,int,javax.swing.text.View[]) public void
+     * Test method for {@link javax.swing.text.BoxView#replace(int, int, javax.swing.text.View[]) public void
      * javax.swing.text.BoxView.replace(int,int,javax.swing.text.View[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#replace(int, int, javax.swing.text.View[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -257,7 +346,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.text.BoxView#setAxis(int) public void javax.swing.text.BoxView.setAxis(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#setAxis(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,9 +366,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#setSize(float,float) public void
+     * Test method for {@link javax.swing.text.BoxView#setSize(float, float) public void
      * javax.swing.text.BoxView.setSize(float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#setSize(float, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -289,9 +390,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.BoxView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]) public
-     * int javax.swing.text.BoxView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * {@link javax.swing.text.BoxView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+     * public int javax.swing.text.BoxView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.BoxView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

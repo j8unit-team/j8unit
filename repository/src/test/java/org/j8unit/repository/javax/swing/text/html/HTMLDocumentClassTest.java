@@ -7,6 +7,22 @@ import org.junit.runner.RunWith;
 public class HTMLDocumentClassTest
 implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<javax.swing.text.html.HTMLDocument> {
 
+    @Override
+    public Class<javax.swing.text.html.HTMLDocument> createNewSUT() {
+        return javax.swing.text.html.HTMLDocument.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class RunElementClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.RunElementClassTests<javax.swing.text.html.HTMLDocument.RunElement> {
+
+        @Override
+        public Class<javax.swing.text.html.HTMLDocument.RunElement> createNewSUT() {
+            return javax.swing.text.html.HTMLDocument.RunElement.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class BlockElementClassTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.BlockElementClassTests<javax.swing.text.html.HTMLDocument.BlockElement> {
@@ -22,14 +38,31 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<ja
     public static class HTMLReaderClassTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests<javax.swing.text.html.HTMLDocument.HTMLReader> {
 
+        @Override
+        public Class<javax.swing.text.html.HTMLDocument.HTMLReader> createNewSUT() {
+            return javax.swing.text.html.HTMLDocument.HTMLReader.class;
+        }
+
         @RunWith(J8Unit4.class)
-        public static class BlockActionClassTest
+        public static class IsindexActionClassTest
         implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> {
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.IsindexActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> {
 
             @Override
-            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> createNewSUT() {
-                return javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class;
+            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> createNewSUT() {
+                return javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction.class;
+            }
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class PreActionClassTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.PreActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.PreAction> {
+
+            @Override
+            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.PreAction> createNewSUT() {
+                return javax.swing.text.html.HTMLDocument.HTMLReader.PreAction.class;
             }
 
         }
@@ -59,30 +92,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<ja
         }
 
         @RunWith(J8Unit4.class)
-        public static class HiddenActionClassTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.HiddenActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> {
-
-            @Override
-            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> createNewSUT() {
-                return javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class;
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class IsindexActionClassTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.IsindexActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> {
-
-            @Override
-            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> createNewSUT() {
-                return javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction.class;
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
         public static class ParagraphActionClassTest
         implements
         org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.ParagraphActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction> {
@@ -90,30 +99,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<ja
             @Override
             public Class<javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction> createNewSUT() {
                 return javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction.class;
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class PreActionClassTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.PreActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.PreAction> {
-
-            @Override
-            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.PreAction> createNewSUT() {
-                return javax.swing.text.html.HTMLDocument.HTMLReader.PreAction.class;
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class SpecialActionClassTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> {
-
-            @Override
-            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> createNewSUT() {
-                return javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class;
             }
 
         }
@@ -130,9 +115,40 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<ja
 
         }
 
-        @Override
-        public Class<javax.swing.text.html.HTMLDocument.HTMLReader> createNewSUT() {
-            return javax.swing.text.html.HTMLDocument.HTMLReader.class;
+        @RunWith(J8Unit4.class)
+        public static class BlockActionClassTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> {
+
+            @Override
+            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> createNewSUT() {
+                return javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class;
+            }
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class HiddenActionClassTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.HiddenActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> {
+
+            @Override
+            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> createNewSUT() {
+                return javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class;
+            }
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class SpecialActionClassTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> {
+
+            @Override
+            public Class<javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> createNewSUT() {
+                return javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class;
+            }
+
         }
 
     }
@@ -146,22 +162,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<ja
             return javax.swing.text.html.HTMLDocument.Iterator.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class RunElementClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.RunElementClassTests<javax.swing.text.html.HTMLDocument.RunElement> {
-
-        @Override
-        public Class<javax.swing.text.html.HTMLDocument.RunElement> createNewSUT() {
-            return javax.swing.text.html.HTMLDocument.RunElement.class;
-        }
-
-    }
-
-    @Override
-    public Class<javax.swing.text.html.HTMLDocument> createNewSUT() {
-        return javax.swing.text.html.HTMLDocument.class;
     }
 
 }

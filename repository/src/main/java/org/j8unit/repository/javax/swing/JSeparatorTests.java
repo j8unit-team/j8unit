@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JSeparator class javax.swing.JSeparator}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JSeparator class javax.swing.JSeparator}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.JSeparatorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JSeparatorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JSeparatorClassTests
+ *
+ * @j8unit.aim javax.swing.JSeparator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JSeparator#getAccessibleContext() public javax.accessibility.AccessibleContext
      * javax.swing.JSeparator.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JSeparator#getOrientation() public int
      * javax.swing.JSeparator.getOrientation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#getOrientation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JSeparator#getUI() public javax.swing.plaf.SeparatorUI
      * javax.swing.JSeparator.getUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#getUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JSeparator#getUIClassID() public java.lang.String
      * javax.swing.JSeparator.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#getUIClassID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JSeparator#setOrientation(int) public void
      * javax.swing.JSeparator.setOrientation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#setOrientation(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JSeparator#setUI(javax.swing.plaf.SeparatorUI) public void
      * javax.swing.JSeparator.setUI(javax.swing.plaf.SeparatorUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#setUI(javax.swing.plaf.SeparatorUI)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,7 +165,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JSeparator#updateUI() public void javax.swing.JSeparator.updateUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JSeparator#updateUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class Base64ClassTest
 implements org.j8unit.repository.java.util.Base64ClassTests<java.util.Base64> {
 
+    @Override
+    public Class<java.util.Base64> createNewSUT() {
+        return java.util.Base64.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DecoderClassTest
     implements org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests<java.util.Base64.Decoder> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.java.util.Base64ClassTests<java.util.Base64> {
             return java.util.Base64.Encoder.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.Base64> createNewSUT() {
-        return java.util.Base64.class;
     }
 
 }

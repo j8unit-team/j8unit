@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.PortableServer.POAPackage.InvalidPolicy class
+ * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.POAPackage.InvalidPolicy class
  * org.omg.PortableServer.POAPackage.InvalidPolicy}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicyTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicyClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicyClassTests
+ *
+ * @j8unit.aim org.omg.PortableServer.POAPackage.InvalidPolicy
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

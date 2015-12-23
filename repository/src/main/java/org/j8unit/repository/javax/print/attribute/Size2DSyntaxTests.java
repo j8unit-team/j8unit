@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.attribute.Size2DSyntax class javax.print.attribute.Size2DSyntax}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.print.attribute.Size2DSyntax class
+ * javax.print.attribute.Size2DSyntax}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.print.attribute.Size2DSyntaxTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.attribute.Size2DSyntaxClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.attribute.Size2DSyntaxClassTests
+ *
+ * @j8unit.aim javax.print.attribute.Size2DSyntax
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,11 +32,18 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#equals(java.lang.Object) public boolean
      * javax.print.attribute.Size2DSyntax.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -43,7 +55,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#getSize(int) public float[]
      * javax.print.attribute.Size2DSyntax.getSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#getSize(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +77,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#getX(int) public float
      * javax.print.attribute.Size2DSyntax.getX(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#getX(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +99,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#getY(int) public float
      * javax.print.attribute.Size2DSyntax.getY(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#getY(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +121,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#hashCode() public int
      * javax.print.attribute.Size2DSyntax.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,11 +144,18 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#toString() public java.lang.String
      * javax.print.attribute.Size2DSyntax.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
@@ -122,9 +165,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.Size2DSyntax#toString(int,java.lang.String) public java.lang.String
+     * Test method for {@link javax.print.attribute.Size2DSyntax#toString(int, java.lang.String) public java.lang.String
      * javax.print.attribute.Size2DSyntax.toString(int,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.Size2DSyntax#toString(int, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

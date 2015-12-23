@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MixerClassTest
 implements org.j8unit.repository.javax.sound.sampled.MixerClassTests<javax.sound.sampled.Mixer> {
 
+    @Override
+    public Class<javax.sound.sampled.Mixer> createNewSUT() {
+        return javax.sound.sampled.Mixer.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
     implements org.j8unit.repository.javax.sound.sampled.MixerClassTests.InfoClassTests<javax.sound.sampled.Mixer.Info> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.MixerClassTests<javax.sound
             return javax.sound.sampled.Mixer.Info.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.Mixer> createNewSUT() {
-        return javax.sound.sampled.Mixer.class;
     }
 
 }

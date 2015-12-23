@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.net.Authenticator class java.net.Authenticator}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.net.Authenticator class java.net.Authenticator}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.net.AuthenticatorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.net.AuthenticatorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.net.AuthenticatorClassTests
+ *
+ * @j8unit.aim java.net.Authenticator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -21,14 +26,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.net.Authenticator$RequestorType class java.net.Authenticator$RequestorType},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.net.Authenticator.RequestorType class
+     * java.net.Authenticator$RequestorType}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.java.net.AuthenticatorTests.RequestorTypeTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests
+     *
+     * @j8unit.aim java.net.Authenticator.RequestorType
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)

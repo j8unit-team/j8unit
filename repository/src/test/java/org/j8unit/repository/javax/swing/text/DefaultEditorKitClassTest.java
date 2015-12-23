@@ -7,24 +7,18 @@ import org.junit.runner.RunWith;
 public class DefaultEditorKitClassTest
 implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<javax.swing.text.DefaultEditorKit> {
 
-    @RunWith(J8Unit4.class)
-    public static class BeepActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests<javax.swing.text.DefaultEditorKit.BeepAction> {
-
-        @Override
-        public Class<javax.swing.text.DefaultEditorKit.BeepAction> createNewSUT() {
-            return javax.swing.text.DefaultEditorKit.BeepAction.class;
-        }
-
+    @Override
+    public Class<javax.swing.text.DefaultEditorKit> createNewSUT() {
+        return javax.swing.text.DefaultEditorKit.class;
     }
 
     @RunWith(J8Unit4.class)
-    public static class CopyActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CopyActionClassTests<javax.swing.text.DefaultEditorKit.CopyAction> {
+    public static class InsertTabActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests<javax.swing.text.DefaultEditorKit.InsertTabAction> {
 
         @Override
-        public Class<javax.swing.text.DefaultEditorKit.CopyAction> createNewSUT() {
-            return javax.swing.text.DefaultEditorKit.CopyAction.class;
+        public Class<javax.swing.text.DefaultEditorKit.InsertTabAction> createNewSUT() {
+            return javax.swing.text.DefaultEditorKit.InsertTabAction.class;
         }
 
     }
@@ -36,6 +30,29 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<jav
         @Override
         public Class<javax.swing.text.DefaultEditorKit.CutAction> createNewSUT() {
             return javax.swing.text.DefaultEditorKit.CutAction.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class InsertContentActionClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests<javax.swing.text.DefaultEditorKit.InsertContentAction> {
+
+        @Override
+        public Class<javax.swing.text.DefaultEditorKit.InsertContentAction> createNewSUT() {
+            return javax.swing.text.DefaultEditorKit.InsertContentAction.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PasteActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.PasteActionClassTests<javax.swing.text.DefaultEditorKit.PasteAction> {
+
+        @Override
+        public Class<javax.swing.text.DefaultEditorKit.PasteAction> createNewSUT() {
+            return javax.swing.text.DefaultEditorKit.PasteAction.class;
         }
 
     }
@@ -65,42 +82,25 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<jav
     }
 
     @RunWith(J8Unit4.class)
-    public static class InsertContentActionClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests<javax.swing.text.DefaultEditorKit.InsertContentAction> {
+    public static class BeepActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests<javax.swing.text.DefaultEditorKit.BeepAction> {
 
         @Override
-        public Class<javax.swing.text.DefaultEditorKit.InsertContentAction> createNewSUT() {
-            return javax.swing.text.DefaultEditorKit.InsertContentAction.class;
+        public Class<javax.swing.text.DefaultEditorKit.BeepAction> createNewSUT() {
+            return javax.swing.text.DefaultEditorKit.BeepAction.class;
         }
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class InsertTabActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests<javax.swing.text.DefaultEditorKit.InsertTabAction> {
+    public static class CopyActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CopyActionClassTests<javax.swing.text.DefaultEditorKit.CopyAction> {
 
         @Override
-        public Class<javax.swing.text.DefaultEditorKit.InsertTabAction> createNewSUT() {
-            return javax.swing.text.DefaultEditorKit.InsertTabAction.class;
+        public Class<javax.swing.text.DefaultEditorKit.CopyAction> createNewSUT() {
+            return javax.swing.text.DefaultEditorKit.CopyAction.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PasteActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.PasteActionClassTests<javax.swing.text.DefaultEditorKit.PasteAction> {
-
-        @Override
-        public Class<javax.swing.text.DefaultEditorKit.PasteAction> createNewSUT() {
-            return javax.swing.text.DefaultEditorKit.PasteAction.class;
-        }
-
-    }
-
-    @Override
-    public Class<javax.swing.text.DefaultEditorKit> createNewSUT() {
-        return javax.swing.text.DefaultEditorKit.class;
     }
 
 }

@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.time.temporal.TemporalAdjusters class java.time.temporal.TemporalAdjusters}, containing
- * all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.java.time.temporal.TemporalAdjustersTests}.
+ * Reusable J8Unit test interface for {@linkplain java.time.temporal.TemporalAdjusters class
+ * java.time.temporal.TemporalAdjusters}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.java.time.temporal.TemporalAdjustersTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.time.temporal.TemporalAdjustersTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.time.temporal.TemporalAdjustersTests
+ *
+ * @j8unit.aim java.time.temporal.TemporalAdjusters
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#dayOfWeekInMonth(int,java.time.DayOfWeek) public
+     * Test method for {@link java.time.temporal.TemporalAdjusters#dayOfWeekInMonth(int, java.time.DayOfWeek) public
      * static java.time.temporal.TemporalAdjuster
      * java.time.temporal.TemporalAdjusters.dayOfWeekInMonth(int,java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#dayOfWeekInMonth(int, java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,7 +66,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfMonth() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfMonth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#firstDayOfMonth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,7 +88,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfNextMonth() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfNextMonth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#firstDayOfNextMonth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,7 +110,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfNextYear() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfNextYear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#firstDayOfNextYear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,7 +132,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfYear() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfYear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#firstDayOfYear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,7 +154,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#firstInMonth(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstInMonth(java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#firstInMonth(java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,7 +176,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#lastDayOfMonth() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastDayOfMonth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#lastDayOfMonth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,7 +198,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#lastDayOfYear() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastDayOfYear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#lastDayOfYear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,7 +220,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#lastInMonth(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastInMonth(java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#lastInMonth(java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -185,7 +242,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#next(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.next(java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#next(java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -201,7 +264,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#nextOrSame(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.nextOrSame(java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#nextOrSame(java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +287,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * Test method for {@link java.time.temporal.TemporalAdjusters#ofDateAdjuster(java.util.function.UnaryOperator)
      * public static java.time.temporal.TemporalAdjuster
      * java.time.temporal.TemporalAdjusters.ofDateAdjuster(java.util.function.UnaryOperator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#ofDateAdjuster(java.util.function.UnaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +309,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#previous(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.previous(java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#previous(java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,7 +331,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#previousOrSame(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.previousOrSame(java.time.DayOfWeek)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#previousOrSame(java.time.DayOfWeek)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -262,6 +349,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.time.temporal.TemporalAdjusters#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

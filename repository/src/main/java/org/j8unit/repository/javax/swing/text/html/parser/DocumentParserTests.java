@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.html.parser.DocumentParser class javax.swing.text.html.parser.DocumentParser},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.parser.DocumentParser class
+ * javax.swing.text.html.parser.DocumentParser}, containing all instance relevant test methods (i.&thinsp;e., test
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.swing.text.html.parser.DocumentParserTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.html.parser.DocumentParserClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.html.parser.DocumentParserClassTests
+ *
+ * @j8unit.aim javax.swing.text.html.parser.DocumentParser
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.javax.swing.text.html.parser.ParserTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.parser.DocumentParser#parse(java.io.Reader,javax.swing.text.html.HTMLEditorKit.ParserCallback,boolean)
+     * {@link javax.swing.text.html.parser.DocumentParser#parse(java.io.Reader, javax.swing.text.html.HTMLEditorKit.ParserCallback, boolean)
      * public void
      * javax.swing.text.html.parser.DocumentParser.parse(java.io.Reader,javax.swing.text.html.HTMLEditorKit$ParserCallback,boolean)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.parser.DocumentParser#parse(java.io.Reader,
+     *             javax.swing.text.html.HTMLEditorKit.ParserCallback, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.HashSetTests<java.util.HashSet<E>, E>
 
     @Override
     public java.util.HashSet<E> createNewSUT() {
-        return new java.util.HashSet<>();
+        return new java.util.HashSet();
     }
 
 }

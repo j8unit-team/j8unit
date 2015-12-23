@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.remote.rmi.RMIServerImpl_Stub class
+ * Reusable J8Unit test interface for {@linkplain javax.management.remote.rmi.RMIServerImpl_Stub class
  * javax.management.remote.rmi.RMIServerImpl_Stub}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubClassTests
+ *
+ * @j8unit.aim javax.management.remote.rmi.RMIServerImpl_Stub
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
      * <p>
      * Test method for {@link javax.management.remote.rmi.RMIServerImpl_Stub#getVersion() public java.lang.String
      * javax.management.remote.rmi.RMIServerImpl_Stub.getVersion() throws java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.rmi.RMIServerImpl_Stub#getVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +55,13 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
      * Test method for {@link javax.management.remote.rmi.RMIServerImpl_Stub#newClient(java.lang.Object) public
      * javax.management.remote.rmi.RMIConnection
      * javax.management.remote.rmi.RMIServerImpl_Stub.newClient(java.lang.Object) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.rmi.RMIServerImpl_Stub#newClient(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

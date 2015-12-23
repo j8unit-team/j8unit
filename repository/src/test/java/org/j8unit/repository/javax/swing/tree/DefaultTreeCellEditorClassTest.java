@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DefaultTreeCellEditorClassTest
 implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests<javax.swing.tree.DefaultTreeCellEditor> {
 
+    @Override
+    public Class<javax.swing.tree.DefaultTreeCellEditor> createNewSUT() {
+        return javax.swing.tree.DefaultTreeCellEditor.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DefaultTextFieldClassTest
     implements
@@ -29,11 +34,6 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
             return javax.swing.tree.DefaultTreeCellEditor.EditorContainer.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.tree.DefaultTreeCellEditor> createNewSUT() {
-        return javax.swing.tree.DefaultTreeCellEditor.class;
     }
 
 }

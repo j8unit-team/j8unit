@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.PortableServer.ServantLocator interface org.omg.PortableServer.ServantLocator},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.ServantLocator interface
+ * org.omg.PortableServer.ServantLocator}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.PortableServer.ServantLocatorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.PortableServer.ServantLocatorClassTests
+ *
+ * @j8unit.aim org.omg.PortableServer.ServantLocator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

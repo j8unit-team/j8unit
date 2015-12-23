@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DefaultHighlighterClassTest
 implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<javax.swing.text.DefaultHighlighter> {
 
+    @Override
+    public Class<javax.swing.text.DefaultHighlighter> createNewSUT() {
+        return javax.swing.text.DefaultHighlighter.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DefaultHighlightPainterClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<j
             return javax.swing.text.DefaultHighlighter.DefaultHighlightPainter.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.DefaultHighlighter> createNewSUT() {
-        return javax.swing.text.DefaultHighlighter.class;
     }
 
 }

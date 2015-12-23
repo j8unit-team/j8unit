@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ServiceRegistryClassTest
 implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryClassTests<javax.imageio.spi.ServiceRegistry> {
 
+    @Override
+    public Class<javax.imageio.spi.ServiceRegistry> createNewSUT() {
+        return javax.imageio.spi.ServiceRegistry.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FilterClassTest
     implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryClassTests.FilterClassTests<javax.imageio.spi.ServiceRegistry.Filter> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryClassTests<jav
             return javax.imageio.spi.ServiceRegistry.Filter.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.imageio.spi.ServiceRegistry> createNewSUT() {
-        return javax.imageio.spi.ServiceRegistry.class;
     }
 
 }

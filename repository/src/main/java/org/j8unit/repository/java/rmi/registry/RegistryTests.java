@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.rmi.registry.Registry interface java.rmi.registry.Registry}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.rmi.registry.Registry interface java.rmi.registry.Registry},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.rmi.registry.RegistryTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.rmi.registry.RegistryClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.rmi.registry.RegistryClassTests
+ *
+ * @j8unit.aim java.rmi.registry.Registry
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,10 +29,16 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.registry.Registry#bind(java.lang.String,java.rmi.Remote) public abstract void
+     * Test method for {@link java.rmi.registry.Registry#bind(java.lang.String, java.rmi.Remote) public abstract void
      * java.rmi.registry.Registry.bind(java.lang.String,java.rmi.Remote) throws
      * java.rmi.RemoteException,java.rmi.AlreadyBoundException,java.rmi.AccessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.registry.Registry#bind(java.lang.String, java.rmi.Remote)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * <p>
      * Test method for {@link java.rmi.registry.Registry#list() public abstract java.lang.String[]
      * java.rmi.registry.Registry.list() throws java.rmi.RemoteException,java.rmi.AccessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.registry.Registry#list()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * Test method for {@link java.rmi.registry.Registry#lookup(java.lang.String) public abstract java.rmi.Remote
      * java.rmi.registry.Registry.lookup(java.lang.String) throws
      * java.rmi.RemoteException,java.rmi.NotBoundException,java.rmi.AccessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.registry.Registry#lookup(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,10 +97,16 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.registry.Registry#rebind(java.lang.String,java.rmi.Remote) public abstract void
+     * Test method for {@link java.rmi.registry.Registry#rebind(java.lang.String, java.rmi.Remote) public abstract void
      * java.rmi.registry.Registry.rebind(java.lang.String,java.rmi.Remote) throws
      * java.rmi.RemoteException,java.rmi.AccessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.registry.Registry#rebind(java.lang.String, java.rmi.Remote)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * Test method for {@link java.rmi.registry.Registry#unbind(java.lang.String) public abstract void
      * java.rmi.registry.Registry.unbind(java.lang.String) throws
      * java.rmi.RemoteException,java.rmi.NotBoundException,java.rmi.AccessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.registry.Registry#unbind(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

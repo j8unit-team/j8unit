@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class CubicCurve2DClassTest
 implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<java.awt.geom.CubicCurve2D> {
 
+    @Override
+    public Class<java.awt.geom.CubicCurve2D> createNewSUT() {
+        return java.awt.geom.CubicCurve2D.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests.DoubleClassTests<java.awt.geom.CubicCurve2D.Double> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<java.awt.g
             return java.awt.geom.CubicCurve2D.Float.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.geom.CubicCurve2D> createNewSUT() {
-        return java.awt.geom.CubicCurve2D.class;
     }
 
 }

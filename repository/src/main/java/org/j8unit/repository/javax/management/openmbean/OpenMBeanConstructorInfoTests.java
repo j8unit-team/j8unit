@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,26 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.openmbean.OpenMBeanConstructorInfo interface
+ * Reusable J8Unit test interface for {@linkplain javax.management.openmbean.OpenMBeanConstructorInfo interface
  * javax.management.openmbean.OpenMBeanConstructorInfo}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructorInfoTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructorInfoClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructorInfoClassTests
+ *
+ * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanConstructorInfoTests<SUT extends javax.management.openmbean.OpenMBeanConstructorInfo>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfo#equals(java.lang.Object) public
      * abstract boolean javax.management.openmbean.OpenMBeanConstructorInfo.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfo#getDescription() public abstract
      * java.lang.String javax.management.openmbean.OpenMBeanConstructorInfo.getDescription()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo#getDescription()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfo#getName() public abstract
      * java.lang.String javax.management.openmbean.OpenMBeanConstructorInfo.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +98,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfo#getSignature() public abstract
      * javax.management.MBeanParameterInfo[] javax.management.openmbean.OpenMBeanConstructorInfo.getSignature()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo#getSignature()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +120,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfo#hashCode() public abstract int
      * javax.management.openmbean.OpenMBeanConstructorInfo.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +142,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfo#toString() public abstract
      * java.lang.String javax.management.openmbean.OpenMBeanConstructorInfo.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.OpenMBeanConstructorInfo#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

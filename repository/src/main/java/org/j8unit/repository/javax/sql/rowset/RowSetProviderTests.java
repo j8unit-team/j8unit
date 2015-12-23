@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.sql.rowset.RowSetProvider class javax.sql.rowset.RowSetProvider}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.sql.rowset.RowSetProvider class javax.sql.rowset.RowSetProvider}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.sql.rowset.RowSetProviderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.sql.rowset.RowSetProviderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.sql.rowset.RowSetProviderClassTests
+ *
+ * @j8unit.aim javax.sql.rowset.RowSetProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

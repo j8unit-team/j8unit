@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.transform.sax.SAXResult class javax.xml.transform.sax.SAXResult}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.transform.sax.SAXResult class
+ * javax.xml.transform.sax.SAXResult}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.transform.sax.SAXResultTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.transform.sax.SAXResultClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.transform.sax.SAXResultClassTests
+ *
+ * @j8unit.aim javax.xml.transform.sax.SAXResult
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#getHandler() public org.xml.sax.ContentHandler
      * javax.xml.transform.sax.SAXResult.getHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#getHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#getLexicalHandler() public
      * org.xml.sax.ext.LexicalHandler javax.xml.transform.sax.SAXResult.getLexicalHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#getLexicalHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#getSystemId() public java.lang.String
      * javax.xml.transform.sax.SAXResult.getSystemId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#getSystemId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#setHandler(org.xml.sax.ContentHandler) public void
      * javax.xml.transform.sax.SAXResult.setHandler(org.xml.sax.ContentHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#setHandler(org.xml.sax.ContentHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#setLexicalHandler(org.xml.sax.ext.LexicalHandler) public
      * void javax.xml.transform.sax.SAXResult.setLexicalHandler(org.xml.sax.ext.LexicalHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#setLexicalHandler(org.xml.sax.ext.LexicalHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#setSystemId(java.lang.String) public void
      * javax.xml.transform.sax.SAXResult.setSystemId(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#setSystemId(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

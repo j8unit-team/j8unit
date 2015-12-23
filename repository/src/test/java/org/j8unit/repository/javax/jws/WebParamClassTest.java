@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class WebParamClassTest
 implements org.j8unit.repository.javax.jws.WebParamClassTests<javax.jws.WebParam> {
 
+    @Override
+    public Class<javax.jws.WebParam> createNewSUT() {
+        return javax.jws.WebParam.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ModeClassTest
     implements org.j8unit.repository.javax.jws.WebParamClassTests.ModeClassTests<javax.jws.WebParam.Mode> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<javax.jws.WebParam
             return javax.jws.WebParam.Mode.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.jws.WebParam> createNewSUT() {
-        return javax.jws.WebParam.class;
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.html.HTMLEditorKit class javax.swing.text.html.HTMLEditorKit}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit class
+ * javax.swing.text.html.HTMLEditorKit}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests
+ *
+ * @j8unit.aim javax.swing.text.html.HTMLEditorKit
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$HTMLFactory class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit.HTMLFactory class
      * javax.swing.text.html.HTMLEditorKit$HTMLFactory}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLFactoryTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit.HTMLFactory
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -44,7 +53,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * Test method for {@link javax.swing.text.html.HTMLEditorKit.HTMLFactory#create(javax.swing.text.Element)
          * public javax.swing.text.View
          * javax.swing.text.html.HTMLEditorKit$HTMLFactory.create(javax.swing.text.Element)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.HTMLFactory#create(javax.swing.text.Element)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -61,15 +76,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$HTMLTextAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit.HTMLTextAction class
      * javax.swing.text.html.HTMLEditorKit$HTMLTextAction}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit.HTMLTextAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -80,15 +99,20 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction class
      * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -101,7 +125,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#actionPerformed(java.awt.event.ActionEvent)
          * public void
          * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#actionPerformed(java.awt.event.
+         *             ActionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -118,15 +149,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$LinkController class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit.LinkController class
      * javax.swing.text.html.HTMLEditorKit$LinkController}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit.LinkController
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -139,7 +174,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * Test method for
          * {@link javax.swing.text.html.HTMLEditorKit.LinkController#mouseClicked(java.awt.event.MouseEvent) public void
          * javax.swing.text.html.HTMLEditorKit$LinkController.mouseClicked(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.LinkController#mouseClicked(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -157,7 +198,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * Test method for
          * {@link javax.swing.text.html.HTMLEditorKit.LinkController#mouseDragged(java.awt.event.MouseEvent) public void
          * javax.swing.text.html.HTMLEditorKit$LinkController.mouseDragged(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.LinkController#mouseDragged(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -175,7 +222,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * Test method for
          * {@link javax.swing.text.html.HTMLEditorKit.LinkController#mouseMoved(java.awt.event.MouseEvent) public void
          * javax.swing.text.html.HTMLEditorKit$LinkController.mouseMoved(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.LinkController#mouseMoved(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -192,15 +245,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$ParserCallback class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit.ParserCallback class
      * javax.swing.text.html.HTMLEditorKit$ParserCallback}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -211,7 +268,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * <p>
          * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#flush() public void
          * javax.swing.text.html.HTMLEditorKit$ParserCallback.flush() throws javax.swing.text.BadLocationException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#flush()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -225,9 +288,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleComment(char[],int) public
+         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleComment(char[], int) public
          * void javax.swing.text.html.HTMLEditorKit$ParserCallback.handleComment(char[],int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleComment(char[], int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -244,7 +313,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
          * Test method for
          * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleEndOfLineString(java.lang.String) public void
          * javax.swing.text.html.HTMLEditorKit$ParserCallback.handleEndOfLineString(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleEndOfLineString(java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -259,10 +334,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleEndTag(javax.swing.text.html.HTML.Tag,int)
+         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleEndTag(javax.swing.text.html.HTML.Tag, int)
          * public void
          * javax.swing.text.html.HTMLEditorKit$ParserCallback.handleEndTag(javax.swing.text.html.HTML$Tag,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleEndTag(javax.swing.text.html.HTML.Tag,
+         *             int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -276,9 +358,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleError(java.lang.String,int)
+         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleError(java.lang.String, int)
          * public void javax.swing.text.html.HTMLEditorKit$ParserCallback.handleError(java.lang.String,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleError(java.lang.String, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -293,11 +381,18 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleSimpleTag(javax.swing.text.html.HTML.Tag,javax.swing.text.MutableAttributeSet,int)
+         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleSimpleTag(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet, int)
          * public void
          * javax.swing.text.html.HTMLEditorKit$ParserCallback.handleSimpleTag(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet,int)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleSimpleTag(javax.swing.text.html.HTML.
+         *             Tag, javax.swing.text.MutableAttributeSet, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -312,11 +407,18 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleStartTag(javax.swing.text.html.HTML.Tag,javax.swing.text.MutableAttributeSet,int)
+         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleStartTag(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet, int)
          * public void
          * javax.swing.text.html.HTMLEditorKit$ParserCallback.handleStartTag(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet,int)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleStartTag(javax.swing.text.html.HTML.Tag,
+         *             javax.swing.text.MutableAttributeSet, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -330,9 +432,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleText(char[],int) public void
+         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#handleText(char[], int) public void
          * javax.swing.text.html.HTMLEditorKit$ParserCallback.handleText(char[],int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.ParserCallback#handleText(char[], int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -348,15 +456,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$Parser class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLEditorKit.Parser class
      * javax.swing.text.html.HTMLEditorKit$Parser}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit.Parser
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -366,11 +478,18 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLEditorKit.Parser#parse(java.io.Reader,javax.swing.text.html.HTMLEditorKit.ParserCallback,boolean)
+         * {@link javax.swing.text.html.HTMLEditorKit.Parser#parse(java.io.Reader, javax.swing.text.html.HTMLEditorKit.ParserCallback, boolean)
          * public abstract void
          * javax.swing.text.html.HTMLEditorKit$Parser.parse(java.io.Reader,javax.swing.text.html.HTMLEditorKit$ParserCallback,boolean)
          * throws java.io.IOException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLEditorKit.Parser#parse(java.io.Reader,
+         *             javax.swing.text.html.HTMLEditorKit.ParserCallback, boolean)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -388,7 +507,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#clone() public java.lang.Object
      * javax.swing.text.html.HTMLEditorKit.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -405,7 +530,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#createDefaultDocument() public
      * javax.swing.text.Document javax.swing.text.html.HTMLEditorKit.createDefaultDocument()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#createDefaultDocument()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -422,7 +553,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#deinstall(javax.swing.JEditorPane) public void
      * javax.swing.text.html.HTMLEditorKit.deinstall(javax.swing.JEditorPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#deinstall(javax.swing.JEditorPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -439,7 +576,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.text.html.HTMLEditorKit.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -456,7 +599,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getActions() public javax.swing.Action[]
      * javax.swing.text.html.HTMLEditorKit.getActions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getActions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -473,7 +622,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getContentType() public java.lang.String
      * javax.swing.text.html.HTMLEditorKit.getContentType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getContentType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -490,7 +645,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getDefaultCursor() public java.awt.Cursor
      * javax.swing.text.html.HTMLEditorKit.getDefaultCursor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getDefaultCursor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -506,7 +667,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getInputAttributes() public
      * javax.swing.text.MutableAttributeSet javax.swing.text.html.HTMLEditorKit.getInputAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getInputAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,7 +690,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getLinkCursor() public java.awt.Cursor
      * javax.swing.text.html.HTMLEditorKit.getLinkCursor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getLinkCursor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -539,7 +712,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getStyleSheet() public
      * javax.swing.text.html.StyleSheet javax.swing.text.html.HTMLEditorKit.getStyleSheet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getStyleSheet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -555,7 +734,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#getViewFactory() public javax.swing.text.ViewFactory
      * javax.swing.text.html.HTMLEditorKit.getViewFactory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#getViewFactory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -571,11 +756,18 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.HTMLEditorKit#insertHTML(javax.swing.text.html.HTMLDocument,int,java.lang.String,int,int,javax.swing.text.html.HTML.Tag)
+     * {@link javax.swing.text.html.HTMLEditorKit#insertHTML(javax.swing.text.html.HTMLDocument, int, java.lang.String, int, int, javax.swing.text.html.HTML.Tag)
      * public void
      * javax.swing.text.html.HTMLEditorKit.insertHTML(javax.swing.text.html.HTMLDocument,int,java.lang.String,int,int,javax.swing.text.html.HTML$Tag)
      * throws javax.swing.text.BadLocationException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#insertHTML(javax.swing.text.html.HTMLDocument, int,
+     *             java.lang.String, int, int, javax.swing.text.html.HTML.Tag)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -591,7 +783,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#install(javax.swing.JEditorPane) public void
      * javax.swing.text.html.HTMLEditorKit.install(javax.swing.JEditorPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#install(javax.swing.JEditorPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -608,7 +806,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#isAutoFormSubmission() public boolean
      * javax.swing.text.html.HTMLEditorKit.isAutoFormSubmission()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#isAutoFormSubmission()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -622,10 +826,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.HTMLEditorKit#read(java.io.Reader,javax.swing.text.Document,int)
+     * Test method for {@link javax.swing.text.html.HTMLEditorKit#read(java.io.Reader, javax.swing.text.Document, int)
      * public void javax.swing.text.html.HTMLEditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#read(java.io.Reader, javax.swing.text.Document, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -642,7 +852,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#setAutoFormSubmission(boolean) public void
      * javax.swing.text.html.HTMLEditorKit.setAutoFormSubmission(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#setAutoFormSubmission(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -658,7 +874,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#setDefaultCursor(java.awt.Cursor) public void
      * javax.swing.text.html.HTMLEditorKit.setDefaultCursor(java.awt.Cursor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#setDefaultCursor(java.awt.Cursor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -674,7 +896,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#setLinkCursor(java.awt.Cursor) public void
      * javax.swing.text.html.HTMLEditorKit.setLinkCursor(java.awt.Cursor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#setLinkCursor(java.awt.Cursor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -690,7 +918,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.swing.text.html.HTMLEditorKit#setStyleSheet(javax.swing.text.html.StyleSheet) public
      * void javax.swing.text.html.HTMLEditorKit.setStyleSheet(javax.swing.text.html.StyleSheet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#setStyleSheet(javax.swing.text.html.StyleSheet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -705,10 +939,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.HTMLEditorKit#write(java.io.Writer,javax.swing.text.Document,int,int) public void
+     * {@link javax.swing.text.html.HTMLEditorKit#write(java.io.Writer, javax.swing.text.Document, int, int) public void
      * javax.swing.text.html.HTMLEditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLEditorKit#write(java.io.Writer, javax.swing.text.Document, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

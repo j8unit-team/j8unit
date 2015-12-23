@@ -9,10 +9,10 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane class
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane class
  * javax.swing.plaf.basic.BasicInternalFrameTitlePane}, containing all class relevant test methods (at least the test
- * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class containing
- * the instance relevant test methods is
+ * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+ * containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests}.
  * </p>
  *
@@ -20,17 +20,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -39,10 +42,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction}, containing all class relevant test methods
+     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests}.
      * </p>
      *
@@ -50,7 +53,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -58,10 +61,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -69,11 +75,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#CloseAction(javax.swing.plaf.basic
+         *             .BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -86,6 +101,11 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                              // CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -100,10 +120,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests}.
      * </p>
      *
@@ -111,7 +131,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -119,10 +139,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -130,11 +153,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#IconifyAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#IconifyAction(javax.swing.plaf.
+         *             basic.BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -147,6 +179,12 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                                // IconifyAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -161,10 +199,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction}, containing all class relevant test methods
-     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-     * test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests}.
      * </p>
      *
@@ -172,7 +210,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -180,10 +218,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -191,11 +232,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#MaximizeAction(javax.swing.plaf
+         *             .basic.BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -208,6 +258,12 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                                 // MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -222,10 +278,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction}, containing all class relevant test methods
+     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests}.
      * </p>
      *
@@ -233,7 +289,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -241,10 +297,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -252,11 +311,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#MoveAction(javax.swing.plaf.basic.
+         *             BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -269,6 +337,11 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                             // MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -283,10 +356,11 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler class
+     * Reusable J8Unit test interface for
+     * {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler class
      * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler}, containing all class relevant test
      * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-     * counterpart test class containing the instance relevant test methods is
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests}.
      * </p>
      *
@@ -294,7 +368,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -302,10 +376,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -313,11 +390,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#PropertyChangeHandler(
+         *             javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -330,6 +416,12 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                                        // PropertyChangeHandler(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#isAssignableFrom(java.
+         *             lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -344,10 +436,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests}.
      * </p>
      *
@@ -355,7 +447,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -363,10 +455,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -374,11 +469,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#RestoreAction(javax.swing.plaf.
+         *             basic.BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -391,6 +495,12 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                                // RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -405,10 +515,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction}, containing all class relevant test methods
+     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests}.
      * </p>
      *
@@ -416,7 +526,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -424,10 +534,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -435,11 +548,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#SizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#SizeAction(javax.swing.plaf.basic.
+         *             BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -452,6 +574,11 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                             // SizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -466,10 +593,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests}.
      * </p>
      *
@@ -477,7 +604,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -485,10 +612,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -496,11 +626,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.JMenuBarClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#SystemMenuBar(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#SystemMenuBar(javax.swing.plaf.
+         *             basic.BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -513,6 +652,12 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                                // SystemMenuBar(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -527,10 +672,10 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout}, containing all class relevant test methods
-     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-     * test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests}.
      * </p>
      *
@@ -538,7 +683,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -546,10 +691,13 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -557,11 +705,20 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#TitlePaneLayout(javax.swing.
+         *             plaf.basic.BasicInternalFrameTitlePane)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -574,6 +731,12 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                                  // TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -587,9 +750,18 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane#BasicInternalFrameTitlePane(javax.swing.JInternalFrame)
      * public javax.swing.plaf.basic.BasicInternalFrameTitlePane(javax.swing.JInternalFrame)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane#BasicInternalFrameTitlePane(javax.swing.
+     *             JInternalFrame)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -602,6 +774,11 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                              // BasicInternalFrameTitlePane(javax.swing.JInternalFrame);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

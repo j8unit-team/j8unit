@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicMenuBarUI class javax.swing.plaf.basic.BasicMenuBarUI}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicMenuBarUI class
+ * javax.swing.plaf.basic.BasicMenuBarUI}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuBarUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicMenuBarUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicMenuBarUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicMenuBarUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.swing.plaf.MenuBarUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#getMaximumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicMenuBarUI.getMaximumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicMenuBarUI#getMaximumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.swing.plaf.MenuBarUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#getMinimumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicMenuBarUI.getMinimumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicMenuBarUI#getMinimumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.javax.swing.plaf.MenuBarUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicMenuBarUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicMenuBarUI#installUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.javax.swing.plaf.MenuBarUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicMenuBarUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicMenuBarUI#uninstallUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

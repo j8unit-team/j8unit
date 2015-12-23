@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.StyleContext class javax.swing.text.StyleContext}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleContext class javax.swing.text.StyleContext},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.text.StyleContextTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.text.StyleContextTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.StyleContextTests
+ *
+ * @j8unit.aim javax.swing.text.StyleContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -39,9 +42,10 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.StyleContext$NamedStyle class javax.swing.text.StyleContext$NamedStyle},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleContext.NamedStyle class
+     * javax.swing.text.StyleContext$NamedStyle}, containing all class relevant test methods (at least the test methods
+     * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests}.
      * </p>
      *
@@ -49,7 +53,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +61,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests
+     *
+     * @j8unit.aim javax.swing.text.StyleContext.NamedStyle
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -69,8 +76,16 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for {@link javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext)
          * public javax.swing.text.StyleContext$NamedStyle(javax.swing.text.StyleContext)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -84,11 +99,20 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext,java.lang.String,javax.swing.text.Style)
+         * {@link javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext, java.lang.String, javax.swing.text.Style)
          * public
          * javax.swing.text.StyleContext$NamedStyle(javax.swing.text.StyleContext,java.lang.String,javax.swing.text.Style)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext,
+         *             java.lang.String, javax.swing.text.Style)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -98,13 +122,23 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.StyleContext.NamedStyle sut = null; // = new
-                                                                       // NamedStyle(javax.swing.text.StyleContext,java.lang.String,javax.swing.text.Style);
+                                                                       // NamedStyle(javax.swing.text.StyleContext,
+                                                                       // java.lang.String, javax.swing.text.Style);
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext,javax.swing.text.Style)
+         * {@link javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext, javax.swing.text.Style)
          * public javax.swing.text.StyleContext$NamedStyle(javax.swing.text.StyleContext,javax.swing.text.Style)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext,
+         *             javax.swing.text.Style)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -114,9 +148,15 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.StyleContext.NamedStyle sut = null; // = new
-                                                                       // NamedStyle(javax.swing.text.StyleContext,javax.swing.text.Style);
+                                                                       // NamedStyle(javax.swing.text.StyleContext,
+                                                                       // javax.swing.text.Style);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.NamedStyle#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -131,10 +171,10 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.StyleContext$SmallAttributeSet class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleContext.SmallAttributeSet class
      * javax.swing.text.StyleContext$SmallAttributeSet}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests}.
      * </p>
      *
@@ -142,7 +182,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -150,10 +190,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests
+     *
+     * @j8unit.aim javax.swing.text.StyleContext.SmallAttributeSet
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -161,11 +204,20 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext,javax.swing.text.AttributeSet)
+         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext, javax.swing.text.AttributeSet)
          * public
          * javax.swing.text.StyleContext$SmallAttributeSet(javax.swing.text.StyleContext,javax.swing.text.AttributeSet)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext,
+         *             javax.swing.text.AttributeSet)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -175,13 +227,23 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.StyleContext.SmallAttributeSet sut = null; // = new
-                                                                              // SmallAttributeSet(javax.swing.text.StyleContext,javax.swing.text.AttributeSet);
+                                                                              // SmallAttributeSet(javax.swing.text.StyleContext,
+                                                                              // javax.swing.text.AttributeSet);
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext,java.lang.Object[])
+         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext, java.lang.Object[])
          * public javax.swing.text.StyleContext$SmallAttributeSet(javax.swing.text.StyleContext,java.lang.Object[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext,
+         *             java.lang.Object[])
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -191,9 +253,15 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.StyleContext.SmallAttributeSet sut = null; // = new
-                                                                              // SmallAttributeSet(javax.swing.text.StyleContext,java.lang.Object[]);
+                                                                              // SmallAttributeSet(javax.swing.text.StyleContext,
+                                                                              // java.lang.Object[]);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.StyleContext.SmallAttributeSet#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -207,7 +275,15 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.text.StyleContext#StyleContext() public javax.swing.text.StyleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#StyleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,7 +299,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * <p>
      * Test method for {@link javax.swing.text.StyleContext#getDefaultStyleContext() public static final
      * javax.swing.text.StyleContext javax.swing.text.StyleContext.getDefaultStyleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#getDefaultStyleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -239,7 +321,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * <p>
      * Test method for {@link javax.swing.text.StyleContext#getStaticAttribute(java.lang.Object) public static
      * java.lang.Object javax.swing.text.StyleContext.getStaticAttribute(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#getStaticAttribute(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -255,7 +343,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * <p>
      * Test method for {@link javax.swing.text.StyleContext#getStaticAttributeKey(java.lang.Object) public static
      * java.lang.Object javax.swing.text.StyleContext.getStaticAttributeKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#getStaticAttributeKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,11 +364,18 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.StyleContext#readAttributeSet(java.io.ObjectInputStream,javax.swing.text.MutableAttributeSet)
+     * {@link javax.swing.text.StyleContext#readAttributeSet(java.io.ObjectInputStream, javax.swing.text.MutableAttributeSet)
      * public static void
      * javax.swing.text.StyleContext.readAttributeSet(java.io.ObjectInputStream,javax.swing.text.MutableAttributeSet)
      * throws java.lang.ClassNotFoundException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#readAttributeSet(java.io.ObjectInputStream,
+     *             javax.swing.text.MutableAttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -290,7 +391,13 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * <p>
      * Test method for {@link javax.swing.text.StyleContext#registerStaticAttributeKey(java.lang.Object) public static
      * void javax.swing.text.StyleContext.registerStaticAttributeKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#registerStaticAttributeKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -305,11 +412,18 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.StyleContext#writeAttributeSet(java.io.ObjectOutputStream,javax.swing.text.AttributeSet)
+     * {@link javax.swing.text.StyleContext#writeAttributeSet(java.io.ObjectOutputStream, javax.swing.text.AttributeSet)
      * public static void
      * javax.swing.text.StyleContext.writeAttributeSet(java.io.ObjectOutputStream,javax.swing.text.AttributeSet) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#writeAttributeSet(java.io.ObjectOutputStream,
+     *             javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -321,6 +435,11 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.text.StyleContext#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

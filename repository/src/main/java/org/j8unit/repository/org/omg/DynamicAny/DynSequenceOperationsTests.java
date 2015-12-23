@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.DynamicAny.DynSequenceOperations interface org.omg.DynamicAny.DynSequenceOperations},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny.DynSequenceOperations interface
+ * org.omg.DynamicAny.DynSequenceOperations}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynSequenceOperationsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.DynamicAny.DynSequenceOperationsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.DynamicAny.DynSequenceOperationsClassTests
+ *
+ * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynSequenceOperations#get_elements() public abstract
      * org.omg.CORBA.Any[] org.omg.DynamicAny.DynSequenceOperations.get_elements()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations#get_elements()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynSequenceOperations#get_elements_as_dyn_any() public abstract
      * org.omg.DynamicAny.DynAny[] org.omg.DynamicAny.DynSequenceOperations.get_elements_as_dyn_any()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations#get_elements_as_dyn_any()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynSequenceOperations#get_length() public abstract int
      * org.omg.DynamicAny.DynSequenceOperations.get_length()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations#get_length()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * Test method for {@link org.omg.DynamicAny.DynSequenceOperations#set_elements(org.omg.CORBA.Any[]) public abstract
      * void org.omg.DynamicAny.DynSequenceOperations.set_elements(org.omg.CORBA.Any[]) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations#set_elements(org.omg.CORBA.Any[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * {@link org.omg.DynamicAny.DynSequenceOperations#set_elements_as_dyn_any(org.omg.DynamicAny.DynAny[]) public
      * abstract void org.omg.DynamicAny.DynSequenceOperations.set_elements_as_dyn_any(org.omg.DynamicAny.DynAny[])
      * throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations#set_elements_as_dyn_any(org.omg.DynamicAny.DynAny[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynSequenceOperations#set_length(int) public abstract void
      * org.omg.DynamicAny.DynSequenceOperations.set_length(int) throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny.DynSequenceOperations#set_length(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

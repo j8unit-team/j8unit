@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class RenderingHintsClassTest
 implements org.j8unit.repository.java.awt.RenderingHintsClassTests<java.awt.RenderingHints> {
 
+    @Override
+    public Class<java.awt.RenderingHints> createNewSUT() {
+        return java.awt.RenderingHints.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class KeyClassTest
     implements org.j8unit.repository.java.awt.RenderingHintsClassTests.KeyClassTests<java.awt.RenderingHints.Key> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.awt.RenderingHintsClassTests<java.awt.Rend
             return java.awt.RenderingHints.Key.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.RenderingHints> createNewSUT() {
-        return java.awt.RenderingHints.class;
     }
 
 }

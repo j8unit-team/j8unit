@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.script.SimpleBindings class javax.script.SimpleBindings}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.script.SimpleBindings class javax.script.SimpleBindings},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.script.SimpleBindingsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.script.SimpleBindingsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.script.SimpleBindingsClassTests
+ *
+ * @j8unit.aim javax.script.SimpleBindings
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,7 +30,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * Test method for {@link javax.script.SimpleBindings#clear() public void javax.script.SimpleBindings.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#clear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#containsKey(java.lang.Object) public boolean
      * javax.script.SimpleBindings.containsKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#containsKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#containsValue(java.lang.Object) public boolean
      * javax.script.SimpleBindings.containsValue(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#containsValue(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#entrySet() public java.util.Set
      * javax.script.SimpleBindings.entrySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#entrySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,9 +121,17 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.lang.Object</li>
+     * <li>interface java.util.Map</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -109,7 +146,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#get(java.lang.Object) public java.lang.Object
      * javax.script.SimpleBindings.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#get(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,9 +168,17 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.lang.Object</li>
+     * <li>interface java.util.Map</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -142,7 +193,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#isEmpty() public boolean
      * javax.script.SimpleBindings.isEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#isEmpty()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,7 +216,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#keySet() public java.util.Set
      * javax.script.SimpleBindings.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#keySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,9 +237,15 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleBindings#put(java.lang.String,java.lang.Object) public java.lang.Object
-     * javax.script.SimpleBindings.put(java.lang.String,java.lang.Object)}.
+     * Test method for {@link javax.script.SimpleBindings#put(java.lang.String, java.lang.Object) public
+     * java.lang.Object javax.script.SimpleBindings.put(java.lang.String,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#put(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +262,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#putAll(java.util.Map) public void
      * javax.script.SimpleBindings.putAll(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#putAll(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +285,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#remove(java.lang.Object) public java.lang.Object
      * javax.script.SimpleBindings.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#remove(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,7 +307,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * Test method for {@link javax.script.SimpleBindings#size() public int javax.script.SimpleBindings.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,7 +330,13 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * <p>
      * Test method for {@link javax.script.SimpleBindings#values() public java.util.Collection
      * javax.script.SimpleBindings.values()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleBindings#values()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

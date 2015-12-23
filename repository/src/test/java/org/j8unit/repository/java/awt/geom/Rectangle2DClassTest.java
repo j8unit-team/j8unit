@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class Rectangle2DClassTest
 implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<java.awt.geom.Rectangle2D> {
 
-    @RunWith(J8Unit4.class)
-    public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests.DoubleClassTests<java.awt.geom.Rectangle2D.Double> {
-
-        @Override
-        public Class<java.awt.geom.Rectangle2D.Double> createNewSUT() {
-            return java.awt.geom.Rectangle2D.Double.class;
-        }
-
+    @Override
+    public Class<java.awt.geom.Rectangle2D> createNewSUT() {
+        return java.awt.geom.Rectangle2D.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<java.awt.ge
 
     }
 
-    @Override
-    public Class<java.awt.geom.Rectangle2D> createNewSUT() {
-        return java.awt.geom.Rectangle2D.class;
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests.DoubleClassTests<java.awt.geom.Rectangle2D.Double> {
+
+        @Override
+        public Class<java.awt.geom.Rectangle2D.Double> createNewSUT() {
+            return java.awt.geom.Rectangle2D.Double.class;
+        }
+
     }
 
 }

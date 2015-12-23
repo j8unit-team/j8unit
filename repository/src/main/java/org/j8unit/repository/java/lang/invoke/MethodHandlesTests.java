@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.lang.invoke.MethodHandles class java.lang.invoke.MethodHandles}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.lang.invoke.MethodHandles class java.lang.invoke.MethodHandles},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.lang.invoke.MethodHandlesTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests
+ *
+ * @j8unit.aim java.lang.invoke.MethodHandles
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.lang.invoke.MethodHandles$Lookup class java.lang.invoke.MethodHandles$Lookup},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.lang.invoke.MethodHandles.Lookup class
+     * java.lang.invoke.MethodHandles$Lookup}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.java.lang.invoke.MethodHandlesTests.LookupTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests.LookupClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests.LookupClassTests
+     *
+     * @j8unit.aim java.lang.invoke.MethodHandles.Lookup
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -41,11 +51,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#bind(java.lang.Object,java.lang.String,java.lang.invoke.MethodType)
+         * {@link java.lang.invoke.MethodHandles.Lookup#bind(java.lang.Object, java.lang.String, java.lang.invoke.MethodType)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.bind(java.lang.Object,java.lang.String,java.lang.invoke.MethodType)
          * throws java.lang.NoSuchMethodException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#bind(java.lang.Object, java.lang.String,
+         *             java.lang.invoke.MethodType)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -60,11 +77,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findConstructor(java.lang.Class,java.lang.invoke.MethodType)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findConstructor(java.lang.Class, java.lang.invoke.MethodType)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findConstructor(java.lang.Class,java.lang.invoke.MethodType) throws
          * java.lang.NoSuchMethodException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findConstructor(java.lang.Class,
+         *             java.lang.invoke.MethodType)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -79,11 +103,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findGetter(java.lang.Class,java.lang.String,java.lang.Class)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findGetter(java.lang.Class, java.lang.String, java.lang.Class)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findGetter(java.lang.Class,java.lang.String,java.lang.Class) throws
          * java.lang.NoSuchFieldException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findGetter(java.lang.Class, java.lang.String,
+         *             java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -98,11 +129,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findSetter(java.lang.Class,java.lang.String,java.lang.Class)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findSetter(java.lang.Class, java.lang.String, java.lang.Class)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findSetter(java.lang.Class,java.lang.String,java.lang.Class) throws
          * java.lang.NoSuchFieldException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findSetter(java.lang.Class, java.lang.String,
+         *             java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -117,11 +155,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findSpecial(java.lang.Class,java.lang.String,java.lang.invoke.MethodType,java.lang.Class)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findSpecial(java.lang.Class, java.lang.String, java.lang.invoke.MethodType, java.lang.Class)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findSpecial(java.lang.Class,java.lang.String,java.lang.invoke.MethodType,java.lang.Class)
          * throws java.lang.NoSuchMethodException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findSpecial(java.lang.Class, java.lang.String,
+         *             java.lang.invoke.MethodType, java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -136,11 +181,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findStatic(java.lang.Class,java.lang.String,java.lang.invoke.MethodType)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findStatic(java.lang.Class, java.lang.String, java.lang.invoke.MethodType)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findStatic(java.lang.Class,java.lang.String,java.lang.invoke.MethodType)
          * throws java.lang.NoSuchMethodException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findStatic(java.lang.Class, java.lang.String,
+         *             java.lang.invoke.MethodType)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -155,11 +207,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findStaticGetter(java.lang.Class,java.lang.String,java.lang.Class)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findStaticGetter(java.lang.Class, java.lang.String, java.lang.Class)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findStaticGetter(java.lang.Class,java.lang.String,java.lang.Class)
          * throws java.lang.NoSuchFieldException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findStaticGetter(java.lang.Class, java.lang.String,
+         *             java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -174,11 +233,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findStaticSetter(java.lang.Class,java.lang.String,java.lang.Class)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findStaticSetter(java.lang.Class, java.lang.String, java.lang.Class)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findStaticSetter(java.lang.Class,java.lang.String,java.lang.Class)
          * throws java.lang.NoSuchFieldException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findStaticSetter(java.lang.Class, java.lang.String,
+         *             java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -193,11 +259,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#findVirtual(java.lang.Class,java.lang.String,java.lang.invoke.MethodType)
+         * {@link java.lang.invoke.MethodHandles.Lookup#findVirtual(java.lang.Class, java.lang.String, java.lang.invoke.MethodType)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.findVirtual(java.lang.Class,java.lang.String,java.lang.invoke.MethodType)
          * throws java.lang.NoSuchMethodException,java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#findVirtual(java.lang.Class, java.lang.String,
+         *             java.lang.invoke.MethodType)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -213,7 +286,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#in(java.lang.Class) public
          * java.lang.invoke.MethodHandles$Lookup java.lang.invoke.MethodHandles$Lookup.in(java.lang.Class)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#in(java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -229,7 +308,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#lookupClass() public java.lang.Class
          * java.lang.invoke.MethodHandles$Lookup.lookupClass()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#lookupClass()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -245,7 +330,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#lookupModes() public int
          * java.lang.invoke.MethodHandles$Lookup.lookupModes()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#lookupModes()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -262,7 +353,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#revealDirect(java.lang.invoke.MethodHandle)
          * public java.lang.invoke.MethodHandleInfo
          * java.lang.invoke.MethodHandles$Lookup.revealDirect(java.lang.invoke.MethodHandle)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#revealDirect(java.lang.invoke.MethodHandle)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -278,11 +375,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#toString() public java.lang.String
          * java.lang.invoke.MethodHandles$Lookup.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#toString()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
+        @Override
         public default void test_toString()
         throws Exception {
             // query fresh subject-under-test
@@ -295,7 +399,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#unreflect(java.lang.reflect.Method) public
          * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandles$Lookup.unreflect(java.lang.reflect.Method)
          * throws java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#unreflect(java.lang.reflect.Method)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -314,7 +424,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.unreflectConstructor(java.lang.reflect.Constructor) throws
          * java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#unreflectConstructor(java.lang.reflect.Constructor)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -331,7 +447,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#unreflectGetter(java.lang.reflect.Field) public
          * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandles$Lookup.unreflectGetter(java.lang.reflect.Field)
          * throws java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#unreflectGetter(java.lang.reflect.Field)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -348,7 +470,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link java.lang.invoke.MethodHandles.Lookup#unreflectSetter(java.lang.reflect.Field) public
          * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandles$Lookup.unreflectSetter(java.lang.reflect.Field)
          * throws java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#unreflectSetter(java.lang.reflect.Field)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -363,11 +491,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.lang.invoke.MethodHandles.Lookup#unreflectSpecial(java.lang.reflect.Method,java.lang.Class)
+         * {@link java.lang.invoke.MethodHandles.Lookup#unreflectSpecial(java.lang.reflect.Method, java.lang.Class)
          * public java.lang.invoke.MethodHandle
          * java.lang.invoke.MethodHandles$Lookup.unreflectSpecial(java.lang.reflect.Method,java.lang.Class) throws
          * java.lang.IllegalAccessException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.invoke.MethodHandles.Lookup#unreflectSpecial(java.lang.reflect.Method, java.lang.Class)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test

@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.FileDialog class java.awt.FileDialog}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.FileDialog class java.awt.FileDialog}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.FileDialogTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.FileDialogClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.FileDialogClassTests
+ *
+ * @j8unit.aim java.awt.FileDialog
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,7 +29,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.FileDialog#addNotify() public void java.awt.FileDialog.addNotify()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#addNotify()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
      * <p>
      * Test method for {@link java.awt.FileDialog#getDirectory() public java.lang.String
      * java.awt.FileDialog.getDirectory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#getDirectory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,7 +73,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.FileDialog#getFile() public java.lang.String java.awt.FileDialog.getFile()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#getFile()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,7 +95,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
      * <p>
      * Test method for {@link java.awt.FileDialog#getFilenameFilter() public java.io.FilenameFilter
      * java.awt.FileDialog.getFilenameFilter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#getFilenameFilter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,7 +116,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.FileDialog#getFiles() public java.io.File[] java.awt.FileDialog.getFiles()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#getFiles()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -103,7 +137,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.FileDialog#getMode() public int java.awt.FileDialog.getMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#getMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,7 +158,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.FileDialog#isMultipleMode() public boolean java.awt.FileDialog.isMultipleMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#isMultipleMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,7 +180,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
      * <p>
      * Test method for {@link java.awt.FileDialog#setDirectory(java.lang.String) public void
      * java.awt.FileDialog.setDirectory(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#setDirectory(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -150,7 +202,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
      * <p>
      * Test method for {@link java.awt.FileDialog#setFile(java.lang.String) public void
      * java.awt.FileDialog.setFile(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#setFile(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -166,7 +224,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
      * <p>
      * Test method for {@link java.awt.FileDialog#setFilenameFilter(java.io.FilenameFilter) public synchronized void
      * java.awt.FileDialog.setFilenameFilter(java.io.FilenameFilter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#setFilenameFilter(java.io.FilenameFilter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -181,7 +245,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.FileDialog#setMode(int) public void java.awt.FileDialog.setMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#setMode(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -197,7 +267,13 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
      * <p>
      * Test method for {@link java.awt.FileDialog#setMultipleMode(boolean) public void
      * java.awt.FileDialog.setMultipleMode(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.FileDialog#setMultipleMode(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

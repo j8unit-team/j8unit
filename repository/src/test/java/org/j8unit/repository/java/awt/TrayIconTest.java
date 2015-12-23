@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class TrayIconTest
 implements org.j8unit.repository.java.awt.TrayIconTests<java.awt.TrayIcon> {
 
+    @Override
+    public java.awt.TrayIcon createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.TrayIcon] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MessageTypeTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.awt.TrayIconTests<java.awt.TrayIcon> {
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.awt.TrayIcon createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.awt.TrayIcon] available.");
     }
 
 }

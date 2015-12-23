@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class StyleContextClassTest
 implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<javax.swing.text.StyleContext> {
 
+    @Override
+    public Class<javax.swing.text.StyleContext> createNewSUT() {
+        return javax.swing.text.StyleContext.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class NamedStyleClassTest
     implements org.j8unit.repository.javax.swing.text.StyleContextClassTests.NamedStyleClassTests<javax.swing.text.StyleContext.NamedStyle> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<javax.s
             return javax.swing.text.StyleContext.SmallAttributeSet.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.StyleContext> createNewSUT() {
-        return javax.swing.text.StyleContext.class;
     }
 
 }

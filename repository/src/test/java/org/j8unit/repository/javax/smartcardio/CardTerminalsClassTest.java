@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class CardTerminalsClassTest
 implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<javax.smartcardio.CardTerminals> {
 
+    @Override
+    public Class<javax.smartcardio.CardTerminals> createNewSUT() {
+        return javax.smartcardio.CardTerminals.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class StateClassTest
     implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests.StateClassTests<javax.smartcardio.CardTerminals.State> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<javax
             return javax.smartcardio.CardTerminals.State.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.smartcardio.CardTerminals> createNewSUT() {
-        return javax.smartcardio.CardTerminals.class;
     }
 
 }

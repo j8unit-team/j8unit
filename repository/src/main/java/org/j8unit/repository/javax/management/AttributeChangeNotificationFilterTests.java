@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.AttributeChangeNotificationFilter class
+ * Reusable J8Unit test interface for {@linkplain javax.management.AttributeChangeNotificationFilter class
  * javax.management.AttributeChangeNotificationFilter}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.AttributeChangeNotificationFilterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.AttributeChangeNotificationFilterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.AttributeChangeNotificationFilterClassTests
+ *
+ * @j8unit.aim javax.management.AttributeChangeNotificationFilter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
      * <p>
      * Test method for {@link javax.management.AttributeChangeNotificationFilter#disableAllAttributes() public
      * synchronized void javax.management.AttributeChangeNotificationFilter.disableAllAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeChangeNotificationFilter#disableAllAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +53,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
      * <p>
      * Test method for {@link javax.management.AttributeChangeNotificationFilter#disableAttribute(java.lang.String)
      * public synchronized void javax.management.AttributeChangeNotificationFilter.disableAttribute(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeChangeNotificationFilter#disableAttribute(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
      * Test method for {@link javax.management.AttributeChangeNotificationFilter#enableAttribute(java.lang.String)
      * public synchronized void javax.management.AttributeChangeNotificationFilter.enableAttribute(java.lang.String)
      * throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeChangeNotificationFilter#enableAttribute(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +98,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
      * <p>
      * Test method for {@link javax.management.AttributeChangeNotificationFilter#getEnabledAttributes() public
      * synchronized java.util.Vector javax.management.AttributeChangeNotificationFilter.getEnabledAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeChangeNotificationFilter#getEnabledAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +122,14 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
      * {@link javax.management.AttributeChangeNotificationFilter#isNotificationEnabled(javax.management.Notification)
      * public synchronized boolean
      * javax.management.AttributeChangeNotificationFilter.isNotificationEnabled(javax.management.Notification)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeChangeNotificationFilter#isNotificationEnabled(javax.management.
+     *             Notification)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

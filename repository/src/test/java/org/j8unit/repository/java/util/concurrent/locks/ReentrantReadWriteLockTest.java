@@ -8,16 +8,9 @@ import org.junit.runner.RunWith;
 public class ReentrantReadWriteLockTest
 implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests<java.util.concurrent.locks.ReentrantReadWriteLock> {
 
-    @RunWith(J8Unit4.class)
-    public static class ReadLockTest
-    implements
-    org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests<java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock> {
-
-        @Override
-        public java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock] available.");
-        }
-
+    @Override
+    public java.util.concurrent.locks.ReentrantReadWriteLock createNewSUT() {
+        return new java.util.concurrent.locks.ReentrantReadWriteLock();
     }
 
     @RunWith(J8Unit4.class)
@@ -32,9 +25,16 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
 
     }
 
-    @Override
-    public java.util.concurrent.locks.ReentrantReadWriteLock createNewSUT() {
-        return new java.util.concurrent.locks.ReentrantReadWriteLock();
+    @RunWith(J8Unit4.class)
+    public static class ReadLockTest
+    implements
+    org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests<java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock> {
+
+        @Override
+        public java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock] available.");
+        }
+
     }
 
 }

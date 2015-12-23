@@ -8,13 +8,18 @@ import org.junit.runner.RunWith;
 public class KeyStoreTest
 implements org.j8unit.repository.java.security.KeyStoreTests<java.security.KeyStore> {
 
+    @Override
+    public java.security.KeyStore createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore] available.");
+    }
+
     @RunWith(J8Unit4.class)
-    public static class CallbackHandlerProtectionTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests<java.security.KeyStore.CallbackHandlerProtection> {
+    public static class PrivateKeyEntryTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests<java.security.KeyStore.PrivateKeyEntry> {
 
         @Override
-        public java.security.KeyStore.CallbackHandlerProtection createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore.CallbackHandlerProtection] available.");
+        public java.security.KeyStore.PrivateKeyEntry createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore.PrivateKeyEntry] available.");
         }
 
     }
@@ -31,23 +36,23 @@ implements org.j8unit.repository.java.security.KeyStoreTests<java.security.KeySt
     }
 
     @RunWith(J8Unit4.class)
-    public static class PrivateKeyEntryTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests<java.security.KeyStore.PrivateKeyEntry> {
-
-        @Override
-        public java.security.KeyStore.PrivateKeyEntry createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore.PrivateKeyEntry] available.");
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class SecretKeyEntryTest
     implements org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests<java.security.KeyStore.SecretKeyEntry> {
 
         @Override
         public java.security.KeyStore.SecretKeyEntry createNewSUT() {
             throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore.SecretKeyEntry] available.");
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CallbackHandlerProtectionTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests<java.security.KeyStore.CallbackHandlerProtection> {
+
+        @Override
+        public java.security.KeyStore.CallbackHandlerProtection createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore.CallbackHandlerProtection] available.");
         }
 
     }
@@ -61,11 +66,6 @@ implements org.j8unit.repository.java.security.KeyStoreTests<java.security.KeySt
             throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore.TrustedCertificateEntry] available.");
         }
 
-    }
-
-    @Override
-    public java.security.KeyStore createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyStore] available.");
     }
 
 }

@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class ZoneOffsetTransitionRuleTest
 implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests<java.time.zone.ZoneOffsetTransitionRule> {
 
+    @Override
+    public java.time.zone.ZoneOffsetTransitionRule createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.time.zone.ZoneOffsetTransitionRule] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TimeDefinitionTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests<ja
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.time.zone.ZoneOffsetTransitionRule createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.time.zone.ZoneOffsetTransitionRule] available.");
     }
 
 }

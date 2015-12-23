@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AttributesClassTest
 implements org.j8unit.repository.java.util.jar.AttributesClassTests<java.util.jar.Attributes> {
 
+    @Override
+    public Class<java.util.jar.Attributes> createNewSUT() {
+        return java.util.jar.Attributes.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class NameClassTest
     implements org.j8unit.repository.java.util.jar.AttributesClassTests.NameClassTests<java.util.jar.Attributes.Name> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<java.util.ja
             return java.util.jar.Attributes.Name.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.jar.Attributes> createNewSUT() {
-        return java.util.jar.Attributes.class;
     }
 
 }

@@ -7,13 +7,18 @@ import org.junit.runner.RunWith;
 public class HTMLClassTest
 implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<javax.swing.text.html.HTML> {
 
+    @Override
+    public Class<javax.swing.text.html.HTML> createNewSUT() {
+        return javax.swing.text.html.HTML.class;
+    }
+
     @RunWith(J8Unit4.class)
-    public static class AttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<javax.swing.text.html.HTML.Attribute> {
+    public static class UnknownTagClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.UnknownTagClassTests<javax.swing.text.html.HTML.UnknownTag> {
 
         @Override
-        public Class<javax.swing.text.html.HTML.Attribute> createNewSUT() {
-            return javax.swing.text.html.HTML.Attribute.class;
+        public Class<javax.swing.text.html.HTML.UnknownTag> createNewSUT() {
+            return javax.swing.text.html.HTML.UnknownTag.class;
         }
 
     }
@@ -30,19 +35,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<javax.swin
     }
 
     @RunWith(J8Unit4.class)
-    public static class UnknownTagClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.UnknownTagClassTests<javax.swing.text.html.HTML.UnknownTag> {
+    public static class AttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<javax.swing.text.html.HTML.Attribute> {
 
         @Override
-        public Class<javax.swing.text.html.HTML.UnknownTag> createNewSUT() {
-            return javax.swing.text.html.HTML.UnknownTag.class;
+        public Class<javax.swing.text.html.HTML.Attribute> createNewSUT() {
+            return javax.swing.text.html.HTML.Attribute.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.html.HTML> createNewSUT() {
-        return javax.swing.text.html.HTML.class;
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AuthenticatorClassTest
 implements org.j8unit.repository.java.net.AuthenticatorClassTests<java.net.Authenticator> {
 
+    @Override
+    public Class<java.net.Authenticator> createNewSUT() {
+        return java.net.Authenticator.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class RequestorTypeClassTest
     implements org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests<java.net.Authenticator.RequestorType> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<java.net.Authe
             return java.net.Authenticator.RequestorType.class;
         }
 
-    }
-
-    @Override
-    public Class<java.net.Authenticator> createNewSUT() {
-        return java.net.Authenticator.class;
     }
 
 }

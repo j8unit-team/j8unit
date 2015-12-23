@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.relation.RoleUnresolvedList class
+ * Reusable J8Unit test interface for {@linkplain javax.management.relation.RoleUnresolvedList class
  * javax.management.relation.RoleUnresolvedList}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.relation.RoleUnresolvedListTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.relation.RoleUnresolvedListClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.relation.RoleUnresolvedListClassTests
+ *
+ * @j8unit.aim javax.management.relation.RoleUnresolvedList
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +29,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#add(int,java.lang.Object) public void
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#add(int, java.lang.Object) public void
      * javax.management.relation.RoleUnresolvedList.add(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#add(int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,10 +53,16 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.relation.RoleUnresolvedList#add(int,javax.management.relation.RoleUnresolved) public void
-     * javax.management.relation.RoleUnresolvedList.add(int,javax.management.relation.RoleUnresolved) throws
+     * {@link javax.management.relation.RoleUnresolvedList#add(int, javax.management.relation.RoleUnresolved) public
+     * void javax.management.relation.RoleUnresolvedList.add(int,javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#add(int, javax.management.relation.RoleUnresolved)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +78,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.relation.RoleUnresolvedList#add(java.lang.Object) public boolean
      * javax.management.relation.RoleUnresolvedList.add(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#add(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,7 +102,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * Test method for {@link javax.management.relation.RoleUnresolvedList#add(javax.management.relation.RoleUnresolved)
      * public void javax.management.relation.RoleUnresolvedList.add(javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#add(javax.management.relation.RoleUnresolved)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +124,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(java.util.Collection) public boolean
      * javax.management.relation.RoleUnresolvedList.addAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#addAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,9 +145,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(int,java.util.Collection) public
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(int, java.util.Collection) public
      * boolean javax.management.relation.RoleUnresolvedList.addAll(int,java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#addAll(int, java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,11 +169,18 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.relation.RoleUnresolvedList#addAll(int,javax.management.relation.RoleUnresolvedList)
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(int, javax.management.relation.RoleUnresolvedList)
      * public boolean
      * javax.management.relation.RoleUnresolvedList.addAll(int,javax.management.relation.RoleUnresolvedList) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#addAll(int,
+     *             javax.management.relation.RoleUnresolvedList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -151,7 +198,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * {@link javax.management.relation.RoleUnresolvedList#addAll(javax.management.relation.RoleUnresolvedList) public
      * boolean javax.management.relation.RoleUnresolvedList.addAll(javax.management.relation.RoleUnresolvedList) throws
      * java.lang.IndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#addAll(javax.management.relation.RoleUnresolvedList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,7 +220,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.relation.RoleUnresolvedList#asList() public java.util.List
      * javax.management.relation.RoleUnresolvedList.asList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#asList()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -181,9 +240,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#set(int,java.lang.Object) public
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#set(int, java.lang.Object) public
      * java.lang.Object javax.management.relation.RoleUnresolvedList.set(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#set(int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,10 +264,16 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.relation.RoleUnresolvedList#set(int,javax.management.relation.RoleUnresolved) public void
-     * javax.management.relation.RoleUnresolvedList.set(int,javax.management.relation.RoleUnresolved) throws
+     * {@link javax.management.relation.RoleUnresolvedList#set(int, javax.management.relation.RoleUnresolved) public
+     * void javax.management.relation.RoleUnresolvedList.set(int,javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RoleUnresolvedList#set(int, javax.management.relation.RoleUnresolved)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

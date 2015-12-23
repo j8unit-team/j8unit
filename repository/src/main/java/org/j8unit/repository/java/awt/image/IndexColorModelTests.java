@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.IndexColorModel class java.awt.image.IndexColorModel}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.IndexColorModel class java.awt.image.IndexColorModel},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.image.IndexColorModelTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.IndexColorModelClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.IndexColorModelClassTests
+ *
+ * @j8unit.aim java.awt.image.IndexColorModel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#convertToIntDiscrete(java.awt.image.Raster,boolean) public
+     * Test method for {@link java.awt.image.IndexColorModel#convertToIntDiscrete(java.awt.image.Raster, boolean) public
      * java.awt.image.BufferedImage java.awt.image.IndexColorModel.convertToIntDiscrete(java.awt.image.Raster,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#convertToIntDiscrete(java.awt.image.Raster, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -40,9 +51,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#createCompatibleSampleModel(int,int) public
+     * Test method for {@link java.awt.image.IndexColorModel#createCompatibleSampleModel(int, int) public
      * java.awt.image.SampleModel java.awt.image.IndexColorModel.createCompatibleSampleModel(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#createCompatibleSampleModel(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,9 +74,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#createCompatibleWritableRaster(int,int) public
+     * Test method for {@link java.awt.image.IndexColorModel#createCompatibleWritableRaster(int, int) public
      * java.awt.image.WritableRaster java.awt.image.IndexColorModel.createCompatibleWritableRaster(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#createCompatibleWritableRaster(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#finalize() public void
      * java.awt.image.IndexColorModel.finalize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#finalize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getAlpha(int) public final int
      * java.awt.image.IndexColorModel.getAlpha(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getAlpha(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +145,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getAlphas(byte[]) public final void
      * java.awt.image.IndexColorModel.getAlphas(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getAlphas(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +167,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getBlue(int) public final int
      * java.awt.image.IndexColorModel.getBlue(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getBlue(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +190,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getBlues(byte[]) public final void
      * java.awt.image.IndexColorModel.getBlues(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getBlues(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,9 +210,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#getComponents(int,int[],int) public int[]
+     * Test method for {@link java.awt.image.IndexColorModel#getComponents(int, int[], int) public int[]
      * java.awt.image.IndexColorModel.getComponents(int,int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getComponents(int, int[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,9 +233,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#getComponents(java.lang.Object,int[],int) public int[]
+     * Test method for {@link java.awt.image.IndexColorModel#getComponents(java.lang.Object, int[], int) public int[]
      * java.awt.image.IndexColorModel.getComponents(java.lang.Object,int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getComponents(java.lang.Object, int[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +258,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getComponentSize() public int[]
      * java.awt.image.IndexColorModel.getComponentSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getComponentSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,9 +279,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#getDataElement(int[],int) public int
+     * Test method for {@link java.awt.image.IndexColorModel#getDataElement(int[], int) public int
      * java.awt.image.IndexColorModel.getDataElement(int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getDataElement(int[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,9 +302,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#getDataElements(int,java.lang.Object) public synchronized
+     * Test method for {@link java.awt.image.IndexColorModel#getDataElements(int, java.lang.Object) public synchronized
      * java.lang.Object java.awt.image.IndexColorModel.getDataElements(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getDataElements(int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -242,9 +325,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.IndexColorModel#getDataElements(int[],int,java.lang.Object) public
+     * Test method for {@link java.awt.image.IndexColorModel#getDataElements(int[], int, java.lang.Object) public
      * java.lang.Object java.awt.image.IndexColorModel.getDataElements(int[],int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getDataElements(int[], int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,7 +350,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getGreen(int) public final int
      * java.awt.image.IndexColorModel.getGreen(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getGreen(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,7 +373,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getGreens(byte[]) public final void
      * java.awt.image.IndexColorModel.getGreens(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getGreens(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -294,7 +395,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getMapSize() public final int
      * java.awt.image.IndexColorModel.getMapSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getMapSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -310,7 +417,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getRed(int) public final int
      * java.awt.image.IndexColorModel.getRed(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getRed(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,7 +440,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getReds(byte[]) public final void
      * java.awt.image.IndexColorModel.getReds(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getReds(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -343,7 +462,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getRGB(int) public final int
      * java.awt.image.IndexColorModel.getRGB(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getRGB(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -360,7 +485,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getRGBs(int[]) public final void
      * java.awt.image.IndexColorModel.getRGBs(int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getRGBs(int[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -376,7 +507,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getTransparency() public int
      * java.awt.image.IndexColorModel.getTransparency()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getTransparency()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -393,7 +530,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getTransparentPixel() public final int
      * java.awt.image.IndexColorModel.getTransparentPixel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getTransparentPixel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,7 +552,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#getValidPixels() public java.math.BigInteger
      * java.awt.image.IndexColorModel.getValidPixels()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#getValidPixels()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -425,7 +574,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#isCompatibleRaster(java.awt.image.Raster) public boolean
      * java.awt.image.IndexColorModel.isCompatibleRaster(java.awt.image.Raster)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#isCompatibleRaster(java.awt.image.Raster)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -442,7 +597,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#isCompatibleSampleModel(java.awt.image.SampleModel) public
      * boolean java.awt.image.IndexColorModel.isCompatibleSampleModel(java.awt.image.SampleModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#isCompatibleSampleModel(java.awt.image.SampleModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -459,7 +620,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#isValid() public boolean
      * java.awt.image.IndexColorModel.isValid()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#isValid()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -475,7 +642,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#isValid(int) public boolean
      * java.awt.image.IndexColorModel.isValid(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#isValid(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -491,7 +664,13 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.IndexColorModel#toString() public java.lang.String
      * java.awt.image.IndexColorModel.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.IndexColorModel#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

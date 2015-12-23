@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DateFormatClassTest
 implements org.j8unit.repository.java.text.DateFormatClassTests<java.text.DateFormat> {
 
+    @Override
+    public Class<java.text.DateFormat> createNewSUT() {
+        return java.text.DateFormat.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
     implements org.j8unit.repository.java.text.DateFormatClassTests.FieldClassTests<java.text.DateFormat.Field> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<java.text.DateFo
             return java.text.DateFormat.Field.class;
         }
 
-    }
-
-    @Override
-    public Class<java.text.DateFormat> createNewSUT() {
-        return java.text.DateFormat.class;
     }
 
 }

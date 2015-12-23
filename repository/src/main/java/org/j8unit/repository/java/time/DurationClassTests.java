@@ -9,26 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.time.Duration class java.time.Duration}, containing all class relevant test methods (at
- * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
- * class containing the instance relevant test methods is {@link org.j8unit.repository.java.time.DurationTests}.
+ * Reusable J8Unit test interface for {@linkplain java.time.Duration class java.time.Duration}, containing all class
+ * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
+ * {@link org.j8unit.repository.java.time.DurationTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.time.DurationTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.time.DurationTests
+ *
+ * @j8unit.aim java.time.Duration
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,9 +42,16 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.time.Duration#between(java.time.temporal.Temporal,java.time.temporal.Temporal) public
-     * static java.time.Duration java.time.Duration.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     * Test method for {@link java.time.Duration#between(java.time.temporal.Temporal, java.time.temporal.Temporal)
+     * public static java.time.Duration
+     * java.time.Duration.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#between(java.time.temporal.Temporal, java.time.temporal.Temporal)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,7 +67,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#from(java.time.temporal.TemporalAmount) public static
      * java.time.Duration java.time.Duration.from(java.time.temporal.TemporalAmount)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#from(java.time.temporal.TemporalAmount)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -70,9 +87,15 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.time.Duration#of(long,java.time.temporal.TemporalUnit) public static
+     * Test method for {@link java.time.Duration#of(long, java.time.temporal.TemporalUnit) public static
      * java.time.Duration java.time.Duration.of(long,java.time.temporal.TemporalUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#of(long, java.time.temporal.TemporalUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,7 +111,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#ofDays(long) public static java.time.Duration
      * java.time.Duration.ofDays(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofDays(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,7 +133,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#ofHours(long) public static java.time.Duration
      * java.time.Duration.ofHours(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofHours(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,7 +155,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#ofMillis(long) public static java.time.Duration
      * java.time.Duration.ofMillis(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofMillis(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,7 +177,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#ofMinutes(long) public static java.time.Duration
      * java.time.Duration.ofMinutes(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofMinutes(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,7 +199,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#ofNanos(long) public static java.time.Duration
      * java.time.Duration.ofNanos(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofNanos(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,7 +221,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#ofSeconds(long) public static java.time.Duration
      * java.time.Duration.ofSeconds(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofSeconds(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -182,9 +241,15 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.time.Duration#ofSeconds(long,long) public static java.time.Duration
+     * Test method for {@link java.time.Duration#ofSeconds(long, long) public static java.time.Duration
      * java.time.Duration.ofSeconds(long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#ofSeconds(long, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -200,7 +265,13 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.time.Duration#parse(java.lang.CharSequence) public static java.time.Duration
      * java.time.Duration.parse(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.Duration#parse(java.lang.CharSequence)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -212,6 +283,11 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.time.Duration#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

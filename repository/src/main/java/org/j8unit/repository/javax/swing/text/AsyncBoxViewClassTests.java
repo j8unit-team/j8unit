@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.AsyncBoxView class javax.swing.text.AsyncBoxView}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.AsyncBoxView class javax.swing.text.AsyncBoxView},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.text.AsyncBoxViewTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests
+ *
+ * @j8unit.aim javax.swing.text.AsyncBoxView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,10 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AsyncBoxView$ChildLocator class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AsyncBoxView.ChildLocator class
      * javax.swing.text.AsyncBoxView$ChildLocator}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests}.
      * </p>
      *
@@ -49,7 +52,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +60,13 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests
+     *
+     * @j8unit.aim javax.swing.text.AsyncBoxView.ChildLocator
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -68,8 +74,16 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for {@link javax.swing.text.AsyncBoxView.ChildLocator#ChildLocator(javax.swing.text.AsyncBoxView)
          * public javax.swing.text.AsyncBoxView$ChildLocator(javax.swing.text.AsyncBoxView)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AsyncBoxView.ChildLocator#ChildLocator(javax.swing.text.AsyncBoxView)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -82,6 +96,11 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
                                                                          // ChildLocator(javax.swing.text.AsyncBoxView);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AsyncBoxView.ChildLocator#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -96,9 +115,10 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AsyncBoxView$ChildState class javax.swing.text.AsyncBoxView$ChildState},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AsyncBoxView.ChildState class
+     * javax.swing.text.AsyncBoxView$ChildState}, containing all class relevant test methods (at least the test methods
+     * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildStateTests}.
      * </p>
      *
@@ -106,7 +126,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -114,10 +134,13 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildStateTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildStateTests
+     *
+     * @j8unit.aim javax.swing.text.AsyncBoxView.ChildState
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -125,9 +148,18 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.AsyncBoxView.ChildState#ChildState(javax.swing.text.AsyncBoxView,javax.swing.text.View)
+         * {@link javax.swing.text.AsyncBoxView.ChildState#ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View)
          * public javax.swing.text.AsyncBoxView$ChildState(javax.swing.text.AsyncBoxView,javax.swing.text.View)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AsyncBoxView.ChildState#ChildState(javax.swing.text.AsyncBoxView,
+         *             javax.swing.text.View)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -137,9 +169,15 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.AsyncBoxView.ChildState sut = null; // = new
-                                                                       // ChildState(javax.swing.text.AsyncBoxView,javax.swing.text.View);
+                                                                       // ChildState(javax.swing.text.AsyncBoxView,
+                                                                       // javax.swing.text.View);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AsyncBoxView.ChildState#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -153,8 +191,16 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.text.AsyncBoxView#AsyncBoxView(javax.swing.text.Element,int) public
+     * <p>
+     * Test method for {@link javax.swing.text.AsyncBoxView#AsyncBoxView(javax.swing.text.Element, int) public
      * javax.swing.text.AsyncBoxView(javax.swing.text.Element,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.text.AsyncBoxView#AsyncBoxView(javax.swing.text.Element, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,9 +209,14 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.text.AsyncBoxView sut = null; // = new AsyncBoxView(javax.swing.text.Element,int);
+        final javax.swing.text.AsyncBoxView sut = null; // = new AsyncBoxView(javax.swing.text.Element, int);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.text.AsyncBoxView#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

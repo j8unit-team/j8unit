@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicComboPopupClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests<javax.swing.plaf.basic.BasicComboPopup> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicComboPopup> createNewSUT() {
+        return javax.swing.plaf.basic.BasicComboPopup.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class InvocationKeyHandlerClassTest
     implements
@@ -29,11 +34,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTest
             return javax.swing.plaf.basic.BasicComboPopup.ListDataHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicComboPopup> createNewSUT() {
-        return javax.swing.plaf.basic.BasicComboPopup.class;
     }
 
 }

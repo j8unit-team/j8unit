@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.sql.RowIdLifetime class java.sql.RowIdLifetime}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.sql.RowIdLifetime class java.sql.RowIdLifetime}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.sql.RowIdLifetimeTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.sql.RowIdLifetimeClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.sql.RowIdLifetimeClassTests
+ *
+ * @j8unit.aim java.sql.RowIdLifetime
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.TreeMap class java.util.TreeMap}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.TreeMap class java.util.TreeMap}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.java.util.TreeMapTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.TreeMapClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.TreeMapClassTests
+ *
+ * @j8unit.aim java.util.TreeMap
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#ceilingEntry(java.lang.Object) public java.util.Map$Entry
      * java.util.TreeMap.ceilingEntry(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#ceilingEntry(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#ceilingKey(java.lang.Object) public java.lang.Object
      * java.util.TreeMap.ceilingKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#ceilingKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#clear() public void java.util.TreeMap.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#clear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +98,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#clone() public java.lang.Object java.util.TreeMap.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +120,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#comparator() public java.util.Comparator java.util.TreeMap.comparator()}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#comparator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +143,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#containsKey(java.lang.Object) public boolean
      * java.util.TreeMap.containsKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#containsKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +166,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#containsValue(java.lang.Object) public boolean
      * java.util.TreeMap.containsValue(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#containsValue(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +189,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#descendingKeySet() public java.util.NavigableSet
      * java.util.TreeMap.descendingKeySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#descendingKeySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +212,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#descendingMap() public java.util.NavigableMap
      * java.util.TreeMap.descendingMap()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#descendingMap()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +234,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#entrySet() public java.util.Set java.util.TreeMap.entrySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#entrySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,9 +256,17 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Map</li>
+     * <li>class java.util.AbstractMap</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -208,7 +280,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#firstEntry() public java.util.Map$Entry java.util.TreeMap.firstEntry()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#firstEntry()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,7 +302,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#firstKey() public java.lang.Object java.util.TreeMap.firstKey()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#firstKey()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,7 +325,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#floorEntry(java.lang.Object) public java.util.Map$Entry
      * java.util.TreeMap.floorEntry(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#floorEntry(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -258,7 +348,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#floorKey(java.lang.Object) public java.lang.Object
      * java.util.TreeMap.floorKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#floorKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -275,7 +371,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#forEach(java.util.function.BiConsumer) public void
      * java.util.TreeMap.forEach(java.util.function.BiConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#forEach(java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,7 +394,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#get(java.lang.Object) public java.lang.Object
      * java.util.TreeMap.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#get(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -308,9 +416,17 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Map</li>
+     * <li>class java.util.AbstractMap</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -325,7 +441,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#headMap(java.lang.Object) public java.util.SortedMap
      * java.util.TreeMap.headMap(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#headMap(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -340,9 +462,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#headMap(java.lang.Object,boolean) public java.util.NavigableMap
+     * Test method for {@link java.util.TreeMap#headMap(java.lang.Object, boolean) public java.util.NavigableMap
      * java.util.TreeMap.headMap(java.lang.Object,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#headMap(java.lang.Object, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,7 +487,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#higherEntry(java.lang.Object) public java.util.Map$Entry
      * java.util.TreeMap.higherEntry(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#higherEntry(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -376,7 +510,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#higherKey(java.lang.Object) public java.lang.Object
      * java.util.TreeMap.higherKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#higherKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,9 +532,17 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Map</li>
+     * <li>class java.util.AbstractMap</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -408,7 +556,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#keySet() public java.util.Set java.util.TreeMap.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#keySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -424,7 +578,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#lastEntry() public java.util.Map$Entry java.util.TreeMap.lastEntry()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#lastEntry()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -440,7 +600,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#lastKey() public java.lang.Object java.util.TreeMap.lastKey()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#lastKey()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -457,7 +623,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#lowerEntry(java.lang.Object) public java.util.Map$Entry
      * java.util.TreeMap.lowerEntry(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#lowerEntry(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -474,7 +646,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#lowerKey(java.lang.Object) public java.lang.Object
      * java.util.TreeMap.lowerKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#lowerKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -491,7 +669,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#navigableKeySet() public java.util.NavigableSet
      * java.util.TreeMap.navigableKeySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#navigableKeySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -508,7 +692,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#pollFirstEntry() public java.util.Map$Entry
      * java.util.TreeMap.pollFirstEntry()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#pollFirstEntry()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -525,7 +715,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#pollLastEntry() public java.util.Map$Entry
      * java.util.TreeMap.pollLastEntry()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#pollLastEntry()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -540,9 +736,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#put(java.lang.Object,java.lang.Object) public java.lang.Object
+     * Test method for {@link java.util.TreeMap#put(java.lang.Object, java.lang.Object) public java.lang.Object
      * java.util.TreeMap.put(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#put(java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -559,7 +761,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#putAll(java.util.Map) public void
      * java.util.TreeMap.putAll(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#putAll(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -576,7 +784,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#remove(java.lang.Object) public java.lang.Object
      * java.util.TreeMap.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#remove(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -591,9 +805,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#replace(java.lang.Object,java.lang.Object) public java.lang.Object
+     * Test method for {@link java.util.TreeMap#replace(java.lang.Object, java.lang.Object) public java.lang.Object
      * java.util.TreeMap.replace(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#replace(java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -608,9 +828,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#replace(java.lang.Object,java.lang.Object,java.lang.Object) public
+     * Test method for {@link java.util.TreeMap#replace(java.lang.Object, java.lang.Object, java.lang.Object) public
      * boolean java.util.TreeMap.replace(java.lang.Object,java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#replace(java.lang.Object, java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -627,7 +853,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.TreeMap.replaceAll(java.util.function.BiFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#replaceAll(java.util.function.BiFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -643,7 +875,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#size() public int java.util.TreeMap.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -658,9 +896,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#subMap(java.lang.Object,boolean,java.lang.Object,boolean) public
+     * Test method for {@link java.util.TreeMap#subMap(java.lang.Object, boolean, java.lang.Object, boolean) public
      * java.util.NavigableMap java.util.TreeMap.subMap(java.lang.Object,boolean,java.lang.Object,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#subMap(java.lang.Object, boolean, java.lang.Object, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -675,9 +919,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#subMap(java.lang.Object,java.lang.Object) public java.util.SortedMap
+     * Test method for {@link java.util.TreeMap#subMap(java.lang.Object, java.lang.Object) public java.util.SortedMap
      * java.util.TreeMap.subMap(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#subMap(java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -694,7 +944,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.util.TreeMap#tailMap(java.lang.Object) public java.util.SortedMap
      * java.util.TreeMap.tailMap(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#tailMap(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -709,9 +965,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.util.TreeMap#tailMap(java.lang.Object,boolean) public java.util.NavigableMap
+     * Test method for {@link java.util.TreeMap#tailMap(java.lang.Object, boolean) public java.util.NavigableMap
      * java.util.TreeMap.tailMap(java.lang.Object,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#tailMap(java.lang.Object, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -727,7 +989,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for {@link java.util.TreeMap#values() public java.util.Collection java.util.TreeMap.values()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.TreeMap#values()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

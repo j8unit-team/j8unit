@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.xml.sax.ext.Attributes2Impl class org.xml.sax.ext.Attributes2Impl}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.xml.sax.ext.Attributes2Impl class org.xml.sax.ext.Attributes2Impl}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.xml.sax.ext.Attributes2ImplTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.xml.sax.ext.Attributes2ImplClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.xml.sax.ext.Attributes2ImplClassTests
+ *
+ * @j8unit.aim org.xml.sax.ext.Attributes2Impl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for
-     * {@link org.xml.sax.ext.Attributes2Impl#addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link org.xml.sax.ext.Attributes2Impl#addAttribute(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public void
      * org.xml.sax.ext.Attributes2Impl.addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#addAttribute(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,9 +57,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -61,9 +81,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -77,9 +105,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -93,9 +129,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -109,9 +153,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -125,9 +177,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -141,9 +201,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -157,9 +225,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -173,9 +249,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -189,9 +273,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -205,9 +297,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -221,9 +321,17 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.xml.sax.Attributes</li>
+     * <li>class org.xml.sax.helpers.AttributesImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -238,7 +346,13 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.xml.sax.ext.Attributes2Impl#isDeclared(int) public boolean
      * org.xml.sax.ext.Attributes2Impl.isDeclared(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#isDeclared(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -255,7 +369,13 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.xml.sax.ext.Attributes2Impl#isDeclared(java.lang.String) public boolean
      * org.xml.sax.ext.Attributes2Impl.isDeclared(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#isDeclared(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,9 +390,15 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2Impl#isDeclared(java.lang.String,java.lang.String) public
+     * Test method for {@link org.xml.sax.ext.Attributes2Impl#isDeclared(java.lang.String, java.lang.String) public
      * boolean org.xml.sax.ext.Attributes2Impl.isDeclared(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#isDeclared(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -289,7 +415,13 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.xml.sax.ext.Attributes2Impl#isSpecified(int) public boolean
      * org.xml.sax.ext.Attributes2Impl.isSpecified(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#isSpecified(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -306,7 +438,13 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.xml.sax.ext.Attributes2Impl#isSpecified(java.lang.String) public boolean
      * org.xml.sax.ext.Attributes2Impl.isSpecified(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#isSpecified(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -321,9 +459,15 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2Impl#isSpecified(java.lang.String,java.lang.String) public
+     * Test method for {@link org.xml.sax.ext.Attributes2Impl#isSpecified(java.lang.String, java.lang.String) public
      * boolean org.xml.sax.ext.Attributes2Impl.isSpecified(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#isSpecified(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -340,7 +484,13 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.xml.sax.ext.Attributes2Impl#removeAttribute(int) public void
      * org.xml.sax.ext.Attributes2Impl.removeAttribute(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#removeAttribute(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,7 +507,13 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.xml.sax.ext.Attributes2Impl#setAttributes(org.xml.sax.Attributes) public void
      * org.xml.sax.ext.Attributes2Impl.setAttributes(org.xml.sax.Attributes)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#setAttributes(org.xml.sax.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -372,9 +528,15 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2Impl#setDeclared(int,boolean) public void
+     * Test method for {@link org.xml.sax.ext.Attributes2Impl#setDeclared(int, boolean) public void
      * org.xml.sax.ext.Attributes2Impl.setDeclared(int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#setDeclared(int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -388,9 +550,15 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2Impl#setSpecified(int,boolean) public void
+     * Test method for {@link org.xml.sax.ext.Attributes2Impl#setSpecified(int, boolean) public void
      * org.xml.sax.ext.Attributes2Impl.setSpecified(int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.ext.Attributes2Impl#setSpecified(int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

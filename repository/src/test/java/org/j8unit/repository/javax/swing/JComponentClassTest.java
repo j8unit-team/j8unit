@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JComponentClassTest
 implements org.j8unit.repository.javax.swing.JComponentClassTests<javax.swing.JComponent> {
 
+    @Override
+    public Class<javax.swing.JComponent> createNewSUT() {
+        return javax.swing.JComponent.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AccessibleJComponentClassTest
     implements org.j8unit.repository.javax.swing.JComponentClassTests.AccessibleJComponentClassTests<javax.swing.JComponent.AccessibleJComponent> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<javax.swing.JC
             return javax.swing.JComponent.AccessibleJComponent.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JComponent> createNewSUT() {
-        return javax.swing.JComponent.class;
     }
 
 }

@@ -8,26 +8,9 @@ import org.junit.runner.RunWith;
 public class JSpinnerTest
 implements org.j8unit.repository.javax.swing.JSpinnerTests<javax.swing.JSpinner> {
 
-    @RunWith(J8Unit4.class)
-    public static class DateEditorTest
-    implements org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests<javax.swing.JSpinner.DateEditor> {
-
-        @Override
-        public javax.swing.JSpinner.DateEditor createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.JSpinner.DateEditor] available.");
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultEditorTest
-    implements org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests<javax.swing.JSpinner.DefaultEditor> {
-
-        @Override
-        public javax.swing.JSpinner.DefaultEditor createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.JSpinner.DefaultEditor] available.");
-        }
-
+    @Override
+    public javax.swing.JSpinner createNewSUT() {
+        return new javax.swing.JSpinner();
     }
 
     @RunWith(J8Unit4.class)
@@ -52,9 +35,26 @@ implements org.j8unit.repository.javax.swing.JSpinnerTests<javax.swing.JSpinner>
 
     }
 
-    @Override
-    public javax.swing.JSpinner createNewSUT() {
-        return new javax.swing.JSpinner();
+    @RunWith(J8Unit4.class)
+    public static class DateEditorTest
+    implements org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests<javax.swing.JSpinner.DateEditor> {
+
+        @Override
+        public javax.swing.JSpinner.DateEditor createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.JSpinner.DateEditor] available.");
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultEditorTest
+    implements org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests<javax.swing.JSpinner.DefaultEditor> {
+
+        @Override
+        public javax.swing.JSpinner.DefaultEditor createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.JSpinner.DefaultEditor] available.");
+        }
+
     }
 
 }

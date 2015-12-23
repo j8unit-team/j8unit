@@ -1,6 +1,6 @@
 package org.j8unit.repository.org.w3c.dom.ls;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.w3c.dom.ls.LSSerializer interface org.w3c.dom.ls.LSSerializer}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.w3c.dom.ls.LSSerializer interface org.w3c.dom.ls.LSSerializer},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.w3c.dom.ls.LSSerializerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.w3c.dom.ls.LSSerializerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.w3c.dom.ls.LSSerializerClassTests
+ *
+ * @j8unit.aim org.w3c.dom.ls.LSSerializer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LSSerializerTests<SUT extends org.w3c.dom.ls.LSSerializer>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
      * org.w3c.dom.ls.LSSerializer.getDomConfig()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#getDomConfig()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#getFilter() public abstract org.w3c.dom.ls.LSSerializerFilter
      * org.w3c.dom.ls.LSSerializer.getFilter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#getFilter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#getNewLine() public abstract java.lang.String
      * org.w3c.dom.ls.LSSerializer.getNewLine()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#getNewLine()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#setFilter(org.w3c.dom.ls.LSSerializerFilter) public abstract
      * void org.w3c.dom.ls.LSSerializer.setFilter(org.w3c.dom.ls.LSSerializerFilter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#setFilter(org.w3c.dom.ls.LSSerializerFilter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#setNewLine(java.lang.String) public abstract void
      * org.w3c.dom.ls.LSSerializer.setNewLine(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#setNewLine(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,10 +140,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSSerializer#write(org.w3c.dom.Node,org.w3c.dom.ls.LSOutput) public
+     * Test method for {@link org.w3c.dom.ls.LSSerializer#write(org.w3c.dom.Node, org.w3c.dom.ls.LSOutput) public
      * abstract boolean org.w3c.dom.ls.LSSerializer.write(org.w3c.dom.Node,org.w3c.dom.ls.LSOutput) throws
      * org.w3c.dom.ls.LSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#write(org.w3c.dom.Node, org.w3c.dom.ls.LSOutput)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +166,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ls.LSSerializer#writeToString(org.w3c.dom.Node) public abstract
      * java.lang.String org.w3c.dom.ls.LSSerializer.writeToString(org.w3c.dom.Node) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#writeToString(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,10 +186,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSSerializer#writeToURI(org.w3c.dom.Node,java.lang.String) public abstract
+     * Test method for {@link org.w3c.dom.ls.LSSerializer#writeToURI(org.w3c.dom.Node, java.lang.String) public abstract
      * boolean org.w3c.dom.ls.LSSerializer.writeToURI(org.w3c.dom.Node,java.lang.String) throws
      * org.w3c.dom.ls.LSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ls.LSSerializer#writeToURI(org.w3c.dom.Node, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.zip.Adler32 class java.util.zip.Adler32}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.zip.Adler32 class java.util.zip.Adler32}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.util.zip.Adler32Tests}
+ * .
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.zip.Adler32ClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.zip.Adler32ClassTests
+ *
+ * @j8unit.aim java.util.zip.Adler32
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,7 +30,13 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.util.zip.Adler32#getValue() public long java.util.zip.Adler32.getValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.zip.Adler32#getValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,7 +52,13 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.util.zip.Adler32#reset() public void java.util.zip.Adler32.reset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.zip.Adler32#reset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,7 +74,13 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.util.zip.Adler32#update(byte[]) public void java.util.zip.Adler32.update(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.zip.Adler32#update(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -71,9 +94,15 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Adler32#update(byte[],int,int) public void
+     * Test method for {@link java.util.zip.Adler32#update(byte[], int, int) public void
      * java.util.zip.Adler32.update(byte[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.zip.Adler32#update(byte[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.util.zip.Adler32#update(java.nio.ByteBuffer) public void
      * java.util.zip.Adler32.update(java.nio.ByteBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.zip.Adler32#update(java.nio.ByteBuffer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,7 +140,13 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.util.zip.Adler32#update(int) public void java.util.zip.Adler32.update(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.zip.Adler32#update(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

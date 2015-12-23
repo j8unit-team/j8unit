@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.naming.ldap.InitialLdapContext class javax.naming.ldap.InitialLdapContext}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.naming.ldap.InitialLdapContext class
+ * javax.naming.ldap.InitialLdapContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.naming.ldap.InitialLdapContextTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests
+ *
+ * @j8unit.aim javax.naming.ldap.InitialLdapContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -41,9 +54,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -57,9 +78,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -73,9 +102,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -89,9 +126,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -105,9 +150,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -121,9 +174,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -137,9 +198,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -153,9 +222,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -169,9 +246,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -185,9 +270,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -201,9 +294,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -217,9 +318,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -233,9 +342,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -252,7 +369,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * public javax.naming.ldap.ExtendedResponse
      * javax.naming.ldap.InitialLdapContext.extendedOperation(javax.naming.ldap.ExtendedRequest) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#extendedOperation(javax.naming.ldap.ExtendedRequest)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,9 +391,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -284,9 +415,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -300,9 +439,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -316,9 +463,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -334,7 +489,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * Test method for {@link javax.naming.ldap.InitialLdapContext#getConnectControls() public
      * javax.naming.ldap.Control[] javax.naming.ldap.InitialLdapContext.getConnectControls() throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#getConnectControls()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -350,9 +511,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -366,9 +535,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -382,9 +559,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -398,9 +583,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -416,7 +609,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * Test method for {@link javax.naming.ldap.InitialLdapContext#getRequestControls() public
      * javax.naming.ldap.Control[] javax.naming.ldap.InitialLdapContext.getRequestControls() throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#getRequestControls()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -434,7 +633,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * Test method for {@link javax.naming.ldap.InitialLdapContext#getResponseControls() public
      * javax.naming.ldap.Control[] javax.naming.ldap.InitialLdapContext.getResponseControls() throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#getResponseControls()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -450,9 +655,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -466,9 +679,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -482,9 +703,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -498,9 +727,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -514,9 +751,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -530,9 +775,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -546,9 +799,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -562,9 +823,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -578,9 +847,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -594,9 +871,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -610,9 +895,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -626,9 +919,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -642,9 +943,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -658,9 +967,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -674,9 +991,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -690,9 +1015,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -708,7 +1041,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * Test method for {@link javax.naming.ldap.InitialLdapContext#newInstance(javax.naming.ldap.Control[]) public
      * javax.naming.ldap.LdapContext javax.naming.ldap.InitialLdapContext.newInstance(javax.naming.ldap.Control[])
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#newInstance(javax.naming.ldap.Control[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -724,9 +1063,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -740,9 +1087,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -756,9 +1111,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -772,9 +1135,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -789,7 +1160,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * <p>
      * Test method for {@link javax.naming.ldap.InitialLdapContext#reconnect(javax.naming.ldap.Control[]) public void
      * javax.naming.ldap.InitialLdapContext.reconnect(javax.naming.ldap.Control[]) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#reconnect(javax.naming.ldap.Control[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -805,9 +1182,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -821,9 +1206,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -837,9 +1230,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -853,9 +1254,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -869,9 +1278,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -885,9 +1302,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -901,9 +1326,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -917,9 +1350,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -933,9 +1374,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -949,9 +1398,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -965,9 +1422,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.directory.DirContext</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -983,7 +1448,13 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
      * Test method for {@link javax.naming.ldap.InitialLdapContext#setRequestControls(javax.naming.ldap.Control[])
      * public void javax.naming.ldap.InitialLdapContext.setRequestControls(javax.naming.ldap.Control[]) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.ldap.InitialLdapContext#setRequestControls(javax.naming.ldap.Control[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -999,9 +1470,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -1015,9 +1494,17 @@ extends org.j8unit.repository.javax.naming.ldap.LdapContextTests<SUT>, org.j8uni
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.naming.Context</li>
+     * <li>class javax.naming.directory.InitialDirContext</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")

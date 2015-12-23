@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.LinkedHashMapTests<java.util.LinkedHa
 
     @Override
     public java.util.LinkedHashMap<K, V> createNewSUT() {
-        return new java.util.LinkedHashMap<>();
+        return new java.util.LinkedHashMap();
     }
 
 }

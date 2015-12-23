@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class HTMLEditorKitClassTest
 implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<javax.swing.text.html.HTMLEditorKit> {
 
+    @Override
+    public Class<javax.swing.text.html.HTMLEditorKit> createNewSUT() {
+        return javax.swing.text.html.HTMLEditorKit.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class HTMLFactoryClassTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests<javax.swing.text.html.HTMLEditorKit.HTMLFactory> {
@@ -19,37 +24,12 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<j
     }
 
     @RunWith(J8Unit4.class)
-    public static class HTMLTextActionClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<javax.swing.text.html.HTMLEditorKit.HTMLTextAction> {
+    public static class ParserClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests<javax.swing.text.html.HTMLEditorKit.Parser> {
 
         @Override
-        public Class<javax.swing.text.html.HTMLEditorKit.HTMLTextAction> createNewSUT() {
-            return javax.swing.text.html.HTMLEditorKit.HTMLTextAction.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class InsertHTMLTextActionClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests<javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> {
-
-        @Override
-        public Class<javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> createNewSUT() {
-            return javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class LinkControllerClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests<javax.swing.text.html.HTMLEditorKit.LinkController> {
-
-        @Override
-        public Class<javax.swing.text.html.HTMLEditorKit.LinkController> createNewSUT() {
-            return javax.swing.text.html.HTMLEditorKit.LinkController.class;
+        public Class<javax.swing.text.html.HTMLEditorKit.Parser> createNewSUT() {
+            return javax.swing.text.html.HTMLEditorKit.Parser.class;
         }
 
     }
@@ -67,19 +47,39 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<j
     }
 
     @RunWith(J8Unit4.class)
-    public static class ParserClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests<javax.swing.text.html.HTMLEditorKit.Parser> {
+    public static class HTMLTextActionClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<javax.swing.text.html.HTMLEditorKit.HTMLTextAction> {
 
         @Override
-        public Class<javax.swing.text.html.HTMLEditorKit.Parser> createNewSUT() {
-            return javax.swing.text.html.HTMLEditorKit.Parser.class;
+        public Class<javax.swing.text.html.HTMLEditorKit.HTMLTextAction> createNewSUT() {
+            return javax.swing.text.html.HTMLEditorKit.HTMLTextAction.class;
         }
 
     }
 
-    @Override
-    public Class<javax.swing.text.html.HTMLEditorKit> createNewSUT() {
-        return javax.swing.text.html.HTMLEditorKit.class;
+    @RunWith(J8Unit4.class)
+    public static class LinkControllerClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests<javax.swing.text.html.HTMLEditorKit.LinkController> {
+
+        @Override
+        public Class<javax.swing.text.html.HTMLEditorKit.LinkController> createNewSUT() {
+            return javax.swing.text.html.HTMLEditorKit.LinkController.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class InsertHTMLTextActionClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests<javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> {
+
+        @Override
+        public Class<javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> createNewSUT() {
+            return javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction.class;
+        }
+
     }
 
 }

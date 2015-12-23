@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.DynamicAny._DynFixedStub class org.omg.DynamicAny._DynFixedStub}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny._DynFixedStub class
+ * org.omg.DynamicAny._DynFixedStub}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.DynamicAny._DynFixedStubTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.DynamicAny._DynFixedStubClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.DynamicAny._DynFixedStubClassTests
+ *
+ * @j8unit.aim org.omg.DynamicAny._DynFixedStub
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -41,9 +54,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -57,9 +78,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -73,9 +102,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -89,9 +126,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -105,9 +150,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -121,9 +174,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -138,7 +199,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#_ids() public java.lang.String[]
      * org.omg.DynamicAny._DynFixedStub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#_ids()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,9 +221,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -170,9 +245,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -186,9 +269,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -202,9 +293,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -218,9 +317,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -234,9 +341,17 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -252,7 +367,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#assign(org.omg.DynamicAny.DynAny) public void
      * org.omg.DynamicAny._DynFixedStub.assign(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#assign(org.omg.DynamicAny.DynAny)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,7 +390,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#component_count() public int
      * org.omg.DynamicAny._DynFixedStub.component_count()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#component_count()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,7 +413,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#copy() public org.omg.DynamicAny.DynAny
      * org.omg.DynamicAny._DynFixedStub.copy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#copy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -303,7 +436,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#current_component() public org.omg.DynamicAny.DynAny
      * org.omg.DynamicAny._DynFixedStub.current_component() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#current_component()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -320,7 +459,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#destroy() public void
      * org.omg.DynamicAny._DynFixedStub.destroy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#destroy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -337,7 +482,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#equal(org.omg.DynamicAny.DynAny) public boolean
      * org.omg.DynamicAny._DynFixedStub.equal(org.omg.DynamicAny.DynAny)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#equal(org.omg.DynamicAny.DynAny)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,7 +506,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#from_any(org.omg.CORBA.Any) public void
      * org.omg.DynamicAny._DynFixedStub.from_any(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#from_any(org.omg.CORBA.Any)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -373,7 +530,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_any() public org.omg.CORBA.Any
      * org.omg.DynamicAny._DynFixedStub.get_any() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_any()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,7 +554,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_boolean() public boolean
      * org.omg.DynamicAny._DynFixedStub.get_boolean() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_boolean()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,7 +578,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_char() public char
      * org.omg.DynamicAny._DynFixedStub.get_char() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_char()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -427,7 +602,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_double() public double
      * org.omg.DynamicAny._DynFixedStub.get_double() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_double()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -445,7 +626,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_dyn_any() public org.omg.DynamicAny.DynAny
      * org.omg.DynamicAny._DynFixedStub.get_dyn_any() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_dyn_any()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -463,7 +650,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_float() public float
      * org.omg.DynamicAny._DynFixedStub.get_float() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_float()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -481,7 +674,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_long() public int
      * org.omg.DynamicAny._DynFixedStub.get_long() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_long()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -499,7 +698,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_longlong() public long
      * org.omg.DynamicAny._DynFixedStub.get_longlong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_longlong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -517,7 +722,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_octet() public byte
      * org.omg.DynamicAny._DynFixedStub.get_octet() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_octet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -535,7 +746,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_reference() public org.omg.CORBA.Object
      * org.omg.DynamicAny._DynFixedStub.get_reference() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_reference()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -553,7 +770,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_short() public short
      * org.omg.DynamicAny._DynFixedStub.get_short() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_short()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -571,7 +794,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_string() public java.lang.String
      * org.omg.DynamicAny._DynFixedStub.get_string() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_string()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -589,7 +818,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_typecode() public org.omg.CORBA.TypeCode
      * org.omg.DynamicAny._DynFixedStub.get_typecode() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_typecode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -607,7 +842,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_ulong() public int
      * org.omg.DynamicAny._DynFixedStub.get_ulong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_ulong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -625,7 +866,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_ulonglong() public long
      * org.omg.DynamicAny._DynFixedStub.get_ulonglong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_ulonglong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -643,7 +890,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_ushort() public short
      * org.omg.DynamicAny._DynFixedStub.get_ushort() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_ushort()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -661,7 +914,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_val() public java.io.Serializable
      * org.omg.DynamicAny._DynFixedStub.get_val() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_val()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -678,7 +937,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_value() public java.lang.String
      * org.omg.DynamicAny._DynFixedStub.get_value()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_value()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -696,7 +961,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_wchar() public char
      * org.omg.DynamicAny._DynFixedStub.get_wchar() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_wchar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -714,7 +985,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#get_wstring() public java.lang.String
      * org.omg.DynamicAny._DynFixedStub.get_wstring() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#get_wstring()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -732,7 +1009,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_any(org.omg.CORBA.Any) public void
      * org.omg.DynamicAny._DynFixedStub.insert_any(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_any(org.omg.CORBA.Any)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -750,7 +1033,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_boolean(boolean) public void
      * org.omg.DynamicAny._DynFixedStub.insert_boolean(boolean) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_boolean(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -768,7 +1057,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_char(char) public void
      * org.omg.DynamicAny._DynFixedStub.insert_char(char) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_char(char)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -786,7 +1081,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_double(double) public void
      * org.omg.DynamicAny._DynFixedStub.insert_double(double) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_double(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -804,7 +1105,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_dyn_any(org.omg.DynamicAny.DynAny) public void
      * org.omg.DynamicAny._DynFixedStub.insert_dyn_any(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_dyn_any(org.omg.DynamicAny.DynAny)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -822,7 +1129,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_float(float) public void
      * org.omg.DynamicAny._DynFixedStub.insert_float(float) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_float(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -840,7 +1153,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_long(int) public void
      * org.omg.DynamicAny._DynFixedStub.insert_long(int) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_long(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -858,7 +1177,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_longlong(long) public void
      * org.omg.DynamicAny._DynFixedStub.insert_longlong(long) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_longlong(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -876,7 +1201,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_octet(byte) public void
      * org.omg.DynamicAny._DynFixedStub.insert_octet(byte) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_octet(byte)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -894,7 +1225,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_reference(org.omg.CORBA.Object) public void
      * org.omg.DynamicAny._DynFixedStub.insert_reference(org.omg.CORBA.Object) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_reference(org.omg.CORBA.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -912,7 +1249,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_short(short) public void
      * org.omg.DynamicAny._DynFixedStub.insert_short(short) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_short(short)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -930,7 +1273,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_string(java.lang.String) public void
      * org.omg.DynamicAny._DynFixedStub.insert_string(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_string(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -948,7 +1297,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_typecode(org.omg.CORBA.TypeCode) public void
      * org.omg.DynamicAny._DynFixedStub.insert_typecode(org.omg.CORBA.TypeCode) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_typecode(org.omg.CORBA.TypeCode)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -966,7 +1321,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_ulong(int) public void
      * org.omg.DynamicAny._DynFixedStub.insert_ulong(int) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_ulong(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -984,7 +1345,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_ulonglong(long) public void
      * org.omg.DynamicAny._DynFixedStub.insert_ulonglong(long) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_ulonglong(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1002,7 +1369,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_ushort(short) public void
      * org.omg.DynamicAny._DynFixedStub.insert_ushort(short) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_ushort(short)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1020,7 +1393,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_val(java.io.Serializable) public void
      * org.omg.DynamicAny._DynFixedStub.insert_val(java.io.Serializable) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_val(java.io.Serializable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1038,7 +1417,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_wchar(char) public void
      * org.omg.DynamicAny._DynFixedStub.insert_wchar(char) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_wchar(char)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1056,7 +1441,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#insert_wstring(java.lang.String) public void
      * org.omg.DynamicAny._DynFixedStub.insert_wstring(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#insert_wstring(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1073,7 +1464,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#next() public boolean
      * org.omg.DynamicAny._DynFixedStub.next()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#next()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1090,7 +1487,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#rewind() public void
      * org.omg.DynamicAny._DynFixedStub.rewind()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#rewind()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1107,7 +1510,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#seek(int) public boolean
      * org.omg.DynamicAny._DynFixedStub.seek(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#seek(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1125,7 +1534,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#set_value(java.lang.String) public boolean
      * org.omg.DynamicAny._DynFixedStub.set_value(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#set_value(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1142,7 +1557,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#to_any() public org.omg.CORBA.Any
      * org.omg.DynamicAny._DynFixedStub.to_any()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#to_any()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1159,7 +1580,13 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedTests<SUT>, org.j8unit.
      * <p>
      * Test method for {@link org.omg.DynamicAny._DynFixedStub#type() public org.omg.CORBA.TypeCode
      * org.omg.DynamicAny._DynFixedStub.type()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.DynamicAny._DynFixedStub#type()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.PrimitiveIterator interface java.util.PrimitiveIterator}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator interface java.util.PrimitiveIterator},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests
+ *
+ * @j8unit.aim java.util.PrimitiveIterator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
     /**
      * <p>
-     * Test class for {@link java.util.PrimitiveIterator$OfDouble interface java.util.PrimitiveIterator$OfDouble},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator.OfDouble interface
+     * java.util.PrimitiveIterator$OfDouble}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests
+     *
+     * @j8unit.aim java.util.PrimitiveIterator.OfDouble
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.Consumer)
          * public default void java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.Consumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.Consumer)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -60,7 +76,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * Test method for
          * {@link java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.DoubleConsumer) public
          * default void java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.DoubleConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.DoubleConsumer)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -76,7 +98,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfDouble#next() public default java.lang.Double
          * java.util.PrimitiveIterator$OfDouble.next()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfDouble#next()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -93,7 +121,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfDouble#nextDouble() public abstract double
          * java.util.PrimitiveIterator$OfDouble.nextDouble()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfDouble#nextDouble()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -109,14 +143,19 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
     /**
      * <p>
-     * Test class for {@link java.util.PrimitiveIterator$OfInt interface java.util.PrimitiveIterator$OfInt}, containing
-     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator.OfInt interface
+     * java.util.PrimitiveIterator$OfInt}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfIntClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfIntClassTests
+     *
+     * @j8unit.aim java.util.PrimitiveIterator.OfInt
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -127,7 +166,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfInt#forEachRemaining(java.util.function.Consumer) public
          * default void java.util.PrimitiveIterator$OfInt.forEachRemaining(java.util.function.Consumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfInt#forEachRemaining(java.util.function.Consumer)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -144,7 +189,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfInt#forEachRemaining(java.util.function.IntConsumer)
          * public default void java.util.PrimitiveIterator$OfInt.forEachRemaining(java.util.function.IntConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfInt#forEachRemaining(java.util.function.IntConsumer)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -160,7 +211,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfInt#next() public default java.lang.Integer
          * java.util.PrimitiveIterator$OfInt.next()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfInt#next()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -177,7 +234,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfInt#nextInt() public abstract int
          * java.util.PrimitiveIterator$OfInt.nextInt()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfInt#nextInt()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -193,14 +256,19 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
     /**
      * <p>
-     * Test class for {@link java.util.PrimitiveIterator$OfLong interface java.util.PrimitiveIterator$OfLong},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator.OfLong interface
+     * java.util.PrimitiveIterator$OfLong}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests
+     *
+     * @j8unit.aim java.util.PrimitiveIterator.OfLong
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -211,7 +279,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.Consumer)
          * public default void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.Consumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.Consumer)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -228,7 +302,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.LongConsumer)
          * public default void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.LongConsumer)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -244,7 +324,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfLong#next() public default java.lang.Long
          * java.util.PrimitiveIterator$OfLong.next()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfLong#next()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -261,7 +347,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for {@link java.util.PrimitiveIterator.OfLong#nextLong() public abstract long
          * java.util.PrimitiveIterator$OfLong.nextLong()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfLong#nextLong()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -279,7 +371,13 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
      * <p>
      * Test method for {@link java.util.PrimitiveIterator#forEachRemaining(java.lang.Object) public abstract void
      * java.util.PrimitiveIterator.forEachRemaining(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.PrimitiveIterator#forEachRemaining(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.time.temporal.ChronoUnit class java.time.temporal.ChronoUnit}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.time.temporal.ChronoUnit class java.time.temporal.ChronoUnit},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.time.temporal.ChronoUnitTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.time.temporal.ChronoUnitClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.time.temporal.ChronoUnitClassTests
+ *
+ * @j8unit.aim java.time.temporal.ChronoUnit
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ChronoUnit#addTo(java.time.temporal.Temporal,long) public
+     * Test method for {@link java.time.temporal.ChronoUnit#addTo(java.time.temporal.Temporal, long) public
      * java.time.temporal.Temporal java.time.temporal.ChronoUnit.addTo(java.time.temporal.Temporal,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#addTo(java.time.temporal.Temporal, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,9 +53,15 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link java.time.temporal.ChronoUnit#between(java.time.temporal.Temporal,java.time.temporal.Temporal) public long
-     * java.time.temporal.ChronoUnit.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     * {@link java.time.temporal.ChronoUnit#between(java.time.temporal.Temporal, java.time.temporal.Temporal) public
+     * long java.time.temporal.ChronoUnit.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#between(java.time.temporal.Temporal, java.time.temporal.Temporal)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
      * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#getDuration() public java.time.Duration
      * java.time.temporal.ChronoUnit.getDuration()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#getDuration()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +101,13 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
      * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#isDateBased() public boolean
      * java.time.temporal.ChronoUnit.isDateBased()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#isDateBased()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +124,13 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
      * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#isDurationEstimated() public boolean
      * java.time.temporal.ChronoUnit.isDurationEstimated()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#isDurationEstimated()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +147,13 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
      * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#isSupportedBy(java.time.temporal.Temporal) public boolean
      * java.time.temporal.ChronoUnit.isSupportedBy(java.time.temporal.Temporal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#isSupportedBy(java.time.temporal.Temporal)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,7 +170,13 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
      * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#isTimeBased() public boolean
      * java.time.temporal.ChronoUnit.isTimeBased()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#isTimeBased()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,7 +193,13 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
      * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#toString() public java.lang.String
      * java.time.temporal.ChronoUnit.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.temporal.ChronoUnit#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class JTreeClassTest
 implements org.j8unit.repository.javax.swing.JTreeClassTests<javax.swing.JTree> {
 
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.JTreeClassTests.DropLocationClassTests<javax.swing.JTree.DropLocation> {
-
-        @Override
-        public Class<javax.swing.JTree.DropLocation> createNewSUT() {
-            return javax.swing.JTree.DropLocation.class;
-        }
-
+    @Override
+    public Class<javax.swing.JTree> createNewSUT() {
+        return javax.swing.JTree.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<javax.swing.JTree> 
 
     }
 
-    @Override
-    public Class<javax.swing.JTree> createNewSUT() {
-        return javax.swing.JTree.class;
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.JTreeClassTests.DropLocationClassTests<javax.swing.JTree.DropLocation> {
+
+        @Override
+        public Class<javax.swing.JTree.DropLocation> createNewSUT() {
+            return javax.swing.JTree.DropLocation.class;
+        }
+
     }
 
 }

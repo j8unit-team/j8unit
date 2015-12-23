@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.channels.SeekableByteChannel interface java.nio.channels.SeekableByteChannel},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.nio.channels.SeekableByteChannel interface
+ * java.nio.channels.SeekableByteChannel}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.nio.channels.SeekableByteChannelTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.channels.SeekableByteChannelClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.channels.SeekableByteChannelClassTests
+ *
+ * @j8unit.aim java.nio.channels.SeekableByteChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.SeekableByteChannel#position() public abstract long
      * java.nio.channels.SeekableByteChannel.position() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.SeekableByteChannel#position()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT> {
      * Test method for {@link java.nio.channels.SeekableByteChannel#position(long) public abstract
      * java.nio.channels.SeekableByteChannel java.nio.channels.SeekableByteChannel.position(long) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.SeekableByteChannel#position(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.SeekableByteChannel#read(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.SeekableByteChannel.read(java.nio.ByteBuffer) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.SeekableByteChannel#read(java.nio.ByteBuffer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.SeekableByteChannel#size() public abstract long
      * java.nio.channels.SeekableByteChannel.size() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.SeekableByteChannel#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT> {
      * Test method for {@link java.nio.channels.SeekableByteChannel#truncate(long) public abstract
      * java.nio.channels.SeekableByteChannel java.nio.channels.SeekableByteChannel.truncate(long) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.SeekableByteChannel#truncate(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.SeekableByteChannel#write(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.SeekableByteChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.SeekableByteChannel#write(java.nio.ByteBuffer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

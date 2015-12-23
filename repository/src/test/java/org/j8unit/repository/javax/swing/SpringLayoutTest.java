@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class SpringLayoutTest
 implements org.j8unit.repository.javax.swing.SpringLayoutTests<javax.swing.SpringLayout> {
 
+    @Override
+    public javax.swing.SpringLayout createNewSUT() {
+        return new javax.swing.SpringLayout();
+    }
+
     @RunWith(J8Unit4.class)
     public static class ConstraintsTest
     implements org.j8unit.repository.javax.swing.SpringLayoutTests.ConstraintsTests<javax.swing.SpringLayout.Constraints> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.SpringLayoutTests<javax.swing.Sprin
             return new javax.swing.SpringLayout.Constraints();
         }
 
-    }
-
-    @Override
-    public javax.swing.SpringLayout createNewSUT() {
-        return new javax.swing.SpringLayout();
     }
 
 }

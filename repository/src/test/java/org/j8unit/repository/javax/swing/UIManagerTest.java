@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class UIManagerTest
 implements org.j8unit.repository.javax.swing.UIManagerTests<javax.swing.UIManager> {
 
+    @Override
+    public javax.swing.UIManager createNewSUT() {
+        return new javax.swing.UIManager();
+    }
+
     @RunWith(J8Unit4.class)
     public static class LookAndFeelInfoTest
     implements org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests<javax.swing.UIManager.LookAndFeelInfo> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.UIManagerTests<javax.swing.UIManage
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.UIManager.LookAndFeelInfo] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.UIManager createNewSUT() {
-        return new javax.swing.UIManager();
     }
 
 }

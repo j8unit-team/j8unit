@@ -7,9 +7,19 @@ import org.junit.runner.RunWith;
 public class ProcessBuilderClassTest
 implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<java.lang.ProcessBuilder> {
 
+    @Override
+    public Class<java.lang.ProcessBuilder> createNewSUT() {
+        return java.lang.ProcessBuilder.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class RedirectClassTest
     implements org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests<java.lang.ProcessBuilder.Redirect> {
+
+        @Override
+        public Class<java.lang.ProcessBuilder.Redirect> createNewSUT() {
+            return java.lang.ProcessBuilder.Redirect.class;
+        }
 
         @RunWith(J8Unit4.class)
         public static class TypeClassTest
@@ -22,16 +32,6 @@ implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<java.lang.Pr
 
         }
 
-        @Override
-        public Class<java.lang.ProcessBuilder.Redirect> createNewSUT() {
-            return java.lang.ProcessBuilder.Redirect.class;
-        }
-
-    }
-
-    @Override
-    public Class<java.lang.ProcessBuilder> createNewSUT() {
-        return java.lang.ProcessBuilder.class;
     }
 
 }

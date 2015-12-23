@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.attribute.standard.MediaPrintableArea class
+ * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaPrintableArea class
  * javax.print.attribute.standard.MediaPrintableArea}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.print.attribute.standard.MediaPrintableAreaTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.attribute.standard.MediaPrintableAreaClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.attribute.standard.MediaPrintableAreaClassTests
+ *
+ * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,11 +32,18 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#equals(java.lang.Object) public boolean
      * javax.print.attribute.standard.MediaPrintableArea.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -44,7 +55,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getCategory() public final
      * java.lang.Class javax.print.attribute.standard.MediaPrintableArea.getCategory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getCategory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getHeight(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getHeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getHeight(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getName() public final java.lang.String
      * javax.print.attribute.standard.MediaPrintableArea.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getPrintableArea(int) public float[]
      * javax.print.attribute.standard.MediaPrintableArea.getPrintableArea(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getPrintableArea(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +145,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getWidth(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getWidth(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getWidth(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +167,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getX(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getX(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getX(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +189,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#getY(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getY(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#getY(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +211,13 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#hashCode() public int
      * javax.print.attribute.standard.MediaPrintableArea.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -175,11 +234,18 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#toString() public java.lang.String
      * javax.print.attribute.standard.MediaPrintableArea.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
@@ -189,9 +255,15 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#toString(int,java.lang.String) public
+     * Test method for {@link javax.print.attribute.standard.MediaPrintableArea#toString(int, java.lang.String) public
      * java.lang.String javax.print.attribute.standard.MediaPrintableArea.toString(int,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.MediaPrintableArea#toString(int, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

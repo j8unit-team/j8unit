@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class ConcurrentHashMapTest<K, V>
 implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests<java.util.concurrent.ConcurrentHashMap<K, V>, K, V> {
 
+    @Override
+    public java.util.concurrent.ConcurrentHashMap<K, V> createNewSUT() {
+        return new java.util.concurrent.ConcurrentHashMap();
+    }
+
     @RunWith(J8Unit4.class)
     public static class KeySetViewTest<K, V>
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests<jav
             throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.ConcurrentHashMap.KeySetView] available.");
         }
 
-    }
-
-    @Override
-    public java.util.concurrent.ConcurrentHashMap<K, V> createNewSUT() {
-        return new java.util.concurrent.ConcurrentHashMap<>();
     }
 
 }

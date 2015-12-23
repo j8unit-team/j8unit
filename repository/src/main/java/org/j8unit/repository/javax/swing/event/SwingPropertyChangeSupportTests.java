@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.event.SwingPropertyChangeSupport class
+ * Reusable J8Unit test interface for {@linkplain javax.swing.event.SwingPropertyChangeSupport class
  * javax.swing.event.SwingPropertyChangeSupport}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportClassTests
+ *
+ * @j8unit.aim javax.swing.event.SwingPropertyChangeSupport
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportTests<SUT> {
      * Test method for
      * {@link javax.swing.event.SwingPropertyChangeSupport#firePropertyChange(java.beans.PropertyChangeEvent) public
      * void javax.swing.event.SwingPropertyChangeSupport.firePropertyChange(java.beans.PropertyChangeEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.event.SwingPropertyChangeSupport#firePropertyChange(java.beans.PropertyChangeEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +55,13 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.event.SwingPropertyChangeSupport#isNotifyOnEDT() public final boolean
      * javax.swing.event.SwingPropertyChangeSupport.isNotifyOnEDT()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.event.SwingPropertyChangeSupport#isNotifyOnEDT()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

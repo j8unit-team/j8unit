@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ServiceClassTest
 implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<javax.xml.ws.Service> {
 
+    @Override
+    public Class<javax.xml.ws.Service> createNewSUT() {
+        return javax.xml.ws.Service.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ModeClassTest
     implements org.j8unit.repository.javax.xml.ws.ServiceClassTests.ModeClassTests<javax.xml.ws.Service.Mode> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<javax.xml.ws.Ser
             return javax.xml.ws.Service.Mode.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.ws.Service> createNewSUT() {
-        return javax.xml.ws.Service.class;
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ComponentClassTest
 implements org.j8unit.repository.java.awt.ComponentClassTests<java.awt.Component> {
 
+    @Override
+    public Class<java.awt.Component> createNewSUT() {
+        return java.awt.Component.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class BaselineResizeBehaviorClassTest
     implements org.j8unit.repository.java.awt.ComponentClassTests.BaselineResizeBehaviorClassTests<java.awt.Component.BaselineResizeBehavior> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<java.awt.Component
             return java.awt.Component.BaselineResizeBehavior.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.Component> createNewSUT() {
-        return java.awt.Component.class;
     }
 
 }

@@ -8,15 +8,9 @@ import org.junit.runner.RunWith;
 public class WatchEventClassTest
 implements org.j8unit.repository.java.nio.file.WatchEventClassTests<java.nio.file.WatchEvent> {
 
-    @RunWith(J8Unit4.class)
-    public static class KindClassTest
-    implements org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests<java.nio.file.WatchEvent.Kind> {
-
-        @Override
-        public Class<java.nio.file.WatchEvent.Kind> createNewSUT() {
-            return java.nio.file.WatchEvent.Kind.class;
-        }
-
+    @Override
+    public Class<java.nio.file.WatchEvent> createNewSUT() {
+        return java.nio.file.WatchEvent.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -30,9 +24,16 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<java.nio.fil
 
     }
 
-    @Override
-    public Class<java.nio.file.WatchEvent> createNewSUT() {
-        return java.nio.file.WatchEvent.class;
+    @RunWith(J8Unit4.class)
+    @SuppressWarnings("rawtypes")
+    public static class KindClassTest
+    implements org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests<java.nio.file.WatchEvent.Kind> {
+
+        @Override
+        public Class<java.nio.file.WatchEvent.Kind> createNewSUT() {
+            return java.nio.file.WatchEvent.Kind.class;
+        }
+
     }
 
 }

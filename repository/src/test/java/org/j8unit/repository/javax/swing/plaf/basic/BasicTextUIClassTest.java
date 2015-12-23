@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicTextUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests<javax.swing.plaf.basic.BasicTextUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicTextUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicTextUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class BasicCaretClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests.BasicCaretClassTests<javax.swing.plaf.basic.BasicTextUI.BasicCaret> {
@@ -28,11 +33,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests<ja
             return javax.swing.plaf.basic.BasicTextUI.BasicHighlighter.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicTextUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicTextUI.class;
     }
 
 }

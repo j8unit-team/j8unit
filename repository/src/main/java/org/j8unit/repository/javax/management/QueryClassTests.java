@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.Query class javax.management.Query}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.management.Query class javax.management.Query}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.management.QueryTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.management.QueryTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.QueryTests
+ *
+ * @j8unit.aim javax.management.Query
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,7 +40,15 @@ public abstract interface QueryClassTests<SUT extends javax.management.Query>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.management.Query#Query() public javax.management.Query()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.management.Query#Query()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,10 +62,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#and(javax.management.QueryExp,javax.management.QueryExp) public
+     * Test method for {@link javax.management.Query#and(javax.management.QueryExp, javax.management.QueryExp) public
      * static javax.management.QueryExp javax.management.Query.and(javax.management.QueryExp,javax.management.QueryExp)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#and(javax.management.QueryExp, javax.management.QueryExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -69,10 +86,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.Query#anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
+     * {@link javax.management.Query#anySubString(javax.management.AttributeValueExp, javax.management.StringValueExp)
      * public static javax.management.QueryExp
      * javax.management.Query.anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#anySubString(javax.management.AttributeValueExp,
+     *             javax.management.StringValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,7 +112,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#attr(java.lang.String) public static
      * javax.management.AttributeValueExp javax.management.Query.attr(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#attr(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -102,9 +132,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#attr(java.lang.String,java.lang.String) public static
+     * Test method for {@link javax.management.Query#attr(java.lang.String, java.lang.String) public static
      * javax.management.AttributeValueExp javax.management.Query.attr(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#attr(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,10 +155,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.Query#between(javax.management.ValueExp,javax.management.ValueExp,javax.management.ValueExp)
+     * {@link javax.management.Query#between(javax.management.ValueExp, javax.management.ValueExp, javax.management.ValueExp)
      * public static javax.management.QueryExp
      * javax.management.Query.between(javax.management.ValueExp,javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#between(javax.management.ValueExp, javax.management.ValueExp,
+     *             javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +181,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#classattr() public static javax.management.AttributeValueExp
      * javax.management.Query.classattr()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#classattr()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,10 +201,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#div(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#div(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.ValueExp javax.management.Query.div(javax.management.ValueExp,javax.management.ValueExp)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#div(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,9 +224,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#eq(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#eq(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.QueryExp javax.management.Query.eq(javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#eq(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,10 +247,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.Query#finalSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
+     * {@link javax.management.Query#finalSubString(javax.management.AttributeValueExp, javax.management.StringValueExp)
      * public static javax.management.QueryExp
      * javax.management.Query.finalSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#finalSubString(javax.management.AttributeValueExp,
+     *             javax.management.StringValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,10 +271,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#geq(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#geq(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.QueryExp javax.management.Query.geq(javax.management.ValueExp,javax.management.ValueExp)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#geq(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,9 +294,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#gt(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#gt(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.QueryExp javax.management.Query.gt(javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#gt(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,10 +316,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#in(javax.management.ValueExp,javax.management.ValueExp[]) public
+     * Test method for {@link javax.management.Query#in(javax.management.ValueExp, javax.management.ValueExp[]) public
      * static javax.management.QueryExp
      * javax.management.Query.in(javax.management.ValueExp,javax.management.ValueExp[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#in(javax.management.ValueExp, javax.management.ValueExp[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,10 +340,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.Query#initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
+     * {@link javax.management.Query#initialSubString(javax.management.AttributeValueExp, javax.management.StringValueExp)
      * public static javax.management.QueryExp
      * javax.management.Query.initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#initialSubString(javax.management.AttributeValueExp,
+     *             javax.management.StringValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,7 +366,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#isInstanceOf(javax.management.StringValueExp) public static
      * javax.management.QueryExp javax.management.Query.isInstanceOf(javax.management.StringValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#isInstanceOf(javax.management.StringValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -287,10 +386,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#leq(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#leq(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.QueryExp javax.management.Query.leq(javax.management.ValueExp,javax.management.ValueExp)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#leq(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,9 +409,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#lt(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#lt(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.QueryExp javax.management.Query.lt(javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#lt(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -321,10 +432,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.Query#match(javax.management.AttributeValueExp,javax.management.StringValueExp) public
+     * {@link javax.management.Query#match(javax.management.AttributeValueExp, javax.management.StringValueExp) public
      * static javax.management.QueryExp
      * javax.management.Query.match(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#match(javax.management.AttributeValueExp, javax.management.StringValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -338,10 +455,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#minus(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#minus(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.ValueExp
      * javax.management.Query.minus(javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#minus(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,7 +480,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#not(javax.management.QueryExp) public static
      * javax.management.QueryExp javax.management.Query.not(javax.management.QueryExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#not(javax.management.QueryExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -371,9 +500,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#or(javax.management.QueryExp,javax.management.QueryExp) public
+     * Test method for {@link javax.management.Query#or(javax.management.QueryExp, javax.management.QueryExp) public
      * static javax.management.QueryExp javax.management.Query.or(javax.management.QueryExp,javax.management.QueryExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#or(javax.management.QueryExp, javax.management.QueryExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -387,10 +522,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#plus(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#plus(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.ValueExp
      * javax.management.Query.plus(javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#plus(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -404,10 +545,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#times(javax.management.ValueExp,javax.management.ValueExp) public
+     * Test method for {@link javax.management.Query#times(javax.management.ValueExp, javax.management.ValueExp) public
      * static javax.management.ValueExp
      * javax.management.Query.times(javax.management.ValueExp,javax.management.ValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#times(javax.management.ValueExp, javax.management.ValueExp)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -423,7 +570,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(boolean) public static javax.management.ValueExp
      * javax.management.Query.value(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -439,7 +592,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(double) public static javax.management.ValueExp
      * javax.management.Query.value(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -455,7 +614,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(float) public static javax.management.ValueExp
      * javax.management.Query.value(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -471,7 +636,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(int) public static javax.management.ValueExp
      * javax.management.Query.value(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -487,7 +658,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(long) public static javax.management.ValueExp
      * javax.management.Query.value(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -503,7 +680,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(java.lang.Number) public static javax.management.ValueExp
      * javax.management.Query.value(java.lang.Number)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(java.lang.Number)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -519,7 +702,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.management.Query#value(java.lang.String) public static
      * javax.management.StringValueExp javax.management.Query.value(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.Query#value(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -531,6 +720,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.management.Query#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

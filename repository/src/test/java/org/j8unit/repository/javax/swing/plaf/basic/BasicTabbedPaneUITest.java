@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicTabbedPaneUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests<javax.swing.plaf.basic.BasicTabbedPaneUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicTabbedPaneUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicTabbedPaneUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.FocusHandlerTests<javax.swing.plaf.basic.BasicTabbedPaneUI.FocusHandler> {
@@ -26,6 +31,18 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests<j
         @Override
         public javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler createNewSUT() {
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler] available.");
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TabSelectionHandlerTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabSelectionHandlerTests<javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler> {
+
+        @Override
+        public javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler] available.");
         }
 
     }
@@ -52,23 +69,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests<j
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout] available.");
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TabSelectionHandlerTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabSelectionHandlerTests<javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler> {
-
-        @Override
-        public javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler] available.");
-        }
-
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicTabbedPaneUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicTabbedPaneUI();
     }
 
 }

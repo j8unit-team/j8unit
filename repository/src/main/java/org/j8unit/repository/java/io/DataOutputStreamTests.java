@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.DataOutputStream class java.io.DataOutputStream}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.io.DataOutputStream class java.io.DataOutputStream}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.io.DataOutputStreamTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.io.DataOutputStreamClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.DataOutputStreamClassTests
+ *
+ * @j8unit.aim java.io.DataOutputStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#flush() public void java.io.DataOutputStream.flush() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#flush()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.io.DataOutputStream#size() public final int java.io.DataOutputStream.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,9 +74,17 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.io.FilterOutputStream</li>
+     * <li>interface java.io.DataOutput</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -72,9 +97,15 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#write(byte[],int,int) public synchronized void
+     * Test method for {@link java.io.DataOutputStream#write(byte[], int, int) public synchronized void
      * java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#write(byte[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +122,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#write(int) public synchronized void
      * java.io.DataOutputStream.write(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#write(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +145,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeBoolean(boolean) public final void
      * java.io.DataOutputStream.writeBoolean(boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeBoolean(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +168,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeByte(int) public final void
      * java.io.DataOutputStream.writeByte(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeByte(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +191,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeBytes(java.lang.String) public final void
      * java.io.DataOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeBytes(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,7 +214,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeChar(int) public final void
      * java.io.DataOutputStream.writeChar(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeChar(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +237,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeChars(java.lang.String) public final void
      * java.io.DataOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeChars(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +260,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeDouble(double) public final void
      * java.io.DataOutputStream.writeDouble(double) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeDouble(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +283,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeFloat(float) public final void
      * java.io.DataOutputStream.writeFloat(float) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeFloat(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,7 +306,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeInt(int) public final void
      * java.io.DataOutputStream.writeInt(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeInt(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,7 +329,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeLong(long) public final void
      * java.io.DataOutputStream.writeLong(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeLong(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,7 +352,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeShort(int) public final void
      * java.io.DataOutputStream.writeShort(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeShort(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,7 +375,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.DataOutputStream#writeUTF(java.lang.String) public final void
      * java.io.DataOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.DataOutputStream#writeUTF(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

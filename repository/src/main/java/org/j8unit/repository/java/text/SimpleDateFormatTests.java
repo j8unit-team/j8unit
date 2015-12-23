@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.text.SimpleDateFormat class java.text.SimpleDateFormat}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.text.SimpleDateFormat class java.text.SimpleDateFormat},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.text.SimpleDateFormatTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.text.SimpleDateFormatClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.text.SimpleDateFormatClassTests
+ *
+ * @j8unit.aim java.text.SimpleDateFormat
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#applyLocalizedPattern(java.lang.String) public void
      * java.text.SimpleDateFormat.applyLocalizedPattern(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#applyLocalizedPattern(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#applyPattern(java.lang.String) public void
      * java.text.SimpleDateFormat.applyPattern(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#applyPattern(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#clone() public java.lang.Object
      * java.text.SimpleDateFormat.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#equals(java.lang.Object) public boolean
      * java.text.SimpleDateFormat.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,10 +120,16 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.text.SimpleDateFormat#format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition) public
+     * {@link java.text.SimpleDateFormat#format(java.util.Date, java.lang.StringBuffer, java.text.FieldPosition) public
      * java.lang.StringBuffer
      * java.text.SimpleDateFormat.format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#format(java.util.Date, java.lang.StringBuffer, java.text.FieldPosition)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +146,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#formatToCharacterIterator(java.lang.Object) public
      * java.text.AttributedCharacterIterator java.text.SimpleDateFormat.formatToCharacterIterator(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#formatToCharacterIterator(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +169,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#get2DigitYearStart() public java.util.Date
      * java.text.SimpleDateFormat.get2DigitYearStart()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#get2DigitYearStart()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +191,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#getDateFormatSymbols() public java.text.DateFormatSymbols
      * java.text.SimpleDateFormat.getDateFormatSymbols()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#getDateFormatSymbols()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,7 +212,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#hashCode() public int java.text.SimpleDateFormat.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,9 +233,15 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.SimpleDateFormat#parse(java.lang.String,java.text.ParsePosition) public
+     * Test method for {@link java.text.SimpleDateFormat#parse(java.lang.String, java.text.ParsePosition) public
      * java.util.Date java.text.SimpleDateFormat.parse(java.lang.String,java.text.ParsePosition)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#parse(java.lang.String, java.text.ParsePosition)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +258,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#set2DigitYearStart(java.util.Date) public void
      * java.text.SimpleDateFormat.set2DigitYearStart(java.util.Date)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#set2DigitYearStart(java.util.Date)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,7 +280,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#setDateFormatSymbols(java.text.DateFormatSymbols) public void
      * java.text.SimpleDateFormat.setDateFormatSymbols(java.text.DateFormatSymbols)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#setDateFormatSymbols(java.text.DateFormatSymbols)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,7 +302,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#toLocalizedPattern() public java.lang.String
      * java.text.SimpleDateFormat.toLocalizedPattern()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#toLocalizedPattern()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,7 +324,13 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
      * <p>
      * Test method for {@link java.text.SimpleDateFormat#toPattern() public java.lang.String
      * java.text.SimpleDateFormat.toPattern()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.SimpleDateFormat#toPattern()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

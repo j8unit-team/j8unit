@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AudioFileFormatClassTest
 implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<javax.sound.sampled.AudioFileFormat> {
 
+    @Override
+    public Class<javax.sound.sampled.AudioFileFormat> createNewSUT() {
+        return javax.sound.sampled.AudioFileFormat.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests.TypeClassTests<javax.sound.sampled.AudioFileFormat.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<j
             return javax.sound.sampled.AudioFileFormat.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.AudioFileFormat> createNewSUT() {
-        return javax.sound.sampled.AudioFileFormat.class;
     }
 
 }

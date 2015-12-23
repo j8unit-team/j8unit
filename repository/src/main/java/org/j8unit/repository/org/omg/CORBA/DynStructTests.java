@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.DynStruct interface org.omg.CORBA.DynStruct}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.DynStruct interface org.omg.CORBA.DynStruct}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.CORBA.DynStructTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CORBA.DynStructClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CORBA.DynStructClassTests
+ *
+ * @j8unit.aim org.omg.CORBA.DynStruct
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.DynStruct#current_member_kind() public abstract org.omg.CORBA.TCKind
      * org.omg.CORBA.DynStruct.current_member_kind()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DynStruct#current_member_kind()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.DynStruct#current_member_name() public abstract java.lang.String
      * org.omg.CORBA.DynStruct.current_member_name()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DynStruct#current_member_name()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.DynStruct#get_members() public abstract org.omg.CORBA.NameValuePair[]
      * org.omg.CORBA.DynStruct.get_members()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DynStruct#get_members()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * Test method for {@link org.omg.CORBA.DynStruct#set_members(org.omg.CORBA.NameValuePair[]) public abstract void
      * org.omg.CORBA.DynStruct.set_members(org.omg.CORBA.NameValuePair[]) throws org.omg.CORBA.DynAnyPackage.InvalidSeq}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DynStruct#set_members(org.omg.CORBA.NameValuePair[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

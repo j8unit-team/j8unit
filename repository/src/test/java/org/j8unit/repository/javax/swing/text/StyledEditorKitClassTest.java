@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class StyledEditorKitClassTest
 implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<javax.swing.text.StyledEditorKit> {
 
-    @RunWith(J8Unit4.class)
-    public static class AlignmentActionClassTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.AlignmentActionClassTests<javax.swing.text.StyledEditorKit.AlignmentAction> {
-
-        @Override
-        public Class<javax.swing.text.StyledEditorKit.AlignmentAction> createNewSUT() {
-            return javax.swing.text.StyledEditorKit.AlignmentAction.class;
-        }
-
+    @Override
+    public Class<javax.swing.text.StyledEditorKit> createNewSUT() {
+        return javax.swing.text.StyledEditorKit.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -30,12 +24,23 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<java
     }
 
     @RunWith(J8Unit4.class)
-    public static class FontFamilyActionClassTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.FontFamilyActionClassTests<javax.swing.text.StyledEditorKit.FontFamilyAction> {
+    public static class AlignmentActionClassTest
+    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.AlignmentActionClassTests<javax.swing.text.StyledEditorKit.AlignmentAction> {
 
         @Override
-        public Class<javax.swing.text.StyledEditorKit.FontFamilyAction> createNewSUT() {
-            return javax.swing.text.StyledEditorKit.FontFamilyAction.class;
+        public Class<javax.swing.text.StyledEditorKit.AlignmentAction> createNewSUT() {
+            return javax.swing.text.StyledEditorKit.AlignmentAction.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ItalicActionClassTest
+    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ItalicActionClassTests<javax.swing.text.StyledEditorKit.ItalicAction> {
+
+        @Override
+        public Class<javax.swing.text.StyledEditorKit.ItalicAction> createNewSUT() {
+            return javax.swing.text.StyledEditorKit.ItalicAction.class;
         }
 
     }
@@ -63,12 +68,23 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<java
     }
 
     @RunWith(J8Unit4.class)
-    public static class ItalicActionClassTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ItalicActionClassTests<javax.swing.text.StyledEditorKit.ItalicAction> {
+    public static class UnderlineActionClassTest
+    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.UnderlineActionClassTests<javax.swing.text.StyledEditorKit.UnderlineAction> {
 
         @Override
-        public Class<javax.swing.text.StyledEditorKit.ItalicAction> createNewSUT() {
-            return javax.swing.text.StyledEditorKit.ItalicAction.class;
+        public Class<javax.swing.text.StyledEditorKit.UnderlineAction> createNewSUT() {
+            return javax.swing.text.StyledEditorKit.UnderlineAction.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class FontFamilyActionClassTest
+    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.FontFamilyActionClassTests<javax.swing.text.StyledEditorKit.FontFamilyAction> {
+
+        @Override
+        public Class<javax.swing.text.StyledEditorKit.FontFamilyAction> createNewSUT() {
+            return javax.swing.text.StyledEditorKit.FontFamilyAction.class;
         }
 
     }
@@ -82,22 +98,6 @@ implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<java
             return javax.swing.text.StyledEditorKit.StyledTextAction.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class UnderlineActionClassTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.UnderlineActionClassTests<javax.swing.text.StyledEditorKit.UnderlineAction> {
-
-        @Override
-        public Class<javax.swing.text.StyledEditorKit.UnderlineAction> createNewSUT() {
-            return javax.swing.text.StyledEditorKit.UnderlineAction.class;
-        }
-
-    }
-
-    @Override
-    public Class<javax.swing.text.StyledEditorKit> createNewSUT() {
-        return javax.swing.text.StyledEditorKit.class;
     }
 
 }

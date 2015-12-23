@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.net.HttpURLConnection class java.net.HttpURLConnection}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.net.HttpURLConnection class java.net.HttpURLConnection},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.net.HttpURLConnectionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.net.HttpURLConnectionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.net.HttpURLConnectionClassTests
+ *
+ * @j8unit.aim java.net.HttpURLConnection
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#disconnect() public abstract void
      * java.net.HttpURLConnection.disconnect()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#disconnect()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getErrorStream() public java.io.InputStream
      * java.net.HttpURLConnection.getErrorStream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getErrorStream()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getHeaderField(int) public java.lang.String
      * java.net.HttpURLConnection.getHeaderField(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getHeaderField(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,9 +96,15 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpURLConnection#getHeaderFieldDate(java.lang.String,long) public long
+     * Test method for {@link java.net.HttpURLConnection#getHeaderFieldDate(java.lang.String, long) public long
      * java.net.HttpURLConnection.getHeaderFieldDate(java.lang.String,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getHeaderFieldDate(java.lang.String, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getHeaderFieldKey(int) public java.lang.String
      * java.net.HttpURLConnection.getHeaderFieldKey(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getHeaderFieldKey(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getInstanceFollowRedirects() public boolean
      * java.net.HttpURLConnection.getInstanceFollowRedirects()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getInstanceFollowRedirects()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +166,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getPermission() public java.security.Permission
      * java.net.HttpURLConnection.getPermission() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getPermission()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +189,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getRequestMethod() public java.lang.String
      * java.net.HttpURLConnection.getRequestMethod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getRequestMethod()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +211,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getResponseCode() public int
      * java.net.HttpURLConnection.getResponseCode() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getResponseCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +233,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getResponseMessage() public java.lang.String
      * java.net.HttpURLConnection.getResponseMessage() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#getResponseMessage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +255,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#setChunkedStreamingMode(int) public void
      * java.net.HttpURLConnection.setChunkedStreamingMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#setChunkedStreamingMode(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,7 +277,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#setFixedLengthStreamingMode(int) public void
      * java.net.HttpURLConnection.setFixedLengthStreamingMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#setFixedLengthStreamingMode(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,7 +299,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#setFixedLengthStreamingMode(long) public void
      * java.net.HttpURLConnection.setFixedLengthStreamingMode(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#setFixedLengthStreamingMode(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -238,7 +321,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#setInstanceFollowRedirects(boolean) public void
      * java.net.HttpURLConnection.setInstanceFollowRedirects(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#setInstanceFollowRedirects(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,7 +343,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#setRequestMethod(java.lang.String) public void
      * java.net.HttpURLConnection.setRequestMethod(java.lang.String) throws java.net.ProtocolException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#setRequestMethod(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,7 +365,13 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * <p>
      * Test method for {@link java.net.HttpURLConnection#usingProxy() public abstract boolean
      * java.net.HttpURLConnection.usingProxy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.HttpURLConnection#usingProxy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

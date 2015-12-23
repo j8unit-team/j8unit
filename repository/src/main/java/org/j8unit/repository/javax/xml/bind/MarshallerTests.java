@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.xml.bind;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,30 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.Marshaller interface javax.xml.bind.Marshaller}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.Marshaller interface javax.xml.bind.Marshaller},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.bind.MarshallerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.MarshallerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.MarshallerClassTests
+ *
+ * @j8unit.aim javax.xml.bind.Marshaller
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MarshallerTests<SUT extends javax.xml.bind.Marshaller>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.xml.bind.Marshaller$Listener class javax.xml.bind.Marshaller$Listener}, containing
-     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.xml.bind.Marshaller.Listener class
+     * javax.xml.bind.Marshaller$Listener}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.xml.bind.MarshallerTests.ListenerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.xml.bind.MarshallerClassTests.ListenerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.xml.bind.MarshallerClassTests.ListenerClassTests
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller.Listener
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,7 +53,13 @@ extends J8UnitTest<SUT> {
          * <p>
          * Test method for {@link javax.xml.bind.Marshaller.Listener#afterMarshal(java.lang.Object) public void
          * javax.xml.bind.Marshaller$Listener.afterMarshal(java.lang.Object)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.xml.bind.Marshaller.Listener#afterMarshal(java.lang.Object)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -59,7 +75,13 @@ extends J8UnitTest<SUT> {
          * <p>
          * Test method for {@link javax.xml.bind.Marshaller.Listener#beforeMarshal(java.lang.Object) public void
          * javax.xml.bind.Marshaller$Listener.beforeMarshal(java.lang.Object)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.xml.bind.Marshaller.Listener#beforeMarshal(java.lang.Object)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -77,7 +99,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#getAdapter(java.lang.Class) public abstract
      * javax.xml.bind.annotation.adapters.XmlAdapter javax.xml.bind.Marshaller.getAdapter(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getAdapter(java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +121,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#getAttachmentMarshaller() public abstract
      * javax.xml.bind.attachment.AttachmentMarshaller javax.xml.bind.Marshaller.getAttachmentMarshaller()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getAttachmentMarshaller()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +144,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link javax.xml.bind.Marshaller#getEventHandler() public abstract
      * javax.xml.bind.ValidationEventHandler javax.xml.bind.Marshaller.getEventHandler() throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getEventHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +166,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#getListener() public abstract javax.xml.bind.Marshaller$Listener
      * javax.xml.bind.Marshaller.getListener()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getListener()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +188,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#getNode(java.lang.Object) public abstract org.w3c.dom.Node
      * javax.xml.bind.Marshaller.getNode(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getNode(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +210,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#getProperty(java.lang.String) public abstract java.lang.Object
      * javax.xml.bind.Marshaller.getProperty(java.lang.String) throws javax.xml.bind.PropertyException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getProperty(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +232,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#getSchema() public abstract javax.xml.validation.Schema
      * javax.xml.bind.Marshaller.getSchema()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#getSchema()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,10 +252,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,org.xml.sax.ContentHandler) public
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, org.xml.sax.ContentHandler) public
      * abstract void javax.xml.bind.Marshaller.marshal(java.lang.Object,org.xml.sax.ContentHandler) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, org.xml.sax.ContentHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,9 +275,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,java.io.File) public abstract void
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, java.io.File) public abstract void
      * javax.xml.bind.Marshaller.marshal(java.lang.Object,java.io.File) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, java.io.File)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -221,9 +297,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,org.w3c.dom.Node) public abstract void
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, org.w3c.dom.Node) public abstract void
      * javax.xml.bind.Marshaller.marshal(java.lang.Object,org.w3c.dom.Node) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,10 +319,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,java.io.OutputStream) public abstract
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, java.io.OutputStream) public abstract
      * void javax.xml.bind.Marshaller.marshal(java.lang.Object,java.io.OutputStream) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, java.io.OutputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,10 +342,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,javax.xml.transform.Result) public
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, javax.xml.transform.Result) public
      * abstract void javax.xml.bind.Marshaller.marshal(java.lang.Object,javax.xml.transform.Result) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, javax.xml.transform.Result)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,9 +365,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,java.io.Writer) public abstract void
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, java.io.Writer) public abstract void
      * javax.xml.bind.Marshaller.marshal(java.lang.Object,java.io.Writer) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, java.io.Writer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -287,10 +387,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,javax.xml.stream.XMLEventWriter) public
-     * abstract void javax.xml.bind.Marshaller.marshal(java.lang.Object,javax.xml.stream.XMLEventWriter) throws
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, javax.xml.stream.XMLEventWriter)
+     * public abstract void javax.xml.bind.Marshaller.marshal(java.lang.Object,javax.xml.stream.XMLEventWriter) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, javax.xml.stream.XMLEventWriter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,10 +410,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object,javax.xml.stream.XMLStreamWriter)
+     * Test method for {@link javax.xml.bind.Marshaller#marshal(java.lang.Object, javax.xml.stream.XMLStreamWriter)
      * public abstract void javax.xml.bind.Marshaller.marshal(java.lang.Object,javax.xml.stream.XMLStreamWriter) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#marshal(java.lang.Object, javax.xml.stream.XMLStreamWriter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -322,10 +434,16 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.bind.Marshaller#setAdapter(java.lang.Class,javax.xml.bind.annotation.adapters.XmlAdapter) public
-     * abstract void
+     * {@link javax.xml.bind.Marshaller#setAdapter(java.lang.Class, javax.xml.bind.annotation.adapters.XmlAdapter)
+     * public abstract void
      * javax.xml.bind.Marshaller.setAdapter(java.lang.Class,javax.xml.bind.annotation.adapters.XmlAdapter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setAdapter(java.lang.Class, javax.xml.bind.annotation.adapters.XmlAdapter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -341,7 +459,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#setAdapter(javax.xml.bind.annotation.adapters.XmlAdapter) public
      * abstract void javax.xml.bind.Marshaller.setAdapter(javax.xml.bind.annotation.adapters.XmlAdapter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setAdapter(javax.xml.bind.annotation.adapters.XmlAdapter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -358,7 +482,13 @@ extends J8UnitTest<SUT> {
      * Test method for
      * {@link javax.xml.bind.Marshaller#setAttachmentMarshaller(javax.xml.bind.attachment.AttachmentMarshaller) public
      * abstract void javax.xml.bind.Marshaller.setAttachmentMarshaller(javax.xml.bind.attachment.AttachmentMarshaller)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setAttachmentMarshaller(javax.xml.bind.attachment.AttachmentMarshaller)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -375,7 +505,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link javax.xml.bind.Marshaller#setEventHandler(javax.xml.bind.ValidationEventHandler) public
      * abstract void javax.xml.bind.Marshaller.setEventHandler(javax.xml.bind.ValidationEventHandler) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setEventHandler(javax.xml.bind.ValidationEventHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,7 +527,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#setListener(javax.xml.bind.Marshaller.Listener) public abstract
      * void javax.xml.bind.Marshaller.setListener(javax.xml.bind.Marshaller$Listener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setListener(javax.xml.bind.Marshaller.Listener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -405,10 +547,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Marshaller#setProperty(java.lang.String,java.lang.Object) public abstract
+     * Test method for {@link javax.xml.bind.Marshaller#setProperty(java.lang.String, java.lang.Object) public abstract
      * void javax.xml.bind.Marshaller.setProperty(java.lang.String,java.lang.Object) throws
      * javax.xml.bind.PropertyException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setProperty(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -424,7 +572,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Marshaller#setSchema(javax.xml.validation.Schema) public abstract void
      * javax.xml.bind.Marshaller.setSchema(javax.xml.validation.Schema)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Marshaller#setSchema(javax.xml.validation.Schema)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

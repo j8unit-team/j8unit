@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MessageContextClassTest
 implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<javax.xml.ws.handler.MessageContext> {
 
+    @Override
+    public Class<javax.xml.ws.handler.MessageContext> createNewSUT() {
+        return javax.xml.ws.handler.MessageContext.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ScopeClassTest
     implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests.ScopeClassTests<javax.xml.ws.handler.MessageContext.Scope> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<j
             return javax.xml.ws.handler.MessageContext.Scope.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.ws.handler.MessageContext> createNewSUT() {
-        return javax.xml.ws.handler.MessageContext.class;
     }
 
 }

@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.WrongTransactionHelper class org.omg.CORBA.WrongTransactionHelper}, containing
- * all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.WrongTransactionHelperTests}.
+ * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.WrongTransactionHelper class
+ * org.omg.CORBA.WrongTransactionHelper}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.org.omg.CORBA.WrongTransactionHelperTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.org.omg.CORBA.WrongTransactionHelperTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CORBA.WrongTransactionHelperTests
+ *
+ * @j8unit.aim org.omg.CORBA.WrongTransactionHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,8 +40,16 @@ public abstract interface WrongTransactionHelperClassTests<SUT extends org.omg.C
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link org.omg.CORBA.WrongTransactionHelper#WrongTransactionHelper() public
      * org.omg.CORBA.WrongTransactionHelper()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#WrongTransactionHelper()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,7 +65,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.WrongTransactionHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.CORBA.WrongTransaction org.omg.CORBA.WrongTransactionHelper.extract(org.omg.CORBA.Any)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#extract(org.omg.CORBA.Any)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -70,7 +87,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.WrongTransactionHelper#id() public static java.lang.String
      * org.omg.CORBA.WrongTransactionHelper.id()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#id()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,9 +108,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.WrongTransactionHelper#insert(org.omg.CORBA.Any,org.omg.CORBA.WrongTransaction) public
+     * {@link org.omg.CORBA.WrongTransactionHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.WrongTransaction) public
      * static void org.omg.CORBA.WrongTransactionHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.WrongTransaction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.WrongTransaction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,7 +133,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * Test method for {@link org.omg.CORBA.WrongTransactionHelper#read(org.omg.CORBA.portable.InputStream) public
      * static org.omg.CORBA.WrongTransaction
      * org.omg.CORBA.WrongTransactionHelper.read(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#read(org.omg.CORBA.portable.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,7 +155,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.WrongTransactionHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.CORBA.WrongTransactionHelper.type()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#type()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -135,10 +176,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.WrongTransactionHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.WrongTransaction)
+     * {@link org.omg.CORBA.WrongTransactionHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.WrongTransaction)
      * public static void
      * org.omg.CORBA.WrongTransactionHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.WrongTransaction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#write(org.omg.CORBA.portable.OutputStream,
+     *             org.omg.CORBA.WrongTransaction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -150,6 +198,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim org.omg.CORBA.WrongTransactionHelper#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

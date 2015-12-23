@@ -8,24 +8,18 @@ import org.junit.runner.RunWith;
 public class BasicSliderUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax.swing.plaf.basic.BasicSliderUI> {
 
-    @RunWith(J8Unit4.class)
-    public static class ActionScrollerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ActionScrollerTests<javax.swing.plaf.basic.BasicSliderUI.ActionScroller> {
-
-        @Override
-        public javax.swing.plaf.basic.BasicSliderUI.ActionScroller createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ActionScroller] available.");
-        }
-
+    @Override
+    public javax.swing.plaf.basic.BasicSliderUI createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI] available.");
     }
 
     @RunWith(J8Unit4.class)
-    public static class ChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ChangeHandlerTests<javax.swing.plaf.basic.BasicSliderUI.ChangeHandler> {
+    public static class FocusHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.FocusHandlerTests<javax.swing.plaf.basic.BasicSliderUI.FocusHandler> {
 
         @Override
-        public javax.swing.plaf.basic.BasicSliderUI.ChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ChangeHandler] available.");
+        public javax.swing.plaf.basic.BasicSliderUI.FocusHandler createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.FocusHandler] available.");
         }
 
     }
@@ -42,12 +36,23 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
     }
 
     @RunWith(J8Unit4.class)
-    public static class FocusHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.FocusHandlerTests<javax.swing.plaf.basic.BasicSliderUI.FocusHandler> {
+    public static class ChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ChangeHandlerTests<javax.swing.plaf.basic.BasicSliderUI.ChangeHandler> {
 
         @Override
-        public javax.swing.plaf.basic.BasicSliderUI.FocusHandler createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.FocusHandler] available.");
+        public javax.swing.plaf.basic.BasicSliderUI.ChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ChangeHandler] available.");
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ActionScrollerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ActionScrollerTests<javax.swing.plaf.basic.BasicSliderUI.ActionScroller> {
+
+        @Override
+        public javax.swing.plaf.basic.BasicSliderUI.ActionScroller createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.ActionScroller] available.");
         }
 
     }
@@ -84,11 +89,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<javax
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI.TrackListener] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicSliderUI createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicSliderUI] available.");
     }
 
 }

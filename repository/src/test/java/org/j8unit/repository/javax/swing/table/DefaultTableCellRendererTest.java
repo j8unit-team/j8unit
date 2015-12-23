@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DefaultTableCellRendererTest
 implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests<javax.swing.table.DefaultTableCellRenderer> {
 
+    @Override
+    public javax.swing.table.DefaultTableCellRenderer createNewSUT() {
+        return new javax.swing.table.DefaultTableCellRenderer();
+    }
+
     @RunWith(J8Unit4.class)
     public static class UIResourceTest
     implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests.UIResourceTests<javax.swing.table.DefaultTableCellRenderer.UIResource> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests
             return new javax.swing.table.DefaultTableCellRenderer.UIResource();
         }
 
-    }
-
-    @Override
-    public javax.swing.table.DefaultTableCellRenderer createNewSUT() {
-        return new javax.swing.table.DefaultTableCellRenderer();
     }
 
 }

@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedDequeTests
 
     @Override
     public java.util.concurrent.ConcurrentLinkedDeque<E> createNewSUT() {
-        return new java.util.concurrent.ConcurrentLinkedDeque<>();
+        return new java.util.concurrent.ConcurrentLinkedDeque();
     }
 
 }

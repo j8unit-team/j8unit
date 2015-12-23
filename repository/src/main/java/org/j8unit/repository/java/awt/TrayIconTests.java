@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.TrayIcon class java.awt.TrayIcon}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.TrayIcon class java.awt.TrayIcon}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.TrayIconTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.TrayIconClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.TrayIconClassTests
+ *
+ * @j8unit.aim java.awt.TrayIcon
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +28,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.awt.TrayIcon$MessageType class java.awt.TrayIcon$MessageType}, containing all instance
-     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.awt.TrayIcon.MessageType class java.awt.TrayIcon$MessageType}
+     * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+     * counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.awt.TrayIconTests.MessageTypeTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.TrayIconClassTests.MessageTypeClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.TrayIconClassTests.MessageTypeClassTests
+     *
+     * @j8unit.aim java.awt.TrayIcon.MessageType
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -44,7 +53,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#addActionListener(java.awt.event.ActionListener) public synchronized
      * void java.awt.TrayIcon.addActionListener(java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#addActionListener(java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +75,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#addMouseListener(java.awt.event.MouseListener) public synchronized void
      * java.awt.TrayIcon.addMouseListener(java.awt.event.MouseListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#addMouseListener(java.awt.event.MouseListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +97,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#addMouseMotionListener(java.awt.event.MouseMotionListener) public
      * synchronized void java.awt.TrayIcon.addMouseMotionListener(java.awt.event.MouseMotionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#addMouseMotionListener(java.awt.event.MouseMotionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,9 +118,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.TrayIcon#displayMessage(java.lang.String,java.lang.String,java.awt.TrayIcon.MessageType) public
+     * {@link java.awt.TrayIcon#displayMessage(java.lang.String, java.lang.String, java.awt.TrayIcon.MessageType) public
      * void java.awt.TrayIcon.displayMessage(java.lang.String,java.lang.String,java.awt.TrayIcon$MessageType)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#displayMessage(java.lang.String, java.lang.String, java.awt.TrayIcon.MessageType)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +142,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#getActionCommand() public java.lang.String
      * java.awt.TrayIcon.getActionCommand()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getActionCommand()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +164,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#getActionListeners() public synchronized java.awt.event.ActionListener[]
      * java.awt.TrayIcon.getActionListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getActionListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,7 +185,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.TrayIcon#getImage() public java.awt.Image java.awt.TrayIcon.getImage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getImage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,7 +207,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#getMouseListeners() public synchronized java.awt.event.MouseListener[]
      * java.awt.TrayIcon.getMouseListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getMouseListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,7 +229,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#getMouseMotionListeners() public synchronized
      * java.awt.event.MouseMotionListener[] java.awt.TrayIcon.getMouseMotionListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getMouseMotionListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,7 +251,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#getPopupMenu() public java.awt.PopupMenu
      * java.awt.TrayIcon.getPopupMenu()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getPopupMenu()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,7 +272,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.TrayIcon#getSize() public java.awt.Dimension java.awt.TrayIcon.getSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +293,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.TrayIcon#getToolTip() public java.lang.String java.awt.TrayIcon.getToolTip()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#getToolTip()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -233,7 +314,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.TrayIcon#isImageAutoSize() public boolean java.awt.TrayIcon.isImageAutoSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#isImageAutoSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,7 +336,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#removeActionListener(java.awt.event.ActionListener) public synchronized
      * void java.awt.TrayIcon.removeActionListener(java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#removeActionListener(java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -265,7 +358,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#removeMouseListener(java.awt.event.MouseListener) public synchronized
      * void java.awt.TrayIcon.removeMouseListener(java.awt.event.MouseListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#removeMouseListener(java.awt.event.MouseListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -281,7 +380,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#removeMouseMotionListener(java.awt.event.MouseMotionListener) public
      * synchronized void java.awt.TrayIcon.removeMouseMotionListener(java.awt.event.MouseMotionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#removeMouseMotionListener(java.awt.event.MouseMotionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -297,7 +402,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#setActionCommand(java.lang.String) public void
      * java.awt.TrayIcon.setActionCommand(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#setActionCommand(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,7 +424,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#setImage(java.awt.Image) public void
      * java.awt.TrayIcon.setImage(java.awt.Image)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#setImage(java.awt.Image)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,7 +446,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#setImageAutoSize(boolean) public void
      * java.awt.TrayIcon.setImageAutoSize(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#setImageAutoSize(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,7 +468,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#setPopupMenu(java.awt.PopupMenu) public void
      * java.awt.TrayIcon.setPopupMenu(java.awt.PopupMenu)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#setPopupMenu(java.awt.PopupMenu)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,7 +490,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.TrayIcon#setToolTip(java.lang.String) public void
      * java.awt.TrayIcon.setToolTip(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.TrayIcon#setToolTip(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

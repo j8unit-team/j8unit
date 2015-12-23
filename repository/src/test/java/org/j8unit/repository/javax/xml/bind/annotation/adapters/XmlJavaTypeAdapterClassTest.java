@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class XmlJavaTypeAdapterClassTest
 implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterClassTests<javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter> {
 
+    @Override
+    public Class<javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter> createNewSUT() {
+        return javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeA
             return javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter> createNewSUT() {
-        return javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.class;
     }
 
 }

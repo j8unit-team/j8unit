@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI class javax.swing.plaf.basic.BasicSplitPaneUI},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI class
+ * javax.swing.plaf.basic.BasicSplitPaneUI}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager class
+     * Reusable J8Unit test interface for
+     * {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager class
      * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager}, containing all class relevant test methods
      * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-     * test class containing the instance relevant test methods is
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}.
      * </p>
      *
@@ -49,7 +53,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,16 +61,25 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicHorizontalLayoutManagerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager>
     extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -81,10 +94,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}, containing all class relevant test methods
-     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-     * test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager
+     * class javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}.
      * </p>
      *
@@ -92,7 +105,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -100,10 +113,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -111,10 +127,19 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager#BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager#BasicVerticalLayoutManager(
+         *             javax.swing.plaf.basic.BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -127,6 +152,12 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                                  // BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -141,10 +172,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests}.
      * </p>
      *
@@ -152,7 +183,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -160,10 +191,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -171,9 +205,18 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.FocusAdapterClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.
+         *             BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -186,6 +229,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                    // FocusHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -200,10 +248,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler
+     * class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}, containing all class relevant test
+     * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests}.
      * </p>
      *
@@ -211,7 +259,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -219,10 +267,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -230,10 +281,19 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#KeyboardDownRightHandler(javax.
+         *             swing.plaf.basic.BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -246,6 +306,12 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                                // KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -260,10 +326,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests}.
      * </p>
      *
@@ -271,7 +337,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -279,10 +345,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -290,9 +359,18 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#KeyboardEndHandler(javax.swing.plaf.
+         *             basic.BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -305,6 +383,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                          // KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -319,10 +402,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests}.
      * </p>
      *
@@ -330,7 +413,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -338,10 +421,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -349,9 +435,18 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#KeyboardHomeHandler(javax.swing.plaf.
+         *             basic.BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -364,6 +459,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                           // KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -378,10 +478,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler class
+     * Reusable J8Unit test interface for
+     * {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler}, containing all class relevant test methods
      * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-     * test class containing the instance relevant test methods is
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}.
      * </p>
      *
@@ -389,7 +490,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -397,10 +498,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -408,11 +512,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler#KeyboardResizeToggleHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler#KeyboardResizeToggleHandler(
+         *             javax.swing.plaf.basic.BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -425,6 +538,12 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                                   // KeyboardResizeToggleHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler#isAssignableFrom(java.lang.
+         *             Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -439,10 +558,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler
+     * class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler}, containing all class relevant test methods
+     * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}.
      * </p>
      *
@@ -450,7 +569,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -458,10 +577,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -469,10 +591,19 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler#KeyboardUpLeftHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler#KeyboardUpLeftHandler(javax.swing.
+         *             plaf.basic.BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -485,6 +616,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                             // KeyboardUpLeftHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -499,10 +635,10 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests}.
      * </p>
      *
@@ -510,7 +646,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -518,10 +654,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -529,9 +668,18 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#PropertyHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
          * public javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#PropertyHandler(javax.swing.plaf.basic.
+         *             BasicSplitPaneUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -544,6 +692,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
                                                                                       // PropertyHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -557,8 +710,16 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#BasicSplitPaneUI() public
      * javax.swing.plaf.basic.BasicSplitPaneUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#BasicSplitPaneUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,7 +735,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicSplitPaneUI.createUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#createUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -587,6 +754,11 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

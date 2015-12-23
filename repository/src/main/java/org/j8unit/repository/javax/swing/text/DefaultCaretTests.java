@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.DefaultCaret class javax.swing.text.DefaultCaret}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.DefaultCaret class javax.swing.text.DefaultCaret},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.DefaultCaretTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.DefaultCaretClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.DefaultCaretClassTests
+ *
+ * @j8unit.aim javax.swing.text.DefaultCaret
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +33,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#addChangeListener(javax.swing.event.ChangeListener) public
      * void javax.swing.text.DefaultCaret.addChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#addChangeListener(javax.swing.event.ChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +56,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#deinstall(javax.swing.text.JTextComponent) public void
      * javax.swing.text.DefaultCaret.deinstall(javax.swing.text.JTextComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#deinstall(javax.swing.text.JTextComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +79,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#equals(java.lang.Object) public boolean
      * javax.swing.text.DefaultCaret.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +102,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#focusGained(java.awt.event.FocusEvent) public void
      * javax.swing.text.DefaultCaret.focusGained(java.awt.event.FocusEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#focusGained(java.awt.event.FocusEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +125,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#focusLost(java.awt.event.FocusEvent) public void
      * javax.swing.text.DefaultCaret.focusLost(java.awt.event.FocusEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#focusLost(java.awt.event.FocusEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,7 +148,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getBlinkRate() public int
      * javax.swing.text.DefaultCaret.getBlinkRate()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getBlinkRate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -130,7 +171,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getChangeListeners() public
      * javax.swing.event.ChangeListener[] javax.swing.text.DefaultCaret.getChangeListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getChangeListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +192,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getDot() public int javax.swing.text.DefaultCaret.getDot()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getDot()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +215,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getDotBias() public javax.swing.text.Position$Bias
      * javax.swing.text.DefaultCaret.getDotBias()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getDotBias()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,7 +237,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getListeners(java.lang.Class) public
      * java.util.EventListener[] javax.swing.text.DefaultCaret.getListeners(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getListeners(java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,7 +259,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getMagicCaretPosition() public java.awt.Point
      * javax.swing.text.DefaultCaret.getMagicCaretPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getMagicCaretPosition()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,7 +282,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getMark() public int
      * javax.swing.text.DefaultCaret.getMark()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getMark()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -228,7 +305,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getMarkBias() public javax.swing.text.Position$Bias
      * javax.swing.text.DefaultCaret.getMarkBias()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getMarkBias()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,7 +327,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#getUpdatePolicy() public int
      * javax.swing.text.DefaultCaret.getUpdatePolicy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#getUpdatePolicy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,7 +349,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#install(javax.swing.text.JTextComponent) public void
      * javax.swing.text.DefaultCaret.install(javax.swing.text.JTextComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#install(javax.swing.text.JTextComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,7 +372,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#isActive() public boolean
      * javax.swing.text.DefaultCaret.isActive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#isActive()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -293,7 +394,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#isSelectionVisible() public boolean
      * javax.swing.text.DefaultCaret.isSelectionVisible()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#isSelectionVisible()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -310,7 +417,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#isVisible() public boolean
      * javax.swing.text.DefaultCaret.isVisible()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#isVisible()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,7 +440,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mouseClicked(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseClicked(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mouseClicked(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -344,7 +463,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mouseDragged(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseDragged(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mouseDragged(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,7 +486,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mouseEntered(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseEntered(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mouseEntered(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -378,7 +509,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mouseExited(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseExited(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mouseExited(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -395,7 +532,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mouseMoved(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseMoved(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mouseMoved(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,7 +555,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mousePressed(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mousePressed(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mousePressed(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -429,7 +578,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#mouseReleased(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseReleased(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#mouseReleased(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -446,7 +601,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#moveDot(int) public void
      * javax.swing.text.DefaultCaret.moveDot(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#moveDot(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -461,9 +622,15 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultCaret#moveDot(int,javax.swing.text.Position.Bias) public void
+     * Test method for {@link javax.swing.text.DefaultCaret#moveDot(int, javax.swing.text.Position.Bias) public void
      * javax.swing.text.DefaultCaret.moveDot(int,javax.swing.text.Position$Bias)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#moveDot(int, javax.swing.text.Position.Bias)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -479,7 +646,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#paint(java.awt.Graphics) public void
      * javax.swing.text.DefaultCaret.paint(java.awt.Graphics)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#paint(java.awt.Graphics)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -496,7 +669,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#removeChangeListener(javax.swing.event.ChangeListener)
      * public void javax.swing.text.DefaultCaret.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#removeChangeListener(javax.swing.event.ChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -513,7 +692,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#setBlinkRate(int) public void
      * javax.swing.text.DefaultCaret.setBlinkRate(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setBlinkRate(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -530,7 +715,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#setDot(int) public void
      * javax.swing.text.DefaultCaret.setDot(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setDot(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -545,9 +736,15 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultCaret#setDot(int,javax.swing.text.Position.Bias) public void
+     * Test method for {@link javax.swing.text.DefaultCaret#setDot(int, javax.swing.text.Position.Bias) public void
      * javax.swing.text.DefaultCaret.setDot(int,javax.swing.text.Position$Bias)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setDot(int, javax.swing.text.Position.Bias)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -563,7 +760,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#setMagicCaretPosition(java.awt.Point) public void
      * javax.swing.text.DefaultCaret.setMagicCaretPosition(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setMagicCaretPosition(java.awt.Point)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -580,7 +783,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#setSelectionVisible(boolean) public void
      * javax.swing.text.DefaultCaret.setSelectionVisible(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setSelectionVisible(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -597,7 +806,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#setUpdatePolicy(int) public void
      * javax.swing.text.DefaultCaret.setUpdatePolicy(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setUpdatePolicy(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -613,7 +828,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#setVisible(boolean) public void
      * javax.swing.text.DefaultCaret.setVisible(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#setVisible(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -630,7 +851,13 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.DefaultCaret#toString() public java.lang.String
      * javax.swing.text.DefaultCaret.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultCaret#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

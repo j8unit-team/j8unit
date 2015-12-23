@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.ArrayDequeTests<java.util.ArrayDeque<
 
     @Override
     public java.util.ArrayDeque<E> createNewSUT() {
-        return new java.util.ArrayDeque<>();
+        return new java.util.ArrayDeque();
     }
 
 }

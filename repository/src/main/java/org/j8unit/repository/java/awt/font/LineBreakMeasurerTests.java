@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.font.LineBreakMeasurer class java.awt.font.LineBreakMeasurer}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.font.LineBreakMeasurer class java.awt.font.LineBreakMeasurer}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.font.LineBreakMeasurerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.font.LineBreakMeasurerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.font.LineBreakMeasurerClassTests
+ *
+ * @j8unit.aim java.awt.font.LineBreakMeasurer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#deleteChar(java.text.AttributedCharacterIterator,int)
+     * Test method for {@link java.awt.font.LineBreakMeasurer#deleteChar(java.text.AttributedCharacterIterator, int)
      * public void java.awt.font.LineBreakMeasurer.deleteChar(java.text.AttributedCharacterIterator,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#deleteChar(java.text.AttributedCharacterIterator, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.font.LineBreakMeasurer#getPosition() public int
      * java.awt.font.LineBreakMeasurer.getPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#getPosition()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,9 +73,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#insertChar(java.text.AttributedCharacterIterator,int)
+     * Test method for {@link java.awt.font.LineBreakMeasurer#insertChar(java.text.AttributedCharacterIterator, int)
      * public void java.awt.font.LineBreakMeasurer.insertChar(java.text.AttributedCharacterIterator,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#insertChar(java.text.AttributedCharacterIterator, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.font.LineBreakMeasurer#nextLayout(float) public java.awt.font.TextLayout
      * java.awt.font.LineBreakMeasurer.nextLayout(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#nextLayout(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,9 +117,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#nextLayout(float,int,boolean) public
+     * Test method for {@link java.awt.font.LineBreakMeasurer#nextLayout(float, int, boolean) public
      * java.awt.font.TextLayout java.awt.font.LineBreakMeasurer.nextLayout(float,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#nextLayout(float, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.font.LineBreakMeasurer#nextOffset(float) public int
      * java.awt.font.LineBreakMeasurer.nextOffset(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#nextOffset(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,9 +161,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#nextOffset(float,int,boolean) public int
+     * Test method for {@link java.awt.font.LineBreakMeasurer#nextOffset(float, int, boolean) public int
      * java.awt.font.LineBreakMeasurer.nextOffset(float,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#nextOffset(float, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.font.LineBreakMeasurer#setPosition(int) public void
      * java.awt.font.LineBreakMeasurer.setPosition(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.font.LineBreakMeasurer#setPosition(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

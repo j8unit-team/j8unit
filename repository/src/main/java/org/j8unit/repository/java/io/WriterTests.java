@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.Writer class java.io.Writer}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.io.Writer class java.io.Writer}, containing all instance relevant
+ * test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+ * containing the class relevant test methods is {@link org.j8unit.repository.java.io.WriterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.io.WriterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.WriterClassTests
+ *
+ * @j8unit.aim java.io.Writer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#append(char) public java.io.Writer java.io.Writer.append(char) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#append(char)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#append(java.lang.CharSequence) public java.io.Writer
      * java.io.Writer.append(java.lang.CharSequence) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#append(java.lang.CharSequence)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,9 +75,15 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for {@link java.io.Writer#append(java.lang.CharSequence,int,int) public java.io.Writer
+     * Test method for {@link java.io.Writer#append(java.lang.CharSequence, int, int) public java.io.Writer
      * java.io.Writer.append(java.lang.CharSequence,int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#append(java.lang.CharSequence, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +100,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#close() public abstract void java.io.Writer.close() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +123,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#flush() public abstract void java.io.Writer.flush() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#flush()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +146,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#write(char[]) public void java.io.Writer.write(char[]) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#write(char[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,9 +166,15 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for {@link java.io.Writer#write(char[],int,int) public abstract void
+     * Test method for {@link java.io.Writer#write(char[], int, int) public abstract void
      * java.io.Writer.write(char[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#write(char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +190,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#write(int) public void java.io.Writer.write(int) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#write(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +212,13 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
      * <p>
      * Test method for {@link java.io.Writer#write(java.lang.String) public void java.io.Writer.write(java.lang.String)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#write(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,9 +232,15 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for {@link java.io.Writer#write(java.lang.String,int,int) public void
+     * Test method for {@link java.io.Writer#write(java.lang.String, int, int) public void
      * java.io.Writer.write(java.lang.String,int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.Writer#write(java.lang.String, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

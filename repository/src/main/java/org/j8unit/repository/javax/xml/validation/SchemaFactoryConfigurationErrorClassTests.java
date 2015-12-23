@@ -9,10 +9,10 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.validation.SchemaFactoryConfigurationError class
+ * Reusable J8Unit test interface for {@linkplain javax.xml.validation.SchemaFactoryConfigurationError class
  * javax.xml.validation.SchemaFactoryConfigurationError}, containing all class relevant test methods (at least the test
- * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class containing
- * the instance relevant test methods is
+ * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+ * containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.xml.validation.SchemaFactoryConfigurationErrorTests}.
  * </p>
  *
@@ -20,17 +20,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.xml.validation.SchemaFactoryConfigurationErrorTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.validation.SchemaFactoryConfigurationErrorTests
+ *
+ * @j8unit.aim javax.xml.validation.SchemaFactoryConfigurationError
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,8 +41,16 @@ public abstract interface SchemaFactoryConfigurationErrorClassTests<SUT extends 
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError()
      * public javax.xml.validation.SchemaFactoryConfigurationError()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,9 +64,18 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.String)
      * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.
+     *             String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -69,9 +89,18 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable)
+     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.String, java.lang.Throwable)
      * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.
+     *             String, java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,13 +110,23 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.validation.SchemaFactoryConfigurationError sut = null; // = new
-                                                                               // SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable);
+                                                                               // SchemaFactoryConfigurationError(java.lang.String,
+                                                                               // java.lang.Throwable);
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.Throwable)
      * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.
+     *             Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,6 +139,11 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
                                                                                // SchemaFactoryConfigurationError(java.lang.Throwable);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.xml.validation.SchemaFactoryConfigurationError#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

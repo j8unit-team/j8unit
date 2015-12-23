@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.security.auth.SubjectDomainCombiner class javax.security.auth.SubjectDomainCombiner},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.security.auth.SubjectDomainCombiner class
+ * javax.security.auth.SubjectDomainCombiner}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.security.auth.SubjectDomainCombinerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.security.auth.SubjectDomainCombinerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.security.auth.SubjectDomainCombinerClassTests
+ *
+ * @j8unit.aim javax.security.auth.SubjectDomainCombiner
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.java.security.DomainCombinerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for
-     * {@link javax.security.auth.SubjectDomainCombiner#combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[])
+     * {@link javax.security.auth.SubjectDomainCombiner#combine(java.security.ProtectionDomain[], java.security.ProtectionDomain[])
      * public java.security.ProtectionDomain[]
      * javax.security.auth.SubjectDomainCombiner.combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[])}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.SubjectDomainCombiner#combine(java.security.ProtectionDomain[],
+     *             java.security.ProtectionDomain[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -46,7 +58,13 @@ extends org.j8unit.repository.java.security.DomainCombinerTests<SUT>, org.j8unit
      * <p>
      * Test method for {@link javax.security.auth.SubjectDomainCombiner#getSubject() public javax.security.auth.Subject
      * javax.security.auth.SubjectDomainCombiner.getSubject()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.SubjectDomainCombiner#getSubject()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

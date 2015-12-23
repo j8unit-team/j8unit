@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.VersionSpecHelper class org.omg.CORBA.VersionSpecHelper}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.VersionSpecHelper class org.omg.CORBA.VersionSpecHelper}
+ * , containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.org.omg.CORBA.VersionSpecHelperTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.org.omg.CORBA.VersionSpecHelperTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CORBA.VersionSpecHelperTests
+ *
+ * @j8unit.aim org.omg.CORBA.VersionSpecHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,8 +40,16 @@ public abstract interface VersionSpecHelperClassTests<SUT extends org.omg.CORBA.
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link org.omg.CORBA.VersionSpecHelper#VersionSpecHelper() public
      * org.omg.CORBA.VersionSpecHelper()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#VersionSpecHelper()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,7 +65,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.VersionSpecHelper#extract(org.omg.CORBA.Any) public static java.lang.String
      * org.omg.CORBA.VersionSpecHelper.extract(org.omg.CORBA.Any)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#extract(org.omg.CORBA.Any)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -70,7 +87,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.VersionSpecHelper#id() public static java.lang.String
      * org.omg.CORBA.VersionSpecHelper.id()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#id()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,9 +107,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.VersionSpecHelper#insert(org.omg.CORBA.Any,java.lang.String) public static
+     * Test method for {@link org.omg.CORBA.VersionSpecHelper#insert(org.omg.CORBA.Any, java.lang.String) public static
      * void org.omg.CORBA.VersionSpecHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#insert(org.omg.CORBA.Any, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -102,7 +131,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.VersionSpecHelper#read(org.omg.CORBA.portable.InputStream) public static
      * java.lang.String org.omg.CORBA.VersionSpecHelper.read(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#read(org.omg.CORBA.portable.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,7 +153,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.VersionSpecHelper#type() public static synchronized org.omg.CORBA.TypeCode
      * org.omg.CORBA.VersionSpecHelper.type()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#type()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,9 +174,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.VersionSpecHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String) public static
+     * {@link org.omg.CORBA.VersionSpecHelper#write(org.omg.CORBA.portable.OutputStream, java.lang.String) public static
      * void org.omg.CORBA.VersionSpecHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#write(org.omg.CORBA.portable.OutputStream, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -147,6 +194,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim org.omg.CORBA.VersionSpecHelper#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

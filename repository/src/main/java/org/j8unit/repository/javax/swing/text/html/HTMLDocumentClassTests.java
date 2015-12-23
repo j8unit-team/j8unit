@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.html.HTMLDocument class javax.swing.text.html.HTMLDocument}, containing all
- * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument class
+ * javax.swing.text.html.HTMLDocument}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests
+ *
+ * @j8unit.aim javax.swing.text.html.HTMLDocument
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLDocument$BlockElement class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.BlockElement class
      * javax.swing.text.html.HTMLDocument$BlockElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests}.
      * </p>
      *
@@ -49,7 +52,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +60,13 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument.BlockElement
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -68,11 +74,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.BranchElementClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.BlockElement#BlockElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)
+         * {@link javax.swing.text.html.HTMLDocument.BlockElement#BlockElement(javax.swing.text.html.HTMLDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
          * public
          * javax.swing.text.html.HTMLDocument$BlockElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.BlockElement#BlockElement(javax.swing.text.html.HTMLDocument,
+         *             javax.swing.text.Element, javax.swing.text.AttributeSet)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -82,9 +97,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.html.HTMLDocument.BlockElement sut = null; // = new
-                                                                              // BlockElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet);
+                                                                              // BlockElement(javax.swing.text.html.HTMLDocument,
+                                                                              // javax.swing.text.Element,
+                                                                              // javax.swing.text.AttributeSet);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.BlockElement#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -99,10 +121,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader class
      * javax.swing.text.html.HTMLDocument$HTMLReader}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests}.
      * </p>
      *
@@ -110,7 +132,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -118,10 +140,13 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -130,10 +155,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}, containing all class relevant test methods
+         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests}.
          * </p>
          *
@@ -141,18 +166,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -160,11 +188,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.
+             *             HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -177,6 +214,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                             // BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -191,10 +233,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction}, containing all class relevant test methods
-         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart test class containing the instance relevant test methods is
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction}, containing all class relevant test
+         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests}.
          * </p>
          *
@@ -202,18 +244,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -221,11 +266,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#CharacterAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#CharacterAction(javax.swing.
+             *             text.html.HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -238,6 +292,12 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                                 // CharacterAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#isAssignableFrom(java.lang.
+             *             Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -252,10 +312,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$FormAction class
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.FormAction class
          * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction}, containing all class relevant test methods (at
          * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests}.
          * </p>
          *
@@ -263,18 +323,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.FormAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -282,10 +345,19 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#FormAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#FormAction(javax.swing.text.html.
+             *             HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -298,6 +370,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                            // FormAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -312,10 +389,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction}, containing all class relevant test methods
+         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}.
          * </p>
          *
@@ -323,18 +400,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -342,11 +422,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html
+             *             .HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -359,6 +448,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                              // HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -373,10 +467,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}, containing all class relevant test
+         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests}.
          * </p>
          *
@@ -384,18 +478,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -403,11 +500,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#IsindexAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#IsindexAction(javax.swing.text.
+             *             html.HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -420,6 +526,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                               // IsindexAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -434,10 +545,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction}, containing all class relevant test methods
-         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart test class containing the instance relevant test methods is
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction}, containing all class relevant test
+         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}.
          * </p>
          *
@@ -445,18 +556,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -464,11 +578,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.
+             *             text.html.HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -481,6 +604,12 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                                 // ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#isAssignableFrom(java.lang.
+             *             Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -495,10 +624,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$PreAction class
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.PreAction class
          * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction}, containing all class relevant test methods (at
          * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests}.
          * </p>
          *
@@ -506,18 +635,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.PreAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -525,10 +657,19 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#PreAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#PreAction(javax.swing.text.html.
+             *             HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -541,6 +682,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                           // PreAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -555,10 +701,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction}, containing all class relevant test
+         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}.
          * </p>
          *
@@ -566,18 +712,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -585,11 +734,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.
+             *             html.HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -602,6 +760,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                               // SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -616,10 +779,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$TagAction class
+         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.TagAction class
          * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction}, containing all class relevant test methods (at
          * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
+         * J8Unit test interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests}.
          * </p>
          *
@@ -627,18 +790,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.TagAction
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
@@ -646,10 +812,19 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
             /**
+             * <p>
              * Test method for
              * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#TagAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#TagAction(javax.swing.text.html.
+             *             HTMLDocument.HTMLReader)
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
@@ -662,6 +837,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                                                                                           // TagAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#isAssignableFrom(java.lang.Class)
+             */
             @Override
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
@@ -675,9 +855,17 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument,int)
+         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int)
          * public javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -687,15 +875,25 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
-                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,int);
+                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,
+                                                                            // int);
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML.Tag)
+         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int, int, int, javax.swing.text.html.HTML.Tag)
          * public
          * javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML$Tag)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int,
+         *             int, int, javax.swing.text.html.HTML.Tag)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -705,9 +903,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
-                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML.Tag);
+                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,
+                                                                            // int, int, int,
+                                                                            // javax.swing.text.html.HTML.Tag);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -722,10 +927,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLDocument$Iterator class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.Iterator class
      * javax.swing.text.html.HTMLDocument$Iterator}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests}.
      * </p>
      *
@@ -733,7 +938,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -741,10 +946,13 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument.Iterator
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -752,8 +960,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for {@link javax.swing.text.html.HTMLDocument.Iterator#Iterator() public
          * javax.swing.text.html.HTMLDocument$Iterator()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.Iterator#Iterator()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -765,6 +981,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             final javax.swing.text.html.HTMLDocument.Iterator sut = null; // = new Iterator();
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.Iterator#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -779,10 +1000,10 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLDocument$RunElement class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.RunElement class
      * javax.swing.text.html.HTMLDocument$RunElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests}.
      * </p>
      *
@@ -790,7 +1011,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -798,10 +1019,13 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument.RunElement
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -809,11 +1033,20 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)
+         * {@link javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument, javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
          * public
          * javax.swing.text.html.HTMLDocument$RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument,
+         *             javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -823,9 +1056,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.html.HTMLDocument.RunElement sut = null; // = new
-                                                                            // RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int);
+                                                                            // RunElement(javax.swing.text.html.HTMLDocument,
+                                                                            // javax.swing.text.Element,
+                                                                            // javax.swing.text.AttributeSet, int, int);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.html.HTMLDocument.RunElement#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -839,8 +1079,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument() public
      * javax.swing.text.html.HTMLDocument()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument#HTMLDocument()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -853,10 +1101,19 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content,javax.swing.text.html.StyleSheet)
+     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content, javax.swing.text.html.StyleSheet)
      * public
      * javax.swing.text.html.HTMLDocument(javax.swing.text.AbstractDocument$Content,javax.swing.text.html.StyleSheet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content,
+     *             javax.swing.text.html.StyleSheet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -866,12 +1123,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.text.html.HTMLDocument sut = null; // = new
-                                                             // HTMLDocument(javax.swing.text.AbstractDocument.Content,javax.swing.text.html.StyleSheet);
+                                                             // HTMLDocument(javax.swing.text.AbstractDocument.Content,
+                                                             // javax.swing.text.html.StyleSheet);
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet) public
      * javax.swing.text.html.HTMLDocument(javax.swing.text.html.StyleSheet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -883,6 +1149,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
         final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument(javax.swing.text.html.StyleSheet);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.text.html.HTMLDocument#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

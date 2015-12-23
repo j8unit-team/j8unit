@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.lang.StringBuilder class java.lang.StringBuilder}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.lang.StringBuilder class java.lang.StringBuilder}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.lang.StringBuilderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.lang.StringBuilderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.lang.StringBuilderClassTests
+ *
+ * @j8unit.aim java.lang.StringBuilder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(boolean) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(char) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(char)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(char[]) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(char[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(char[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,9 +97,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#append(char[],int,int) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#append(char[], int, int) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(char[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(java.lang.CharSequence) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(java.lang.CharSequence)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,9 +142,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#append(java.lang.CharSequence,int,int) public
+     * Test method for {@link java.lang.StringBuilder#append(java.lang.CharSequence, int, int) public
      * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.CharSequence,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(java.lang.CharSequence, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +167,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(double) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +189,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(float) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +211,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(int) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +233,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(long) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +255,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(java.lang.Object) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,7 +277,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(java.lang.String) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,7 +299,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#append(java.lang.StringBuffer) public java.lang.StringBuilder
      * java.lang.StringBuilder.append(java.lang.StringBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#append(java.lang.StringBuffer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -238,7 +321,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#appendCodePoint(int) public java.lang.StringBuilder
      * java.lang.StringBuilder.appendCodePoint(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#appendCodePoint(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -252,9 +341,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#delete(int,int) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#delete(int, int) public java.lang.StringBuilder
      * java.lang.StringBuilder.delete(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#delete(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,7 +365,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#deleteCharAt(int) public java.lang.StringBuilder
      * java.lang.StringBuilder.deleteCharAt(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#deleteCharAt(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,7 +387,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#indexOf(java.lang.String) public int
      * java.lang.StringBuilder.indexOf(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#indexOf(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -300,9 +407,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#indexOf(java.lang.String,int) public int
+     * Test method for {@link java.lang.StringBuilder#indexOf(java.lang.String, int) public int
      * java.lang.StringBuilder.indexOf(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#indexOf(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -316,9 +429,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,boolean) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, boolean) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -332,9 +451,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,char) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, char) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, char)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -348,9 +473,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,char[]) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, char[]) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,char[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, char[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,9 +495,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,char[],int,int) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, char[], int, int) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,char[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -380,9 +517,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,java.lang.CharSequence) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, java.lang.CharSequence) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, java.lang.CharSequence)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -396,9 +539,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,java.lang.CharSequence,int,int) public
+     * Test method for {@link java.lang.StringBuilder#insert(int, java.lang.CharSequence, int, int) public
      * java.lang.StringBuilder java.lang.StringBuilder.insert(int,java.lang.CharSequence,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, java.lang.CharSequence, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,9 +561,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,double) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, double) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -428,9 +583,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,float) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, float) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -444,9 +605,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,int) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, int) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -460,9 +627,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,long) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, long) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -476,9 +649,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,java.lang.Object) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, java.lang.Object) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -492,9 +671,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#insert(int,java.lang.String) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#insert(int, java.lang.String) public java.lang.StringBuilder
      * java.lang.StringBuilder.insert(int,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#insert(int, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -510,7 +695,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#lastIndexOf(java.lang.String) public int
      * java.lang.StringBuilder.lastIndexOf(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#lastIndexOf(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -524,9 +715,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#lastIndexOf(java.lang.String,int) public int
+     * Test method for {@link java.lang.StringBuilder#lastIndexOf(java.lang.String, int) public int
      * java.lang.StringBuilder.lastIndexOf(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#lastIndexOf(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -540,9 +737,15 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.lang.StringBuilder#replace(int,int,java.lang.String) public java.lang.StringBuilder
+     * Test method for {@link java.lang.StringBuilder#replace(int, int, java.lang.String) public java.lang.StringBuilder
      * java.lang.StringBuilder.replace(int,int,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#replace(int, int, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -558,7 +761,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#reverse() public java.lang.StringBuilder
      * java.lang.StringBuilder.reverse()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#reverse()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,7 +783,13 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link java.lang.StringBuilder#toString() public java.lang.String
      * java.lang.StringBuilder.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.StringBuilder#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

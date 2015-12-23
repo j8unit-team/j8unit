@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.openmbean.TabularType class javax.management.openmbean.TabularType},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.openmbean.TabularType class
+ * javax.management.openmbean.TabularType}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.openmbean.TabularTypeTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.openmbean.TabularTypeClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.openmbean.TabularTypeClassTests
+ *
+ * @j8unit.aim javax.management.openmbean.TabularType
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
      * <p>
      * Test method for {@link javax.management.openmbean.TabularType#equals(java.lang.Object) public boolean
      * javax.management.openmbean.TabularType.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.TabularType#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
      * <p>
      * Test method for {@link javax.management.openmbean.TabularType#getIndexNames() public java.util.List
      * javax.management.openmbean.TabularType.getIndexNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.TabularType#getIndexNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
      * <p>
      * Test method for {@link javax.management.openmbean.TabularType#getRowType() public
      * javax.management.openmbean.CompositeType javax.management.openmbean.TabularType.getRowType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.TabularType#getRowType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
      * <p>
      * Test method for {@link javax.management.openmbean.TabularType#hashCode() public int
      * javax.management.openmbean.TabularType.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.TabularType#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
      * <p>
      * Test method for {@link javax.management.openmbean.TabularType#isValue(java.lang.Object) public boolean
      * javax.management.openmbean.TabularType.isValue(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.TabularType#isValue(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
      * <p>
      * Test method for {@link javax.management.openmbean.TabularType#toString() public java.lang.String
      * javax.management.openmbean.TabularType.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.openmbean.TabularType#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

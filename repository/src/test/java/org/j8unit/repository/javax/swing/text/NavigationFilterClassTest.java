@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class NavigationFilterClassTest
 implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests<javax.swing.text.NavigationFilter> {
 
+    @Override
+    public Class<javax.swing.text.NavigationFilter> createNewSUT() {
+        return javax.swing.text.NavigationFilter.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FilterBypassClassTest
     implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests.FilterBypassClassTests<javax.swing.text.NavigationFilter.FilterBypass> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests<jav
             return javax.swing.text.NavigationFilter.FilterBypass.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.NavigationFilter> createNewSUT() {
-        return javax.swing.text.NavigationFilter.class;
     }
 
 }

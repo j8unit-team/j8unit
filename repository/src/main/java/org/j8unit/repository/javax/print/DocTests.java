@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.print;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,35 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.Doc interface javax.print.Doc}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.print.Doc interface javax.print.Doc}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.javax.print.DocTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.DocClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.DocClassTests
+ *
+ * @j8unit.aim javax.print.Doc
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocTests<SUT extends javax.print.Doc>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link javax.print.Doc#getAttributes() public abstract javax.print.attribute.DocAttributeSet
      * javax.print.Doc.getAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.Doc#getAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +53,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.print.Doc#getDocFlavor() public abstract javax.print.DocFlavor
      * javax.print.Doc.getDocFlavor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.Doc#getDocFlavor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +75,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.print.Doc#getPrintData() public abstract java.lang.Object
      * javax.print.Doc.getPrintData() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.Doc#getPrintData()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +97,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.print.Doc#getReaderForText() public abstract java.io.Reader
      * javax.print.Doc.getReaderForText() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.Doc#getReaderForText()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +119,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.print.Doc#getStreamForBytes() public abstract java.io.InputStream
      * javax.print.Doc.getStreamForBytes() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.Doc#getStreamForBytes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.event.ListSelectionEvent class javax.swing.event.ListSelectionEvent}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.event.ListSelectionEvent class
+ * javax.swing.event.ListSelectionEvent}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.event.ListSelectionEventTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.event.ListSelectionEventClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.event.ListSelectionEventClassTests
+ *
+ * @j8unit.aim javax.swing.event.ListSelectionEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.event.ListSelectionEvent#getFirstIndex() public int
      * javax.swing.event.ListSelectionEvent.getFirstIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.event.ListSelectionEvent#getFirstIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.event.ListSelectionEvent#getLastIndex() public int
      * javax.swing.event.ListSelectionEvent.getLastIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.event.ListSelectionEvent#getLastIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.event.ListSelectionEvent#getValueIsAdjusting() public boolean
      * javax.swing.event.ListSelectionEvent.getValueIsAdjusting()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.event.ListSelectionEvent#getValueIsAdjusting()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.event.ListSelectionEvent#toString() public java.lang.String
      * javax.swing.event.ListSelectionEvent.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.event.ListSelectionEvent#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

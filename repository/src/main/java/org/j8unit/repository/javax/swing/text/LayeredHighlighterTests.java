@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.LayeredHighlighter class javax.swing.text.LayeredHighlighter}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.LayeredHighlighter class
+ * javax.swing.text.LayeredHighlighter}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests
+ *
+ * @j8unit.aim javax.swing.text.LayeredHighlighter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.LayeredHighlighter$LayerPainter class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.LayeredHighlighter.LayerPainter class
      * javax.swing.text.LayeredHighlighter$LayerPainter}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests.LayerPainterClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests.LayerPainterClassTests
+     *
+     * @j8unit.aim javax.swing.text.LayeredHighlighter.LayerPainter
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,11 +51,18 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.LayeredHighlighter.LayerPainter#paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)
+         * {@link javax.swing.text.LayeredHighlighter.LayerPainter#paintLayer(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
          * public abstract java.awt.Shape
          * javax.swing.text.LayeredHighlighter$LayerPainter.paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.LayeredHighlighter.LayerPainter#paintLayer(java.awt.Graphics, int, int,
+         *             java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -63,11 +79,18 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.LayeredHighlighter#paintLayeredHighlights(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)
+     * {@link javax.swing.text.LayeredHighlighter#paintLayeredHighlights(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
      * public abstract void
      * javax.swing.text.LayeredHighlighter.paintLayeredHighlights(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.LayeredHighlighter#paintLayeredHighlights(java.awt.Graphics, int, int,
+     *             java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

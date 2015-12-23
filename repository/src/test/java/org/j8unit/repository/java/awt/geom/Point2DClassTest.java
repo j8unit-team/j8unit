@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class Point2DClassTest
 implements org.j8unit.repository.java.awt.geom.Point2DClassTests<java.awt.geom.Point2D> {
 
-    @RunWith(J8Unit4.class)
-    public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.Point2DClassTests.DoubleClassTests<java.awt.geom.Point2D.Double> {
-
-        @Override
-        public Class<java.awt.geom.Point2D.Double> createNewSUT() {
-            return java.awt.geom.Point2D.Double.class;
-        }
-
+    @Override
+    public Class<java.awt.geom.Point2D> createNewSUT() {
+        return java.awt.geom.Point2D.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<java.awt.geom.P
 
     }
 
-    @Override
-    public Class<java.awt.geom.Point2D> createNewSUT() {
-        return java.awt.geom.Point2D.class;
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.Point2DClassTests.DoubleClassTests<java.awt.geom.Point2D.Double> {
+
+        @Override
+        public Class<java.awt.geom.Point2D.Double> createNewSUT() {
+            return java.awt.geom.Point2D.Double.class;
+        }
+
     }
 
 }

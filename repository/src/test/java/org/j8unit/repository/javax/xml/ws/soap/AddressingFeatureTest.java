@@ -13,6 +13,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class AddressingFeatureTest
 implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests<javax.xml.ws.soap.AddressingFeature> {
 
+    @Override
+    public javax.xml.ws.soap.AddressingFeature createNewSUT() {
+        return new javax.xml.ws.soap.AddressingFeature();
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ResponsesTest
@@ -31,11 +36,6 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests<javax.
             return this.sut;
         }
 
-    }
-
-    @Override
-    public javax.xml.ws.soap.AddressingFeature createNewSUT() {
-        return new javax.xml.ws.soap.AddressingFeature();
     }
 
 }

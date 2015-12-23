@@ -7,6 +7,23 @@ import org.junit.runner.RunWith;
 public class StyleConstantsClassTest
 implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<javax.swing.text.StyleConstants> {
 
+    @Override
+    public Class<javax.swing.text.StyleConstants> createNewSUT() {
+        return javax.swing.text.StyleConstants.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ParagraphConstantsClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests<javax.swing.text.StyleConstants.ParagraphConstants> {
+
+        @Override
+        public Class<javax.swing.text.StyleConstants.ParagraphConstants> createNewSUT() {
+            return javax.swing.text.StyleConstants.ParagraphConstants.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class CharacterConstantsClassTest
     implements
@@ -39,23 +56,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<javax
             return javax.swing.text.StyleConstants.FontConstants.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ParagraphConstantsClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests<javax.swing.text.StyleConstants.ParagraphConstants> {
-
-        @Override
-        public Class<javax.swing.text.StyleConstants.ParagraphConstants> createNewSUT() {
-            return javax.swing.text.StyleConstants.ParagraphConstants.class;
-        }
-
-    }
-
-    @Override
-    public Class<javax.swing.text.StyleConstants> createNewSUT() {
-        return javax.swing.text.StyleConstants.class;
     }
 
 }

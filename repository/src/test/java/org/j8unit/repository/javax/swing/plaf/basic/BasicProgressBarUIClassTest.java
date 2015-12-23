@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicProgressBarUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassTests<javax.swing.plaf.basic.BasicProgressBarUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicProgressBarUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicProgressBarUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
             return javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicProgressBarUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicProgressBarUI.class;
     }
 
 }

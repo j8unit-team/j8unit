@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AbstractQueuedSynchronizerClassTest
 implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedSynchronizerClassTests<java.util.concurrent.locks.AbstractQueuedSynchronizer> {
 
+    @Override
+    public Class<java.util.concurrent.locks.AbstractQueuedSynchronizer> createNewSUT() {
+        return java.util.concurrent.locks.AbstractQueuedSynchronizer.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ConditionObjectClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedSynchr
             return java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.concurrent.locks.AbstractQueuedSynchronizer> createNewSUT() {
-        return java.util.concurrent.locks.AbstractQueuedSynchronizer.class;
     }
 
 }

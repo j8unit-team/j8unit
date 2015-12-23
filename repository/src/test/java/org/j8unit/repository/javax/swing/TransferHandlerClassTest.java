@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class TransferHandlerClassTest
 implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<javax.swing.TransferHandler> {
 
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<javax.swing.TransferHandler.DropLocation> {
-
-        @Override
-        public Class<javax.swing.TransferHandler.DropLocation> createNewSUT() {
-            return javax.swing.TransferHandler.DropLocation.class;
-        }
-
+    @Override
+    public Class<javax.swing.TransferHandler> createNewSUT() {
+        return javax.swing.TransferHandler.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<javax.swi
 
     }
 
-    @Override
-    public Class<javax.swing.TransferHandler> createNewSUT() {
-        return javax.swing.TransferHandler.class;
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<javax.swing.TransferHandler.DropLocation> {
+
+        @Override
+        public Class<javax.swing.TransferHandler.DropLocation> createNewSUT() {
+            return javax.swing.TransferHandler.DropLocation.class;
+        }
+
     }
 
 }

@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class AclEntryTest
 implements org.j8unit.repository.java.nio.file.attribute.AclEntryTests<java.nio.file.attribute.AclEntry> {
 
+    @Override
+    public java.nio.file.attribute.AclEntry createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.nio.file.attribute.AclEntry] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class BuilderTest
     implements org.j8unit.repository.java.nio.file.attribute.AclEntryTests.BuilderTests<java.nio.file.attribute.AclEntry.Builder> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryTests<java.nio.
             throw new AssumptionViolatedException("There is no default constructor for [java.nio.file.attribute.AclEntry.Builder] available.");
         }
 
-    }
-
-    @Override
-    public java.nio.file.attribute.AclEntry createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.nio.file.attribute.AclEntry] available.");
     }
 
 }

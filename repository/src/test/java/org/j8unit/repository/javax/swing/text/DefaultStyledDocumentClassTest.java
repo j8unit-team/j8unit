@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DefaultStyledDocumentClassTest
 implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<javax.swing.text.DefaultStyledDocument> {
 
+    @Override
+    public Class<javax.swing.text.DefaultStyledDocument> createNewSUT() {
+        return javax.swing.text.DefaultStyledDocument.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AttributeUndoableEditClassTest
     implements
@@ -15,18 +20,6 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
         @Override
         public Class<javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit> createNewSUT() {
             return javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ElementBufferClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests<javax.swing.text.DefaultStyledDocument.ElementBuffer> {
-
-        @Override
-        public Class<javax.swing.text.DefaultStyledDocument.ElementBuffer> createNewSUT() {
-            return javax.swing.text.DefaultStyledDocument.ElementBuffer.class;
         }
 
     }
@@ -43,9 +36,16 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
 
     }
 
-    @Override
-    public Class<javax.swing.text.DefaultStyledDocument> createNewSUT() {
-        return javax.swing.text.DefaultStyledDocument.class;
+    @RunWith(J8Unit4.class)
+    public static class ElementBufferClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests<javax.swing.text.DefaultStyledDocument.ElementBuffer> {
+
+        @Override
+        public Class<javax.swing.text.DefaultStyledDocument.ElementBuffer> createNewSUT() {
+            return javax.swing.text.DefaultStyledDocument.ElementBuffer.class;
+        }
+
     }
 
 }

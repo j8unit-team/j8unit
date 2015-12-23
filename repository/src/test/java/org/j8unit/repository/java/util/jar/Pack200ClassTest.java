@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class Pack200ClassTest
 implements org.j8unit.repository.java.util.jar.Pack200ClassTests<java.util.jar.Pack200> {
 
-    @RunWith(J8Unit4.class)
-    public static class PackerClassTest
-    implements org.j8unit.repository.java.util.jar.Pack200ClassTests.PackerClassTests<java.util.jar.Pack200.Packer> {
-
-        @Override
-        public Class<java.util.jar.Pack200.Packer> createNewSUT() {
-            return java.util.jar.Pack200.Packer.class;
-        }
-
+    @Override
+    public Class<java.util.jar.Pack200> createNewSUT() {
+        return java.util.jar.Pack200.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<java.util.jar.P
 
     }
 
-    @Override
-    public Class<java.util.jar.Pack200> createNewSUT() {
-        return java.util.jar.Pack200.class;
+    @RunWith(J8Unit4.class)
+    public static class PackerClassTest
+    implements org.j8unit.repository.java.util.jar.Pack200ClassTests.PackerClassTests<java.util.jar.Pack200.Packer> {
+
+        @Override
+        public Class<java.util.jar.Pack200.Packer> createNewSUT() {
+            return java.util.jar.Pack200.Packer.class;
+        }
+
     }
 
 }

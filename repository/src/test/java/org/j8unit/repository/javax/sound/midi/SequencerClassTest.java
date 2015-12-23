@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class SequencerClassTest
 implements org.j8unit.repository.javax.sound.midi.SequencerClassTests<javax.sound.midi.Sequencer> {
 
+    @Override
+    public Class<javax.sound.midi.Sequencer> createNewSUT() {
+        return javax.sound.midi.Sequencer.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class SyncModeClassTest
     implements org.j8unit.repository.javax.sound.midi.SequencerClassTests.SyncModeClassTests<javax.sound.midi.Sequencer.SyncMode> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.midi.SequencerClassTests<javax.soun
             return javax.sound.midi.Sequencer.SyncMode.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.midi.Sequencer> createNewSUT() {
-        return javax.sound.midi.Sequencer.class;
     }
 
 }

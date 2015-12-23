@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.modelmbean.ModelMBean interface javax.management.modelmbean.ModelMBean},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.modelmbean.ModelMBean interface
+ * javax.management.modelmbean.ModelMBean}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanClassTests
+ *
+ * @j8unit.aim javax.management.modelmbean.ModelMBean
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,11 +31,17 @@ org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcas
     /**
      * <p>
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBean#setManagedResource(java.lang.Object,java.lang.String) public
+     * {@link javax.management.modelmbean.ModelMBean#setManagedResource(java.lang.Object, java.lang.String) public
      * abstract void javax.management.modelmbean.ModelMBean.setManagedResource(java.lang.Object,java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBean#setManagedResource(java.lang.Object, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -49,7 +60,13 @@ org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcas
      * public abstract void
      * javax.management.modelmbean.ModelMBean.setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBean#setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

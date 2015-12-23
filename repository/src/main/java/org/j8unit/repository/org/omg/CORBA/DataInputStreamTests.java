@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.DataInputStream interface org.omg.CORBA.DataInputStream}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.DataInputStream interface org.omg.CORBA.DataInputStream}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.CORBA.DataInputStreamTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CORBA.DataInputStreamClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CORBA.DataInputStreamClassTests
+ *
+ * @j8unit.aim org.omg.CORBA.DataInputStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_Abstract() public abstract java.lang.Object
      * org.omg.CORBA.DataInputStream.read_Abstract()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_Abstract()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_any() public abstract org.omg.CORBA.Any
      * org.omg.CORBA.DataInputStream.read_any()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_any()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,9 +73,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_any_array(org.omg.CORBA.AnySeqHolder,int,int) public
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_any_array(org.omg.CORBA.AnySeqHolder, int, int) public
      * abstract void org.omg.CORBA.DataInputStream.read_any_array(org.omg.CORBA.AnySeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_any_array(org.omg.CORBA.AnySeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_boolean() public abstract boolean
      * org.omg.CORBA.DataInputStream.read_boolean()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_boolean()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,9 +117,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_boolean_array(org.omg.CORBA.BooleanSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_boolean_array(org.omg.CORBA.BooleanSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_boolean_array(org.omg.CORBA.BooleanSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_boolean_array(org.omg.CORBA.BooleanSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_char() public abstract char
      * org.omg.CORBA.DataInputStream.read_char()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_char()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,9 +161,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_char_array(org.omg.CORBA.CharSeqHolder,int,int) public
-     * abstract void org.omg.CORBA.DataInputStream.read_char_array(org.omg.CORBA.CharSeqHolder,int,int)}.
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_char_array(org.omg.CORBA.CharSeqHolder, int, int)
+     * public abstract void org.omg.CORBA.DataInputStream.read_char_array(org.omg.CORBA.CharSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_char_array(org.omg.CORBA.CharSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_double() public abstract double
      * org.omg.CORBA.DataInputStream.read_double()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_double()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,9 +205,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_double_array(org.omg.CORBA.DoubleSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_double_array(org.omg.CORBA.DoubleSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_double_array(org.omg.CORBA.DoubleSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_double_array(org.omg.CORBA.DoubleSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_float() public abstract float
      * org.omg.CORBA.DataInputStream.read_float()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_float()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -184,9 +249,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_float_array(org.omg.CORBA.FloatSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_float_array(org.omg.CORBA.FloatSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_float_array(org.omg.CORBA.FloatSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_float_array(org.omg.CORBA.FloatSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +273,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_long() public abstract int
      * org.omg.CORBA.DataInputStream.read_long()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_long()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -216,9 +293,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_long_array(org.omg.CORBA.LongSeqHolder,int,int) public
-     * abstract void org.omg.CORBA.DataInputStream.read_long_array(org.omg.CORBA.LongSeqHolder,int,int)}.
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_long_array(org.omg.CORBA.LongSeqHolder, int, int)
+     * public abstract void org.omg.CORBA.DataInputStream.read_long_array(org.omg.CORBA.LongSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_long_array(org.omg.CORBA.LongSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +317,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_longlong() public abstract long
      * org.omg.CORBA.DataInputStream.read_longlong()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_longlong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -248,9 +337,16 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_longlong_array(org.omg.CORBA.LongLongSeqHolder,int,int)
-     * public abstract void org.omg.CORBA.DataInputStream.read_longlong_array(org.omg.CORBA.LongLongSeqHolder,int,int)}.
+     * Test method for
+     * {@link org.omg.CORBA.DataInputStream#read_longlong_array(org.omg.CORBA.LongLongSeqHolder, int, int) public
+     * abstract void org.omg.CORBA.DataInputStream.read_longlong_array(org.omg.CORBA.LongLongSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_longlong_array(org.omg.CORBA.LongLongSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -266,7 +362,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_Object() public abstract org.omg.CORBA.Object
      * org.omg.CORBA.DataInputStream.read_Object()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_Object()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -282,7 +384,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_octet() public abstract byte
      * org.omg.CORBA.DataInputStream.read_octet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_octet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -296,9 +404,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_octet_array(org.omg.CORBA.OctetSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_octet_array(org.omg.CORBA.OctetSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_octet_array(org.omg.CORBA.OctetSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_octet_array(org.omg.CORBA.OctetSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -314,7 +428,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_short() public abstract short
      * org.omg.CORBA.DataInputStream.read_short()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_short()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,9 +448,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_short_array(org.omg.CORBA.ShortSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_short_array(org.omg.CORBA.ShortSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_short_array(org.omg.CORBA.ShortSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_short_array(org.omg.CORBA.ShortSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -346,7 +472,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_string() public abstract java.lang.String
      * org.omg.CORBA.DataInputStream.read_string()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_string()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -362,7 +494,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_TypeCode() public abstract org.omg.CORBA.TypeCode
      * org.omg.CORBA.DataInputStream.read_TypeCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_TypeCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -378,7 +516,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_ulong() public abstract int
      * org.omg.CORBA.DataInputStream.read_ulong()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_ulong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,9 +536,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_ulong_array(org.omg.CORBA.ULongSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_ulong_array(org.omg.CORBA.ULongSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_ulong_array(org.omg.CORBA.ULongSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_ulong_array(org.omg.CORBA.ULongSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -410,7 +560,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_ulonglong() public abstract long
      * org.omg.CORBA.DataInputStream.read_ulonglong()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_ulonglong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -425,9 +581,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.DataInputStream#read_ulonglong_array(org.omg.CORBA.ULongLongSeqHolder,int,int) public
+     * {@link org.omg.CORBA.DataInputStream#read_ulonglong_array(org.omg.CORBA.ULongLongSeqHolder, int, int) public
      * abstract void org.omg.CORBA.DataInputStream.read_ulonglong_array(org.omg.CORBA.ULongLongSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_ulonglong_array(org.omg.CORBA.ULongLongSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -443,7 +605,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_ushort() public abstract short
      * org.omg.CORBA.DataInputStream.read_ushort()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_ushort()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -457,9 +625,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_ushort_array(org.omg.CORBA.UShortSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_ushort_array(org.omg.CORBA.UShortSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_ushort_array(org.omg.CORBA.UShortSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_ushort_array(org.omg.CORBA.UShortSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -475,7 +649,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_Value() public abstract java.io.Serializable
      * org.omg.CORBA.DataInputStream.read_Value()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_Value()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -491,7 +671,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_wchar() public abstract char
      * org.omg.CORBA.DataInputStream.read_wchar()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_wchar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -505,9 +691,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DataInputStream#read_wchar_array(org.omg.CORBA.WCharSeqHolder,int,int)
+     * Test method for {@link org.omg.CORBA.DataInputStream#read_wchar_array(org.omg.CORBA.WCharSeqHolder, int, int)
      * public abstract void org.omg.CORBA.DataInputStream.read_wchar_array(org.omg.CORBA.WCharSeqHolder,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_wchar_array(org.omg.CORBA.WCharSeqHolder, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,7 +715,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * <p>
      * Test method for {@link org.omg.CORBA.DataInputStream#read_wstring() public abstract java.lang.String
      * org.omg.CORBA.DataInputStream.read_wstring()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.DataInputStream#read_wstring()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

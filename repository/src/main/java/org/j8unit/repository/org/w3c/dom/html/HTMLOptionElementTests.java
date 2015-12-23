@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.w3c.dom.html.HTMLOptionElement interface org.w3c.dom.html.HTMLOptionElement}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.w3c.dom.html.HTMLOptionElement interface
+ * org.w3c.dom.html.HTMLOptionElement}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLOptionElementTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.w3c.dom.html.HTMLOptionElementClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.w3c.dom.html.HTMLOptionElementClassTests
+ *
+ * @j8unit.aim org.w3c.dom.html.HTMLOptionElement
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getDefaultSelected() public abstract boolean
      * org.w3c.dom.html.HTMLOptionElement.getDefaultSelected()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getDefaultSelected()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getDisabled() public abstract boolean
      * org.w3c.dom.html.HTMLOptionElement.getDisabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getDisabled()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getForm() public abstract
      * org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLOptionElement.getForm()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getForm()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getIndex() public abstract int
      * org.w3c.dom.html.HTMLOptionElement.getIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getLabel() public abstract java.lang.String
      * org.w3c.dom.html.HTMLOptionElement.getLabel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getLabel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getSelected() public abstract boolean
      * org.w3c.dom.html.HTMLOptionElement.getSelected()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getSelected()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getText() public abstract java.lang.String
      * org.w3c.dom.html.HTMLOptionElement.getText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getText()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#getValue() public abstract java.lang.String
      * org.w3c.dom.html.HTMLOptionElement.getValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#getValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#setDefaultSelected(boolean) public abstract void
      * org.w3c.dom.html.HTMLOptionElement.setDefaultSelected(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#setDefaultSelected(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#setDisabled(boolean) public abstract void
      * org.w3c.dom.html.HTMLOptionElement.setDisabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#setDisabled(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,7 +251,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#setLabel(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLOptionElement.setLabel(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#setLabel(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +273,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#setSelected(boolean) public abstract void
      * org.w3c.dom.html.HTMLOptionElement.setSelected(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#setSelected(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +295,13 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptionElement#setValue(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLOptionElement.setValue(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLOptionElement#setValue(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

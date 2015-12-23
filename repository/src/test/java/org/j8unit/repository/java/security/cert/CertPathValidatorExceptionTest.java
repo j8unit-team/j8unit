@@ -13,6 +13,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class CertPathValidatorExceptionTest
 implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<java.security.cert.CertPathValidatorException> {
 
+    @Override
+    public java.security.cert.CertPathValidatorException createNewSUT() {
+        return new java.security.cert.CertPathValidatorException();
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicReasonTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTe
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.security.cert.CertPathValidatorException createNewSUT() {
-        return new java.security.cert.CertPathValidatorException();
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AppConfigurationEntryClassTest
 implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryClassTests<javax.security.auth.login.AppConfigurationEntry> {
 
+    @Override
+    public Class<javax.security.auth.login.AppConfigurationEntry> createNewSUT() {
+        return javax.security.auth.login.AppConfigurationEntry.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class LoginModuleControlFlagClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
             return javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.security.auth.login.AppConfigurationEntry> createNewSUT() {
-        return javax.security.auth.login.AppConfigurationEntry.class;
     }
 
 }

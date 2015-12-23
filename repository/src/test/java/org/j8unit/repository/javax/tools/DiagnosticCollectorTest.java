@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.tools.DiagnosticCollectorTests<javax.tool
 
     @Override
     public javax.tools.DiagnosticCollector<S> createNewSUT() {
-        return new javax.tools.DiagnosticCollector<>();
+        return new javax.tools.DiagnosticCollector();
     }
 
 }

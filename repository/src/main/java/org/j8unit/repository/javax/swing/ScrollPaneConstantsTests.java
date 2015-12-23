@@ -1,23 +1,28 @@
 package org.j8unit.repository.javax.swing;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.ScrollPaneConstants interface javax.swing.ScrollPaneConstants}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.ScrollPaneConstants interface
+ * javax.swing.ScrollPaneConstants}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.ScrollPaneConstantsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests
+ *
+ * @j8unit.aim javax.swing.ScrollPaneConstants
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScrollPaneConstantsTests<SUT extends javax.swing.ScrollPaneConstants>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
 }

@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.concurrent.atomic.DoubleAccumulator class
+ * Reusable J8Unit test interface for {@linkplain java.util.concurrent.atomic.DoubleAccumulator class
  * java.util.concurrent.atomic.DoubleAccumulator}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.util.concurrent.atomic.DoubleAccumulatorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.concurrent.atomic.DoubleAccumulatorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.concurrent.atomic.DoubleAccumulatorClassTests
+ *
+ * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#accumulate(double) public void
      * java.util.concurrent.atomic.DoubleAccumulator.accumulate(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#accumulate(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +53,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#doubleValue() public double
      * java.util.concurrent.atomic.DoubleAccumulator.doubleValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#doubleValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#floatValue() public float
      * java.util.concurrent.atomic.DoubleAccumulator.floatValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#floatValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +99,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#get() public double
      * java.util.concurrent.atomic.DoubleAccumulator.get()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#get()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +121,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#getThenReset() public double
      * java.util.concurrent.atomic.DoubleAccumulator.getThenReset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#getThenReset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +143,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#intValue() public int
      * java.util.concurrent.atomic.DoubleAccumulator.intValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#intValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +166,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#longValue() public long
      * java.util.concurrent.atomic.DoubleAccumulator.longValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#longValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +189,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#reset() public void
      * java.util.concurrent.atomic.DoubleAccumulator.reset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#reset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,11 +211,18 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#toString() public java.lang.String
      * java.util.concurrent.atomic.DoubleAccumulator.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.DoubleAccumulator#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

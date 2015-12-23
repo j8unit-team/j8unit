@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JMenuItem class javax.swing.JMenuItem}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JMenuItem class javax.swing.JMenuItem}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.JMenuItemTests}
+ * .
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JMenuItemClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JMenuItemClassTests
+ *
+ * @j8unit.aim javax.swing.JMenuItem
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#addMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)
      * public void javax.swing.JMenuItem.addMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#addMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#addMenuKeyListener(javax.swing.event.MenuKeyListener) public void
      * javax.swing.JMenuItem.addMenuKeyListener(javax.swing.event.MenuKeyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#addMenuKeyListener(javax.swing.event.MenuKeyListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getAccelerator() public javax.swing.KeyStroke
      * javax.swing.JMenuItem.getAccelerator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getAccelerator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getAccessibleContext() public javax.accessibility.AccessibleContext
      * javax.swing.JMenuItem.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getComponent() public java.awt.Component
      * javax.swing.JMenuItem.getComponent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getComponent()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getMenuDragMouseListeners() public
      * javax.swing.event.MenuDragMouseListener[] javax.swing.JMenuItem.getMenuDragMouseListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getMenuDragMouseListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +166,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getMenuKeyListeners() public javax.swing.event.MenuKeyListener[]
      * javax.swing.JMenuItem.getMenuKeyListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getMenuKeyListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,7 +188,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getSubElements() public javax.swing.MenuElement[]
      * javax.swing.JMenuItem.getSubElements()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getSubElements()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +211,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#getUIClassID() public java.lang.String
      * javax.swing.JMenuItem.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#getUIClassID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +233,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JMenuItem#isArmed() public boolean javax.swing.JMenuItem.isArmed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#isArmed()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +255,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#menuSelectionChanged(boolean) public void
      * javax.swing.JMenuItem.menuSelectionChanged(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#menuSelectionChanged(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,11 +277,18 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.JMenuItem#processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)
+     * {@link javax.swing.JMenuItem#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public void
      * javax.swing.JMenuItem.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[],
+     *             javax.swing.MenuSelectionManager)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,7 +305,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#processMenuDragMouseEvent(javax.swing.event.MenuDragMouseEvent)
      * public void javax.swing.JMenuItem.processMenuDragMouseEvent(javax.swing.event.MenuDragMouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#processMenuDragMouseEvent(javax.swing.event.MenuDragMouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,7 +327,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#processMenuKeyEvent(javax.swing.event.MenuKeyEvent) public void
      * javax.swing.JMenuItem.processMenuKeyEvent(javax.swing.event.MenuKeyEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#processMenuKeyEvent(javax.swing.event.MenuKeyEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -258,11 +348,18 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)
+     * {@link javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public void
      * javax.swing.JMenuItem.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[],
+     *             javax.swing.MenuSelectionManager)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,7 +376,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)
      * public void javax.swing.JMenuItem.removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -295,7 +398,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#removeMenuKeyListener(javax.swing.event.MenuKeyListener) public void
      * javax.swing.JMenuItem.removeMenuKeyListener(javax.swing.event.MenuKeyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#removeMenuKeyListener(javax.swing.event.MenuKeyListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -311,7 +420,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#setAccelerator(javax.swing.KeyStroke) public void
      * javax.swing.JMenuItem.setAccelerator(javax.swing.KeyStroke)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#setAccelerator(javax.swing.KeyStroke)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,7 +442,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#setArmed(boolean) public void
      * javax.swing.JMenuItem.setArmed(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#setArmed(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -343,7 +464,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#setEnabled(boolean) public void
      * javax.swing.JMenuItem.setEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#setEnabled(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -360,7 +487,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#setModel(javax.swing.ButtonModel) public void
      * javax.swing.JMenuItem.setModel(javax.swing.ButtonModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#setModel(javax.swing.ButtonModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -377,7 +510,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JMenuItem#setUI(javax.swing.plaf.MenuItemUI) public void
      * javax.swing.JMenuItem.setUI(javax.swing.plaf.MenuItemUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#setUI(javax.swing.plaf.MenuItemUI)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,7 +531,13 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JMenuItem#updateUI() public void javax.swing.JMenuItem.updateUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JMenuItem#updateUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

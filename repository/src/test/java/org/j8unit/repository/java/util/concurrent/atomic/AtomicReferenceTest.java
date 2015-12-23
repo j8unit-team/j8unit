@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceTest
 
     @Override
     public java.util.concurrent.atomic.AtomicReference<V> createNewSUT() {
-        return new java.util.concurrent.atomic.AtomicReference<>();
+        return new java.util.concurrent.atomic.AtomicReference();
     }
 
 }

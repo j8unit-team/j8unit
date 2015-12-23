@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.lang.NoSuchMethodException class java.lang.NoSuchMethodException}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.lang.NoSuchMethodException class java.lang.NoSuchMethodException}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.lang.NoSuchMethodExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.lang.NoSuchMethodExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.lang.NoSuchMethodExceptionClassTests
+ *
+ * @j8unit.aim java.lang.NoSuchMethodException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

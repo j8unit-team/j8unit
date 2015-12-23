@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class GraphicsDeviceClassTest
 implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<java.awt.GraphicsDevice> {
 
+    @Override
+    public Class<java.awt.GraphicsDevice> createNewSUT() {
+        return java.awt.GraphicsDevice.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class WindowTranslucencyClassTest
     implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests.WindowTranslucencyClassTests<java.awt.GraphicsDevice.WindowTranslucency> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<java.awt.Grap
             return java.awt.GraphicsDevice.WindowTranslucency.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.GraphicsDevice> createNewSUT() {
-        return java.awt.GraphicsDevice.class;
     }
 
 }

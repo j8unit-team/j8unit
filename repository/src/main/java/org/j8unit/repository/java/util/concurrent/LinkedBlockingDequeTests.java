@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.concurrent.LinkedBlockingDeque class java.util.concurrent.LinkedBlockingDeque},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.concurrent.LinkedBlockingDeque class
+ * java.util.concurrent.LinkedBlockingDeque}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.concurrent.LinkedBlockingDequeTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.concurrent.LinkedBlockingDequeClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.concurrent.LinkedBlockingDequeClassTests
+ *
+ * @j8unit.aim java.util.concurrent.LinkedBlockingDeque
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#add(java.lang.Object) public boolean
      * java.util.concurrent.LinkedBlockingDeque.add(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#add(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,9 +54,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -60,7 +79,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#addFirst(java.lang.Object) public void
      * java.util.concurrent.LinkedBlockingDeque.addFirst(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#addFirst(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +102,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#addLast(java.lang.Object) public void
      * java.util.concurrent.LinkedBlockingDeque.addLast(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#addLast(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +125,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#clear() public void
      * java.util.concurrent.LinkedBlockingDeque.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#clear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +148,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#contains(java.lang.Object) public boolean
      * java.util.concurrent.LinkedBlockingDeque.contains(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#contains(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -127,9 +170,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -144,7 +195,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#descendingIterator() public java.util.Iterator
      * java.util.concurrent.LinkedBlockingDeque.descendingIterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#descendingIterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,7 +218,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#drainTo(java.util.Collection) public int
      * java.util.concurrent.LinkedBlockingDeque.drainTo(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#drainTo(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,9 +239,15 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#drainTo(java.util.Collection,int) public int
+     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#drainTo(java.util.Collection, int) public int
      * java.util.concurrent.LinkedBlockingDeque.drainTo(java.util.Collection,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#drainTo(java.util.Collection, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,7 +264,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#element() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.element()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#element()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,9 +286,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -228,7 +311,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#getFirst() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.getFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#getFirst()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,7 +334,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#getLast() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.getLast()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#getLast()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,9 +356,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -277,9 +380,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -294,7 +405,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#iterator() public java.util.Iterator
      * java.util.concurrent.LinkedBlockingDeque.iterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#iterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -311,7 +428,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#offer(java.lang.Object) public boolean
      * java.util.concurrent.LinkedBlockingDeque.offer(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#offer(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,10 +450,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.LinkedBlockingDeque#offer(java.lang.Object,long,java.util.concurrent.TimeUnit) public
-     * boolean java.util.concurrent.LinkedBlockingDeque.offer(java.lang.Object,long,java.util.concurrent.TimeUnit)
-     * throws java.lang.InterruptedException}.
+     * {@link java.util.concurrent.LinkedBlockingDeque#offer(java.lang.Object, long, java.util.concurrent.TimeUnit)
+     * public boolean
+     * java.util.concurrent.LinkedBlockingDeque.offer(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#offer(java.lang.Object, long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -347,7 +477,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#offerFirst(java.lang.Object) public boolean
      * java.util.concurrent.LinkedBlockingDeque.offerFirst(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#offerFirst(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,11 +499,18 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.LinkedBlockingDeque#offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.LinkedBlockingDeque#offerFirst(java.lang.Object, long, java.util.concurrent.TimeUnit)
      * public boolean
      * java.util.concurrent.LinkedBlockingDeque.offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#offerFirst(java.lang.Object, long,
+     *             java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -384,7 +527,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#offerLast(java.lang.Object) public boolean
      * java.util.concurrent.LinkedBlockingDeque.offerLast(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#offerLast(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -400,11 +549,18 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.LinkedBlockingDeque#offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.LinkedBlockingDeque#offerLast(java.lang.Object, long, java.util.concurrent.TimeUnit)
      * public boolean
      * java.util.concurrent.LinkedBlockingDeque.offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#offerLast(java.lang.Object, long,
+     *             java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -421,7 +577,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#peek() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.peek()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#peek()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -438,7 +600,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#peekFirst() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.peekFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#peekFirst()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -455,7 +623,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#peekLast() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.peekLast()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#peekLast()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -472,7 +646,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#poll() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.poll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#poll()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -487,10 +667,16 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#poll(long,java.util.concurrent.TimeUnit) public
+     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#poll(long, java.util.concurrent.TimeUnit) public
      * java.lang.Object java.util.concurrent.LinkedBlockingDeque.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#poll(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -507,7 +693,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pollFirst() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.pollFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#pollFirst()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -522,10 +714,16 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pollFirst(long,java.util.concurrent.TimeUnit)
+     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pollFirst(long, java.util.concurrent.TimeUnit)
      * public java.lang.Object java.util.concurrent.LinkedBlockingDeque.pollFirst(long,java.util.concurrent.TimeUnit)
      * throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#pollFirst(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -542,7 +740,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pollLast() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.pollLast()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#pollLast()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -557,10 +761,16 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pollLast(long,java.util.concurrent.TimeUnit)
+     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pollLast(long, java.util.concurrent.TimeUnit)
      * public java.lang.Object java.util.concurrent.LinkedBlockingDeque.pollLast(long,java.util.concurrent.TimeUnit)
      * throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#pollLast(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -577,7 +787,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#pop() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.pop()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#pop()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -594,7 +810,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#push(java.lang.Object) public void
      * java.util.concurrent.LinkedBlockingDeque.push(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#push(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -611,7 +833,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#put(java.lang.Object) public void
      * java.util.concurrent.LinkedBlockingDeque.put(java.lang.Object) throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#put(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -628,7 +856,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#putFirst(java.lang.Object) public void
      * java.util.concurrent.LinkedBlockingDeque.putFirst(java.lang.Object) throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#putFirst(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -645,7 +879,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#putLast(java.lang.Object) public void
      * java.util.concurrent.LinkedBlockingDeque.putLast(java.lang.Object) throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#putLast(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -662,7 +902,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#remainingCapacity() public int
      * java.util.concurrent.LinkedBlockingDeque.remainingCapacity()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#remainingCapacity()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -679,7 +925,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#remove() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.remove()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#remove()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -696,7 +948,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#remove(java.lang.Object) public boolean
      * java.util.concurrent.LinkedBlockingDeque.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#remove(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -712,9 +970,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -729,7 +995,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#removeFirst() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.removeFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#removeFirst()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -746,7 +1018,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#removeFirstOccurrence(java.lang.Object) public
      * boolean java.util.concurrent.LinkedBlockingDeque.removeFirstOccurrence(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#removeFirstOccurrence(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -763,7 +1041,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#removeLast() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.removeLast()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#removeLast()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -780,7 +1064,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#removeLastOccurrence(java.lang.Object) public
      * boolean java.util.concurrent.LinkedBlockingDeque.removeLastOccurrence(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#removeLastOccurrence(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -796,9 +1086,17 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.util.Collection</li>
+     * <li>class java.util.AbstractQueue</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -813,7 +1111,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#size() public int
      * java.util.concurrent.LinkedBlockingDeque.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -830,7 +1134,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#spliterator() public java.util.Spliterator
      * java.util.concurrent.LinkedBlockingDeque.spliterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#spliterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -847,7 +1157,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#take() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.take() throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#take()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -864,7 +1180,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#takeFirst() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.takeFirst() throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#takeFirst()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -881,7 +1203,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#takeLast() public java.lang.Object
      * java.util.concurrent.LinkedBlockingDeque.takeLast() throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#takeLast()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -898,7 +1226,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#toArray() public java.lang.Object[]
      * java.util.concurrent.LinkedBlockingDeque.toArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#toArray()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -915,7 +1249,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#toArray(java.lang.Object[]) public
      * java.lang.Object[] java.util.concurrent.LinkedBlockingDeque.toArray(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#toArray(java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -932,7 +1272,13 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * <p>
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#toString() public java.lang.String
      * java.util.concurrent.LinkedBlockingDeque.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.LinkedBlockingDeque#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

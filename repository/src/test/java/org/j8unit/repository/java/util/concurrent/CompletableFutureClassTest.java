@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class CompletableFutureClassTest
 implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTests<java.util.concurrent.CompletableFuture> {
 
+    @Override
+    public Class<java.util.concurrent.CompletableFuture> createNewSUT() {
+        return java.util.concurrent.CompletableFuture.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AsynchronousCompletionTaskClassTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
             return java.util.concurrent.CompletableFuture.AsynchronousCompletionTask.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.concurrent.CompletableFuture> createNewSUT() {
-        return java.util.concurrent.CompletableFuture.class;
     }
 
 }

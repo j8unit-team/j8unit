@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MediaSizeClassTest
 implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests<javax.print.attribute.standard.MediaSize> {
 
+    @Override
+    public Class<javax.print.attribute.standard.MediaSize> createNewSUT() {
+        return javax.print.attribute.standard.MediaSize.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class EngineeringClassTest
     implements
@@ -26,17 +31,6 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
         @Override
         public Class<javax.print.attribute.standard.MediaSize.ISO> createNewSUT() {
             return javax.print.attribute.standard.MediaSize.ISO.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class JISClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests<javax.print.attribute.standard.MediaSize.JIS> {
-
-        @Override
-        public Class<javax.print.attribute.standard.MediaSize.JIS> createNewSUT() {
-            return javax.print.attribute.standard.MediaSize.JIS.class;
         }
 
     }
@@ -63,9 +57,15 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
 
     }
 
-    @Override
-    public Class<javax.print.attribute.standard.MediaSize> createNewSUT() {
-        return javax.print.attribute.standard.MediaSize.class;
+    @RunWith(J8Unit4.class)
+    public static class JISClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests<javax.print.attribute.standard.MediaSize.JIS> {
+
+        @Override
+        public Class<javax.print.attribute.standard.MediaSize.JIS> createNewSUT() {
+            return javax.print.attribute.standard.MediaSize.JIS.class;
+        }
+
     }
 
 }

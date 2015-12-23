@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.dnd.DropTargetListener interface java.awt.dnd.DropTargetListener}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.dnd.DropTargetListener interface
+ * java.awt.dnd.DropTargetListener}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.dnd.DropTargetListenerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.dnd.DropTargetListenerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.dnd.DropTargetListenerClassTests
+ *
+ * @j8unit.aim java.awt.dnd.DropTargetListener
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DropTargetListener#dragEnter(java.awt.dnd.DropTargetDragEvent) public
      * abstract void java.awt.dnd.DropTargetListener.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DropTargetListener#dragEnter(java.awt.dnd.DropTargetDragEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DropTargetListener#dragExit(java.awt.dnd.DropTargetEvent) public abstract
      * void java.awt.dnd.DropTargetListener.dragExit(java.awt.dnd.DropTargetEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DropTargetListener#dragExit(java.awt.dnd.DropTargetEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DropTargetListener#dragOver(java.awt.dnd.DropTargetDragEvent) public abstract
      * void java.awt.dnd.DropTargetListener.dragOver(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DropTargetListener#dragOver(java.awt.dnd.DropTargetDragEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DropTargetListener#drop(java.awt.dnd.DropTargetDropEvent) public abstract
      * void java.awt.dnd.DropTargetListener.drop(java.awt.dnd.DropTargetDropEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DropTargetListener#drop(java.awt.dnd.DropTargetDropEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DropTargetListener#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public
      * abstract void java.awt.dnd.DropTargetListener.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DropTargetListener#dropActionChanged(java.awt.dnd.DropTargetDragEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

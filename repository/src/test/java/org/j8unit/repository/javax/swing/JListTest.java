@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class JListTest<E>
 implements org.j8unit.repository.javax.swing.JListTests<javax.swing.JList<E>, E> {
 
+    @Override
+    public javax.swing.JList<E> createNewSUT() {
+        return new javax.swing.JList();
+    }
+
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.JListTests.DropLocationTests<javax.swing.JList.DropLocation> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.JListTests<javax.swing.JList<E>, E>
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.JList.DropLocation] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.JList<E> createNewSUT() {
-        return new javax.swing.JList<>();
     }
 
 }

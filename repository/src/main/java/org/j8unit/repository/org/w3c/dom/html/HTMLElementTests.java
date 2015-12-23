@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.w3c.dom.html.HTMLElement interface org.w3c.dom.html.HTMLElement}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.w3c.dom.html.HTMLElement interface org.w3c.dom.html.HTMLElement},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLElementTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests
+ *
+ * @j8unit.aim org.w3c.dom.html.HTMLElement
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#getClassName() public abstract java.lang.String
      * org.w3c.dom.html.HTMLElement.getClassName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#getClassName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#getDir() public abstract java.lang.String
      * org.w3c.dom.html.HTMLElement.getDir()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#getDir()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#getId() public abstract java.lang.String
      * org.w3c.dom.html.HTMLElement.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#getId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#getLang() public abstract java.lang.String
      * org.w3c.dom.html.HTMLElement.getLang()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#getLang()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#getTitle() public abstract java.lang.String
      * org.w3c.dom.html.HTMLElement.getTitle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#getTitle()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#setClassName(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLElement.setClassName(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#setClassName(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#setDir(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLElement.setDir(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#setDir(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#setId(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLElement.setId(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#setId(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#setLang(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLElement.setLang(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#setLang(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#setTitle(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLElement.setTitle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.html.HTMLElement#setTitle(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

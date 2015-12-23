@@ -8,6 +8,22 @@ import org.junit.runner.RunWith;
 public class HTMLDocumentTest
 implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.swing.text.html.HTMLDocument> {
 
+    @Override
+    public javax.swing.text.html.HTMLDocument createNewSUT() {
+        return new javax.swing.text.html.HTMLDocument();
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class RunElementTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests<javax.swing.text.html.HTMLDocument.RunElement> {
+
+        @Override
+        public javax.swing.text.html.HTMLDocument.RunElement createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.RunElement] available.");
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class BlockElementTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests<javax.swing.text.html.HTMLDocument.BlockElement> {
@@ -23,14 +39,31 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
     public static class HTMLReaderTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests<javax.swing.text.html.HTMLDocument.HTMLReader> {
 
+        @Override
+        public javax.swing.text.html.HTMLDocument.HTMLReader createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader] available.");
+        }
+
         @RunWith(J8Unit4.class)
-        public static class BlockActionTest
+        public static class IsindexActionTest
         implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> {
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> {
 
             @Override
-            public javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction createNewSUT() {
-                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction] available.");
+            public javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction createNewSUT() {
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction] available.");
+            }
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class PreActionTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.PreAction> {
+
+            @Override
+            public javax.swing.text.html.HTMLDocument.HTMLReader.PreAction createNewSUT() {
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.PreAction] available.");
             }
 
         }
@@ -60,30 +93,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
         }
 
         @RunWith(J8Unit4.class)
-        public static class HiddenActionTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> {
-
-            @Override
-            public javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction createNewSUT() {
-                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction] available.");
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class IsindexActionTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> {
-
-            @Override
-            public javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction createNewSUT() {
-                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction] available.");
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
         public static class ParagraphActionTest
         implements
         org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction> {
@@ -91,30 +100,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
             @Override
             public javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction createNewSUT() {
                 throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction] available.");
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class PreActionTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.PreAction> {
-
-            @Override
-            public javax.swing.text.html.HTMLDocument.HTMLReader.PreAction createNewSUT() {
-                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.PreAction] available.");
-            }
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class SpecialActionTest
-        implements
-        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> {
-
-            @Override
-            public javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction createNewSUT() {
-                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction] available.");
             }
 
         }
@@ -131,27 +116,42 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<javax.s
 
         }
 
-        @Override
-        public javax.swing.text.html.HTMLDocument.HTMLReader createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader] available.");
+        @RunWith(J8Unit4.class)
+        public static class BlockActionTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> {
+
+            @Override
+            public javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction createNewSUT() {
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction] available.");
+            }
+
         }
 
-    }
+        @RunWith(J8Unit4.class)
+        public static class HiddenActionTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> {
 
-    @RunWith(J8Unit4.class)
-    public static class RunElementTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests<javax.swing.text.html.HTMLDocument.RunElement> {
+            @Override
+            public javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction createNewSUT() {
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction] available.");
+            }
 
-        @Override
-        public javax.swing.text.html.HTMLDocument.RunElement createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.RunElement] available.");
         }
 
-    }
+        @RunWith(J8Unit4.class)
+        public static class SpecialActionTest
+        implements
+        org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests<javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> {
 
-    @Override
-    public javax.swing.text.html.HTMLDocument createNewSUT() {
-        return new javax.swing.text.html.HTMLDocument();
+            @Override
+            public javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction createNewSUT() {
+                throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction] available.");
+            }
+
+        }
+
     }
 
 }

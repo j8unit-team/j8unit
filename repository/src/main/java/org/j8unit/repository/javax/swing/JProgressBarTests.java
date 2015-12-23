@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JProgressBar class javax.swing.JProgressBar}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JProgressBar class javax.swing.JProgressBar}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.JProgressBarTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JProgressBarClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JProgressBarClassTests
+ *
+ * @j8unit.aim javax.swing.JProgressBar
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#addChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.JProgressBar.addChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#addChangeListener(javax.swing.event.ChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JProgressBar.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getChangeListeners() public javax.swing.event.ChangeListener[]
      * javax.swing.JProgressBar.getChangeListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getChangeListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getMaximum() public int javax.swing.JProgressBar.getMaximum()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getMaximum()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getMinimum() public int javax.swing.JProgressBar.getMinimum()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getMinimum()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getModel() public javax.swing.BoundedRangeModel
      * javax.swing.JProgressBar.getModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getModel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getOrientation() public int
      * javax.swing.JProgressBar.getOrientation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getOrientation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getPercentComplete() public double
      * javax.swing.JProgressBar.getPercentComplete()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getPercentComplete()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getString() public java.lang.String
      * javax.swing.JProgressBar.getString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getUI() public javax.swing.plaf.ProgressBarUI
      * javax.swing.JProgressBar.getUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,7 +251,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getUIClassID() public java.lang.String
      * javax.swing.JProgressBar.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getUIClassID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +273,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JProgressBar#getValue() public int javax.swing.JProgressBar.getValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#getValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +295,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#isBorderPainted() public boolean
      * javax.swing.JProgressBar.isBorderPainted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#isBorderPainted()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +317,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#isIndeterminate() public boolean
      * javax.swing.JProgressBar.isIndeterminate()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#isIndeterminate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,7 +339,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#isStringPainted() public boolean
      * javax.swing.JProgressBar.isStringPainted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#isStringPainted()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -266,7 +361,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#removeChangeListener(javax.swing.event.ChangeListener) public
      * void javax.swing.JProgressBar.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#removeChangeListener(javax.swing.event.ChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -282,7 +383,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setBorderPainted(boolean) public void
      * javax.swing.JProgressBar.setBorderPainted(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setBorderPainted(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,7 +405,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setIndeterminate(boolean) public void
      * javax.swing.JProgressBar.setIndeterminate(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setIndeterminate(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -314,7 +427,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setMaximum(int) public void
      * javax.swing.JProgressBar.setMaximum(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setMaximum(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -330,7 +449,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setMinimum(int) public void
      * javax.swing.JProgressBar.setMinimum(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setMinimum(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -346,7 +471,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setModel(javax.swing.BoundedRangeModel) public void
      * javax.swing.JProgressBar.setModel(javax.swing.BoundedRangeModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setModel(javax.swing.BoundedRangeModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -362,7 +493,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setOrientation(int) public void
      * javax.swing.JProgressBar.setOrientation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setOrientation(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -378,7 +515,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setString(java.lang.String) public void
      * javax.swing.JProgressBar.setString(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setString(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -394,7 +537,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setStringPainted(boolean) public void
      * javax.swing.JProgressBar.setStringPainted(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setStringPainted(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -410,7 +559,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setUI(javax.swing.plaf.ProgressBarUI) public void
      * javax.swing.JProgressBar.setUI(javax.swing.plaf.ProgressBarUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setUI(javax.swing.plaf.ProgressBarUI)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -426,7 +581,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JProgressBar#setValue(int) public void javax.swing.JProgressBar.setValue(int)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#setValue(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -441,7 +602,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JProgressBar#updateUI() public void javax.swing.JProgressBar.updateUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JProgressBar#updateUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

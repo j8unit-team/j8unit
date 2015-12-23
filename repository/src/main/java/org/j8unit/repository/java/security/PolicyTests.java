@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.security;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,14 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.Policy class java.security.Policy}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.security.Policy class java.security.Policy}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.security.PolicyTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.security.PolicyClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.PolicyClassTests
+ *
+ * @j8unit.aim java.security.Policy
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,19 +29,24 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.Policy$Parameters interface java.security.Policy$Parameters}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.security.Policy.Parameters interface
+     * java.security.Policy$Parameters}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.security.PolicyTests.ParametersTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests
+     *
+     * @j8unit.aim java.security.Policy.Parameters
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParametersTests<SUT extends java.security.Policy.Parameters>
-    extends J8UnitTest<SUT> {
+    extends RepositoryTests<SUT> {
 
     }
 
@@ -45,7 +54,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.security.Policy#getParameters() public java.security.Policy$Parameters
      * java.security.Policy.getParameters()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#getParameters()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +76,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.security.Policy#getPermissions(java.security.CodeSource) public
      * java.security.PermissionCollection java.security.Policy.getPermissions(java.security.CodeSource)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#getPermissions(java.security.CodeSource)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +98,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.security.Policy#getPermissions(java.security.ProtectionDomain) public
      * java.security.PermissionCollection java.security.Policy.getPermissions(java.security.ProtectionDomain)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#getPermissions(java.security.ProtectionDomain)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +120,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.security.Policy#getProvider() public java.security.Provider
      * java.security.Policy.getProvider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#getProvider()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +141,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.security.Policy#getType() public java.lang.String java.security.Policy.getType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#getType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,9 +161,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Policy#implies(java.security.ProtectionDomain,java.security.Permission)
+     * Test method for {@link java.security.Policy#implies(java.security.ProtectionDomain, java.security.Permission)
      * public boolean java.security.Policy.implies(java.security.ProtectionDomain,java.security.Permission)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#implies(java.security.ProtectionDomain, java.security.Permission)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +184,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.security.Policy#refresh() public void java.security.Policy.refresh()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.Policy#refresh()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

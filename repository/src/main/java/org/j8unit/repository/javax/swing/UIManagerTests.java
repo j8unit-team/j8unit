@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.UIManager class javax.swing.UIManager}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.UIManager class javax.swing.UIManager}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.UIManagerTests}
+ * .
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.UIManagerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.UIManagerClassTests
+ *
+ * @j8unit.aim javax.swing.UIManager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test class for {@link javax.swing.UIManager$LookAndFeelInfo class javax.swing.UIManager$LookAndFeelInfo},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.UIManager.LookAndFeelInfo class
+     * javax.swing.UIManager$LookAndFeelInfo}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.UIManagerClassTests.LookAndFeelInfoClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.UIManagerClassTests.LookAndFeelInfoClassTests
+     *
+     * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          * <p>
          * Test method for {@link javax.swing.UIManager.LookAndFeelInfo#getClassName() public java.lang.String
          * javax.swing.UIManager$LookAndFeelInfo.getClassName()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo#getClassName()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          * <p>
          * Test method for {@link javax.swing.UIManager.LookAndFeelInfo#getName() public java.lang.String
          * javax.swing.UIManager$LookAndFeelInfo.getName()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo#getName()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -74,11 +96,18 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          * <p>
          * Test method for {@link javax.swing.UIManager.LookAndFeelInfo#toString() public java.lang.String
          * javax.swing.UIManager$LookAndFeelInfo.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo#toString()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
+        @Override
         public default void test_toString()
         throws Exception {
             // query fresh subject-under-test

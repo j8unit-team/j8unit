@@ -9,26 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.net.URL class java.net.URL}, containing all class relevant test methods (at least the test
- * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class containing
- * the instance relevant test methods is {@link org.j8unit.repository.java.net.URLTests}.
+ * Reusable J8Unit test interface for {@linkplain java.net.URL class java.net.URL}, containing all class relevant test
+ * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+ * counterpart J8Unit test interface containing the instance relevant test methods is
+ * {@link org.j8unit.repository.java.net.URLTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.net.URLTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.net.URLTests
+ *
+ * @j8unit.aim java.net.URL
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -36,8 +40,16 @@ public abstract interface URLClassTests<SUT extends java.net.URL>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link java.net.URL#URL(java.lang.String) public java.net.URL(java.lang.String) throws
      * java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.net.URL#URL(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -50,8 +62,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link java.net.URL#URL(java.lang.String,java.lang.String,int,java.lang.String) public
+     * <p>
+     * Test method for {@link java.net.URL#URL(java.lang.String, java.lang.String, int, java.lang.String) public
      * java.net.URL(java.lang.String,java.lang.String,int,java.lang.String) throws java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.net.URL#URL(java.lang.String, java.lang.String, int, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,14 +80,23 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.lang.String,java.lang.String,int,java.lang.String);
+        final java.net.URL sut = null; // = new URL(java.lang.String, java.lang.String, int, java.lang.String);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.net.URL#URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) public
-     * java.net.URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) throws
+     * {@link java.net.URL#URL(java.lang.String, java.lang.String, int, java.lang.String, java.net.URLStreamHandler)
+     * public java.net.URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) throws
      * java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.net.URL#URL(java.lang.String, java.lang.String, int, java.lang.String,
+     *             java.net.URLStreamHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,13 +105,21 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new
-                                       // URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler);
+        final java.net.URL sut = null; // = new URL(java.lang.String, java.lang.String, int, java.lang.String,
+                                       // java.net.URLStreamHandler);
     }
 
     /**
-     * Test method for {@link java.net.URL#URL(java.lang.String,java.lang.String,java.lang.String) public
+     * <p>
+     * Test method for {@link java.net.URL#URL(java.lang.String, java.lang.String, java.lang.String) public
      * java.net.URL(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.net.URL#URL(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,12 +128,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.lang.String,java.lang.String,java.lang.String);
+        final java.net.URL sut = null; // = new URL(java.lang.String, java.lang.String, java.lang.String);
     }
 
     /**
-     * Test method for {@link java.net.URL#URL(java.net.URL,java.lang.String) public
+     * <p>
+     * Test method for {@link java.net.URL#URL(java.net.URL, java.lang.String) public
      * java.net.URL(java.net.URL,java.lang.String) throws java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.net.URL#URL(java.net.URL, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,12 +150,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.net.URL,java.lang.String);
+        final java.net.URL sut = null; // = new URL(java.net.URL, java.lang.String);
     }
 
     /**
-     * Test method for {@link java.net.URL#URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) public
+     * <p>
+     * Test method for {@link java.net.URL#URL(java.net.URL, java.lang.String, java.net.URLStreamHandler) public
      * java.net.URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) throws java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.net.URL#URL(java.net.URL, java.lang.String, java.net.URLStreamHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,14 +172,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.net.URL,java.lang.String,java.net.URLStreamHandler);
+        final java.net.URL sut = null; // = new URL(java.net.URL, java.lang.String, java.net.URLStreamHandler);
     }
 
     /**
      * <p>
      * Test method for {@link java.net.URL#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory) public static
      * void java.net.URL.setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.net.URL#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,6 +197,11 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.net.URL#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetTests
 
     @Override
     public java.util.concurrent.ConcurrentSkipListSet<E> createNewSUT() {
-        return new java.util.concurrent.ConcurrentSkipListSet<>();
+        return new java.util.concurrent.ConcurrentSkipListSet();
     }
 
 }

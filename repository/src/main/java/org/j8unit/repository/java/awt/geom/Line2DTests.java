@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.geom.Line2D class java.awt.geom.Line2D}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.geom.Line2D class java.awt.geom.Line2D}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.geom.Line2DTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.geom.Line2DClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.geom.Line2DClassTests
+ *
+ * @j8unit.aim java.awt.geom.Line2D
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +28,19 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test class for {@link java.awt.geom.Line2D$Double class java.awt.geom.Line2D$Double}, containing all instance
-     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.awt.geom.Line2D.Double class java.awt.geom.Line2D$Double},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+     * counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.awt.geom.Line2DTests.DoubleTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.geom.Line2DClassTests.DoubleClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.geom.Line2DClassTests.DoubleClassTests
+     *
+     * @j8unit.aim java.awt.geom.Line2D.Double
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +51,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getBounds2D() public java.awt.geom.Rectangle2D
          * java.awt.geom.Line2D$Double.getBounds2D()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getBounds2D()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -59,7 +74,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getP1() public java.awt.geom.Point2D
          * java.awt.geom.Line2D$Double.getP1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getP1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -76,7 +97,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getP2() public java.awt.geom.Point2D
          * java.awt.geom.Line2D$Double.getP2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getP2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -93,7 +120,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getX1() public double java.awt.geom.Line2D$Double.getX1()}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getX1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -110,7 +143,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getX2() public double java.awt.geom.Line2D$Double.getX2()}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getX2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -127,7 +166,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getY1() public double java.awt.geom.Line2D$Double.getY1()}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getY1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -144,7 +189,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Double#getY2() public double java.awt.geom.Line2D$Double.getY2()}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#getY2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -159,9 +210,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for {@link java.awt.geom.Line2D.Double#setLine(double,double,double,double) public void
+         * Test method for {@link java.awt.geom.Line2D.Double#setLine(double, double, double, double) public void
          * java.awt.geom.Line2D$Double.setLine(double,double,double,double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Double#setLine(double, double, double, double)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -178,14 +235,19 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test class for {@link java.awt.geom.Line2D$Float class java.awt.geom.Line2D$Float}, containing all instance
-     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.awt.geom.Line2D.Float class java.awt.geom.Line2D$Float},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+     * counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.awt.geom.Line2DTests.FloatTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.geom.Line2DClassTests.FloatClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.geom.Line2DClassTests.FloatClassTests
+     *
+     * @j8unit.aim java.awt.geom.Line2D.Float
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -196,7 +258,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getBounds2D() public java.awt.geom.Rectangle2D
          * java.awt.geom.Line2D$Float.getBounds2D()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getBounds2D()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -213,7 +281,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getP1() public java.awt.geom.Point2D
          * java.awt.geom.Line2D$Float.getP1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getP1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -230,7 +304,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getP2() public java.awt.geom.Point2D
          * java.awt.geom.Line2D$Float.getP2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getP2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -246,7 +326,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getX1() public double java.awt.geom.Line2D$Float.getX1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getX1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -262,7 +348,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getX2() public double java.awt.geom.Line2D$Float.getX2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getX2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -278,7 +370,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getY1() public double java.awt.geom.Line2D$Float.getY1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getY1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -294,7 +392,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for {@link java.awt.geom.Line2D.Float#getY2() public double java.awt.geom.Line2D$Float.getY2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#getY2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -309,9 +413,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for {@link java.awt.geom.Line2D.Float#setLine(double,double,double,double) public void
+         * Test method for {@link java.awt.geom.Line2D.Float#setLine(double, double, double, double) public void
          * java.awt.geom.Line2D$Float.setLine(double,double,double,double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#setLine(double, double, double, double)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -326,9 +436,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for {@link java.awt.geom.Line2D.Float#setLine(float,float,float,float) public void
+         * Test method for {@link java.awt.geom.Line2D.Float#setLine(float, float, float, float) public void
          * java.awt.geom.Line2D$Float.setLine(float,float,float,float)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.Line2D.Float#setLine(float, float, float, float)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -345,7 +461,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for {@link java.awt.geom.Line2D#clone() public java.lang.Object java.awt.geom.Line2D.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,9 +481,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#contains(double,double) public boolean
+     * Test method for {@link java.awt.geom.Line2D#contains(double, double) public boolean
      * java.awt.geom.Line2D.contains(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#contains(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -376,9 +504,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#contains(double,double,double,double) public boolean
+     * Test method for {@link java.awt.geom.Line2D#contains(double, double, double, double) public boolean
      * java.awt.geom.Line2D.contains(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#contains(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -395,7 +529,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#contains(java.awt.geom.Point2D) public boolean
      * java.awt.geom.Line2D.contains(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#contains(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,7 +552,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#contains(java.awt.geom.Rectangle2D) public boolean
      * java.awt.geom.Line2D.contains(java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#contains(java.awt.geom.Rectangle2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -429,7 +575,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getBounds() public java.awt.Rectangle
      * java.awt.geom.Line2D.getBounds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getBounds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -446,7 +598,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getP1() public abstract java.awt.geom.Point2D
      * java.awt.geom.Line2D.getP1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getP1()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -462,7 +620,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getP2() public abstract java.awt.geom.Point2D
      * java.awt.geom.Line2D.getP2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getP2()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -478,7 +642,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getPathIterator(java.awt.geom.AffineTransform) public
      * java.awt.geom.PathIterator java.awt.geom.Line2D.getPathIterator(java.awt.geom.AffineTransform)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getPathIterator(java.awt.geom.AffineTransform)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -493,9 +663,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#getPathIterator(java.awt.geom.AffineTransform,double) public
+     * Test method for {@link java.awt.geom.Line2D#getPathIterator(java.awt.geom.AffineTransform, double) public
      * java.awt.geom.PathIterator java.awt.geom.Line2D.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getPathIterator(java.awt.geom.AffineTransform, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -511,7 +687,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getX1() public abstract double java.awt.geom.Line2D.getX1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getX1()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -526,7 +708,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getX2() public abstract double java.awt.geom.Line2D.getX2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getX2()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -541,7 +729,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getY1() public abstract double java.awt.geom.Line2D.getY1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getY1()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -556,7 +750,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for {@link java.awt.geom.Line2D#getY2() public abstract double java.awt.geom.Line2D.getY2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#getY2()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -570,9 +770,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#intersects(double,double,double,double) public boolean
+     * Test method for {@link java.awt.geom.Line2D#intersects(double, double, double, double) public boolean
      * java.awt.geom.Line2D.intersects(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#intersects(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -589,7 +795,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#intersects(java.awt.geom.Rectangle2D) public boolean
      * java.awt.geom.Line2D.intersects(java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#intersects(java.awt.geom.Rectangle2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -604,9 +816,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#intersectsLine(double,double,double,double) public boolean
+     * Test method for {@link java.awt.geom.Line2D#intersectsLine(double, double, double, double) public boolean
      * java.awt.geom.Line2D.intersectsLine(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#intersectsLine(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -622,7 +840,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#intersectsLine(java.awt.geom.Line2D) public boolean
      * java.awt.geom.Line2D.intersectsLine(java.awt.geom.Line2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#intersectsLine(java.awt.geom.Line2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -636,9 +860,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptLineDist(double,double) public double
+     * Test method for {@link java.awt.geom.Line2D#ptLineDist(double, double) public double
      * java.awt.geom.Line2D.ptLineDist(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptLineDist(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -654,7 +884,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#ptLineDist(java.awt.geom.Point2D) public double
      * java.awt.geom.Line2D.ptLineDist(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptLineDist(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -668,9 +904,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptLineDistSq(double,double) public double
+     * Test method for {@link java.awt.geom.Line2D#ptLineDistSq(double, double) public double
      * java.awt.geom.Line2D.ptLineDistSq(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptLineDistSq(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -686,7 +928,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#ptLineDistSq(java.awt.geom.Point2D) public double
      * java.awt.geom.Line2D.ptLineDistSq(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptLineDistSq(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -700,9 +948,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptSegDist(double,double) public double
+     * Test method for {@link java.awt.geom.Line2D#ptSegDist(double, double) public double
      * java.awt.geom.Line2D.ptSegDist(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptSegDist(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -718,7 +972,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#ptSegDist(java.awt.geom.Point2D) public double
      * java.awt.geom.Line2D.ptSegDist(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptSegDist(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -732,9 +992,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptSegDistSq(double,double) public double
+     * Test method for {@link java.awt.geom.Line2D#ptSegDistSq(double, double) public double
      * java.awt.geom.Line2D.ptSegDistSq(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptSegDistSq(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -750,7 +1016,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#ptSegDistSq(java.awt.geom.Point2D) public double
      * java.awt.geom.Line2D.ptSegDistSq(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#ptSegDistSq(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -764,9 +1036,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#relativeCCW(double,double) public int
+     * Test method for {@link java.awt.geom.Line2D#relativeCCW(double, double) public int
      * java.awt.geom.Line2D.relativeCCW(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#relativeCCW(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -782,7 +1060,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#relativeCCW(java.awt.geom.Point2D) public int
      * java.awt.geom.Line2D.relativeCCW(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#relativeCCW(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -796,9 +1080,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#setLine(double,double,double,double) public abstract void
+     * Test method for {@link java.awt.geom.Line2D#setLine(double, double, double, double) public abstract void
      * java.awt.geom.Line2D.setLine(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#setLine(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -814,7 +1104,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.Line2D#setLine(java.awt.geom.Line2D) public void
      * java.awt.geom.Line2D.setLine(java.awt.geom.Line2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#setLine(java.awt.geom.Line2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -828,9 +1124,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Line2D#setLine(java.awt.geom.Point2D,java.awt.geom.Point2D) public void
+     * Test method for {@link java.awt.geom.Line2D#setLine(java.awt.geom.Point2D, java.awt.geom.Point2D) public void
      * java.awt.geom.Line2D.setLine(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.Line2D#setLine(java.awt.geom.Point2D, java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

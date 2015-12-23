@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,28 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.concurrent.CompletionStage interface java.util.concurrent.CompletionStage},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.concurrent.CompletionStage interface
+ * java.util.concurrent.CompletionStage}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.concurrent.CompletionStageTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.concurrent.CompletionStageClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.concurrent.CompletionStageClassTests
+ *
+ * @j8unit.aim java.util.concurrent.CompletionStage
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompletionStageTests<SUT extends java.util.concurrent.CompletionStage<T>, T>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#acceptEither(java.util.concurrent.CompletionStage,java.util.function.Consumer)
+     * {@link java.util.concurrent.CompletionStage#acceptEither(java.util.concurrent.CompletionStage, java.util.function.Consumer)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.acceptEither(java.util.concurrent.CompletionStage,java.util.function.Consumer)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#acceptEither(java.util.concurrent.CompletionStage,
+     *             java.util.function.Consumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,11 +57,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Consumer)
+     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Consumer)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.Consumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,11 +83,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Consumer,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Consumer,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.Consumer, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,11 +109,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#applyToEither(java.util.concurrent.CompletionStage,java.util.function.Function)
+     * {@link java.util.concurrent.CompletionStage#applyToEither(java.util.concurrent.CompletionStage, java.util.function.Function)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.applyToEither(java.util.concurrent.CompletionStage,java.util.function.Function)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#applyToEither(java.util.concurrent.CompletionStage,
+     *             java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -102,11 +135,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Function)
+     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Function)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,11 +161,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Function,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage,java.util.function.Function,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.Function, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +189,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#exceptionally(java.util.function.Function) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.exceptionally(java.util.function.Function)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#exceptionally(java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +211,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.CompletionStage#handle(java.util.function.BiFunction) public abstract
      * java.util.concurrent.CompletionStage java.util.concurrent.CompletionStage.handle(java.util.function.BiFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#handle(java.util.function.BiFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -175,7 +234,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,10 +255,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction,
+     *             java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,10 +280,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#runAfterBoth(java.util.concurrent.CompletionStage,java.lang.Runnable)
+     * {@link java.util.concurrent.CompletionStage#runAfterBoth(java.util.concurrent.CompletionStage, java.lang.Runnable)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.runAfterBoth(java.util.concurrent.CompletionStage,java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#runAfterBoth(java.util.concurrent.CompletionStage,
+     *             java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,10 +305,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage,java.lang.Runnable)
+     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, java.lang.Runnable)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage,java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage,
+     *             java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,11 +330,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage,java.lang.Runnable,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, java.lang.Runnable, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage,java.lang.Runnable,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage,
+     *             java.lang.Runnable, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -263,10 +356,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#runAfterEither(java.util.concurrent.CompletionStage,java.lang.Runnable)
+     * {@link java.util.concurrent.CompletionStage#runAfterEither(java.util.concurrent.CompletionStage, java.lang.Runnable)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.runAfterEither(java.util.concurrent.CompletionStage,java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#runAfterEither(java.util.concurrent.CompletionStage,
+     *             java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -281,11 +381,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage,java.lang.Runnable)
+     * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage, java.lang.Runnable)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage,java.lang.Runnable)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage,
+     *             java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -300,11 +407,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage,java.lang.Runnable,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage, java.lang.Runnable, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage,java.lang.Runnable,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage,
+     *             java.lang.Runnable, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -321,7 +435,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#thenAccept(java.util.function.Consumer) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenAccept(java.util.function.Consumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenAccept(java.util.function.Consumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -338,7 +458,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -353,10 +479,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer,
+     *             java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -371,11 +504,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenAcceptBoth(java.util.concurrent.CompletionStage,java.util.function.BiConsumer)
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBoth(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenAcceptBoth(java.util.concurrent.CompletionStage,java.util.function.BiConsumer)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenAcceptBoth(java.util.concurrent.CompletionStage,
+     *             java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -390,11 +530,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage,java.util.function.BiConsumer)
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage,java.util.function.BiConsumer)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,11 +556,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage,java.util.function.BiConsumer,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage,java.util.function.BiConsumer,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.BiConsumer, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -430,7 +584,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#thenApply(java.util.function.Function) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenApply(java.util.function.Function)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenApply(java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -447,7 +607,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -462,10 +628,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function,
+     *             java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -480,11 +653,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenCombine(java.util.concurrent.CompletionStage,java.util.function.BiFunction)
+     * {@link java.util.concurrent.CompletionStage#thenCombine(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenCombine(java.util.concurrent.CompletionStage,java.util.function.BiFunction)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenCombine(java.util.concurrent.CompletionStage,
+     *             java.util.function.BiFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -499,11 +679,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage,java.util.function.BiFunction)
+     * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage,java.util.function.BiFunction)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.BiFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -518,11 +705,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage,java.util.function.BiFunction,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage,java.util.function.BiFunction,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage,
+     *             java.util.function.BiFunction, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -539,7 +733,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#thenCompose(java.util.function.Function) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenCompose(java.util.function.Function)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenCompose(java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -556,7 +756,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -571,11 +777,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function,
+     *             java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -591,7 +804,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.CompletionStage#thenRun(java.lang.Runnable) public abstract
      * java.util.concurrent.CompletionStage java.util.concurrent.CompletionStage.thenRun(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenRun(java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -607,7 +826,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.CompletionStage#thenRunAsync(java.lang.Runnable) public abstract
      * java.util.concurrent.CompletionStage java.util.concurrent.CompletionStage.thenRunAsync(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenRunAsync(java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -622,10 +847,16 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#thenRunAsync(java.lang.Runnable,java.util.concurrent.Executor) public
-     * abstract java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenRunAsync(java.lang.Runnable, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.thenRunAsync(java.lang.Runnable,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#thenRunAsync(java.lang.Runnable, java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -641,7 +872,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.CompletionStage#toCompletableFuture() public abstract
      * java.util.concurrent.CompletableFuture java.util.concurrent.CompletionStage.toCompletableFuture()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#toCompletableFuture()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -658,7 +895,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#whenComplete(java.util.function.BiConsumer) public
      * abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.whenComplete(java.util.function.BiConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#whenComplete(java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -675,7 +918,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -690,11 +939,18 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer,java.util.concurrent.Executor)
+     * {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer,java.util.concurrent.Executor)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer,
+     *             java.util.concurrent.Executor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

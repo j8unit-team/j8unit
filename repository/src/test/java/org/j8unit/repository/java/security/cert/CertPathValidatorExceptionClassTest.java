@@ -7,16 +7,9 @@ import org.junit.runner.RunWith;
 public class CertPathValidatorExceptionClassTest
 implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests<java.security.cert.CertPathValidatorException> {
 
-    @RunWith(J8Unit4.class)
-    public static class BasicReasonClassTest
-    implements
-    org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests<java.security.cert.CertPathValidatorException.BasicReason> {
-
-        @Override
-        public Class<java.security.cert.CertPathValidatorException.BasicReason> createNewSUT() {
-            return java.security.cert.CertPathValidatorException.BasicReason.class;
-        }
-
+    @Override
+    public Class<java.security.cert.CertPathValidatorException> createNewSUT() {
+        return java.security.cert.CertPathValidatorException.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -31,9 +24,16 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
 
     }
 
-    @Override
-    public Class<java.security.cert.CertPathValidatorException> createNewSUT() {
-        return java.security.cert.CertPathValidatorException.class;
+    @RunWith(J8Unit4.class)
+    public static class BasicReasonClassTest
+    implements
+    org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests<java.security.cert.CertPathValidatorException.BasicReason> {
+
+        @Override
+        public Class<java.security.cert.CertPathValidatorException.BasicReason> createNewSUT() {
+            return java.security.cert.CertPathValidatorException.BasicReason.class;
+        }
+
     }
 
 }

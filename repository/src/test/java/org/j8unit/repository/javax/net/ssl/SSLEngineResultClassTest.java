@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class SSLEngineResultClassTest
 implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<javax.net.ssl.SSLEngineResult> {
 
-    @RunWith(J8Unit4.class)
-    public static class HandshakeStatusClassTest
-    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests<javax.net.ssl.SSLEngineResult.HandshakeStatus> {
-
-        @Override
-        public Class<javax.net.ssl.SSLEngineResult.HandshakeStatus> createNewSUT() {
-            return javax.net.ssl.SSLEngineResult.HandshakeStatus.class;
-        }
-
+    @Override
+    public Class<javax.net.ssl.SSLEngineResult> createNewSUT() {
+        return javax.net.ssl.SSLEngineResult.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<javax.n
 
     }
 
-    @Override
-    public Class<javax.net.ssl.SSLEngineResult> createNewSUT() {
-        return javax.net.ssl.SSLEngineResult.class;
+    @RunWith(J8Unit4.class)
+    public static class HandshakeStatusClassTest
+    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests<javax.net.ssl.SSLEngineResult.HandshakeStatus> {
+
+        @Override
+        public Class<javax.net.ssl.SSLEngineResult.HandshakeStatus> createNewSUT() {
+            return javax.net.ssl.SSLEngineResult.HandshakeStatus.class;
+        }
+
     }
 
 }

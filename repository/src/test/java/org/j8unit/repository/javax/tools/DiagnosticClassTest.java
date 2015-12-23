@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class DiagnosticClassTest
 implements org.j8unit.repository.javax.tools.DiagnosticClassTests<javax.tools.Diagnostic> {
 
+    @Override
+    public Class<javax.tools.Diagnostic> createNewSUT() {
+        return javax.tools.Diagnostic.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class KindClassTest
     implements org.j8unit.repository.javax.tools.DiagnosticClassTests.KindClassTests<javax.tools.Diagnostic.Kind> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.tools.DiagnosticClassTests<javax.tools.Di
             return javax.tools.Diagnostic.Kind.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.tools.Diagnostic> createNewSUT() {
-        return javax.tools.Diagnostic.class;
     }
 
 }

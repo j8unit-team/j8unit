@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.ObjectOutput interface java.io.ObjectOutput}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.io.ObjectOutput interface java.io.ObjectOutput}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.io.ObjectOutputTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.io.ObjectOutputClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.ObjectOutputClassTests
+ *
+ * @j8unit.aim java.io.ObjectOutput
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +30,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.ObjectOutput#close() public abstract void java.io.ObjectOutput.close() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectOutput#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +53,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.ObjectOutput#flush() public abstract void java.io.ObjectOutput.flush() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectOutput#flush()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +75,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.ObjectOutput#write(byte[]) public abstract void java.io.ObjectOutput.write(byte[])
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectOutput#write(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,9 +96,15 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutput#write(byte[],int,int) public abstract void
+     * Test method for {@link java.io.ObjectOutput#write(byte[], int, int) public abstract void
      * java.io.ObjectOutput.write(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectOutput#write(byte[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +121,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.ObjectOutput#write(int) public abstract void java.io.ObjectOutput.write(int)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectOutput#write(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +144,13 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.io.ObjectOutput#writeObject(java.lang.Object) public abstract void
      * java.io.ObjectOutput.writeObject(java.lang.Object) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectOutput#writeObject(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

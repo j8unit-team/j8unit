@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class DesktopTest
 implements org.j8unit.repository.java.awt.DesktopTests<java.awt.Desktop> {
 
+    @Override
+    public java.awt.Desktop createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.Desktop] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ActionTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.awt.DesktopTests<java.awt.Desktop> {
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.awt.Desktop createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.awt.Desktop] available.");
     }
 
 }

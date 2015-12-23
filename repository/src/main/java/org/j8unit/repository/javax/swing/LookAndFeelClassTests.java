@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.LookAndFeel class javax.swing.LookAndFeel}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.swing.LookAndFeel class javax.swing.LookAndFeel}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.LookAndFeelTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.LookAndFeelTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.LookAndFeelTests
+ *
+ * @j8unit.aim javax.swing.LookAndFeel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,7 +40,15 @@ public abstract interface LookAndFeelClassTests<SUT extends javax.swing.LookAndF
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.swing.LookAndFeel#LookAndFeel() public javax.swing.LookAndFeel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#LookAndFeel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,9 +62,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#getDesktopPropertyValue(java.lang.String,java.lang.Object) public
+     * Test method for {@link javax.swing.LookAndFeel#getDesktopPropertyValue(java.lang.String, java.lang.Object) public
      * static java.lang.Object javax.swing.LookAndFeel.getDesktopPropertyValue(java.lang.String,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#getDesktopPropertyValue(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -67,9 +84,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#installBorder(javax.swing.JComponent,java.lang.String) public
+     * Test method for {@link javax.swing.LookAndFeel#installBorder(javax.swing.JComponent, java.lang.String) public
      * static void javax.swing.LookAndFeel.installBorder(javax.swing.JComponent,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#installBorder(javax.swing.JComponent, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,9 +107,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.LookAndFeel#installColors(javax.swing.JComponent,java.lang.String,java.lang.String) public
+     * {@link javax.swing.LookAndFeel#installColors(javax.swing.JComponent, java.lang.String, java.lang.String) public
      * static void javax.swing.LookAndFeel.installColors(javax.swing.JComponent,java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#installColors(javax.swing.JComponent, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -101,11 +130,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.LookAndFeel#installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)
+     * {@link javax.swing.LookAndFeel#installColorsAndFont(javax.swing.JComponent, java.lang.String, java.lang.String, java.lang.String)
      * public static void
      * javax.swing.LookAndFeel.installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#installColorsAndFont(javax.swing.JComponent, java.lang.String,
+     *             java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,9 +156,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.LookAndFeel#installProperty(javax.swing.JComponent,java.lang.String,java.lang.Object) public
+     * {@link javax.swing.LookAndFeel#installProperty(javax.swing.JComponent, java.lang.String, java.lang.Object) public
      * static void javax.swing.LookAndFeel.installProperty(javax.swing.JComponent,java.lang.String,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#installProperty(javax.swing.JComponent, java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,9 +178,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#loadKeyBindings(javax.swing.InputMap,java.lang.Object[]) public
+     * Test method for {@link javax.swing.LookAndFeel#loadKeyBindings(javax.swing.InputMap, java.lang.Object[]) public
      * static void javax.swing.LookAndFeel.loadKeyBindings(javax.swing.InputMap,java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#loadKeyBindings(javax.swing.InputMap, java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,10 +200,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#makeComponentInputMap(javax.swing.JComponent,java.lang.Object[])
+     * Test method for {@link javax.swing.LookAndFeel#makeComponentInputMap(javax.swing.JComponent, java.lang.Object[])
      * public static javax.swing.ComponentInputMap
      * javax.swing.LookAndFeel.makeComponentInputMap(javax.swing.JComponent,java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#makeComponentInputMap(javax.swing.JComponent, java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,9 +223,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#makeIcon(java.lang.Class,java.lang.String) public static
+     * Test method for {@link javax.swing.LookAndFeel#makeIcon(java.lang.Class, java.lang.String) public static
      * java.lang.Object javax.swing.LookAndFeel.makeIcon(java.lang.Class,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#makeIcon(java.lang.Class, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,7 +247,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.LookAndFeel#makeInputMap(java.lang.Object[]) public static
      * javax.swing.InputMap javax.swing.LookAndFeel.makeInputMap(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#makeInputMap(java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,7 +269,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.LookAndFeel#makeKeyBindings(java.lang.Object[]) public static
      * javax.swing.text.JTextComponent$KeyBinding[] javax.swing.LookAndFeel.makeKeyBindings(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#makeKeyBindings(java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,7 +291,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.LookAndFeel#uninstallBorder(javax.swing.JComponent) public static void
      * javax.swing.LookAndFeel.uninstallBorder(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#uninstallBorder(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -231,6 +309,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.LookAndFeel#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

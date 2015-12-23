@@ -1,6 +1,6 @@
 package org.j8unit.repository.org.w3c.dom.ranges;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.w3c.dom.ranges.Range interface org.w3c.dom.ranges.Range}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.w3c.dom.ranges.Range interface org.w3c.dom.ranges.Range},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.w3c.dom.ranges.RangeTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.w3c.dom.ranges.RangeClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.w3c.dom.ranges.RangeClassTests
+ *
+ * @j8unit.aim org.w3c.dom.ranges.Range
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RangeTests<SUT extends org.w3c.dom.ranges.Range>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#cloneContents() public abstract org.w3c.dom.DocumentFragment
      * org.w3c.dom.ranges.Range.cloneContents() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#cloneContents()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#cloneRange() public abstract org.w3c.dom.ranges.Range
      * org.w3c.dom.ranges.Range.cloneRange() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#cloneRange()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#collapse(boolean) public abstract void
      * org.w3c.dom.ranges.Range.collapse(boolean) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#collapse(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,10 +96,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ranges.Range#compareBoundaryPoints(short,org.w3c.dom.ranges.Range) public
+     * Test method for {@link org.w3c.dom.ranges.Range#compareBoundaryPoints(short, org.w3c.dom.ranges.Range) public
      * abstract short org.w3c.dom.ranges.Range.compareBoundaryPoints(short,org.w3c.dom.ranges.Range) throws
      * org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#compareBoundaryPoints(short, org.w3c.dom.ranges.Range)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#deleteContents() public abstract void
      * org.w3c.dom.ranges.Range.deleteContents() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#deleteContents()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +143,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#detach() public abstract void org.w3c.dom.ranges.Range.detach()
      * throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#detach()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,7 +165,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#extractContents() public abstract org.w3c.dom.DocumentFragment
      * org.w3c.dom.ranges.Range.extractContents() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#extractContents()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,7 +187,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#getCollapsed() public abstract boolean
      * org.w3c.dom.ranges.Range.getCollapsed() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#getCollapsed()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,7 +209,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#getCommonAncestorContainer() public abstract org.w3c.dom.Node
      * org.w3c.dom.ranges.Range.getCommonAncestorContainer() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#getCommonAncestorContainer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,7 +231,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#getEndContainer() public abstract org.w3c.dom.Node
      * org.w3c.dom.ranges.Range.getEndContainer() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#getEndContainer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,7 +253,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#getEndOffset() public abstract int
      * org.w3c.dom.ranges.Range.getEndOffset() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#getEndOffset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -204,7 +275,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#getStartContainer() public abstract org.w3c.dom.Node
      * org.w3c.dom.ranges.Range.getStartContainer() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#getStartContainer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,7 +297,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#getStartOffset() public abstract int
      * org.w3c.dom.ranges.Range.getStartOffset() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#getStartOffset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,7 +320,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#insertNode(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.insertNode(org.w3c.dom.Node) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ranges.RangeException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#insertNode(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,7 +343,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#selectNode(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.selectNode(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#selectNode(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,7 +366,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#selectNodeContents(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.selectNodeContents(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#selectNodeContents(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -285,10 +386,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ranges.Range#setEnd(org.w3c.dom.Node,int) public abstract void
+     * Test method for {@link org.w3c.dom.ranges.Range#setEnd(org.w3c.dom.Node, int) public abstract void
      * org.w3c.dom.ranges.Range.setEnd(org.w3c.dom.Node,int) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#setEnd(org.w3c.dom.Node, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -305,7 +412,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#setEndAfter(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setEndAfter(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#setEndAfter(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -322,7 +435,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#setEndBefore(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setEndBefore(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#setEndBefore(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -336,10 +455,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ranges.Range#setStart(org.w3c.dom.Node,int) public abstract void
+     * Test method for {@link org.w3c.dom.ranges.Range#setStart(org.w3c.dom.Node, int) public abstract void
      * org.w3c.dom.ranges.Range.setStart(org.w3c.dom.Node,int) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#setStart(org.w3c.dom.Node, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -356,7 +481,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#setStartAfter(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setStartAfter(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#setStartAfter(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -373,7 +504,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#setStartBefore(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setStartBefore(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#setStartBefore(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -390,7 +527,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.w3c.dom.ranges.Range#surroundContents(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.surroundContents(org.w3c.dom.Node) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ranges.RangeException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#surroundContents(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -406,7 +549,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.ranges.Range#toString() public abstract java.lang.String
      * org.w3c.dom.ranges.Range.toString() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.w3c.dom.ranges.Range#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

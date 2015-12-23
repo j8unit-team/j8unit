@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicTableUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests<javax.swing.plaf.basic.BasicTableUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicTableUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicTableUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.FocusHandlerTests<javax.swing.plaf.basic.BasicTableUI.FocusHandler> {
@@ -15,17 +20,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests<javax.
         @Override
         public javax.swing.plaf.basic.BasicTableUI.FocusHandler createNewSUT() {
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.FocusHandler] available.");
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests<javax.swing.plaf.basic.BasicTableUI.KeyHandler> {
-
-        @Override
-        public javax.swing.plaf.basic.BasicTableUI.KeyHandler createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.KeyHandler] available.");
         }
 
     }
@@ -41,9 +35,15 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests<javax.
 
     }
 
-    @Override
-    public javax.swing.plaf.basic.BasicTableUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicTableUI();
+    @RunWith(J8Unit4.class)
+    public static class KeyHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests<javax.swing.plaf.basic.BasicTableUI.KeyHandler> {
+
+        @Override
+        public javax.swing.plaf.basic.BasicTableUI.KeyHandler createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableUI.KeyHandler] available.");
+        }
+
     }
 
 }

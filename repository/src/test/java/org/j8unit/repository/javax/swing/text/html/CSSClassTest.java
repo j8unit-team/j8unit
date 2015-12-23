@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class CSSClassTest
 implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<javax.swing.text.html.CSS> {
 
+    @Override
+    public Class<javax.swing.text.html.CSS> createNewSUT() {
+        return javax.swing.text.html.CSS.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AttributeClassTest
     implements org.j8unit.repository.javax.swing.text.html.CSSClassTests.AttributeClassTests<javax.swing.text.html.CSS.Attribute> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<javax.swing
             return javax.swing.text.html.CSS.Attribute.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.html.CSS> createNewSUT() {
-        return javax.swing.text.html.CSS.class;
     }
 
 }

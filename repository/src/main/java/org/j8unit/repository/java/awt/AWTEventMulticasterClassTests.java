@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.AWTEventMulticaster class java.awt.AWTEventMulticaster}, containing all class relevant
- * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.awt.AWTEventMulticaster class java.awt.AWTEventMulticaster},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.awt.AWTEventMulticasterTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.awt.AWTEventMulticasterTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.AWTEventMulticasterTests
+ *
+ * @j8unit.aim java.awt.AWTEventMulticaster
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -47,10 +50,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.ActionListener,java.awt.event.ActionListener) public
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.ActionListener, java.awt.event.ActionListener) public
      * static java.awt.event.ActionListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.ActionListener,java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.ActionListener, java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,10 +74,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.AdjustmentListener, java.awt.event.AdjustmentListener)
      * public static java.awt.event.AdjustmentListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.AdjustmentListener,
+     *             java.awt.event.AdjustmentListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,10 +99,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.ComponentListener,java.awt.event.ComponentListener) public
-     * static java.awt.event.ComponentListener
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.ComponentListener, java.awt.event.ComponentListener)
+     * public static java.awt.event.ComponentListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.ComponentListener,java.awt.event.ComponentListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.ComponentListener, java.awt.event.ComponentListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -101,10 +123,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.ContainerListener,java.awt.event.ContainerListener) public
-     * static java.awt.event.ContainerListener
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.ContainerListener, java.awt.event.ContainerListener)
+     * public static java.awt.event.ContainerListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.ContainerListener,java.awt.event.ContainerListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.ContainerListener, java.awt.event.ContainerListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,10 +147,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.FocusListener,java.awt.event.FocusListener) public static
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.FocusListener, java.awt.event.FocusListener) public static
      * java.awt.event.FocusListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.FocusListener,java.awt.event.FocusListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.FocusListener, java.awt.event.FocusListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,10 +171,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyBoundsListener,java.awt.event.HierarchyBoundsListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyBoundsListener, java.awt.event.HierarchyBoundsListener)
      * public static java.awt.event.HierarchyBoundsListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.HierarchyBoundsListener,java.awt.event.HierarchyBoundsListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyBoundsListener,
+     *             java.awt.event.HierarchyBoundsListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -155,10 +196,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener) public
-     * static java.awt.event.HierarchyListener
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyListener, java.awt.event.HierarchyListener)
+     * public static java.awt.event.HierarchyListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyListener, java.awt.event.HierarchyListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,10 +220,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.InputMethodListener, java.awt.event.InputMethodListener)
      * public static java.awt.event.InputMethodListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.InputMethodListener,
+     *             java.awt.event.InputMethodListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,10 +244,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.ItemListener,java.awt.event.ItemListener)
+     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.ItemListener, java.awt.event.ItemListener)
      * public static java.awt.event.ItemListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.ItemListener,java.awt.event.ItemListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.ItemListener, java.awt.event.ItemListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,10 +267,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.KeyListener,java.awt.event.KeyListener)
+     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.KeyListener, java.awt.event.KeyListener)
      * public static java.awt.event.KeyListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.KeyListener,java.awt.event.KeyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.KeyListener, java.awt.event.KeyListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,10 +291,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseListener,java.awt.event.MouseListener) public static
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseListener, java.awt.event.MouseListener) public static
      * java.awt.event.MouseListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.MouseListener,java.awt.event.MouseListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.MouseListener, java.awt.event.MouseListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,10 +315,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseMotionListener, java.awt.event.MouseMotionListener)
      * public static java.awt.event.MouseMotionListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.MouseMotionListener,
+     *             java.awt.event.MouseMotionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,10 +340,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseWheelListener, java.awt.event.MouseWheelListener)
      * public static java.awt.event.MouseWheelListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.MouseWheelListener,
+     *             java.awt.event.MouseWheelListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,10 +364,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.TextListener,java.awt.event.TextListener)
+     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.TextListener, java.awt.event.TextListener)
      * public static java.awt.event.TextListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.TextListener,java.awt.event.TextListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.TextListener, java.awt.event.TextListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -296,10 +388,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowFocusListener, java.awt.event.WindowFocusListener)
      * public static java.awt.event.WindowFocusListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.WindowFocusListener,
+     *             java.awt.event.WindowFocusListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -314,10 +413,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowListener,java.awt.event.WindowListener) public
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowListener, java.awt.event.WindowListener) public
      * static java.awt.event.WindowListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.WindowListener,java.awt.event.WindowListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.WindowListener, java.awt.event.WindowListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -332,10 +437,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowStateListener, java.awt.event.WindowStateListener)
      * public static java.awt.event.WindowStateListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#add(java.awt.event.WindowStateListener,
+     *             java.awt.event.WindowStateListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -349,10 +461,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#getListeners(java.util.EventListener,java.lang.Class) public
+     * Test method for {@link java.awt.AWTEventMulticaster#getListeners(java.util.EventListener, java.lang.Class) public
      * static java.util.EventListener[]
      * java.awt.AWTEventMulticaster.getListeners(java.util.EventListener,java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#getListeners(java.util.EventListener, java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -367,10 +485,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ActionListener,java.awt.event.ActionListener) public
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ActionListener, java.awt.event.ActionListener) public
      * static java.awt.event.ActionListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.ActionListener,java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.ActionListener, java.awt.event.ActionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -385,10 +509,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.AdjustmentListener, java.awt.event.AdjustmentListener)
      * public static java.awt.event.AdjustmentListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.AdjustmentListener,
+     *             java.awt.event.AdjustmentListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -403,10 +534,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ComponentListener,java.awt.event.ComponentListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ComponentListener, java.awt.event.ComponentListener)
      * public static java.awt.event.ComponentListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.ComponentListener,java.awt.event.ComponentListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.ComponentListener,
+     *             java.awt.event.ComponentListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -421,10 +559,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ContainerListener,java.awt.event.ContainerListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ContainerListener, java.awt.event.ContainerListener)
      * public static java.awt.event.ContainerListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.ContainerListener,java.awt.event.ContainerListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.ContainerListener,
+     *             java.awt.event.ContainerListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -439,10 +584,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.FocusListener,java.awt.event.FocusListener) public
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.FocusListener, java.awt.event.FocusListener) public
      * static java.awt.event.FocusListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.FocusListener,java.awt.event.FocusListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.FocusListener, java.awt.event.FocusListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -457,11 +608,18 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyBoundsListener,java.awt.event.HierarchyBoundsListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyBoundsListener, java.awt.event.HierarchyBoundsListener)
      * public static java.awt.event.HierarchyBoundsListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.HierarchyBoundsListener,java.awt.event.HierarchyBoundsListener)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyBoundsListener,
+     *             java.awt.event.HierarchyBoundsListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -476,10 +634,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyListener, java.awt.event.HierarchyListener)
      * public static java.awt.event.HierarchyListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyListener,
+     *             java.awt.event.HierarchyListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -494,10 +659,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.InputMethodListener, java.awt.event.InputMethodListener)
      * public static java.awt.event.InputMethodListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.InputMethodListener,
+     *             java.awt.event.InputMethodListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -512,10 +684,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ItemListener,java.awt.event.ItemListener) public static
-     * java.awt.event.ItemListener
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ItemListener, java.awt.event.ItemListener) public
+     * static java.awt.event.ItemListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.ItemListener,java.awt.event.ItemListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.ItemListener, java.awt.event.ItemListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -529,10 +707,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#remove(java.awt.event.KeyListener,java.awt.event.KeyListener)
-     * public static java.awt.event.KeyListener
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.KeyListener, java.awt.event.KeyListener) public static
+     * java.awt.event.KeyListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.KeyListener,java.awt.event.KeyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.KeyListener, java.awt.event.KeyListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -547,10 +732,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseListener,java.awt.event.MouseListener) public
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseListener, java.awt.event.MouseListener) public
      * static java.awt.event.MouseListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseListener,java.awt.event.MouseListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.MouseListener, java.awt.event.MouseListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -565,10 +756,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseMotionListener, java.awt.event.MouseMotionListener)
      * public static java.awt.event.MouseMotionListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.MouseMotionListener,
+     *             java.awt.event.MouseMotionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -583,10 +781,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseWheelListener, java.awt.event.MouseWheelListener)
      * public static java.awt.event.MouseWheelListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.MouseWheelListener,
+     *             java.awt.event.MouseWheelListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -601,10 +806,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.TextListener,java.awt.event.TextListener) public static
-     * java.awt.event.TextListener
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.TextListener, java.awt.event.TextListener) public
+     * static java.awt.event.TextListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.TextListener,java.awt.event.TextListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.TextListener, java.awt.event.TextListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -619,10 +830,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowFocusListener, java.awt.event.WindowFocusListener)
      * public static java.awt.event.WindowFocusListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.WindowFocusListener,
+     *             java.awt.event.WindowFocusListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -637,10 +855,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowListener,java.awt.event.WindowListener) public
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowListener, java.awt.event.WindowListener) public
      * static java.awt.event.WindowListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowListener,java.awt.event.WindowListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.WindowListener, java.awt.event.WindowListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -655,10 +879,17 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowStateListener, java.awt.event.WindowStateListener)
      * public static java.awt.event.WindowStateListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#remove(java.awt.event.WindowStateListener,
+     *             java.awt.event.WindowStateListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -670,6 +901,11 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.awt.AWTEventMulticaster#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

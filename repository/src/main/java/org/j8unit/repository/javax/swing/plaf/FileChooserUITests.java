@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.FileChooserUI class javax.swing.plaf.FileChooserUI}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.FileChooserUI class javax.swing.plaf.FileChooserUI},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.FileChooserUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.FileChooserUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.FileChooserUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.FileChooserUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.FileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)
+     * Test method for {@link javax.swing.plaf.FileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser, java.io.File)
      * public abstract void javax.swing.plaf.FileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser, java.io.File)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
      * Test method for {@link javax.swing.plaf.FileChooserUI#getAcceptAllFileFilter(javax.swing.JFileChooser) public
      * abstract javax.swing.filechooser.FileFilter
      * javax.swing.plaf.FileChooserUI.getAcceptAllFileFilter(javax.swing.JFileChooser)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#getAcceptAllFileFilter(javax.swing.JFileChooser)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.FileChooserUI#getApproveButtonText(javax.swing.JFileChooser) public
      * abstract java.lang.String javax.swing.plaf.FileChooserUI.getApproveButtonText(javax.swing.JFileChooser)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#getApproveButtonText(javax.swing.JFileChooser)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.FileChooserUI#getDefaultButton(javax.swing.JFileChooser) public
      * javax.swing.JButton javax.swing.plaf.FileChooserUI.getDefaultButton(javax.swing.JFileChooser)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#getDefaultButton(javax.swing.JFileChooser)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.FileChooserUI#getDialogTitle(javax.swing.JFileChooser) public abstract
      * java.lang.String javax.swing.plaf.FileChooserUI.getDialogTitle(javax.swing.JFileChooser)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#getDialogTitle(javax.swing.JFileChooser)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.FileChooserUI#getFileView(javax.swing.JFileChooser) public abstract
      * javax.swing.filechooser.FileView javax.swing.plaf.FileChooserUI.getFileView(javax.swing.JFileChooser)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#getFileView(javax.swing.JFileChooser)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +164,13 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.FileChooserUI#rescanCurrentDirectory(javax.swing.JFileChooser) public
      * abstract void javax.swing.plaf.FileChooserUI.rescanCurrentDirectory(javax.swing.JFileChooser)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.FileChooserUI#rescanCurrentDirectory(javax.swing.JFileChooser)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

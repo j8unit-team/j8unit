@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.Spliterators class java.util.Spliterators}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.Spliterators class java.util.Spliterators}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.SpliteratorsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.SpliteratorsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.SpliteratorsClassTests
+ *
+ * @j8unit.aim java.util.Spliterators
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.Spliterators$AbstractDoubleSpliterator class
+     * Reusable J8Unit test interface for {@linkplain java.util.Spliterators.AbstractDoubleSpliterator class
      * java.util.Spliterators$AbstractDoubleSpliterator}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests
+     *
+     * @j8unit.aim java.util.Spliterators.AbstractDoubleSpliterator
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,7 +52,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractDoubleSpliterator#characteristics() public int
          * java.util.Spliterators$AbstractDoubleSpliterator.characteristics()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractDoubleSpliterator#characteristics()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -60,7 +75,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractDoubleSpliterator#estimateSize() public long
          * java.util.Spliterators$AbstractDoubleSpliterator.estimateSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractDoubleSpliterator#estimateSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -77,7 +98,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractDoubleSpliterator#trySplit() public
          * java.util.Spliterator$OfDouble java.util.Spliterators$AbstractDoubleSpliterator.trySplit()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractDoubleSpliterator#trySplit()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -94,15 +121,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.Spliterators$AbstractIntSpliterator class
+     * Reusable J8Unit test interface for {@linkplain java.util.Spliterators.AbstractIntSpliterator class
      * java.util.Spliterators$AbstractIntSpliterator}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractIntSpliteratorClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractIntSpliteratorClassTests
+     *
+     * @j8unit.aim java.util.Spliterators.AbstractIntSpliterator
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -113,7 +144,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractIntSpliterator#characteristics() public int
          * java.util.Spliterators$AbstractIntSpliterator.characteristics()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractIntSpliterator#characteristics()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -130,7 +167,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractIntSpliterator#estimateSize() public long
          * java.util.Spliterators$AbstractIntSpliterator.estimateSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractIntSpliterator#estimateSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -147,7 +190,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractIntSpliterator#trySplit() public
          * java.util.Spliterator$OfInt java.util.Spliterators$AbstractIntSpliterator.trySplit()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractIntSpliterator#trySplit()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -164,15 +213,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.Spliterators$AbstractLongSpliterator class
+     * Reusable J8Unit test interface for {@linkplain java.util.Spliterators.AbstractLongSpliterator class
      * java.util.Spliterators$AbstractLongSpliterator}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests
+     *
+     * @j8unit.aim java.util.Spliterators.AbstractLongSpliterator
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -183,7 +236,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractLongSpliterator#characteristics() public int
          * java.util.Spliterators$AbstractLongSpliterator.characteristics()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractLongSpliterator#characteristics()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -200,7 +259,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractLongSpliterator#estimateSize() public long
          * java.util.Spliterators$AbstractLongSpliterator.estimateSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractLongSpliterator#estimateSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -217,7 +282,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractLongSpliterator#trySplit() public
          * java.util.Spliterator$OfLong java.util.Spliterators$AbstractLongSpliterator.trySplit()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractLongSpliterator#trySplit()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -234,15 +305,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.Spliterators$AbstractSpliterator class
+     * Reusable J8Unit test interface for {@linkplain java.util.Spliterators.AbstractSpliterator class
      * java.util.Spliterators$AbstractSpliterator}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests
+     *
+     * @j8unit.aim java.util.Spliterators.AbstractSpliterator
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -253,7 +328,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractSpliterator#characteristics() public int
          * java.util.Spliterators$AbstractSpliterator.characteristics()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractSpliterator#characteristics()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -270,7 +351,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractSpliterator#estimateSize() public long
          * java.util.Spliterators$AbstractSpliterator.estimateSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractSpliterator#estimateSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -287,7 +374,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link java.util.Spliterators.AbstractSpliterator#trySplit() public java.util.Spliterator
          * java.util.Spliterators$AbstractSpliterator.trySplit()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.Spliterators.AbstractSpliterator#trySplit()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test

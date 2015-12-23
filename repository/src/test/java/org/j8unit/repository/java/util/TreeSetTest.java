@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.TreeSetTests<java.util.TreeSet<E>, E>
 
     @Override
     public java.util.TreeSet<E> createNewSUT() {
-        return new java.util.TreeSet<>();
+        return new java.util.TreeSet();
     }
 
 }

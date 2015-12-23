@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BoxClassTest
 implements org.j8unit.repository.javax.swing.BoxClassTests<javax.swing.Box> {
 
+    @Override
+    public Class<javax.swing.Box> createNewSUT() {
+        return javax.swing.Box.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FillerClassTest
     implements org.j8unit.repository.javax.swing.BoxClassTests.FillerClassTests<javax.swing.Box.Filler> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<javax.swing.Box> {
             return javax.swing.Box.Filler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.Box> createNewSUT() {
-        return javax.swing.Box.class;
     }
 
 }

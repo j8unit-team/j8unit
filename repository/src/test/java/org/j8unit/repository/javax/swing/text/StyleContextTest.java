@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class StyleContextTest
 implements org.j8unit.repository.javax.swing.text.StyleContextTests<javax.swing.text.StyleContext> {
 
+    @Override
+    public javax.swing.text.StyleContext createNewSUT() {
+        return new javax.swing.text.StyleContext();
+    }
+
     @RunWith(J8Unit4.class)
     public static class NamedStyleTest
     implements org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests<javax.swing.text.StyleContext.NamedStyle> {
@@ -28,11 +33,6 @@ implements org.j8unit.repository.javax.swing.text.StyleContextTests<javax.swing.
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleContext.SmallAttributeSet] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.text.StyleContext createNewSUT() {
-        return new javax.swing.text.StyleContext();
     }
 
 }

@@ -9,10 +9,10 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.helpers.ValidationEventLocatorImpl class
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.helpers.ValidationEventLocatorImpl class
  * javax.xml.bind.helpers.ValidationEventLocatorImpl}, containing all class relevant test methods (at least the test
- * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class containing
- * the instance relevant test methods is
+ * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+ * containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests}.
  * </p>
  *
@@ -20,17 +20,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests
+ *
+ * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,8 +41,16 @@ public abstract interface ValidationEventLocatorImplClassTests<SUT extends javax
 extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl() public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,9 +63,17 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.Locator) public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.Locator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.Locator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -68,9 +87,17 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.w3c.dom.Node) public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.w3c.dom.Node)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,9 +111,17 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(java.lang.Object) public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,9 +135,18 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
     }
 
     /**
+     * <p>
      * Test method for
      * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.SAXParseException)
      * public javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.SAXParseException)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.
+     *             SAXParseException)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,6 +159,11 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
                                                                             // ValidationEventLocatorImpl(org.xml.sax.SAXParseException);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.xml.bind.helpers.ValidationEventLocatorImpl#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

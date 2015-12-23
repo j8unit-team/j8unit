@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.Frame class java.awt.Frame}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.Frame class java.awt.Frame}, containing all instance relevant
+ * test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+ * containing the class relevant test methods is {@link org.j8unit.repository.java.awt.FrameTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.FrameClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.FrameClassTests
+ *
+ * @j8unit.aim java.awt.Frame
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,7 +29,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#addNotify() public void java.awt.Frame.addNotify()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#addNotify()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#getAccessibleContext() public javax.accessibility.AccessibleContext
      * java.awt.Frame.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getCursorType() public int java.awt.Frame.getCursorType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getCursorType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,7 +95,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getExtendedState() public int java.awt.Frame.getExtendedState()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getExtendedState()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,9 +116,17 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.awt.Component</li>
+     * <li>interface java.awt.MenuContainer</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -104,7 +140,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getIconImage() public java.awt.Image java.awt.Frame.getIconImage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getIconImage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,7 +162,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#getMaximizedBounds() public java.awt.Rectangle
      * java.awt.Frame.getMaximizedBounds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getMaximizedBounds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -135,7 +183,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getMenuBar() public java.awt.MenuBar java.awt.Frame.getMenuBar()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getMenuBar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -150,7 +204,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getState() public synchronized int java.awt.Frame.getState()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getState()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,7 +225,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getTitle() public java.lang.String java.awt.Frame.getTitle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getTitle()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,7 +246,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#isResizable() public boolean java.awt.Frame.isResizable()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#isResizable()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,7 +267,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#isUndecorated() public boolean java.awt.Frame.isUndecorated()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#isUndecorated()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,9 +288,17 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.awt.Window</li>
+     * <li>interface java.awt.MenuContainer</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -227,7 +313,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#remove(java.awt.MenuComponent) public void
      * java.awt.Frame.remove(java.awt.MenuComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#remove(java.awt.MenuComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,7 +335,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#removeNotify() public void java.awt.Frame.removeNotify()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#removeNotify()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,7 +358,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setBackground(java.awt.Color) public void
      * java.awt.Frame.setBackground(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setBackground(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -276,7 +380,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#setCursor(int) public void java.awt.Frame.setCursor(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setCursor(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -291,7 +401,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#setExtendedState(int) public void java.awt.Frame.setExtendedState(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setExtendedState(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -307,7 +423,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setIconImage(java.awt.Image) public void
      * java.awt.Frame.setIconImage(java.awt.Image)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setIconImage(java.awt.Image)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -324,7 +446,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setMaximizedBounds(java.awt.Rectangle) public void
      * java.awt.Frame.setMaximizedBounds(java.awt.Rectangle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setMaximizedBounds(java.awt.Rectangle)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -340,7 +468,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setMenuBar(java.awt.MenuBar) public void
      * java.awt.Frame.setMenuBar(java.awt.MenuBar)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setMenuBar(java.awt.MenuBar)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,7 +489,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#setOpacity(float) public void java.awt.Frame.setOpacity(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setOpacity(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -371,7 +511,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#setResizable(boolean) public void java.awt.Frame.setResizable(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setResizable(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -387,7 +533,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setShape(java.awt.Shape) public void
      * java.awt.Frame.setShape(java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setShape(java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -403,7 +555,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for {@link java.awt.Frame#setState(int) public synchronized void java.awt.Frame.setState(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setState(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -419,7 +577,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setTitle(java.lang.String) public void
      * java.awt.Frame.setTitle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setTitle(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -435,7 +599,13 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link java.awt.Frame#setUndecorated(boolean) public void java.awt.Frame.setUndecorated(boolean)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#setUndecorated(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

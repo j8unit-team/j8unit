@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.lang.ref.ReferenceQueueTests<java.lang.ref
 
     @Override
     public java.lang.ref.ReferenceQueue<T> createNewSUT() {
-        return new java.lang.ref.ReferenceQueue<>();
+        return new java.lang.ref.ReferenceQueue();
     }
 
 }

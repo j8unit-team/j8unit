@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.modelmbean.ModelMBeanInfoSupport class
+ * Reusable J8Unit test interface for {@linkplain javax.management.modelmbean.ModelMBeanInfoSupport class
  * javax.management.modelmbean.ModelMBeanInfoSupport}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoSupportTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoSupportClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoSupportClassTests
+ *
+ * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * <p>
      * Test method for {@link javax.management.modelmbean.ModelMBeanInfoSupport#clone() public java.lang.Object
      * javax.management.modelmbean.ModelMBeanInfoSupport.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -46,7 +56,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * javax.management.modelmbean.ModelMBeanAttributeInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getAttribute(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getAttribute(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,9 +78,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.modelmbean.ModelMBeanInfo</li>
+     * <li>class javax.management.MBeanInfo</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -78,9 +102,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.modelmbean.ModelMBeanInfo</li>
+     * <li>class javax.management.MBeanInfo</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -97,7 +129,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * javax.management.modelmbean.ModelMBeanConstructorInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getConstructor(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getConstructor(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,9 +150,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.modelmbean.ModelMBeanInfo</li>
+     * <li>class javax.management.MBeanInfo</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -128,9 +174,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.modelmbean.ModelMBeanInfo</li>
+     * <li>class javax.management.MBeanInfo</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -145,7 +199,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * <p>
      * Test method for {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor() public
      * javax.management.Descriptor javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,7 +223,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * Test method for {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(java.lang.String) public
      * javax.management.Descriptor javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor(java.lang.String)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,11 +244,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(java.lang.String,java.lang.String) public
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(java.lang.String, java.lang.String) public
      * javax.management.Descriptor
      * javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor(java.lang.String,java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -200,7 +272,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * Test method for {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptors(java.lang.String) public
      * javax.management.Descriptor[] javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptors(java.lang.String)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptors(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +296,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * Test method for {@link javax.management.modelmbean.ModelMBeanInfoSupport#getMBeanDescriptor() public
      * javax.management.Descriptor javax.management.modelmbean.ModelMBeanInfoSupport.getMBeanDescriptor() throws
      * javax.management.MBeanException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getMBeanDescriptor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,7 +321,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * javax.management.modelmbean.ModelMBeanNotificationInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getNotification(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getNotification(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,9 +343,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.modelmbean.ModelMBeanInfo</li>
+     * <li>class javax.management.MBeanInfo</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -272,7 +370,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * javax.management.modelmbean.ModelMBeanOperationInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getOperation(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#getOperation(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -288,9 +392,17 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.modelmbean.ModelMBeanInfo</li>
+     * <li>class javax.management.MBeanInfo</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -304,11 +416,18 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptor(javax.management.Descriptor,java.lang.String)
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptor(javax.management.Descriptor, java.lang.String)
      * public void
      * javax.management.modelmbean.ModelMBeanInfoSupport.setDescriptor(javax.management.Descriptor,java.lang.String)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptor(javax.management.Descriptor,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,7 +446,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptors(javax.management.Descriptor[]) public
      * void javax.management.modelmbean.ModelMBeanInfoSupport.setDescriptors(javax.management.Descriptor[]) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptors(javax.management.Descriptor[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -346,7 +471,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setMBeanDescriptor(javax.management.Descriptor) public
      * void javax.management.modelmbean.ModelMBeanInfoSupport.setMBeanDescriptor(javax.management.Descriptor) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.modelmbean.ModelMBeanInfoSupport#setMBeanDescriptor(javax.management.Descriptor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

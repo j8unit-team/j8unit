@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.ScrollPaneLayout class javax.swing.ScrollPaneLayout}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.ScrollPaneLayout class javax.swing.ScrollPaneLayout},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.ScrollPaneLayoutTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests
+ *
+ * @j8unit.aim javax.swing.ScrollPaneLayout
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,14 +30,19 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test class for {@link javax.swing.ScrollPaneLayout$UIResource class javax.swing.ScrollPaneLayout$UIResource},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.ScrollPaneLayout.UIResource class
+     * javax.swing.ScrollPaneLayout$UIResource}, containing all instance relevant test methods (i.&thinsp;e., test
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.javax.swing.ScrollPaneLayoutTests.UIResourceTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout.UIResource
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,9 +53,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#addLayoutComponent(java.lang.String,java.awt.Component)
+     * Test method for {@link javax.swing.ScrollPaneLayout#addLayoutComponent(java.lang.String, java.awt.Component)
      * public void javax.swing.ScrollPaneLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#addLayoutComponent(java.lang.String, java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +78,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getColumnHeader() public javax.swing.JViewport
      * javax.swing.ScrollPaneLayout.getColumnHeader()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getColumnHeader()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +100,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getCorner(java.lang.String) public java.awt.Component
      * javax.swing.ScrollPaneLayout.getCorner(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getCorner(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +122,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getHorizontalScrollBar() public javax.swing.JScrollBar
      * javax.swing.ScrollPaneLayout.getHorizontalScrollBar()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getHorizontalScrollBar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +144,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getHorizontalScrollBarPolicy() public int
      * javax.swing.ScrollPaneLayout.getHorizontalScrollBarPolicy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getHorizontalScrollBarPolicy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +166,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getRowHeader() public javax.swing.JViewport
      * javax.swing.ScrollPaneLayout.getRowHeader()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getRowHeader()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +188,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getVerticalScrollBar() public javax.swing.JScrollBar
      * javax.swing.ScrollPaneLayout.getVerticalScrollBar()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getVerticalScrollBar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +210,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getVerticalScrollBarPolicy() public int
      * javax.swing.ScrollPaneLayout.getVerticalScrollBarPolicy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getVerticalScrollBarPolicy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +232,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getViewport() public javax.swing.JViewport
      * javax.swing.ScrollPaneLayout.getViewport()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getViewport()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +254,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getViewportBorderBounds(javax.swing.JScrollPane) public
      * java.awt.Rectangle javax.swing.ScrollPaneLayout.getViewportBorderBounds(javax.swing.JScrollPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#getViewportBorderBounds(javax.swing.JScrollPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,7 +276,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#layoutContainer(java.awt.Container) public void
      * javax.swing.ScrollPaneLayout.layoutContainer(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#layoutContainer(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,7 +299,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#minimumLayoutSize(java.awt.Container) public
      * java.awt.Dimension javax.swing.ScrollPaneLayout.minimumLayoutSize(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#minimumLayoutSize(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -240,7 +322,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#preferredLayoutSize(java.awt.Container) public
      * java.awt.Dimension javax.swing.ScrollPaneLayout.preferredLayoutSize(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#preferredLayoutSize(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -257,7 +345,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#removeLayoutComponent(java.awt.Component) public void
      * javax.swing.ScrollPaneLayout.removeLayoutComponent(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#removeLayoutComponent(java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,7 +368,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#setHorizontalScrollBarPolicy(int) public void
      * javax.swing.ScrollPaneLayout.setHorizontalScrollBarPolicy(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#setHorizontalScrollBarPolicy(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -290,7 +390,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#setVerticalScrollBarPolicy(int) public void
      * javax.swing.ScrollPaneLayout.setVerticalScrollBarPolicy(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#setVerticalScrollBarPolicy(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -306,7 +412,13 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#syncWithScrollPane(javax.swing.JScrollPane) public void
      * javax.swing.ScrollPaneLayout.syncWithScrollPane(javax.swing.JScrollPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.ScrollPaneLayout#syncWithScrollPane(javax.swing.JScrollPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

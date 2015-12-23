@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.sql.SQLTimeoutException class java.sql.SQLTimeoutException}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.sql.SQLTimeoutException class java.sql.SQLTimeoutException},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.sql.SQLTimeoutExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.sql.SQLTimeoutExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.sql.SQLTimeoutExceptionClassTests
+ *
+ * @j8unit.aim java.sql.SQLTimeoutException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

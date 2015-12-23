@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.ws.ProtocolException class javax.xml.ws.ProtocolException}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.ws.ProtocolException class javax.xml.ws.ProtocolException},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests
+ *
+ * @j8unit.aim javax.xml.ws.ProtocolException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

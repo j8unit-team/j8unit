@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DatatypeConstantsClassTest
 implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests<javax.xml.datatype.DatatypeConstants> {
 
+    @Override
+    public Class<javax.xml.datatype.DatatypeConstants> createNewSUT() {
+        return javax.xml.datatype.DatatypeConstants.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
     implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests.FieldClassTests<javax.xml.datatype.DatatypeConstants.Field> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests<
             return javax.xml.datatype.DatatypeConstants.Field.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.datatype.DatatypeConstants> createNewSUT() {
-        return javax.xml.datatype.DatatypeConstants.class;
     }
 
 }

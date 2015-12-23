@@ -9,26 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.UIManager class javax.swing.UIManager}, containing all class relevant test methods
- * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
- * class containing the instance relevant test methods is {@link org.j8unit.repository.javax.swing.UIManagerTests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.UIManager class javax.swing.UIManager}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.UIManagerTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.UIManagerTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.UIManagerTests
+ *
+ * @j8unit.aim javax.swing.UIManager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,9 +41,10 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test class for {@link javax.swing.UIManager$LookAndFeelInfo class javax.swing.UIManager$LookAndFeelInfo},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain javax.swing.UIManager.LookAndFeelInfo class
+     * javax.swing.UIManager$LookAndFeelInfo}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests}.
      * </p>
      *
@@ -47,7 +52,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -55,10 +60,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests
+     *
+     * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -66,9 +74,17 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.UIManager.LookAndFeelInfo#LookAndFeelInfo(java.lang.String,java.lang.String) public
+         * {@link javax.swing.UIManager.LookAndFeelInfo#LookAndFeelInfo(java.lang.String, java.lang.String) public
          * javax.swing.UIManager$LookAndFeelInfo(java.lang.String,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo#LookAndFeelInfo(java.lang.String, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -77,10 +93,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final javax.swing.UIManager.LookAndFeelInfo sut = null; // = new
-                                                                    // LookAndFeelInfo(java.lang.String,java.lang.String);
+            final javax.swing.UIManager.LookAndFeelInfo sut = null; // = new LookAndFeelInfo(java.lang.String,
+                                                                    // java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.UIManager.LookAndFeelInfo#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -94,7 +115,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.UIManager#UIManager() public javax.swing.UIManager()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#UIManager()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +139,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#addAuxiliaryLookAndFeel(javax.swing.LookAndFeel) public static void
      * javax.swing.UIManager.addAuxiliaryLookAndFeel(javax.swing.LookAndFeel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#addAuxiliaryLookAndFeel(javax.swing.LookAndFeel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +161,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#addPropertyChangeListener(java.beans.PropertyChangeListener) public
      * static void javax.swing.UIManager.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#addPropertyChangeListener(java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +183,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#get(java.lang.Object) public static java.lang.Object
      * javax.swing.UIManager.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#get(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,9 +203,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#get(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#get(java.lang.Object, java.util.Locale) public static
      * java.lang.Object javax.swing.UIManager.get(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#get(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +227,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getAuxiliaryLookAndFeels() public static javax.swing.LookAndFeel[]
      * javax.swing.UIManager.getAuxiliaryLookAndFeels()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getAuxiliaryLookAndFeels()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +249,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getBoolean(java.lang.Object) public static boolean
      * javax.swing.UIManager.getBoolean(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getBoolean(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -204,9 +269,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getBoolean(java.lang.Object,java.util.Locale) public static boolean
+     * Test method for {@link javax.swing.UIManager#getBoolean(java.lang.Object, java.util.Locale) public static boolean
      * javax.swing.UIManager.getBoolean(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getBoolean(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,7 +293,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getBorder(java.lang.Object) public static javax.swing.border.Border
      * javax.swing.UIManager.getBorder(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getBorder(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,9 +313,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getBorder(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getBorder(java.lang.Object, java.util.Locale) public static
      * javax.swing.border.Border javax.swing.UIManager.getBorder(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getBorder(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,7 +337,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getColor(java.lang.Object) public static java.awt.Color
      * javax.swing.UIManager.getColor(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getColor(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,9 +357,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getColor(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getColor(java.lang.Object, java.util.Locale) public static
      * java.awt.Color javax.swing.UIManager.getColor(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getColor(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,7 +381,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getCrossPlatformLookAndFeelClassName() public static
      * java.lang.String javax.swing.UIManager.getCrossPlatformLookAndFeelClassName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getCrossPlatformLookAndFeelClassName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,7 +403,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getDefaults() public static javax.swing.UIDefaults
      * javax.swing.UIManager.getDefaults()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getDefaults()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -318,7 +425,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getDimension(java.lang.Object) public static java.awt.Dimension
      * javax.swing.UIManager.getDimension(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getDimension(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -332,9 +445,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getDimension(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getDimension(java.lang.Object, java.util.Locale) public static
      * java.awt.Dimension javax.swing.UIManager.getDimension(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getDimension(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -350,7 +469,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getFont(java.lang.Object) public static java.awt.Font
      * javax.swing.UIManager.getFont(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getFont(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,9 +489,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getFont(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getFont(java.lang.Object, java.util.Locale) public static
      * java.awt.Font javax.swing.UIManager.getFont(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getFont(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -382,7 +513,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getIcon(java.lang.Object) public static javax.swing.Icon
      * javax.swing.UIManager.getIcon(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getIcon(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -396,9 +533,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getIcon(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getIcon(java.lang.Object, java.util.Locale) public static
      * javax.swing.Icon javax.swing.UIManager.getIcon(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getIcon(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -414,7 +557,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getInsets(java.lang.Object) public static java.awt.Insets
      * javax.swing.UIManager.getInsets(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getInsets(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -428,9 +577,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getInsets(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getInsets(java.lang.Object, java.util.Locale) public static
      * java.awt.Insets javax.swing.UIManager.getInsets(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getInsets(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -446,7 +601,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getInstalledLookAndFeels() public static
      * javax.swing.UIManager$LookAndFeelInfo[] javax.swing.UIManager.getInstalledLookAndFeels()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getInstalledLookAndFeels()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -462,7 +623,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getInt(java.lang.Object) public static int
      * javax.swing.UIManager.getInt(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getInt(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -476,9 +643,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getInt(java.lang.Object,java.util.Locale) public static int
+     * Test method for {@link javax.swing.UIManager#getInt(java.lang.Object, java.util.Locale) public static int
      * javax.swing.UIManager.getInt(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getInt(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -494,7 +667,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getLookAndFeel() public static javax.swing.LookAndFeel
      * javax.swing.UIManager.getLookAndFeel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getLookAndFeel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -510,7 +689,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getLookAndFeelDefaults() public static javax.swing.UIDefaults
      * javax.swing.UIManager.getLookAndFeelDefaults()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getLookAndFeelDefaults()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -526,7 +711,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getPropertyChangeListeners() public static
      * java.beans.PropertyChangeListener[] javax.swing.UIManager.getPropertyChangeListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getPropertyChangeListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -542,7 +733,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getString(java.lang.Object) public static java.lang.String
      * javax.swing.UIManager.getString(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getString(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -556,9 +753,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#getString(java.lang.Object,java.util.Locale) public static
+     * Test method for {@link javax.swing.UIManager#getString(java.lang.Object, java.util.Locale) public static
      * java.lang.String javax.swing.UIManager.getString(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getString(java.lang.Object, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,7 +777,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getSystemLookAndFeelClassName() public static java.lang.String
      * javax.swing.UIManager.getSystemLookAndFeelClassName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getSystemLookAndFeelClassName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -590,7 +799,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#getUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.UIManager.getUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#getUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -606,7 +821,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#installLookAndFeel(javax.swing.UIManager.LookAndFeelInfo) public
      * static void javax.swing.UIManager.installLookAndFeel(javax.swing.UIManager$LookAndFeelInfo)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#installLookAndFeel(javax.swing.UIManager.LookAndFeelInfo)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -620,9 +841,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#installLookAndFeel(java.lang.String,java.lang.String) public static
+     * Test method for {@link javax.swing.UIManager#installLookAndFeel(java.lang.String, java.lang.String) public static
      * void javax.swing.UIManager.installLookAndFeel(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#installLookAndFeel(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -636,9 +863,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.UIManager#put(java.lang.Object,java.lang.Object) public static
+     * Test method for {@link javax.swing.UIManager#put(java.lang.Object, java.lang.Object) public static
      * java.lang.Object javax.swing.UIManager.put(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#put(java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -654,7 +887,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#removeAuxiliaryLookAndFeel(javax.swing.LookAndFeel) public static
      * boolean javax.swing.UIManager.removeAuxiliaryLookAndFeel(javax.swing.LookAndFeel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#removeAuxiliaryLookAndFeel(javax.swing.LookAndFeel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -670,7 +909,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link javax.swing.UIManager#removePropertyChangeListener(java.beans.PropertyChangeListener)
      * public static void javax.swing.UIManager.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#removePropertyChangeListener(java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -687,7 +932,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * Test method for {@link javax.swing.UIManager#setInstalledLookAndFeels(javax.swing.UIManager.LookAndFeelInfo[])
      * public static void javax.swing.UIManager.setInstalledLookAndFeels(javax.swing.UIManager$LookAndFeelInfo[]) throws
      * java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#setInstalledLookAndFeels(javax.swing.UIManager.LookAndFeelInfo[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -704,7 +955,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * Test method for {@link javax.swing.UIManager#setLookAndFeel(javax.swing.LookAndFeel) public static void
      * javax.swing.UIManager.setLookAndFeel(javax.swing.LookAndFeel) throws javax.swing.UnsupportedLookAndFeelException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#setLookAndFeel(javax.swing.LookAndFeel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -722,7 +979,13 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * javax.swing.UIManager.setLookAndFeel(java.lang.String) throws
      * java.lang.ClassNotFoundException,java.lang.InstantiationException,java.lang.IllegalAccessException,javax.swing.UnsupportedLookAndFeelException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.UIManager#setLookAndFeel(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -734,6 +997,11 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.UIManager#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.LocalObject class org.omg.CORBA.LocalObject}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.LocalObject class org.omg.CORBA.LocalObject}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.CORBA.LocalObjectTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CORBA.LocalObjectClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CORBA.LocalObjectClassTests
+ *
+ * @j8unit.aim org.omg.CORBA.LocalObject
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.LocalObject#_create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)
+     * {@link org.omg.CORBA.LocalObject#_create_request(org.omg.CORBA.Context, java.lang.String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
      * public org.omg.CORBA.Request
      * org.omg.CORBA.LocalObject._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_create_request(org.omg.CORBA.Context, java.lang.String,
+     *             org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,11 +57,19 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.LocalObject#_create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)
+     * {@link org.omg.CORBA.LocalObject#_create_request(org.omg.CORBA.Context, java.lang.String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
      * public org.omg.CORBA.Request
      * org.omg.CORBA.LocalObject._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_create_request(org.omg.CORBA.Context, java.lang.String,
+     *             org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList,
+     *             org.omg.CORBA.ContextList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -66,7 +86,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_duplicate() public org.omg.CORBA.Object
      * org.omg.CORBA.LocalObject._duplicate()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_duplicate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,7 +109,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_get_domain_managers() public org.omg.CORBA.DomainManager[]
      * org.omg.CORBA.LocalObject._get_domain_managers()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_get_domain_managers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,7 +132,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_get_interface() public org.omg.CORBA.Object
      * org.omg.CORBA.LocalObject._get_interface()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_get_interface()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,7 +154,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_get_interface_def() public org.omg.CORBA.Object
      * org.omg.CORBA.LocalObject._get_interface_def()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_get_interface_def()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,7 +177,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_get_policy(int) public org.omg.CORBA.Policy
      * org.omg.CORBA.LocalObject._get_policy(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_get_policy(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -149,7 +199,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_hash(int) public int org.omg.CORBA.LocalObject._hash(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_hash(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,7 +223,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * Test method for {@link org.omg.CORBA.LocalObject#_invoke(org.omg.CORBA.portable.OutputStream) public
      * org.omg.CORBA.portable.InputStream org.omg.CORBA.LocalObject._invoke(org.omg.CORBA.portable.OutputStream) throws
      * org.omg.CORBA.portable.ApplicationException,org.omg.CORBA.portable.RemarshalException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_invoke(org.omg.CORBA.portable.OutputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -183,7 +245,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_is_a(java.lang.String) public boolean
      * org.omg.CORBA.LocalObject._is_a(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_is_a(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -200,7 +268,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_is_equivalent(org.omg.CORBA.Object) public boolean
      * org.omg.CORBA.LocalObject._is_equivalent(org.omg.CORBA.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_is_equivalent(org.omg.CORBA.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,7 +291,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_is_local() public boolean
      * org.omg.CORBA.LocalObject._is_local()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_is_local()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -233,7 +313,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_non_existent() public boolean
      * org.omg.CORBA.LocalObject._non_existent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_non_existent()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,7 +336,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_orb() public org.omg.CORBA.ORB
      * org.omg.CORBA.LocalObject._orb()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_orb()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -265,7 +357,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_release() public void org.omg.CORBA.LocalObject._release()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_release()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -282,7 +380,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_releaseReply(org.omg.CORBA.portable.InputStream) public void
      * org.omg.CORBA.LocalObject._releaseReply(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_releaseReply(org.omg.CORBA.portable.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,7 +402,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_request(java.lang.String) public org.omg.CORBA.Request
      * org.omg.CORBA.LocalObject._request(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_request(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,9 +423,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.LocalObject#_request(java.lang.String,boolean) public
+     * Test method for {@link org.omg.CORBA.LocalObject#_request(java.lang.String, boolean) public
      * org.omg.CORBA.portable.OutputStream org.omg.CORBA.LocalObject._request(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_request(java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -331,7 +447,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#_servant_postinvoke(org.omg.CORBA.portable.ServantObject) public
      * void org.omg.CORBA.LocalObject._servant_postinvoke(org.omg.CORBA.portable.ServantObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_servant_postinvoke(org.omg.CORBA.portable.ServantObject)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,10 +467,16 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.LocalObject#_servant_preinvoke(java.lang.String,java.lang.Class) public
+     * Test method for {@link org.omg.CORBA.LocalObject#_servant_preinvoke(java.lang.String, java.lang.Class) public
      * org.omg.CORBA.portable.ServantObject
      * org.omg.CORBA.LocalObject._servant_preinvoke(java.lang.String,java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_servant_preinvoke(java.lang.String, java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,10 +491,16 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.LocalObject#_set_policy_override(org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)
+     * {@link org.omg.CORBA.LocalObject#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
      * public org.omg.CORBA.Object
      * org.omg.CORBA.LocalObject._set_policy_override(org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -383,7 +517,13 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link org.omg.CORBA.LocalObject#validate_connection() public boolean
      * org.omg.CORBA.LocalObject.validate_connection()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.LocalObject#validate_connection()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

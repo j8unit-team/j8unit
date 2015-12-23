@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
+import org.j8unit.repository.JavaBug;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,14 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.DebugGraphics class javax.swing.DebugGraphics}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.DebugGraphics class javax.swing.DebugGraphics}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.DebugGraphicsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.DebugGraphicsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.DebugGraphicsClassTests
+ *
+ * @j8unit.aim javax.swing.DebugGraphics
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +30,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#clearRect(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#clearRect(int, int, int, int) public void
      * javax.swing.DebugGraphics.clearRect(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#clearRect(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,9 +53,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#clipRect(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#clipRect(int, int, int, int) public void
      * javax.swing.DebugGraphics.clipRect(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#clipRect(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,9 +76,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#copyArea(int,int,int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#copyArea(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.copyArea(int,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#copyArea(int, int, int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +101,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#create() public java.awt.Graphics
      * javax.swing.DebugGraphics.create()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#create()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,9 +122,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#create(int,int,int,int) public java.awt.Graphics
+     * Test method for {@link javax.swing.DebugGraphics#create(int, int, int, int) public java.awt.Graphics
      * javax.swing.DebugGraphics.create(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#create(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +146,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#dispose() public void javax.swing.DebugGraphics.dispose()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#dispose()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,9 +167,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#draw3DRect(int,int,int,int,boolean) public void
+     * Test method for {@link javax.swing.DebugGraphics#draw3DRect(int, int, int, int, boolean) public void
      * javax.swing.DebugGraphics.draw3DRect(int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#draw3DRect(int, int, int, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,9 +190,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawArc(int,int,int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawArc(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.drawArc(int,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawArc(int, int, int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,9 +213,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawBytes(byte[],int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawBytes(byte[], int, int, int, int) public void
      * javax.swing.DebugGraphics.drawBytes(byte[],int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawBytes(byte[], int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,9 +236,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawChars(char[],int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawChars(char[], int, int, int, int) public void
      * javax.swing.DebugGraphics.drawChars(char[],int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawChars(char[], int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,10 +260,17 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image,int,int,java.awt.Color,java.awt.image.ImageObserver)
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, java.awt.Color, java.awt.image.ImageObserver)
      * public boolean
      * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,java.awt.Color,java.awt.image.ImageObserver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, java.awt.Color,
+     *             java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -212,9 +285,16 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)
-     * public boolean javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)}.
+     * Test method for
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, java.awt.image.ImageObserver) public boolean
+     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -230,10 +310,17 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)
      * public boolean
      * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, java.awt.Color,
+     *             java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,9 +336,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image,int,int,int,int,java.awt.image.ImageObserver) public
-     * boolean javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.image.ImageObserver)}.
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, java.awt.image.ImageObserver)
+     * public boolean javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.image.ImageObserver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -267,11 +360,18 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)
      * public boolean
      * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, int, int, int, int,
+     *             java.awt.Color, java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -287,11 +387,18 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.image.ImageObserver)
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.image.ImageObserver)
      * public boolean
      * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.image.ImageObserver)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, int, int, int, int,
+     *             java.awt.image.ImageObserver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -306,9 +413,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawLine(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawLine(int, int, int, int) public void
      * javax.swing.DebugGraphics.drawLine(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawLine(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -323,9 +436,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawOval(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawOval(int, int, int, int) public void
      * javax.swing.DebugGraphics.drawOval(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawOval(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -340,9 +459,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawPolygon(int[],int[],int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawPolygon(int[], int[], int) public void
      * javax.swing.DebugGraphics.drawPolygon(int[],int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawPolygon(int[], int[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,9 +482,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawPolyline(int[],int[],int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawPolyline(int[], int[], int) public void
      * javax.swing.DebugGraphics.drawPolyline(int[],int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawPolyline(int[], int[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,9 +505,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawRect(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawRect(int, int, int, int) public void
      * javax.swing.DebugGraphics.drawRect(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawRect(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,9 +528,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawRoundRect(int,int,int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawRoundRect(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.drawRoundRect(int,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawRoundRect(int, int, int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -408,9 +551,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawString(java.text.AttributedCharacterIterator,int,int) public
-     * void javax.swing.DebugGraphics.drawString(java.text.AttributedCharacterIterator,int,int)}.
+     * Test method for {@link javax.swing.DebugGraphics#drawString(java.text.AttributedCharacterIterator, int, int)
+     * public void javax.swing.DebugGraphics.drawString(java.text.AttributedCharacterIterator,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawString(java.text.AttributedCharacterIterator, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -425,9 +574,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#drawString(java.lang.String,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#drawString(java.lang.String, int, int) public void
      * javax.swing.DebugGraphics.drawString(java.lang.String,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#drawString(java.lang.String, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -442,9 +597,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#fill3DRect(int,int,int,int,boolean) public void
+     * Test method for {@link javax.swing.DebugGraphics#fill3DRect(int, int, int, int, boolean) public void
      * javax.swing.DebugGraphics.fill3DRect(int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#fill3DRect(int, int, int, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -459,9 +620,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#fillArc(int,int,int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#fillArc(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.fillArc(int,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#fillArc(int, int, int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -476,9 +643,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#fillOval(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#fillOval(int, int, int, int) public void
      * javax.swing.DebugGraphics.fillOval(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#fillOval(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -493,9 +666,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#fillPolygon(int[],int[],int) public void
+     * Test method for {@link javax.swing.DebugGraphics#fillPolygon(int[], int[], int) public void
      * javax.swing.DebugGraphics.fillPolygon(int[],int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#fillPolygon(int[], int[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -510,9 +689,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#fillRect(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#fillRect(int, int, int, int) public void
      * javax.swing.DebugGraphics.fillRect(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#fillRect(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -527,9 +712,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#fillRoundRect(int,int,int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#fillRoundRect(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.fillRoundRect(int,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#fillRoundRect(int, int, int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -546,7 +737,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getClip() public java.awt.Shape
      * javax.swing.DebugGraphics.getClip()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getClip()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -563,7 +760,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getClipBounds() public java.awt.Rectangle
      * javax.swing.DebugGraphics.getClipBounds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getClipBounds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -580,7 +783,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getColor() public java.awt.Color
      * javax.swing.DebugGraphics.getColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getColor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -597,7 +806,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getDebugOptions() public int
      * javax.swing.DebugGraphics.getDebugOptions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getDebugOptions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -613,7 +828,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getFont() public java.awt.Font
      * javax.swing.DebugGraphics.getFont()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getFont()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -630,7 +851,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getFontMetrics() public java.awt.FontMetrics
      * javax.swing.DebugGraphics.getFontMetrics()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getFontMetrics()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -647,7 +874,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#getFontMetrics(java.awt.Font) public java.awt.FontMetrics
      * javax.swing.DebugGraphics.getFontMetrics(java.awt.Font)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#getFontMetrics(java.awt.Font)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -664,7 +897,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#isDrawingBuffer() public boolean
      * javax.swing.DebugGraphics.isDrawingBuffer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#isDrawingBuffer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -678,9 +917,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#setClip(int,int,int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#setClip(int, int, int, int) public void
      * javax.swing.DebugGraphics.setClip(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setClip(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -697,7 +942,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#setClip(java.awt.Shape) public void
      * javax.swing.DebugGraphics.setClip(java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setClip(java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -714,7 +965,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#setColor(java.awt.Color) public void
      * javax.swing.DebugGraphics.setColor(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setColor(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -731,7 +988,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#setDebugOptions(int) public void
      * javax.swing.DebugGraphics.setDebugOptions(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setDebugOptions(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -747,7 +1010,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#setFont(java.awt.Font) public void
      * javax.swing.DebugGraphics.setFont(java.awt.Font)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setFont(java.awt.Font)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -764,7 +1033,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#setPaintMode() public void
      * javax.swing.DebugGraphics.setPaintMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setPaintMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -781,7 +1056,13 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.DebugGraphics#setXORMode(java.awt.Color) public void
      * javax.swing.DebugGraphics.setXORMode(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#setXORMode(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -796,9 +1077,15 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#translate(int,int) public void
+     * Test method for {@link javax.swing.DebugGraphics#translate(int, int) public void
      * javax.swing.DebugGraphics.translate(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.DebugGraphics#translate(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -809,6 +1096,16 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * {@code new DebugGraphics().toString()} throws {@code NullPointerException} illegally.
+     */
+    @Override
+    @Test
+    @Category(JavaBug.class)
+    default void toStringMustReturnNotNull() {
+        org.j8unit.repository.java.awt.GraphicsTests.super.toStringMustReturnNotNull();
     }
 
 }

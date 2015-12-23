@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicDesktopIconUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests<javax.swing.plaf.basic.BasicDesktopIconUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicDesktopIconUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicDesktopIconUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests<
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicDesktopIconUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicDesktopIconUI();
     }
 
 }

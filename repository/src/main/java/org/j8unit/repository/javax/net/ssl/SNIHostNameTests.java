@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.net.ssl.SNIHostName class javax.net.ssl.SNIHostName}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.net.ssl.SNIHostName class javax.net.ssl.SNIHostName}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.net.ssl.SNIHostNameTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests
+ *
+ * @j8unit.aim javax.net.ssl.SNIHostName
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SNIHostName#equals(java.lang.Object) public boolean
      * javax.net.ssl.SNIHostName.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SNIHostName#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SNIHostName#getAsciiName() public java.lang.String
      * javax.net.ssl.SNIHostName.getAsciiName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SNIHostName#getAsciiName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.net.ssl.SNIHostName#hashCode() public int javax.net.ssl.SNIHostName.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SNIHostName#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SNIHostName#toString() public java.lang.String
      * javax.net.ssl.SNIHostName.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SNIHostName#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

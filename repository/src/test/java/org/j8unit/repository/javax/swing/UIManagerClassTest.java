@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class UIManagerClassTest
 implements org.j8unit.repository.javax.swing.UIManagerClassTests<javax.swing.UIManager> {
 
+    @Override
+    public Class<javax.swing.UIManager> createNewSUT() {
+        return javax.swing.UIManager.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class LookAndFeelInfoClassTest
     implements org.j8unit.repository.javax.swing.UIManagerClassTests.LookAndFeelInfoClassTests<javax.swing.UIManager.LookAndFeelInfo> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.UIManagerClassTests<javax.swing.UIM
             return javax.swing.UIManager.LookAndFeelInfo.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.UIManager> createNewSUT() {
-        return javax.swing.UIManager.class;
     }
 
 }

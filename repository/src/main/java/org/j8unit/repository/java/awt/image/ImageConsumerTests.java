@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.ImageConsumer interface java.awt.image.ImageConsumer}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.ImageConsumer interface java.awt.image.ImageConsumer},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.image.ImageConsumerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.ImageConsumerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.ImageConsumerClassTests
+ *
+ * @j8unit.aim java.awt.image.ImageConsumer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageConsumerTests<SUT extends java.awt.image.ImageConsumer>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link java.awt.image.ImageConsumer#imageComplete(int) public abstract void
      * java.awt.image.ImageConsumer.imageComplete(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#imageComplete(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.image.ImageConsumer#setColorModel(java.awt.image.ColorModel) public abstract void
      * java.awt.image.ImageConsumer.setColorModel(java.awt.image.ColorModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#setColorModel(java.awt.image.ColorModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,9 +74,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageConsumer#setDimensions(int,int) public abstract void
+     * Test method for {@link java.awt.image.ImageConsumer#setDimensions(int, int) public abstract void
      * java.awt.image.ImageConsumer.setDimensions(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#setDimensions(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.image.ImageConsumer#setHints(int) public abstract void
      * java.awt.image.ImageConsumer.setHints(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#setHints(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,9 +119,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.ImageConsumer#setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int) public
-     * abstract void java.awt.image.ImageConsumer.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
+     * {@link java.awt.image.ImageConsumer#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public abstract void
+     * java.awt.image.ImageConsumer.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int,
+     *             int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,9 +144,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.ImageConsumer#setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int) public
-     * abstract void java.awt.image.ImageConsumer.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
+     * {@link java.awt.image.ImageConsumer#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
+     * public abstract void
+     * java.awt.image.ImageConsumer.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int,
+     *             int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +170,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.image.ImageConsumer#setProperties(java.util.Hashtable) public abstract void
      * java.awt.image.ImageConsumer.setProperties(java.util.Hashtable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.ImageConsumer#setProperties(java.util.Hashtable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

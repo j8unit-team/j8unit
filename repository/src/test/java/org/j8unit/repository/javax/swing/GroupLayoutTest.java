@@ -14,6 +14,22 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class GroupLayoutTest
 implements org.j8unit.repository.javax.swing.GroupLayoutTests<javax.swing.GroupLayout> {
 
+    @Override
+    public javax.swing.GroupLayout createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout] available.");
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SequentialGroupTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests<javax.swing.GroupLayout.SequentialGroup> {
+
+        @Override
+        public javax.swing.GroupLayout.SequentialGroup createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout.SequentialGroup] available.");
+        }
+
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AlignmentTest
@@ -43,22 +59,6 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<javax.swing.GroupL
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout.ParallelGroup] available.");
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class SequentialGroupTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests<javax.swing.GroupLayout.SequentialGroup> {
-
-        @Override
-        public javax.swing.GroupLayout.SequentialGroup createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout.SequentialGroup] available.");
-        }
-
-    }
-
-    @Override
-    public javax.swing.GroupLayout createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.GroupLayout] available.");
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class KeySelectorClassTest
 implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<javax.xml.crypto.KeySelector> {
 
+    @Override
+    public Class<javax.xml.crypto.KeySelector> createNewSUT() {
+        return javax.xml.crypto.KeySelector.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class PurposeClassTest
     implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests.PurposeClassTests<javax.xml.crypto.KeySelector.Purpose> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<javax.xm
             return javax.xml.crypto.KeySelector.Purpose.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.crypto.KeySelector> createNewSUT() {
-        return javax.xml.crypto.KeySelector.class;
     }
 
 }

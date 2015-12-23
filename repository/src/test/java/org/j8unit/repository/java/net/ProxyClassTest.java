@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ProxyClassTest
 implements org.j8unit.repository.java.net.ProxyClassTests<java.net.Proxy> {
 
+    @Override
+    public Class<java.net.Proxy> createNewSUT() {
+        return java.net.Proxy.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.java.net.ProxyClassTests.TypeClassTests<java.net.Proxy.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.net.ProxyClassTests<java.net.Proxy> {
             return java.net.Proxy.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<java.net.Proxy> createNewSUT() {
-        return java.net.Proxy.class;
     }
 
 }

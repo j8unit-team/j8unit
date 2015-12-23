@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.attribute.standard.PrinterStateReason class
+ * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.PrinterStateReason class
  * javax.print.attribute.standard.PrinterStateReason}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.print.attribute.standard.PrinterStateReasonTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.attribute.standard.PrinterStateReasonClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.attribute.standard.PrinterStateReasonClassTests
+ *
+ * @j8unit.aim javax.print.attribute.standard.PrinterStateReason
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.PrinterStateReason#getCategory() public final
      * java.lang.Class javax.print.attribute.standard.PrinterStateReason.getCategory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.PrinterStateReason#getCategory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.print.attribute.standard.PrinterStateReason#getName() public final java.lang.String
      * javax.print.attribute.standard.PrinterStateReason.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.PrinterStateReason#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

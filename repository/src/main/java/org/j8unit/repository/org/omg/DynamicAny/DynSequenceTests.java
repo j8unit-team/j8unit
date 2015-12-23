@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.DynamicAny.DynSequence interface org.omg.DynamicAny.DynSequence}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny.DynSequence interface
+ * org.omg.DynamicAny.DynSequence}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynSequenceTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.DynamicAny.DynSequenceClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.DynamicAny.DynSequenceClassTests
+ *
+ * @j8unit.aim org.omg.DynamicAny.DynSequence
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class HighlighterClassTest
 implements org.j8unit.repository.javax.swing.text.HighlighterClassTests<javax.swing.text.Highlighter> {
 
-    @RunWith(J8Unit4.class)
-    public static class HighlightClassTest
-    implements org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightClassTests<javax.swing.text.Highlighter.Highlight> {
-
-        @Override
-        public Class<javax.swing.text.Highlighter.Highlight> createNewSUT() {
-            return javax.swing.text.Highlighter.Highlight.class;
-        }
-
+    @Override
+    public Class<javax.swing.text.Highlighter> createNewSUT() {
+        return javax.swing.text.Highlighter.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.javax.swing.text.HighlighterClassTests<javax.sw
 
     }
 
-    @Override
-    public Class<javax.swing.text.Highlighter> createNewSUT() {
-        return javax.swing.text.Highlighter.class;
+    @RunWith(J8Unit4.class)
+    public static class HighlightClassTest
+    implements org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightClassTests<javax.swing.text.Highlighter.Highlight> {
+
+        @Override
+        public Class<javax.swing.text.Highlighter.Highlight> createNewSUT() {
+            return javax.swing.text.Highlighter.Highlight.class;
+        }
+
     }
 
 }

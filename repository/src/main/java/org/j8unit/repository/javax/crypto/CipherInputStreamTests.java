@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.crypto.CipherInputStream class javax.crypto.CipherInputStream}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.crypto.CipherInputStream class javax.crypto.CipherInputStream},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.crypto.CipherInputStreamTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.crypto.CipherInputStreamClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.crypto.CipherInputStreamClassTests
+ *
+ * @j8unit.aim javax.crypto.CipherInputStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
      * <p>
      * Test method for {@link javax.crypto.CipherInputStream#available() public int
      * javax.crypto.CipherInputStream.available() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#available()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
      * <p>
      * Test method for {@link javax.crypto.CipherInputStream#close() public void javax.crypto.CipherInputStream.close()
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
      * <p>
      * Test method for {@link javax.crypto.CipherInputStream#markSupported() public boolean
      * javax.crypto.CipherInputStream.markSupported()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#markSupported()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
      * <p>
      * Test method for {@link javax.crypto.CipherInputStream#read() public int javax.crypto.CipherInputStream.read()
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#read()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
      * <p>
      * Test method for {@link javax.crypto.CipherInputStream#read(byte[]) public int
      * javax.crypto.CipherInputStream.read(byte[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#read(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,9 +144,15 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.CipherInputStream#read(byte[],int,int) public int
+     * Test method for {@link javax.crypto.CipherInputStream#read(byte[], int, int) public int
      * javax.crypto.CipherInputStream.read(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#read(byte[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +169,13 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
      * <p>
      * Test method for {@link javax.crypto.CipherInputStream#skip(long) public long
      * javax.crypto.CipherInputStream.skip(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.crypto.CipherInputStream#skip(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

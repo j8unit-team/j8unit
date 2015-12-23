@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class QuadCurve2DClassTest
 implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<java.awt.geom.QuadCurve2D> {
 
-    @RunWith(J8Unit4.class)
-    public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.DoubleClassTests<java.awt.geom.QuadCurve2D.Double> {
-
-        @Override
-        public Class<java.awt.geom.QuadCurve2D.Double> createNewSUT() {
-            return java.awt.geom.QuadCurve2D.Double.class;
-        }
-
+    @Override
+    public Class<java.awt.geom.QuadCurve2D> createNewSUT() {
+        return java.awt.geom.QuadCurve2D.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<java.awt.ge
 
     }
 
-    @Override
-    public Class<java.awt.geom.QuadCurve2D> createNewSUT() {
-        return java.awt.geom.QuadCurve2D.class;
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.DoubleClassTests<java.awt.geom.QuadCurve2D.Double> {
+
+        @Override
+        public Class<java.awt.geom.QuadCurve2D.Double> createNewSUT() {
+            return java.awt.geom.QuadCurve2D.Double.class;
+        }
+
     }
 
 }

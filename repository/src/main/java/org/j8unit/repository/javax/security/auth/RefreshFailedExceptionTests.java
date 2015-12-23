@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.security.auth.RefreshFailedException class javax.security.auth.RefreshFailedException},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.security.auth.RefreshFailedException class
+ * javax.security.auth.RefreshFailedException}, containing all instance relevant test methods (i.&thinsp;e., test
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.security.auth.RefreshFailedExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.security.auth.RefreshFailedExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.security.auth.RefreshFailedExceptionClassTests
+ *
+ * @j8unit.aim javax.security.auth.RefreshFailedException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

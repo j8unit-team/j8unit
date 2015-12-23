@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicToolBarUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests<javax.swing.plaf.basic.BasicToolBarUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicToolBarUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicToolBarUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DockingListenerClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests
             return javax.swing.plaf.basic.BasicToolBarUI.DockingListener.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicToolBarUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicToolBarUI.class;
     }
 
 }

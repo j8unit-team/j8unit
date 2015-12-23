@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.security.auth.kerberos.KerberosPrincipal class
+ * Reusable J8Unit test interface for {@linkplain javax.security.auth.kerberos.KerberosPrincipal class
  * javax.security.auth.kerberos.KerberosPrincipal}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalClassTests
+ *
+ * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#equals(java.lang.Object) public boolean
      * javax.security.auth.kerberos.KerberosPrincipal.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +55,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getName() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +78,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getNameType() public int
      * javax.security.auth.kerberos.KerberosPrincipal.getNameType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal#getNameType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +100,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getRealm() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.getRealm()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal#getRealm()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +122,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#hashCode() public int
      * javax.security.auth.kerberos.KerberosPrincipal.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +145,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#toString() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.kerberos.KerberosPrincipal#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

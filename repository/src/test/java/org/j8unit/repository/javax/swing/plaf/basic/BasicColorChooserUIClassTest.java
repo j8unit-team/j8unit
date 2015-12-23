@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicColorChooserUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClassTests<javax.swing.plaf.basic.BasicColorChooserUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicColorChooserUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicColorChooserUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
             return javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicColorChooserUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicColorChooserUI.class;
     }
 
 }

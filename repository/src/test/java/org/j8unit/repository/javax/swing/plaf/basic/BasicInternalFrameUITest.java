@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicInternalFrameUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests<javax.swing.plaf.basic.BasicInternalFrameUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicInternalFrameUI createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class InternalFrameLayoutTest
     implements
@@ -30,11 +35,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITest
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicInternalFrameUI createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicInternalFrameUI] available.");
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ForkJoinPoolClassTest
 implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<java.util.concurrent.ForkJoinPool> {
 
+    @Override
+    public Class<java.util.concurrent.ForkJoinPool> createNewSUT() {
+        return java.util.concurrent.ForkJoinPool.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ForkJoinWorkerThreadFactoryClassTest
     implements
@@ -28,11 +33,6 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<jav
             return java.util.concurrent.ForkJoinPool.ManagedBlocker.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.concurrent.ForkJoinPool> createNewSUT() {
-        return java.util.concurrent.ForkJoinPool.class;
     }
 
 }

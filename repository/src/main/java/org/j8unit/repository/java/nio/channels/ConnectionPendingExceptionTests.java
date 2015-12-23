@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.channels.ConnectionPendingException class
+ * Reusable J8Unit test interface for {@linkplain java.nio.channels.ConnectionPendingException class
  * java.nio.channels.ConnectionPendingException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.nio.channels.ConnectionPendingExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.channels.ConnectionPendingExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.channels.ConnectionPendingExceptionClassTests
+ *
+ * @j8unit.aim java.nio.channels.ConnectionPendingException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.MultipleGradientPaint class java.awt.MultipleGradientPaint}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.MultipleGradientPaint class java.awt.MultipleGradientPaint},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests
+ *
+ * @j8unit.aim java.awt.MultipleGradientPaint
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test class for {@link java.awt.MultipleGradientPaint$ColorSpaceType class
+     * Reusable J8Unit test interface for {@linkplain java.awt.MultipleGradientPaint.ColorSpaceType class
      * java.awt.MultipleGradientPaint$ColorSpaceType}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint.ColorSpaceType
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,15 +52,19 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test class for {@link java.awt.MultipleGradientPaint$CycleMethod class
+     * Reusable J8Unit test interface for {@linkplain java.awt.MultipleGradientPaint.CycleMethod class
      * java.awt.MultipleGradientPaint$CycleMethod}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint.CycleMethod
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -64,7 +77,13 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.MultipleGradientPaint#getColors() public final java.awt.Color[]
      * java.awt.MultipleGradientPaint.getColors()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint#getColors()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,7 +99,13 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.MultipleGradientPaint#getColorSpace() public final
      * java.awt.MultipleGradientPaint$ColorSpaceType java.awt.MultipleGradientPaint.getColorSpace()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint#getColorSpace()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +121,13 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.MultipleGradientPaint#getCycleMethod() public final
      * java.awt.MultipleGradientPaint$CycleMethod java.awt.MultipleGradientPaint.getCycleMethod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint#getCycleMethod()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +143,13 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.MultipleGradientPaint#getFractions() public final float[]
      * java.awt.MultipleGradientPaint.getFractions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint#getFractions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +165,13 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.MultipleGradientPaint#getTransform() public final java.awt.geom.AffineTransform
      * java.awt.MultipleGradientPaint.getTransform()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint#getTransform()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +187,13 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.MultipleGradientPaint#getTransparency() public final int
      * java.awt.MultipleGradientPaint.getTransparency()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.MultipleGradientPaint#getTransparency()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

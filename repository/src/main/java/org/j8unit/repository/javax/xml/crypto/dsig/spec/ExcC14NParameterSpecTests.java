@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.crypto.dsig.spec.ExcC14NParameterSpec class
+ * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.spec.ExcC14NParameterSpec class
  * javax.xml.crypto.dsig.spec.ExcC14NParameterSpec}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpecTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpecClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpecClassTests
+ *
+ * @j8unit.aim javax.xml.crypto.dsig.spec.ExcC14NParameterSpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpec
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.spec.ExcC14NParameterSpec#getPrefixList() public java.util.List
      * javax.xml.crypto.dsig.spec.ExcC14NParameterSpec.getPrefixList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.spec.ExcC14NParameterSpec#getPrefixList()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

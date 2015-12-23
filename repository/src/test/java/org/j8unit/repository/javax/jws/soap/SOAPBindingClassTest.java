@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class SOAPBindingClassTest
 implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<javax.jws.soap.SOAPBinding> {
 
-    @RunWith(J8Unit4.class)
-    public static class ParameterStyleClassTest
-    implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.ParameterStyleClassTests<javax.jws.soap.SOAPBinding.ParameterStyle> {
-
-        @Override
-        public Class<javax.jws.soap.SOAPBinding.ParameterStyle> createNewSUT() {
-            return javax.jws.soap.SOAPBinding.ParameterStyle.class;
-        }
-
+    @Override
+    public Class<javax.jws.soap.SOAPBinding> createNewSUT() {
+        return javax.jws.soap.SOAPBinding.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -40,9 +34,15 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<javax.jws.
 
     }
 
-    @Override
-    public Class<javax.jws.soap.SOAPBinding> createNewSUT() {
-        return javax.jws.soap.SOAPBinding.class;
+    @RunWith(J8Unit4.class)
+    public static class ParameterStyleClassTest
+    implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.ParameterStyleClassTests<javax.jws.soap.SOAPBinding.ParameterStyle> {
+
+        @Override
+        public Class<javax.jws.soap.SOAPBinding.ParameterStyle> createNewSUT() {
+            return javax.jws.soap.SOAPBinding.ParameterStyle.class;
+        }
+
     }
 
 }

@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class GroupLayoutClassTest
 implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<javax.swing.GroupLayout> {
 
-    @RunWith(J8Unit4.class)
-    public static class AlignmentClassTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.AlignmentClassTests<javax.swing.GroupLayout.Alignment> {
-
-        @Override
-        public Class<javax.swing.GroupLayout.Alignment> createNewSUT() {
-            return javax.swing.GroupLayout.Alignment.class;
-        }
-
+    @Override
+    public Class<javax.swing.GroupLayout> createNewSUT() {
+        return javax.swing.GroupLayout.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -25,17 +19,6 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<javax.swing.G
         @Override
         public Class<javax.swing.GroupLayout.Group> createNewSUT() {
             return javax.swing.GroupLayout.Group.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ParallelGroupClassTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.ParallelGroupClassTests<javax.swing.GroupLayout.ParallelGroup> {
-
-        @Override
-        public Class<javax.swing.GroupLayout.ParallelGroup> createNewSUT() {
-            return javax.swing.GroupLayout.ParallelGroup.class;
         }
 
     }
@@ -51,9 +34,26 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<javax.swing.G
 
     }
 
-    @Override
-    public Class<javax.swing.GroupLayout> createNewSUT() {
-        return javax.swing.GroupLayout.class;
+    @RunWith(J8Unit4.class)
+    public static class AlignmentClassTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.AlignmentClassTests<javax.swing.GroupLayout.Alignment> {
+
+        @Override
+        public Class<javax.swing.GroupLayout.Alignment> createNewSUT() {
+            return javax.swing.GroupLayout.Alignment.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ParallelGroupClassTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.ParallelGroupClassTests<javax.swing.GroupLayout.ParallelGroup> {
+
+        @Override
+        public Class<javax.swing.GroupLayout.ParallelGroup> createNewSUT() {
+            return javax.swing.GroupLayout.ParallelGroup.class;
+        }
+
     }
 
 }

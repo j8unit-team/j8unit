@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.DelayQueueTests<java.util.
 
     @Override
     public java.util.concurrent.DelayQueue<E> createNewSUT() {
-        return new java.util.concurrent.DelayQueue<>();
+        return new java.util.concurrent.DelayQueue();
     }
 
 }

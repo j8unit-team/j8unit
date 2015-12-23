@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapTests
 
     @Override
     public java.util.concurrent.ConcurrentSkipListMap<K, V> createNewSUT() {
-        return new java.util.concurrent.ConcurrentSkipListMap<>();
+        return new java.util.concurrent.ConcurrentSkipListMap();
     }
 
 }

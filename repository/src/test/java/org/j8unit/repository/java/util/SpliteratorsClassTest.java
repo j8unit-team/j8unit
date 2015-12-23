@@ -7,6 +7,34 @@ import org.junit.runner.RunWith;
 public class SpliteratorsClassTest
 implements org.j8unit.repository.java.util.SpliteratorsClassTests<java.util.Spliterators> {
 
+    @Override
+    public Class<java.util.Spliterators> createNewSUT() {
+        return java.util.Spliterators.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    @SuppressWarnings("rawtypes")
+    public static class AbstractSpliteratorClassTest
+    implements org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests<java.util.Spliterators.AbstractSpliterator> {
+
+        @Override
+        public Class<java.util.Spliterators.AbstractSpliterator> createNewSUT() {
+            return java.util.Spliterators.AbstractSpliterator.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AbstractLongSpliteratorClassTest
+    implements org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests<java.util.Spliterators.AbstractLongSpliterator> {
+
+        @Override
+        public Class<java.util.Spliterators.AbstractLongSpliterator> createNewSUT() {
+            return java.util.Spliterators.AbstractLongSpliterator.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class AbstractDoubleSpliteratorClassTest
     implements org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests<java.util.Spliterators.AbstractDoubleSpliterator> {
@@ -27,34 +55,6 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<java.util.Spli
             return java.util.Spliterators.AbstractIntSpliterator.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class AbstractLongSpliteratorClassTest
-    implements org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests<java.util.Spliterators.AbstractLongSpliterator> {
-
-        @Override
-        public Class<java.util.Spliterators.AbstractLongSpliterator> createNewSUT() {
-            return java.util.Spliterators.AbstractLongSpliterator.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    @SuppressWarnings("rawtypes")
-    public static class AbstractSpliteratorClassTest
-    implements org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests<java.util.Spliterators.AbstractSpliterator> {
-
-        @Override
-        public Class<java.util.Spliterators.AbstractSpliterator> createNewSUT() {
-            return java.util.Spliterators.AbstractSpliterator.class;
-        }
-
-    }
-
-    @Override
-    public Class<java.util.Spliterators> createNewSUT() {
-        return java.util.Spliterators.class;
     }
 
 }

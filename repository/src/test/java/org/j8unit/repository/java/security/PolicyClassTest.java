@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class PolicyClassTest
 implements org.j8unit.repository.java.security.PolicyClassTests<java.security.Policy> {
 
+    @Override
+    public Class<java.security.Policy> createNewSUT() {
+        return java.security.Policy.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ParametersClassTest
     implements org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests<java.security.Policy.Parameters> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.security.PolicyClassTests<java.security.Po
             return java.security.Policy.Parameters.class;
         }
 
-    }
-
-    @Override
-    public Class<java.security.Policy> createNewSUT() {
-        return java.security.Policy.class;
     }
 
 }

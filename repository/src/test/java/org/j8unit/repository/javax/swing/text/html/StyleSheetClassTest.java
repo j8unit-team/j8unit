@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class StyleSheetClassTest
 implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<javax.swing.text.html.StyleSheet> {
 
+    @Override
+    public Class<javax.swing.text.html.StyleSheet> createNewSUT() {
+        return javax.swing.text.html.StyleSheet.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class BoxPainterClassTest
     implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests<javax.swing.text.html.StyleSheet.BoxPainter> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<java
             return javax.swing.text.html.StyleSheet.ListPainter.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.html.StyleSheet> createNewSUT() {
-        return javax.swing.text.html.StyleSheet.class;
     }
 
 }

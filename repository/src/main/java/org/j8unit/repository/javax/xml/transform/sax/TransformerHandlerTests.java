@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.transform.sax.TransformerHandler interface
+ * Reusable J8Unit test interface for {@linkplain javax.xml.transform.sax.TransformerHandler interface
  * javax.xml.transform.sax.TransformerHandler}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerClassTests
+ *
+ * @j8unit.aim javax.xml.transform.sax.TransformerHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.transform.sax.TransformerHandler#getSystemId() public abstract java.lang.String
      * javax.xml.transform.sax.TransformerHandler.getSystemId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.TransformerHandler#getSystemId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.transform.sax.TransformerHandler#getTransformer() public abstract
      * javax.xml.transform.Transformer javax.xml.transform.sax.TransformerHandler.getTransformer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.TransformerHandler#getTransformer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +77,13 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
      * Test method for {@link javax.xml.transform.sax.TransformerHandler#setResult(javax.xml.transform.Result) public
      * abstract void javax.xml.transform.sax.TransformerHandler.setResult(javax.xml.transform.Result) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.TransformerHandler#setResult(javax.xml.transform.Result)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +99,13 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.transform.sax.TransformerHandler#setSystemId(java.lang.String) public abstract
      * void javax.xml.transform.sax.TransformerHandler.setSystemId(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.TransformerHandler#setSystemId(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

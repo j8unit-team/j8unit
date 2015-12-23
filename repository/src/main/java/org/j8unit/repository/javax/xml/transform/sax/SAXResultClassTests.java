@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.transform.sax.SAXResult class javax.xml.transform.sax.SAXResult}, containing all
- * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.xml.transform.sax.SAXResultTests}.
+ * Reusable J8Unit test interface for {@linkplain javax.xml.transform.sax.SAXResult class
+ * javax.xml.transform.sax.SAXResult}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.xml.transform.sax.SAXResultTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.xml.transform.sax.SAXResultTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.transform.sax.SAXResultTests
+ *
+ * @j8unit.aim javax.xml.transform.sax.SAXResult
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,7 +40,15 @@ public abstract interface SAXResultClassTests<SUT extends javax.xml.transform.sa
 extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#SAXResult() public javax.xml.transform.sax.SAXResult()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#SAXResult()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -50,8 +61,16 @@ extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8u
     }
 
     /**
+     * <p>
      * Test method for {@link javax.xml.transform.sax.SAXResult#SAXResult(org.xml.sax.ContentHandler) public
      * javax.xml.transform.sax.SAXResult(org.xml.sax.ContentHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#SAXResult(org.xml.sax.ContentHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,6 +82,11 @@ extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8u
         final javax.xml.transform.sax.SAXResult sut = null; // = new SAXResult(org.xml.sax.ContentHandler);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.xml.transform.sax.SAXResult#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

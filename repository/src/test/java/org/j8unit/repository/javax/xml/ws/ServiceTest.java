@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class ServiceTest
 implements org.j8unit.repository.javax.xml.ws.ServiceTests<javax.xml.ws.Service> {
 
+    @Override
+    public javax.xml.ws.Service createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.ws.Service] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModeTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.javax.xml.ws.ServiceTests<javax.xml.ws.Service>
             return this.sut;
         }
 
-    }
-
-    @Override
-    public javax.xml.ws.Service createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.ws.Service] available.");
     }
 
 }

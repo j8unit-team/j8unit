@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.channels.NotYetConnectedException class java.nio.channels.NotYetConnectedException},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.java.nio.channels.NotYetConnectedExceptionTests}.
+ * Reusable J8Unit test interface for {@linkplain java.nio.channels.NotYetConnectedException class
+ * java.nio.channels.NotYetConnectedException}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.java.nio.channels.NotYetConnectedExceptionTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.nio.channels.NotYetConnectedExceptionTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.channels.NotYetConnectedExceptionTests
+ *
+ * @j8unit.aim java.nio.channels.NotYetConnectedException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,8 +40,16 @@ public abstract interface NotYetConnectedExceptionClassTests<SUT extends java.ni
 extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link java.nio.channels.NotYetConnectedException#NotYetConnectedException() public
      * java.nio.channels.NotYetConnectedException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.nio.channels.NotYetConnectedException#NotYetConnectedException()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -50,6 +61,11 @@ extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
         final java.nio.channels.NotYetConnectedException sut = null; // = new NotYetConnectedException();
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.nio.channels.NotYetConnectedException#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BooleanControlClassTest
 implements org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests<javax.sound.sampled.BooleanControl> {
 
+    @Override
+    public Class<javax.sound.sampled.BooleanControl> createNewSUT() {
+        return javax.sound.sampled.BooleanControl.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests.TypeClassTests<javax.sound.sampled.BooleanControl.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests<ja
             return javax.sound.sampled.BooleanControl.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.BooleanControl> createNewSUT() {
-        return javax.sound.sampled.BooleanControl.class;
     }
 
 }

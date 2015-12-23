@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.sql.rowset.serial.SerialClob class javax.sql.rowset.serial.SerialClob}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.sql.rowset.serial.SerialClob class
+ * javax.sql.rowset.serial.SerialClob}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.sql.rowset.serial.SerialClobTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests
+ *
+ * @j8unit.aim javax.sql.rowset.serial.SerialClob
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#clone() public java.lang.Object
      * javax.sql.rowset.serial.SerialClob.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,11 +54,18 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#equals(java.lang.Object) public boolean
      * javax.sql.rowset.serial.SerialClob.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -59,7 +77,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#free() public void
      * javax.sql.rowset.serial.SerialClob.free() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#free()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +101,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * Test method for {@link javax.sql.rowset.serial.SerialClob#getAsciiStream() public java.io.InputStream
      * javax.sql.rowset.serial.SerialClob.getAsciiStream() throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#getAsciiStream()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +124,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#getCharacterStream() public java.io.Reader
      * javax.sql.rowset.serial.SerialClob.getCharacterStream() throws javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#getCharacterStream()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,9 +145,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialClob#getCharacterStream(long,long) public java.io.Reader
+     * Test method for {@link javax.sql.rowset.serial.SerialClob#getCharacterStream(long, long) public java.io.Reader
      * javax.sql.rowset.serial.SerialClob.getCharacterStream(long,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#getCharacterStream(long, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,9 +168,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialClob#getSubString(long,int) public java.lang.String
+     * Test method for {@link javax.sql.rowset.serial.SerialClob#getSubString(long, int) public java.lang.String
      * javax.sql.rowset.serial.SerialClob.getSubString(long,int) throws javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#getSubString(long, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +193,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#hashCode() public int
      * javax.sql.rowset.serial.SerialClob.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +216,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#length() public long
      * javax.sql.rowset.serial.SerialClob.length() throws javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#length()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -177,10 +237,16 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialClob#position(java.sql.Clob,long) public long
+     * Test method for {@link javax.sql.rowset.serial.SerialClob#position(java.sql.Clob, long) public long
      * javax.sql.rowset.serial.SerialClob.position(java.sql.Clob,long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#position(java.sql.Clob, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,10 +261,16 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialClob#position(java.lang.String,long) public long
+     * Test method for {@link javax.sql.rowset.serial.SerialClob#position(java.lang.String, long) public long
      * javax.sql.rowset.serial.SerialClob.position(java.lang.String,long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#position(java.lang.String, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -216,7 +288,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * Test method for {@link javax.sql.rowset.serial.SerialClob#setAsciiStream(long) public java.io.OutputStream
      * javax.sql.rowset.serial.SerialClob.setAsciiStream(long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#setAsciiStream(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +312,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * Test method for {@link javax.sql.rowset.serial.SerialClob#setCharacterStream(long) public java.io.Writer
      * javax.sql.rowset.serial.SerialClob.setCharacterStream(long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#setCharacterStream(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,10 +333,16 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialClob#setString(long,java.lang.String) public int
+     * Test method for {@link javax.sql.rowset.serial.SerialClob#setString(long, java.lang.String) public int
      * javax.sql.rowset.serial.SerialClob.setString(long,java.lang.String) throws
      * javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#setString(long, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -267,10 +357,16 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialClob#setString(long,java.lang.String,int,int) public int
+     * Test method for {@link javax.sql.rowset.serial.SerialClob#setString(long, java.lang.String, int, int) public int
      * javax.sql.rowset.serial.SerialClob.setString(long,java.lang.String,int,int) throws
      * javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#setString(long, java.lang.String, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -287,7 +383,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialClob#truncate(long) public void
      * javax.sql.rowset.serial.SerialClob.truncate(long) throws javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sql.rowset.serial.SerialClob#truncate(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

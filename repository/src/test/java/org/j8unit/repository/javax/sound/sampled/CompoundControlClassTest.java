@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class CompoundControlClassTest
 implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests<javax.sound.sampled.CompoundControl> {
 
+    @Override
+    public Class<javax.sound.sampled.CompoundControl> createNewSUT() {
+        return javax.sound.sampled.CompoundControl.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests.TypeClassTests<javax.sound.sampled.CompoundControl.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests<j
             return javax.sound.sampled.CompoundControl.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.CompoundControl> createNewSUT() {
-        return javax.sound.sampled.CompoundControl.class;
     }
 
 }

@@ -9,26 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.file.Files class java.nio.file.Files}, containing all class relevant test methods (at
- * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
- * class containing the instance relevant test methods is {@link org.j8unit.repository.java.nio.file.FilesTests}.
+ * Reusable J8Unit test interface for {@linkplain java.nio.file.Files class java.nio.file.Files}, containing all class
+ * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
+ * {@link org.j8unit.repository.java.nio.file.FilesTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.nio.file.FilesTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.file.FilesTests
+ *
+ * @j8unit.aim java.nio.file.Files
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +42,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#copy(java.io.InputStream,java.nio.file.Path,java.nio.file.CopyOption...) public static
-     * long java.nio.file.Files.copy(java.io.InputStream,java.nio.file.Path,java.nio.file.CopyOption...) throws
+     * {@link java.nio.file.Files#copy(java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption...) public
+     * static long java.nio.file.Files.copy(java.io.InputStream,java.nio.file.Path,java.nio.file.CopyOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#copy(java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,9 +65,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#copy(java.nio.file.Path,java.io.OutputStream) public static long
+     * Test method for {@link java.nio.file.Files#copy(java.nio.file.Path, java.io.OutputStream) public static long
      * java.nio.file.Files.copy(java.nio.file.Path,java.io.OutputStream) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#copy(java.nio.file.Path, java.io.OutputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,10 +88,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...) public static
-     * java.nio.file.Path java.nio.file.Files.copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
-     * throws java.io.IOException}.
+     * {@link java.nio.file.Files#copy(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...) public
+     * static java.nio.file.Path
+     * java.nio.file.Files.copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#copy(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,11 +113,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createDirectories(java.nio.file.Path,java.nio.file.attribute.FileAttribute...) public
+     * {@link java.nio.file.Files#createDirectories(java.nio.file.Path, java.nio.file.attribute.FileAttribute...) public
      * static java.nio.file.Path
      * java.nio.file.Files.createDirectories(java.nio.file.Path,java.nio.file.attribute.FileAttribute...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createDirectories(java.nio.file.Path, java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,11 +138,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute...) public
+     * {@link java.nio.file.Files#createDirectory(java.nio.file.Path, java.nio.file.attribute.FileAttribute...) public
      * static java.nio.file.Path
      * java.nio.file.Files.createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createDirectory(java.nio.file.Path, java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,10 +163,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createFile(java.nio.file.Path,java.nio.file.attribute.FileAttribute...) public static
+     * {@link java.nio.file.Files#createFile(java.nio.file.Path, java.nio.file.attribute.FileAttribute...) public static
      * java.nio.file.Path java.nio.file.Files.createFile(java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createFile(java.nio.file.Path, java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,10 +186,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#createLink(java.nio.file.Path,java.nio.file.Path) public static
+     * Test method for {@link java.nio.file.Files#createLink(java.nio.file.Path, java.nio.file.Path) public static
      * java.nio.file.Path java.nio.file.Files.createLink(java.nio.file.Path,java.nio.file.Path) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createLink(java.nio.file.Path, java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,11 +210,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createSymbolicLink(java.nio.file.Path,java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
+     * {@link java.nio.file.Files#createSymbolicLink(java.nio.file.Path, java.nio.file.Path, java.nio.file.attribute.FileAttribute...)
      * public static java.nio.file.Path
      * java.nio.file.Files.createSymbolicLink(java.nio.file.Path,java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createSymbolicLink(java.nio.file.Path, java.nio.file.Path,
+     *             java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -182,11 +236,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createTempDirectory(java.nio.file.Path,java.lang.String,java.nio.file.attribute.FileAttribute...)
+     * {@link java.nio.file.Files#createTempDirectory(java.nio.file.Path, java.lang.String, java.nio.file.attribute.FileAttribute...)
      * public static java.nio.file.Path
      * java.nio.file.Files.createTempDirectory(java.nio.file.Path,java.lang.String,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createTempDirectory(java.nio.file.Path, java.lang.String,
+     *             java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -201,11 +262,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createTempDirectory(java.lang.String,java.nio.file.attribute.FileAttribute...) public
+     * {@link java.nio.file.Files#createTempDirectory(java.lang.String, java.nio.file.attribute.FileAttribute...) public
      * static java.nio.file.Path
      * java.nio.file.Files.createTempDirectory(java.lang.String,java.nio.file.attribute.FileAttribute...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createTempDirectory(java.lang.String, java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,11 +287,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createTempFile(java.nio.file.Path,java.lang.String,java.lang.String,java.nio.file.attribute.FileAttribute...)
+     * {@link java.nio.file.Files#createTempFile(java.nio.file.Path, java.lang.String, java.lang.String, java.nio.file.attribute.FileAttribute...)
      * public static java.nio.file.Path
      * java.nio.file.Files.createTempFile(java.nio.file.Path,java.lang.String,java.lang.String,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createTempFile(java.nio.file.Path, java.lang.String, java.lang.String,
+     *             java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -239,11 +313,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#createTempFile(java.lang.String,java.lang.String,java.nio.file.attribute.FileAttribute...)
+     * {@link java.nio.file.Files#createTempFile(java.lang.String, java.lang.String, java.nio.file.attribute.FileAttribute...)
      * public static java.nio.file.Path
      * java.nio.file.Files.createTempFile(java.lang.String,java.lang.String,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#createTempFile(java.lang.String, java.lang.String,
+     *             java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -259,7 +340,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#delete(java.nio.file.Path) public static void
      * java.nio.file.Files.delete(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#delete(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -275,7 +362,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#deleteIfExists(java.nio.file.Path) public static boolean
      * java.nio.file.Files.deleteIfExists(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#deleteIfExists(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -289,9 +382,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#exists(java.nio.file.Path,java.nio.file.LinkOption...) public static
+     * Test method for {@link java.nio.file.Files#exists(java.nio.file.Path, java.nio.file.LinkOption...) public static
      * boolean java.nio.file.Files.exists(java.nio.file.Path,java.nio.file.LinkOption...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#exists(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -306,11 +405,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#find(java.nio.file.Path,int,java.util.function.BiPredicate,java.nio.file.FileVisitOption...)
+     * {@link java.nio.file.Files#find(java.nio.file.Path, int, java.util.function.BiPredicate, java.nio.file.FileVisitOption...)
      * public static java.util.stream.Stream
      * java.nio.file.Files.find(java.nio.file.Path,int,java.util.function.BiPredicate,java.nio.file.FileVisitOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#find(java.nio.file.Path, int, java.util.function.BiPredicate,
+     *             java.nio.file.FileVisitOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,11 +431,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#getAttribute(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...) public
+     * {@link java.nio.file.Files#getAttribute(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...) public
      * static java.lang.Object
      * java.nio.file.Files.getAttribute(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#getAttribute(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -344,10 +456,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#getFileAttributeView(java.nio.file.Path,java.lang.Class,java.nio.file.LinkOption...)
+     * {@link java.nio.file.Files#getFileAttributeView(java.nio.file.Path, java.lang.Class, java.nio.file.LinkOption...)
      * public static java.nio.file.attribute.FileAttributeView
      * java.nio.file.Files.getFileAttributeView(java.nio.file.Path,java.lang.Class,java.nio.file.LinkOption...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#getFileAttributeView(java.nio.file.Path, java.lang.Class,
+     *             java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,7 +482,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#getFileStore(java.nio.file.Path) public static java.nio.file.FileStore
      * java.nio.file.Files.getFileStore(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#getFileStore(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -377,11 +502,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#getLastModifiedTime(java.nio.file.Path,java.nio.file.LinkOption...)
+     * Test method for {@link java.nio.file.Files#getLastModifiedTime(java.nio.file.Path, java.nio.file.LinkOption...)
      * public static java.nio.file.attribute.FileTime
      * java.nio.file.Files.getLastModifiedTime(java.nio.file.Path,java.nio.file.LinkOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#getLastModifiedTime(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -395,10 +526,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#getOwner(java.nio.file.Path,java.nio.file.LinkOption...) public static
-     * java.nio.file.attribute.UserPrincipal
+     * Test method for {@link java.nio.file.Files#getOwner(java.nio.file.Path, java.nio.file.LinkOption...) public
+     * static java.nio.file.attribute.UserPrincipal
      * java.nio.file.Files.getOwner(java.nio.file.Path,java.nio.file.LinkOption...) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#getOwner(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -413,10 +550,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#getPosixFilePermissions(java.nio.file.Path,java.nio.file.LinkOption...) public static
+     * {@link java.nio.file.Files#getPosixFilePermissions(java.nio.file.Path, java.nio.file.LinkOption...) public static
      * java.util.Set java.nio.file.Files.getPosixFilePermissions(java.nio.file.Path,java.nio.file.LinkOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#getPosixFilePermissions(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -430,9 +573,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#isDirectory(java.nio.file.Path,java.nio.file.LinkOption...) public
+     * Test method for {@link java.nio.file.Files#isDirectory(java.nio.file.Path, java.nio.file.LinkOption...) public
      * static boolean java.nio.file.Files.isDirectory(java.nio.file.Path,java.nio.file.LinkOption...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isDirectory(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -448,7 +597,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#isExecutable(java.nio.file.Path) public static boolean
      * java.nio.file.Files.isExecutable(java.nio.file.Path)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isExecutable(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -464,7 +619,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#isHidden(java.nio.file.Path) public static boolean
      * java.nio.file.Files.isHidden(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isHidden(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -480,7 +641,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#isReadable(java.nio.file.Path) public static boolean
      * java.nio.file.Files.isReadable(java.nio.file.Path)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isReadable(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -494,9 +661,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#isRegularFile(java.nio.file.Path,java.nio.file.LinkOption...) public
+     * Test method for {@link java.nio.file.Files#isRegularFile(java.nio.file.Path, java.nio.file.LinkOption...) public
      * static boolean java.nio.file.Files.isRegularFile(java.nio.file.Path,java.nio.file.LinkOption...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isRegularFile(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -510,9 +683,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#isSameFile(java.nio.file.Path,java.nio.file.Path) public static
+     * Test method for {@link java.nio.file.Files#isSameFile(java.nio.file.Path, java.nio.file.Path) public static
      * boolean java.nio.file.Files.isSameFile(java.nio.file.Path,java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isSameFile(java.nio.file.Path, java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -528,7 +707,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#isSymbolicLink(java.nio.file.Path) public static boolean
      * java.nio.file.Files.isSymbolicLink(java.nio.file.Path)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isSymbolicLink(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -544,7 +729,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#isWritable(java.nio.file.Path) public static boolean
      * java.nio.file.Files.isWritable(java.nio.file.Path)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#isWritable(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -560,7 +751,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#lines(java.nio.file.Path) public static java.util.stream.Stream
      * java.nio.file.Files.lines(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#lines(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,10 +771,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#lines(java.nio.file.Path,java.nio.charset.Charset) public static
+     * Test method for {@link java.nio.file.Files#lines(java.nio.file.Path, java.nio.charset.Charset) public static
      * java.util.stream.Stream java.nio.file.Files.lines(java.nio.file.Path,java.nio.charset.Charset) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#lines(java.nio.file.Path, java.nio.charset.Charset)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -593,7 +796,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#list(java.nio.file.Path) public static java.util.stream.Stream
      * java.nio.file.Files.list(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#list(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -608,10 +817,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...) public static
-     * java.nio.file.Path java.nio.file.Files.move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
-     * throws java.io.IOException}.
+     * {@link java.nio.file.Files#move(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...) public
+     * static java.nio.file.Path
+     * java.nio.file.Files.move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#move(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -627,7 +843,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path) public static
      * java.io.BufferedReader java.nio.file.Files.newBufferedReader(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newBufferedReader(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -641,10 +863,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path,java.nio.charset.Charset) public
+     * Test method for {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path, java.nio.charset.Charset) public
      * static java.io.BufferedReader java.nio.file.Files.newBufferedReader(java.nio.file.Path,java.nio.charset.Charset)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newBufferedReader(java.nio.file.Path, java.nio.charset.Charset)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -659,11 +887,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#newBufferedWriter(java.nio.file.Path,java.nio.charset.Charset,java.nio.file.OpenOption...)
+     * {@link java.nio.file.Files#newBufferedWriter(java.nio.file.Path, java.nio.charset.Charset, java.nio.file.OpenOption...)
      * public static java.io.BufferedWriter
      * java.nio.file.Files.newBufferedWriter(java.nio.file.Path,java.nio.charset.Charset,java.nio.file.OpenOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newBufferedWriter(java.nio.file.Path, java.nio.charset.Charset,
+     *             java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -677,11 +912,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#newBufferedWriter(java.nio.file.Path,java.nio.file.OpenOption...)
+     * Test method for {@link java.nio.file.Files#newBufferedWriter(java.nio.file.Path, java.nio.file.OpenOption...)
      * public static java.io.BufferedWriter
      * java.nio.file.Files.newBufferedWriter(java.nio.file.Path,java.nio.file.OpenOption...) throws java.io.IOException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newBufferedWriter(java.nio.file.Path, java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -695,10 +936,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#newByteChannel(java.nio.file.Path,java.nio.file.OpenOption...) public
+     * Test method for {@link java.nio.file.Files#newByteChannel(java.nio.file.Path, java.nio.file.OpenOption...) public
      * static java.nio.channels.SeekableByteChannel
      * java.nio.file.Files.newByteChannel(java.nio.file.Path,java.nio.file.OpenOption...) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newByteChannel(java.nio.file.Path, java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -713,11 +960,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#newByteChannel(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
+     * {@link java.nio.file.Files#newByteChannel(java.nio.file.Path, java.util.Set, java.nio.file.attribute.FileAttribute...)
      * public static java.nio.channels.SeekableByteChannel
      * java.nio.file.Files.newByteChannel(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newByteChannel(java.nio.file.Path, java.util.Set,
+     *             java.nio.file.attribute.FileAttribute...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -734,7 +988,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * Test method for {@link java.nio.file.Files#newDirectoryStream(java.nio.file.Path) public static
      * java.nio.file.DirectoryStream java.nio.file.Files.newDirectoryStream(java.nio.file.Path) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newDirectoryStream(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -749,11 +1009,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#newDirectoryStream(java.nio.file.Path,java.nio.file.DirectoryStream.Filter) public
+     * {@link java.nio.file.Files#newDirectoryStream(java.nio.file.Path, java.nio.file.DirectoryStream.Filter) public
      * static java.nio.file.DirectoryStream
      * java.nio.file.Files.newDirectoryStream(java.nio.file.Path,java.nio.file.DirectoryStream$Filter) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newDirectoryStream(java.nio.file.Path, java.nio.file.DirectoryStream.Filter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -767,10 +1033,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#newDirectoryStream(java.nio.file.Path,java.lang.String) public static
+     * Test method for {@link java.nio.file.Files#newDirectoryStream(java.nio.file.Path, java.lang.String) public static
      * java.nio.file.DirectoryStream java.nio.file.Files.newDirectoryStream(java.nio.file.Path,java.lang.String) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newDirectoryStream(java.nio.file.Path, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -784,10 +1056,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#newInputStream(java.nio.file.Path,java.nio.file.OpenOption...) public
+     * Test method for {@link java.nio.file.Files#newInputStream(java.nio.file.Path, java.nio.file.OpenOption...) public
      * static java.io.InputStream java.nio.file.Files.newInputStream(java.nio.file.Path,java.nio.file.OpenOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newInputStream(java.nio.file.Path, java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -801,10 +1079,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#newOutputStream(java.nio.file.Path,java.nio.file.OpenOption...) public
-     * static java.io.OutputStream java.nio.file.Files.newOutputStream(java.nio.file.Path,java.nio.file.OpenOption...)
-     * throws java.io.IOException}.
+     * Test method for {@link java.nio.file.Files#newOutputStream(java.nio.file.Path, java.nio.file.OpenOption...)
+     * public static java.io.OutputStream
+     * java.nio.file.Files.newOutputStream(java.nio.file.Path,java.nio.file.OpenOption...) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#newOutputStream(java.nio.file.Path, java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -818,9 +1102,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#notExists(java.nio.file.Path,java.nio.file.LinkOption...) public
+     * Test method for {@link java.nio.file.Files#notExists(java.nio.file.Path, java.nio.file.LinkOption...) public
      * static boolean java.nio.file.Files.notExists(java.nio.file.Path,java.nio.file.LinkOption...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#notExists(java.nio.file.Path, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -836,7 +1126,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#probeContentType(java.nio.file.Path) public static java.lang.String
      * java.nio.file.Files.probeContentType(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#probeContentType(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -852,7 +1148,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#readAllBytes(java.nio.file.Path) public static byte[]
      * java.nio.file.Files.readAllBytes(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#readAllBytes(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -868,7 +1170,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#readAllLines(java.nio.file.Path) public static java.util.List
      * java.nio.file.Files.readAllLines(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#readAllLines(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -882,10 +1190,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#readAllLines(java.nio.file.Path,java.nio.charset.Charset) public
+     * Test method for {@link java.nio.file.Files#readAllLines(java.nio.file.Path, java.nio.charset.Charset) public
      * static java.util.List java.nio.file.Files.readAllLines(java.nio.file.Path,java.nio.charset.Charset) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#readAllLines(java.nio.file.Path, java.nio.charset.Charset)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -900,11 +1214,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#readAttributes(java.nio.file.Path,java.lang.Class,java.nio.file.LinkOption...) public
-     * static java.nio.file.attribute.BasicFileAttributes
+     * {@link java.nio.file.Files#readAttributes(java.nio.file.Path, java.lang.Class, java.nio.file.LinkOption...)
+     * public static java.nio.file.attribute.BasicFileAttributes
      * java.nio.file.Files.readAttributes(java.nio.file.Path,java.lang.Class,java.nio.file.LinkOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#readAttributes(java.nio.file.Path, java.lang.Class, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -919,11 +1239,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...) public
-     * static java.util.Map
+     * {@link java.nio.file.Files#readAttributes(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)
+     * public static java.util.Map
      * java.nio.file.Files.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#readAttributes(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -939,7 +1265,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#readSymbolicLink(java.nio.file.Path) public static java.nio.file.Path
      * java.nio.file.Files.readSymbolicLink(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#readSymbolicLink(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -954,11 +1286,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#setAttribute(java.nio.file.Path,java.lang.String,java.lang.Object,java.nio.file.LinkOption...)
+     * {@link java.nio.file.Files#setAttribute(java.nio.file.Path, java.lang.String, java.lang.Object, java.nio.file.LinkOption...)
      * public static java.nio.file.Path
      * java.nio.file.Files.setAttribute(java.nio.file.Path,java.lang.String,java.lang.Object,java.nio.file.LinkOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#setAttribute(java.nio.file.Path, java.lang.String, java.lang.Object,
+     *             java.nio.file.LinkOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -973,10 +1312,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#setLastModifiedTime(java.nio.file.Path,java.nio.file.attribute.FileTime) public static
-     * java.nio.file.Path java.nio.file.Files.setLastModifiedTime(java.nio.file.Path,java.nio.file.attribute.FileTime)
-     * throws java.io.IOException}.
+     * {@link java.nio.file.Files#setLastModifiedTime(java.nio.file.Path, java.nio.file.attribute.FileTime) public
+     * static java.nio.file.Path
+     * java.nio.file.Files.setLastModifiedTime(java.nio.file.Path,java.nio.file.attribute.FileTime) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#setLastModifiedTime(java.nio.file.Path, java.nio.file.attribute.FileTime)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -990,11 +1336,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#setOwner(java.nio.file.Path,java.nio.file.attribute.UserPrincipal)
+     * Test method for {@link java.nio.file.Files#setOwner(java.nio.file.Path, java.nio.file.attribute.UserPrincipal)
      * public static java.nio.file.Path
      * java.nio.file.Files.setOwner(java.nio.file.Path,java.nio.file.attribute.UserPrincipal) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#setOwner(java.nio.file.Path, java.nio.file.attribute.UserPrincipal)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1008,10 +1360,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#setPosixFilePermissions(java.nio.file.Path,java.util.Set) public
+     * Test method for {@link java.nio.file.Files#setPosixFilePermissions(java.nio.file.Path, java.util.Set) public
      * static java.nio.file.Path java.nio.file.Files.setPosixFilePermissions(java.nio.file.Path,java.util.Set) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#setPosixFilePermissions(java.nio.file.Path, java.util.Set)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1027,7 +1385,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.Files#size(java.nio.file.Path) public static long
      * java.nio.file.Files.size(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#size(java.nio.file.Path)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1041,10 +1405,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#walk(java.nio.file.Path,java.nio.file.FileVisitOption...) public
+     * Test method for {@link java.nio.file.Files#walk(java.nio.file.Path, java.nio.file.FileVisitOption...) public
      * static java.util.stream.Stream java.nio.file.Files.walk(java.nio.file.Path,java.nio.file.FileVisitOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#walk(java.nio.file.Path, java.nio.file.FileVisitOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1058,10 +1428,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#walk(java.nio.file.Path,int,java.nio.file.FileVisitOption...) public
+     * Test method for {@link java.nio.file.Files#walk(java.nio.file.Path, int, java.nio.file.FileVisitOption...) public
      * static java.util.stream.Stream java.nio.file.Files.walk(java.nio.file.Path,int,java.nio.file.FileVisitOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#walk(java.nio.file.Path, int, java.nio.file.FileVisitOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1075,10 +1451,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#walkFileTree(java.nio.file.Path,java.nio.file.FileVisitor) public
+     * Test method for {@link java.nio.file.Files#walkFileTree(java.nio.file.Path, java.nio.file.FileVisitor) public
      * static java.nio.file.Path java.nio.file.Files.walkFileTree(java.nio.file.Path,java.nio.file.FileVisitor) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#walkFileTree(java.nio.file.Path, java.nio.file.FileVisitor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1093,11 +1475,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#walkFileTree(java.nio.file.Path,java.util.Set,int,java.nio.file.FileVisitor) public
+     * {@link java.nio.file.Files#walkFileTree(java.nio.file.Path, java.util.Set, int, java.nio.file.FileVisitor) public
      * static java.nio.file.Path
      * java.nio.file.Files.walkFileTree(java.nio.file.Path,java.util.Set,int,java.nio.file.FileVisitor) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#walkFileTree(java.nio.file.Path, java.util.Set, int, java.nio.file.FileVisitor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1111,10 +1499,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Files#write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) public
+     * Test method for {@link java.nio.file.Files#write(java.nio.file.Path, byte[], java.nio.file.OpenOption...) public
      * static java.nio.file.Path java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#write(java.nio.file.Path, byte[], java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1129,11 +1523,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#write(java.nio.file.Path,java.lang.Iterable,java.nio.charset.Charset,java.nio.file.OpenOption...)
+     * {@link java.nio.file.Files#write(java.nio.file.Path, java.lang.Iterable, java.nio.charset.Charset, java.nio.file.OpenOption...)
      * public static java.nio.file.Path
      * java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable,java.nio.charset.Charset,java.nio.file.OpenOption...)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#write(java.nio.file.Path, java.lang.Iterable, java.nio.charset.Charset,
+     *             java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1148,10 +1549,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.Files#write(java.nio.file.Path,java.lang.Iterable,java.nio.file.OpenOption...) public static
-     * java.nio.file.Path java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable,java.nio.file.OpenOption...)
-     * throws java.io.IOException}.
+     * {@link java.nio.file.Files#write(java.nio.file.Path, java.lang.Iterable, java.nio.file.OpenOption...) public
+     * static java.nio.file.Path
+     * java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable,java.nio.file.OpenOption...) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.Files#write(java.nio.file.Path, java.lang.Iterable, java.nio.file.OpenOption...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1163,6 +1571,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.nio.file.Files#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

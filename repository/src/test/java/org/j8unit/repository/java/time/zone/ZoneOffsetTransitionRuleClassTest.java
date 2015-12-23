@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ZoneOffsetTransitionRuleClassTest
 implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests<java.time.zone.ZoneOffsetTransitionRule> {
 
+    @Override
+    public Class<java.time.zone.ZoneOffsetTransitionRule> createNewSUT() {
+        return java.time.zone.ZoneOffsetTransitionRule.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TimeDefinitionClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
             return java.time.zone.ZoneOffsetTransitionRule.TimeDefinition.class;
         }
 
-    }
-
-    @Override
-    public Class<java.time.zone.ZoneOffsetTransitionRule> createNewSUT() {
-        return java.time.zone.ZoneOffsetTransitionRule.class;
     }
 
 }

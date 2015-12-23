@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicScrollBarUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests<javax.swing.plaf.basic.BasicScrollBarUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicScrollBarUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicScrollBarUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
             return javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicScrollBarUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicScrollBarUI.class;
     }
 
 }

@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.text.NumberFormat class java.text.NumberFormat}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.text.NumberFormat class java.text.NumberFormat}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.text.NumberFormatTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.text.NumberFormatTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.text.NumberFormatTests
+ *
+ * @j8unit.aim java.text.NumberFormat
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,17 +41,17 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.text.NumberFormat$Field class java.text.NumberFormat$Field}, containing all class
-     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
-     * methods). The counterpart test class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.java.text.NumberFormatTests.FieldTests}.
+     * Reusable J8Unit test interface for {@linkplain java.text.NumberFormat.Field class java.text.NumberFormat$Field},
+     * containing all class relevant test methods (at least the test methods of accessible constructors and of
+     * accessible {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test
+     * methods is {@link org.j8unit.repository.java.text.NumberFormatTests.FieldTests}.
      * </p>
      *
      * <p>
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -56,16 +59,24 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.text.NumberFormatTests.FieldTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.text.NumberFormatTests.FieldTests
+     *
+     * @j8unit.aim java.text.NumberFormat.Field
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldClassTests<SUT extends java.text.NumberFormat.Field>
     extends org.j8unit.repository.java.text.FormatClassTests.FieldClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.text.NumberFormat.Field#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -82,7 +93,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getAvailableLocales() public static java.util.Locale[]
      * java.text.NumberFormat.getAvailableLocales()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getAvailableLocales()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,7 +115,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getCurrencyInstance() public static final java.text.NumberFormat
      * java.text.NumberFormat.getCurrencyInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getCurrencyInstance()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,7 +137,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getCurrencyInstance(java.util.Locale) public static
      * java.text.NumberFormat java.text.NumberFormat.getCurrencyInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getCurrencyInstance(java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -130,7 +159,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getInstance() public static final java.text.NumberFormat
      * java.text.NumberFormat.getInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getInstance()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,7 +181,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getInstance(java.util.Locale) public static java.text.NumberFormat
      * java.text.NumberFormat.getInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getInstance(java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +203,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getIntegerInstance() public static final java.text.NumberFormat
      * java.text.NumberFormat.getIntegerInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getIntegerInstance()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,7 +225,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getIntegerInstance(java.util.Locale) public static
      * java.text.NumberFormat java.text.NumberFormat.getIntegerInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getIntegerInstance(java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,7 +247,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getNumberInstance() public static final java.text.NumberFormat
      * java.text.NumberFormat.getNumberInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getNumberInstance()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +269,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getNumberInstance(java.util.Locale) public static
      * java.text.NumberFormat java.text.NumberFormat.getNumberInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getNumberInstance(java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,7 +291,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getPercentInstance() public static final java.text.NumberFormat
      * java.text.NumberFormat.getPercentInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getPercentInstance()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -242,7 +313,13 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * <p>
      * Test method for {@link java.text.NumberFormat#getPercentInstance(java.util.Locale) public static
      * java.text.NumberFormat java.text.NumberFormat.getPercentInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.NumberFormat#getPercentInstance(java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,6 +331,11 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.text.NumberFormat#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

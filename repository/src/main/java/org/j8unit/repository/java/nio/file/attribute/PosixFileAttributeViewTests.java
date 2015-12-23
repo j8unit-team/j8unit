@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.file.attribute.PosixFileAttributeView interface
+ * Reusable J8Unit test interface for {@linkplain java.nio.file.attribute.PosixFileAttributeView interface
  * java.nio.file.attribute.PosixFileAttributeView}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.nio.file.attribute.PosixFileAttributeViewTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.file.attribute.PosixFileAttributeViewClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.file.attribute.PosixFileAttributeViewClassTests
+ *
+ * @j8unit.aim java.nio.file.attribute.PosixFileAttributeView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.PosixFileAttributeView#name() public abstract java.lang.String
      * java.nio.file.attribute.PosixFileAttributeView.name()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.PosixFileAttributeView#name()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -46,7 +56,13 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
      * Test method for {@link java.nio.file.attribute.PosixFileAttributeView#readAttributes() public abstract
      * java.nio.file.attribute.PosixFileAttributes java.nio.file.attribute.PosixFileAttributeView.readAttributes()
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.PosixFileAttributeView#readAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,7 +81,13 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
      * {@link java.nio.file.attribute.PosixFileAttributeView#setGroup(java.nio.file.attribute.GroupPrincipal) public
      * abstract void java.nio.file.attribute.PosixFileAttributeView.setGroup(java.nio.file.attribute.GroupPrincipal)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.PosixFileAttributeView#setGroup(java.nio.file.attribute.GroupPrincipal)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,7 +104,13 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
      * Test method for {@link java.nio.file.attribute.PosixFileAttributeView#setPermissions(java.util.Set) public
      * abstract void java.nio.file.attribute.PosixFileAttributeView.setPermissions(java.util.Set) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.PosixFileAttributeView#setPermissions(java.util.Set)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.remote.JMXConnectorServerFactory class
+ * Reusable J8Unit test interface for {@linkplain javax.management.remote.JMXConnectorServerFactory class
  * javax.management.remote.JMXConnectorServerFactory}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.remote.JMXConnectorServerFactoryTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.remote.JMXConnectorServerFactoryClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.remote.JMXConnectorServerFactoryClassTests
+ *
+ * @j8unit.aim javax.management.remote.JMXConnectorServerFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

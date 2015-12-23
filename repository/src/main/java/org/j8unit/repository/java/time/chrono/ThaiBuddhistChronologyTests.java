@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.time.chrono.ThaiBuddhistChronology class java.time.chrono.ThaiBuddhistChronology},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.time.chrono.ThaiBuddhistChronology class
+ * java.time.chrono.ThaiBuddhistChronology}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.time.chrono.ThaiBuddhistChronologyTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.time.chrono.ThaiBuddhistChronologyClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.time.chrono.ThaiBuddhistChronologyClassTests
+ *
+ * @j8unit.aim java.time.chrono.ThaiBuddhistChronology
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,10 +29,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#date(java.time.chrono.Era,int,int,int) public
+     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#date(java.time.chrono.Era, int, int, int) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistChronology.date(java.time.chrono.Era,int,int,int)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#date(java.time.chrono.Era, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,9 +53,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#date(int,int,int) public
+     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#date(int, int, int) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistChronology.date(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#date(int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +79,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#date(java.time.temporal.TemporalAccessor) public
      * java.time.chrono.ThaiBuddhistDate
      * java.time.chrono.ThaiBuddhistChronology.date(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#date(java.time.temporal.TemporalAccessor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +102,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateEpochDay(long) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistChronology.dateEpochDay(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#dateEpochDay(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +125,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateNow() public java.time.chrono.ThaiBuddhistDate
      * java.time.chrono.ThaiBuddhistChronology.dateNow()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#dateNow()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,7 +148,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateNow(java.time.Clock) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistChronology.dateNow(java.time.Clock)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#dateNow(java.time.Clock)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -130,7 +171,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateNow(java.time.ZoneId) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistChronology.dateNow(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#dateNow(java.time.ZoneId)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,10 +192,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateYearDay(java.time.chrono.Era,int,int) public
+     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateYearDay(java.time.chrono.Era, int, int) public
      * java.time.chrono.ThaiBuddhistDate
      * java.time.chrono.ThaiBuddhistChronology.dateYearDay(java.time.chrono.Era,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#dateYearDay(java.time.chrono.Era, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,9 +216,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateYearDay(int,int) public
+     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#dateYearDay(int, int) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistChronology.dateYearDay(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#dateYearDay(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -182,7 +241,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#eraOf(int) public java.time.chrono.ThaiBuddhistEra
      * java.time.chrono.ThaiBuddhistChronology.eraOf(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#eraOf(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,7 +264,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#eras() public java.util.List
      * java.time.chrono.ThaiBuddhistChronology.eras()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#eras()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -216,7 +287,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#getCalendarType() public java.lang.String
      * java.time.chrono.ThaiBuddhistChronology.getCalendarType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#getCalendarType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -233,7 +310,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#getId() public java.lang.String
      * java.time.chrono.ThaiBuddhistChronology.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#getId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,7 +333,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#isLeapYear(long) public boolean
      * java.time.chrono.ThaiBuddhistChronology.isLeapYear(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#isLeapYear(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,7 +357,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#localDateTime(java.time.temporal.TemporalAccessor)
      * public java.time.chrono.ChronoLocalDateTime
      * java.time.chrono.ThaiBuddhistChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#localDateTime(java.time.temporal.TemporalAccessor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -283,9 +378,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#prolepticYear(java.time.chrono.Era,int) public int
-     * java.time.chrono.ThaiBuddhistChronology.prolepticYear(java.time.chrono.Era,int)}.
+     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#prolepticYear(java.time.chrono.Era, int) public
+     * int java.time.chrono.ThaiBuddhistChronology.prolepticYear(java.time.chrono.Era,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#prolepticYear(java.time.chrono.Era, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,7 +403,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#range(java.time.temporal.ChronoField) public
      * java.time.temporal.ValueRange java.time.chrono.ThaiBuddhistChronology.range(java.time.temporal.ChronoField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#range(java.time.temporal.ChronoField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -318,10 +425,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link java.time.chrono.ThaiBuddhistChronology#resolveDate(java.util.Map,java.time.format.ResolverStyle) public
+     * {@link java.time.chrono.ThaiBuddhistChronology#resolveDate(java.util.Map, java.time.format.ResolverStyle) public
      * java.time.chrono.ThaiBuddhistDate
      * java.time.chrono.ThaiBuddhistChronology.resolveDate(java.util.Map,java.time.format.ResolverStyle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#resolveDate(java.util.Map, java.time.format.ResolverStyle)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -336,10 +449,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#zonedDateTime(java.time.Instant,java.time.ZoneId)
+     * Test method for {@link java.time.chrono.ThaiBuddhistChronology#zonedDateTime(java.time.Instant, java.time.ZoneId)
      * public java.time.chrono.ChronoZonedDateTime
      * java.time.chrono.ThaiBuddhistChronology.zonedDateTime(java.time.Instant,java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#zonedDateTime(java.time.Instant, java.time.ZoneId)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,7 +476,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.time.chrono.ThaiBuddhistChronology#zonedDateTime(java.time.temporal.TemporalAccessor)
      * public java.time.chrono.ChronoZonedDateTime
      * java.time.chrono.ThaiBuddhistChronology.zonedDateTime(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.ThaiBuddhistChronology#zonedDateTime(java.time.temporal.TemporalAccessor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

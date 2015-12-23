@@ -8,6 +8,11 @@ public class AbstractQueuedLongSynchronizerClassTest
 implements
 org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests<java.util.concurrent.locks.AbstractQueuedLongSynchronizer> {
 
+    @Override
+    public Class<java.util.concurrent.locks.AbstractQueuedLongSynchronizer> createNewSUT() {
+        return java.util.concurrent.locks.AbstractQueuedLongSynchronizer.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ConditionObjectClassTest
     implements
@@ -18,11 +23,6 @@ org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerC
             return java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.concurrent.locks.AbstractQueuedLongSynchronizer> createNewSUT() {
-        return java.util.concurrent.locks.AbstractQueuedLongSynchronizer.class;
     }
 
 }

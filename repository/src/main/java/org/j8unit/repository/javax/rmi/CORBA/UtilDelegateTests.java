@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.rmi.CORBA;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,26 +9,37 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.rmi.CORBA.UtilDelegate interface javax.rmi.CORBA.UtilDelegate}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.rmi.CORBA.UtilDelegate interface javax.rmi.CORBA.UtilDelegate},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.rmi.CORBA.UtilDelegateTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.rmi.CORBA.UtilDelegateClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.rmi.CORBA.UtilDelegateClassTests
+ *
+ * @j8unit.aim javax.rmi.CORBA.UtilDelegate
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UtilDelegateTests<SUT extends javax.rmi.CORBA.UtilDelegate>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.UtilDelegate#copyObject(java.lang.Object,org.omg.CORBA.ORB) public
+     * Test method for {@link javax.rmi.CORBA.UtilDelegate#copyObject(java.lang.Object, org.omg.CORBA.ORB) public
      * abstract java.lang.Object javax.rmi.CORBA.UtilDelegate.copyObject(java.lang.Object,org.omg.CORBA.ORB) throws
      * java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#copyObject(java.lang.Object, org.omg.CORBA.ORB)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,10 +53,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.UtilDelegate#copyObjects(java.lang.Object[],org.omg.CORBA.ORB) public
+     * Test method for {@link javax.rmi.CORBA.UtilDelegate#copyObjects(java.lang.Object[], org.omg.CORBA.ORB) public
      * abstract java.lang.Object[] javax.rmi.CORBA.UtilDelegate.copyObjects(java.lang.Object[],org.omg.CORBA.ORB) throws
      * java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#copyObjects(java.lang.Object[], org.omg.CORBA.ORB)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#createValueHandler() public abstract
      * javax.rmi.CORBA.ValueHandler javax.rmi.CORBA.UtilDelegate.createValueHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#createValueHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#getCodebase(java.lang.Class) public abstract java.lang.String
      * javax.rmi.CORBA.UtilDelegate.getCodebase(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#getCodebase(java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#getTie(java.rmi.Remote) public abstract javax.rmi.CORBA.Tie
      * javax.rmi.CORBA.UtilDelegate.getTie(java.rmi.Remote)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#getTie(java.rmi.Remote)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#isLocal(javax.rmi.CORBA.Stub) public abstract boolean
      * javax.rmi.CORBA.UtilDelegate.isLocal(javax.rmi.CORBA.Stub) throws java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#isLocal(javax.rmi.CORBA.Stub)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,11 +165,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.rmi.CORBA.UtilDelegate#loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) public
+     * {@link javax.rmi.CORBA.UtilDelegate#loadClass(java.lang.String, java.lang.String, java.lang.ClassLoader) public
      * abstract java.lang.Class
      * javax.rmi.CORBA.UtilDelegate.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
      * java.lang.ClassNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#loadClass(java.lang.String, java.lang.String, java.lang.ClassLoader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +192,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#mapSystemException(org.omg.CORBA.SystemException) public
      * abstract java.rmi.RemoteException javax.rmi.CORBA.UtilDelegate.mapSystemException(org.omg.CORBA.SystemException)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#mapSystemException(org.omg.CORBA.SystemException)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,7 +214,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#readAny(org.omg.CORBA.portable.InputStream) public abstract
      * java.lang.Object javax.rmi.CORBA.UtilDelegate.readAny(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#readAny(org.omg.CORBA.portable.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -175,9 +234,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.UtilDelegate#registerTarget(javax.rmi.CORBA.Tie,java.rmi.Remote) public
+     * Test method for {@link javax.rmi.CORBA.UtilDelegate#registerTarget(javax.rmi.CORBA.Tie, java.rmi.Remote) public
      * abstract void javax.rmi.CORBA.UtilDelegate.registerTarget(javax.rmi.CORBA.Tie,java.rmi.Remote)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#registerTarget(javax.rmi.CORBA.Tie, java.rmi.Remote)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +258,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#unexportObject(java.rmi.Remote) public abstract void
      * javax.rmi.CORBA.UtilDelegate.unexportObject(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#unexportObject(java.rmi.Remote)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,7 +280,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.UtilDelegate#wrapException(java.lang.Throwable) public abstract
      * java.rmi.RemoteException javax.rmi.CORBA.UtilDelegate.wrapException(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#wrapException(java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,10 +301,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.rmi.CORBA.UtilDelegate#writeAbstractObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)
+     * {@link javax.rmi.CORBA.UtilDelegate#writeAbstractObject(org.omg.CORBA.portable.OutputStream, java.lang.Object)
      * public abstract void
      * javax.rmi.CORBA.UtilDelegate.writeAbstractObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#writeAbstractObject(org.omg.CORBA.portable.OutputStream,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -242,9 +326,15 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.rmi.CORBA.UtilDelegate#writeAny(org.omg.CORBA.portable.OutputStream,java.lang.Object) public
+     * {@link javax.rmi.CORBA.UtilDelegate#writeAny(org.omg.CORBA.portable.OutputStream, java.lang.Object) public
      * abstract void javax.rmi.CORBA.UtilDelegate.writeAny(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#writeAny(org.omg.CORBA.portable.OutputStream, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -259,10 +349,16 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.rmi.CORBA.UtilDelegate#writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)
+     * {@link javax.rmi.CORBA.UtilDelegate#writeRemoteObject(org.omg.CORBA.portable.OutputStream, java.lang.Object)
      * public abstract void
      * javax.rmi.CORBA.UtilDelegate.writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.UtilDelegate#writeRemoteObject(org.omg.CORBA.portable.OutputStream, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

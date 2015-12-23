@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.tools.ForwardingFileObject class javax.tools.ForwardingFileObject}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.tools.ForwardingFileObject class
+ * javax.tools.ForwardingFileObject}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.tools.ForwardingFileObjectTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.tools.ForwardingFileObjectClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.tools.ForwardingFileObjectClassTests
+ *
+ * @j8unit.aim javax.tools.ForwardingFileObject
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#delete() public boolean
      * javax.tools.ForwardingFileObject.delete()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#delete()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#getCharContent(boolean) public java.lang.CharSequence
      * javax.tools.ForwardingFileObject.getCharContent(boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#getCharContent(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#getLastModified() public long
      * javax.tools.ForwardingFileObject.getLastModified()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#getLastModified()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#getName() public java.lang.String
      * javax.tools.ForwardingFileObject.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
      * javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#openInputStream()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +146,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#openOutputStream() public java.io.OutputStream
      * javax.tools.ForwardingFileObject.openOutputStream() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#openOutputStream()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +169,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#openReader(boolean) public java.io.Reader
      * javax.tools.ForwardingFileObject.openReader(boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#openReader(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +192,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#openWriter() public java.io.Writer
      * javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#openWriter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +215,13 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#toUri() public java.net.URI
      * javax.tools.ForwardingFileObject.toUri()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.ForwardingFileObject#toUri()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

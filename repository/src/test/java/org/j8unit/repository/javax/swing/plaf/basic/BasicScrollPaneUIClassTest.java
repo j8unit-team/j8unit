@@ -7,16 +7,9 @@ import org.junit.runner.RunWith;
 public class BasicScrollPaneUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests<javax.swing.plaf.basic.BasicScrollPaneUI> {
 
-    @RunWith(J8Unit4.class)
-    public static class HSBChangeListenerClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests<javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener> {
-
-        @Override
-        public Class<javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener> createNewSUT() {
-            return javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener.class;
-        }
-
+    @Override
+    public Class<javax.swing.plaf.basic.BasicScrollPaneUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicScrollPaneUI.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -44,6 +37,18 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTe
     }
 
     @RunWith(J8Unit4.class)
+    public static class HSBChangeListenerClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests<javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener> {
+
+        @Override
+        public Class<javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener> createNewSUT() {
+            return javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class VSBChangeListenerClassTest
     implements
     org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.VSBChangeListenerClassTests<javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener> {
@@ -53,11 +58,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTe
             return javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicScrollPaneUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicScrollPaneUI.class;
     }
 
 }

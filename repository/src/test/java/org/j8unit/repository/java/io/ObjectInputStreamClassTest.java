@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ObjectInputStreamClassTest
 implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<java.io.ObjectInputStream> {
 
+    @Override
+    public Class<java.io.ObjectInputStream> createNewSUT() {
+        return java.io.ObjectInputStream.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class GetFieldClassTest
     implements org.j8unit.repository.java.io.ObjectInputStreamClassTests.GetFieldClassTests<java.io.ObjectInputStream.GetField> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<java.io.Obj
             return java.io.ObjectInputStream.GetField.class;
         }
 
-    }
-
-    @Override
-    public Class<java.io.ObjectInputStream> createNewSUT() {
-        return java.io.ObjectInputStream.class;
     }
 
 }

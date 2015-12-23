@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.HashMapTests<java.util.HashMap<K, V>,
 
     @Override
     public java.util.HashMap<K, V> createNewSUT() {
-        return new java.util.HashMap<>();
+        return new java.util.HashMap();
     }
 
 }

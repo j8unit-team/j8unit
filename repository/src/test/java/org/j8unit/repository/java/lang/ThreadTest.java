@@ -13,6 +13,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class ThreadTest
 implements org.j8unit.repository.java.lang.ThreadTests<java.lang.Thread> {
 
+    @Override
+    public java.lang.Thread createNewSUT() {
+        return new java.lang.Thread();
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateTest
@@ -31,11 +36,6 @@ implements org.j8unit.repository.java.lang.ThreadTests<java.lang.Thread> {
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.lang.Thread createNewSUT() {
-        return new java.lang.Thread();
     }
 
 }

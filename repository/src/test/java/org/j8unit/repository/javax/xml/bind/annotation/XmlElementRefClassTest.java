@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class XmlElementRefClassTest
 implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefClassTests<javax.xml.bind.annotation.XmlElementRef> {
 
+    @Override
+    public Class<javax.xml.bind.annotation.XmlElementRef> createNewSUT() {
+        return javax.xml.bind.annotation.XmlElementRef.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
     implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefClassTests.DEFAULTClassTests<javax.xml.bind.annotation.XmlElementRef.DEFAULT> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefClassTes
             return javax.xml.bind.annotation.XmlElementRef.DEFAULT.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.annotation.XmlElementRef> createNewSUT() {
-        return javax.xml.bind.annotation.XmlElementRef.class;
     }
 
 }

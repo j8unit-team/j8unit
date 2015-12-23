@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.print.PrinterIOException class java.awt.print.PrinterIOException}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.print.PrinterIOException class
+ * java.awt.print.PrinterIOException}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.print.PrinterIOExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.print.PrinterIOExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.print.PrinterIOExceptionClassTests
+ *
+ * @j8unit.aim java.awt.print.PrinterIOException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.awt.print.PrinterExceptionTests<SUT> {
      * <p>
      * Test method for {@link java.awt.print.PrinterIOException#getCause() public java.lang.Throwable
      * java.awt.print.PrinterIOException.getCause()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.print.PrinterIOException#getCause()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.awt.print.PrinterExceptionTests<SUT> {
      * <p>
      * Test method for {@link java.awt.print.PrinterIOException#getIOException() public java.io.IOException
      * java.awt.print.PrinterIOException.getIOException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.print.PrinterIOException#getIOException()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

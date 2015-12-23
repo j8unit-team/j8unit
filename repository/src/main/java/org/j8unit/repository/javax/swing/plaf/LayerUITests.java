@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.LayerUI class javax.swing.plaf.LayerUI}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.LayerUI class javax.swing.plaf.LayerUI}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.LayerUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.LayerUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.LayerUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.LayerUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(java.beans.PropertyChangeListener)
      * public void javax.swing.plaf.LayerUI.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#addPropertyChangeListener(java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,10 +52,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
+     * {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(java.lang.String, java.beans.PropertyChangeListener)
      * public void
      * javax.swing.plaf.LayerUI.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#addPropertyChangeListener(java.lang.String,
+     *             java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,9 +77,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.LayerUI#applyPropertyChange(java.beans.PropertyChangeEvent,javax.swing.JLayer) public
+     * {@link javax.swing.plaf.LayerUI#applyPropertyChange(java.beans.PropertyChangeEvent, javax.swing.JLayer) public
      * void javax.swing.plaf.LayerUI.applyPropertyChange(java.beans.PropertyChangeEvent,javax.swing.JLayer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#applyPropertyChange(java.beans.PropertyChangeEvent, javax.swing.JLayer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +101,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#doLayout(javax.swing.JLayer) public void
      * javax.swing.plaf.LayerUI.doLayout(javax.swing.JLayer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#doLayout(javax.swing.JLayer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,9 +121,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#eventDispatched(java.awt.AWTEvent,javax.swing.JLayer) public void
-     * javax.swing.plaf.LayerUI.eventDispatched(java.awt.AWTEvent,javax.swing.JLayer)}.
+     * Test method for {@link javax.swing.plaf.LayerUI#eventDispatched(java.awt.AWTEvent, javax.swing.JLayer) public
+     * void javax.swing.plaf.LayerUI.eventDispatched(java.awt.AWTEvent,javax.swing.JLayer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#eventDispatched(java.awt.AWTEvent, javax.swing.JLayer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,9 +143,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getBaseline(javax.swing.JComponent,int,int) public int
+     * Test method for {@link javax.swing.plaf.LayerUI#getBaseline(javax.swing.JComponent, int, int) public int
      * javax.swing.plaf.LayerUI.getBaseline(javax.swing.JComponent,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getBaseline(javax.swing.JComponent, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -127,7 +169,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.swing.plaf.LayerUI#getBaselineResizeBehavior(javax.swing.JComponent) public
      * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.LayerUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getBaselineResizeBehavior(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +192,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
      * javax.swing.plaf.LayerUI.getMaximumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getMaximumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,7 +215,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
      * javax.swing.plaf.LayerUI.getMinimumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getMinimumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,7 +238,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#getPreferredSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.LayerUI.getPreferredSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getPreferredSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,7 +261,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#getPropertyChangeListeners() public
      * java.beans.PropertyChangeListener[] javax.swing.plaf.LayerUI.getPropertyChangeListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getPropertyChangeListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,7 +283,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#getPropertyChangeListeners(java.lang.String) public
      * java.beans.PropertyChangeListener[] javax.swing.plaf.LayerUI.getPropertyChangeListeners(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#getPropertyChangeListeners(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,7 +305,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.LayerUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#installUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -242,9 +326,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#paint(java.awt.Graphics,javax.swing.JComponent) public void
+     * Test method for {@link javax.swing.plaf.LayerUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.LayerUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#paint(java.awt.Graphics, javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -259,9 +349,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#paintImmediately(int,int,int,int,javax.swing.JLayer) public void
-     * javax.swing.plaf.LayerUI.paintImmediately(int,int,int,int,javax.swing.JLayer)}.
+     * Test method for {@link javax.swing.plaf.LayerUI#paintImmediately(int, int, int, int, javax.swing.JLayer) public
+     * void javax.swing.plaf.LayerUI.paintImmediately(int,int,int,int,javax.swing.JLayer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#paintImmediately(int, int, int, int, javax.swing.JLayer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,7 +373,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(java.beans.PropertyChangeListener)
      * public void javax.swing.plaf.LayerUI.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#removePropertyChangeListener(java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,10 +394,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
+     * {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(java.lang.String, java.beans.PropertyChangeListener)
      * public void
      * javax.swing.plaf.LayerUI.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#removePropertyChangeListener(java.lang.String,
+     *             java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -311,7 +420,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.LayerUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#uninstallUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,7 +443,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.swing.plaf.LayerUI#updateUI(javax.swing.JLayer) public void
      * javax.swing.plaf.LayerUI.updateUI(javax.swing.JLayer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.LayerUI#updateUI(javax.swing.JLayer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

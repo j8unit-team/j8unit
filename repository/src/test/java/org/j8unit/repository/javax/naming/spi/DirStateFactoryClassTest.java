@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DirStateFactoryClassTest
 implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<javax.naming.spi.DirStateFactory> {
 
+    @Override
+    public Class<javax.naming.spi.DirStateFactory> createNewSUT() {
+        return javax.naming.spi.DirStateFactory.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ResultClassTest
     implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests.ResultClassTests<javax.naming.spi.DirStateFactory.Result> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<java
             return javax.naming.spi.DirStateFactory.Result.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.naming.spi.DirStateFactory> createNewSUT() {
-        return javax.naming.spi.DirStateFactory.class;
     }
 
 }

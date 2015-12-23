@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicTableUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<javax.swing.plaf.basic.BasicTableUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicTableUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicTableUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.FocusHandlerClassTests<javax.swing.plaf.basic.BasicTableUI.FocusHandler> {
@@ -14,17 +19,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<j
         @Override
         public Class<javax.swing.plaf.basic.BasicTableUI.FocusHandler> createNewSUT() {
             return javax.swing.plaf.basic.BasicTableUI.FocusHandler.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.KeyHandlerClassTests<javax.swing.plaf.basic.BasicTableUI.KeyHandler> {
-
-        @Override
-        public Class<javax.swing.plaf.basic.BasicTableUI.KeyHandler> createNewSUT() {
-            return javax.swing.plaf.basic.BasicTableUI.KeyHandler.class;
         }
 
     }
@@ -41,9 +35,15 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<j
 
     }
 
-    @Override
-    public Class<javax.swing.plaf.basic.BasicTableUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicTableUI.class;
+    @RunWith(J8Unit4.class)
+    public static class KeyHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.KeyHandlerClassTests<javax.swing.plaf.basic.BasicTableUI.KeyHandler> {
+
+        @Override
+        public Class<javax.swing.plaf.basic.BasicTableUI.KeyHandler> createNewSUT() {
+            return javax.swing.plaf.basic.BasicTableUI.KeyHandler.class;
+        }
+
     }
 
 }

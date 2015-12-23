@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class FormatClassTest
 implements org.j8unit.repository.java.text.FormatClassTests<java.text.Format> {
 
+    @Override
+    public Class<java.text.Format> createNewSUT() {
+        return java.text.Format.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
     implements org.j8unit.repository.java.text.FormatClassTests.FieldClassTests<java.text.Format.Field> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.text.FormatClassTests<java.text.Format> {
             return java.text.Format.Field.class;
         }
 
-    }
-
-    @Override
-    public Class<java.text.Format> createNewSUT() {
-        return java.text.Format.class;
     }
 
 }

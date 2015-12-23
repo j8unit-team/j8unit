@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.html.BlockView class javax.swing.text.html.BlockView}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.BlockView class javax.swing.text.html.BlockView}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.html.BlockViewTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.html.BlockViewClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.html.BlockViewClassTests
+ *
+ * @j8unit.aim javax.swing.text.html.BlockView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.BlockView#changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)
+     * {@link javax.swing.text.html.BlockView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
      * javax.swing.text.html.BlockView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *             javax.swing.text.ViewFactory)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -46,7 +58,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getAlignment(int) public float
      * javax.swing.text.html.BlockView.getAlignment(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#getAlignment(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,7 +81,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getAttributes() public javax.swing.text.AttributeSet
      * javax.swing.text.html.BlockView.getAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#getAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,7 +104,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getMaximumSpan(int) public float
      * javax.swing.text.html.BlockView.getMaximumSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#getMaximumSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,7 +127,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getMinimumSpan(int) public float
      * javax.swing.text.html.BlockView.getMinimumSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#getMinimumSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,7 +150,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getPreferredSpan(int) public float
      * javax.swing.text.html.BlockView.getPreferredSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#getPreferredSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -131,7 +173,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getResizeWeight(int) public int
      * javax.swing.text.html.BlockView.getResizeWeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#getResizeWeight(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,9 +194,15 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * Test method for {@link javax.swing.text.html.BlockView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.html.BlockView.paint(java.awt.Graphics,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#paint(java.awt.Graphics, java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,7 +219,13 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.BlockView#setParent(javax.swing.text.View) public void
      * javax.swing.text.html.BlockView.setParent(javax.swing.text.View)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.BlockView#setParent(javax.swing.text.View)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

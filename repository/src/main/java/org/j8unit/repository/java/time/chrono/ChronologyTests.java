@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.time.chrono.Chronology interface java.time.chrono.Chronology}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.time.chrono.Chronology interface java.time.chrono.Chronology},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.time.chrono.ChronologyTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.time.chrono.ChronologyClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.time.chrono.ChronologyClassTests
+ *
+ * @j8unit.aim java.time.chrono.Chronology
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#compareTo(java.time.chrono.Chronology) public abstract int
      * java.time.chrono.Chronology.compareTo(java.time.chrono.Chronology)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#compareTo(java.time.chrono.Chronology)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -40,9 +51,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#date(java.time.chrono.Era,int,int,int) public default
+     * Test method for {@link java.time.chrono.Chronology#date(java.time.chrono.Era, int, int, int) public default
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(java.time.chrono.Era,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#date(java.time.chrono.Era, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,9 +73,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#date(int,int,int) public abstract
+     * Test method for {@link java.time.chrono.Chronology#date(int, int, int) public abstract
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#date(int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#date(java.time.temporal.TemporalAccessor) public abstract
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#date(java.time.temporal.TemporalAccessor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#dateEpochDay(long) public abstract
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateEpochDay(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#dateEpochDay(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#dateNow() public default java.time.chrono.ChronoLocalDate
      * java.time.chrono.Chronology.dateNow()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#dateNow()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#dateNow(java.time.Clock) public default
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateNow(java.time.Clock)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#dateNow(java.time.Clock)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#dateNow(java.time.ZoneId) public default
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateNow(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#dateNow(java.time.ZoneId)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,9 +205,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#dateYearDay(java.time.chrono.Era,int,int) public default
+     * Test method for {@link java.time.chrono.Chronology#dateYearDay(java.time.chrono.Era, int, int) public default
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateYearDay(java.time.chrono.Era,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#dateYearDay(java.time.chrono.Era, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,9 +227,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#dateYearDay(int,int) public abstract
+     * Test method for {@link java.time.chrono.Chronology#dateYearDay(int, int) public abstract
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateYearDay(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#dateYearDay(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,7 +251,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#equals(java.lang.Object) public abstract boolean
      * java.time.chrono.Chronology.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +273,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#eraOf(int) public abstract java.time.chrono.Era
      * java.time.chrono.Chronology.eraOf(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#eraOf(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +295,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#eras() public abstract java.util.List
      * java.time.chrono.Chronology.eras()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#eras()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +317,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#getCalendarType() public abstract java.lang.String
      * java.time.chrono.Chronology.getCalendarType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#getCalendarType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -248,10 +337,16 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#getDisplayName(java.time.format.TextStyle,java.util.Locale)
+     * Test method for {@link java.time.chrono.Chronology#getDisplayName(java.time.format.TextStyle, java.util.Locale)
      * public default java.lang.String
      * java.time.chrono.Chronology.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#getDisplayName(java.time.format.TextStyle, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -267,7 +362,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#getId() public abstract java.lang.String
      * java.time.chrono.Chronology.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#getId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -283,7 +384,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#hashCode() public abstract int
      * java.time.chrono.Chronology.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,7 +406,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#isLeapYear(long) public abstract boolean
      * java.time.chrono.Chronology.isLeapYear(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#isLeapYear(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -316,7 +429,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * Test method for {@link java.time.chrono.Chronology#localDateTime(java.time.temporal.TemporalAccessor) public
      * default java.time.chrono.ChronoLocalDateTime
      * java.time.chrono.Chronology.localDateTime(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#localDateTime(java.time.temporal.TemporalAccessor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -330,9 +449,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#period(int,int,int) public default
+     * Test method for {@link java.time.chrono.Chronology#period(int, int, int) public default
      * java.time.chrono.ChronoPeriod java.time.chrono.Chronology.period(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#period(int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -346,9 +471,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#prolepticYear(java.time.chrono.Era,int) public abstract int
+     * Test method for {@link java.time.chrono.Chronology#prolepticYear(java.time.chrono.Era, int) public abstract int
      * java.time.chrono.Chronology.prolepticYear(java.time.chrono.Era,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#prolepticYear(java.time.chrono.Era, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,7 +495,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#range(java.time.temporal.ChronoField) public abstract
      * java.time.temporal.ValueRange java.time.chrono.Chronology.range(java.time.temporal.ChronoField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#range(java.time.temporal.ChronoField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -378,10 +515,16 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#resolveDate(java.util.Map,java.time.format.ResolverStyle)
+     * Test method for {@link java.time.chrono.Chronology#resolveDate(java.util.Map, java.time.format.ResolverStyle)
      * public abstract java.time.chrono.ChronoLocalDate
      * java.time.chrono.Chronology.resolveDate(java.util.Map,java.time.format.ResolverStyle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#resolveDate(java.util.Map, java.time.format.ResolverStyle)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -397,7 +540,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * <p>
      * Test method for {@link java.time.chrono.Chronology#toString() public abstract java.lang.String
      * java.time.chrono.Chronology.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -411,10 +560,16 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.Chronology#zonedDateTime(java.time.Instant,java.time.ZoneId) public
+     * Test method for {@link java.time.chrono.Chronology#zonedDateTime(java.time.Instant, java.time.ZoneId) public
      * default java.time.chrono.ChronoZonedDateTime
      * java.time.chrono.Chronology.zonedDateTime(java.time.Instant,java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#zonedDateTime(java.time.Instant, java.time.ZoneId)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -431,7 +586,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.time.chrono.Ch
      * Test method for {@link java.time.chrono.Chronology#zonedDateTime(java.time.temporal.TemporalAccessor) public
      * default java.time.chrono.ChronoZonedDateTime
      * java.time.chrono.Chronology.zonedDateTime(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.chrono.Chronology#zonedDateTime(java.time.temporal.TemporalAccessor)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

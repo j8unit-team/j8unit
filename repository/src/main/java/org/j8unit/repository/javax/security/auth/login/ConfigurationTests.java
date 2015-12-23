@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.security.auth.login;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,14 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.security.auth.login.Configuration class javax.security.auth.login.Configuration},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.security.auth.login.Configuration class
+ * javax.security.auth.login.Configuration}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests
+ *
+ * @j8unit.aim javax.security.auth.login.Configuration
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,20 +30,24 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.security.auth.login.Configuration$Parameters interface
+     * Reusable J8Unit test interface for {@linkplain javax.security.auth.login.Configuration.Parameters interface
      * javax.security.auth.login.Configuration$Parameters}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration.Parameters
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParametersTests<SUT extends javax.security.auth.login.Configuration.Parameters>
-    extends J8UnitTest<SUT> {
+    extends RepositoryTests<SUT> {
 
     }
 
@@ -47,7 +56,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.security.auth.login.Configuration#getAppConfigurationEntry(java.lang.String) public
      * abstract javax.security.auth.login.AppConfigurationEntry[]
      * javax.security.auth.login.Configuration.getAppConfigurationEntry(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getAppConfigurationEntry(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,7 +78,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.login.Configuration#getParameters() public
      * javax.security.auth.login.Configuration$Parameters javax.security.auth.login.Configuration.getParameters()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getParameters()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +100,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.login.Configuration#getProvider() public java.security.Provider
      * javax.security.auth.login.Configuration.getProvider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getProvider()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +122,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.login.Configuration#getType() public java.lang.String
      * javax.security.auth.login.Configuration.getType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +144,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.login.Configuration#refresh() public void
      * javax.security.auth.login.Configuration.refresh()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#refresh()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

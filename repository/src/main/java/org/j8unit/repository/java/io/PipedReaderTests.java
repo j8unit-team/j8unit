@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.PipedReader class java.io.PipedReader}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.io.PipedReader class java.io.PipedReader}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.io.PipedReaderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.io.PipedReaderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.PipedReaderClassTests
+ *
+ * @j8unit.aim java.io.PipedReader
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +30,13 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * <p>
      * Test method for {@link java.io.PipedReader#close() public void java.io.PipedReader.close() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.PipedReader#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +53,13 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * <p>
      * Test method for {@link java.io.PipedReader#connect(java.io.PipedWriter) public void
      * java.io.PipedReader.connect(java.io.PipedWriter) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.PipedReader#connect(java.io.PipedWriter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +75,13 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * <p>
      * Test method for {@link java.io.PipedReader#read() public synchronized int java.io.PipedReader.read() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.PipedReader#read()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,9 +96,15 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.PipedReader#read(char[],int,int) public synchronized int
+     * Test method for {@link java.io.PipedReader#read(char[], int, int) public synchronized int
      * java.io.PipedReader.read(char[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.PipedReader#read(char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +121,13 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * <p>
      * Test method for {@link java.io.PipedReader#ready() public synchronized boolean java.io.PipedReader.ready() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.PipedReader#ready()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

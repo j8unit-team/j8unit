@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.awt.im;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,19 +9,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.im.InputMethodRequests interface java.awt.im.InputMethodRequests}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.im.InputMethodRequests interface
+ * java.awt.im.InputMethodRequests}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.im.InputMethodRequestsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.im.InputMethodRequestsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.im.InputMethodRequestsClassTests
+ *
+ * @j8unit.aim java.awt.im.InputMethodRequests
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputMethodRequestsTests<SUT extends java.awt.im.InputMethodRequests>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
@@ -29,7 +34,14 @@ extends J8UnitTest<SUT> {
      * {@link java.awt.im.InputMethodRequests#cancelLatestCommittedText(java.text.AttributedCharacterIterator.Attribute[])
      * public abstract java.text.AttributedCharacterIterator
      * java.awt.im.InputMethodRequests.cancelLatestCommittedText(java.text.AttributedCharacterIterator$Attribute[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#cancelLatestCommittedText(java.text.AttributedCharacterIterator.
+     *             Attribute[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,10 +56,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.im.InputMethodRequests#getCommittedText(int,int,java.text.AttributedCharacterIterator.Attribute[])
+     * {@link java.awt.im.InputMethodRequests#getCommittedText(int, int, java.text.AttributedCharacterIterator.Attribute[])
      * public abstract java.text.AttributedCharacterIterator
      * java.awt.im.InputMethodRequests.getCommittedText(int,int,java.text.AttributedCharacterIterator$Attribute[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#getCommittedText(int, int,
+     *             java.text.AttributedCharacterIterator.Attribute[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,7 +82,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.im.InputMethodRequests#getCommittedTextLength() public abstract int
      * java.awt.im.InputMethodRequests.getCommittedTextLength()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#getCommittedTextLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +104,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.im.InputMethodRequests#getInsertPositionOffset() public abstract int
      * java.awt.im.InputMethodRequests.getInsertPositionOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#getInsertPositionOffset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,9 +124,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputMethodRequests#getLocationOffset(int,int) public abstract
+     * Test method for {@link java.awt.im.InputMethodRequests#getLocationOffset(int, int) public abstract
      * java.awt.font.TextHitInfo java.awt.im.InputMethodRequests.getLocationOffset(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#getLocationOffset(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,7 +150,13 @@ extends J8UnitTest<SUT> {
      * {@link java.awt.im.InputMethodRequests#getSelectedText(java.text.AttributedCharacterIterator.Attribute[]) public
      * abstract java.text.AttributedCharacterIterator
      * java.awt.im.InputMethodRequests.getSelectedText(java.text.AttributedCharacterIterator$Attribute[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#getSelectedText(java.text.AttributedCharacterIterator.Attribute[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,7 +172,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.im.InputMethodRequests#getTextLocation(java.awt.font.TextHitInfo) public abstract
      * java.awt.Rectangle java.awt.im.InputMethodRequests.getTextLocation(java.awt.font.TextHitInfo)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.InputMethodRequests#getTextLocation(java.awt.font.TextHitInfo)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

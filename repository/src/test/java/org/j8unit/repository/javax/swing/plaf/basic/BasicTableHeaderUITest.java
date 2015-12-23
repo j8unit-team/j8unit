@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicTableHeaderUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests<javax.swing.plaf.basic.BasicTableHeaderUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicTableHeaderUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicTableHeaderUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests<
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicTableHeaderUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicTableHeaderUI();
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.net.ssl.SSLServerSocket class javax.net.ssl.SSLServerSocket}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.net.ssl.SSLServerSocket class javax.net.ssl.SSLServerSocket},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.net.ssl.SSLServerSocketTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.net.ssl.SSLServerSocketClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.net.ssl.SSLServerSocketClassTests
+ *
+ * @j8unit.aim javax.net.ssl.SSLServerSocket
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getEnabledCipherSuites() public abstract java.lang.String[]
      * javax.net.ssl.SSLServerSocket.getEnabledCipherSuites()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getEnabledCipherSuites()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getEnabledProtocols() public abstract java.lang.String[]
      * javax.net.ssl.SSLServerSocket.getEnabledProtocols()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getEnabledProtocols()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getEnableSessionCreation() public abstract boolean
      * javax.net.ssl.SSLServerSocket.getEnableSessionCreation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getEnableSessionCreation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getNeedClientAuth() public abstract boolean
      * javax.net.ssl.SSLServerSocket.getNeedClientAuth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getNeedClientAuth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getSSLParameters() public javax.net.ssl.SSLParameters
      * javax.net.ssl.SSLServerSocket.getSSLParameters()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getSSLParameters()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getSupportedCipherSuites() public abstract
      * java.lang.String[] javax.net.ssl.SSLServerSocket.getSupportedCipherSuites()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getSupportedCipherSuites()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getSupportedProtocols() public abstract java.lang.String[]
      * javax.net.ssl.SSLServerSocket.getSupportedProtocols()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getSupportedProtocols()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getUseClientMode() public abstract boolean
      * javax.net.ssl.SSLServerSocket.getUseClientMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getUseClientMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#getWantClientAuth() public abstract boolean
      * javax.net.ssl.SSLServerSocket.getWantClientAuth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#getWantClientAuth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setEnabledCipherSuites(java.lang.String[]) public abstract
      * void javax.net.ssl.SSLServerSocket.setEnabledCipherSuites(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setEnabledCipherSuites(java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,7 +251,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setEnabledProtocols(java.lang.String[]) public abstract void
      * javax.net.ssl.SSLServerSocket.setEnabledProtocols(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setEnabledProtocols(java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +273,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setEnableSessionCreation(boolean) public abstract void
      * javax.net.ssl.SSLServerSocket.setEnableSessionCreation(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setEnableSessionCreation(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +295,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setNeedClientAuth(boolean) public abstract void
      * javax.net.ssl.SSLServerSocket.setNeedClientAuth(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setNeedClientAuth(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +317,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setSSLParameters(javax.net.ssl.SSLParameters) public void
      * javax.net.ssl.SSLServerSocket.setSSLParameters(javax.net.ssl.SSLParameters)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setSSLParameters(javax.net.ssl.SSLParameters)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,7 +339,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setUseClientMode(boolean) public abstract void
      * javax.net.ssl.SSLServerSocket.setUseClientMode(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setUseClientMode(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -266,7 +361,13 @@ extends org.j8unit.repository.java.net.ServerSocketTests<SUT> {
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocket#setWantClientAuth(boolean) public abstract void
      * javax.net.ssl.SSLServerSocket.setWantClientAuth(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.net.ssl.SSLServerSocket#setWantClientAuth(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.file.ClosedDirectoryStreamException class
+ * Reusable J8Unit test interface for {@linkplain java.nio.file.ClosedDirectoryStreamException class
  * java.nio.file.ClosedDirectoryStreamException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionClassTests
+ *
+ * @j8unit.aim java.nio.file.ClosedDirectoryStreamException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

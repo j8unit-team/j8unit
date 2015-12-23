@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.stub.java.rmi._Remote_Stub class org.omg.stub.java.rmi._Remote_Stub}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.stub.java.rmi._Remote_Stub class
+ * org.omg.stub.java.rmi._Remote_Stub}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests
+ *
+ * @j8unit.aim org.omg.stub.java.rmi._Remote_Stub
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT>, org.j8unit.repository.j
      * <p>
      * Test method for {@link org.omg.stub.java.rmi._Remote_Stub#_ids() public java.lang.String[]
      * org.omg.stub.java.rmi._Remote_Stub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.stub.java.rmi._Remote_Stub#_ids()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class HTMLEditorKitTest
 implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests<javax.swing.text.html.HTMLEditorKit> {
 
+    @Override
+    public javax.swing.text.html.HTMLEditorKit createNewSUT() {
+        return new javax.swing.text.html.HTMLEditorKit();
+    }
+
     @RunWith(J8Unit4.class)
     public static class HTMLFactoryTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLFactoryTests<javax.swing.text.html.HTMLEditorKit.HTMLFactory> {
@@ -20,13 +25,12 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests<javax.
     }
 
     @RunWith(J8Unit4.class)
-    public static class InsertHTMLTextActionTest
-    implements
-    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests<javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> {
+    public static class ParserCallbackTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests<javax.swing.text.html.HTMLEditorKit.ParserCallback> {
 
         @Override
-        public javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction] available.");
+        public javax.swing.text.html.HTMLEditorKit.ParserCallback createNewSUT() {
+            return new javax.swing.text.html.HTMLEditorKit.ParserCallback();
         }
 
     }
@@ -43,19 +47,15 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests<javax.
     }
 
     @RunWith(J8Unit4.class)
-    public static class ParserCallbackTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests<javax.swing.text.html.HTMLEditorKit.ParserCallback> {
+    public static class InsertHTMLTextActionTest
+    implements
+    org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests<javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> {
 
         @Override
-        public javax.swing.text.html.HTMLEditorKit.ParserCallback createNewSUT() {
-            return new javax.swing.text.html.HTMLEditorKit.ParserCallback();
+        public javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.text.html.HTMLEditorKit createNewSUT() {
-        return new javax.swing.text.html.HTMLEditorKit();
     }
 
 }

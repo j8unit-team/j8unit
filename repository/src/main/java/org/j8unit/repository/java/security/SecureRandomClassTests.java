@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.SecureRandom class java.security.SecureRandom}, containing all class relevant
- * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.security.SecureRandom class java.security.SecureRandom},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.security.SecureRandomTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.security.SecureRandomTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.SecureRandomTests
+ *
+ * @j8unit.aim java.security.SecureRandom
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,7 +40,15 @@ public abstract interface SecureRandomClassTests<SUT extends java.security.Secur
 extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link java.security.SecureRandom#SecureRandom() public java.security.SecureRandom()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#SecureRandom()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -50,8 +61,16 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link java.security.SecureRandom#SecureRandom(byte[]) public java.security.SecureRandom(byte[])}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#SecureRandom(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -68,7 +87,13 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
      * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String) public static
      * java.security.SecureRandom java.security.SecureRandom.getInstance(java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#getInstance(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,10 +107,16 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String,java.security.Provider) public
+     * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String, java.security.Provider) public
      * static java.security.SecureRandom java.security.SecureRandom.getInstance(java.lang.String,java.security.Provider)
      * throws java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#getInstance(java.lang.String, java.security.Provider)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,10 +130,16 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String,java.lang.String) public static
+     * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String, java.lang.String) public static
      * java.security.SecureRandom java.security.SecureRandom.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#getInstance(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,7 +155,13 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
      * <p>
      * Test method for {@link java.security.SecureRandom#getInstanceStrong() public static java.security.SecureRandom
      * java.security.SecureRandom.getInstanceStrong() throws java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#getInstanceStrong()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,7 +177,13 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
      * <p>
      * Test method for {@link java.security.SecureRandom#getSeed(int) public static byte[]
      * java.security.SecureRandom.getSeed(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.SecureRandom#getSeed(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,6 +195,11 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.security.SecureRandom#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.attribute.PrintRequestAttribute interface
+ * Reusable J8Unit test interface for {@linkplain javax.print.attribute.PrintRequestAttribute interface
  * javax.print.attribute.PrintRequestAttribute}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests
+ *
+ * @j8unit.aim javax.print.attribute.PrintRequestAttribute
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

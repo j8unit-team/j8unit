@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DesktopClassTest
 implements org.j8unit.repository.java.awt.DesktopClassTests<java.awt.Desktop> {
 
+    @Override
+    public Class<java.awt.Desktop> createNewSUT() {
+        return java.awt.Desktop.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ActionClassTest
     implements org.j8unit.repository.java.awt.DesktopClassTests.ActionClassTests<java.awt.Desktop.Action> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.awt.DesktopClassTests<java.awt.Desktop> {
             return java.awt.Desktop.Action.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.Desktop> createNewSUT() {
-        return java.awt.Desktop.class;
     }
 
 }

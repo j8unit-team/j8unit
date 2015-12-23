@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.cert.X509Certificate class java.security.cert.X509Certificate}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.security.cert.X509Certificate class
+ * java.security.cert.X509Certificate}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.security.cert.X509CertificateTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.security.cert.X509CertificateClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.cert.X509CertificateClassTests
+ *
+ * @j8unit.aim java.security.cert.X509Certificate
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * Test method for {@link java.security.cert.X509Certificate#checkValidity() public abstract void
      * java.security.cert.X509Certificate.checkValidity() throws
      * java.security.cert.CertificateExpiredException,java.security.cert.CertificateNotYetValidException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#checkValidity()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * Test method for {@link java.security.cert.X509Certificate#checkValidity(java.util.Date) public abstract void
      * java.security.cert.X509Certificate.checkValidity(java.util.Date) throws
      * java.security.cert.CertificateExpiredException,java.security.cert.CertificateNotYetValidException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#checkValidity(java.util.Date)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getBasicConstraints() public abstract int
      * java.security.cert.X509Certificate.getBasicConstraints()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getBasicConstraints()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getExtendedKeyUsage() public java.util.List
      * java.security.cert.X509Certificate.getExtendedKeyUsage() throws java.security.cert.CertificateParsingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getExtendedKeyUsage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * Test method for {@link java.security.cert.X509Certificate#getIssuerAlternativeNames() public java.util.Collection
      * java.security.cert.X509Certificate.getIssuerAlternativeNames() throws
      * java.security.cert.CertificateParsingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getIssuerAlternativeNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getIssuerDN() public abstract java.security.Principal
      * java.security.cert.X509Certificate.getIssuerDN()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getIssuerDN()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +166,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getIssuerUniqueID() public abstract boolean[]
      * java.security.cert.X509Certificate.getIssuerUniqueID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getIssuerUniqueID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,7 +188,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getIssuerX500Principal() public
      * javax.security.auth.x500.X500Principal java.security.cert.X509Certificate.getIssuerX500Principal()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getIssuerX500Principal()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,7 +210,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getKeyUsage() public abstract boolean[]
      * java.security.cert.X509Certificate.getKeyUsage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getKeyUsage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,7 +232,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getNotAfter() public abstract java.util.Date
      * java.security.cert.X509Certificate.getNotAfter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getNotAfter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,7 +254,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getNotBefore() public abstract java.util.Date
      * java.security.cert.X509Certificate.getNotBefore()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getNotBefore()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,7 +276,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSerialNumber() public abstract java.math.BigInteger
      * java.security.cert.X509Certificate.getSerialNumber()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSerialNumber()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -221,7 +298,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSigAlgName() public abstract java.lang.String
      * java.security.cert.X509Certificate.getSigAlgName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSigAlgName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,7 +320,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSigAlgOID() public abstract java.lang.String
      * java.security.cert.X509Certificate.getSigAlgOID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSigAlgOID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,7 +342,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSigAlgParams() public abstract byte[]
      * java.security.cert.X509Certificate.getSigAlgParams()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSigAlgParams()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,7 +364,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSignature() public abstract byte[]
      * java.security.cert.X509Certificate.getSignature()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSignature()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,7 +387,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * Test method for {@link java.security.cert.X509Certificate#getSubjectAlternativeNames() public
      * java.util.Collection java.security.cert.X509Certificate.getSubjectAlternativeNames() throws
      * java.security.cert.CertificateParsingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSubjectAlternativeNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,7 +409,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSubjectDN() public abstract java.security.Principal
      * java.security.cert.X509Certificate.getSubjectDN()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSubjectDN()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -318,7 +431,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSubjectUniqueID() public abstract boolean[]
      * java.security.cert.X509Certificate.getSubjectUniqueID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSubjectUniqueID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -334,7 +453,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getSubjectX500Principal() public
      * javax.security.auth.x500.X500Principal java.security.cert.X509Certificate.getSubjectX500Principal()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getSubjectX500Principal()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -350,7 +475,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getTBSCertificate() public abstract byte[]
      * java.security.cert.X509Certificate.getTBSCertificate() throws java.security.cert.CertificateEncodingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getTBSCertificate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -366,7 +497,13 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.security.cert.X509Certificate#getVersion() public abstract int
      * java.security.cert.X509Certificate.getVersion()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#getVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -380,11 +517,17 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509Certificate#verify(java.security.PublicKey,java.security.Provider)
+     * Test method for {@link java.security.cert.X509Certificate#verify(java.security.PublicKey, java.security.Provider)
      * public void java.security.cert.X509Certificate.verify(java.security.PublicKey,java.security.Provider) throws
      * java.security.cert.CertificateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.SignatureException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.cert.X509Certificate#verify(java.security.PublicKey, java.security.Provider)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

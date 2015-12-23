@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.channels.ServerSocketChannel class java.nio.channels.ServerSocketChannel}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.nio.channels.ServerSocketChannel class
+ * java.nio.channels.ServerSocketChannel}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.nio.channels.ServerSocketChannelTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.channels.ServerSocketChannelClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.channels.ServerSocketChannelClassTests
+ *
+ * @j8unit.aim java.nio.channels.ServerSocketChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.nio.channels.ServerSocketChannel#accept() public abstract
      * java.nio.channels.SocketChannel java.nio.channels.ServerSocketChannel.accept() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#accept()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
      * Test method for {@link java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress) public final
      * java.nio.channels.ServerSocketChannel java.nio.channels.ServerSocketChannel.bind(java.net.SocketAddress) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,10 +75,16 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress,int) public abstract
+     * Test method for {@link java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress, int) public abstract
      * java.nio.channels.ServerSocketChannel java.nio.channels.ServerSocketChannel.bind(java.net.SocketAddress,int)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,9 +99,17 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.nio.channels.Channel</li>
+     * <li>class java.nio.channels.SelectableChannel</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -93,7 +124,13 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.nio.channels.ServerSocketChannel#getLocalAddress() public abstract
      * java.net.SocketAddress java.nio.channels.ServerSocketChannel.getLocalAddress() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#getLocalAddress()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,9 +146,17 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.nio.channels.Channel</li>
+     * <li>class java.nio.channels.SelectableChannel</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -124,11 +169,17 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.ServerSocketChannel#setOption(java.net.SocketOption,java.lang.Object)
+     * Test method for {@link java.nio.channels.ServerSocketChannel#setOption(java.net.SocketOption, java.lang.Object)
      * public abstract java.nio.channels.ServerSocketChannel
      * java.nio.channels.ServerSocketChannel.setOption(java.net.SocketOption,java.lang.Object) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#setOption(java.net.SocketOption, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +196,13 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.nio.channels.ServerSocketChannel#socket() public abstract java.net.ServerSocket
      * java.nio.channels.ServerSocketChannel.socket()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#socket()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,7 +218,13 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
      * <p>
      * Test method for {@link java.nio.channels.ServerSocketChannel#validOps() public final int
      * java.nio.channels.ServerSocketChannel.validOps()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.ServerSocketChannel#validOps()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

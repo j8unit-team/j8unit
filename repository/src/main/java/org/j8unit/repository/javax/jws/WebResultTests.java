@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.jws.WebResult interface javax.jws.WebResult}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.jws.WebResult interface javax.jws.WebResult}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.jws.WebResultTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.jws.WebResultClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.jws.WebResultClassTests
+ *
+ * @j8unit.aim javax.jws.WebResult
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,7 +29,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.jws.WebResult#header() public abstract boolean javax.jws.WebResult.header()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.jws.WebResult#header()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -40,7 +50,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.jws.WebResult#name() public abstract java.lang.String javax.jws.WebResult.name()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.jws.WebResult#name()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,7 +72,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * <p>
      * Test method for {@link javax.jws.WebResult#partName() public abstract java.lang.String
      * javax.jws.WebResult.partName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.jws.WebResult#partName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,7 +94,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * <p>
      * Test method for {@link javax.jws.WebResult#targetNamespace() public abstract java.lang.String
      * javax.jws.WebResult.targetNamespace()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.jws.WebResult#targetNamespace()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

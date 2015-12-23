@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.naming.spi.NamingManager class javax.naming.spi.NamingManager}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.naming.spi.NamingManager class javax.naming.spi.NamingManager},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.naming.spi.NamingManagerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.naming.spi.NamingManagerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.naming.spi.NamingManagerClassTests
+ *
+ * @j8unit.aim javax.naming.spi.NamingManager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.script.SimpleScriptContext class javax.script.SimpleScriptContext}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.script.SimpleScriptContext class
+ * javax.script.SimpleScriptContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.script.SimpleScriptContextTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.script.SimpleScriptContextClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.script.SimpleScriptContextClassTests
+ *
+ * @j8unit.aim javax.script.SimpleScriptContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getAttribute(java.lang.String) public java.lang.Object
      * javax.script.SimpleScriptContext.getAttribute(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getAttribute(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,9 +52,15 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleScriptContext#getAttribute(java.lang.String,int) public
+     * Test method for {@link javax.script.SimpleScriptContext#getAttribute(java.lang.String, int) public
      * java.lang.Object javax.script.SimpleScriptContext.getAttribute(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getAttribute(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getAttributesScope(java.lang.String) public int
      * javax.script.SimpleScriptContext.getAttributesScope(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getAttributesScope(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getBindings(int) public javax.script.Bindings
      * javax.script.SimpleScriptContext.getBindings(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getBindings(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getErrorWriter() public java.io.Writer
      * javax.script.SimpleScriptContext.getErrorWriter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getErrorWriter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +146,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getReader() public java.io.Reader
      * javax.script.SimpleScriptContext.getReader()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getReader()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +169,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getScopes() public java.util.List
      * javax.script.SimpleScriptContext.getScopes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getScopes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +192,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#getWriter() public java.io.Writer
      * javax.script.SimpleScriptContext.getWriter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#getWriter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,9 +213,15 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleScriptContext#removeAttribute(java.lang.String,int) public
+     * Test method for {@link javax.script.SimpleScriptContext#removeAttribute(java.lang.String, int) public
      * java.lang.Object javax.script.SimpleScriptContext.removeAttribute(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#removeAttribute(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -177,9 +236,15 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleScriptContext#setAttribute(java.lang.String,java.lang.Object,int)
+     * Test method for {@link javax.script.SimpleScriptContext#setAttribute(java.lang.String, java.lang.Object, int)
      * public void javax.script.SimpleScriptContext.setAttribute(java.lang.String,java.lang.Object,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#setAttribute(java.lang.String, java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,9 +259,15 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleScriptContext#setBindings(javax.script.Bindings,int) public void
+     * Test method for {@link javax.script.SimpleScriptContext#setBindings(javax.script.Bindings, int) public void
      * javax.script.SimpleScriptContext.setBindings(javax.script.Bindings,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#setBindings(javax.script.Bindings, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,7 +284,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#setErrorWriter(java.io.Writer) public void
      * javax.script.SimpleScriptContext.setErrorWriter(java.io.Writer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#setErrorWriter(java.io.Writer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -230,7 +307,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#setReader(java.io.Reader) public void
      * javax.script.SimpleScriptContext.setReader(java.io.Reader)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#setReader(java.io.Reader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -247,7 +330,13 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link javax.script.SimpleScriptContext#setWriter(java.io.Writer) public void
      * javax.script.SimpleScriptContext.setWriter(java.io.Writer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.script.SimpleScriptContext#setWriter(java.io.Writer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

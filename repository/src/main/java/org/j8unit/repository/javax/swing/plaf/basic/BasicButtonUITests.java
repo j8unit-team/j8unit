@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicButtonUI class javax.swing.plaf.basic.BasicButtonUI}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicButtonUI class
+ * javax.swing.plaf.basic.BasicButtonUI}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaseline(javax.swing.JComponent,int,int) public
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaseline(javax.swing.JComponent, int, int) public
      * int javax.swing.plaf.basic.BasicButtonUI.getBaseline(javax.swing.JComponent,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#getBaseline(javax.swing.JComponent, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaselineResizeBehavior(javax.swing.JComponent)
      * public java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicButtonUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#getBaselineResizeBehavior(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getDefaultTextIconGap(javax.swing.AbstractButton)
      * public int javax.swing.plaf.basic.BasicButtonUI.getDefaultTextIconGap(javax.swing.AbstractButton)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#getDefaultTextIconGap(javax.swing.AbstractButton)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getMaximumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicButtonUI.getMaximumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#getMaximumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getMinimumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicButtonUI.getMinimumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#getMinimumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +146,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getPreferredSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicButtonUI.getPreferredSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#getPreferredSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +169,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicButtonUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#installUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,9 +190,15 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#paint(java.awt.Graphics, javax.swing.JComponent)
      * public void javax.swing.plaf.basic.BasicButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#paint(java.awt.Graphics, javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +215,13 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicButtonUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicButtonUI#uninstallUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class ActivationGroupDescTest
 implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests<java.rmi.activation.ActivationGroupDesc> {
 
+    @Override
+    public java.rmi.activation.ActivationGroupDesc createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.rmi.activation.ActivationGroupDesc] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class CommandEnvironmentTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests<ja
             throw new AssumptionViolatedException("There is no default constructor for [java.rmi.activation.ActivationGroupDesc.CommandEnvironment] available.");
         }
 
-    }
-
-    @Override
-    public java.rmi.activation.ActivationGroupDesc createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.rmi.activation.ActivationGroupDesc] available.");
     }
 
 }

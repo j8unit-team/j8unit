@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.attribute.standard.MediaSizeName class
+ * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSizeName class
  * javax.print.attribute.standard.MediaSizeName}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameClassTests
+ *
+ * @j8unit.aim javax.print.attribute.standard.MediaSizeName
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

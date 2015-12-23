@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.FilteredImageSource class java.awt.image.FilteredImageSource}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.FilteredImageSource class
+ * java.awt.image.FilteredImageSource}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.image.FilteredImageSourceTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.FilteredImageSourceClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.FilteredImageSourceClassTests
+ *
+ * @j8unit.aim java.awt.image.FilteredImageSource
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
      * <p>
      * Test method for {@link java.awt.image.FilteredImageSource#addConsumer(java.awt.image.ImageConsumer) public
      * synchronized void java.awt.image.FilteredImageSource.addConsumer(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.FilteredImageSource#addConsumer(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
      * <p>
      * Test method for {@link java.awt.image.FilteredImageSource#isConsumer(java.awt.image.ImageConsumer) public
      * synchronized boolean java.awt.image.FilteredImageSource.isConsumer(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.FilteredImageSource#isConsumer(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
      * <p>
      * Test method for {@link java.awt.image.FilteredImageSource#removeConsumer(java.awt.image.ImageConsumer) public
      * synchronized void java.awt.image.FilteredImageSource.removeConsumer(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.FilteredImageSource#removeConsumer(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +101,13 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
      * Test method for
      * {@link java.awt.image.FilteredImageSource#requestTopDownLeftRightResend(java.awt.image.ImageConsumer) public void
      * java.awt.image.FilteredImageSource.requestTopDownLeftRightResend(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.FilteredImageSource#requestTopDownLeftRightResend(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +124,13 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
      * <p>
      * Test method for {@link java.awt.image.FilteredImageSource#startProduction(java.awt.image.ImageConsumer) public
      * void java.awt.image.FilteredImageSource.startProduction(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.FilteredImageSource#startProduction(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class NormalizerTest
 implements org.j8unit.repository.java.text.NormalizerTests<java.text.Normalizer> {
 
+    @Override
+    public java.text.Normalizer createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.text.Normalizer] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FormTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.text.NormalizerTests<java.text.Normalizer>
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.text.Normalizer createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.text.Normalizer] available.");
     }
 
 }

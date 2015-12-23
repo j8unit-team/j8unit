@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class JInternalFrameTest
 implements org.j8unit.repository.javax.swing.JInternalFrameTests<javax.swing.JInternalFrame> {
 
+    @Override
+    public javax.swing.JInternalFrame createNewSUT() {
+        return new javax.swing.JInternalFrame();
+    }
+
     @RunWith(J8Unit4.class)
     public static class JDesktopIconTest
     implements org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests<javax.swing.JInternalFrame.JDesktopIcon> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.JInternalFrameTests<javax.swing.JIn
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.JInternalFrame.JDesktopIcon] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.JInternalFrame createNewSUT() {
-        return new javax.swing.JInternalFrame();
     }
 
 }

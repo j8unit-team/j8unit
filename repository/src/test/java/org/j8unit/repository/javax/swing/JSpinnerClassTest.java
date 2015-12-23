@@ -7,26 +7,9 @@ import org.junit.runner.RunWith;
 public class JSpinnerClassTest
 implements org.j8unit.repository.javax.swing.JSpinnerClassTests<javax.swing.JSpinner> {
 
-    @RunWith(J8Unit4.class)
-    public static class DateEditorClassTest
-    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests<javax.swing.JSpinner.DateEditor> {
-
-        @Override
-        public Class<javax.swing.JSpinner.DateEditor> createNewSUT() {
-            return javax.swing.JSpinner.DateEditor.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultEditorClassTest
-    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<javax.swing.JSpinner.DefaultEditor> {
-
-        @Override
-        public Class<javax.swing.JSpinner.DefaultEditor> createNewSUT() {
-            return javax.swing.JSpinner.DefaultEditor.class;
-        }
-
+    @Override
+    public Class<javax.swing.JSpinner> createNewSUT() {
+        return javax.swing.JSpinner.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -51,9 +34,26 @@ implements org.j8unit.repository.javax.swing.JSpinnerClassTests<javax.swing.JSpi
 
     }
 
-    @Override
-    public Class<javax.swing.JSpinner> createNewSUT() {
-        return javax.swing.JSpinner.class;
+    @RunWith(J8Unit4.class)
+    public static class DateEditorClassTest
+    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests<javax.swing.JSpinner.DateEditor> {
+
+        @Override
+        public Class<javax.swing.JSpinner.DateEditor> createNewSUT() {
+            return javax.swing.JSpinner.DateEditor.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultEditorClassTest
+    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<javax.swing.JSpinner.DefaultEditor> {
+
+        @Override
+        public Class<javax.swing.JSpinner.DefaultEditor> createNewSUT() {
+            return javax.swing.JSpinner.DefaultEditor.class;
+        }
+
     }
 
 }

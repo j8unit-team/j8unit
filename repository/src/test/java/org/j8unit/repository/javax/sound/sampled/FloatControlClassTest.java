@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class FloatControlClassTest
 implements org.j8unit.repository.javax.sound.sampled.FloatControlClassTests<javax.sound.sampled.FloatControl> {
 
+    @Override
+    public Class<javax.sound.sampled.FloatControl> createNewSUT() {
+        return javax.sound.sampled.FloatControl.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.FloatControlClassTests.TypeClassTests<javax.sound.sampled.FloatControl.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.FloatControlClassTests<java
             return javax.sound.sampled.FloatControl.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.FloatControl> createNewSUT() {
-        return javax.sound.sampled.FloatControl.class;
     }
 
 }

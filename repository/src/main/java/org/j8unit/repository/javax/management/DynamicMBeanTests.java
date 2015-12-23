@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,19 +9,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.DynamicMBean interface javax.management.DynamicMBean}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.DynamicMBean interface javax.management.DynamicMBean}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.DynamicMBeanTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.DynamicMBeanClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.DynamicMBeanClassTests
+ *
+ * @j8unit.aim javax.management.DynamicMBean
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynamicMBeanTests<SUT extends javax.management.DynamicMBean>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
@@ -29,7 +34,13 @@ extends J8UnitTest<SUT> {
      * java.lang.Object javax.management.DynamicMBean.getAttribute(java.lang.String) throws
      * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.DynamicMBean#getAttribute(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +56,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.DynamicMBean#getAttributes(java.lang.String[]) public abstract
      * javax.management.AttributeList javax.management.DynamicMBean.getAttributes(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.DynamicMBean#getAttributes(java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.management.DynamicMBean#getMBeanInfo() public abstract javax.management.MBeanInfo
      * javax.management.DynamicMBean.getMBeanInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.DynamicMBean#getMBeanInfo()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,11 +99,17 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.DynamicMBean#invoke(java.lang.String,java.lang.Object[],java.lang.String[]) public
+     * {@link javax.management.DynamicMBean#invoke(java.lang.String, java.lang.Object[], java.lang.String[]) public
      * abstract java.lang.Object
      * javax.management.DynamicMBean.invoke(java.lang.String,java.lang.Object[],java.lang.String[]) throws
      * javax.management.MBeanException,javax.management.ReflectionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.DynamicMBean#invoke(java.lang.String, java.lang.Object[], java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,7 +127,13 @@ extends J8UnitTest<SUT> {
      * void javax.management.DynamicMBean.setAttribute(javax.management.Attribute) throws
      * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.DynamicMBean#setAttribute(javax.management.Attribute)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,7 +150,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link javax.management.DynamicMBean#setAttributes(javax.management.AttributeList) public
      * abstract javax.management.AttributeList
      * javax.management.DynamicMBean.setAttributes(javax.management.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.DynamicMBean#setAttributes(javax.management.AttributeList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

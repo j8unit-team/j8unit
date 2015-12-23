@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.prefs.InvalidPreferencesFormatException class
+ * Reusable J8Unit test interface for {@linkplain java.util.prefs.InvalidPreferencesFormatException class
  * java.util.prefs.InvalidPreferencesFormatException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExceptionClassTests
+ *
+ * @j8unit.aim java.util.prefs.InvalidPreferencesFormatException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

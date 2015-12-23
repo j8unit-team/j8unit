@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class XmlTypeClassTest
 implements org.j8unit.repository.javax.xml.bind.annotation.XmlTypeClassTests<javax.xml.bind.annotation.XmlType> {
 
+    @Override
+    public Class<javax.xml.bind.annotation.XmlType> createNewSUT() {
+        return javax.xml.bind.annotation.XmlType.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
     implements org.j8unit.repository.javax.xml.bind.annotation.XmlTypeClassTests.DEFAULTClassTests<javax.xml.bind.annotation.XmlType.DEFAULT> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlTypeClassTests<jav
             return javax.xml.bind.annotation.XmlType.DEFAULT.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.annotation.XmlType> createNewSUT() {
-        return javax.xml.bind.annotation.XmlType.class;
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.metal.MetalScrollPaneUI class javax.swing.plaf.metal.MetalScrollPaneUI},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.metal.MetalScrollPaneUI class
+ * javax.swing.plaf.metal.MetalScrollPaneUI}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalScrollPaneUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.metal.MetalScrollPaneUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.metal.MetalScrollPaneUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.metal.MetalScrollPaneUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT>
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalScrollPaneUI#installListeners(javax.swing.JScrollPane) public
      * void javax.swing.plaf.metal.MetalScrollPaneUI.installListeners(javax.swing.JScrollPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.metal.MetalScrollPaneUI#installListeners(javax.swing.JScrollPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT>
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalScrollPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalScrollPaneUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.metal.MetalScrollPaneUI#installUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT>
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalScrollPaneUI#uninstallListeners(javax.swing.JScrollPane)
      * public void javax.swing.plaf.metal.MetalScrollPaneUI.uninstallListeners(javax.swing.JScrollPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.metal.MetalScrollPaneUI#uninstallListeners(javax.swing.JScrollPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT>
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalScrollPaneUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalScrollPaneUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.metal.MetalScrollPaneUI#uninstallUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

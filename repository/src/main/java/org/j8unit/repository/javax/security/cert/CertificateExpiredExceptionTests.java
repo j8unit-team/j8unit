@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.security.cert.CertificateExpiredException class
+ * Reusable J8Unit test interface for {@linkplain javax.security.cert.CertificateExpiredException class
  * javax.security.cert.CertificateExpiredException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.security.cert.CertificateExpiredExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.security.cert.CertificateExpiredExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.security.cert.CertificateExpiredExceptionClassTests
+ *
+ * @j8unit.aim javax.security.cert.CertificateExpiredException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

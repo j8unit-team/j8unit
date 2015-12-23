@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class DatatypeConstantsTest
 implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<javax.xml.datatype.DatatypeConstants> {
 
+    @Override
+    public javax.xml.datatype.DatatypeConstants createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.datatype.DatatypeConstants] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class FieldTest
     implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests.FieldTests<javax.xml.datatype.DatatypeConstants.Field> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<javax
             throw new AssumptionViolatedException("There is no default constructor for [javax.xml.datatype.DatatypeConstants.Field] available.");
         }
 
-    }
-
-    @Override
-    public javax.xml.datatype.DatatypeConstants createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.datatype.DatatypeConstants] available.");
     }
 
 }

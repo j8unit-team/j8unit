@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.JAXBException class javax.xml.bind.JAXBException}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.JAXBException class javax.xml.bind.JAXBException},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.bind.JAXBExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests
+ *
+ * @j8unit.aim javax.xml.bind.JAXBException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#getCause() public java.lang.Throwable
      * javax.xml.bind.JAXBException.getCause()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#getCause()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#getErrorCode() public java.lang.String
      * javax.xml.bind.JAXBException.getErrorCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#getErrorCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#getLinkedException() public java.lang.Throwable
      * javax.xml.bind.JAXBException.getLinkedException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#getLinkedException()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#printStackTrace() public void
      * javax.xml.bind.JAXBException.printStackTrace()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#printStackTrace()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#printStackTrace(java.io.PrintStream) public void
      * javax.xml.bind.JAXBException.printStackTrace(java.io.PrintStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#printStackTrace(java.io.PrintStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#printStackTrace(java.io.PrintWriter) public void
      * javax.xml.bind.JAXBException.printStackTrace(java.io.PrintWriter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#printStackTrace(java.io.PrintWriter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +167,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#setLinkedException(java.lang.Throwable) public void
      * javax.xml.bind.JAXBException.setLinkedException(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#setLinkedException(java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,7 +189,13 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.JAXBException#toString() public java.lang.String
      * javax.xml.bind.JAXBException.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.JAXBException#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

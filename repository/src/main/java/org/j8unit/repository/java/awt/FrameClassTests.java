@@ -9,26 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.Frame class java.awt.Frame}, containing all class relevant test methods (at least the
- * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
- * containing the instance relevant test methods is {@link org.j8unit.repository.java.awt.FrameTests}.
+ * Reusable J8Unit test interface for {@linkplain java.awt.Frame class java.awt.Frame}, containing all class relevant
+ * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+ * counterpart J8Unit test interface containing the instance relevant test methods is
+ * {@link org.j8unit.repository.java.awt.FrameTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.awt.FrameTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.FrameTests
+ *
+ * @j8unit.aim java.awt.Frame
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -36,7 +40,15 @@ public abstract interface FrameClassTests<SUT extends java.awt.Frame>
 extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link java.awt.Frame#Frame() public java.awt.Frame() throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Frame#Frame()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -49,8 +61,16 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     }
 
     /**
+     * <p>
      * Test method for {@link java.awt.Frame#Frame(java.awt.GraphicsConfiguration) public
      * java.awt.Frame(java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Frame#Frame(java.awt.GraphicsConfiguration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,8 +83,16 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     }
 
     /**
+     * <p>
      * Test method for {@link java.awt.Frame#Frame(java.lang.String) public java.awt.Frame(java.lang.String) throws
      * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Frame#Frame(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,8 +105,16 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     }
 
     /**
-     * Test method for {@link java.awt.Frame#Frame(java.lang.String,java.awt.GraphicsConfiguration) public
+     * <p>
+     * Test method for {@link java.awt.Frame#Frame(java.lang.String, java.awt.GraphicsConfiguration) public
      * java.awt.Frame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Frame#Frame(java.lang.String, java.awt.GraphicsConfiguration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -87,13 +123,19 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Frame sut = null; // = new Frame(java.lang.String,java.awt.GraphicsConfiguration);
+        final java.awt.Frame sut = null; // = new Frame(java.lang.String, java.awt.GraphicsConfiguration);
     }
 
     /**
      * <p>
      * Test method for {@link java.awt.Frame#getFrames() public static java.awt.Frame[] java.awt.Frame.getFrames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.Frame#getFrames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,6 +147,11 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.awt.Frame#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

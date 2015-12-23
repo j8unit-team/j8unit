@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class NumericShaperTest
 implements org.j8unit.repository.java.awt.font.NumericShaperTests<java.awt.font.NumericShaper> {
 
+    @Override
+    public java.awt.font.NumericShaper createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.font.NumericShaper] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RangeTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.awt.font.NumericShaperTests<java.awt.font.
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.awt.font.NumericShaper createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.awt.font.NumericShaper] available.");
     }
 
 }

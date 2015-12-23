@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JPopupMenuClassTest
 implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<javax.swing.JPopupMenu> {
 
+    @Override
+    public Class<javax.swing.JPopupMenu> createNewSUT() {
+        return javax.swing.JPopupMenu.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class SeparatorClassTest
     implements org.j8unit.repository.javax.swing.JPopupMenuClassTests.SeparatorClassTests<javax.swing.JPopupMenu.Separator> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<javax.swing.JP
             return javax.swing.JPopupMenu.Separator.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JPopupMenu> createNewSUT() {
-        return javax.swing.JPopupMenu.class;
     }
 
 }

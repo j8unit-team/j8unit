@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class Path2DClassTest
 implements org.j8unit.repository.java.awt.geom.Path2DClassTests<java.awt.geom.Path2D> {
 
-    @RunWith(J8Unit4.class)
-    public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.Path2DClassTests.DoubleClassTests<java.awt.geom.Path2D.Double> {
-
-        @Override
-        public Class<java.awt.geom.Path2D.Double> createNewSUT() {
-            return java.awt.geom.Path2D.Double.class;
-        }
-
+    @Override
+    public Class<java.awt.geom.Path2D> createNewSUT() {
+        return java.awt.geom.Path2D.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<java.awt.geom.Pa
 
     }
 
-    @Override
-    public Class<java.awt.geom.Path2D> createNewSUT() {
-        return java.awt.geom.Path2D.class;
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.Path2DClassTests.DoubleClassTests<java.awt.geom.Path2D.Double> {
+
+        @Override
+        public Class<java.awt.geom.Path2D.Double> createNewSUT() {
+            return java.awt.geom.Path2D.Double.class;
+        }
+
     }
 
 }

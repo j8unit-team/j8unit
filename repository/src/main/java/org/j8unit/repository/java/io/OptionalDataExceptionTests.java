@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.OptionalDataException class java.io.OptionalDataException}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.io.OptionalDataException class java.io.OptionalDataException},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.io.OptionalDataExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.io.OptionalDataExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.OptionalDataExceptionClassTests
+ *
+ * @j8unit.aim java.io.OptionalDataException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

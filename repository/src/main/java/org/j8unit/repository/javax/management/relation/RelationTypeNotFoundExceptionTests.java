@@ -5,15 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.relation.RelationTypeNotFoundException class
+ * Reusable J8Unit test interface for {@linkplain javax.management.relation.RelationTypeNotFoundException class
  * javax.management.relation.RelationTypeNotFoundException}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+ * class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.relation.RelationTypeNotFoundExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.relation.RelationTypeNotFoundExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.relation.RelationTypeNotFoundExceptionClassTests
+ *
+ * @j8unit.aim javax.management.relation.RelationTypeNotFoundException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

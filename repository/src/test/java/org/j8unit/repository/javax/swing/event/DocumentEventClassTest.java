@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DocumentEventClassTest
 implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<javax.swing.event.DocumentEvent> {
 
+    @Override
+    public Class<javax.swing.event.DocumentEvent> createNewSUT() {
+        return javax.swing.event.DocumentEvent.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ElementChangeClassTest
     implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests<javax.swing.event.DocumentEvent.ElementChange> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<javax
             return javax.swing.event.DocumentEvent.EventType.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.event.DocumentEvent> createNewSUT() {
-        return javax.swing.event.DocumentEvent.class;
     }
 
 }

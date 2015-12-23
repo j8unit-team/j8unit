@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.file.attribute.FileTime class java.nio.file.attribute.FileTime}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.java.nio.file.attribute.FileTimeTests}.
+ * Reusable J8Unit test interface for {@linkplain java.nio.file.attribute.FileTime class
+ * java.nio.file.attribute.FileTime}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.java.nio.file.attribute.FileTimeTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.nio.file.attribute.FileTimeTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.file.attribute.FileTimeTests
+ *
+ * @j8unit.aim java.nio.file.attribute.FileTime
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,7 +43,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link java.nio.file.attribute.FileTime#from(java.time.Instant) public static
      * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(java.time.Instant)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.FileTime#from(java.time.Instant)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,9 +63,15 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.FileTime#from(long,java.util.concurrent.TimeUnit) public static
+     * Test method for {@link java.nio.file.attribute.FileTime#from(long, java.util.concurrent.TimeUnit) public static
      * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(long,java.util.concurrent.TimeUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.FileTime#from(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,7 +87,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
      * <p>
      * Test method for {@link java.nio.file.attribute.FileTime#fromMillis(long) public static
      * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.fromMillis(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.FileTime#fromMillis(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,6 +105,11 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.nio.file.attribute.FileTime#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

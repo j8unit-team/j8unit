@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.border.SoftBevelBorder class javax.swing.border.SoftBevelBorder}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.border.SoftBevelBorder class
+ * javax.swing.border.SoftBevelBorder}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.border.SoftBevelBorderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.border.SoftBevelBorderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.border.SoftBevelBorderClassTests
+ *
+ * @j8unit.aim javax.swing.border.SoftBevelBorder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.SoftBevelBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
+     * Test method for {@link javax.swing.border.SoftBevelBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
      * public java.awt.Insets javax.swing.border.SoftBevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.border.SoftBevelBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.border.SoftBevelBorder#isBorderOpaque() public boolean
      * javax.swing.border.SoftBevelBorder.isBorderOpaque()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.border.SoftBevelBorder#isBorderOpaque()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,10 +76,17 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.border.SoftBevelBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
+     * {@link javax.swing.border.SoftBevelBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
      * public void javax.swing.border.SoftBevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.border.SoftBevelBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int,
+     *             int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

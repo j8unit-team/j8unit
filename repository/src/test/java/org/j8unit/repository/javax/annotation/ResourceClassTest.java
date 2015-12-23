@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ResourceClassTest
 implements org.j8unit.repository.javax.annotation.ResourceClassTests<javax.annotation.Resource> {
 
+    @Override
+    public Class<javax.annotation.Resource> createNewSUT() {
+        return javax.annotation.Resource.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AuthenticationTypeClassTest
     implements org.j8unit.repository.javax.annotation.ResourceClassTests.AuthenticationTypeClassTests<javax.annotation.Resource.AuthenticationType> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<javax.annot
             return javax.annotation.Resource.AuthenticationType.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.annotation.Resource> createNewSUT() {
-        return javax.annotation.Resource.class;
     }
 
 }

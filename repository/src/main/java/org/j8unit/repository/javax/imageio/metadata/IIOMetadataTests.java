@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.imageio.metadata.IIOMetadata class javax.imageio.metadata.IIOMetadata}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.imageio.metadata.IIOMetadata class
+ * javax.imageio.metadata.IIOMetadata}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.imageio.metadata.IIOMetadataTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.imageio.metadata.IIOMetadataClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.imageio.metadata.IIOMetadataClassTests
+ *
+ * @j8unit.aim javax.imageio.metadata.IIOMetadata
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#activateController() public boolean
      * javax.imageio.metadata.IIOMetadata.activateController()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#activateController()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getAsTree(java.lang.String) public abstract
      * org.w3c.dom.Node javax.imageio.metadata.IIOMetadata.getAsTree(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getAsTree(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getController() public
      * javax.imageio.metadata.IIOMetadataController javax.imageio.metadata.IIOMetadata.getController()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getController()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getDefaultController() public
      * javax.imageio.metadata.IIOMetadataController javax.imageio.metadata.IIOMetadata.getDefaultController()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getDefaultController()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getExtraMetadataFormatNames() public java.lang.String[]
      * javax.imageio.metadata.IIOMetadata.getExtraMetadataFormatNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getExtraMetadataFormatNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getMetadataFormat(java.lang.String) public
      * javax.imageio.metadata.IIOMetadataFormat javax.imageio.metadata.IIOMetadata.getMetadataFormat(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getMetadataFormat(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getMetadataFormatNames() public java.lang.String[]
      * javax.imageio.metadata.IIOMetadata.getMetadataFormatNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getMetadataFormatNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#getNativeMetadataFormatName() public java.lang.String
      * javax.imageio.metadata.IIOMetadata.getNativeMetadataFormatName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#getNativeMetadataFormatName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#hasController() public boolean
      * javax.imageio.metadata.IIOMetadata.hasController()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#hasController()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#isReadOnly() public abstract boolean
      * javax.imageio.metadata.IIOMetadata.isReadOnly()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#isReadOnly()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,7 +251,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#isStandardMetadataFormatSupported() public boolean
      * javax.imageio.metadata.IIOMetadata.isStandardMetadataFormatSupported()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#isStandardMetadataFormatSupported()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -200,10 +271,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.metadata.IIOMetadata#mergeTree(java.lang.String,org.w3c.dom.Node) public
+     * Test method for {@link javax.imageio.metadata.IIOMetadata#mergeTree(java.lang.String, org.w3c.dom.Node) public
      * abstract void javax.imageio.metadata.IIOMetadata.mergeTree(java.lang.String,org.w3c.dom.Node) throws
      * javax.imageio.metadata.IIOInvalidTreeException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#mergeTree(java.lang.String, org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,7 +296,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.metadata.IIOMetadata#reset() public abstract void
      * javax.imageio.metadata.IIOMetadata.reset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#reset()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,7 +319,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for
      * {@link javax.imageio.metadata.IIOMetadata#setController(javax.imageio.metadata.IIOMetadataController) public void
      * javax.imageio.metadata.IIOMetadata.setController(javax.imageio.metadata.IIOMetadataController)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#setController(javax.imageio.metadata.IIOMetadataController)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,10 +339,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.metadata.IIOMetadata#setFromTree(java.lang.String,org.w3c.dom.Node) public
+     * Test method for {@link javax.imageio.metadata.IIOMetadata#setFromTree(java.lang.String, org.w3c.dom.Node) public
      * void javax.imageio.metadata.IIOMetadata.setFromTree(java.lang.String,org.w3c.dom.Node) throws
      * javax.imageio.metadata.IIOInvalidTreeException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.metadata.IIOMetadata#setFromTree(java.lang.String, org.w3c.dom.Node)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

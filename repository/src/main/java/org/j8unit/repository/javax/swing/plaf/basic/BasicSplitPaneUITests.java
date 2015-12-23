@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI class javax.swing.plaf.basic.BasicSplitPaneUI},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI class
+ * javax.swing.plaf.basic.BasicSplitPaneUI}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,16 +29,22 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager class
+     * Reusable J8Unit test interface for
+     * {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager class
      * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+     * containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.
+     *      BasicHorizontalLayoutManagerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.
-     *      BasicHorizontalLayoutManagerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,11 +54,18 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.awt.Component,java.lang.Object)
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.awt.Component, java.lang.Object)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.addLayoutComponent(java.awt.Component,java.lang.Object)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.awt.
+         *             Component, java.lang.Object)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -63,11 +81,18 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.lang.String,java.awt.Component)
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.lang.String, java.awt.Component)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.lang
+         *             .String, java.awt.Component)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -87,7 +112,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * public float
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.getLayoutAlignmentX(java.awt.Container)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#getLayoutAlignmentX(java.awt
+         *             .Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -107,7 +139,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * public float
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.getLayoutAlignmentY(java.awt.Container)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#getLayoutAlignmentY(java.awt
+         *             .Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -126,7 +165,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#invalidateLayout(java.awt.Container)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.invalidateLayout(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#invalidateLayout(java.awt.
+         *             Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -145,7 +191,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#layoutContainer(java.awt.Container)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.layoutContainer(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#layoutContainer(java.awt.
+         *             Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -164,7 +217,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#maximumLayoutSize(java.awt.Container)
          * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.maximumLayoutSize(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#maximumLayoutSize(java.awt.
+         *             Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -183,7 +243,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#minimumLayoutSize(java.awt.Container)
          * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.minimumLayoutSize(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#minimumLayoutSize(java.awt.
+         *             Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -203,7 +270,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.preferredLayoutSize(java.awt.Container)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#preferredLayoutSize(java.awt
+         *             .Container)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -223,7 +297,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.removeLayoutComponent(java.awt.Component)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#removeLayoutComponent(java.
+         *             awt.Component)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -241,7 +322,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#resetToPreferredSizes() public
          * void javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.resetToPreferredSizes()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#resetToPreferredSizes()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -257,15 +344,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager
+     * class javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}, containing all instance relevant test
+     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+     * containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -276,15 +368,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.FocusHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.FocusHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -296,7 +393,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#focusGained(java.awt.event.FocusEvent) public
          * void javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler.focusGained(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#focusGained(java.awt.event.FocusEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -314,7 +417,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#focusLost(java.awt.event.FocusEvent) public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler.focusLost(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler#focusLost(java.awt.event.FocusEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -331,15 +440,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler
+     * class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}, containing all instance relevant test
+     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+     * containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -353,7 +467,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler.actionPerformed(java.awt.event.ActionEvent)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#actionPerformed(java.awt.event.
+         *             ActionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -370,15 +491,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -391,7 +517,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#actionPerformed(java.awt.event.ActionEvent)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#actionPerformed(java.awt.event.
+         *             ActionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -408,15 +541,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -429,7 +567,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#actionPerformed(java.awt.event.ActionEvent)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#actionPerformed(java.awt.event.
+         *             ActionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -446,16 +591,22 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler class
+     * Reusable J8Unit test interface for
+     * {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+     * containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.
+     *      KeyboardResizeToggleHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.
-     *      KeyboardResizeToggleHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -469,7 +620,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler.actionPerformed(java.awt.event.ActionEvent)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler#actionPerformed(java.awt.
+         *             event.ActionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -486,15 +644,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler
+     * class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler}, containing all instance relevant test
+     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
+     * containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -507,7 +670,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler#actionPerformed(java.awt.event.ActionEvent)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler#actionPerformed(java.awt.event.
+         *             ActionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -524,15 +694,20 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler class
      * javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -545,7 +720,14 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#propertyChange(java.beans.PropertyChangeEvent)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler.propertyChange(java.beans.PropertyChangeEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#propertyChange(java.beans.
+         *             PropertyChangeEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -564,7 +746,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#createDefaultDivider() public
      * javax.swing.plaf.basic.BasicSplitPaneDivider javax.swing.plaf.basic.BasicSplitPaneUI.createDefaultDivider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#createDefaultDivider()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -579,10 +767,17 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.basic.BasicSplitPaneUI#finishedPaintingChildren(javax.swing.JSplitPane,java.awt.Graphics)
+     * {@link javax.swing.plaf.basic.BasicSplitPaneUI#finishedPaintingChildren(javax.swing.JSplitPane, java.awt.Graphics)
      * public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.finishedPaintingChildren(javax.swing.JSplitPane,java.awt.Graphics)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#finishedPaintingChildren(javax.swing.JSplitPane,
+     *             java.awt.Graphics)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -599,7 +794,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getDivider() public
      * javax.swing.plaf.basic.BasicSplitPaneDivider javax.swing.plaf.basic.BasicSplitPaneUI.getDivider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getDivider()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -615,7 +816,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getDividerLocation(javax.swing.JSplitPane) public
      * int javax.swing.plaf.basic.BasicSplitPaneUI.getDividerLocation(javax.swing.JSplitPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getDividerLocation(javax.swing.JSplitPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -632,7 +839,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getInsets(javax.swing.JComponent) public
      * java.awt.Insets javax.swing.plaf.basic.BasicSplitPaneUI.getInsets(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getInsets(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -648,7 +861,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getLastDragLocation() public int
      * javax.swing.plaf.basic.BasicSplitPaneUI.getLastDragLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getLastDragLocation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -664,7 +883,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getMaximumDividerLocation(javax.swing.JSplitPane)
      * public int javax.swing.plaf.basic.BasicSplitPaneUI.getMaximumDividerLocation(javax.swing.JSplitPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getMaximumDividerLocation(javax.swing.JSplitPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -681,7 +906,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getMaximumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicSplitPaneUI.getMaximumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getMaximumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -698,7 +929,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getMinimumDividerLocation(javax.swing.JSplitPane)
      * public int javax.swing.plaf.basic.BasicSplitPaneUI.getMinimumDividerLocation(javax.swing.JSplitPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getMinimumDividerLocation(javax.swing.JSplitPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -715,7 +952,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getMinimumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicSplitPaneUI.getMinimumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getMinimumSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -732,7 +975,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getNonContinuousLayoutDivider() public
      * java.awt.Component javax.swing.plaf.basic.BasicSplitPaneUI.getNonContinuousLayoutDivider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getNonContinuousLayoutDivider()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -748,7 +997,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getOrientation() public int
      * javax.swing.plaf.basic.BasicSplitPaneUI.getOrientation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getOrientation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -764,7 +1019,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getPreferredSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicSplitPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getPreferredSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -781,7 +1042,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#getSplitPane() public javax.swing.JSplitPane
      * javax.swing.plaf.basic.BasicSplitPaneUI.getSplitPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#getSplitPane()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -797,7 +1064,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#installUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -814,7 +1087,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#isContinuousLayout() public boolean
      * javax.swing.plaf.basic.BasicSplitPaneUI.isContinuousLayout()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#isContinuousLayout()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -828,9 +1107,15 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#paint(java.awt.Graphics, javax.swing.JComponent)
      * public void javax.swing.plaf.basic.BasicSplitPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#paint(java.awt.Graphics, javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -847,7 +1132,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#resetToPreferredSizes(javax.swing.JSplitPane)
      * public void javax.swing.plaf.basic.BasicSplitPaneUI.resetToPreferredSizes(javax.swing.JSplitPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#resetToPreferredSizes(javax.swing.JSplitPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -864,7 +1155,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#setContinuousLayout(boolean) public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.setContinuousLayout(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#setContinuousLayout(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -878,9 +1175,15 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#setDividerLocation(javax.swing.JSplitPane,int)
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#setDividerLocation(javax.swing.JSplitPane, int)
      * public void javax.swing.plaf.basic.BasicSplitPaneUI.setDividerLocation(javax.swing.JSplitPane,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#setDividerLocation(javax.swing.JSplitPane, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -897,7 +1200,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#setLastDragLocation(int) public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.setLastDragLocation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#setLastDragLocation(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -913,7 +1222,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#setOrientation(int) public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.setOrientation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#setOrientation(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -929,7 +1244,13 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicSplitPaneUI#uninstallUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DocumentationToolClassTest
 implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<javax.tools.DocumentationTool> {
 
+    @Override
+    public Class<javax.tools.DocumentationTool> createNewSUT() {
+        return javax.tools.DocumentationTool.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DocumentationTaskClassTest
     implements org.j8unit.repository.javax.tools.DocumentationToolClassTests.DocumentationTaskClassTests<javax.tools.DocumentationTool.DocumentationTask> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<javax.t
             return javax.tools.DocumentationTool.Location.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.tools.DocumentationTool> createNewSUT() {
-        return javax.tools.DocumentationTool.class;
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.tools.StandardLocation class javax.tools.StandardLocation}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.tools.StandardLocation class javax.tools.StandardLocation},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.tools.StandardLocationTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.tools.StandardLocationClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.tools.StandardLocationClassTests
+ *
+ * @j8unit.aim javax.tools.StandardLocation
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.java.lang.EnumTests<SUT, javax.tools.StandardLocation> {
      * <p>
      * Test method for {@link javax.tools.StandardLocation#getName() public java.lang.String
      * javax.tools.StandardLocation.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.StandardLocation#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ org.j8unit.repository.java.lang.EnumTests<SUT, javax.tools.StandardLocation> {
      * <p>
      * Test method for {@link javax.tools.StandardLocation#isOutputLocation() public boolean
      * javax.tools.StandardLocation.isOutputLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.tools.StandardLocation#isOutputLocation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

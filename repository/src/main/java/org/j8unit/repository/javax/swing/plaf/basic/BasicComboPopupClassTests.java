@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicComboPopup class javax.swing.plaf.basic.BasicComboPopup},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicComboPopup class
+ * javax.swing.plaf.basic.BasicComboPopup}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,10 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler class
      * javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
+     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+     * J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.InvocationKeyHandlerTests}.
      * </p>
      *
@@ -49,7 +52,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +60,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.InvocationKeyHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.InvocationKeyHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -68,9 +74,18 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
     extends org.j8unit.repository.java.awt.event.KeyAdapterClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#InvocationKeyHandler(javax.swing.plaf.basic.BasicComboPopup)
          * public javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler(javax.swing.plaf.basic.BasicComboPopup)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#InvocationKeyHandler(javax.swing.plaf
+         *             .basic.BasicComboPopup)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -83,6 +98,11 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
                                                                                           // InvocationKeyHandler(javax.swing.plaf.basic.BasicComboPopup);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -97,10 +117,10 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicComboPopup$ListDataHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicComboPopup.ListDataHandler class
      * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.ListDataHandlerTests}.
      * </p>
      *
@@ -108,7 +128,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -116,10 +136,13 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.ListDataHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.ListDataHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup.ListDataHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -127,9 +150,18 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
     extends org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.BasicComboPopup)
          * public javax.swing.plaf.basic.BasicComboPopup$ListDataHandler(javax.swing.plaf.basic.BasicComboPopup)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.
+         *             BasicComboPopup)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -142,6 +174,11 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
                                                                                      // ListDataHandler(javax.swing.plaf.basic.BasicComboPopup);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -155,8 +192,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#BasicComboPopup(javax.swing.JComboBox) public
      * javax.swing.plaf.basic.BasicComboPopup(javax.swing.JComboBox)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup#BasicComboPopup(javax.swing.JComboBox)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,6 +213,11 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
         final javax.swing.plaf.basic.BasicComboPopup sut = null; // = new BasicComboPopup(javax.swing.JComboBox);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicComboPopup#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

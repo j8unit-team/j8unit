@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.ObjectInput interface java.io.ObjectInput}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.io.ObjectInput interface java.io.ObjectInput}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.io.ObjectInputTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.io.ObjectInputClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.ObjectInputClassTests
+ *
+ * @j8unit.aim java.io.ObjectInput
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +30,13 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.io.ObjectInput#available() public abstract int java.io.ObjectInput.available() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#available()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.io.ObjectInput#close() public abstract void java.io.ObjectInput.close() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +75,13 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.io.ObjectInput#read() public abstract int java.io.ObjectInput.read() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#read()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +97,13 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.io.ObjectInput#read(byte[]) public abstract int java.io.ObjectInput.read(byte[])
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#read(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,9 +117,15 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectInput#read(byte[],int,int) public abstract int
+     * Test method for {@link java.io.ObjectInput#read(byte[], int, int) public abstract int
      * java.io.ObjectInput.read(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#read(byte[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +141,13 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.io.ObjectInput#readObject() public abstract java.lang.Object
      * java.io.ObjectInput.readObject() throws java.lang.ClassNotFoundException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#readObject()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +163,13 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
      * <p>
      * Test method for {@link java.io.ObjectInput#skip(long) public abstract long java.io.ObjectInput.skip(long) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.io.ObjectInput#skip(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

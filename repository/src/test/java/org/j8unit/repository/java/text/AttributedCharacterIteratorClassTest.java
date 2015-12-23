@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AttributedCharacterIteratorClassTest
 implements org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests<java.text.AttributedCharacterIterator> {
 
+    @Override
+    public Class<java.text.AttributedCharacterIterator> createNewSUT() {
+        return java.text.AttributedCharacterIterator.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AttributeClassTest
     implements org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.AttributeClassTests<java.text.AttributedCharacterIterator.Attribute> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests
             return java.text.AttributedCharacterIterator.Attribute.class;
         }
 
-    }
-
-    @Override
-    public Class<java.text.AttributedCharacterIterator> createNewSUT() {
-        return java.text.AttributedCharacterIterator.class;
     }
 
 }

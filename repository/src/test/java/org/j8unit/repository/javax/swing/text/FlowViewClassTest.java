@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class FlowViewClassTest
 implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<javax.swing.text.FlowView> {
 
+    @Override
+    public Class<javax.swing.text.FlowView> createNewSUT() {
+        return javax.swing.text.FlowView.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FlowStrategyClassTest
     implements org.j8unit.repository.javax.swing.text.FlowViewClassTests.FlowStrategyClassTests<javax.swing.text.FlowView.FlowStrategy> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<javax.swing
             return javax.swing.text.FlowView.FlowStrategy.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.FlowView> createNewSUT() {
-        return javax.swing.text.FlowView.class;
     }
 
 }

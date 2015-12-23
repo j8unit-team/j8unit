@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.concurrent.FutureTask class java.util.concurrent.FutureTask}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.concurrent.FutureTask class java.util.concurrent.FutureTask}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.concurrent.FutureTaskTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.concurrent.FutureTaskClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.concurrent.FutureTaskClassTests
+ *
+ * @j8unit.aim java.util.concurrent.FutureTask
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
      * <p>
      * Test method for {@link java.util.concurrent.FutureTask#cancel(boolean) public boolean
      * java.util.concurrent.FutureTask.cancel(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.FutureTask#cancel(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
      * Test method for {@link java.util.concurrent.FutureTask#get() public java.lang.Object
      * java.util.concurrent.FutureTask.get() throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.FutureTask#get()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,10 +76,16 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.FutureTask#get(long,java.util.concurrent.TimeUnit) public
+     * Test method for {@link java.util.concurrent.FutureTask#get(long, java.util.concurrent.TimeUnit) public
      * java.lang.Object java.util.concurrent.FutureTask.get(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException,java.util.concurrent.TimeoutException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.FutureTask#get(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +102,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
      * <p>
      * Test method for {@link java.util.concurrent.FutureTask#isCancelled() public boolean
      * java.util.concurrent.FutureTask.isCancelled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.FutureTask#isCancelled()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +125,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
      * <p>
      * Test method for {@link java.util.concurrent.FutureTask#isDone() public boolean
      * java.util.concurrent.FutureTask.isDone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.FutureTask#isDone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +147,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
     /**
      * <p>
      * Test method for {@link java.util.concurrent.FutureTask#run() public void java.util.concurrent.FutureTask.run()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.FutureTask#run()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

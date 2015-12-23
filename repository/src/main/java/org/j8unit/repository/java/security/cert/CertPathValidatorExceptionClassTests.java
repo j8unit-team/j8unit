@@ -9,27 +9,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.cert.CertPathValidatorException class
+ * Reusable J8Unit test interface for {@linkplain java.security.cert.CertPathValidatorException class
  * java.security.cert.CertPathValidatorException}, containing all class relevant test methods (at least the test methods
- * of accessible constructors and of accessible {@code static} methods). The counterpart test class containing the
- * instance relevant test methods is {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests}.
+ * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+ * containing the instance relevant test methods is
+ * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests
+ *
+ * @j8unit.aim java.security.cert.CertPathValidatorException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +42,10 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
 
     /**
      * <p>
-     * Test class for {@link java.security.cert.CertPathValidatorException$BasicReason class
+     * Reusable J8Unit test interface for {@linkplain java.security.cert.CertPathValidatorException.BasicReason class
      * java.security.cert.CertPathValidatorException$BasicReason}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests}.
      * </p>
      *
@@ -49,7 +53,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +61,13 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException.BasicReason
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -73,7 +80,13 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
          * Test method for {@link java.security.cert.CertPathValidatorException.BasicReason#valueOf(java.lang.String)
          * public static java.security.cert.CertPathValidatorException$BasicReason
          * java.security.cert.CertPathValidatorException$BasicReason.valueOf(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.cert.CertPathValidatorException.BasicReason#valueOf(java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -90,7 +103,13 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
          * Test method for {@link java.security.cert.CertPathValidatorException.BasicReason#values() public static
          * java.security.cert.CertPathValidatorException$BasicReason[]
          * java.security.cert.CertPathValidatorException$BasicReason.values()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.cert.CertPathValidatorException.BasicReason#values()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -102,6 +121,11 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
             assert sut != null;
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.cert.CertPathValidatorException.BasicReason#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -116,10 +140,10 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
 
     /**
      * <p>
-     * Test class for {@link java.security.cert.CertPathValidatorException$Reason interface
+     * Reusable J8Unit test interface for {@linkplain java.security.cert.CertPathValidatorException.Reason interface
      * java.security.cert.CertPathValidatorException$Reason}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests}.
      * </p>
      *
@@ -127,7 +151,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -135,16 +159,24 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException.Reason
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReasonClassTests<SUT extends java.security.cert.CertPathValidatorException.Reason>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.cert.CertPathValidatorException.Reason#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -158,8 +190,16 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
+     * <p>
      * Test method for {@link java.security.cert.CertPathValidatorException#CertPathValidatorException() public
      * java.security.cert.CertPathValidatorException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#CertPathValidatorException()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,8 +212,16 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
+     * <p>
      * Test method for {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String)
      * public java.security.cert.CertPathValidatorException(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,9 +235,18 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable)
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String, java.lang.Throwable)
      * public java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,
+     *             java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,15 +256,25 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable);
+                                                                        // CertPathValidatorException(java.lang.String,
+                                                                        // java.lang.Throwable);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String, java.lang.Throwable, java.security.cert.CertPath, int)
      * public
      * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,
+     *             java.lang.Throwable, java.security.cert.CertPath, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,15 +284,27 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int);
+                                                                        // CertPathValidatorException(java.lang.String,
+                                                                        // java.lang.Throwable,
+                                                                        // java.security.cert.CertPath, int);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException.Reason)
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String, java.lang.Throwable, java.security.cert.CertPath, int, java.security.cert.CertPathValidatorException.Reason)
      * public
      * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException$Reason)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,
+     *             java.lang.Throwable, java.security.cert.CertPath, int,
+     *             java.security.cert.CertPathValidatorException.Reason)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -235,13 +314,24 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException.Reason);
+                                                                        // CertPathValidatorException(java.lang.String,
+                                                                        // java.lang.Throwable,
+                                                                        // java.security.cert.CertPath, int,
+                                                                        // java.security.cert.CertPathValidatorException.Reason);
     }
 
     /**
+     * <p>
      * Test method for
      * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.Throwable) public
      * java.security.cert.CertPathValidatorException(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,6 +344,11 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                                                                         // CertPathValidatorException(java.lang.Throwable);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.security.cert.CertPathValidatorException#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

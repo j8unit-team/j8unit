@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class Ellipse2DClassTest
 implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<java.awt.geom.Ellipse2D> {
 
-    @RunWith(J8Unit4.class)
-    public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests.DoubleClassTests<java.awt.geom.Ellipse2D.Double> {
-
-        @Override
-        public Class<java.awt.geom.Ellipse2D.Double> createNewSUT() {
-            return java.awt.geom.Ellipse2D.Double.class;
-        }
-
+    @Override
+    public Class<java.awt.geom.Ellipse2D> createNewSUT() {
+        return java.awt.geom.Ellipse2D.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<java.awt.geom
 
     }
 
-    @Override
-    public Class<java.awt.geom.Ellipse2D> createNewSUT() {
-        return java.awt.geom.Ellipse2D.class;
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests.DoubleClassTests<java.awt.geom.Ellipse2D.Double> {
+
+        @Override
+        public Class<java.awt.geom.Ellipse2D.Double> createNewSUT() {
+            return java.awt.geom.Ellipse2D.Double.class;
+        }
+
     }
 
 }

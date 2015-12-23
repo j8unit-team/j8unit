@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class GlyphViewClassTest
 implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<javax.swing.text.GlyphView> {
 
+    @Override
+    public Class<javax.swing.text.GlyphView> createNewSUT() {
+        return javax.swing.text.GlyphView.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class GlyphPainterClassTest
     implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests.GlyphPainterClassTests<javax.swing.text.GlyphView.GlyphPainter> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<javax.swin
             return javax.swing.text.GlyphView.GlyphPainter.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.GlyphView> createNewSUT() {
-        return javax.swing.text.GlyphView.class;
     }
 
 }

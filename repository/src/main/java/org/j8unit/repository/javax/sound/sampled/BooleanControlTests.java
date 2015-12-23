@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.sound.sampled.BooleanControl class javax.sound.sampled.BooleanControl}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.sound.sampled.BooleanControl class
+ * javax.sound.sampled.BooleanControl}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.sound.sampled.BooleanControlTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests
+ *
+ * @j8unit.aim javax.sound.sampled.BooleanControl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.sound.sampled.BooleanControl$Type class javax.sound.sampled.BooleanControl$Type},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.sound.sampled.BooleanControl.Type class
+     * javax.sound.sampled.BooleanControl$Type}, containing all instance relevant test methods (i.&thinsp;e., test
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.javax.sound.sampled.BooleanControlTests.TypeTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests.TypeClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests.TypeClassTests
+     *
+     * @j8unit.aim javax.sound.sampled.BooleanControl.Type
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -44,7 +54,13 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.BooleanControl#getStateLabel(boolean) public java.lang.String
      * javax.sound.sampled.BooleanControl.getStateLabel(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.BooleanControl#getStateLabel(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.BooleanControl#getValue() public boolean
      * javax.sound.sampled.BooleanControl.getValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.BooleanControl#getValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +98,13 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.BooleanControl#setValue(boolean) public void
      * javax.sound.sampled.BooleanControl.setValue(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.BooleanControl#setValue(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +120,13 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.BooleanControl#toString() public java.lang.String
      * javax.sound.sampled.BooleanControl.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.BooleanControl#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

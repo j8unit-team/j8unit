@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.io.ObjectInputStream class java.io.ObjectInputStream}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.io.ObjectInputStream class java.io.ObjectInputStream}, containing
+ * all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.io.ObjectInputStreamTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.io.ObjectInputStreamTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.io.ObjectInputStreamTests
+ *
+ * @j8unit.aim java.io.ObjectInputStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -39,9 +42,10 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.io.ObjectInputStream$GetField class java.io.ObjectInputStream$GetField}, containing
-     * all class relevant test methods (at least the test methods of accessible constructors and of accessible
-     * {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.io.ObjectInputStream.GetField class
+     * java.io.ObjectInputStream$GetField}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests}.
      * </p>
      *
@@ -49,7 +53,7 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +61,13 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests
+     *
+     * @j8unit.aim java.io.ObjectInputStream.GetField
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -68,8 +75,16 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for {@link java.io.ObjectInputStream.GetField#GetField() public
          * java.io.ObjectInputStream$GetField()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.io.ObjectInputStream.GetField#GetField()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -81,6 +96,11 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
             final java.io.ObjectInputStream.GetField sut = null; // = new GetField();
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.io.ObjectInputStream.GetField#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -94,8 +114,16 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link java.io.ObjectInputStream#ObjectInputStream(java.io.InputStream) public
      * java.io.ObjectInputStream(java.io.InputStream) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.io.ObjectInputStream#ObjectInputStream(java.io.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,6 +135,11 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
         final java.io.ObjectInputStream sut = null; // = new ObjectInputStream(java.io.InputStream);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.io.ObjectInputStream#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

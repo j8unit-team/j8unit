@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.stream.XMLInputFactory class javax.xml.stream.XMLInputFactory}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.stream.XMLInputFactory class
+ * javax.xml.stream.XMLInputFactory}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.stream.XMLInputFactoryTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.stream.XMLInputFactoryClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.stream.XMLInputFactoryClassTests
+ *
+ * @j8unit.aim javax.xml.stream.XMLInputFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLEventReader,javax.xml.stream.EventFilter)
+     * {@link javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLEventReader, javax.xml.stream.EventFilter)
      * public abstract javax.xml.stream.XMLEventReader
      * javax.xml.stream.XMLInputFactory.createFilteredReader(javax.xml.stream.XMLEventReader,javax.xml.stream.EventFilter)
      * throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLEventReader,
+     *             javax.xml.stream.EventFilter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,11 +56,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLStreamReader,javax.xml.stream.StreamFilter)
+     * {@link javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLStreamReader, javax.xml.stream.StreamFilter)
      * public abstract javax.xml.stream.XMLStreamReader
      * javax.xml.stream.XMLInputFactory.createFilteredReader(javax.xml.stream.XMLStreamReader,javax.xml.stream.StreamFilter)
      * throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLStreamReader,
+     *             javax.xml.stream.StreamFilter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,7 +84,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream) public abstract
      * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.InputStream) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,11 +105,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream,java.lang.String) public
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream, java.lang.String) public
      * abstract javax.xml.stream.XMLEventReader
      * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.InputStream,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -101,7 +132,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.Reader) public abstract
      * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.Reader) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.Reader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,7 +156,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * abstract javax.xml.stream.XMLEventReader
      * javax.xml.stream.XMLInputFactory.createXMLEventReader(javax.xml.transform.Source) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(javax.xml.transform.Source)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,11 +177,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.lang.String,java.io.InputStream) public
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.lang.String, java.io.InputStream) public
      * abstract javax.xml.stream.XMLEventReader
      * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.lang.String,java.io.InputStream) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(java.lang.String, java.io.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,11 +201,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.lang.String,java.io.Reader)
+     * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.lang.String, java.io.Reader)
      * public abstract javax.xml.stream.XMLEventReader
      * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.lang.String,java.io.Reader) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(java.lang.String, java.io.Reader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +229,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * public abstract javax.xml.stream.XMLEventReader
      * javax.xml.stream.XMLInputFactory.createXMLEventReader(javax.xml.stream.XMLStreamReader) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLEventReader(javax.xml.stream.XMLStreamReader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,7 +253,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * abstract javax.xml.stream.XMLStreamReader
      * javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.io.InputStream) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,11 +274,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.InputStream,java.lang.String) public
+     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.InputStream, java.lang.String) public
      * abstract javax.xml.stream.XMLStreamReader
      * javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.io.InputStream,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.InputStream, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -228,7 +301,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.Reader) public abstract
      * javax.xml.stream.XMLStreamReader javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.io.Reader) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.Reader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,7 +325,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * abstract javax.xml.stream.XMLStreamReader
      * javax.xml.stream.XMLInputFactory.createXMLStreamReader(javax.xml.transform.Source) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLStreamReader(javax.xml.transform.Source)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,11 +346,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.lang.String,java.io.InputStream) public
+     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.lang.String, java.io.InputStream) public
      * abstract javax.xml.stream.XMLStreamReader
      * javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.lang.String,java.io.InputStream) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.lang.String, java.io.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,11 +370,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.lang.String,java.io.Reader)
+     * Test method for {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.lang.String, java.io.Reader)
      * public abstract javax.xml.stream.XMLStreamReader
      * javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.lang.String,java.io.Reader) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.lang.String, java.io.Reader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,7 +396,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLInputFactory#getEventAllocator() public abstract
      * javax.xml.stream.util.XMLEventAllocator javax.xml.stream.XMLInputFactory.getEventAllocator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#getEventAllocator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -316,7 +419,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLInputFactory#getProperty(java.lang.String) public abstract
      * java.lang.Object javax.xml.stream.XMLInputFactory.getProperty(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#getProperty(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -332,7 +441,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLInputFactory#getXMLReporter() public abstract
      * javax.xml.stream.XMLReporter javax.xml.stream.XMLInputFactory.getXMLReporter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#getXMLReporter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -348,7 +463,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLInputFactory#getXMLResolver() public abstract
      * javax.xml.stream.XMLResolver javax.xml.stream.XMLInputFactory.getXMLResolver()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#getXMLResolver()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,7 +485,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLInputFactory#isPropertySupported(java.lang.String) public abstract
      * boolean javax.xml.stream.XMLInputFactory.isPropertySupported(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#isPropertySupported(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -381,7 +508,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for
      * {@link javax.xml.stream.XMLInputFactory#setEventAllocator(javax.xml.stream.util.XMLEventAllocator) public
      * abstract void javax.xml.stream.XMLInputFactory.setEventAllocator(javax.xml.stream.util.XMLEventAllocator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#setEventAllocator(javax.xml.stream.util.XMLEventAllocator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -395,10 +528,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLInputFactory#setProperty(java.lang.String,java.lang.Object) public
+     * Test method for {@link javax.xml.stream.XMLInputFactory#setProperty(java.lang.String, java.lang.Object) public
      * abstract void javax.xml.stream.XMLInputFactory.setProperty(java.lang.String,java.lang.Object) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#setProperty(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -414,7 +553,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLInputFactory#setXMLReporter(javax.xml.stream.XMLReporter) public
      * abstract void javax.xml.stream.XMLInputFactory.setXMLReporter(javax.xml.stream.XMLReporter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#setXMLReporter(javax.xml.stream.XMLReporter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -430,7 +575,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLInputFactory#setXMLResolver(javax.xml.stream.XMLResolver) public
      * abstract void javax.xml.stream.XMLInputFactory.setXMLResolver(javax.xml.stream.XMLResolver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLInputFactory#setXMLResolver(javax.xml.stream.XMLResolver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

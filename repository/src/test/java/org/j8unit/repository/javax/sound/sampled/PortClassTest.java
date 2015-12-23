@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class PortClassTest
 implements org.j8unit.repository.javax.sound.sampled.PortClassTests<javax.sound.sampled.Port> {
 
+    @Override
+    public Class<javax.sound.sampled.Port> createNewSUT() {
+        return javax.sound.sampled.Port.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
     implements org.j8unit.repository.javax.sound.sampled.PortClassTests.InfoClassTests<javax.sound.sampled.Port.Info> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.PortClassTests<javax.sound.
             return javax.sound.sampled.Port.Info.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.Port> createNewSUT() {
-        return javax.sound.sampled.Port.class;
     }
 
 }

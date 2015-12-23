@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JToggleButtonTest
 implements org.j8unit.repository.javax.swing.JToggleButtonTests<javax.swing.JToggleButton> {
 
+    @Override
+    public javax.swing.JToggleButton createNewSUT() {
+        return new javax.swing.JToggleButton();
+    }
+
     @RunWith(J8Unit4.class)
     public static class ToggleButtonModelTest
     implements org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests<javax.swing.JToggleButton.ToggleButtonModel> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.JToggleButtonTests<javax.swing.JTog
             return new javax.swing.JToggleButton.ToggleButtonModel();
         }
 
-    }
-
-    @Override
-    public javax.swing.JToggleButton createNewSUT() {
-        return new javax.swing.JToggleButton();
     }
 
 }

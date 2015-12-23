@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class JAXBElementClassTest
 implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<javax.xml.bind.JAXBElement> {
 
+    @Override
+    public Class<javax.xml.bind.JAXBElement> createNewSUT() {
+        return javax.xml.bind.JAXBElement.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class GlobalScopeClassTest
     implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests.GlobalScopeClassTests<javax.xml.bind.JAXBElement.GlobalScope> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<javax.xml.
             return javax.xml.bind.JAXBElement.GlobalScope.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.JAXBElement> createNewSUT() {
-        return javax.xml.bind.JAXBElement.class;
     }
 
 }

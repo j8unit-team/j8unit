@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.JTextComponent class javax.swing.text.JTextComponent}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.JTextComponent class javax.swing.text.JTextComponent}
+ * , containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.text.JTextComponentTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.JTextComponentTests
+ *
+ * @j8unit.aim javax.swing.text.JTextComponent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -39,10 +42,10 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.JTextComponent$AccessibleJTextComponent class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.JTextComponent.AccessibleJTextComponent class
      * javax.swing.text.JTextComponent$AccessibleJTextComponent}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests}.
      * </p>
      *
@@ -50,7 +53,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -58,10 +61,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent.AccessibleJTextComponent
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -73,9 +79,18 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     org.j8unit.repository.javax.swing.JComponentClassTests.AccessibleJComponentClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#AccessibleJTextComponent(javax.swing.text.JTextComponent)
          * public javax.swing.text.JTextComponent$AccessibleJTextComponent(javax.swing.text.JTextComponent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.JTextComponent.AccessibleJTextComponent#AccessibleJTextComponent(javax.swing.
+         *             text.JTextComponent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -88,6 +103,11 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                                        // AccessibleJTextComponent(javax.swing.text.JTextComponent);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.JTextComponent.AccessibleJTextComponent#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -102,10 +122,10 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.JTextComponent$DropLocation class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.JTextComponent.DropLocation class
      * javax.swing.text.JTextComponent$DropLocation}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests}.
      * </p>
      *
@@ -113,7 +133,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -121,16 +141,24 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent.DropLocation
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationClassTests<SUT extends javax.swing.text.JTextComponent.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.JTextComponent.DropLocation#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -145,10 +173,10 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.JTextComponent$KeyBinding class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.JTextComponent.KeyBinding class
      * javax.swing.text.JTextComponent$KeyBinding}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests}.
      * </p>
      *
@@ -156,7 +184,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -164,10 +192,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent.KeyBinding
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -175,9 +206,17 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.JTextComponent.KeyBinding#KeyBinding(javax.swing.KeyStroke,java.lang.String) public
+         * {@link javax.swing.text.JTextComponent.KeyBinding#KeyBinding(javax.swing.KeyStroke, java.lang.String) public
          * javax.swing.text.JTextComponent$KeyBinding(javax.swing.KeyStroke,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.JTextComponent.KeyBinding#KeyBinding(javax.swing.KeyStroke, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -186,10 +225,15 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final javax.swing.text.JTextComponent.KeyBinding sut = null; // = new
-                                                                         // KeyBinding(javax.swing.KeyStroke,java.lang.String);
+            final javax.swing.text.JTextComponent.KeyBinding sut = null; // = new KeyBinding(javax.swing.KeyStroke,
+                                                                         // java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.JTextComponent.KeyBinding#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -203,8 +247,16 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.text.JTextComponent#JTextComponent() public javax.swing.text.JTextComponent()}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent#JTextComponent()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,10 +270,16 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#addKeymap(java.lang.String,javax.swing.text.Keymap) public
-     * static javax.swing.text.Keymap
+     * Test method for {@link javax.swing.text.JTextComponent#addKeymap(java.lang.String, javax.swing.text.Keymap)
+     * public static javax.swing.text.Keymap
      * javax.swing.text.JTextComponent.addKeymap(java.lang.String,javax.swing.text.Keymap)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent#addKeymap(java.lang.String, javax.swing.text.Keymap)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,7 +295,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.JTextComponent#getKeymap(java.lang.String) public static
      * javax.swing.text.Keymap javax.swing.text.JTextComponent.getKeymap(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent#getKeymap(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -252,11 +316,18 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.JTextComponent#loadKeymap(javax.swing.text.Keymap,javax.swing.text.JTextComponent.KeyBinding[],javax.swing.Action[])
+     * {@link javax.swing.text.JTextComponent#loadKeymap(javax.swing.text.Keymap, javax.swing.text.JTextComponent.KeyBinding[], javax.swing.Action[])
      * public static void
      * javax.swing.text.JTextComponent.loadKeymap(javax.swing.text.Keymap,javax.swing.text.JTextComponent$KeyBinding[],javax.swing.Action[])}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent#loadKeymap(javax.swing.text.Keymap,
+     *             javax.swing.text.JTextComponent.KeyBinding[], javax.swing.Action[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -272,7 +343,13 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.JTextComponent#removeKeymap(java.lang.String) public static
      * javax.swing.text.Keymap javax.swing.text.JTextComponent.removeKeymap(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent#removeKeymap(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -284,6 +361,11 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.text.JTextComponent#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

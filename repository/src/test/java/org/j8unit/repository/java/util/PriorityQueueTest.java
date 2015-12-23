@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.PriorityQueueTests<java.util.Priority
 
     @Override
     public java.util.PriorityQueue<E> createNewSUT() {
-        return new java.util.PriorityQueue<>();
+        return new java.util.PriorityQueue();
     }
 
 }

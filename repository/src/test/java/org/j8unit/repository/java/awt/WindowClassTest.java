@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class WindowClassTest
 implements org.j8unit.repository.java.awt.WindowClassTests<java.awt.Window> {
 
+    @Override
+    public Class<java.awt.Window> createNewSUT() {
+        return java.awt.Window.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.java.awt.WindowClassTests.TypeClassTests<java.awt.Window.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.awt.WindowClassTests<java.awt.Window> {
             return java.awt.Window.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.Window> createNewSUT() {
-        return java.awt.Window.class;
     }
 
 }

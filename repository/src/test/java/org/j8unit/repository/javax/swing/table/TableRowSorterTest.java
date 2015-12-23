@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.swing.table.TableRowSorterTests<javax.swi
 
     @Override
     public javax.swing.table.TableRowSorter<M> createNewSUT() {
-        return new javax.swing.table.TableRowSorter<>();
+        return new javax.swing.table.TableRowSorter();
     }
 
 }

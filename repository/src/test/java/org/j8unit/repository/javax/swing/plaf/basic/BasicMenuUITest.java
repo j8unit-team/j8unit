@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicMenuUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<javax.swing.plaf.basic.BasicMenuUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicMenuUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicMenuUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests.ChangeHandlerTests<javax.swing.plaf.basic.BasicMenuUI.ChangeHandler> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<javax.s
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicMenuUI.ChangeHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicMenuUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicMenuUI();
     }
 
 }

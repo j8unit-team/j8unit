@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CosNaming._NamingContextStub class org.omg.CosNaming._NamingContextStub}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.CosNaming._NamingContextStub class
+ * org.omg.CosNaming._NamingContextStub}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.CosNaming._NamingContextStubTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CosNaming._NamingContextStubClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CosNaming._NamingContextStubClassTests
+ *
+ * @j8unit.aim org.omg.CosNaming._NamingContextStub
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -41,9 +54,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -57,9 +78,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -73,9 +102,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -89,9 +126,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -105,9 +150,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -121,9 +174,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -138,7 +199,13 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * <p>
      * Test method for {@link org.omg.CosNaming._NamingContextStub#_ids() public java.lang.String[]
      * org.omg.CosNaming._NamingContextStub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#_ids()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,9 +221,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -170,9 +245,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -186,9 +269,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -202,9 +293,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -218,9 +317,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -234,9 +341,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface org.omg.CORBA.Object</li>
+     * <li>class org.omg.CORBA.portable.ObjectImpl</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -250,13 +365,20 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CosNaming._NamingContextStub#bind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
+     * {@link org.omg.CosNaming._NamingContextStub#bind_context(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.NamingContext)
      * public void
      * org.omg.CosNaming._NamingContextStub.bind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
      * throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName,org.omg.CosNaming.NamingContextPackage.AlreadyBound}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#bind_context(org.omg.CosNaming.NameComponent[],
+     *             org.omg.CosNaming.NamingContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -272,11 +394,17 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CosNaming._NamingContextStub#bind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object) public
+     * {@link org.omg.CosNaming._NamingContextStub#bind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object) public
      * void org.omg.CosNaming._NamingContextStub.bind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object) throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName,org.omg.CosNaming.NamingContextPackage.AlreadyBound}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#bind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -296,7 +424,13 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * org.omg.CosNaming._NamingContextStub.bind_new_context(org.omg.CosNaming.NameComponent[]) throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.AlreadyBound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#bind_new_context(org.omg.CosNaming.NameComponent[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,7 +447,13 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * <p>
      * Test method for {@link org.omg.CosNaming._NamingContextStub#destroy() public void
      * org.omg.CosNaming._NamingContextStub.destroy() throws org.omg.CosNaming.NamingContextPackage.NotEmpty}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#destroy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,11 +469,18 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CosNaming._NamingContextStub#list(int,org.omg.CosNaming.BindingListHolder,org.omg.CosNaming.BindingIteratorHolder)
+     * {@link org.omg.CosNaming._NamingContextStub#list(int, org.omg.CosNaming.BindingListHolder, org.omg.CosNaming.BindingIteratorHolder)
      * public void
      * org.omg.CosNaming._NamingContextStub.list(int,org.omg.CosNaming.BindingListHolder,org.omg.CosNaming.BindingIteratorHolder)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#list(int, org.omg.CosNaming.BindingListHolder,
+     *             org.omg.CosNaming.BindingIteratorHolder)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -350,7 +497,13 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * <p>
      * Test method for {@link org.omg.CosNaming._NamingContextStub#new_context() public org.omg.CosNaming.NamingContext
      * org.omg.CosNaming._NamingContextStub.new_context()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#new_context()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -366,13 +519,20 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CosNaming._NamingContextStub#rebind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
+     * {@link org.omg.CosNaming._NamingContextStub#rebind_context(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.NamingContext)
      * public void
      * org.omg.CosNaming._NamingContextStub.rebind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
      * throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#rebind_context(org.omg.CosNaming.NameComponent[],
+     *             org.omg.CosNaming.NamingContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -388,11 +548,18 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CosNaming._NamingContextStub#rebind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object) public
-     * void org.omg.CosNaming._NamingContextStub.rebind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object) throws
+     * {@link org.omg.CosNaming._NamingContextStub#rebind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object)
+     * public void org.omg.CosNaming._NamingContextStub.rebind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object)
+     * throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#rebind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -411,7 +578,13 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * org.omg.CORBA.Object org.omg.CosNaming._NamingContextStub.resolve(org.omg.CosNaming.NameComponent[]) throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#resolve(org.omg.CosNaming.NameComponent[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -430,7 +603,13 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * org.omg.CosNaming._NamingContextStub.unbind(org.omg.CosNaming.NameComponent[]) throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CosNaming._NamingContextStub#unbind(org.omg.CosNaming.NameComponent[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

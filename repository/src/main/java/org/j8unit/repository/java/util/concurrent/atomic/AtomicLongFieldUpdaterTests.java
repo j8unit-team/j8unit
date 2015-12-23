@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater class
+ * Reusable J8Unit test interface for {@linkplain java.util.concurrent.atomic.AtomicLongFieldUpdater class
  * java.util.concurrent.atomic.AtomicLongFieldUpdater}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpdaterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpdaterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpdaterClassTests
+ *
+ * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,11 +30,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#accumulateAndGet(java.lang.Object,long,java.util.function.LongBinaryOperator)
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#accumulateAndGet(java.lang.Object, long, java.util.function.LongBinaryOperator)
      * public final long
      * java.util.concurrent.atomic.AtomicLongFieldUpdater.accumulateAndGet(java.lang.Object,long,java.util.function.LongBinaryOperator)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#accumulateAndGet(java.lang.Object, long,
+     *             java.util.function.LongBinaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,9 +55,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#addAndGet(java.lang.Object,long) public
-     * long java.util.concurrent.atomic.AtomicLongFieldUpdater.addAndGet(java.lang.Object,long)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#addAndGet(java.lang.Object, long)
+     * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.addAndGet(java.lang.Object,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#addAndGet(java.lang.Object, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,9 +78,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#compareAndSet(java.lang.Object,long,long) public
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#compareAndSet(java.lang.Object, long, long) public
      * abstract boolean java.util.concurrent.atomic.AtomicLongFieldUpdater.compareAndSet(java.lang.Object,long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#compareAndSet(java.lang.Object, long, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +102,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#decrementAndGet(java.lang.Object)
      * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.decrementAndGet(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#decrementAndGet(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +124,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#get(java.lang.Object) public abstract
      * long java.util.concurrent.atomic.AtomicLongFieldUpdater.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#get(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,11 +145,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAccumulate(java.lang.Object,long,java.util.function.LongBinaryOperator)
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAccumulate(java.lang.Object, long, java.util.function.LongBinaryOperator)
      * public final long
      * java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndAccumulate(java.lang.Object,long,java.util.function.LongBinaryOperator)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAccumulate(java.lang.Object, long,
+     *             java.util.function.LongBinaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,9 +170,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAdd(java.lang.Object,long) public
-     * long java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndAdd(java.lang.Object,long)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAdd(java.lang.Object, long)
+     * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndAdd(java.lang.Object,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAdd(java.lang.Object, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,7 +194,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndDecrement(java.lang.Object)
      * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndDecrement(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndDecrement(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +216,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndIncrement(java.lang.Object)
      * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndIncrement(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndIncrement(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,9 +236,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndSet(java.lang.Object,long) public
-     * long java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndSet(java.lang.Object,long)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndSet(java.lang.Object, long)
+     * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndSet(java.lang.Object,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndSet(java.lang.Object, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,11 +259,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndUpdate(java.lang.Object,java.util.function.LongUnaryOperator)
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndUpdate(java.lang.Object, java.util.function.LongUnaryOperator)
      * public final long
      * java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndUpdate(java.lang.Object,java.util.function.LongUnaryOperator)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndUpdate(java.lang.Object,
+     *             java.util.function.LongUnaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,7 +286,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#incrementAndGet(java.lang.Object)
      * public long java.util.concurrent.atomic.AtomicLongFieldUpdater.incrementAndGet(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#incrementAndGet(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,9 +306,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#lazySet(java.lang.Object,long) public
+     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#lazySet(java.lang.Object, long) public
      * abstract void java.util.concurrent.atomic.AtomicLongFieldUpdater.lazySet(java.lang.Object,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#lazySet(java.lang.Object, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,9 +328,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#set(java.lang.Object,long) public
+     * Test method for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#set(java.lang.Object, long) public
      * abstract void java.util.concurrent.atomic.AtomicLongFieldUpdater.set(java.lang.Object,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#set(java.lang.Object, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,11 +351,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#updateAndGet(java.lang.Object,java.util.function.LongUnaryOperator)
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#updateAndGet(java.lang.Object, java.util.function.LongUnaryOperator)
      * public final long
      * java.util.concurrent.atomic.AtomicLongFieldUpdater.updateAndGet(java.lang.Object,java.util.function.LongUnaryOperator)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#updateAndGet(java.lang.Object,
+     *             java.util.function.LongUnaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,10 +377,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#weakCompareAndSet(java.lang.Object,long,long) public
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#weakCompareAndSet(java.lang.Object, long, long) public
      * abstract boolean
      * java.util.concurrent.atomic.AtomicLongFieldUpdater.weakCompareAndSet(java.lang.Object,long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.atomic.AtomicLongFieldUpdater#weakCompareAndSet(java.lang.Object, long, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

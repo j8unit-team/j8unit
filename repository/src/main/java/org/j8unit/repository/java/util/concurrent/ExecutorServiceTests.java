@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.concurrent.ExecutorService interface java.util.concurrent.ExecutorService},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.concurrent.ExecutorService interface
+ * java.util.concurrent.ExecutorService}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.concurrent.ExecutorServiceTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.concurrent.ExecutorServiceClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.concurrent.ExecutorServiceClassTests
+ *
+ * @j8unit.aim java.util.concurrent.ExecutorService
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,10 +29,16 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#awaitTermination(long,java.util.concurrent.TimeUnit)
+     * Test method for {@link java.util.concurrent.ExecutorService#awaitTermination(long, java.util.concurrent.TimeUnit)
      * public abstract boolean java.util.concurrent.ExecutorService.awaitTermination(long,java.util.concurrent.TimeUnit)
      * throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#awaitTermination(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * Test method for {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection) public abstract
      * java.util.List java.util.concurrent.ExecutorService.invokeAll(java.util.Collection) throws
      * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#invokeAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,11 +76,18 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection, long, java.util.concurrent.TimeUnit)
      * public abstract java.util.List
      * java.util.concurrent.ExecutorService.invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#invokeAll(java.util.Collection, long,
+     *             java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,7 +104,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * Test method for {@link java.util.concurrent.ExecutorService#invokeAny(java.util.Collection) public abstract
      * java.lang.Object java.util.concurrent.ExecutorService.invokeAny(java.util.Collection) throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#invokeAny(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,11 +125,18 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ExecutorService#invokeAny(java.util.Collection,long,java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.ExecutorService#invokeAny(java.util.Collection, long, java.util.concurrent.TimeUnit)
      * public abstract java.lang.Object
      * java.util.concurrent.ExecutorService.invokeAny(java.util.Collection,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException,java.util.concurrent.TimeoutException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#invokeAny(java.util.Collection, long,
+     *             java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,7 +152,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#isShutdown() public abstract boolean
      * java.util.concurrent.ExecutorService.isShutdown()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#isShutdown()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -131,7 +174,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#isTerminated() public abstract boolean
      * java.util.concurrent.ExecutorService.isTerminated()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#isTerminated()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -147,7 +196,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#shutdown() public abstract void
      * java.util.concurrent.ExecutorService.shutdown()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#shutdown()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,7 +218,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#shutdownNow() public abstract java.util.List
      * java.util.concurrent.ExecutorService.shutdownNow()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#shutdownNow()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -179,7 +240,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#submit(java.util.concurrent.Callable) public abstract
      * java.util.concurrent.Future java.util.concurrent.ExecutorService.submit(java.util.concurrent.Callable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#submit(java.util.concurrent.Callable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,7 +262,13 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
      * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#submit(java.lang.Runnable) public abstract
      * java.util.concurrent.Future java.util.concurrent.ExecutorService.submit(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#submit(java.lang.Runnable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,10 +282,16 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#submit(java.lang.Runnable,java.lang.Object) public
+     * Test method for {@link java.util.concurrent.ExecutorService#submit(java.lang.Runnable, java.lang.Object) public
      * abstract java.util.concurrent.Future
      * java.util.concurrent.ExecutorService.submit(java.lang.Runnable,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.concurrent.ExecutorService#submit(java.lang.Runnable, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

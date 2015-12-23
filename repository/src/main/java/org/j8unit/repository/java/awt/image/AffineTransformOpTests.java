@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.AffineTransformOp class java.awt.image.AffineTransformOp}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.AffineTransformOp class
+ * java.awt.image.AffineTransformOp}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.image.AffineTransformOpTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.AffineTransformOpClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.AffineTransformOpClassTests
+ *
+ * @j8unit.aim java.awt.image.AffineTransformOp
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,11 +31,18 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.AffineTransformOp#createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)
+     * {@link java.awt.image.AffineTransformOp#createCompatibleDestImage(java.awt.image.BufferedImage, java.awt.image.ColorModel)
      * public java.awt.image.BufferedImage
      * java.awt.image.AffineTransformOp.createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#createCompatibleDestImage(java.awt.image.BufferedImage,
+     *             java.awt.image.ColorModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -48,7 +60,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.image.AffineTransformOp#createCompatibleDestRaster(java.awt.image.Raster) public
      * java.awt.image.WritableRaster java.awt.image.AffineTransformOp.createCompatibleDestRaster(java.awt.image.Raster)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#createCompatibleDestRaster(java.awt.image.Raster)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,10 +82,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.AffineTransformOp#filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage) public
+     * {@link java.awt.image.AffineTransformOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage) public
      * final java.awt.image.BufferedImage
      * java.awt.image.AffineTransformOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,10 +107,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.AffineTransformOp#filter(java.awt.image.Raster,java.awt.image.WritableRaster) public final
+     * {@link java.awt.image.AffineTransformOp#filter(java.awt.image.Raster, java.awt.image.WritableRaster) public final
      * java.awt.image.WritableRaster
      * java.awt.image.AffineTransformOp.filter(java.awt.image.Raster,java.awt.image.WritableRaster)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#filter(java.awt.image.Raster, java.awt.image.WritableRaster)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -103,7 +133,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.AffineTransformOp#getBounds2D(java.awt.image.BufferedImage) public final
      * java.awt.geom.Rectangle2D java.awt.image.AffineTransformOp.getBounds2D(java.awt.image.BufferedImage)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#getBounds2D(java.awt.image.BufferedImage)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,7 +156,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.AffineTransformOp#getBounds2D(java.awt.image.Raster) public final
      * java.awt.geom.Rectangle2D java.awt.image.AffineTransformOp.getBounds2D(java.awt.image.Raster)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#getBounds2D(java.awt.image.Raster)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,7 +179,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.AffineTransformOp#getInterpolationType() public final int
      * java.awt.image.AffineTransformOp.getInterpolationType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#getInterpolationType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -151,10 +199,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.AffineTransformOp#getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)
+     * Test method for {@link java.awt.image.AffineTransformOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D)
      * public final java.awt.geom.Point2D
      * java.awt.image.AffineTransformOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,7 +225,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.AffineTransformOp#getRenderingHints() public final java.awt.RenderingHints
      * java.awt.image.AffineTransformOp.getRenderingHints()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#getRenderingHints()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,7 +248,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.AffineTransformOp#getTransform() public final java.awt.geom.AffineTransform
      * java.awt.image.AffineTransformOp.getTransform()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.AffineTransformOp#getTransform()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

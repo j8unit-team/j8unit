@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class LayeredHighlighterClassTest
 implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<javax.swing.text.LayeredHighlighter> {
 
+    @Override
+    public Class<javax.swing.text.LayeredHighlighter> createNewSUT() {
+        return javax.swing.text.LayeredHighlighter.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class LayerPainterClassTest
     implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests.LayerPainterClassTests<javax.swing.text.LayeredHighlighter.LayerPainter> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<j
             return javax.swing.text.LayeredHighlighter.LayerPainter.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.LayeredHighlighter> createNewSUT() {
-        return javax.swing.text.LayeredHighlighter.class;
     }
 
 }

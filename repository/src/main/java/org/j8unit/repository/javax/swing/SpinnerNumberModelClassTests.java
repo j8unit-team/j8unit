@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.SpinnerNumberModel class javax.swing.SpinnerNumberModel}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.swing.SpinnerNumberModel class javax.swing.SpinnerNumberModel},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.swing.SpinnerNumberModelTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.SpinnerNumberModelTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.SpinnerNumberModelTests
+ *
+ * @j8unit.aim javax.swing.SpinnerNumberModel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,8 +40,16 @@ public abstract interface SpinnerNumberModelClassTests<SUT extends javax.swing.S
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.AbstractSpinnerModelClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel() public
      * javax.swing.SpinnerNumberModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.SpinnerNumberModel#SpinnerNumberModel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,8 +62,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(double,double,double,double) public
+     * <p>
+     * Test method for {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(double, double, double, double) public
      * javax.swing.SpinnerNumberModel(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.SpinnerNumberModel#SpinnerNumberModel(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,12 +80,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.SpinnerNumberModel sut = null; // = new SpinnerNumberModel(double,double,double,double);
+        final javax.swing.SpinnerNumberModel sut = null; // = new SpinnerNumberModel(double, double, double, double);
     }
 
     /**
-     * Test method for {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(int,int,int,int) public
+     * <p>
+     * Test method for {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(int, int, int, int) public
      * javax.swing.SpinnerNumberModel(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.SpinnerNumberModel#SpinnerNumberModel(int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,14 +102,23 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.SpinnerNumberModel sut = null; // = new SpinnerNumberModel(int,int,int,int);
+        final javax.swing.SpinnerNumberModel sut = null; // = new SpinnerNumberModel(int, int, int, int);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(java.lang.Number,java.lang.Comparable,java.lang.Comparable,java.lang.Number)
+     * {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(java.lang.Number, java.lang.Comparable, java.lang.Comparable, java.lang.Number)
      * public
      * javax.swing.SpinnerNumberModel(java.lang.Number,java.lang.Comparable,java.lang.Comparable,java.lang.Number)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.SpinnerNumberModel#SpinnerNumberModel(java.lang.Number, java.lang.Comparable,
+     *             java.lang.Comparable, java.lang.Number)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,10 +127,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.SpinnerNumberModel sut = null; // = new
-                                                         // SpinnerNumberModel(java.lang.Number,java.lang.Comparable,java.lang.Comparable,java.lang.Number);
+        final javax.swing.SpinnerNumberModel sut = null; // = new SpinnerNumberModel(java.lang.Number,
+                                                         // java.lang.Comparable, java.lang.Comparable,
+                                                         // java.lang.Number);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.SpinnerNumberModel#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

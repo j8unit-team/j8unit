@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.logging.SocketHandler class java.util.logging.SocketHandler}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.logging.SocketHandler class java.util.logging.SocketHandler}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.logging.SocketHandlerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.logging.SocketHandlerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.logging.SocketHandlerClassTests
+ *
+ * @j8unit.aim java.util.logging.SocketHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerTests<SUT> {
      * <p>
      * Test method for {@link java.util.logging.SocketHandler#close() public synchronized void
      * java.util.logging.SocketHandler.close() throws java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.logging.SocketHandler#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerTests<SUT> {
      * <p>
      * Test method for {@link java.util.logging.SocketHandler#publish(java.util.logging.LogRecord) public synchronized
      * void java.util.logging.SocketHandler.publish(java.util.logging.LogRecord)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.logging.SocketHandler#publish(java.util.logging.LogRecord)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

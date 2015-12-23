@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.DefaultFormatter class javax.swing.text.DefaultFormatter}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.DefaultFormatter class
+ * javax.swing.text.DefaultFormatter}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.DefaultFormatterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests
+ *
+ * @j8unit.aim javax.swing.text.DefaultFormatter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#clone() public java.lang.Object
      * javax.swing.text.DefaultFormatter.clone() throws java.lang.CloneNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#getAllowsInvalid() public boolean
      * javax.swing.text.DefaultFormatter.getAllowsInvalid()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#getAllowsInvalid()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#getCommitsOnValidEdit() public boolean
      * javax.swing.text.DefaultFormatter.getCommitsOnValidEdit()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#getCommitsOnValidEdit()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#getOverwriteMode() public boolean
      * javax.swing.text.DefaultFormatter.getOverwriteMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#getOverwriteMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#getValueClass() public java.lang.Class
      * javax.swing.text.DefaultFormatter.getValueClass()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#getValueClass()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#install(javax.swing.JFormattedTextField) public void
      * javax.swing.text.DefaultFormatter.install(javax.swing.JFormattedTextField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#install(javax.swing.JFormattedTextField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,7 +165,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#setAllowsInvalid(boolean) public void
      * javax.swing.text.DefaultFormatter.setAllowsInvalid(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#setAllowsInvalid(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,7 +187,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#setCommitsOnValidEdit(boolean) public void
      * javax.swing.text.DefaultFormatter.setCommitsOnValidEdit(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#setCommitsOnValidEdit(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,7 +209,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#setOverwriteMode(boolean) public void
      * javax.swing.text.DefaultFormatter.setOverwriteMode(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#setOverwriteMode(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,7 +231,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#setValueClass(java.lang.Class) public void
      * javax.swing.text.DefaultFormatter.setValueClass(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#setValueClass(java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,7 +253,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#stringToValue(java.lang.String) public java.lang.Object
      * javax.swing.text.DefaultFormatter.stringToValue(java.lang.String) throws java.text.ParseException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#stringToValue(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,7 +276,13 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
      * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#valueToString(java.lang.Object) public java.lang.String
      * javax.swing.text.DefaultFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DefaultFormatter#valueToString(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

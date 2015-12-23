@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.cert.PKIXRevocationChecker class java.security.cert.PKIXRevocationChecker},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests}.
+ * Reusable J8Unit test interface for {@linkplain java.security.cert.PKIXRevocationChecker class
+ * java.security.cert.PKIXRevocationChecker}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests
+ *
+ * @j8unit.aim java.security.cert.PKIXRevocationChecker
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,10 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
 
     /**
      * <p>
-     * Test class for {@link java.security.cert.PKIXRevocationChecker$Option class
+     * Reusable J8Unit test interface for {@linkplain java.security.cert.PKIXRevocationChecker.Option class
      * java.security.cert.PKIXRevocationChecker$Option}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests}.
      * </p>
      *
@@ -49,7 +52,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +60,13 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests
+     *
+     * @j8unit.aim java.security.cert.PKIXRevocationChecker.Option
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -72,7 +78,13 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
          * Test method for {@link java.security.cert.PKIXRevocationChecker.Option#valueOf(java.lang.String) public
          * static java.security.cert.PKIXRevocationChecker$Option
          * java.security.cert.PKIXRevocationChecker$Option.valueOf(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.cert.PKIXRevocationChecker.Option#valueOf(java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -88,7 +100,13 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
          * <p>
          * Test method for {@link java.security.cert.PKIXRevocationChecker.Option#values() public static
          * java.security.cert.PKIXRevocationChecker$Option[] java.security.cert.PKIXRevocationChecker$Option.values()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.cert.PKIXRevocationChecker.Option#values()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -100,6 +118,11 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
             assert sut != null;
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.cert.PKIXRevocationChecker.Option#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -112,6 +135,11 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
 
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.security.cert.PKIXRevocationChecker#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

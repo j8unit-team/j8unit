@@ -8,15 +8,9 @@ import org.junit.runner.RunWith;
 public class PrimitiveIteratorClassTest
 implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<java.util.PrimitiveIterator> {
 
-    @RunWith(J8Unit4.class)
-    public static class OfDoubleClassTest
-    implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests<java.util.PrimitiveIterator.OfDouble> {
-
-        @Override
-        public Class<java.util.PrimitiveIterator.OfDouble> createNewSUT() {
-            return java.util.PrimitiveIterator.OfDouble.class;
-        }
-
+    @Override
+    public Class<java.util.PrimitiveIterator> createNewSUT() {
+        return java.util.PrimitiveIterator.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -31,6 +25,17 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<java.util
     }
 
     @RunWith(J8Unit4.class)
+    public static class OfDoubleClassTest
+    implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests<java.util.PrimitiveIterator.OfDouble> {
+
+        @Override
+        public Class<java.util.PrimitiveIterator.OfDouble> createNewSUT() {
+            return java.util.PrimitiveIterator.OfDouble.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class OfLongClassTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests<java.util.PrimitiveIterator.OfLong> {
 
@@ -39,11 +44,6 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<java.util
             return java.util.PrimitiveIterator.OfLong.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.PrimitiveIterator> createNewSUT() {
-        return java.util.PrimitiveIterator.class;
     }
 
 }

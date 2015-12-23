@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.naming.directory.DirContext interface javax.naming.directory.DirContext}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.naming.directory.DirContext interface
+ * javax.naming.directory.DirContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.naming.directory.DirContextTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.naming.directory.DirContextClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.naming.directory.DirContextClassTests
+ *
+ * @j8unit.aim javax.naming.directory.DirContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#bind(javax.naming.Name,java.lang.Object,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#bind(javax.naming.Name, java.lang.Object, javax.naming.directory.Attributes)
      * public abstract void
      * javax.naming.directory.DirContext.bind(javax.naming.Name,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#bind(javax.naming.Name, java.lang.Object,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,11 +56,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#bind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#bind(java.lang.String, java.lang.Object, javax.naming.directory.Attributes)
      * public abstract void
      * javax.naming.directory.DirContext.bind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#bind(java.lang.String, java.lang.Object,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,11 +82,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#createSubcontext(javax.naming.Name,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#createSubcontext(javax.naming.Name, javax.naming.directory.Attributes)
      * public abstract javax.naming.directory.DirContext
      * javax.naming.directory.DirContext.createSubcontext(javax.naming.Name,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#createSubcontext(javax.naming.Name,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +108,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#createSubcontext(java.lang.String,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#createSubcontext(java.lang.String, javax.naming.directory.Attributes)
      * public abstract javax.naming.directory.DirContext
      * javax.naming.directory.DirContext.createSubcontext(java.lang.String,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#createSubcontext(java.lang.String,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -103,7 +136,13 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
      * Test method for {@link javax.naming.directory.DirContext#getAttributes(javax.naming.Name) public abstract
      * javax.naming.directory.Attributes javax.naming.directory.DirContext.getAttributes(javax.naming.Name) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getAttributes(javax.naming.Name)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,11 +156,17 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.DirContext#getAttributes(javax.naming.Name,java.lang.String[])
+     * Test method for {@link javax.naming.directory.DirContext#getAttributes(javax.naming.Name, java.lang.String[])
      * public abstract javax.naming.directory.Attributes
      * javax.naming.directory.DirContext.getAttributes(javax.naming.Name,java.lang.String[]) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getAttributes(javax.naming.Name, java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +183,13 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
      * Test method for {@link javax.naming.directory.DirContext#getAttributes(java.lang.String) public abstract
      * javax.naming.directory.Attributes javax.naming.directory.DirContext.getAttributes(java.lang.String) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getAttributes(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,11 +203,17 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.DirContext#getAttributes(java.lang.String,java.lang.String[])
+     * Test method for {@link javax.naming.directory.DirContext#getAttributes(java.lang.String, java.lang.String[])
      * public abstract javax.naming.directory.Attributes
      * javax.naming.directory.DirContext.getAttributes(java.lang.String,java.lang.String[]) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getAttributes(java.lang.String, java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,7 +230,13 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
      * Test method for {@link javax.naming.directory.DirContext#getSchema(javax.naming.Name) public abstract
      * javax.naming.directory.DirContext javax.naming.directory.DirContext.getSchema(javax.naming.Name) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getSchema(javax.naming.Name)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +253,13 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
      * Test method for {@link javax.naming.directory.DirContext#getSchema(java.lang.String) public abstract
      * javax.naming.directory.DirContext javax.naming.directory.DirContext.getSchema(java.lang.String) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getSchema(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,7 +277,13 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
      * abstract javax.naming.directory.DirContext
      * javax.naming.directory.DirContext.getSchemaClassDefinition(javax.naming.Name) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getSchemaClassDefinition(javax.naming.Name)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,7 +301,13 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
      * abstract javax.naming.directory.DirContext
      * javax.naming.directory.DirContext.getSchemaClassDefinition(java.lang.String) throws javax.naming.NamingException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#getSchemaClassDefinition(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,11 +322,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#modifyAttributes(javax.naming.Name,int,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#modifyAttributes(javax.naming.Name, int, javax.naming.directory.Attributes)
      * public abstract void
      * javax.naming.directory.DirContext.modifyAttributes(javax.naming.Name,int,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#modifyAttributes(javax.naming.Name, int,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,11 +348,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#modifyAttributes(javax.naming.Name,javax.naming.directory.ModificationItem[])
+     * {@link javax.naming.directory.DirContext#modifyAttributes(javax.naming.Name, javax.naming.directory.ModificationItem[])
      * public abstract void
      * javax.naming.directory.DirContext.modifyAttributes(javax.naming.Name,javax.naming.directory.ModificationItem[])
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#modifyAttributes(javax.naming.Name,
+     *             javax.naming.directory.ModificationItem[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,11 +374,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#modifyAttributes(java.lang.String,int,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#modifyAttributes(java.lang.String, int, javax.naming.directory.Attributes)
      * public abstract void
      * javax.naming.directory.DirContext.modifyAttributes(java.lang.String,int,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#modifyAttributes(java.lang.String, int,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,11 +400,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#modifyAttributes(java.lang.String,javax.naming.directory.ModificationItem[])
+     * {@link javax.naming.directory.DirContext#modifyAttributes(java.lang.String, javax.naming.directory.ModificationItem[])
      * public abstract void
      * javax.naming.directory.DirContext.modifyAttributes(java.lang.String,javax.naming.directory.ModificationItem[])
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#modifyAttributes(java.lang.String,
+     *             javax.naming.directory.ModificationItem[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -317,11 +426,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#rebind(javax.naming.Name,java.lang.Object,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#rebind(javax.naming.Name, java.lang.Object, javax.naming.directory.Attributes)
      * public abstract void
      * javax.naming.directory.DirContext.rebind(javax.naming.Name,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#rebind(javax.naming.Name, java.lang.Object,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -336,11 +452,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#rebind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.DirContext#rebind(java.lang.String, java.lang.Object, javax.naming.directory.Attributes)
      * public abstract void
      * javax.naming.directory.DirContext.rebind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#rebind(java.lang.String, java.lang.Object,
+     *             javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,11 +478,17 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(javax.naming.Name,javax.naming.directory.Attributes) public
+     * {@link javax.naming.directory.DirContext#search(javax.naming.Name, javax.naming.directory.Attributes) public
      * abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(javax.naming.Name,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(javax.naming.Name, javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,11 +503,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(javax.naming.Name,javax.naming.directory.Attributes,java.lang.String[])
+     * {@link javax.naming.directory.DirContext#search(javax.naming.Name, javax.naming.directory.Attributes, java.lang.String[])
      * public abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(javax.naming.Name,javax.naming.directory.Attributes,java.lang.String[])
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(javax.naming.Name, javax.naming.directory.Attributes,
+     *             java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -393,11 +529,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(javax.naming.Name,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls)
+     * {@link javax.naming.directory.DirContext#search(javax.naming.Name, java.lang.String, java.lang.Object[], javax.naming.directory.SearchControls)
      * public abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(javax.naming.Name,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(javax.naming.Name, java.lang.String, java.lang.Object[],
+     *             javax.naming.directory.SearchControls)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,11 +555,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(javax.naming.Name,java.lang.String,javax.naming.directory.SearchControls)
+     * {@link javax.naming.directory.DirContext#search(javax.naming.Name, java.lang.String, javax.naming.directory.SearchControls)
      * public abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(javax.naming.Name,java.lang.String,javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(javax.naming.Name, java.lang.String,
+     *             javax.naming.directory.SearchControls)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -431,11 +581,17 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(java.lang.String,javax.naming.directory.Attributes) public
+     * {@link javax.naming.directory.DirContext#search(java.lang.String, javax.naming.directory.Attributes) public
      * abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(java.lang.String,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(java.lang.String, javax.naming.directory.Attributes)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -450,11 +606,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(java.lang.String,javax.naming.directory.Attributes,java.lang.String[])
+     * {@link javax.naming.directory.DirContext#search(java.lang.String, javax.naming.directory.Attributes, java.lang.String[])
      * public abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(java.lang.String,javax.naming.directory.Attributes,java.lang.String[])
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(java.lang.String, javax.naming.directory.Attributes,
+     *             java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -469,11 +632,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls)
+     * {@link javax.naming.directory.DirContext#search(java.lang.String, java.lang.String, java.lang.Object[], javax.naming.directory.SearchControls)
      * public abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(java.lang.String, java.lang.String, java.lang.Object[],
+     *             javax.naming.directory.SearchControls)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -488,11 +658,18 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.directory.DirContext#search(java.lang.String,java.lang.String,javax.naming.directory.SearchControls)
+     * {@link javax.naming.directory.DirContext#search(java.lang.String, java.lang.String, javax.naming.directory.SearchControls)
      * public abstract javax.naming.NamingEnumeration
      * javax.naming.directory.DirContext.search(java.lang.String,java.lang.String,javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.naming.directory.DirContext#search(java.lang.String, java.lang.String,
+     *             javax.naming.directory.SearchControls)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.ComboPopup interface javax.swing.plaf.basic.ComboPopup}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.ComboPopup interface
+ * javax.swing.plaf.basic.ComboPopup}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.ComboPopup
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComboPopupTests<SUT extends javax.swing.plaf.basic.ComboPopup>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#getKeyListener() public abstract
      * java.awt.event.KeyListener javax.swing.plaf.basic.ComboPopup.getKeyListener()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#getKeyListener()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#getList() public abstract javax.swing.JList
      * javax.swing.plaf.basic.ComboPopup.getList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#getList()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#getMouseListener() public abstract
      * java.awt.event.MouseListener javax.swing.plaf.basic.ComboPopup.getMouseListener()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#getMouseListener()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#getMouseMotionListener() public abstract
      * java.awt.event.MouseMotionListener javax.swing.plaf.basic.ComboPopup.getMouseMotionListener()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#getMouseMotionListener()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#hide() public abstract void
      * javax.swing.plaf.basic.ComboPopup.hide()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#hide()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#isVisible() public abstract boolean
      * javax.swing.plaf.basic.ComboPopup.isVisible()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#isVisible()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +164,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#show() public abstract void
      * javax.swing.plaf.basic.ComboPopup.show()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#show()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +186,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#uninstallingUI() public abstract void
      * javax.swing.plaf.basic.ComboPopup.uninstallingUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.ComboPopup#uninstallingUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

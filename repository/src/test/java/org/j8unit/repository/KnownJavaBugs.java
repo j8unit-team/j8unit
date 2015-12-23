@@ -57,15 +57,15 @@ public class KnownJavaBugs {
     }
 
     @Test(expected = AssertionError.class)
-    public void toStringReturnsNull_HTML_Tag() {
-        final HTMLTests.TagTests<HTML.Tag> t = HTML.Tag::new;
-        t.toStringMustReturnNotNull();
+    public void toStringReturnsNull_AttributeValueExp_String() {
+        final AttributeValueExpTests<AttributeValueExp> ave = () -> new AttributeValueExp(null);
+        ave.toStringMustReturnNotNull();
     }
 
     @Test(expected = AssertionError.class)
-    public void toStringReturnsNull2_AttributeValueExp() {
-        final AttributeValueExpTests<AttributeValueExp> ave = () -> new AttributeValueExp(null);
-        ave.toStringMustReturnNotNull();
+    public void toStringReturnsNull_HTML_Tag() {
+        final HTMLTests.TagTests<HTML.Tag> t = HTML.Tag::new;
+        t.toStringMustReturnNotNull();
     }
 
     @Test(expected = NullPointerException.class)

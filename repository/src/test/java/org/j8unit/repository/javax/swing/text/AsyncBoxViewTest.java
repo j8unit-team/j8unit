@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class AsyncBoxViewTest
 implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<javax.swing.text.AsyncBoxView> {
 
+    @Override
+    public javax.swing.text.AsyncBoxView createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.AsyncBoxView] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class ChildLocatorTest
     implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests<javax.swing.text.AsyncBoxView.ChildLocator> {
@@ -28,11 +33,6 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<javax.swing.
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.AsyncBoxView.ChildState] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.text.AsyncBoxView createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.AsyncBoxView] available.");
     }
 
 }

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
-import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Unit4;
-import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
@@ -12,12 +10,6 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ContentModelTests<
     @Override
     public javax.swing.text.html.parser.ContentModel createNewSUT() {
         return new javax.swing.text.html.parser.ContentModel();
-    }
-
-    @Category(JavaBug.class)
-    @Override
-    public void toStringMustReturnNotNull() {
-        ContentModelTests.super.toStringMustReturnNotNull();
     }
 
 }

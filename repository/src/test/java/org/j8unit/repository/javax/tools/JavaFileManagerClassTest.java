@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JavaFileManagerClassTest
 implements org.j8unit.repository.javax.tools.JavaFileManagerClassTests<javax.tools.JavaFileManager> {
 
+    @Override
+    public Class<javax.tools.JavaFileManager> createNewSUT() {
+        return javax.tools.JavaFileManager.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class LocationClassTest
     implements org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<javax.tools.JavaFileManager.Location> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.tools.JavaFileManagerClassTests<javax.too
             return javax.tools.JavaFileManager.Location.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.tools.JavaFileManager> createNewSUT() {
-        return javax.tools.JavaFileManager.class;
     }
 
 }

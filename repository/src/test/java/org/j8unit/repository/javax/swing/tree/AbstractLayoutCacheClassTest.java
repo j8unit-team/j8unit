@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AbstractLayoutCacheClassTest
 implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<javax.swing.tree.AbstractLayoutCache> {
 
+    @Override
+    public Class<javax.swing.tree.AbstractLayoutCache> createNewSUT() {
+        return javax.swing.tree.AbstractLayoutCache.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class NodeDimensionsClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<
             return javax.swing.tree.AbstractLayoutCache.NodeDimensions.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.tree.AbstractLayoutCache> createNewSUT() {
-        return javax.swing.tree.AbstractLayoutCache.class;
     }
 
 }

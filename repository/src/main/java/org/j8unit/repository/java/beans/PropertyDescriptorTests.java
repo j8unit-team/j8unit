@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.beans.PropertyDescriptor class java.beans.PropertyDescriptor}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.beans.PropertyDescriptor class java.beans.PropertyDescriptor},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.beans.PropertyDescriptorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.beans.PropertyDescriptorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.beans.PropertyDescriptorClassTests
+ *
+ * @j8unit.aim java.beans.PropertyDescriptor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#createPropertyEditor(java.lang.Object) public
      * java.beans.PropertyEditor java.beans.PropertyDescriptor.createPropertyEditor(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#createPropertyEditor(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,11 +53,18 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#equals(java.lang.Object) public boolean
      * java.beans.PropertyDescriptor.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -58,7 +76,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#getPropertyEditorClass() public java.lang.Class
      * java.beans.PropertyDescriptor.getPropertyEditorClass()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#getPropertyEditorClass()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +98,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#getPropertyType() public synchronized java.lang.Class
      * java.beans.PropertyDescriptor.getPropertyType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#getPropertyType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +120,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#getReadMethod() public synchronized java.lang.reflect.Method
      * java.beans.PropertyDescriptor.getReadMethod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#getReadMethod()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +142,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#getWriteMethod() public synchronized
      * java.lang.reflect.Method java.beans.PropertyDescriptor.getWriteMethod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#getWriteMethod()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +164,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#hashCode() public int
      * java.beans.PropertyDescriptor.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +187,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#isBound() public boolean
      * java.beans.PropertyDescriptor.isBound()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#isBound()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -155,7 +209,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#isConstrained() public boolean
      * java.beans.PropertyDescriptor.isConstrained()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#isConstrained()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,7 +231,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#setBound(boolean) public void
      * java.beans.PropertyDescriptor.setBound(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#setBound(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,7 +253,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#setConstrained(boolean) public void
      * java.beans.PropertyDescriptor.setConstrained(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#setConstrained(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,7 +275,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * <p>
      * Test method for {@link java.beans.PropertyDescriptor#setPropertyEditorClass(java.lang.Class) public void
      * java.beans.PropertyDescriptor.setPropertyEditorClass(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#setPropertyEditorClass(java.lang.Class)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,7 +298,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * Test method for {@link java.beans.PropertyDescriptor#setReadMethod(java.lang.reflect.Method) public synchronized
      * void java.beans.PropertyDescriptor.setReadMethod(java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#setReadMethod(java.lang.reflect.Method)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,7 +321,13 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * Test method for {@link java.beans.PropertyDescriptor#setWriteMethod(java.lang.reflect.Method) public synchronized
      * void java.beans.PropertyDescriptor.setWriteMethod(java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.beans.PropertyDescriptor#setWriteMethod(java.lang.reflect.Method)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

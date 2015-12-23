@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.html.StyleSheet class javax.swing.text.html.StyleSheet}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.StyleSheet class
+ * javax.swing.text.html.StyleSheet}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests
+ *
+ * @j8unit.aim javax.swing.text.html.StyleSheet
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.StyleSheet$BoxPainter class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.StyleSheet.BoxPainter class
      * javax.swing.text.html.StyleSheet$BoxPainter}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet.BoxPainter
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -41,9 +50,15 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.StyleSheet.BoxPainter#getInset(int,javax.swing.text.View) public
-         * float javax.swing.text.html.StyleSheet$BoxPainter.getInset(int,javax.swing.text.View)}.
+         * Test method for {@link javax.swing.text.html.StyleSheet.BoxPainter#getInset(int, javax.swing.text.View)
+         * public float javax.swing.text.html.StyleSheet$BoxPainter.getInset(int,javax.swing.text.View)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.StyleSheet.BoxPainter#getInset(int, javax.swing.text.View)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -58,11 +73,18 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.html.StyleSheet.BoxPainter#paint(java.awt.Graphics,float,float,float,float,javax.swing.text.View)
+         * {@link javax.swing.text.html.StyleSheet.BoxPainter#paint(java.awt.Graphics, float, float, float, float, javax.swing.text.View)
          * public void
          * javax.swing.text.html.StyleSheet$BoxPainter.paint(java.awt.Graphics,float,float,float,float,javax.swing.text.View)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.StyleSheet.BoxPainter#paint(java.awt.Graphics, float, float, float, float,
+         *             javax.swing.text.View)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -78,15 +100,19 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.StyleSheet$ListPainter class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.StyleSheet.ListPainter class
      * javax.swing.text.html.StyleSheet$ListPainter}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet.ListPainter
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -96,11 +122,18 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.html.StyleSheet.ListPainter#paint(java.awt.Graphics,float,float,float,float,javax.swing.text.View,int)
+         * {@link javax.swing.text.html.StyleSheet.ListPainter#paint(java.awt.Graphics, float, float, float, float, javax.swing.text.View, int)
          * public void
          * javax.swing.text.html.StyleSheet$ListPainter.paint(java.awt.Graphics,float,float,float,float,javax.swing.text.View,int)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.html.StyleSheet.ListPainter#paint(java.awt.Graphics, float, float, float, float,
+         *             javax.swing.text.View, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -117,10 +150,17 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#addAttribute(javax.swing.text.AttributeSet,java.lang.Object,java.lang.Object)
+     * {@link javax.swing.text.html.StyleSheet#addAttribute(javax.swing.text.AttributeSet, java.lang.Object, java.lang.Object)
      * public javax.swing.text.AttributeSet
      * javax.swing.text.html.StyleSheet.addAttribute(javax.swing.text.AttributeSet,java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#addAttribute(javax.swing.text.AttributeSet, java.lang.Object,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,10 +176,17 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#addAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)
+     * {@link javax.swing.text.html.StyleSheet#addAttributes(javax.swing.text.AttributeSet, javax.swing.text.AttributeSet)
      * public javax.swing.text.AttributeSet
      * javax.swing.text.html.StyleSheet.addAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#addAttributes(javax.swing.text.AttributeSet,
+     *             javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -155,11 +202,18 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#addCSSAttribute(javax.swing.text.MutableAttributeSet,javax.swing.text.html.CSS.Attribute,java.lang.String)
+     * {@link javax.swing.text.html.StyleSheet#addCSSAttribute(javax.swing.text.MutableAttributeSet, javax.swing.text.html.CSS.Attribute, java.lang.String)
      * public void
      * javax.swing.text.html.StyleSheet.addCSSAttribute(javax.swing.text.MutableAttributeSet,javax.swing.text.html.CSS$Attribute,java.lang.String)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#addCSSAttribute(javax.swing.text.MutableAttributeSet,
+     *             javax.swing.text.html.CSS.Attribute, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,11 +228,18 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#addCSSAttributeFromHTML(javax.swing.text.MutableAttributeSet,javax.swing.text.html.CSS.Attribute,java.lang.String)
+     * {@link javax.swing.text.html.StyleSheet#addCSSAttributeFromHTML(javax.swing.text.MutableAttributeSet, javax.swing.text.html.CSS.Attribute, java.lang.String)
      * public boolean
      * javax.swing.text.html.StyleSheet.addCSSAttributeFromHTML(javax.swing.text.MutableAttributeSet,javax.swing.text.html.CSS$Attribute,java.lang.String)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#addCSSAttributeFromHTML(javax.swing.text.MutableAttributeSet,
+     *             javax.swing.text.html.CSS.Attribute, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,7 +255,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#addRule(java.lang.String) public void
      * javax.swing.text.html.StyleSheet.addRule(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#addRule(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +277,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#addStyleSheet(javax.swing.text.html.StyleSheet) public
      * void javax.swing.text.html.StyleSheet.addStyleSheet(javax.swing.text.html.StyleSheet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#addStyleSheet(javax.swing.text.html.StyleSheet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,7 +299,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getBackground(javax.swing.text.AttributeSet) public
      * java.awt.Color javax.swing.text.html.StyleSheet.getBackground(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getBackground(javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,7 +322,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getBase() public java.net.URL
      * javax.swing.text.html.StyleSheet.getBase()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getBase()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,7 +345,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * Test method for {@link javax.swing.text.html.StyleSheet#getBoxPainter(javax.swing.text.AttributeSet) public
      * javax.swing.text.html.StyleSheet$BoxPainter
      * javax.swing.text.html.StyleSheet.getBoxPainter(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getBoxPainter(javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -276,7 +367,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getDeclaration(java.lang.String) public
      * javax.swing.text.AttributeSet javax.swing.text.html.StyleSheet.getDeclaration(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getDeclaration(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,7 +389,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getFont(javax.swing.text.AttributeSet) public
      * java.awt.Font javax.swing.text.html.StyleSheet.getFont(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getFont(javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -309,7 +412,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getForeground(javax.swing.text.AttributeSet) public
      * java.awt.Color javax.swing.text.html.StyleSheet.getForeground(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getForeground(javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,7 +436,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * Test method for {@link javax.swing.text.html.StyleSheet#getListPainter(javax.swing.text.AttributeSet) public
      * javax.swing.text.html.StyleSheet$ListPainter
      * javax.swing.text.html.StyleSheet.getListPainter(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getListPainter(javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -343,7 +458,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getPointSize(int) public float
      * javax.swing.text.html.StyleSheet.getPointSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getPointSize(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,7 +480,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getPointSize(java.lang.String) public float
      * javax.swing.text.html.StyleSheet.getPointSize(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getPointSize(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -375,7 +502,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getRule(java.lang.String) public javax.swing.text.Style
      * javax.swing.text.html.StyleSheet.getRule(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getRule(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -390,10 +523,16 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#getRule(javax.swing.text.html.HTML.Tag,javax.swing.text.Element) public
+     * {@link javax.swing.text.html.StyleSheet#getRule(javax.swing.text.html.HTML.Tag, javax.swing.text.Element) public
      * javax.swing.text.Style
      * javax.swing.text.html.StyleSheet.getRule(javax.swing.text.html.HTML$Tag,javax.swing.text.Element)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getRule(javax.swing.text.html.HTML.Tag, javax.swing.text.Element)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,7 +548,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getStyleSheets() public
      * javax.swing.text.html.StyleSheet[] javax.swing.text.html.StyleSheet.getStyleSheets()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getStyleSheets()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -425,7 +570,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#getViewAttributes(javax.swing.text.View) public
      * javax.swing.text.AttributeSet javax.swing.text.html.StyleSheet.getViewAttributes(javax.swing.text.View)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#getViewAttributes(javax.swing.text.View)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -441,7 +592,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#importStyleSheet(java.net.URL) public void
      * javax.swing.text.html.StyleSheet.importStyleSheet(java.net.URL)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#importStyleSheet(java.net.URL)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -455,9 +612,15 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.StyleSheet#loadRules(java.io.Reader,java.net.URL) public void
+     * Test method for {@link javax.swing.text.html.StyleSheet#loadRules(java.io.Reader, java.net.URL) public void
      * javax.swing.text.html.StyleSheet.loadRules(java.io.Reader,java.net.URL) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#loadRules(java.io.Reader, java.net.URL)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -472,10 +635,16 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#removeAttribute(javax.swing.text.AttributeSet,java.lang.Object) public
+     * {@link javax.swing.text.html.StyleSheet#removeAttribute(javax.swing.text.AttributeSet, java.lang.Object) public
      * javax.swing.text.AttributeSet
      * javax.swing.text.html.StyleSheet.removeAttribute(javax.swing.text.AttributeSet,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#removeAttribute(javax.swing.text.AttributeSet, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -491,10 +660,17 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#removeAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)
+     * {@link javax.swing.text.html.StyleSheet#removeAttributes(javax.swing.text.AttributeSet, javax.swing.text.AttributeSet)
      * public javax.swing.text.AttributeSet
      * javax.swing.text.html.StyleSheet.removeAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#removeAttributes(javax.swing.text.AttributeSet,
+     *             javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -510,10 +686,17 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.StyleSheet#removeAttributes(javax.swing.text.AttributeSet,java.util.Enumeration)
+     * {@link javax.swing.text.html.StyleSheet#removeAttributes(javax.swing.text.AttributeSet, java.util.Enumeration)
      * public javax.swing.text.AttributeSet
      * javax.swing.text.html.StyleSheet.removeAttributes(javax.swing.text.AttributeSet,java.util.Enumeration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#removeAttributes(javax.swing.text.AttributeSet,
+     *             java.util.Enumeration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -530,7 +713,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#removeStyle(java.lang.String) public void
      * javax.swing.text.html.StyleSheet.removeStyle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#removeStyle(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -547,7 +736,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#removeStyleSheet(javax.swing.text.html.StyleSheet) public
      * void javax.swing.text.html.StyleSheet.removeStyleSheet(javax.swing.text.html.StyleSheet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#removeStyleSheet(javax.swing.text.html.StyleSheet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -563,7 +758,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#setBase(java.net.URL) public void
      * javax.swing.text.html.StyleSheet.setBase(java.net.URL)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#setBase(java.net.URL)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -579,7 +780,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#setBaseFontSize(int) public void
      * javax.swing.text.html.StyleSheet.setBaseFontSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#setBaseFontSize(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -595,7 +802,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#setBaseFontSize(java.lang.String) public void
      * javax.swing.text.html.StyleSheet.setBaseFontSize(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#setBaseFontSize(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -611,7 +824,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.StyleSheet#stringToColor(java.lang.String) public java.awt.Color
      * javax.swing.text.html.StyleSheet.stringToColor(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#stringToColor(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -628,7 +847,13 @@ extends org.j8unit.repository.javax.swing.text.StyleContextTests<SUT> {
      * Test method for {@link javax.swing.text.html.StyleSheet#translateHTMLToCSS(javax.swing.text.AttributeSet) public
      * javax.swing.text.AttributeSet javax.swing.text.html.StyleSheet.translateHTMLToCSS(javax.swing.text.AttributeSet)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.StyleSheet#translateHTMLToCSS(javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

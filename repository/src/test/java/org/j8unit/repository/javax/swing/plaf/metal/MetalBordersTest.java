@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class MetalBordersTest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests<javax.swing.plaf.metal.MetalBorders> {
 
-    @RunWith(J8Unit4.class)
-    public static class ButtonBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests<javax.swing.plaf.metal.MetalBorders.ButtonBorder> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalBorders.ButtonBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.ButtonBorder();
-        }
-
+    @Override
+    public javax.swing.plaf.metal.MetalBorders createNewSUT() {
+        return new javax.swing.plaf.metal.MetalBorders();
     }
 
     @RunWith(J8Unit4.class)
@@ -25,51 +19,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests<javax.
         @Override
         public javax.swing.plaf.metal.MetalBorders.Flush3DBorder createNewSUT() {
             return new javax.swing.plaf.metal.MetalBorders.Flush3DBorder();
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class InternalFrameBorderTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.InternalFrameBorderTests<javax.swing.plaf.metal.MetalBorders.InternalFrameBorder> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalBorders.InternalFrameBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.InternalFrameBorder();
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class MenuBarBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuBarBorderTests<javax.swing.plaf.metal.MetalBorders.MenuBarBorder> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalBorders.MenuBarBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.MenuBarBorder();
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class MenuItemBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuItemBorderTests<javax.swing.plaf.metal.MetalBorders.MenuItemBorder> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalBorders.MenuItemBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.MenuItemBorder();
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class OptionDialogBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.OptionDialogBorderTests<javax.swing.plaf.metal.MetalBorders.OptionDialogBorder> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalBorders.OptionDialogBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.OptionDialogBorder();
         }
 
     }
@@ -86,12 +35,56 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests<javax.
     }
 
     @RunWith(J8Unit4.class)
-    public static class PopupMenuBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PopupMenuBorderTests<javax.swing.plaf.metal.MetalBorders.PopupMenuBorder> {
+    public static class TextFieldBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TextFieldBorderTests<javax.swing.plaf.metal.MetalBorders.TextFieldBorder> {
 
         @Override
-        public javax.swing.plaf.metal.MetalBorders.PopupMenuBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.PopupMenuBorder();
+        public javax.swing.plaf.metal.MetalBorders.TextFieldBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.TextFieldBorder();
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ButtonBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests<javax.swing.plaf.metal.MetalBorders.ButtonBorder> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalBorders.ButtonBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.ButtonBorder();
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ToolBarBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToolBarBorderTests<javax.swing.plaf.metal.MetalBorders.ToolBarBorder> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalBorders.ToolBarBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.ToolBarBorder();
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ToggleButtonBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToggleButtonBorderTests<javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder();
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class OptionDialogBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.OptionDialogBorderTests<javax.swing.plaf.metal.MetalBorders.OptionDialogBorder> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalBorders.OptionDialogBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.OptionDialogBorder();
         }
 
     }
@@ -109,17 +102,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests<javax.
     }
 
     @RunWith(J8Unit4.class)
-    public static class ScrollPaneBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ScrollPaneBorderTests<javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder();
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class TableHeaderBorderTest
     implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TableHeaderBorderTests<javax.swing.plaf.metal.MetalBorders.TableHeaderBorder> {
 
@@ -131,41 +113,59 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests<javax.
     }
 
     @RunWith(J8Unit4.class)
-    public static class TextFieldBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TextFieldBorderTests<javax.swing.plaf.metal.MetalBorders.TextFieldBorder> {
+    public static class MenuBarBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuBarBorderTests<javax.swing.plaf.metal.MetalBorders.MenuBarBorder> {
 
         @Override
-        public javax.swing.plaf.metal.MetalBorders.TextFieldBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.TextFieldBorder();
+        public javax.swing.plaf.metal.MetalBorders.MenuBarBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.MenuBarBorder();
         }
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class ToggleButtonBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToggleButtonBorderTests<javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder> {
+    public static class ScrollPaneBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ScrollPaneBorderTests<javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder> {
 
         @Override
-        public javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder();
+        public javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder();
         }
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class ToolBarBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToolBarBorderTests<javax.swing.plaf.metal.MetalBorders.ToolBarBorder> {
+    public static class PopupMenuBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PopupMenuBorderTests<javax.swing.plaf.metal.MetalBorders.PopupMenuBorder> {
 
         @Override
-        public javax.swing.plaf.metal.MetalBorders.ToolBarBorder createNewSUT() {
-            return new javax.swing.plaf.metal.MetalBorders.ToolBarBorder();
+        public javax.swing.plaf.metal.MetalBorders.PopupMenuBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.PopupMenuBorder();
         }
 
     }
 
-    @Override
-    public javax.swing.plaf.metal.MetalBorders createNewSUT() {
-        return new javax.swing.plaf.metal.MetalBorders();
+    @RunWith(J8Unit4.class)
+    public static class InternalFrameBorderTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.InternalFrameBorderTests<javax.swing.plaf.metal.MetalBorders.InternalFrameBorder> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalBorders.InternalFrameBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.InternalFrameBorder();
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MenuItemBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuItemBorderTests<javax.swing.plaf.metal.MetalBorders.MenuItemBorder> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalBorders.MenuItemBorder createNewSUT() {
+            return new javax.swing.plaf.metal.MetalBorders.MenuItemBorder();
+        }
+
     }
 
 }

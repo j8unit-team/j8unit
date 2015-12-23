@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class AsyncBoxViewClassTest
 implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<javax.swing.text.AsyncBoxView> {
 
+    @Override
+    public Class<javax.swing.text.AsyncBoxView> createNewSUT() {
+        return javax.swing.text.AsyncBoxView.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ChildLocatorClassTest
     implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests.ChildLocatorClassTests<javax.swing.text.AsyncBoxView.ChildLocator> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<javax.s
             return javax.swing.text.AsyncBoxView.ChildState.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.AsyncBoxView> createNewSUT() {
-        return javax.swing.text.AsyncBoxView.class;
     }
 
 }

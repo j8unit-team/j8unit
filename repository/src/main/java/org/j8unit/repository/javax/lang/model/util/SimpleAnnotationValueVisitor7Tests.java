@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.lang.model.util.SimpleAnnotationValueVisitor7 class
+ * Reusable J8Unit test interface for {@linkplain javax.lang.model.util.SimpleAnnotationValueVisitor7 class
  * javax.lang.model.util.SimpleAnnotationValueVisitor7}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.lang.model.util.SimpleAnnotationValueVisitor7Tests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.lang.model.util.SimpleAnnotationValueVisitor7ClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.lang.model.util.SimpleAnnotationValueVisitor7ClassTests
+ *
+ * @j8unit.aim javax.lang.model.util.SimpleAnnotationValueVisitor7
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

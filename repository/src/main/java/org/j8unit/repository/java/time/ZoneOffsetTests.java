@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.time.ZoneOffset class java.time.ZoneOffset}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.time.ZoneOffset class java.time.ZoneOffset}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.time.ZoneOffsetTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.time.ZoneOffsetClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.time.ZoneOffsetClassTests
+ *
+ * @j8unit.aim java.time.ZoneOffset
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#adjustInto(java.time.temporal.Temporal) public
      * java.time.temporal.Temporal java.time.ZoneOffset.adjustInto(java.time.temporal.Temporal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#adjustInto(java.time.temporal.Temporal)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +55,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#compareTo(java.time.ZoneOffset) public int
      * java.time.ZoneOffset.compareTo(java.time.ZoneOffset)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#compareTo(java.time.ZoneOffset)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +77,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#equals(java.lang.Object) public boolean
      * java.time.ZoneOffset.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +100,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#get(java.time.temporal.TemporalField) public int
      * java.time.ZoneOffset.get(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#get(java.time.temporal.TemporalField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +122,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.time.ZoneOffset#getId() public java.lang.String java.time.ZoneOffset.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#getId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +145,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#getLong(java.time.temporal.TemporalField) public long
      * java.time.ZoneOffset.getLong(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#getLong(java.time.temporal.TemporalField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +168,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#getRules() public java.time.zone.ZoneRules
      * java.time.ZoneOffset.getRules()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#getRules()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +190,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.time.ZoneOffset#getTotalSeconds() public int java.time.ZoneOffset.getTotalSeconds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#getTotalSeconds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,7 +211,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.time.ZoneOffset#hashCode() public int java.time.ZoneOffset.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +234,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#isSupported(java.time.temporal.TemporalField) public boolean
      * java.time.ZoneOffset.isSupported(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#isSupported(java.time.temporal.TemporalField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +257,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#query(java.time.temporal.TemporalQuery) public java.lang.Object
      * java.time.ZoneOffset.query(java.time.temporal.TemporalQuery)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#query(java.time.temporal.TemporalQuery)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +280,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
      * <p>
      * Test method for {@link java.time.ZoneOffset#range(java.time.temporal.TemporalField) public
      * java.time.temporal.ValueRange java.time.ZoneOffset.range(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#range(java.time.temporal.TemporalField)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,7 +302,13 @@ org.j8unit.repository.java.time.ZoneIdTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.time.ZoneOffset#toString() public java.lang.String java.time.ZoneOffset.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.time.ZoneOffset#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

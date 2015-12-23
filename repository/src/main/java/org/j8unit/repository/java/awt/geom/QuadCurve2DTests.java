@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.geom.QuadCurve2D class java.awt.geom.QuadCurve2D}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.geom.QuadCurve2D class java.awt.geom.QuadCurve2D}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.geom.QuadCurve2DTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests
+ *
+ * @j8unit.aim java.awt.geom.QuadCurve2D
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test class for {@link java.awt.geom.QuadCurve2D$Double class java.awt.geom.QuadCurve2D$Double}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.awt.geom.QuadCurve2D.Double class
+     * java.awt.geom.QuadCurve2D$Double}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.awt.geom.QuadCurve2DTests.DoubleTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.DoubleClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.DoubleClassTests
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D.Double
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getBounds2D() public java.awt.geom.Rectangle2D
          * java.awt.geom.QuadCurve2D$Double.getBounds2D()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getBounds2D()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -59,7 +75,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getCtrlPt() public java.awt.geom.Point2D
          * java.awt.geom.QuadCurve2D$Double.getCtrlPt()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getCtrlPt()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -76,7 +98,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getCtrlX() public double
          * java.awt.geom.QuadCurve2D$Double.getCtrlX()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getCtrlX()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -93,7 +121,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getCtrlY() public double
          * java.awt.geom.QuadCurve2D$Double.getCtrlY()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getCtrlY()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -110,7 +144,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getP1() public java.awt.geom.Point2D
          * java.awt.geom.QuadCurve2D$Double.getP1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getP1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -127,7 +167,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getP2() public java.awt.geom.Point2D
          * java.awt.geom.QuadCurve2D$Double.getP2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getP2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -144,7 +190,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getX1() public double
          * java.awt.geom.QuadCurve2D$Double.getX1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getX1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -161,7 +213,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getX2() public double
          * java.awt.geom.QuadCurve2D$Double.getX2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getX2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -178,7 +236,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getY1() public double
          * java.awt.geom.QuadCurve2D$Double.getY1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getY1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -195,7 +259,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Double#getY2() public double
          * java.awt.geom.QuadCurve2D$Double.getY2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#getY2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -210,9 +280,16 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for {@link java.awt.geom.QuadCurve2D.Double#setCurve(double,double,double,double,double,double)
-         * public void java.awt.geom.QuadCurve2D$Double.setCurve(double,double,double,double,double,double)}.
+         * Test method for
+         * {@link java.awt.geom.QuadCurve2D.Double#setCurve(double, double, double, double, double, double) public void
+         * java.awt.geom.QuadCurve2D$Double.setCurve(double,double,double,double,double,double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Double#setCurve(double, double, double, double, double, double)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -229,14 +306,19 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test class for {@link java.awt.geom.QuadCurve2D$Float class java.awt.geom.QuadCurve2D$Float}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.awt.geom.QuadCurve2D.Float class
+     * java.awt.geom.QuadCurve2D$Float}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.awt.geom.QuadCurve2DTests.FloatTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.FloatClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.FloatClassTests
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D.Float
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -247,7 +329,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getBounds2D() public java.awt.geom.Rectangle2D
          * java.awt.geom.QuadCurve2D$Float.getBounds2D()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getBounds2D()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -264,7 +352,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getCtrlPt() public java.awt.geom.Point2D
          * java.awt.geom.QuadCurve2D$Float.getCtrlPt()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getCtrlPt()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -281,7 +375,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getCtrlX() public double
          * java.awt.geom.QuadCurve2D$Float.getCtrlX()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getCtrlX()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -298,7 +398,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getCtrlY() public double
          * java.awt.geom.QuadCurve2D$Float.getCtrlY()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getCtrlY()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -315,7 +421,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getP1() public java.awt.geom.Point2D
          * java.awt.geom.QuadCurve2D$Float.getP1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getP1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -332,7 +444,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getP2() public java.awt.geom.Point2D
          * java.awt.geom.QuadCurve2D$Float.getP2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getP2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -349,7 +467,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getX1() public double
          * java.awt.geom.QuadCurve2D$Float.getX1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getX1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -366,7 +490,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getX2() public double
          * java.awt.geom.QuadCurve2D$Float.getX2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getX2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -383,7 +513,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getY1() public double
          * java.awt.geom.QuadCurve2D$Float.getY1()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getY1()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -400,7 +536,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
          * <p>
          * Test method for {@link java.awt.geom.QuadCurve2D.Float#getY2() public double
          * java.awt.geom.QuadCurve2D$Float.getY2()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#getY2()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -415,9 +557,16 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for {@link java.awt.geom.QuadCurve2D.Float#setCurve(double,double,double,double,double,double)
-         * public void java.awt.geom.QuadCurve2D$Float.setCurve(double,double,double,double,double,double)}.
+         * Test method for
+         * {@link java.awt.geom.QuadCurve2D.Float#setCurve(double, double, double, double, double, double) public void
+         * java.awt.geom.QuadCurve2D$Float.setCurve(double,double,double,double,double,double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#setCurve(double, double, double, double, double, double)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -432,9 +581,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for {@link java.awt.geom.QuadCurve2D.Float#setCurve(float,float,float,float,float,float) public
-         * void java.awt.geom.QuadCurve2D$Float.setCurve(float,float,float,float,float,float)}.
+         * Test method for {@link java.awt.geom.QuadCurve2D.Float#setCurve(float, float, float, float, float, float)
+         * public void java.awt.geom.QuadCurve2D$Float.setCurve(float,float,float,float,float,float)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.geom.QuadCurve2D.Float#setCurve(float, float, float, float, float, float)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -452,7 +607,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#clone() public java.lang.Object
      * java.awt.geom.QuadCurve2D.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -466,9 +627,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#contains(double,double) public boolean
+     * Test method for {@link java.awt.geom.QuadCurve2D#contains(double, double) public boolean
      * java.awt.geom.QuadCurve2D.contains(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#contains(double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -483,9 +650,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#contains(double,double,double,double) public boolean
+     * Test method for {@link java.awt.geom.QuadCurve2D#contains(double, double, double, double) public boolean
      * java.awt.geom.QuadCurve2D.contains(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#contains(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -502,7 +675,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#contains(java.awt.geom.Point2D) public boolean
      * java.awt.geom.QuadCurve2D.contains(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#contains(java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -519,7 +698,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#contains(java.awt.geom.Rectangle2D) public boolean
      * java.awt.geom.QuadCurve2D.contains(java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#contains(java.awt.geom.Rectangle2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -536,7 +721,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getBounds() public java.awt.Rectangle
      * java.awt.geom.QuadCurve2D.getBounds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getBounds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -553,7 +744,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getCtrlPt() public abstract java.awt.geom.Point2D
      * java.awt.geom.QuadCurve2D.getCtrlPt()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getCtrlPt()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -569,7 +766,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getCtrlX() public abstract double
      * java.awt.geom.QuadCurve2D.getCtrlX()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getCtrlX()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -585,7 +788,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getCtrlY() public abstract double
      * java.awt.geom.QuadCurve2D.getCtrlY()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getCtrlY()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -601,7 +810,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getFlatness() public double
      * java.awt.geom.QuadCurve2D.getFlatness()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getFlatness()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -617,7 +832,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getFlatnessSq() public double
      * java.awt.geom.QuadCurve2D.getFlatnessSq()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getFlatnessSq()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -633,7 +854,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getP1() public abstract java.awt.geom.Point2D
      * java.awt.geom.QuadCurve2D.getP1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getP1()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -649,7 +876,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getP2() public abstract java.awt.geom.Point2D
      * java.awt.geom.QuadCurve2D.getP2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getP2()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -665,7 +898,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getPathIterator(java.awt.geom.AffineTransform) public
      * java.awt.geom.PathIterator java.awt.geom.QuadCurve2D.getPathIterator(java.awt.geom.AffineTransform)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getPathIterator(java.awt.geom.AffineTransform)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -680,9 +919,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#getPathIterator(java.awt.geom.AffineTransform,double) public
+     * Test method for {@link java.awt.geom.QuadCurve2D#getPathIterator(java.awt.geom.AffineTransform, double) public
      * java.awt.geom.PathIterator java.awt.geom.QuadCurve2D.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getPathIterator(java.awt.geom.AffineTransform, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -699,7 +944,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getX1() public abstract double
      * java.awt.geom.QuadCurve2D.getX1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getX1()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -715,7 +966,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getX2() public abstract double
      * java.awt.geom.QuadCurve2D.getX2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getX2()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -731,7 +988,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getY1() public abstract double
      * java.awt.geom.QuadCurve2D.getY1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getY1()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -747,7 +1010,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#getY2() public abstract double
      * java.awt.geom.QuadCurve2D.getY2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#getY2()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -761,9 +1030,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#intersects(double,double,double,double) public boolean
+     * Test method for {@link java.awt.geom.QuadCurve2D#intersects(double, double, double, double) public boolean
      * java.awt.geom.QuadCurve2D.intersects(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#intersects(double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -780,7 +1055,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#intersects(java.awt.geom.Rectangle2D) public boolean
      * java.awt.geom.QuadCurve2D.intersects(java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#intersects(java.awt.geom.Rectangle2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -795,9 +1076,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(double,double,double,double,double,double) public
+     * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(double, double, double, double, double, double) public
      * abstract void java.awt.geom.QuadCurve2D.setCurve(double,double,double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#setCurve(double, double, double, double, double, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -811,9 +1098,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(double[],int) public void
+     * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(double[], int) public void
      * java.awt.geom.QuadCurve2D.setCurve(double[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#setCurve(double[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -828,10 +1121,17 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for
-     * {@link java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.Point2D,java.awt.geom.Point2D,java.awt.geom.Point2D)
+     * {@link java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.Point2D, java.awt.geom.Point2D, java.awt.geom.Point2D)
      * public void
      * java.awt.geom.QuadCurve2D.setCurve(java.awt.geom.Point2D,java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.Point2D, java.awt.geom.Point2D,
+     *             java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -845,9 +1145,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.Point2D[],int) public void
+     * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.Point2D[], int) public void
      * java.awt.geom.QuadCurve2D.setCurve(java.awt.geom.Point2D[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.Point2D[], int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -863,7 +1169,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for {@link java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.QuadCurve2D) public void
      * java.awt.geom.QuadCurve2D.setCurve(java.awt.geom.QuadCurve2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#setCurve(java.awt.geom.QuadCurve2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -877,9 +1189,15 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.QuadCurve2D#subdivide(java.awt.geom.QuadCurve2D,java.awt.geom.QuadCurve2D)
+     * Test method for {@link java.awt.geom.QuadCurve2D#subdivide(java.awt.geom.QuadCurve2D, java.awt.geom.QuadCurve2D)
      * public void java.awt.geom.QuadCurve2D.subdivide(java.awt.geom.QuadCurve2D,java.awt.geom.QuadCurve2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.geom.QuadCurve2D#subdivide(java.awt.geom.QuadCurve2D, java.awt.geom.QuadCurve2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

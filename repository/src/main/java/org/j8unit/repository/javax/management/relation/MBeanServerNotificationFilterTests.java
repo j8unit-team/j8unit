@@ -8,15 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.relation.MBeanServerNotificationFilter class
+ * Reusable J8Unit test interface for {@linkplain javax.management.relation.MBeanServerNotificationFilter class
  * javax.management.relation.MBeanServerNotificationFilter}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+ * class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.relation.MBeanServerNotificationFilterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.relation.MBeanServerNotificationFilterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.relation.MBeanServerNotificationFilterClassTests
+ *
+ * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * <p>
      * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#disableAllObjectNames() public
      * synchronized void javax.management.relation.MBeanServerNotificationFilter.disableAllObjectNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#disableAllObjectNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -46,7 +57,14 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * public synchronized void
      * javax.management.relation.MBeanServerNotificationFilter.disableObjectName(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#disableObjectName(javax.management.
+     *             ObjectName)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +80,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * <p>
      * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#enableAllObjectNames() public
      * synchronized void javax.management.relation.MBeanServerNotificationFilter.enableAllObjectNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#enableAllObjectNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,7 +105,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * public synchronized void
      * javax.management.relation.MBeanServerNotificationFilter.enableObjectName(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#enableObjectName(javax.management.ObjectName)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,7 +127,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * <p>
      * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#getDisabledObjectNames() public
      * synchronized java.util.Vector javax.management.relation.MBeanServerNotificationFilter.getDisabledObjectNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#getDisabledObjectNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,7 +149,13 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * <p>
      * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#getEnabledObjectNames() public
      * synchronized java.util.Vector javax.management.relation.MBeanServerNotificationFilter.getEnabledObjectNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#getEnabledObjectNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -132,7 +174,14 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * public synchronized boolean
      * javax.management.relation.MBeanServerNotificationFilter.isNotificationEnabled(javax.management.Notification)
      * throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.MBeanServerNotificationFilter#isNotificationEnabled(javax.management.
+     *             Notification)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

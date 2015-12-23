@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CosNaming.IstringHelper class org.omg.CosNaming.IstringHelper}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.CosNaming.IstringHelper class org.omg.CosNaming.IstringHelper}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.CosNaming.IstringHelperTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CosNaming.IstringHelperClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CosNaming.IstringHelperClassTests
+ *
+ * @j8unit.aim org.omg.CosNaming.IstringHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

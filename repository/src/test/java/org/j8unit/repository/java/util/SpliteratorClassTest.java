@@ -8,15 +8,9 @@ import org.junit.runner.RunWith;
 public class SpliteratorClassTest
 implements org.j8unit.repository.java.util.SpliteratorClassTests<java.util.Spliterator> {
 
-    @RunWith(J8Unit4.class)
-    public static class OfDoubleClassTest
-    implements org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<java.util.Spliterator.OfDouble> {
-
-        @Override
-        public Class<java.util.Spliterator.OfDouble> createNewSUT() {
-            return java.util.Spliterator.OfDouble.class;
-        }
-
+    @Override
+    public Class<java.util.Spliterator> createNewSUT() {
+        return java.util.Spliterator.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -42,6 +36,7 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<java.util.Split
     }
 
     @RunWith(J8Unit4.class)
+    @SuppressWarnings("rawtypes")
     public static class OfPrimitiveClassTest
     implements org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<java.util.Spliterator.OfPrimitive> {
 
@@ -52,9 +47,15 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<java.util.Split
 
     }
 
-    @Override
-    public Class<java.util.Spliterator> createNewSUT() {
-        return java.util.Spliterator.class;
+    @RunWith(J8Unit4.class)
+    public static class OfDoubleClassTest
+    implements org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<java.util.Spliterator.OfDouble> {
+
+        @Override
+        public Class<java.util.Spliterator.OfDouble> createNewSUT() {
+            return java.util.Spliterator.OfDouble.class;
+        }
+
     }
 
 }

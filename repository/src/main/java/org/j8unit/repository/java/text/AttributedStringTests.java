@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.text.AttributedString class java.text.AttributedString}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.text.AttributedString class java.text.AttributedString},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.text.AttributedStringTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.text.AttributedStringClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.text.AttributedStringClassTests
+ *
+ * @j8unit.aim java.text.AttributedString
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,10 +30,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute,java.lang.Object)
+     * {@link java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute, java.lang.Object)
      * public void
      * java.text.AttributedString.addAttribute(java.text.AttributedCharacterIterator$Attribute,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute,
+     *             java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,11 +55,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute,java.lang.Object,int,int)
+     * {@link java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute, java.lang.Object, int, int)
      * public void
      * java.text.AttributedString.addAttribute(java.text.AttributedCharacterIterator$Attribute,java.lang.Object,int,int)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute,
+     *             java.lang.Object, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,9 +80,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.AttributedString#addAttributes(java.util.Map,int,int) public void
+     * Test method for {@link java.text.AttributedString#addAttributes(java.util.Map, int, int) public void
      * java.text.AttributedString.addAttributes(java.util.Map,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.AttributedString#addAttributes(java.util.Map, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +104,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.text.AttributedString#getIterator() public java.text.AttributedCharacterIterator
      * java.text.AttributedString.getIterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.AttributedString#getIterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +127,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[])
      * public java.text.AttributedCharacterIterator
      * java.text.AttributedString.getIterator(java.text.AttributedCharacterIterator$Attribute[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,10 +148,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[],int,int) public
+     * {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[], int, int) public
      * java.text.AttributedCharacterIterator
      * java.text.AttributedString.getIterator(java.text.AttributedCharacterIterator$Attribute[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JTableClassTest
 implements org.j8unit.repository.javax.swing.JTableClassTests<javax.swing.JTable> {
 
+    @Override
+    public Class<javax.swing.JTable> createNewSUT() {
+        return javax.swing.JTable.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
     implements org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests<javax.swing.JTable.DropLocation> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<javax.swing.JTable
             return javax.swing.JTable.PrintMode.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JTable> createNewSUT() {
-        return javax.swing.JTable.class;
     }
 
 }

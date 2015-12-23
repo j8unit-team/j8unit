@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.synth.SynthStyle class javax.swing.plaf.synth.SynthStyle}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.synth.SynthStyle class
+ * javax.swing.plaf.synth.SynthStyle}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.synth.SynthStyleClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.synth.SynthStyleClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.synth.SynthStyle
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#get(javax.swing.plaf.synth.SynthContext,java.lang.Object) public
+     * {@link javax.swing.plaf.synth.SynthStyle#get(javax.swing.plaf.synth.SynthContext, java.lang.Object) public
      * java.lang.Object javax.swing.plaf.synth.SynthStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#get(javax.swing.plaf.synth.SynthContext, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,10 +53,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#getBoolean(javax.swing.plaf.synth.SynthContext,java.lang.Object,boolean)
+     * {@link javax.swing.plaf.synth.SynthStyle#getBoolean(javax.swing.plaf.synth.SynthContext, java.lang.Object, boolean)
      * public boolean
      * javax.swing.plaf.synth.SynthStyle.getBoolean(javax.swing.plaf.synth.SynthContext,java.lang.Object,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getBoolean(javax.swing.plaf.synth.SynthContext, java.lang.Object,
+     *             boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,11 +78,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#getColor(javax.swing.plaf.synth.SynthContext,javax.swing.plaf.synth.ColorType)
+     * {@link javax.swing.plaf.synth.SynthStyle#getColor(javax.swing.plaf.synth.SynthContext, javax.swing.plaf.synth.ColorType)
      * public java.awt.Color
      * javax.swing.plaf.synth.SynthStyle.getColor(javax.swing.plaf.synth.SynthContext,javax.swing.plaf.synth.ColorType)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getColor(javax.swing.plaf.synth.SynthContext,
+     *             javax.swing.plaf.synth.ColorType)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,7 +105,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthStyle#getFont(javax.swing.plaf.synth.SynthContext) public
      * java.awt.Font javax.swing.plaf.synth.SynthStyle.getFont(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getFont(javax.swing.plaf.synth.SynthContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,7 +128,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.synth.SynthStyle#getGraphicsUtils(javax.swing.plaf.synth.SynthContext)
      * public javax.swing.plaf.synth.SynthGraphicsUtils
      * javax.swing.plaf.synth.SynthStyle.getGraphicsUtils(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getGraphicsUtils(javax.swing.plaf.synth.SynthContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,10 +149,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#getIcon(javax.swing.plaf.synth.SynthContext,java.lang.Object) public
+     * {@link javax.swing.plaf.synth.SynthStyle#getIcon(javax.swing.plaf.synth.SynthContext, java.lang.Object) public
      * javax.swing.Icon javax.swing.plaf.synth.SynthStyle.getIcon(javax.swing.plaf.synth.SynthContext,java.lang.Object)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getIcon(javax.swing.plaf.synth.SynthContext, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -130,10 +173,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets) public
+     * {@link javax.swing.plaf.synth.SynthStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets) public
      * java.awt.Insets javax.swing.plaf.synth.SynthStyle.getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -148,9 +197,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#getInt(javax.swing.plaf.synth.SynthContext,java.lang.Object,int) public
-     * int javax.swing.plaf.synth.SynthStyle.getInt(javax.swing.plaf.synth.SynthContext,java.lang.Object,int)}.
+     * {@link javax.swing.plaf.synth.SynthStyle#getInt(javax.swing.plaf.synth.SynthContext, java.lang.Object, int)
+     * public int javax.swing.plaf.synth.SynthStyle.getInt(javax.swing.plaf.synth.SynthContext,java.lang.Object,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getInt(javax.swing.plaf.synth.SynthContext, java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,7 +222,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.synth.SynthStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
      * javax.swing.plaf.synth.SynthPainter
      * javax.swing.plaf.synth.SynthStyle.getPainter(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getPainter(javax.swing.plaf.synth.SynthContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -182,11 +243,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.synth.SynthStyle#getString(javax.swing.plaf.synth.SynthContext,java.lang.Object,java.lang.String)
+     * {@link javax.swing.plaf.synth.SynthStyle#getString(javax.swing.plaf.synth.SynthContext, java.lang.Object, java.lang.String)
      * public java.lang.String
      * javax.swing.plaf.synth.SynthStyle.getString(javax.swing.plaf.synth.SynthContext,java.lang.Object,java.lang.String)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#getString(javax.swing.plaf.synth.SynthContext, java.lang.Object,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +270,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthStyle#installDefaults(javax.swing.plaf.synth.SynthContext)
      * public void javax.swing.plaf.synth.SynthStyle.installDefaults(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#installDefaults(javax.swing.plaf.synth.SynthContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +292,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public
      * boolean javax.swing.plaf.synth.SynthStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#isOpaque(javax.swing.plaf.synth.SynthContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +314,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthStyle#uninstallDefaults(javax.swing.plaf.synth.SynthContext)
      * public void javax.swing.plaf.synth.SynthStyle.uninstallDefaults(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.synth.SynthStyle#uninstallDefaults(javax.swing.plaf.synth.SynthContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

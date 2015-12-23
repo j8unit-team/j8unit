@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JFormattedTextFieldClassTest
 implements org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests<javax.swing.JFormattedTextField> {
 
+    @Override
+    public Class<javax.swing.JFormattedTextField> createNewSUT() {
+        return javax.swing.JFormattedTextField.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class AbstractFormatterClassTest
     implements org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests<javax.swing.JFormattedTextField.AbstractFormatter> {
@@ -28,11 +33,6 @@ implements org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests<javax
             return javax.swing.JFormattedTextField.AbstractFormatterFactory.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JFormattedTextField> createNewSUT() {
-        return javax.swing.JFormattedTextField.class;
     }
 
 }

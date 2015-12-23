@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.SwingWorker class javax.swing.SwingWorker}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.SwingWorker class javax.swing.SwingWorker}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.SwingWorkerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.SwingWorkerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.SwingWorkerClassTests
+ *
+ * @j8unit.aim javax.swing.SwingWorker
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test class for {@link javax.swing.SwingWorker$StateValue class javax.swing.SwingWorker$StateValue}, containing
-     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.SwingWorker.StateValue class
+     * javax.swing.SwingWorker$StateValue}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests
+     *
+     * @j8unit.aim javax.swing.SwingWorker.StateValue
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -44,7 +54,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#addPropertyChangeListener(java.beans.PropertyChangeListener)
      * public final void javax.swing.SwingWorker.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#addPropertyChangeListener(java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#cancel(boolean) public final boolean
      * javax.swing.SwingWorker.cancel(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#cancel(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +98,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
     /**
      * <p>
      * Test method for {@link javax.swing.SwingWorker#execute() public final void javax.swing.SwingWorker.execute()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#execute()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,9 +119,15 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.SwingWorker#firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object) public
+     * {@link javax.swing.SwingWorker#firePropertyChange(java.lang.String, java.lang.Object, java.lang.Object) public
      * final void javax.swing.SwingWorker.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#firePropertyChange(java.lang.String, java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +143,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#get() public final java.lang.Object javax.swing.SwingWorker.get()
      * throws java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#get()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,10 +164,16 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SwingWorker#get(long,java.util.concurrent.TimeUnit) public final
+     * Test method for {@link javax.swing.SwingWorker#get(long, java.util.concurrent.TimeUnit) public final
      * java.lang.Object javax.swing.SwingWorker.get(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException,java.util.concurrent.TimeoutException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#get(long, java.util.concurrent.TimeUnit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +190,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#getProgress() public final int
      * javax.swing.SwingWorker.getProgress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#getProgress()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +212,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#getPropertyChangeSupport() public final
      * java.beans.PropertyChangeSupport javax.swing.SwingWorker.getPropertyChangeSupport()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#getPropertyChangeSupport()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +234,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#getState() public final javax.swing.SwingWorker$StateValue
      * javax.swing.SwingWorker.getState()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#getState()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,7 +256,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#isCancelled() public final boolean
      * javax.swing.SwingWorker.isCancelled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#isCancelled()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,7 +278,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
     /**
      * <p>
      * Test method for {@link javax.swing.SwingWorker#isDone() public final boolean javax.swing.SwingWorker.isDone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#isDone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,7 +301,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * Test method for {@link javax.swing.SwingWorker#removePropertyChangeListener(java.beans.PropertyChangeListener)
      * public final void javax.swing.SwingWorker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#removePropertyChangeListener(java.beans.PropertyChangeListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -240,7 +322,13 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
     /**
      * <p>
      * Test method for {@link javax.swing.SwingWorker#run() public final void javax.swing.SwingWorker.run()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.SwingWorker#run()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

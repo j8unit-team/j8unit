@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicComboBoxRendererClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests<javax.swing.plaf.basic.BasicComboBoxRenderer> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicComboBoxRenderer> createNewSUT() {
+        return javax.swing.plaf.basic.BasicComboBoxRenderer.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererCla
             return javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicComboBoxRenderer> createNewSUT() {
-        return javax.swing.plaf.basic.BasicComboBoxRenderer.class;
     }
 
 }

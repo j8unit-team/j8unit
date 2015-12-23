@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.im.spi.InputMethodContext interface java.awt.im.spi.InputMethodContext}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.im.spi.InputMethodContext interface
+ * java.awt.im.spi.InputMethodContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.im.spi.InputMethodContextTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.im.spi.InputMethodContextClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.im.spi.InputMethodContextClassTests
+ *
+ * @j8unit.aim java.awt.im.spi.InputMethodContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,10 +29,16 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodJFrame(java.lang.String,boolean)
+     * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodJFrame(java.lang.String, boolean)
      * public abstract javax.swing.JFrame
      * java.awt.im.spi.InputMethodContext.createInputMethodJFrame(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.spi.InputMethodContext#createInputMethodJFrame(java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,10 +52,16 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodWindow(java.lang.String,boolean)
+     * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodWindow(java.lang.String, boolean)
      * public abstract java.awt.Window
      * java.awt.im.spi.InputMethodContext.createInputMethodWindow(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.spi.InputMethodContext#createInputMethodWindow(java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,11 +76,18 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.im.spi.InputMethodContext#dispatchInputMethodEvent(int,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)
+     * {@link java.awt.im.spi.InputMethodContext#dispatchInputMethodEvent(int, java.text.AttributedCharacterIterator, int, java.awt.font.TextHitInfo, java.awt.font.TextHitInfo)
      * public abstract void
      * java.awt.im.spi.InputMethodContext.dispatchInputMethodEvent(int,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.spi.InputMethodContext#dispatchInputMethodEvent(int,
+     *             java.text.AttributedCharacterIterator, int, java.awt.font.TextHitInfo, java.awt.font.TextHitInfo)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,10 +102,17 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.im.spi.InputMethodContext#enableClientWindowNotification(java.awt.im.spi.InputMethod,boolean)
+     * {@link java.awt.im.spi.InputMethodContext#enableClientWindowNotification(java.awt.im.spi.InputMethod, boolean)
      * public abstract void
      * java.awt.im.spi.InputMethodContext.enableClientWindowNotification(java.awt.im.spi.InputMethod,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.im.spi.InputMethodContext#enableClientWindowNotification(java.awt.im.spi.InputMethod,
+     *             boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

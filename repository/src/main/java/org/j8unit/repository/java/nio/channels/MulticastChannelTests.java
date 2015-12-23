@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.channels.MulticastChannel interface java.nio.channels.MulticastChannel}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.nio.channels.MulticastChannel interface
+ * java.nio.channels.MulticastChannel}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.nio.channels.MulticastChannelTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.channels.MulticastChannelClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.channels.MulticastChannelClassTests
+ *
+ * @j8unit.aim java.nio.channels.MulticastChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.MulticastChannel#close() public abstract void
      * java.nio.channels.MulticastChannel.close() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.MulticastChannel#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,11 +52,17 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress,java.net.NetworkInterface)
+     * Test method for {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress, java.net.NetworkInterface)
      * public abstract java.nio.channels.MembershipKey
      * java.nio.channels.MulticastChannel.join(java.net.InetAddress,java.net.NetworkInterface) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.MulticastChannel#join(java.net.InetAddress, java.net.NetworkInterface)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,11 +77,18 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress,java.net.NetworkInterface,java.net.InetAddress)
+     * {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
      * public abstract java.nio.channels.MembershipKey
      * java.nio.channels.MulticastChannel.join(java.net.InetAddress,java.net.NetworkInterface,java.net.InetAddress)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.MulticastChannel#join(java.net.InetAddress, java.net.NetworkInterface,
+     *             java.net.InetAddress)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

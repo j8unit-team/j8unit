@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.StringValueHelper class org.omg.CORBA.StringValueHelper}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.StringValueHelper class org.omg.CORBA.StringValueHelper}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.CORBA.StringValueHelperTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CORBA.StringValueHelperClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CORBA.StringValueHelperClassTests
+ *
+ * @j8unit.aim org.omg.CORBA.StringValueHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
      * <p>
      * Test method for {@link org.omg.CORBA.StringValueHelper#get_id() public java.lang.String
      * org.omg.CORBA.StringValueHelper.get_id()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.StringValueHelper#get_id()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
      * <p>
      * Test method for {@link org.omg.CORBA.StringValueHelper#read_value(org.omg.CORBA.portable.InputStream) public
      * java.io.Serializable org.omg.CORBA.StringValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.StringValueHelper#read_value(org.omg.CORBA.portable.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,10 +76,17 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
     /**
      * <p>
      * Test method for
-     * {@link org.omg.CORBA.StringValueHelper#write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)
+     * {@link org.omg.CORBA.StringValueHelper#write_value(org.omg.CORBA.portable.OutputStream, java.io.Serializable)
      * public void
      * org.omg.CORBA.StringValueHelper.write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.CORBA.StringValueHelper#write_value(org.omg.CORBA.portable.OutputStream,
+     *             java.io.Serializable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

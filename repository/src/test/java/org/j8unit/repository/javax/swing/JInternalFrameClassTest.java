@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JInternalFrameClassTest
 implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<javax.swing.JInternalFrame> {
 
+    @Override
+    public Class<javax.swing.JInternalFrame> createNewSUT() {
+        return javax.swing.JInternalFrame.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class JDesktopIconClassTest
     implements org.j8unit.repository.javax.swing.JInternalFrameClassTests.JDesktopIconClassTests<javax.swing.JInternalFrame.JDesktopIcon> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<javax.swin
             return javax.swing.JInternalFrame.JDesktopIcon.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JInternalFrame> createNewSUT() {
-        return javax.swing.JInternalFrame.class;
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MidiDeviceClassTest
 implements org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<javax.sound.midi.MidiDevice> {
 
+    @Override
+    public Class<javax.sound.midi.MidiDevice> createNewSUT() {
+        return javax.sound.midi.MidiDevice.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
     implements org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests.InfoClassTests<javax.sound.midi.MidiDevice.Info> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<javax.sou
             return javax.sound.midi.MidiDevice.Info.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.midi.MidiDevice> createNewSUT() {
-        return javax.sound.midi.MidiDevice.class;
     }
 
 }

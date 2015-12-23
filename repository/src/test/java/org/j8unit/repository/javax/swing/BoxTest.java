@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BoxTest
 implements org.j8unit.repository.javax.swing.BoxTests<javax.swing.Box> {
 
+    @Override
+    public javax.swing.Box createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.Box] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class FillerTest
     implements org.j8unit.repository.javax.swing.BoxTests.FillerTests<javax.swing.Box.Filler> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.BoxTests<javax.swing.Box> {
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.Box.Filler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.Box createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.Box] available.");
     }
 
 }

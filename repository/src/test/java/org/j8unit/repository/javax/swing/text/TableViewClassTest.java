@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class TableViewClassTest
 implements org.j8unit.repository.javax.swing.text.TableViewClassTests<javax.swing.text.TableView> {
 
-    @RunWith(J8Unit4.class)
-    public static class TableCellClassTest
-    implements org.j8unit.repository.javax.swing.text.TableViewClassTests.TableCellClassTests<javax.swing.text.TableView.TableCell> {
-
-        @Override
-        public Class<javax.swing.text.TableView.TableCell> createNewSUT() {
-            return javax.swing.text.TableView.TableCell.class;
-        }
-
+    @Override
+    public Class<javax.swing.text.TableView> createNewSUT() {
+        return javax.swing.text.TableView.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<javax.swin
 
     }
 
-    @Override
-    public Class<javax.swing.text.TableView> createNewSUT() {
-        return javax.swing.text.TableView.class;
+    @RunWith(J8Unit4.class)
+    public static class TableCellClassTest
+    implements org.j8unit.repository.javax.swing.text.TableViewClassTests.TableCellClassTests<javax.swing.text.TableView.TableCell> {
+
+        @Override
+        public Class<javax.swing.text.TableView.TableCell> createNewSUT() {
+            return javax.swing.text.TableView.TableCell.class;
+        }
+
     }
 
 }

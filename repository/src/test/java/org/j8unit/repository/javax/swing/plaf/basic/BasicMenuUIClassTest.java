@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicMenuUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<javax.swing.plaf.basic.BasicMenuUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicMenuUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicMenuUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests.ChangeHandlerClassTests<javax.swing.plaf.basic.BasicMenuUI.ChangeHandler> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<ja
             return javax.swing.plaf.basic.BasicMenuUI.ChangeHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicMenuUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicMenuUI.class;
     }
 
 }

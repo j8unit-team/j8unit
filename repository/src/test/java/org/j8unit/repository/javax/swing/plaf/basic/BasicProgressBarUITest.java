@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicProgressBarUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<javax.swing.plaf.basic.BasicProgressBarUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicProgressBarUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicProgressBarUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicProgressBarUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicProgressBarUI();
     }
 
 }

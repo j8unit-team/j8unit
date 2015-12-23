@@ -1,6 +1,6 @@
 package org.j8unit.repository.org.omg.PortableServer;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,27 +9,37 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.PortableServer.POAManagerOperations interface
+ * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.POAManagerOperations interface
  * org.omg.PortableServer.POAManagerOperations}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.org.omg.PortableServer.POAManagerOperationsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.PortableServer.POAManagerOperationsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.PortableServer.POAManagerOperationsClassTests
+ *
+ * @j8unit.aim org.omg.PortableServer.POAManagerOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface POAManagerOperationsTests<SUT extends org.omg.PortableServer.POAManagerOperations>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link org.omg.PortableServer.POAManagerOperations#activate() public abstract void
      * org.omg.PortableServer.POAManagerOperations.activate() throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.POAManagerOperations#activate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,10 +53,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.POAManagerOperations#deactivate(boolean,boolean) public abstract
+     * Test method for {@link org.omg.PortableServer.POAManagerOperations#deactivate(boolean, boolean) public abstract
      * void org.omg.PortableServer.POAManagerOperations.deactivate(boolean,boolean) throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.POAManagerOperations#deactivate(boolean, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,7 +79,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.omg.PortableServer.POAManagerOperations#discard_requests(boolean) public abstract void
      * org.omg.PortableServer.POAManagerOperations.discard_requests(boolean) throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.POAManagerOperations#discard_requests(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +101,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link org.omg.PortableServer.POAManagerOperations#get_state() public abstract
      * org.omg.PortableServer.POAManagerPackage.State org.omg.PortableServer.POAManagerOperations.get_state()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.POAManagerOperations#get_state()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +124,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link org.omg.PortableServer.POAManagerOperations#hold_requests(boolean) public abstract void
      * org.omg.PortableServer.POAManagerOperations.hold_requests(boolean) throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.POAManagerOperations#hold_requests(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

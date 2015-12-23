@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.IdentityHashMap class java.util.IdentityHashMap}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.util.IdentityHashMap class java.util.IdentityHashMap}, containing
+ * all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.util.IdentityHashMapTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.util.IdentityHashMapTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.IdentityHashMapTests
+ *
+ * @j8unit.aim java.util.IdentityHashMap
  */
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
@@ -39,7 +42,15 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link java.util.IdentityHashMap#IdentityHashMap() public java.util.IdentityHashMap()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#IdentityHashMap()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,7 +63,15 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     }
 
     /**
+     * <p>
      * Test method for {@link java.util.IdentityHashMap#IdentityHashMap(int) public java.util.IdentityHashMap(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#IdentityHashMap(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,8 +84,16 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     }
 
     /**
+     * <p>
      * Test method for {@link java.util.IdentityHashMap#IdentityHashMap(java.util.Map) public
      * java.util.IdentityHashMap(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#IdentityHashMap(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,6 +105,11 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
         final java.util.IdentityHashMap<?, ?> sut = null; // = new IdentityHashMap(java.util.Map);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.util.IdentityHashMap#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

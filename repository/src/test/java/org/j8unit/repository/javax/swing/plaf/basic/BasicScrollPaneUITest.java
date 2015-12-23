@@ -8,16 +8,9 @@ import org.junit.runner.RunWith;
 public class BasicScrollPaneUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<javax.swing.plaf.basic.BasicScrollPaneUI> {
 
-    @RunWith(J8Unit4.class)
-    public static class HSBChangeListenerTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.HSBChangeListenerTests<javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener> {
-
-        @Override
-        public javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener] available.");
-        }
-
+    @Override
+    public javax.swing.plaf.basic.BasicScrollPaneUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicScrollPaneUI();
     }
 
     @RunWith(J8Unit4.class)
@@ -45,6 +38,18 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<j
     }
 
     @RunWith(J8Unit4.class)
+    public static class HSBChangeListenerTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.HSBChangeListenerTests<javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener> {
+
+        @Override
+        public javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener] available.");
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class VSBChangeListenerTest
     implements
     org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests<javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener> {
@@ -54,11 +59,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<j
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicScrollPaneUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicScrollPaneUI();
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.html.ImageView class javax.swing.text.html.ImageView}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.ImageView class javax.swing.text.html.ImageView}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.html.ImageViewTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.html.ImageViewClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.html.ImageViewClassTests
+ *
+ * @j8unit.aim javax.swing.text.html.ImageView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.ImageView#changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)
+     * {@link javax.swing.text.html.ImageView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
      * javax.swing.text.html.ImageView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *             javax.swing.text.ViewFactory)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -46,7 +58,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getAlignment(int) public float
      * javax.swing.text.html.ImageView.getAlignment(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getAlignment(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,7 +81,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getAltText() public java.lang.String
      * javax.swing.text.html.ImageView.getAltText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getAltText()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +103,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getAttributes() public javax.swing.text.AttributeSet
      * javax.swing.text.html.ImageView.getAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +126,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getImage() public java.awt.Image
      * javax.swing.text.html.ImageView.getImage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getImage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +148,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getImageURL() public java.net.URL
      * javax.swing.text.html.ImageView.getImageURL()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getImageURL()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +170,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getLoadingImageIcon() public javax.swing.Icon
      * javax.swing.text.html.ImageView.getLoadingImageIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getLoadingImageIcon()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +192,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getLoadsSynchronously() public boolean
      * javax.swing.text.html.ImageView.getLoadsSynchronously()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getLoadsSynchronously()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +214,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getNoImageIcon() public javax.swing.Icon
      * javax.swing.text.html.ImageView.getNoImageIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getNoImageIcon()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +236,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#getPreferredSpan(int) public float
      * javax.swing.text.html.ImageView.getPreferredSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getPreferredSpan(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -191,9 +257,15 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.ImageView#getToolTipText(float,float,java.awt.Shape) public
+     * Test method for {@link javax.swing.text.html.ImageView#getToolTipText(float, float, java.awt.Shape) public
      * java.lang.String javax.swing.text.html.ImageView.getToolTipText(float,float,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#getToolTipText(float, float, java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,10 +281,16 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.ImageView#modelToView(int,java.awt.Shape,javax.swing.text.Position.Bias) public
+     * {@link javax.swing.text.html.ImageView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.html.ImageView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,9 +305,15 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.ImageView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * Test method for {@link javax.swing.text.html.ImageView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.html.ImageView.paint(java.awt.Graphics,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#paint(java.awt.Graphics, java.awt.Shape)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,7 +330,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#setLoadsSynchronously(boolean) public void
      * javax.swing.text.html.ImageView.setLoadsSynchronously(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#setLoadsSynchronously(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -262,7 +352,13 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.html.ImageView#setParent(javax.swing.text.View) public void
      * javax.swing.text.html.ImageView.setParent(javax.swing.text.View)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#setParent(javax.swing.text.View)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,9 +373,15 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.ImageView#setSize(float,float) public void
+     * Test method for {@link javax.swing.text.html.ImageView#setSize(float, float) public void
      * javax.swing.text.html.ImageView.setSize(float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#setSize(float, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -295,10 +397,17 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.ImageView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
+     * {@link javax.swing.text.html.ImageView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
      * public int
      * javax.swing.text.html.ImageView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.html.ImageView#viewToModel(float, float, java.awt.Shape,
+     *             javax.swing.text.Position.Bias[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

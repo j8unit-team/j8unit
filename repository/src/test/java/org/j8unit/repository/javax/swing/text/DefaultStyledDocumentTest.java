@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class DefaultStyledDocumentTest
 implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<javax.swing.text.DefaultStyledDocument> {
 
+    @Override
+    public javax.swing.text.DefaultStyledDocument createNewSUT() {
+        return new javax.swing.text.DefaultStyledDocument();
+    }
+
     @RunWith(J8Unit4.class)
     public static class AttributeUndoableEditTest
     implements
@@ -16,17 +21,6 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<jav
         @Override
         public javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit createNewSUT() {
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit] available.");
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ElementBufferTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests<javax.swing.text.DefaultStyledDocument.ElementBuffer> {
-
-        @Override
-        public javax.swing.text.DefaultStyledDocument.ElementBuffer createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.DefaultStyledDocument.ElementBuffer] available.");
         }
 
     }
@@ -42,9 +36,15 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<jav
 
     }
 
-    @Override
-    public javax.swing.text.DefaultStyledDocument createNewSUT() {
-        return new javax.swing.text.DefaultStyledDocument();
+    @RunWith(J8Unit4.class)
+    public static class ElementBufferTest
+    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests<javax.swing.text.DefaultStyledDocument.ElementBuffer> {
+
+        @Override
+        public javax.swing.text.DefaultStyledDocument.ElementBuffer createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.DefaultStyledDocument.ElementBuffer] available.");
+        }
+
     }
 
 }

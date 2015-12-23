@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.helpers.PrintConversionEventImpl class
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.helpers.PrintConversionEventImpl class
  * javax.xml.bind.helpers.PrintConversionEventImpl}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImplTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImplClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImplClassTests
+ *
+ * @j8unit.aim javax.xml.bind.helpers.PrintConversionEventImpl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,9 +30,17 @@ extends org.j8unit.repository.javax.xml.bind.PrintConversionEventTests<SUT>, org
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
+     * <li>interface javax.xml.bind.ValidationEvent</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -42,9 +54,17 @@ extends org.j8unit.repository.javax.xml.bind.PrintConversionEventTests<SUT>, org
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
+     * <li>interface javax.xml.bind.ValidationEvent</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -58,9 +78,17 @@ extends org.j8unit.repository.javax.xml.bind.PrintConversionEventTests<SUT>, org
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
+     * <li>interface javax.xml.bind.ValidationEvent</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -74,9 +102,17 @@ extends org.j8unit.repository.javax.xml.bind.PrintConversionEventTests<SUT>, org
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
+     * <li>interface javax.xml.bind.ValidationEvent</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")

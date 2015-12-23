@@ -8,7 +8,13 @@ import org.junit.runner.RunWith;
 public class MapClassTest
 implements org.j8unit.repository.java.util.MapClassTests<java.util.Map> {
 
+    @Override
+    public Class<java.util.Map> createNewSUT() {
+        return java.util.Map.class;
+    }
+
     @RunWith(J8Unit4.class)
+    @SuppressWarnings("rawtypes")
     public static class EntryClassTest
     implements org.j8unit.repository.java.util.MapClassTests.EntryClassTests<java.util.Map.Entry> {
 
@@ -17,11 +23,6 @@ implements org.j8unit.repository.java.util.MapClassTests<java.util.Map> {
             return java.util.Map.Entry.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.Map> createNewSUT() {
-        return java.util.Map.class;
     }
 
 }

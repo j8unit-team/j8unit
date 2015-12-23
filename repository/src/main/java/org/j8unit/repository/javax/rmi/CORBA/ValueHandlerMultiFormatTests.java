@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.rmi.CORBA.ValueHandlerMultiFormat interface javax.rmi.CORBA.ValueHandlerMultiFormat},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.rmi.CORBA.ValueHandlerMultiFormat interface
+ * javax.rmi.CORBA.ValueHandlerMultiFormat}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.rmi.CORBA.ValueHandlerMultiFormatTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.rmi.CORBA.ValueHandlerMultiFormatClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.rmi.CORBA.ValueHandlerMultiFormatClassTests
+ *
+ * @j8unit.aim javax.rmi.CORBA.ValueHandlerMultiFormat
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
      * <p>
      * Test method for {@link javax.rmi.CORBA.ValueHandlerMultiFormat#getMaximumStreamFormatVersion() public abstract
      * byte javax.rmi.CORBA.ValueHandlerMultiFormat.getMaximumStreamFormatVersion()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.ValueHandlerMultiFormat#getMaximumStreamFormatVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,11 +52,18 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.rmi.CORBA.ValueHandlerMultiFormat#writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable,byte)
+     * {@link javax.rmi.CORBA.ValueHandlerMultiFormat#writeValue(org.omg.CORBA.portable.OutputStream, java.io.Serializable, byte)
      * public abstract void
      * javax.rmi.CORBA.ValueHandlerMultiFormat.writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable,byte)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.rmi.CORBA.ValueHandlerMultiFormat#writeValue(org.omg.CORBA.portable.OutputStream,
+     *             java.io.Serializable, byte)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

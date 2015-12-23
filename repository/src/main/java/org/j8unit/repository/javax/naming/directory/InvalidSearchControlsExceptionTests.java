@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.naming.directory.InvalidSearchControlsException class
+ * Reusable J8Unit test interface for {@linkplain javax.naming.directory.InvalidSearchControlsException class
  * javax.naming.directory.InvalidSearchControlsException}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExceptionClassTests
+ *
+ * @j8unit.aim javax.naming.directory.InvalidSearchControlsException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

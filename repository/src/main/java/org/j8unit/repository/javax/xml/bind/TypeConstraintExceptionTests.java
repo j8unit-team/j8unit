@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.TypeConstraintException class javax.xml.bind.TypeConstraintException},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.TypeConstraintException class
+ * javax.xml.bind.TypeConstraintException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTests
+ *
+ * @j8unit.aim javax.xml.bind.TypeConstraintException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.TypeConstraintException#getErrorCode() public java.lang.String
      * javax.xml.bind.TypeConstraintException.getErrorCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.TypeConstraintException#getErrorCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.TypeConstraintException#getLinkedException() public java.lang.Throwable
      * javax.xml.bind.TypeConstraintException.getLinkedException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.TypeConstraintException#getLinkedException()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.TypeConstraintException#printStackTrace() public void
      * javax.xml.bind.TypeConstraintException.printStackTrace()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.TypeConstraintException#printStackTrace()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.TypeConstraintException#printStackTrace(java.io.PrintStream) public void
      * javax.xml.bind.TypeConstraintException.printStackTrace(java.io.PrintStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.TypeConstraintException#printStackTrace(java.io.PrintStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.TypeConstraintException#setLinkedException(java.lang.Throwable) public void
      * javax.xml.bind.TypeConstraintException.setLinkedException(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.TypeConstraintException#setLinkedException(java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +143,13 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.TypeConstraintException#toString() public java.lang.String
      * javax.xml.bind.TypeConstraintException.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.TypeConstraintException#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

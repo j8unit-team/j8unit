@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class UnmarshallerClassTest
 implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<javax.xml.bind.Unmarshaller> {
 
+    @Override
+    public Class<javax.xml.bind.Unmarshaller> createNewSUT() {
+        return javax.xml.bind.Unmarshaller.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ListenerClassTest
     implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests.ListenerClassTests<javax.xml.bind.Unmarshaller.Listener> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<javax.xml
             return javax.xml.bind.Unmarshaller.Listener.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.Unmarshaller> createNewSUT() {
-        return javax.xml.bind.Unmarshaller.class;
     }
 
 }

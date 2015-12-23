@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.relation.RelationSupport class javax.management.relation.RelationSupport},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.relation.RelationSupport class
+ * javax.management.relation.RelationSupport}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.relation.RelationSupportTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.relation.RelationSupportClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.relation.RelationSupportClassTests
+ *
+ * @j8unit.aim javax.management.relation.RelationSupport
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +33,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.management.relation.RelationSupport#getAllRoles() public
      * javax.management.relation.RoleResult javax.management.relation.RelationSupport.getAllRoles() throws
      * javax.management.relation.RelationServiceNotRegisteredException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getAllRoles()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +56,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#getReferencedMBeans() public java.util.Map
      * javax.management.relation.RelationSupport.getReferencedMBeans()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getReferencedMBeans()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,7 +79,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#getRelationId() public java.lang.String
      * javax.management.relation.RelationSupport.getRelationId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getRelationId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,7 +102,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#getRelationServiceName() public
      * javax.management.ObjectName javax.management.relation.RelationSupport.getRelationServiceName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getRelationServiceName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +125,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#getRelationTypeName() public java.lang.String
      * javax.management.relation.RelationSupport.getRelationTypeName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getRelationTypeName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,7 +150,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * javax.management.relation.RelationSupport.getRole(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getRole(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,7 +174,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.management.relation.RelationSupport#getRoleCardinality(java.lang.String) public
      * java.lang.Integer javax.management.relation.RelationSupport.getRoleCardinality(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getRoleCardinality(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -151,7 +198,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.management.relation.RelationSupport#getRoles(java.lang.String[]) public
      * javax.management.relation.RoleResult javax.management.relation.RelationSupport.getRoles(java.lang.String[])
      * throws java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#getRoles(java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,13 +220,20 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName,java.lang.String)
+     * {@link javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName, java.lang.String)
      * public void
      * javax.management.relation.RelationSupport.handleMBeanUnregistration(javax.management.ObjectName,java.lang.String)
      * throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +250,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#isInRelationService() public java.lang.Boolean
      * javax.management.relation.RelationSupport.isInRelationService()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#isInRelationService()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,7 +273,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#postDeregister() public void
      * javax.management.relation.RelationSupport.postDeregister()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#postDeregister()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,7 +296,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#postRegister(java.lang.Boolean) public void
      * javax.management.relation.RelationSupport.postRegister(java.lang.Boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#postRegister(java.lang.Boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,7 +319,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#preDeregister() public void
      * javax.management.relation.RelationSupport.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#preDeregister()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -257,11 +341,18 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.relation.RelationSupport#preRegister(javax.management.MBeanServer,javax.management.ObjectName)
+     * {@link javax.management.relation.RelationSupport#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
      * public javax.management.ObjectName
      * javax.management.relation.RelationSupport.preRegister(javax.management.MBeanServer,javax.management.ObjectName)
      * throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#preRegister(javax.management.MBeanServer,
+     *             javax.management.ObjectName)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,7 +369,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.management.relation.RelationSupport#retrieveAllRoles() public
      * javax.management.relation.RoleList javax.management.relation.RelationSupport.retrieveAllRoles()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#retrieveAllRoles()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -297,7 +394,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link javax.management.relation.RelationSupport#setRelationServiceManagementFlag(java.lang.Boolean) public void
      * javax.management.relation.RelationSupport.setRelationServiceManagementFlag(java.lang.Boolean) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#setRelationServiceManagementFlag(java.lang.Boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -316,7 +419,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * void javax.management.relation.RelationSupport.setRole(javax.management.relation.Role) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationNotFoundException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#setRole(javax.management.relation.Role)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -336,7 +445,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * javax.management.relation.RelationSupport.setRoles(javax.management.relation.RoleList) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.relation.RelationSupport#setRoles(javax.management.relation.RoleList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

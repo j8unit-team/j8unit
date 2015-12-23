@@ -13,6 +13,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class FormatterTest
 implements org.j8unit.repository.java.util.FormatterTests<java.util.Formatter> {
 
+    @Override
+    public java.util.Formatter createNewSUT() {
+        return new java.util.Formatter();
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BigDecimalLayoutFormTest
@@ -31,11 +36,6 @@ implements org.j8unit.repository.java.util.FormatterTests<java.util.Formatter> {
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.util.Formatter createNewSUT() {
-        return new java.util.Formatter();
     }
 
 }

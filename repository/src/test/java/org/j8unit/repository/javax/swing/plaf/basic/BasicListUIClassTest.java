@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class BasicListUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<javax.swing.plaf.basic.BasicListUI> {
 
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests<javax.swing.plaf.basic.BasicListUI.FocusHandler> {
-
-        @Override
-        public Class<javax.swing.plaf.basic.BasicListUI.FocusHandler> createNewSUT() {
-            return javax.swing.plaf.basic.BasicListUI.FocusHandler.class;
-        }
-
+    @Override
+    public Class<javax.swing.plaf.basic.BasicListUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicListUI.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -26,18 +20,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<ja
         @Override
         public Class<javax.swing.plaf.basic.BasicListUI.ListDataHandler> createNewSUT() {
             return javax.swing.plaf.basic.BasicListUI.ListDataHandler.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ListSelectionHandlerClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests<javax.swing.plaf.basic.BasicListUI.ListSelectionHandler> {
-
-        @Override
-        public Class<javax.swing.plaf.basic.BasicListUI.ListSelectionHandler> createNewSUT() {
-            return javax.swing.plaf.basic.BasicListUI.ListSelectionHandler.class;
         }
 
     }
@@ -66,9 +48,27 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<ja
 
     }
 
-    @Override
-    public Class<javax.swing.plaf.basic.BasicListUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicListUI.class;
+    @RunWith(J8Unit4.class)
+    public static class FocusHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests<javax.swing.plaf.basic.BasicListUI.FocusHandler> {
+
+        @Override
+        public Class<javax.swing.plaf.basic.BasicListUI.FocusHandler> createNewSUT() {
+            return javax.swing.plaf.basic.BasicListUI.FocusHandler.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ListSelectionHandlerClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests<javax.swing.plaf.basic.BasicListUI.ListSelectionHandler> {
+
+        @Override
+        public Class<javax.swing.plaf.basic.BasicListUI.ListSelectionHandler> createNewSUT() {
+            return javax.swing.plaf.basic.BasicListUI.ListSelectionHandler.class;
+        }
+
     }
 
 }

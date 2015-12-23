@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ProviderClassTest
 implements org.j8unit.repository.java.security.ProviderClassTests<java.security.Provider> {
 
+    @Override
+    public Class<java.security.Provider> createNewSUT() {
+        return java.security.Provider.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ServiceClassTest
     implements org.j8unit.repository.java.security.ProviderClassTests.ServiceClassTests<java.security.Provider.Service> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.security.ProviderClassTests<java.security.
             return java.security.Provider.Service.class;
         }
 
-    }
-
-    @Override
-    public Class<java.security.Provider> createNewSUT() {
-        return java.security.Provider.class;
     }
 
 }

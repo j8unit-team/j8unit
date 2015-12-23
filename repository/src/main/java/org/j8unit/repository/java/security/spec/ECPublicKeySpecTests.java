@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.spec.ECPublicKeySpec class java.security.spec.ECPublicKeySpec}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.security.spec.ECPublicKeySpec class
+ * java.security.spec.ECPublicKeySpec}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.security.spec.ECPublicKeySpecTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.security.spec.ECPublicKeySpecClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.spec.ECPublicKeySpecClassTests
+ *
+ * @j8unit.aim java.security.spec.ECPublicKeySpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link java.security.spec.ECPublicKeySpec#getParams() public java.security.spec.ECParameterSpec
      * java.security.spec.ECPublicKeySpec.getParams()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.spec.ECPublicKeySpec#getParams()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
      * <p>
      * Test method for {@link java.security.spec.ECPublicKeySpec#getW() public java.security.spec.ECPoint
      * java.security.spec.ECPublicKeySpec.getW()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.spec.ECPublicKeySpec#getW()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

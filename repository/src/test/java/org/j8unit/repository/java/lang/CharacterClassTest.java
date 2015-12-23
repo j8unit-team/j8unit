@@ -7,6 +7,22 @@ import org.junit.runner.RunWith;
 public class CharacterClassTest
 implements org.j8unit.repository.java.lang.CharacterClassTests<java.lang.Character> {
 
+    @Override
+    public Class<java.lang.Character> createNewSUT() {
+        return java.lang.Character.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class UnicodeScriptClassTest
+    implements org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests<java.lang.Character.UnicodeScript> {
+
+        @Override
+        public Class<java.lang.Character.UnicodeScript> createNewSUT() {
+            return java.lang.Character.UnicodeScript.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class SubsetClassTest
     implements org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<java.lang.Character.Subset> {
@@ -27,22 +43,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<java.lang.Charact
             return java.lang.Character.UnicodeBlock.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class UnicodeScriptClassTest
-    implements org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests<java.lang.Character.UnicodeScript> {
-
-        @Override
-        public Class<java.lang.Character.UnicodeScript> createNewSUT() {
-            return java.lang.Character.UnicodeScript.class;
-        }
-
-    }
-
-    @Override
-    public Class<java.lang.Character> createNewSUT() {
-        return java.lang.Character.class;
     }
 
 }

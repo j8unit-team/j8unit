@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicToolBarUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<javax.swing.plaf.basic.BasicToolBarUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicToolBarUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicToolBarUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class DockingListenerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests.DockingListenerTests<javax.swing.plaf.basic.BasicToolBarUI.DockingListener> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<java
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicToolBarUI.DockingListener] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicToolBarUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicToolBarUI();
     }
 
 }

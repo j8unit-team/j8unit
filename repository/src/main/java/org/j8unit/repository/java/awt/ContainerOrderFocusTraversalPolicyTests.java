@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.ContainerOrderFocusTraversalPolicy class java.awt.ContainerOrderFocusTraversalPolicy},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.ContainerOrderFocusTraversalPolicy class
+ * java.awt.ContainerOrderFocusTraversalPolicy}, containing all instance relevant test methods (i.&thinsp;e., test
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyClassTests
+ *
+ * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,10 +30,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getComponentAfter(java.awt.Container,java.awt.Component)
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component)
      * public java.awt.Component
      * java.awt.ContainerOrderFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,10 +55,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getComponentBefore(java.awt.Container,java.awt.Component)
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getComponentBefore(java.awt.Container, java.awt.Component)
      * public java.awt.Component
      * java.awt.ContainerOrderFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#getComponentBefore(java.awt.Container,
+     *             java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,7 +82,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.awt.ContainerOrderFocusTraversalPolicy#getDefaultComponent(java.awt.Container) public
      * java.awt.Component java.awt.ContainerOrderFocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#getDefaultComponent(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,7 +105,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.awt.ContainerOrderFocusTraversalPolicy#getFirstComponent(java.awt.Container) public
      * java.awt.Component java.awt.ContainerOrderFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#getFirstComponent(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,7 +128,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.awt.ContainerOrderFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
      * java.awt.ContainerOrderFocusTraversalPolicy.getImplicitDownCycleTraversal()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#getImplicitDownCycleTraversal()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,7 +150,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.awt.ContainerOrderFocusTraversalPolicy#getLastComponent(java.awt.Container) public
      * java.awt.Component java.awt.ContainerOrderFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#getLastComponent(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -131,7 +173,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link java.awt.ContainerOrderFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public
      * void java.awt.ContainerOrderFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.ContainerOrderFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

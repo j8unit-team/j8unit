@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class JAXBElementTest<T>
 implements org.j8unit.repository.javax.xml.bind.JAXBElementTests<javax.xml.bind.JAXBElement<T>, T> {
 
+    @Override
+    public javax.xml.bind.JAXBElement<T> createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.bind.JAXBElement] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class GlobalScopeTest
     implements org.j8unit.repository.javax.xml.bind.JAXBElementTests.GlobalScopeTests<javax.xml.bind.JAXBElement.GlobalScope> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementTests<javax.xml.bind.
             return new javax.xml.bind.JAXBElement.GlobalScope();
         }
 
-    }
-
-    @Override
-    public javax.xml.bind.JAXBElement<T> createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.xml.bind.JAXBElement] available.");
     }
 
 }

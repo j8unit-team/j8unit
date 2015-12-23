@@ -9,26 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.Dialog class java.awt.Dialog}, containing all class relevant test methods (at least
- * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
- * containing the instance relevant test methods is {@link org.j8unit.repository.java.awt.DialogTests}.
+ * Reusable J8Unit test interface for {@linkplain java.awt.Dialog class java.awt.Dialog}, containing all class relevant
+ * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+ * counterpart J8Unit test interface containing the instance relevant test methods is
+ * {@link org.j8unit.repository.java.awt.DialogTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.awt.DialogTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.DialogTests
+ *
+ * @j8unit.aim java.awt.Dialog
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,9 +41,10 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.awt.Dialog$ModalExclusionType class java.awt.Dialog$ModalExclusionType}, containing
-     * all class relevant test methods (at least the test methods of accessible constructors and of accessible
-     * {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.awt.Dialog.ModalExclusionType class
+     * java.awt.Dialog$ModalExclusionType}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests}.
      * </p>
      *
@@ -47,7 +52,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -55,10 +60,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests
+     *
+     * @j8unit.aim java.awt.Dialog.ModalExclusionType
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -69,7 +77,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
          * <p>
          * Test method for {@link java.awt.Dialog.ModalExclusionType#valueOf(java.lang.String) public static
          * java.awt.Dialog$ModalExclusionType java.awt.Dialog$ModalExclusionType.valueOf(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.Dialog.ModalExclusionType#valueOf(java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -85,7 +99,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
          * <p>
          * Test method for {@link java.awt.Dialog.ModalExclusionType#values() public static
          * java.awt.Dialog$ModalExclusionType[] java.awt.Dialog$ModalExclusionType.values()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.Dialog.ModalExclusionType#values()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -97,6 +117,11 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.awt.Dialog.ModalExclusionType#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -111,17 +136,17 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.awt.Dialog$ModalityType class java.awt.Dialog$ModalityType}, containing all class
-     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
-     * methods). The counterpart test class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests}.
+     * Reusable J8Unit test interface for {@linkplain java.awt.Dialog.ModalityType class java.awt.Dialog$ModalityType},
+     * containing all class relevant test methods (at least the test methods of accessible constructors and of
+     * accessible {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test
+     * methods is {@link org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests}.
      * </p>
      *
      * <p>
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -129,10 +154,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests
+     *
+     * @j8unit.aim java.awt.Dialog.ModalityType
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -143,7 +171,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
          * <p>
          * Test method for {@link java.awt.Dialog.ModalityType#valueOf(java.lang.String) public static
          * java.awt.Dialog$ModalityType java.awt.Dialog$ModalityType.valueOf(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.Dialog.ModalityType#valueOf(java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -159,7 +193,13 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
          * <p>
          * Test method for {@link java.awt.Dialog.ModalityType#values() public static java.awt.Dialog$ModalityType[]
          * java.awt.Dialog$ModalityType.values()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.awt.Dialog.ModalityType#values()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -171,6 +211,11 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.awt.Dialog.ModalityType#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -184,7 +229,15 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link java.awt.Dialog#Dialog(java.awt.Dialog) public java.awt.Dialog(java.awt.Dialog)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Dialog)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -197,8 +250,16 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Dialog,java.lang.String) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Dialog, java.lang.String) public
      * java.awt.Dialog(java.awt.Dialog,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Dialog, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,12 +268,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Dialog,java.lang.String);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Dialog, java.lang.String);
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Dialog,java.lang.String,boolean) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Dialog, java.lang.String, boolean) public
      * java.awt.Dialog(java.awt.Dialog,java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Dialog, java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -221,13 +290,21 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Dialog,java.lang.String,boolean);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Dialog, java.lang.String, boolean);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.awt.Dialog#Dialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration) public
+     * {@link java.awt.Dialog#Dialog(java.awt.Dialog, java.lang.String, boolean, java.awt.GraphicsConfiguration) public
      * java.awt.Dialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Dialog, java.lang.String, boolean, java.awt.GraphicsConfiguration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,12 +313,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new
-                                          // Dialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Dialog, java.lang.String, boolean,
+                                          // java.awt.GraphicsConfiguration);
     }
 
     /**
+     * <p>
      * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame) public java.awt.Dialog(java.awt.Frame)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Frame)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,8 +339,16 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame,boolean) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame, boolean) public
      * java.awt.Dialog(java.awt.Frame,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Frame, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -264,12 +357,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame,boolean);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame, boolean);
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame,java.lang.String) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame, java.lang.String) public
      * java.awt.Dialog(java.awt.Frame,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Frame, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,12 +379,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame,java.lang.String);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame, java.lang.String);
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame,java.lang.String,boolean) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Frame, java.lang.String, boolean) public
      * java.awt.Dialog(java.awt.Frame,java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Frame, java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,13 +401,21 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame,java.lang.String,boolean);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame, java.lang.String, boolean);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.awt.Dialog#Dialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration) public
+     * {@link java.awt.Dialog#Dialog(java.awt.Frame, java.lang.String, boolean, java.awt.GraphicsConfiguration) public
      * java.awt.Dialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Frame, java.lang.String, boolean, java.awt.GraphicsConfiguration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -307,12 +424,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new
-                                          // Dialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Frame, java.lang.String, boolean,
+                                          // java.awt.GraphicsConfiguration);
     }
 
     /**
+     * <p>
      * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window) public java.awt.Dialog(java.awt.Window)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Window)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,8 +450,16 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window,java.awt.Dialog.ModalityType) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window, java.awt.Dialog.ModalityType) public
      * java.awt.Dialog(java.awt.Window,java.awt.Dialog$ModalityType)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Window, java.awt.Dialog.ModalityType)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,12 +468,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Window,java.awt.Dialog.ModalityType);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Window, java.awt.Dialog.ModalityType);
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window,java.lang.String) public
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window, java.lang.String) public
      * java.awt.Dialog(java.awt.Window,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Window, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -349,12 +490,20 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Window,java.lang.String);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Window, java.lang.String);
     }
 
     /**
-     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType)
+     * <p>
+     * Test method for {@link java.awt.Dialog#Dialog(java.awt.Window, java.lang.String, java.awt.Dialog.ModalityType)
      * public java.awt.Dialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Window, java.lang.String, java.awt.Dialog.ModalityType)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,15 +512,24 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new
-                                          // Dialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Window, java.lang.String,
+                                          // java.awt.Dialog.ModalityType);
     }
 
     /**
+     * <p>
      * Test method for
-     * {@link java.awt.Dialog#Dialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType,java.awt.GraphicsConfiguration)
+     * {@link java.awt.Dialog#Dialog(java.awt.Window, java.lang.String, java.awt.Dialog.ModalityType, java.awt.GraphicsConfiguration)
      * public
      * java.awt.Dialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.awt.Dialog#Dialog(java.awt.Window, java.lang.String, java.awt.Dialog.ModalityType,
+     *             java.awt.GraphicsConfiguration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -380,10 +538,15 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Dialog sut = null; // = new
-                                          // Dialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType,java.awt.GraphicsConfiguration);
+        final java.awt.Dialog sut = null; // = new Dialog(java.awt.Window, java.lang.String,
+                                          // java.awt.Dialog.ModalityType, java.awt.GraphicsConfiguration);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.awt.Dialog#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

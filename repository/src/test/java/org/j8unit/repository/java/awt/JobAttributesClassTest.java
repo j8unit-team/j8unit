@@ -7,6 +7,23 @@ import org.junit.runner.RunWith;
 public class JobAttributesClassTest
 implements org.j8unit.repository.java.awt.JobAttributesClassTests<java.awt.JobAttributes> {
 
+    @Override
+    public Class<java.awt.JobAttributes> createNewSUT() {
+        return java.awt.JobAttributes.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MultipleDocumentHandlingTypeClassTest
+    implements
+    org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests<java.awt.JobAttributes.MultipleDocumentHandlingType> {
+
+        @Override
+        public Class<java.awt.JobAttributes.MultipleDocumentHandlingType> createNewSUT() {
+            return java.awt.JobAttributes.MultipleDocumentHandlingType.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class DefaultSelectionTypeClassTest
     implements org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests<java.awt.JobAttributes.DefaultSelectionType> {
@@ -41,18 +58,6 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<java.awt.JobAt
     }
 
     @RunWith(J8Unit4.class)
-    public static class MultipleDocumentHandlingTypeClassTest
-    implements
-    org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests<java.awt.JobAttributes.MultipleDocumentHandlingType> {
-
-        @Override
-        public Class<java.awt.JobAttributes.MultipleDocumentHandlingType> createNewSUT() {
-            return java.awt.JobAttributes.MultipleDocumentHandlingType.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class SidesTypeClassTest
     implements org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests<java.awt.JobAttributes.SidesType> {
 
@@ -61,11 +66,6 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<java.awt.JobAt
             return java.awt.JobAttributes.SidesType.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.JobAttributes> createNewSUT() {
-        return java.awt.JobAttributes.class;
     }
 
 }

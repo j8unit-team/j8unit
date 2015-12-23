@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.ws.EndpointReference class javax.xml.ws.EndpointReference}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.ws.EndpointReference class javax.xml.ws.EndpointReference},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.ws.EndpointReferenceTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.ws.EndpointReferenceClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.ws.EndpointReferenceClassTests
+ *
+ * @j8unit.aim javax.xml.ws.EndpointReference
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,10 +29,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.EndpointReference#getPort(java.lang.Class,javax.xml.ws.WebServiceFeature...)
+     * Test method for {@link javax.xml.ws.EndpointReference#getPort(java.lang.Class, javax.xml.ws.WebServiceFeature...)
      * public java.lang.Object
      * javax.xml.ws.EndpointReference.getPort(java.lang.Class,javax.xml.ws.WebServiceFeature...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.EndpointReference#getPort(java.lang.Class, javax.xml.ws.WebServiceFeature...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,11 +54,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.EndpointReference#toString() public java.lang.String
      * javax.xml.ws.EndpointReference.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.EndpointReference#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
@@ -59,7 +77,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.EndpointReference#writeTo(javax.xml.transform.Result) public abstract void
      * javax.xml.ws.EndpointReference.writeTo(javax.xml.transform.Result)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.EndpointReference#writeTo(javax.xml.transform.Result)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

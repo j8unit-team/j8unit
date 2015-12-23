@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.sql;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,35 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.sql.Array interface java.sql.Array}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.sql.Array interface java.sql.Array}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.java.sql.ArrayTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.sql.ArrayClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.sql.ArrayClassTests
+ *
+ * @j8unit.aim java.sql.Array
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayTests<SUT extends java.sql.Array>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link java.sql.Array#free() public abstract void java.sql.Array.free() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#free()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +53,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.sql.Array#getArray() public abstract java.lang.Object java.sql.Array.getArray()
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getArray()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,9 +73,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Array#getArray(long,int) public abstract java.lang.Object
+     * Test method for {@link java.sql.Array#getArray(long, int) public abstract java.lang.Object
      * java.sql.Array.getArray(long,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getArray(long, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,9 +95,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Array#getArray(long,int,java.util.Map) public abstract java.lang.Object
+     * Test method for {@link java.sql.Array#getArray(long, int, java.util.Map) public abstract java.lang.Object
      * java.sql.Array.getArray(long,int,java.util.Map) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getArray(long, int, java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +119,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.sql.Array#getArray(java.util.Map) public abstract java.lang.Object
      * java.sql.Array.getArray(java.util.Map) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getArray(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +141,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.sql.Array#getBaseType() public abstract int java.sql.Array.getBaseType() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getBaseType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +163,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.sql.Array#getBaseTypeName() public abstract java.lang.String
      * java.sql.Array.getBaseTypeName() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getBaseTypeName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +185,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.sql.Array#getResultSet() public abstract java.sql.ResultSet
      * java.sql.Array.getResultSet() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getResultSet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,9 +205,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Array#getResultSet(long,int) public abstract java.sql.ResultSet
+     * Test method for {@link java.sql.Array#getResultSet(long, int) public abstract java.sql.ResultSet
      * java.sql.Array.getResultSet(long,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getResultSet(long, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,9 +227,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Array#getResultSet(long,int,java.util.Map) public abstract java.sql.ResultSet
+     * Test method for {@link java.sql.Array#getResultSet(long, int, java.util.Map) public abstract java.sql.ResultSet
      * java.sql.Array.getResultSet(long,int,java.util.Map) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getResultSet(long, int, java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,7 +251,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.sql.Array#getResultSet(java.util.Map) public abstract java.sql.ResultSet
      * java.sql.Array.getResultSet(java.util.Map) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Array#getResultSet(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

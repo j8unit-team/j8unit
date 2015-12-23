@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.charset.Charset class java.nio.charset.Charset}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.nio.charset.Charset class java.nio.charset.Charset}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.nio.charset.CharsetTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.charset.CharsetClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.charset.CharsetClassTests
+ *
+ * @j8unit.aim java.nio.charset.Charset
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#aliases() public final java.util.Set
      * java.nio.charset.Charset.aliases()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#aliases()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,7 +52,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
     /**
      * <p>
      * Test method for {@link java.nio.charset.Charset#canEncode() public boolean java.nio.charset.Charset.canEncode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#canEncode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,7 +74,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#compareTo(java.nio.charset.Charset) public final int
      * java.nio.charset.Charset.compareTo(java.nio.charset.Charset)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#compareTo(java.nio.charset.Charset)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,7 +96,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#contains(java.nio.charset.Charset) public abstract boolean
      * java.nio.charset.Charset.contains(java.nio.charset.Charset)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#contains(java.nio.charset.Charset)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,7 +118,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#decode(java.nio.ByteBuffer) public final java.nio.CharBuffer
      * java.nio.charset.Charset.decode(java.nio.ByteBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#decode(java.nio.ByteBuffer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,7 +140,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#displayName() public java.lang.String
      * java.nio.charset.Charset.displayName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#displayName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,7 +162,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#displayName(java.util.Locale) public java.lang.String
      * java.nio.charset.Charset.displayName(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#displayName(java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,7 +184,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#encode(java.nio.CharBuffer) public final java.nio.ByteBuffer
      * java.nio.charset.Charset.encode(java.nio.CharBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#encode(java.nio.CharBuffer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,7 +206,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#encode(java.lang.String) public final java.nio.ByteBuffer
      * java.nio.charset.Charset.encode(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#encode(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,11 +228,18 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#equals(java.lang.Object) public final boolean
      * java.nio.charset.Charset.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -184,7 +250,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
     /**
      * <p>
      * Test method for {@link java.nio.charset.Charset#hashCode() public final int java.nio.charset.Charset.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -201,7 +273,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#isRegistered() public final boolean
      * java.nio.charset.Charset.isRegistered()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#isRegistered()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,7 +295,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#name() public final java.lang.String
      * java.nio.charset.Charset.name()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#name()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -233,7 +317,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#newDecoder() public abstract java.nio.charset.CharsetDecoder
      * java.nio.charset.Charset.newDecoder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#newDecoder()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,7 +339,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#newEncoder() public abstract java.nio.charset.CharsetEncoder
      * java.nio.charset.Charset.newEncoder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#newEncoder()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -265,11 +361,18 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
      * <p>
      * Test method for {@link java.nio.charset.Charset#toString() public final java.lang.String
      * java.nio.charset.Charset.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.charset.Charset#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

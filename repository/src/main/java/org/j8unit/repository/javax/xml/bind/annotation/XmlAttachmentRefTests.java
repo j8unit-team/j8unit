@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.annotation.XmlAttachmentRef interface
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.annotation.XmlAttachmentRef interface
  * javax.xml.bind.annotation.XmlAttachmentRef}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.bind.annotation.XmlAttachmentRefTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.annotation.XmlAttachmentRefClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.annotation.XmlAttachmentRefClassTests
+ *
+ * @j8unit.aim javax.xml.bind.annotation.XmlAttachmentRef
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

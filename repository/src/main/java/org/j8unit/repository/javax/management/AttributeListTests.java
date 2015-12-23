@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.AttributeList class javax.management.AttributeList}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.AttributeList class javax.management.AttributeList},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.AttributeListTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.AttributeListClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.AttributeListClassTests
+ *
+ * @j8unit.aim javax.management.AttributeList
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.AttributeList#add(javax.management.Attribute) public void
      * javax.management.AttributeList.add(javax.management.Attribute)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#add(javax.management.Attribute)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -40,9 +51,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeList#add(int,javax.management.Attribute) public void
+     * Test method for {@link javax.management.AttributeList#add(int, javax.management.Attribute) public void
      * javax.management.AttributeList.add(int,javax.management.Attribute)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#add(int, javax.management.Attribute)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,9 +73,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeList#add(int,java.lang.Object) public void
+     * Test method for {@link javax.management.AttributeList#add(int, java.lang.Object) public void
      * javax.management.AttributeList.add(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#add(int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.AttributeList#add(java.lang.Object) public boolean
      * javax.management.AttributeList.add(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#add(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.AttributeList#addAll(javax.management.AttributeList) public boolean
      * javax.management.AttributeList.addAll(javax.management.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#addAll(javax.management.AttributeList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +143,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.AttributeList#addAll(java.util.Collection) public boolean
      * javax.management.AttributeList.addAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#addAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,9 +164,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeList#addAll(int,javax.management.AttributeList) public boolean
+     * Test method for {@link javax.management.AttributeList#addAll(int, javax.management.AttributeList) public boolean
      * javax.management.AttributeList.addAll(int,javax.management.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#addAll(int, javax.management.AttributeList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,9 +186,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeList#addAll(int,java.util.Collection) public boolean
+     * Test method for {@link javax.management.AttributeList#addAll(int, java.util.Collection) public boolean
      * javax.management.AttributeList.addAll(int,java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#addAll(int, java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +211,13 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.management.AttributeList#asList() public java.util.List
      * javax.management.AttributeList.asList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#asList()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,9 +231,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeList#set(int,javax.management.Attribute) public void
+     * Test method for {@link javax.management.AttributeList#set(int, javax.management.Attribute) public void
      * javax.management.AttributeList.set(int,javax.management.Attribute)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#set(int, javax.management.Attribute)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,9 +253,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeList#set(int,java.lang.Object) public java.lang.Object
+     * Test method for {@link javax.management.AttributeList#set(int, java.lang.Object) public java.lang.Object
      * javax.management.AttributeList.set(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.AttributeList#set(int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ScrollPaneLayoutTest
 implements org.j8unit.repository.javax.swing.ScrollPaneLayoutTests<javax.swing.ScrollPaneLayout> {
 
+    @Override
+    public javax.swing.ScrollPaneLayout createNewSUT() {
+        return new javax.swing.ScrollPaneLayout();
+    }
+
     @RunWith(J8Unit4.class)
     public static class UIResourceTest
     implements org.j8unit.repository.javax.swing.ScrollPaneLayoutTests.UIResourceTests<javax.swing.ScrollPaneLayout.UIResource> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.ScrollPaneLayoutTests<javax.swing.S
             return new javax.swing.ScrollPaneLayout.UIResource();
         }
 
-    }
-
-    @Override
-    public javax.swing.ScrollPaneLayout createNewSUT() {
-        return new javax.swing.ScrollPaneLayout();
     }
 
 }

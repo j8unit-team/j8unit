@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.activity.InvalidActivityException class javax.activity.InvalidActivityException},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.activity.InvalidActivityException class
+ * javax.activity.InvalidActivityException}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.activity.InvalidActivityExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTests
+ *
+ * @j8unit.aim javax.activity.InvalidActivityException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

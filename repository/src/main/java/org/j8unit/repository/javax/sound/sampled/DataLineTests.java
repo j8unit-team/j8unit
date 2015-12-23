@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.sound.sampled.DataLine interface javax.sound.sampled.DataLine}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.sound.sampled.DataLine interface javax.sound.sampled.DataLine},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.sound.sampled.DataLineTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.sound.sampled.DataLineClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.sound.sampled.DataLineClassTests
+ *
+ * @j8unit.aim javax.sound.sampled.DataLine
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.sound.sampled.DataLine$Info class javax.sound.sampled.DataLine$Info}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.sound.sampled.DataLine.Info class
+     * javax.sound.sampled.DataLine$Info}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.sound.sampled.DataLineTests.InfoTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.sound.sampled.DataLineClassTests.InfoClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.sound.sampled.DataLineClassTests.InfoClassTests
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine.Info
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +52,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
          * <p>
          * Test method for {@link javax.sound.sampled.DataLine.Info#getFormats() public
          * javax.sound.sampled.AudioFormat[] javax.sound.sampled.DataLine$Info.getFormats()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.sound.sampled.DataLine.Info#getFormats()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
          * <p>
          * Test method for {@link javax.sound.sampled.DataLine.Info#getMaxBufferSize() public int
          * javax.sound.sampled.DataLine$Info.getMaxBufferSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.sound.sampled.DataLine.Info#getMaxBufferSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -74,7 +96,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
          * <p>
          * Test method for {@link javax.sound.sampled.DataLine.Info#getMinBufferSize() public int
          * javax.sound.sampled.DataLine$Info.getMinBufferSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.sound.sampled.DataLine.Info#getMinBufferSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -90,7 +118,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
          * <p>
          * Test method for {@link javax.sound.sampled.DataLine.Info#isFormatSupported(javax.sound.sampled.AudioFormat)
          * public boolean javax.sound.sampled.DataLine$Info.isFormatSupported(javax.sound.sampled.AudioFormat)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.sound.sampled.DataLine.Info#isFormatSupported(javax.sound.sampled.AudioFormat)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -106,7 +140,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
          * <p>
          * Test method for {@link javax.sound.sampled.DataLine.Info#matches(javax.sound.sampled.Line.Info) public
          * boolean javax.sound.sampled.DataLine$Info.matches(javax.sound.sampled.Line$Info)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.sound.sampled.DataLine.Info#matches(javax.sound.sampled.Line.Info)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -123,7 +163,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
          * <p>
          * Test method for {@link javax.sound.sampled.DataLine.Info#toString() public java.lang.String
          * javax.sound.sampled.DataLine$Info.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.sound.sampled.DataLine.Info#toString()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -142,7 +188,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#available() public abstract int
      * javax.sound.sampled.DataLine.available()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#available()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +210,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#drain() public abstract void
      * javax.sound.sampled.DataLine.drain()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#drain()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +232,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#flush() public abstract void
      * javax.sound.sampled.DataLine.flush()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#flush()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,7 +254,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#getBufferSize() public abstract int
      * javax.sound.sampled.DataLine.getBufferSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#getBufferSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,7 +276,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#getFormat() public abstract javax.sound.sampled.AudioFormat
      * javax.sound.sampled.DataLine.getFormat()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#getFormat()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,7 +298,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#getFramePosition() public abstract int
      * javax.sound.sampled.DataLine.getFramePosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#getFramePosition()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -238,7 +320,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#getLevel() public abstract float
      * javax.sound.sampled.DataLine.getLevel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#getLevel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,7 +342,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#getLongFramePosition() public abstract long
      * javax.sound.sampled.DataLine.getLongFramePosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#getLongFramePosition()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,7 +364,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#getMicrosecondPosition() public abstract long
      * javax.sound.sampled.DataLine.getMicrosecondPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#getMicrosecondPosition()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,7 +386,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#isActive() public abstract boolean
      * javax.sound.sampled.DataLine.isActive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#isActive()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,7 +408,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#isRunning() public abstract boolean
      * javax.sound.sampled.DataLine.isRunning()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#isRunning()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -318,7 +430,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#start() public abstract void
      * javax.sound.sampled.DataLine.start()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#start()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -334,7 +452,13 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.sampled.DataLine#stop() public abstract void
      * javax.sound.sampled.DataLine.stop()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.sampled.DataLine#stop()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

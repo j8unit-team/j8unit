@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,28 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.BufferedImageOp interface java.awt.image.BufferedImageOp}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.BufferedImageOp interface
+ * java.awt.image.BufferedImageOp}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.image.BufferedImageOpTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.BufferedImageOpClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.BufferedImageOpClassTests
+ *
+ * @j8unit.aim java.awt.image.BufferedImageOp
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedImageOpTests<SUT extends java.awt.image.BufferedImageOp>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.BufferedImageOp#createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)
+     * {@link java.awt.image.BufferedImageOp#createCompatibleDestImage(java.awt.image.BufferedImage, java.awt.image.ColorModel)
      * public abstract java.awt.image.BufferedImage
      * java.awt.image.BufferedImageOp.createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.BufferedImageOp#createCompatibleDestImage(java.awt.image.BufferedImage,
+     *             java.awt.image.ColorModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,10 +57,16 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.BufferedImageOp#filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage) public
+     * {@link java.awt.image.BufferedImageOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage) public
      * abstract java.awt.image.BufferedImage
      * java.awt.image.BufferedImageOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.BufferedImageOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,7 +82,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.image.BufferedImageOp#getBounds2D(java.awt.image.BufferedImage) public abstract
      * java.awt.geom.Rectangle2D java.awt.image.BufferedImageOp.getBounds2D(java.awt.image.BufferedImage)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.BufferedImageOp#getBounds2D(java.awt.image.BufferedImage)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,10 +102,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.BufferedImageOp#getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)
+     * Test method for {@link java.awt.image.BufferedImageOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D)
      * public abstract java.awt.geom.Point2D
      * java.awt.image.BufferedImageOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.BufferedImageOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,7 +127,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.awt.image.BufferedImageOp#getRenderingHints() public abstract java.awt.RenderingHints
      * java.awt.image.BufferedImageOp.getRenderingHints()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.BufferedImageOp#getRenderingHints()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.sql.DatabaseMetaData interface java.sql.DatabaseMetaData}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.sql.DatabaseMetaData interface java.sql.DatabaseMetaData},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.sql.DatabaseMetaDataTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.sql.DatabaseMetaDataClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.sql.DatabaseMetaDataClassTests
+ *
+ * @j8unit.aim java.sql.DatabaseMetaData
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#allProceduresAreCallable() public abstract boolean
      * java.sql.DatabaseMetaData.allProceduresAreCallable() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#allProceduresAreCallable()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#allTablesAreSelectable() public abstract boolean
      * java.sql.DatabaseMetaData.allTablesAreSelectable() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#allTablesAreSelectable()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#autoCommitFailureClosesAllResultSets() public abstract boolean
      * java.sql.DatabaseMetaData.autoCommitFailureClosesAllResultSets() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#autoCommitFailureClosesAllResultSets()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#dataDefinitionCausesTransactionCommit() public abstract boolean
      * java.sql.DatabaseMetaData.dataDefinitionCausesTransactionCommit() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#dataDefinitionCausesTransactionCommit()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#dataDefinitionIgnoredInTransactions() public abstract boolean
      * java.sql.DatabaseMetaData.dataDefinitionIgnoredInTransactions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#dataDefinitionIgnoredInTransactions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#deletesAreDetected(int) public abstract boolean
      * java.sql.DatabaseMetaData.deletesAreDetected(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#deletesAreDetected(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#doesMaxRowSizeIncludeBlobs() public abstract boolean
      * java.sql.DatabaseMetaData.doesMaxRowSizeIncludeBlobs() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#doesMaxRowSizeIncludeBlobs()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#generatedKeyAlwaysReturned() public abstract boolean
      * java.sql.DatabaseMetaData.generatedKeyAlwaysReturned() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#generatedKeyAlwaysReturned()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,11 +206,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getAttributes(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getAttributes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getAttributes(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getAttributes(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,11 +232,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getBestRowIdentifier(java.lang.String,java.lang.String,java.lang.String,int,boolean)
+     * {@link java.sql.DatabaseMetaData#getBestRowIdentifier(java.lang.String, java.lang.String, java.lang.String, int, boolean)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getBestRowIdentifier(java.lang.String,java.lang.String,java.lang.String,int,boolean)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getBestRowIdentifier(java.lang.String, java.lang.String, java.lang.String,
+     *             int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,7 +259,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getCatalogs() public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getCatalogs() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getCatalogs()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,7 +281,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getCatalogSeparator() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getCatalogSeparator() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getCatalogSeparator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,7 +303,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getCatalogTerm() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getCatalogTerm() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getCatalogTerm()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -240,7 +325,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getClientInfoProperties() public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getClientInfoProperties() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getClientInfoProperties()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -255,11 +346,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getColumnPrivileges(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getColumnPrivileges(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getColumnPrivileges(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getColumnPrivileges(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,11 +372,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getColumns(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -294,7 +399,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getConnection() public abstract java.sql.Connection
      * java.sql.DatabaseMetaData.getConnection() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getConnection()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -309,11 +420,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getCrossReference(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getCrossReference(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getCrossReference(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getCrossReference(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,7 +447,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDatabaseMajorVersion() public abstract int
      * java.sql.DatabaseMetaData.getDatabaseMajorVersion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDatabaseMajorVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,7 +469,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDatabaseMinorVersion() public abstract int
      * java.sql.DatabaseMetaData.getDatabaseMinorVersion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDatabaseMinorVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,7 +491,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDatabaseProductName() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getDatabaseProductName() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDatabaseProductName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -377,7 +513,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDatabaseProductVersion() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getDatabaseProductVersion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDatabaseProductVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -393,7 +535,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDefaultTransactionIsolation() public abstract int
      * java.sql.DatabaseMetaData.getDefaultTransactionIsolation() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDefaultTransactionIsolation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,7 +557,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDriverMajorVersion() public abstract int
      * java.sql.DatabaseMetaData.getDriverMajorVersion()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDriverMajorVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -425,7 +579,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDriverMinorVersion() public abstract int
      * java.sql.DatabaseMetaData.getDriverMinorVersion()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDriverMinorVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -441,7 +601,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDriverName() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getDriverName() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDriverName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -457,7 +623,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getDriverVersion() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getDriverVersion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getDriverVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -472,11 +644,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getExportedKeys(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getExportedKeys(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getExportedKeys(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getExportedKeys(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -492,7 +670,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getExtraNameCharacters() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getExtraNameCharacters() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getExtraNameCharacters()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -507,11 +691,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getFunctionColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getFunctionColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getFunctionColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getFunctionColumns(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -525,11 +716,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DatabaseMetaData#getFunctions(java.lang.String,java.lang.String,java.lang.String)
-     * public abstract java.sql.ResultSet
+     * Test method for
+     * {@link java.sql.DatabaseMetaData#getFunctions(java.lang.String, java.lang.String, java.lang.String) public
+     * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getFunctions(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getFunctions(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -545,7 +743,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getIdentifierQuoteString() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getIdentifierQuoteString() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getIdentifierQuoteString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -560,11 +764,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getImportedKeys(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getImportedKeys(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getImportedKeys(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getImportedKeys(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -579,11 +789,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getIndexInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)
+     * {@link java.sql.DatabaseMetaData#getIndexInfo(java.lang.String, java.lang.String, java.lang.String, boolean, boolean)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getIndexInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getIndexInfo(java.lang.String, java.lang.String, java.lang.String, boolean,
+     *             boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -599,7 +816,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getJDBCMajorVersion() public abstract int
      * java.sql.DatabaseMetaData.getJDBCMajorVersion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getJDBCMajorVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -615,7 +838,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getJDBCMinorVersion() public abstract int
      * java.sql.DatabaseMetaData.getJDBCMinorVersion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getJDBCMinorVersion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -631,7 +860,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxBinaryLiteralLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxBinaryLiteralLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxBinaryLiteralLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -647,7 +882,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxCatalogNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxCatalogNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxCatalogNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -663,7 +904,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxCharLiteralLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxCharLiteralLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxCharLiteralLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -679,7 +926,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxColumnNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxColumnNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxColumnNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -695,7 +948,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxColumnsInGroupBy() public abstract int
      * java.sql.DatabaseMetaData.getMaxColumnsInGroupBy() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxColumnsInGroupBy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -711,7 +970,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxColumnsInIndex() public abstract int
      * java.sql.DatabaseMetaData.getMaxColumnsInIndex() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxColumnsInIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -727,7 +992,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxColumnsInOrderBy() public abstract int
      * java.sql.DatabaseMetaData.getMaxColumnsInOrderBy() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxColumnsInOrderBy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -743,7 +1014,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxColumnsInSelect() public abstract int
      * java.sql.DatabaseMetaData.getMaxColumnsInSelect() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxColumnsInSelect()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -759,7 +1036,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxColumnsInTable() public abstract int
      * java.sql.DatabaseMetaData.getMaxColumnsInTable() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxColumnsInTable()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -775,7 +1058,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxConnections() public abstract int
      * java.sql.DatabaseMetaData.getMaxConnections() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxConnections()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -791,7 +1080,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxCursorNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxCursorNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxCursorNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -807,7 +1102,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxIndexLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxIndexLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxIndexLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -823,7 +1124,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxLogicalLobSize() public default long
      * java.sql.DatabaseMetaData.getMaxLogicalLobSize() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxLogicalLobSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -839,7 +1146,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxProcedureNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxProcedureNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxProcedureNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -855,7 +1168,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxRowSize() public abstract int
      * java.sql.DatabaseMetaData.getMaxRowSize() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxRowSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -871,7 +1190,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxSchemaNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxSchemaNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxSchemaNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -887,7 +1212,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxStatementLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxStatementLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxStatementLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -903,7 +1234,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxStatements() public abstract int
      * java.sql.DatabaseMetaData.getMaxStatements() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxStatements()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -919,7 +1256,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxTableNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxTableNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxTableNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -935,7 +1278,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxTablesInSelect() public abstract int
      * java.sql.DatabaseMetaData.getMaxTablesInSelect() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxTablesInSelect()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -951,7 +1300,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getMaxUserNameLength() public abstract int
      * java.sql.DatabaseMetaData.getMaxUserNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getMaxUserNameLength()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -967,7 +1322,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getNumericFunctions() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getNumericFunctions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getNumericFunctions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -982,11 +1343,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getPrimaryKeys(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getPrimaryKeys(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getPrimaryKeys(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getPrimaryKeys(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1001,11 +1368,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getProcedureColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getProcedureColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getProcedureColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getProcedureColumns(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1020,11 +1394,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getProcedures(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getProcedures(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getProcedures(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getProcedures(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1040,7 +1420,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getProcedureTerm() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getProcedureTerm() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getProcedureTerm()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1055,11 +1441,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getPseudoColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * {@link java.sql.DatabaseMetaData#getPseudoColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getPseudoColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getPseudoColumns(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1075,7 +1468,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getResultSetHoldability() public abstract int
      * java.sql.DatabaseMetaData.getResultSetHoldability() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getResultSetHoldability()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1091,7 +1490,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getRowIdLifetime() public abstract java.sql.RowIdLifetime
      * java.sql.DatabaseMetaData.getRowIdLifetime() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getRowIdLifetime()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1107,7 +1512,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getSchemas() public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getSchemas() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSchemas()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1121,10 +1532,16 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DatabaseMetaData#getSchemas(java.lang.String,java.lang.String) public abstract
+     * Test method for {@link java.sql.DatabaseMetaData#getSchemas(java.lang.String, java.lang.String) public abstract
      * java.sql.ResultSet java.sql.DatabaseMetaData.getSchemas(java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSchemas(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1140,7 +1557,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getSchemaTerm() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getSchemaTerm() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSchemaTerm()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1156,7 +1579,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getSearchStringEscape() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getSearchStringEscape() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSearchStringEscape()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1172,7 +1601,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getSQLKeywords() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getSQLKeywords() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSQLKeywords()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1188,7 +1623,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getSQLStateType() public abstract int
      * java.sql.DatabaseMetaData.getSQLStateType() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSQLStateType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1204,7 +1645,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getStringFunctions() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getStringFunctions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getStringFunctions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1219,11 +1666,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getSuperTables(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getSuperTables(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getSuperTables(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSuperTables(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1238,11 +1691,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getSuperTypes(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getSuperTypes(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getSuperTypes(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSuperTypes(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1258,7 +1717,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getSystemFunctions() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getSystemFunctions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getSystemFunctions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1273,11 +1738,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getTablePrivileges(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getTablePrivileges(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getTablePrivileges(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getTablePrivileges(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1292,11 +1763,18 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getTables(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+     * {@link java.sql.DatabaseMetaData#getTables(java.lang.String, java.lang.String, java.lang.String, java.lang.String[])
      * public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getTables(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getTables(java.lang.String, java.lang.String, java.lang.String,
+     *             java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1312,7 +1790,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getTableTypes() public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getTableTypes() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getTableTypes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1328,7 +1812,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getTimeDateFunctions() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getTimeDateFunctions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getTimeDateFunctions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1344,7 +1834,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getTypeInfo() public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getTypeInfo() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getTypeInfo()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1359,11 +1855,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getUDTs(java.lang.String,java.lang.String,java.lang.String,int[]) public
+     * {@link java.sql.DatabaseMetaData#getUDTs(java.lang.String, java.lang.String, java.lang.String, int[]) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getUDTs(java.lang.String,java.lang.String,java.lang.String,int[]) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getUDTs(java.lang.String, java.lang.String, java.lang.String, int[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1379,7 +1881,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getURL() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getURL() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getURL()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1395,7 +1903,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#getUserName() public abstract java.lang.String
      * java.sql.DatabaseMetaData.getUserName() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getUserName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1410,11 +1924,17 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.sql.DatabaseMetaData#getVersionColumns(java.lang.String,java.lang.String,java.lang.String) public
+     * {@link java.sql.DatabaseMetaData#getVersionColumns(java.lang.String, java.lang.String, java.lang.String) public
      * abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getVersionColumns(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#getVersionColumns(java.lang.String, java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1430,7 +1950,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#insertsAreDetected(int) public abstract boolean
      * java.sql.DatabaseMetaData.insertsAreDetected(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#insertsAreDetected(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1446,7 +1972,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#isCatalogAtStart() public abstract boolean
      * java.sql.DatabaseMetaData.isCatalogAtStart() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#isCatalogAtStart()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1462,7 +1994,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#isReadOnly() public abstract boolean
      * java.sql.DatabaseMetaData.isReadOnly() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#isReadOnly()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1478,7 +2016,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#locatorsUpdateCopy() public abstract boolean
      * java.sql.DatabaseMetaData.locatorsUpdateCopy() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#locatorsUpdateCopy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1494,7 +2038,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#nullPlusNonNullIsNull() public abstract boolean
      * java.sql.DatabaseMetaData.nullPlusNonNullIsNull() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#nullPlusNonNullIsNull()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1510,7 +2060,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#nullsAreSortedAtEnd() public abstract boolean
      * java.sql.DatabaseMetaData.nullsAreSortedAtEnd() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#nullsAreSortedAtEnd()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1526,7 +2082,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#nullsAreSortedAtStart() public abstract boolean
      * java.sql.DatabaseMetaData.nullsAreSortedAtStart() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#nullsAreSortedAtStart()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1542,7 +2104,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#nullsAreSortedHigh() public abstract boolean
      * java.sql.DatabaseMetaData.nullsAreSortedHigh() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#nullsAreSortedHigh()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1558,7 +2126,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#nullsAreSortedLow() public abstract boolean
      * java.sql.DatabaseMetaData.nullsAreSortedLow() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#nullsAreSortedLow()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1574,7 +2148,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#othersDeletesAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.othersDeletesAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#othersDeletesAreVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1590,7 +2170,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#othersInsertsAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.othersInsertsAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#othersInsertsAreVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1606,7 +2192,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#othersUpdatesAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.othersUpdatesAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#othersUpdatesAreVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1622,7 +2214,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#ownDeletesAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.ownDeletesAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#ownDeletesAreVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1638,7 +2236,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#ownInsertsAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.ownInsertsAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#ownInsertsAreVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1654,7 +2258,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#ownUpdatesAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.ownUpdatesAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#ownUpdatesAreVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1670,7 +2280,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#storesLowerCaseIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.storesLowerCaseIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#storesLowerCaseIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1686,7 +2302,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#storesLowerCaseQuotedIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.storesLowerCaseQuotedIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#storesLowerCaseQuotedIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1702,7 +2324,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#storesMixedCaseIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.storesMixedCaseIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#storesMixedCaseIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1718,7 +2346,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#storesMixedCaseQuotedIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.storesMixedCaseQuotedIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#storesMixedCaseQuotedIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1734,7 +2368,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#storesUpperCaseIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.storesUpperCaseIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#storesUpperCaseIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1750,7 +2390,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#storesUpperCaseQuotedIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.storesUpperCaseQuotedIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#storesUpperCaseQuotedIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1766,7 +2412,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsAlterTableWithAddColumn() public abstract boolean
      * java.sql.DatabaseMetaData.supportsAlterTableWithAddColumn() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsAlterTableWithAddColumn()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1782,7 +2434,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsAlterTableWithDropColumn() public abstract boolean
      * java.sql.DatabaseMetaData.supportsAlterTableWithDropColumn() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsAlterTableWithDropColumn()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1798,7 +2456,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsANSI92EntryLevelSQL() public abstract boolean
      * java.sql.DatabaseMetaData.supportsANSI92EntryLevelSQL() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsANSI92EntryLevelSQL()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1814,7 +2478,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsANSI92FullSQL() public abstract boolean
      * java.sql.DatabaseMetaData.supportsANSI92FullSQL() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsANSI92FullSQL()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1830,7 +2500,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsANSI92IntermediateSQL() public abstract boolean
      * java.sql.DatabaseMetaData.supportsANSI92IntermediateSQL() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsANSI92IntermediateSQL()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1846,7 +2522,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsBatchUpdates() public abstract boolean
      * java.sql.DatabaseMetaData.supportsBatchUpdates() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsBatchUpdates()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1862,7 +2544,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCatalogsInDataManipulation() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCatalogsInDataManipulation() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCatalogsInDataManipulation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1878,7 +2566,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCatalogsInIndexDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCatalogsInIndexDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCatalogsInIndexDefinitions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1894,7 +2588,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCatalogsInPrivilegeDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCatalogsInPrivilegeDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCatalogsInPrivilegeDefinitions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1910,7 +2610,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCatalogsInProcedureCalls() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCatalogsInProcedureCalls() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCatalogsInProcedureCalls()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1926,7 +2632,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCatalogsInTableDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCatalogsInTableDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCatalogsInTableDefinitions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1942,7 +2654,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsColumnAliasing() public abstract boolean
      * java.sql.DatabaseMetaData.supportsColumnAliasing() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsColumnAliasing()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1958,7 +2676,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsConvert() public abstract boolean
      * java.sql.DatabaseMetaData.supportsConvert() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsConvert()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1972,9 +2696,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DatabaseMetaData#supportsConvert(int,int) public abstract boolean
+     * Test method for {@link java.sql.DatabaseMetaData#supportsConvert(int, int) public abstract boolean
      * java.sql.DatabaseMetaData.supportsConvert(int,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsConvert(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1990,7 +2720,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCoreSQLGrammar() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCoreSQLGrammar() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCoreSQLGrammar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2006,7 +2742,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsCorrelatedSubqueries() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCorrelatedSubqueries() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsCorrelatedSubqueries()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2023,7 +2765,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * Test method for {@link java.sql.DatabaseMetaData#supportsDataDefinitionAndDataManipulationTransactions() public
      * abstract boolean java.sql.DatabaseMetaData.supportsDataDefinitionAndDataManipulationTransactions() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsDataDefinitionAndDataManipulationTransactions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2039,7 +2787,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsDataManipulationTransactionsOnly() public abstract
      * boolean java.sql.DatabaseMetaData.supportsDataManipulationTransactionsOnly() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsDataManipulationTransactionsOnly()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2055,7 +2809,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsDifferentTableCorrelationNames() public abstract boolean
      * java.sql.DatabaseMetaData.supportsDifferentTableCorrelationNames() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsDifferentTableCorrelationNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2071,7 +2831,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsExpressionsInOrderBy() public abstract boolean
      * java.sql.DatabaseMetaData.supportsExpressionsInOrderBy() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsExpressionsInOrderBy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2087,7 +2853,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsExtendedSQLGrammar() public abstract boolean
      * java.sql.DatabaseMetaData.supportsExtendedSQLGrammar() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsExtendedSQLGrammar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2103,7 +2875,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsFullOuterJoins() public abstract boolean
      * java.sql.DatabaseMetaData.supportsFullOuterJoins() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsFullOuterJoins()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2119,7 +2897,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsGetGeneratedKeys() public abstract boolean
      * java.sql.DatabaseMetaData.supportsGetGeneratedKeys() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsGetGeneratedKeys()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2135,7 +2919,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsGroupBy() public abstract boolean
      * java.sql.DatabaseMetaData.supportsGroupBy() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsGroupBy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2151,7 +2941,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsGroupByBeyondSelect() public abstract boolean
      * java.sql.DatabaseMetaData.supportsGroupByBeyondSelect() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsGroupByBeyondSelect()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2167,7 +2963,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsGroupByUnrelated() public abstract boolean
      * java.sql.DatabaseMetaData.supportsGroupByUnrelated() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsGroupByUnrelated()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2183,7 +2985,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsIntegrityEnhancementFacility() public abstract boolean
      * java.sql.DatabaseMetaData.supportsIntegrityEnhancementFacility() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsIntegrityEnhancementFacility()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2199,7 +3007,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsLikeEscapeClause() public abstract boolean
      * java.sql.DatabaseMetaData.supportsLikeEscapeClause() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsLikeEscapeClause()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2215,7 +3029,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsLimitedOuterJoins() public abstract boolean
      * java.sql.DatabaseMetaData.supportsLimitedOuterJoins() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsLimitedOuterJoins()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2231,7 +3051,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsMinimumSQLGrammar() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMinimumSQLGrammar() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsMinimumSQLGrammar()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2247,7 +3073,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsMixedCaseIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMixedCaseIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsMixedCaseIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2263,7 +3095,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsMixedCaseQuotedIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMixedCaseQuotedIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsMixedCaseQuotedIdentifiers()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2279,7 +3117,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsMultipleOpenResults() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMultipleOpenResults() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsMultipleOpenResults()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2295,7 +3139,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsMultipleResultSets() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMultipleResultSets() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsMultipleResultSets()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2311,7 +3161,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsMultipleTransactions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMultipleTransactions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsMultipleTransactions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2327,7 +3183,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsNamedParameters() public abstract boolean
      * java.sql.DatabaseMetaData.supportsNamedParameters() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsNamedParameters()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2343,7 +3205,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsNonNullableColumns() public abstract boolean
      * java.sql.DatabaseMetaData.supportsNonNullableColumns() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsNonNullableColumns()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2359,7 +3227,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsOpenCursorsAcrossCommit() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOpenCursorsAcrossCommit() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsOpenCursorsAcrossCommit()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2375,7 +3249,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsOpenCursorsAcrossRollback() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOpenCursorsAcrossRollback() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsOpenCursorsAcrossRollback()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2391,7 +3271,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsOpenStatementsAcrossCommit() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOpenStatementsAcrossCommit() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsOpenStatementsAcrossCommit()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2407,7 +3293,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsOpenStatementsAcrossRollback() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOpenStatementsAcrossRollback() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsOpenStatementsAcrossRollback()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2423,7 +3315,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsOrderByUnrelated() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOrderByUnrelated() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsOrderByUnrelated()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2439,7 +3337,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsOuterJoins() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOuterJoins() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsOuterJoins()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2455,7 +3359,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsPositionedDelete() public abstract boolean
      * java.sql.DatabaseMetaData.supportsPositionedDelete() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsPositionedDelete()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2471,7 +3381,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsPositionedUpdate() public abstract boolean
      * java.sql.DatabaseMetaData.supportsPositionedUpdate() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsPositionedUpdate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2487,7 +3403,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsRefCursors() public default boolean
      * java.sql.DatabaseMetaData.supportsRefCursors() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsRefCursors()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2501,9 +3423,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DatabaseMetaData#supportsResultSetConcurrency(int,int) public abstract boolean
+     * Test method for {@link java.sql.DatabaseMetaData#supportsResultSetConcurrency(int, int) public abstract boolean
      * java.sql.DatabaseMetaData.supportsResultSetConcurrency(int,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsResultSetConcurrency(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2519,7 +3447,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsResultSetHoldability(int) public abstract boolean
      * java.sql.DatabaseMetaData.supportsResultSetHoldability(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsResultSetHoldability(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2535,7 +3469,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsResultSetType(int) public abstract boolean
      * java.sql.DatabaseMetaData.supportsResultSetType(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsResultSetType(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2551,7 +3491,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSavepoints() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSavepoints() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSavepoints()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2567,7 +3513,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSchemasInDataManipulation() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInDataManipulation() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSchemasInDataManipulation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2583,7 +3535,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSchemasInIndexDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInIndexDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSchemasInIndexDefinitions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2599,7 +3557,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSchemasInPrivilegeDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInPrivilegeDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSchemasInPrivilegeDefinitions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2615,7 +3579,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSchemasInProcedureCalls() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInProcedureCalls() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSchemasInProcedureCalls()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2631,7 +3601,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSchemasInTableDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInTableDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSchemasInTableDefinitions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2647,7 +3623,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSelectForUpdate() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSelectForUpdate() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSelectForUpdate()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2663,7 +3645,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsStatementPooling() public abstract boolean
      * java.sql.DatabaseMetaData.supportsStatementPooling() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsStatementPooling()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2679,7 +3667,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsStoredFunctionsUsingCallSyntax() public abstract boolean
      * java.sql.DatabaseMetaData.supportsStoredFunctionsUsingCallSyntax() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsStoredFunctionsUsingCallSyntax()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2695,7 +3689,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsStoredProcedures() public abstract boolean
      * java.sql.DatabaseMetaData.supportsStoredProcedures() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsStoredProcedures()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2711,7 +3711,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSubqueriesInComparisons() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSubqueriesInComparisons() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSubqueriesInComparisons()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2727,7 +3733,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSubqueriesInExists() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSubqueriesInExists() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSubqueriesInExists()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2743,7 +3755,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSubqueriesInIns() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSubqueriesInIns() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSubqueriesInIns()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2759,7 +3777,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsSubqueriesInQuantifieds() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSubqueriesInQuantifieds() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsSubqueriesInQuantifieds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2775,7 +3799,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsTableCorrelationNames() public abstract boolean
      * java.sql.DatabaseMetaData.supportsTableCorrelationNames() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsTableCorrelationNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2791,7 +3821,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsTransactionIsolationLevel(int) public abstract boolean
      * java.sql.DatabaseMetaData.supportsTransactionIsolationLevel(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsTransactionIsolationLevel(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2807,7 +3843,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsTransactions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsTransactions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsTransactions()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2823,7 +3865,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsUnion() public abstract boolean
      * java.sql.DatabaseMetaData.supportsUnion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsUnion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2839,7 +3887,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#supportsUnionAll() public abstract boolean
      * java.sql.DatabaseMetaData.supportsUnionAll() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#supportsUnionAll()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2855,7 +3909,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#updatesAreDetected(int) public abstract boolean
      * java.sql.DatabaseMetaData.updatesAreDetected(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#updatesAreDetected(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2871,7 +3931,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#usesLocalFilePerTable() public abstract boolean
      * java.sql.DatabaseMetaData.usesLocalFilePerTable() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#usesLocalFilePerTable()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2887,7 +3953,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
      * <p>
      * Test method for {@link java.sql.DatabaseMetaData#usesLocalFiles() public abstract boolean
      * java.sql.DatabaseMetaData.usesLocalFiles() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.DatabaseMetaData#usesLocalFiles()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class DefaultTreeCellEditorTest
 implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<javax.swing.tree.DefaultTreeCellEditor> {
 
+    @Override
+    public javax.swing.tree.DefaultTreeCellEditor createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class DefaultTextFieldTest
     implements
@@ -29,11 +34,6 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<jav
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor.EditorContainer] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.tree.DefaultTreeCellEditor createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.tree.DefaultTreeCellEditor] available.");
     }
 
 }

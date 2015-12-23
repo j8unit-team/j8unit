@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MarshallerClassTest
 implements org.j8unit.repository.javax.xml.bind.MarshallerClassTests<javax.xml.bind.Marshaller> {
 
+    @Override
+    public Class<javax.xml.bind.Marshaller> createNewSUT() {
+        return javax.xml.bind.Marshaller.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ListenerClassTest
     implements org.j8unit.repository.javax.xml.bind.MarshallerClassTests.ListenerClassTests<javax.xml.bind.Marshaller.Listener> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.bind.MarshallerClassTests<javax.xml.b
             return javax.xml.bind.Marshaller.Listener.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.Marshaller> createNewSUT() {
-        return javax.xml.bind.Marshaller.class;
     }
 
 }

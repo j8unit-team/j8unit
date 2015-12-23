@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.DataBufferUShort class java.awt.image.DataBufferUShort}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.DataBufferUShort class java.awt.image.DataBufferUShort}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.image.DataBufferUShortTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.DataBufferUShortClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.DataBufferUShortClassTests
+ *
+ * @j8unit.aim java.awt.image.DataBufferUShort
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.DataBufferUShort#getBankData() public short[][]
      * java.awt.image.DataBufferUShort.getBankData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#getBankData()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.DataBufferUShort#getData() public short[]
      * java.awt.image.DataBufferUShort.getData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#getData()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.DataBufferUShort#getData(int) public short[]
      * java.awt.image.DataBufferUShort.getData(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#getData(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.DataBufferUShort#getElem(int) public int
      * java.awt.image.DataBufferUShort.getElem(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#getElem(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,9 +118,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#getElem(int,int) public int
+     * Test method for {@link java.awt.image.DataBufferUShort#getElem(int, int) public int
      * java.awt.image.DataBufferUShort.getElem(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#getElem(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,9 +141,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#setElem(int,int) public void
+     * Test method for {@link java.awt.image.DataBufferUShort#setElem(int, int) public void
      * java.awt.image.DataBufferUShort.setElem(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#setElem(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,9 +164,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#setElem(int,int,int) public void
+     * Test method for {@link java.awt.image.DataBufferUShort#setElem(int, int, int) public void
      * java.awt.image.DataBufferUShort.setElem(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.DataBufferUShort#setElem(int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.activation.MimeTypeParseException class javax.activation.MimeTypeParseException},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.activation.MimeTypeParseException class
+ * javax.activation.MimeTypeParseException}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.activation.MimeTypeParseExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.activation.MimeTypeParseExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.activation.MimeTypeParseExceptionClassTests
+ *
+ * @j8unit.aim javax.activation.MimeTypeParseException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

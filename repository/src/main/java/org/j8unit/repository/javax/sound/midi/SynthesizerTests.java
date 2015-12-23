@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.sound.midi.Synthesizer interface javax.sound.midi.Synthesizer}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.sound.midi.Synthesizer interface javax.sound.midi.Synthesizer},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.sound.midi.SynthesizerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.sound.midi.SynthesizerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.sound.midi.SynthesizerClassTests
+ *
+ * @j8unit.aim javax.sound.midi.Synthesizer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getAvailableInstruments() public abstract
      * javax.sound.midi.Instrument[] javax.sound.midi.Synthesizer.getAvailableInstruments()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getAvailableInstruments()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getChannels() public abstract javax.sound.midi.MidiChannel[]
      * javax.sound.midi.Synthesizer.getChannels()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getChannels()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getDefaultSoundbank() public abstract
      * javax.sound.midi.Soundbank javax.sound.midi.Synthesizer.getDefaultSoundbank()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getDefaultSoundbank()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getLatency() public abstract long
      * javax.sound.midi.Synthesizer.getLatency()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getLatency()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getLoadedInstruments() public abstract
      * javax.sound.midi.Instrument[] javax.sound.midi.Synthesizer.getLoadedInstruments()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getLoadedInstruments()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getMaxPolyphony() public abstract int
      * javax.sound.midi.Synthesizer.getMaxPolyphony()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getMaxPolyphony()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getVoiceStatus() public abstract
      * javax.sound.midi.VoiceStatus[] javax.sound.midi.Synthesizer.getVoiceStatus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#getVoiceStatus()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#isSoundbankSupported(javax.sound.midi.Soundbank) public
      * abstract boolean javax.sound.midi.Synthesizer.isSoundbankSupported(javax.sound.midi.Soundbank)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#isSoundbankSupported(javax.sound.midi.Soundbank)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#loadAllInstruments(javax.sound.midi.Soundbank) public
      * abstract boolean javax.sound.midi.Synthesizer.loadAllInstruments(javax.sound.midi.Soundbank)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#loadAllInstruments(javax.sound.midi.Soundbank)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#loadInstrument(javax.sound.midi.Instrument) public abstract
      * boolean javax.sound.midi.Synthesizer.loadInstrument(javax.sound.midi.Instrument)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#loadInstrument(javax.sound.midi.Instrument)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -185,10 +250,16 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.sound.midi.Synthesizer#loadInstruments(javax.sound.midi.Soundbank,javax.sound.midi.Patch[]) public
+     * {@link javax.sound.midi.Synthesizer#loadInstruments(javax.sound.midi.Soundbank, javax.sound.midi.Patch[]) public
      * abstract boolean
      * javax.sound.midi.Synthesizer.loadInstruments(javax.sound.midi.Soundbank,javax.sound.midi.Patch[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#loadInstruments(javax.sound.midi.Soundbank, javax.sound.midi.Patch[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,10 +274,17 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.sound.midi.Synthesizer#remapInstrument(javax.sound.midi.Instrument,javax.sound.midi.Instrument)
+     * {@link javax.sound.midi.Synthesizer#remapInstrument(javax.sound.midi.Instrument, javax.sound.midi.Instrument)
      * public abstract boolean
      * javax.sound.midi.Synthesizer.remapInstrument(javax.sound.midi.Instrument,javax.sound.midi.Instrument)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#remapInstrument(javax.sound.midi.Instrument,
+     *             javax.sound.midi.Instrument)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,7 +300,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#unloadAllInstruments(javax.sound.midi.Soundbank) public
      * abstract void javax.sound.midi.Synthesizer.unloadAllInstruments(javax.sound.midi.Soundbank)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#unloadAllInstruments(javax.sound.midi.Soundbank)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -238,7 +322,13 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
      * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#unloadInstrument(javax.sound.midi.Instrument) public abstract
      * void javax.sound.midi.Synthesizer.unloadInstrument(javax.sound.midi.Instrument)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#unloadInstrument(javax.sound.midi.Instrument)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,10 +343,16 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.sound.midi.Synthesizer#unloadInstruments(javax.sound.midi.Soundbank,javax.sound.midi.Patch[]) public
-     * abstract void
+     * {@link javax.sound.midi.Synthesizer#unloadInstruments(javax.sound.midi.Soundbank, javax.sound.midi.Patch[])
+     * public abstract void
      * javax.sound.midi.Synthesizer.unloadInstruments(javax.sound.midi.Soundbank,javax.sound.midi.Patch[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.sound.midi.Synthesizer#unloadInstruments(javax.sound.midi.Soundbank, javax.sound.midi.Patch[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

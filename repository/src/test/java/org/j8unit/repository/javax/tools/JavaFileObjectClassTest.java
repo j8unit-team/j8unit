@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JavaFileObjectClassTest
 implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests<javax.tools.JavaFileObject> {
 
+    @Override
+    public Class<javax.tools.JavaFileObject> createNewSUT() {
+        return javax.tools.JavaFileObject.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class KindClassTest
     implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests.KindClassTests<javax.tools.JavaFileObject.Kind> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests<javax.tool
             return javax.tools.JavaFileObject.Kind.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.tools.JavaFileObject> createNewSUT() {
-        return javax.tools.JavaFileObject.class;
     }
 
 }

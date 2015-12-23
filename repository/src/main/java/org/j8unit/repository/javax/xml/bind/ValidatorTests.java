@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.xml.bind;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,26 +9,37 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.Validator interface javax.xml.bind.Validator}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.Validator interface javax.xml.bind.Validator},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.bind.ValidatorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.ValidatorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.ValidatorClassTests
+ *
+ * @j8unit.aim javax.xml.bind.Validator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValidatorTests<SUT extends javax.xml.bind.Validator>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link javax.xml.bind.Validator#getEventHandler() public abstract
      * javax.xml.bind.ValidationEventHandler javax.xml.bind.Validator.getEventHandler() throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Validator#getEventHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Validator#getProperty(java.lang.String) public abstract java.lang.Object
      * javax.xml.bind.Validator.getProperty(java.lang.String) throws javax.xml.bind.PropertyException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Validator#getProperty(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ extends J8UnitTest<SUT> {
      * Test method for {@link javax.xml.bind.Validator#setEventHandler(javax.xml.bind.ValidationEventHandler) public
      * abstract void javax.xml.bind.Validator.setEventHandler(javax.xml.bind.ValidationEventHandler) throws
      * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Validator#setEventHandler(javax.xml.bind.ValidationEventHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,10 +98,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Validator#setProperty(java.lang.String,java.lang.Object) public abstract
+     * Test method for {@link javax.xml.bind.Validator#setProperty(java.lang.String, java.lang.Object) public abstract
      * void javax.xml.bind.Validator.setProperty(java.lang.String,java.lang.Object) throws
      * javax.xml.bind.PropertyException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Validator#setProperty(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Validator#validate(java.lang.Object) public abstract boolean
      * javax.xml.bind.Validator.validate(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Validator#validate(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +145,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.xml.bind.Validator#validateRoot(java.lang.Object) public abstract boolean
      * javax.xml.bind.Validator.validateRoot(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.Validator#validateRoot(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

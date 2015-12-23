@@ -8,6 +8,45 @@ import org.junit.runner.RunWith;
 public class MetalIconFactoryTest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests<javax.swing.plaf.metal.MetalIconFactory> {
 
+    @Override
+    public javax.swing.plaf.metal.MetalIconFactory createNewSUT() {
+        return new javax.swing.plaf.metal.MetalIconFactory();
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeLeafIconTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeLeafIconTests<javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon createNewSUT() {
+            return new javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon();
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeControlIconTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeControlIconTests<javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon] available.");
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeFolderIconTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeFolderIconTests<javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon> {
+
+        @Override
+        public javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon createNewSUT() {
+            return new javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon();
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class FileIcon16Test
     implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FileIcon16Tests<javax.swing.plaf.metal.MetalIconFactory.FileIcon16> {
@@ -40,45 +79,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests<ja
             return new javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon();
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeControlIconTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeControlIconTests<javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon] available.");
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeFolderIconTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeFolderIconTests<javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon createNewSUT() {
-            return new javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon();
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeLeafIconTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeLeafIconTests<javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon> {
-
-        @Override
-        public javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon createNewSUT() {
-            return new javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon();
-        }
-
-    }
-
-    @Override
-    public javax.swing.plaf.metal.MetalIconFactory createNewSUT() {
-        return new javax.swing.plaf.metal.MetalIconFactory();
     }
 
 }

@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class JTableTest
 implements org.j8unit.repository.javax.swing.JTableTests<javax.swing.JTable> {
 
+    @Override
+    public javax.swing.JTable createNewSUT() {
+        return new javax.swing.JTable();
+    }
+
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.JTableTests.DropLocationTests<javax.swing.JTable.DropLocation> {
@@ -43,11 +48,6 @@ implements org.j8unit.repository.javax.swing.JTableTests<javax.swing.JTable> {
             return this.sut;
         }
 
-    }
-
-    @Override
-    public javax.swing.JTable createNewSUT() {
-        return new javax.swing.JTable();
     }
 
 }

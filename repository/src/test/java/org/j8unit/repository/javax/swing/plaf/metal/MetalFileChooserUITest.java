@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class MetalFileChooserUITest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests<javax.swing.plaf.metal.MetalFileChooserUI> {
 
+    @Override
+    public javax.swing.plaf.metal.MetalFileChooserUI createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalFileChooserUI] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class FilterComboBoxRendererTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests<
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.metal.MetalFileChooserUI createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalFileChooserUI] available.");
     }
 
 }

@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class ThreadClassTest
 implements org.j8unit.repository.java.lang.ThreadClassTests<java.lang.Thread> {
 
-    @RunWith(J8Unit4.class)
-    public static class StateClassTest
-    implements org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests<java.lang.Thread.State> {
-
-        @Override
-        public Class<java.lang.Thread.State> createNewSUT() {
-            return java.lang.Thread.State.class;
-        }
-
+    @Override
+    public Class<java.lang.Thread> createNewSUT() {
+        return java.lang.Thread.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<java.lang.Thread> {
 
     }
 
-    @Override
-    public Class<java.lang.Thread> createNewSUT() {
-        return java.lang.Thread.class;
+    @RunWith(J8Unit4.class)
+    public static class StateClassTest
+    implements org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests<java.lang.Thread.State> {
+
+        @Override
+        public Class<java.lang.Thread.State> createNewSUT() {
+            return java.lang.Thread.State.class;
+        }
+
     }
 
 }

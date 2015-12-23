@@ -7,6 +7,47 @@ import org.junit.runner.RunWith;
 public class MetalIconFactoryClassTest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests<javax.swing.plaf.metal.MetalIconFactory> {
 
+    @Override
+    public Class<javax.swing.plaf.metal.MetalIconFactory> createNewSUT() {
+        return javax.swing.plaf.metal.MetalIconFactory.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeLeafIconClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeLeafIconClassTests<javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon> {
+
+        @Override
+        public Class<javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon> createNewSUT() {
+            return javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeControlIconClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeControlIconClassTests<javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon> {
+
+        @Override
+        public Class<javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon> createNewSUT() {
+            return javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeFolderIconClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeFolderIconClassTests<javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon> {
+
+        @Override
+        public Class<javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon> createNewSUT() {
+            return javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class FileIcon16ClassTest
     implements
@@ -41,47 +82,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
             return javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeControlIconClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeControlIconClassTests<javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon> {
-
-        @Override
-        public Class<javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon> createNewSUT() {
-            return javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeFolderIconClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeFolderIconClassTests<javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon> {
-
-        @Override
-        public Class<javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon> createNewSUT() {
-            return javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeLeafIconClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeLeafIconClassTests<javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon> {
-
-        @Override
-        public Class<javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon> createNewSUT() {
-            return javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon.class;
-        }
-
-    }
-
-    @Override
-    public Class<javax.swing.plaf.metal.MetalIconFactory> createNewSUT() {
-        return javax.swing.plaf.metal.MetalIconFactory.class;
     }
 
 }

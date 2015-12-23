@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicScrollBarUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests<javax.swing.plaf.basic.BasicScrollBarUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicScrollBarUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicScrollBarUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests<ja
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicScrollBarUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicScrollBarUI();
     }
 
 }

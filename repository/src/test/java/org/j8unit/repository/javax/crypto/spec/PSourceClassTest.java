@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class PSourceClassTest
 implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<javax.crypto.spec.PSource> {
 
+    @Override
+    public Class<javax.crypto.spec.PSource> createNewSUT() {
+        return javax.crypto.spec.PSource.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class PSpecifiedClassTest
     implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests.PSpecifiedClassTests<javax.crypto.spec.PSource.PSpecified> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<javax.crypt
             return javax.crypto.spec.PSource.PSpecified.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.crypto.spec.PSource> createNewSUT() {
-        return javax.crypto.spec.PSource.class;
     }
 
 }

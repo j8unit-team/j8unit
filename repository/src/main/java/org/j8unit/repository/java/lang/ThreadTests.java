@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.lang;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,14 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.lang.Thread class java.lang.Thread}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.lang.Thread class java.lang.Thread}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.java.lang.ThreadTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.lang.ThreadClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.lang.ThreadClassTests
+ *
+ * @j8unit.aim java.lang.Thread
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,14 +29,19 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test class for {@link java.lang.Thread$State class java.lang.Thread$State}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.lang.Thread.State class java.lang.Thread$State}, containing
+     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart
+     * J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.lang.ThreadTests.StateTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests
+     *
+     * @j8unit.aim java.lang.Thread.State
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,28 +52,39 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test class for {@link java.lang.Thread$UncaughtExceptionHandler interface
+     * Reusable J8Unit test interface for {@linkplain java.lang.Thread.UncaughtExceptionHandler interface
      * java.lang.Thread$UncaughtExceptionHandler}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests
+     *
+     * @j8unit.aim java.lang.Thread.UncaughtExceptionHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UncaughtExceptionHandlerTests<SUT extends java.lang.Thread.UncaughtExceptionHandler>
-    extends J8UnitTest<SUT> {
+    extends RepositoryTests<SUT> {
 
         /**
          * <p>
          * Test method for
-         * {@link java.lang.Thread.UncaughtExceptionHandler#uncaughtException(java.lang.Thread,java.lang.Throwable)
+         * {@link java.lang.Thread.UncaughtExceptionHandler#uncaughtException(java.lang.Thread, java.lang.Throwable)
          * public abstract void
          * java.lang.Thread$UncaughtExceptionHandler.uncaughtException(java.lang.Thread,java.lang.Throwable)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.lang.Thread.UncaughtExceptionHandler#uncaughtException(java.lang.Thread,
+         *             java.lang.Throwable)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -81,7 +101,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#checkAccess() public final void java.lang.Thread.checkAccess()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#checkAccess()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,7 +123,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#countStackFrames() public native int java.lang.Thread.countStackFrames()}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#countStackFrames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +144,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#destroy() public void java.lang.Thread.destroy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#destroy()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +166,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#getContextClassLoader() public java.lang.ClassLoader
      * java.lang.Thread.getContextClassLoader()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getContextClassLoader()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +187,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#getId() public long java.lang.Thread.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -158,7 +208,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#getName() public final java.lang.String java.lang.Thread.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,7 +229,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#getPriority() public final int java.lang.Thread.getPriority()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getPriority()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,7 +251,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#getStackTrace() public java.lang.StackTraceElement[]
      * java.lang.Thread.getStackTrace()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getStackTrace()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -204,7 +272,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#getState() public java.lang.Thread$State java.lang.Thread.getState()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getState()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,7 +294,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#getThreadGroup() public final java.lang.ThreadGroup
      * java.lang.Thread.getThreadGroup()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getThreadGroup()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,7 +316,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#getUncaughtExceptionHandler() public
      * java.lang.Thread$UncaughtExceptionHandler java.lang.Thread.getUncaughtExceptionHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#getUncaughtExceptionHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -251,7 +337,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#interrupt() public void java.lang.Thread.interrupt()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#interrupt()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -266,7 +358,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#isAlive() public final native boolean java.lang.Thread.isAlive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#isAlive()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -281,7 +379,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#isDaemon() public final boolean java.lang.Thread.isDaemon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#isDaemon()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -296,7 +400,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#isInterrupted() public boolean java.lang.Thread.isInterrupted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#isInterrupted()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -312,7 +422,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#join() public final void java.lang.Thread.join() throws
      * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#join()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,7 +444,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#join(long) public final synchronized void java.lang.Thread.join(long)
      * throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#join(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -342,9 +464,15 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#join(long,int) public final synchronized void
+     * Test method for {@link java.lang.Thread#join(long, int) public final synchronized void
      * java.lang.Thread.join(long,int) throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#join(long, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,7 +487,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#resume() public final void java.lang.Thread.resume()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#resume()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,7 +508,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#run() public void java.lang.Thread.run()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#run()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,7 +531,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#setContextClassLoader(java.lang.ClassLoader) public void
      * java.lang.Thread.setContextClassLoader(java.lang.ClassLoader)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#setContextClassLoader(java.lang.ClassLoader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -407,7 +553,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#setDaemon(boolean) public final void java.lang.Thread.setDaemon(boolean)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#setDaemon(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -423,7 +575,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#setName(java.lang.String) public final synchronized void
      * java.lang.Thread.setName(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#setName(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -438,7 +596,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#setPriority(int) public final void java.lang.Thread.setPriority(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#setPriority(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -454,7 +618,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler)
      * public void java.lang.Thread.setUncaughtExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -469,7 +639,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#start() public synchronized void java.lang.Thread.start()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#start()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -484,7 +660,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#stop() public final void java.lang.Thread.stop()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#stop()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -500,7 +682,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * Test method for {@link java.lang.Thread#stop(java.lang.Throwable) public final synchronized void
      * java.lang.Thread.stop(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#stop(java.lang.Throwable)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -515,7 +703,13 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#suspend() public final void java.lang.Thread.suspend()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#suspend()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -530,11 +724,18 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for {@link java.lang.Thread#toString() public java.lang.String java.lang.Thread.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.Thread#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

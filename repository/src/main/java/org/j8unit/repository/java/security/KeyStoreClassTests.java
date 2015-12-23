@@ -1,7 +1,7 @@
 package org.j8unit.repository.java.security;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -10,9 +10,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.security.KeyStore class java.security.KeyStore}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.security.KeyStore class java.security.KeyStore}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.security.KeyStoreTests}.
  * </p>
  *
@@ -20,17 +20,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.security.KeyStoreTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.security.KeyStoreTests
+ *
+ * @j8unit.aim java.security.KeyStore
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -39,9 +42,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$Builder class java.security.KeyStore$Builder}, containing all class
-     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
-     * methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.Builder class
+     * java.security.KeyStore$Builder}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.BuilderTests}.
      * </p>
      *
@@ -49,7 +53,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +61,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.BuilderTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.BuilderTests
+     *
+     * @j8unit.aim java.security.KeyStore.Builder
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -70,11 +77,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.security.KeyStore.Builder#newInstance(java.security.KeyStore,java.security.KeyStore.ProtectionParameter)
+         * {@link java.security.KeyStore.Builder#newInstance(java.security.KeyStore, java.security.KeyStore.ProtectionParameter)
          * public static java.security.KeyStore$Builder
          * java.security.KeyStore$Builder.newInstance(java.security.KeyStore,java.security.KeyStore$ProtectionParameter)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.Builder#newInstance(java.security.KeyStore,
+         *             java.security.KeyStore.ProtectionParameter)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -89,11 +103,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.security.KeyStore.Builder#newInstance(java.lang.String,java.security.Provider,java.io.File,java.security.KeyStore.ProtectionParameter)
+         * {@link java.security.KeyStore.Builder#newInstance(java.lang.String, java.security.Provider, java.io.File, java.security.KeyStore.ProtectionParameter)
          * public static java.security.KeyStore$Builder
          * java.security.KeyStore$Builder.newInstance(java.lang.String,java.security.Provider,java.io.File,java.security.KeyStore$ProtectionParameter)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.Builder#newInstance(java.lang.String, java.security.Provider,
+         *             java.io.File, java.security.KeyStore.ProtectionParameter)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -108,11 +129,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link java.security.KeyStore.Builder#newInstance(java.lang.String,java.security.Provider,java.security.KeyStore.ProtectionParameter)
+         * {@link java.security.KeyStore.Builder#newInstance(java.lang.String, java.security.Provider, java.security.KeyStore.ProtectionParameter)
          * public static java.security.KeyStore$Builder
          * java.security.KeyStore$Builder.newInstance(java.lang.String,java.security.Provider,java.security.KeyStore$ProtectionParameter)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.Builder#newInstance(java.lang.String, java.security.Provider,
+         *             java.security.KeyStore.ProtectionParameter)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -124,6 +152,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.Builder#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -138,10 +171,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$CallbackHandlerProtection class
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.CallbackHandlerProtection class
      * java.security.KeyStore$CallbackHandlerProtection}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests}.
      * </p>
      *
@@ -149,7 +182,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -157,10 +190,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests
+     *
+     * @j8unit.aim java.security.KeyStore.CallbackHandlerProtection
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -168,9 +204,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link java.security.KeyStore.CallbackHandlerProtection#CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler)
          * public java.security.KeyStore$CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.CallbackHandlerProtection#CallbackHandlerProtection(javax.security.auth.
+         *             callback.CallbackHandler)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -183,6 +228,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                                                // CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.CallbackHandlerProtection#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -197,9 +247,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$Entry interface java.security.KeyStore$Entry}, containing all class
-     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
-     * methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.Entry interface
+     * java.security.KeyStore$Entry}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.EntryTests}.
      * </p>
      *
@@ -207,7 +258,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -215,22 +266,25 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.EntryTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.EntryTests
+     *
+     * @j8unit.aim java.security.KeyStore.Entry
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends java.security.KeyStore.Entry>
-    extends J8UnitTest<Class<SUT>> {
+    extends RepositoryClassTests<SUT> {
 
         /**
          * <p>
-         * Test class for {@link java.security.KeyStore$Entry$Attribute interface
+         * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.Entry.Attribute interface
          * java.security.KeyStore$Entry$Attribute}, containing all class relevant test methods (at least the test
-         * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-         * containing the instance relevant test methods is
+         * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+         * interface containing the instance relevant test methods is
          * {@link org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests}.
          * </p>
          *
@@ -238,24 +292,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
          * In addition, there may be assertions concerning the class itself. For example,
          * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
          * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides a corresponding, inheritable test method:
          * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
          * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
          * runtime constraints and further class specific requirements.
          * </p>
          *
+         * @see org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests
+         *
          * @param SUT
          *            the class' type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests
+         *
+         * @j8unit.aim java.security.KeyStore.Entry.Attribute
          */
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface AttributeClassTests<SUT extends java.security.KeyStore.Entry.Attribute>
-        extends J8UnitTest<Class<SUT>> {
+        extends RepositoryClassTests<SUT> {
 
+            /**
+             * @since 0.9.2
+             *
+             * @j8unit.aim java.security.KeyStore.Entry.Attribute#isAssignableFrom(java.lang.Class)
+             */
             @Test
             public default void testBaseTypeIsAssignableFromCurrentType()
             throws Exception {
@@ -267,6 +329,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.Entry#isAssignableFrom(java.lang.Class)
+         */
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
@@ -280,10 +347,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$LoadStoreParameter interface
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.LoadStoreParameter interface
      * java.security.KeyStore$LoadStoreParameter}, containing all class relevant test methods (at least the test methods
-     * of accessible constructors and of accessible {@code static} methods). The counterpart test class containing the
-     * instance relevant test methods is
+     * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests}.
      * </p>
      *
@@ -291,7 +358,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -299,16 +366,24 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests
+     *
+     * @j8unit.aim java.security.KeyStore.LoadStoreParameter
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LoadStoreParameterClassTests<SUT extends java.security.KeyStore.LoadStoreParameter>
-    extends J8UnitTest<Class<SUT>> {
+    extends RepositoryClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.LoadStoreParameter#isAssignableFrom(java.lang.Class)
+         */
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
@@ -322,9 +397,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$PasswordProtection class java.security.KeyStore$PasswordProtection},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.PasswordProtection class
+     * java.security.KeyStore$PasswordProtection}, containing all class relevant test methods (at least the test methods
+     * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests}.
      * </p>
      *
@@ -332,7 +408,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -340,10 +416,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests
+     *
+     * @j8unit.aim java.security.KeyStore.PasswordProtection
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -352,8 +431,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     org.j8unit.repository.javax.security.auth.DestroyableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for {@link java.security.KeyStore.PasswordProtection#PasswordProtection(char[]) public
          * java.security.KeyStore$PasswordProtection(char[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.PasswordProtection#PasswordProtection(char[])
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -366,11 +453,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link java.security.KeyStore.PasswordProtection#PasswordProtection(char[],java.lang.String,java.security.spec.AlgorithmParameterSpec)
+         * {@link java.security.KeyStore.PasswordProtection#PasswordProtection(char[], java.lang.String, java.security.spec.AlgorithmParameterSpec)
          * public
          * java.security.KeyStore$PasswordProtection(char[],java.lang.String,java.security.spec.AlgorithmParameterSpec)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.PasswordProtection#PasswordProtection(char[], java.lang.String,
+         *             java.security.spec.AlgorithmParameterSpec)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -379,10 +475,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.security.KeyStore.PasswordProtection sut = null; // = new
-                                                                        // PasswordProtection(char[],java.lang.String,java.security.spec.AlgorithmParameterSpec);
+            final java.security.KeyStore.PasswordProtection sut = null; // = new PasswordProtection(char[],
+                                                                        // java.lang.String,
+                                                                        // java.security.spec.AlgorithmParameterSpec);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.PasswordProtection#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -397,9 +499,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$PrivateKeyEntry class java.security.KeyStore$PrivateKeyEntry},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.PrivateKeyEntry class
+     * java.security.KeyStore$PrivateKeyEntry}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests}.
      * </p>
      *
@@ -407,7 +510,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -415,10 +518,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests
+     *
+     * @j8unit.aim java.security.KeyStore.PrivateKeyEntry
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -426,9 +532,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[])
+         * {@link java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey, java.security.cert.Certificate[])
          * public java.security.KeyStore$PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey,
+         *             java.security.cert.Certificate[])
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -437,16 +552,25 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.security.KeyStore.PrivateKeyEntry sut = null; // = new
-                                                                     // PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[]);
+            final java.security.KeyStore.PrivateKeyEntry sut = null; // = new PrivateKeyEntry(java.security.PrivateKey,
+                                                                     // java.security.cert.Certificate[]);
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[],java.util.Set)
+         * {@link java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey, java.security.cert.Certificate[], java.util.Set)
          * public
          * java.security.KeyStore$PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[],java.util.Set)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey,
+         *             java.security.cert.Certificate[], java.util.Set)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -455,10 +579,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.security.KeyStore.PrivateKeyEntry sut = null; // = new
-                                                                     // PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[],java.util.Set);
+            final java.security.KeyStore.PrivateKeyEntry sut = null; // = new PrivateKeyEntry(java.security.PrivateKey,
+                                                                     // java.security.cert.Certificate[],
+                                                                     // java.util.Set);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.PrivateKeyEntry#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -473,10 +603,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$ProtectionParameter interface
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.ProtectionParameter interface
      * java.security.KeyStore$ProtectionParameter}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests}.
      * </p>
      *
@@ -484,7 +614,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -492,16 +622,24 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests
+     *
+     * @j8unit.aim java.security.KeyStore.ProtectionParameter
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ProtectionParameterClassTests<SUT extends java.security.KeyStore.ProtectionParameter>
-    extends J8UnitTest<Class<SUT>> {
+    extends RepositoryClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.ProtectionParameter#isAssignableFrom(java.lang.Class)
+         */
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
@@ -515,9 +653,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$SecretKeyEntry class java.security.KeyStore$SecretKeyEntry},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.SecretKeyEntry class
+     * java.security.KeyStore$SecretKeyEntry}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests}.
      * </p>
      *
@@ -525,7 +664,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -533,10 +672,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests
+     *
+     * @j8unit.aim java.security.KeyStore.SecretKeyEntry
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -544,8 +686,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for {@link java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey) public
          * java.security.KeyStore$SecretKeyEntry(javax.crypto.SecretKey)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -558,9 +708,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey,java.util.Set) public
+         * {@link java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey, java.util.Set) public
          * java.security.KeyStore$SecretKeyEntry(javax.crypto.SecretKey,java.util.Set)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey, java.util.Set)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -569,10 +727,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.security.KeyStore.SecretKeyEntry sut = null; // = new
-                                                                    // SecretKeyEntry(javax.crypto.SecretKey,java.util.Set);
+            final java.security.KeyStore.SecretKeyEntry sut = null; // = new SecretKeyEntry(javax.crypto.SecretKey,
+                                                                    // java.util.Set);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.SecretKeyEntry#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -587,10 +750,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.KeyStore$TrustedCertificateEntry class
+     * Reusable J8Unit test interface for {@linkplain java.security.KeyStore.TrustedCertificateEntry class
      * java.security.KeyStore$TrustedCertificateEntry}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests}.
      * </p>
      *
@@ -598,7 +761,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -606,10 +769,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests
+     *
+     * @j8unit.aim java.security.KeyStore.TrustedCertificateEntry
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -617,9 +783,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.Certificate)
          * public java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.
+         *             Certificate)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -633,9 +808,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         }
 
         /**
+         * <p>
          * Test method for
-         * {@link java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.Certificate,java.util.Set)
+         * {@link java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.Certificate, java.util.Set)
          * public java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate,java.util.Set)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.
+         *             Certificate, java.util.Set)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -645,9 +829,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final java.security.KeyStore.TrustedCertificateEntry sut = null; // = new
-                                                                             // TrustedCertificateEntry(java.security.cert.Certificate,java.util.Set);
+                                                                             // TrustedCertificateEntry(java.security.cert.Certificate,
+                                                                             // java.util.Set);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.security.KeyStore.TrustedCertificateEntry#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -664,7 +854,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.security.KeyStore#getDefaultType() public static final java.lang.String
      * java.security.KeyStore.getDefaultType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.KeyStore#getDefaultType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -680,7 +876,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.security.KeyStore#getInstance(java.lang.String) public static java.security.KeyStore
      * java.security.KeyStore.getInstance(java.lang.String) throws java.security.KeyStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.KeyStore#getInstance(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -694,10 +896,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.KeyStore#getInstance(java.lang.String,java.security.Provider) public static
+     * Test method for {@link java.security.KeyStore#getInstance(java.lang.String, java.security.Provider) public static
      * java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.KeyStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.KeyStore#getInstance(java.lang.String, java.security.Provider)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -711,10 +919,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.KeyStore#getInstance(java.lang.String,java.lang.String) public static
+     * Test method for {@link java.security.KeyStore#getInstance(java.lang.String, java.lang.String) public static
      * java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String,java.lang.String) throws
      * java.security.KeyStoreException,java.security.NoSuchProviderException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.security.KeyStore#getInstance(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -726,6 +940,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.security.KeyStore#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

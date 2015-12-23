@@ -14,24 +14,9 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class DialogTest
 implements org.j8unit.repository.java.awt.DialogTests<java.awt.Dialog> {
 
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class ModalExclusionTypeTest
-    implements org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests<java.awt.Dialog.ModalExclusionType> {
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(java.awt.Dialog.ModalExclusionType.class);
-        }
-
-        @Parameter(0)
-        public java.awt.Dialog.ModalExclusionType sut;
-
-        @Override
-        public java.awt.Dialog.ModalExclusionType createNewSUT() {
-            return this.sut;
-        }
-
+    @Override
+    public java.awt.Dialog createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.Dialog] available.");
     }
 
     @RunWith(J8Parameterized.class)
@@ -54,9 +39,24 @@ implements org.j8unit.repository.java.awt.DialogTests<java.awt.Dialog> {
 
     }
 
-    @Override
-    public java.awt.Dialog createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.awt.Dialog] available.");
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class ModalExclusionTypeTest
+    implements org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests<java.awt.Dialog.ModalExclusionType> {
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return testParametersOfEnumClass(java.awt.Dialog.ModalExclusionType.class);
+        }
+
+        @Parameter(0)
+        public java.awt.Dialog.ModalExclusionType sut;
+
+        @Override
+        public java.awt.Dialog.ModalExclusionType createNewSUT() {
+            return this.sut;
+        }
+
     }
 
 }

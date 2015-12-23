@@ -7,26 +7,9 @@ import org.junit.runner.RunWith;
 public class UIDefaultsClassTest
 implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<javax.swing.UIDefaults> {
 
-    @RunWith(J8Unit4.class)
-    public static class ActiveValueClassTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests<javax.swing.UIDefaults.ActiveValue> {
-
-        @Override
-        public Class<javax.swing.UIDefaults.ActiveValue> createNewSUT() {
-            return javax.swing.UIDefaults.ActiveValue.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class LazyInputMapClassTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests<javax.swing.UIDefaults.LazyInputMap> {
-
-        @Override
-        public Class<javax.swing.UIDefaults.LazyInputMap> createNewSUT() {
-            return javax.swing.UIDefaults.LazyInputMap.class;
-        }
-
+    @Override
+    public Class<javax.swing.UIDefaults> createNewSUT() {
+        return javax.swing.UIDefaults.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -51,9 +34,26 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<javax.swing.UI
 
     }
 
-    @Override
-    public Class<javax.swing.UIDefaults> createNewSUT() {
-        return javax.swing.UIDefaults.class;
+    @RunWith(J8Unit4.class)
+    public static class ActiveValueClassTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests<javax.swing.UIDefaults.ActiveValue> {
+
+        @Override
+        public Class<javax.swing.UIDefaults.ActiveValue> createNewSUT() {
+            return javax.swing.UIDefaults.ActiveValue.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class LazyInputMapClassTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests<javax.swing.UIDefaults.LazyInputMap> {
+
+        @Override
+        public Class<javax.swing.UIDefaults.LazyInputMap> createNewSUT() {
+            return javax.swing.UIDefaults.LazyInputMap.class;
+        }
+
     }
 
 }

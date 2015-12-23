@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.tree.DefaultTreeCellEditor class javax.swing.tree.DefaultTreeCellEditor},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.tree.DefaultTreeCellEditor class
+ * javax.swing.tree.DefaultTreeCellEditor}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests
+ *
+ * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,15 +30,20 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test class for {@link javax.swing.tree.DefaultTreeCellEditor$DefaultTextField class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.tree.DefaultTreeCellEditor.DefaultTextField class
      * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.DefaultTextField
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -44,7 +54,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#getBorder() public
          * javax.swing.border.Border javax.swing.tree.DefaultTreeCellEditor$DefaultTextField.getBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#getBorder()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -61,7 +77,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#getFont() public java.awt.Font
          * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField.getFont()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#getFont()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -78,7 +100,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#getPreferredSize() public
          * java.awt.Dimension javax.swing.tree.DefaultTreeCellEditor$DefaultTextField.getPreferredSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#getPreferredSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -96,7 +124,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * Test method for
          * {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#setBorder(javax.swing.border.Border) public
          * void javax.swing.tree.DefaultTreeCellEditor$DefaultTextField.setBorder(javax.swing.border.Border)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#setBorder(javax.swing.border.Border)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -113,15 +147,20 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test class for {@link javax.swing.tree.DefaultTreeCellEditor$EditorContainer class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.tree.DefaultTreeCellEditor.EditorContainer class
      * javax.swing.tree.DefaultTreeCellEditor$EditorContainer}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.EditorContainer
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -132,7 +171,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.EditorContainer#doLayout() public void
          * javax.swing.tree.DefaultTreeCellEditor$EditorContainer.doLayout()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.EditorContainer#doLayout()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -149,7 +194,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.EditorContainer#EditorContainer() public void
          * javax.swing.tree.DefaultTreeCellEditor$EditorContainer.EditorContainer()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.EditorContainer#EditorContainer()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -165,7 +216,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.EditorContainer#getPreferredSize() public
          * java.awt.Dimension javax.swing.tree.DefaultTreeCellEditor$EditorContainer.getPreferredSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.EditorContainer#getPreferredSize()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -182,7 +239,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
          * <p>
          * Test method for {@link javax.swing.tree.DefaultTreeCellEditor.EditorContainer#paint(java.awt.Graphics) public
          * void javax.swing.tree.DefaultTreeCellEditor$EditorContainer.paint(java.awt.Graphics)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor.EditorContainer#paint(java.awt.Graphics)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -201,7 +264,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#actionPerformed(java.awt.event.ActionEvent) public
      * void javax.swing.tree.DefaultTreeCellEditor.actionPerformed(java.awt.event.ActionEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#actionPerformed(java.awt.event.ActionEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,7 +288,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * Test method for
      * {@link javax.swing.tree.DefaultTreeCellEditor#addCellEditorListener(javax.swing.event.CellEditorListener) public
      * void javax.swing.tree.DefaultTreeCellEditor.addCellEditorListener(javax.swing.event.CellEditorListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#addCellEditorListener(javax.swing.event.CellEditorListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,7 +311,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#cancelCellEditing() public void
      * javax.swing.tree.DefaultTreeCellEditor.cancelCellEditing()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#cancelCellEditing()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,7 +334,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#getBorderSelectionColor() public java.awt.Color
      * javax.swing.tree.DefaultTreeCellEditor.getBorderSelectionColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#getBorderSelectionColor()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,7 +356,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#getCellEditorListeners() public
      * javax.swing.event.CellEditorListener[] javax.swing.tree.DefaultTreeCellEditor.getCellEditorListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#getCellEditorListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -285,7 +378,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#getCellEditorValue() public java.lang.Object
      * javax.swing.tree.DefaultTreeCellEditor.getCellEditorValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#getCellEditorValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,7 +401,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#getFont() public java.awt.Font
      * javax.swing.tree.DefaultTreeCellEditor.getFont()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#getFont()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -317,11 +422,18 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.tree.DefaultTreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)
+     * {@link javax.swing.tree.DefaultTreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree, java.lang.Object, boolean, boolean, boolean, int)
      * public java.awt.Component
      * javax.swing.tree.DefaultTreeCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree,
+     *             java.lang.Object, boolean, boolean, boolean, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -338,7 +450,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#isCellEditable(java.util.EventObject) public
      * boolean javax.swing.tree.DefaultTreeCellEditor.isCellEditable(java.util.EventObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#isCellEditable(java.util.EventObject)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,7 +475,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * {@link javax.swing.tree.DefaultTreeCellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener)
      * public void
      * javax.swing.tree.DefaultTreeCellEditor.removeCellEditorListener(javax.swing.event.CellEditorListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,7 +498,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#setBorderSelectionColor(java.awt.Color) public void
      * javax.swing.tree.DefaultTreeCellEditor.setBorderSelectionColor(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#setBorderSelectionColor(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -390,7 +520,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#setFont(java.awt.Font) public void
      * javax.swing.tree.DefaultTreeCellEditor.setFont(java.awt.Font)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#setFont(java.awt.Font)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -406,7 +542,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#shouldSelectCell(java.util.EventObject) public
      * boolean javax.swing.tree.DefaultTreeCellEditor.shouldSelectCell(java.util.EventObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#shouldSelectCell(java.util.EventObject)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -423,7 +565,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#stopCellEditing() public boolean
      * javax.swing.tree.DefaultTreeCellEditor.stopCellEditing()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#stopCellEditing()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -440,7 +588,13 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * Test method for {@link javax.swing.tree.DefaultTreeCellEditor#valueChanged(javax.swing.event.TreeSelectionEvent)
      * public void javax.swing.tree.DefaultTreeCellEditor.valueChanged(javax.swing.event.TreeSelectionEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.tree.DefaultTreeCellEditor#valueChanged(javax.swing.event.TreeSelectionEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

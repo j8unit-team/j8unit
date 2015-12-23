@@ -8,6 +8,22 @@ import org.junit.runner.RunWith;
 public class StyleConstantsTest
 implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<javax.swing.text.StyleConstants> {
 
+    @Override
+    public javax.swing.text.StyleConstants createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants] available.");
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ParagraphConstantsTest
+    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests<javax.swing.text.StyleConstants.ParagraphConstants> {
+
+        @Override
+        public javax.swing.text.StyleConstants.ParagraphConstants createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.ParagraphConstants] available.");
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class CharacterConstantsTest
     implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests<javax.swing.text.StyleConstants.CharacterConstants> {
@@ -39,22 +55,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<javax.swin
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.FontConstants] available.");
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ParagraphConstantsTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests<javax.swing.text.StyleConstants.ParagraphConstants> {
-
-        @Override
-        public javax.swing.text.StyleConstants.ParagraphConstants createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants.ParagraphConstants] available.");
-        }
-
-    }
-
-    @Override
-    public javax.swing.text.StyleConstants createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.StyleConstants] available.");
     }
 
 }

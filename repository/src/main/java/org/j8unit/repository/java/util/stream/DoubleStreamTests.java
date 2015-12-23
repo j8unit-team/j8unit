@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.stream.DoubleStream interface java.util.stream.DoubleStream}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.stream.DoubleStream interface java.util.stream.DoubleStream}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.stream.DoubleStreamTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.stream.DoubleStreamClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.stream.DoubleStreamClassTests
+ *
+ * @j8unit.aim java.util.stream.DoubleStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,14 +29,19 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
 
     /**
      * <p>
-     * Test class for {@link java.util.stream.DoubleStream$Builder interface java.util.stream.DoubleStream$Builder},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.util.stream.DoubleStream.Builder interface
+     * java.util.stream.DoubleStream$Builder}, containing all instance relevant test methods (i.&thinsp;e., test methods
+     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
+     * is {@link org.j8unit.repository.java.util.stream.DoubleStreamTests.BuilderTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.util.stream.DoubleStreamClassTests.BuilderClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.stream.DoubleStreamClassTests.BuilderClassTests
+     *
+     * @j8unit.aim java.util.stream.DoubleStream.Builder
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
          * <p>
          * Test method for {@link java.util.stream.DoubleStream.Builder#accept(double) public abstract void
          * java.util.stream.DoubleStream$Builder.accept(double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.stream.DoubleStream.Builder#accept(double)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -59,7 +75,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
          * <p>
          * Test method for {@link java.util.stream.DoubleStream.Builder#add(double) public default
          * java.util.stream.DoubleStream$Builder java.util.stream.DoubleStream$Builder.add(double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.stream.DoubleStream.Builder#add(double)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -75,7 +97,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
          * <p>
          * Test method for {@link java.util.stream.DoubleStream.Builder#build() public abstract
          * java.util.stream.DoubleStream java.util.stream.DoubleStream$Builder.build()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim java.util.stream.DoubleStream.Builder#build()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -93,7 +121,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#allMatch(java.util.function.DoublePredicate) public abstract
      * boolean java.util.stream.DoubleStream.allMatch(java.util.function.DoublePredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#allMatch(java.util.function.DoublePredicate)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +143,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#anyMatch(java.util.function.DoublePredicate) public abstract
      * boolean java.util.stream.DoubleStream.anyMatch(java.util.function.DoublePredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#anyMatch(java.util.function.DoublePredicate)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +165,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#average() public abstract java.util.OptionalDouble
      * java.util.stream.DoubleStream.average()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#average()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,7 +187,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#boxed() public abstract java.util.stream.Stream
      * java.util.stream.DoubleStream.boxed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#boxed()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,11 +208,18 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
     /**
      * <p>
      * Test method for
-     * {@link java.util.stream.DoubleStream#collect(java.util.function.Supplier,java.util.function.ObjDoubleConsumer,java.util.function.BiConsumer)
+     * {@link java.util.stream.DoubleStream#collect(java.util.function.Supplier, java.util.function.ObjDoubleConsumer, java.util.function.BiConsumer)
      * public abstract java.lang.Object
      * java.util.stream.DoubleStream.collect(java.util.function.Supplier,java.util.function.ObjDoubleConsumer,java.util.function.BiConsumer)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#collect(java.util.function.Supplier,
+     *             java.util.function.ObjDoubleConsumer, java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +235,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#count() public abstract long
      * java.util.stream.DoubleStream.count()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#count()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,7 +257,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#distinct() public abstract java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.distinct()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#distinct()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,7 +279,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#filter(java.util.function.DoublePredicate) public abstract
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.filter(java.util.function.DoublePredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#filter(java.util.function.DoublePredicate)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,7 +301,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#findAny() public abstract java.util.OptionalDouble
      * java.util.stream.DoubleStream.findAny()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#findAny()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -240,7 +323,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#findFirst() public abstract java.util.OptionalDouble
      * java.util.stream.DoubleStream.findFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#findFirst()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -256,7 +345,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#flatMap(java.util.function.DoubleFunction) public abstract
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.flatMap(java.util.function.DoubleFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#flatMap(java.util.function.DoubleFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -272,7 +367,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#forEach(java.util.function.DoubleConsumer) public abstract
      * void java.util.stream.DoubleStream.forEach(java.util.function.DoubleConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#forEach(java.util.function.DoubleConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -288,7 +389,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#forEachOrdered(java.util.function.DoubleConsumer) public
      * abstract void java.util.stream.DoubleStream.forEachOrdered(java.util.function.DoubleConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#forEachOrdered(java.util.function.DoubleConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,7 +411,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#iterator() public abstract
      * java.util.PrimitiveIterator$OfDouble java.util.stream.DoubleStream.iterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#iterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -321,7 +434,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#limit(long) public abstract java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.limit(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#limit(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -337,7 +456,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#map(java.util.function.DoubleUnaryOperator) public abstract
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.map(java.util.function.DoubleUnaryOperator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#map(java.util.function.DoubleUnaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -354,7 +479,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * Test method for {@link java.util.stream.DoubleStream#mapToInt(java.util.function.DoubleToIntFunction) public
      * abstract java.util.stream.IntStream
      * java.util.stream.DoubleStream.mapToInt(java.util.function.DoubleToIntFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#mapToInt(java.util.function.DoubleToIntFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -371,7 +502,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * Test method for {@link java.util.stream.DoubleStream#mapToLong(java.util.function.DoubleToLongFunction) public
      * abstract java.util.stream.LongStream
      * java.util.stream.DoubleStream.mapToLong(java.util.function.DoubleToLongFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#mapToLong(java.util.function.DoubleToLongFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -387,7 +524,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#mapToObj(java.util.function.DoubleFunction) public abstract
      * java.util.stream.Stream java.util.stream.DoubleStream.mapToObj(java.util.function.DoubleFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#mapToObj(java.util.function.DoubleFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -403,7 +546,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#max() public abstract java.util.OptionalDouble
      * java.util.stream.DoubleStream.max()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#max()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -419,7 +568,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#min() public abstract java.util.OptionalDouble
      * java.util.stream.DoubleStream.min()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#min()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -435,7 +590,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#noneMatch(java.util.function.DoublePredicate) public
      * abstract boolean java.util.stream.DoubleStream.noneMatch(java.util.function.DoublePredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#noneMatch(java.util.function.DoublePredicate)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -451,7 +612,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#parallel() public abstract java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.parallel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#parallel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -468,7 +635,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#peek(java.util.function.DoubleConsumer) public abstract
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.peek(java.util.function.DoubleConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#peek(java.util.function.DoubleConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -482,9 +655,15 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
 
     /**
      * <p>
-     * Test method for {@link java.util.stream.DoubleStream#reduce(double,java.util.function.DoubleBinaryOperator)
+     * Test method for {@link java.util.stream.DoubleStream#reduce(double, java.util.function.DoubleBinaryOperator)
      * public abstract double java.util.stream.DoubleStream.reduce(double,java.util.function.DoubleBinaryOperator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#reduce(double, java.util.function.DoubleBinaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -500,7 +679,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#reduce(java.util.function.DoubleBinaryOperator) public
      * abstract java.util.OptionalDouble java.util.stream.DoubleStream.reduce(java.util.function.DoubleBinaryOperator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#reduce(java.util.function.DoubleBinaryOperator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -516,7 +701,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#sequential() public abstract java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.sequential()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#sequential()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -533,7 +724,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#skip(long) public abstract java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.skip(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#skip(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -549,7 +746,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#sorted() public abstract java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.sorted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#sorted()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -565,7 +768,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#spliterator() public abstract java.util.Spliterator$OfDouble
      * java.util.stream.DoubleStream.spliterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#spliterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -582,7 +791,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#sum() public abstract double
      * java.util.stream.DoubleStream.sum()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#sum()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -598,7 +813,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#summaryStatistics() public abstract
      * java.util.DoubleSummaryStatistics java.util.stream.DoubleStream.summaryStatistics()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#summaryStatistics()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -614,7 +835,13 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Do
      * <p>
      * Test method for {@link java.util.stream.DoubleStream#toArray() public abstract double[]
      * java.util.stream.DoubleStream.toArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.stream.DoubleStream#toArray()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

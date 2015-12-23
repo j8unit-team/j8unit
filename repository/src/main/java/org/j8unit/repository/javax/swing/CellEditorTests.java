@@ -1,6 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,25 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.CellEditor interface javax.swing.CellEditor}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.CellEditor interface javax.swing.CellEditor}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.CellEditorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.CellEditorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.CellEditorClassTests
+ *
+ * @j8unit.aim javax.swing.CellEditor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CellEditorTests<SUT extends javax.swing.CellEditor>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link javax.swing.CellEditor#addCellEditorListener(javax.swing.event.CellEditorListener) public
      * abstract void javax.swing.CellEditor.addCellEditorListener(javax.swing.event.CellEditorListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#addCellEditorListener(javax.swing.event.CellEditorListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.CellEditor#cancelCellEditing() public abstract void
      * javax.swing.CellEditor.cancelCellEditing()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#cancelCellEditing()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.CellEditor#getCellEditorValue() public abstract java.lang.Object
      * javax.swing.CellEditor.getCellEditorValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#getCellEditorValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.CellEditor#isCellEditable(java.util.EventObject) public abstract boolean
      * javax.swing.CellEditor.isCellEditable(java.util.EventObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#isCellEditable(java.util.EventObject)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.CellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener)
      * public abstract void javax.swing.CellEditor.removeCellEditorListener(javax.swing.event.CellEditorListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.CellEditor#shouldSelectCell(java.util.EventObject) public abstract boolean
      * javax.swing.CellEditor.shouldSelectCell(java.util.EventObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#shouldSelectCell(java.util.EventObject)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +164,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link javax.swing.CellEditor#stopCellEditing() public abstract boolean
      * javax.swing.CellEditor.stopCellEditing()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.CellEditor#stopCellEditing()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

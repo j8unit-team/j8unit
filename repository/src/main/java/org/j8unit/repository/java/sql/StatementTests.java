@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.sql.Statement interface java.sql.Statement}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.sql.Statement interface java.sql.Statement}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.sql.StatementTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.sql.StatementClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.sql.StatementClassTests
+ *
+ * @j8unit.aim java.sql.Statement
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +30,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#addBatch(java.lang.String) public abstract void
      * java.sql.Statement.addBatch(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#addBatch(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +52,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#cancel() public abstract void java.sql.Statement.cancel() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#cancel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +74,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#clearBatch() public abstract void java.sql.Statement.clearBatch()
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#clearBatch()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +96,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#clearWarnings() public abstract void java.sql.Statement.clearWarnings()
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#clearWarnings()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +118,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#close() public abstract void java.sql.Statement.close() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +141,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#closeOnCompletion() public abstract void
      * java.sql.Statement.closeOnCompletion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#closeOnCompletion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +163,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#execute(java.lang.String) public abstract boolean
      * java.sql.Statement.execute(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#execute(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,9 +183,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#execute(java.lang.String,int) public abstract boolean
+     * Test method for {@link java.sql.Statement#execute(java.lang.String, int) public abstract boolean
      * java.sql.Statement.execute(java.lang.String,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#execute(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,9 +205,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#execute(java.lang.String,int[]) public abstract boolean
+     * Test method for {@link java.sql.Statement#execute(java.lang.String, int[]) public abstract boolean
      * java.sql.Statement.execute(java.lang.String,int[]) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#execute(java.lang.String, int[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,9 +227,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#execute(java.lang.String,java.lang.String[]) public abstract boolean
+     * Test method for {@link java.sql.Statement#execute(java.lang.String, java.lang.String[]) public abstract boolean
      * java.sql.Statement.execute(java.lang.String,java.lang.String[]) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#execute(java.lang.String, java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,7 +251,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#executeBatch() public abstract int[] java.sql.Statement.executeBatch()
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeBatch()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,7 +273,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#executeLargeBatch() public default long[]
      * java.sql.Statement.executeLargeBatch() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeLargeBatch()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,7 +295,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String) public default long
      * java.sql.Statement.executeLargeUpdate(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeLargeUpdate(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -233,9 +315,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String,int) public default long
+     * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String, int) public default long
      * java.sql.Statement.executeLargeUpdate(java.lang.String,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeLargeUpdate(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,9 +337,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String,int[]) public default long
+     * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String, int[]) public default long
      * java.sql.Statement.executeLargeUpdate(java.lang.String,int[]) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeLargeUpdate(java.lang.String, int[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -265,9 +359,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String,java.lang.String[]) public default
+     * Test method for {@link java.sql.Statement#executeLargeUpdate(java.lang.String, java.lang.String[]) public default
      * long java.sql.Statement.executeLargeUpdate(java.lang.String,java.lang.String[]) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeLargeUpdate(java.lang.String, java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -283,7 +383,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#executeQuery(java.lang.String) public abstract java.sql.ResultSet
      * java.sql.Statement.executeQuery(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeQuery(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,7 +405,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String) public abstract int
      * java.sql.Statement.executeUpdate(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeUpdate(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,9 +425,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String,int) public abstract int
+     * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String, int) public abstract int
      * java.sql.Statement.executeUpdate(java.lang.String,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeUpdate(java.lang.String, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,9 +447,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String,int[]) public abstract int
+     * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String, int[]) public abstract int
      * java.sql.Statement.executeUpdate(java.lang.String,int[]) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeUpdate(java.lang.String, int[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,9 +469,15 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String,java.lang.String[]) public abstract int
+     * Test method for {@link java.sql.Statement#executeUpdate(java.lang.String, java.lang.String[]) public abstract int
      * java.sql.Statement.executeUpdate(java.lang.String,java.lang.String[]) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#executeUpdate(java.lang.String, java.lang.String[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,7 +493,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getConnection() public abstract java.sql.Connection
      * java.sql.Statement.getConnection() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getConnection()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -379,7 +515,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getFetchDirection() public abstract int
      * java.sql.Statement.getFetchDirection() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getFetchDirection()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -395,7 +537,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getFetchSize() public abstract int java.sql.Statement.getFetchSize()
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getFetchSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -411,7 +559,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getGeneratedKeys() public abstract java.sql.ResultSet
      * java.sql.Statement.getGeneratedKeys() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getGeneratedKeys()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -427,7 +581,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getLargeMaxRows() public default long
      * java.sql.Statement.getLargeMaxRows() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getLargeMaxRows()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -443,7 +603,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getLargeUpdateCount() public default long
      * java.sql.Statement.getLargeUpdateCount() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getLargeUpdateCount()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -459,7 +625,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getMaxFieldSize() public abstract int
      * java.sql.Statement.getMaxFieldSize() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getMaxFieldSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -475,7 +647,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getMaxRows() public abstract int java.sql.Statement.getMaxRows() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getMaxRows()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -491,7 +669,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getMoreResults() public abstract boolean
      * java.sql.Statement.getMoreResults() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getMoreResults()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -507,7 +691,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getMoreResults(int) public abstract boolean
      * java.sql.Statement.getMoreResults(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getMoreResults(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,7 +713,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getQueryTimeout() public abstract int
      * java.sql.Statement.getQueryTimeout() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getQueryTimeout()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -539,7 +735,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getResultSet() public abstract java.sql.ResultSet
      * java.sql.Statement.getResultSet() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getResultSet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -555,7 +757,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getResultSetConcurrency() public abstract int
      * java.sql.Statement.getResultSetConcurrency() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getResultSetConcurrency()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -571,7 +779,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getResultSetHoldability() public abstract int
      * java.sql.Statement.getResultSetHoldability() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getResultSetHoldability()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -587,7 +801,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getResultSetType() public abstract int
      * java.sql.Statement.getResultSetType() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getResultSetType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -603,7 +823,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getUpdateCount() public abstract int
      * java.sql.Statement.getUpdateCount() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getUpdateCount()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -619,7 +845,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#getWarnings() public abstract java.sql.SQLWarning
      * java.sql.Statement.getWarnings() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#getWarnings()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -635,7 +867,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#isClosed() public abstract boolean java.sql.Statement.isClosed() throws
      * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#isClosed()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -651,7 +889,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#isCloseOnCompletion() public abstract boolean
      * java.sql.Statement.isCloseOnCompletion() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#isCloseOnCompletion()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -667,7 +911,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#isPoolable() public abstract boolean java.sql.Statement.isPoolable()
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#isPoolable()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -683,7 +933,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setCursorName(java.lang.String) public abstract void
      * java.sql.Statement.setCursorName(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setCursorName(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -699,7 +955,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setEscapeProcessing(boolean) public abstract void
      * java.sql.Statement.setEscapeProcessing(boolean) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setEscapeProcessing(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -715,7 +977,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setFetchDirection(int) public abstract void
      * java.sql.Statement.setFetchDirection(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setFetchDirection(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -731,7 +999,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setFetchSize(int) public abstract void
      * java.sql.Statement.setFetchSize(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setFetchSize(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -747,7 +1021,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setLargeMaxRows(long) public default void
      * java.sql.Statement.setLargeMaxRows(long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setLargeMaxRows(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -763,7 +1043,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setMaxFieldSize(int) public abstract void
      * java.sql.Statement.setMaxFieldSize(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setMaxFieldSize(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -779,7 +1065,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setMaxRows(int) public abstract void java.sql.Statement.setMaxRows(int)
      * throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setMaxRows(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -795,7 +1087,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setPoolable(boolean) public abstract void
      * java.sql.Statement.setPoolable(boolean) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setPoolable(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -811,7 +1109,13 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
      * <p>
      * Test method for {@link java.sql.Statement#setQueryTimeout(int) public abstract void
      * java.sql.Statement.setQueryTimeout(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.sql.Statement#setQueryTimeout(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

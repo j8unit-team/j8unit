@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.remote.JMXServerErrorException class
+ * Reusable J8Unit test interface for {@linkplain javax.management.remote.JMXServerErrorException class
  * javax.management.remote.JMXServerErrorException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.remote.JMXServerErrorExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.remote.JMXServerErrorExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.remote.JMXServerErrorExceptionClassTests
+ *
+ * @j8unit.aim javax.management.remote.JMXServerErrorException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.management.remote.JMXServerErrorException#getCause() public java.lang.Throwable
      * javax.management.remote.JMXServerErrorException.getCause()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXServerErrorException#getCause()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

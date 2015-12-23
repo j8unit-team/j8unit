@@ -5,14 +5,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.text.Normalizer class java.text.Normalizer}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.text.Normalizer class java.text.Normalizer}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.text.NormalizerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.text.NormalizerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.text.NormalizerClassTests
+ *
+ * @j8unit.aim java.text.Normalizer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -21,14 +25,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.text.Normalizer$Form class java.text.Normalizer$Form}, containing all instance
-     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain java.text.Normalizer.Form class java.text.Normalizer$Form},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+     * counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.java.text.NormalizerTests.FormTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests
+     *
+     * @j8unit.aim java.text.Normalizer.Form
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ControlClassTest
 implements org.j8unit.repository.javax.sound.sampled.ControlClassTests<javax.sound.sampled.Control> {
 
+    @Override
+    public Class<javax.sound.sampled.Control> createNewSUT() {
+        return javax.sound.sampled.Control.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.ControlClassTests.TypeClassTests<javax.sound.sampled.Control.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.ControlClassTests<javax.sou
             return javax.sound.sampled.Control.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.Control> createNewSUT() {
-        return javax.sound.sampled.Control.class;
     }
 
 }

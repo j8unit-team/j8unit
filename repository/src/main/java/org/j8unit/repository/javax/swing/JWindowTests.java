@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JWindow class javax.swing.JWindow}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JWindow class javax.swing.JWindow}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.JWindowTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JWindowClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JWindowClassTests
+ *
+ * @j8unit.aim javax.swing.JWindow
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getAccessibleContext() public javax.accessibility.AccessibleContext
      * javax.swing.JWindow.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getContentPane() public java.awt.Container
      * javax.swing.JWindow.getContentPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getContentPane()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +77,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getGlassPane() public java.awt.Component
      * javax.swing.JWindow.getGlassPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getGlassPane()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +100,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getGraphics() public java.awt.Graphics
      * javax.swing.JWindow.getGraphics()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getGraphics()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +123,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getLayeredPane() public javax.swing.JLayeredPane
      * javax.swing.JWindow.getLayeredPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getLayeredPane()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +146,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getRootPane() public javax.swing.JRootPane
      * javax.swing.JWindow.getRootPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getRootPane()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,7 +169,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#getTransferHandler() public javax.swing.TransferHandler
      * javax.swing.JWindow.getTransferHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#getTransferHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,7 +191,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#remove(java.awt.Component) public void
      * javax.swing.JWindow.remove(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#remove(java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,9 +212,15 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#repaint(long,int,int,int,int) public void
+     * Test method for {@link javax.swing.JWindow#repaint(long, int, int, int, int) public void
      * javax.swing.JWindow.repaint(long,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#repaint(long, int, int, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -179,7 +237,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#setContentPane(java.awt.Container) public void
      * javax.swing.JWindow.setContentPane(java.awt.Container)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#setContentPane(java.awt.Container)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -196,7 +260,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#setGlassPane(java.awt.Component) public void
      * javax.swing.JWindow.setGlassPane(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#setGlassPane(java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,7 +283,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#setLayeredPane(javax.swing.JLayeredPane) public void
      * javax.swing.JWindow.setLayeredPane(javax.swing.JLayeredPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#setLayeredPane(javax.swing.JLayeredPane)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -230,7 +306,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#setLayout(java.awt.LayoutManager) public void
      * javax.swing.JWindow.setLayout(java.awt.LayoutManager)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#setLayout(java.awt.LayoutManager)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -247,7 +329,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#setTransferHandler(javax.swing.TransferHandler) public void
      * javax.swing.JWindow.setTransferHandler(javax.swing.TransferHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#setTransferHandler(javax.swing.TransferHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -263,7 +351,13 @@ org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JWindow#update(java.awt.Graphics) public void
      * javax.swing.JWindow.update(java.awt.Graphics)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JWindow#update(java.awt.Graphics)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

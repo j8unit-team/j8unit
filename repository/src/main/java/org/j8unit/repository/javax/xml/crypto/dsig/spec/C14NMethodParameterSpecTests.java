@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.crypto.dsig.spec.C14NMethodParameterSpec interface
+ * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.spec.C14NMethodParameterSpec interface
  * javax.xml.crypto.dsig.spec.C14NMethodParameterSpec}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpecTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpecClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpecClassTests
+ *
+ * @j8unit.aim javax.xml.crypto.dsig.spec.C14NMethodParameterSpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

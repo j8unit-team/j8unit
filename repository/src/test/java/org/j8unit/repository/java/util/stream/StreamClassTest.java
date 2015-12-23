@@ -8,7 +8,13 @@ import org.junit.runner.RunWith;
 public class StreamClassTest
 implements org.j8unit.repository.java.util.stream.StreamClassTests<java.util.stream.Stream> {
 
+    @Override
+    public Class<java.util.stream.Stream> createNewSUT() {
+        return java.util.stream.Stream.class;
+    }
+
     @RunWith(J8Unit4.class)
+    @SuppressWarnings("rawtypes")
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.stream.StreamClassTests.BuilderClassTests<java.util.stream.Stream.Builder> {
 
@@ -17,11 +23,6 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<java.util.str
             return java.util.stream.Stream.Builder.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.stream.Stream> createNewSUT() {
-        return java.util.stream.Stream.class;
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.RuntimeMBeanException class javax.management.RuntimeMBeanException},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.RuntimeMBeanException class
+ * javax.management.RuntimeMBeanException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.RuntimeMBeanExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.RuntimeMBeanExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.RuntimeMBeanExceptionClassTests
+ *
+ * @j8unit.aim javax.management.RuntimeMBeanException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.management.RuntimeMBeanException#getCause() public java.lang.Throwable
      * javax.management.RuntimeMBeanException.getCause()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.RuntimeMBeanException#getCause()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
      * <p>
      * Test method for {@link javax.management.RuntimeMBeanException#getTargetException() public
      * java.lang.RuntimeException javax.management.RuntimeMBeanException.getTargetException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.RuntimeMBeanException#getTargetException()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

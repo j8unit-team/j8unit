@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JavaCompilerClassTest
 implements org.j8unit.repository.javax.tools.JavaCompilerClassTests<javax.tools.JavaCompiler> {
 
+    @Override
+    public Class<javax.tools.JavaCompiler> createNewSUT() {
+        return javax.tools.JavaCompiler.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class CompilationTaskClassTest
     implements org.j8unit.repository.javax.tools.JavaCompilerClassTests.CompilationTaskClassTests<javax.tools.JavaCompiler.CompilationTask> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.tools.JavaCompilerClassTests<javax.tools.
             return javax.tools.JavaCompiler.CompilationTask.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.tools.JavaCompiler> createNewSUT() {
-        return javax.tools.JavaCompiler.class;
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class RoundRectangle2DClassTest
 implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<java.awt.geom.RoundRectangle2D> {
 
+    @Override
+    public Class<java.awt.geom.RoundRectangle2D> createNewSUT() {
+        return java.awt.geom.RoundRectangle2D.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests.DoubleClassTests<java.awt.geom.RoundRectangle2D.Double> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<java.a
             return java.awt.geom.RoundRectangle2D.Float.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.geom.RoundRectangle2D> createNewSUT() {
-        return java.awt.geom.RoundRectangle2D.class;
     }
 
 }

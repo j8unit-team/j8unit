@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.logging.FileHandler class java.util.logging.FileHandler}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.util.logging.FileHandler class java.util.logging.FileHandler},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.util.logging.FileHandlerTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.util.logging.FileHandlerTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.logging.FileHandlerTests
+ *
+ * @j8unit.aim java.util.logging.FileHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,8 +40,16 @@ public abstract interface FileHandlerClassTests<SUT extends java.util.logging.Fi
 extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
 
     /**
+     * <p>
      * Test method for {@link java.util.logging.FileHandler#FileHandler() public java.util.logging.FileHandler() throws
      * java.io.IOException,java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.logging.FileHandler#FileHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,8 +62,16 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String) public
      * java.util.logging.FileHandler(java.lang.String) throws java.io.IOException,java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.logging.FileHandler#FileHandler(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,8 +84,16 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,boolean) public
+     * <p>
+     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String, boolean) public
      * java.util.logging.FileHandler(java.lang.String,boolean) throws java.io.IOException,java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.logging.FileHandler#FileHandler(java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,12 +102,20 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,boolean);
+        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String, boolean);
     }
 
     /**
-     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,int,int) public
+     * <p>
+     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String, int, int) public
      * java.util.logging.FileHandler(java.lang.String,int,int) throws java.io.IOException,java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.logging.FileHandler#FileHandler(java.lang.String, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,13 +124,21 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,int,int);
+        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String, int, int);
     }
 
     /**
-     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,int,int,boolean) public
+     * <p>
+     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String, int, int, boolean) public
      * java.util.logging.FileHandler(java.lang.String,int,int,boolean) throws
      * java.io.IOException,java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim java.util.logging.FileHandler#FileHandler(java.lang.String, int, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,9 +147,14 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,int,int,boolean);
+        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String, int, int, boolean);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.util.logging.FileHandler#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

@@ -7,13 +7,18 @@ import org.junit.runner.RunWith;
 public class AttributeSetClassTest
 implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<javax.swing.text.AttributeSet> {
 
+    @Override
+    public Class<javax.swing.text.AttributeSet> createNewSUT() {
+        return javax.swing.text.AttributeSet.class;
+    }
+
     @RunWith(J8Unit4.class)
-    public static class CharacterAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<javax.swing.text.AttributeSet.CharacterAttribute> {
+    public static class FontAttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests<javax.swing.text.AttributeSet.FontAttribute> {
 
         @Override
-        public Class<javax.swing.text.AttributeSet.CharacterAttribute> createNewSUT() {
-            return javax.swing.text.AttributeSet.CharacterAttribute.class;
+        public Class<javax.swing.text.AttributeSet.FontAttribute> createNewSUT() {
+            return javax.swing.text.AttributeSet.FontAttribute.class;
         }
 
     }
@@ -30,12 +35,12 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<javax.s
     }
 
     @RunWith(J8Unit4.class)
-    public static class FontAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests<javax.swing.text.AttributeSet.FontAttribute> {
+    public static class CharacterAttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<javax.swing.text.AttributeSet.CharacterAttribute> {
 
         @Override
-        public Class<javax.swing.text.AttributeSet.FontAttribute> createNewSUT() {
-            return javax.swing.text.AttributeSet.FontAttribute.class;
+        public Class<javax.swing.text.AttributeSet.CharacterAttribute> createNewSUT() {
+            return javax.swing.text.AttributeSet.CharacterAttribute.class;
         }
 
     }
@@ -49,11 +54,6 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<javax.s
             return javax.swing.text.AttributeSet.ParagraphAttribute.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.AttributeSet> createNewSUT() {
-        return javax.swing.text.AttributeSet.class;
     }
 
 }

@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.table.TableRowSorter class javax.swing.table.TableRowSorter}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.table.TableRowSorter class
+ * javax.swing.table.TableRowSorter}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.table.TableRowSorterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.table.TableRowSorterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.table.TableRowSorterClassTests
+ *
+ * @j8unit.aim javax.swing.table.TableRowSorter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, java.lan
      * <p>
      * Test method for {@link javax.swing.table.TableRowSorter#getComparator(int) public java.util.Comparator
      * javax.swing.table.TableRowSorter.getComparator(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.table.TableRowSorter#getComparator(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, java.lan
      * <p>
      * Test method for {@link javax.swing.table.TableRowSorter#getStringConverter() public
      * javax.swing.table.TableStringConverter javax.swing.table.TableRowSorter.getStringConverter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.table.TableRowSorter#getStringConverter()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, java.lan
      * <p>
      * Test method for {@link javax.swing.table.TableRowSorter#setModel(javax.swing.table.TableModel) public void
      * javax.swing.table.TableRowSorter.setModel(javax.swing.table.TableModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.table.TableRowSorter#setModel(javax.swing.table.TableModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, java.lan
      * Test method for
      * {@link javax.swing.table.TableRowSorter#setStringConverter(javax.swing.table.TableStringConverter) public void
      * javax.swing.table.TableRowSorter.setStringConverter(javax.swing.table.TableStringConverter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.table.TableRowSorter#setStringConverter(javax.swing.table.TableStringConverter)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

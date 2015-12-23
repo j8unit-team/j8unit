@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.ServiceNotFoundException class javax.management.ServiceNotFoundException},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.ServiceNotFoundException class
+ * javax.management.ServiceNotFoundException}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.ServiceNotFoundExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.ServiceNotFoundExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.ServiceNotFoundExceptionClassTests
+ *
+ * @j8unit.aim javax.management.ServiceNotFoundException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

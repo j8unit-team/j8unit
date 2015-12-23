@@ -7,16 +7,9 @@ import org.junit.runner.RunWith;
 public class JTextComponentClassTest
 implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<javax.swing.text.JTextComponent> {
 
-    @RunWith(J8Unit4.class)
-    public static class AccessibleJTextComponentClassTest
-    implements
-    org.j8unit.repository.javax.swing.text.JTextComponentClassTests.AccessibleJTextComponentClassTests<javax.swing.text.JTextComponent.AccessibleJTextComponent> {
-
-        @Override
-        public Class<javax.swing.text.JTextComponent.AccessibleJTextComponent> createNewSUT() {
-            return javax.swing.text.JTextComponent.AccessibleJTextComponent.class;
-        }
-
+    @Override
+    public Class<javax.swing.text.JTextComponent> createNewSUT() {
+        return javax.swing.text.JTextComponent.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -41,9 +34,16 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<javax
 
     }
 
-    @Override
-    public Class<javax.swing.text.JTextComponent> createNewSUT() {
-        return javax.swing.text.JTextComponent.class;
+    @RunWith(J8Unit4.class)
+    public static class AccessibleJTextComponentClassTest
+    implements
+    org.j8unit.repository.javax.swing.text.JTextComponentClassTests.AccessibleJTextComponentClassTests<javax.swing.text.JTextComponent.AccessibleJTextComponent> {
+
+        @Override
+        public Class<javax.swing.text.JTextComponent.AccessibleJTextComponent> createNewSUT() {
+            return javax.swing.text.JTextComponent.AccessibleJTextComponent.class;
+        }
+
     }
 
 }

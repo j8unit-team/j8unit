@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicInternalFrameUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests<javax.swing.plaf.basic.BasicInternalFrameUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicInternalFrameUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicInternalFrameUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class InternalFrameLayoutClassTest
     implements
@@ -29,11 +34,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
             return javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicInternalFrameUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicInternalFrameUI.class;
     }
 
 }

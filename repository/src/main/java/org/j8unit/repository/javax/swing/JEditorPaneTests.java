@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JEditorPane class javax.swing.JEditorPane}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JEditorPane class javax.swing.JEditorPane}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.JEditorPaneTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JEditorPaneClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JEditorPaneClassTests
+ *
+ * @j8unit.aim javax.swing.JEditorPane
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#addHyperlinkListener(javax.swing.event.HyperlinkListener) public
      * synchronized void javax.swing.JEditorPane.addHyperlinkListener(javax.swing.event.HyperlinkListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#addHyperlinkListener(javax.swing.event.HyperlinkListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#fireHyperlinkUpdate(javax.swing.event.HyperlinkEvent) public void
      * javax.swing.JEditorPane.fireHyperlinkUpdate(javax.swing.event.HyperlinkEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#fireHyperlinkUpdate(javax.swing.event.HyperlinkEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JEditorPane.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getContentType() public final java.lang.String
      * javax.swing.JEditorPane.getContentType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getContentType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getEditorKit() public javax.swing.text.EditorKit
      * javax.swing.JEditorPane.getEditorKit()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getEditorKit()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getEditorKitForContentType(java.lang.String) public
      * javax.swing.text.EditorKit javax.swing.JEditorPane.getEditorKitForContentType(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getEditorKitForContentType(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +164,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getHyperlinkListeners() public synchronized
      * javax.swing.event.HyperlinkListener[] javax.swing.JEditorPane.getHyperlinkListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getHyperlinkListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getPage() public java.net.URL javax.swing.JEditorPane.getPage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getPage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getPreferredSize() public java.awt.Dimension
      * javax.swing.JEditorPane.getPreferredSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getPreferredSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,7 +230,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getScrollableTracksViewportHeight() public boolean
      * javax.swing.JEditorPane.getScrollableTracksViewportHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getScrollableTracksViewportHeight()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,7 +253,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getScrollableTracksViewportWidth() public boolean
      * javax.swing.JEditorPane.getScrollableTracksViewportWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getScrollableTracksViewportWidth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,7 +276,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getText() public java.lang.String
      * javax.swing.JEditorPane.getText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getText()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,7 +299,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#getUIClassID() public java.lang.String
      * javax.swing.JEditorPane.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#getUIClassID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,9 +320,15 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JEditorPane#read(java.io.InputStream,java.lang.Object) public void
+     * Test method for {@link javax.swing.JEditorPane#read(java.io.InputStream, java.lang.Object) public void
      * javax.swing.JEditorPane.read(java.io.InputStream,java.lang.Object) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#read(java.io.InputStream, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -255,7 +344,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#removeHyperlinkListener(javax.swing.event.HyperlinkListener)
      * public synchronized void javax.swing.JEditorPane.removeHyperlinkListener(javax.swing.event.HyperlinkListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#removeHyperlinkListener(javax.swing.event.HyperlinkListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,7 +366,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#replaceSelection(java.lang.String) public void
      * javax.swing.JEditorPane.replaceSelection(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#replaceSelection(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -288,7 +389,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#scrollToReference(java.lang.String) public void
      * javax.swing.JEditorPane.scrollToReference(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#scrollToReference(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,7 +411,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#setContentType(java.lang.String) public final void
      * javax.swing.JEditorPane.setContentType(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#setContentType(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -320,7 +433,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#setEditorKit(javax.swing.text.EditorKit) public void
      * javax.swing.JEditorPane.setEditorKit(javax.swing.text.EditorKit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#setEditorKit(javax.swing.text.EditorKit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,9 +454,15 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.JEditorPane#setEditorKitForContentType(java.lang.String,javax.swing.text.EditorKit) public
+     * {@link javax.swing.JEditorPane#setEditorKitForContentType(java.lang.String, javax.swing.text.EditorKit) public
      * void javax.swing.JEditorPane.setEditorKitForContentType(java.lang.String,javax.swing.text.EditorKit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#setEditorKitForContentType(java.lang.String, javax.swing.text.EditorKit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -353,7 +478,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#setPage(java.lang.String) public void
      * javax.swing.JEditorPane.setPage(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#setPage(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -369,7 +500,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#setPage(java.net.URL) public void
      * javax.swing.JEditorPane.setPage(java.net.URL) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#setPage(java.net.URL)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -385,7 +522,13 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JEditorPane#setText(java.lang.String) public void
      * javax.swing.JEditorPane.setText(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JEditorPane#setText(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

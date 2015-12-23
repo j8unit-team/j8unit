@@ -9,7 +9,7 @@ implements org.j8unit.repository.javax.swing.JLayerTests<javax.swing.JLayer<V>, 
 
     @Override
     public javax.swing.JLayer<V> createNewSUT() {
-        return new javax.swing.JLayer<>();
+        return new javax.swing.JLayer();
     }
 
 }

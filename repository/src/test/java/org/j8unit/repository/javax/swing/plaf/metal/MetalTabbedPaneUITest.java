@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class MetalTabbedPaneUITest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUITests<javax.swing.plaf.metal.MetalTabbedPaneUI> {
 
+    @Override
+    public javax.swing.plaf.metal.MetalTabbedPaneUI createNewSUT() {
+        return new javax.swing.plaf.metal.MetalTabbedPaneUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUITests<j
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.metal.MetalTabbedPaneUI.TabbedPaneLayout] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.metal.MetalTabbedPaneUI createNewSUT() {
-        return new javax.swing.plaf.metal.MetalTabbedPaneUI();
     }
 
 }

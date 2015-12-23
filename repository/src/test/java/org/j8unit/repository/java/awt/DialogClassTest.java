@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class DialogClassTest
 implements org.j8unit.repository.java.awt.DialogClassTests<java.awt.Dialog> {
 
-    @RunWith(J8Unit4.class)
-    public static class ModalExclusionTypeClassTest
-    implements org.j8unit.repository.java.awt.DialogClassTests.ModalExclusionTypeClassTests<java.awt.Dialog.ModalExclusionType> {
-
-        @Override
-        public Class<java.awt.Dialog.ModalExclusionType> createNewSUT() {
-            return java.awt.Dialog.ModalExclusionType.class;
-        }
-
+    @Override
+    public Class<java.awt.Dialog> createNewSUT() {
+        return java.awt.Dialog.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.DialogClassTests<java.awt.Dialog> {
 
     }
 
-    @Override
-    public Class<java.awt.Dialog> createNewSUT() {
-        return java.awt.Dialog.class;
+    @RunWith(J8Unit4.class)
+    public static class ModalExclusionTypeClassTest
+    implements org.j8unit.repository.java.awt.DialogClassTests.ModalExclusionTypeClassTests<java.awt.Dialog.ModalExclusionType> {
+
+        @Override
+        public Class<java.awt.Dialog.ModalExclusionType> createNewSUT() {
+            return java.awt.Dialog.ModalExclusionType.class;
+        }
+
     }
 
 }

@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicComboPopupTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<javax.swing.plaf.basic.BasicComboPopup> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicComboPopup createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class InvocationKeyHandlerTest
     implements
@@ -29,11 +34,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<jav
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup.ListDataHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicComboPopup createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicComboPopup] available.");
     }
 
 }

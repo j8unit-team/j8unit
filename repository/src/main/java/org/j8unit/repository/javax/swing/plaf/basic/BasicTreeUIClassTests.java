@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicTreeUI class javax.swing.plaf.basic.BasicTreeUI}, containing all
- * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI class
+ * javax.swing.plaf.basic.BasicTreeUI}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler class
      * javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests}.
      * </p>
      *
@@ -49,7 +52,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +60,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -68,9 +74,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler#CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler#CellEditorHandler(javax.swing.plaf.basic.
+         *             BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -83,6 +98,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                    // CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -97,10 +117,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$ComponentHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.ComponentHandler class
      * javax.swing.plaf.basic.BasicTreeUI$ComponentHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests}.
      * </p>
      *
@@ -108,7 +128,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -116,10 +136,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.ComponentHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -127,9 +150,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.ComponentAdapterClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$ComponentHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.
+         *             BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -142,6 +174,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                   // ComponentHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.ComponentHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -156,10 +193,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$FocusHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.FocusHandler class
      * javax.swing.plaf.basic.BasicTreeUI$FocusHandler}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests}.
      * </p>
      *
@@ -167,7 +204,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -175,10 +212,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.FocusHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -186,9 +226,17 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$FocusHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -201,6 +249,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                               // FocusHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.FocusHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -215,10 +268,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$KeyHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.KeyHandler class
      * javax.swing.plaf.basic.BasicTreeUI$KeyHandler}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests}.
      * </p>
      *
@@ -226,7 +279,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -234,10 +287,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.KeyHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -245,9 +301,17 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.KeyAdapterClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.KeyHandler#KeyHandler(javax.swing.plaf.basic.BasicTreeUI) public
          * javax.swing.plaf.basic.BasicTreeUI$KeyHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.KeyHandler#KeyHandler(javax.swing.plaf.basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -260,6 +324,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                             // KeyHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.KeyHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -274,10 +343,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$MouseHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.MouseHandler class
      * javax.swing.plaf.basic.BasicTreeUI$MouseHandler}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests}.
      * </p>
      *
@@ -285,7 +354,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -293,10 +362,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.MouseHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -304,9 +376,17 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.MouseHandler#MouseHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$MouseHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.MouseHandler#MouseHandler(javax.swing.plaf.basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -319,6 +399,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                               // MouseHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.MouseHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -333,10 +418,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler class
      * javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests}.
      * </p>
      *
@@ -344,7 +429,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -352,10 +437,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -363,11 +451,20 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,java.awt.Component,java.awt.Component,java.awt.event.MouseEvent)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI, java.awt.Component, java.awt.Component, java.awt.event.MouseEvent)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,java.awt.Component,java.awt.Component,java.awt.event.MouseEvent)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.
+         *             BasicTreeUI, java.awt.Component, java.awt.Component, java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -377,9 +474,17 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler sut = null; // = new
-                                                                                   // MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,java.awt.Component,java.awt.Component,java.awt.event.MouseEvent);
+                                                                                   // MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                   // java.awt.Component,
+                                                                                   // java.awt.Component,
+                                                                                   // java.awt.event.MouseEvent);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -394,10 +499,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler class
      * javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.NodeDimensionsHandlerTests}.
      * </p>
      *
@@ -405,7 +510,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -413,10 +518,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.NodeDimensionsHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.NodeDimensionsHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -424,9 +532,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler#NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler#NodeDimensionsHandler(javax.swing.plaf.
+         *             basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -439,6 +556,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                        // NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -453,10 +575,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler class
      * javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests}.
      * </p>
      *
@@ -464,7 +586,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -472,10 +594,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -483,9 +608,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.
+         *             basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -498,6 +632,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                        // PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -512,10 +651,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler class
+     * Reusable J8Unit test interface for
+     * {@linkplain javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler class
      * javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler}, containing all class relevant test
      * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-     * counterpart test class containing the instance relevant test methods is
+     * counterpart J8Unit test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests}.
      * </p>
      *
@@ -523,7 +663,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -531,10 +671,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -542,10 +685,19 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler#SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler#
+         *             SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -558,6 +710,12 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                                      // SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler#isAssignableFrom(java.lang
+         *             .Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -572,10 +730,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction class
      * javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests}.
      * </p>
      *
@@ -583,7 +741,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -591,10 +749,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -602,11 +763,20 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction#TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction#TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI, java.lang.String)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction#TreeCancelEditingAction(javax.swing.
+         *             plaf.basic.BasicTreeUI, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -616,9 +786,15 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction sut = null; // = new
-                                                                                         // TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String);
+                                                                                         // TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                         // java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -633,10 +809,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeExpansionHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler class
      * javax.swing.plaf.basic.BasicTreeUI$TreeExpansionHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeExpansionHandlerTests}.
      * </p>
      *
@@ -644,7 +820,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -652,10 +828,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeExpansionHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeExpansionHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -663,9 +842,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.TreeExpansionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler#TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler#TreeExpansionHandler(javax.swing.plaf.
+         *             basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -678,6 +866,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                       // TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -692,10 +885,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction class
      * javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests}.
      * </p>
      *
@@ -703,7 +896,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -711,10 +904,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -722,10 +918,19 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction#TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction#TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI, int, java.lang.String)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction#TreeHomeAction(javax.swing.plaf.basic.
+         *             BasicTreeUI, int, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -735,9 +940,15 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction sut = null; // = new
-                                                                                // TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String);
+                                                                                // TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                // int, java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -752,10 +963,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction class
      * javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests}.
      * </p>
      *
@@ -763,7 +974,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -771,10 +982,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -782,11 +996,20 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction#TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction#TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI, int, java.lang.String)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction#TreeIncrementAction(javax.swing.plaf.basic
+         *             .BasicTreeUI, int, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -796,9 +1019,15 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction sut = null; // = new
-                                                                                     // TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String);
+                                                                                     // TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                     // int, java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -813,10 +1042,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeModelHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler class
      * javax.swing.plaf.basic.BasicTreeUI$TreeModelHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeModelHandlerTests}.
      * </p>
      *
@@ -824,7 +1053,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -832,10 +1061,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeModelHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeModelHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -843,9 +1075,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.TreeModelListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler#TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler#TreeModelHandler(javax.swing.plaf.basic.
+         *             BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -858,6 +1099,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                   // TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -872,10 +1118,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreePageAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreePageAction class
      * javax.swing.plaf.basic.BasicTreeUI$TreePageAction}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreePageActionTests}.
      * </p>
      *
@@ -883,7 +1129,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -891,10 +1137,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreePageActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreePageActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreePageAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -902,10 +1151,19 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.TreePageAction#TreePageAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreePageAction#TreePageAction(javax.swing.plaf.basic.BasicTreeUI, int, java.lang.String)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$TreePageAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreePageAction#TreePageAction(javax.swing.plaf.basic.
+         *             BasicTreeUI, int, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -915,9 +1173,15 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.TreePageAction sut = null; // = new
-                                                                                // TreePageAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String);
+                                                                                // TreePageAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                // int, java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreePageAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -932,10 +1196,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler class
      * javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeSelectionHandlerTests}.
      * </p>
      *
@@ -943,7 +1207,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -951,10 +1215,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeSelectionHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeSelectionHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -962,9 +1229,18 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler#TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler#TreeSelectionHandler(javax.swing.plaf.
+         *             basic.BasicTreeUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -977,6 +1253,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                                                                                       // TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -991,10 +1272,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction class
      * javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests}.
      * </p>
      *
@@ -1002,7 +1283,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -1010,10 +1291,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -1021,10 +1305,19 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction#TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction#TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI, java.lang.String)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction#TreeToggleAction(javax.swing.plaf.basic.
+         *             BasicTreeUI, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1034,9 +1327,15 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction sut = null; // = new
-                                                                                  // TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String);
+                                                                                  // TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                  // java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -1051,10 +1350,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction class
      * javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeTraverseActionTests}.
      * </p>
      *
@@ -1062,7 +1361,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -1070,10 +1369,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeTraverseActionTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeTraverseActionTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -1081,11 +1383,20 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction#TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction#TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI, int, java.lang.String)
          * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction#TreeTraverseAction(javax.swing.plaf.basic.
+         *             BasicTreeUI, int, java.lang.String)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1095,9 +1406,15 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction sut = null; // = new
-                                                                                    // TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String);
+                                                                                    // TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                                                    // int, java.lang.String);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -1111,8 +1428,16 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicTreeUI#BasicTreeUI() public
      * javax.swing.plaf.basic.BasicTreeUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI#BasicTreeUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1128,7 +1453,13 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicTreeUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicTreeUI.createUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI#createUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1141,6 +1472,11 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicTreeUI#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

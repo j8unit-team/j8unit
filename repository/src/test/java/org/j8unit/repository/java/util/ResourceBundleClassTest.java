@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class ResourceBundleClassTest
 implements org.j8unit.repository.java.util.ResourceBundleClassTests<java.util.ResourceBundle> {
 
+    @Override
+    public Class<java.util.ResourceBundle> createNewSUT() {
+        return java.util.ResourceBundle.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ControlClassTest
     implements org.j8unit.repository.java.util.ResourceBundleClassTests.ControlClassTests<java.util.ResourceBundle.Control> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.util.ResourceBundleClassTests<java.util.Re
             return java.util.ResourceBundle.Control.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.ResourceBundle> createNewSUT() {
-        return java.util.ResourceBundle.class;
     }
 
 }

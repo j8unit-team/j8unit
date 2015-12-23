@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class EnumControlClassTest
 implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests<javax.sound.sampled.EnumControl> {
 
+    @Override
+    public Class<javax.sound.sampled.EnumControl> createNewSUT() {
+        return javax.sound.sampled.EnumControl.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests.TypeClassTests<javax.sound.sampled.EnumControl.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests<javax
             return javax.sound.sampled.EnumControl.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.EnumControl> createNewSUT() {
-        return javax.sound.sampled.EnumControl.class;
     }
 
 }

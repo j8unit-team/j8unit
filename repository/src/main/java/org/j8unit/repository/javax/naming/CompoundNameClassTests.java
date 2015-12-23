@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.naming.CompoundName class javax.naming.CompoundName}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain javax.naming.CompoundName class javax.naming.CompoundName}, containing
+ * all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.javax.naming.CompoundNameTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.naming.CompoundNameTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.naming.CompoundNameTests
+ *
+ * @j8unit.aim javax.naming.CompoundName
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -37,8 +40,16 @@ public abstract interface CompoundNameClassTests<SUT extends javax.naming.Compou
 extends org.j8unit.repository.javax.naming.NameClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.CompoundName#CompoundName(java.lang.String,java.util.Properties) public
+     * <p>
+     * Test method for {@link javax.naming.CompoundName#CompoundName(java.lang.String, java.util.Properties) public
      * javax.naming.CompoundName(java.lang.String,java.util.Properties) throws javax.naming.InvalidNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.naming.CompoundName#CompoundName(java.lang.String, java.util.Properties)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -47,9 +58,14 @@ extends org.j8unit.repository.javax.naming.NameClassTests<SUT>, org.j8unit.repos
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.CompoundName sut = null; // = new CompoundName(java.lang.String,java.util.Properties);
+        final javax.naming.CompoundName sut = null; // = new CompoundName(java.lang.String, java.util.Properties);
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.naming.CompoundName#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

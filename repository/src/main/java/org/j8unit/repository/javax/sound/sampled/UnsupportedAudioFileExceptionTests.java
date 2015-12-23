@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.sound.sampled.UnsupportedAudioFileException class
+ * Reusable J8Unit test interface for {@linkplain javax.sound.sampled.UnsupportedAudioFileException class
  * javax.sound.sampled.UnsupportedAudioFileException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExceptionClassTests
+ *
+ * @j8unit.aim javax.sound.sampled.UnsupportedAudioFileException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

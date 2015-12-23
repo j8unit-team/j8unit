@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicComboBoxUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<javax.swing.plaf.basic.BasicComboBoxUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicComboBoxUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicComboBoxUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ComboBoxLayoutManagerClassTest
     implements
@@ -32,6 +37,18 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTest
     }
 
     @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler> {
+
+        @Override
+        public Class<javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler> createNewSUT() {
+            return javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class ItemHandlerClassTest
     implements
     org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ItemHandlerClassTests<javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler> {
@@ -39,17 +56,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTest
         @Override
         public Class<javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler> createNewSUT() {
             return javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests<javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler> {
-
-        @Override
-        public Class<javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler> createNewSUT() {
-            return javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler.class;
         }
 
     }
@@ -67,20 +73,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTest
     }
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler> {
+    public static class KeyHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests<javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler> {
 
         @Override
-        public Class<javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler> createNewSUT() {
-            return javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler.class;
+        public Class<javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler> createNewSUT() {
+            return javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicComboBoxUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicComboBoxUI.class;
     }
 
 }

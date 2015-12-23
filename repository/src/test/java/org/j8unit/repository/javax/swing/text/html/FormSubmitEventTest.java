@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class FormSubmitEventTest
 implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests<javax.swing.text.html.FormSubmitEvent> {
 
+    @Override
+    public javax.swing.text.html.FormSubmitEvent createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.FormSubmitEvent] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MethodTypeTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests<java
             return this.sut;
         }
 
-    }
-
-    @Override
-    public javax.swing.text.html.FormSubmitEvent createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.FormSubmitEvent] available.");
     }
 
 }

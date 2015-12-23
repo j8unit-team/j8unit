@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.channels.AsynchronousServerSocketChannel class
+ * Reusable J8Unit test interface for {@linkplain java.nio.channels.AsynchronousServerSocketChannel class
  * java.nio.channels.AsynchronousServerSocketChannel}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChannelTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChannelClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChannelClassTests
+ *
+ * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#accept() public abstract
      * java.util.concurrent.Future java.nio.channels.AsynchronousServerSocketChannel.accept()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#accept()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,10 +53,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.channels.AsynchronousServerSocketChannel#accept(java.lang.Object,java.nio.channels.CompletionHandler)
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#accept(java.lang.Object, java.nio.channels.CompletionHandler)
      * public abstract void
      * java.nio.channels.AsynchronousServerSocketChannel.accept(java.lang.Object,java.nio.channels.CompletionHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#accept(java.lang.Object,
+     *             java.nio.channels.CompletionHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,7 +80,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress) public
      * final java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,10 +101,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress,int) public
+     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress, int) public
      * abstract java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,9 +125,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface java.nio.channels.Channel</li>
+     * <li>interface java.nio.channels.AsynchronousChannel</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -114,7 +151,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#getLocalAddress() public abstract
      * java.net.SocketAddress java.nio.channels.AsynchronousServerSocketChannel.getLocalAddress() throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#getLocalAddress()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -131,7 +174,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#provider() public final
      * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.AsynchronousServerSocketChannel.provider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#provider()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,11 +195,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.channels.AsynchronousServerSocketChannel#setOption(java.net.SocketOption,java.lang.Object) public
-     * abstract java.nio.channels.AsynchronousServerSocketChannel
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#setOption(java.net.SocketOption, java.lang.Object)
+     * public abstract java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.setOption(java.net.SocketOption,java.lang.Object) throws
      * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.channels.AsynchronousServerSocketChannel#setOption(java.net.SocketOption, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

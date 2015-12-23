@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.file.LinkPermission class java.nio.file.LinkPermission}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.nio.file.LinkPermission class java.nio.file.LinkPermission},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.nio.file.LinkPermissionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.file.LinkPermissionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.file.LinkPermissionClassTests
+ *
+ * @j8unit.aim java.nio.file.LinkPermission
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

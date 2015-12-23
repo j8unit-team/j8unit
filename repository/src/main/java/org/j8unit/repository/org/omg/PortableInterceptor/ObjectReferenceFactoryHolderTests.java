@@ -8,15 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHolder class
+ * Reusable J8Unit test interface for {@linkplain org.omg.PortableInterceptor.ObjectReferenceFactoryHolder class
  * org.omg.PortableInterceptor.ObjectReferenceFactoryHolder}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+ * class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryHolderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryHolderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryHolderClassTests
+ *
+ * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceFactoryHolder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +33,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * Test method for
      * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#_read(org.omg.CORBA.portable.InputStream) public
      * void org.omg.PortableInterceptor.ObjectReferenceFactoryHolder._read(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#_read(org.omg.CORBA.portable.InputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -45,7 +56,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * <p>
      * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#_type() public
      * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceFactoryHolder._type()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#_type()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,7 +81,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#_write(org.omg.CORBA.portable.OutputStream)
      * public void org.omg.PortableInterceptor.ObjectReferenceFactoryHolder._write(org.omg.CORBA.portable.OutputStream)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#_write(org.omg.CORBA.portable.OutputStream)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

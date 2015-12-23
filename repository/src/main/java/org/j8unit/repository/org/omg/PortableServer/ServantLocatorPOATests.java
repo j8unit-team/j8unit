@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.PortableServer.ServantLocatorPOA class org.omg.PortableServer.ServantLocatorPOA},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.ServantLocatorPOA class
+ * org.omg.PortableServer.ServantLocatorPOA}, containing all instance relevant test methods (i.&thinsp;e., test methods
+ * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorPOATests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.PortableServer.ServantLocatorPOAClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.PortableServer.ServantLocatorPOAClassTests
+ *
+ * @j8unit.aim org.omg.PortableServer.ServantLocatorPOA
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,9 +31,15 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableServer.ServantLocatorPOA#_all_interfaces(org.omg.PortableServer.POA,byte[]) public
+     * {@link org.omg.PortableServer.ServantLocatorPOA#_all_interfaces(org.omg.PortableServer.POA, byte[]) public
      * java.lang.String[] org.omg.PortableServer.ServantLocatorPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.ServantLocatorPOA#_all_interfaces(org.omg.PortableServer.POA, byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,11 +55,18 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableServer.ServantLocatorPOA#_invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)
+     * {@link org.omg.PortableServer.ServantLocatorPOA#_invoke(java.lang.String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
      * public org.omg.CORBA.portable.OutputStream
      * org.omg.PortableServer.ServantLocatorPOA._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.ServantLocatorPOA#_invoke(java.lang.String,
+     *             org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,7 +83,13 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
      * <p>
      * Test method for {@link org.omg.PortableServer.ServantLocatorPOA#_this() public
      * org.omg.PortableServer.ServantLocator org.omg.PortableServer.ServantLocatorPOA._this()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.ServantLocatorPOA#_this()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,7 +105,13 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
      * <p>
      * Test method for {@link org.omg.PortableServer.ServantLocatorPOA#_this(org.omg.CORBA.ORB) public
      * org.omg.PortableServer.ServantLocator org.omg.PortableServer.ServantLocatorPOA._this(org.omg.CORBA.ORB)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.omg.PortableServer.ServantLocatorPOA#_this(org.omg.CORBA.ORB)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

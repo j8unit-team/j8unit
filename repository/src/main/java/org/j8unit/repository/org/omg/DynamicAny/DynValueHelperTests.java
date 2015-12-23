@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.DynamicAny.DynValueHelper class org.omg.DynamicAny.DynValueHelper}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny.DynValueHelper class
+ * org.omg.DynamicAny.DynValueHelper}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueHelperTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.DynamicAny.DynValueHelperClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.DynamicAny.DynValueHelperClassTests
+ *
+ * @j8unit.aim org.omg.DynamicAny.DynValueHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

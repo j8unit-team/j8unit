@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MultipleGradientPaintClassTest
 implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<java.awt.MultipleGradientPaint> {
 
+    @Override
+    public Class<java.awt.MultipleGradientPaint> createNewSUT() {
+        return java.awt.MultipleGradientPaint.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class ColorSpaceTypeClassTest
     implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests<java.awt.MultipleGradientPaint.ColorSpaceType> {
@@ -27,11 +32,6 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<java.a
             return java.awt.MultipleGradientPaint.CycleMethod.class;
         }
 
-    }
-
-    @Override
-    public Class<java.awt.MultipleGradientPaint> createNewSUT() {
-        return java.awt.MultipleGradientPaint.class;
     }
 
 }

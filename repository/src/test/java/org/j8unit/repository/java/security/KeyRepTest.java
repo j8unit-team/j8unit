@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class KeyRepTest
 implements org.j8unit.repository.java.security.KeyRepTests<java.security.KeyRep> {
 
+    @Override
+    public java.security.KeyRep createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyRep] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TypeTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.java.security.KeyRepTests<java.security.KeyRep>
             return this.sut;
         }
 
-    }
-
-    @Override
-    public java.security.KeyRep createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.security.KeyRep] available.");
     }
 
 }

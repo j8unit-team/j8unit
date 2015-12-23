@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.image.renderable.RenderableImageProducer class
+ * Reusable J8Unit test interface for {@linkplain java.awt.image.renderable.RenderableImageProducer class
  * java.awt.image.renderable.RenderableImageProducer}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.awt.image.renderable.RenderableImageProducerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.image.renderable.RenderableImageProducerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.image.renderable.RenderableImageProducerClassTests
+ *
+ * @j8unit.aim java.awt.image.renderable.RenderableImageProducer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +33,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for
      * {@link java.awt.image.renderable.RenderableImageProducer#addConsumer(java.awt.image.ImageConsumer) public
      * synchronized void java.awt.image.renderable.RenderableImageProducer.addConsumer(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#addConsumer(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -47,7 +57,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.image.renderable.RenderableImageProducer#isConsumer(java.awt.image.ImageConsumer)
      * public synchronized boolean
      * java.awt.image.renderable.RenderableImageProducer.isConsumer(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#isConsumer(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -66,7 +82,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link java.awt.image.renderable.RenderableImageProducer#removeConsumer(java.awt.image.ImageConsumer) public
      * synchronized void java.awt.image.renderable.RenderableImageProducer.removeConsumer(java.awt.image.ImageConsumer)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#removeConsumer(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,7 +107,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link java.awt.image.renderable.RenderableImageProducer#requestTopDownLeftRightResend(java.awt.image.ImageConsumer)
      * public void
      * java.awt.image.renderable.RenderableImageProducer.requestTopDownLeftRightResend(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#requestTopDownLeftRightResend(java.awt.image.
+     *             ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -102,7 +131,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.image.renderable.RenderableImageProducer#run() public void
      * java.awt.image.renderable.RenderableImageProducer.run()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#run()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,7 +156,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link java.awt.image.renderable.RenderableImageProducer#setRenderContext(java.awt.image.renderable.RenderContext)
      * public synchronized void
      * java.awt.image.renderable.RenderableImageProducer.setRenderContext(java.awt.image.renderable.RenderContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#setRenderContext(java.awt.image.renderable.
+     *             RenderContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,7 +181,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link java.awt.image.renderable.RenderableImageProducer#startProduction(java.awt.image.ImageConsumer) public
      * synchronized void
      * java.awt.image.renderable.RenderableImageProducer.startProduction(java.awt.image.ImageConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.image.renderable.RenderableImageProducer#startProduction(java.awt.image.ImageConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

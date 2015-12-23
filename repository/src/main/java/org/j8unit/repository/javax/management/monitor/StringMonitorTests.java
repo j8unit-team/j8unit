@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.monitor.StringMonitor class javax.management.monitor.StringMonitor},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.monitor.StringMonitor class
+ * javax.management.monitor.StringMonitor}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.monitor.StringMonitorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.monitor.StringMonitorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.monitor.StringMonitorClassTests
+ *
+ * @j8unit.aim javax.management.monitor.StringMonitor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -41,9 +54,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -58,7 +79,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGauge() public synchronized
      * java.lang.String javax.management.monitor.StringMonitor.getDerivedGauge()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getDerivedGauge()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +103,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGauge(javax.management.ObjectName) public
      * synchronized java.lang.String
      * javax.management.monitor.StringMonitor.getDerivedGauge(javax.management.ObjectName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getDerivedGauge(javax.management.ObjectName)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +126,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp() public synchronized long
      * javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,7 +150,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * Test method for
      * {@link javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp(javax.management.ObjectName) public
      * synchronized long javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp(javax.management.ObjectName)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -127,9 +172,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -144,7 +197,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#getNotificationInfo() public
      * javax.management.MBeanNotificationInfo[] javax.management.monitor.StringMonitor.getNotificationInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getNotificationInfo()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,7 +220,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#getNotifyDiffer() public synchronized boolean
      * javax.management.monitor.StringMonitor.getNotifyDiffer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getNotifyDiffer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,7 +243,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#getNotifyMatch() public synchronized boolean
      * javax.management.monitor.StringMonitor.getNotifyMatch()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getNotifyMatch()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,9 +265,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -210,9 +289,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -226,9 +313,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -243,7 +338,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#getStringToCompare() public synchronized
      * java.lang.String javax.management.monitor.StringMonitor.getStringToCompare()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#getStringToCompare()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -259,9 +360,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -275,9 +384,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -291,9 +408,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -308,7 +433,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#setNotifyDiffer(boolean) public synchronized void
      * javax.management.monitor.StringMonitor.setNotifyDiffer(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#setNotifyDiffer(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,7 +456,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#setNotifyMatch(boolean) public synchronized void
      * javax.management.monitor.StringMonitor.setNotifyMatch(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#setNotifyMatch(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -341,9 +478,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -357,9 +502,17 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class javax.management.monitor.Monitor</li>
+     * <li>interface javax.management.monitor.MonitorMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -375,7 +528,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * Test method for {@link javax.management.monitor.StringMonitor#setStringToCompare(java.lang.String) public
      * synchronized void javax.management.monitor.StringMonitor.setStringToCompare(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#setStringToCompare(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,7 +551,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#start() public synchronized void
      * javax.management.monitor.StringMonitor.start()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#start()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,7 +574,13 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
      * <p>
      * Test method for {@link javax.management.monitor.StringMonitor#stop() public synchronized void
      * javax.management.monitor.StringMonitor.stop()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.monitor.StringMonitor#stop()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

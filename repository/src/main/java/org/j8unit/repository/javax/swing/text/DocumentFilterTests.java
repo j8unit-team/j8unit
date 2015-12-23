@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.DocumentFilter class javax.swing.text.DocumentFilter}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.DocumentFilter class javax.swing.text.DocumentFilter}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.DocumentFilterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.DocumentFilterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.DocumentFilterClassTests
+ *
+ * @j8unit.aim javax.swing.text.DocumentFilter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.DocumentFilter$FilterBypass class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.DocumentFilter.FilterBypass class
      * javax.swing.text.DocumentFilter$FilterBypass}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
+     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+     * methods is {@link org.j8unit.repository.javax.swing.text.DocumentFilterTests.FilterBypassTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.text.DocumentFilterClassTests.FilterBypassClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.DocumentFilterClassTests.FilterBypassClassTests
+     *
+     * @j8unit.aim javax.swing.text.DocumentFilter.FilterBypass
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,7 +52,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.text.DocumentFilter.FilterBypass#getDocument() public abstract
          * javax.swing.text.Document javax.swing.text.DocumentFilter$FilterBypass.getDocument()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.DocumentFilter.FilterBypass#getDocument()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -58,11 +73,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.DocumentFilter.FilterBypass#insertString(int,java.lang.String,javax.swing.text.AttributeSet)
+         * {@link javax.swing.text.DocumentFilter.FilterBypass#insertString(int, java.lang.String, javax.swing.text.AttributeSet)
          * public abstract void
          * javax.swing.text.DocumentFilter$FilterBypass.insertString(int,java.lang.String,javax.swing.text.AttributeSet)
          * throws javax.swing.text.BadLocationException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.DocumentFilter.FilterBypass#insertString(int, java.lang.String,
+         *             javax.swing.text.AttributeSet)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -76,9 +98,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.DocumentFilter.FilterBypass#remove(int,int) public abstract void
+         * Test method for {@link javax.swing.text.DocumentFilter.FilterBypass#remove(int, int) public abstract void
          * javax.swing.text.DocumentFilter$FilterBypass.remove(int,int) throws javax.swing.text.BadLocationException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.DocumentFilter.FilterBypass#remove(int, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -93,11 +121,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.text.DocumentFilter.FilterBypass#replace(int,int,java.lang.String,javax.swing.text.AttributeSet)
+         * {@link javax.swing.text.DocumentFilter.FilterBypass#replace(int, int, java.lang.String, javax.swing.text.AttributeSet)
          * public abstract void
          * javax.swing.text.DocumentFilter$FilterBypass.replace(int,int,java.lang.String,javax.swing.text.AttributeSet)
          * throws javax.swing.text.BadLocationException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.text.DocumentFilter.FilterBypass#replace(int, int, java.lang.String,
+         *             javax.swing.text.AttributeSet)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -114,11 +149,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.DocumentFilter#insertString(javax.swing.text.DocumentFilter.FilterBypass,int,java.lang.String,javax.swing.text.AttributeSet)
+     * {@link javax.swing.text.DocumentFilter#insertString(javax.swing.text.DocumentFilter.FilterBypass, int, java.lang.String, javax.swing.text.AttributeSet)
      * public void
      * javax.swing.text.DocumentFilter.insertString(javax.swing.text.DocumentFilter$FilterBypass,int,java.lang.String,javax.swing.text.AttributeSet)
      * throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DocumentFilter#insertString(javax.swing.text.DocumentFilter.FilterBypass, int,
+     *             java.lang.String, javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,10 +175,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.DocumentFilter#remove(javax.swing.text.DocumentFilter.FilterBypass,int,int) public void
+     * {@link javax.swing.text.DocumentFilter#remove(javax.swing.text.DocumentFilter.FilterBypass, int, int) public void
      * javax.swing.text.DocumentFilter.remove(javax.swing.text.DocumentFilter$FilterBypass,int,int) throws
      * javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DocumentFilter#remove(javax.swing.text.DocumentFilter.FilterBypass, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -151,11 +199,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.DocumentFilter#replace(javax.swing.text.DocumentFilter.FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)
+     * {@link javax.swing.text.DocumentFilter#replace(javax.swing.text.DocumentFilter.FilterBypass, int, int, java.lang.String, javax.swing.text.AttributeSet)
      * public void
      * javax.swing.text.DocumentFilter.replace(javax.swing.text.DocumentFilter$FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)
      * throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.DocumentFilter#replace(javax.swing.text.DocumentFilter.FilterBypass, int, int,
+     *             java.lang.String, javax.swing.text.AttributeSet)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

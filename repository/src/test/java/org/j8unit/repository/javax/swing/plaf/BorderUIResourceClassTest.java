@@ -7,26 +7,19 @@ import org.junit.runner.RunWith;
 public class BorderUIResourceClassTest
 implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<javax.swing.plaf.BorderUIResource> {
 
-    @RunWith(J8Unit4.class)
-    public static class BevelBorderUIResourceClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.BevelBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.BevelBorderUIResource> {
-
-        @Override
-        public Class<javax.swing.plaf.BorderUIResource.BevelBorderUIResource> createNewSUT() {
-            return javax.swing.plaf.BorderUIResource.BevelBorderUIResource.class;
-        }
-
+    @Override
+    public Class<javax.swing.plaf.BorderUIResource> createNewSUT() {
+        return javax.swing.plaf.BorderUIResource.class;
     }
 
     @RunWith(J8Unit4.class)
-    public static class CompoundBorderUIResourceClassTest
+    public static class MatteBorderUIResourceClassTest
     implements
-    org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.CompoundBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.CompoundBorderUIResource> {
+    org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.MatteBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.MatteBorderUIResource> {
 
         @Override
-        public Class<javax.swing.plaf.BorderUIResource.CompoundBorderUIResource> createNewSUT() {
-            return javax.swing.plaf.BorderUIResource.CompoundBorderUIResource.class;
+        public Class<javax.swing.plaf.BorderUIResource.MatteBorderUIResource> createNewSUT() {
+            return javax.swing.plaf.BorderUIResource.MatteBorderUIResource.class;
         }
 
     }
@@ -56,6 +49,18 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<jav
     }
 
     @RunWith(J8Unit4.class)
+    public static class BevelBorderUIResourceClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.BevelBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.BevelBorderUIResource> {
+
+        @Override
+        public Class<javax.swing.plaf.BorderUIResource.BevelBorderUIResource> createNewSUT() {
+            return javax.swing.plaf.BorderUIResource.BevelBorderUIResource.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class LineBorderUIResourceClassTest
     implements
     org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.LineBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.LineBorderUIResource> {
@@ -68,13 +73,13 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<jav
     }
 
     @RunWith(J8Unit4.class)
-    public static class MatteBorderUIResourceClassTest
+    public static class CompoundBorderUIResourceClassTest
     implements
-    org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.MatteBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.MatteBorderUIResource> {
+    org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.CompoundBorderUIResourceClassTests<javax.swing.plaf.BorderUIResource.CompoundBorderUIResource> {
 
         @Override
-        public Class<javax.swing.plaf.BorderUIResource.MatteBorderUIResource> createNewSUT() {
-            return javax.swing.plaf.BorderUIResource.MatteBorderUIResource.class;
+        public Class<javax.swing.plaf.BorderUIResource.CompoundBorderUIResource> createNewSUT() {
+            return javax.swing.plaf.BorderUIResource.CompoundBorderUIResource.class;
         }
 
     }
@@ -89,11 +94,6 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<jav
             return javax.swing.plaf.BorderUIResource.TitledBorderUIResource.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.BorderUIResource> createNewSUT() {
-        return javax.swing.plaf.BorderUIResource.class;
     }
 
 }

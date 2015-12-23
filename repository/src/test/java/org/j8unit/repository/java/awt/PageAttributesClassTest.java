@@ -7,6 +7,33 @@ import org.junit.runner.RunWith;
 public class PageAttributesClassTest
 implements org.j8unit.repository.java.awt.PageAttributesClassTests<java.awt.PageAttributes> {
 
+    @Override
+    public Class<java.awt.PageAttributes> createNewSUT() {
+        return java.awt.PageAttributes.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class OrientationRequestedTypeClassTest
+    implements org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests<java.awt.PageAttributes.OrientationRequestedType> {
+
+        @Override
+        public Class<java.awt.PageAttributes.OrientationRequestedType> createNewSUT() {
+            return java.awt.PageAttributes.OrientationRequestedType.class;
+        }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PrintQualityTypeClassTest
+    implements org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests<java.awt.PageAttributes.PrintQualityType> {
+
+        @Override
+        public Class<java.awt.PageAttributes.PrintQualityType> createNewSUT() {
+            return java.awt.PageAttributes.PrintQualityType.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class ColorTypeClassTest
     implements org.j8unit.repository.java.awt.PageAttributesClassTests.ColorTypeClassTests<java.awt.PageAttributes.ColorType> {
@@ -30,17 +57,6 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<java.awt.Page
     }
 
     @RunWith(J8Unit4.class)
-    public static class OrientationRequestedTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests<java.awt.PageAttributes.OrientationRequestedType> {
-
-        @Override
-        public Class<java.awt.PageAttributes.OrientationRequestedType> createNewSUT() {
-            return java.awt.PageAttributes.OrientationRequestedType.class;
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class OriginTypeClassTest
     implements org.j8unit.repository.java.awt.PageAttributesClassTests.OriginTypeClassTests<java.awt.PageAttributes.OriginType> {
 
@@ -49,22 +65,6 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<java.awt.Page
             return java.awt.PageAttributes.OriginType.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PrintQualityTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests<java.awt.PageAttributes.PrintQualityType> {
-
-        @Override
-        public Class<java.awt.PageAttributes.PrintQualityType> createNewSUT() {
-            return java.awt.PageAttributes.PrintQualityType.class;
-        }
-
-    }
-
-    @Override
-    public Class<java.awt.PageAttributes> createNewSUT() {
-        return java.awt.PageAttributes.class;
     }
 
 }

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class CalendarClassTest
 implements org.j8unit.repository.java.util.CalendarClassTests<java.util.Calendar> {
 
+    @Override
+    public Class<java.util.Calendar> createNewSUT() {
+        return java.util.Calendar.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.CalendarClassTests.BuilderClassTests<java.util.Calendar.Builder> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.util.CalendarClassTests<java.util.Calendar
             return java.util.Calendar.Builder.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.Calendar> createNewSUT() {
-        return java.util.Calendar.class;
     }
 
 }

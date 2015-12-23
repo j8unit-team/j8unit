@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.Query class javax.management.Query}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.Query class javax.management.Query}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.management.QueryTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.QueryClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.QueryClassTests
+ *
+ * @j8unit.aim javax.management.Query
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

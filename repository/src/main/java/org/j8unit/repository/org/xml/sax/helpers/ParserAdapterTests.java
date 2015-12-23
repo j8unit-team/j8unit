@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.xml.sax.helpers.ParserAdapter class org.xml.sax.helpers.ParserAdapter}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.xml.sax.helpers.ParserAdapter class
+ * org.xml.sax.helpers.ParserAdapter}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.xml.sax.helpers.ParserAdapterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests
+ *
+ * @j8unit.aim org.xml.sax.helpers.ParserAdapter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,9 +30,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.ParserAdapter#characters(char[],int,int) public void
+     * Test method for {@link org.xml.sax.helpers.ParserAdapter#characters(char[], int, int) public void
      * org.xml.sax.helpers.ParserAdapter.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#characters(char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#endDocument() public void
      * org.xml.sax.helpers.ParserAdapter.endDocument() throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#endDocument()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +78,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#endElement(java.lang.String) public void
      * org.xml.sax.helpers.ParserAdapter.endElement(java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#endElement(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,7 +101,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#getContentHandler() public org.xml.sax.ContentHandler
      * org.xml.sax.helpers.ParserAdapter.getContentHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#getContentHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,7 +124,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#getDTDHandler() public org.xml.sax.DTDHandler
      * org.xml.sax.helpers.ParserAdapter.getDTDHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#getDTDHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +147,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#getEntityResolver() public org.xml.sax.EntityResolver
      * org.xml.sax.helpers.ParserAdapter.getEntityResolver()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#getEntityResolver()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,7 +170,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#getErrorHandler() public org.xml.sax.ErrorHandler
      * org.xml.sax.helpers.ParserAdapter.getErrorHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#getErrorHandler()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -147,7 +194,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#getFeature(java.lang.String) public boolean
      * org.xml.sax.helpers.ParserAdapter.getFeature(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#getFeature(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,7 +218,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#getProperty(java.lang.String) public java.lang.Object
      * org.xml.sax.helpers.ParserAdapter.getProperty(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#getProperty(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,9 +239,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.ParserAdapter#ignorableWhitespace(char[],int,int) public void
+     * Test method for {@link org.xml.sax.helpers.ParserAdapter#ignorableWhitespace(char[], int, int) public void
      * org.xml.sax.helpers.ParserAdapter.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#ignorableWhitespace(char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -200,7 +265,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#parse(org.xml.sax.InputSource) public void
      * org.xml.sax.helpers.ParserAdapter.parse(org.xml.sax.InputSource) throws
      * java.io.IOException,org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#parse(org.xml.sax.InputSource)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,7 +288,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#parse(java.lang.String) public void
      * org.xml.sax.helpers.ParserAdapter.parse(java.lang.String) throws java.io.IOException,org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#parse(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -232,10 +309,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.ParserAdapter#processingInstruction(java.lang.String,java.lang.String)
-     * public void org.xml.sax.helpers.ParserAdapter.processingInstruction(java.lang.String,java.lang.String) throws
+     * Test method for
+     * {@link org.xml.sax.helpers.ParserAdapter#processingInstruction(java.lang.String, java.lang.String) public void
+     * org.xml.sax.helpers.ParserAdapter.processingInstruction(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#processingInstruction(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -252,7 +336,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#setContentHandler(org.xml.sax.ContentHandler) public
      * void org.xml.sax.helpers.ParserAdapter.setContentHandler(org.xml.sax.ContentHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setContentHandler(org.xml.sax.ContentHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,7 +359,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#setDocumentLocator(org.xml.sax.Locator) public void
      * org.xml.sax.helpers.ParserAdapter.setDocumentLocator(org.xml.sax.Locator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setDocumentLocator(org.xml.sax.Locator)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,7 +382,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#setDTDHandler(org.xml.sax.DTDHandler) public void
      * org.xml.sax.helpers.ParserAdapter.setDTDHandler(org.xml.sax.DTDHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setDTDHandler(org.xml.sax.DTDHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -303,7 +405,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#setEntityResolver(org.xml.sax.EntityResolver) public
      * void org.xml.sax.helpers.ParserAdapter.setEntityResolver(org.xml.sax.EntityResolver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setEntityResolver(org.xml.sax.EntityResolver)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -320,7 +428,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#setErrorHandler(org.xml.sax.ErrorHandler) public void
      * org.xml.sax.helpers.ParserAdapter.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setErrorHandler(org.xml.sax.ErrorHandler)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,10 +449,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.ParserAdapter#setFeature(java.lang.String,boolean) public void
+     * Test method for {@link org.xml.sax.helpers.ParserAdapter#setFeature(java.lang.String, boolean) public void
      * org.xml.sax.helpers.ParserAdapter.setFeature(java.lang.String,boolean) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setFeature(java.lang.String, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -353,10 +473,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.ParserAdapter#setProperty(java.lang.String,java.lang.Object) public
+     * Test method for {@link org.xml.sax.helpers.ParserAdapter#setProperty(java.lang.String, java.lang.Object) public
      * void org.xml.sax.helpers.ParserAdapter.setProperty(java.lang.String,java.lang.Object) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#setProperty(java.lang.String, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -373,7 +499,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserAdapter#startDocument() public void
      * org.xml.sax.helpers.ParserAdapter.startDocument() throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#startDocument()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -388,10 +520,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.ParserAdapter#startElement(java.lang.String,org.xml.sax.AttributeList)
-     * public void org.xml.sax.helpers.ParserAdapter.startElement(java.lang.String,org.xml.sax.AttributeList) throws
+     * Test method for
+     * {@link org.xml.sax.helpers.ParserAdapter#startElement(java.lang.String, org.xml.sax.AttributeList) public void
+     * org.xml.sax.helpers.ParserAdapter.startElement(java.lang.String,org.xml.sax.AttributeList) throws
      * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim org.xml.sax.helpers.ParserAdapter#startElement(java.lang.String, org.xml.sax.AttributeList)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

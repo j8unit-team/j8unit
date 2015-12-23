@@ -1,6 +1,6 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of types of package
  * {@code org.omg.CosNaming.NamingContextExtPackage}.
  * </p>
  *

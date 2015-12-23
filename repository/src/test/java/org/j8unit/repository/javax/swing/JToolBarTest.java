@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class JToolBarTest
 implements org.j8unit.repository.javax.swing.JToolBarTests<javax.swing.JToolBar> {
 
+    @Override
+    public javax.swing.JToolBar createNewSUT() {
+        return new javax.swing.JToolBar();
+    }
+
     @RunWith(J8Unit4.class)
     public static class SeparatorTest
     implements org.j8unit.repository.javax.swing.JToolBarTests.SeparatorTests<javax.swing.JToolBar.Separator> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.JToolBarTests<javax.swing.JToolBar>
             return new javax.swing.JToolBar.Separator();
         }
 
-    }
-
-    @Override
-    public javax.swing.JToolBar createNewSUT() {
-        return new javax.swing.JToolBar();
     }
 
 }

@@ -8,15 +8,9 @@ import org.junit.runner.RunWith;
 public class UIDefaultsTest
 implements org.j8unit.repository.javax.swing.UIDefaultsTests<javax.swing.UIDefaults> {
 
-    @RunWith(J8Unit4.class)
-    public static class LazyInputMapTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests<javax.swing.UIDefaults.LazyInputMap> {
-
-        @Override
-        public javax.swing.UIDefaults.LazyInputMap createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.UIDefaults.LazyInputMap] available.");
-        }
-
+    @Override
+    public javax.swing.UIDefaults createNewSUT() {
+        return new javax.swing.UIDefaults();
     }
 
     @RunWith(J8Unit4.class)
@@ -30,9 +24,15 @@ implements org.j8unit.repository.javax.swing.UIDefaultsTests<javax.swing.UIDefau
 
     }
 
-    @Override
-    public javax.swing.UIDefaults createNewSUT() {
-        return new javax.swing.UIDefaults();
+    @RunWith(J8Unit4.class)
+    public static class LazyInputMapTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests<javax.swing.UIDefaults.LazyInputMap> {
+
+        @Override
+        public javax.swing.UIDefaults.LazyInputMap createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.UIDefaults.LazyInputMap] available.");
+        }
+
     }
 
 }

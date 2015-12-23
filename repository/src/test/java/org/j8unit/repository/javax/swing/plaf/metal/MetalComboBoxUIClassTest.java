@@ -7,16 +7,9 @@ import org.junit.runner.RunWith;
 public class MetalComboBoxUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests<javax.swing.plaf.metal.MetalComboBoxUI> {
 
-    @RunWith(J8Unit4.class)
-    public static class MetalComboBoxLayoutManagerClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests<javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager> {
-
-        @Override
-        public Class<javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager> createNewSUT() {
-            return javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager.class;
-        }
-
+    @Override
+    public Class<javax.swing.plaf.metal.MetalComboBoxUI> createNewSUT() {
+        return javax.swing.plaf.metal.MetalComboBoxUI.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -43,9 +36,16 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
 
     }
 
-    @Override
-    public Class<javax.swing.plaf.metal.MetalComboBoxUI> createNewSUT() {
-        return javax.swing.plaf.metal.MetalComboBoxUI.class;
+    @RunWith(J8Unit4.class)
+    public static class MetalComboBoxLayoutManagerClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests<javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager> {
+
+        @Override
+        public Class<javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager> createNewSUT() {
+            return javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager.class;
+        }
+
     }
 
 }

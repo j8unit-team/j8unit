@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.CosNaming.NamingContextPackage.InvalidName class
+ * Reusable J8Unit test interface for {@linkplain org.omg.CosNaming.NamingContextPackage.InvalidName class
  * org.omg.CosNaming.NamingContextPackage.InvalidName}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameClassTests
+ *
+ * @j8unit.aim org.omg.CosNaming.NamingContextPackage.InvalidName
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

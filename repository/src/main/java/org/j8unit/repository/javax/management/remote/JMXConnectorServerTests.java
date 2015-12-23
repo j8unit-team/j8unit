@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.management.remote.JMXConnectorServer class javax.management.remote.JMXConnectorServer},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.management.remote.JMXConnectorServer class
+ * javax.management.remote.JMXConnectorServer}, containing all instance relevant test methods (i.&thinsp;e., test
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.management.remote.JMXConnectorServerTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTests
+ *
+ * @j8unit.aim javax.management.remote.JMXConnectorServer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,9 +31,17 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>interface javax.management.remote.JMXAddressable</li>
+     * <li>interface javax.management.remote.JMXConnectorServerMBean</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -43,7 +56,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorServer#getConnectionIds() public java.lang.String[]
      * javax.management.remote.JMXConnectorServer.getConnectionIds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#getConnectionIds()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +79,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorServer#getMBeanServer() public synchronized
      * javax.management.MBeanServer javax.management.remote.JMXConnectorServer.getMBeanServer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#getMBeanServer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +101,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorServer#getNotificationInfo() public
      * javax.management.MBeanNotificationInfo[] javax.management.remote.JMXConnectorServer.getNotificationInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#getNotificationInfo()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +124,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorServer#postDeregister() public void
      * javax.management.remote.JMXConnectorServer.postDeregister()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#postDeregister()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +147,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorServer#postRegister(java.lang.Boolean) public void
      * javax.management.remote.JMXConnectorServer.postRegister(java.lang.Boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#postRegister(java.lang.Boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -127,7 +170,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorServer#preDeregister() public synchronized void
      * javax.management.remote.JMXConnectorServer.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#preDeregister()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,11 +192,18 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link javax.management.remote.JMXConnectorServer#preRegister(javax.management.MBeanServer,javax.management.ObjectName)
+     * {@link javax.management.remote.JMXConnectorServer#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
      * public synchronized javax.management.ObjectName
      * javax.management.remote.JMXConnectorServer.preRegister(javax.management.MBeanServer,javax.management.ObjectName)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#preRegister(javax.management.MBeanServer,
+     *             javax.management.ObjectName)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,7 +223,14 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * public synchronized void
      * javax.management.remote.JMXConnectorServer.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#setMBeanServerForwarder(javax.management.remote.
+     *             MBeanServerForwarder)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -185,7 +248,13 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * Test method for {@link javax.management.remote.JMXConnectorServer#toJMXConnector(java.util.Map) public
      * javax.management.remote.JMXConnector javax.management.remote.JMXConnectorServer.toJMXConnector(java.util.Map)
      * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.management.remote.JMXConnectorServer#toJMXConnector(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

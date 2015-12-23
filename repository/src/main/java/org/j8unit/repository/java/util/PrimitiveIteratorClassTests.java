@@ -7,9 +7,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.PrimitiveIterator interface java.util.PrimitiveIterator}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator interface java.util.PrimitiveIterator},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
+ * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests}.
  * </p>
  *
@@ -17,17 +17,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.util.PrimitiveIteratorTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.PrimitiveIteratorTests
+ *
+ * @j8unit.aim java.util.PrimitiveIterator
  */
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
@@ -37,9 +40,10 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.PrimitiveIterator$OfDouble interface java.util.PrimitiveIterator$OfDouble},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator.OfDouble interface
+     * java.util.PrimitiveIterator$OfDouble}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests}.
      * </p>
      *
@@ -47,7 +51,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -55,16 +59,24 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests
+     *
+     * @j8unit.aim java.util.PrimitiveIterator.OfDouble
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleClassTests<SUT extends java.util.PrimitiveIterator.OfDouble>
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfDouble#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -79,9 +91,10 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.PrimitiveIterator$OfInt interface java.util.PrimitiveIterator$OfInt}, containing
-     * all class relevant test methods (at least the test methods of accessible constructors and of accessible
-     * {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator.OfInt interface
+     * java.util.PrimitiveIterator$OfInt}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests}.
      * </p>
      *
@@ -89,7 +102,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -97,16 +110,24 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests
+     *
+     * @j8unit.aim java.util.PrimitiveIterator.OfInt
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntClassTests<SUT extends java.util.PrimitiveIterator.OfInt>
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfInt#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -121,9 +142,10 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.PrimitiveIterator$OfLong interface java.util.PrimitiveIterator$OfLong},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * Reusable J8Unit test interface for {@linkplain java.util.PrimitiveIterator.OfLong interface
+     * java.util.PrimitiveIterator$OfLong}, containing all class relevant test methods (at least the test methods of
+     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests}.
      * </p>
      *
@@ -131,7 +153,7 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -139,16 +161,24 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests
+     *
+     * @j8unit.aim java.util.PrimitiveIterator.OfLong
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongClassTests<SUT extends java.util.PrimitiveIterator.OfLong>
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim java.util.PrimitiveIterator.OfLong#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -161,6 +191,11 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
 
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.util.PrimitiveIterator#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

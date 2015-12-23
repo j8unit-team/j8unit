@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class JListClassTest
 implements org.j8unit.repository.javax.swing.JListClassTests<javax.swing.JList> {
 
+    @Override
+    public Class<javax.swing.JList> createNewSUT() {
+        return javax.swing.JList.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
     implements org.j8unit.repository.javax.swing.JListClassTests.DropLocationClassTests<javax.swing.JList.DropLocation> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.JListClassTests<javax.swing.JList> 
             return javax.swing.JList.DropLocation.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JList> createNewSUT() {
-        return javax.swing.JList.class;
     }
 
 }

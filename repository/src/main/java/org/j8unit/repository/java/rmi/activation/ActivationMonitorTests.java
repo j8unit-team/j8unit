@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.rmi.activation.ActivationMonitor interface java.rmi.activation.ActivationMonitor},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.rmi.activation.ActivationMonitor interface
+ * java.rmi.activation.ActivationMonitor}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.rmi.activation.ActivationMonitorTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.rmi.activation.ActivationMonitorClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.rmi.activation.ActivationMonitorClassTests
+ *
+ * @j8unit.aim java.rmi.activation.ActivationMonitor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,11 +30,18 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.rmi.activation.ActivationMonitor#activeObject(java.rmi.activation.ActivationID,java.rmi.MarshalledObject)
+     * {@link java.rmi.activation.ActivationMonitor#activeObject(java.rmi.activation.ActivationID, java.rmi.MarshalledObject)
      * public abstract void
      * java.rmi.activation.ActivationMonitor.activeObject(java.rmi.activation.ActivationID,java.rmi.MarshalledObject)
      * throws java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.activation.ActivationMonitor#activeObject(java.rmi.activation.ActivationID,
+     *             java.rmi.MarshalledObject)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,10 +56,16 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.rmi.activation.ActivationMonitor#inactiveGroup(java.rmi.activation.ActivationGroupID,long) public
+     * {@link java.rmi.activation.ActivationMonitor#inactiveGroup(java.rmi.activation.ActivationGroupID, long) public
      * abstract void java.rmi.activation.ActivationMonitor.inactiveGroup(java.rmi.activation.ActivationGroupID,long)
      * throws java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.activation.ActivationMonitor#inactiveGroup(java.rmi.activation.ActivationGroupID, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -64,7 +82,13 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * Test method for {@link java.rmi.activation.ActivationMonitor#inactiveObject(java.rmi.activation.ActivationID)
      * public abstract void java.rmi.activation.ActivationMonitor.inactiveObject(java.rmi.activation.ActivationID)
      * throws java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.rmi.activation.ActivationMonitor#inactiveObject(java.rmi.activation.ActivationID)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

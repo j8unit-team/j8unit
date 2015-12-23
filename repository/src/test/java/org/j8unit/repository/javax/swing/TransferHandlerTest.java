@@ -8,15 +8,9 @@ import org.junit.runner.RunWith;
 public class TransferHandlerTest
 implements org.j8unit.repository.javax.swing.TransferHandlerTests<javax.swing.TransferHandler> {
 
-    @RunWith(J8Unit4.class)
-    public static class DropLocationTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<javax.swing.TransferHandler.DropLocation> {
-
-        @Override
-        public javax.swing.TransferHandler.DropLocation createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler.DropLocation] available.");
-        }
-
+    @Override
+    public javax.swing.TransferHandler createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler] available.");
     }
 
     @RunWith(J8Unit4.class)
@@ -30,9 +24,15 @@ implements org.j8unit.repository.javax.swing.TransferHandlerTests<javax.swing.Tr
 
     }
 
-    @Override
-    public javax.swing.TransferHandler createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler] available.");
+    @RunWith(J8Unit4.class)
+    public static class DropLocationTest
+    implements org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<javax.swing.TransferHandler.DropLocation> {
+
+        @Override
+        public javax.swing.TransferHandler.DropLocation createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.swing.TransferHandler.DropLocation] available.");
+        }
+
     }
 
 }

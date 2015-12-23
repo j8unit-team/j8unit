@@ -1,7 +1,7 @@
 package org.j8unit.repository.javax.security.auth.login;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -10,27 +10,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.security.auth.login.Configuration class javax.security.auth.login.Configuration},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests}.
+ * Reusable J8Unit test interface for {@linkplain javax.security.auth.login.Configuration class
+ * javax.security.auth.login.Configuration}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.security.auth.login.ConfigurationTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.security.auth.login.ConfigurationTests
+ *
+ * @j8unit.aim javax.security.auth.login.Configuration
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -39,10 +42,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.security.auth.login.Configuration$Parameters interface
+     * Reusable J8Unit test interface for {@linkplain javax.security.auth.login.Configuration.Parameters interface
      * javax.security.auth.login.Configuration$Parameters}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests}.
      * </p>
      *
@@ -50,7 +53,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -58,16 +61,24 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration.Parameters
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParametersClassTests<SUT extends javax.security.auth.login.Configuration.Parameters>
-    extends J8UnitTest<Class<SUT>> {
+    extends RepositoryClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.security.auth.login.Configuration.Parameters#isAssignableFrom(java.lang.Class)
+         */
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
@@ -83,7 +94,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link javax.security.auth.login.Configuration#getConfiguration() public static
      * javax.security.auth.login.Configuration javax.security.auth.login.Configuration.getConfiguration()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getConfiguration()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,11 +115,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.security.auth.login.Configuration#getInstance(java.lang.String,javax.security.auth.login.Configuration.Parameters)
+     * {@link javax.security.auth.login.Configuration#getInstance(java.lang.String, javax.security.auth.login.Configuration.Parameters)
      * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters)
      * throws java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getInstance(java.lang.String,
+     *             javax.security.auth.login.Configuration.Parameters)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,11 +141,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.security.auth.login.Configuration#getInstance(java.lang.String,javax.security.auth.login.Configuration.Parameters,java.security.Provider)
+     * {@link javax.security.auth.login.Configuration#getInstance(java.lang.String, javax.security.auth.login.Configuration.Parameters, java.security.Provider)
      * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.security.Provider)
      * throws java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getInstance(java.lang.String,
+     *             javax.security.auth.login.Configuration.Parameters, java.security.Provider)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,11 +167,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.security.auth.login.Configuration#getInstance(java.lang.String,javax.security.auth.login.Configuration.Parameters,java.lang.String)
+     * {@link javax.security.auth.login.Configuration#getInstance(java.lang.String, javax.security.auth.login.Configuration.Parameters, java.lang.String)
      * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.lang.String)
      * throws java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#getInstance(java.lang.String,
+     *             javax.security.auth.login.Configuration.Parameters, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,7 +195,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * Test method for
      * {@link javax.security.auth.login.Configuration#setConfiguration(javax.security.auth.login.Configuration) public
      * static void javax.security.auth.login.Configuration.setConfiguration(javax.security.auth.login.Configuration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#setConfiguration(javax.security.auth.login.Configuration)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,6 +213,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.security.auth.login.Configuration#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

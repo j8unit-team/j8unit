@@ -1,7 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -10,27 +10,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.AbstractDocument class javax.swing.text.AbstractDocument}, containing all
- * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument class
+ * javax.swing.text.AbstractDocument}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests
+ *
+ * @j8unit.aim javax.swing.text.AbstractDocument
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,10 +43,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$AbstractElement class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.AbstractElement class
      * javax.swing.text.AbstractDocument$AbstractElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests}.
      * </p>
      *
@@ -51,7 +54,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -59,10 +62,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.AbstractElement
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -72,11 +78,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.AbstractDocument.AbstractElement#AbstractElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)
+         * {@link javax.swing.text.AbstractDocument.AbstractElement#AbstractElement(javax.swing.text.AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
          * public
          * javax.swing.text.AbstractDocument$AbstractElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.AbstractElement#AbstractElement(javax.swing.text.
+         *             AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -86,9 +101,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.AbstractDocument.AbstractElement sut = null; // = new
-                                                                                // AbstractElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet);
+                                                                                // AbstractElement(javax.swing.text.AbstractDocument,
+                                                                                // javax.swing.text.Element,
+                                                                                // javax.swing.text.AttributeSet);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.AbstractElement#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -103,10 +125,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$AttributeContext interface
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.AttributeContext interface
      * javax.swing.text.AbstractDocument$AttributeContext}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests}.
      * </p>
      *
@@ -114,7 +136,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -122,16 +144,24 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.AttributeContext
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeContextClassTests<SUT extends javax.swing.text.AbstractDocument.AttributeContext>
-    extends J8UnitTest<Class<SUT>> {
+    extends RepositoryClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.AttributeContext#isAssignableFrom(java.lang.Class)
+         */
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
@@ -145,10 +175,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$BranchElement class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.BranchElement class
      * javax.swing.text.AbstractDocument$BranchElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests}.
      * </p>
      *
@@ -156,7 +186,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -164,10 +194,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.BranchElement
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -175,11 +208,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.AbstractDocument.BranchElement#BranchElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)
+         * {@link javax.swing.text.AbstractDocument.BranchElement#BranchElement(javax.swing.text.AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
          * public
          * javax.swing.text.AbstractDocument$BranchElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.BranchElement#BranchElement(javax.swing.text.AbstractDocument,
+         *             javax.swing.text.Element, javax.swing.text.AttributeSet)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -189,9 +231,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.AbstractDocument.BranchElement sut = null; // = new
-                                                                              // BranchElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet);
+                                                                              // BranchElement(javax.swing.text.AbstractDocument,
+                                                                              // javax.swing.text.Element,
+                                                                              // javax.swing.text.AttributeSet);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.BranchElement#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -206,10 +255,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$Content interface
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.Content interface
      * javax.swing.text.AbstractDocument$Content}, containing all class relevant test methods (at least the test methods
-     * of accessible constructors and of accessible {@code static} methods). The counterpart test class containing the
-     * instance relevant test methods is
+     * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
+     * containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ContentTests}.
      * </p>
      *
@@ -217,7 +266,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -225,16 +274,24 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ContentTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ContentTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.Content
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ContentClassTests<SUT extends javax.swing.text.AbstractDocument.Content>
-    extends J8UnitTest<Class<SUT>> {
+    extends RepositoryClassTests<SUT> {
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.Content#isAssignableFrom(java.lang.Class)
+         */
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
@@ -248,10 +305,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$DefaultDocumentEvent class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.DefaultDocumentEvent class
      * javax.swing.text.AbstractDocument$DefaultDocumentEvent}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests}.
      * </p>
      *
@@ -259,7 +316,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -267,10 +324,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.DefaultDocumentEvent
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -278,11 +338,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.DocumentEventClassTests<SUT>, org.j8unit.repository.javax.swing.undo.CompoundEditClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.AbstractDocument.DefaultDocumentEvent#DefaultDocumentEvent(javax.swing.text.AbstractDocument,int,int,javax.swing.event.DocumentEvent.EventType)
+         * {@link javax.swing.text.AbstractDocument.DefaultDocumentEvent#DefaultDocumentEvent(javax.swing.text.AbstractDocument, int, int, javax.swing.event.DocumentEvent.EventType)
          * public
          * javax.swing.text.AbstractDocument$DefaultDocumentEvent(javax.swing.text.AbstractDocument,int,int,javax.swing.event.DocumentEvent$EventType)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.DefaultDocumentEvent#DefaultDocumentEvent(javax.swing.text.
+         *             AbstractDocument, int, int, javax.swing.event.DocumentEvent.EventType)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -292,9 +361,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.AbstractDocument.DefaultDocumentEvent sut = null; // = new
-                                                                                     // DefaultDocumentEvent(javax.swing.text.AbstractDocument,int,int,javax.swing.event.DocumentEvent.EventType);
+                                                                                     // DefaultDocumentEvent(javax.swing.text.AbstractDocument,
+                                                                                     // int, int,
+                                                                                     // javax.swing.event.DocumentEvent.EventType);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.DefaultDocumentEvent#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -309,10 +385,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$ElementEdit class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.ElementEdit class
      * javax.swing.text.AbstractDocument$ElementEdit}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests}.
      * </p>
      *
@@ -320,7 +396,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -328,10 +404,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.ElementEdit
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -340,11 +419,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.AbstractDocument.ElementEdit#ElementEdit(javax.swing.text.Element,int,javax.swing.text.Element[],javax.swing.text.Element[])
+         * {@link javax.swing.text.AbstractDocument.ElementEdit#ElementEdit(javax.swing.text.Element, int, javax.swing.text.Element[], javax.swing.text.Element[])
          * public
          * javax.swing.text.AbstractDocument$ElementEdit(javax.swing.text.Element,int,javax.swing.text.Element[],javax.swing.text.Element[])}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.ElementEdit#ElementEdit(javax.swing.text.Element, int,
+         *             javax.swing.text.Element[], javax.swing.text.Element[])
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -354,9 +442,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.AbstractDocument.ElementEdit sut = null; // = new
-                                                                            // ElementEdit(javax.swing.text.Element,int,javax.swing.text.Element[],javax.swing.text.Element[]);
+                                                                            // ElementEdit(javax.swing.text.Element,
+                                                                            // int, javax.swing.text.Element[],
+                                                                            // javax.swing.text.Element[]);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.ElementEdit#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -371,10 +466,10 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.AbstractDocument$LeafElement class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.text.AbstractDocument.LeafElement class
      * javax.swing.text.AbstractDocument$LeafElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.LeafElementTests}.
      * </p>
      *
@@ -382,7 +477,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -390,10 +485,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.LeafElementTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.AbstractDocumentTests.LeafElementTests
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument.LeafElement
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -401,11 +499,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
-         * {@link javax.swing.text.AbstractDocument.LeafElement#LeafElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)
+         * {@link javax.swing.text.AbstractDocument.LeafElement#LeafElement(javax.swing.text.AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
          * public
          * javax.swing.text.AbstractDocument$LeafElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
          * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.LeafElement#LeafElement(javax.swing.text.AbstractDocument,
+         *             javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -415,9 +522,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             @SuppressWarnings("unused")
             final javax.swing.text.AbstractDocument.LeafElement sut = null; // = new
-                                                                            // LeafElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int);
+                                                                            // LeafElement(javax.swing.text.AbstractDocument,
+                                                                            // javax.swing.text.Element,
+                                                                            // javax.swing.text.AttributeSet, int, int);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.text.AbstractDocument.LeafElement#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -430,6 +544,11 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.text.AbstractDocument#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

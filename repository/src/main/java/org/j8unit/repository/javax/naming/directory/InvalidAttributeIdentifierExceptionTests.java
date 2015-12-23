@@ -5,15 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.naming.directory.InvalidAttributeIdentifierException class
+ * Reusable J8Unit test interface for {@linkplain javax.naming.directory.InvalidAttributeIdentifierException class
  * javax.naming.directory.InvalidAttributeIdentifierException}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+ * class relevant test methods is
+ * {@link org.j8unit.repository.javax.naming.directory.InvalidAttributeIdentifierExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.naming.directory.InvalidAttributeIdentifierExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.naming.directory.InvalidAttributeIdentifierExceptionClassTests
+ *
+ * @j8unit.aim javax.naming.directory.InvalidAttributeIdentifierException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

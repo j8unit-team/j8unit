@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.stream.XMLEventWriter interface javax.xml.stream.XMLEventWriter}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.stream.XMLEventWriter interface
+ * javax.xml.stream.XMLEventWriter}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.stream.XMLEventWriterTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.stream.XMLEventWriterClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.stream.XMLEventWriterClassTests
+ *
+ * @j8unit.aim javax.xml.stream.XMLEventWriter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +32,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLEventWriter#add(javax.xml.stream.events.XMLEvent) public abstract void
      * javax.xml.stream.XMLEventWriter.add(javax.xml.stream.events.XMLEvent) throws javax.xml.stream.XMLStreamException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#add(javax.xml.stream.events.XMLEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +55,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventWriter#add(javax.xml.stream.XMLEventReader) public abstract void
      * javax.xml.stream.XMLEventWriter.add(javax.xml.stream.XMLEventReader) throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#add(javax.xml.stream.XMLEventReader)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +77,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventWriter#close() public abstract void
      * javax.xml.stream.XMLEventWriter.close() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventWriter#flush() public abstract void
      * javax.xml.stream.XMLEventWriter.flush() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#flush()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +121,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventWriter#getNamespaceContext() public abstract
      * javax.xml.namespace.NamespaceContext javax.xml.stream.XMLEventWriter.getNamespaceContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#getNamespaceContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,7 +144,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLEventWriter#getPrefix(java.lang.String) public abstract
      * java.lang.String javax.xml.stream.XMLEventWriter.getPrefix(java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#getPrefix(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +167,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLEventWriter#setDefaultNamespace(java.lang.String) public abstract void
      * javax.xml.stream.XMLEventWriter.setDefaultNamespace(java.lang.String) throws javax.xml.stream.XMLStreamException}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#setDefaultNamespace(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +190,13 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
      * Test method for {@link javax.xml.stream.XMLEventWriter#setNamespaceContext(javax.xml.namespace.NamespaceContext)
      * public abstract void javax.xml.stream.XMLEventWriter.setNamespaceContext(javax.xml.namespace.NamespaceContext)
      * throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#setNamespaceContext(javax.xml.namespace.NamespaceContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,10 +210,16 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLEventWriter#setPrefix(java.lang.String,java.lang.String) public
+     * Test method for {@link javax.xml.stream.XMLEventWriter#setPrefix(java.lang.String, java.lang.String) public
      * abstract void javax.xml.stream.XMLEventWriter.setPrefix(java.lang.String,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventWriter#setPrefix(java.lang.String, java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

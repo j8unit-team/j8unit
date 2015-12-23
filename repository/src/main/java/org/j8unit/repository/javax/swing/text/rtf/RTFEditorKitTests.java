@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.text.rtf.RTFEditorKit class javax.swing.text.rtf.RTFEditorKit}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.text.rtf.RTFEditorKit class
+ * javax.swing.text.rtf.RTFEditorKit}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitClassTests
+ *
+ * @j8unit.aim javax.swing.text.rtf.RTFEditorKit
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.text.rtf.RTFEditorKit#getContentType() public java.lang.String
      * javax.swing.text.rtf.RTFEditorKit.getContentType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.rtf.RTFEditorKit#getContentType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -41,10 +52,17 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.InputStream,javax.swing.text.Document,int)
-     * public void javax.swing.text.rtf.RTFEditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
+     * Test method for
+     * {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.InputStream, javax.swing.text.Document, int) public void
+     * javax.swing.text.rtf.RTFEditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.rtf.RTFEditorKit#read(java.io.InputStream, javax.swing.text.Document, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,10 +77,16 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.Reader,javax.swing.text.Document,int)
+     * Test method for {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.Reader, javax.swing.text.Document, int)
      * public void javax.swing.text.rtf.RTFEditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.rtf.RTFEditorKit#read(java.io.Reader, javax.swing.text.Document, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,10 +102,16 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.OutputStream,javax.swing.text.Document,int,int) public
+     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public
      * void javax.swing.text.rtf.RTFEditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.rtf.RTFEditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,10 +126,17 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.Writer,javax.swing.text.Document,int,int)
-     * public void javax.swing.text.rtf.RTFEditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
+     * Test method for
+     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.Writer, javax.swing.text.Document, int, int) public void
+     * javax.swing.text.rtf.RTFEditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.text.rtf.RTFEditorKit#write(java.io.Writer, javax.swing.text.Document, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

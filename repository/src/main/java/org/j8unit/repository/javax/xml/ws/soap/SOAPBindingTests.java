@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.ws.soap.SOAPBinding interface javax.xml.ws.soap.SOAPBinding}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.ws.soap.SOAPBinding interface javax.xml.ws.soap.SOAPBinding}
+ * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.ws.soap.SOAPBindingTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.ws.soap.SOAPBindingClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.ws.soap.SOAPBindingClassTests
+ *
+ * @j8unit.aim javax.xml.ws.soap.SOAPBinding
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#getMessageFactory() public abstract
      * javax.xml.soap.MessageFactory javax.xml.ws.soap.SOAPBinding.getMessageFactory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.soap.SOAPBinding#getMessageFactory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#getRoles() public abstract java.util.Set
      * javax.xml.ws.soap.SOAPBinding.getRoles()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.soap.SOAPBinding#getRoles()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#getSOAPFactory() public abstract javax.xml.soap.SOAPFactory
      * javax.xml.ws.soap.SOAPBinding.getSOAPFactory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.soap.SOAPBinding#getSOAPFactory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#isMTOMEnabled() public abstract boolean
      * javax.xml.ws.soap.SOAPBinding.isMTOMEnabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.soap.SOAPBinding#isMTOMEnabled()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#setMTOMEnabled(boolean) public abstract void
      * javax.xml.ws.soap.SOAPBinding.setMTOMEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.soap.SOAPBinding#setMTOMEnabled(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#setRoles(java.util.Set) public abstract void
      * javax.xml.ws.soap.SOAPBinding.setRoles(java.util.Set)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.ws.soap.SOAPBinding#setRoles(java.util.Set)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

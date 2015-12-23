@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class PKIXRevocationCheckerClassTest
 implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests<java.security.cert.PKIXRevocationChecker> {
 
+    @Override
+    public Class<java.security.cert.PKIXRevocationChecker> createNewSUT() {
+        return java.security.cert.PKIXRevocationChecker.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class OptionClassTest
     implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests.OptionClassTests<java.security.cert.PKIXRevocationChecker.Option> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
             return java.security.cert.PKIXRevocationChecker.Option.class;
         }
 
-    }
-
-    @Override
-    public Class<java.security.cert.PKIXRevocationChecker> createNewSUT() {
-        return java.security.cert.PKIXRevocationChecker.class;
     }
 
 }

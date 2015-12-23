@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.sql.SQLIntegrityConstraintViolationException class
+ * Reusable J8Unit test interface for {@linkplain java.sql.SQLIntegrityConstraintViolationException class
  * java.sql.SQLIntegrityConstraintViolationException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionClassTests
+ *
+ * @j8unit.aim java.sql.SQLIntegrityConstraintViolationException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

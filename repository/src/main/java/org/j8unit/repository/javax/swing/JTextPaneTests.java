@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JTextPane class javax.swing.JTextPane}, containing all instance relevant test
- * methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JTextPane class javax.swing.JTextPane}, containing all
+ * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.JTextPaneTests}
+ * .
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JTextPaneClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JTextPaneClassTests
+ *
+ * @j8unit.aim javax.swing.JTextPane
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,9 +29,15 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTextPane#addStyle(java.lang.String,javax.swing.text.Style) public
+     * Test method for {@link javax.swing.JTextPane#addStyle(java.lang.String, javax.swing.text.Style) public
      * javax.swing.text.Style javax.swing.JTextPane.addStyle(java.lang.String,javax.swing.text.Style)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#addStyle(java.lang.String, javax.swing.text.Style)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getCharacterAttributes() public javax.swing.text.AttributeSet
      * javax.swing.JTextPane.getCharacterAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getCharacterAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getInputAttributes() public javax.swing.text.MutableAttributeSet
      * javax.swing.JTextPane.getInputAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getInputAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getLogicalStyle() public javax.swing.text.Style
      * javax.swing.JTextPane.getLogicalStyle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getLogicalStyle()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getParagraphAttributes() public javax.swing.text.AttributeSet
      * javax.swing.JTextPane.getParagraphAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getParagraphAttributes()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getStyle(java.lang.String) public javax.swing.text.Style
      * javax.swing.JTextPane.getStyle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getStyle(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getStyledDocument() public javax.swing.text.StyledDocument
      * javax.swing.JTextPane.getStyledDocument()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getStyledDocument()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#getUIClassID() public java.lang.String
      * javax.swing.JTextPane.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#getUIClassID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -155,7 +208,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#insertComponent(java.awt.Component) public void
      * javax.swing.JTextPane.insertComponent(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#insertComponent(java.awt.Component)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,7 +230,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#insertIcon(javax.swing.Icon) public void
      * javax.swing.JTextPane.insertIcon(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#insertIcon(javax.swing.Icon)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,7 +252,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#removeStyle(java.lang.String) public void
      * javax.swing.JTextPane.removeStyle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#removeStyle(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,7 +274,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#replaceSelection(java.lang.String) public void
      * javax.swing.JTextPane.replaceSelection(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#replaceSelection(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,9 +295,15 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTextPane#setCharacterAttributes(javax.swing.text.AttributeSet,boolean) public
-     * void javax.swing.JTextPane.setCharacterAttributes(javax.swing.text.AttributeSet,boolean)}.
+     * Test method for {@link javax.swing.JTextPane#setCharacterAttributes(javax.swing.text.AttributeSet, boolean)
+     * public void javax.swing.JTextPane.setCharacterAttributes(javax.swing.text.AttributeSet,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#setCharacterAttributes(javax.swing.text.AttributeSet, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,7 +319,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#setDocument(javax.swing.text.Document) public void
      * javax.swing.JTextPane.setDocument(javax.swing.text.Document)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#setDocument(javax.swing.text.Document)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,7 +342,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#setEditorKit(javax.swing.text.EditorKit) public final void
      * javax.swing.JTextPane.setEditorKit(javax.swing.text.EditorKit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#setEditorKit(javax.swing.text.EditorKit)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,7 +365,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#setLogicalStyle(javax.swing.text.Style) public void
      * javax.swing.JTextPane.setLogicalStyle(javax.swing.text.Style)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#setLogicalStyle(javax.swing.text.Style)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -284,9 +385,15 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTextPane#setParagraphAttributes(javax.swing.text.AttributeSet,boolean) public
-     * void javax.swing.JTextPane.setParagraphAttributes(javax.swing.text.AttributeSet,boolean)}.
+     * Test method for {@link javax.swing.JTextPane#setParagraphAttributes(javax.swing.text.AttributeSet, boolean)
+     * public void javax.swing.JTextPane.setParagraphAttributes(javax.swing.text.AttributeSet,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#setParagraphAttributes(javax.swing.text.AttributeSet, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,7 +409,13 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JTextPane#setStyledDocument(javax.swing.text.StyledDocument) public void
      * javax.swing.JTextPane.setStyledDocument(javax.swing.text.StyledDocument)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JTextPane#setStyledDocument(javax.swing.text.StyledDocument)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

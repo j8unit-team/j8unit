@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters interface
+ * Reusable J8Unit test interface for {@linkplain javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters interface
  * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdaptersTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdaptersClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdaptersClassTests
+ *
+ * @j8unit.aim javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,7 +32,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * Test method for {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters#value() public abstract
      * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter[]
      * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters.value()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters#value()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

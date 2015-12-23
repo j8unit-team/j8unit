@@ -7,6 +7,23 @@ import org.junit.runner.RunWith;
 public class BasicOptionPaneUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests<javax.swing.plaf.basic.BasicOptionPaneUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicOptionPaneUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicOptionPaneUI.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements
+    org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests<javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler> {
+
+        @Override
+        public Class<javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler> createNewSUT() {
+            return javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class ButtonActionListenerClassTest
     implements
@@ -29,23 +46,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
             return javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements
-    org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests<javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler> {
-
-        @Override
-        public Class<javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler> createNewSUT() {
-            return javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler.class;
-        }
-
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicOptionPaneUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicOptionPaneUI.class;
     }
 
 }

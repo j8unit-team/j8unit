@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper class
+ * Reusable J8Unit test interface for {@linkplain org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper class
  * org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelperTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelperClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelperClassTests
+ *
+ * @j8unit.aim org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

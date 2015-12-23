@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class RowSorterClassTest
 implements org.j8unit.repository.javax.swing.RowSorterClassTests<javax.swing.RowSorter> {
 
+    @Override
+    public Class<javax.swing.RowSorter> createNewSUT() {
+        return javax.swing.RowSorter.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class SortKeyClassTest
     implements org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests<javax.swing.RowSorter.SortKey> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<javax.swing.Row
             return javax.swing.RowSorter.SortKey.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.RowSorter> createNewSUT() {
-        return javax.swing.RowSorter.class;
     }
 
 }

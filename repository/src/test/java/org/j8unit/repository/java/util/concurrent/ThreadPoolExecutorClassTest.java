@@ -7,6 +7,23 @@ import org.junit.runner.RunWith;
 public class ThreadPoolExecutorClassTest
 implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<java.util.concurrent.ThreadPoolExecutor> {
 
+    @Override
+    public Class<java.util.concurrent.ThreadPoolExecutor> createNewSUT() {
+        return java.util.concurrent.ThreadPoolExecutor.class;
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DiscardPolicyClassTest
+    implements
+    org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests<java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> {
+
+        @Override
+        public Class<java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> createNewSUT() {
+            return java.util.concurrent.ThreadPoolExecutor.DiscardPolicy.class;
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class AbortPolicyClassTest
     implements
@@ -41,23 +58,6 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
             return java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy.class;
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DiscardPolicyClassTest
-    implements
-    org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests<java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> {
-
-        @Override
-        public Class<java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> createNewSUT() {
-            return java.util.concurrent.ThreadPoolExecutor.DiscardPolicy.class;
-        }
-
-    }
-
-    @Override
-    public Class<java.util.concurrent.ThreadPoolExecutor> createNewSUT() {
-        return java.util.concurrent.ThreadPoolExecutor.class;
     }
 
 }

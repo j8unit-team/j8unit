@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class BasicTableHeaderUIClassTest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests<javax.swing.plaf.basic.BasicTableHeaderUI> {
 
+    @Override
+    public Class<javax.swing.plaf.basic.BasicTableHeaderUI> createNewSUT() {
+        return javax.swing.plaf.basic.BasicTableHeaderUI.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest
     implements
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
             return javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.plaf.basic.BasicTableHeaderUI> createNewSUT() {
-        return javax.swing.plaf.basic.BasicTableHeaderUI.class;
     }
 
 }

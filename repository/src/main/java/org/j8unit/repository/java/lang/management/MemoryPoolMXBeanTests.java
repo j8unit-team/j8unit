@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.lang.management.MemoryPoolMXBean interface java.lang.management.MemoryPoolMXBean},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.lang.management.MemoryPoolMXBean interface
+ * java.lang.management.MemoryPoolMXBean}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.lang.management.MemoryPoolMXBeanTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.lang.management.MemoryPoolMXBeanClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.lang.management.MemoryPoolMXBeanClassTests
+ *
+ * @j8unit.aim java.lang.management.MemoryPoolMXBean
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getCollectionUsage() public abstract
      * java.lang.management.MemoryUsage java.lang.management.MemoryPoolMXBean.getCollectionUsage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getCollectionUsage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getCollectionUsageThreshold() public abstract long
      * java.lang.management.MemoryPoolMXBean.getCollectionUsageThreshold()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getCollectionUsageThreshold()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,7 +75,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getCollectionUsageThresholdCount() public abstract
      * long java.lang.management.MemoryPoolMXBean.getCollectionUsageThresholdCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getCollectionUsageThresholdCount()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,7 +97,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getMemoryManagerNames() public abstract
      * java.lang.String[] java.lang.management.MemoryPoolMXBean.getMemoryManagerNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getMemoryManagerNames()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,7 +119,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getName() public abstract java.lang.String
      * java.lang.management.MemoryPoolMXBean.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,7 +141,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getPeakUsage() public abstract
      * java.lang.management.MemoryUsage java.lang.management.MemoryPoolMXBean.getPeakUsage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getPeakUsage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,7 +163,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getType() public abstract
      * java.lang.management.MemoryType java.lang.management.MemoryPoolMXBean.getType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getType()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,7 +185,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getUsage() public abstract
      * java.lang.management.MemoryUsage java.lang.management.MemoryPoolMXBean.getUsage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getUsage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,7 +207,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getUsageThreshold() public abstract long
      * java.lang.management.MemoryPoolMXBean.getUsageThreshold()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getUsageThreshold()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,7 +229,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#getUsageThresholdCount() public abstract long
      * java.lang.management.MemoryPoolMXBean.getUsageThresholdCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#getUsageThresholdCount()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,7 +251,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#isCollectionUsageThresholdExceeded() public abstract
      * boolean java.lang.management.MemoryPoolMXBean.isCollectionUsageThresholdExceeded()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#isCollectionUsageThresholdExceeded()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,7 +273,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#isCollectionUsageThresholdSupported() public
      * abstract boolean java.lang.management.MemoryPoolMXBean.isCollectionUsageThresholdSupported()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#isCollectionUsageThresholdSupported()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,7 +295,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#isUsageThresholdExceeded() public abstract boolean
      * java.lang.management.MemoryPoolMXBean.isUsageThresholdExceeded()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#isUsageThresholdExceeded()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,7 +317,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#isUsageThresholdSupported() public abstract boolean
      * java.lang.management.MemoryPoolMXBean.isUsageThresholdSupported()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#isUsageThresholdSupported()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,7 +339,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#isValid() public abstract boolean
      * java.lang.management.MemoryPoolMXBean.isValid()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#isValid()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -266,7 +361,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#resetPeakUsage() public abstract void
      * java.lang.management.MemoryPoolMXBean.resetPeakUsage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#resetPeakUsage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -282,7 +383,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#setCollectionUsageThreshold(long) public abstract
      * void java.lang.management.MemoryPoolMXBean.setCollectionUsageThreshold(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#setCollectionUsageThreshold(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,7 +405,13 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * <p>
      * Test method for {@link java.lang.management.MemoryPoolMXBean#setUsageThreshold(long) public abstract void
      * java.lang.management.MemoryPoolMXBean.setUsageThreshold(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.management.MemoryPoolMXBean#setUsageThreshold(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,14 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.JList class javax.swing.JList}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.JList class javax.swing.JList}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
+ * interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.JListTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.JListClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.JListClassTests
+ *
+ * @j8unit.aim javax.swing.JList
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,14 +29,19 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.JList$DropLocation class javax.swing.JList$DropLocation}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Reusable J8Unit test interface for {@linkplain javax.swing.JList.DropLocation class
+     * javax.swing.JList$DropLocation}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.JListTests.DropLocationTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.JListClassTests.DropLocationClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.JListClassTests.DropLocationClassTests
+     *
+     * @j8unit.aim javax.swing.JList.DropLocation
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,7 +52,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.JList.DropLocation#getIndex() public int
          * javax.swing.JList$DropLocation.getIndex()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.JList.DropLocation#getIndex()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -59,7 +74,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.JList.DropLocation#isInsert() public boolean
          * javax.swing.JList$DropLocation.isInsert()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.JList.DropLocation#isInsert()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -75,7 +96,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * <p>
          * Test method for {@link javax.swing.JList.DropLocation#toString() public java.lang.String
          * javax.swing.JList$DropLocation.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.JList.DropLocation#toString()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -94,7 +121,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#addListSelectionListener(javax.swing.event.ListSelectionListener) public
      * void javax.swing.JList.addListSelectionListener(javax.swing.event.ListSelectionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#addListSelectionListener(javax.swing.event.ListSelectionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,9 +141,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#addSelectionInterval(int,int) public void
+     * Test method for {@link javax.swing.JList#addSelectionInterval(int, int) public void
      * javax.swing.JList.addSelectionInterval(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#addSelectionInterval(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,7 +164,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#clearSelection() public void javax.swing.JList.clearSelection()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#clearSelection()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,7 +186,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#ensureIndexIsVisible(int) public void
      * javax.swing.JList.ensureIndexIsVisible(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#ensureIndexIsVisible(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,7 +208,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getAccessibleContext() public javax.accessibility.AccessibleContext
      * javax.swing.JList.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getAccessibleContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -174,7 +231,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getAnchorSelectionIndex() public int
      * javax.swing.JList.getAnchorSelectionIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getAnchorSelectionIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,9 +251,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#getCellBounds(int,int) public java.awt.Rectangle
+     * Test method for {@link javax.swing.JList#getCellBounds(int, int) public java.awt.Rectangle
      * javax.swing.JList.getCellBounds(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getCellBounds(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,7 +275,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getCellRenderer() public javax.swing.ListCellRenderer
      * javax.swing.JList.getCellRenderer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getCellRenderer()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -221,7 +296,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getDragEnabled() public boolean javax.swing.JList.getDragEnabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getDragEnabled()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,7 +318,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getDropLocation() public final javax.swing.JList$DropLocation
      * javax.swing.JList.getDropLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getDropLocation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,7 +340,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getDropMode() public final javax.swing.DropMode
      * javax.swing.JList.getDropMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getDropMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,7 +362,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getFirstVisibleIndex() public int
      * javax.swing.JList.getFirstVisibleIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getFirstVisibleIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -284,7 +383,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getFixedCellHeight() public int javax.swing.JList.getFixedCellHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getFixedCellHeight()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,7 +404,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getFixedCellWidth() public int javax.swing.JList.getFixedCellWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getFixedCellWidth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -315,7 +426,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getLastVisibleIndex() public int
      * javax.swing.JList.getLastVisibleIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getLastVisibleIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -331,7 +448,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getLayoutOrientation() public int
      * javax.swing.JList.getLayoutOrientation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getLayoutOrientation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -347,7 +470,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getLeadSelectionIndex() public int
      * javax.swing.JList.getLeadSelectionIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getLeadSelectionIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,7 +492,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getListSelectionListeners() public
      * javax.swing.event.ListSelectionListener[] javax.swing.JList.getListSelectionListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getListSelectionListeners()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -379,7 +514,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getMaxSelectionIndex() public int
      * javax.swing.JList.getMaxSelectionIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getMaxSelectionIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -395,7 +536,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getMinSelectionIndex() public int
      * javax.swing.JList.getMinSelectionIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getMinSelectionIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -410,7 +557,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getModel() public javax.swing.ListModel javax.swing.JList.getModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getModel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -424,9 +577,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#getNextMatch(java.lang.String,int,javax.swing.text.Position.Bias) public
-     * int javax.swing.JList.getNextMatch(java.lang.String,int,javax.swing.text.Position$Bias)}.
+     * Test method for {@link javax.swing.JList#getNextMatch(java.lang.String, int, javax.swing.text.Position.Bias)
+     * public int javax.swing.JList.getNextMatch(java.lang.String,int,javax.swing.text.Position$Bias)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getNextMatch(java.lang.String, int, javax.swing.text.Position.Bias)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -442,7 +601,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getPreferredScrollableViewportSize() public java.awt.Dimension
      * javax.swing.JList.getPreferredScrollableViewportSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getPreferredScrollableViewportSize()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -459,7 +624,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getPrototypeCellValue() public java.lang.Object
      * javax.swing.JList.getPrototypeCellValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getPrototypeCellValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -473,9 +644,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#getScrollableBlockIncrement(java.awt.Rectangle,int,int) public int
+     * Test method for {@link javax.swing.JList#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JList.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getScrollableBlockIncrement(java.awt.Rectangle, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -492,7 +669,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getScrollableTracksViewportHeight() public boolean
      * javax.swing.JList.getScrollableTracksViewportHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getScrollableTracksViewportHeight()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -509,7 +692,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getScrollableTracksViewportWidth() public boolean
      * javax.swing.JList.getScrollableTracksViewportWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getScrollableTracksViewportWidth()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -524,9 +713,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#getScrollableUnitIncrement(java.awt.Rectangle,int,int) public int
+     * Test method for {@link javax.swing.JList#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JList.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getScrollableUnitIncrement(java.awt.Rectangle, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -542,7 +737,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getSelectedIndex() public int javax.swing.JList.getSelectedIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectedIndex()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -558,7 +759,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectedIndices() public int[]
      * javax.swing.JList.getSelectedIndices()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectedIndices()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,7 +781,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectedValue() public java.lang.Object
      * javax.swing.JList.getSelectedValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectedValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -590,7 +803,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectedValues() public java.lang.Object[]
      * javax.swing.JList.getSelectedValues()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectedValues()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -606,7 +825,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectedValuesList() public java.util.List
      * javax.swing.JList.getSelectedValuesList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectedValuesList()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -622,7 +847,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectionBackground() public java.awt.Color
      * javax.swing.JList.getSelectionBackground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectionBackground()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -638,7 +869,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectionForeground() public java.awt.Color
      * javax.swing.JList.getSelectionForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectionForeground()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -653,7 +890,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getSelectionMode() public int javax.swing.JList.getSelectionMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectionMode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -669,7 +912,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getSelectionModel() public javax.swing.ListSelectionModel
      * javax.swing.JList.getSelectionModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getSelectionModel()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -685,7 +934,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
      * javax.swing.JList.getToolTipText(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getToolTipText(java.awt.event.MouseEvent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -701,7 +956,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getUI() public javax.swing.plaf.ListUI javax.swing.JList.getUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -717,7 +978,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getUIClassID() public java.lang.String javax.swing.JList.getUIClassID()}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getUIClassID()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -734,7 +1001,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#getValueIsAdjusting() public boolean
      * javax.swing.JList.getValueIsAdjusting()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getValueIsAdjusting()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -749,7 +1022,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#getVisibleRowCount() public int javax.swing.JList.getVisibleRowCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#getVisibleRowCount()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -765,7 +1044,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#indexToLocation(int) public java.awt.Point
      * javax.swing.JList.indexToLocation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#indexToLocation(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -781,7 +1066,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#isSelectedIndex(int) public boolean
      * javax.swing.JList.isSelectedIndex(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#isSelectedIndex(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -796,7 +1087,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#isSelectionEmpty() public boolean javax.swing.JList.isSelectionEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#isSelectionEmpty()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -812,7 +1109,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#locationToIndex(java.awt.Point) public int
      * javax.swing.JList.locationToIndex(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#locationToIndex(java.awt.Point)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -828,7 +1131,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#removeListSelectionListener(javax.swing.event.ListSelectionListener)
      * public void javax.swing.JList.removeListSelectionListener(javax.swing.event.ListSelectionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#removeListSelectionListener(javax.swing.event.ListSelectionListener)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -842,9 +1151,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#removeSelectionInterval(int,int) public void
+     * Test method for {@link javax.swing.JList#removeSelectionInterval(int, int) public void
      * javax.swing.JList.removeSelectionInterval(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#removeSelectionInterval(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -860,7 +1175,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setCellRenderer(javax.swing.ListCellRenderer) public void
      * javax.swing.JList.setCellRenderer(javax.swing.ListCellRenderer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setCellRenderer(javax.swing.ListCellRenderer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -876,7 +1197,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setDragEnabled(boolean) public void
      * javax.swing.JList.setDragEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setDragEnabled(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -892,7 +1219,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setDropMode(javax.swing.DropMode) public final void
      * javax.swing.JList.setDropMode(javax.swing.DropMode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setDropMode(javax.swing.DropMode)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -908,7 +1241,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setFixedCellHeight(int) public void
      * javax.swing.JList.setFixedCellHeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setFixedCellHeight(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -924,7 +1263,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setFixedCellWidth(int) public void
      * javax.swing.JList.setFixedCellWidth(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setFixedCellWidth(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -940,7 +1285,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setLayoutOrientation(int) public void
      * javax.swing.JList.setLayoutOrientation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setLayoutOrientation(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -956,7 +1307,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setListData(java.lang.Object[]) public void
      * javax.swing.JList.setListData(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setListData(java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -972,7 +1329,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setListData(java.util.Vector) public void
      * javax.swing.JList.setListData(java.util.Vector)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setListData(java.util.Vector)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -988,7 +1351,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setModel(javax.swing.ListModel) public void
      * javax.swing.JList.setModel(javax.swing.ListModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setModel(javax.swing.ListModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1004,7 +1373,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setPrototypeCellValue(java.lang.Object) public void
      * javax.swing.JList.setPrototypeCellValue(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setPrototypeCellValue(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1020,7 +1395,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setSelectedIndex(int) public void
      * javax.swing.JList.setSelectedIndex(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectedIndex(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1036,7 +1417,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setSelectedIndices(int[]) public void
      * javax.swing.JList.setSelectedIndices(int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectedIndices(int[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1050,9 +1437,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#setSelectedValue(java.lang.Object,boolean) public void
+     * Test method for {@link javax.swing.JList#setSelectedValue(java.lang.Object, boolean) public void
      * javax.swing.JList.setSelectedValue(java.lang.Object,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectedValue(java.lang.Object, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1068,7 +1461,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setSelectionBackground(java.awt.Color) public void
      * javax.swing.JList.setSelectionBackground(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectionBackground(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1084,7 +1483,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setSelectionForeground(java.awt.Color) public void
      * javax.swing.JList.setSelectionForeground(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectionForeground(java.awt.Color)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1098,9 +1503,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JList#setSelectionInterval(int,int) public void
+     * Test method for {@link javax.swing.JList#setSelectionInterval(int, int) public void
      * javax.swing.JList.setSelectionInterval(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectionInterval(int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1116,7 +1527,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setSelectionMode(int) public void
      * javax.swing.JList.setSelectionMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectionMode(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1132,7 +1549,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setSelectionModel(javax.swing.ListSelectionModel) public void
      * javax.swing.JList.setSelectionModel(javax.swing.ListSelectionModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setSelectionModel(javax.swing.ListSelectionModel)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1148,7 +1571,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setUI(javax.swing.plaf.ListUI) public void
      * javax.swing.JList.setUI(javax.swing.plaf.ListUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setUI(javax.swing.plaf.ListUI)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1164,7 +1593,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setValueIsAdjusting(boolean) public void
      * javax.swing.JList.setValueIsAdjusting(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setValueIsAdjusting(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1180,7 +1615,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.JList#setVisibleRowCount(int) public void
      * javax.swing.JList.setVisibleRowCount(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#setVisibleRowCount(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1195,7 +1636,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.swing.JList#updateUI() public void javax.swing.JList.updateUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.JList#updateUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

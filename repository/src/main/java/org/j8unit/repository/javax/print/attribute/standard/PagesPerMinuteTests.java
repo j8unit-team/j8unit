@@ -8,15 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.print.attribute.standard.PagesPerMinute class
+ * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.PagesPerMinute class
  * javax.print.attribute.standard.PagesPerMinute}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.print.attribute.standard.PagesPerMinuteTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.print.attribute.standard.PagesPerMinuteClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.print.attribute.standard.PagesPerMinuteClassTests
+ *
+ * @j8unit.aim javax.print.attribute.standard.PagesPerMinute
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -27,7 +31,13 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
      * <p>
      * Test method for {@link javax.print.attribute.standard.PagesPerMinute#equals(java.lang.Object) public boolean
      * javax.print.attribute.standard.PagesPerMinute.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.PagesPerMinute#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
      * <p>
      * Test method for {@link javax.print.attribute.standard.PagesPerMinute#getCategory() public final java.lang.Class
      * javax.print.attribute.standard.PagesPerMinute.getCategory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.PagesPerMinute#getCategory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,7 +77,13 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
      * <p>
      * Test method for {@link javax.print.attribute.standard.PagesPerMinute#getName() public final java.lang.String
      * javax.print.attribute.standard.PagesPerMinute.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.print.attribute.standard.PagesPerMinute#getName()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

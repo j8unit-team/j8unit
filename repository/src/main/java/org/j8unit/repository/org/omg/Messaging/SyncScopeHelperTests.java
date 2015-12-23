@@ -5,14 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.Messaging.SyncScopeHelper class org.omg.Messaging.SyncScopeHelper}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain org.omg.Messaging.SyncScopeHelper class
+ * org.omg.Messaging.SyncScopeHelper}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.Messaging.SyncScopeHelperTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.Messaging.SyncScopeHelperClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.Messaging.SyncScopeHelperClassTests
+ *
+ * @j8unit.aim org.omg.Messaging.SyncScopeHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

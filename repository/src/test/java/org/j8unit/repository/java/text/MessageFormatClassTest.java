@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MessageFormatClassTest
 implements org.j8unit.repository.java.text.MessageFormatClassTests<java.text.MessageFormat> {
 
+    @Override
+    public Class<java.text.MessageFormat> createNewSUT() {
+        return java.text.MessageFormat.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
     implements org.j8unit.repository.java.text.MessageFormatClassTests.FieldClassTests<java.text.MessageFormat.Field> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.text.MessageFormatClassTests<java.text.Mes
             return java.text.MessageFormat.Field.class;
         }
 
-    }
-
-    @Override
-    public Class<java.text.MessageFormat> createNewSUT() {
-        return java.text.MessageFormat.class;
     }
 
 }

@@ -5,15 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper class
+ * Reusable J8Unit test interface for {@linkplain org.omg.PortableInterceptor.ObjectReferenceTemplateHelper class
  * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods).
+ * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+ * class relevant test methods is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHelperTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHelperClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHelperClassTests
+ *
+ * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceTemplateHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

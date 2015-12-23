@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.awt.dnd.DragSourceEvent class java.awt.dnd.DragSourceEvent}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.awt.dnd.DragSourceEvent class java.awt.dnd.DragSourceEvent},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.awt.dnd.DragSourceEventTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests
+ *
+ * @j8unit.aim java.awt.dnd.DragSourceEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DragSourceEvent#getDragSourceContext() public java.awt.dnd.DragSourceContext
      * java.awt.dnd.DragSourceEvent.getDragSourceContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DragSourceEvent#getDragSourceContext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -42,7 +53,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.dnd.DragSourceEvent#getLocation() public java.awt.Point
      * java.awt.dnd.DragSourceEvent.getLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DragSourceEvent#getLocation()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,7 +74,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.dnd.DragSourceEvent#getX() public int java.awt.dnd.DragSourceEvent.getX()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DragSourceEvent#getX()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,7 +95,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.awt.dnd.DragSourceEvent#getY() public int java.awt.dnd.DragSourceEvent.getY()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.awt.dnd.DragSourceEvent#getY()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

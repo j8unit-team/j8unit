@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicListUI class javax.swing.plaf.basic.BasicListUI}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI class
+ * javax.swing.plaf.basic.BasicListUI}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicListUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$FocusHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.FocusHandler class
      * javax.swing.plaf.basic.BasicListUI$FocusHandler}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.FocusHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,7 +52,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * <p>
          * Test method for {@link javax.swing.plaf.basic.BasicListUI.FocusHandler#focusGained(java.awt.event.FocusEvent)
          * public void javax.swing.plaf.basic.BasicListUI$FocusHandler.focusGained(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.FocusHandler#focusGained(java.awt.event.FocusEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -60,7 +75,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * <p>
          * Test method for {@link javax.swing.plaf.basic.BasicListUI.FocusHandler#focusLost(java.awt.event.FocusEvent)
          * public void javax.swing.plaf.basic.BasicListUI$FocusHandler.focusLost(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.FocusHandler#focusLost(java.awt.event.FocusEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -77,15 +98,19 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$ListDataHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.ListDataHandler class
      * javax.swing.plaf.basic.BasicListUI$ListDataHandler}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -98,7 +123,14 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicListUI.ListDataHandler#contentsChanged(javax.swing.event.ListDataEvent)
          * public void
          * javax.swing.plaf.basic.BasicListUI$ListDataHandler.contentsChanged(javax.swing.event.ListDataEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler#contentsChanged(javax.swing.event.
+         *             ListDataEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -117,7 +149,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicListUI.ListDataHandler#intervalAdded(javax.swing.event.ListDataEvent)
          * public void
          * javax.swing.plaf.basic.BasicListUI$ListDataHandler.intervalAdded(javax.swing.event.ListDataEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler#intervalAdded(javax.swing.event.ListDataEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -136,7 +174,14 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicListUI.ListDataHandler#intervalRemoved(javax.swing.event.ListDataEvent)
          * public void
          * javax.swing.plaf.basic.BasicListUI$ListDataHandler.intervalRemoved(javax.swing.event.ListDataEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler#intervalRemoved(javax.swing.event.
+         *             ListDataEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -153,15 +198,20 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$ListSelectionHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.ListSelectionHandler class
      * javax.swing.plaf.basic.BasicListUI$ListSelectionHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListSelectionHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -174,7 +224,14 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#valueChanged(javax.swing.event.ListSelectionEvent)
          * public void
          * javax.swing.plaf.basic.BasicListUI$ListSelectionHandler.valueChanged(javax.swing.event.ListSelectionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#valueChanged(javax.swing.event.
+         *             ListSelectionEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -191,15 +248,20 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$MouseInputHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.MouseInputHandler class
      * javax.swing.plaf.basic.BasicListUI$MouseInputHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.MouseInputHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.MouseInputHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -211,7 +273,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseClicked(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mouseClicked(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseClicked(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -229,7 +297,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseDragged(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mouseDragged(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseDragged(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -247,7 +321,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseEntered(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mouseEntered(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseEntered(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -265,7 +345,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseExited(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mouseExited(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseExited(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -283,7 +369,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseMoved(java.awt.event.MouseEvent) public void
          * javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mouseMoved(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseMoved(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -301,7 +393,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mousePressed(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mousePressed(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mousePressed(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -319,7 +417,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseReleased(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicListUI$MouseInputHandler.mouseReleased(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#mouseReleased(java.awt.event.MouseEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -336,15 +440,20 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler class
      * javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
+     * class relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -357,7 +466,14 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
          * {@link javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
          * public void
          * javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#propertyChange(java.beans.
+         *             PropertyChangeEvent)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -374,9 +490,15 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicListUI#getBaseline(javax.swing.JComponent,int,int) public int
-     * javax.swing.plaf.basic.BasicListUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicListUI#getBaseline(javax.swing.JComponent, int, int) public
+     * int javax.swing.plaf.basic.BasicListUI.getBaseline(javax.swing.JComponent,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#getBaseline(javax.swing.JComponent, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -394,7 +516,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
      * Test method for {@link javax.swing.plaf.basic.BasicListUI#getBaselineResizeBehavior(javax.swing.JComponent)
      * public java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicListUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#getBaselineResizeBehavior(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,9 +537,15 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicListUI#getCellBounds(javax.swing.JList,int,int) public
+     * Test method for {@link javax.swing.plaf.basic.BasicListUI#getCellBounds(javax.swing.JList, int, int) public
      * java.awt.Rectangle javax.swing.plaf.basic.BasicListUI.getCellBounds(javax.swing.JList,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#getCellBounds(javax.swing.JList, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -428,7 +562,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicListUI#getPreferredSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicListUI.getPreferredSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#getPreferredSize(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -443,9 +583,15 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicListUI#indexToLocation(javax.swing.JList,int) public
+     * Test method for {@link javax.swing.plaf.basic.BasicListUI#indexToLocation(javax.swing.JList, int) public
      * java.awt.Point javax.swing.plaf.basic.BasicListUI.indexToLocation(javax.swing.JList,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#indexToLocation(javax.swing.JList, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -462,7 +608,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicListUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicListUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#installUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -477,9 +629,15 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicListUI#locationToIndex(javax.swing.JList,java.awt.Point)
+     * Test method for {@link javax.swing.plaf.basic.BasicListUI#locationToIndex(javax.swing.JList, java.awt.Point)
      * public int javax.swing.plaf.basic.BasicListUI.locationToIndex(javax.swing.JList,java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#locationToIndex(javax.swing.JList, java.awt.Point)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -494,9 +652,15 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicListUI#paint(java.awt.Graphics,javax.swing.JComponent) public
+     * Test method for {@link javax.swing.plaf.basic.BasicListUI#paint(java.awt.Graphics, javax.swing.JComponent) public
      * void javax.swing.plaf.basic.BasicListUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#paint(java.awt.Graphics, javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -513,7 +677,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicListUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicListUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#uninstallUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

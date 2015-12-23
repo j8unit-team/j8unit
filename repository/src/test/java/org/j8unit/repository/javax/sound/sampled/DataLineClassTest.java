@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DataLineClassTest
 implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<javax.sound.sampled.DataLine> {
 
+    @Override
+    public Class<javax.sound.sampled.DataLine> createNewSUT() {
+        return javax.sound.sampled.DataLine.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
     implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests.InfoClassTests<javax.sound.sampled.DataLine.Info> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<javax.so
             return javax.sound.sampled.DataLine.Info.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.sound.sampled.DataLine> createNewSUT() {
-        return javax.sound.sampled.DataLine.class;
     }
 
 }

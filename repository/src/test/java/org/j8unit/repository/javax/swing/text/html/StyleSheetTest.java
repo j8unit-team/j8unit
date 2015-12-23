@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class StyleSheetTest
 implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests<javax.swing.text.html.StyleSheet> {
 
+    @Override
+    public javax.swing.text.html.StyleSheet createNewSUT() {
+        return new javax.swing.text.html.StyleSheet();
+    }
+
     @RunWith(J8Unit4.class)
     public static class BoxPainterTest
     implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests<javax.swing.text.html.StyleSheet.BoxPainter> {
@@ -28,11 +33,6 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests<javax.swi
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.text.html.StyleSheet.ListPainter] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.text.html.StyleSheet createNewSUT() {
-        return new javax.swing.text.html.StyleSheet();
     }
 
 }

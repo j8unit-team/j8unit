@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class BasicColorChooserUITest
 implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<javax.swing.plaf.basic.BasicColorChooserUI> {
 
+    @Override
+    public javax.swing.plaf.basic.BasicColorChooserUI createNewSUT() {
+        return new javax.swing.plaf.basic.BasicColorChooserUI();
+    }
+
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerTest
     implements
@@ -18,11 +23,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests
             throw new AssumptionViolatedException("There is no default constructor for [javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler] available.");
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.basic.BasicColorChooserUI createNewSUT() {
-        return new javax.swing.plaf.basic.BasicColorChooserUI();
     }
 
 }

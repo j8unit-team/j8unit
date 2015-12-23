@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class FormatterClassTest
 implements org.j8unit.repository.java.util.FormatterClassTests<java.util.Formatter> {
 
+    @Override
+    public Class<java.util.Formatter> createNewSUT() {
+        return java.util.Formatter.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class BigDecimalLayoutFormClassTest
     implements org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests<java.util.Formatter.BigDecimalLayoutForm> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.util.FormatterClassTests<java.util.Formatt
             return java.util.Formatter.BigDecimalLayoutForm.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.Formatter> createNewSUT() {
-        return java.util.Formatter.class;
     }
 
 }

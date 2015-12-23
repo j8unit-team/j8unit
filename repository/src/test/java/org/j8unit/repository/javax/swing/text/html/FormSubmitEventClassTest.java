@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class FormSubmitEventClassTest
 implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests<javax.swing.text.html.FormSubmitEvent> {
 
+    @Override
+    public Class<javax.swing.text.html.FormSubmitEvent> createNewSUT() {
+        return javax.swing.text.html.FormSubmitEvent.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class MethodTypeClassTest
     implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests.MethodTypeClassTests<javax.swing.text.html.FormSubmitEvent.MethodType> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
             return javax.swing.text.html.FormSubmitEvent.MethodType.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.text.html.FormSubmitEvent> createNewSUT() {
-        return javax.swing.text.html.FormSubmitEvent.class;
     }
 
 }

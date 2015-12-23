@@ -9,27 +9,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicListUI class javax.swing.plaf.basic.BasicListUI}, containing all
- * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart test class containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests}.
+ * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI class
+ * javax.swing.plaf.basic.BasicListUI}, containing all class relevant test methods (at least the test methods of
+ * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
+ * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests}.
  * </p>
  *
  * <p>
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests
+ *
+ * @j8unit.aim javax.swing.plaf.basic.BasicListUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,10 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$FocusHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.FocusHandler class
      * javax.swing.plaf.basic.BasicListUI$FocusHandler}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests}.
      * </p>
      *
@@ -49,7 +52,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -57,10 +60,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.FocusHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -68,9 +74,17 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicListUI)
          * public javax.swing.plaf.basic.BasicListUI$FocusHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicListUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -83,6 +97,11 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
                                                                               // FocusHandler(javax.swing.plaf.basic.BasicListUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.FocusHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -97,10 +116,10 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$ListDataHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.ListDataHandler class
      * javax.swing.plaf.basic.BasicListUI$ListDataHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests}.
      * </p>
      *
@@ -108,7 +127,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -116,10 +135,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -127,9 +149,18 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.BasicListUI)
          * public javax.swing.plaf.basic.BasicListUI$ListDataHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.
+         *             BasicListUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -142,6 +173,11 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
                                                                                  // ListDataHandler(javax.swing.plaf.basic.BasicListUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListDataHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -156,10 +192,10 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$ListSelectionHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.ListSelectionHandler class
      * javax.swing.plaf.basic.BasicListUI$ListSelectionHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests}.
      * </p>
      *
@@ -167,7 +203,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -175,10 +211,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListSelectionHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -186,9 +225,18 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#ListSelectionHandler(javax.swing.plaf.basic.BasicListUI)
          * public javax.swing.plaf.basic.BasicListUI$ListSelectionHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#ListSelectionHandler(javax.swing.plaf.
+         *             basic.BasicListUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -201,6 +249,11 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
                                                                                       // ListSelectionHandler(javax.swing.plaf.basic.BasicListUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -215,10 +268,10 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$MouseInputHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.MouseInputHandler class
      * javax.swing.plaf.basic.BasicListUI$MouseInputHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
+     * interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests}.
      * </p>
      *
@@ -226,7 +279,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -234,10 +287,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -245,9 +301,18 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicListUI)
          * public javax.swing.plaf.basic.BasicListUI$MouseInputHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.
+         *             BasicListUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -260,6 +325,11 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
                                                                                    // MouseInputHandler(javax.swing.plaf.basic.BasicListUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.MouseInputHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -274,10 +344,10 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler class
+     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler class
      * javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
+     * test interface containing the instance relevant test methods is
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests}.
      * </p>
      *
@@ -285,7 +355,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * In addition, there may be assertions concerning the class itself. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
      * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
      * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
@@ -293,10 +363,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * constraints and further class specific requirements.
      * </p>
      *
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests
+     *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -304,9 +377,18 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
+         * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI)
          * public javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.
+         *             basic.BasicListUI)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -319,6 +401,11 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
                                                                                        // PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI);
         }
 
+        /**
+         * @since 0.9.2
+         *
+         * @j8unit.aim javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#isAssignableFrom(java.lang.Class)
+         */
         @Override
         @Test
         public default void testBaseTypeIsAssignableFromCurrentType()
@@ -332,8 +419,16 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
     }
 
     /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicListUI#BasicListUI() public
      * javax.swing.plaf.basic.BasicListUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#BasicListUI()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -349,7 +444,13 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicListUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicListUI.createUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#createUI(javax.swing.JComponent)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -362,6 +463,11 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim javax.swing.plaf.basic.BasicListUI#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

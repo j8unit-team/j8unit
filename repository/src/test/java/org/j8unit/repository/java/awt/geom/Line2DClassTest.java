@@ -7,15 +7,9 @@ import org.junit.runner.RunWith;
 public class Line2DClassTest
 implements org.j8unit.repository.java.awt.geom.Line2DClassTests<java.awt.geom.Line2D> {
 
-    @RunWith(J8Unit4.class)
-    public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.Line2DClassTests.DoubleClassTests<java.awt.geom.Line2D.Double> {
-
-        @Override
-        public Class<java.awt.geom.Line2D.Double> createNewSUT() {
-            return java.awt.geom.Line2D.Double.class;
-        }
-
+    @Override
+    public Class<java.awt.geom.Line2D> createNewSUT() {
+        return java.awt.geom.Line2D.class;
     }
 
     @RunWith(J8Unit4.class)
@@ -29,9 +23,15 @@ implements org.j8unit.repository.java.awt.geom.Line2DClassTests<java.awt.geom.Li
 
     }
 
-    @Override
-    public Class<java.awt.geom.Line2D> createNewSUT() {
-        return java.awt.geom.Line2D.class;
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.Line2DClassTests.DoubleClassTests<java.awt.geom.Line2D.Double> {
+
+        @Override
+        public Class<java.awt.geom.Line2D.Double> createNewSUT() {
+            return java.awt.geom.Line2D.Double.class;
+        }
+
     }
 
 }

@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class JComboBoxClassTest
 implements org.j8unit.repository.javax.swing.JComboBoxClassTests<javax.swing.JComboBox> {
 
+    @Override
+    public Class<javax.swing.JComboBox> createNewSUT() {
+        return javax.swing.JComboBox.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class KeySelectionManagerClassTest
     implements org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests<javax.swing.JComboBox.KeySelectionManager> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.javax.swing.JComboBoxClassTests<javax.swing.JCo
             return javax.swing.JComboBox.KeySelectionManager.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.swing.JComboBox> createNewSUT() {
-        return javax.swing.JComboBox.class;
     }
 
 }

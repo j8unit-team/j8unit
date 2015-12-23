@@ -8,6 +8,22 @@ import org.junit.runner.RunWith;
 public class ThreadPoolExecutorTest
 implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<java.util.concurrent.ThreadPoolExecutor> {
 
+    @Override
+    public java.util.concurrent.ThreadPoolExecutor createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.ThreadPoolExecutor] available.");
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DiscardPolicyTest
+    implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests<java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> {
+
+        @Override
+        public java.util.concurrent.ThreadPoolExecutor.DiscardPolicy createNewSUT() {
+            return new java.util.concurrent.ThreadPoolExecutor.DiscardPolicy();
+        }
+
+    }
+
     @RunWith(J8Unit4.class)
     public static class AbortPolicyTest
     implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests<java.util.concurrent.ThreadPoolExecutor.AbortPolicy> {
@@ -41,22 +57,6 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<ja
             return new java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy();
         }
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DiscardPolicyTest
-    implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests<java.util.concurrent.ThreadPoolExecutor.DiscardPolicy> {
-
-        @Override
-        public java.util.concurrent.ThreadPoolExecutor.DiscardPolicy createNewSUT() {
-            return new java.util.concurrent.ThreadPoolExecutor.DiscardPolicy();
-        }
-
-    }
-
-    @Override
-    public java.util.concurrent.ThreadPoolExecutor createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.util.concurrent.ThreadPoolExecutor] available.");
     }
 
 }

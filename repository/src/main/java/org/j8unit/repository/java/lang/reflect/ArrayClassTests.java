@@ -9,9 +9,9 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.lang.reflect.Array class java.lang.reflect.Array}, containing all class relevant test
- * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart test class containing the instance relevant test methods is
+ * Reusable J8Unit test interface for {@linkplain java.lang.reflect.Array class java.lang.reflect.Array}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
  * {@link org.j8unit.repository.java.lang.reflect.ArrayTests}.
  * </p>
  *
@@ -19,17 +19,20 @@ import org.junit.experimental.categories.Category;
  * In addition, there may be assertions concerning the class itself. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
- * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
+ * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
  * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
  * constraints and further class specific requirements.
  * </p>
  *
+ * @see org.j8unit.repository.java.lang.reflect.ArrayTests
+ *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.lang.reflect.ArrayTests
+ *
+ * @j8unit.aim java.lang.reflect.Array
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -38,10 +41,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#get(java.lang.Object,int) public static native java.lang.Object
+     * Test method for {@link java.lang.reflect.Array#get(java.lang.Object, int) public static native java.lang.Object
      * java.lang.reflect.Array.get(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#get(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,10 +64,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getBoolean(java.lang.Object,int) public static native boolean
+     * Test method for {@link java.lang.reflect.Array#getBoolean(java.lang.Object, int) public static native boolean
      * java.lang.reflect.Array.getBoolean(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getBoolean(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,10 +87,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getByte(java.lang.Object,int) public static native byte
+     * Test method for {@link java.lang.reflect.Array#getByte(java.lang.Object, int) public static native byte
      * java.lang.reflect.Array.getByte(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getByte(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,10 +110,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getChar(java.lang.Object,int) public static native char
+     * Test method for {@link java.lang.reflect.Array#getChar(java.lang.Object, int) public static native char
      * java.lang.reflect.Array.getChar(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getChar(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,10 +133,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getDouble(java.lang.Object,int) public static native double
+     * Test method for {@link java.lang.reflect.Array#getDouble(java.lang.Object, int) public static native double
      * java.lang.reflect.Array.getDouble(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getDouble(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,10 +156,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getFloat(java.lang.Object,int) public static native float
+     * Test method for {@link java.lang.reflect.Array#getFloat(java.lang.Object, int) public static native float
      * java.lang.reflect.Array.getFloat(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getFloat(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,10 +179,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getInt(java.lang.Object,int) public static native int
+     * Test method for {@link java.lang.reflect.Array#getInt(java.lang.Object, int) public static native int
      * java.lang.reflect.Array.getInt(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getInt(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,7 +204,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * <p>
      * Test method for {@link java.lang.reflect.Array#getLength(java.lang.Object) public static native int
      * java.lang.reflect.Array.getLength(java.lang.Object) throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getLength(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,10 +224,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getLong(java.lang.Object,int) public static native long
+     * Test method for {@link java.lang.reflect.Array#getLong(java.lang.Object, int) public static native long
      * java.lang.reflect.Array.getLong(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getLong(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,10 +247,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getShort(java.lang.Object,int) public static native short
+     * Test method for {@link java.lang.reflect.Array#getShort(java.lang.Object, int) public static native short
      * java.lang.reflect.Array.getShort(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#getShort(java.lang.Object, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,9 +270,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#newInstance(java.lang.Class,int) public static java.lang.Object
+     * Test method for {@link java.lang.reflect.Array#newInstance(java.lang.Class, int) public static java.lang.Object
      * java.lang.reflect.Array.newInstance(java.lang.Class,int) throws java.lang.NegativeArraySizeException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#newInstance(java.lang.Class, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,10 +292,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#newInstance(java.lang.Class,int...) public static java.lang.Object
-     * java.lang.reflect.Array.newInstance(java.lang.Class,int...) throws
+     * Test method for {@link java.lang.reflect.Array#newInstance(java.lang.Class, int...) public static
+     * java.lang.Object java.lang.reflect.Array.newInstance(java.lang.Class,int...) throws
      * java.lang.IllegalArgumentException,java.lang.NegativeArraySizeException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#newInstance(java.lang.Class, int...)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -240,10 +315,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#set(java.lang.Object,int,java.lang.Object) public static native
+     * Test method for {@link java.lang.reflect.Array#set(java.lang.Object, int, java.lang.Object) public static native
      * void java.lang.reflect.Array.set(java.lang.Object,int,java.lang.Object) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#set(java.lang.Object, int, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -257,10 +338,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setBoolean(java.lang.Object,int,boolean) public static native void
-     * java.lang.reflect.Array.setBoolean(java.lang.Object,int,boolean) throws
+     * Test method for {@link java.lang.reflect.Array#setBoolean(java.lang.Object, int, boolean) public static native
+     * void java.lang.reflect.Array.setBoolean(java.lang.Object,int,boolean) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setBoolean(java.lang.Object, int, boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,10 +361,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setByte(java.lang.Object,int,byte) public static native void
+     * Test method for {@link java.lang.reflect.Array#setByte(java.lang.Object, int, byte) public static native void
      * java.lang.reflect.Array.setByte(java.lang.Object,int,byte) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setByte(java.lang.Object, int, byte)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -291,10 +384,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setChar(java.lang.Object,int,char) public static native void
+     * Test method for {@link java.lang.reflect.Array#setChar(java.lang.Object, int, char) public static native void
      * java.lang.reflect.Array.setChar(java.lang.Object,int,char) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setChar(java.lang.Object, int, char)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -308,10 +407,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setDouble(java.lang.Object,int,double) public static native void
+     * Test method for {@link java.lang.reflect.Array#setDouble(java.lang.Object, int, double) public static native void
      * java.lang.reflect.Array.setDouble(java.lang.Object,int,double) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setDouble(java.lang.Object, int, double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,10 +430,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setFloat(java.lang.Object,int,float) public static native void
+     * Test method for {@link java.lang.reflect.Array#setFloat(java.lang.Object, int, float) public static native void
      * java.lang.reflect.Array.setFloat(java.lang.Object,int,float) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setFloat(java.lang.Object, int, float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -342,10 +453,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setInt(java.lang.Object,int,int) public static native void
+     * Test method for {@link java.lang.reflect.Array#setInt(java.lang.Object, int, int) public static native void
      * java.lang.reflect.Array.setInt(java.lang.Object,int,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setInt(java.lang.Object, int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,10 +476,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setLong(java.lang.Object,int,long) public static native void
+     * Test method for {@link java.lang.reflect.Array#setLong(java.lang.Object, int, long) public static native void
      * java.lang.reflect.Array.setLong(java.lang.Object,int,long) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setLong(java.lang.Object, int, long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -376,10 +499,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setShort(java.lang.Object,int,short) public static native void
+     * Test method for {@link java.lang.reflect.Array#setShort(java.lang.Object, int, short) public static native void
      * java.lang.reflect.Array.setShort(java.lang.Object,int,short) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.lang.reflect.Array#setShort(java.lang.Object, int, short)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,6 +520,11 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * @since 0.9.2
+     *
+     * @j8unit.aim java.lang.reflect.Array#isAssignableFrom(java.lang.Class)
+     */
     @Override
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType()

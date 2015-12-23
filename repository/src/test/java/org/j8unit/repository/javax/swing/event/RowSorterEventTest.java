@@ -14,6 +14,11 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class RowSorterEventTest
 implements org.j8unit.repository.javax.swing.event.RowSorterEventTests<javax.swing.event.RowSorterEvent> {
 
+    @Override
+    public javax.swing.event.RowSorterEvent createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.event.RowSorterEvent] available.");
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TypeTest
@@ -32,11 +37,6 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventTests<javax.swi
             return this.sut;
         }
 
-    }
-
-    @Override
-    public javax.swing.event.RowSorterEvent createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.swing.event.RowSorterEvent] available.");
     }
 
 }

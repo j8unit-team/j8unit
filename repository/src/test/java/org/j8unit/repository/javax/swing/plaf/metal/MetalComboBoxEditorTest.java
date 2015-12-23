@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class MetalComboBoxEditorTest
 implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests<javax.swing.plaf.metal.MetalComboBoxEditor> {
 
+    @Override
+    public javax.swing.plaf.metal.MetalComboBoxEditor createNewSUT() {
+        return new javax.swing.plaf.metal.MetalComboBoxEditor();
+    }
+
     @RunWith(J8Unit4.class)
     public static class UIResourceTest
     implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests.UIResourceTests<javax.swing.plaf.metal.MetalComboBoxEditor.UIResource> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests
             return new javax.swing.plaf.metal.MetalComboBoxEditor.UIResource();
         }
 
-    }
-
-    @Override
-    public javax.swing.plaf.metal.MetalComboBoxEditor createNewSUT() {
-        return new javax.swing.plaf.metal.MetalComboBoxEditor();
     }
 
 }

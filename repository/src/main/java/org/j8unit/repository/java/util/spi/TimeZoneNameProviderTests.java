@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.spi.TimeZoneNameProvider class java.util.spi.TimeZoneNameProvider}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.spi.TimeZoneNameProvider class
+ * java.util.spi.TimeZoneNameProvider}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.spi.TimeZoneNameProviderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.spi.TimeZoneNameProviderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.spi.TimeZoneNameProviderClassTests
+ *
+ * @j8unit.aim java.util.spi.TimeZoneNameProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,10 +30,16 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.spi.TimeZoneNameProvider#getDisplayName(java.lang.String,boolean,int,java.util.Locale) public
+     * {@link java.util.spi.TimeZoneNameProvider#getDisplayName(java.lang.String, boolean, int, java.util.Locale) public
      * abstract java.lang.String
      * java.util.spi.TimeZoneNameProvider.getDisplayName(java.lang.String,boolean,int,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.spi.TimeZoneNameProvider#getDisplayName(java.lang.String, boolean, int, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,10 +54,16 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.spi.TimeZoneNameProvider#getGenericDisplayName(java.lang.String,int,java.util.Locale) public
+     * {@link java.util.spi.TimeZoneNameProvider#getGenericDisplayName(java.lang.String, int, java.util.Locale) public
      * java.lang.String java.util.spi.TimeZoneNameProvider.getGenericDisplayName(java.lang.String,int,java.util.Locale)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.spi.TimeZoneNameProvider#getGenericDisplayName(java.lang.String, int, java.util.Locale)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

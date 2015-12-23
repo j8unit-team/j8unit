@@ -1,6 +1,6 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
-import org.j8unit.J8UnitTest;
+import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -9,26 +9,36 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.nio.file.attribute.BasicFileAttributes interface
+ * Reusable J8Unit test interface for {@linkplain java.nio.file.attribute.BasicFileAttributes interface
  * java.nio.file.attribute.BasicFileAttributes}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods).
+ * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesClassTests
+ *
+ * @j8unit.aim java.nio.file.attribute.BasicFileAttributes
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicFileAttributesTests<SUT extends java.nio.file.attribute.BasicFileAttributes>
-extends J8UnitTest<SUT> {
+extends RepositoryTests<SUT> {
 
     /**
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#creationTime() public abstract
      * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.creationTime()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#creationTime()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -44,7 +54,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#fileKey() public abstract java.lang.Object
      * java.nio.file.attribute.BasicFileAttributes.fileKey()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#fileKey()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,7 +76,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isDirectory() public abstract boolean
      * java.nio.file.attribute.BasicFileAttributes.isDirectory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#isDirectory()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +98,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isOther() public abstract boolean
      * java.nio.file.attribute.BasicFileAttributes.isOther()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#isOther()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,7 +120,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isRegularFile() public abstract boolean
      * java.nio.file.attribute.BasicFileAttributes.isRegularFile()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#isRegularFile()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,7 +142,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isSymbolicLink() public abstract boolean
      * java.nio.file.attribute.BasicFileAttributes.isSymbolicLink()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#isSymbolicLink()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,7 +164,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#lastAccessTime() public abstract
      * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.lastAccessTime()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#lastAccessTime()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,7 +186,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#lastModifiedTime() public abstract
      * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.lastModifiedTime()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#lastModifiedTime()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,7 +208,13 @@ extends J8UnitTest<SUT> {
      * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributes#size() public abstract long
      * java.nio.file.attribute.BasicFileAttributes.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.nio.file.attribute.BasicFileAttributes#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

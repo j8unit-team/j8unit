@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.AbstractCollection class java.util.AbstractCollection}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.AbstractCollection class java.util.AbstractCollection},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
+ * counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.AbstractCollectionTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.AbstractCollectionClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.AbstractCollectionClassTests
+ *
+ * @j8unit.aim java.util.AbstractCollection
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#add(java.lang.Object) public boolean
      * java.util.AbstractCollection.add(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#add(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#addAll(java.util.Collection) public boolean
      * java.util.AbstractCollection.addAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#addAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
     /**
      * <p>
      * Test method for {@link java.util.AbstractCollection#clear() public void java.util.AbstractCollection.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#clear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#contains(java.lang.Object) public boolean
      * java.util.AbstractCollection.contains(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#contains(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#containsAll(java.util.Collection) public boolean
      * java.util.AbstractCollection.containsAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#containsAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,9 +144,41 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
     /**
      * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.lang.Object</li>
+     * <li>interface java.util.Collection</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>class java.lang.Object</li>
+     * <li>interface java.util.Collection</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test method within the super test classes. To solve this situation,
+     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -126,7 +193,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#isEmpty() public boolean
      * java.util.AbstractCollection.isEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#isEmpty()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +216,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#iterator() public abstract java.util.Iterator
      * java.util.AbstractCollection.iterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#iterator()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +239,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#remove(java.lang.Object) public boolean
      * java.util.AbstractCollection.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#remove(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -177,7 +262,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#removeAll(java.util.Collection) public boolean
      * java.util.AbstractCollection.removeAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#removeAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,7 +285,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#retainAll(java.util.Collection) public boolean
      * java.util.AbstractCollection.retainAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#retainAll(java.util.Collection)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,7 +308,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#size() public abstract int
      * java.util.AbstractCollection.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -228,7 +331,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#toArray() public java.lang.Object[]
      * java.util.AbstractCollection.toArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#toArray()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,7 +354,13 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#toArray(java.lang.Object[]) public java.lang.Object[]
      * java.util.AbstractCollection.toArray(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#toArray(java.lang.Object[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -262,11 +377,18 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * <p>
      * Test method for {@link java.util.AbstractCollection#toString() public java.lang.String
      * java.util.AbstractCollection.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.AbstractCollection#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

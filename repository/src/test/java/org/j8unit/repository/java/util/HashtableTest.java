@@ -9,7 +9,7 @@ implements org.j8unit.repository.java.util.HashtableTests<java.util.Hashtable<K,
 
     @Override
     public java.util.Hashtable<K, V> createNewSUT() {
-        return new java.util.Hashtable<>();
+        return new java.util.Hashtable();
     }
 
 }

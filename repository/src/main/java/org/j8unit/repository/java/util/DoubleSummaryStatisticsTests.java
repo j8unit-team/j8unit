@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.DoubleSummaryStatistics class java.util.DoubleSummaryStatistics}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.DoubleSummaryStatistics class
+ * java.util.DoubleSummaryStatistics}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.DoubleSummaryStatisticsTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.DoubleSummaryStatisticsClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.DoubleSummaryStatisticsClassTests
+ *
+ * @j8unit.aim java.util.DoubleSummaryStatistics
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#accept(double) public void
      * java.util.DoubleSummaryStatistics.accept(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#accept(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#combine(java.util.DoubleSummaryStatistics) public void
      * java.util.DoubleSummaryStatistics.combine(java.util.DoubleSummaryStatistics)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#combine(java.util.DoubleSummaryStatistics)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#getAverage() public final double
      * java.util.DoubleSummaryStatistics.getAverage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#getAverage()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +98,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#getCount() public final long
      * java.util.DoubleSummaryStatistics.getCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#getCount()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,7 +120,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#getMax() public final double
      * java.util.DoubleSummaryStatistics.getMax()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#getMax()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +142,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#getMin() public final double
      * java.util.DoubleSummaryStatistics.getMin()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#getMin()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -123,7 +164,13 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#getSum() public final double
      * java.util.DoubleSummaryStatistics.getSum()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#getSum()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,11 +186,18 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
      * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#toString() public java.lang.String
      * java.util.DoubleSummaryStatistics.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.DoubleSummaryStatistics#toString()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

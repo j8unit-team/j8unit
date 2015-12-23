@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.stream.XMLEventReader interface javax.xml.stream.XMLEventReader}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.stream.XMLEventReader interface
+ * javax.xml.stream.XMLEventReader}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
+ * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.stream.XMLEventReaderTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests
+ *
+ * @j8unit.aim javax.xml.stream.XMLEventReader
  */
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
@@ -24,8 +29,8 @@ public abstract interface XMLEventReaderTests<SUT extends javax.xml.stream.XMLEv
 extends org.j8unit.repository.java.util.IteratorTests {
 
     // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this test class (caused
-    // by the "rawtypes" nature of the class-under-test).
+    // because of the "rawtypes" nature of this 8Unit test interface
+    // (caused by the "rawtypes" nature of the class-under-test).
     @Override
     public abstract SUT createNewSUT();
 
@@ -33,7 +38,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventReader#close() public abstract void
      * javax.xml.stream.XMLEventReader.close() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#close()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -49,7 +60,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventReader#getElementText() public abstract java.lang.String
      * javax.xml.stream.XMLEventReader.getElementText() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#getElementText()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -66,7 +83,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * Test method for {@link javax.xml.stream.XMLEventReader#getProperty(java.lang.String) public abstract
      * java.lang.Object javax.xml.stream.XMLEventReader.getProperty(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#getProperty(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,7 +105,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventReader#hasNext() public abstract boolean
      * javax.xml.stream.XMLEventReader.hasNext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#hasNext()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,7 +129,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * Test method for {@link javax.xml.stream.XMLEventReader#nextEvent() public abstract
      * javax.xml.stream.events.XMLEvent javax.xml.stream.XMLEventReader.nextEvent() throws
      * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#nextEvent()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,7 +151,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventReader#nextTag() public abstract javax.xml.stream.events.XMLEvent
      * javax.xml.stream.XMLEventReader.nextTag() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#nextTag()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -132,7 +173,13 @@ extends org.j8unit.repository.java.util.IteratorTests {
      * <p>
      * Test method for {@link javax.xml.stream.XMLEventReader#peek() public abstract javax.xml.stream.events.XMLEvent
      * javax.xml.stream.XMLEventReader.peek() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.stream.XMLEventReader#peek()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class KeyRepClassTest
 implements org.j8unit.repository.java.security.KeyRepClassTests<java.security.KeyRep> {
 
+    @Override
+    public Class<java.security.KeyRep> createNewSUT() {
+        return java.security.KeyRep.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.java.security.KeyRepClassTests.TypeClassTests<java.security.KeyRep.Type> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.security.KeyRepClassTests<java.security.Ke
             return java.security.KeyRep.Type.class;
         }
 
-    }
-
-    @Override
-    public Class<java.security.KeyRep> createNewSUT() {
-        return java.security.KeyRep.class;
     }
 
 }

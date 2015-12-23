@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class DoubleStreamClassTest
 implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<java.util.stream.DoubleStream> {
 
+    @Override
+    public Class<java.util.stream.DoubleStream> createNewSUT() {
+        return java.util.stream.DoubleStream.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests.BuilderClassTests<java.util.stream.DoubleStream.Builder> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<java.ut
             return java.util.stream.DoubleStream.Builder.class;
         }
 
-    }
-
-    @Override
-    public Class<java.util.stream.DoubleStream> createNewSUT() {
-        return java.util.stream.DoubleStream.class;
     }
 
 }

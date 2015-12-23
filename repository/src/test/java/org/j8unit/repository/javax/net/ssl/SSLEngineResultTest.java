@@ -14,24 +14,9 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class SSLEngineResultTest
 implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests<javax.net.ssl.SSLEngineResult> {
 
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class HandshakeStatusTest
-    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests<javax.net.ssl.SSLEngineResult.HandshakeStatus> {
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(javax.net.ssl.SSLEngineResult.HandshakeStatus.class);
-        }
-
-        @Parameter(0)
-        public javax.net.ssl.SSLEngineResult.HandshakeStatus sut;
-
-        @Override
-        public javax.net.ssl.SSLEngineResult.HandshakeStatus createNewSUT() {
-            return this.sut;
-        }
-
+    @Override
+    public javax.net.ssl.SSLEngineResult createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.net.ssl.SSLEngineResult] available.");
     }
 
     @RunWith(J8Parameterized.class)
@@ -54,9 +39,24 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests<javax.net.ss
 
     }
 
-    @Override
-    public javax.net.ssl.SSLEngineResult createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.net.ssl.SSLEngineResult] available.");
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class HandshakeStatusTest
+    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests<javax.net.ssl.SSLEngineResult.HandshakeStatus> {
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return testParametersOfEnumClass(javax.net.ssl.SSLEngineResult.HandshakeStatus.class);
+        }
+
+        @Parameter(0)
+        public javax.net.ssl.SSLEngineResult.HandshakeStatus sut;
+
+        @Override
+        public javax.net.ssl.SSLEngineResult.HandshakeStatus createNewSUT() {
+            return this.sut;
+        }
+
     }
 
 }

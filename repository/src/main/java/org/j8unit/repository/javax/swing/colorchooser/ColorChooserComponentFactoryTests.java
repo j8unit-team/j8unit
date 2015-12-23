@@ -5,15 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.swing.colorchooser.ColorChooserComponentFactory class
+ * Reusable J8Unit test interface for {@linkplain javax.swing.colorchooser.ColorChooserComponentFactory class
  * javax.swing.colorchooser.ColorChooserComponentFactory}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods).
+ * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
+ * methods is {@link org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentFactoryTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentFactoryClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentFactoryClassTests
+ *
+ * @j8unit.aim javax.swing.colorchooser.ColorChooserComponentFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

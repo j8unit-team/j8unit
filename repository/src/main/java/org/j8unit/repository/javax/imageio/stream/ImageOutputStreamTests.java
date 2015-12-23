@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.imageio.stream.ImageOutputStream interface javax.imageio.stream.ImageOutputStream},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.imageio.stream.ImageOutputStream interface
+ * javax.imageio.stream.ImageOutputStream}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.imageio.stream.ImageOutputStreamClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.imageio.stream.ImageOutputStreamClassTests
+ *
+ * @j8unit.aim javax.imageio.stream.ImageOutputStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#flushBefore(long) public abstract void
      * javax.imageio.stream.ImageOutputStream.flushBefore(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#flushBefore(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#write(byte[]) public abstract void
      * javax.imageio.stream.ImageOutputStream.write(byte[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#write(byte[])
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,9 +75,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#write(byte[],int,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#write(byte[], int, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#write(byte[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,7 +100,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#write(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.write(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#write(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,7 +123,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBit(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeBit(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeBit(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,9 +143,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBits(long,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBits(long, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeBits(long,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeBits(long, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -126,7 +167,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBoolean(boolean) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeBoolean(boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeBoolean(boolean)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,7 +190,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeByte(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeByte(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeByte(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +213,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBytes(java.lang.String) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeBytes(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -177,7 +236,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeChar(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeChar(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeChar(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,9 +257,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeChars(char[],int,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeChars(char[], int, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeChars(char[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeChars(char[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +281,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeChars(java.lang.String) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeChars(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,7 +304,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeDouble(double) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeDouble(double) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeDouble(double)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -242,9 +325,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeDoubles(double[],int,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeDoubles(double[],int,int) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeDoubles(double[], int, int) public abstract
+     * void javax.imageio.stream.ImageOutputStream.writeDoubles(double[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeDoubles(double[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,7 +349,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloat(float) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeFloat(float) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeFloat(float)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -275,9 +370,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloats(float[],int,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloats(float[], int, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeFloats(float[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeFloats(float[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -293,7 +394,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInt(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeInt(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeInt(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -308,9 +415,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInts(int[],int,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInts(int[], int, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeInts(int[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeInts(int[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -326,7 +439,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeLong(long) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeLong(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeLong(long)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -341,9 +460,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeLongs(long[],int,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeLongs(long[], int, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeLongs(long[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeLongs(long[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,7 +484,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShort(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeShort(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeShort(int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,9 +505,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShorts(short[],int,int) public abstract void
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShorts(short[], int, int) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeShorts(short[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeShorts(short[], int, int)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,7 +529,13 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
      * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#writeUTF(java.lang.String) public abstract void
      * javax.imageio.stream.ImageOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.imageio.stream.ImageOutputStream#writeUTF(java.lang.String)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

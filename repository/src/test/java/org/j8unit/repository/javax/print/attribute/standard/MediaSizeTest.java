@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class MediaSizeTest
 implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<javax.print.attribute.standard.MediaSize> {
 
+    @Override
+    public javax.print.attribute.standard.MediaSize createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class EngineeringTest
     implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.EngineeringTests<javax.print.attribute.standard.MediaSize.Engineering> {
@@ -26,17 +31,6 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
         @Override
         public javax.print.attribute.standard.MediaSize.ISO createNewSUT() {
             throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.ISO] available.");
-        }
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class JISTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests<javax.print.attribute.standard.MediaSize.JIS> {
-
-        @Override
-        public javax.print.attribute.standard.MediaSize.JIS createNewSUT() {
-            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.JIS] available.");
         }
 
     }
@@ -63,9 +57,15 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<j
 
     }
 
-    @Override
-    public javax.print.attribute.standard.MediaSize createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize] available.");
+    @RunWith(J8Unit4.class)
+    public static class JISTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests<javax.print.attribute.standard.MediaSize.JIS> {
+
+        @Override
+        public javax.print.attribute.standard.MediaSize.JIS createNewSUT() {
+            throw new AssumptionViolatedException("There is no default constructor for [javax.print.attribute.standard.MediaSize.JIS] available.");
+        }
+
     }
 
 }

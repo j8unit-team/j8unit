@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link javax.xml.crypto.dsig.XMLSignature interface javax.xml.crypto.dsig.XMLSignature}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.XMLSignature interface
+ * javax.xml.crypto.dsig.XMLSignature}, containing all instance relevant test methods (i.&thinsp;e., test methods of
+ * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests
+ *
+ * @j8unit.aim javax.xml.crypto.dsig.XMLSignature
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -24,15 +29,19 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.xml.crypto.dsig.XMLSignature$SignatureValue interface
+     * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.XMLSignature.SignatureValue interface
      * javax.xml.crypto.dsig.XMLSignature$SignatureValue}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant
+     * test methods is {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests.SignatureValueTests}.
      * </p>
+     *
+     * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests.SignatureValueClassTests
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests.SignatureValueClassTests
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature.SignatureValue
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -43,7 +52,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
          * <p>
          * Test method for {@link javax.xml.crypto.dsig.XMLSignature.SignatureValue#getId() public abstract
          * java.lang.String javax.xml.crypto.dsig.XMLSignature$SignatureValue.getId()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.xml.crypto.dsig.XMLSignature.SignatureValue#getId()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -59,7 +74,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
          * <p>
          * Test method for {@link javax.xml.crypto.dsig.XMLSignature.SignatureValue#getValue() public abstract byte[]
          * javax.xml.crypto.dsig.XMLSignature$SignatureValue.getValue()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.xml.crypto.dsig.XMLSignature.SignatureValue#getValue()
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -78,7 +99,14 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
          * public abstract boolean
          * javax.xml.crypto.dsig.XMLSignature$SignatureValue.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
          * javax.xml.crypto.dsig.XMLSignatureException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
          * </p>
+         *
+         * @j8unit.aim javax.xml.crypto.dsig.XMLSignature.SignatureValue#validate(javax.xml.crypto.dsig.
+         *             XMLValidateContext)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -96,7 +124,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#getId() public abstract java.lang.String
      * javax.xml.crypto.dsig.XMLSignature.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#getId()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,7 +146,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#getKeyInfo() public abstract
      * javax.xml.crypto.dsig.keyinfo.KeyInfo javax.xml.crypto.dsig.XMLSignature.getKeyInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#getKeyInfo()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,7 +168,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#getKeySelectorResult() public abstract
      * javax.xml.crypto.KeySelectorResult javax.xml.crypto.dsig.XMLSignature.getKeySelectorResult()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#getKeySelectorResult()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +190,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#getObjects() public abstract java.util.List
      * javax.xml.crypto.dsig.XMLSignature.getObjects()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#getObjects()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +212,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#getSignatureValue() public abstract
      * javax.xml.crypto.dsig.XMLSignature$SignatureValue javax.xml.crypto.dsig.XMLSignature.getSignatureValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#getSignatureValue()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +234,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#getSignedInfo() public abstract
      * javax.xml.crypto.dsig.SignedInfo javax.xml.crypto.dsig.XMLSignature.getSignedInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#getSignedInfo()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +257,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#sign(javax.xml.crypto.dsig.XMLSignContext) public
      * abstract void javax.xml.crypto.dsig.XMLSignature.sign(javax.xml.crypto.dsig.XMLSignContext) throws
      * javax.xml.crypto.MarshalException,javax.xml.crypto.dsig.XMLSignatureException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#sign(javax.xml.crypto.dsig.XMLSignContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,7 +280,13 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * Test method for {@link javax.xml.crypto.dsig.XMLSignature#validate(javax.xml.crypto.dsig.XMLValidateContext)
      * public abstract boolean javax.xml.crypto.dsig.XMLSignature.validate(javax.xml.crypto.dsig.XMLValidateContext)
      * throws javax.xml.crypto.dsig.XMLSignatureException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim javax.xml.crypto.dsig.XMLSignature#validate(javax.xml.crypto.dsig.XMLValidateContext)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

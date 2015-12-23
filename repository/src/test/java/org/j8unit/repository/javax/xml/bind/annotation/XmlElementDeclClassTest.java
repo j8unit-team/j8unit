@@ -7,6 +7,11 @@ import org.junit.runner.RunWith;
 public class XmlElementDeclClassTest
 implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests<javax.xml.bind.annotation.XmlElementDecl> {
 
+    @Override
+    public Class<javax.xml.bind.annotation.XmlElementDecl> createNewSUT() {
+        return javax.xml.bind.annotation.XmlElementDecl.class;
+    }
+
     @RunWith(J8Unit4.class)
     public static class GLOBALClassTest
     implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests<javax.xml.bind.annotation.XmlElementDecl.GLOBAL> {
@@ -16,11 +21,6 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTe
             return javax.xml.bind.annotation.XmlElementDecl.GLOBAL.class;
         }
 
-    }
-
-    @Override
-    public Class<javax.xml.bind.annotation.XmlElementDecl> createNewSUT() {
-        return javax.xml.bind.annotation.XmlElementDecl.class;
     }
 
 }

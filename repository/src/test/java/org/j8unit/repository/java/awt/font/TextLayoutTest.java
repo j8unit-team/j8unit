@@ -8,6 +8,11 @@ import org.junit.runner.RunWith;
 public class TextLayoutTest
 implements org.j8unit.repository.java.awt.font.TextLayoutTests<java.awt.font.TextLayout> {
 
+    @Override
+    public java.awt.font.TextLayout createNewSUT() {
+        throw new AssumptionViolatedException("There is no default constructor for [java.awt.font.TextLayout] available.");
+    }
+
     @RunWith(J8Unit4.class)
     public static class CaretPolicyTest
     implements org.j8unit.repository.java.awt.font.TextLayoutTests.CaretPolicyTests<java.awt.font.TextLayout.CaretPolicy> {
@@ -17,11 +22,6 @@ implements org.j8unit.repository.java.awt.font.TextLayoutTests<java.awt.font.Tex
             return new java.awt.font.TextLayout.CaretPolicy();
         }
 
-    }
-
-    @Override
-    public java.awt.font.TextLayout createNewSUT() {
-        throw new AssumptionViolatedException("There is no default constructor for [java.awt.font.TextLayout] available.");
     }
 
 }

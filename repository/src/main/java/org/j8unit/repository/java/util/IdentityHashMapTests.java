@@ -8,14 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Test class for {@link java.util.IdentityHashMap class java.util.IdentityHashMap}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Reusable J8Unit test interface for {@linkplain java.util.IdentityHashMap class java.util.IdentityHashMap}, containing
+ * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
+ * test interface containing the class relevant test methods is
+ * {@link org.j8unit.repository.java.util.IdentityHashMapTests}.
  * </p>
+ *
+ * @see org.j8unit.repository.java.util.IdentityHashMapClassTests
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- * @see org.j8unit.repository.java.util.IdentityHashMapClassTests
+ *
+ * @j8unit.aim java.util.IdentityHashMap
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -26,7 +31,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for {@link java.util.IdentityHashMap#clear() public void java.util.IdentityHashMap.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#clear()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -43,7 +54,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#clone() public java.lang.Object
      * java.util.IdentityHashMap.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#clone()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,7 +76,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#containsKey(java.lang.Object) public boolean
      * java.util.IdentityHashMap.containsKey(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#containsKey(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,7 +99,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#containsValue(java.lang.Object) public boolean
      * java.util.IdentityHashMap.containsValue(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#containsValue(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,7 +122,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#entrySet() public java.util.Set
      * java.util.IdentityHashMap.entrySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#entrySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,7 +145,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#equals(java.lang.Object) public boolean
      * java.util.IdentityHashMap.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#equals(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -127,7 +168,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#forEach(java.util.function.BiConsumer) public void
      * java.util.IdentityHashMap.forEach(java.util.function.BiConsumer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#forEach(java.util.function.BiConsumer)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,7 +191,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#get(java.lang.Object) public java.lang.Object
      * java.util.IdentityHashMap.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#get(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,7 +213,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for {@link java.util.IdentityHashMap#hashCode() public int java.util.IdentityHashMap.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#hashCode()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -176,7 +235,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for {@link java.util.IdentityHashMap#isEmpty() public boolean java.util.IdentityHashMap.isEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#isEmpty()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,7 +258,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#keySet() public java.util.Set
      * java.util.IdentityHashMap.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#keySet()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,9 +279,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#put(java.lang.Object,java.lang.Object) public java.lang.Object
+     * Test method for {@link java.util.IdentityHashMap#put(java.lang.Object, java.lang.Object) public java.lang.Object
      * java.util.IdentityHashMap.put(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#put(java.lang.Object, java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,7 +304,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#putAll(java.util.Map) public void
      * java.util.IdentityHashMap.putAll(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#putAll(java.util.Map)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,7 +327,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#remove(java.lang.Object) public java.lang.Object
      * java.util.IdentityHashMap.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#remove(java.lang.Object)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,7 +350,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.IdentityHashMap.replaceAll(java.util.function.BiFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#replaceAll(java.util.function.BiFunction)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,7 +372,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for {@link java.util.IdentityHashMap#size() public int java.util.IdentityHashMap.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#size()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -294,7 +395,13 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
      * <p>
      * Test method for {@link java.util.IdentityHashMap#values() public java.util.Collection
      * java.util.IdentityHashMap.values()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @j8unit.aim java.util.IdentityHashMap#values()
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
