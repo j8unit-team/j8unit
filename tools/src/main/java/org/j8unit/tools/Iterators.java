@@ -1,6 +1,7 @@
 package org.j8unit.tools;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 final class Iterators {
 
@@ -15,10 +16,15 @@ final class Iterators {
             }
 
             @Override
-            public Class<?> next() {
+            public Class<?> next()
+            throws NoSuchElementException {
                 final Class<?> c = this.current;
-                this.current = this.current.getSuperclass();
-                return c;
+                if (c == null) {
+                    throw new NoSuchElementException();
+                } else {
+                    this.current = this.current.getSuperclass();
+                    return c;
+                }
             }
 
         };
