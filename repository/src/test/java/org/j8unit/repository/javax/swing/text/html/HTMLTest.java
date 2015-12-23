@@ -1,10 +1,13 @@
 package org.j8unit.repository.javax.swing.text.html;
 
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -121,6 +124,16 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLTests<javax.swing.tex
         @Override
         public javax.swing.text.html.HTML.Tag createNewSUT() {
             return this.sut;
+        }
+
+        /**
+         * {@code new HTML.Tag().toString()} returns {@code null} illegally.
+         */
+        @Override
+        @Test
+        @Category(JavaBug.class)
+        public void toStringMustReturnNotNull() {
+            org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests.super.toStringMustReturnNotNull();
         }
 
     }

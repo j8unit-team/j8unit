@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import org.j8unit.repository.JavaBug;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -1096,16 +1095,6 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * {@code new DebugGraphics().toString()} throws {@code NullPointerException} illegally.
-     */
-    @Override
-    @Test
-    @Category(JavaBug.class)
-    default void toStringMustReturnNotNull() {
-        org.j8unit.repository.java.awt.GraphicsTests.super.toStringMustReturnNotNull();
     }
 
 }

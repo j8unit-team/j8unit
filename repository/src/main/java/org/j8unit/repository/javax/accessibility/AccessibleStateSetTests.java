@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.accessibility;
 
-import org.j8unit.repository.JavaBug;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -27,16 +26,6 @@ import org.junit.experimental.categories.Category;
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleStateSetTests<SUT extends javax.accessibility.AccessibleStateSet>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-    /**
-     * {@code new AccessibleStateSet().toString()} returns {@code null} illegally.
-     */
-    @Override
-    @Test
-    @Category(JavaBug.class)
-    default void toStringMustReturnNotNull() {
-        org.j8unit.repository.java.lang.ObjectTests.super.toStringMustReturnNotNull();
-    }
 
     /**
      * <p>

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import org.j8unit.repository.JavaBug;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -182,16 +181,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
-        }
-
-        /**
-         * {@code new HTML.Tag().toString()} returns {@code null} illegally.
-         */
-        @Override
-        @Test
-        @Category(JavaBug.class)
-        default void toStringMustReturnNotNull() {
-            org.j8unit.repository.java.lang.ObjectTests.super.toStringMustReturnNotNull();
         }
 
     }
