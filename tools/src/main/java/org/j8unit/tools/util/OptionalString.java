@@ -1,4 +1,4 @@
-package org.j8unit.tools;
+package org.j8unit.tools.util;
 
 import static java.util.Objects.requireNonNull;
 import java.util.NoSuchElementException;

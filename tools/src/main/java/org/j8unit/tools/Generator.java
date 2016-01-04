@@ -3,783 +3,987 @@ package org.j8unit.tools;
 import static java.lang.String.format;
 import static java.lang.String.join;
 import static java.util.Arrays.asList;
-import static java.util.Arrays.stream;
 import static java.util.Collections.nCopies;
-import static java.util.Spliterator.IMMUTABLE;
-import static java.util.Spliterator.NONNULL;
-import static java.util.Spliterator.ORDERED;
-import static java.util.Spliterators.spliteratorUnknownSize;
+import static java.util.Objects.requireNonNull;
+import static java.util.logging.Level.SEVERE;
 import static java.util.logging.Logger.getLogger;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toSet;
-import static org.j8unit.tools.AccessLevel.PRIVATE;
-import static org.j8unit.tools.ClassKind.TOP_LEVEL;
-import static org.j8unit.tools.GeneratorSetup.NL;
-import static org.j8unit.tools.GeneratorSetup.SPACE;
-import static org.j8unit.tools.GeneratorSetup.canonicalClassOf;
-import static org.j8unit.tools.GeneratorSetup.canonicalNameOf;
-import static org.j8unit.tools.GeneratorSetup.canonicalNameWithTypeParametersNames;
-import static org.j8unit.tools.GeneratorSetup.classNameWithUnboundTypeParametersOf;
-import static org.j8unit.tools.GeneratorSetup.getInterfaces;
-import static org.j8unit.tools.GeneratorSetup.getNearestMergingClass;
-import static org.j8unit.tools.GeneratorSetup.isRawGeneric;
-import static org.j8unit.tools.GeneratorSetup.isReallyDeclared;
-import static org.j8unit.tools.GeneratorSetup.javadocNameOf;
-import static org.j8unit.tools.GeneratorSetup.listAllClasses;
-import static org.j8unit.tools.GeneratorSetup.simpleCanonicalClassOf;
-import static org.j8unit.tools.GeneratorSetup.simpleCanonicalNameOf;
-import static org.j8unit.tools.GeneratorSetup.specifiesSuchPublicMethod;
-import static org.j8unit.tools.GeneratorSetup.toVarArgAwareString;
-import static org.j8unit.tools.GeneratorSetup.typeParametersDefinitionsOf;
-import static org.j8unit.tools.GeneratorSetup.typeParametersNamesOf;
-import static org.j8unit.tools.GeneratorUtil.runtimed;
-import static org.j8unit.tools.Iterators.classHierarchy;
-import static org.j8unit.tools.Membership.CLASS;
-import static org.j8unit.tools.Membership.INSTANCE;
-import static org.j8unit.tools.OptionalString.ofEmptyable;
+import static org.j8unit.tools.GeneratorAnalysis.calculateNearestParents;
+import static org.j8unit.tools.GeneratorAnalysis.getNearestMergingClass;
+import static org.j8unit.tools.GeneratorAnalysis.specifiesSuchPublicMethod;
+import static org.j8unit.tools.GeneratorTokens.IGNORE_STATEMENT;
+import static org.j8unit.tools.GeneratorTokens.NL;
+import static org.j8unit.tools.GeneratorTokens.SPACE;
+import static org.j8unit.tools.GeneratorTokens.indent;
+import static org.j8unit.tools.NamingUtilities.JAVA_LANG;
+import static org.j8unit.tools.NamingUtilities.canonicalClassOf;
+import static org.j8unit.tools.NamingUtilities.canonicalNameOf;
+import static org.j8unit.tools.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
+import static org.j8unit.tools.NamingUtilities.javadocNameOf;
+import static org.j8unit.tools.NamingUtilities.listOfTypeParameterDefinitionsOf;
+import static org.j8unit.tools.NamingUtilities.listOfTypeParameterNamesOf;
+import static org.j8unit.tools.NamingUtilities.simpleCanonicalClassOf;
+import static org.j8unit.tools.NamingUtilities.simpleCanonicalNameOf;
+import static org.j8unit.tools.NamingUtilities.toVarArgAwareString;
+import static org.j8unit.tools.Target.REUSABLE_TESTS;
+import static org.j8unit.tools.Target.SPECIFIC_TEST;
+import static org.j8unit.tools.TypeKind.TOP_LEVEL;
+import static org.j8unit.tools.generator.AccessScope.CLASS;
+import static org.j8unit.tools.generator.AccessScope.INSTANCE;
+import static org.j8unit.tools.util.OptionalString.ofEmptyable;
+import static org.j8unit.tools.util.Utilities.NOOP;
+import static org.j8unit.tools.util.Utilities.bcsv;
+import static org.j8unit.tools.util.Utilities.csv;
+import static org.j8unit.tools.util.Utilities.optionalise;
+import static org.j8unit.tools.util.Utilities.runtimed;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
 import java.nio.file.Path;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Set;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
+import java.util.concurrent.Callable;
 import java.util.logging.Logger;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
-// import org.j8unit.repository.Aim;
+import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.runners.J8Parameterized;
+import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.j8unit.tools.generator.AccessScope;
+import org.j8unit.tools.generator.CustomContentSource;
+import org.j8unit.tools.generator.ModusOperandi;
 import org.junit.AssumptionViolatedException;
+import org.junit.BeforeClass;
 import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import junit.framework.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
-@SuppressWarnings("deprecation")
-public class Generator
-implements GeneratorLogMessages {
+public enum Generator
+    implements GeneratorLogMessages,CustomContentSource {
+
+        INSTANCE_REPOSITORY(INSTANCE, REUSABLE_TESTS, "Tests") {
+
+            @Override
+            protected String imports(final Class<?> clazz) {
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append("import static " + org.junit.Assert.class.getName() + ".*;" + NL);
+                sb.append("import " + org.j8unit.repository.RepositoryTests.class.getPackage().getName() + ".*;" + NL);
+                sb.append("import " + org.j8unit.repository.categories.J8UnitRepository.class.getPackage().getName() + ".*;" + NL);
+                sb.append("import " + org.junit.Test.class.getPackage().getName() + ".*;" + NL);
+                sb.append("import " + org.junit.experimental.categories.Category.class.getName() + ";" + NL);
+                sb.append(this.allInOneCustomImports(clazz));
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String javadoc(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup, final int enclosingLevel) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "/**" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * Reusable J8Unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
+                sb.append(indent + " * containing all instance relevant aspects (i.&thinsp;e., test methods targeting the non-{@code" + NL);
+                sb.append(indent + " * static} methods). The complementarySetup J8Unit test interface containing the class relevant aspects " + NL);
+                sb.append(indent + " * is {@link " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "}." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @see " + canonicalNameOf(clazz) + " " + clazz + " (the hereby targeted class-under-test class)" + NL);
+                sb.append(indent + " * @see " + complementarySetup.canonicalTestNameOf(clazz, clazz) + " " + NL);
+                sb.append(indent + " *      " + complementarySetup.canonicalTestNameOf(clazz, clazz) + NL);
+                sb.append(indent + " *      (the complementary J8Unit test interface containing the class relevant test methods)" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @param SUT the type of the subject-under-test" + NL);
+                sb.append(indent + " * @since 0.9.0" + NL);
+                sb.append(indent + " */" + NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            @Override
+            protected String testClassContent(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                              final int enclosingLevel) {
+                // required preparations
+                final ModusOperandi modusOperandi = this.accessScope.modusOperandiFor(clazz);
+                final String optionalStatic = enclosingLevel > 0 ? "static " : "";
+                final String footer = enclosingLevel > 0 ? NL : "";
+                final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
+                final String testClassGenerics = this.accessScope.getSutStatement(clazz);
+                final String testClassSuperTypes = modusOperandi.getTestClassExtendStatement(clazz, setup);
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(this.javadoc(clazz, setup, complementarySetup, enclosingLevel));
+                sb.append(this.allInOneCustomTestInterfaceHead(clazz, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(FunctionalInterface.class) + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(J8UnitRepository.class) + ")" + NL);
+                sb.append(indent + "public " + optionalStatic + "abstract interface " + testClassName + testClassGenerics + NL);
+                sb.append(indent + "extends " + testClassSuperTypes + NL);
+                sb.append(indent + "{" + NL);
+                sb.append(NL);
+                sb.append(this.allInOneCustomTestInterfaceBody(clazz, enclosingLevel + 1));
+                for (final Entry<? extends Method, ? extends Set<Class<?>>> method : this.calculateMethodsUnderTest(clazz, setup).entrySet()) {
+                    sb.append(this.testMethodContent(clazz, method, setup, enclosingLevel + 1));
+                }
+                for (final Entry<? extends Method, ? extends Set<Class<?>>> method : this.calculateMergeMethods(clazz, setup).entrySet()) {
+                    sb.append(this.mergeMethodContent(clazz, method, setup, enclosingLevel + 1));
+                }
+                for (final Class<?> enveloped : this.calculateEnvelopedClasses(clazz, setup)) {
+                    sb.append(this.testClassContent(enveloped, setup, complementarySetup, enclosingLevel + 1));
+                }
+                sb.append(indent + "}" + NL);
+                sb.append(footer);
+                // finalize content
+                return sb.toString();
+            }
+
+            private Map<? extends Method, ? extends Set<Class<?>>> calculateMethodsUnderTest(final Class<?> clazz, final GeneratorSetup setup) {
+                // query all declared, relevant methods
+                final Set<Method> candidates = Arrays.stream(clazz.getDeclaredMethods()) //
+                                                     .filter(setup::useMethod) //
+                                                     .filter(this.accessScope::matches) //
+                                                     .filter(m -> !m.isSynthetic()) //
+                                                     .collect(toSet());
+                LOG.info(format(J8UNIT_TESTINTERFACE_AIMED_METHODS, clazz, this.accessScope, candidates));
+                // add optional inheritance nodes
+                final Map<Class<?>, ? extends Type> parents = calculateNearestParents(clazz, setup::useClass, NOOP);
+                final Map<Method, Set<Class<?>>> methods = new HashMap<>();
+                for (final Method method : candidates) {
+                    final Set<Class<?>> nodes = parents.keySet().stream() //
+                                                       .map(s -> getNearestMergingClass(s, method)) //
+                                                       .flatMap(GeneratorUtil::toStream) //
+                                                       .collect(toSet());
+                    assert !methods.containsKey(method);
+                    methods.put(method, nodes);
+                }
+                return methods;
+            }
+
+            private String javadoc(final Method method, final GeneratorSetup setup, final int enclosingLevel) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "/**" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * Test method for {@link " + javadocNameOf(method) + " " + toVarArgAwareString(method) + "}." + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * Up to now, there is no real implementation of this test method. But with your help" + NL);
+                sb.append(indent + " * at <a href=\"http://www.j8unit.org\">http://www.j8unit.org</a> this marker method will" + NL);
+                sb.append(indent + " * be replaced by meaningful test methods soon." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @see " + javadocNameOf(method) + " " + method + " (the hereby targeted method-under-test)" + NL);
+                sb.append(indent + " */" + NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String testMethodContent(final Class<?> clazz, final Entry<? extends Method, ? extends Set<Class<?>>> methodData,
+                                             final GeneratorSetup setup, final int enclosingLevel) {
+                // required preparations
+                final Method method = methodData.getKey();
+                final Set<Class<?>> superNodes = methodData.getValue();
+                final String testMethodName = setup.getSimpleTestMethodName(method);
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(this.javadoc(method, setup, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(Ignore.class) + "(\"" + IGNORE_STATEMENT + "\")" + NL);
+                sb.append(superNodes.isEmpty() ? "" : indent + "@" + simpleCanonicalNameOf(Override.class) + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Test.class) + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(Draft.class) + ")" + NL);
+                sb.append(indent + "public default void " + testMethodName + "() throws Exception {" + NL);
+                sb.append(indent + SPACE + "// query fresh subject-under-test" + NL);
+                sb.append(indent + SPACE + "SUT sut = this.createNewSUT();" + NL);
+                sb.append(indent + SPACE + "assert sut != null;" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            // TODO: Superclass with protected method and Interface with similar public ...
+            private Map<? extends Method, ? extends Set<Class<?>>> calculateMergeMethods(final Class<?> clazz, final GeneratorSetup setup) {
+                // collect public membership-matching methods that are not specified by its merging class
+                // (Note: Class#getMethods() returns only public methods but this is OK because there is no merging
+                // problem for non-public methods)
+                final Set<Method> duplicatedCandidates = Arrays.stream(clazz.getMethods()) //
+                                                               .filter(setup::useMethod) //
+                                                               .filter(this.accessScope::matches) //
+                                                               // keep in mind the method might be overwritten, so map
+                                                               // it to the most specific method ...
+                                                               .map(m -> runtimed(() -> clazz.getMethod(m.getName(), m.getParameterTypes()))) //
+                                                               // ... us only if it is a candidate
+                                                               .filter(m -> !specifiesSuchPublicMethod(getNearestMergingClass(clazz, m).get(), m)) //
+                                                               .collect(toSet());
+                LOG.info(format(J8UNIT_TESTINTERFACE_MERGE_METHOD_CANDIDATES, clazz, this.accessScope, duplicatedCandidates));
+                final Map<Class<?>, ? extends Type> parents = calculateNearestParents(clazz, setup::useClass, NOOP);
+                final Map<Method, Set<Class<?>>> duplicated = new HashMap<>();
+                for (final Method method : duplicatedCandidates) {
+                    final Set<Class<?>> nodes = parents.keySet().stream() //
+                                                       .map(s -> getNearestMergingClass(s, method)) //
+                                                       .flatMap(GeneratorUtil::toStream) //
+                                                       .collect(toSet());
+                    if (nodes.size() < 2) {
+                        continue;
+                    }
+                    duplicated.put(method, nodes);
+                }
+                return duplicated;
+            }
+
+            private String javadoc(final Entry<? extends Method, ? extends Set<Class<?>>> methodData, final GeneratorSetup setup, final int enclosingLevel) {
+                // required preparations
+                final Method method = methodData.getKey();
+                final Set<Class<?>> superNodes = methodData.getValue();
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * The method-under-test covered by this test method is inherited duplicatedly within the declaring" + NL);
+                sb.append(indent + " * class-under-test:</p>" + NL);
+                sb.append(indent + " * <ul>" + NL);
+                superNodes.forEach(c -> sb.append(indent + " * <li>{@linkplain " + javadocNameOf(c, method) + " " + c + "}</li>" + NL));
+                sb.append(indent + " * </ul>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * In result, there are duplicated according test methods within the parent test classes." + NL);
+                sb.append(indent + " * To solve this situation, this method must be overridden. Dont't worry, there will be" + NL);
+                sb.append(indent + " * meaningful test methods soon and, thus, overriding becomes unnecessary." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " */" + NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String mergeMethodContent(final Class<?> clazz, final Entry<? extends Method, ? extends Set<Class<?>>> methodData,
+                                              final GeneratorSetup setup, final int enclosingLevel) {
+                // required preparations
+                final Method method = methodData.getKey();
+                final String testMethodName = setup.getSimpleTestMethodName(method);
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "/**" + NL);
+                sb.append(this.javadoc(methodData, setup, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(Ignore.class) + "(\"" + IGNORE_STATEMENT + "\")" + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Override.class) + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Test.class) + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(Draft.class) + ")" + NL);
+                sb.append(indent + "public default void " + testMethodName + "() throws Exception {" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+        },
+
+        CLASS_REPOSITORY(CLASS, REUSABLE_TESTS, "ClassTests") {
+
+            @Override
+            protected String imports(final Class<?> clazz) {
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append("import static " + org.junit.Assert.class.getName() + ".*;" + NL);
+                sb.append("import " + org.j8unit.repository.RepositoryTests.class.getPackage().getName() + ".*;" + NL);
+                sb.append("import " + org.j8unit.repository.categories.J8UnitRepository.class.getPackage().getName() + ".*;" + NL);
+                sb.append("import " + org.junit.Test.class.getPackage().getName() + ".*;" + NL);
+                sb.append("import " + org.junit.experimental.categories.Category.class.getName() + ";" + NL);
+                sb.append(this.allInOneCustomImports(clazz));
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String javadoc(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup, final int enclosingLevel) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "/**" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * Reusable J8Unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
+                sb.append(indent + " * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific" + NL);
+                sb.append(indent + " * requirements). (In addition, the runtime type of this J8Unit test interface's generic type is verified" + NL);
+                sb.append(indent + " * by {@link #verifyGenericType()})." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * J8Unit strongly encourages you to not only test the instances behaviour but also to test the type" + NL);
+                sb.append(indent + " * constraints. For this purpose, J8Unit provides this reusable test interface covering type relevant" + NL);
+                sb.append(indent + " * aspects as well as a complementarySetup test interface containing the instance relevant aspects (see" + NL);
+                sb.append(indent + " * {@link " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "})." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * <strong>What? Testing the class itself? What is it good for?</strong>" + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * Classes may have its own requirements and/or constraints; and all of these needs to be tested too." + NL);
+                sb.append(indent + " * For example, <a href=\"https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1\"><q>by" + NL);
+                sb.append(indent + " * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type" + NL);
+                sb.append(indent + " * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>)." + NL);
+                sb.append(indent + " * Thus, {@link " + setup.canonicalTestNameOf(Annotation.class, clazz) + "} provides corresponding, reusable" + NL);
+                sb.append(indent + " * test methods:" + NL);
+                sb.append(indent + " * {@link " + setup.canonicalTestNameOf(Annotation.class, clazz) + "#declaredMethodsCannotHaveFormalParameters()}," + NL);
+                sb.append(indent + " * {@link " + setup.canonicalTestNameOf(Annotation.class, clazz) + "#declaredMethodsCannotHaveTypeParameters()}, and" + NL);
+                sb.append(indent + " * {@link " + setup.canonicalTestNameOf(Annotation.class, clazz) + "#declaredMethodsCannotHaveThrowsClause()}." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * The complementarySetup J8Unit test interface containing the instance relevant aspects is {@link " + NL);
+                sb.append(indent + " * " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "}." + NL);
+                sb.append(indent + " * </p>" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @see " + canonicalNameOf(clazz) + " " + clazz + " (the hereby targeted class-under-test class)" + NL);
+                sb.append(indent + " * @see " + complementarySetup.canonicalTestNameOf(clazz, clazz) + " " + NL);
+                sb.append(indent + " *      " + complementarySetup.canonicalTestNameOf(clazz, clazz) + NL);
+                sb.append(indent + " *      (the complementarySetup J8Unit test interface containing the instance relevant test methods)" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @param SUT the class' type of the subject-under-test" + NL);
+                sb.append(indent + " * @since 0.9.0" + NL);
+                sb.append(indent + " */" + NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            @Override
+            protected String testClassContent(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                              final int enclosingLevel) {
+                // required preparations
+                final ModusOperandi modusOperandi = this.accessScope.modusOperandiFor(clazz);
+                final String optionalStatic = enclosingLevel > 0 ? "static " : "";
+                final String footer = enclosingLevel > 0 ? NL : "";
+                final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
+                final String testClassGenerics = this.accessScope.getSutStatement(clazz);
+                final String testClassSuperTypes = modusOperandi.getTestClassExtendStatement(clazz, setup);
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(this.javadoc(clazz, setup, complementarySetup, enclosingLevel));
+                sb.append(this.allInOneCustomTestInterfaceHead(clazz, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(FunctionalInterface.class) + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(J8UnitRepository.class) + ")" + NL);
+                sb.append(indent + "public " + optionalStatic + "abstract interface " + testClassName + testClassGenerics + NL);
+                sb.append(indent + "extends " + testClassSuperTypes + NL);
+                sb.append(indent + "{" + NL);
+                sb.append(NL);
+                sb.append(this.allInOneCustomTestInterfaceBody(clazz, enclosingLevel + 1));
+                sb.append(this.verifyGenericTypeContent(clazz, enclosingLevel + 1));
+                for (final Class<?> enveloped : this.calculateEnvelopedClasses(clazz, setup)) {
+                    sb.append(this.testClassContent(enveloped, setup, complementarySetup, enclosingLevel + 1));
+                }
+                sb.append(indent + "}" + NL);
+                sb.append(footer);
+                // finalize content
+                return sb.toString();
+            }
+
+            private Object verifyGenericTypeContent(final Class<?> clazz, final int enclosingLevel) {
+                // required preparations
+                final Method mut = runtimed(() -> Class.class.getMethod("isAssignableFrom", Class.class));
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "/**" + NL);
+                sb.append(indent + " * @since 0.9.2" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @see " + javadocNameOf(mut) + " " + mut + " (the hereby targeted method-under-test)" + NL);
+                sb.append(indent + " */" + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(BeforeClass.class) + NL);
+                sb.append(indent + "public default void verifyGenericType() throws " + simpleCanonicalNameOf(Exception.class) + " {" + NL);
+                sb.append(indent + SPACE + "// create new instance" + NL);
+                sb.append(indent + SPACE + simpleCanonicalNameOf(Class.class) + "<SUT> sut = createNewSUT();" + NL);
+                sb.append(indent + SPACE + "// assert assignability" + NL);
+                sb.append(indent + SPACE + "assertTrue(\"This J8Unit test interface is used with a generic type that is illegaly not assignable to ");
+                sb.append(canonicalClassOf(clazz) + "!\", " + canonicalClassOf(clazz) + "." + mut.getName() + "(sut));" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+        },
+
+        INSTANCE_TEST(INSTANCE, SPECIFIC_TEST, "Test") {
+
+            @Override
+            @SuppressWarnings("unchecked")
+            protected String testClassContent(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                              final int enclosingLevel) {
+                if (clazz.isEnum()) {
+                    final Class<? extends Enum<?>> eClazz = (Class<? extends Enum<?>>) clazz;
+                    final String body = this.enumClassTestData(eClazz, enclosingLevel + 1);
+                    return this.parameterisedJ8UnitTest(eClazz, setup, complementarySetup, enclosingLevel, body);
+                } else {
+                    {
+                        /*
+                         * [1] Inspect any existing, accessible instances:
+                         */
+                        final Set<? extends Field> instances = Arrays.stream(clazz.getDeclaredFields()) //
+                                                                     .filter(f -> clazz.isAssignableFrom(f.getType())) //
+                                                                     .filter(setup::useField) //
+                                                                     .filter(f -> Modifier.isStatic(f.getModifiers())) //
+                                                                     .collect(toSet());
+                        if (!instances.isEmpty()) {
+                            final String body = this.fieldBasedTestData(clazz, instances, enclosingLevel + 1);
+                            return this.parameterisedJ8UnitTest(clazz, setup, complementarySetup, enclosingLevel, body);
+                        }
+                    }
+                    {
+                        /*
+                         * [2] Skip abstract types:
+                         */
+                        if (Modifier.isAbstract(clazz.getModifiers())) {
+                            final String body = this.todoBasedTestData(clazz,
+                                                                       enclosingLevel + 1, "Due to the abstract modifier of this type-under-test ["
+                                                                                           + clazz.getCanonicalName()
+                                                                                           + "], j8unit does not support a generic way to provide instances.");
+                            return this.j8UnitTest(clazz, setup, complementarySetup, enclosingLevel, body);
+                        }
+                    }
+                    {
+                        /*
+                         * [3] Try default constructor:
+                         *
+                         * (Must be done after (!) step [2]!)
+                         */
+                        final Optional<Constructor<?>> candidate = optionalise(clazz::getDeclaredConstructor, NOOP);
+                        final Optional<Constructor<?>> constructor = candidate.filter(setup::useConstructor);
+                        if (constructor.isPresent()) {
+                            final String body = this.constructorBasedTestData(clazz, constructor.get(), enclosingLevel + 1);
+                            return this.parameterisedFactoryBasedJ8UnitTest(clazz, setup, complementarySetup, enclosingLevel, body);
+                        }
+                    }
+                    {
+                        /*
+                         * [Default] Skip:
+                         */
+                        final String body = this.todoBasedTestData(clazz, enclosingLevel + 1,
+                                                                   "Due to the absence of a default constructor of this non-abstract type-under-test ["
+                                                                                              + clazz.getCanonicalName()
+                                                                                              + "], j8unit does not support a generic way to provide instances.");
+                        return this.j8UnitTest(clazz, setup, complementarySetup, enclosingLevel, body);
+                    }
+                }
+            }
+
+            private String parameterisedJ8UnitTest(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                                   final int enclosingLevel, final String body) {
+                // required preparations
+                final String optionalStatic = enclosingLevel > 0 ? "static " : "";
+                final String footer = enclosingLevel > 0 ? NL : "";
+                final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
+                final String testClassGenerics = bcsv(listOfTypeParameterNamesOf(clazz));
+                final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
+                final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
+                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(this.allInOneCustomTestInterfaceHead(clazz, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(RunWith.class) + "(" + simpleCanonicalClassOf(J8Parameterized.class) + ")" + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(UseParametersRunnerFactory.class) + "("
+                          + simpleCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class) + ")" + NL);
+                sb.append(indent + "public " + optionalStatic + "class " + testClassName + testClassGenerics + NL);
+                sb.append(indent + "implements " + testClassInterfaceType + testClassInterfaceGenerics + " {" + NL);
+                sb.append(NL);
+                sb.append(this.allInOneCustomTestInterfaceBody(clazz, enclosingLevel + 1));
+                sb.append(body);
+                for (final Class<?> enveloped : this.calculateEnvelopedClasses(clazz, setup)) {
+                    sb.append(this.testClassContent(enveloped, setup, complementarySetup, enclosingLevel + 1));
+                }
+                sb.append(indent + "}" + NL);
+                sb.append(footer);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String parameterisedFactoryBasedJ8UnitTest(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                                               final int enclosingLevel, final String body) {
+                // required preparations
+                final String optionalStatic = enclosingLevel > 0 ? "static " : "";
+                final String footer = enclosingLevel > 0 ? NL : "";
+                final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
+                final String testClassGenerics = bcsv(listOfTypeParameterNamesOf(clazz));
+                final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
+                final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
+                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(this.allInOneCustomTestInterfaceHead(clazz, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(RunWith.class) + "(" + simpleCanonicalClassOf(J8Parameterized.class) + ")" + NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(UseParametersRunnerFactory.class) + "("
+                          + simpleCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class) + ")" + NL);
+                sb.append(indent + "public " + optionalStatic + "class " + testClassName + testClassGenerics + NL);
+                sb.append(indent + "implements " + simpleCanonicalNameOf(FactoryBasedJ8UnitTest.class) + "<" + canonicalNameWithTypeParameterNamesOf(clazz)
+                          + ">, " + testClassInterfaceType + testClassInterfaceGenerics + " {" + NL);
+                sb.append(NL);
+                sb.append(this.allInOneCustomTestInterfaceBody(clazz, enclosingLevel + 1));
+                sb.append(body);
+                for (final Class<?> enveloped : this.calculateEnvelopedClasses(clazz, setup)) {
+                    sb.append(this.testClassContent(enveloped, setup, complementarySetup, enclosingLevel + 1));
+                }
+                sb.append(indent + "}" + NL);
+                sb.append(footer);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String j8UnitTest(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup, final int enclosingLevel,
+                                      final String body) {
+                // required preparations
+                final String optionalStatic = enclosingLevel > 0 ? "static " : "";
+                final String footer = enclosingLevel > 0 ? NL : "";
+                final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
+                final String testClassGenerics = bcsv(listOfTypeParameterDefinitionsOf(clazz));
+                final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
+                final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
+                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(this.allInOneCustomTestInterfaceHead(clazz, enclosingLevel));
+                sb.append(indent + "@" + simpleCanonicalNameOf(RunWith.class) + "(" + simpleCanonicalClassOf(J8Unit4.class) + ")" + NL);
+                sb.append(indent + "public " + optionalStatic + "class " + testClassName + testClassGenerics + NL);
+                sb.append(indent + "implements " + testClassInterfaceType + testClassInterfaceGenerics + " {" + NL);
+                sb.append(NL);
+                sb.append(this.allInOneCustomTestInterfaceBody(clazz, enclosingLevel + 1));
+                sb.append(body);
+                for (final Class<?> enveloped : this.calculateEnvelopedClasses(clazz, setup)) {
+                    sb.append(this.testClassContent(enveloped, setup, complementarySetup, enclosingLevel + 1));
+                }
+                sb.append(indent + "}" + NL);
+                sb.append(footer);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String enumClassTestData(final Class<? extends Enum<?>> clazz, final int enclosingLevel) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "@" + simpleCanonicalNameOf(Parameters.class) + "(name = \"{index}: {0}\")" + NL);
+                sb.append(indent + "public static " + simpleCanonicalNameOf(Iterable.class) + "<" + simpleCanonicalNameOf(Object[].class) + "> sutData() {"
+                          + NL);
+                sb.append(indent + SPACE + "return testParametersOfEnumClass(" + canonicalClassOf(clazz) + ");" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Parameter.class) + "(0)" + NL);
+                sb.append(indent + "public " + canonicalNameWithTypeParameterNamesOf(clazz) + " sut;" + NL);
+                sb.append(NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Override.class) + "" + NL);
+                sb.append(indent + "public " + canonicalNameWithTypeParameterNamesOf(clazz) + " createNewSUT() {" + NL);
+                sb.append(indent + SPACE + "return this.sut;" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String fieldBasedTestData(final Class<?> clazz, final Set<? extends Field> instances, final int enclosingLevel) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "@" + simpleCanonicalNameOf(Parameters.class) + "(name = \"{index}: {0}\")" + NL);
+                sb.append(indent + "public static " + simpleCanonicalNameOf(Iterable.class) + "<" + simpleCanonicalNameOf(Object[].class) + "> sutData() {"
+                          + NL);
+                final String data = instances.stream().map(f -> canonicalNameOf(clazz) + "." + f.getName())
+                                             .collect(joining(", //" + NL + indent + join("", nCopies(1 + 6, SPACE))));
+                sb.append(indent + SPACE + "return testParametersOf(" + data + ");" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Parameter.class) + "(0)" + NL);
+                sb.append(indent + "public " + canonicalNameWithTypeParameterNamesOf(clazz) + " sut;" + NL);
+                sb.append(NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Override.class) + "" + NL);
+                sb.append(indent + "public " + canonicalNameWithTypeParameterNamesOf(clazz) + " createNewSUT() {" + NL);
+                sb.append(indent + SPACE + "return this.sut;" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String constructorBasedTestData(final Class<?> clazz, final Constructor<?> constructor, final int enclosingLevel) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "@" + simpleCanonicalNameOf(Parameters.class) + "(name = \"{index}: {0}\")" + NL);
+                sb.append(indent + "public static " + simpleCanonicalNameOf(Iterable.class) + "<" + simpleCanonicalNameOf(Object[].class) + "> sutData() {"
+                          + NL);
+                sb.append(indent + SPACE + "return testParametersOf(" + canonicalNameOf(clazz) + "::new);" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Parameter.class) + "(0)" + NL);
+                sb.append(indent + SPACE + "public " + simpleCanonicalNameOf(Callable.class) + "<" + canonicalNameWithTypeParameterNamesOf(clazz)
+                          + "> sutFactory;" + NL);
+                sb.append(NL);
+                sb.append(indent + "@" + simpleCanonicalNameOf(Override.class) + "" + NL);
+                sb.append(indent + SPACE + "public " + simpleCanonicalNameOf(Callable.class) + "<" + canonicalNameWithTypeParameterNamesOf(clazz)
+                          + "> getSUTFactory() {" + NL);
+                sb.append(indent + SPACE + SPACE + "return this.sutFactory;" + NL);
+                sb.append(indent + SPACE + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+            private String todoBasedTestData(final Class<?> clazz, final int enclosingLevel, final String message) {
+                // required preparations
+                final String indent = indent(enclosingLevel);
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "@" + simpleCanonicalNameOf(Override.class) + "" + NL);
+                sb.append(indent + "public " + canonicalNameWithTypeParameterNamesOf(clazz) + " createNewSUT() {" + NL);
+                sb.append(indent + SPACE + "throw new " + simpleCanonicalNameOf(AssumptionViolatedException.class) + "(\"" + message + "\");" + NL);
+                sb.append(indent + "}" + NL);
+                sb.append(NL);
+                // finalize content
+                return sb.toString();
+            }
+
+        },
+
+        CLASS_TEST(CLASS, SPECIFIC_TEST, "ClassTest") {
+
+            @Override
+            protected String testClassContent(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                              final int enclosingLevel) {
+                final String indent = indent(enclosingLevel);
+                final String nested = enclosingLevel > 0 ? "static " : "";
+                final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
+                final String testClassSuper2 = complementarySetup.canonicalTestNameOf(clazz, JAVA_LANG) + "<" + canonicalNameOf(clazz) + ">";
+                // content storage
+                final StringBuilder sb = new StringBuilder();
+                // content creation
+                sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
+                sb.append(this.allInOneCustomTestInterfaceHead(clazz, enclosingLevel));
+                sb.append(indent + "public " + nested + "class " + testClassName + NL);
+                sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
+                sb.append(this.allInOneCustomTestInterfaceBody(clazz, enclosingLevel + 1));
+                sb.append(NL);
+                sb.append(indent + SPACE + "@Override" + NL);
+                sb.append(indent + SPACE + "public Class<" + canonicalNameOf(clazz) + "> createNewSUT() {" + NL);
+                sb.append(indent + SPACE + SPACE + "return " + canonicalClassOf(clazz) + ";" + NL);
+                sb.append(indent + SPACE + "}" + NL);
+                sb.append(NL);
+                // query all declared, relevant constructors
+                final Set<Constructor<?>> constructors = Arrays.stream(clazz.getDeclaredConstructors()) //
+                                                               .filter(setup::useConstructor) //
+                                                               .filter(this.accessScope::matches) //
+                                                               .peek(m -> {
+                    if (m.isSynthetic()) {
+                        LOG.warning(format(SKIP_TYPE_METHODS, clazz, m));
+                    }
+                }) //
+                                                               .filter(m -> !m.isSynthetic()) //
+                                                               .collect(toSet());
+                LOG.info(format(J8UNIT_TESTINTERFACE_AIMED_METHODS, clazz, this.accessScope, constructors));
+                for (final Constructor<?> constructor : constructors) {
+                    // collect all declaring super nodes
+                    final String testMethodName = setup.getSimpleTestMethodName(constructor);
+                    sb.append(indent + SPACE + "/**" + NL);
+                    sb.append(indent + SPACE + " * <p>" + NL);
+                    sb.append(indent + SPACE + " * Test method for {@link " + javadocNameOf(constructor) + " " + toVarArgAwareString(constructor) + "}." + NL);
+                    sb.append(indent + SPACE + " *" + NL);
+                    sb.append(indent + SPACE + " * Up to now, there is no real implementation of this test method. But with your help" + NL);
+                    sb.append(indent + SPACE + " * at <a href=\"http://www.j8unit.org\">http://www.j8unit.org</a> this marker method will" + NL);
+                    sb.append(indent + SPACE + " * be replaced by meaningful test methods soon." + NL);
+                    sb.append(indent + SPACE + " * </p>" + NL);
+                    sb.append(indent + SPACE + " *" + NL);
+                    sb.append(indent + SPACE + " * @see " + javadocNameOf(constructor) + " " + constructor + " (the hereby targeted constructor-under-test)"
+                              + NL);
+                    sb.append(indent + SPACE + " */" + NL);
+                    // append test method content
+                    sb.append(indent + SPACE + "@" + simpleCanonicalNameOf(Ignore.class) + "(\"" + IGNORE_STATEMENT + "\")" + NL);
+                    sb.append(indent + SPACE + "@" + simpleCanonicalNameOf(Test.class) + NL);
+                    sb.append(indent + SPACE + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(Draft.class) + ")" + NL);
+                    sb.append(indent + SPACE + "public void " + testMethodName + "() throws Exception {" + NL);
+                    sb.append(indent + SPACE + SPACE + "// create new instance" + NL);
+                    sb.append(indent + SPACE + SPACE + "@SuppressWarnings(\"unused\")" + NL);
+                    sb.append(indent + SPACE + SPACE + canonicalNameOf(clazz) + " sut = null; // = new " + javadocNameOf(constructor).split("#")[1] + ";" + NL);
+                    sb.append(indent + SPACE + "}" + NL);
+                    sb.append(NL);
+                }
+
+                // query all declared, relevant methods
+                final Set<Method> methods = Arrays.stream(clazz.getDeclaredMethods()) //
+                                                  .filter(setup::useMethod) //
+                                                  .filter(this.accessScope::matches) //
+                                                  .peek(m -> {
+                    if (m.isSynthetic()) {
+                        LOG.warning(format(SKIP_TYPE_METHODS, clazz, m));
+                    }
+                }) //
+                                                  .filter(m -> !m.isSynthetic()) //
+                                                  .collect(toSet());
+                LOG.info(format(J8UNIT_TESTINTERFACE_AIMED_METHODS, clazz, this.accessScope, methods));
+                for (final Method method : methods) {
+                    // collect all declaring super nodes
+                    final String testMethodName = setup.getSimpleTestMethodName(method);
+                    sb.append(indent + SPACE + "/**" + NL);
+                    sb.append(indent + SPACE + " * <p>" + NL);
+                    sb.append(indent + SPACE + " * Test method for {@link " + javadocNameOf(method) + " " + toVarArgAwareString(method) + "}." + NL);
+                    sb.append(indent + SPACE + " *" + NL);
+                    sb.append(indent + SPACE + " * Up to now, there is no real implementation of this test method. But with your help" + NL);
+                    sb.append(indent + SPACE + " * at <a href=\"http://www.j8unit.org\">http://www.j8unit.org</a> this marker method will" + NL);
+                    sb.append(indent + SPACE + " * be replaced by meaningful test methods soon." + NL);
+                    sb.append(indent + SPACE + " * </p>" + NL);
+                    sb.append(indent + SPACE + " *" + NL);
+                    sb.append(indent + SPACE + " * @see " + javadocNameOf(method) + " " + method + " (the hereby targeted method-under-test)" + NL);
+                    sb.append(indent + SPACE + " */" + NL);
+                    // append test method content
+                    sb.append(indent + SPACE + "@" + simpleCanonicalNameOf(Ignore.class) + "(\"" + IGNORE_STATEMENT + "\")" + NL);
+                    sb.append(indent + SPACE + "@" + simpleCanonicalNameOf(Test.class) + NL);
+                    sb.append(indent + SPACE + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(Draft.class) + ")" + NL);
+                    sb.append(indent + SPACE + "public void " + testMethodName + "() throws Exception {" + NL);
+                    sb.append(indent + SPACE + SPACE + "// write some test for {@link " + javadocNameOf(method) + "}" + NL);
+                    sb.append(indent + SPACE + "}" + NL);
+                    sb.append(NL);
+                }
+                // collect sub-classes
+                for (final Class<?> subClass : this.calculateEnvelopedClasses(clazz, setup)) {
+                    sb.append(this.testClassContent(subClass, setup, complementarySetup, enclosingLevel + 1));
+                    sb.append(NL);
+                }
+                sb.append(indent + "}" + NL);
+                // finalize content
+                return sb.toString();
+            }
+
+        },
+
+        PACKAGE_INFO(null, null, null) {
+
+            @Override
+            protected String generateSourceFileName(final Class<?> clazz, final GeneratorSetup setup) {
+                return "package-info.java";
+            }
+
+            @Override
+            public String generateSourceCode(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup) {
+                final Package pakkage = requireNonNull(clazz).getPackage();
+                final StringBuilder sb = new StringBuilder();
+                sb.append("/**" + NL);
+                sb.append(" * <p>" + NL);
+                sb.append(" * This package contains all the <strong>reusable tests</strong> targeting the behaviour of the types of package" + NL);
+                sb.append(" * {@code " + canonicalNameOf(pakkage) + "}." + NL);
+                sb.append(" * </p>" + NL);
+                sb.append(" *" + NL);
+                sb.append(" * <p>" + NL);
+                sb.append(" * According to <a href=\"https://docs.oracle.com/javase/specs/jls/se8/html/jls-6.html#jls-6.1\">The Java Language" + NL);
+                sb.append(" * Specification (Java SE 8 Edition), Section.&nbsp;6.1</a>, some package's &quot;[&hellip;] first identifier [&hellip;]" + NL);
+                sb.append(" * should not be the identifier {@code java} [&hellip;]&quot;. Thus, this test class collection is limited to accessible" + NL);
+                sb.append(" * classes (i.&thinsp;e., top-level, <a href=\"http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html\">nested," + NL);
+                sb.append(" * inner</a>) and accessible methods&nbsp;&ndash; simply because it cannot place test classes in the class-under-test's" + NL);
+                sb.append(" * {@code java.*} package (which otherwise would allow access to {@code protected}, resp. <em>package-private</em>" + NL);
+                sb.append(" * elements)." + NL);
+                sb.append(" * </p>" + NL);
+                sb.append(" *" + NL);
+                sb.append(" * @since 0.9.0" + NL);
+                sb.append(" * @author <a href=\"mailto:stefan@gasterstädt.de\">Stefan Gasterst&auml;dt</a>" + NL);
+                sb.append(" * @author <a href=\"mailto:sascha.zak@zak-digital.de\">Sascha Zak</a>" + NL);
+                sb.append(" */" + NL);
+                sb.append(this.packageDeclaration(clazz, setup));
+                // finalize content
+                return sb.toString();
+            }
+
+            @Override
+            protected String testClassContent(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                              final int enclosingLevel) {
+                return "";
+            }
+
+        };
 
     private static final Logger LOG = getLogger(Generator.class.getName());
 
-    private static final String IGNORE_STATEMENT = "With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.";
+    protected final AccessScope accessScope;
 
-    @SuppressWarnings("unused")
-    public static final void main(final String[] args)
-    throws Exception {
-        final List<String> LANG_ONLY = asList("java.lang");
-        final List<String> BASIC_JAVA = asList("java.lang", "java.io", "java.util");
-        final List<String> FULL_JAVA = asList("java", "javax", "org");
-        for (final String pakkage : FULL_JAVA) {
-            LOG.info(format(START_MAIN, pakkage));
-            // configure setup
-            final GeneratorSetup j8PackagesSetup = GeneratorSetup.forJavaPackage(pakkage) //
-                                                                 .intoTargetFolder("../repository/src/main/java") //
-                                                                 .asSubPackageOf("org.j8unit.repository") //
-                                                                 .suffixForInstanceScopeTestClass("Tests") //
-                                                                 .suffixForClassScopeTestClass("ClassTests") //
-                                                                 .useTestMethodPrefix("test_") //
-                                                                 .useTestConstructorPrefix("create_") //
-                                                                 .capitaliseMethodInfix(false) //
-                                                                 .overwriteExistingFiles(true) //
-                                                                 .build();
-            // run generator
-            new Generator(j8PackagesSetup).generateEveryPackageInfo();
-            final GeneratorSetup j8InterfacesSetup = GeneratorSetup.similarTo(j8PackagesSetup) //
-                                                                   .overwriteExistingFiles(true) //
-                                                                   .build();
-            new Generator(j8InterfacesSetup).generateEveryJ8UnitTestInterface();
-            final GeneratorSetup j8ClassesSetup = GeneratorSetup.similarTo(j8InterfacesSetup) //
-                                                                .intoTargetFolder("../repository/src/test/java") //
-                                                                .suffixForInstanceScopeTestClass("Test") //
-                                                                .suffixForClassScopeTestClass("ClassTest") //
-                                                                .overwriteExistingFiles(true) //
-                                                                .build();
-            new Generator(j8ClassesSetup).generateEveryJ8UnitTestClass(j8InterfacesSetup);
-            LOG.info(format(FINISH_MAIN, pakkage));
-        }
+    protected final Target target;
+
+    private final String defaultSuffix;
+
+    public String getDefaultSuffix() {
+        return this.defaultSuffix;
     }
 
-    private final GeneratorSetup setup;
-
-    public Generator(final GeneratorSetup setup) {
-        this.setup = setup;
+    private Generator(final AccessScope accessScope, final Target target, final String defaultSuffix) {
+        this.accessScope = accessScope;
+        this.target = target;
+        this.defaultSuffix = defaultSuffix;
     }
 
-    private void generateEveryPackageInfo()
-    throws IOException {
-        // determine all classes
-        final Set<Class<?>> classes = listAllClasses(this.setup.originLocation, this.setup.pakkage);
-        // determine all packages
-        final Set<Package> packages = classes.stream().map(Class::getPackage).collect(toSet());
-        // generate package infos
-        for (final Package pakkage : packages) {
-            this.generatePackageInfo(pakkage, this::generatePackageInfoContent);
-        }
+    protected String generateSourceFileName(final Class<?> clazz, final GeneratorSetup setup) {
+        return setup.simpleCanonicalTestNameOf(clazz) + ".java";
     }
 
-    private void generatePackageInfo(final Package pakkage, final Function<Package, String> contentSource)
-    throws IOException {
-        LOG.info(format(HANDLING, pakkage));
-        // create target folder (unless existing)
-        final Path folder = this.setup.folderForPackage(pakkage);
-        folder.toFile().mkdirs();
-        // generate package info's content
-        final String content = contentSource.apply(pakkage);
-        // create package info (unless existing and disabled overwriting)
-        final File file = folder.resolve(this.setup.filenameForPackage(pakkage)).toFile();
-        if (file.createNewFile() || this.setup.isOverwriteMode()) {
-            LOG.info(format(CREATE_PACKAGE_INFOFILE, pakkage));
-            try (final Writer writer = new FileWriter(file)) {
-                writer.write(content);
-            }
-        } else {
-            LOG.info(format(SKIP_PACKAGE_INFOFILE, pakkage));
-        }
-        LOG.info(format(FINISHED, pakkage));
-    }
-
-    private String generatePackageInfoContent(final Package pakkage) {
-        LOG.info(format(CREATE_PACKAGE_INFOFILE_CONTENT, pakkage));
-        final StringBuilder sb = new StringBuilder();
-        sb.append(this.packageJavaDoc(pakkage));
-        sb.append(this.packageDeclaration(pakkage));
-        return sb.toString();
-    }
-
-    private void generateEveryJ8UnitTestInterface()
-    throws IOException {
-        // determine all classes
-        final Set<Class<?>> classes = listAllClasses(this.setup.originLocation, this.setup.pakkage);
-        // generate test classes
-        for (final Class<?> clazz : classes) {
-            this.generateJ8UnitTestClass(clazz, INSTANCE, this::contentOfTestClass);
-            this.generateJ8UnitTestClass(clazz, CLASS, this::contentOfTestClass);
-        }
-    }
-
-    private void generateJ8UnitTestClass(final Class<?> clazz, final Membership membership, final BiFunction<Class<?>, Membership, String> contentSource)
-    throws IOException {
-        if (TOP_LEVEL.mismatches(clazz)) {
-            // defer enveloped class
+    public void generateSourceFile(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup) {
+        if (TOP_LEVEL.mismatches(requireNonNull(clazz))) {
+            // defer enveloped type
             LOG.fine(format(DEFER_TYPE, clazz));
-        } else if (this.setup.skipClass(clazz)) {
-            // skip classes by current setup
+        } else if (requireNonNull(setup).skipClass(clazz)) {
+            // skip type by current setup
             LOG.warning(format(SKIP_TYPE, clazz));
         } else {
-            LOG.info(format(HANDLING, clazz));
-            // create target folder (unless existing)
-            final Path folder = this.setup.folderForClass(clazz);
-            folder.toFile().mkdirs();
-            // generate test class' content
-            final String content = contentSource.apply(clazz, membership);
-            // create test class (unless existing)
-            final File file = folder.resolve(this.setup.filenameForClass(clazz, membership)).toFile();
-            if (file.createNewFile() || this.setup.isOverwriteMode()) {
-                LOG.info(format(CREATE_J8UNIT_TESTINTERFACE, clazz, membership));
-                try (final Writer writer = new FileWriter(file)) {
-                    writer.write(content);
-                }
-            } else {
-                LOG.info(format(SKIP_J8UNIT_TESTINTERFACE, clazz, membership));
-            }
-            LOG.info(format(FINISHED, clazz));
-        }
-    }
-
-    private String contentOfTestClass(final Class<?> clazz, final Membership membership) {
-        LOG.info(format(CREATE_J8UNIT_TESTINTERFACE_CONTENT, clazz, membership));
-        final StringBuilder sb = new StringBuilder();
-        sb.append(this.packageDeclaration(clazz));
-        sb.append(this.imports(clazz));
-        sb.append(this.testClassContent(clazz, membership, 0));
-        return sb.toString();
-    }
-
-    /**
-     * TODO: Known Bug: {@code KeySetView<K,V> extends CollectionView<K,V,K>} with package private
-     * {@code CollectionView} binds {@code E} to {@code K} but that knowledge is lost by skipping unreachable package
-     * private super classes.
-     *
-     * @see http://stackoverflow.com/questions/1961350/problem-in-the-getdeclaredmethods-java
-     * @see https://javax0.wordpress.com/2014/02/26/syntethic-and-bridge-methods/
-     */
-    private String testClassContent(final Class<?> clazz, final Membership membership, final int enclosingLevel) {
-        final boolean isRawGeneric = isRawGeneric(clazz);
-        // calculate hierarchically closest class node with a usable super class; store interfaces found meanwhile
-        final Map<Class<?>, Type> parents = new LinkedHashMap<>();
-        StreamSupport.stream(spliteratorUnknownSize(classHierarchy(clazz), ORDERED & NONNULL & IMMUTABLE), false) //
-                     .peek(c -> getInterfaces(c).entrySet().stream() // store ...
-                                                .filter(e -> this.setup.useClass(e.getKey())) // ... meanwhile ...
-                                                .forEach(e -> parents.put(e.getKey(), e.getValue()))) // ... interfaces
-                     .peek(c -> {
-                         if (!this.setup.useClass(c.getSuperclass())) {
-                             LOG.warning(format(SKIP_TYPE_SUPER_CLASSES, clazz, c));
-                         }
-                     }) //
-                     .filter(c -> this.setup.useClass(c.getSuperclass())) //
-                     .findFirst() //
-                     .ifPresent(c -> parents.put(c.getSuperclass(), c.getGenericSuperclass()));
-        LOG.info(format(J8UNIT_TESTINTERFACE_REUSED_SUPERS, clazz, membership, parents.entrySet()));
-        // collect non-private, explicitly declared membership-matching constructors
-        final Set<Constructor<?>> constructors = Arrays.stream(clazz.getDeclaredConstructors()) //
-                                                       .filter(PRIVATE::mismatches) //
-                                                       .filter(this.setup::useConstructor) //
-                                                       .filter(membership::matches) //
-                                                       .peek(c -> {
-                                                           if (!isReallyDeclared(clazz, c)) {
-                                                               LOG.warning(format(SKIP_TYPE_CONSTRUCTORS, clazz, c));
-                                                           }
-                                                       }) //
-                                                       .filter(c -> isReallyDeclared(clazz, c)) //
-                                                       .collect(toSet());
-        LOG.info(format(J8UNIT_TESTINTERFACE_AIMED_CONSTRUCTORS, clazz, membership, constructors));
-        // collect non-private, explicitly declared membership-matching methods
-        final Set<Method> methods = Arrays.stream(clazz.getDeclaredMethods()) //
-                                          .filter(PRIVATE::mismatches) //
-                                          .filter(this.setup::useMethod) //
-                                          .filter(membership::matches) //
-                                          .peek(m -> {
-                                              if (!isReallyDeclared(clazz, m)) {
-                                                  LOG.warning(format(SKIP_TYPE_METHODS, clazz, m));
-                                              }
-                                          }) //
-                                          .filter(m -> isReallyDeclared(clazz, m)) //
-                                          .collect(toSet());
-        LOG.info(format(J8UNIT_TESTINTERFACE_AIMED_METHODS, clazz, membership, methods));
-        // collect public membership-matching methods that are not specified by its merging class
-        // (Note: Class#getMethods() returns only public methods but this is OK because there is no merging problem for
-        // non-public methods)
-        final Set<Method> duplicatedCandidates = Arrays.stream(clazz.getMethods()) //
-                                                       .filter(this.setup::useMethod) //
-                                                       .filter(membership::matches) //
-                                                       // keep in mind the method might be overwritten, so map it to the
-                                                       // most specific method ...
-                                                       .map(m -> runtimed(() -> clazz.getMethod(m.getName(), m.getParameterTypes()))) //
-                                                       // ... us only if it is a candidate
-                                                       .filter(m -> !specifiesSuchPublicMethod(getNearestMergingClass(clazz, m).get(), m)) //
-                                                       .collect(toSet());
-        LOG.info(format(J8UNIT_TESTINTERFACE_MERGE_METHOD_CANDIDATES, clazz, membership, duplicatedCandidates));
-        // collect sub-classes
-        final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                               .filter(PRIVATE::mismatches) //
-                                               .filter(this.setup::useClass) //
-                                               .collect(toSet());
-        LOG.info(format(ENCLOSED_TYPES, clazz, subClasses));
-        // prepare statements
-        final String indent = join("", nCopies(enclosingLevel, SPACE));
-        final String enclosed = enclosingLevel > 0 ? "static " : "";
-        final String testClassName = membership.getTestClassName(clazz, this.setup);
-        final String testClassSuperTypes = membership.getTestClassSuperTypes(parents, this.setup, isRawGeneric);
-        final String sutSuperTypes = membership.getSutSuperTypes(clazz);
-        final String suppressWarnings = membership.getTestClassSuppressWarnings(clazz);
-        // append test class content
-        final StringBuilder sb = new StringBuilder();
-        sb.append(this.classJavaDoc(clazz, membership, indent));
-        sb.append(ofEmptyable(suppressWarnings).surround(indent, NL).orElse(""));
-        sb.append(indent + "@" + simpleCanonicalNameOf(FunctionalInterface.class) + NL);
-        // sb.append(indent + "@" + simpleCanonicalNameOf(Aim.class) + "(clazz=" + canonicalClassOf(clazz) + ",
-        // javadoc=\"" + canonicalNameOf(clazz) + "\")" + NL);
-        sb.append(indent + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(J8UnitRepository.class) + ")" + NL);
-        sb.append(indent + "public " + enclosed + "abstract interface " + testClassName + "<SUT extends " + sutSuperTypes + ">" + NL);
-        sb.append(indent + "extends " + testClassSuperTypes + NL);
-        sb.append(indent + "{" + NL);
-        sb.append(NL);
-        if (isRawGeneric) {
-            sb.append(this.contentOfSutCreation(membership, indent + SPACE));
-            sb.append(NL);
-        }
-        for (final Constructor<?> constructor : constructors) {
-            sb.append(this.contentOfTestConstructor(constructor, indent + SPACE));
-            sb.append(NL);
-        }
-        this.appendCustomContent(sb, clazz, membership, indent + SPACE);
-        for (final Method method : methods) {
-            sb.append(this.contentOfTestMethod(clazz, method, parents, indent + SPACE, false, membership));
-            sb.append(NL);
-        }
-        for (final Method method : duplicatedCandidates) {
-            sb.append(this.contentOfTestMethod(clazz, method, parents, indent + SPACE, true, membership));
-            sb.append(NL);
-        }
-        for (final Class<?> subClass : subClasses) {
-            sb.append(this.testClassContent(subClass, membership, enclosingLevel + 1));
-            sb.append(NL);
-        }
-        sb.append(indent + "}" + NL);
-        return sb.toString();
-    }
-
-    private Object contentOfSutCreation(final Membership membership, final String indent) {
-        if (CLASS.equals(membership)) {
-            return "";
-        }
-        final StringBuilder sb = new StringBuilder();
-        sb.append(indent + "// The definition of the SUT factory method must be repeated" + NL);
-        sb.append(indent + "// because of the \"rawtypes\" nature of this 8Unit test interface" + NL);
-        sb.append(indent + "// (caused by the \"rawtypes\" nature of the class-under-test)." + NL);
-        sb.append(indent + "@Override" + NL);
-        sb.append(indent + "public abstract SUT createNewSUT();" + NL);
-        return sb.toString();
-    }
-
-    private String contentOfTestConstructor(final Constructor<?> constructor, final String indent) {
-        // prepare statements
-        final String testMethodName = this.setup.getSimpleTestMethodName(constructor);
-        final String names = classNameWithUnboundTypeParametersOf(constructor.getDeclaringClass(), INSTANCE);
-        // append test method content
-        final StringBuilder sb = new StringBuilder();
-        sb.append(this.contentOfConstructorJavaDocComment(constructor, indent));
-        sb.append(indent + "@" + simpleCanonicalNameOf(Ignore.class) + "(\"" + IGNORE_STATEMENT + "\")" + NL);
-        sb.append(indent + "@" + simpleCanonicalNameOf(Test.class) + NL);
-        // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" +
-        // canonicalClassOf(constructor.getDeclaringClass()) + ", executable=\"" + constructor
-        // + "\", javadoc=\"" + javadocNameOf(constructor) + "\")" + NL);
-        sb.append(indent + "@" + simpleCanonicalNameOf(Category.class) + "(" + simpleCanonicalClassOf(Draft.class) + ")" + NL);
-        sb.append(indent + "public default void " + testMethodName + "() throws Exception {" + NL);
-        sb.append(indent + SPACE + "// create new instance" + NL);
-        sb.append(indent + SPACE + "@SuppressWarnings(\"unused\")" + NL);
-        sb.append(indent + SPACE + names + " sut = null; // = new " + javadocNameOf(constructor).split("#")[1] + ";" + NL);
-        sb.append(indent + "}" + NL);
-        return sb.toString();
-    }
-
-    private String contentOfConstructorJavaDocComment(final Constructor<?> constructor, final String indent) {
-        final StringBuilder sb = new StringBuilder();
-        sb.append(indent + "/**" + NL);
-        sb.append(indent + " * <p>" + NL);
-        sb.append(indent + " * Test method for {@link " + javadocNameOf(constructor) + " " + toVarArgAwareString(constructor) + "}." + NL);
-        sb.append(indent + " *" + NL);
-        sb.append(indent + " * Up to now, there is no real implementation of this test method. But with your help" + NL);
-        sb.append(indent + " * at <a href=\"http://www.j8unit.org\">http://www.j8unit.org</a> this marker method will" + NL);
-        sb.append(indent + " * be replaced by meaningful test methods soon." + NL);
-        sb.append(indent + " * </p>" + NL);
-        sb.append(indent + " *" + NL);
-        sb.append(indent + " * @j8unit.aim " + javadocNameOf(constructor) + NL);
-        sb.append(indent + " */" + NL);
-        return sb.toString();
-    }
-
-    private String contentOfTestMethod(final Class<?> clazz, final Method method, final Map<Class<?>, Type> parents, final String indent,
-                                       final boolean mergeMode, final Membership membership) {
-        // collect all declaring super nodes
-        final Set<Class<?>> candidates = parents.keySet().stream().map(s -> getNearestMergingClass(s, method)).flatMap(GeneratorUtil::toStream)
-                                                .collect(toSet());
-        LOG.info("The method [" + method + "] is inherited via " + candidates + ".");
-        if (mergeMode && (candidates.size() < 2)) {
-            LOG.info("There is no need to specify a test method for [" + method
-                     + "] because (a) it is not inherited more than once and (b) it is not overwritten within current class.");
-            return "";
-        }
-        // prepare statements
-        final String override = candidates.isEmpty() ? "" : indent + "@Override" + NL;
-        final String testMethodName = this.setup.getSimpleTestMethodName(method);
-        // append test method content
-        final StringBuilder sb = new StringBuilder();
-        sb.append(this.contentOfMethodJavaDocComment(clazz, method, indent, mergeMode, candidates));
-        sb.append(indent + "@Ignore(\"" + IGNORE_STATEMENT + "\")" + NL);
-        sb.append(indent + "@Test" + NL);
-        // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" + canonicalClassOf(clazz) + ", executable=\""
-        // + method + "\", javadoc=\""
-        // + javadocNameOf(clazz, method) + "\")" + NL);
-        sb.append(indent + "@Category(" + simpleCanonicalClassOf(Draft.class) + ")" + NL);
-        sb.append(override);
-        sb.append(indent + "public default void " + testMethodName + "() throws Exception {" + NL);
-        if (!mergeMode) {
-            sb.append(indent + SPACE + "// query fresh subject-under-test" + NL);
-            sb.append(indent + SPACE + (Membership.INSTANCE.equals(membership) ? "SUT" : "Class<SUT>") + " sut = this.createNewSUT();" + NL);
-            sb.append(indent + SPACE + "assert sut != null;" + NL);
-        }
-        sb.append(indent + "}" + NL);
-        return sb.toString();
-    }
-
-    private String contentOfMethodJavaDocComment(final Class<?> clazz, final Method method, final String indent, final boolean mergeMode,
-                                                 final Set<Class<?>> candidates) {
-        final StringBuilder sb = new StringBuilder();
-        if (mergeMode) {
-            /*
-             * [QUOTE] Duplicate default methods named test_toString with the parameters () and () are inherited from
-             * the types ObjectTests<SUT> and CharSequenceTests<SUT> [/QUOTE]
-             */
-            sb.append(indent + "/**" + NL);
-            sb.append(indent + " * <p>" + NL);
-            sb.append(indent + " * The method-under-test covered by this test method is inherited duplicatedly within" + NL);
-            sb.append(indent + " * the declaring class-under-test:</p>" + NL);
-            sb.append(indent + " * <ul>" + NL);
-            for (final Class<?> candidate : candidates) {
-                sb.append(indent + " * <li>" + candidate + "</li>" + NL);
-            }
-            sb.append(indent + " * </ul>" + NL);
-            sb.append(indent + " * " + NL);
-            sb.append(indent + " * <p>In result, there are duplicated according test" + NL);
-            sb.append(indent + " * method within the super test classes. To solve this situation, this method must be" + NL);
-            sb.append(indent + " * overriden. Dont't worry, there will be meaningful test methods soon and, thus," + NL);
-            sb.append(indent + " * overriding becomes unnecessary." + NL);
-            sb.append(indent + " * </p>" + NL);
-            sb.append(indent + " */" + NL);
-        } else {
-            sb.append(indent + "/**" + NL);
-            sb.append(indent + " * <p>" + NL);
-            sb.append(indent + " * Test method for {@link " + javadocNameOf(method) + " " + toVarArgAwareString(method) + "}." + NL);
-            sb.append(indent + " *" + NL);
-            sb.append(indent + " * Up to now, there is no real implementation of this test method. But with your help" + NL);
-            sb.append(indent + " * at <a href=\"http://www.j8unit.org\">http://www.j8unit.org</a> this marker method will" + NL);
-            sb.append(indent + " * be replaced by meaningful test methods soon." + NL);
-            sb.append(indent + " * </p>" + NL);
-            sb.append(indent + " *" + NL);
-            sb.append(indent + " * @j8unit.aim " + javadocNameOf(clazz, method) + NL);
-            sb.append(indent + " */" + NL);
-        }
-        return sb.toString();
-    }
-
-    protected void generateEveryJ8UnitTestClass(final GeneratorSetup testSetup)
-    throws IOException {
-        // determine all classes
-        final Set<Class<?>> classes = listAllClasses(this.setup.originLocation, this.setup.pakkage);
-        // generate test classes
-        for (final Class<?> clazz : classes) {
-            this.generateSpecificTestClass(clazz, INSTANCE, testSetup);
-            this.generateSpecificTestClass(clazz, CLASS, testSetup);
-        }
-    }
-
-    private void generateSpecificTestClass(final Class<?> clazz, final Membership membership, final GeneratorSetup testSetup)
-    throws IOException {
-        if (TOP_LEVEL.mismatches(clazz)) {
-            // defer enveloped class
-            LOG.fine("Defer [" + clazz + "] because it is not top-level (membership = [" + membership + "]).");
-        } else if (this.setup.skipClass(clazz)) {
-            // skip classes by current setup
-            LOG.warning("Skipping [" + clazz + "] by current setup (membership = [" + membership + "]).");
-        } else {
-            LOG.info("Handling [" + clazz + "] (membership = [" + membership + "])");
-            // generate test class' content
-            final String content = this.contentOfSpecificTestClass(clazz, membership, testSetup);
-            if (content.length() > 0) {
+            LOG.info(format(HANDLE_TYPE, clazz));
+            try {
+                final Path folder = setup.folderForClass(clazz);
                 // create target folder (unless existing)
-                final Path folder = this.setup.folderForClass(clazz);
                 folder.toFile().mkdirs();
-                // create test class (unless existing)
-                final File file = folder.resolve(this.setup.filenameForClass(clazz, membership)).toFile();
-                if (file.createNewFile() || this.setup.isOverwriteMode()) {
-                    LOG.info("Creating/Overwriting specific test class file for [" + clazz + "].");
+                final File file = folder.resolve(this.generateSourceFileName(clazz, setup)).toFile();
+                if (!file.exists() || setup.isOverwriteMode()) {
+                    // generate test class' content
+                    final String content = this.generateSourceCode(clazz, setup, complementarySetup);
+                    // create test class
+                    LOG.info(format(CREATE_FILE, clazz));
+                    file.createNewFile();
                     try (final Writer writer = new FileWriter(file)) {
                         writer.write(content);
                     }
                 } else {
-                    LOG.info("Skipping creation of an already existing specific test class file for [" + clazz + "].");
+                    LOG.info(format(SKIP_FILE, clazz));
                 }
+            } catch (final IOException io) {
+                LOG.log(SEVERE, format(ABORT_FILE, clazz), io);
             }
-            LOG.info(format(FINISHED, clazz));
+            LOG.info(format(FINISH_TYPE, clazz));
         }
     }
 
-    private String contentOfSpecificTestClass(final Class<?> clazz, final Membership membership, final GeneratorSetup testSetup) {
-        LOG.info("Creating content of test class for [" + clazz + "] with membership [" + membership + "].");
-        final String content = this.contentOfSpecificTestClass(clazz, membership, 0, testSetup);
-        final StringBuilder sb = new StringBuilder();
-        if (content.length() > 0) {
-            sb.append(this.packageDeclaration(clazz));
-            sb.append(this.imports(clazz));
-            sb.append(content);
-        }
-        return sb.toString();
-    }
-
-    private String contentOfSpecificTestClass(final Class<?> clazz, final Membership membership, final int enclosingLevel, final GeneratorSetup testSetup) {
-        LOG.info("Creating content of test class for [" + clazz + "] (membership = [" + membership + "].");
-        final String content;
-        if (clazz.isEnum() && INSTANCE.equals(membership)) {
-            LOG.info("[" + clazz + "] is enum and the membership is [" + membership + "].");
-            final @SuppressWarnings("unchecked") Class<? extends Enum<?>> eClazz = (Class<? extends Enum<?>>) clazz;
-            content = this.contentOfSpecificEnumInstanceTestClass(eClazz, membership, enclosingLevel, testSetup);
-        } else if (!Modifier.isAbstract(clazz.getModifiers()) && INSTANCE.equals(membership)) {
-            LOG.info("[" + clazz + "] is not abstract and the membership is [" + membership + "].");
-            content = this.contentOfSpecificDefaultInstanceTestClass(clazz, membership, enclosingLevel, testSetup);
-        } else if (CLASS.equals(membership)) {
-            LOG.info("[" + clazz + "] with membership is [" + membership + "].");
-            content = this.contentOfSpecificClassTestClass(clazz, membership, enclosingLevel, testSetup);
-        } else {
-            LOG.info("[" + clazz + "] has no senseful use-case.");
-            content = "";
-        }
-        return content;
-    }
-
-    private String contentOfSpecificEnumInstanceTestClass(final Class<? extends Enum<?>> clazz, final Membership membership, final int enclosingLevel,
-                                                          final GeneratorSetup testSetup) {
-        final String indent = join("", nCopies(enclosingLevel, SPACE));
-        final String nested = enclosingLevel > 0 ? "static " : "";
-        final String testClassName = this.setup.simpleTestName(clazz, membership);
-        final String sutSuper = canonicalNameWithTypeParametersNames(clazz, membership);
-        final String testClassSuper2 = testSetup.getTestClassName(clazz, membership) //
-                                       + "<" + sutSuper + ofEmptyable(typeParametersNamesOf(clazz)).prepend(",").orElse("") + ">";
-        final StringBuilder sb = new StringBuilder();
-        sb.append(indent + "@RunWith(J8Parameterized.class)" + NL);
-        sb.append(indent + "@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)" + NL);
-        sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(typeParametersDefinitionsOf(clazz)).surround("<", ">").orElse("") + NL);
-        sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
-        sb.append(NL);
-        sb.append(indent + SPACE + "@Parameters(name = \"{index}: {0}\")" + NL);
-        sb.append(indent + SPACE + "public static Iterable<Object[]> sutData() {" + NL);
-        sb.append(indent + SPACE + SPACE + "return testParametersOfEnumClass(" + canonicalClassOf(clazz) + ");" + NL);
-        sb.append(indent + SPACE + "}" + NL);
-        sb.append(NL);
-        sb.append(indent + SPACE + "@Parameter(0)" + NL);
-        sb.append(indent + SPACE + "public " + sutSuper + " sut;" + NL);
-        sb.append(NL);
-        sb.append(indent + SPACE + "@Override" + NL);
-        sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
-        sb.append(indent + SPACE + SPACE + "return this.sut;" + NL);
-        sb.append(indent + SPACE + "}" + NL);
-        sb.append(NL);
-        // collect sub-classes
-        final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                               .filter(PRIVATE::mismatches) //
-                                               .filter(this.setup::useClass) //
-                                               .collect(toSet());
-        LOG.info("The [" + clazz + "] contains the following inner/nested classes: " + subClasses);
-        for (final Class<?> subClass : subClasses) {
-            sb.append(this.contentOfSpecificTestClass(subClass, membership, enclosingLevel + 1, testSetup));
-            sb.append(NL);
-        }
-        sb.append(indent + "}" + NL);
-        return sb.toString();
-    }
-
-    private String contentOfSpecificDefaultInstanceTestClass(final Class<?> clazz, final Membership membership, final int enclosingLevel,
-                                                             final GeneratorSetup testSetup) {
-        final String indent = join("", nCopies(enclosingLevel, SPACE));
-        final String nested = enclosingLevel > 0 ? "static " : "";
-        final String testClassName = this.setup.simpleTestName(clazz, membership);
-        final String sutSuper = canonicalNameWithTypeParametersNames(clazz, membership);
-        final String testClassSuper2 = testSetup.getTestClassName(clazz, membership) //
-                                       + "<" + sutSuper + ofEmptyable(typeParametersNamesOf(clazz)).prepend(",").orElse("") + ">";
-        final String className = canonicalNameOf(clazz);
-
-        Optional<Constructor<?>> constructor = Optional.empty();
-        Optional<Constructor<?>> saveConstructor = Optional.empty();
-        try {
-            constructor = Stream.<Constructor<?>> of(clazz.getDeclaredConstructor()) //
-                                .filter(PRIVATE::mismatches) //
-                                .filter(this.setup::useConstructor) //
-                                .findFirst();
-            saveConstructor = constructor.filter(c -> stream(c.getExceptionTypes()).allMatch(RuntimeException.class::isAssignableFrom));
-        } catch (NoSuchMethodException | SecurityException any) {}
-
-        final Set<Field> collect = stream(clazz.getDeclaredFields()).filter(f -> Modifier.isStatic(f.getModifiers()))
-                                                                    .filter(f -> Modifier.isPublic(f.getModifiers()))
-                                                                    .filter(f -> clazz.isAssignableFrom(f.getType())).collect(toSet());
-        final StringBuilder sb = new StringBuilder();
-
-        if (!collect.isEmpty()) {
-            sb.append(indent + "@RunWith(J8Parameterized.class)" + NL);
-            sb.append(indent + "@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)" + NL);
-            sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(typeParametersDefinitionsOf(clazz)).surround("<", ">").orElse("")
-                      + NL);
-            sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
-            sb.append(NL);
-            sb.append(indent + SPACE + "@Parameters(name = \"{index}: {0}\")" + NL);
-            sb.append(indent + SPACE + "public static Iterable<Object[]> sutData() {" + NL);
-            final String x = collect.stream().map(f -> canonicalNameOf(clazz) + "." + f.getName())
-                                    .collect(joining(", //" + NL + indent + SPACE + SPACE + "                        ", "testParametersOf(", ")"));
-            sb.append(indent + SPACE + SPACE + "return " + x + ";" + NL);
-            sb.append(indent + SPACE + "}" + NL);
-            sb.append(NL);
-            sb.append(indent + SPACE + "@Parameter(0)" + NL);
-            sb.append(indent + SPACE + "public " + sutSuper + " sut;" + NL);
-            sb.append(NL);
-            sb.append(indent + SPACE + "@Override" + NL);
-            sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
-            sb.append(indent + SPACE + SPACE + "return this.sut;" + NL);
-            sb.append(indent + SPACE + "}" + NL);
-            sb.append(NL);
-            // collect sub-classes
-            final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                                   .filter(PRIVATE::mismatches) //
-                                                   .filter(this.setup::useClass) //
-                                                   .collect(toSet());
-            LOG.info("The [" + clazz + "] contains the following inner/nested classes: " + subClasses);
-            for (final Class<?> subClass : subClasses) {
-                sb.append(this.contentOfSpecificTestClass(subClass, membership, enclosingLevel + 1, testSetup));
-                sb.append(NL);
+    @SuppressWarnings("unused")
+    public static void main(final String[] args)
+    throws Exception {
+        final List<String> LANG_ONLY = asList("java.lang");
+        final List<String> BASIC_JAVA = asList("java.lang", "java.io", "java.util");
+        final List<String> FULL_JAVA = asList("java", "javax", "org");
+        for (final String pakkage : LANG_ONLY) {
+            LOG.info(format(START_MAIN, pakkage));
+            final GeneratorSetup j8InstanceRepository = GeneratorSetup.forJavaPackage(pakkage) //
+                                                                      .intoTargetFolder("src/main/java") //
+                                                                      .asSubPackageOf("org.j8unit.repository") //
+                                                                      .useTestClassPrefix("") //
+                                                                      .upperCaseTestClassInfix(false) //
+                                                                      .useTestClassSuffix(INSTANCE_REPOSITORY.defaultSuffix) //
+                                                                      .useTestConstructorPrefix("create_") //
+                                                                      .upperCaseTestConstructorInfix(false) //
+                                                                      .useTestConstructorSuffix("") //
+                                                                      .useTestMethodPrefix("test_") //
+                                                                      .upperCaseTestMethodInfix(false) //
+                                                                      .useTestMethodSuffix("") //
+                                                                      .overwriteExistingFiles() //
+                                                                      .build();
+            final GeneratorSetup j8ClassRepository = GeneratorSetup.similarTo(j8InstanceRepository) //
+                                                                   .useTestClassSuffix(CLASS_REPOSITORY.defaultSuffix) //
+                                                                   .build();
+            for (final Class<?> clazz : j8InstanceRepository.listAllTypes()) {
+                INSTANCE_REPOSITORY.generateSourceFile(clazz, j8InstanceRepository, j8ClassRepository);
             }
-            sb.append(indent + "}" + NL);
-        } else if (saveConstructor.isPresent()) {
-            sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
-            sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(typeParametersDefinitionsOf(clazz)).surround("<", ">").orElse("")
-                      + NL);
-            sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
-            sb.append(NL);
-            sb.append(indent + SPACE + "@Override" + NL);
-            sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
-            sb.append(indent + SPACE + SPACE + "return new " + className + "();" + NL);
-            sb.append(indent + SPACE + "}" + NL);
-            sb.append(NL);
-            // collect sub-classes
-            final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                                   .filter(PRIVATE::mismatches) //
-                                                   .filter(this.setup::useClass) //
-                                                   .collect(toSet());
-            LOG.info("The [" + clazz + "] contains the following inner/nested classes: " + subClasses);
-            for (final Class<?> subClass : subClasses) {
-                sb.append(this.contentOfSpecificTestClass(subClass, membership, enclosingLevel + 1, testSetup));
-                sb.append(NL);
+            for (final Class<?> clazz : j8ClassRepository.listAllTypes()) {
+                CLASS_REPOSITORY.generateSourceFile(clazz, j8ClassRepository, j8InstanceRepository);
             }
-            sb.append(indent + "}" + NL);
-        } else if (constructor.isPresent()) {
-            sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
-            sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(typeParametersDefinitionsOf(clazz)).surround("<", ">").orElse("")
-                      + NL);
-            sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
-            sb.append(NL);
-            sb.append(indent + SPACE + "@Override" + NL);
-            sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
-            sb.append(indent + SPACE + "try {" + NL);
-            sb.append(indent + SPACE + SPACE + "return new " + className + "();" + NL);
-            sb.append(indent + SPACE + "} catch (final Exception cause) {" + NL);
-            sb.append(indent + SPACE + SPACE + "throw new " + AssertionError.class.getSimpleName()
-                      + "(\"Failed to create new subject-under-test instance!\", cause);" + NL);
-            sb.append(indent + SPACE + "}" + NL);
-            sb.append(indent + "}" + NL);
-            sb.append(NL);
-            // collect sub-classes
-            final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                                   .filter(PRIVATE::mismatches) //
-                                                   .filter(this.setup::useClass) //
-                                                   .collect(toSet());
-            LOG.info("The [" + clazz + "] contains the following inner/nested classes: " + subClasses);
-            for (final Class<?> subClass : subClasses) {
-                sb.append(this.contentOfSpecificTestClass(subClass, membership, enclosingLevel + 1, testSetup));
-                sb.append(NL);
+            final GeneratorSetup j8InstanceTest = GeneratorSetup.similarTo(j8InstanceRepository) //
+                                                                .intoTargetFolder("src/test/java") //
+                                                                .useTestClassSuffix(INSTANCE_TEST.defaultSuffix) //
+                                                                .build();
+            for (final Class<?> clazz : j8InstanceTest.listAllTypes()) {
+                INSTANCE_TEST.generateSourceFile(clazz, j8InstanceTest, j8InstanceRepository);
             }
-            sb.append(indent + "}" + NL);
-        } else {
-            sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
-            sb.append(indent + "public " + nested + "class " + testClassName + ofEmptyable(typeParametersDefinitionsOf(clazz)).surround("<", ">").orElse("")
-                      + NL);
-            sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
-            sb.append(NL);
-            sb.append(indent + SPACE + "@Override" + NL);
-            sb.append(indent + SPACE + "public " + sutSuper + " createNewSUT() {" + NL);
-            sb.append(indent + SPACE + SPACE + "throw new " + AssumptionViolatedException.class.getSimpleName() + "(\"There is no default constructor for ["
-                      + className + "] available.\");" + NL);
-            sb.append(indent + SPACE + "}" + NL);
-            sb.append(NL);
-            // collect sub-classes
-            final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                                   .filter(PRIVATE::mismatches) //
-                                                   .filter(this.setup::useClass) //
-                                                   .collect(toSet());
-            LOG.info("The [" + clazz + "] contains the following inner/nested classes: " + subClasses);
-            for (final Class<?> subClass : subClasses) {
-                sb.append(this.contentOfSpecificTestClass(subClass, membership, enclosingLevel + 1, testSetup));
-                sb.append(NL);
+            final GeneratorSetup j8ClassTest = GeneratorSetup.similarTo(j8InstanceTest) //
+                                                             .useTestClassSuffix(CLASS_TEST.defaultSuffix) //
+                                                             .build();
+            for (final Class<?> clazz : j8ClassTest.listAllTypes()) {
+                CLASS_TEST.generateSourceFile(clazz, j8ClassTest, j8ClassRepository);
             }
-            sb.append(indent + "}" + NL);
+            final GeneratorSetup j8PackageInfo = GeneratorSetup.similarTo(j8InstanceRepository) //
+                                                               .skipExistingFiles() //
+                                                               .build();
+            for (final Class<?> clazz : j8PackageInfo.listAllTypes()) {
+                PACKAGE_INFO.generateSourceFile(clazz, j8PackageInfo, null);
+            }
+            LOG.info(format(FINISH_MAIN, pakkage));
         }
+    }
+
+    public String generateSourceCode(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup) {
+        // content storage
+        final StringBuilder sb = new StringBuilder();
+        // content creation
+        sb.append(this.packageDeclaration(clazz, setup));
+        sb.append(this.imports(clazz));
+        sb.append(this.testClassContent(clazz, setup, complementarySetup, 0));
+        // finalize content
         return sb.toString();
     }
 
-    private String contentOfSpecificClassTestClass(final Class<?> clazz, final Membership membership, final int enclosingLevel,
-                                                   final GeneratorSetup testSetup) {
-        final String indent = join("", nCopies(enclosingLevel, SPACE));
-        final String nested = enclosingLevel > 0 ? "static " : "";
-        final String testClassName = this.setup.simpleTestName(clazz, membership);
-        final String testClassSuper2 = testSetup.getTestClassName(clazz, membership) //
-                                       + "<" + canonicalNameOf(clazz) + ">";
+    protected String packageDeclaration(final Class<?> clazz, final GeneratorSetup setup) {
         final StringBuilder sb = new StringBuilder();
-        sb.append(indent + "@RunWith(J8Unit4.class)" + NL);
-        sb.append(ofEmptyable(typeParametersDefinitionsOf(clazz)).map(s -> indent + "@SuppressWarnings(\"rawtypes\")" + NL).orElse(""));
-        sb.append(indent + "public " + nested + "class " + testClassName + NL);
-        sb.append(indent + "implements " + testClassSuper2 + " {" + NL);
+        sb.append("package " + setup.packageForClass(clazz) + ";" + NL);
         sb.append(NL);
-        sb.append(indent + SPACE + "@Override" + NL);
-        sb.append(indent + SPACE + "public Class<" + canonicalNameOf(clazz) + "> createNewSUT() {" + NL);
-        sb.append(indent + SPACE + SPACE + "return " + canonicalClassOf(clazz) + ";" + NL);
-        sb.append(indent + SPACE + "}" + NL);
-        sb.append(NL);
-        // collect sub-classes
-        final Set<Class<?>> subClasses = Arrays.stream(clazz.getDeclaredClasses()) //
-                                               .filter(PRIVATE::mismatches) //
-                                               .filter(this.setup::useClass) //
-                                               .collect(toSet());
-        LOG.info("The [" + clazz + "] contains the following inner/nested classes: " + subClasses);
-        for (final Class<?> subClass : subClasses) {
-            sb.append(this.contentOfSpecificTestClass(subClass, membership, enclosingLevel + 1, testSetup));
-            sb.append(NL);
-        }
-        sb.append(indent + "}" + NL);
+        // finalize content
         return sb.toString();
     }
 
-    /* * * * * * * * * * * * * * Source Code Fragments * * * * * * * * * * * * * */
-
-    private String packageJavaDoc(final Package pakkage) {
+    protected String imports(final Class<?> clazz) {
         final StringBuilder sb = new StringBuilder();
-        sb.append("/**" + NL);
-        sb.append(" * <p>" + NL);
-        sb.append(" * This package contains all the <strong>reusable tests</strong> targeting the behaviour of types of package {@code "
-                  + canonicalNameOf(pakkage) + "}." + NL);
-        sb.append(" * </p>" + NL);
-        sb.append(" *" + NL);
-        sb.append(" * <p>" + NL);
-        sb.append(" * According to <a href=\"https://docs.oracle.com/javase/specs/jls/se8/html/jls-6.html#jls-6.1\">The Java Language" + NL);
-        sb.append(" * Specification (Java SE 8 Edition), Section.&nbsp;6.1</a>, some package's &quot;[&hellip;] first identifier [&hellip;]" + NL);
-        sb.append(" * should not be the identifier {@code java} [&hellip;]&quot;. Thus, this test class collection is limited to accessible" + NL);
-        sb.append(" * classes (i.&thinsp;e., top-level, <a href=\"http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html\">nested," + NL);
-        sb.append(" * inner</a>), accessible methods, and accessible constructors&nbsp;&ndash; simply because it cannot place test classes" + NL);
-        sb.append(" * in the class-under-test's {@code java.*} package (which otherwise would allow access to {@code protected}, resp." + NL);
-        sb.append(" * <em>package-private</em> elements)." + NL);
-        sb.append(" * </p>" + NL);
-        sb.append(" *" + NL);
-        sb.append(" * @since 0.9.0" + NL);
-        sb.append(" * @author <a href=\"mailto:stefan@gasterstädt.de\">Stefan Gasterst&auml;dt</a>" + NL);
-        sb.append(" * @author <a href=\"mailto:sascha.zak@zak-digital.de\">Sascha Zak</a>" + NL);
-        sb.append(" */" + NL);
-        return sb.toString();
-    }
-
-    private String packageDeclaration(final Package pakkage) {
-        final StringBuilder sb = new StringBuilder();
-        sb.append("package " + this.setup.packageForPackage(pakkage) + ";" + NL);
-        sb.append(NL);
-        return sb.toString();
-    }
-
-    private String packageDeclaration(final Class<?> clazz) {
-        final StringBuilder sb = new StringBuilder();
-        sb.append("package " + this.setup.packageForClass(clazz) + ";" + NL);
-        sb.append(NL);
-        return sb.toString();
-    }
-
-    private String imports(final Class<?> clazz) {
-        final StringBuilder sb = new StringBuilder();
+        sb.append("import static " + org.j8unit.FactoryBasedJ8UnitTest.class.getName() + ".*;" + NL);
         sb.append("import static " + org.j8unit.util.TestParametersUtil.class.getName() + ".*;" + NL);
         sb.append("import static " + org.junit.Assert.class.getName() + ".*;" + NL);
         sb.append("import static " + org.junit.Assume.class.getName() + ".*;" + NL);
         sb.append("import static " + java.lang.reflect.Modifier.class.getName() + ".*;" + NL);
         sb.append("import " + java.lang.annotation.Annotation.class.getName() + ";" + NL);
-        sb.append("import " + java.util.function.Supplier.class.getName() + ";" + NL);
-        sb.append("import " + java.lang.reflect.Method.class.getName() + ";" + NL);
+        sb.append("import " + java.util.concurrent.Callable.class.getName() + ";" + NL);
         sb.append("import " + java.lang.reflect.Constructor.class.getName() + ";" + NL);
+        sb.append("import " + java.lang.reflect.Method.class.getName() + ";" + NL);
+        sb.append("import " + java.lang.reflect.Modifier.class.getName() + ";" + NL);
         sb.append("import " + org.j8unit.FactoryBasedJ8UnitTest.class.getPackage().getName() + ".*;" + NL);
         sb.append("import " + org.j8unit.runners.J8Unit4.class.getPackage().getName() + ".*;" + NL);
         sb.append("import " + org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory.class.getPackage().getName() + ".*;" + NL);
@@ -793,508 +997,64 @@ implements GeneratorLogMessages {
         sb.append("import " + org.junit.runners.Parameterized.class.getName() + ".UseParametersRunnerFactory;" + NL);
         sb.append("import " + org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory.class.getPackage().getName() + ".*;" + NL);
         sb.append("import " + org.junit.experimental.categories.Category.class.getName() + ";" + NL);
+        sb.append(this.allInOneCustomImports(clazz));
         sb.append(NL);
+        // finalize content
         return sb.toString();
     }
 
-    private String classJavaDoc(final Class<?> clazz, final Membership membership, final String indent) {
+    protected abstract String testClassContent(final Class<?> clazz, final GeneratorSetup setup, final GeneratorSetup complementarySetup,
+                                               final int enclosingLevel);
+
+    protected final Set<Class<?>> calculateEnvelopedClasses(final Class<?> clazz, final GeneratorSetup setup) {
+        final Set<Class<?>> collect = Arrays.stream(clazz.getDeclaredClasses()) //
+                                            .filter(setup::useClass) //
+                                            .collect(toSet());
+        LOG.info(format(ENVELOPED_TYPES, clazz, collect));
+        return collect;
+    }
+
+    public String allInOneCustomImports(final Class<?> clazz) {
         final StringBuilder sb = new StringBuilder();
-        switch (membership) {
-            case CLASS:
-                sb.append(indent + "/**" + NL);
-                sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * Reusable J8Unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
-                sb.append(indent + " * containing all class relevant test methods (at least the test methods of accessible constructors and" + NL);
-                sb.append(indent + " * of accessible {@code static} methods). The counterpart J8Unit test interface containing the instance" + NL);
-                sb.append(indent + " * relevant test methods is {@link " + this.setup.getTestClassName(clazz, INSTANCE) + "}." + NL);
-                sb.append(indent + " * </p>" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * In addition, there may be assertions concerning the class itself." + NL);
-                sb.append(indent + " * For example, <a href=\"https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1\"><q>by" + NL);
-                sb.append(indent + " * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type" + NL);
-                sb.append(indent + " * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>)." + NL);
-                sb.append(indent + " * Thus, {@link " + this.setup.getTestClassName(Annotation.class, membership) + "}" + NL);
-                sb.append(indent + " * provides a corresponding, inheritable test method:" + NL);
-                sb.append(indent + " * {@link " + this.setup.getTestClassName(Annotation.class, membership) + "#hasNoCustomParametrizedMethod()}." + NL);
-                sb.append(indent + " * Similarly, this class is not only intended to assert some static method's behaviour but also to verify" + NL);
-                sb.append(indent + " * runtime constraints and further class specific requirements." + NL);
-                sb.append(indent + " * </p>" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @see " + this.setup.getTestClassName(clazz, INSTANCE) + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @param SUT the class' type of the subject-under-test" + NL);
-                sb.append(indent + " * @since 0.9.0" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @j8unit.aim " + canonicalNameOf(clazz) + NL);
-                sb.append(indent + " */" + NL);
-                break;
-            case INSTANCE:
-                sb.append(indent + "/**" + NL);
-                sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * Reusable J8Unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
-                sb.append(indent + " * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods)." + NL);
-                sb.append(indent + " * The counterpart J8Unit test interface containing the class relevant test methods is " + NL);
-                sb.append(indent + " * {@link " + this.setup.getTestClassName(clazz, INSTANCE) + "}." + NL);
-                sb.append(indent + " * </p>" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @see " + this.setup.getTestClassName(clazz, CLASS) + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @param SUT the type of the subject-under-test" + NL);
-                sb.append(indent + " * @since 0.9.0" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @j8unit.aim " + canonicalNameOf(clazz) + NL);
-                sb.append(indent + " */" + NL);
-                break;
-        }
+        sb.append(this.customImports());
+        sb.append(this.customImports(clazz));
+        final ModusOperandi modusOperandi = this.accessScope.modusOperandiFor(clazz);
+        sb.append(modusOperandi.customImports());
+        sb.append(modusOperandi.customImports(clazz));
+        // finalize content
         return sb.toString();
     }
 
-    private void appendCustomContent(final StringBuilder sb, final Class<?> clazz, final Membership membership, final String indent) {
-        try {
-            if (CLASS.equals(membership)) {
-                final Method iaf = runtimed(() -> Class.class.getMethod("isAssignableFrom", Class.class));
-                this.newBy092(sb, indent, clazz, iaf);
-                sb.append(indent + "@" + Test.class.getSimpleName() + NL);
-                // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" +
-                // canonicalClassOf(iaf.getDeclaringClass()) + ", executable=\"" + iaf
-                // + "\", javadoc=\"" + javadocNameOf(iaf) + "\")" + NL);
-                sb.append(indent + "public default void testBaseTypeIsAssignableFromCurrentType() throws " + Exception.class.getSimpleName() + " {" + NL);
-                sb.append(indent + SPACE + "// create new instance" + NL);
-                sb.append(indent + SPACE + Class.class.getSimpleName() + "<SUT> sut = createNewSUT();" + NL);
-                sb.append(indent + SPACE + "// assert assignability" + NL);
-                sb.append(indent + SPACE + "assertTrue(" + canonicalClassOf(clazz) + "." + iaf.getName() + "(sut));" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-            }
-            if (CLASS.equals(membership) && Enum.class.equals(clazz)) {
-                this.newBy092(sb, indent, clazz);
-                sb.append(indent + "@" + Test.class.getSimpleName() + NL);
-                // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" + canonicalClassOf(clazz) + ",
-                // javadoc=\""
-                // + canonicalNameOf(clazz) + "\")" + NL);
-                sb.append(indent + "public default void enumsMustContainImplicitilyDefinedValuesMethod()" + NL);
-                sb.append(indent + "throws Exception {" + NL);
-                sb.append(indent + SPACE + "final Class<SUT> sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE
-                          + "assumeFalse(\"This general test method is not suitable for [\" + Enum.class.getName() + \"] itself.\", Enum.class.equals(sut));"
-                          + NL);
-                sb.append(indent + SPACE + "final Method method = sut.getMethod(\"values\");" + NL);
-                sb.append(indent + SPACE + "assertNotNull(method);" + NL);
-                sb.append(indent + SPACE + "assertTrue(method.getReturnType().isArray());" + NL);
-                sb.append(indent + SPACE + "assertTrue(isStatic(method.getModifiers()));" + NL);
-                sb.append(indent + SPACE + "final Object invocation = method.invoke(null);" + NL);
-                sb.append(indent + SPACE + "assertNotNull(invocation);" + NL);
-                sb.append(indent + SPACE + "assertTrue(invocation.getClass().isArray());" + NL);
-                sb.append(indent + SPACE + "assertEquals(sut, invocation.getClass().getComponentType());" + NL);
-                sb.append(indent + SPACE + "final @SuppressWarnings(\"unchecked\") SUT[] enums = (SUT[]) invocation;" + NL);
-                sb.append(indent + SPACE + "assertArrayEquals(sut.getEnumConstants(), enums);" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-            }
-            if (INSTANCE.equals(membership) && Enum.class.equals(clazz)) {
-                this.newBy092(sb, indent, clazz, Enum.class.getMethod("getDeclaringClass"));
-                sb.append(indent + "@" + Test.class.getSimpleName() + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Enum.class, executable=\"public final java.lang.Class
-                // java.lang.Enum.getDeclaringClass()\", javadoc=\"java.lang.Enum#getDeclaringClass()\")"
-                // + NL);
-                sb.append(indent + "public default void getDeclaringClassMustBeAssignableFromGetClass() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Class<E> declaringClazz = sut.getDeclaringClass();" + NL);
-                sb.append(indent + SPACE + "final Class<? extends Enum> clazz = sut.getClass();" + NL);
-                sb.append(indent + SPACE + "assertTrue(declaringClazz.isAssignableFrom(clazz));" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Enum.class.getMethod("getDeclaringClass"));
-                sb.append(indent + "@" + Test.class.getSimpleName() + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Enum.class, executable=\"public final java.lang.Class
-                // java.lang.Enum.getDeclaringClass()\", javadoc=\"java.lang.Enum#getDeclaringClass()\")"
-                // + NL);
-                sb.append(indent + "public default void getDeclaringClassMustBeEnum() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Class<E> declaringClazz = sut.getDeclaringClass();" + NL);
-                sb.append(indent + SPACE + "assertTrue(declaringClazz.isEnum());" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Enum.class.getMethod("ordinal"));
-                sb.append(indent + "@" + Test.class.getSimpleName() + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Enum.class, executable=\"public final int java.lang.Enum.ordinal()\",
-                // javadoc=\"java.lang.Enum#ordinal()\")"
-                // + NL);
-                sb.append(indent + "public default void ordinalMustBePositive()" + NL);
-                sb.append(indent + "throws Exception {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertTrue(sut.ordinal() >= 0);" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-            }
-            if (INSTANCE.equals(membership) && Iterable.class.equals(clazz)) {
-                this.newBy092(sb, indent, clazz, Iterable.class.getMethod("forEach", Consumer.class));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Iterable.class, executable=\"public default void
-                // java.lang.Iterable.forEach(java.util.function.Consumer)\",
-                // javadoc=\"java.lang.Iterable#forEach(java.util.function.Consumer)\")"
-                // + NL);
-                sb.append(indent + "@Category(TimeLinear.class)" + NL);
-                sb.append(indent + "public default void forEachMustConsumeNOOP() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assumeTrue(\"The given Iterable is empty; Thus, this test becomes useless.\", sut.iterator().hasNext());" + NL);
-                sb.append(indent + SPACE + "sut.forEach(e -> {});" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Iterable.class.getMethod("forEach", Consumer.class));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Iterable.class, executable=\"public default void
-                // java.lang.Iterable.forEach(java.util.function.Consumer)\",
-                // javadoc=\"java.lang.Iterable#forEach(java.util.function.Consumer)\")"
-                // + NL);
-                sb.append(indent + "public default void forEachMustRelayException() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assumeTrue(\"The given Iterable is empty; Thus, this test becomes useless.\", sut.iterator().hasNext());" + NL);
-                sb.append(indent + SPACE + "final javax.xml.ws.Holder<Integer> counter = new javax.xml.ws.Holder<>(0);" + NL);
-                sb.append(indent + SPACE + "try {" + NL);
-                sb.append(indent + SPACE + "    sut.forEach(e -> {" + NL);
-                sb.append(indent + SPACE + "        counter.value++;" + NL);
-                sb.append(indent + SPACE + "        throw new UnsupportedOperationException(\"relayed exception\");" + NL);
-                sb.append(indent + SPACE + "    });" + NL);
-                sb.append(indent + SPACE + "    fail(\"Thrown exception has been suppressed!\");" + NL);
-                sb.append(indent + SPACE + "} catch (final UnsupportedOperationException relayed) {" + NL);
-                sb.append(indent + SPACE + "    // check exception" + NL);
-                sb.append(indent + SPACE + "    assertEquals(\"relayed exception\", relayed.getMessage());" + NL);
-                sb.append(indent + SPACE + "    // check unique execution of consumer block" + NL);
-                sb.append(indent + SPACE + "    assertEquals((Integer) 1, counter.value);" + NL);
-                sb.append(indent + SPACE + "    return;" + NL);
-                sb.append(indent + SPACE + "}" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Iterable.class.getMethod("forEach", Consumer.class));
-                sb.append(indent + "@Test(expected = NullPointerException.class)" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Iterable.class, executable=\"public default void
-                // java.lang.Iterable.forEach(java.util.function.Consumer)\",
-                // javadoc=\"java.lang.Iterable#forEach(java.util.function.Consumer)\")"
-                // + NL);
-                sb.append(indent + "@Category(TimeLinear.class)" + NL);
-                sb.append(indent + "public default void forEachOfNullMustCauseNPE() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "sut.forEach(null);" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                sb.append(indent + "@Test" + NL);
-                sb.append(indent + "public default void iteratorMustReturnNotNull() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertNotNull(sut.iterator());" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Iterable.class.getMethod("spliterator"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Iterable.class, executable=\"public default java.util.Spliterator
-                // java.lang.Iterable.spliterator()\", javadoc=\"java.lang.Iterable#spliterator()\")"
-                // + NL);
-                sb.append(indent + "public default void spliteratorMustReturnNotNull() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertNotNull(sut.spliterator());" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-            }
-            if (INSTANCE.equals(membership) && Class.class.equals(clazz)) {
-                this.newBy092(sb, indent, clazz, Class.class.getMethod("getName"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Class.class, executable=\"public java.lang.String
-                // java.lang.Class.getName()\",
-                // javadoc=\"java.lang.Class#getName()\")"
-                // + NL);
-                sb.append(indent + "public default void getNameMustBeNotNull() {" + NL);
-                sb.append(indent + SPACE + "final Class<T> sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertNotNull(sut.getName());" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Class.class.getMethod("getName"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Class.class, executable=\"public java.lang.String
-                // java.lang.Class.getName()\",
-                // javadoc=\"java.lang.Class#getName()\")"
-                // + NL);
-                sb.append(indent + "public default void getNameMustBeSyntacticallyValidIdentifier() {" + NL);
-                sb.append(indent + SPACE + "final Class<T> sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assumeTrue(\"The given Class represents a primitive type; Thus, this test becomes useless.\", sut.isPrimitive());"
-                          + NL);
-                sb.append(indent + SPACE + "assumeTrue(\"The given Class represents an array class; Thus, this test becomes useless.\", sut.isArray());" + NL);
-                sb.append(indent + SPACE + "final String name = sut.getName();" + NL);
-                sb.append(indent + SPACE + "assertTrue(javax.lang.model.SourceVersion.isIdentifier(name));" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-            }
-            if (INSTANCE.equals(membership) && Object.class.equals(clazz)) {
-                this.newBy092(sb, indent, clazz, Object.class.getMethod("equals", Object.class));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Object.class, executable=\"public boolean
-                // java.lang.Object.equals(java.lang.Object)\", javadoc=\"java.lang.Object#equals(java.lang.Object)\")"
-                // + NL);
-                sb.append(indent + "@Category(Should.class)" + NL);
-                sb.append(indent + "public default void equalsShouldBeReflexive() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertTrue(sut.equals(sut));" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Object.class.getMethod("equals", Object.class));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Object.class, executable=\"public boolean
-                // java.lang.Object.equals(java.lang.Object)\", javadoc=\"java.lang.Object#equals(java.lang.Object)\")"
-                // + NL);
-                sb.append(indent + "@Category(Should.class)" + NL);
-                sb.append(indent + "public default void equalsShouldRefuseNull() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertFalse(sut.equals(null));" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Object.class.getMethod("getClass"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Object.class, executable=\"public final native java.lang.Class
-                // java.lang.Object.getClass()\", javadoc=\"java.lang.Object#getClass()\")"
-                // + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Class.class, executable=\"public native boolean
-                // java.lang.Class.isInstance(java.lang.Object)\",
-                // javadoc=\"java.lang.Class#isInstance(java.lang.Object)\")"
-                // + NL);
-                sb.append(indent + "public default void getClassMustMatchIsInstance() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Class<? extends Object> clazz = sut.getClass();" + NL);
-                sb.append(indent + SPACE + "assert clazz != null;" + NL);
-                sb.append(indent + SPACE + "assertTrue(clazz.isInstance(sut));" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Object.class.getMethod("getClass"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Object.class, executable=\"public final native java.lang.Class
-                // java.lang.Object.getClass()\", javadoc=\"java.lang.Object#getClass()\")"
-                // + NL);
-                sb.append(indent + "public default void getClassMustReturnNotNull() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertNotNull(sut.getClass());" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                sb.append(indent + "/**" + NL);
-                sb.append(indent + " * <p>According to the general contract of {@link Object#toString()}, it" + NL);
-                sb.append(indent + " * <q>returns a string that \"textually represents\"</q> the object." + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * Thus, there is absolutely no reason why {@code null} could be returned. Especially because even a {@code null}" + NL);
-                sb.append(indent + " * can be easily represented textually by {@link java.util.Objects#toString(Object)}.</p>" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * <p>And obviously, no however reached (problematic) inner state of an object is allowed to cause an exception while"
-                          + NL);
-                sb.append(indent + " * computing the textual representation. It instead should be represented accordingly.</p>" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @since 0.9.2" + NL);
-                sb.append(indent + " *" + NL);
-                sb.append(indent + " * @j8unit.aim " + javadocNameOf(Object.class.getMethod("toString")) + NL);
-                sb.append(indent + " */" + NL);
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.lang.Object.class, executable=\"public java.lang.String
-                // java.lang.Object.toString()\",
-                // javadoc=\"java.lang.Object#toString()\")"
-                // + NL);
-                sb.append(indent + "public default void toStringMustReturnNotNull() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertNotNull(sut.toString());" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-            }
-            if (CLASS.equals(membership) && Annotation.class.equals(clazz)) {
-                this.newBy092(sb, indent, Annotation.class);
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" + canonicalClassOf(clazz) + ",
-                // javadoc=\""
-                // + canonicalNameOf(clazz) + "\")" + NL);
-                sb.append(indent + "public default void declaredMethodsCannotHaveFormalParameters() {" + NL);
-                sb.append(indent + SPACE + "final Class<SUT> sut = createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Method[] methods = sut.getDeclaredMethods();" + NL);
-                sb.append(indent + SPACE + "assert methods != null;" + NL);
-                sb.append(indent + SPACE + "for (final Method method : methods) {" + NL);
-                sb.append(indent + SPACE + SPACE + "try {" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assert origin != null;" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "continue;" + NL);
-                sb.append(indent + SPACE + SPACE + "} catch (final NoSuchMethodException ignore) {" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "final Class<?>[] formals = method.getParameterTypes();" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assert formals != null;" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assertEquals(0, formals.length);" + NL);
-                sb.append(indent + SPACE + SPACE + "}" + NL);
-                sb.append(indent + SPACE + "}" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, Annotation.class);
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" + canonicalClassOf(clazz) + ",
-                // javadoc=\""
-                // + canonicalNameOf(clazz) + "\")" + NL);
-                sb.append(indent + "public default void declaredMethodsCannotHaveThrowsClause() {" + NL);
-                sb.append(indent + SPACE + "final Class<SUT> sut = createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Method[] methods = sut.getDeclaredMethods();" + NL);
-                sb.append(indent + SPACE + "assert methods != null;" + NL);
-                sb.append(indent + SPACE + "for (final Method method : methods) {" + NL);
-                sb.append(indent + SPACE + SPACE + "try {" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assert origin != null;" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "continue;" + NL);
-                sb.append(indent + SPACE + SPACE + "} catch (final NoSuchMethodException ignore) {" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "final Class<?>[] exceptions = method.getExceptionTypes();" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assert exceptions != null;" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assertEquals(0, exceptions.length);" + NL);
-                sb.append(indent + SPACE + SPACE + "}" + NL);
-                sb.append(indent + SPACE + "}" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, Annotation.class);
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent + "@" + Aim.class.getSimpleName() + "(clazz=" + canonicalClassOf(clazz) + ",
-                // javadoc=\""
-                // + canonicalNameOf(clazz) + "\")" + NL);
-                sb.append(indent + "public default void declaredMethodsCannotHaveTypeParameters() {" + NL);
-                sb.append(indent + SPACE + "final Class<SUT> sut = createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Method[] methods = sut.getDeclaredMethods();" + NL);
-                sb.append(indent + SPACE + "assert methods != null;" + NL);
-                sb.append(indent + SPACE + "for (final Method method : methods) {" + NL);
-                sb.append(indent + SPACE + SPACE + "try {" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assert origin != null;" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "continue;" + NL);
-                sb.append(indent + SPACE + SPACE + "} catch (final NoSuchMethodException ignore) {" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "final java.lang.reflect.TypeVariable<Method>[] types = method.getTypeParameters();" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assert types != null;" + NL);
-                sb.append(indent + SPACE + SPACE + SPACE + "assertEquals(0, types.length);" + NL);
-                sb.append(indent + SPACE + SPACE + "}" + NL);
-                sb.append(indent + SPACE + "}" + NL);
-                sb.append(indent + "}" + NL);
-            }
-            if (INSTANCE.equals(membership) && Collection.class.equals(clazz)) {
-                this.newBy092(sb, indent, clazz, Collection.class.getMethod("iterator"), Collection.class.getMethod("isEmpty"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract java.util.Iterator
-                // java.util.Collection.iterator()\", javadoc=\"java.util.Collection#iterator()\")"
-                // + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract boolean
-                // java.util.Collection.isEmpty()\", javadoc=\"java.util.Collection#isEmpty()\")"
-                // + NL);
-                sb.append(indent + "public default void testIteratorAccordingToIsEmpty() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final java.util.Iterator<E> iterator = sut.iterator();" + NL);
-                sb.append(indent + SPACE + "if (sut.isEmpty()) {" + NL);
-                sb.append(indent + SPACE + SPACE + "assertFalse(iterator.hasNext());" + NL);
-                sb.append(indent + SPACE + "} else {" + NL);
-                sb.append(indent + SPACE + SPACE + "assertTrue(iterator.hasNext());" + NL);
-                sb.append(indent + SPACE + "}" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Collection.class.getMethod("size"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract int
-                // java.util.Collection.size()\",
-                // javadoc=\"java.util.Collection#size()\")"
-                // + NL);
-                sb.append(indent + "public default void testNonNegativeSize() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "assertFalse(sut.size() < 0);" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Collection.class.getMethod("size"), Collection.class.getMethod("isEmpty"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract int
-                // java.util.Collection.size()\",
-                // javadoc=\"java.util.Collection#size()\")"
-                // + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract boolean
-                // java.util.Collection.isEmpty()\", javadoc=\"java.util.Collection#isEmpty()\")"
-                // + NL);
-                sb.append(indent + "public default void testSizeAccordingToIsEmpty() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "if (sut.isEmpty()) {" + NL);
-                sb.append(indent + SPACE + SPACE + "assertEquals(0, sut.size());" + NL);
-                sb.append(indent + SPACE + "} else {" + NL);
-                sb.append(indent + SPACE + SPACE + "assertNotEquals(0, sut.size());" + NL);
-                sb.append(indent + SPACE + "}" + NL);
-                sb.append(indent + "}" + NL);
-                sb.append(NL);
-                this.newBy092(sb, indent, clazz, Collection.class.getMethod("size"), Collection.class.getMethod("toArray"));
-                sb.append(indent + "@Test" + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract int
-                // java.util.Collection.size()\",
-                // javadoc=\"java.util.Collection#size()\")"
-                // + NL);
-                // sb.append(indent
-                // + "@Aim(clazz=java.util.Collection.class, executable=\"public abstract java.lang.Object[]
-                // java.util.Collection.toArray()\", javadoc=\"java.util.Collection#toArray()\")"
-                // + NL);
-                sb.append(indent + "public default void testToArraySize() {" + NL);
-                sb.append(indent + SPACE + "final SUT sut = this.createNewSUT();" + NL);
-                sb.append(indent + SPACE + "assert sut != null;" + NL);
-                sb.append(indent + SPACE + "final Object[] array = sut.toArray();" + NL);
-                sb.append(indent + SPACE + "assertEquals(sut.size(), array.length);" + NL);
-                sb.append(indent + "}" + NL);
-            }
-        } catch (final Exception e) {
-            throw new RuntimeException(e);
-        }
+    public String allInOneCustomTestInterfaceHead(final Class<?> clazz, final int enclosingLevel) {
+        final StringBuilder sb = new StringBuilder();
+        sb.append(this.customTestInterfaceHead(enclosingLevel));
+        sb.append(this.customTestInterfaceHead(clazz, enclosingLevel));
+        final ModusOperandi modusOperandi = this.accessScope.modusOperandiFor(clazz);
+        sb.append(modusOperandi.customTestInterfaceHead(enclosingLevel));
+        sb.append(modusOperandi.customTestInterfaceHead(clazz, enclosingLevel));
+        // finalize content
+        return sb.toString();
     }
 
-    private void newBy092(final StringBuilder sb, final String indent, final Class<?> clazz, final Executable... execs) {
-        sb.append(indent + "/**" + NL);
-        sb.append(indent + " * @since 0.9.2" + NL);
-        sb.append(indent + " *" + NL);
-        for (final Executable exec : execs) {
-            sb.append(indent + " * @j8unit.aim " + javadocNameOf(clazz, exec) + NL);
-        }
-        sb.append(indent + " */" + NL);
+    public String allInOneCustomTestInterfaceBody(final Class<?> clazz, final int enclosingLevel) {
+        final StringBuilder sb = new StringBuilder();
+        sb.append(this.customTestInterfaceBody(enclosingLevel + 1));
+        sb.append(this.customTestInterfaceBody(clazz, enclosingLevel + 1));
+        final ModusOperandi modusOperandi = this.accessScope.modusOperandiFor(clazz);
+        sb.append(modusOperandi.customTestInterfaceBody(enclosingLevel + 1));
+        sb.append(modusOperandi.customTestInterfaceBody(clazz, enclosingLevel + 1));
+        // finalize content
+        return sb.toString();
     }
 
-    private void newBy092(final StringBuilder sb, final String indent, final Class<?> clazz) {
-        sb.append(indent + "/**" + NL);
-        sb.append(indent + " * @since 0.9.2" + NL);
-        sb.append(indent + " *" + NL);
-        sb.append(indent + " * @j8unit.aim " + canonicalNameOf(clazz) + NL);
-        sb.append(indent + " */" + NL);
+    @Override
+    public String customTestInterfaceBody(final Class<?> clazz, final int enclosingLevel) {
+        return GeneratorCustoms.valueOf(this, clazz).customContentData(enclosingLevel);
+    }
+
+    @Override
+    public String customImports(final Class<?> clazz) {
+        return GeneratorCustoms.valueOf(this, clazz).customImports();
     }
 
 }

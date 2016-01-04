@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import java.util.Iterator;
+import org.j8unit.tools.util.Iterators;
 import org.junit.Test;
 
 public class IteratorsTest {

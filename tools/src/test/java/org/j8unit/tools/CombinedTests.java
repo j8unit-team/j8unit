@@ -1,9 +1,9 @@
 package org.j8unit.tools;
 
-import static org.j8unit.tools.GeneratorSetup.baseComponentTypeOf;
-import static org.j8unit.tools.GeneratorSetup.javadocNameOf;
+import static org.j8unit.tools.GeneratorAnalysis.baseComponentTypeOf;
 import static org.j8unit.tools.GeneratorUtil.optionalise;
 import static org.j8unit.tools.GeneratorUtil.tryLoadClass;
+import static org.j8unit.tools.NamingUtilities.javadocNameOf;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -14,6 +14,7 @@ import java.security.cert.X509Certificate;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import org.j8unit.tools.util.AccessLevel;
 import org.junit.Test;
 
 /**
@@ -27,18 +28,17 @@ public class CombinedTests {
     public void testTopLevelClass()
     throws Exception {
         final Class<?> clazz = CombinedTests.class;
-        assertTrue(ClassKind.TOP_LEVEL.matches(clazz));
-        assertFalse(ClassKind.NESTED.matches(clazz));
-        assertFalse(ClassKind.INNER.matches(clazz));
-        assertFalse(ClassKind.LOCAL.matches(clazz));
-        assertFalse(ClassKind.ANONYMOUS.matches(clazz));
-        assertEquals(ClassKind.TOP_LEVEL, ClassKind.kindOf(clazz));
+        assertTrue(TypeKind.TOP_LEVEL.matches(clazz));
+        assertFalse(TypeKind.NESTED.matches(clazz));
+        assertFalse(TypeKind.INNER.matches(clazz));
+        assertFalse(TypeKind.LOCAL.matches(clazz));
+        assertFalse(TypeKind.ANONYMOUS.matches(clazz));
+        assertEquals(TypeKind.TOP_LEVEL, TypeKind.kindOf(clazz));
 
         assertTrue(AccessLevel.PUBLIC.matches(clazz));
         assertFalse(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
         assertFalse(AccessLevel.PROTECTED.matches(clazz));
         assertFalse(AccessLevel.PRIVATE.matches(clazz));
-        assertEquals(AccessLevel.PUBLIC, AccessLevel.accessModifierOf(clazz));
     }
 
     static class Nested {
@@ -69,33 +69,31 @@ public class CombinedTests {
     throws Exception {
         {
             final Class<?> clazz = Nested.class;
-            assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-            assertTrue(ClassKind.NESTED.matches(clazz));
-            assertFalse(ClassKind.INNER.matches(clazz));
-            assertFalse(ClassKind.LOCAL.matches(clazz));
-            assertFalse(ClassKind.ANONYMOUS.matches(clazz));
-            assertEquals(ClassKind.NESTED, ClassKind.kindOf(clazz));
+            assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+            assertTrue(TypeKind.NESTED.matches(clazz));
+            assertFalse(TypeKind.INNER.matches(clazz));
+            assertFalse(TypeKind.LOCAL.matches(clazz));
+            assertFalse(TypeKind.ANONYMOUS.matches(clazz));
+            assertEquals(TypeKind.NESTED, TypeKind.kindOf(clazz));
 
             assertFalse(AccessLevel.PUBLIC.matches(clazz));
             assertTrue(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
             assertFalse(AccessLevel.PROTECTED.matches(clazz));
             assertFalse(AccessLevel.PRIVATE.matches(clazz));
-            assertEquals(AccessLevel.PACKAGE_PRIVATE, AccessLevel.accessModifierOf(clazz));
         }
         {
             final Class<?> clazz = PrivateNested.class;
-            assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-            assertTrue(ClassKind.NESTED.matches(clazz));
-            assertFalse(ClassKind.INNER.matches(clazz));
-            assertFalse(ClassKind.LOCAL.matches(clazz));
-            assertFalse(ClassKind.ANONYMOUS.matches(clazz));
-            assertEquals(ClassKind.NESTED, ClassKind.kindOf(clazz));
+            assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+            assertTrue(TypeKind.NESTED.matches(clazz));
+            assertFalse(TypeKind.INNER.matches(clazz));
+            assertFalse(TypeKind.LOCAL.matches(clazz));
+            assertFalse(TypeKind.ANONYMOUS.matches(clazz));
+            assertEquals(TypeKind.NESTED, TypeKind.kindOf(clazz));
 
             assertFalse(AccessLevel.PUBLIC.matches(clazz));
             assertFalse(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
             assertFalse(AccessLevel.PROTECTED.matches(clazz));
             assertTrue(AccessLevel.PRIVATE.matches(clazz));
-            assertEquals(AccessLevel.PRIVATE, AccessLevel.accessModifierOf(clazz));
         }
     }
 
@@ -111,19 +109,18 @@ public class CombinedTests {
     @Test
     public void testInnerClass()
     throws Exception {
-        final Class<?> clazz = Inner.class;
-        assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-        assertFalse(ClassKind.NESTED.matches(clazz));
-        assertTrue(ClassKind.INNER.matches(clazz));
-        assertFalse(ClassKind.LOCAL.matches(clazz));
-        assertFalse(ClassKind.ANONYMOUS.matches(clazz));
-        assertEquals(ClassKind.INNER, ClassKind.kindOf(clazz));
+        final Class<?> clazz = CombinedTests.Inner.class;
+        assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+        assertFalse(TypeKind.NESTED.matches(clazz));
+        assertTrue(TypeKind.INNER.matches(clazz));
+        assertFalse(TypeKind.LOCAL.matches(clazz));
+        assertFalse(TypeKind.ANONYMOUS.matches(clazz));
+        assertEquals(TypeKind.INNER, TypeKind.kindOf(clazz));
 
         assertFalse(AccessLevel.PUBLIC.matches(clazz));
         assertFalse(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
         assertTrue(AccessLevel.PROTECTED.matches(clazz));
         assertFalse(AccessLevel.PRIVATE.matches(clazz));
-        assertEquals(AccessLevel.PROTECTED, AccessLevel.accessModifierOf(clazz));
     }
 
     @Test
@@ -137,33 +134,31 @@ public class CombinedTests {
 
         {
             final Class<?> clazz = Local.class;
-            assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-            assertFalse(ClassKind.NESTED.matches(clazz));
-            assertFalse(ClassKind.INNER.matches(clazz));
-            assertTrue(ClassKind.LOCAL.matches(clazz));
-            assertFalse(ClassKind.ANONYMOUS.matches(clazz));
-            assertEquals(ClassKind.LOCAL, ClassKind.kindOf(clazz));
+            assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+            assertFalse(TypeKind.NESTED.matches(clazz));
+            assertFalse(TypeKind.INNER.matches(clazz));
+            assertTrue(TypeKind.LOCAL.matches(clazz));
+            assertFalse(TypeKind.ANONYMOUS.matches(clazz));
+            assertEquals(TypeKind.LOCAL, TypeKind.kindOf(clazz));
 
             assertFalse(AccessLevel.PUBLIC.matches(clazz));
             assertTrue(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
             assertFalse(AccessLevel.PROTECTED.matches(clazz));
             assertFalse(AccessLevel.PRIVATE.matches(clazz));
-            assertEquals(AccessLevel.PACKAGE_PRIVATE, AccessLevel.accessModifierOf(clazz));
         }
         {
             final Class<?> clazz = Local2.class;
-            assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-            assertFalse(ClassKind.NESTED.matches(clazz));
-            assertFalse(ClassKind.INNER.matches(clazz));
-            assertTrue(ClassKind.LOCAL.matches(clazz));
-            assertFalse(ClassKind.ANONYMOUS.matches(clazz));
-            assertEquals(ClassKind.LOCAL, ClassKind.kindOf(clazz));
+            assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+            assertFalse(TypeKind.NESTED.matches(clazz));
+            assertFalse(TypeKind.INNER.matches(clazz));
+            assertTrue(TypeKind.LOCAL.matches(clazz));
+            assertFalse(TypeKind.ANONYMOUS.matches(clazz));
+            assertEquals(TypeKind.LOCAL, TypeKind.kindOf(clazz));
 
             assertFalse(AccessLevel.PUBLIC.matches(clazz));
             assertTrue(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
             assertFalse(AccessLevel.PROTECTED.matches(clazz));
             assertFalse(AccessLevel.PRIVATE.matches(clazz));
-            assertEquals(AccessLevel.PACKAGE_PRIVATE, AccessLevel.accessModifierOf(clazz));
         }
     }
 
@@ -174,33 +169,31 @@ public class CombinedTests {
     throws Exception {
         {
             final Class<?> clazz = CombinedTests.Anonymous;
-            assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-            assertFalse(ClassKind.NESTED.matches(clazz));
-            assertFalse(ClassKind.INNER.matches(clazz));
-            assertFalse(ClassKind.LOCAL.matches(clazz));
-            assertTrue(ClassKind.ANONYMOUS.matches(clazz));
-            assertEquals(ClassKind.ANONYMOUS, ClassKind.kindOf(clazz));
+            assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+            assertFalse(TypeKind.NESTED.matches(clazz));
+            assertFalse(TypeKind.INNER.matches(clazz));
+            assertFalse(TypeKind.LOCAL.matches(clazz));
+            assertTrue(TypeKind.ANONYMOUS.matches(clazz));
+            assertEquals(TypeKind.ANONYMOUS, TypeKind.kindOf(clazz));
 
             assertFalse(AccessLevel.PUBLIC.matches(clazz));
             assertTrue(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
             assertFalse(AccessLevel.PROTECTED.matches(clazz));
             assertFalse(AccessLevel.PRIVATE.matches(clazz));
-            assertEquals(AccessLevel.PACKAGE_PRIVATE, AccessLevel.accessModifierOf(clazz));
         }
         {
             final Class<?> clazz = new Cloneable() {}.getClass();
-            assertFalse(ClassKind.TOP_LEVEL.matches(clazz));
-            assertFalse(ClassKind.NESTED.matches(clazz));
-            assertFalse(ClassKind.INNER.matches(clazz));
-            assertFalse(ClassKind.LOCAL.matches(clazz));
-            assertTrue(ClassKind.ANONYMOUS.matches(clazz));
-            assertEquals(ClassKind.ANONYMOUS, ClassKind.kindOf(clazz));
+            assertFalse(TypeKind.TOP_LEVEL.matches(clazz));
+            assertFalse(TypeKind.NESTED.matches(clazz));
+            assertFalse(TypeKind.INNER.matches(clazz));
+            assertFalse(TypeKind.LOCAL.matches(clazz));
+            assertTrue(TypeKind.ANONYMOUS.matches(clazz));
+            assertEquals(TypeKind.ANONYMOUS, TypeKind.kindOf(clazz));
 
             assertFalse(AccessLevel.PUBLIC.matches(clazz));
             assertTrue(AccessLevel.PACKAGE_PRIVATE.matches(clazz));
             assertFalse(AccessLevel.PROTECTED.matches(clazz));
             assertFalse(AccessLevel.PRIVATE.matches(clazz));
-            assertEquals(AccessLevel.PACKAGE_PRIVATE, AccessLevel.accessModifierOf(clazz));
         }
     }
 
@@ -242,18 +235,17 @@ public class CombinedTests {
     public void testGetJavadocName()
     throws Exception {
         final Optional<Method> m1 = optionalise(() -> Object.class.getMethod("equals", Object.class), System.err::println);
-        assertEquals("java.lang.Object#equals(java.lang.Object)", javadocNameOf(m1.get()));
+        assertEquals("Object#equals(Object)", javadocNameOf(m1.get()));
         final Optional<Method> m2 = optionalise(() -> Inner.class.getMethod("hashCode"), System.err::println);
         assertEquals("org.j8unit.tools.CombinedTests.Inner#hashCode()", javadocNameOf(m2.get()));
         final Optional<Method> m3 = optionalise(() -> PrivateNested.class.getMethod("toString"), System.err::println);
         assertEquals("org.j8unit.tools.CombinedTests.PrivateNested#toString()", javadocNameOf(m3.get()));
         final Optional<Method> m4 = optionalise(() -> PrivateNested.class.getMethod("foo", X509Certificate[].class, String.class, String[].class),
                                                 System.err::println);
-        assertEquals("org.j8unit.tools.CombinedTests.PrivateNested#foo(java.security.cert.X509Certificate[],java.lang.String,java.lang.String...)",
-                     javadocNameOf(m4.get()));
+        assertEquals("org.j8unit.tools.CombinedTests.PrivateNested#foo(java.security.cert.X509Certificate[], String, String...)", javadocNameOf(m4.get()));
         final Optional<Method> m5 = optionalise(() -> PrivateNested.class.getMethod("bar", X509Certificate[].class, String.class, Map.Entry[].class),
                                                 System.err::println);
-        assertEquals("org.j8unit.tools.CombinedTests.PrivateNested#bar(java.security.cert.X509Certificate[],java.lang.String,java.util.Map.Entry...)",
+        assertEquals("org.j8unit.tools.CombinedTests.PrivateNested#bar(java.security.cert.X509Certificate[], String, java.util.Map.Entry...)",
                      javadocNameOf(m5.get()));
     }
 
