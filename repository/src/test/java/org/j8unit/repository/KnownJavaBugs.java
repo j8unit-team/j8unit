@@ -44,12 +44,32 @@ public class KnownJavaBugs {
         awlf.declaredMethodsCannotHaveThrowsClause();
     }
 
+    // /**
+    // * {@code new AccessibleStateSet().toString()} returns {@code null} illegally.
+    // */
+    // @Override
+    // @Test
+    // @Category(JavaBug.class)
+    // public void toStringMustReturnNotNull() {
+    // org.j8unit.repository.javax.accessibility.AccessibleStateSetTests.super.toStringMustReturnNotNull();
+    // }
     @Test(expected = AssertionError.class)
     public void toStringReturnsNull_AccessibleStateSet() {
         final AccessibleStateSetTests<AccessibleStateSet> ass = AccessibleStateSet::new;
         ass.toStringMustReturnNotNull();
     }
 
+    // /**
+    // * {@code new AttributeValueExp().toString()} returns {@code null} illegally.
+    // *
+    // * {@code new AttributeValueExp(null).toString()} returns {@code null} illegally.
+    // */
+    // @Override
+    // @Test
+    // @Category(JavaBug.class)
+    // public void toStringMustReturnNotNull() {
+    // org.j8unit.repository.javax.management.AttributeValueExpTests.super.toStringMustReturnNotNull();
+    // }
     @Test(expected = AssertionError.class)
     public void toStringReturnsNull_AttributeValueExp() {
         final AttributeValueExpTests<AttributeValueExp> ave = AttributeValueExp::new;
@@ -62,24 +82,60 @@ public class KnownJavaBugs {
         ave.toStringMustReturnNotNull();
     }
 
+    // /**
+    // * {@code new HTML.Tag().toString()} returns {@code null} illegally.
+    // */
+    // @Override
+    // @Test
+    // @Category(JavaBug.class)
+    // public void toStringMustReturnNotNull() {
+    // org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests.super.toStringMustReturnNotNull();
+    // }
     @Test(expected = AssertionError.class)
     public void toStringReturnsNull_HTML_Tag() {
         final HTMLTests.TagTests<HTML.Tag> t = HTML.Tag::new;
         t.toStringMustReturnNotNull();
     }
 
+    // /**
+    // * {@code new ContentModel().toString()} throws {@code NullPointerException} illegally.
+    // */
+    // @Override
+    // @Test
+    // @Category(JavaBug.class)
+    // public void toStringMustReturnNotNull() {
+    // org.j8unit.repository.javax.swing.text.html.parser.ContentModelTests.super.toStringMustReturnNotNull();
+    // }
     @Test(expected = NullPointerException.class)
     public void toStringThrowsAnException_ContentModel() {
         final ContentModelTests<ContentModel> cm = ContentModel::new;
         cm.toStringMustReturnNotNull();
     }
 
+    // /**
+    // * {@code new DebugGraphics().toString()} throws {@code NullPointerException} illegally.
+    // */
+    // @Override
+    // @Test
+    // @Category(JavaBug.class)
+    // public void toStringMustReturnNotNull() {
+    // org.j8unit.repository.javax.swing.DebugGraphicsTests.super.toStringMustReturnNotNull();
+    // }
     @Test(expected = NullPointerException.class)
     public void toStringThrowsAnException_DebugGraphics() {
         final DebugGraphicsTests<DebugGraphics> dg = DebugGraphics::new;
         dg.toStringMustReturnNotNull();
     }
 
+    // /**
+    // * {@code new StringValueExp().toString()} throws {@code NullPointerException} illegally.
+    // */
+    // @Override
+    // @Test
+    // @Category(JavaBug.class)
+    // public void toStringMustReturnNotNull() {
+    // org.j8unit.repository.javax.management.StringValueExpTests.super.toStringMustReturnNotNull();
+    // }
     @Test(expected = NullPointerException.class)
     public void toStringThrowsAnException_StringValueExp() {
         final StringValueExpTests<StringValueExp> sve = StringValueExp::new;
