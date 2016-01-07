@@ -1,7 +1,10 @@
 package org.j8unit.shapes;
 
 import static java.util.Arrays.asList;
+
+import java.util.concurrent.Callable;
 import java.util.function.Supplier;
+
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
@@ -14,8 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-public class SquareTest
-implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {
+public class SquareTest implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {
 
     @Parameters(name = "{index}: {1}")
     public static Iterable<Object[]> data() {
@@ -24,13 +26,13 @@ implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {
     }
 
     @Parameter(0)
-    public Supplier<Square> factory;
+    public Callable<Square> factory;
 
     @Parameter(1)
     public String title;
 
     @Override
-    public Supplier<Square> getSUTFactory() {
+    public Callable<Square> getSUTFactory() {
         return this.factory;
     }
 

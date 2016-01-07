@@ -1,6 +1,6 @@
 package org.j8unit;
 
-import java.util.function.Supplier;
+import java.util.concurrent.Callable;
 
 /**
  * <p>
@@ -24,33 +24,43 @@ extends J8UnitTest<SUT> {
      * type {@code SUT}).
      * </p>
      *
+     * <p>
+     * Let's face facts: Constructors may throw unchecked exceptions. Thus, instead of using
+     * {@link java.util.function.Supplier} this method is {@link Callable}-based in order to support those cases.
+     * </p>
+     *
      * @return a SUT factory
      */
-    public abstract Supplier<SUT> getSUTFactory();
+    public abstract Callable<SUT> getSUTFactory();
 
     /**
-     * {@inheritDoc}
-     *
      * <p>
+     * Factory method to create a new subject-under-test (of type {@code SUT}).
+     *
      * Due to the {@linkplain #getSUTFactory() SUT factory based} nature of this J8Unit test, this method has been
-     * implemented with the following {@code default} behaviour:
+     * (effectively) implemented with the following {@code default} behaviour:
      * </p>
      *
      * <pre class="brush:java">
-     * final Supplier&lt;SUT&gt; factory = this.getSUTFactory();
-     * assert factory != null;
-     * final SUT sut = factory.get();
-     * assert sut != null;
-     * return sut;
+     * try {
+     *     return this.getSUTFactory().call();
+     * } catch (final Exception any) {
+     *     throw new AssertionError("Failed to create new subject-under-test instance!", any);
+     * }
      * </pre>
      */
     @Override
-    public default SUT createNewSUT() {
-        final Supplier<SUT> factory = this.getSUTFactory();
-        assert factory != null;
-        final SUT sut = factory.get();
-        assert sut != null;
-        return sut;
+    public default SUT createNewSUT()
+    throws AssertionError {
+        try {
+            final Callable<SUT> factory = this.getSUTFactory();
+            assert factory != null;
+            final SUT sut = factory.call();
+            assert sut != null;
+            return sut;
+        } catch (final Exception any) {
+            throw new AssertionError("Failed to create new subject-under-test instance!", any);
+        }
     }
 
 }
