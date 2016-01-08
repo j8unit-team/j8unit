@@ -9,29 +9,29 @@ import static java.util.logging.Level.SEVERE;
 import static java.util.logging.Logger.getLogger;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toSet;
-import static org.j8unit.tools.GeneratorAnalysis.calculateNearestParents;
-import static org.j8unit.tools.GeneratorAnalysis.getNearestMergingClass;
-import static org.j8unit.tools.GeneratorAnalysis.specifiesSuchPublicMethod;
-import static org.j8unit.tools.GeneratorTokens.IGNORE_STATEMENT;
-import static org.j8unit.tools.GeneratorTokens.NL;
-import static org.j8unit.tools.GeneratorTokens.SPACE;
-import static org.j8unit.tools.GeneratorTokens.indent;
-import static org.j8unit.tools.NamingUtilities.JAVA_LANG;
-import static org.j8unit.tools.NamingUtilities.canonicalClassOf;
-import static org.j8unit.tools.NamingUtilities.canonicalNameOf;
-import static org.j8unit.tools.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
-import static org.j8unit.tools.NamingUtilities.javadocNameOf;
-import static org.j8unit.tools.NamingUtilities.listOfTypeParameterDefinitionsOf;
-import static org.j8unit.tools.NamingUtilities.listOfTypeParameterNamesOf;
-import static org.j8unit.tools.NamingUtilities.simpleCanonicalClassOf;
-import static org.j8unit.tools.NamingUtilities.simpleCanonicalNameOf;
-import static org.j8unit.tools.NamingUtilities.toVarArgAwareString;
-import static org.j8unit.tools.Target.REUSABLE_TESTS;
-import static org.j8unit.tools.Target.SPECIFIC_TEST;
-import static org.j8unit.tools.TypeKind.TOP_LEVEL;
+import static org.j8unit.tools.Generator.Target.REUSABLE_TESTS;
+import static org.j8unit.tools.Generator.Target.SPECIFIC_TEST;
 import static org.j8unit.tools.generator.AccessScope.CLASS;
 import static org.j8unit.tools.generator.AccessScope.INSTANCE;
+import static org.j8unit.tools.generator.GeneratorTokens.IGNORE_STATEMENT;
+import static org.j8unit.tools.generator.GeneratorTokens.NL;
+import static org.j8unit.tools.generator.GeneratorTokens.SPACE;
+import static org.j8unit.tools.generator.GeneratorTokens.indent;
+import static org.j8unit.tools.util.NamingUtilities.JAVA_LANG;
+import static org.j8unit.tools.util.NamingUtilities.canonicalClassOf;
+import static org.j8unit.tools.util.NamingUtilities.canonicalNameOf;
+import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
+import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
+import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
+import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterNamesOf;
+import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalClassOf;
+import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalNameOf;
+import static org.j8unit.tools.util.NamingUtilities.toVarArgAwareString;
 import static org.j8unit.tools.util.OptionalString.ofEmptyable;
+import static org.j8unit.tools.util.TypeAnalysis.calculateNearestParents;
+import static org.j8unit.tools.util.TypeAnalysis.getNearestMergingClass;
+import static org.j8unit.tools.util.TypeAnalysis.specifiesSuchPublicMethod;
+import static org.j8unit.tools.util.TypeKind.TOP_LEVEL;
 import static org.j8unit.tools.util.Utilities.NOOP;
 import static org.j8unit.tools.util.Utilities.bcsv;
 import static org.j8unit.tools.util.Utilities.csv;
@@ -65,7 +65,9 @@ import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.j8unit.tools.generator.AccessScope;
 import org.j8unit.tools.generator.CustomContentSource;
+import org.j8unit.tools.generator.GeneratorCustoms;
 import org.j8unit.tools.generator.ModusOperandi;
+import org.j8unit.tools.util.Utilities;
 import org.junit.AssumptionViolatedException;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
@@ -105,16 +107,17 @@ public enum Generator
                 // content creation
                 sb.append(indent + "/**" + NL);
                 sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * Reusable J8Unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
-                sb.append(indent + " * containing all instance relevant aspects (i.&thinsp;e., test methods targeting the non-{@code" + NL);
-                sb.append(indent + " * static} methods). The complementarySetup J8Unit test interface containing the class relevant aspects " + NL);
-                sb.append(indent + " * is {@link " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "}." + NL);
+                sb.append(indent + " * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test" + NL);
+                sb.append(indent + " * methods targeting the non-{@code static} methods) of {@linkplain " + canonicalNameOf(clazz) + NL);
+                sb.append(indent + " * " + clazz + "}." + NL);
+                sb.append(indent + " * The complementary j8unit test interface containing the class relevant aspects is " + NL);
+                sb.append(indent + " * {@link " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "}." + NL);
                 sb.append(indent + " * </p>" + NL);
                 sb.append(indent + " *" + NL);
                 sb.append(indent + " * @see " + canonicalNameOf(clazz) + " " + clazz + " (the hereby targeted class-under-test class)" + NL);
                 sb.append(indent + " * @see " + complementarySetup.canonicalTestNameOf(clazz, clazz) + " " + NL);
                 sb.append(indent + " *      " + complementarySetup.canonicalTestNameOf(clazz, clazz) + NL);
-                sb.append(indent + " *      (the complementary J8Unit test interface containing the class relevant test methods)" + NL);
+                sb.append(indent + " *      (the complementary j8unit test interface containing the class relevant test methods)" + NL);
                 sb.append(indent + " *" + NL);
                 sb.append(indent + " * @param SUT the type of the subject-under-test" + NL);
                 sb.append(indent + " * @since 0.9.0" + NL);
@@ -175,7 +178,7 @@ public enum Generator
                 for (final Method method : candidates) {
                     final Set<Class<?>> nodes = parents.keySet().stream() //
                                                        .map(s -> getNearestMergingClass(s, method)) //
-                                                       .flatMap(GeneratorUtil::toStream) //
+                                                       .flatMap(Utilities::toStream) //
                                                        .collect(toSet());
                     assert !methods.containsKey(method);
                     methods.put(method, nodes);
@@ -249,7 +252,7 @@ public enum Generator
                 for (final Method method : duplicatedCandidates) {
                     final Set<Class<?>> nodes = parents.keySet().stream() //
                                                        .map(s -> getNearestMergingClass(s, method)) //
-                                                       .flatMap(GeneratorUtil::toStream) //
+                                                       .flatMap(Utilities::toStream) //
                                                        .collect(toSet());
                     if (nodes.size() < 2) {
                         continue;
@@ -334,15 +337,15 @@ public enum Generator
                 // content creation
                 sb.append(indent + "/**" + NL);
                 sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * Reusable J8Unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
+                sb.append(indent + " * Reusable j8unit test interface for {@linkplain " + canonicalNameOf(clazz) + " " + clazz + "}," + NL);
                 sb.append(indent + " * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific" + NL);
-                sb.append(indent + " * requirements). (In addition, the runtime type of this J8Unit test interface's generic type is verified" + NL);
+                sb.append(indent + " * requirements). (In addition, the runtime type of this j8unit test interface's generic type is verified" + NL);
                 sb.append(indent + " * by {@link #verifyGenericType()})." + NL);
                 sb.append(indent + " * </p>" + NL);
                 sb.append(indent + " *" + NL);
                 sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * J8Unit strongly encourages you to not only test the instances behaviour but also to test the type" + NL);
-                sb.append(indent + " * constraints. For this purpose, J8Unit provides this reusable test interface covering type relevant" + NL);
+                sb.append(indent + " * j8unit strongly encourages you to not only test the instances behaviour but also to test the type" + NL);
+                sb.append(indent + " * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant" + NL);
                 sb.append(indent + " * aspects as well as a complementarySetup test interface containing the instance relevant aspects (see" + NL);
                 sb.append(indent + " * {@link " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "})." + NL);
                 sb.append(indent + " * </p>" + NL);
@@ -364,14 +367,14 @@ public enum Generator
                 sb.append(indent + " * </p>" + NL);
                 sb.append(indent + " *" + NL);
                 sb.append(indent + " * <p>" + NL);
-                sb.append(indent + " * The complementarySetup J8Unit test interface containing the instance relevant aspects is {@link " + NL);
+                sb.append(indent + " * The complementary j8unit test interface containing the instance relevant aspects is {@link " + NL);
                 sb.append(indent + " * " + complementarySetup.canonicalTestNameOf(clazz, clazz) + "}." + NL);
                 sb.append(indent + " * </p>" + NL);
                 sb.append(indent + " *" + NL);
                 sb.append(indent + " * @see " + canonicalNameOf(clazz) + " " + clazz + " (the hereby targeted class-under-test class)" + NL);
                 sb.append(indent + " * @see " + complementarySetup.canonicalTestNameOf(clazz, clazz) + " " + NL);
                 sb.append(indent + " *      " + complementarySetup.canonicalTestNameOf(clazz, clazz) + NL);
-                sb.append(indent + " *      (the complementarySetup J8Unit test interface containing the instance relevant test methods)" + NL);
+                sb.append(indent + " *      (The complementary j8unit test interface containing the instance relevant test methods)" + NL);
                 sb.append(indent + " *" + NL);
                 sb.append(indent + " * @param SUT the class' type of the subject-under-test" + NL);
                 sb.append(indent + " * @since 0.9.0" + NL);
@@ -421,16 +424,16 @@ public enum Generator
                 final StringBuilder sb = new StringBuilder();
                 // content creation
                 sb.append(indent + "/**" + NL);
-                sb.append(indent + " * @since 0.9.2" + NL);
-                sb.append(indent + " *" + NL);
                 sb.append(indent + " * @see " + javadocNameOf(mut) + " " + mut + " (the hereby targeted method-under-test)" + NL);
+                sb.append(indent + " *" + NL);
+                sb.append(indent + " * @since 0.9.2" + NL);
                 sb.append(indent + " */" + NL);
                 sb.append(indent + "@" + simpleCanonicalNameOf(BeforeClass.class) + NL);
                 sb.append(indent + "public default void verifyGenericType() throws " + simpleCanonicalNameOf(Exception.class) + " {" + NL);
                 sb.append(indent + SPACE + "// create new instance" + NL);
                 sb.append(indent + SPACE + simpleCanonicalNameOf(Class.class) + "<SUT> sut = createNewSUT();" + NL);
                 sb.append(indent + SPACE + "// assert assignability" + NL);
-                sb.append(indent + SPACE + "assertTrue(\"This J8Unit test interface is used with a generic type that is illegaly not assignable to ");
+                sb.append(indent + SPACE + "assertTrue(\"This j8unit test interface is used with a generic type that is illegaly not assignable to ");
                 sb.append(canonicalClassOf(clazz) + "!\", " + canonicalClassOf(clazz) + "." + mut.getName() + "(sut));" + NL);
                 sb.append(indent + "}" + NL);
                 sb.append(NL);
@@ -843,6 +846,14 @@ public enum Generator
             }
 
         };
+
+    public static enum Target {
+
+        REUSABLE_TESTS,
+
+        SPECIFIC_TEST;
+
+    }
 
     private static final Logger LOG = getLogger(Generator.class.getName());
 

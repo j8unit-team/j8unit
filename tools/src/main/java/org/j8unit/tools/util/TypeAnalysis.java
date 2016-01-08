@@ -1,4 +1,4 @@
-package org.j8unit.tools;
+package org.j8unit.tools.util;
 
 import static java.lang.String.format;
 import static java.util.Arrays.stream;
@@ -26,12 +26,11 @@ import java.util.function.Predicate;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import org.j8unit.tools.util.Utilities;
 
-public enum GeneratorAnalysis {
+public enum TypeAnalysis {
     ;
 
-    private static final Logger LOG = getLogger(GeneratorAnalysis.class.getName());
+    private static final Logger LOG = getLogger(TypeAnalysis.class.getName());
 
     /**
      * Recursively calls {@link Class#getComponentType()} as often as the temporary current class is still an array.

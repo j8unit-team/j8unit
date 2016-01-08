@@ -1,7 +1,7 @@
 package org.j8unit.tools.generator;
 
 import static java.util.Objects.requireNonNull;
-import static org.j8unit.tools.NamingUtilities.listOfTypeParameterDefinitionsOf;
+import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
 import java.util.Arrays;
 import java.util.List;
 

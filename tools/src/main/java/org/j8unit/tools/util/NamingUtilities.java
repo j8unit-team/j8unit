@@ -1,4 +1,4 @@
-package org.j8unit.tools;
+package org.j8unit.tools.util;
 
 import static java.util.Arrays.asList;
 import static java.util.Arrays.stream;
@@ -7,9 +7,9 @@ import static java.util.Collections.singletonList;
 import static java.util.Objects.requireNonNull;
 import static java.util.Optional.ofNullable;
 import static java.util.stream.Collectors.toList;
-import static org.j8unit.tools.GeneratorAnalysis.baseComponentTypeOf;
-import static org.j8unit.tools.TypeKind.TOP_LEVEL;
 import static org.j8unit.tools.util.OptionalString.ofEmptyable;
+import static org.j8unit.tools.util.TypeAnalysis.baseComponentTypeOf;
+import static org.j8unit.tools.util.TypeKind.TOP_LEVEL;
 import static org.j8unit.tools.util.Utilities.bcsv;
 import static org.j8unit.tools.util.Utilities.csv;
 import java.lang.reflect.Constructor;

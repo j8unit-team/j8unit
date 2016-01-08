@@ -1,4 +1,4 @@
-package org.j8unit.tools;
+package org.j8unit.tools.generator;
 
 import static java.lang.String.join;
 import static java.lang.System.lineSeparator;

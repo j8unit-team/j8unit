@@ -1,9 +1,9 @@
 package org.j8unit.tools;
 
-import static org.j8unit.tools.GeneratorAnalysis.baseComponentTypeOf;
-import static org.j8unit.tools.GeneratorUtil.optionalise;
-import static org.j8unit.tools.GeneratorUtil.tryLoadClass;
-import static org.j8unit.tools.NamingUtilities.javadocNameOf;
+import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
+import static org.j8unit.tools.util.TypeAnalysis.baseComponentTypeOf;
+import static org.j8unit.tools.util.Utilities.optionalise;
+import static org.j8unit.tools.util.Utilities.tryLoadClass;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import org.j8unit.tools.util.AccessLevel;
+import org.j8unit.tools.util.TypeKind;
 import org.junit.Test;
 
 /**

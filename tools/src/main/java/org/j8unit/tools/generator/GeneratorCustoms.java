@@ -1,18 +1,19 @@
-package org.j8unit.tools;
+package org.j8unit.tools.generator;
 
 import static java.util.Objects.requireNonNull;
 import static org.j8unit.tools.Generator.CLASS_REPOSITORY;
 import static org.j8unit.tools.Generator.INSTANCE_REPOSITORY;
-import static org.j8unit.tools.GeneratorTokens.NL;
-import static org.j8unit.tools.GeneratorTokens.SPACE;
-import static org.j8unit.tools.GeneratorTokens.indent;
-import static org.j8unit.tools.NamingUtilities.javadocNameOf;
+import static org.j8unit.tools.generator.GeneratorTokens.NL;
+import static org.j8unit.tools.generator.GeneratorTokens.SPACE;
+import static org.j8unit.tools.generator.GeneratorTokens.indent;
+import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Executable;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Objects;
 import java.util.function.Consumer;
+import org.j8unit.tools.Generator;
 import junit.framework.Test;
 
 public enum GeneratorCustoms {
@@ -283,10 +284,10 @@ public enum GeneratorCustoms {
             out.append(indent + " * <p>And obviously, no however reached (problematic) inner state of an object is allowed to cause an exception while" + NL);
             out.append(indent + " * computing the textual representation. It instead should be represented accordingly.</p>" + NL);
             out.append(indent + " *" + NL);
-            out.append(indent + " * @since 0.9.2" + NL);
-            out.append(indent + " *" + NL);
             out.append(indent + " * @see " + javadocNameOf(Object.class.getMethod("toString")) + " " + Object.class.getMethod("toString")
                        + " (the hereby targeted method-under-test)" + NL);
+            out.append(indent + " *" + NL);
+            out.append(indent + " * @since 0.9.2" + NL);
             out.append(indent + " */" + NL);
             out.append(indent + "@Test" + NL);
             // sb.append(indent
@@ -550,11 +551,11 @@ public enum GeneratorCustoms {
 
     private static void newBy092(final StringBuilder sb, final String indent, final Class<?> clazz, final Executable... execs) {
         sb.append(indent + "/**" + NL);
-        sb.append(indent + " * @since 0.9.2" + NL);
-        sb.append(indent + " *" + NL);
         for (final Executable exec : execs) {
             sb.append(indent + " * @see " + javadocNameOf(clazz, exec) + " " + exec + " (the hereby targeted method-under-test)" + NL);
         }
+        sb.append(indent + " *" + NL);
+        sb.append(indent + " * @since 0.9.2" + NL);
         sb.append(indent + " */" + NL);
     }
 

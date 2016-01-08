@@ -2,9 +2,9 @@ package org.j8unit.tools.generator;
 
 import static java.util.Collections.emptyList;
 import static java.util.Objects.requireNonNull;
-import static org.j8unit.tools.NamingUtilities.canonicalNameOf;
-import static org.j8unit.tools.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
-import static org.j8unit.tools.NamingUtilities.listOfTypeParameterDefinitionsOf;
+import static org.j8unit.tools.util.NamingUtilities.canonicalNameOf;
+import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
+import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
 import static org.j8unit.tools.util.OptionalString.ofEmptyable;
 import static org.j8unit.tools.util.Utilities.csv;
 import java.lang.reflect.Constructor;

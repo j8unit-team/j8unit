@@ -1,9 +1,9 @@
 package org.j8unit.tools;
 
 import static java.util.Collections.emptyMap;
-import static org.j8unit.tools.GeneratorAnalysis.arrayDimensionOf;
-import static org.j8unit.tools.GeneratorAnalysis.baseComponentTypeOf;
-import static org.j8unit.tools.GeneratorAnalysis.getInterfaces;
+import static org.j8unit.tools.util.TypeAnalysis.arrayDimensionOf;
+import static org.j8unit.tools.util.TypeAnalysis.baseComponentTypeOf;
+import static org.j8unit.tools.util.TypeAnalysis.getInterfaces;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import java.io.Closeable;
