@@ -1,6 +1,6 @@
 package org.j8unit.tools.util;
 
-import static java.util.Arrays.asList; 
+import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singleton;
 import static org.j8unit.tools.util.NamingUtilities.JAVA_LANG;

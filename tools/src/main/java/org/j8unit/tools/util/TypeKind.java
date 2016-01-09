@@ -14,9 +14,12 @@ import java.util.Optional;
  * <li>Anonymous classes</li>
  * </ul>
  * 
- * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html"> The Java&trade; Tutorials: Nested Classes</a>
- * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/localclasses.html"> The Java&trade; Tutorials: Local Classes</a>
- * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html"> The Java&trade; Tutorials: Anonymous Classes</a>
+ * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html"> The Java&trade; Tutorials: Nested
+ *      Classes</a>
+ * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/localclasses.html"> The Java&trade; Tutorials:
+ *      Local Classes</a>
+ * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html"> The Java&trade; Tutorials:
+ *      Anonymous Classes</a>
  *
  * @author Stefan Gasterst&auml;dt (SGA)
  */
