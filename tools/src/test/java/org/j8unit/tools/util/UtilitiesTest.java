@@ -1,4 +1,4 @@
-package org.j8unit.tools;
+package org.j8unit.tools.util;
 
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;

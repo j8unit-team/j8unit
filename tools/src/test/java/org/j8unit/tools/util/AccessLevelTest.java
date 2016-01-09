@@ -22,6 +22,10 @@ public class AccessLevelTest {
         assertFalse(PACKAGE_PRIVATE.matches(clazz));
         assertFalse(PROTECTED.matches(clazz));
         assertFalse(PRIVATE.matches(clazz));
+        assertFalse(PUBLIC.mismatches(clazz));
+        assertTrue(PACKAGE_PRIVATE.mismatches(clazz));
+        assertTrue(PROTECTED.mismatches(clazz));
+        assertTrue(PRIVATE.mismatches(clazz));
     }
 
     public static class PublicNested {
@@ -105,6 +109,43 @@ public class AccessLevelTest {
         assertFalse(PACKAGE_PRIVATE.matches(privateMethod));
         assertFalse(PROTECTED.matches(privateMethod));
         assertTrue(PRIVATE.matches(privateMethod));
+
+        assertFalse(PUBLIC.mismatches(clazz));
+        assertTrue(PACKAGE_PRIVATE.mismatches(clazz));
+        assertTrue(PROTECTED.mismatches(clazz));
+        assertTrue(PRIVATE.mismatches(clazz));
+        assertFalse(PUBLIC.mismatches(publicConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicConstructor));
+        assertTrue(PROTECTED.mismatches(publicConstructor));
+        assertTrue(PRIVATE.mismatches(publicConstructor));
+        assertTrue(PUBLIC.mismatches(packagePrivateConstructor));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PROTECTED.mismatches(packagePrivateConstructor));
+        assertTrue(PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PUBLIC.mismatches(protectedConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedConstructor));
+        assertFalse(PROTECTED.mismatches(protectedConstructor));
+        assertTrue(PRIVATE.mismatches(protectedConstructor));
+        assertTrue(PUBLIC.mismatches(privateConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateConstructor));
+        assertTrue(PROTECTED.mismatches(privateConstructor));
+        assertFalse(PRIVATE.mismatches(privateConstructor));
+        assertFalse(PUBLIC.mismatches(publicMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicMethod));
+        assertTrue(PROTECTED.mismatches(publicMethod));
+        assertTrue(PRIVATE.mismatches(publicMethod));
+        assertTrue(PUBLIC.mismatches(packagePrivateMethod));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PROTECTED.mismatches(packagePrivateMethod));
+        assertTrue(PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PUBLIC.mismatches(protectedMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedMethod));
+        assertFalse(PROTECTED.mismatches(protectedMethod));
+        assertTrue(PRIVATE.mismatches(protectedMethod));
+        assertTrue(PUBLIC.mismatches(privateMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateMethod));
+        assertTrue(PROTECTED.mismatches(privateMethod));
+        assertFalse(PRIVATE.mismatches(privateMethod));
     }
 
     static class PackagePrivateNested {
@@ -188,6 +229,43 @@ public class AccessLevelTest {
         assertFalse(PACKAGE_PRIVATE.matches(privateMethod));
         assertFalse(PROTECTED.matches(privateMethod));
         assertTrue(PRIVATE.matches(privateMethod));
+
+        assertTrue(PUBLIC.mismatches(clazz));
+        assertFalse(PACKAGE_PRIVATE.mismatches(clazz));
+        assertTrue(PROTECTED.mismatches(clazz));
+        assertTrue(PRIVATE.mismatches(clazz));
+        assertFalse(PUBLIC.mismatches(publicConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicConstructor));
+        assertTrue(PROTECTED.mismatches(publicConstructor));
+        assertTrue(PRIVATE.mismatches(publicConstructor));
+        assertTrue(PUBLIC.mismatches(packagePrivateConstructor));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PROTECTED.mismatches(packagePrivateConstructor));
+        assertTrue(PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PUBLIC.mismatches(protectedConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedConstructor));
+        assertFalse(PROTECTED.mismatches(protectedConstructor));
+        assertTrue(PRIVATE.mismatches(protectedConstructor));
+        assertTrue(PUBLIC.mismatches(privateConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateConstructor));
+        assertTrue(PROTECTED.mismatches(privateConstructor));
+        assertFalse(PRIVATE.mismatches(privateConstructor));
+        assertFalse(PUBLIC.mismatches(publicMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicMethod));
+        assertTrue(PROTECTED.mismatches(publicMethod));
+        assertTrue(PRIVATE.mismatches(publicMethod));
+        assertTrue(PUBLIC.mismatches(packagePrivateMethod));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PROTECTED.mismatches(packagePrivateMethod));
+        assertTrue(PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PUBLIC.mismatches(protectedMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedMethod));
+        assertFalse(PROTECTED.mismatches(protectedMethod));
+        assertTrue(PRIVATE.mismatches(protectedMethod));
+        assertTrue(PUBLIC.mismatches(privateMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateMethod));
+        assertTrue(PROTECTED.mismatches(privateMethod));
+        assertFalse(PRIVATE.mismatches(privateMethod));
     }
 
     protected static class ProtectedNested {
@@ -271,6 +349,43 @@ public class AccessLevelTest {
         assertFalse(PACKAGE_PRIVATE.matches(privateMethod));
         assertFalse(PROTECTED.matches(privateMethod));
         assertTrue(PRIVATE.matches(privateMethod));
+
+        assertTrue(PUBLIC.mismatches(clazz));
+        assertTrue(PACKAGE_PRIVATE.mismatches(clazz));
+        assertFalse(PROTECTED.mismatches(clazz));
+        assertTrue(PRIVATE.mismatches(clazz));
+        assertFalse(PUBLIC.mismatches(publicConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicConstructor));
+        assertTrue(PROTECTED.mismatches(publicConstructor));
+        assertTrue(PRIVATE.mismatches(publicConstructor));
+        assertTrue(PUBLIC.mismatches(packagePrivateConstructor));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PROTECTED.mismatches(packagePrivateConstructor));
+        assertTrue(PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PUBLIC.mismatches(protectedConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedConstructor));
+        assertFalse(PROTECTED.mismatches(protectedConstructor));
+        assertTrue(PRIVATE.mismatches(protectedConstructor));
+        assertTrue(PUBLIC.mismatches(privateConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateConstructor));
+        assertTrue(PROTECTED.mismatches(privateConstructor));
+        assertFalse(PRIVATE.mismatches(privateConstructor));
+        assertFalse(PUBLIC.mismatches(publicMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicMethod));
+        assertTrue(PROTECTED.mismatches(publicMethod));
+        assertTrue(PRIVATE.mismatches(publicMethod));
+        assertTrue(PUBLIC.mismatches(packagePrivateMethod));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PROTECTED.mismatches(packagePrivateMethod));
+        assertTrue(PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PUBLIC.mismatches(protectedMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedMethod));
+        assertFalse(PROTECTED.mismatches(protectedMethod));
+        assertTrue(PRIVATE.mismatches(protectedMethod));
+        assertTrue(PUBLIC.mismatches(privateMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateMethod));
+        assertTrue(PROTECTED.mismatches(privateMethod));
+        assertFalse(PRIVATE.mismatches(privateMethod));
     }
 
     private static class PrivateNested {
@@ -354,6 +469,43 @@ public class AccessLevelTest {
         assertFalse(PACKAGE_PRIVATE.matches(privateMethod));
         assertFalse(PROTECTED.matches(privateMethod));
         assertTrue(PRIVATE.matches(privateMethod));
+
+        assertTrue(PUBLIC.mismatches(clazz));
+        assertTrue(PACKAGE_PRIVATE.mismatches(clazz));
+        assertTrue(PROTECTED.mismatches(clazz));
+        assertFalse(PRIVATE.mismatches(clazz));
+        assertFalse(PUBLIC.mismatches(publicConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicConstructor));
+        assertTrue(PROTECTED.mismatches(publicConstructor));
+        assertTrue(PRIVATE.mismatches(publicConstructor));
+        assertTrue(PUBLIC.mismatches(packagePrivateConstructor));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PROTECTED.mismatches(packagePrivateConstructor));
+        assertTrue(PRIVATE.mismatches(packagePrivateConstructor));
+        assertTrue(PUBLIC.mismatches(protectedConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedConstructor));
+        assertFalse(PROTECTED.mismatches(protectedConstructor));
+        assertTrue(PRIVATE.mismatches(protectedConstructor));
+        assertTrue(PUBLIC.mismatches(privateConstructor));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateConstructor));
+        assertTrue(PROTECTED.mismatches(privateConstructor));
+        assertFalse(PRIVATE.mismatches(privateConstructor));
+        assertFalse(PUBLIC.mismatches(publicMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(publicMethod));
+        assertTrue(PROTECTED.mismatches(publicMethod));
+        assertTrue(PRIVATE.mismatches(publicMethod));
+        assertTrue(PUBLIC.mismatches(packagePrivateMethod));
+        assertFalse(PACKAGE_PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PROTECTED.mismatches(packagePrivateMethod));
+        assertTrue(PRIVATE.mismatches(packagePrivateMethod));
+        assertTrue(PUBLIC.mismatches(protectedMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(protectedMethod));
+        assertFalse(PROTECTED.mismatches(protectedMethod));
+        assertTrue(PRIVATE.mismatches(protectedMethod));
+        assertTrue(PUBLIC.mismatches(privateMethod));
+        assertTrue(PACKAGE_PRIVATE.mismatches(privateMethod));
+        assertTrue(PROTECTED.mismatches(privateMethod));
+        assertFalse(PRIVATE.mismatches(privateMethod));
     }
 
 }

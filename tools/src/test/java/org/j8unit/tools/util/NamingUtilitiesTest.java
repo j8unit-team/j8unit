@@ -1,6 +1,6 @@
-package org.j8unit.tools;
+package org.j8unit.tools.util;
 
-import static java.util.Arrays.asList;
+import static java.util.Arrays.asList; 
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singleton;
 import static org.j8unit.tools.util.NamingUtilities.JAVA_LANG;
@@ -377,15 +377,15 @@ public class NamingUtilitiesTest {
         final @SuppressWarnings("rawtypes") Class<? extends A> clazz = A.class;
         // class based
         assertEquals("A", simpleCanonicalNameOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.A", canonicalNameOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A", canonicalNameOf(clazz));
         assertEquals("A.class", simpleCanonicalClassOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.A.class", canonicalClassOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
         assertEquals(asList("X", "Y"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("X extends Comparable<Y>", "Y extends Enum<Y>"), listOfTypeParameterDefinitionsOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.A<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.A<X, Y>", canonicalNameWithTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.A<X extends Comparable<Y>, Y extends Enum<Y>>",
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<X, Y>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<X extends Comparable<Y>, Y extends Enum<Y>>",
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("X, Y", createTypeParametersUsage(clazz));
@@ -406,15 +406,15 @@ public class NamingUtilitiesTest {
         final @SuppressWarnings("rawtypes") Class<? extends B> clazz = B.class;
         // class based
         assertEquals("B", simpleCanonicalNameOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.B", canonicalNameOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B", canonicalNameOf(clazz));
         assertEquals("B.class", simpleCanonicalClassOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.B.class", canonicalClassOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
         assertEquals(asList("S", "U", "T", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends T", "U extends Comparable<V>", "T", "V extends Enum<V>"), listOfTypeParameterDefinitionsOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.B<?, ?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.B<S, U, T, V>", canonicalNameWithTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.B<S extends T, U extends Comparable<V>, T, V extends Enum<V>>",
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<?, ?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<S, U, T, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<S extends T, U extends Comparable<V>, T, V extends Enum<V>>",
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("S, U, T, V", createTypeParametersUsage(clazz));
@@ -434,16 +434,16 @@ public class NamingUtilitiesTest {
         final @SuppressWarnings("rawtypes") Class<? extends C> clazz = C.class;
         // class based
         assertEquals("C", simpleCanonicalNameOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.C", canonicalNameOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C", canonicalNameOf(clazz));
         assertEquals("C.class", simpleCanonicalClassOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.C.class", canonicalClassOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
         assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends java.util.Formatter.BigDecimalLayoutForm", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.C<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.C<S, U, V>", canonicalNameWithTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.C<S extends java.util.Formatter.BigDecimalLayoutForm, U extends Comparable<V>, V extends Enum<V>>",
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C<S, U, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C<S extends java.util.Formatter.BigDecimalLayoutForm, U extends Comparable<V>, V extends Enum<V>>",
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("S, U, V", createTypeParametersUsage(clazz));
@@ -461,16 +461,16 @@ public class NamingUtilitiesTest {
         final @SuppressWarnings("rawtypes") Class<? extends D> clazz = D.class;
         // class based
         assertEquals("D", simpleCanonicalNameOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.D", canonicalNameOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D", canonicalNameOf(clazz));
         assertEquals("D.class", simpleCanonicalClassOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.D.class", canonicalClassOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
         assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends java.util.function.Supplier<?>", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.D<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.D<S, U, V>", canonicalNameWithTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.D<S extends java.util.function.Supplier<?>, U extends Comparable<V>, V extends Enum<V>>",
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D<S, U, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D<S extends java.util.function.Supplier<?>, U extends Comparable<V>, V extends Enum<V>>",
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("S, U, V", createTypeParametersUsage(clazz));
@@ -488,16 +488,16 @@ public class NamingUtilitiesTest {
         final @SuppressWarnings("rawtypes") Class<? extends E> clazz = E.class;
         // class based
         assertEquals("E", simpleCanonicalNameOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.E", canonicalNameOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E", canonicalNameOf(clazz));
         assertEquals("E.class", simpleCanonicalClassOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.E.class", canonicalClassOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
         assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends java.util.function.BiFunction<U, V, ?>", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.E<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.E<S, U, V>", canonicalNameWithTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.E<S extends java.util.function.BiFunction<U, V, ?>, U extends Comparable<V>, V extends Enum<V>>",
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E<S, U, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E<S extends java.util.function.BiFunction<U, V, ?>, U extends Comparable<V>, V extends Enum<V>>",
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("S, U, V", createTypeParametersUsage(clazz));
@@ -514,21 +514,21 @@ public class NamingUtilitiesTest {
         final @SuppressWarnings("rawtypes") Class<? extends NamespaceTest> clazz = NamespaceTest.class;
         // class based
         assertEquals("NamespaceTest", simpleCanonicalNameOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.NamespaceTest", canonicalNameOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest", canonicalNameOf(clazz));
         assertEquals("NamespaceTest.class", simpleCanonicalClassOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.NamespaceTest.class", canonicalClassOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
         assertEquals(asList("A", "B", "C", "K", "V"), listOfTypeParameterNamesOf(clazz));
-        assertEquals(asList("A extends org.j8unit.tools.NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
+        assertEquals(asList("A extends org.j8unit.tools.util.NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals(asList("A extends NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
-                     listOfTypeParameterDefinitionsOf(clazz, "org.j8unit.tools"));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.NamespaceTest<?, ?, ?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.NamespaceTest<A, B, C, K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
-        assertEquals("org.j8unit.tools.NamingUtilitiesTest.NamespaceTest<A extends org.j8unit.tools.NamingUtilities, B extends String, C extends java.util.Map.Entry<K, V>, K, V>",
+                     listOfTypeParameterDefinitionsOf(clazz, "org.j8unit.tools.util"));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest<?, ?, ?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest<A, B, C, K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest<A extends org.j8unit.tools.util.NamingUtilities, B extends String, C extends java.util.Map.Entry<K, V>, K, V>",
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         assertEquals("NamingUtilitiesTest.NamespaceTest<A extends NamingUtilities, B extends String, C extends java.util.Map.Entry<K, V>, K, V>",
-                     canonicalNameWithTypeParameterDefinitionsOf(clazz, "org.j8unit.tools"));
+                     canonicalNameWithTypeParameterDefinitionsOf(clazz, "org.j8unit.tools.util"));
         // typed based
         assertEquals("A, B, C, K, V", createTypeParametersUsage(clazz));
         final Type genericSuperClass = clazz.getGenericSuperclass();
