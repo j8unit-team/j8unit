@@ -3,6 +3,7 @@ package org.j8unit.tools;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singleton;
+import static org.j8unit.tools.util.NamingUtilities.JAVA_LANG;
 import static org.j8unit.tools.util.NamingUtilities.canonicalClassOf;
 import static org.j8unit.tools.util.NamingUtilities.canonicalNameOf;
 import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithTypeParameterDefinitionsOf;
@@ -34,6 +35,12 @@ import org.j8unit.tools.util.Utilities;
 import org.junit.Test;
 
 public class NamingUtilitiesTest {
+
+    @Test
+    public void testJavaLangValue()
+    throws Exception {
+        assertEquals("java.lang", JAVA_LANG);
+    }
 
     @Test
     public void test_csv()
