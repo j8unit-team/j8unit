@@ -67,7 +67,8 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Class type} (in relation to {@link #JAVA_LANG}).
+     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
+     * according canonical name is created in relation to {@link #JAVA_LANG}.
      *
      * @param type
      *            the given type
@@ -79,7 +80,8 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Class type} (in relation to the given reference type).
+     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
+     * according canonical name is created in relation to the also given reference type.
      *
      * @param type
      *            the given type
@@ -94,8 +96,8 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Class type} (in relation to the given reference
-     * {@linkplain Package package}).
+     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
+     * according canonical name is created in relation to the also given reference {@linkplain Package package}.
      *
      * @param type
      *            the given type
@@ -110,8 +112,8 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Class type} (in relation to the given reference package
-     * name).
+     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
+     * according canonical name is created in relation to the also given reference package name.
      *
      * @param type
      *            the given type
@@ -294,51 +296,94 @@ public enum NamingUtilities {
         return jdType + "#" + jdExecutable + "(" + (executable.isVarArgs() ? toVarArg(jdParameters) : jdParameters) + ")";
     }
 
-    private static final List<String> listOfTypeParameterStatementsOf(final ParameterizedType type, final String reference) {
+    /**
+     * Returns the definition statement of a given {@linkplain Type type}.
+     *
+     * In case of a {@linkplain ParameterizedType parameterized type} its according definition statement also contains
+     * the definition of {@linkplain ParameterizedType#getActualTypeArguments() each actual type argument}.
+     *
+     * In case of a {@link Class}-based type its according definition statement is created in relation to the also given
+     * reference package name.
+     *
+     * @param type
+     *            the given type
+     * @param referencePackage
+     *            the reference package name when resolving the returned canonical name
+     * @return the definition statement of a given {@linkplain Type type}
+     */
+    private static final String definitionStatementOf(final Type type, final String referencePackage) {
         requireNonNull(type);
-        requireNonNull(reference);
-        return stream(type.getActualTypeArguments()).map(t -> createTypeParameterStatementOf(t, reference)).collect(toList());
-    }
-
-    private static final String createTypeParameterStatementOf(final Type type, final String reference) {
-        requireNonNull(type);
-        requireNonNull(reference);
+        requireNonNull(referencePackage);
         if (type instanceof ParameterizedType) {
             final ParameterizedType pt = (ParameterizedType) type;
-            return canonicalNameOf(pt.getRawType(), reference) + bcsv(listOfTypeParameterStatementsOf(pt, reference));
+            return canonicalNameOf(pt.getRawType(), referencePackage) + bcsv(definitionStatementsOfTypeArgumentsOf(pt, referencePackage));
         } else {
-            return canonicalNameOf(type, reference);
+            return canonicalNameOf(type, referencePackage);
         }
     }
 
+    /**
+     * Returns a {@linkplain List list} of the {@linkplain #definitionStatementOf(Type, String) definition statements}
+     * of {@linkplain ParameterizedType#getActualTypeArguments() each actual type argument} of the given
+     * {@linkplain ParameterizedType parameterized type}.
+     *
+     * In case of a {@link Class}-based type argument its according definition statement is created in relation to the
+     * also given reference package name.
+     *
+     * @param type
+     *            the given parameterized type
+     * @param referencePackage
+     *            the reference package name when resolving the returned canonical name
+     * @return a list of the parameter statements of the given parameterized type's actual type arguments
+     */
+    private static final List<String> definitionStatementsOfTypeArgumentsOf(final ParameterizedType type, final String referencePackage) {
+        requireNonNull(type);
+        requireNonNull(referencePackage);
+        return stream(type.getActualTypeArguments()).map(a -> definitionStatementOf(a, referencePackage)).collect(toList());
+    }
+
     public static final String createTypeParametersUsage(final Type type) {
-        // type can (!) be null
+        requireNonNull(type);
         return createTypeParametersUsage(type, JAVA_LANG);
     }
 
     public static final String createTypeParametersUsage(final Type type, final Class<?> reference) {
-        // type can (!) be null
+        requireNonNull(type);
         requireNonNull(reference);
         return createTypeParametersUsage(type, reference.getPackage());
     }
 
     public static final String createTypeParametersUsage(final Type type, final Package reference) {
-        // type can (!) be null
+        requireNonNull(type);
         requireNonNull(reference);
         return createTypeParametersUsage(type, reference.getName());
     }
 
-    public static final String createTypeParametersUsage(final Type type, final String reference) {
-        // type can (!) be null
+    /**
+     * Returns the {@linkplain Utilities#csv(Iterable) csv'ed} combination of either
+     * {@linkplain #definitionStatementsOfTypeArgumentsOf(ParameterizedType, String) the type's arguments definition
+     * statements} (if it is a {@linkplain ParameterizedType parameterized type}) or the
+     * {@linkplain #namesOfTypeParametersOf(Class) type's parameters }
+     *
+     *
+     * {@link ParameterizedType#getActualTypeArguments()} {@link Class#getTypeParameters()}
+     *
+     * @param type
+     * @param reference
+     * @return
+     */
+    private static final String createTypeParametersUsage(final Type type, final String reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        if (type == null) {
-            return "";
-        } else if (type instanceof ParameterizedType) {
-            return csv(listOfTypeParameterStatementsOf((ParameterizedType) type, reference));
+        if (type instanceof ParameterizedType) {
+            return csv(definitionStatementsOfTypeArgumentsOf((ParameterizedType) type, reference));
         } else if (type instanceof Class) {
-            return csv(listOfTypeParameterNamesOf((Class<?>) type));
+            return csv(namesOfTypeParametersOf((Class<?>) type));
+            // TODO: DO we need that?:
+            // } else if (type instanceof TypeVariable) {
+            // return ((TypeVariable<?>) type).getName();
         } else {
-            return "";
+            throw new UnsupportedOperationException("There is no support for the specific kind of type: " + type.getClass());
         }
     }
 
@@ -352,7 +397,17 @@ public enum NamingUtilities {
         return canonicalNameOf(clazz) + bcsv(listOfUnboundTypeParameterNamesOf(clazz));
     }
 
-    public static final List<String> listOfTypeParameterNamesOf(final Class<?> clazz) {
+    /**
+     * Returns a {@linkplain List list} of the {@linkplain TypeVariable#getName() names} of
+     * {@linkplain Class#getTypeParameters() each type parameter} of the given {@linkplain Class type}.
+     *
+     * In case the given type declares no type variables, the list will be empty.
+     *
+     * @param clazz
+     *            the given type
+     * @return a list of the type's type parameters' names
+     */
+    public static final List<String> namesOfTypeParametersOf(final Class<?> clazz) {
         requireNonNull(clazz);
         return stream(clazz.getTypeParameters()).map(TypeVariable::getName).collect(toList());
     }
@@ -377,7 +432,7 @@ public enum NamingUtilities {
     public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> clazz, final String reference) {
         requireNonNull(clazz);
         requireNonNull(reference);
-        return canonicalNameOf(clazz, reference) + bcsv(listOfTypeParameterNamesOf(clazz));
+        return canonicalNameOf(clazz, reference) + bcsv(namesOfTypeParametersOf(clazz));
     }
 
     public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> clazz) {
@@ -404,9 +459,9 @@ public enum NamingUtilities {
                      .map(tv -> tv.toString() //
                                 + ofEmptyable(csv(Arrays.stream(tv.getBounds()) //
                                                         .filter(t -> !Object.class.equals(t)) //
-                                                        .map(t -> createTypeParameterStatementOf(t, reference)))) //
-                                                                                                                  .prepend(" extends ") //
-                                                                                                                  .orElse("")) //
+                                                        .map(t -> definitionStatementOf(t, reference)))) //
+                                                                                                         .prepend(" extends ") //
+                                                                                                         .orElse("")) //
                      .collect(toList());
     }
 

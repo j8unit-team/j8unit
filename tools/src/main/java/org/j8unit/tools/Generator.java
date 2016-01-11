@@ -23,7 +23,7 @@ import static org.j8unit.tools.util.NamingUtilities.canonicalNameOf;
 import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
 import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
 import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
-import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterNamesOf;
+import static org.j8unit.tools.util.NamingUtilities.namesOfTypeParametersOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalClassOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalNameOf;
 import static org.j8unit.tools.util.NamingUtilities.toVarArgAwareString;
@@ -512,10 +512,10 @@ public enum Generator
                 final String optionalStatic = enclosingLevel > 0 ? "static " : "";
                 final String footer = enclosingLevel > 0 ? NL : "";
                 final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
-                final String testClassGenerics = bcsv(listOfTypeParameterNamesOf(clazz));
+                final String testClassGenerics = bcsv(namesOfTypeParametersOf(clazz));
                 final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
                 final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
-                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
+                                                               + ofEmptyable(csv(namesOfTypeParametersOf(clazz))).prepend(", ").orElse(""));
                 final String indent = indent(enclosingLevel);
                 // content storage
                 final StringBuilder sb = new StringBuilder();
@@ -544,10 +544,10 @@ public enum Generator
                 final String optionalStatic = enclosingLevel > 0 ? "static " : "";
                 final String footer = enclosingLevel > 0 ? NL : "";
                 final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
-                final String testClassGenerics = bcsv(listOfTypeParameterNamesOf(clazz));
+                final String testClassGenerics = bcsv(namesOfTypeParametersOf(clazz));
                 final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
                 final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
-                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
+                                                               + ofEmptyable(csv(namesOfTypeParametersOf(clazz))).prepend(", ").orElse(""));
                 final String indent = indent(enclosingLevel);
                 // content storage
                 final StringBuilder sb = new StringBuilder();
@@ -580,7 +580,7 @@ public enum Generator
                 final String testClassGenerics = bcsv(listOfTypeParameterDefinitionsOf(clazz));
                 final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
                 final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
-                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
+                                                               + ofEmptyable(csv(namesOfTypeParametersOf(clazz))).prepend(", ").orElse(""));
                 final String indent = indent(enclosingLevel);
                 // content storage
                 final StringBuilder sb = new StringBuilder();
@@ -916,10 +916,10 @@ public enum Generator
         final List<String> LANG_ONLY = asList("java.lang");
         final List<String> BASIC_JAVA = asList("java.lang", "java.io", "java.util");
         final List<String> FULL_JAVA = asList("java", "javax", "org");
-        for (final String pakkage : LANG_ONLY) {
+        for (final String pakkage : FULL_JAVA) {
             LOG.info(format(START_MAIN, pakkage));
             final GeneratorSetup j8InstanceRepository = GeneratorSetup.forJavaPackage(pakkage) //
-                                                                      .intoTargetFolder("src/main/java") //
+                                                                      .intoTargetFolder("tmp/src/main/java") //
                                                                       .asSubPackageOf("org.j8unit.repository") //
                                                                       .useTestClassPrefix("") //
                                                                       .upperCaseTestClassInfix(false) //
@@ -942,7 +942,7 @@ public enum Generator
                 CLASS_REPOSITORY.generateSourceFile(clazz, j8ClassRepository, j8InstanceRepository);
             }
             final GeneratorSetup j8InstanceTest = GeneratorSetup.similarTo(j8InstanceRepository) //
-                                                                .intoTargetFolder("src/test/java") //
+                                                                .intoTargetFolder("tmp/src/test/java") //
                                                                 .useTestClassSuffix(INSTANCE_TEST.defaultSuffix) //
                                                                 .build();
             for (final Class<?> clazz : j8InstanceTest.listAllTypes()) {

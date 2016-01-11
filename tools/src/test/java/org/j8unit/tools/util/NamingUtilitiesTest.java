@@ -12,7 +12,7 @@ import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithUnboundType
 import static org.j8unit.tools.util.NamingUtilities.createTypeParametersUsage;
 import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
 import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
-import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterNamesOf;
+import static org.j8unit.tools.util.NamingUtilities.namesOfTypeParametersOf;
 import static org.j8unit.tools.util.NamingUtilities.listOfUnboundTypeParameterNamesOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalClassOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalNameOf;
@@ -203,7 +203,7 @@ public class NamingUtilitiesTest {
         assertEquals("Enum.class", simpleCanonicalClassOf(clazz));
         assertEquals("Enum.class", canonicalClassOf(clazz));
         assertEquals(asList("?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("E"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("E extends Enum<E>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -227,7 +227,7 @@ public class NamingUtilitiesTest {
         assertEquals("Supplier.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.function.Supplier.class", canonicalClassOf(clazz));
         assertEquals(asList("?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("T"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("T"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("T"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.function.Supplier<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.function.Supplier<T>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -248,7 +248,7 @@ public class NamingUtilitiesTest {
         assertEquals("Entry.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("K", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -269,7 +269,7 @@ public class NamingUtilitiesTest {
         assertEquals("SimpleImmutableEntry.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("K", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -290,7 +290,7 @@ public class NamingUtilitiesTest {
         assertEquals("XmlAdapter.class", simpleCanonicalClassOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("ValueType", "BoundType"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("ValueType", "BoundType"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("ValueType", "BoundType"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter<ValueType, BoundType>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -311,7 +311,7 @@ public class NamingUtilitiesTest {
         assertEquals("HexBinaryAdapter.class", simpleCanonicalClassOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.HexBinaryAdapter.class", canonicalClassOf(clazz));
         assertEquals(emptyList(), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
+        assertEquals(emptyList(), namesOfTypeParametersOf(clazz));
         assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.HexBinaryAdapter", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.HexBinaryAdapter", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -332,7 +332,7 @@ public class NamingUtilitiesTest {
         assertEquals("OfPrimitive.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("T", "T_CONS", "T_SPLITR"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("T", "T_CONS", "T_SPLITR"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("T", "T_CONS", "T_SPLITR extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -356,7 +356,7 @@ public class NamingUtilitiesTest {
         assertEquals("Object.class", simpleCanonicalClassOf(clazz));
         assertEquals("Object.class", canonicalClassOf(clazz));
         assertEquals(emptyList(), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
+        assertEquals(emptyList(), namesOfTypeParametersOf(clazz));
         assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -381,7 +381,7 @@ public class NamingUtilitiesTest {
         assertEquals("A.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("X", "Y"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("X", "Y"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("X extends Comparable<Y>", "Y extends Enum<Y>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<X, Y>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -410,7 +410,7 @@ public class NamingUtilitiesTest {
         assertEquals("B.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "T", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("S", "U", "T", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("S extends T", "U extends Comparable<V>", "T", "V extends Enum<V>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<?, ?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<S, U, T, V>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -438,7 +438,7 @@ public class NamingUtilitiesTest {
         assertEquals("C.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("S", "U", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("S extends java.util.Formatter.BigDecimalLayoutForm", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
@@ -465,7 +465,7 @@ public class NamingUtilitiesTest {
         assertEquals("D.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("S", "U", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("S extends java.util.function.Supplier<?>", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
@@ -492,7 +492,7 @@ public class NamingUtilitiesTest {
         assertEquals("E.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("S", "U", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("S extends java.util.function.BiFunction<U, V, ?>", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
@@ -518,7 +518,7 @@ public class NamingUtilitiesTest {
         assertEquals("NamespaceTest.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("A", "B", "C", "K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("A", "B", "C", "K", "V"), namesOfTypeParametersOf(clazz));
         assertEquals(asList("A extends org.j8unit.tools.util.NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals(asList("A extends NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
