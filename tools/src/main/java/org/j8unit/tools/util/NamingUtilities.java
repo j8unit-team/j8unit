@@ -7,7 +7,6 @@ import static java.util.Collections.singleton;
 import static java.util.Objects.requireNonNull;
 import static java.util.Optional.ofNullable;
 import static java.util.stream.Collectors.toList;
-import static org.j8unit.tools.util.OptionalString.ofEmptyable;
 import static org.j8unit.tools.util.TypeAnalysis.baseComponentTypeOf;
 import static org.j8unit.tools.util.TypeKind.TOP_LEVEL;
 import static org.j8unit.tools.util.Utilities.bcsv;
@@ -21,20 +20,170 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * <p>
+ * Utility enum (aka. helper class) providing fancy naming tools.
+ * </p>
+ *
+ * <p>
+ * The main utility methods can be seen in the following table. Note, most of these methods do have alternatives (listed
+ * within the last column, "See Also:").
+ * </p>
+ *
+ * <table border="1" collapse="on">
+ * <thead>
+ * <tr>
+ * <th rowspan="3">Utility Method</th>
+ * <th colspan="6">Java Type</th>
+ * <th rowspan="3">See Also:</th>
+ * </tr>
+ * <tr>
+ * <th>{@link Object java.lang.Object}</th>
+ * <th>{@link Iterable java.lang.Iterable&lt;T&gt;}</th>
+ * <th>{@link Enum java.lang.Enum&lt;E extends Enum&lt;E&gt;&gt;}</th>
+ * <th>{@link java.util.List java.util.List&lt;E&gt;}</th>
+ * <th>{@link java.util.Map.Entry java.util.Map.Entry&lt;K, V&gt;}</th>
+ * <th>{@link java.util.EnumMap java.util.EnumMap&lt;K extends Enum&lt;K&gt;, V&gt;}</th>
+ * </tr>
+ * <tr>
+ * <th><sup>(Simple type, located within {@code java.lang})<sup></th>
+ * <th><sup>(Generic type, located within {@code java.lang})<sup></th>
+ * <th><sup>(Generic type with upper bound, located within {@code java.lang})<sup></th>
+ * <th><sup>(Generic type, located within {@code java.util})<sup></th>
+ * <th><sup>(Nested generic type, located within {@code java.util})<sup></th>
+ * <th><sup>(Generic type with upper bound, located within {@code java.util})<sup></th>
+ * </tr>
+ * </thead><tbody>
+ * <tr>
+ * <td>{@link #simpleCanonicalNameOf(Class)}</td>
+ * <td>{@code "Object"}</td>
+ * <td>{@code "Iterable"}</td>
+ * <td>{@code "Enum"}</td>
+ * <td>{@code "List"}</td>
+ * <td>{@code "Entry"}</td>
+ * <td>{@code "EnumMap"}</td>
+ * <td></td>
+ * </tr>
+ * <tr>
+ * <td>{@link #simpleCanonicalClassOf(Class)}</td>
+ * <td>{@code "Object.class"}</td>
+ * <td>{@code "Iterable.class"}</td>
+ * <td>{@code "Enum.class"}</td>
+ * <td>{@code "List.class"}</td>
+ * <td>{@code "Entry.class"}</td>
+ * <td>{@code "EnumMap.class"}</td>
+ * <td></td>
+ * </tr>
+ * <tr>
+ * <td>{@link #canonicalNameOf(Class)}</td>
+ * <td>{@code "Object"}</td>
+ * <td>{@code "Iterable"}</td>
+ * <td>{@code "Enum"}</td>
+ * <td>{@code "java.util.List"}</td>
+ * <td>{@code "java.util.Map.Entry"}</td>
+ * <td>{@code "java.util.EnumMap"}</td>
+ * <td>{@link #canonicalNameOf(Class, Class)}, {@link #canonicalNameOf(Class, Package)},
+ * {@link #canonicalNameOf(Class, String)}</td>
+ * </tr>
+ * <tr>
+ * <td>{@link #canonicalClassOf(Class)}</td>
+ * <td>{@code "Object.class"}</td>
+ * <td>{@code "Iterable.class"}</td>
+ * <td>{@code "Enum.class"}</td>
+ * <td>{@code "java.util.List.class"}</td>
+ * <td>{@code "java.util.Map.Entry.class"}</td>
+ * <td>{@code "java.util.EnumMap.class"}</td>
+ * <td>{@link #canonicalClassOf(Class, Class)}, {@link #canonicalClassOf(Class, Package)},
+ * {@link #canonicalClassOf(Class, String)}</td>
+ * </tr>
+ * <tr>
+ * <td>{@link #canonicalNameWithUnboundTypeParameterNamesOf(Class)}</td>
+ * <td>{@code "Object"}</td>
+ * <td>{@code "Iterable<?>"}</td>
+ * <td>{@code "Enum<?>"}</td>
+ * <td>{@code "java.util.List<?>"}</td>
+ * <td>{@code "java.util.Map.Entry<?, ?>"}</td>
+ * <td>{@code "java.util.EnumMap<?, ?>"}</td>
+ * <td>{@link #canonicalNameWithUnboundTypeParameterNamesOf(Class, Class)},
+ * {@link #canonicalNameWithUnboundTypeParameterNamesOf(Class, Package)},
+ * {@link #canonicalNameWithUnboundTypeParameterNamesOf(Class, String)}</td>
+ * </tr>
+ * <tr>
+ * <td>{@link #listOfTypeParameterNamesOf(Class)}</td>
+ * <td>{@code ()}</td>
+ * <td>{@code ("T")}</td>
+ * <td>{@code ("E")}</td>
+ * <td>{@code ("E")}</td>
+ * <td>{@code ("K", "V")}</td>
+ * <td>{@code ("K", "V")}</td>
+ * <td></td>
+ * </tr>
+ * <tr>
+ * <td>{@link #createTypeParametersUsage(Class)}</td>
+ * <td>{@code ""}</td>
+ * <td>{@code "T"}</td>
+ * <td>{@code "E"}</td>
+ * <td>{@code "E"}</td>
+ * <td>{@code "K, V"}</td>
+ * <td>{@code "K, V"}</td>
+ * <td>{@link #createTypeParametersUsage(Class, Class)}, {@link #createTypeParametersUsage(Class, Package)},
+ * {@link #createTypeParametersUsage(Class, String)}</td>
+ * </tr>
+ * <tr>
+ * <td>{@link #canonicalNameWithTypeParameterNamesOf(Class)}</td>
+ * <td>{@code "Object"}</td>
+ * <td>{@code "Iterable<T>"}</td>
+ * <td>{@code "Enum<E>"}</td>
+ * <td>{@code "java.util.List<E>"}</td>
+ * <td>{@code "java.util.Map.Entry<K, V>"}</td>
+ * <td>{@code "java.util.EnumMap<K, V>"}</td>
+ * <td>{@link #canonicalNameWithTypeParameterNamesOf(Class, Class)},
+ * {@link #canonicalNameWithTypeParameterNamesOf(Class, Package)},
+ * {@link #canonicalNameWithTypeParameterNamesOf(Class, String)}</td>
+ * </tr>
+ * <tr>
+ * <td>{@link #listOfTypeParameterDefinitionsOf(Class)}</td>
+ * <td>{@code ()}</td>
+ * <td>{@code ("T")}</td>
+ * <td>{@code ("E extends Enum<E>")}</td>
+ * <td>{@code ("E")}</td>
+ * <td>{@code ("K", "V")}</td>
+ * <td>{@code ("K extends Enum<K>", "V")}</td>
+ * <td></td>
+ * </tr>
+ * <tr>
+ * <td>{@link #canonicalNameWithTypeParameterDefinitionsOf(Class)}</td>
+ * <td>{@code "Object"}</td>
+ * <td>{@code "Iterable<T>"}</td>
+ * <td>{@code "Enum<E extends Enum<E>>"}</td>
+ * <td>{@code "java.util.List<E>"}</td>
+ * <td>{@code "java.util.Map.Entry<K, V>"}</td>
+ * <td>{@code "java.util.EnumMap<K extends Enum<K>, V>"}</td>
+ * <td>{@link #canonicalNameWithTypeParameterDefinitionsOf(Class, Class)},
+ * {@link #canonicalNameWithTypeParameterDefinitionsOf(Class, Package)},
+ * {@link #canonicalNameWithTypeParameterDefinitionsOf(Class, String)}</td>
+ * </tr>
+ * </tbody>
+ * </table>
+ */
 public enum NamingUtilities {
     ;
 
     /**
+     * <p>
      * Constant of the very basic Java language package: {@code java.lang}.
+     * </p>
      */
     public static final String JAVA_LANG = java.lang.Object.class.getPackage().getName();
 
     /**
-     * Returns the canonical name of the given {@linkplain Package package}.
+     * <p>
+     * Returns the canonical name of the given {@link Package package}.
+     * </p>
      *
      * @param pakkage
      *            the given package
-     * @return the canonical name of the given package
+     * @return the canonical name of the given {@code package}
      */
     public static final String canonicalNameOf(final Package pakkage) {
         requireNonNull(pakkage);
@@ -42,37 +191,44 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the simple canonical name of the given {@linkplain Class type}.
+     * <p>
+     * Returns the simple canonical name of the given {@link Class entity}.
+     * </p>
      *
-     * @param type
-     *            the given type
-     * @return the simple canonical name of the given type
+     * @param entity
+     *            the given entity
+     * @return the simple canonical name of the given {@code entity}
      */
-    public static final String simpleCanonicalNameOf(final Class<?> type) {
-        requireNonNull(type);
-        return type.getSimpleName();
+    public static final String simpleCanonicalNameOf(final Class<?> entity) {
+        requireNonNull(entity);
+        return entity.getSimpleName();
     }
 
     /**
-     * Returns the simple canonical {@code class} name of the given {@linkplain Class type} (w/o package, resp. envelope
-     * class).
+     * <p>
+     * Returns the simple canonical class name of the given {@link Class entity} (w/o package, resp. envelope class).
+     * </p>
      *
-     * @param type
-     *            the given type
-     * @return the simple canonical {@code class} name of the given type
+     * @param entity
+     *            the given entity
+     * @return the simple canonical class name of the given {@code entity}
      */
-    public static final String simpleCanonicalClassOf(final Class<?> type) {
-        requireNonNull(type);
-        return simpleCanonicalNameOf(type) + ".class";
+    public static final String simpleCanonicalClassOf(final Class<?> entity) {
+        requireNonNull(entity);
+        return simpleCanonicalNameOf(entity) + ".class";
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
-     * according canonical name is created in relation to {@link #JAVA_LANG}.
+     * <p>
+     * Returns the canonical name of the given {@link Type type}.
+     *
+     * If the given {@code type} represents a class, its according canonical name is created in relation to
+     * {@link #JAVA_LANG}.
+     * </p>
      *
      * @param type
      *            the given type
-     * @return the canonical name of the given type (in relation to {@link #JAVA_LANG})
+     * @return the canonical name of the given {@code type} (in relation to {@link #JAVA_LANG})
      */
     public static final String canonicalNameOf(final Type type) {
         requireNonNull(type);
@@ -80,14 +236,18 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
-     * according canonical name is created in relation to the also given reference type.
+     * <p>
+     * Returns the canonical name of the given {@link Type type}.
+     *
+     * If the given {@code type} represents a class, its according canonical name is created in relation to the also
+     * given {@code reference} type.
+     * </p>
      *
      * @param type
      *            the given type
      * @param reference
-     *            the reference type when resolving the returned canonical name
-     * @return the canonical name of the given type (in relation to the given reference type)
+     *            the reference type used when resolving the returned canonical name
+     * @return the canonical name of the given {@code type} (in relation to the given {@code reference} type)
      */
     public static final String canonicalNameOf(final Type type, final Class<?> reference) {
         requireNonNull(type);
@@ -96,14 +256,18 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
-     * according canonical name is created in relation to the also given reference {@linkplain Package package}.
+     * <p>
+     * Returns the canonical name of the given {@link Type type}.
+     *
+     * If the given {@code type} represents a class, its according canonical name is created in relation to the also
+     * given {@code reference} {@linkplain Package package}.
+     * </p>
      *
      * @param type
      *            the given type
      * @param reference
-     *            the reference package when resolving the returned canonical name
-     * @return the canonical name of the given type (in relation to the given reference package)
+     *            the reference package used when resolving the returned canonical name
+     * @return the canonical name of the given {@code type} (in relation to the given {@code reference} package)
      */
     public static final String canonicalNameOf(final Type type, final Package reference) {
         requireNonNull(type);
@@ -112,18 +276,23 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical name of the given {@linkplain Type type}; In case of a {@link Class}-based type its
-     * according canonical name is created in relation to the also given reference package name.
+     * <p>
+     * Returns the canonical name of the given {@link Type type}.
+     *
+     *
+     * If the given {@code type} represents a class, its according canonical name is created in relation to the also
+     * given {@code reference} package name.
+     * </p>
      *
      * @param type
      *            the given type
-     * @param referencePackage
-     *            the reference package name when resolving the returned canonical name
-     * @return the canonical name of the given type (in relation to the given reference package name)
+     * @param reference
+     *            the reference package name used when resolving the returned canonical name
+     * @return the canonical name of the given {@code type} (in relation to the given {@code reference} package name)
      */
-    public static final String canonicalNameOf(final Type type, final String referencePackage) {
+    public static final String canonicalNameOf(final Type type, final String reference) {
         requireNonNull(type);
-        requireNonNull(referencePackage);
+        requireNonNull(reference);
         if (type instanceof Class) {
             /*
              * (1) Check class'ness to return correct value
@@ -131,10 +300,10 @@ public enum NamingUtilities {
              * E.g., {@code Map.Entry.class.getCanonicalName()} returns {@code java.util.Map.Entry}
              */
             final Class<?> clazz = (Class<?>) type;
-            final Collection<String> accessibleNS = JAVA_LANG.equals(referencePackage) ? singleton(referencePackage) : asList(referencePackage, JAVA_LANG);
+            final Collection<String> accessibleNS = JAVA_LANG.equals(reference) ? singleton(reference) : asList(reference, JAVA_LANG);
             final String typeNS = ofNullable(baseComponentTypeOf(clazz).getPackage()).map(Package::getName).orElse("");
             if (accessibleNS.contains(typeNS)) {
-                return (TOP_LEVEL.matches(clazz) ? simpleCanonicalNameOf(clazz) : canonicalNameOf(clazz.getEnclosingClass(), referencePackage) + "."
+                return (TOP_LEVEL.matches(clazz) ? simpleCanonicalNameOf(clazz) : canonicalNameOf(clazz.getEnclosingClass(), reference) + "."
                                                                                   + simpleCanonicalNameOf(clazz));
             } else {
                 return clazz.getCanonicalName();
@@ -150,99 +319,116 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the canonical {@code class} name of the given {@linkplain Class type} (in relation to {@link #JAVA_LANG}
-     * ).
+     * <p>
+     * Returns the canonical class name of the given {@link Class entity} (in relation to {@link #JAVA_LANG}).
+     * </p>
      *
-     * @param type
-     *            the given type
-     * @return the canonical {@code class} name of the given type (in relation to {@link #JAVA_LANG})
+     * @param entity
+     *            the given entity
+     * @return the canonical class name of the given {@code entity} (in relation to {@link #JAVA_LANG})
      */
-    public static final String canonicalClassOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return canonicalClassOf(clazz, JAVA_LANG);
+    public static final String canonicalClassOf(final Class<?> entity) {
+        requireNonNull(entity);
+        return canonicalClassOf(entity, JAVA_LANG);
     }
 
     /**
-     * Returns the canonical {@code class} name of the given {@linkplain Class type} (in relation to the given reference
+     * <p>
+     * Returns the canonical class name of the given {@link Class entity} (in relation to the given {@code reference}
      * type).
+     * </p>
      *
-     * @param type
-     *            the given type
+     * @param entity
+     *            the given entity
      * @param reference
-     *            the reference type when resolving the returned canonical {@code class} name
-     * @return the canonical {@code class} name of the given type (in relation to the given reference type)
+     *            the reference type used when resolving the returned canonical class name
+     * @return the canonical class name of the given {@code entity} (in relation to the given {@code reference} type)
      */
-    public static final String canonicalClassOf(final Class<?> clazz, final Class<?> reference) {
-        requireNonNull(clazz);
+    public static final String canonicalClassOf(final Class<?> entity, final Class<?> reference) {
+        requireNonNull(entity);
         requireNonNull(reference);
-        return canonicalClassOf(clazz, reference.getPackage());
+        return canonicalClassOf(entity, reference.getPackage());
     }
 
     /**
-     * Returns the canonical {@code class} name of the given {@linkplain Class type} (in relation to the given reference
+     * <p>
+     * Returns the canonical class name of the given {@link Class entity} (in relation to the given {@code reference}
      * {@linkplain Package package}).
+     * </p>
      *
-     * @param type
-     *            the given type
+     * @param entity
+     *            the given entity
      * @param reference
-     *            the reference package when resolving the returned canonical {@code class} name
-     * @return the canonical {@code class} name of the given type (in relation to the given reference package)
+     *            the reference package used when resolving the returned canonical class name
+     * @return the canonical class name of the given {@code entity} (in relation to the given {@code reference} package)
      */
-    public static final String canonicalClassOf(final Class<?> clazz, final Package reference) {
-        requireNonNull(clazz);
+    public static final String canonicalClassOf(final Class<?> entity, final Package reference) {
+        requireNonNull(entity);
         requireNonNull(reference);
-        return canonicalClassOf(clazz, reference.getName());
+        return canonicalClassOf(entity, reference.getName());
     }
 
     /**
-     * Returns the canonical {@code class} name of the given {@linkplain Class type} (in relation to the given reference
+     * <p>
+     * Returns the canonical class name of the given {@link Class entity} (in relation to the given {@code reference}
      * package name).
+     * </p>
      *
-     * @param type
-     *            the given type
-     * @param referencePackage
-     *            the reference package name when resolving the returned canonical name
-     * @return the canonical {@code class} name of the given type (in relation to the given reference package name)
+     * @param entity
+     *            the given entity
+     * @param reference
+     *            the reference package name used when resolving the returned canonical name
+     * @return the canonical class name of the given {@code entity} (in relation to the given {@code reference} package
+     *         name)
      */
-    public static final String canonicalClassOf(final Class<?> clazz, final String referencePackage) {
-        requireNonNull(clazz);
-        requireNonNull(referencePackage);
-        return canonicalNameOf(clazz, referencePackage) + ".class";
+    public static final String canonicalClassOf(final Class<?> entity, final String reference) {
+        requireNonNull(entity);
+        requireNonNull(reference);
+        return canonicalNameOf(entity, reference) + ".class";
     }
 
     /**
-     * Replaces the last occurrence of {@code []} by {@code ...} and returns that new {@linkplain String string}.
+     * <p>
+     * Replaces the last occurrence of {@code []} of a given {@code signature} string by {@code ...} and returns that
+     * new string.
      *
-     * If there is no {@code []} within the given string, that unchanged string will be returned.
+     * If there is no {@code []} within the given {@code signature}, that unchanged string will be returned.
+     * </p>
      *
      * @param signature
-     *            the given string
-     * @return the {@code ...}-representation of a given {@code []}-style string
+     *            the input signature string
+     * @return the {@code ...}-representation of a given {@code []}-style {@code signature}
      */
     private static final String toVarArg(final String signature) {
         requireNonNull(signature);
         if (signature.contains("[]")) {
-            return signature.substring(0, signature.lastIndexOf("[]")) + "..." + signature.substring(signature.lastIndexOf("[]") + 2, signature.length());
+            // TODO: "contains" und "lastIndexOf"? Ist das nötig?
+            final int index = signature.lastIndexOf("[]");
+            return signature.substring(0, index) + "..." + signature.substring(index + 2, signature.length());
         } else {
             return signature;
         }
     }
 
     /**
+     * <p>
      * Returns the value similar to {@link Executable#toString()} but replaces the last {@code []} by {@code ...} if the
-     * given {@linkplain Executable executable} is declared to take a variable number of arguments.
+     * given {@link Executable executable} {@linkplain Executable#isVarArgs() is declared to take a variable number of
+     * arguments}.
+     * </p>
      *
      * @param executable
      *            the given executable
-     * @return the variable-argument aware {@linkplain Executable#toString() toString} representation of the given
-     *         executable
+     * @return the variable-argument aware {@code toString}-representation of the given {@code executable}
      */
     public static final String toVarArgAwareString(final Executable executable) {
         return executable.isVarArgs() ? toVarArg(executable.toString()) : executable.toString();
     }
 
     /**
+     * <p>
      * Returns the JavaDoc representation of a given {@linkplain Package package}.
+     * </p>
      *
      * @param pakkage
      *            the given package
@@ -254,23 +440,27 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the JavaDoc representation of a given {@linkplain Class type}.
+     * <p>
+     * Returns the JavaDoc representation of a given {@link Class entity}.
+     * </p>
      *
-     * @param type
-     *            the given type
-     * @return the JavaDoc representation of the given type
+     * @param entity
+     *            the given entity
+     * @return the JavaDoc representation of the given {@code entity}
      */
-    public static final String javadocNameOf(final Class<?> type) {
-        requireNonNull(type);
-        return canonicalNameOf(type);
+    public static final String javadocNameOf(final Class<?> entity) {
+        requireNonNull(entity);
+        return canonicalNameOf(entity);
     }
 
     /**
+     * <p>
      * Returns the JavaDoc representation of a given {@linkplain Executable executable}.
+     * </p>
      *
      * @param executable
      *            the given executable
-     * @return the JavaDoc representation of the given executable
+     * @return the JavaDoc representation of the given {@code executable}
      */
     public static final String javadocNameOf(final Executable executable) {
         requireNonNull(executable);
@@ -278,81 +468,278 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the JavaDoc representation of a given {@linkplain Executable executable} as if defined by the given base
-     * {@linkplain Class type}.
+     * <p>
+     * Returns the JavaDoc representation of a given {@linkplain Executable executable} as if defined by the given
+     * {@code base} entity.
+     * </p>
      *
-     * @param baseType
-     *            the given base type
+     * @param base
+     *            the given base entity
      * @param executable
      *            the given executable
-     * @return the JavaDoc representation of the given executable as if defined by the given base type
+     * @return the JavaDoc representation of the given {@code executable} as if defined by the given {@code base} type
      */
-    public static final String javadocNameOf(final Class<?> baseType, final Executable executable) {
-        requireNonNull(baseType);
+    public static final String javadocNameOf(final Class<?> base, final Executable executable) {
+        requireNonNull(base);
         requireNonNull(executable);
-        final String jdType = javadocNameOf(baseType);
+        final String jdType = javadocNameOf(base);
         final String jdExecutable = executable instanceof Constructor ? simpleCanonicalNameOf(executable.getDeclaringClass()) : executable.getName();
         final String jdParameters = csv(stream(executable.getParameterTypes()).map(NamingUtilities::canonicalNameOf));
         return jdType + "#" + jdExecutable + "(" + (executable.isVarArgs() ? toVarArg(jdParameters) : jdParameters) + ")";
     }
 
     /**
-     * Returns the definition statement of a given {@linkplain Type type}.
+     * <p>
+     * Maps {@linkplain Class#getTypeParameters() each parameter} of the given {@link Class type} to the unbound
+     * representation ({@code "?"}) and returns a {@linkplain List list} of these values.
+     *
+     * In case the given type declares no type parameter at all, the returned list will be empty.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return a list of the type's parameters, each mapped to the unbound representation
+     */
+    public static final List<String> listOfUnboundTypeParameterNamesOf(final Class<?> type) {
+        requireNonNull(type);
+        return nCopies(type.getTypeParameters().length, "?");
+    }
+
+    /**
+     * <p>
+     * Returns an unbound representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to {@link #JAVA_LANG})
+     * followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the unbound type's
+     * {@linkplain Class#getTypeParameters() parameters}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithUnboundTypeParameterNamesOf(final Class<?> type) {
+        requireNonNull(type);
+        return canonicalNameWithUnboundTypeParameterNamesOf(type, JAVA_LANG);
+    }
+
+    /**
+     * <p>
+     * Returns an unbound representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference type) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the unbound type's
+     * {@linkplain Class#getTypeParameters() parameters}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference type used when resolving the type's canonical name
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithUnboundTypeParameterNamesOf(final Class<?> type, final Class<?> reference) {
+        requireNonNull(type);
+        requireNonNull(reference);
+        return canonicalNameWithUnboundTypeParameterNamesOf(type, reference.getPackage());
+    }
+
+    /**
+     * <p>
+     * Returns an unbound representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference {@linkplain Package package}) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * unbound type's {@linkplain Class#getTypeParameters() parameters}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference package used when resolving the type's canonical name
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithUnboundTypeParameterNamesOf(final Class<?> type, final Package reference) {
+        requireNonNull(type);
+        requireNonNull(reference);
+        return canonicalNameWithUnboundTypeParameterNamesOf(type, reference.getName());
+    }
+
+    /**
+     * <p>
+     * Returns an unbound representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference package name) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the unbound type's
+     * {@linkplain Class#getTypeParameters() parameters}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param referencePackage
+     *            the reference package name used when resolving the type's canonical name
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithUnboundTypeParameterNamesOf(final Class<?> type, final String referencePackage) {
+        requireNonNull(type);
+        requireNonNull(referencePackage);
+        return canonicalNameOf(type, referencePackage) + bcsv(listOfUnboundTypeParameterNamesOf(type));
+    }
+
+    /**
+     * <p>
+     * Returns the definition statement of a given {@link Type type}.
      *
      * In case of a {@linkplain ParameterizedType parameterized type} its according definition statement also contains
      * the definition of {@linkplain ParameterizedType#getActualTypeArguments() each actual type argument}.
      *
      * In case of a {@link Class}-based type its according definition statement is created in relation to the also given
      * reference package name.
+     * </p>
      *
      * @param type
      *            the given type
      * @param referencePackage
-     *            the reference package name when resolving the returned canonical name
-     * @return the definition statement of a given {@linkplain Type type}
+     *            the reference package name used when creating the returned definition statement
+     * @return the definition statement of a given {@link Type type}
      */
     private static final String definitionStatementOf(final Type type, final String referencePackage) {
         requireNonNull(type);
         requireNonNull(referencePackage);
         if (type instanceof ParameterizedType) {
             final ParameterizedType pt = (ParameterizedType) type;
-            return canonicalNameOf(pt.getRawType(), referencePackage) + bcsv(definitionStatementsOfTypeArgumentsOf(pt, referencePackage));
+            return canonicalNameOf(pt.getRawType(), referencePackage) + bcsv(listOfTypeArgumentsDefinitionStatementsOf(pt, referencePackage));
+        } else if (type instanceof Class) {
+            final Class<?> clazz = (Class<?>) type;
+            return canonicalNameWithTypeParameterNamesOf(clazz, referencePackage);
         } else {
             return canonicalNameOf(type, referencePackage);
         }
     }
 
     /**
+     * <p>
      * Returns a {@linkplain List list} of the {@linkplain #definitionStatementOf(Type, String) definition statements}
      * of {@linkplain ParameterizedType#getActualTypeArguments() each actual type argument} of the given
      * {@linkplain ParameterizedType parameterized type}.
+     * </p>
      *
+     * <p>
      * In case of a {@link Class}-based type argument its according definition statement is created in relation to the
      * also given reference package name.
+     * </p>
      *
      * @param type
      *            the given parameterized type
      * @param referencePackage
-     *            the reference package name when resolving the returned canonical name
+     *            the reference package name used when creating the returned definition statements
      * @return a list of the parameter statements of the given parameterized type's actual type arguments
      */
-    private static final List<String> definitionStatementsOfTypeArgumentsOf(final ParameterizedType type, final String referencePackage) {
+    private static final List<String> listOfTypeArgumentsDefinitionStatementsOf(final ParameterizedType type, final String referencePackage) {
         requireNonNull(type);
         requireNonNull(referencePackage);
         return stream(type.getActualTypeArguments()).map(a -> definitionStatementOf(a, referencePackage)).collect(toList());
     }
 
+    /**
+     * <p>
+     * Maps {@linkplain Class#getTypeParameters() each parameter} of the given {@link Class type} to its
+     * {@linkplain TypeVariable#getName() name} and returns a {@linkplain List list} of these values.
+     * </p>
+     *
+     * <p>
+     * In case the given type declares no type parameter at all, the returned list will be empty.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return a list of the type's parameters, each mapped to its name
+     */
+    public static final List<String> listOfTypeParameterNamesOf(final Class<?> type) {
+        requireNonNull(type);
+        return stream(type.getTypeParameters()).map(TypeVariable::getName).collect(toList());
+    }
+
+    /**
+     * <p>
+     * Returns the {@linkplain Utilities#csv(Iterable) csv'ed} combination either of
+     * {@linkplain #listOfTypeArgumentsDefinitionStatementsOf(ParameterizedType, String) the type's arguments definition
+     * statements} (if it is a {@linkplain ParameterizedType parameterized type}) or of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameters} (if it is {@link Class}-based).
+     * </p>
+     *
+     * <p>
+     * In case of {@link Class}-based type arguments, resp. type parameters, the according canonical names are created
+     * in relation to {@link #JAVA_LANG}.
+     * </p>
+     *
+     * <p>
+     * In case of zero type arguments, resp. zero type parameters, the empty {@link String} ({@code ""}) will be
+     * returned.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return the {@linkplain Utilities#csv(Iterable) csv'ed} combination of either the type's arguments or the type's
+     *         parameters
+     */
     public static final String createTypeParametersUsage(final Type type) {
         requireNonNull(type);
         return createTypeParametersUsage(type, JAVA_LANG);
     }
 
+    /**
+     * <p>
+     * Returns the {@linkplain Utilities#csv(Iterable) csv'ed} combination either of
+     * {@linkplain #listOfTypeArgumentsDefinitionStatementsOf(ParameterizedType, String) the type's arguments definition
+     * statements} (if it is a {@linkplain ParameterizedType parameterized type}) or of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameters} (if it is {@link Class}-based).
+     * </p>
+     *
+     * <p>
+     * In case of {@link Class}-based type arguments, resp. type parameters, the according canonical names are created
+     * in relation to the also given reference type.
+     * </p>
+     *
+     * <p>
+     * In case of zero type arguments, resp. zero type parameters, the empty {@link String} ({@code ""}) will be
+     * returned.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference type name when resolving the type's arguments, resp. the type's parameters
+     * @return the {@linkplain Utilities#csv(Iterable) csv'ed} combination of either the type's arguments or the type's
+     *         parameters
+     */
     public static final String createTypeParametersUsage(final Type type, final Class<?> reference) {
         requireNonNull(type);
         requireNonNull(reference);
         return createTypeParametersUsage(type, reference.getPackage());
     }
 
+    /**
+     * <p>
+     * Returns the {@linkplain Utilities#csv(Iterable) csv'ed} combination either of
+     * {@linkplain #listOfTypeArgumentsDefinitionStatementsOf(ParameterizedType, String) the type's arguments definition
+     * statements} (if it is a {@linkplain ParameterizedType parameterized type}) or of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameters} (if it is {@link Class}-based).
+     * </p>
+     *
+     * <p>
+     * In case of {@link Class}-based type arguments, resp. type parameters, the according canonical names are created
+     * in relation to the also given reference {@linkplain Package package}.
+     * </p>
+     *
+     * <p>
+     * In case of zero type arguments, resp. zero type parameters, the empty {@link String} ({@code ""}) will be
+     * returned.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference package used when resolving the type's arguments, resp. the type's parameters
+     * @return the {@linkplain Utilities#csv(Iterable) csv'ed} combination of either the type's arguments or the type's
+     *         parameters
+     */
     public static final String createTypeParametersUsage(final Type type, final Package reference) {
         requireNonNull(type);
         requireNonNull(reference);
@@ -360,132 +747,309 @@ public enum NamingUtilities {
     }
 
     /**
-     * Returns the {@linkplain Utilities#csv(Iterable) csv'ed} combination of either
-     * {@linkplain #definitionStatementsOfTypeArgumentsOf(ParameterizedType, String) the type's arguments definition
-     * statements} (if it is a {@linkplain ParameterizedType parameterized type}) or the
-     * {@linkplain #namesOfTypeParametersOf(Class) type's parameters }
+     * <p>
+     * Returns the {@linkplain Utilities#csv(Iterable) csv'ed} combination either of
+     * {@linkplain #listOfTypeArgumentsDefinitionStatementsOf(ParameterizedType, String) the type's arguments definition
+     * statements} (if it is a {@linkplain ParameterizedType parameterized type}) or of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameters} (if it is {@link Class}-based).
+     * </p>
      *
-     *
-     * {@link ParameterizedType#getActualTypeArguments()} {@link Class#getTypeParameters()}
+     * <p>
+     * In case of zero type arguments, resp. zero type parameters, the empty {@link String} ({@code ""}) will be
+     * returned.
+     * </p>
      *
      * @param type
-     * @param reference
-     * @return
+     *            the given type
+     * @param referencePackage
+     *            the reference package name used when resolving the type's arguments, resp. the type's parameters
+     * @return the {@linkplain Utilities#csv(Iterable) csv'ed} combination of either the type's arguments or the type's
+     *         parameters
      */
-    private static final String createTypeParametersUsage(final Type type, final String reference) {
+    public static final String createTypeParametersUsage(final Type type, final String referencePackage) {
         requireNonNull(type);
-        requireNonNull(reference);
+        requireNonNull(referencePackage);
         if (type instanceof ParameterizedType) {
-            return csv(definitionStatementsOfTypeArgumentsOf((ParameterizedType) type, reference));
+            final ParameterizedType pt = (ParameterizedType) type;
+            return csv(listOfTypeArgumentsDefinitionStatementsOf(pt, referencePackage));
         } else if (type instanceof Class) {
-            return csv(namesOfTypeParametersOf((Class<?>) type));
-            // TODO: DO we need that?:
-            // } else if (type instanceof TypeVariable) {
-            // return ((TypeVariable<?>) type).getName();
+            final Class<?> clazz = (Class<?>) type;
+            return csv(listOfTypeParameterNamesOf(clazz));
         } else {
             throw new UnsupportedOperationException("There is no support for the specific kind of type: " + type.getClass());
         }
     }
 
-    public static final List<String> listOfUnboundTypeParameterNamesOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return nCopies(clazz.getTypeParameters().length, "?");
-    }
-
-    public static final String canonicalNameWithUnboundTypeParameterNamesOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return canonicalNameOf(clazz) + bcsv(listOfUnboundTypeParameterNamesOf(clazz));
+    /**
+     * <p>
+     * Returns a parameterised representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to {@link #JAVA_LANG})
+     * followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameter names}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> type) {
+        requireNonNull(type);
+        return canonicalNameWithTypeParameterNamesOf(type, JAVA_LANG);
     }
 
     /**
-     * Returns a {@linkplain List list} of the {@linkplain TypeVariable#getName() names} of
-     * {@linkplain Class#getTypeParameters() each type parameter} of the given {@linkplain Class type}.
+     * <p>
+     * Returns a parameterised representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference type) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameter names}.
+     * </p>
      *
-     * In case the given type declares no type variables, the list will be empty.
-     *
-     * @param clazz
+     * @param type
      *            the given type
-     * @return a list of the type's type parameters' names
+     * @param reference
+     *            the reference type used when resolving the type's canonical name
+     * @return an unbound representation of the given type
      */
-    public static final List<String> namesOfTypeParametersOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return stream(clazz.getTypeParameters()).map(TypeVariable::getName).collect(toList());
-    }
-
-    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return canonicalNameWithTypeParameterNamesOf(clazz, JAVA_LANG);
-    }
-
-    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> clazz, final Class<?> reference) {
-        requireNonNull(clazz);
+    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> type, final Class<?> reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        return canonicalNameWithTypeParameterNamesOf(clazz, reference.getPackage());
+        return canonicalNameWithTypeParameterNamesOf(type, reference.getPackage());
     }
 
-    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> clazz, final Package reference) {
-        requireNonNull(clazz);
+    /**
+     * <p>
+     * Returns a parameterised representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference {@linkplain Package package}) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameter names}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference package used when resolving the type's canonical name
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> type, final Package reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        return canonicalNameWithTypeParameterNamesOf(clazz, reference.getName());
+        return canonicalNameWithTypeParameterNamesOf(type, reference.getName());
     }
 
-    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> clazz, final String reference) {
-        requireNonNull(clazz);
+    /**
+     * <p>
+     * Returns a parameterised representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference package name) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterNamesOf(Class) type's parameter names}.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param referencePackage
+     *            the reference package name used when resolving the type's canonical name
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterNamesOf(final Class<?> type, final String referencePackage) {
+        requireNonNull(type);
+        requireNonNull(referencePackage);
+        return canonicalNameOf(type, referencePackage) + bcsv(listOfTypeParameterNamesOf(type));
+    }
+
+    /**
+     * <p>
+     * Maps {@linkplain Class#getTypeParameters() each parameter} of the given {@link Class type} to its definition
+     * statement and returns a {@linkplain List list} of these values.
+     * </p>
+     *
+     * <p>
+     * In case of a type parameter with {@link Class}-based upper-bounds these bounds are stated in relation to
+     * {@link #JAVA_LANG}. (Further, in order to decrease verbosity the definition statement does not comprise
+     * {@link Object} as an upper bound.)
+     *
+     * In case the given type declares no type parameter at all, the returned list will be empty.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return a list of the type's parameters, each mapped to its definition statement
+     */
+    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> type) {
+        requireNonNull(type);
+        return listOfTypeParameterDefinitionsOf(type, JAVA_LANG);
+    }
+
+    /**
+     * <p>
+     * Maps {@linkplain Class#getTypeParameters() each parameter} of the given {@link Class type} to its definition
+     * statement and returns a {@linkplain List list} of these values.
+     * </p>
+     *
+     * <p>
+     * In case of a type parameter with {@link Class}-based upper-bounds these bounds are stated in relation to the also
+     * given reference type. (Further, in order to decrease verbosity the definition statement does not comprise
+     * {@link Object} as an upper bound.)
+     * </p>
+     *
+     * <p>
+     * In case the given type declares no type parameter at all, the returned list will be empty.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference type used when stating {@link Class}-based upper-bounds
+     * @return a list of the type's parameters, each mapped to its definition statement
+     */
+    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> type, final Class<?> reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        return canonicalNameOf(clazz, reference) + bcsv(namesOfTypeParametersOf(clazz));
+        return listOfTypeParameterDefinitionsOf(type, reference.getPackage());
     }
 
-    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return listOfTypeParameterDefinitionsOf(clazz, JAVA_LANG);
-    }
-
-    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> clazz, final Class<?> reference) {
-        requireNonNull(clazz);
+    /**
+     * <p>
+     * Maps {@linkplain Class#getTypeParameters() each parameter} of the given {@link Class type} to its definition
+     * statement and returns a {@linkplain List list} of these values.
+     * </p>
+     *
+     * <p>
+     * In case of a type parameter with {@link Class}-based upper-bounds these bounds are stated in relation to the also
+     * given reference {@linkplain Package package}. (Further, in order to decrease verbosity the definition statement
+     * does not comprise {@link Object} as an upper bound.)
+     * </p>
+     *
+     * <p>
+     * In case the given type declares no type parameter at all, the returned list will be empty.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference package used when stating {@link Class}-based upper-bounds
+     * @return a list of the type's parameters, each mapped to its definition statement
+     */
+    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> type, final Package reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        return listOfTypeParameterDefinitionsOf(clazz, reference.getPackage());
+        return listOfTypeParameterDefinitionsOf(type, reference.getName());
     }
 
-    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> clazz, final Package reference) {
-        requireNonNull(clazz);
-        requireNonNull(reference);
-        return listOfTypeParameterDefinitionsOf(clazz, reference.getName());
-    }
-
-    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> clazz, final String reference) {
-        requireNonNull(clazz);
-        requireNonNull(reference);
-        return Arrays.stream(clazz.getTypeParameters()) //
-                     .map(tv -> tv.toString() //
-                                + ofEmptyable(csv(Arrays.stream(tv.getBounds()) //
-                                                        .filter(t -> !Object.class.equals(t)) //
-                                                        .map(t -> definitionStatementOf(t, reference)))) //
-                                                                                                         .prepend(" extends ") //
-                                                                                                         .orElse("")) //
+    /**
+     * <p>
+     * Maps {@linkplain Class#getTypeParameters() each parameter} of the given {@link Class type} to its definition
+     * statement and returns a {@linkplain List list} of these values.
+     * </p>
+     *
+     * <p>
+     * In case of a type parameter with {@link Class}-based upper-bounds these bounds are stated in relation to the also
+     * given reference package name. (Further, in order to decrease verbosity the definition statement does not comprise
+     * {@link Object} as an upper bound.)
+     * </p>
+     *
+     * <p>
+     * In case the given type declares no type parameter at all, the returned list will be empty.
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param referencePackage
+     *            the reference package name used when stating {@link Class}-based upper-bounds
+     * @return a list of the type's parameters, each mapped to its definition statement
+     */
+    public static final List<String> listOfTypeParameterDefinitionsOf(final Class<?> type, final String referencePackage) {
+        requireNonNull(type);
+        requireNonNull(referencePackage);
+        return Arrays.stream(type.getTypeParameters()) //
+                     .map(tv -> tv.getName() //
+                                + OptionalString.ofEmptyable(csv(Arrays.stream(tv.getBounds()) //
+                                                                       .filter(t -> !Object.class.equals(t)) //
+                                                                       .map(t -> definitionStatementOf(t, referencePackage)))) //
+                                                .prepend(" extends ") //
+                                                .orElse("")) //
                      .collect(toList());
     }
 
-    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> clazz) {
-        requireNonNull(clazz);
-        return canonicalNameWithTypeParameterDefinitionsOf(clazz, JAVA_LANG);
+    /**
+     * <p>
+     * Returns a complete definition representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to {@link #JAVA_LANG})
+     * followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterDefinitionsOf(Class) type's parameter definition statements}. (These definitions
+     * are similarly stated in relation to {@link #JAVA_LANG}.)
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> type) {
+        requireNonNull(type);
+        return canonicalNameWithTypeParameterDefinitionsOf(type, JAVA_LANG);
     }
 
-    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> clazz, final Class<?> reference) {
-        requireNonNull(clazz);
+    /**
+     * <p>
+     * Returns a complete definition representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference type) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterDefinitionsOf(Class) type's parameter definition statements}. (These definitions
+     * are similarly stated in relation to the also given reference type.)
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference type used when stating {@link Class}-based upper-bounds
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> type, final Class<?> reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        return canonicalNameWithTypeParameterDefinitionsOf(clazz, reference.getPackage());
+        return canonicalNameWithTypeParameterDefinitionsOf(type, reference.getPackage());
     }
 
-    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> clazz, final Package reference) {
-        requireNonNull(clazz);
+    /**
+     * <p>
+     * Returns a complete definition representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference {@linkplain Package package}) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterDefinitionsOf(Class) type's parameter definition statements}. (These definitions
+     * are similarly stated in relation to the also given reference package.)
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param reference
+     *            the reference package used when stating {@link Class}-based upper-bounds
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> type, final Package reference) {
+        requireNonNull(type);
         requireNonNull(reference);
-        return canonicalNameWithTypeParameterDefinitionsOf(clazz, reference.getName());
+        return canonicalNameWithTypeParameterDefinitionsOf(type, reference.getName());
     }
 
-    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> clazz, final String reference) {
-        requireNonNull(clazz);
-        requireNonNull(reference);
-        return canonicalNameOf(clazz, reference) + bcsv(listOfTypeParameterDefinitionsOf(clazz, reference));
+    /**
+     * <p>
+     * Returns a complete definition representation of the given {@link Class type}; That is, the
+     * {@linkplain #canonicalNameOf(Type, String) canonical name of the given type} (in relation to the also given
+     * reference package name) followed by the {@linkplain Utilities#bcsv(Iterable) bcsv'ed} join of the
+     * {@linkplain #listOfTypeParameterDefinitionsOf(Class) type's parameter definition statements}. (These definitions
+     * are similarly stated in relation to the also given reference package name.)
+     * </p>
+     *
+     * @param type
+     *            the given type
+     * @param referencePackage
+     *            the reference package name used when stating {@link Class}-based upper-bounds
+     * @return an unbound representation of the given type
+     */
+    public static final String canonicalNameWithTypeParameterDefinitionsOf(final Class<?> type, final String referencePackage) {
+        requireNonNull(type);
+        requireNonNull(referencePackage);
+        return canonicalNameOf(type, referencePackage) + bcsv(listOfTypeParameterDefinitionsOf(type, referencePackage));
     }
 
 }

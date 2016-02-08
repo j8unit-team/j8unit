@@ -12,17 +12,20 @@ import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithUnboundType
 import static org.j8unit.tools.util.NamingUtilities.createTypeParametersUsage;
 import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
 import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
-import static org.j8unit.tools.util.NamingUtilities.namesOfTypeParametersOf;
+import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterNamesOf;
 import static org.j8unit.tools.util.NamingUtilities.listOfUnboundTypeParameterNamesOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalClassOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalNameOf;
 import static org.junit.Assert.assertEquals;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.nio.charset.Charset;
 import java.util.AbstractMap;
 import java.util.Arrays;
+import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Spliterator;
 import java.util.Spliterator.OfPrimitive;
@@ -30,11 +33,549 @@ import java.util.function.BiFunction;
 import java.util.function.Supplier;
 import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 import javax.xml.bind.annotation.adapters.XmlAdapter;
-import org.j8unit.tools.util.NamingUtilities;
-import org.j8unit.tools.util.Utilities;
 import org.junit.Test;
 
 public class NamingUtilitiesTest {
+
+    @Test
+    public void testViaObject()
+    throws Exception {
+        final Class<Object> clazz = Object.class;
+        // simple
+        assertEquals("Object", simpleCanonicalNameOf(clazz));
+        assertEquals("Object.class", simpleCanonicalClassOf(clazz));
+        // similar package
+        assertEquals("Object", canonicalNameOf(clazz));
+        assertEquals("Object", canonicalNameOf(clazz, clazz));
+        assertEquals("Object", canonicalNameOf(clazz, clazz.getPackage()));
+        assertEquals("Object", canonicalNameOf(clazz, clazz.getPackage().getName()));
+        assertEquals("Object.class", canonicalClassOf(clazz));
+        assertEquals("Object.class", canonicalClassOf(clazz, clazz));
+        assertEquals("Object.class", canonicalClassOf(clazz, clazz.getPackage()));
+        assertEquals("Object.class", canonicalClassOf(clazz, clazz.getPackage().getName()));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
+        assertEquals("", createTypeParametersUsage(clazz));
+        assertEquals("", createTypeParametersUsage(clazz, clazz));
+        assertEquals("", createTypeParametersUsage(clazz, clazz.getPackage()));
+        assertEquals("", createTypeParametersUsage(clazz, clazz.getPackage().getName()));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage()));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage().getName()));
+        // base package ("java.lang")
+        assertEquals("Object", canonicalNameOf(clazz));
+        assertEquals("Object", canonicalNameOf(clazz, Class.class));
+        assertEquals("Object", canonicalNameOf(clazz, Class.class.getPackage()));
+        assertEquals("Object", canonicalNameOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("Object.class", canonicalClassOf(clazz));
+        assertEquals("Object.class", canonicalClassOf(clazz, Class.class));
+        assertEquals("Object.class", canonicalClassOf(clazz, Class.class.getPackage()));
+        assertEquals("Object.class", canonicalClassOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
+        assertEquals("", createTypeParametersUsage(clazz));
+        assertEquals("", createTypeParametersUsage(clazz, Class.class));
+        assertEquals("", createTypeParametersUsage(clazz, Class.class.getPackage()));
+        assertEquals("", createTypeParametersUsage(clazz, Class.class.getPackage().getName()));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage()));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage().getName()));
+        // foreign package ("java.io")
+        assertEquals("Object", canonicalNameOf(clazz));
+        assertEquals("Object", canonicalNameOf(clazz, IOException.class));
+        assertEquals("Object", canonicalNameOf(clazz, IOException.class.getPackage()));
+        assertEquals("Object", canonicalNameOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Object.class", canonicalClassOf(clazz));
+        assertEquals("Object.class", canonicalClassOf(clazz, IOException.class));
+        assertEquals("Object.class", canonicalClassOf(clazz, IOException.class.getPackage()));
+        assertEquals("Object.class", canonicalClassOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
+        assertEquals("", createTypeParametersUsage(clazz));
+        assertEquals("", createTypeParametersUsage(clazz, IOException.class));
+        assertEquals("", createTypeParametersUsage(clazz, IOException.class.getPackage()));
+        assertEquals("", createTypeParametersUsage(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage()));
+        assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage().getName()));
+    }
+
+    @Test
+    public void testViaIterable()
+    throws Exception {
+        final Class<Iterable> clazz = Iterable.class;
+        // simple
+        assertEquals("Iterable", simpleCanonicalNameOf(clazz));
+        assertEquals("Iterable.class", simpleCanonicalClassOf(clazz));
+        // similar package
+        assertEquals("Iterable", canonicalNameOf(clazz));
+        assertEquals("Iterable", canonicalNameOf(clazz, clazz));
+        assertEquals("Iterable", canonicalNameOf(clazz, clazz.getPackage()));
+        assertEquals("Iterable", canonicalNameOf(clazz, clazz.getPackage().getName()));
+        assertEquals("Iterable.class", canonicalClassOf(clazz));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, clazz));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, clazz.getPackage()));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, clazz.getPackage().getName()));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("T"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("T", createTypeParametersUsage(clazz));
+        assertEquals("T", createTypeParametersUsage(clazz, clazz));
+        assertEquals("T", createTypeParametersUsage(clazz, clazz.getPackage()));
+        assertEquals("T", createTypeParametersUsage(clazz, clazz.getPackage().getName()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("T"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage().getName()));
+        // base package ("java.lang")
+        assertEquals("Iterable", canonicalNameOf(clazz));
+        assertEquals("Iterable", canonicalNameOf(clazz, Class.class));
+        assertEquals("Iterable", canonicalNameOf(clazz, Class.class.getPackage()));
+        assertEquals("Iterable", canonicalNameOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("Iterable.class", canonicalClassOf(clazz));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, Class.class));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, Class.class.getPackage()));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("T"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("T", createTypeParametersUsage(clazz));
+        assertEquals("T", createTypeParametersUsage(clazz, Class.class));
+        assertEquals("T", createTypeParametersUsage(clazz, Class.class.getPackage()));
+        assertEquals("T", createTypeParametersUsage(clazz, Class.class.getPackage().getName()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("T"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage().getName()));
+        // foreign package ("java.io")
+        assertEquals("Iterable", canonicalNameOf(clazz));
+        assertEquals("Iterable", canonicalNameOf(clazz, IOException.class));
+        assertEquals("Iterable", canonicalNameOf(clazz, IOException.class.getPackage()));
+        assertEquals("Iterable", canonicalNameOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Iterable.class", canonicalClassOf(clazz));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, IOException.class));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, IOException.class.getPackage()));
+        assertEquals("Iterable.class", canonicalClassOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("Iterable<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("T"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("T", createTypeParametersUsage(clazz));
+        assertEquals("T", createTypeParametersUsage(clazz, IOException.class));
+        assertEquals("T", createTypeParametersUsage(clazz, IOException.class.getPackage()));
+        assertEquals("T", createTypeParametersUsage(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("T"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage()));
+        assertEquals("Iterable<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage().getName()));
+    }
+
+    @Test
+    public void testViaEnum()
+    throws Exception {
+        final Class<Enum> clazz = Enum.class;
+        // simple
+        assertEquals("Enum", simpleCanonicalNameOf(clazz));
+        assertEquals("Enum.class", simpleCanonicalClassOf(clazz));
+        // similar package
+        assertEquals("Enum", canonicalNameOf(clazz));
+        assertEquals("Enum", canonicalNameOf(clazz, clazz));
+        assertEquals("Enum", canonicalNameOf(clazz, clazz.getPackage()));
+        assertEquals("Enum", canonicalNameOf(clazz, clazz.getPackage().getName()));
+        assertEquals("Enum.class", canonicalClassOf(clazz));
+        assertEquals("Enum.class", canonicalClassOf(clazz, clazz));
+        assertEquals("Enum.class", canonicalClassOf(clazz, clazz.getPackage()));
+        assertEquals("Enum.class", canonicalClassOf(clazz, clazz.getPackage().getName()));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, clazz.getPackage()));
+        assertEquals("E", createTypeParametersUsage(clazz, clazz.getPackage().getName()));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("E extends Enum<E>"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage()));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage().getName()));
+        // base package ("java.lang")
+        assertEquals("Enum", canonicalNameOf(clazz));
+        assertEquals("Enum", canonicalNameOf(clazz, Class.class));
+        assertEquals("Enum", canonicalNameOf(clazz, Class.class.getPackage()));
+        assertEquals("Enum", canonicalNameOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("Enum.class", canonicalClassOf(clazz));
+        assertEquals("Enum.class", canonicalClassOf(clazz, Class.class));
+        assertEquals("Enum.class", canonicalClassOf(clazz, Class.class.getPackage()));
+        assertEquals("Enum.class", canonicalClassOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, Class.class));
+        assertEquals("E", createTypeParametersUsage(clazz, Class.class.getPackage()));
+        assertEquals("E", createTypeParametersUsage(clazz, Class.class.getPackage().getName()));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("E extends Enum<E>"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage()));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage().getName()));
+        // foreign package ("java.io")
+        assertEquals("Enum", canonicalNameOf(clazz));
+        assertEquals("Enum", canonicalNameOf(clazz, IOException.class));
+        assertEquals("Enum", canonicalNameOf(clazz, IOException.class.getPackage()));
+        assertEquals("Enum", canonicalNameOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Enum.class", canonicalClassOf(clazz));
+        assertEquals("Enum.class", canonicalClassOf(clazz, IOException.class));
+        assertEquals("Enum.class", canonicalClassOf(clazz, IOException.class.getPackage()));
+        assertEquals("Enum.class", canonicalClassOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, IOException.class));
+        assertEquals("E", createTypeParametersUsage(clazz, IOException.class.getPackage()));
+        assertEquals("E", createTypeParametersUsage(clazz, IOException.class.getPackage().getName()));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("E extends Enum<E>"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage()));
+        assertEquals("Enum<E extends Enum<E>>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage().getName()));
+    }
+
+    @Test
+    public void testViaList()
+    throws Exception {
+        final Class<List> clazz = List.class;
+        // simple
+        assertEquals("List", simpleCanonicalNameOf(clazz));
+        assertEquals("List.class", simpleCanonicalClassOf(clazz));
+        // similar package
+        assertEquals("java.util.List", canonicalNameOf(clazz));
+        assertEquals("List", canonicalNameOf(clazz, clazz));
+        assertEquals("List", canonicalNameOf(clazz, clazz.getPackage()));
+        assertEquals("List", canonicalNameOf(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz));
+        assertEquals("List.class", canonicalClassOf(clazz, clazz));
+        assertEquals("List.class", canonicalClassOf(clazz, clazz.getPackage()));
+        assertEquals("List.class", canonicalClassOf(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz));
+        assertEquals("List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, clazz.getPackage()));
+        assertEquals("E", createTypeParametersUsage(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("List<E>", canonicalNameWithTypeParameterNamesOf(clazz, clazz));
+        assertEquals("List<E>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("List<E>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz));
+        assertEquals("List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage()));
+        assertEquals("List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage().getName()));
+        // base package ("java.lang")
+        assertEquals("java.util.List", canonicalNameOf(clazz));
+        assertEquals("java.util.List", canonicalNameOf(clazz, Class.class));
+        assertEquals("java.util.List", canonicalNameOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.List", canonicalNameOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz, Class.class));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, Class.class));
+        assertEquals("E", createTypeParametersUsage(clazz, Class.class.getPackage()));
+        assertEquals("E", createTypeParametersUsage(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage().getName()));
+        // foreign package ("java.io")
+        assertEquals("java.util.List", canonicalNameOf(clazz));
+        assertEquals("java.util.List", canonicalNameOf(clazz, IOException.class));
+        assertEquals("java.util.List", canonicalNameOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.List", canonicalNameOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz, IOException.class));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.List.class", canonicalClassOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.List<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz));
+        assertEquals("E", createTypeParametersUsage(clazz, IOException.class));
+        assertEquals("E", createTypeParametersUsage(clazz, IOException.class.getPackage()));
+        assertEquals("E", createTypeParametersUsage(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("E"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.List<E>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage().getName()));
+    }
+
+    @Test
+    public void testViaEntry()
+    throws Exception {
+        final Class<Entry> clazz = Entry.class;
+        // simple
+        assertEquals("Entry", simpleCanonicalNameOf(clazz));
+        assertEquals("Entry.class", simpleCanonicalClassOf(clazz));
+        // similar package
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz));
+        assertEquals("Map.Entry", canonicalNameOf(clazz, clazz));
+        assertEquals("Map.Entry", canonicalNameOf(clazz, clazz.getPackage()));
+        assertEquals("Map.Entry", canonicalNameOf(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz));
+        assertEquals("Map.Entry.class", canonicalClassOf(clazz, clazz));
+        assertEquals("Map.Entry.class", canonicalClassOf(clazz, clazz.getPackage()));
+        assertEquals("Map.Entry.class", canonicalClassOf(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, clazz.getPackage()));
+        assertEquals("K, V", createTypeParametersUsage(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, clazz));
+        assertEquals("Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz));
+        assertEquals("Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage()));
+        assertEquals("Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage().getName()));
+        // base package ("java.lang")
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz));
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz, Class.class));
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz, Class.class));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, Class.class));
+        assertEquals("K, V", createTypeParametersUsage(clazz, Class.class.getPackage()));
+        assertEquals("K, V", createTypeParametersUsage(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage().getName()));
+        // foreign package ("java.io")
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz));
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz, IOException.class));
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.Map.Entry", canonicalNameOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz, IOException.class));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, IOException.class));
+        assertEquals("K, V", createTypeParametersUsage(clazz, IOException.class.getPackage()));
+        assertEquals("K, V", createTypeParametersUsage(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage().getName()));
+    }
+
+    @Test
+    public void testViaEnumMap()
+    throws Exception {
+        final Class<EnumMap> clazz = EnumMap.class;
+        // simple
+        assertEquals("EnumMap", simpleCanonicalNameOf(clazz));
+        assertEquals("EnumMap.class", simpleCanonicalClassOf(clazz));
+        // similar package
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz));
+        assertEquals("EnumMap", canonicalNameOf(clazz, clazz));
+        assertEquals("EnumMap", canonicalNameOf(clazz, clazz.getPackage()));
+        assertEquals("EnumMap", canonicalNameOf(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz));
+        assertEquals("EnumMap.class", canonicalClassOf(clazz, clazz));
+        assertEquals("EnumMap.class", canonicalClassOf(clazz, clazz.getPackage()));
+        assertEquals("EnumMap.class", canonicalClassOf(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz));
+        assertEquals("EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, clazz.getPackage()));
+        assertEquals("K, V", createTypeParametersUsage(clazz, clazz.getPackage().getName()));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, clazz));
+        assertEquals("EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage()));
+        assertEquals("EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, clazz.getPackage().getName()));
+        assertEquals(asList("K extends Enum<K>", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz));
+        assertEquals("EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage()));
+        assertEquals("EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, clazz.getPackage().getName()));
+        // base package ("java.lang")
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz, Class.class));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz, Class.class));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, Class.class));
+        assertEquals("K, V", createTypeParametersUsage(clazz, Class.class.getPackage()));
+        assertEquals("K, V", createTypeParametersUsage(clazz, Class.class.getPackage().getName()));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, Class.class.getPackage().getName()));
+        assertEquals(asList("K extends Enum<K>", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage()));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, Class.class.getPackage().getName()));
+        // foreign package ("java.io")
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz, IOException.class));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz, IOException.class));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        assertEquals("K, V", createTypeParametersUsage(clazz, IOException.class));
+        assertEquals("K, V", createTypeParametersUsage(clazz, IOException.class.getPackage()));
+        assertEquals("K, V", createTypeParametersUsage(clazz, IOException.class.getPackage().getName()));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz, IOException.class.getPackage().getName()));
+        assertEquals(asList("K extends Enum<K>", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage()));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz, IOException.class.getPackage().getName()));
+    }
 
     @Test
     public void testJavaLangValue()
@@ -203,7 +744,7 @@ public class NamingUtilitiesTest {
         assertEquals("Enum.class", simpleCanonicalClassOf(clazz));
         assertEquals("Enum.class", canonicalClassOf(clazz));
         assertEquals(asList("?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("E"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("E"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("E extends Enum<E>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("Enum<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("Enum<E>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -218,6 +759,30 @@ public class NamingUtilitiesTest {
     }
 
     @Test
+    public void test_EnumMap()
+    throws Exception {
+        final @SuppressWarnings("rawtypes") Class<? extends EnumMap> clazz = EnumMap.class;
+        // class based
+        assertEquals("EnumMap", simpleCanonicalNameOf(clazz));
+        assertEquals("java.util.EnumMap", canonicalNameOf(clazz));
+        assertEquals("EnumMap.class", simpleCanonicalClassOf(clazz));
+        assertEquals("java.util.EnumMap.class", canonicalClassOf(clazz));
+        assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("K extends Enum<K>", "V"), listOfTypeParameterDefinitionsOf(clazz));
+        assertEquals("java.util.EnumMap<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
+        assertEquals("java.util.EnumMap<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
+        assertEquals("java.util.EnumMap<K extends Enum<K>, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
+        // typed based
+        assertEquals("K, V", createTypeParametersUsage(clazz));
+        final Type genericSuperClass = clazz.getGenericSuperclass();
+        assertEquals("K, V", createTypeParametersUsage(genericSuperClass));
+        final Type[] genericInterfaces = clazz.getGenericInterfaces();
+        assertEquals("", createTypeParametersUsage(genericInterfaces[0]));
+        assertEquals("", createTypeParametersUsage(genericInterfaces[1]));
+    }
+
+    @Test
     public void test_Supplier()
     throws Exception {
         final @SuppressWarnings("rawtypes") Class<? extends Supplier> clazz = Supplier.class;
@@ -227,15 +792,13 @@ public class NamingUtilitiesTest {
         assertEquals("Supplier.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.function.Supplier.class", canonicalClassOf(clazz));
         assertEquals(asList("?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("T"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("T"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("T"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.function.Supplier<?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.function.Supplier<T>", canonicalNameWithTypeParameterNamesOf(clazz));
         assertEquals("java.util.function.Supplier<T>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("T", createTypeParametersUsage(clazz));
-        final Type genericSuperClass = clazz.getGenericSuperclass();
-        assertEquals("", createTypeParametersUsage(genericSuperClass));
     }
 
     @Test
@@ -248,15 +811,13 @@ public class NamingUtilitiesTest {
         assertEquals("Entry.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.Map.Entry.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("K", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.Map.Entry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
         assertEquals("java.util.Map.Entry<K, V>", canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("K, V", createTypeParametersUsage(clazz));
-        final Type genericSuperClass = clazz.getGenericSuperclass();
-        assertEquals("", createTypeParametersUsage(genericSuperClass));
     }
 
     @Test
@@ -269,7 +830,7 @@ public class NamingUtilitiesTest {
         assertEquals("SimpleImmutableEntry.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("K", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("K", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("K", "V"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry<K, V>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -290,7 +851,7 @@ public class NamingUtilitiesTest {
         assertEquals("XmlAdapter.class", simpleCanonicalClassOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("ValueType", "BoundType"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("ValueType", "BoundType"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("ValueType", "BoundType"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter<ValueType, BoundType>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -311,7 +872,7 @@ public class NamingUtilitiesTest {
         assertEquals("HexBinaryAdapter.class", simpleCanonicalClassOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.HexBinaryAdapter.class", canonicalClassOf(clazz));
         assertEquals(emptyList(), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(emptyList(), namesOfTypeParametersOf(clazz));
+        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
         assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.HexBinaryAdapter", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.HexBinaryAdapter", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -332,7 +893,7 @@ public class NamingUtilitiesTest {
         assertEquals("OfPrimitive.class", simpleCanonicalClassOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("T", "T_CONS", "T_SPLITR"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("T", "T_CONS", "T_SPLITR"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("T", "T_CONS", "T_SPLITR extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -340,8 +901,6 @@ public class NamingUtilitiesTest {
                      canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("T, T_CONS, T_SPLITR", createTypeParametersUsage(clazz));
-        final Type genericSuperClass = clazz.getGenericSuperclass();
-        assertEquals("", createTypeParametersUsage(genericSuperClass));
         final Type[] genericInterfaces = clazz.getGenericInterfaces();
         assertEquals("T", createTypeParametersUsage(genericInterfaces[0]));
     }
@@ -356,15 +915,13 @@ public class NamingUtilitiesTest {
         assertEquals("Object.class", simpleCanonicalClassOf(clazz));
         assertEquals("Object.class", canonicalClassOf(clazz));
         assertEquals(emptyList(), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(emptyList(), namesOfTypeParametersOf(clazz));
+        assertEquals(emptyList(), listOfTypeParameterNamesOf(clazz));
         assertEquals(emptyList(), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("Object", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("Object", canonicalNameWithTypeParameterNamesOf(clazz));
         assertEquals("Object", canonicalNameWithTypeParameterDefinitionsOf(clazz));
         // typed based
         assertEquals("", createTypeParametersUsage(clazz));
-        final Type genericSuperClass = clazz.getGenericSuperclass();
-        assertEquals("", createTypeParametersUsage(genericSuperClass));
     }
 
     private static abstract class A<X extends Comparable<Y>, Y extends Enum<Y>>
@@ -381,7 +938,7 @@ public class NamingUtilitiesTest {
         assertEquals("A.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("X", "Y"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("X", "Y"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("X extends Comparable<Y>", "Y extends Enum<Y>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.A<X, Y>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -410,7 +967,7 @@ public class NamingUtilitiesTest {
         assertEquals("B.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "T", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("S", "U", "T", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends T", "U extends Comparable<V>", "T", "V extends Enum<V>"), listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<?, ?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.B<S, U, T, V>", canonicalNameWithTypeParameterNamesOf(clazz));
@@ -438,7 +995,7 @@ public class NamingUtilitiesTest {
         assertEquals("C.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends java.util.Formatter.BigDecimalLayoutForm", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.C<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
@@ -465,7 +1022,7 @@ public class NamingUtilitiesTest {
         assertEquals("D.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends java.util.function.Supplier<?>", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.D<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
@@ -492,7 +1049,7 @@ public class NamingUtilitiesTest {
         assertEquals("E.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("S", "U", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("S", "U", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("S extends java.util.function.BiFunction<U, V, ?>", "U extends Comparable<V>", "V extends Enum<V>"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.E<?, ?, ?>", canonicalNameWithUnboundTypeParameterNamesOf(clazz));
@@ -518,7 +1075,7 @@ public class NamingUtilitiesTest {
         assertEquals("NamespaceTest.class", simpleCanonicalClassOf(clazz));
         assertEquals("org.j8unit.tools.util.NamingUtilitiesTest.NamespaceTest.class", canonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?", "?"), listOfUnboundTypeParameterNamesOf(clazz));
-        assertEquals(asList("A", "B", "C", "K", "V"), namesOfTypeParametersOf(clazz));
+        assertEquals(asList("A", "B", "C", "K", "V"), listOfTypeParameterNamesOf(clazz));
         assertEquals(asList("A extends org.j8unit.tools.util.NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
                      listOfTypeParameterDefinitionsOf(clazz));
         assertEquals(asList("A extends NamingUtilities", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
@@ -531,8 +1088,6 @@ public class NamingUtilitiesTest {
                      canonicalNameWithTypeParameterDefinitionsOf(clazz, "org.j8unit.tools.util"));
         // typed based
         assertEquals("A, B, C, K, V", createTypeParametersUsage(clazz));
-        final Type genericSuperClass = clazz.getGenericSuperclass();
-        assertEquals("", createTypeParametersUsage(genericSuperClass));
     }
 
 }
