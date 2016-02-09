@@ -14,8 +14,6 @@ package org.j8unit.repository.categories;
  * to prevent failing test runs, these test methods must be accordingly categorised to
  * <a href="https://github.com/junit-team/junit/wiki/Categories">category based enable exclusion</a>.
  * </p>
- *
- * @author Stefan Gasterst&auml;dt (SGA)
  */
 public abstract interface Should {
 }
