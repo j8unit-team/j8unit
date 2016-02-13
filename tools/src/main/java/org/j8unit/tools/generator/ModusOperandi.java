@@ -16,8 +16,7 @@ import static org.j8unit.tools.generator.TypeArgumentness.RAW;
 import static org.j8unit.tools.util.NamingUtilities.createTypeParametersUsage;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalNameOf;
 import static org.j8unit.tools.util.OptionalString.ofEmptyable;
-import static org.j8unit.tools.util.TypeAnalysis.calculateNearestParents;
-import static org.j8unit.tools.util.Utilities.NOOP;
+import static org.j8unit.tools.util.TypeAnalysis.calculateNearestMatchingParents;
 import static org.j8unit.tools.util.Utilities.implode;
 import java.lang.reflect.Type;
 import java.util.Arrays;
@@ -154,7 +153,7 @@ public enum ModusOperandi
     public List<String> getTestClassSuperTypes(final Class<?> clazz, final GeneratorSetup setup) {
         requireNonNull(clazz);
         requireNonNull(setup);
-        final Map<Class<?>, ? extends Type> parents = calculateNearestParents(clazz, setup::useClass, NOOP);
+        final Map<Class<?>, ? extends Type> parents = calculateNearestMatchingParents(clazz, setup::useClass);
         if (parents.isEmpty()) {
             return singletonList(simpleCanonicalNameOf(this.accessScope.getBaseJ8UnitBaseTestClass()) + "<SUT>");
         } else {

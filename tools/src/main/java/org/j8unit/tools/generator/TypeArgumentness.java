@@ -20,8 +20,6 @@ import java.util.List;
  *      Types</a>
  * @see <a href="https://docs.oracle.com/javase/tutorial/java/generics/rawTypes.html"> The Java&trade; Tutorials: Raw
  *      Types</a>
- *
- * @author Stefan Gasterst&auml;dt (SGA)
  */
 public enum TypeArgumentness {
 

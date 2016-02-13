@@ -46,4 +46,6 @@ public abstract interface GeneratorLogMessages {
 
     public static final String SKIP_SUPER_CLASS = "The following super(-super*) class of [%1$s] will be skipped: %2$s.";
 
+    public static final String SKIP_SUPER_TYPE = "The following super(-super*) type (either class or interface) of [%1$s] will be skipped: %2$s.";
+
 }

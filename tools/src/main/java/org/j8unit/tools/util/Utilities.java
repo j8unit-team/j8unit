@@ -32,9 +32,9 @@ public enum Utilities {
     }
 
     /**
-     * Executes the given {@link Callable} and returns its result as an {@link Optional}. If an exception is thrown (a)
-     * the given {@link Exception} handler is called to consume that exception and (b) an {@linkplain Optional#empty()
-     * empty Optional} is accordingly.
+     * Executes the given {@link Callable} and returns its result as an {@link Optional}. If an exception is thrown then
+     * (a) the given {@link Exception} handler is called to consume that exception and (b) an
+     * {@linkplain Optional#empty() empty Optional} is returned accordingly.
      *
      * @param callable
      *            the {@link Callable} to execute
@@ -53,6 +53,10 @@ public enum Utilities {
         }
     }
 
+    public static final <R> Optional<R> optionalise(final Callable<R> callable) {
+        return optionalise(callable, NOOP);
+    }
+
     /**
      * Converts a {@link Callable} into a {@link Supplier}; i.&thinsp;e., the {@link Exception} throwing
      * {@link Callable} is accordingly wrapped to envelope any checked exception by an {@linkplain RuntimeException
@@ -63,7 +67,8 @@ public enum Utilities {
      * @return the {@linkplain RuntimeException unchecked version} of the input {@link Callable} as a {@link Supplier}
      *         type
      */
-    public static final <R> Supplier<R> runtimify(final Callable<R> callable) {
+    public static final <R> Supplier<R> runtimify(final Callable<R> callable)
+    throws RuntimeException {
         requireNonNull(callable);
         return () -> {
             try {

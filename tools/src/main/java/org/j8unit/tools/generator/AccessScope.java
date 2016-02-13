@@ -35,8 +35,6 @@ import org.j8unit.repository.RepositoryTests;
  * {@link #INSTANCE} will return {@code false} for any constructor; respectively {@link AccessScope#matches(Member)
  * matches(Member)} of {@link #CLASS} will return {@code true} immediately.
  * </p>
- *
- * @author Stefan Gasterst&auml;dt (SGA)
  */
 public enum AccessScope {
 

@@ -23,16 +23,16 @@ import static org.j8unit.tools.util.NamingUtilities.canonicalNameOf;
 import static org.j8unit.tools.util.NamingUtilities.canonicalNameWithTypeParameterNamesOf;
 import static org.j8unit.tools.util.NamingUtilities.javadocNameOf;
 import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterDefinitionsOf;
-import static org.j8unit.tools.util.NamingUtilities.namesOfTypeParametersOf;
+import static org.j8unit.tools.util.NamingUtilities.listOfTypeParameterNamesOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalClassOf;
 import static org.j8unit.tools.util.NamingUtilities.simpleCanonicalNameOf;
 import static org.j8unit.tools.util.NamingUtilities.toVarArgAwareString;
 import static org.j8unit.tools.util.OptionalString.ofEmptyable;
-import static org.j8unit.tools.util.TypeAnalysis.calculateNearestParents;
+import static org.j8unit.tools.util.TypeAnalysis.calculateNearestMatchingParents;
+import static org.j8unit.tools.util.TypeAnalysis.getDeclaredNonSyntheticMethod;
+import static org.j8unit.tools.util.TypeAnalysis.getMethod;
 import static org.j8unit.tools.util.TypeAnalysis.getNearestMergingClass;
-import static org.j8unit.tools.util.TypeAnalysis.specifiesSuchPublicMethod;
 import static org.j8unit.tools.util.TypeKind.TOP_LEVEL;
-import static org.j8unit.tools.util.Utilities.NOOP;
 import static org.j8unit.tools.util.Utilities.bcsv;
 import static org.j8unit.tools.util.Utilities.csv;
 import static org.j8unit.tools.util.Utilities.optionalise;
@@ -173,7 +173,8 @@ public enum Generator
                                                      .collect(toSet());
                 LOG.info(format(J8UNIT_TESTINTERFACE_AIMED_METHODS, clazz, this.accessScope, candidates));
                 // add optional inheritance nodes
-                final Map<Class<?>, ? extends Type> parents = calculateNearestParents(clazz, setup::useClass, NOOP);
+                final Map<Class<?>, ? extends Type> parents = calculateNearestMatchingParents(clazz, setup::useClass,
+                                                                                              c -> LOG.warning(format(SKIP_SUPER_TYPE, clazz, c)));
                 final Map<Method, Set<Class<?>>> methods = new HashMap<>();
                 for (final Method method : candidates) {
                     final Set<Class<?>> nodes = parents.keySet().stream() //
@@ -193,6 +194,9 @@ public enum Generator
                 final StringBuilder sb = new StringBuilder();
                 // content creation
                 sb.append(indent + "/**" + NL);
+                sb.append(indent + " * <p>" + NL);
+                sb.append(indent + " * Test method for {@link " + javadocNameOf(method) + " " + method.toGenericString() + "}." + NL);
+                sb.append(indent + " *" + NL);
                 sb.append(indent + " * <p>" + NL);
                 sb.append(indent + " * Test method for {@link " + javadocNameOf(method) + " " + toVarArgAwareString(method) + "}." + NL);
                 sb.append(indent + " *" + NL);
@@ -242,12 +246,15 @@ public enum Generator
                                                                .filter(this.accessScope::matches) //
                                                                // keep in mind the method might be overwritten, so map
                                                                // it to the most specific method ...
-                                                               .map(m -> runtimed(() -> clazz.getMethod(m.getName(), m.getParameterTypes()))) //
+                                                               .map(m -> getMethod(clazz, m)) //
+                                                               .flatMap(Utilities::toStream)
                                                                // ... us only if it is a candidate
-                                                               .filter(m -> !specifiesSuchPublicMethod(getNearestMergingClass(clazz, m).get(), m)) //
+                                                               .filter(m -> !getDeclaredNonSyntheticMethod(getNearestMergingClass(clazz, m).get(),
+                                                                                                           m).isPresent()) //
                                                                .collect(toSet());
                 LOG.info(format(J8UNIT_TESTINTERFACE_MERGE_METHOD_CANDIDATES, clazz, this.accessScope, duplicatedCandidates));
-                final Map<Class<?>, ? extends Type> parents = calculateNearestParents(clazz, setup::useClass, NOOP);
+                final Map<Class<?>, ? extends Type> parents = calculateNearestMatchingParents(clazz, setup::useClass,
+                                                                                              c -> LOG.warning(format(SKIP_SUPER_TYPE, clazz, c)));
                 final Map<Method, Set<Class<?>>> duplicated = new HashMap<>();
                 for (final Method method : duplicatedCandidates) {
                     final Set<Class<?>> nodes = parents.keySet().stream() //
@@ -486,7 +493,7 @@ public enum Generator
                          *
                          * (Must be done after (!) step [2]!)
                          */
-                        final Optional<Constructor<?>> candidate = optionalise(clazz::getDeclaredConstructor, NOOP);
+                        final Optional<Constructor<?>> candidate = optionalise(clazz::getDeclaredConstructor);
                         final Optional<Constructor<?>> constructor = candidate.filter(setup::useConstructor);
                         if (constructor.isPresent()) {
                             final String body = this.constructorBasedTestData(clazz, constructor.get(), enclosingLevel + 1);
@@ -512,10 +519,10 @@ public enum Generator
                 final String optionalStatic = enclosingLevel > 0 ? "static " : "";
                 final String footer = enclosingLevel > 0 ? NL : "";
                 final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
-                final String testClassGenerics = bcsv(namesOfTypeParametersOf(clazz));
+                final String testClassGenerics = bcsv(listOfTypeParameterNamesOf(clazz));
                 final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
                 final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
-                                                               + ofEmptyable(csv(namesOfTypeParametersOf(clazz))).prepend(", ").orElse(""));
+                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
                 final String indent = indent(enclosingLevel);
                 // content storage
                 final StringBuilder sb = new StringBuilder();
@@ -544,10 +551,10 @@ public enum Generator
                 final String optionalStatic = enclosingLevel > 0 ? "static " : "";
                 final String footer = enclosingLevel > 0 ? NL : "";
                 final String testClassName = setup.verySimpleCanonicalTestNameOf(clazz);
-                final String testClassGenerics = bcsv(namesOfTypeParametersOf(clazz));
+                final String testClassGenerics = bcsv(listOfTypeParameterNamesOf(clazz));
                 final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
                 final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
-                                                               + ofEmptyable(csv(namesOfTypeParametersOf(clazz))).prepend(", ").orElse(""));
+                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
                 final String indent = indent(enclosingLevel);
                 // content storage
                 final StringBuilder sb = new StringBuilder();
@@ -580,7 +587,7 @@ public enum Generator
                 final String testClassGenerics = bcsv(listOfTypeParameterDefinitionsOf(clazz));
                 final String testClassInterfaceType = complementarySetup.canonicalTestNameOf(clazz);
                 final String testClassInterfaceGenerics = bcsv(canonicalNameWithTypeParameterNamesOf(clazz)
-                                                               + ofEmptyable(csv(namesOfTypeParametersOf(clazz))).prepend(", ").orElse(""));
+                                                               + ofEmptyable(csv(listOfTypeParameterNamesOf(clazz))).prepend(", ").orElse(""));
                 final String indent = indent(enclosingLevel);
                 // content storage
                 final StringBuilder sb = new StringBuilder();
