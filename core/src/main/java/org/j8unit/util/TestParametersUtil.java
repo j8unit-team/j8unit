@@ -25,7 +25,7 @@ public enum TestParametersUtil {
      */
     @SafeVarargs
     public static final <T> List<Object[]> testParametersOf(final Callable<T>... values) {
-        return testParametersOf(values);
+        return testParametersOf((Object[]) values);
     }
 
     public static final <E extends Enum<E>> List<Object[]> testParametersOfEnumClass(final Class<E> enumClass) {
