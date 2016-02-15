@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.cert.CertStoreSpi class java.security.cert.CertStoreSpi}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.cert.CertStoreSpiTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.cert.CertStoreSpi class java.security.cert.CertStoreSpi}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link CertStoreSpiClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.cert.CertStoreSpiClassTests
+ * @see java.security.cert.CertStoreSpi class java.security.cert.CertStoreSpi (the hereby targeted class-under-test
+ *      class)
+ * @see CertStoreSpiClassTests CertStoreSpiClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.cert.CertStoreSpi
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +28,12 @@ public abstract interface CertStoreSpiTests<SUT extends java.security.cert.CertS
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.cert.CertStoreSpi#engineGetCertificates(java.security.cert.CertSelector)
+     * public abstract java.util.Collection<? extends java.security.cert.Certificate>
+     * java.security.cert.CertStoreSpi.engineGetCertificates(java.security.cert.CertSelector) throws
+     * java.security.cert.CertStoreException}.
+     *
      * <p>
      * Test method for {@link java.security.cert.CertStoreSpi#engineGetCertificates(java.security.cert.CertSelector)
      * public abstract java.util.Collection
@@ -39,7 +45,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertStoreSpi#engineGetCertificates(java.security.cert.CertSelector)
+     * @see java.security.cert.CertStoreSpi#engineGetCertificates(java.security.cert.CertSelector) public abstract
+     *      java.util.Collection java.security.cert.CertStoreSpi.engineGetCertificates(java.security.cert.CertSelector)
+     *      throws java.security.cert.CertStoreException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,6 +62,12 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.security.cert.CertStoreSpi#engineGetCRLs(java.security.cert.CRLSelector) public
+     * abstract java.util.Collection<? extends java.security.cert.CRL>
+     * java.security.cert.CertStoreSpi.engineGetCRLs(java.security.cert.CRLSelector) throws
+     * java.security.cert.CertStoreException}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.CertStoreSpi#engineGetCRLs(java.security.cert.CRLSelector) public
      * abstract java.util.Collection java.security.cert.CertStoreSpi.engineGetCRLs(java.security.cert.CRLSelector)
      * throws java.security.cert.CertStoreException}.
      *
@@ -62,7 +76,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertStoreSpi#engineGetCRLs(java.security.cert.CRLSelector)
+     * @see java.security.cert.CertStoreSpi#engineGetCRLs(java.security.cert.CRLSelector) public abstract
+     *      java.util.Collection java.security.cert.CertStoreSpi.engineGetCRLs(java.security.cert.CRLSelector) throws
+     *      java.security.cert.CertStoreException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

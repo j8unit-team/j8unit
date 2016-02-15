@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.Executor interface java.util.concurrent.Executor}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.concurrent.ExecutorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.Executor interface java.util.concurrent.Executor}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link ExecutorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.ExecutorClassTests
+ * @see java.util.concurrent.Executor interface java.util.concurrent.Executor (the hereby targeted class-under-test
+ *      class)
+ * @see ExecutorClassTests ExecutorClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.Executor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,7 +30,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executor#execute(java.lang.Runnable) public abstract void
+     * Test method for {@link java.util.concurrent.Executor#execute(Runnable) public abstract void
+     * java.util.concurrent.Executor.execute(java.lang.Runnable)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.Executor#execute(Runnable) public abstract void
      * java.util.concurrent.Executor.execute(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +42,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.Executor#execute(java.lang.Runnable)
+     * @see java.util.concurrent.Executor#execute(Runnable) public abstract void
+     *      java.util.concurrent.Executor.execute(java.lang.Runnable) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.Attribute class javax.management.Attribute},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.AttributeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.Attribute class javax.management.Attribute}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link AttributeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.AttributeClassTests
+ * @see javax.management.Attribute class javax.management.Attribute (the hereby targeted class-under-test class)
+ * @see AttributeClassTests AttributeClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.Attribute
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +28,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Attribute#equals(java.lang.Object) public boolean
+     * Test method for {@link javax.management.Attribute#hashCode() public int javax.management.Attribute.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Attribute#hashCode() public int javax.management.Attribute.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Attribute#hashCode() public int javax.management.Attribute.hashCode() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Attribute#equals(Object) public boolean
+     * javax.management.Attribute.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Attribute#equals(Object) public boolean
      * javax.management.Attribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,12 +66,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Attribute#equals(java.lang.Object)
+     * @see javax.management.Attribute#equals(Object) public boolean javax.management.Attribute.equals(java.lang.Object)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -55,12 +85,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.management.Attribute#getName() public java.lang.String
      * javax.management.Attribute.getName()}.
      *
+     * <p>
+     * Test method for {@link javax.management.Attribute#getName() public java.lang.String
+     * javax.management.Attribute.getName()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Attribute#getName()
+     * @see javax.management.Attribute#getName() public java.lang.String javax.management.Attribute.getName() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,12 +112,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.management.Attribute#getValue() public java.lang.Object
      * javax.management.Attribute.getValue()}.
      *
+     * <p>
+     * Test method for {@link javax.management.Attribute#getValue() public java.lang.Object
+     * javax.management.Attribute.getValue()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Attribute#getValue()
+     * @see javax.management.Attribute#getValue() public java.lang.Object javax.management.Attribute.getValue() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,27 +136,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Attribute#hashCode() public int javax.management.Attribute.hashCode()}.
+     * Test method for {@link javax.management.Attribute#toString() public java.lang.String
+     * javax.management.Attribute.toString()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Attribute#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.management.Attribute#toString() public java.lang.String
      * javax.management.Attribute.toString()}.
@@ -126,12 +148,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Attribute#toString()
+     * @see javax.management.Attribute#toString() public java.lang.String javax.management.Attribute.toString() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

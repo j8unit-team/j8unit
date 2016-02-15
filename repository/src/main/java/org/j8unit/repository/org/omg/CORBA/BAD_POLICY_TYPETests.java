@@ -6,19 +6,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.BAD_POLICY_TYPE interface org.omg.CORBA.BAD_POLICY_TYPE}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.BAD_POLICY_TYPETests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.BAD_POLICY_TYPE interface org.omg.CORBA.BAD_POLICY_TYPE}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link BAD_POLICY_TYPEClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.BAD_POLICY_TYPEClassTests
+ * @see org.omg.CORBA.BAD_POLICY_TYPE interface org.omg.CORBA.BAD_POLICY_TYPE (the hereby targeted class-under-test
+ *      class)
+ * @see BAD_POLICY_TYPEClassTests BAD_POLICY_TYPEClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.BAD_POLICY_TYPE
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

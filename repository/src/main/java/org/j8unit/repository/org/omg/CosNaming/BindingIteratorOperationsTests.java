@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CosNaming.BindingIteratorOperations interface
- * org.omg.CosNaming.BindingIteratorOperations}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CosNaming.BindingIteratorOperations interface
+ * org.omg.CosNaming.BindingIteratorOperations}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link BindingIteratorOperationsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsClassTests
+ * @see org.omg.CosNaming.BindingIteratorOperations interface org.omg.CosNaming.BindingIteratorOperations (the hereby
+ *      targeted class-under-test class)
+ * @see BindingIteratorOperationsClassTests BindingIteratorOperationsClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CosNaming.BindingIteratorOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link org.omg.CosNaming.BindingIteratorOperations#destroy() public abstract void
      * org.omg.CosNaming.BindingIteratorOperations.destroy()}.
      *
+     * <p>
+     * Test method for {@link org.omg.CosNaming.BindingIteratorOperations#destroy() public abstract void
+     * org.omg.CosNaming.BindingIteratorOperations.destroy()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CosNaming.BindingIteratorOperations#destroy()
+     * @see org.omg.CosNaming.BindingIteratorOperations#destroy() public abstract void
+     *      org.omg.CosNaming.BindingIteratorOperations.destroy() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +62,19 @@ extends RepositoryTests<SUT> {
      * {@link org.omg.CosNaming.BindingIteratorOperations#next_n(int, org.omg.CosNaming.BindingListHolder) public
      * abstract boolean org.omg.CosNaming.BindingIteratorOperations.next_n(int,org.omg.CosNaming.BindingListHolder)}.
      *
+     * <p>
+     * Test method for
+     * {@link org.omg.CosNaming.BindingIteratorOperations#next_n(int, org.omg.CosNaming.BindingListHolder) public
+     * abstract boolean org.omg.CosNaming.BindingIteratorOperations.next_n(int,org.omg.CosNaming.BindingListHolder)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CosNaming.BindingIteratorOperations#next_n(int, org.omg.CosNaming.BindingListHolder)
+     * @see org.omg.CosNaming.BindingIteratorOperations#next_n(int, org.omg.CosNaming.BindingListHolder) public abstract
+     *      boolean org.omg.CosNaming.BindingIteratorOperations.next_n(int,org.omg.CosNaming.BindingListHolder) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,12 +91,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link org.omg.CosNaming.BindingIteratorOperations#next_one(org.omg.CosNaming.BindingHolder)
      * public abstract boolean org.omg.CosNaming.BindingIteratorOperations.next_one(org.omg.CosNaming.BindingHolder)}.
      *
+     * <p>
+     * Test method for {@link org.omg.CosNaming.BindingIteratorOperations#next_one(org.omg.CosNaming.BindingHolder)
+     * public abstract boolean org.omg.CosNaming.BindingIteratorOperations.next_one(org.omg.CosNaming.BindingHolder)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CosNaming.BindingIteratorOperations#next_one(org.omg.CosNaming.BindingHolder)
+     * @see org.omg.CosNaming.BindingIteratorOperations#next_one(org.omg.CosNaming.BindingHolder) public abstract
+     *      boolean org.omg.CosNaming.BindingIteratorOperations.next_one(org.omg.CosNaming.BindingHolder) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

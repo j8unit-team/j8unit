@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.MissingFormatWidthException class
- * java.util.MissingFormatWidthException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.MissingFormatWidthExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.MissingFormatWidthException class
+ * java.util.MissingFormatWidthException}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link MissingFormatWidthExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.MissingFormatWidthExceptionClassTests
+ * @see java.util.MissingFormatWidthException class java.util.MissingFormatWidthException (the hereby targeted
+ *      class-under-test class)
+ * @see MissingFormatWidthExceptionClassTests MissingFormatWidthExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.MissingFormatWidthException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MissingFormatWidthExceptionTests<SUT extends java.util.MissingFormatWidthException>
-extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
+extends IllegalFormatExceptionTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.MissingFormatWidthException#getFormatSpecifier() public java.lang.String
+     * java.util.MissingFormatWidthException.getFormatSpecifier()}.
+     *
      * <p>
      * Test method for {@link java.util.MissingFormatWidthException#getFormatSpecifier() public java.lang.String
      * java.util.MissingFormatWidthException.getFormatSpecifier()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.MissingFormatWidthException#getFormatSpecifier()
+     * @see java.util.MissingFormatWidthException#getFormatSpecifier() public java.lang.String
+     *      java.util.MissingFormatWidthException.getFormatSpecifier() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,17 +60,22 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
      * Test method for {@link java.util.MissingFormatWidthException#getMessage() public java.lang.String
      * java.util.MissingFormatWidthException.getMessage()}.
      *
+     * <p>
+     * Test method for {@link java.util.MissingFormatWidthException#getMessage() public java.lang.String
+     * java.util.MissingFormatWidthException.getMessage()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.MissingFormatWidthException#getMessage()
+     * @see java.util.MissingFormatWidthException#getMessage() public java.lang.String
+     *      java.util.MissingFormatWidthException.getMessage() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getMessage()
     throws Exception {
         // query fresh subject-under-test

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.validation.SchemaFactory class
- * javax.xml.validation.SchemaFactory}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.validation.SchemaFactoryTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.validation.SchemaFactory class
+ * javax.xml.validation.SchemaFactory}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link SchemaFactoryClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.validation.SchemaFactoryClassTests
+ * @see javax.xml.validation.SchemaFactory class javax.xml.validation.SchemaFactory (the hereby targeted
+ *      class-under-test class)
+ * @see SchemaFactoryClassTests SchemaFactoryClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.validation.SchemaFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,52 +30,12 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#getErrorHandler() public abstract
-     * org.xml.sax.ErrorHandler javax.xml.validation.SchemaFactory.getErrorHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#getErrorHandler()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getErrorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#getFeature(java.lang.String) public boolean
-     * javax.xml.validation.SchemaFactory.getFeature(java.lang.String) throws
+     * Test method for {@link javax.xml.validation.SchemaFactory#getProperty(String) public java.lang.Object
+     * javax.xml.validation.SchemaFactory.getProperty(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#getFeature(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFeature_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#getProperty(java.lang.String) public java.lang.Object
+     * Test method for {@link javax.xml.validation.SchemaFactory#getProperty(String) public java.lang.Object
      * javax.xml.validation.SchemaFactory.getProperty(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
@@ -83,7 +44,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#getProperty(java.lang.String)
+     * @see javax.xml.validation.SchemaFactory#getProperty(String) public java.lang.Object
+     *      javax.xml.validation.SchemaFactory.getProperty(java.lang.String) throws
+     *      org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,37 +61,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#getResourceResolver() public abstract
-     * org.w3c.dom.ls.LSResourceResolver javax.xml.validation.SchemaFactory.getResourceResolver()}.
+     * Test method for {@link javax.xml.validation.SchemaFactory#isSchemaLanguageSupported(String) public abstract
+     * boolean javax.xml.validation.SchemaFactory.isSchemaLanguageSupported(java.lang.String)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#getResourceResolver()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResourceResolver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#isSchemaLanguageSupported(java.lang.String) public
-     * abstract boolean javax.xml.validation.SchemaFactory.isSchemaLanguageSupported(java.lang.String)}.
+     * Test method for {@link javax.xml.validation.SchemaFactory#isSchemaLanguageSupported(String) public abstract
+     * boolean javax.xml.validation.SchemaFactory.isSchemaLanguageSupported(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#isSchemaLanguageSupported(java.lang.String)
+     * @see javax.xml.validation.SchemaFactory#isSchemaLanguageSupported(String) public abstract boolean
+     *      javax.xml.validation.SchemaFactory.isSchemaLanguageSupported(java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,27 +89,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema() public abstract javax.xml.validation.Schema
-     * javax.xml.validation.SchemaFactory.newSchema() throws org.xml.sax.SAXException}.
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(java.io.File) public
+     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(java.io.File) throws
+     * org.xml.sax.SAXException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#newSchema()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newSchema()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(java.io.File) public
      * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(java.io.File) throws
@@ -172,7 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#newSchema(java.io.File)
+     * @see javax.xml.validation.SchemaFactory#newSchema(java.io.File) public javax.xml.validation.Schema
+     *      javax.xml.validation.SchemaFactory.newSchema(java.io.File) throws org.xml.sax.SAXException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,6 +119,41 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(java.net.URL) public
+     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(java.net.URL) throws
+     * org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(java.net.URL) public
+     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(java.net.URL) throws
+     * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.validation.SchemaFactory#newSchema(java.net.URL) public javax.xml.validation.Schema
+     *      javax.xml.validation.SchemaFactory.newSchema(java.net.URL) throws org.xml.sax.SAXException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newSchema_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source) public
+     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source) throws
+     * org.xml.sax.SAXException}.
+     *
+     * <p>
      * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source) public
      * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source) throws
      * org.xml.sax.SAXException}.
@@ -195,7 +163,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source)
+     * @see javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source) public javax.xml.validation.Schema
+     *      javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source) throws org.xml.sax.SAXException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,12 +183,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source[]) throws
      * org.xml.sax.SAXException}.
      *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source[]) public abstract
+     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source[]) throws
+     * org.xml.sax.SAXException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source[])
+     * @see javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source[]) public abstract
+     *      javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source[])
+     *      throws org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -232,21 +209,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema(java.net.URL) public
-     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(java.net.URL) throws
-     * org.xml.sax.SAXException}.
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema() public abstract javax.xml.validation.Schema
+     * javax.xml.validation.SchemaFactory.newSchema() throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#newSchema() public abstract javax.xml.validation.Schema
+     * javax.xml.validation.SchemaFactory.newSchema() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#newSchema(java.net.URL)
+     * @see javax.xml.validation.SchemaFactory#newSchema() public abstract javax.xml.validation.Schema
+     *      javax.xml.validation.SchemaFactory.newSchema() throws org.xml.sax.SAXException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newSchema_URL()
+    public default void test_newSchema()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -255,20 +237,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#setErrorHandler(org.xml.sax.ErrorHandler) public
-     * abstract void javax.xml.validation.SchemaFactory.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * Test method for {@link javax.xml.validation.SchemaFactory#getResourceResolver() public abstract
+     * org.w3c.dom.ls.LSResourceResolver javax.xml.validation.SchemaFactory.getResourceResolver()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#getResourceResolver() public abstract
+     * org.w3c.dom.ls.LSResourceResolver javax.xml.validation.SchemaFactory.getResourceResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#setErrorHandler(org.xml.sax.ErrorHandler)
+     * @see javax.xml.validation.SchemaFactory#getResourceResolver() public abstract org.w3c.dom.ls.LSResourceResolver
+     *      javax.xml.validation.SchemaFactory.getResourceResolver() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setErrorHandler_ErrorHandler()
+    public default void test_getResourceResolver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -277,8 +264,41 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#setFeature(java.lang.String, boolean) public void
-     * javax.xml.validation.SchemaFactory.setFeature(java.lang.String,boolean) throws
+     * Test method for {@link javax.xml.validation.SchemaFactory#setResourceResolver(org.w3c.dom.ls.LSResourceResolver)
+     * public abstract void javax.xml.validation.SchemaFactory.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#setResourceResolver(org.w3c.dom.ls.LSResourceResolver)
+     * public abstract void javax.xml.validation.SchemaFactory.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.validation.SchemaFactory#setResourceResolver(org.w3c.dom.ls.LSResourceResolver) public abstract
+     *      void javax.xml.validation.SchemaFactory.setResourceResolver(org.w3c.dom.ls.LSResourceResolver) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResourceResolver_LSResourceResolver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#getFeature(String) public boolean
+     * javax.xml.validation.SchemaFactory.getFeature(java.lang.String) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#getFeature(String) public boolean
+     * javax.xml.validation.SchemaFactory.getFeature(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,12 +306,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#setFeature(java.lang.String, boolean)
+     * @see javax.xml.validation.SchemaFactory#getFeature(String) public boolean
+     *      javax.xml.validation.SchemaFactory.getFeature(java.lang.String) throws
+     *      org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFeature_String_boolean()
+    public default void test_getFeature_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -300,8 +323,40 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#setProperty(java.lang.String, java.lang.Object) public
-     * void javax.xml.validation.SchemaFactory.setProperty(java.lang.String,java.lang.Object) throws
+     * Test method for {@link javax.xml.validation.SchemaFactory#getErrorHandler() public abstract
+     * org.xml.sax.ErrorHandler javax.xml.validation.SchemaFactory.getErrorHandler()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#getErrorHandler() public abstract
+     * org.xml.sax.ErrorHandler javax.xml.validation.SchemaFactory.getErrorHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.validation.SchemaFactory#getErrorHandler() public abstract org.xml.sax.ErrorHandler
+     *      javax.xml.validation.SchemaFactory.getErrorHandler() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#setProperty(String, Object) public void
+     * javax.xml.validation.SchemaFactory.setProperty(java.lang.String,java.lang.Object) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#setProperty(String, Object) public void
+     * javax.xml.validation.SchemaFactory.setProperty(java.lang.String,java.lang.Object) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -309,7 +364,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#setProperty(java.lang.String, java.lang.Object)
+     * @see javax.xml.validation.SchemaFactory#setProperty(String, Object) public void
+     *      javax.xml.validation.SchemaFactory.setProperty(java.lang.String,java.lang.Object) throws
+     *      org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -323,20 +381,57 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactory#setResourceResolver(org.w3c.dom.ls.LSResourceResolver)
-     * public abstract void javax.xml.validation.SchemaFactory.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     * Test method for {@link javax.xml.validation.SchemaFactory#setErrorHandler(org.xml.sax.ErrorHandler) public
+     * abstract void javax.xml.validation.SchemaFactory.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#setErrorHandler(org.xml.sax.ErrorHandler) public
+     * abstract void javax.xml.validation.SchemaFactory.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactory#setResourceResolver(org.w3c.dom.ls.LSResourceResolver)
+     * @see javax.xml.validation.SchemaFactory#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
+     *      javax.xml.validation.SchemaFactory.setErrorHandler(org.xml.sax.ErrorHandler) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setResourceResolver_LSResourceResolver()
+    public default void test_setErrorHandler_ErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#setFeature(String, boolean) public void
+     * javax.xml.validation.SchemaFactory.setFeature(java.lang.String,boolean) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactory#setFeature(String, boolean) public void
+     * javax.xml.validation.SchemaFactory.setFeature(java.lang.String,boolean) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.validation.SchemaFactory#setFeature(String, boolean) public void
+     *      javax.xml.validation.SchemaFactory.setFeature(java.lang.String,boolean) throws
+     *      org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFeature_String_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

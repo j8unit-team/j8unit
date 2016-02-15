@@ -8,28 +8,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.ExceptionInInitializerError class
- * java.lang.ExceptionInInitializerError}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.ExceptionInInitializerErrorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain ExceptionInInitializerError class java.lang.ExceptionInInitializerError}.
+ * The complementary j8unit test interface containing the class relevant aspects is
+ * {@link ExceptionInInitializerErrorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.ExceptionInInitializerErrorClassTests
+ * @see ExceptionInInitializerError class java.lang.ExceptionInInitializerError (the hereby targeted class-under-test
+ *      class)
+ * @see ExceptionInInitializerErrorClassTests ExceptionInInitializerErrorClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.ExceptionInInitializerError
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExceptionInInitializerErrorTests<SUT extends java.lang.ExceptionInInitializerError>
-extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
+public abstract interface ExceptionInInitializerErrorTests<SUT extends ExceptionInInitializerError>
+extends LinkageErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.ExceptionInInitializerError#getCause() public java.lang.Throwable
+     * Test method for {@link ExceptionInInitializerError#getCause() public java.lang.Throwable
+     * java.lang.ExceptionInInitializerError.getCause()}.
+     *
+     * <p>
+     * Test method for {@link ExceptionInInitializerError#getCause() public java.lang.Throwable
      * java.lang.ExceptionInInitializerError.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,12 +42,13 @@ extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.ExceptionInInitializerError#getCause()
+     * @see ExceptionInInitializerError#getCause() public java.lang.Throwable
+     *      java.lang.ExceptionInInitializerError.getCause() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getCause()
     throws Exception {
         // query fresh subject-under-test
@@ -52,7 +58,11 @@ extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.ExceptionInInitializerError#getException() public java.lang.Throwable
+     * Test method for {@link ExceptionInInitializerError#getException() public java.lang.Throwable
+     * java.lang.ExceptionInInitializerError.getException()}.
+     *
+     * <p>
+     * Test method for {@link ExceptionInInitializerError#getException() public java.lang.Throwable
      * java.lang.ExceptionInInitializerError.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +70,8 @@ extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.ExceptionInInitializerError#getException()
+     * @see ExceptionInInitializerError#getException() public java.lang.Throwable
+     *      java.lang.ExceptionInInitializerError.getException() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

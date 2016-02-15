@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.Notification class javax.management.Notification},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.NotificationTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.Notification class javax.management.Notification}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link NotificationClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.NotificationClassTests
+ * @see javax.management.Notification class javax.management.Notification (the hereby targeted class-under-test class)
+ * @see NotificationClassTests NotificationClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.Notification
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +27,37 @@ public abstract interface NotificationTests<SUT extends javax.management.Notific
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.management.Notification#setUserData(Object) public void
+     * javax.management.Notification.setUserData(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Notification#setUserData(Object) public void
+     * javax.management.Notification.setUserData(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Notification#setUserData(Object) public void
+     *      javax.management.Notification.setUserData(java.lang.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUserData_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Notification#getMessage() public java.lang.String
+     * javax.management.Notification.getMessage()}.
+     *
      * <p>
      * Test method for {@link javax.management.Notification#getMessage() public java.lang.String
      * javax.management.Notification.getMessage()}.
@@ -37,7 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Notification#getMessage()
+     * @see javax.management.Notification#getMessage() public java.lang.String
+     *      javax.management.Notification.getMessage() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,6 +82,146 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.Notification#getUserData() public java.lang.Object
+     * javax.management.Notification.getUserData()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Notification#getUserData() public java.lang.Object
+     * javax.management.Notification.getUserData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Notification#getUserData() public java.lang.Object
+     *      javax.management.Notification.getUserData() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUserData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Notification#toString() public java.lang.String
+     * javax.management.Notification.toString()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Notification#toString() public java.lang.String
+     * javax.management.Notification.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Notification#toString() public java.lang.String javax.management.Notification.toString()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Notification#getType() public java.lang.String
+     * javax.management.Notification.getType()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Notification#getType() public java.lang.String
+     * javax.management.Notification.getType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Notification#getType() public java.lang.String javax.management.Notification.getType() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Notification#setSequenceNumber(long) public void
+     * javax.management.Notification.setSequenceNumber(long)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Notification#setSequenceNumber(long) public void
+     * javax.management.Notification.setSequenceNumber(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Notification#setSequenceNumber(long) public void
+     *      javax.management.Notification.setSequenceNumber(long) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSequenceNumber_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Notification#setSource(Object) public void
+     * javax.management.Notification.setSource(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.Notification#setSource(Object) public void
+     * javax.management.Notification.setSource(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.Notification#setSource(Object) public void
+     *      javax.management.Notification.setSource(java.lang.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSource_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Notification#getSequenceNumber() public long
+     * javax.management.Notification.getSequenceNumber()}.
+     *
+     * <p>
      * Test method for {@link javax.management.Notification#getSequenceNumber() public long
      * javax.management.Notification.getSequenceNumber()}.
      *
@@ -59,7 +230,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Notification#getSequenceNumber()
+     * @see javax.management.Notification#getSequenceNumber() public long
+     *      javax.management.Notification.getSequenceNumber() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +248,17 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * Test method for {@link javax.management.Notification#getTimeStamp() public long
      * javax.management.Notification.getTimeStamp()}.
      *
+     * <p>
+     * Test method for {@link javax.management.Notification#getTimeStamp() public long
+     * javax.management.Notification.getTimeStamp()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Notification#getTimeStamp()
+     * @see javax.management.Notification#getTimeStamp() public long javax.management.Notification.getTimeStamp() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,93 +272,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Notification#getType() public java.lang.String
-     * javax.management.Notification.getType()}.
+     * Test method for {@link javax.management.Notification#setTimeStamp(long) public void
+     * javax.management.Notification.setTimeStamp(long)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Notification#getType()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Notification#getUserData() public java.lang.Object
-     * javax.management.Notification.getUserData()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Notification#getUserData()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUserData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Notification#setSequenceNumber(long) public void
-     * javax.management.Notification.setSequenceNumber(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Notification#setSequenceNumber(long)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSequenceNumber_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Notification#setSource(java.lang.Object) public void
-     * javax.management.Notification.setSource(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Notification#setSource(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSource_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.management.Notification#setTimeStamp(long) public void
      * javax.management.Notification.setTimeStamp(long)}.
@@ -191,57 +284,13 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.Notification#setTimeStamp(long)
+     * @see javax.management.Notification#setTimeStamp(long) public void
+     *      javax.management.Notification.setTimeStamp(long) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setTimeStamp_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Notification#setUserData(java.lang.Object) public void
-     * javax.management.Notification.setUserData(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Notification#setUserData(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUserData_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Notification#toString() public java.lang.String
-     * javax.management.Notification.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.Notification#toString()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

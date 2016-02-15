@@ -8,26 +8,56 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.peer.DialogPeer interface java.awt.peer.DialogPeer},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.peer.DialogPeerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.peer.DialogPeer interface java.awt.peer.DialogPeer}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link DialogPeerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.peer.DialogPeerClassTests
+ * @see java.awt.peer.DialogPeer interface java.awt.peer.DialogPeer (the hereby targeted class-under-test class)
+ * @see DialogPeerClassTests DialogPeerClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.peer.DialogPeer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DialogPeerTests<SUT extends java.awt.peer.DialogPeer>
-extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
+extends WindowPeerTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.awt.peer.DialogPeer#setTitle(String) public abstract void
+     * java.awt.peer.DialogPeer.setTitle(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.DialogPeer#setTitle(String) public abstract void
+     * java.awt.peer.DialogPeer.setTitle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.DialogPeer#setTitle(String) public abstract void
+     *      java.awt.peer.DialogPeer.setTitle(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.DialogPeer#blockWindows(java.util.List) public abstract void
+     * java.awt.peer.DialogPeer.blockWindows(java.util.List<java.awt.Window>)}.
+     *
      * <p>
      * Test method for {@link java.awt.peer.DialogPeer#blockWindows(java.util.List) public abstract void
      * java.awt.peer.DialogPeer.blockWindows(java.util.List)}.
@@ -37,7 +67,8 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.DialogPeer#blockWindows(java.util.List)
+     * @see java.awt.peer.DialogPeer#blockWindows(java.util.List) public abstract void
+     *      java.awt.peer.DialogPeer.blockWindows(java.util.List) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,39 +85,22 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
      * Test method for {@link java.awt.peer.DialogPeer#setResizable(boolean) public abstract void
      * java.awt.peer.DialogPeer.setResizable(boolean)}.
      *
+     * <p>
+     * Test method for {@link java.awt.peer.DialogPeer#setResizable(boolean) public abstract void
+     * java.awt.peer.DialogPeer.setResizable(boolean)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.DialogPeer#setResizable(boolean)
+     * @see java.awt.peer.DialogPeer#setResizable(boolean) public abstract void
+     *      java.awt.peer.DialogPeer.setResizable(boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setResizable_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.DialogPeer#setTitle(java.lang.String) public abstract void
-     * java.awt.peer.DialogPeer.setTitle(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.DialogPeer#setTitle(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitle_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

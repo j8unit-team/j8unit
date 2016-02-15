@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.prefs.PreferencesFactory interface
- * java.util.prefs.PreferencesFactory}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.prefs.PreferencesFactoryTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.prefs.PreferencesFactory interface
+ * java.util.prefs.PreferencesFactory}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link PreferencesFactoryClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.prefs.PreferencesFactoryClassTests
+ * @see java.util.prefs.PreferencesFactory interface java.util.prefs.PreferencesFactory (the hereby targeted
+ *      class-under-test class)
+ * @see PreferencesFactoryClassTests PreferencesFactoryClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.prefs.PreferencesFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.util.prefs.PreferencesFactory#systemRoot() public abstract
      * java.util.prefs.Preferences java.util.prefs.PreferencesFactory.systemRoot()}.
      *
+     * <p>
+     * Test method for {@link java.util.prefs.PreferencesFactory#systemRoot() public abstract
+     * java.util.prefs.Preferences java.util.prefs.PreferencesFactory.systemRoot()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.prefs.PreferencesFactory#systemRoot()
+     * @see java.util.prefs.PreferencesFactory#systemRoot() public abstract java.util.prefs.Preferences
+     *      java.util.prefs.PreferencesFactory.systemRoot() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,12 +61,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.util.prefs.PreferencesFactory#userRoot() public abstract java.util.prefs.Preferences
      * java.util.prefs.PreferencesFactory.userRoot()}.
      *
+     * <p>
+     * Test method for {@link java.util.prefs.PreferencesFactory#userRoot() public abstract java.util.prefs.Preferences
+     * java.util.prefs.PreferencesFactory.userRoot()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.prefs.PreferencesFactory#userRoot()
+     * @see java.util.prefs.PreferencesFactory#userRoot() public abstract java.util.prefs.Preferences
+     *      java.util.prefs.PreferencesFactory.userRoot() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

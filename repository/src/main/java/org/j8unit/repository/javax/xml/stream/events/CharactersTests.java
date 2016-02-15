@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.stream.events.Characters interface
- * javax.xml.stream.events.Characters}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.stream.events.CharactersTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.stream.events.Characters interface
+ * javax.xml.stream.events.Characters}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link CharactersClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.stream.events.CharactersClassTests
+ * @see javax.xml.stream.events.Characters interface javax.xml.stream.events.Characters (the hereby targeted
+ *      class-under-test class)
+ * @see CharactersClassTests CharactersClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.stream.events.Characters
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharactersTests<SUT extends javax.xml.stream.events.Characters>
-extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
+extends XMLEventTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.Characters#getData() public abstract java.lang.String
+     * javax.xml.stream.events.Characters.getData()}.
+     *
      * <p>
      * Test method for {@link javax.xml.stream.events.Characters#getData() public abstract java.lang.String
      * javax.xml.stream.events.Characters.getData()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.stream.events.Characters#getData()
+     * @see javax.xml.stream.events.Characters#getData() public abstract java.lang.String
+     *      javax.xml.stream.events.Characters.getData() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,6 +57,37 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.stream.events.Characters#isWhiteSpace() public abstract boolean
+     * javax.xml.stream.events.Characters.isWhiteSpace()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.stream.events.Characters#isWhiteSpace() public abstract boolean
+     * javax.xml.stream.events.Characters.isWhiteSpace()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.stream.events.Characters#isWhiteSpace() public abstract boolean
+     *      javax.xml.stream.events.Characters.isWhiteSpace() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isWhiteSpace()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.Characters#isCData() public abstract boolean
+     * javax.xml.stream.events.Characters.isCData()}.
+     *
+     * <p>
      * Test method for {@link javax.xml.stream.events.Characters#isCData() public abstract boolean
      * javax.xml.stream.events.Characters.isCData()}.
      *
@@ -59,7 +96,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.stream.events.Characters#isCData()
+     * @see javax.xml.stream.events.Characters#isCData() public abstract boolean
+     *      javax.xml.stream.events.Characters.isCData() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,39 +114,22 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
      * Test method for {@link javax.xml.stream.events.Characters#isIgnorableWhiteSpace() public abstract boolean
      * javax.xml.stream.events.Characters.isIgnorableWhiteSpace()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.stream.events.Characters#isIgnorableWhiteSpace() public abstract boolean
+     * javax.xml.stream.events.Characters.isIgnorableWhiteSpace()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.stream.events.Characters#isIgnorableWhiteSpace()
+     * @see javax.xml.stream.events.Characters#isIgnorableWhiteSpace() public abstract boolean
+     *      javax.xml.stream.events.Characters.isIgnorableWhiteSpace() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_isIgnorableWhiteSpace()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.events.Characters#isWhiteSpace() public abstract boolean
-     * javax.xml.stream.events.Characters.isWhiteSpace()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.stream.events.Characters#isWhiteSpace()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isWhiteSpace()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

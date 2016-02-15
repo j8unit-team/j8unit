@@ -8,26 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sql.XADataSource interface javax.sql.XADataSource}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sql.XADataSourceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sql.XADataSource interface javax.sql.XADataSource}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link XADataSourceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sql.XADataSourceClassTests
+ * @see javax.sql.XADataSource interface javax.sql.XADataSource (the hereby targeted class-under-test class)
+ * @see XADataSourceClassTests XADataSourceClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sql.XADataSource
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XADataSourceTests<SUT extends javax.sql.XADataSource>
-extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
+extends CommonDataSourceTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.sql.XADataSource#getXAConnection() public abstract javax.sql.XAConnection
+     * javax.sql.XADataSource.getXAConnection() throws java.sql.SQLException}.
+     *
      * <p>
      * Test method for {@link javax.sql.XADataSource#getXAConnection() public abstract javax.sql.XAConnection
      * javax.sql.XADataSource.getXAConnection() throws java.sql.SQLException}.
@@ -37,7 +40,9 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.XADataSource#getXAConnection()
+     * @see javax.sql.XADataSource#getXAConnection() public abstract javax.sql.XAConnection
+     *      javax.sql.XADataSource.getXAConnection() throws java.sql.SQLException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,7 +56,12 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.XADataSource#getXAConnection(java.lang.String, java.lang.String) public abstract
+     * Test method for {@link javax.sql.XADataSource#getXAConnection(String, String) public abstract
+     * javax.sql.XAConnection javax.sql.XADataSource.getXAConnection(java.lang.String,java.lang.String) throws
+     * java.sql.SQLException}.
+     *
+     * <p>
+     * Test method for {@link javax.sql.XADataSource#getXAConnection(String, String) public abstract
      * javax.sql.XAConnection javax.sql.XADataSource.getXAConnection(java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
      *
@@ -60,7 +70,9 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.XADataSource#getXAConnection(java.lang.String, java.lang.String)
+     * @see javax.sql.XADataSource#getXAConnection(String, String) public abstract javax.sql.XAConnection
+     *      javax.sql.XADataSource.getXAConnection(java.lang.String,java.lang.String) throws java.sql.SQLException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

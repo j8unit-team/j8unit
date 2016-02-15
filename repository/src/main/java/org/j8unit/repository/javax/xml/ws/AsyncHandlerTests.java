@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.ws.AsyncHandler interface javax.xml.ws.AsyncHandler},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.ws.AsyncHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.ws.AsyncHandler interface javax.xml.ws.AsyncHandler}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link AsyncHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.ws.AsyncHandlerClassTests
+ * @see javax.xml.ws.AsyncHandler interface javax.xml.ws.AsyncHandler (the hereby targeted class-under-test class)
+ * @see AsyncHandlerClassTests AsyncHandlerClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.ws.AsyncHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,6 +30,10 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.xml.ws.AsyncHandler#handleResponse(javax.xml.ws.Response) public abstract void
+     * javax.xml.ws.AsyncHandler.handleResponse(javax.xml.ws.Response<T>)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.ws.AsyncHandler#handleResponse(javax.xml.ws.Response) public abstract void
      * javax.xml.ws.AsyncHandler.handleResponse(javax.xml.ws.Response)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +41,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.ws.AsyncHandler#handleResponse(javax.xml.ws.Response)
+     * @see javax.xml.ws.AsyncHandler#handleResponse(javax.xml.ws.Response) public abstract void
+     *      javax.xml.ws.AsyncHandler.handleResponse(javax.xml.ws.Response) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.transform.Result interface javax.xml.transform.Result},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.transform.ResultTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.transform.Result interface javax.xml.transform.Result}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ResultClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.transform.ResultClassTests
+ * @see javax.xml.transform.Result interface javax.xml.transform.Result (the hereby targeted class-under-test class)
+ * @see ResultClassTests ResultClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.transform.Result
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +32,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.xml.transform.Result#getSystemId() public abstract java.lang.String
      * javax.xml.transform.Result.getSystemId()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.transform.Result#getSystemId() public abstract java.lang.String
+     * javax.xml.transform.Result.getSystemId()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.Result#getSystemId()
+     * @see javax.xml.transform.Result#getSystemId() public abstract java.lang.String
+     *      javax.xml.transform.Result.getSystemId() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,7 +56,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.Result#setSystemId(java.lang.String) public abstract void
+     * Test method for {@link javax.xml.transform.Result#setSystemId(String) public abstract void
+     * javax.xml.transform.Result.setSystemId(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.transform.Result#setSystemId(String) public abstract void
      * javax.xml.transform.Result.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +68,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.Result#setSystemId(java.lang.String)
+     * @see javax.xml.transform.Result#setSystemId(String) public abstract void
+     *      javax.xml.transform.Result.setSystemId(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

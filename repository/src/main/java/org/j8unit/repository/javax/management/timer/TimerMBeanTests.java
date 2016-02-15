@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.timer.TimerMBean interface
- * javax.management.timer.TimerMBean}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.timer.TimerMBeanTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.timer.TimerMBean interface
+ * javax.management.timer.TimerMBean}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link TimerMBeanClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.timer.TimerMBeanClassTests
+ * @see javax.management.timer.TimerMBean interface javax.management.timer.TimerMBean (the hereby targeted
+ *      class-under-test class)
+ * @see TimerMBeanClassTests TimerMBeanClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.timer.TimerMBean
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,24 +31,53 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String, java.lang.Object, java.util.Date)
-     * public abstract java.lang.Integer
-     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date)
-     * throws java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationIDs(String) public abstract
+     * java.util.Vector<java.lang.Integer> javax.management.timer.TimerMBean.getNotificationIDs(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationIDs(String) public abstract
+     * java.util.Vector javax.management.timer.TimerMBean.getNotificationIDs(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String,
-     *             java.lang.Object, java.util.Date)
+     * @see javax.management.timer.TimerMBean#getNotificationIDs(String) public abstract java.util.Vector
+     *      javax.management.timer.TimerMBean.getNotificationIDs(java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addNotification_String_String_Object_Date()
+    public default void test_getNotificationIDs_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#stop() public abstract void
+     * javax.management.timer.TimerMBean.stop()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#stop() public abstract void
+     * javax.management.timer.TimerMBean.stop()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#stop() public abstract void javax.management.timer.TimerMBean.stop() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stop()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,9 +87,16 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String, java.lang.Object, java.util.Date, long)
+     * {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long, long, boolean)
      * public abstract java.lang.Integer
-     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long)
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long,boolean)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long, long, boolean)
+     * public abstract java.lang.Integer
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long,boolean)
      * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,13 +104,16 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String,
-     *             java.lang.Object, java.util.Date, long)
+     * @see javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long, long,
+     *      boolean) public abstract java.lang.Integer
+     *      javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.
+     *      util.Date,long,long,boolean) throws java.lang.IllegalArgumentException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addNotification_String_String_Object_Date_long()
+    public default void test_addNotification_String_String_Object_Date_long_long_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,7 +123,14 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String, java.lang.Object, java.util.Date, long, long)
+     * {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long, long)
+     * public abstract java.lang.Integer
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long, long)
      * public abstract java.lang.Integer
      * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long)
      * throws java.lang.IllegalArgumentException}.
@@ -93,8 +140,10 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String,
-     *             java.lang.Object, java.util.Date, long, long)
+     * @see javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long, long) public
+     *      abstract java.lang.Integer
+     *      javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.
+     *      util.Date,long,long) throws java.lang.IllegalArgumentException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,9 +158,16 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String, java.lang.Object, java.util.Date, long, long, boolean)
-     * public abstract java.lang.Integer
-     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long,boolean)
+     * {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long) public
+     * abstract java.lang.Integer
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long) public
+     * abstract java.lang.Integer
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long)
      * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -119,13 +175,15 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#addNotification(java.lang.String, java.lang.String,
-     *             java.lang.Object, java.util.Date, long, long, boolean)
+     * @see javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date, long) public
+     *      abstract java.lang.Integer
+     *      javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.
+     *      util.Date,long) throws java.lang.IllegalArgumentException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addNotification_String_String_Object_Date_long_long_boolean()
+    public default void test_addNotification_String_String_Object_Date_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,218 +192,31 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getAllNotificationIDs() public abstract java.util.Vector
-     * javax.management.timer.TimerMBean.getAllNotificationIDs()}.
+     * Test method for {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date)
+     * public abstract java.lang.Integer
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date)
+     * throws java.lang.IllegalArgumentException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getAllNotificationIDs()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllNotificationIDs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getDate(java.lang.Integer) public abstract
-     * java.util.Date javax.management.timer.TimerMBean.getDate(java.lang.Integer)}.
+     * Test method for {@link javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date)
+     * public abstract java.lang.Integer
+     * javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date)
+     * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#getDate(java.lang.Integer)
+     * @see javax.management.timer.TimerMBean#addNotification(String, String, Object, java.util.Date) public abstract
+     *      java.lang.Integer
+     *      javax.management.timer.TimerMBean.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.
+     *      util.Date) throws java.lang.IllegalArgumentException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDate_Integer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getFixedRate(java.lang.Integer) public abstract
-     * java.lang.Boolean javax.management.timer.TimerMBean.getFixedRate(java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getFixedRate(java.lang.Integer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFixedRate_Integer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getNbNotifications() public abstract int
-     * javax.management.timer.TimerMBean.getNbNotifications()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getNbNotifications()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNbNotifications()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getNbOccurences(java.lang.Integer) public abstract
-     * java.lang.Long javax.management.timer.TimerMBean.getNbOccurences(java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getNbOccurences(java.lang.Integer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNbOccurences_Integer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getNotificationIDs(java.lang.String) public abstract
-     * java.util.Vector javax.management.timer.TimerMBean.getNotificationIDs(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getNotificationIDs(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotificationIDs_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getNotificationMessage(java.lang.Integer) public
-     * abstract java.lang.String javax.management.timer.TimerMBean.getNotificationMessage(java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getNotificationMessage(java.lang.Integer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotificationMessage_Integer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getNotificationType(java.lang.Integer) public abstract
-     * java.lang.String javax.management.timer.TimerMBean.getNotificationType(java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getNotificationType(java.lang.Integer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotificationType_Integer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getNotificationUserData(java.lang.Integer) public
-     * abstract java.lang.Object javax.management.timer.TimerMBean.getNotificationUserData(java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getNotificationUserData(java.lang.Integer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotificationUserData_Integer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#getPeriod(java.lang.Integer) public abstract
-     * java.lang.Long javax.management.timer.TimerMBean.getPeriod(java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.timer.TimerMBean#getPeriod(java.lang.Integer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPeriod_Integer()
+    public default void test_addNotification_String_String_Object_Date()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -357,12 +228,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.management.timer.TimerMBean#getSendPastNotifications() public abstract boolean
      * javax.management.timer.TimerMBean.getSendPastNotifications()}.
      *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getSendPastNotifications() public abstract boolean
+     * javax.management.timer.TimerMBean.getSendPastNotifications()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#getSendPastNotifications()
+     * @see javax.management.timer.TimerMBean#getSendPastNotifications() public abstract boolean
+     *      javax.management.timer.TimerMBean.getSendPastNotifications() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -376,20 +252,26 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#isActive() public abstract boolean
-     * javax.management.timer.TimerMBean.isActive()}.
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationUserData(Integer) public abstract
+     * java.lang.Object javax.management.timer.TimerMBean.getNotificationUserData(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationUserData(Integer) public abstract
+     * java.lang.Object javax.management.timer.TimerMBean.getNotificationUserData(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#isActive()
+     * @see javax.management.timer.TimerMBean#getNotificationUserData(Integer) public abstract java.lang.Object
+     *      javax.management.timer.TimerMBean.getNotificationUserData(java.lang.Integer) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isActive()
+    public default void test_getNotificationUserData_Integer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -398,20 +280,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#isEmpty() public abstract boolean
-     * javax.management.timer.TimerMBean.isEmpty()}.
+     * Test method for {@link javax.management.timer.TimerMBean#getNbNotifications() public abstract int
+     * javax.management.timer.TimerMBean.getNbNotifications()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getNbNotifications() public abstract int
+     * javax.management.timer.TimerMBean.getNbNotifications()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#isEmpty()
+     * @see javax.management.timer.TimerMBean#getNbNotifications() public abstract int
+     *      javax.management.timer.TimerMBean.getNbNotifications() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isEmpty()
+    public default void test_getNbNotifications()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -423,12 +310,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.management.timer.TimerMBean#removeAllNotifications() public abstract void
      * javax.management.timer.TimerMBean.removeAllNotifications()}.
      *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#removeAllNotifications() public abstract void
+     * javax.management.timer.TimerMBean.removeAllNotifications()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#removeAllNotifications()
+     * @see javax.management.timer.TimerMBean#removeAllNotifications() public abstract void
+     *      javax.management.timer.TimerMBean.removeAllNotifications() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -442,21 +334,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#removeNotification(java.lang.Integer) public abstract
-     * void javax.management.timer.TimerMBean.removeNotification(java.lang.Integer) throws
-     * javax.management.InstanceNotFoundException}.
+     * Test method for {@link javax.management.timer.TimerMBean#getDate(Integer) public abstract java.util.Date
+     * javax.management.timer.TimerMBean.getDate(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getDate(Integer) public abstract java.util.Date
+     * javax.management.timer.TimerMBean.getDate(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#removeNotification(java.lang.Integer)
+     * @see javax.management.timer.TimerMBean#getDate(Integer) public abstract java.util.Date
+     *      javax.management.timer.TimerMBean.getDate(java.lang.Integer) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeNotification_Integer()
+    public default void test_getDate_Integer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -465,8 +361,41 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#removeNotifications(java.lang.String) public abstract
-     * void javax.management.timer.TimerMBean.removeNotifications(java.lang.String) throws
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationType(Integer) public abstract
+     * java.lang.String javax.management.timer.TimerMBean.getNotificationType(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationType(Integer) public abstract
+     * java.lang.String javax.management.timer.TimerMBean.getNotificationType(java.lang.Integer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#getNotificationType(Integer) public abstract java.lang.String
+     *      javax.management.timer.TimerMBean.getNotificationType(java.lang.Integer) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNotificationType_Integer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#removeNotifications(String) public abstract void
+     * javax.management.timer.TimerMBean.removeNotifications(java.lang.String) throws
+     * javax.management.InstanceNotFoundException}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#removeNotifications(String) public abstract void
+     * javax.management.timer.TimerMBean.removeNotifications(java.lang.String) throws
      * javax.management.InstanceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,7 +403,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#removeNotifications(java.lang.String)
+     * @see javax.management.timer.TimerMBean#removeNotifications(String) public abstract void
+     *      javax.management.timer.TimerMBean.removeNotifications(java.lang.String) throws
+     *      javax.management.InstanceNotFoundException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -488,20 +419,110 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#setSendPastNotifications(boolean) public abstract void
-     * javax.management.timer.TimerMBean.setSendPastNotifications(boolean)}.
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationMessage(Integer) public abstract
+     * java.lang.String javax.management.timer.TimerMBean.getNotificationMessage(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getNotificationMessage(Integer) public abstract
+     * java.lang.String javax.management.timer.TimerMBean.getNotificationMessage(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#setSendPastNotifications(boolean)
+     * @see javax.management.timer.TimerMBean#getNotificationMessage(Integer) public abstract java.lang.String
+     *      javax.management.timer.TimerMBean.getNotificationMessage(java.lang.Integer) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSendPastNotifications_boolean()
+    public default void test_getNotificationMessage_Integer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#removeNotification(Integer) public abstract void
+     * javax.management.timer.TimerMBean.removeNotification(java.lang.Integer) throws
+     * javax.management.InstanceNotFoundException}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#removeNotification(Integer) public abstract void
+     * javax.management.timer.TimerMBean.removeNotification(java.lang.Integer) throws
+     * javax.management.InstanceNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#removeNotification(Integer) public abstract void
+     *      javax.management.timer.TimerMBean.removeNotification(java.lang.Integer) throws
+     *      javax.management.InstanceNotFoundException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotification_Integer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getFixedRate(Integer) public abstract java.lang.Boolean
+     * javax.management.timer.TimerMBean.getFixedRate(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getFixedRate(Integer) public abstract java.lang.Boolean
+     * javax.management.timer.TimerMBean.getFixedRate(java.lang.Integer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#getFixedRate(Integer) public abstract java.lang.Boolean
+     *      javax.management.timer.TimerMBean.getFixedRate(java.lang.Integer) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFixedRate_Integer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#isEmpty() public abstract boolean
+     * javax.management.timer.TimerMBean.isEmpty()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#isEmpty() public abstract boolean
+     * javax.management.timer.TimerMBean.isEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#isEmpty() public abstract boolean
+     *      javax.management.timer.TimerMBean.isEmpty() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEmpty()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -513,12 +534,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.management.timer.TimerMBean#start() public abstract void
      * javax.management.timer.TimerMBean.start()}.
      *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#start() public abstract void
+     * javax.management.timer.TimerMBean.start()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#start()
+     * @see javax.management.timer.TimerMBean#start() public abstract void javax.management.timer.TimerMBean.start()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -532,20 +558,133 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerMBean#stop() public abstract void
-     * javax.management.timer.TimerMBean.stop()}.
+     * Test method for {@link javax.management.timer.TimerMBean#getNbOccurences(Integer) public abstract java.lang.Long
+     * javax.management.timer.TimerMBean.getNbOccurences(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getNbOccurences(Integer) public abstract java.lang.Long
+     * javax.management.timer.TimerMBean.getNbOccurences(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.timer.TimerMBean#stop()
+     * @see javax.management.timer.TimerMBean#getNbOccurences(Integer) public abstract java.lang.Long
+     *      javax.management.timer.TimerMBean.getNbOccurences(java.lang.Integer) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stop()
+    public default void test_getNbOccurences_Integer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#isActive() public abstract boolean
+     * javax.management.timer.TimerMBean.isActive()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#isActive() public abstract boolean
+     * javax.management.timer.TimerMBean.isActive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#isActive() public abstract boolean
+     *      javax.management.timer.TimerMBean.isActive() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getPeriod(Integer) public abstract java.lang.Long
+     * javax.management.timer.TimerMBean.getPeriod(java.lang.Integer)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getPeriod(Integer) public abstract java.lang.Long
+     * javax.management.timer.TimerMBean.getPeriod(java.lang.Integer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#getPeriod(Integer) public abstract java.lang.Long
+     *      javax.management.timer.TimerMBean.getPeriod(java.lang.Integer) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPeriod_Integer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#setSendPastNotifications(boolean) public abstract void
+     * javax.management.timer.TimerMBean.setSendPastNotifications(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#setSendPastNotifications(boolean) public abstract void
+     * javax.management.timer.TimerMBean.setSendPastNotifications(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#setSendPastNotifications(boolean) public abstract void
+     *      javax.management.timer.TimerMBean.setSendPastNotifications(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSendPastNotifications_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getAllNotificationIDs() public abstract java.util.Vector
+     * <java.lang.Integer> javax.management.timer.TimerMBean.getAllNotificationIDs()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.timer.TimerMBean#getAllNotificationIDs() public abstract java.util.Vector
+     * javax.management.timer.TimerMBean.getAllNotificationIDs()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.timer.TimerMBean#getAllNotificationIDs() public abstract java.util.Vector
+     *      javax.management.timer.TimerMBean.getAllNotificationIDs() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAllNotificationIDs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

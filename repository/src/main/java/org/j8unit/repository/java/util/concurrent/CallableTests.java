@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.Callable interface java.util.concurrent.Callable}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.concurrent.CallableTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.Callable interface java.util.concurrent.Callable}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link CallableClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.CallableClassTests
+ * @see java.util.concurrent.Callable interface java.util.concurrent.Callable (the hereby targeted class-under-test
+ *      class)
+ * @see CallableClassTests CallableClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.Callable
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,6 +29,10 @@ public abstract interface CallableTests<SUT extends java.util.concurrent.Callabl
 extends RepositoryTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Callable#call() public abstract V
+     * java.util.concurrent.Callable.call() throws java.lang.Exception}.
+     *
      * <p>
      * Test method for {@link java.util.concurrent.Callable#call() public abstract java.lang.Object
      * java.util.concurrent.Callable.call() throws java.lang.Exception}.
@@ -38,7 +42,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.Callable#call()
+     * @see java.util.concurrent.Callable#call() public abstract java.lang.Object java.util.concurrent.Callable.call()
+     *      throws java.lang.Exception (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

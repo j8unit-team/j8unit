@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.annotation.processing.Messager interface
- * javax.annotation.processing.Messager}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.annotation.processing.MessagerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.annotation.processing.Messager interface
+ * javax.annotation.processing.Messager}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link MessagerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.annotation.processing.MessagerClassTests
+ * @see javax.annotation.processing.Messager interface javax.annotation.processing.Messager (the hereby targeted
+ *      class-under-test class)
+ * @see MessagerClassTests MessagerClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.annotation.processing.Messager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,34 +32,16 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, java.lang.CharSequence)
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror, javax.lang.model.element.AnnotationValue)
      * public abstract void
-     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)}.
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)}
+     * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,
-     *             java.lang.CharSequence)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_printMessage_Kind_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, java.lang.CharSequence, javax.lang.model.element.Element)
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror, javax.lang.model.element.AnnotationValue)
      * public abstract void
-     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element)}
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)}
      * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,13 +49,17 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,
-     *             java.lang.CharSequence, javax.lang.model.element.Element)
+     * @see javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence,
+     *      javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror,
+     *      javax.lang.model.element.AnnotationValue) public abstract void
+     *      javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.
+     *      lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.
+     *      AnnotationValue) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_printMessage_Kind_CharSequence_Element()
+    public default void test_printMessage_Kind_CharSequence_Element_AnnotationMirror_AnnotationValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,7 +69,14 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, java.lang.CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror)
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror)
+     * public abstract void
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)}
+     * .
+     *
+     * <p>
+     * Test method for
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror)
      * public abstract void
      * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)}
      * .
@@ -92,8 +86,11 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,
-     *             java.lang.CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror)
+     * @see javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence,
+     *      javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror) public abstract void
+     *      javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.
+     *      lang.model.element.Element,javax.lang.model.element.AnnotationMirror) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,9 +105,16 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, java.lang.CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror, javax.lang.model.element.AnnotationValue)
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element)
      * public abstract void
-     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)}
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element)}
+     * .
+     *
+     * <p>
+     * Test method for
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element)
+     * public abstract void
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element)}
      * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -118,14 +122,47 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,
-     *             java.lang.CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror,
-     *             javax.lang.model.element.AnnotationValue)
+     * @see javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence,
+     *      javax.lang.model.element.Element) public abstract void
+     *      javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.
+     *      lang.model.element.Element) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_printMessage_Kind_CharSequence_Element_AnnotationMirror_AnnotationValue()
+    public default void test_printMessage_Kind_CharSequence_Element()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence) public
+     * abstract void
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence) public
+     * abstract void
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence) public abstract
+     *      void javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_printMessage_Kind_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

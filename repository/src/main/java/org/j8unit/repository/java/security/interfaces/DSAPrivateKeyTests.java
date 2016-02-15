@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.interfaces.DSAPrivateKey interface
- * java.security.interfaces.DSAPrivateKey}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.interfaces.DSAPrivateKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.interfaces.DSAPrivateKey interface
+ * java.security.interfaces.DSAPrivateKey}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DSAPrivateKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.interfaces.DSAPrivateKeyClassTests
+ * @see java.security.interfaces.DSAPrivateKey interface java.security.interfaces.DSAPrivateKey (the hereby targeted
+ *      class-under-test class)
+ * @see DSAPrivateKeyClassTests DSAPrivateKeyClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.interfaces.DSAPrivateKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DSAPrivateKeyTests<SUT extends java.security.interfaces.DSAPrivateKey>
-extends org.j8unit.repository.java.security.interfaces.DSAKeyTests<SUT>, org.j8unit.repository.java.security.PrivateKeyTests<SUT> {
+extends DSAKeyTests<SUT>, org.j8unit.repository.java.security.PrivateKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.interfaces.DSAPrivateKey#getX() public abstract java.math.BigInteger
+     * java.security.interfaces.DSAPrivateKey.getX()}.
+     *
      * <p>
      * Test method for {@link java.security.interfaces.DSAPrivateKey#getX() public abstract java.math.BigInteger
      * java.security.interfaces.DSAPrivateKey.getX()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.security.interfaces.DSAKeyTests<SUT>, org.j8u
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.DSAPrivateKey#getX()
+     * @see java.security.interfaces.DSAPrivateKey#getX() public abstract java.math.BigInteger
+     *      java.security.interfaces.DSAPrivateKey.getX() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

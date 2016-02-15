@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.activation.ActivationGroupID class
- * java.rmi.activation.ActivationGroupID}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupIDTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.activation.ActivationGroupID class
+ * java.rmi.activation.ActivationGroupID}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link ActivationGroupIDClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.activation.ActivationGroupIDClassTests
+ * @see java.rmi.activation.ActivationGroupID class java.rmi.activation.ActivationGroupID (the hereby targeted
+ *      class-under-test class)
+ * @see ActivationGroupIDClassTests ActivationGroupIDClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.activation.ActivationGroupID
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,21 +30,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationGroupID#equals(java.lang.Object) public boolean
-     * java.rmi.activation.ActivationGroupID.equals(java.lang.Object)}.
+     * Test method for {@link java.rmi.activation.ActivationGroupID#hashCode() public int
+     * java.rmi.activation.ActivationGroupID.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationGroupID#hashCode() public int
+     * java.rmi.activation.ActivationGroupID.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.activation.ActivationGroupID#equals(java.lang.Object)
+     * @see java.rmi.activation.ActivationGroupID#hashCode() public int java.rmi.activation.ActivationGroupID.hashCode()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,12 +61,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.rmi.activation.ActivationGroupID#getSystem() public
      * java.rmi.activation.ActivationSystem java.rmi.activation.ActivationGroupID.getSystem()}.
      *
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationGroupID#getSystem() public
+     * java.rmi.activation.ActivationSystem java.rmi.activation.ActivationGroupID.getSystem()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.activation.ActivationGroupID#getSystem()
+     * @see java.rmi.activation.ActivationGroupID#getSystem() public java.rmi.activation.ActivationSystem
+     *      java.rmi.activation.ActivationGroupID.getSystem() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,21 +85,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationGroupID#hashCode() public int
-     * java.rmi.activation.ActivationGroupID.hashCode()}.
+     * Test method for {@link java.rmi.activation.ActivationGroupID#equals(Object) public boolean
+     * java.rmi.activation.ActivationGroupID.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationGroupID#equals(Object) public boolean
+     * java.rmi.activation.ActivationGroupID.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.activation.ActivationGroupID#hashCode()
+     * @see java.rmi.activation.ActivationGroupID#equals(Object) public boolean
+     *      java.rmi.activation.ActivationGroupID.equals(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,27 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.auth.callback.TextInputCallback class
- * javax.security.auth.callback.TextInputCallback}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.security.auth.callback.TextInputCallbackTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.auth.callback.TextInputCallback class
+ * javax.security.auth.callback.TextInputCallback}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link TextInputCallbackClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.auth.callback.TextInputCallbackClassTests
+ * @see javax.security.auth.callback.TextInputCallback class javax.security.auth.callback.TextInputCallback (the hereby
+ *      targeted class-under-test class)
+ * @see TextInputCallbackClassTests TextInputCallbackClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.auth.callback.TextInputCallback
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextInputCallbackTests<SUT extends javax.security.auth.callback.TextInputCallback>
-extends org.j8unit.repository.javax.security.auth.callback.CallbackTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends CallbackTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.security.auth.callback.TextInputCallback#getDefaultText() public java.lang.String
+     * javax.security.auth.callback.TextInputCallback.getDefaultText()}.
+     *
      * <p>
      * Test method for {@link javax.security.auth.callback.TextInputCallback#getDefaultText() public java.lang.String
      * javax.security.auth.callback.TextInputCallback.getDefaultText()}.
@@ -38,7 +42,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.TextInputCallback#getDefaultText()
+     * @see javax.security.auth.callback.TextInputCallback#getDefaultText() public java.lang.String
+     *      javax.security.auth.callback.TextInputCallback.getDefaultText() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,27 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.TextInputCallback#getPrompt() public java.lang.String
-     * javax.security.auth.callback.TextInputCallback.getPrompt()}.
+     * Test method for {@link javax.security.auth.callback.TextInputCallback#getText() public java.lang.String
+     * javax.security.auth.callback.TextInputCallback.getText()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.security.auth.callback.TextInputCallback#getPrompt()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrompt()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.security.auth.callback.TextInputCallback#getText() public java.lang.String
      * javax.security.auth.callback.TextInputCallback.getText()}.
@@ -82,7 +69,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.TextInputCallback#getText()
+     * @see javax.security.auth.callback.TextInputCallback#getText() public java.lang.String
+     *      javax.security.auth.callback.TextInputCallback.getText() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,7 +84,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.TextInputCallback#setText(java.lang.String) public void
+     * Test method for {@link javax.security.auth.callback.TextInputCallback#getPrompt() public java.lang.String
+     * javax.security.auth.callback.TextInputCallback.getPrompt()}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.callback.TextInputCallback#getPrompt() public java.lang.String
+     * javax.security.auth.callback.TextInputCallback.getPrompt()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.security.auth.callback.TextInputCallback#getPrompt() public java.lang.String
+     *      javax.security.auth.callback.TextInputCallback.getPrompt() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrompt()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.callback.TextInputCallback#setText(String) public void
+     * javax.security.auth.callback.TextInputCallback.setText(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.callback.TextInputCallback#setText(String) public void
      * javax.security.auth.callback.TextInputCallback.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +123,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.TextInputCallback#setText(java.lang.String)
+     * @see javax.security.auth.callback.TextInputCallback#setText(String) public void
+     *      javax.security.auth.callback.TextInputCallback.setText(java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

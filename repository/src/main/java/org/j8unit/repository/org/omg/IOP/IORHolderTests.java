@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.IOP.IORHolder class org.omg.IOP.IORHolder}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.org.omg.IOP.IORHolderTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.IOP.IORHolder class org.omg.IOP.IORHolder}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link IORHolderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.IOP.IORHolderClassTests
+ * @see org.omg.IOP.IORHolder class org.omg.IOP.IORHolder (the hereby targeted class-under-test class)
+ * @see IORHolderClassTests IORHolderClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.IOP.IORHolder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,41 +31,23 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * Test method for {@link org.omg.IOP.IORHolder#_read(org.omg.CORBA.portable.InputStream) public void
      * org.omg.IOP.IORHolder._read(org.omg.CORBA.portable.InputStream)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.IOP.IORHolder#_read(org.omg.CORBA.portable.InputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link org.omg.IOP.IORHolder#_type() public org.omg.CORBA.TypeCode org.omg.IOP.IORHolder._type()}
-     * .
+     * Test method for {@link org.omg.IOP.IORHolder#_read(org.omg.CORBA.portable.InputStream) public void
+     * org.omg.IOP.IORHolder._read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.IOP.IORHolder#_type()
+     * @see org.omg.IOP.IORHolder#_read(org.omg.CORBA.portable.InputStream) public void
+     *      org.omg.IOP.IORHolder._read(org.omg.CORBA.portable.InputStream) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test__type()
+    public default void test__read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,18 +59,51 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * Test method for {@link org.omg.IOP.IORHolder#_write(org.omg.CORBA.portable.OutputStream) public void
      * org.omg.IOP.IORHolder._write(org.omg.CORBA.portable.OutputStream)}.
      *
+     * <p>
+     * Test method for {@link org.omg.IOP.IORHolder#_write(org.omg.CORBA.portable.OutputStream) public void
+     * org.omg.IOP.IORHolder._write(org.omg.CORBA.portable.OutputStream)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.IOP.IORHolder#_write(org.omg.CORBA.portable.OutputStream)
+     * @see org.omg.IOP.IORHolder#_write(org.omg.CORBA.portable.OutputStream) public void
+     *      org.omg.IOP.IORHolder._write(org.omg.CORBA.portable.OutputStream) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test__write_OutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.IOP.IORHolder#_type() public org.omg.CORBA.TypeCode org.omg.IOP.IORHolder._type()}
+     * .
+     *
+     * <p>
+     * Test method for {@link org.omg.IOP.IORHolder#_type() public org.omg.CORBA.TypeCode org.omg.IOP.IORHolder._type()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.IOP.IORHolder#_type() public org.omg.CORBA.TypeCode org.omg.IOP.IORHolder._type() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

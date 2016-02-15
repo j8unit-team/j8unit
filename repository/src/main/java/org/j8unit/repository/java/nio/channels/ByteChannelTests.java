@@ -5,23 +5,23 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.channels.ByteChannel interface java.nio.channels.ByteChannel}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.channels.ByteChannelTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.channels.ByteChannel interface java.nio.channels.ByteChannel}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link ByteChannelClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.channels.ByteChannelClassTests
+ * @see java.nio.channels.ByteChannel interface java.nio.channels.ByteChannel (the hereby targeted class-under-test
+ *      class)
+ * @see ByteChannelClassTests ByteChannelClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.channels.ByteChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ByteChannelTests<SUT extends java.nio.channels.ByteChannel>
-extends org.j8unit.repository.java.nio.channels.ReadableByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.WritableByteChannelTests<SUT> {
+extends ReadableByteChannelTests<SUT>, WritableByteChannelTests<SUT> {
 
 }

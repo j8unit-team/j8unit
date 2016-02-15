@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.sasl.SaslServerFactory interface
- * javax.security.sasl.SaslServerFactory}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.security.sasl.SaslServerFactoryTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.sasl.SaslServerFactory interface
+ * javax.security.sasl.SaslServerFactory}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link SaslServerFactoryClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.sasl.SaslServerFactoryClassTests
+ * @see javax.security.sasl.SaslServerFactory interface javax.security.sasl.SaslServerFactory (the hereby targeted
+ *      class-under-test class)
+ * @see SaslServerFactoryClassTests SaslServerFactoryClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.sasl.SaslServerFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,31 +31,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.security.sasl.SaslServerFactory#createSaslServer(java.lang.String, java.lang.String, java.lang.String, java.util.Map, javax.security.auth.callback.CallbackHandler)
-     * public abstract javax.security.sasl.SaslServer
-     * javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
-     * throws javax.security.sasl.SaslException}.
+     * Test method for {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract
+     * java.lang.String[] javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map<java.lang.String, ?>)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.security.sasl.SaslServerFactory#createSaslServer(java.lang.String, java.lang.String,
-     *             java.lang.String, java.util.Map, javax.security.auth.callback.CallbackHandler)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createSaslServer_String_String_String_Map_CallbackHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract
      * java.lang.String[] javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map)}.
@@ -64,12 +43,50 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map)
+     * @see javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract java.lang.String[]
+     *      javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getMechanismNames_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.security.sasl.SaslServerFactory#createSaslServer(String, String, String, java.util.Map, javax.security.auth.callback.CallbackHandler)
+     * public abstract javax.security.sasl.SaslServer
+     * javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,
+     * ?>,javax.security.auth.callback.CallbackHandler) throws javax.security.sasl.SaslException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.security.sasl.SaslServerFactory#createSaslServer(String, String, String, java.util.Map, javax.security.auth.callback.CallbackHandler)
+     * public abstract javax.security.sasl.SaslServer
+     * javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
+     * throws javax.security.sasl.SaslException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.security.sasl.SaslServerFactory#createSaslServer(String, String, String, java.util.Map,
+     *      javax.security.auth.callback.CallbackHandler) public abstract javax.security.sasl.SaslServer
+     *      javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,
+     *      java.util.Map,javax.security.auth.callback.CallbackHandler) throws javax.security.sasl.SaslException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createSaslServer_String_String_String_Map_CallbackHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

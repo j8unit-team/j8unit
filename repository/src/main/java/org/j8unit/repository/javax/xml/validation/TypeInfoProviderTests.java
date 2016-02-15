@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.validation.TypeInfoProvider class
- * javax.xml.validation.TypeInfoProvider}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.validation.TypeInfoProviderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.validation.TypeInfoProvider class
+ * javax.xml.validation.TypeInfoProvider}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link TypeInfoProviderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.validation.TypeInfoProviderClassTests
+ * @see javax.xml.validation.TypeInfoProvider class javax.xml.validation.TypeInfoProvider (the hereby targeted
+ *      class-under-test class)
+ * @see TypeInfoProviderClassTests TypeInfoProviderClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.validation.TypeInfoProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,49 +30,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int) public abstract
-     * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int)}.
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#isIdAttribute(int) public abstract boolean
+     * javax.xml.validation.TypeInfoProvider.isIdAttribute(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeTypeInfo_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.TypeInfoProvider#getElementTypeInfo() public abstract
-     * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getElementTypeInfo()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.validation.TypeInfoProvider#getElementTypeInfo()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElementTypeInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.xml.validation.TypeInfoProvider#isIdAttribute(int) public abstract boolean
      * javax.xml.validation.TypeInfoProvider.isIdAttribute(int)}.
@@ -81,7 +42,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.TypeInfoProvider#isIdAttribute(int)
+     * @see javax.xml.validation.TypeInfoProvider#isIdAttribute(int) public abstract boolean
+     *      javax.xml.validation.TypeInfoProvider.isIdAttribute(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,17 +60,76 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.validation.TypeInfoProvider#isSpecified(int) public abstract boolean
      * javax.xml.validation.TypeInfoProvider.isSpecified(int)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#isSpecified(int) public abstract boolean
+     * javax.xml.validation.TypeInfoProvider.isSpecified(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.TypeInfoProvider#isSpecified(int)
+     * @see javax.xml.validation.TypeInfoProvider#isSpecified(int) public abstract boolean
+     *      javax.xml.validation.TypeInfoProvider.isSpecified(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_isSpecified_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int) public abstract
+     * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int) public abstract
+     * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int) public abstract org.w3c.dom.TypeInfo
+     *      javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeTypeInfo_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#getElementTypeInfo() public abstract
+     * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getElementTypeInfo()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#getElementTypeInfo() public abstract
+     * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getElementTypeInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.validation.TypeInfoProvider#getElementTypeInfo() public abstract org.w3c.dom.TypeInfo
+     *      javax.xml.validation.TypeInfoProvider.getElementTypeInfo() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElementTypeInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

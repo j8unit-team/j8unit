@@ -8,106 +8,44 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.zip.CRC32 class java.util.zip.CRC32}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.util.zip.CRC32Tests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.zip.CRC32 class java.util.zip.CRC32}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link CRC32ClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.zip.CRC32ClassTests
+ * @see java.util.zip.CRC32 class java.util.zip.CRC32 (the hereby targeted class-under-test class)
+ * @see CRC32ClassTests CRC32ClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.zip.CRC32
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CRC32Tests<SUT extends java.util.zip.CRC32>
-extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ChecksumTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.CRC32#getValue() public long java.util.zip.CRC32.getValue()}.
+     * Test method for {@link java.util.zip.CRC32#update(int) public void java.util.zip.CRC32.update(int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#update(int) public void java.util.zip.CRC32.update(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.zip.CRC32#getValue()
+     * @see java.util.zip.CRC32#update(int) public void java.util.zip.CRC32.update(int) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_getValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.CRC32#reset() public void java.util.zip.CRC32.reset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.zip.CRC32#reset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.CRC32#update(byte[]) public void java.util.zip.CRC32.update(byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.zip.CRC32#update(byte[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_update_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.CRC32#update(byte[], int, int) public void
-     * java.util.zip.CRC32.update(byte[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.zip.CRC32#update(byte[], int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_byteArray_int_int()
+    public default void test_update_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,12 +57,17 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
      * Test method for {@link java.util.zip.CRC32#update(java.nio.ByteBuffer) public void
      * java.util.zip.CRC32.update(java.nio.ByteBuffer)}.
      *
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#update(java.nio.ByteBuffer) public void
+     * java.util.zip.CRC32.update(java.nio.ByteBuffer)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.zip.CRC32#update(java.nio.ByteBuffer)
+     * @see java.util.zip.CRC32#update(java.nio.ByteBuffer) public void java.util.zip.CRC32.update(java.nio.ByteBuffer)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +81,102 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.CRC32#update(int) public void java.util.zip.CRC32.update(int)}.
+     * Test method for {@link java.util.zip.CRC32#update(byte[], int, int) public void
+     * java.util.zip.CRC32.update(byte[],int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#update(byte[], int, int) public void
+     * java.util.zip.CRC32.update(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.zip.CRC32#update(int)
+     * @see java.util.zip.CRC32#update(byte[], int, int) public void java.util.zip.CRC32.update(byte[],int,int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_update_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#update(byte[]) public void java.util.zip.CRC32.update(byte[])}.
+     *
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#update(byte[]) public void java.util.zip.CRC32.update(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.zip.CRC32#update(byte[]) public void java.util.zip.CRC32.update(byte[]) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_update_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#reset() public void java.util.zip.CRC32.reset()}.
+     *
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#reset() public void java.util.zip.CRC32.reset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.zip.CRC32#reset() public void java.util.zip.CRC32.reset() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_update_int()
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#getValue() public long java.util.zip.CRC32.getValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#getValue() public long java.util.zip.CRC32.getValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.zip.CRC32#getValue() public long java.util.zip.CRC32.getValue() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

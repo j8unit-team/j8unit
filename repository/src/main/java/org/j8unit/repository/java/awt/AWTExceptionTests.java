@@ -5,19 +5,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.AWTException class java.awt.AWTException}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.AWTExceptionTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.AWTException class java.awt.AWTException}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link AWTExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.AWTExceptionClassTests
+ * @see java.awt.AWTException class java.awt.AWTException (the hereby targeted class-under-test class)
+ * @see AWTExceptionClassTests AWTExceptionClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.AWTException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

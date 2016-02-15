@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.Document interface javax.swing.text.Document},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.DocumentTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.Document interface javax.swing.text.Document}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link DocumentClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.DocumentClassTests
+ * @see javax.swing.text.Document interface javax.swing.text.Document (the hereby targeted class-under-test class)
+ * @see DocumentClassTests DocumentClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.Document
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,115 +29,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Document#addDocumentListener(javax.swing.event.DocumentListener) public
-     * abstract void javax.swing.text.Document.addDocumentListener(javax.swing.event.DocumentListener)}.
+     * Test method for {@link javax.swing.text.Document#getLength() public abstract int
+     * javax.swing.text.Document.getLength()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#addDocumentListener(javax.swing.event.DocumentListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addDocumentListener_DocumentListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Document#addUndoableEditListener(javax.swing.event.UndoableEditListener)
-     * public abstract void javax.swing.text.Document.addUndoableEditListener(javax.swing.event.UndoableEditListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#addUndoableEditListener(javax.swing.event.UndoableEditListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addUndoableEditListener_UndoableEditListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Document#createPosition(int) public abstract javax.swing.text.Position
-     * javax.swing.text.Document.createPosition(int) throws javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#createPosition(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Document#getDefaultRootElement() public abstract javax.swing.text.Element
-     * javax.swing.text.Document.getDefaultRootElement()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#getDefaultRootElement()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultRootElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Document#getEndPosition() public abstract javax.swing.text.Position
-     * javax.swing.text.Document.getEndPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#getEndPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEndPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.text.Document#getLength() public abstract int
      * javax.swing.text.Document.getLength()}.
@@ -148,7 +41,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#getLength()
+     * @see javax.swing.text.Document#getLength() public abstract int javax.swing.text.Document.getLength() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +56,291 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Document#getProperty(java.lang.Object) public abstract java.lang.Object
+     * Test method for {@link javax.swing.text.Document#insertString(int, String, javax.swing.text.AttributeSet) public
+     * abstract void javax.swing.text.Document.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
+     * javax.swing.text.BadLocationException}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#insertString(int, String, javax.swing.text.AttributeSet) public
+     * abstract void javax.swing.text.Document.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
+     * javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#insertString(int, String, javax.swing.text.AttributeSet) public abstract void
+     *      javax.swing.text.Document.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
+     *      javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertString_int_String_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#render(Runnable) public abstract void
+     * javax.swing.text.Document.render(java.lang.Runnable)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#render(Runnable) public abstract void
+     * javax.swing.text.Document.render(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#render(Runnable) public abstract void
+     *      javax.swing.text.Document.render(java.lang.Runnable) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_render_Runnable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#removeDocumentListener(javax.swing.event.DocumentListener)
+     * public abstract void javax.swing.text.Document.removeDocumentListener(javax.swing.event.DocumentListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#removeDocumentListener(javax.swing.event.DocumentListener)
+     * public abstract void javax.swing.text.Document.removeDocumentListener(javax.swing.event.DocumentListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#removeDocumentListener(javax.swing.event.DocumentListener) public abstract void
+     *      javax.swing.text.Document.removeDocumentListener(javax.swing.event.DocumentListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeDocumentListener_DocumentListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getStartPosition() public abstract javax.swing.text.Position
+     * javax.swing.text.Document.getStartPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getStartPosition() public abstract javax.swing.text.Position
+     * javax.swing.text.Document.getStartPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#getStartPosition() public abstract javax.swing.text.Position
+     *      javax.swing.text.Document.getStartPosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStartPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#createPosition(int) public abstract javax.swing.text.Position
+     * javax.swing.text.Document.createPosition(int) throws javax.swing.text.BadLocationException}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#createPosition(int) public abstract javax.swing.text.Position
+     * javax.swing.text.Document.createPosition(int) throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#createPosition(int) public abstract javax.swing.text.Position
+     *      javax.swing.text.Document.createPosition(int) throws javax.swing.text.BadLocationException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createPosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getEndPosition() public abstract javax.swing.text.Position
+     * javax.swing.text.Document.getEndPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getEndPosition() public abstract javax.swing.text.Position
+     * javax.swing.text.Document.getEndPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#getEndPosition() public abstract javax.swing.text.Position
+     *      javax.swing.text.Document.getEndPosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEndPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#addUndoableEditListener(javax.swing.event.UndoableEditListener)
+     * public abstract void javax.swing.text.Document.addUndoableEditListener(javax.swing.event.UndoableEditListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#addUndoableEditListener(javax.swing.event.UndoableEditListener)
+     * public abstract void javax.swing.text.Document.addUndoableEditListener(javax.swing.event.UndoableEditListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#addUndoableEditListener(javax.swing.event.UndoableEditListener) public abstract
+     *      void javax.swing.text.Document.addUndoableEditListener(javax.swing.event.UndoableEditListener) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addUndoableEditListener_UndoableEditListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.Document#removeUndoableEditListener(javax.swing.event.UndoableEditListener) public
+     * abstract void javax.swing.text.Document.removeUndoableEditListener(javax.swing.event.UndoableEditListener)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.Document#removeUndoableEditListener(javax.swing.event.UndoableEditListener) public
+     * abstract void javax.swing.text.Document.removeUndoableEditListener(javax.swing.event.UndoableEditListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#removeUndoableEditListener(javax.swing.event.UndoableEditListener) public abstract
+     *      void javax.swing.text.Document.removeUndoableEditListener(javax.swing.event.UndoableEditListener) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeUndoableEditListener_UndoableEditListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#remove(int, int) public abstract void
+     * javax.swing.text.Document.remove(int,int) throws javax.swing.text.BadLocationException}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#remove(int, int) public abstract void
+     * javax.swing.text.Document.remove(int,int) throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#remove(int, int) public abstract void javax.swing.text.Document.remove(int,int)
+     *      throws javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#putProperty(Object, Object) public abstract void
+     * javax.swing.text.Document.putProperty(java.lang.Object,java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#putProperty(Object, Object) public abstract void
+     * javax.swing.text.Document.putProperty(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.Document#putProperty(Object, Object) public abstract void
+     *      javax.swing.text.Document.putProperty(java.lang.Object,java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putProperty_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getProperty(Object) public abstract java.lang.Object
+     * javax.swing.text.Document.getProperty(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getProperty(Object) public abstract java.lang.Object
      * javax.swing.text.Document.getProperty(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +348,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#getProperty(java.lang.Object)
+     * @see javax.swing.text.Document#getProperty(Object) public abstract java.lang.Object
+     *      javax.swing.text.Document.getProperty(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,12 +366,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.swing.text.Document#getRootElements() public abstract javax.swing.text.Element[]
      * javax.swing.text.Document.getRootElements()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getRootElements() public abstract javax.swing.text.Element[]
+     * javax.swing.text.Document.getRootElements()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#getRootElements()
+     * @see javax.swing.text.Document#getRootElements() public abstract javax.swing.text.Element[]
+     *      javax.swing.text.Document.getRootElements() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -206,27 +390,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Document#getStartPosition() public abstract javax.swing.text.Position
-     * javax.swing.text.Document.getStartPosition()}.
+     * Test method for {@link javax.swing.text.Document#getText(int, int) public abstract java.lang.String
+     * javax.swing.text.Document.getText(int,int) throws javax.swing.text.BadLocationException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#getStartPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStartPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.text.Document#getText(int, int) public abstract java.lang.String
      * javax.swing.text.Document.getText(int,int) throws javax.swing.text.BadLocationException}.
@@ -236,7 +402,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#getText(int, int)
+     * @see javax.swing.text.Document#getText(int, int) public abstract java.lang.String
+     *      javax.swing.text.Document.getText(int,int) throws javax.swing.text.BadLocationException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,12 +422,19 @@ extends RepositoryTests<SUT> {
      * javax.swing.text.Document.getText(int,int,javax.swing.text.Segment) throws javax.swing.text.BadLocationException}
      * .
      *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#getText(int, int, javax.swing.text.Segment) public abstract void
+     * javax.swing.text.Document.getText(int,int,javax.swing.text.Segment) throws javax.swing.text.BadLocationException}
+     * .
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#getText(int, int, javax.swing.text.Segment)
+     * @see javax.swing.text.Document#getText(int, int, javax.swing.text.Segment) public abstract void
+     *      javax.swing.text.Document.getText(int,int,javax.swing.text.Segment) throws
+     *      javax.swing.text.BadLocationException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,22 +448,26 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.Document#insertString(int, java.lang.String, javax.swing.text.AttributeSet) public
-     * abstract void javax.swing.text.Document.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
-     * javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.text.Document#addDocumentListener(javax.swing.event.DocumentListener) public
+     * abstract void javax.swing.text.Document.addDocumentListener(javax.swing.event.DocumentListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.Document#addDocumentListener(javax.swing.event.DocumentListener) public
+     * abstract void javax.swing.text.Document.addDocumentListener(javax.swing.event.DocumentListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#insertString(int, java.lang.String, javax.swing.text.AttributeSet)
+     * @see javax.swing.text.Document#addDocumentListener(javax.swing.event.DocumentListener) public abstract void
+     *      javax.swing.text.Document.addDocumentListener(javax.swing.event.DocumentListener) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insertString_int_String_AttributeSet()
+    public default void test_addDocumentListener_DocumentListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -297,109 +476,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Document#putProperty(java.lang.Object, java.lang.Object) public abstract
-     * void javax.swing.text.Document.putProperty(java.lang.Object,java.lang.Object)}.
+     * Test method for {@link javax.swing.text.Document#getDefaultRootElement() public abstract javax.swing.text.Element
+     * javax.swing.text.Document.getDefaultRootElement()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#putProperty(java.lang.Object, java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putProperty_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.text.Document#remove(int, int) public abstract void
-     * javax.swing.text.Document.remove(int,int) throws javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.text.Document#getDefaultRootElement() public abstract javax.swing.text.Element
+     * javax.swing.text.Document.getDefaultRootElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.Document#remove(int, int)
+     * @see javax.swing.text.Document#getDefaultRootElement() public abstract javax.swing.text.Element
+     *      javax.swing.text.Document.getDefaultRootElement() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Document#removeDocumentListener(javax.swing.event.DocumentListener)
-     * public abstract void javax.swing.text.Document.removeDocumentListener(javax.swing.event.DocumentListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#removeDocumentListener(javax.swing.event.DocumentListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeDocumentListener_DocumentListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.Document#removeUndoableEditListener(javax.swing.event.UndoableEditListener) public
-     * abstract void javax.swing.text.Document.removeUndoableEditListener(javax.swing.event.UndoableEditListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#removeUndoableEditListener(javax.swing.event.UndoableEditListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeUndoableEditListener_UndoableEditListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Document#render(java.lang.Runnable) public abstract void
-     * javax.swing.text.Document.render(java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.Document#render(java.lang.Runnable)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_render_Runnable()
+    public default void test_getDefaultRootElement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,48 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.peer.ContainerPeer interface java.awt.peer.ContainerPeer},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.peer.ContainerPeerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.peer.ContainerPeer interface java.awt.peer.ContainerPeer}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ContainerPeerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.peer.ContainerPeerClassTests
+ * @see java.awt.peer.ContainerPeer interface java.awt.peer.ContainerPeer (the hereby targeted class-under-test class)
+ * @see ContainerPeerClassTests ContainerPeerClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.peer.ContainerPeer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ContainerPeerTests<SUT extends java.awt.peer.ContainerPeer>
-extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
+extends ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ContainerPeer#beginLayout() public abstract void
-     * java.awt.peer.ContainerPeer.beginLayout()}.
+     * Test method for {@link java.awt.peer.ContainerPeer#beginValidate() public abstract void
+     * java.awt.peer.ContainerPeer.beginValidate()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.ContainerPeer#beginLayout()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_beginLayout()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.peer.ContainerPeer#beginValidate() public abstract void
      * java.awt.peer.ContainerPeer.beginValidate()}.
@@ -59,7 +40,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.ContainerPeer#beginValidate()
+     * @see java.awt.peer.ContainerPeer#beginValidate() public abstract void java.awt.peer.ContainerPeer.beginValidate()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,6 +55,37 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.peer.ContainerPeer#beginLayout() public abstract void
+     * java.awt.peer.ContainerPeer.beginLayout()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.ContainerPeer#beginLayout() public abstract void
+     * java.awt.peer.ContainerPeer.beginLayout()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.ContainerPeer#beginLayout() public abstract void java.awt.peer.ContainerPeer.beginLayout()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_beginLayout()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.ContainerPeer#endLayout() public abstract void
+     * java.awt.peer.ContainerPeer.endLayout()}.
+     *
+     * <p>
      * Test method for {@link java.awt.peer.ContainerPeer#endLayout() public abstract void
      * java.awt.peer.ContainerPeer.endLayout()}.
      *
@@ -81,7 +94,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.ContainerPeer#endLayout()
+     * @see java.awt.peer.ContainerPeer#endLayout() public abstract void java.awt.peer.ContainerPeer.endLayout() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,12 +112,17 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * Test method for {@link java.awt.peer.ContainerPeer#endValidate() public abstract void
      * java.awt.peer.ContainerPeer.endValidate()}.
      *
+     * <p>
+     * Test method for {@link java.awt.peer.ContainerPeer#endValidate() public abstract void
+     * java.awt.peer.ContainerPeer.endValidate()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.ContainerPeer#endValidate()
+     * @see java.awt.peer.ContainerPeer#endValidate() public abstract void java.awt.peer.ContainerPeer.endValidate()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,12 +139,17 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * Test method for {@link java.awt.peer.ContainerPeer#getInsets() public abstract java.awt.Insets
      * java.awt.peer.ContainerPeer.getInsets()}.
      *
+     * <p>
+     * Test method for {@link java.awt.peer.ContainerPeer#getInsets() public abstract java.awt.Insets
+     * java.awt.peer.ContainerPeer.getInsets()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.ContainerPeer#getInsets()
+     * @see java.awt.peer.ContainerPeer#getInsets() public abstract java.awt.Insets
+     *      java.awt.peer.ContainerPeer.getInsets() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

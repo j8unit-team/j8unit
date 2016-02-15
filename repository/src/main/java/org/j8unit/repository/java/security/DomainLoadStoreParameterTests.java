@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.DomainLoadStoreParameter class
- * java.security.DomainLoadStoreParameter}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.DomainLoadStoreParameterTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.DomainLoadStoreParameter class
+ * java.security.DomainLoadStoreParameter}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DomainLoadStoreParameterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.DomainLoadStoreParameterClassTests
+ * @see java.security.DomainLoadStoreParameter class java.security.DomainLoadStoreParameter (the hereby targeted
+ *      class-under-test class)
+ * @see DomainLoadStoreParameterClassTests DomainLoadStoreParameterClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.DomainLoadStoreParameter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DomainLoadStoreParameterTests<SUT extends java.security.DomainLoadStoreParameter>
-extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends KeyStoreTests.LoadStoreParameterTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.DomainLoadStoreParameter#getConfiguration() public java.net.URI
+     * java.security.DomainLoadStoreParameter.getConfiguration()}.
+     *
      * <p>
      * Test method for {@link java.security.DomainLoadStoreParameter#getConfiguration() public java.net.URI
      * java.security.DomainLoadStoreParameter.getConfiguration()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.DomainLoadStoreParameter#getConfiguration()
+     * @see java.security.DomainLoadStoreParameter#getConfiguration() public java.net.URI
+     *      java.security.DomainLoadStoreParameter.getConfiguration() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,17 +60,23 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
      * Test method for {@link java.security.DomainLoadStoreParameter#getProtectionParameter() public
      * java.security.KeyStore$ProtectionParameter java.security.DomainLoadStoreParameter.getProtectionParameter()}.
      *
+     * <p>
+     * Test method for {@link java.security.DomainLoadStoreParameter#getProtectionParameter() public
+     * java.security.KeyStore$ProtectionParameter java.security.DomainLoadStoreParameter.getProtectionParameter()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.DomainLoadStoreParameter#getProtectionParameter()
+     * @see java.security.DomainLoadStoreParameter#getProtectionParameter() public
+     *      java.security.KeyStore$ProtectionParameter java.security.DomainLoadStoreParameter.getProtectionParameter()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getProtectionParameter()
     throws Exception {
         // query fresh subject-under-test
@@ -74,6 +86,11 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
 
     /**
      * <p>
+     * Test method for {@link java.security.DomainLoadStoreParameter#getProtectionParams() public
+     * java.util.Map<java.lang.String, java.security.KeyStore$ProtectionParameter>
+     * java.security.DomainLoadStoreParameter.getProtectionParams()}.
+     *
+     * <p>
      * Test method for {@link java.security.DomainLoadStoreParameter#getProtectionParams() public java.util.Map
      * java.security.DomainLoadStoreParameter.getProtectionParams()}.
      *
@@ -82,7 +99,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.DomainLoadStoreParameter#getProtectionParams()
+     * @see java.security.DomainLoadStoreParameter#getProtectionParams() public java.util.Map
+     *      java.security.DomainLoadStoreParameter.getProtectionParams() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

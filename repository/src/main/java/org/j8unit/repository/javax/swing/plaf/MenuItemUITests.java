@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.MenuItemUI class javax.swing.plaf.MenuItemUI},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.MenuItemUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.MenuItemUI class javax.swing.plaf.MenuItemUI}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link MenuItemUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.MenuItemUIClassTests
+ * @see javax.swing.plaf.MenuItemUI class javax.swing.plaf.MenuItemUI (the hereby targeted class-under-test class)
+ * @see MenuItemUIClassTests MenuItemUIClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.MenuItemUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuItemUITests<SUT extends javax.swing.plaf.MenuItemUI>
-extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
+extends ButtonUITests<SUT> {
 
 }

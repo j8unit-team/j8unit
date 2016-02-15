@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.Reference interface
- * javax.xml.crypto.dsig.Reference}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.ReferenceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.Reference interface javax.xml.crypto.dsig.Reference}
+ * . The complementary j8unit test interface containing the class relevant aspects is {@link ReferenceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.dsig.ReferenceClassTests
+ * @see javax.xml.crypto.dsig.Reference interface javax.xml.crypto.dsig.Reference (the hereby targeted class-under-test
+ *      class)
+ * @see ReferenceClassTests ReferenceClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.dsig.Reference
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +32,17 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
      * Test method for {@link javax.xml.crypto.dsig.Reference#getCalculatedDigestValue() public abstract byte[]
      * javax.xml.crypto.dsig.Reference.getCalculatedDigestValue()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getCalculatedDigestValue() public abstract byte[]
+     * javax.xml.crypto.dsig.Reference.getCalculatedDigestValue()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getCalculatedDigestValue()
+     * @see javax.xml.crypto.dsig.Reference#getCalculatedDigestValue() public abstract byte[]
+     *      javax.xml.crypto.dsig.Reference.getCalculatedDigestValue() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,71 +56,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.Reference#getDereferencedData() public abstract
-     * javax.xml.crypto.Data javax.xml.crypto.dsig.Reference.getDereferencedData()}.
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestValue() public abstract byte[]
+     * javax.xml.crypto.dsig.Reference.getDigestValue()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getDereferencedData()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDereferencedData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestInputStream() public abstract java.io.InputStream
-     * javax.xml.crypto.dsig.Reference.getDigestInputStream()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getDigestInputStream()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDigestInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestMethod() public abstract
-     * javax.xml.crypto.dsig.DigestMethod javax.xml.crypto.dsig.Reference.getDigestMethod()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getDigestMethod()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDigestMethod()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestValue() public abstract byte[]
      * javax.xml.crypto.dsig.Reference.getDigestValue()}.
@@ -125,7 +68,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getDigestValue()
+     * @see javax.xml.crypto.dsig.Reference#getDigestValue() public abstract byte[]
+     *      javax.xml.crypto.dsig.Reference.getDigestValue() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,20 +83,25 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.Reference#getId() public abstract java.lang.String
-     * javax.xml.crypto.dsig.Reference.getId()}.
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestInputStream() public abstract java.io.InputStream
+     * javax.xml.crypto.dsig.Reference.getDigestInputStream()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestInputStream() public abstract java.io.InputStream
+     * javax.xml.crypto.dsig.Reference.getDigestInputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getId()
+     * @see javax.xml.crypto.dsig.Reference#getDigestInputStream() public abstract java.io.InputStream
+     *      javax.xml.crypto.dsig.Reference.getDigestInputStream() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getId()
+    public default void test_getDigestInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -164,12 +113,17 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
      * Test method for {@link javax.xml.crypto.dsig.Reference#getTransforms() public abstract java.util.List
      * javax.xml.crypto.dsig.Reference.getTransforms()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getTransforms() public abstract java.util.List
+     * javax.xml.crypto.dsig.Reference.getTransforms()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#getTransforms()
+     * @see javax.xml.crypto.dsig.Reference#getTransforms() public abstract java.util.List
+     *      javax.xml.crypto.dsig.Reference.getTransforms() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,17 +141,105 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
      * abstract boolean javax.xml.crypto.dsig.Reference.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
      * javax.xml.crypto.dsig.XMLSignatureException}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#validate(javax.xml.crypto.dsig.XMLValidateContext) public
+     * abstract boolean javax.xml.crypto.dsig.Reference.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
+     * javax.xml.crypto.dsig.XMLSignatureException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Reference#validate(javax.xml.crypto.dsig.XMLValidateContext)
+     * @see javax.xml.crypto.dsig.Reference#validate(javax.xml.crypto.dsig.XMLValidateContext) public abstract boolean
+     *      javax.xml.crypto.dsig.Reference.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
+     *      javax.xml.crypto.dsig.XMLSignatureException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_validate_XMLValidateContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDereferencedData() public abstract
+     * javax.xml.crypto.Data javax.xml.crypto.dsig.Reference.getDereferencedData()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDereferencedData() public abstract
+     * javax.xml.crypto.Data javax.xml.crypto.dsig.Reference.getDereferencedData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.crypto.dsig.Reference#getDereferencedData() public abstract javax.xml.crypto.Data
+     *      javax.xml.crypto.dsig.Reference.getDereferencedData() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDereferencedData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestMethod() public abstract
+     * javax.xml.crypto.dsig.DigestMethod javax.xml.crypto.dsig.Reference.getDigestMethod()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getDigestMethod() public abstract
+     * javax.xml.crypto.dsig.DigestMethod javax.xml.crypto.dsig.Reference.getDigestMethod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.crypto.dsig.Reference#getDigestMethod() public abstract javax.xml.crypto.dsig.DigestMethod
+     *      javax.xml.crypto.dsig.Reference.getDigestMethod() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDigestMethod()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getId() public abstract java.lang.String
+     * javax.xml.crypto.dsig.Reference.getId()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Reference#getId() public abstract java.lang.String
+     * javax.xml.crypto.dsig.Reference.getId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.crypto.dsig.Reference#getId() public abstract java.lang.String
+     *      javax.xml.crypto.dsig.Reference.getId() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

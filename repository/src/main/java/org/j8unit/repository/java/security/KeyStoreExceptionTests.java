@@ -5,23 +5,23 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.KeyStoreException class java.security.KeyStoreException}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.KeyStoreExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.KeyStoreException class java.security.KeyStoreException}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link KeyStoreExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.KeyStoreExceptionClassTests
+ * @see java.security.KeyStoreException class java.security.KeyStoreException (the hereby targeted class-under-test
+ *      class)
+ * @see KeyStoreExceptionClassTests KeyStoreExceptionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.KeyStoreException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyStoreExceptionTests<SUT extends java.security.KeyStoreException>
-extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
+extends GeneralSecurityExceptionTests<SUT> {
 
 }

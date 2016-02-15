@@ -8,48 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.spec.ECParameterSpec class
- * java.security.spec.ECParameterSpec}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.spec.ECParameterSpecTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.spec.ECParameterSpec class
+ * java.security.spec.ECParameterSpec}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link ECParameterSpecClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.spec.ECParameterSpecClassTests
+ * @see java.security.spec.ECParameterSpec class java.security.spec.ECParameterSpec (the hereby targeted
+ *      class-under-test class)
+ * @see ECParameterSpecClassTests ECParameterSpecClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.spec.ECParameterSpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECParameterSpecTests<SUT extends java.security.spec.ECParameterSpec>
-extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends AlgorithmParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECParameterSpec#getCofactor() public int
-     * java.security.spec.ECParameterSpec.getCofactor()}.
+     * Test method for {@link java.security.spec.ECParameterSpec#getCurve() public java.security.spec.EllipticCurve
+     * java.security.spec.ECParameterSpec.getCurve()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.spec.ECParameterSpec#getCofactor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCofactor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.spec.ECParameterSpec#getCurve() public java.security.spec.EllipticCurve
      * java.security.spec.ECParameterSpec.getCurve()}.
@@ -59,7 +42,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.ECParameterSpec#getCurve()
+     * @see java.security.spec.ECParameterSpec#getCurve() public java.security.spec.EllipticCurve
+     *      java.security.spec.ECParameterSpec.getCurve() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,27 +57,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECParameterSpec#getGenerator() public java.security.spec.ECPoint
-     * java.security.spec.ECParameterSpec.getGenerator()}.
+     * Test method for {@link java.security.spec.ECParameterSpec#getOrder() public java.math.BigInteger
+     * java.security.spec.ECParameterSpec.getOrder()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.spec.ECParameterSpec#getGenerator()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGenerator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.spec.ECParameterSpec#getOrder() public java.math.BigInteger
      * java.security.spec.ECParameterSpec.getOrder()}.
@@ -103,12 +69,67 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.ECParameterSpec#getOrder()
+     * @see java.security.spec.ECParameterSpec#getOrder() public java.math.BigInteger
+     *      java.security.spec.ECParameterSpec.getOrder() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getOrder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECParameterSpec#getCofactor() public int
+     * java.security.spec.ECParameterSpec.getCofactor()}.
+     *
+     * <p>
+     * Test method for {@link java.security.spec.ECParameterSpec#getCofactor() public int
+     * java.security.spec.ECParameterSpec.getCofactor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.spec.ECParameterSpec#getCofactor() public int java.security.spec.ECParameterSpec.getCofactor()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCofactor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECParameterSpec#getGenerator() public java.security.spec.ECPoint
+     * java.security.spec.ECParameterSpec.getGenerator()}.
+     *
+     * <p>
+     * Test method for {@link java.security.spec.ECParameterSpec#getGenerator() public java.security.spec.ECPoint
+     * java.security.spec.ECParameterSpec.getGenerator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.spec.ECParameterSpec#getGenerator() public java.security.spec.ECPoint
+     *      java.security.spec.ECParameterSpec.getGenerator() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGenerator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

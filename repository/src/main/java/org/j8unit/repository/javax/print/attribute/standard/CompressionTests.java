@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.Compression class
- * javax.print.attribute.standard.Compression}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.print.attribute.standard.CompressionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.Compression class
+ * javax.print.attribute.standard.Compression}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link CompressionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.standard.CompressionClassTests
+ * @see javax.print.attribute.standard.Compression class javax.print.attribute.standard.Compression (the hereby targeted
+ *      class-under-test class)
+ * @see CompressionClassTests CompressionClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.standard.Compression
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +29,10 @@ public abstract interface CompressionTests<SUT extends javax.print.attribute.sta
 extends org.j8unit.repository.javax.print.attribute.DocAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.Compression#getCategory() public final java.lang.Class<?
+     * extends javax.print.attribute.Attribute> javax.print.attribute.standard.Compression.getCategory()}.
+     *
      * <p>
      * Test method for {@link javax.print.attribute.standard.Compression#getCategory() public final java.lang.Class
      * javax.print.attribute.standard.Compression.getCategory()}.
@@ -37,12 +42,13 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeTests<SUT>, org.
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.Compression#getCategory()
+     * @see javax.print.attribute.standard.Compression#getCategory() public final java.lang.Class
+     *      javax.print.attribute.standard.Compression.getCategory() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getCategory()
     throws Exception {
         // query fresh subject-under-test
@@ -55,17 +61,22 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeTests<SUT>, org.
      * Test method for {@link javax.print.attribute.standard.Compression#getName() public final java.lang.String
      * javax.print.attribute.standard.Compression.getName()}.
      *
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.Compression#getName() public final java.lang.String
+     * javax.print.attribute.standard.Compression.getName()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.Compression#getName()
+     * @see javax.print.attribute.standard.Compression#getName() public final java.lang.String
+     *      javax.print.attribute.standard.Compression.getName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getName()
     throws Exception {
         // query fresh subject-under-test

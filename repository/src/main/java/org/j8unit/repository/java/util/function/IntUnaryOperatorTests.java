@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.IntUnaryOperator interface
- * java.util.function.IntUnaryOperator}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.IntUnaryOperatorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.IntUnaryOperator interface
+ * java.util.function.IntUnaryOperator}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link IntUnaryOperatorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.IntUnaryOperatorClassTests
+ * @see java.util.function.IntUnaryOperator interface java.util.function.IntUnaryOperator (the hereby targeted
+ *      class-under-test class)
+ * @see IntUnaryOperatorClassTests IntUnaryOperatorClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.IntUnaryOperator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,21 +31,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public
+     * Test method for {@link java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public
      * default java.util.function.IntUnaryOperator
-     * java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator)}.
+     * java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator)}.
+     *
+     * <p>
+     * Test method for {@link java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public
+     * default java.util.function.IntUnaryOperator
+     * java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator)
+     * @see java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public default
+     *      java.util.function.IntUnaryOperator
+     *      java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_andThen_IntUnaryOperator()
+    public default void test_compose_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,12 +65,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.util.function.IntUnaryOperator#applyAsInt(int) public abstract int
      * java.util.function.IntUnaryOperator.applyAsInt(int)}.
      *
+     * <p>
+     * Test method for {@link java.util.function.IntUnaryOperator#applyAsInt(int) public abstract int
+     * java.util.function.IntUnaryOperator.applyAsInt(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.IntUnaryOperator#applyAsInt(int)
+     * @see java.util.function.IntUnaryOperator#applyAsInt(int) public abstract int
+     *      java.util.function.IntUnaryOperator.applyAsInt(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,21 +89,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public
+     * Test method for {@link java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public
      * default java.util.function.IntUnaryOperator
-     * java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator)}.
+     * java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator)}.
+     *
+     * <p>
+     * Test method for {@link java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public
+     * default java.util.function.IntUnaryOperator
+     * java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator)
+     * @see java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public default
+     *      java.util.function.IntUnaryOperator
+     *      java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compose_IntUnaryOperator()
+    public default void test_andThen_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

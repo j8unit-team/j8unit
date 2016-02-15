@@ -1,38 +1,50 @@
 package org.j8unit.repository.javax.sound.midi;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.midi.MidiSystem class javax.sound.midi.MidiSystem},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.sound.midi.MidiSystemTests}.
+ * Reusable j8unit test interface for {@linkplain javax.sound.midi.MidiSystem class javax.sound.midi.MidiSystem},
+ * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In
+ * addition, the runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link MidiSystemTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.midi.MidiSystemTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MidiSystemTests}.
+ * </p>
+ *
+ * @see javax.sound.midi.MidiSystem class javax.sound.midi.MidiSystem (the hereby targeted class-under-test class)
+ * @see MidiSystemTests MidiSystemTests (The complementary j8unit test interface containing the instance relevant test
+ *      methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.midi.MidiSystem
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,514 +52,20 @@ public abstract interface MidiSystemClassTests<SUT extends javax.sound.midi.Midi
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiDevice(javax.sound.midi.MidiDevice.Info) public static
-     * javax.sound.midi.MidiDevice javax.sound.midi.MidiSystem.getMidiDevice(javax.sound.midi.MidiDevice$Info) throws
-     * javax.sound.midi.MidiUnavailableException}.
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiDevice(javax.sound.midi.MidiDevice.Info)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiDevice_Info()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiDeviceInfo() public static
-     * javax.sound.midi.MidiDevice$Info[] javax.sound.midi.MidiSystem.getMidiDeviceInfo()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiDeviceInfo()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiDeviceInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.File) public static
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.MidiSystem.getMidiFileFormat(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiFileFormat_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.InputStream) public static
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.MidiSystem.getMidiFileFormat(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.InputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiFileFormat_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.net.URL) public static
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.MidiSystem.getMidiFileFormat(java.net.URL) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiFileFormat(java.net.URL)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiFileFormat_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiFileTypes() public static int[]
-     * javax.sound.midi.MidiSystem.getMidiFileTypes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiFileTypes()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiFileTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getMidiFileTypes(javax.sound.midi.Sequence) public static
-     * int[] javax.sound.midi.MidiSystem.getMidiFileTypes(javax.sound.midi.Sequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getMidiFileTypes(javax.sound.midi.Sequence)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiFileTypes_Sequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getReceiver() public static javax.sound.midi.Receiver
-     * javax.sound.midi.MidiSystem.getReceiver() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getReceiver()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReceiver()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSequence(java.io.File) public static
-     * javax.sound.midi.Sequence javax.sound.midi.MidiSystem.getSequence(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSequence(java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSequence_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSequence(java.io.InputStream) public static
-     * javax.sound.midi.Sequence javax.sound.midi.MidiSystem.getSequence(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSequence(java.io.InputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSequence_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSequence(java.net.URL) public static
-     * javax.sound.midi.Sequence javax.sound.midi.MidiSystem.getSequence(java.net.URL) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSequence(java.net.URL)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSequence_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSequencer() public static javax.sound.midi.Sequencer
-     * javax.sound.midi.MidiSystem.getSequencer() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSequencer()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSequencer()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSequencer(boolean) public static javax.sound.midi.Sequencer
-     * javax.sound.midi.MidiSystem.getSequencer(boolean) throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSequencer(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSequencer_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSoundbank(java.io.File) public static
-     * javax.sound.midi.Soundbank javax.sound.midi.MidiSystem.getSoundbank(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSoundbank(java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSoundbank_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSoundbank(java.io.InputStream) public static
-     * javax.sound.midi.Soundbank javax.sound.midi.MidiSystem.getSoundbank(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSoundbank(java.io.InputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSoundbank_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSoundbank(java.net.URL) public static
-     * javax.sound.midi.Soundbank javax.sound.midi.MidiSystem.getSoundbank(java.net.URL) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSoundbank(java.net.URL)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSoundbank_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getSynthesizer() public static javax.sound.midi.Synthesizer
-     * javax.sound.midi.MidiSystem.getSynthesizer() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getSynthesizer()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSynthesizer()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#getTransmitter() public static javax.sound.midi.Transmitter
-     * javax.sound.midi.MidiSystem.getTransmitter() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#getTransmitter()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransmitter()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int) public static boolean
-     * javax.sound.midi.MidiSystem.isFileTypeSupported(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#isFileTypeSupported(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFileTypeSupported_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int, javax.sound.midi.Sequence) public
-     * static boolean javax.sound.midi.MidiSystem.isFileTypeSupported(int,javax.sound.midi.Sequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#isFileTypeSupported(int, javax.sound.midi.Sequence)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFileTypeSupported_int_Sequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#write(javax.sound.midi.Sequence, int, java.io.File) public
-     * static int javax.sound.midi.MidiSystem.write(javax.sound.midi.Sequence,int,java.io.File) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#write(javax.sound.midi.Sequence, int, java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_Sequence_int_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiSystem#write(javax.sound.midi.Sequence, int, java.io.OutputStream)
-     * public static int javax.sound.midi.MidiSystem.write(javax.sound.midi.Sequence,int,java.io.OutputStream) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#write(javax.sound.midi.Sequence, int, java.io.OutputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_Sequence_int_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * @since 0.9.2
-     *
-     * @j8unit.aim javax.sound.midi.MidiSystem#isAssignableFrom(java.lang.Class)
      */
     @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @BeforeClass
+    public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue(javax.sound.midi.MidiSystem.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.sound.midi.MidiSystem.class!",
+                   javax.sound.midi.MidiSystem.class.isAssignableFrom(sut));
     }
 
 }

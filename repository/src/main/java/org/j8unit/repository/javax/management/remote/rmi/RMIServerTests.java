@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.remote.rmi.RMIServer interface
- * javax.management.remote.rmi.RMIServer}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.remote.rmi.RMIServerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.remote.rmi.RMIServer interface
+ * javax.management.remote.rmi.RMIServer}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link RMIServerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.remote.rmi.RMIServerClassTests
+ * @see javax.management.remote.rmi.RMIServer interface javax.management.remote.rmi.RMIServer (the hereby targeted
+ *      class-under-test class)
+ * @see RMIServerClassTests RMIServerClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.remote.rmi.RMIServer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,18 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * Test method for {@link javax.management.remote.rmi.RMIServer#getVersion() public abstract java.lang.String
      * javax.management.remote.rmi.RMIServer.getVersion() throws java.rmi.RemoteException}.
      *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIServer#getVersion() public abstract java.lang.String
+     * javax.management.remote.rmi.RMIServer.getVersion() throws java.rmi.RemoteException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIServer#getVersion()
+     * @see javax.management.remote.rmi.RMIServer#getVersion() public abstract java.lang.String
+     *      javax.management.remote.rmi.RMIServer.getVersion() throws java.rmi.RemoteException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,7 +58,12 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIServer#newClient(java.lang.Object) public abstract
+     * Test method for {@link javax.management.remote.rmi.RMIServer#newClient(Object) public abstract
+     * javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIServer#newClient(Object) public abstract
      * javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object)
      * throws java.io.IOException}.
      *
@@ -60,7 +72,9 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIServer#newClient(java.lang.Object)
+     * @see javax.management.remote.rmi.RMIServer#newClient(Object) public abstract
+     *      javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object)
+     *      throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.file.DirectoryNotEmptyException class
- * java.nio.file.DirectoryNotEmptyException}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.file.DirectoryNotEmptyExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.file.DirectoryNotEmptyException class
+ * java.nio.file.DirectoryNotEmptyException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DirectoryNotEmptyExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.file.DirectoryNotEmptyExceptionClassTests
+ * @see java.nio.file.DirectoryNotEmptyException class java.nio.file.DirectoryNotEmptyException (the hereby targeted
+ *      class-under-test class)
+ * @see DirectoryNotEmptyExceptionClassTests DirectoryNotEmptyExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.file.DirectoryNotEmptyException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirectoryNotEmptyExceptionTests<SUT extends java.nio.file.DirectoryNotEmptyException>
-extends org.j8unit.repository.java.nio.file.FileSystemExceptionTests<SUT> {
+extends FileSystemExceptionTests<SUT> {
 
 }

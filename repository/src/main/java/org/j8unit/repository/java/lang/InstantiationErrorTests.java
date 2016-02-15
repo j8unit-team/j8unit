@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.InstantiationError class java.lang.InstantiationError},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.InstantiationErrorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain InstantiationError class java.lang.InstantiationError}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link InstantiationErrorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.InstantiationErrorClassTests
+ * @see InstantiationError class java.lang.InstantiationError (the hereby targeted class-under-test class)
+ * @see InstantiationErrorClassTests InstantiationErrorClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.InstantiationError
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InstantiationErrorTests<SUT extends java.lang.InstantiationError>
-extends org.j8unit.repository.java.lang.IncompatibleClassChangeErrorTests<SUT> {
+public abstract interface InstantiationErrorTests<SUT extends InstantiationError>
+extends IncompatibleClassChangeErrorTests<SUT> {
 
 }

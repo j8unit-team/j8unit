@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.PrintJobAttribute interface
- * javax.print.attribute.PrintJobAttribute}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.attribute.PrintJobAttribute interface
+ * javax.print.attribute.PrintJobAttribute}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link PrintJobAttributeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests
+ * @see javax.print.attribute.PrintJobAttribute interface javax.print.attribute.PrintJobAttribute (the hereby targeted
+ *      class-under-test class)
+ * @see PrintJobAttributeClassTests PrintJobAttributeClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.PrintJobAttribute
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintJobAttributeTests<SUT extends javax.print.attribute.PrintJobAttribute>
-extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT> {
+extends AttributeTests<SUT> {
 
 }

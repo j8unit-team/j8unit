@@ -8,215 +8,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.table.DefaultTableColumnModel class
- * javax.swing.table.DefaultTableColumnModel}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.table.DefaultTableColumnModelTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.table.DefaultTableColumnModel class
+ * javax.swing.table.DefaultTableColumnModel}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DefaultTableColumnModelClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.table.DefaultTableColumnModelClassTests
+ * @see javax.swing.table.DefaultTableColumnModel class javax.swing.table.DefaultTableColumnModel (the hereby targeted
+ *      class-under-test class)
+ * @see DefaultTableColumnModelClassTests DefaultTableColumnModelClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.table.DefaultTableColumnModel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTableColumnModelTests<SUT extends javax.swing.table.DefaultTableColumnModel>
-extends org.j8unit.repository.javax.swing.table.TableColumnModelTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>,
+extends TableColumnModelTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>,
 org.j8unit.repository.javax.swing.event.ListSelectionListenerTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
 org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#addColumn(javax.swing.table.TableColumn) public
-     * void javax.swing.table.DefaultTableColumnModel.addColumn(javax.swing.table.TableColumn)}.
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumns() public java.util.Enumeration
+     * <javax.swing.table.TableColumn> javax.swing.table.DefaultTableColumnModel.getColumns()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#addColumn(javax.swing.table.TableColumn)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addColumn_TableColumn()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.table.DefaultTableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener)
-     * public void
-     * javax.swing.table.DefaultTableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#addColumnModelListener(javax.swing.event.
-     *             TableColumnModelListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addColumnModelListener_TableColumnModelListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumn(int) public
-     * javax.swing.table.TableColumn javax.swing.table.DefaultTableColumnModel.getColumn(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumn(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumn_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnCount() public int
-     * javax.swing.table.DefaultTableColumnModel.getColumnCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumnCount()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnIndex(java.lang.Object) public int
-     * javax.swing.table.DefaultTableColumnModel.getColumnIndex(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumnIndex(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnIndex_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnIndexAtX(int) public int
-     * javax.swing.table.DefaultTableColumnModel.getColumnIndexAtX(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumnIndexAtX(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnIndexAtX_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnMargin() public int
-     * javax.swing.table.DefaultTableColumnModel.getColumnMargin()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumnMargin()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnMargin()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnModelListeners() public
-     * javax.swing.event.TableColumnModelListener[] javax.swing.table.DefaultTableColumnModel.getColumnModelListeners()}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumnModelListeners()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnModelListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumns() public java.util.Enumeration
      * javax.swing.table.DefaultTableColumnModel.getColumns()}.
@@ -226,219 +44,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumns()
+     * @see javax.swing.table.DefaultTableColumnModel#getColumns() public java.util.Enumeration
+     *      javax.swing.table.DefaultTableColumnModel.getColumns() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getColumns()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnSelectionAllowed() public boolean
-     * javax.swing.table.DefaultTableColumnModel.getColumnSelectionAllowed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getColumnSelectionAllowed()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnSelectionAllowed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getListeners(java.lang.Class) public
-     * java.util.EventListener[] javax.swing.table.DefaultTableColumnModel.getListeners(java.lang.Class)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getListeners(java.lang.Class)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectedColumnCount() public int
-     * javax.swing.table.DefaultTableColumnModel.getSelectedColumnCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getSelectedColumnCount()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSelectedColumnCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectedColumns() public int[]
-     * javax.swing.table.DefaultTableColumnModel.getSelectedColumns()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getSelectedColumns()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSelectedColumns()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectionModel() public
-     * javax.swing.ListSelectionModel javax.swing.table.DefaultTableColumnModel.getSelectionModel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getSelectionModel()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSelectionModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getTotalColumnWidth() public int
-     * javax.swing.table.DefaultTableColumnModel.getTotalColumnWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#getTotalColumnWidth()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getTotalColumnWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#moveColumn(int, int) public void
-     * javax.swing.table.DefaultTableColumnModel.moveColumn(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#moveColumn(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_moveColumn_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#propertyChange(java.beans.PropertyChangeEvent)
-     * public void javax.swing.table.DefaultTableColumnModel.propertyChange(java.beans.PropertyChangeEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#propertyChange(java.beans.PropertyChangeEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_propertyChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableColumnModel#removeColumn(javax.swing.table.TableColumn)
-     * public void javax.swing.table.DefaultTableColumnModel.removeColumn(javax.swing.table.TableColumn)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#removeColumn(javax.swing.table.TableColumn)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeColumn_TableColumn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -452,19 +65,312 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * public void
      * javax.swing.table.DefaultTableColumnModel.removeColumnModelListener(javax.swing.event.TableColumnModelListener)}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.swing.table.DefaultTableColumnModel#removeColumnModelListener(javax.swing.event.TableColumnModelListener)
+     * public void
+     * javax.swing.table.DefaultTableColumnModel.removeColumnModelListener(javax.swing.event.TableColumnModelListener)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#removeColumnModelListener(javax.swing.event.
-     *             TableColumnModelListener)
+     * @see javax.swing.table.DefaultTableColumnModel#removeColumnModelListener(javax.swing.event.TableColumnModelListener)
+     *      public void javax.swing.table.DefaultTableColumnModel.removeColumnModelListener(javax.swing.event.
+     *      TableColumnModelListener) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeColumnModelListener_TableColumnModelListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnCount() public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnCount()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnCount() public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumnCount() public int
+     *      javax.swing.table.DefaultTableColumnModel.getColumnCount() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnMargin() public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnMargin()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnMargin() public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnMargin()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumnMargin() public int
+     *      javax.swing.table.DefaultTableColumnModel.getColumnMargin() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnMargin()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectionModel() public
+     * javax.swing.ListSelectionModel javax.swing.table.DefaultTableColumnModel.getSelectionModel()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectionModel() public
+     * javax.swing.ListSelectionModel javax.swing.table.DefaultTableColumnModel.getSelectionModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getSelectionModel() public javax.swing.ListSelectionModel
+     *      javax.swing.table.DefaultTableColumnModel.getSelectionModel() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.table.DefaultTableColumnModel#valueChanged(javax.swing.event.ListSelectionEvent) public void
+     * javax.swing.table.DefaultTableColumnModel.valueChanged(javax.swing.event.ListSelectionEvent)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.table.DefaultTableColumnModel#valueChanged(javax.swing.event.ListSelectionEvent) public void
+     * javax.swing.table.DefaultTableColumnModel.valueChanged(javax.swing.event.ListSelectionEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#valueChanged(javax.swing.event.ListSelectionEvent) public void
+     *      javax.swing.table.DefaultTableColumnModel.valueChanged(javax.swing.event.ListSelectionEvent) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_valueChanged_ListSelectionEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnModelListeners() public
+     * javax.swing.event.TableColumnModelListener[] javax.swing.table.DefaultTableColumnModel.getColumnModelListeners()}
+     * .
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnModelListeners() public
+     * javax.swing.event.TableColumnModelListener[] javax.swing.table.DefaultTableColumnModel.getColumnModelListeners()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumnModelListeners() public
+     *      javax.swing.event.TableColumnModelListener[]
+     *      javax.swing.table.DefaultTableColumnModel.getColumnModelListeners() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_getColumnModelListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectedColumnCount() public int
+     * javax.swing.table.DefaultTableColumnModel.getSelectedColumnCount()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectedColumnCount() public int
+     * javax.swing.table.DefaultTableColumnModel.getSelectedColumnCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getSelectedColumnCount() public int
+     *      javax.swing.table.DefaultTableColumnModel.getSelectedColumnCount() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_removeColumnModelListener_TableColumnModelListener()
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedColumnCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#addColumn(javax.swing.table.TableColumn) public
+     * void javax.swing.table.DefaultTableColumnModel.addColumn(javax.swing.table.TableColumn)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#addColumn(javax.swing.table.TableColumn) public
+     * void javax.swing.table.DefaultTableColumnModel.addColumn(javax.swing.table.TableColumn)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#addColumn(javax.swing.table.TableColumn) public void
+     *      javax.swing.table.DefaultTableColumnModel.addColumn(javax.swing.table.TableColumn) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addColumn_TableColumn()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getListeners(Class) public <T> T[]
+     * javax.swing.table.DefaultTableColumnModel.getListeners(java.lang.Class<T>)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getListeners(Class) public
+     * java.util.EventListener[] javax.swing.table.DefaultTableColumnModel.getListeners(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getListeners(Class) public java.util.EventListener[]
+     *      javax.swing.table.DefaultTableColumnModel.getListeners(java.lang.Class) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnIndexAtX(int) public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnIndexAtX(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnIndexAtX(int) public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnIndexAtX(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumnIndexAtX(int) public int
+     *      javax.swing.table.DefaultTableColumnModel.getColumnIndexAtX(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnIndexAtX_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getTotalColumnWidth() public int
+     * javax.swing.table.DefaultTableColumnModel.getTotalColumnWidth()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getTotalColumnWidth() public int
+     * javax.swing.table.DefaultTableColumnModel.getTotalColumnWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getTotalColumnWidth() public int
+     *      javax.swing.table.DefaultTableColumnModel.getTotalColumnWidth() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getTotalColumnWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -476,18 +382,200 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.table.DefaultTableColumnModel#setColumnMargin(int) public void
      * javax.swing.table.DefaultTableColumnModel.setColumnMargin(int)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#setColumnMargin(int) public void
+     * javax.swing.table.DefaultTableColumnModel.setColumnMargin(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#setColumnMargin(int)
+     * @see javax.swing.table.DefaultTableColumnModel#setColumnMargin(int) public void
+     *      javax.swing.table.DefaultTableColumnModel.setColumnMargin(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_setColumnMargin_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectedColumns() public int[]
+     * javax.swing.table.DefaultTableColumnModel.getSelectedColumns()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getSelectedColumns() public int[]
+     * javax.swing.table.DefaultTableColumnModel.getSelectedColumns()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getSelectedColumns() public int[]
+     *      javax.swing.table.DefaultTableColumnModel.getSelectedColumns() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedColumns()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#propertyChange(java.beans.PropertyChangeEvent)
+     * public void javax.swing.table.DefaultTableColumnModel.propertyChange(java.beans.PropertyChangeEvent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#propertyChange(java.beans.PropertyChangeEvent)
+     * public void javax.swing.table.DefaultTableColumnModel.propertyChange(java.beans.PropertyChangeEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#propertyChange(java.beans.PropertyChangeEvent) public void
+     *      javax.swing.table.DefaultTableColumnModel.propertyChange(java.beans.PropertyChangeEvent) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnIndex(Object) public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnIndex(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnIndex(Object) public int
+     * javax.swing.table.DefaultTableColumnModel.getColumnIndex(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumnIndex(Object) public int
+     *      javax.swing.table.DefaultTableColumnModel.getColumnIndex(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnIndex_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumn(int) public
+     * javax.swing.table.TableColumn javax.swing.table.DefaultTableColumnModel.getColumn(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumn(int) public
+     * javax.swing.table.TableColumn javax.swing.table.DefaultTableColumnModel.getColumn(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumn(int) public javax.swing.table.TableColumn
+     *      javax.swing.table.DefaultTableColumnModel.getColumn(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumn_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.table.DefaultTableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener)
+     * public void
+     * javax.swing.table.DefaultTableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.table.DefaultTableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener)
+     * public void
+     * javax.swing.table.DefaultTableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener)
+     *      public void
+     *      javax.swing.table.DefaultTableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addColumnModelListener_TableColumnModelListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnSelectionAllowed() public boolean
+     * javax.swing.table.DefaultTableColumnModel.getColumnSelectionAllowed()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#getColumnSelectionAllowed() public boolean
+     * javax.swing.table.DefaultTableColumnModel.getColumnSelectionAllowed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#getColumnSelectionAllowed() public boolean
+     *      javax.swing.table.DefaultTableColumnModel.getColumnSelectionAllowed() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnSelectionAllowed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -499,17 +587,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.table.DefaultTableColumnModel#setColumnSelectionAllowed(boolean) public void
      * javax.swing.table.DefaultTableColumnModel.setColumnSelectionAllowed(boolean)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#setColumnSelectionAllowed(boolean) public void
+     * javax.swing.table.DefaultTableColumnModel.setColumnSelectionAllowed(boolean)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#setColumnSelectionAllowed(boolean)
+     * @see javax.swing.table.DefaultTableColumnModel#setColumnSelectionAllowed(boolean) public void
+     *      javax.swing.table.DefaultTableColumnModel.setColumnSelectionAllowed(boolean) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_setColumnSelectionAllowed_boolean()
     throws Exception {
         // query fresh subject-under-test
@@ -523,17 +617,24 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link javax.swing.table.DefaultTableColumnModel#setSelectionModel(javax.swing.ListSelectionModel) public void
      * javax.swing.table.DefaultTableColumnModel.setSelectionModel(javax.swing.ListSelectionModel)}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.swing.table.DefaultTableColumnModel#setSelectionModel(javax.swing.ListSelectionModel) public void
+     * javax.swing.table.DefaultTableColumnModel.setSelectionModel(javax.swing.ListSelectionModel)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#setSelectionModel(javax.swing.ListSelectionModel)
+     * @see javax.swing.table.DefaultTableColumnModel#setSelectionModel(javax.swing.ListSelectionModel) public void
+     *      javax.swing.table.DefaultTableColumnModel.setSelectionModel(javax.swing.ListSelectionModel) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_setSelectionModel_ListSelectionModel()
     throws Exception {
         // query fresh subject-under-test
@@ -543,22 +644,55 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.DefaultTableColumnModel#valueChanged(javax.swing.event.ListSelectionEvent) public void
-     * javax.swing.table.DefaultTableColumnModel.valueChanged(javax.swing.event.ListSelectionEvent)}.
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#moveColumn(int, int) public void
+     * javax.swing.table.DefaultTableColumnModel.moveColumn(int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#moveColumn(int, int) public void
+     * javax.swing.table.DefaultTableColumnModel.moveColumn(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableColumnModel#valueChanged(javax.swing.event.ListSelectionEvent)
+     * @see javax.swing.table.DefaultTableColumnModel#moveColumn(int, int) public void
+     *      javax.swing.table.DefaultTableColumnModel.moveColumn(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
+    public default void test_moveColumn_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#removeColumn(javax.swing.table.TableColumn)
+     * public void javax.swing.table.DefaultTableColumnModel.removeColumn(javax.swing.table.TableColumn)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableColumnModel#removeColumn(javax.swing.table.TableColumn)
+     * public void javax.swing.table.DefaultTableColumnModel.removeColumn(javax.swing.table.TableColumn)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableColumnModel#removeColumn(javax.swing.table.TableColumn) public void
+     *      javax.swing.table.DefaultTableColumnModel.removeColumn(javax.swing.table.TableColumn) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_valueChanged_ListSelectionEvent()
+    @Test
+    @Category(Draft.class)
+    public default void test_removeColumn_TableColumn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

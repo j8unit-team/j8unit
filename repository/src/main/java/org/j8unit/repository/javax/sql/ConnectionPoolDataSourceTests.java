@@ -8,26 +8,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sql.ConnectionPoolDataSource interface
- * javax.sql.ConnectionPoolDataSource}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sql.ConnectionPoolDataSourceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sql.ConnectionPoolDataSource interface
+ * javax.sql.ConnectionPoolDataSource}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link ConnectionPoolDataSourceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sql.ConnectionPoolDataSourceClassTests
+ * @see javax.sql.ConnectionPoolDataSource interface javax.sql.ConnectionPoolDataSource (the hereby targeted
+ *      class-under-test class)
+ * @see ConnectionPoolDataSourceClassTests ConnectionPoolDataSourceClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sql.ConnectionPoolDataSource
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConnectionPoolDataSourceTests<SUT extends javax.sql.ConnectionPoolDataSource>
-extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
+extends CommonDataSourceTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.sql.ConnectionPoolDataSource#getPooledConnection() public abstract
+     * javax.sql.PooledConnection javax.sql.ConnectionPoolDataSource.getPooledConnection() throws java.sql.SQLException}
+     * .
+     *
      * <p>
      * Test method for {@link javax.sql.ConnectionPoolDataSource#getPooledConnection() public abstract
      * javax.sql.PooledConnection javax.sql.ConnectionPoolDataSource.getPooledConnection() throws java.sql.SQLException}
@@ -38,7 +44,9 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.ConnectionPoolDataSource#getPooledConnection()
+     * @see javax.sql.ConnectionPoolDataSource#getPooledConnection() public abstract javax.sql.PooledConnection
+     *      javax.sql.ConnectionPoolDataSource.getPooledConnection() throws java.sql.SQLException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,8 +60,14 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.ConnectionPoolDataSource#getPooledConnection(java.lang.String, java.lang.String)
-     * public abstract javax.sql.PooledConnection
+     * Test method for {@link javax.sql.ConnectionPoolDataSource#getPooledConnection(String, String) public abstract
+     * javax.sql.PooledConnection
+     * javax.sql.ConnectionPoolDataSource.getPooledConnection(java.lang.String,java.lang.String) throws
+     * java.sql.SQLException}.
+     *
+     * <p>
+     * Test method for {@link javax.sql.ConnectionPoolDataSource#getPooledConnection(String, String) public abstract
+     * javax.sql.PooledConnection
      * javax.sql.ConnectionPoolDataSource.getPooledConnection(java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
      *
@@ -62,7 +76,10 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.ConnectionPoolDataSource#getPooledConnection(java.lang.String, java.lang.String)
+     * @see javax.sql.ConnectionPoolDataSource#getPooledConnection(String, String) public abstract
+     *      javax.sql.PooledConnection
+     *      javax.sql.ConnectionPoolDataSource.getPooledConnection(java.lang.String,java.lang.String) throws
+     *      java.sql.SQLException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

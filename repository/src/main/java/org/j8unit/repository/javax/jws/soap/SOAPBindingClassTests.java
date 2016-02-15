@@ -1,38 +1,50 @@
 package org.j8unit.repository.javax.jws.soap;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.jws.soap.SOAPBinding interface javax.jws.soap.SOAPBinding},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests}.
+ * Reusable j8unit test interface for {@linkplain javax.jws.soap.SOAPBinding interface javax.jws.soap.SOAPBinding},
+ * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In
+ * addition, the runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link SOAPBindingTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SOAPBindingTests}.
+ * </p>
+ *
+ * @see javax.jws.soap.SOAPBinding interface javax.jws.soap.SOAPBinding (the hereby targeted class-under-test class)
+ * @see SOAPBindingTests SOAPBindingTests (The complementary j8unit test interface containing the instance relevant test
+ *      methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.jws.soap.SOAPBinding
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,33 +52,68 @@ public abstract interface SOAPBindingClassTests<SUT extends javax.jws.soap.SOAPB
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     /**
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
+     *
+     * @since 0.9.2
+     */
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.jws.soap.SOAPBinding.class!",
+                   javax.jws.soap.SOAPBinding.class.isAssignableFrom(sut));
+    }
+
+    /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.jws.soap.SOAPBinding.ParameterStyle class
-     * javax.jws.soap.SOAPBinding$ParameterStyle}, containing all class relevant test methods (at least the test methods
-     * of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.ParameterStyleTests}.
+     * Reusable j8unit test interface for {@linkplain javax.jws.soap.SOAPBinding.ParameterStyle class
+     * javax.jws.soap.SOAPBinding$ParameterStyle}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link SOAPBindingTests.ParameterStyleTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.ParameterStyleTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link SOAPBindingTests.ParameterStyleTests}.
+     * </p>
+     *
+     * @see javax.jws.soap.SOAPBinding.ParameterStyle class javax.jws.soap.SOAPBinding$ParameterStyle (the hereby
+     *      targeted class-under-test class)
+     * @see SOAPBindingTests.ParameterStyleTests SOAPBindingTests.ParameterStyleTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.jws.soap.SOAPBinding.ParameterStyle
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -74,190 +121,70 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for {@link javax.jws.soap.SOAPBinding.ParameterStyle#valueOf(java.lang.String) public static
-         * javax.jws.soap.SOAPBinding$ParameterStyle
-         * javax.jws.soap.SOAPBinding$ParameterStyle.valueOf(java.lang.String)}.
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.ParameterStyle#valueOf(java.lang.String)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.jws.soap.SOAPBinding.ParameterStyle#values() public static
-         * javax.jws.soap.SOAPBinding$ParameterStyle[] javax.jws.soap.SOAPBinding$ParameterStyle.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.ParameterStyle#values()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_values()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.ParameterStyle#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.jws.soap.SOAPBinding.ParameterStyle.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.jws.soap.SOAPBinding.ParameterStyle.class!",
+                       javax.jws.soap.SOAPBinding.ParameterStyle.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.jws.soap.SOAPBinding.Style class
-     * javax.jws.soap.SOAPBinding$Style}, containing all class relevant test methods (at least the test methods of
-     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests}.
+     * Reusable j8unit test interface for {@linkplain javax.jws.soap.SOAPBinding.Use class
+     * javax.jws.soap.SOAPBinding$Use}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
+     * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
+     * is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see {@link SOAPBindingTests.UseTests}
+     * ).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link SOAPBindingTests.UseTests}.
+     * </p>
+     *
+     * @see javax.jws.soap.SOAPBinding.Use class javax.jws.soap.SOAPBinding$Use (the hereby targeted class-under-test
+     *      class)
+     * @see SOAPBindingTests.UseTests SOAPBindingTests.UseTests (The complementary j8unit test interface containing the
+     *      instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.jws.soap.SOAPBinding.Style
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface StyleClassTests<SUT extends javax.jws.soap.SOAPBinding.Style>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.jws.soap.SOAPBinding.Style#valueOf(java.lang.String) public static
-         * javax.jws.soap.SOAPBinding$Style javax.jws.soap.SOAPBinding$Style.valueOf(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.Style#valueOf(java.lang.String)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.jws.soap.SOAPBinding.Style#values() public static
-         * javax.jws.soap.SOAPBinding$Style[] javax.jws.soap.SOAPBinding$Style.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.Style#values()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_values()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.Style#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.jws.soap.SOAPBinding.Style.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.jws.soap.SOAPBinding.Use class
-     * javax.jws.soap.SOAPBinding$Use}, containing all class relevant test methods (at least the test methods of
-     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.jws.soap.SOAPBinding.Use
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -265,79 +192,93 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for {@link javax.jws.soap.SOAPBinding.Use#valueOf(java.lang.String) public static
-         * javax.jws.soap.SOAPBinding$Use javax.jws.soap.SOAPBinding$Use.valueOf(java.lang.String)}.
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.Use#valueOf(java.lang.String)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.jws.soap.SOAPBinding.Use#values() public static javax.jws.soap.SOAPBinding$Use[]
-         * javax.jws.soap.SOAPBinding$Use.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.Use#values()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_values()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.jws.soap.SOAPBinding.Use#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.jws.soap.SOAPBinding.Use.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.jws.soap.SOAPBinding.Use.class!",
+                       javax.jws.soap.SOAPBinding.Use.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
-     * @since 0.9.2
+     * <p>
+     * Reusable j8unit test interface for {@linkplain javax.jws.soap.SOAPBinding.Style class
+     * javax.jws.soap.SOAPBinding$Style}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
+     * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
+     * is verified by {@link #verifyGenericType()}).
+     * </p>
      *
-     * @j8unit.aim javax.jws.soap.SOAPBinding#isAssignableFrom(java.lang.Class)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link SOAPBindingTests.StyleTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link SOAPBindingTests.StyleTests}.
+     * </p>
+     *
+     * @see javax.jws.soap.SOAPBinding.Style class javax.jws.soap.SOAPBinding$Style (the hereby targeted
+     *      class-under-test class)
+     * @see SOAPBindingTests.StyleTests SOAPBindingTests.StyleTests (The complementary j8unit test interface containing
+     *      the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.jws.soap.SOAPBinding.class.isAssignableFrom(sut));
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface StyleClassTests<SUT extends javax.jws.soap.SOAPBinding.Style>
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.jws.soap.SOAPBinding.Style.class!",
+                       javax.jws.soap.SOAPBinding.Style.class.isAssignableFrom(sut));
+        }
+
     }
 
 }

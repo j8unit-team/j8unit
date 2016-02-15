@@ -8,26 +8,110 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.DynUnion interface org.omg.CORBA.DynUnion}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.DynUnionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.DynUnion interface org.omg.CORBA.DynUnion}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link DynUnionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.DynUnionClassTests
+ * @see org.omg.CORBA.DynUnion interface org.omg.CORBA.DynUnion (the hereby targeted class-under-test class)
+ * @see DynUnionClassTests DynUnionClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.DynUnion
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynUnionTests<SUT extends org.omg.CORBA.DynUnion>
-extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
+extends ObjectTests<SUT>, DynAnyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member() public abstract org.omg.CORBA.DynAny
+     * org.omg.CORBA.DynUnion.member()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member() public abstract org.omg.CORBA.DynAny
+     * org.omg.CORBA.DynUnion.member()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.DynUnion#member() public abstract org.omg.CORBA.DynAny org.omg.CORBA.DynUnion.member() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_member()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member_name(String) public abstract void
+     * org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member_name(String) public abstract void
+     * org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.DynUnion#member_name(String) public abstract void
+     *      org.omg.CORBA.DynUnion.member_name(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_member_name_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member_name() public abstract java.lang.String
+     * org.omg.CORBA.DynUnion.member_name()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member_name() public abstract java.lang.String
+     * org.omg.CORBA.DynUnion.member_name()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.DynUnion#member_name() public abstract java.lang.String org.omg.CORBA.DynUnion.member_name()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_member_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#discriminator() public abstract org.omg.CORBA.DynAny
+     * org.omg.CORBA.DynUnion.discriminator()}.
+     *
      * <p>
      * Test method for {@link org.omg.CORBA.DynUnion#discriminator() public abstract org.omg.CORBA.DynAny
      * org.omg.CORBA.DynUnion.discriminator()}.
@@ -37,7 +121,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.DynUnion#discriminator()
+     * @see org.omg.CORBA.DynUnion#discriminator() public abstract org.omg.CORBA.DynAny
+     *      org.omg.CORBA.DynUnion.discriminator() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +139,17 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * Test method for {@link org.omg.CORBA.DynUnion#discriminator_kind() public abstract org.omg.CORBA.TCKind
      * org.omg.CORBA.DynUnion.discriminator_kind()}.
      *
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#discriminator_kind() public abstract org.omg.CORBA.TCKind
+     * org.omg.CORBA.DynUnion.discriminator_kind()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.DynUnion#discriminator_kind()
+     * @see org.omg.CORBA.DynUnion#discriminator_kind() public abstract org.omg.CORBA.TCKind
+     *      org.omg.CORBA.DynUnion.discriminator_kind() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,27 +163,9 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynUnion#member() public abstract org.omg.CORBA.DynAny
-     * org.omg.CORBA.DynUnion.member()}.
+     * Test method for {@link org.omg.CORBA.DynUnion#member_kind() public abstract org.omg.CORBA.TCKind
+     * org.omg.CORBA.DynUnion.member_kind()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.DynUnion#member()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_member()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.omg.CORBA.DynUnion#member_kind() public abstract org.omg.CORBA.TCKind
      * org.omg.CORBA.DynUnion.member_kind()}.
@@ -103,7 +175,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.DynUnion#member_kind()
+     * @see org.omg.CORBA.DynUnion#member_kind() public abstract org.omg.CORBA.TCKind
+     *      org.omg.CORBA.DynUnion.member_kind() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,49 +190,9 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynUnion#member_name() public abstract java.lang.String
-     * org.omg.CORBA.DynUnion.member_name()}.
+     * Test method for {@link org.omg.CORBA.DynUnion#set_as_default() public abstract boolean
+     * org.omg.CORBA.DynUnion.set_as_default()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.DynUnion#member_name()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_member_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.DynUnion#member_name(java.lang.String) public abstract void
-     * org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.DynUnion#member_name(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_member_name_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.omg.CORBA.DynUnion#set_as_default() public abstract boolean
      * org.omg.CORBA.DynUnion.set_as_default()}.
@@ -169,7 +202,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.DynUnion#set_as_default()
+     * @see org.omg.CORBA.DynUnion#set_as_default() public abstract boolean org.omg.CORBA.DynUnion.set_as_default() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,12 +220,17 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * Test method for {@link org.omg.CORBA.DynUnion#set_as_default(boolean) public abstract void
      * org.omg.CORBA.DynUnion.set_as_default(boolean)}.
      *
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#set_as_default(boolean) public abstract void
+     * org.omg.CORBA.DynUnion.set_as_default(boolean)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.DynUnion#set_as_default(boolean)
+     * @see org.omg.CORBA.DynUnion#set_as_default(boolean) public abstract void
+     *      org.omg.CORBA.DynUnion.set_as_default(boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

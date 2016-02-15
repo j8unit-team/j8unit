@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.xml.sax.DTDHandler interface org.xml.sax.DTDHandler}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.xml.sax.DTDHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.xml.sax.DTDHandler interface org.xml.sax.DTDHandler}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link DTDHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.xml.sax.DTDHandlerClassTests
+ * @see org.xml.sax.DTDHandler interface org.xml.sax.DTDHandler (the hereby targeted class-under-test class)
+ * @see DTDHandlerClassTests DTDHandlerClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.xml.sax.DTDHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,16 +29,23 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.DTDHandler#notationDecl(java.lang.String, java.lang.String, java.lang.String)
-     * public abstract void org.xml.sax.DTDHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.DTDHandler#notationDecl(String, String, String) public abstract void
+     * org.xml.sax.DTDHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.DTDHandler#notationDecl(String, String, String) public abstract void
+     * org.xml.sax.DTDHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.DTDHandler#notationDecl(java.lang.String, java.lang.String, java.lang.String)
+     * @see org.xml.sax.DTDHandler#notationDecl(String, String, String) public abstract void
+     *      org.xml.sax.DTDHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,9 +59,14 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.xml.sax.DTDHandler#unparsedEntityDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
-     * public abstract void
+     * Test method for {@link org.xml.sax.DTDHandler#unparsedEntityDecl(String, String, String, String) public abstract
+     * void
+     * org.xml.sax.DTDHandler.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.DTDHandler#unparsedEntityDecl(String, String, String, String) public abstract
+     * void
      * org.xml.sax.DTDHandler.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws org.xml.sax.SAXException}.
      *
@@ -64,8 +75,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.DTDHandler#unparsedEntityDecl(java.lang.String, java.lang.String, java.lang.String,
-     *             java.lang.String)
+     * @see org.xml.sax.DTDHandler#unparsedEntityDecl(String, String, String, String) public abstract void
+     *      org.xml.sax.DTDHandler.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.
+     *      String) throws org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicPasswordFieldUI class
- * javax.swing.plaf.basic.BasicPasswordFieldUI}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicPasswordFieldUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicPasswordFieldUI class
+ * javax.swing.plaf.basic.BasicPasswordFieldUI}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link BasicPasswordFieldUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicPasswordFieldUIClassTests
+ * @see javax.swing.plaf.basic.BasicPasswordFieldUI class javax.swing.plaf.basic.BasicPasswordFieldUI (the hereby
+ *      targeted class-under-test class)
+ * @see BasicPasswordFieldUIClassTests BasicPasswordFieldUIClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.basic.BasicPasswordFieldUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicPasswordFieldUITests<SUT extends javax.swing.plaf.basic.BasicPasswordFieldUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicTextFieldUITests<SUT> {
+extends BasicTextFieldUITests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicPasswordFieldUI#create(javax.swing.text.Element) public
+     * javax.swing.text.View javax.swing.plaf.basic.BasicPasswordFieldUI.create(javax.swing.text.Element)}.
+     *
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicPasswordFieldUI#create(javax.swing.text.Element) public
      * javax.swing.text.View javax.swing.plaf.basic.BasicPasswordFieldUI.create(javax.swing.text.Element)}.
@@ -37,12 +42,14 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTextFieldUITests<SUT> 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicPasswordFieldUI#create(javax.swing.text.Element)
+     * @see javax.swing.plaf.basic.BasicPasswordFieldUI#create(javax.swing.text.Element) public javax.swing.text.View
+     *      javax.swing.plaf.basic.BasicPasswordFieldUI.create(javax.swing.text.Element) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_create_Element()
     throws Exception {
         // query fresh subject-under-test

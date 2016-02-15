@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.html.HTMLHeadElement interface
- * org.w3c.dom.html.HTMLHeadElement}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLHeadElementTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.html.HTMLHeadElement interface
+ * org.w3c.dom.html.HTMLHeadElement}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link HTMLHeadElementClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.html.HTMLHeadElementClassTests
+ * @see org.w3c.dom.html.HTMLHeadElement interface org.w3c.dom.html.HTMLHeadElement (the hereby targeted
+ *      class-under-test class)
+ * @see HTMLHeadElementClassTests HTMLHeadElementClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.html.HTMLHeadElement
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLHeadElementTests<SUT extends org.w3c.dom.html.HTMLHeadElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
+extends HTMLElementTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLHeadElement#getProfile() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLHeadElement.getProfile()}.
+     *
      * <p>
      * Test method for {@link org.w3c.dom.html.HTMLHeadElement#getProfile() public abstract java.lang.String
      * org.w3c.dom.html.HTMLHeadElement.getProfile()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.html.HTMLHeadElement#getProfile()
+     * @see org.w3c.dom.html.HTMLHeadElement#getProfile() public abstract java.lang.String
+     *      org.w3c.dom.html.HTMLHeadElement.getProfile() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,7 +57,11 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLHeadElement#setProfile(java.lang.String) public abstract void
+     * Test method for {@link org.w3c.dom.html.HTMLHeadElement#setProfile(String) public abstract void
+     * org.w3c.dom.html.HTMLHeadElement.setProfile(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLHeadElement#setProfile(String) public abstract void
      * org.w3c.dom.html.HTMLHeadElement.setProfile(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +69,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.html.HTMLHeadElement#setProfile(java.lang.String)
+     * @see org.w3c.dom.html.HTMLHeadElement#setProfile(String) public abstract void
+     *      org.w3c.dom.html.HTMLHeadElement.setProfile(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

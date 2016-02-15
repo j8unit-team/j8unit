@@ -8,114 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.net.JarURLConnection class java.net.JarURLConnection}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.net.JarURLConnectionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.net.JarURLConnection class java.net.JarURLConnection}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link JarURLConnectionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.net.JarURLConnectionClassTests
+ * @see java.net.JarURLConnection class java.net.JarURLConnection (the hereby targeted class-under-test class)
+ * @see JarURLConnectionClassTests JarURLConnectionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.net.JarURLConnection
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JarURLConnectionTests<SUT extends java.net.JarURLConnection>
-extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
+extends URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.JarURLConnection#getAttributes() public java.util.jar.Attributes
-     * java.net.JarURLConnection.getAttributes() throws java.io.IOException}.
+     * Test method for {@link java.net.JarURLConnection#getJarFile() public abstract java.util.jar.JarFile
+     * java.net.JarURLConnection.getJarFile() throws java.io.IOException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.JarURLConnection#getAttributes()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getCertificates() public java.security.cert.Certificate[]
-     * java.net.JarURLConnection.getCertificates() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.JarURLConnection#getCertificates()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertificates()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getEntryName() public java.lang.String
-     * java.net.JarURLConnection.getEntryName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.JarURLConnection#getEntryName()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEntryName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getJarEntry() public java.util.jar.JarEntry
-     * java.net.JarURLConnection.getJarEntry() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.JarURLConnection#getJarEntry()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJarEntry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.net.JarURLConnection#getJarFile() public abstract java.util.jar.JarFile
      * java.net.JarURLConnection.getJarFile() throws java.io.IOException}.
@@ -125,7 +40,8 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.JarURLConnection#getJarFile()
+     * @see java.net.JarURLConnection#getJarFile() public abstract java.util.jar.JarFile
+     *      java.net.JarURLConnection.getJarFile() throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,20 +55,26 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.JarURLConnection#getJarFileURL() public java.net.URL
-     * java.net.JarURLConnection.getJarFileURL()}.
+     * Test method for {@link java.net.JarURLConnection#getCertificates() public java.security.cert.Certificate[]
+     * java.net.JarURLConnection.getCertificates() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getCertificates() public java.security.cert.Certificate[]
+     * java.net.JarURLConnection.getCertificates() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.JarURLConnection#getJarFileURL()
+     * @see java.net.JarURLConnection#getCertificates() public java.security.cert.Certificate[]
+     *      java.net.JarURLConnection.getCertificates() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getJarFileURL()
+    public default void test_getCertificates()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -164,12 +86,18 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * Test method for {@link java.net.JarURLConnection#getMainAttributes() public java.util.jar.Attributes
      * java.net.JarURLConnection.getMainAttributes() throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getMainAttributes() public java.util.jar.Attributes
+     * java.net.JarURLConnection.getMainAttributes() throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.JarURLConnection#getMainAttributes()
+     * @see java.net.JarURLConnection#getMainAttributes() public java.util.jar.Attributes
+     *      java.net.JarURLConnection.getMainAttributes() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,17 +114,130 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
      * Test method for {@link java.net.JarURLConnection#getManifest() public java.util.jar.Manifest
      * java.net.JarURLConnection.getManifest() throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getManifest() public java.util.jar.Manifest
+     * java.net.JarURLConnection.getManifest() throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.JarURLConnection#getManifest()
+     * @see java.net.JarURLConnection#getManifest() public java.util.jar.Manifest
+     *      java.net.JarURLConnection.getManifest() throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getManifest()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarEntry() public java.util.jar.JarEntry
+     * java.net.JarURLConnection.getJarEntry() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarEntry() public java.util.jar.JarEntry
+     * java.net.JarURLConnection.getJarEntry() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.JarURLConnection#getJarEntry() public java.util.jar.JarEntry
+     *      java.net.JarURLConnection.getJarEntry() throws java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJarEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getEntryName() public java.lang.String
+     * java.net.JarURLConnection.getEntryName()}.
+     *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getEntryName() public java.lang.String
+     * java.net.JarURLConnection.getEntryName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.JarURLConnection#getEntryName() public java.lang.String java.net.JarURLConnection.getEntryName()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEntryName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarFileURL() public java.net.URL
+     * java.net.JarURLConnection.getJarFileURL()}.
+     *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarFileURL() public java.net.URL
+     * java.net.JarURLConnection.getJarFileURL()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.JarURLConnection#getJarFileURL() public java.net.URL java.net.JarURLConnection.getJarFileURL() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJarFileURL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getAttributes() public java.util.jar.Attributes
+     * java.net.JarURLConnection.getAttributes() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getAttributes() public java.util.jar.Attributes
+     * java.net.JarURLConnection.getAttributes() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.JarURLConnection#getAttributes() public java.util.jar.Attributes
+     *      java.net.JarURLConnection.getAttributes() throws java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

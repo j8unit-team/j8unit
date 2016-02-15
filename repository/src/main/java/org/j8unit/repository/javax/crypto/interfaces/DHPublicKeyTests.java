@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.crypto.interfaces.DHPublicKey interface
- * javax.crypto.interfaces.DHPublicKey}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.crypto.interfaces.DHPublicKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.crypto.interfaces.DHPublicKey interface
+ * javax.crypto.interfaces.DHPublicKey}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DHPublicKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.crypto.interfaces.DHPublicKeyClassTests
+ * @see javax.crypto.interfaces.DHPublicKey interface javax.crypto.interfaces.DHPublicKey (the hereby targeted
+ *      class-under-test class)
+ * @see DHPublicKeyClassTests DHPublicKeyClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.crypto.interfaces.DHPublicKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DHPublicKeyTests<SUT extends javax.crypto.interfaces.DHPublicKey>
-extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8unit.repository.java.security.PublicKeyTests<SUT> {
+extends DHKeyTests<SUT>, org.j8unit.repository.java.security.PublicKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.crypto.interfaces.DHPublicKey#getY() public abstract java.math.BigInteger
+     * javax.crypto.interfaces.DHPublicKey.getY()}.
+     *
      * <p>
      * Test method for {@link javax.crypto.interfaces.DHPublicKey#getY() public abstract java.math.BigInteger
      * javax.crypto.interfaces.DHPublicKey.getY()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8uni
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.crypto.interfaces.DHPublicKey#getY()
+     * @see javax.crypto.interfaces.DHPublicKey#getY() public abstract java.math.BigInteger
+     *      javax.crypto.interfaces.DHPublicKey.getY() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane class
- * javax.swing.plaf.basic.BasicInternalFrameTitlePane}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane class
+ * javax.swing.plaf.basic.BasicInternalFrameTitlePane}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link BasicInternalFrameTitlePaneClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests
+ * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane class javax.swing.plaf.basic.BasicInternalFrameTitlePane (the
+ *      hereby targeted class-under-test class)
+ * @see BasicInternalFrameTitlePaneClassTests BasicInternalFrameTitlePaneClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,224 +30,52 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests}.
+     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane#paintComponent(java.awt.Graphics)
+     * public void javax.swing.plaf.basic.BasicInternalFrameTitlePane.paintComponent(java.awt.Graphics)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane#paintComponent(java.awt.Graphics)
+     * public void javax.swing.plaf.basic.BasicInternalFrameTitlePane.paintComponent(java.awt.Graphics)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.CloseActionClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane#paintComponent(java.awt.Graphics) public void
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane.paintComponent(java.awt.Graphics) (the hereby targeted
+     *      method-under-test)
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CloseActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction>
-    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#actionPerformed(java.awt.event.
-         *             ActionEvent)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintComponent_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.IconifyActionClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface IconifyActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction>
-    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction.actionPerformed(java.awt.event.ActionEvent)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#actionPerformed(java.awt.event.
-         *             ActionEvent)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.MaximizeActionClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MaximizeActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction>
-    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction.actionPerformed(java.awt.event.ActionEvent)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#actionPerformed(java.awt.event.
-         *             ActionEvent)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.MoveActionClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MoveActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction>
-    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#actionPerformed(java.awt.event.
-         *             ActionEvent)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of
      * {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler class
-     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests}.
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler}. The complementary j8unit test
+     * interface containing the class relevant aspects is
+     * {@link BasicInternalFrameTitlePaneClassTests.PropertyChangeHandlerClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.
-     *      PropertyChangeHandlerClassTests
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler (the hereby targeted
+     *      class-under-test class)
+     * @see BasicInternalFrameTitlePaneClassTests.PropertyChangeHandlerClassTests
+     *      BasicInternalFrameTitlePaneClassTests.PropertyChangeHandlerClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -261,18 +90,27 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}
          * .
          *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}
+         * .
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#propertyChange(java.
-         *             beans.PropertyChangeEvent)
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler.propertyChange(java.beans.
+         *      PropertyChangeEvent) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_propertyChange_PropertyChangeEvent()
         throws Exception {
             // query fresh subject-under-test
@@ -284,71 +122,21 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction class
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.SizeActionClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.RestoreActionClassTests
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction (the hereby targeted class-under-test class)
+     * @see BasicInternalFrameTitlePaneClassTests.SizeActionClassTests
+     *      BasicInternalFrameTitlePaneClassTests.SizeActionClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface RestoreActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction>
-    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction.actionPerformed(java.awt.event.ActionEvent)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#actionPerformed(java.awt.event.
-         *             ActionEvent)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.SizeActionClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -362,18 +150,26 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * public void
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#actionPerformed(java.awt.event.
-         *             ActionEvent)
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_actionPerformed_ActionEvent()
         throws Exception {
             // query fresh subject-under-test
@@ -385,137 +181,23 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout}. The complementary j8unit test
+     * interface containing the class relevant aspects is
+     * {@link BasicInternalFrameTitlePaneClassTests.TitlePaneLayoutClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.SystemMenuBarClassTests
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout (the hereby targeted class-under-test
+     *      class)
+     * @see BasicInternalFrameTitlePaneClassTests.TitlePaneLayoutClassTests
+     *      BasicInternalFrameTitlePaneClassTests.TitlePaneLayoutClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface SystemMenuBarTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar>
-    extends org.j8unit.repository.javax.swing.JMenuBarTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isFocusTraversable()
-         * public boolean javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isFocusTraversable()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isFocusTraversable()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_isFocusTraversable()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isOpaque() public
-         * boolean javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isOpaque()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isOpaque()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_isOpaque()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#paint(java.awt.Graphics) public void
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.paint(java.awt.Graphics)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#paint(java.awt.Graphics)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_paint_Graphics()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#requestFocus() public
-         * void javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.requestFocus()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#requestFocus()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_requestFocus()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout
-     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.TitlePaneLayoutClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -525,7 +207,14 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#addLayoutComponent(java.lang.String, java.awt.Component)
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#addLayoutComponent(String, java.awt.Component)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
+         * .
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#addLayoutComponent(String, java.awt.Component)
          * public void
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
          * .
@@ -535,13 +224,15 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#addLayoutComponent(java.lang.
-         *             String, java.awt.Component)
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#addLayoutComponent(String,
+         *      java.awt.Component) public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.addLayoutComponent(java.lang.String,
+         *      java.awt.Component) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_addLayoutComponent_String_Component()
         throws Exception {
             // query fresh subject-under-test
@@ -556,18 +247,26 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * public void
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.layoutContainer(java.awt.Container)}.
          *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#layoutContainer(java.awt.Container)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.layoutContainer(java.awt.Container)}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#layoutContainer(java.awt.
-         *             Container)
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#layoutContainer(java.awt.Container)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.layoutContainer(java.awt.Container)
+         *      (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_layoutContainer_Container()
         throws Exception {
             // query fresh subject-under-test
@@ -582,45 +281,27 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.minimumLayoutSize(java.awt.Container)}.
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#minimumLayoutSize(java.awt.
-         *             Container)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_minimumLayoutSize_Container()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#preferredLayoutSize(java.awt.Container)
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#minimumLayoutSize(java.awt.Container)
          * public java.awt.Dimension
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.preferredLayoutSize(java.awt.Container)}.
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.minimumLayoutSize(java.awt.Container)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#preferredLayoutSize(java.awt.
-         *             Container)
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#minimumLayoutSize(java.awt.Container)
+         *      public java.awt.Dimension
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.minimumLayoutSize(java.awt.Container)
+         *      (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
-        public default void test_preferredLayoutSize_Container()
+        public default void test_minimumLayoutSize_Container()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -635,19 +316,62 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.removeLayoutComponent(java.awt.Component)}
          * .
          *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#removeLayoutComponent(java.awt.Component)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.removeLayoutComponent(java.awt.Component)}
+         * .
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#removeLayoutComponent(java.awt
-         *             .Component)
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#removeLayoutComponent(java.awt.Component)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.removeLayoutComponent(java.awt.
+         *      Component) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_removeLayoutComponent_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#preferredLayoutSize(java.awt.Container)
+         * public java.awt.Dimension
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.preferredLayoutSize(java.awt.Container)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#preferredLayoutSize(java.awt.Container)
+         * public java.awt.Dimension
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.preferredLayoutSize(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#preferredLayoutSize(java.awt.Container)
+         *      public java.awt.Dimension
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout.preferredLayoutSize(java.awt.
+         *      Container) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_preferredLayoutSize_Container()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -658,24 +382,450 @@ extends org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane#paintComponent(java.awt.Graphics)
-     * public void javax.swing.plaf.basic.BasicInternalFrameTitlePane.paintComponent(java.awt.Graphics)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction class
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.RestoreActionClassTests}.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicInternalFrameTitlePane#paintComponent(java.awt.Graphics)
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction (the hereby targeted class-under-test
+     *      class)
+     * @see BasicInternalFrameTitlePaneClassTests.RestoreActionClassTests
+     *      BasicInternalFrameTitlePaneClassTests.RestoreActionClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paintComponent_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface RestoreActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction>
+    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction.actionPerformed(java.awt.event.ActionEvent)}
+         * .
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction.actionPerformed(java.awt.event.ActionEvent)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar class
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.SystemMenuBarClassTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar (the hereby targeted class-under-test
+     *      class)
+     * @see BasicInternalFrameTitlePaneClassTests.SystemMenuBarClassTests
+     *      BasicInternalFrameTitlePaneClassTests.SystemMenuBarClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface SystemMenuBarTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar>
+    extends org.j8unit.repository.javax.swing.JMenuBarTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#paint(java.awt.Graphics) public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.paint(java.awt.Graphics)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#paint(java.awt.Graphics) public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.paint(java.awt.Graphics)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#paint(java.awt.Graphics) public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.paint(java.awt.Graphics) (the hereby
+         *      targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paint_Graphics()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isFocusTraversable()
+         * public boolean javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isFocusTraversable()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isFocusTraversable()
+         * public boolean javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isFocusTraversable()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isFocusTraversable() public boolean
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isFocusTraversable() (the hereby
+         *      targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_isFocusTraversable()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isOpaque() public
+         * boolean javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isOpaque()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isOpaque() public
+         * boolean javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isOpaque()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#isOpaque() public boolean
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.isOpaque() (the hereby targeted
+         *      method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_isOpaque()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#requestFocus() public
+         * void javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.requestFocus()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#requestFocus() public
+         * void javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.requestFocus()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#requestFocus() public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar.requestFocus() (the hereby targeted
+         *      method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_requestFocus()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction
+     * class javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.MaximizeActionClassTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction (the hereby targeted class-under-test
+     *      class)
+     * @see BasicInternalFrameTitlePaneClassTests.MaximizeActionClassTests
+     *      BasicInternalFrameTitlePaneClassTests.MaximizeActionClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface MaximizeActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction>
+    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction.actionPerformed(java.awt.event.ActionEvent)}
+         * .
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction.actionPerformed(java.awt.event.ActionEvent)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction class
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.IconifyActionClassTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction (the hereby targeted class-under-test
+     *      class)
+     * @see BasicInternalFrameTitlePaneClassTests.IconifyActionClassTests
+     *      BasicInternalFrameTitlePaneClassTests.IconifyActionClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface IconifyActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction>
+    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction.actionPerformed(java.awt.event.ActionEvent)}
+         * .
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction.actionPerformed(java.awt.event.ActionEvent)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction class
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.MoveActionClassTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction (the hereby targeted class-under-test class)
+     * @see BasicInternalFrameTitlePaneClassTests.MoveActionClassTests
+     *      BasicInternalFrameTitlePaneClassTests.MoveActionClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface MoveActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction>
+    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction class
+     * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicInternalFrameTitlePaneClassTests.CloseActionClassTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction class
+     *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction (the hereby targeted class-under-test class)
+     * @see BasicInternalFrameTitlePaneClassTests.CloseActionClassTests
+     *      BasicInternalFrameTitlePaneClassTests.CloseActionClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface CloseActionTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction>
+    extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
     }
 
 }

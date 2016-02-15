@@ -8,26 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.EnumSet class java.util.EnumSet}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.util.EnumSetTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.EnumSet class java.util.EnumSet}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link EnumSetClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.EnumSetClassTests
+ * @see java.util.EnumSet class java.util.EnumSet (the hereby targeted class-under-test class)
+ * @see EnumSetClassTests EnumSetClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.EnumSet
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumSetTests<SUT extends java.util.EnumSet<E>, E extends java.lang.Enum<E>>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
+public abstract interface EnumSetTests<SUT extends java.util.EnumSet<E>, E extends Enum<E>>
+extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSetTests<SUT, E> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.EnumSet#clone() public java.util.EnumSet<E> java.util.EnumSet.clone()}.
+     *
      * <p>
      * Test method for {@link java.util.EnumSet#clone() public java.util.EnumSet java.util.EnumSet.clone()}.
      *
@@ -36,7 +38,8 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumSet#clone()
+     * @see java.util.EnumSet#clone() public java.util.EnumSet java.util.EnumSet.clone() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

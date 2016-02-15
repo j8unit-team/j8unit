@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSizeName class
- * javax.print.attribute.standard.MediaSizeName}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.MediaSizeName class
+ * javax.print.attribute.standard.MediaSizeName}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link MediaSizeNameClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameClassTests
+ * @see javax.print.attribute.standard.MediaSizeName class javax.print.attribute.standard.MediaSizeName (the hereby
+ *      targeted class-under-test class)
+ * @see MediaSizeNameClassTests MediaSizeNameClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.standard.MediaSizeName
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaSizeNameTests<SUT extends javax.print.attribute.standard.MediaSizeName>
-extends org.j8unit.repository.javax.print.attribute.standard.MediaTests<SUT> {
+extends MediaTests<SUT> {
 
 }

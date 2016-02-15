@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.image.DataBuffer class java.awt.image.DataBuffer}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.image.DataBufferTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.image.DataBuffer class java.awt.image.DataBuffer}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link DataBufferClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.image.DataBufferClassTests
+ * @see java.awt.image.DataBuffer class java.awt.image.DataBuffer (the hereby targeted class-under-test class)
+ * @see DataBufferClassTests DataBufferClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.image.DataBuffer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,48 +28,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getDataType() public int
-     * java.awt.image.DataBuffer.getDataType()}.
+     * Test method for {@link java.awt.image.DataBuffer#getElem(int, int) public abstract int
+     * java.awt.image.DataBuffer.getElem(int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getDataType()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getElem(int) public int java.awt.image.DataBuffer.getElem(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getElem(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElem_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.image.DataBuffer#getElem(int, int) public abstract int
      * java.awt.image.DataBuffer.getElem(int,int)}.
@@ -80,7 +40,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#getElem(int, int)
+     * @see java.awt.image.DataBuffer#getElem(int, int) public abstract int java.awt.image.DataBuffer.getElem(int,int)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,42 +55,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getElemDouble(int) public double
-     * java.awt.image.DataBuffer.getElemDouble(int)}.
+     * Test method for {@link java.awt.image.DataBuffer#getElem(int) public int java.awt.image.DataBuffer.getElem(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getElemDouble(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElemDouble_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getElemDouble(int, int) public double
-     * java.awt.image.DataBuffer.getElemDouble(int,int)}.
+     * Test method for {@link java.awt.image.DataBuffer#getElem(int) public int java.awt.image.DataBuffer.getElem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#getElemDouble(int, int)
+     * @see java.awt.image.DataBuffer#getElem(int) public int java.awt.image.DataBuffer.getElem(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElemDouble_int_int()
+    public default void test_getElem_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,12 +83,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.image.DataBuffer#getElemFloat(int) public float
      * java.awt.image.DataBuffer.getElemFloat(int)}.
      *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getElemFloat(int) public float
+     * java.awt.image.DataBuffer.getElemFloat(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#getElemFloat(int)
+     * @see java.awt.image.DataBuffer#getElemFloat(int) public float java.awt.image.DataBuffer.getElemFloat(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,12 +110,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.image.DataBuffer#getElemFloat(int, int) public float
      * java.awt.image.DataBuffer.getElemFloat(int,int)}.
      *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getElemFloat(int, int) public float
+     * java.awt.image.DataBuffer.getElemFloat(int,int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#getElemFloat(int, int)
+     * @see java.awt.image.DataBuffer#getElemFloat(int, int) public float
+     *      java.awt.image.DataBuffer.getElemFloat(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -182,113 +134,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getNumBanks() public int
-     * java.awt.image.DataBuffer.getNumBanks()}.
+     * Test method for {@link java.awt.image.DataBuffer#setElem(int, int, int) public abstract void
+     * java.awt.image.DataBuffer.setElem(int,int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getNumBanks()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNumBanks()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getOffset() public int java.awt.image.DataBuffer.getOffset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getOffset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getOffsets() public int[]
-     * java.awt.image.DataBuffer.getOffsets()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getOffsets()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffsets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBuffer#getSize() public int java.awt.image.DataBuffer.getSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#getSize()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBuffer#setElem(int, int) public void
-     * java.awt.image.DataBuffer.setElem(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.image.DataBuffer#setElem(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setElem_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.image.DataBuffer#setElem(int, int, int) public abstract void
      * java.awt.image.DataBuffer.setElem(int,int,int)}.
@@ -298,7 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#setElem(int, int, int)
+     * @see java.awt.image.DataBuffer#setElem(int, int, int) public abstract void
+     *      java.awt.image.DataBuffer.setElem(int,int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -312,6 +161,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.DataBuffer#setElem(int, int) public void
+     * java.awt.image.DataBuffer.setElem(int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#setElem(int, int) public void
+     * java.awt.image.DataBuffer.setElem(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#setElem(int, int) public void java.awt.image.DataBuffer.setElem(int,int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setElem_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#setElemDouble(int, double) public void
+     * java.awt.image.DataBuffer.setElemDouble(int,double)}.
+     *
+     * <p>
      * Test method for {@link java.awt.image.DataBuffer#setElemDouble(int, double) public void
      * java.awt.image.DataBuffer.setElemDouble(int,double)}.
      *
@@ -320,7 +200,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#setElemDouble(int, double)
+     * @see java.awt.image.DataBuffer#setElemDouble(int, double) public void
+     *      java.awt.image.DataBuffer.setElemDouble(int,double) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -337,12 +218,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.image.DataBuffer#setElemDouble(int, int, double) public void
      * java.awt.image.DataBuffer.setElemDouble(int,int,double)}.
      *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#setElemDouble(int, int, double) public void
+     * java.awt.image.DataBuffer.setElemDouble(int,int,double)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#setElemDouble(int, int, double)
+     * @see java.awt.image.DataBuffer#setElemDouble(int, int, double) public void
+     *      java.awt.image.DataBuffer.setElemDouble(int,int,double) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -356,6 +242,35 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getSize() public int java.awt.image.DataBuffer.getSize()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getSize() public int java.awt.image.DataBuffer.getSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getSize() public int java.awt.image.DataBuffer.getSize() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#setElemFloat(int, float) public void
+     * java.awt.image.DataBuffer.setElemFloat(int,float)}.
+     *
+     * <p>
      * Test method for {@link java.awt.image.DataBuffer#setElemFloat(int, float) public void
      * java.awt.image.DataBuffer.setElemFloat(int,float)}.
      *
@@ -364,7 +279,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#setElemFloat(int, float)
+     * @see java.awt.image.DataBuffer#setElemFloat(int, float) public void
+     *      java.awt.image.DataBuffer.setElemFloat(int,float) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -381,17 +297,182 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.image.DataBuffer#setElemFloat(int, int, float) public void
      * java.awt.image.DataBuffer.setElemFloat(int,int,float)}.
      *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#setElemFloat(int, int, float) public void
+     * java.awt.image.DataBuffer.setElemFloat(int,int,float)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.image.DataBuffer#setElemFloat(int, int, float)
+     * @see java.awt.image.DataBuffer#setElemFloat(int, int, float) public void
+     *      java.awt.image.DataBuffer.setElemFloat(int,int,float) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setElemFloat_int_int_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getOffsets() public int[]
+     * java.awt.image.DataBuffer.getOffsets()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getOffsets() public int[]
+     * java.awt.image.DataBuffer.getOffsets()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getOffsets() public int[] java.awt.image.DataBuffer.getOffsets() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffsets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getOffset() public int java.awt.image.DataBuffer.getOffset()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getOffset() public int java.awt.image.DataBuffer.getOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getOffset() public int java.awt.image.DataBuffer.getOffset() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getDataType() public int
+     * java.awt.image.DataBuffer.getDataType()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getDataType() public int
+     * java.awt.image.DataBuffer.getDataType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getDataType() public int java.awt.image.DataBuffer.getDataType() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getElemDouble(int, int) public double
+     * java.awt.image.DataBuffer.getElemDouble(int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getElemDouble(int, int) public double
+     * java.awt.image.DataBuffer.getElemDouble(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getElemDouble(int, int) public double
+     *      java.awt.image.DataBuffer.getElemDouble(int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElemDouble_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getElemDouble(int) public double
+     * java.awt.image.DataBuffer.getElemDouble(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getElemDouble(int) public double
+     * java.awt.image.DataBuffer.getElemDouble(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getElemDouble(int) public double java.awt.image.DataBuffer.getElemDouble(int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElemDouble_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getNumBanks() public int
+     * java.awt.image.DataBuffer.getNumBanks()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.image.DataBuffer#getNumBanks() public int
+     * java.awt.image.DataBuffer.getNumBanks()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.image.DataBuffer#getNumBanks() public int java.awt.image.DataBuffer.getNumBanks() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNumBanks()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

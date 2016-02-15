@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.smartcardio.CommandAPDU class javax.smartcardio.CommandAPDU},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.smartcardio.CommandAPDUTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.smartcardio.CommandAPDU class javax.smartcardio.CommandAPDU}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link CommandAPDUClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests
+ * @see javax.smartcardio.CommandAPDU class javax.smartcardio.CommandAPDU (the hereby targeted class-under-test class)
+ * @see CommandAPDUClassTests CommandAPDUClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.smartcardio.CommandAPDU
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,28 +28,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#equals(java.lang.Object) public boolean
-     * javax.smartcardio.CommandAPDU.equals(java.lang.Object)}.
+     * Test method for {@link javax.smartcardio.CommandAPDU#getBytes() public byte[]
+     * javax.smartcardio.CommandAPDU.getBytes()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#equals(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.smartcardio.CommandAPDU#getBytes() public byte[]
      * javax.smartcardio.CommandAPDU.getBytes()}.
@@ -60,7 +40,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getBytes()
+     * @see javax.smartcardio.CommandAPDU#getBytes() public byte[] javax.smartcardio.CommandAPDU.getBytes() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,26 +55,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#getCLA() public int javax.smartcardio.CommandAPDU.getCLA()}.
+     * Test method for {@link javax.smartcardio.CommandAPDU#getData() public byte[]
+     * javax.smartcardio.CommandAPDU.getData()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getCLA()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCLA()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.smartcardio.CommandAPDU#getData() public byte[]
      * javax.smartcardio.CommandAPDU.getData()}.
@@ -103,7 +67,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getData()
+     * @see javax.smartcardio.CommandAPDU#getData() public byte[] javax.smartcardio.CommandAPDU.getData() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,6 +82,193 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getP1() public int javax.smartcardio.CommandAPDU.getP1()}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getP1() public int javax.smartcardio.CommandAPDU.getP1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#getP1() public int javax.smartcardio.CommandAPDU.getP1() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getP1()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#toString() public java.lang.String
+     * javax.smartcardio.CommandAPDU.toString()}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#toString() public java.lang.String
+     * javax.smartcardio.CommandAPDU.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#toString() public java.lang.String javax.smartcardio.CommandAPDU.toString()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getCLA() public int javax.smartcardio.CommandAPDU.getCLA()}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getCLA() public int javax.smartcardio.CommandAPDU.getCLA()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#getCLA() public int javax.smartcardio.CommandAPDU.getCLA() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCLA()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#hashCode() public int
+     * javax.smartcardio.CommandAPDU.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#hashCode() public int
+     * javax.smartcardio.CommandAPDU.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#hashCode() public int javax.smartcardio.CommandAPDU.hashCode() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getNe() public int javax.smartcardio.CommandAPDU.getNe()}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getNe() public int javax.smartcardio.CommandAPDU.getNe()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#getNe() public int javax.smartcardio.CommandAPDU.getNe() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNe()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#equals(Object) public boolean
+     * javax.smartcardio.CommandAPDU.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#equals(Object) public boolean
+     * javax.smartcardio.CommandAPDU.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#equals(Object) public boolean
+     *      javax.smartcardio.CommandAPDU.equals(java.lang.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getP2() public int javax.smartcardio.CommandAPDU.getP2()}.
+     *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getP2() public int javax.smartcardio.CommandAPDU.getP2()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.smartcardio.CommandAPDU#getP2() public int javax.smartcardio.CommandAPDU.getP2() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getP2()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getINS() public int javax.smartcardio.CommandAPDU.getINS()}.
+     *
+     * <p>
      * Test method for {@link javax.smartcardio.CommandAPDU#getINS() public int javax.smartcardio.CommandAPDU.getINS()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +276,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getINS()
+     * @see javax.smartcardio.CommandAPDU#getINS() public int javax.smartcardio.CommandAPDU.getINS() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,126 +293,21 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for {@link javax.smartcardio.CommandAPDU#getNc() public int javax.smartcardio.CommandAPDU.getNc()}.
      *
+     * <p>
+     * Test method for {@link javax.smartcardio.CommandAPDU#getNc() public int javax.smartcardio.CommandAPDU.getNc()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getNc()
+     * @see javax.smartcardio.CommandAPDU#getNc() public int javax.smartcardio.CommandAPDU.getNc() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getNc()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#getNe() public int javax.smartcardio.CommandAPDU.getNe()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getNe()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNe()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#getP1() public int javax.smartcardio.CommandAPDU.getP1()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getP1()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getP1()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#getP2() public int javax.smartcardio.CommandAPDU.getP2()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#getP2()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getP2()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#hashCode() public int
-     * javax.smartcardio.CommandAPDU.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CommandAPDU#toString() public java.lang.String
-     * javax.smartcardio.CommandAPDU.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.smartcardio.CommandAPDU#toString()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

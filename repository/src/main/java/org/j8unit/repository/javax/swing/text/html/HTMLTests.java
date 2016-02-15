@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTML class javax.swing.text.html.HTML},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.html.HTMLTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.html.HTML class javax.swing.text.html.HTML}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link HTMLClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.html.HTMLClassTests
+ * @see javax.swing.text.html.HTML class javax.swing.text.html.HTML (the hereby targeted class-under-test class)
+ * @see HTMLClassTests HTMLClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.html.HTML
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,19 +28,100 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTML.Attribute class
-     * javax.swing.text.html.HTML$Attribute}, containing all instance relevant test methods (i.&thinsp;e., test methods
-     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
-     * is {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.text.html.HTML.UnknownTag class
+     * javax.swing.text.html.HTML$UnknownTag}. The complementary j8unit test interface containing the class relevant
+     * aspects is {@link HTMLClassTests.UnknownTagClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests
+     * @see javax.swing.text.html.HTML.UnknownTag class javax.swing.text.html.HTML$UnknownTag (the hereby targeted
+     *      class-under-test class)
+     * @see HTMLClassTests.UnknownTagClassTests HTMLClassTests.UnknownTagClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface UnknownTagTests<SUT extends javax.swing.text.html.HTML.UnknownTag>
+    extends org.j8unit.repository.java.io.SerializableTests<SUT>, HTMLTests.TagTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.UnknownTag#hashCode() public int
+         * javax.swing.text.html.HTML$UnknownTag.hashCode()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.UnknownTag#hashCode() public int
+         * javax.swing.text.html.HTML$UnknownTag.hashCode()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTML.UnknownTag#hashCode() public int
+         *      javax.swing.text.html.HTML$UnknownTag.hashCode() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_hashCode()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.UnknownTag#equals(Object) public boolean
+         * javax.swing.text.html.HTML$UnknownTag.equals(java.lang.Object)}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.UnknownTag#equals(Object) public boolean
+         * javax.swing.text.html.HTML$UnknownTag.equals(java.lang.Object)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTML.UnknownTag#equals(Object) public boolean
+         *      javax.swing.text.html.HTML$UnknownTag.equals(java.lang.Object) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_equals_Object()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.text.html.HTML.Attribute class
+     * javax.swing.text.html.HTML$Attribute}. The complementary j8unit test interface containing the class relevant
+     * aspects is {@link HTMLClassTests.AttributeClassTests}.
+     * </p>
      *
-     * @j8unit.aim javax.swing.text.html.HTML.Attribute
+     * @see javax.swing.text.html.HTML.Attribute class javax.swing.text.html.HTML$Attribute (the hereby targeted
+     *      class-under-test class)
+     * @see HTMLClassTests.AttributeClassTests HTMLClassTests.AttributeClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -53,17 +133,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link javax.swing.text.html.HTML.Attribute#toString() public java.lang.String
          * javax.swing.text.html.HTML$Attribute.toString()}.
          *
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.Attribute#toString() public java.lang.String
+         * javax.swing.text.html.HTML$Attribute.toString()}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.text.html.HTML.Attribute#toString()
+         * @see javax.swing.text.html.HTML.Attribute#toString() public java.lang.String
+         *      javax.swing.text.html.HTML$Attribute.toString() (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_toString()
         throws Exception {
             // query fresh subject-under-test
@@ -75,19 +160,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTML.Tag class
-     * javax.swing.text.html.HTML$Tag}, containing all instance relevant test methods (i.&thinsp;e., test methods of
-     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.text.html.HTML.Tag class javax.swing.text.html.HTML$Tag}.
+     * The complementary j8unit test interface containing the class relevant aspects is
+     * {@link HTMLClassTests.TagClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests
+     * @see javax.swing.text.html.HTML.Tag class javax.swing.text.html.HTML$Tag (the hereby targeted class-under-test
+     *      class)
+     * @see HTMLClassTests.TagClassTests HTMLClassTests.TagClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.html.HTML.Tag
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -99,12 +185,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link javax.swing.text.html.HTML.Tag#breaksFlow() public boolean
          * javax.swing.text.html.HTML$Tag.breaksFlow()}.
          *
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.Tag#breaksFlow() public boolean
+         * javax.swing.text.html.HTML$Tag.breaksFlow()}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.text.html.HTML.Tag#breaksFlow()
+         * @see javax.swing.text.html.HTML.Tag#breaksFlow() public boolean javax.swing.text.html.HTML$Tag.breaksFlow()
+         *      (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -118,27 +209,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.HTML.Tag#isBlock() public boolean
-         * javax.swing.text.html.HTML$Tag.isBlock()}.
+         * Test method for {@link javax.swing.text.html.HTML.Tag#isPreformatted() public boolean
+         * javax.swing.text.html.HTML$Tag.isPreformatted()}.
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTML.Tag#isBlock()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_isBlock()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * <p>
          * Test method for {@link javax.swing.text.html.HTML.Tag#isPreformatted() public boolean
          * javax.swing.text.html.HTML$Tag.isPreformatted()}.
@@ -148,7 +221,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.text.html.HTML.Tag#isPreformatted()
+         * @see javax.swing.text.html.HTML.Tag#isPreformatted() public boolean
+         *      javax.swing.text.html.HTML$Tag.isPreformatted() (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -162,6 +236,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
+         * Test method for {@link javax.swing.text.html.HTML.Tag#isBlock() public boolean
+         * javax.swing.text.html.HTML$Tag.isBlock()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.Tag#isBlock() public boolean
+         * javax.swing.text.html.HTML$Tag.isBlock()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTML.Tag#isBlock() public boolean javax.swing.text.html.HTML$Tag.isBlock() (the
+         *      hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_isBlock()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.text.html.HTML.Tag#toString() public java.lang.String
+         * javax.swing.text.html.HTML$Tag.toString()}.
+         *
+         * <p>
          * Test method for {@link javax.swing.text.html.HTML.Tag#toString() public java.lang.String
          * javax.swing.text.html.HTML$Tag.toString()}.
          *
@@ -170,82 +275,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.text.html.HTML.Tag#toString()
+         * @see javax.swing.text.html.HTML.Tag#toString() public java.lang.String
+         *      javax.swing.text.html.HTML$Tag.toString() (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTML.UnknownTag class
-     * javax.swing.text.html.HTML$UnknownTag}, containing all instance relevant test methods (i.&thinsp;e., test methods
-     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
-     * is {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.UnknownTagTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLClassTests.UnknownTagClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.html.HTML.UnknownTag
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface UnknownTagTests<SUT extends javax.swing.text.html.HTML.UnknownTag>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.html.HTML.UnknownTag#equals(java.lang.Object) public boolean
-         * javax.swing.text.html.HTML$UnknownTag.equals(java.lang.Object)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTML.UnknownTag#equals(java.lang.Object)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_equals_Object()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.html.HTML.UnknownTag#hashCode() public int
-         * javax.swing.text.html.HTML$UnknownTag.hashCode()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTML.UnknownTag#hashCode()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_hashCode()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

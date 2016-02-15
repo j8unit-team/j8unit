@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.sql.SQLNonTransientConnectionException class
- * java.sql.SQLNonTransientConnectionException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.sql.SQLNonTransientConnectionExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.sql.SQLNonTransientConnectionException class
+ * java.sql.SQLNonTransientConnectionException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link SQLNonTransientConnectionExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.sql.SQLNonTransientConnectionExceptionClassTests
+ * @see java.sql.SQLNonTransientConnectionException class java.sql.SQLNonTransientConnectionException (the hereby
+ *      targeted class-under-test class)
+ * @see SQLNonTransientConnectionExceptionClassTests SQLNonTransientConnectionExceptionClassTests (the complementary
+ *      j8unit test interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.sql.SQLNonTransientConnectionException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLNonTransientConnectionExceptionTests<SUT extends java.sql.SQLNonTransientConnectionException>
-extends org.j8unit.repository.java.sql.SQLNonTransientExceptionTests<SUT> {
+extends SQLNonTransientExceptionTests<SUT> {
 
 }

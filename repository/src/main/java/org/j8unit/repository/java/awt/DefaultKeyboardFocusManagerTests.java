@@ -8,65 +8,51 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.DefaultKeyboardFocusManager class
- * java.awt.DefaultKeyboardFocusManager}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.DefaultKeyboardFocusManager class
+ * java.awt.DefaultKeyboardFocusManager}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DefaultKeyboardFocusManagerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerClassTests
+ * @see java.awt.DefaultKeyboardFocusManager class java.awt.DefaultKeyboardFocusManager (the hereby targeted
+ *      class-under-test class)
+ * @see DefaultKeyboardFocusManagerClassTests DefaultKeyboardFocusManagerClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.DefaultKeyboardFocusManager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultKeyboardFocusManagerTests<SUT extends java.awt.DefaultKeyboardFocusManager>
-extends org.j8unit.repository.java.awt.KeyboardFocusManagerTests<SUT> {
+extends KeyboardFocusManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.DefaultKeyboardFocusManager#dispatchEvent(java.awt.AWTEvent) public boolean
-     * java.awt.DefaultKeyboardFocusManager.dispatchEvent(java.awt.AWTEvent)}.
+     * Test method for
+     * {@link java.awt.DefaultKeyboardFocusManager#processKeyEvent(java.awt.Component, java.awt.event.KeyEvent) public
+     * void java.awt.DefaultKeyboardFocusManager.processKeyEvent(java.awt.Component,java.awt.event.KeyEvent)}.
+     *
+     * <p>
+     * Test method for
+     * {@link java.awt.DefaultKeyboardFocusManager#processKeyEvent(java.awt.Component, java.awt.event.KeyEvent) public
+     * void java.awt.DefaultKeyboardFocusManager.processKeyEvent(java.awt.Component,java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#dispatchEvent(java.awt.AWTEvent)
+     * @see java.awt.DefaultKeyboardFocusManager#processKeyEvent(java.awt.Component, java.awt.event.KeyEvent) public
+     *      void java.awt.DefaultKeyboardFocusManager.processKeyEvent(java.awt.Component,java.awt.event.KeyEvent) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_dispatchEvent_AWTEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.DefaultKeyboardFocusManager#dispatchKeyEvent(java.awt.event.KeyEvent) public
-     * boolean java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(java.awt.event.KeyEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#dispatchKeyEvent(java.awt.event.KeyEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dispatchKeyEvent_KeyEvent()
+    public default void test_processKeyEvent_Component_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,41 +64,24 @@ extends org.j8unit.repository.java.awt.KeyboardFocusManagerTests<SUT> {
      * Test method for {@link java.awt.DefaultKeyboardFocusManager#downFocusCycle(java.awt.Container) public void
      * java.awt.DefaultKeyboardFocusManager.downFocusCycle(java.awt.Container)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#downFocusCycle(java.awt.Container)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_downFocusCycle_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.awt.DefaultKeyboardFocusManager#focusNextComponent(java.awt.Component) public void
-     * java.awt.DefaultKeyboardFocusManager.focusNextComponent(java.awt.Component)}.
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#downFocusCycle(java.awt.Container) public void
+     * java.awt.DefaultKeyboardFocusManager.downFocusCycle(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#focusNextComponent(java.awt.Component)
+     * @see java.awt.DefaultKeyboardFocusManager#downFocusCycle(java.awt.Container) public void
+     *      java.awt.DefaultKeyboardFocusManager.downFocusCycle(java.awt.Container) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_focusNextComponent_Component()
+    public default void test_downFocusCycle_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,17 +93,23 @@ extends org.j8unit.repository.java.awt.KeyboardFocusManagerTests<SUT> {
      * Test method for {@link java.awt.DefaultKeyboardFocusManager#focusPreviousComponent(java.awt.Component) public
      * void java.awt.DefaultKeyboardFocusManager.focusPreviousComponent(java.awt.Component)}.
      *
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#focusPreviousComponent(java.awt.Component) public
+     * void java.awt.DefaultKeyboardFocusManager.focusPreviousComponent(java.awt.Component)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#focusPreviousComponent(java.awt.Component)
+     * @see java.awt.DefaultKeyboardFocusManager#focusPreviousComponent(java.awt.Component) public void
+     *      java.awt.DefaultKeyboardFocusManager.focusPreviousComponent(java.awt.Component) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_focusPreviousComponent_Component()
     throws Exception {
         // query fresh subject-under-test
@@ -144,45 +119,27 @@ extends org.j8unit.repository.java.awt.KeyboardFocusManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.DefaultKeyboardFocusManager#postProcessKeyEvent(java.awt.event.KeyEvent) public
-     * boolean java.awt.DefaultKeyboardFocusManager.postProcessKeyEvent(java.awt.event.KeyEvent)}.
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#dispatchKeyEvent(java.awt.event.KeyEvent) public
+     * boolean java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(java.awt.event.KeyEvent)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#postProcessKeyEvent(java.awt.event.KeyEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_postProcessKeyEvent_KeyEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for
-     * {@link java.awt.DefaultKeyboardFocusManager#processKeyEvent(java.awt.Component, java.awt.event.KeyEvent) public
-     * void java.awt.DefaultKeyboardFocusManager.processKeyEvent(java.awt.Component,java.awt.event.KeyEvent)}.
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#dispatchKeyEvent(java.awt.event.KeyEvent) public
+     * boolean java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#processKeyEvent(java.awt.Component, java.awt.event.KeyEvent)
+     * @see java.awt.DefaultKeyboardFocusManager#dispatchKeyEvent(java.awt.event.KeyEvent) public boolean
+     *      java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(java.awt.event.KeyEvent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_processKeyEvent_Component_KeyEvent()
+    public default void test_dispatchKeyEvent_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,18 +151,111 @@ extends org.j8unit.repository.java.awt.KeyboardFocusManagerTests<SUT> {
      * Test method for {@link java.awt.DefaultKeyboardFocusManager#upFocusCycle(java.awt.Component) public void
      * java.awt.DefaultKeyboardFocusManager.upFocusCycle(java.awt.Component)}.
      *
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#upFocusCycle(java.awt.Component) public void
+     * java.awt.DefaultKeyboardFocusManager.upFocusCycle(java.awt.Component)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DefaultKeyboardFocusManager#upFocusCycle(java.awt.Component)
+     * @see java.awt.DefaultKeyboardFocusManager#upFocusCycle(java.awt.Component) public void
+     *      java.awt.DefaultKeyboardFocusManager.upFocusCycle(java.awt.Component) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_upFocusCycle_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#focusNextComponent(java.awt.Component) public void
+     * java.awt.DefaultKeyboardFocusManager.focusNextComponent(java.awt.Component)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#focusNextComponent(java.awt.Component) public void
+     * java.awt.DefaultKeyboardFocusManager.focusNextComponent(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.DefaultKeyboardFocusManager#focusNextComponent(java.awt.Component) public void
+     *      java.awt.DefaultKeyboardFocusManager.focusNextComponent(java.awt.Component) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_focusNextComponent_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#postProcessKeyEvent(java.awt.event.KeyEvent) public
+     * boolean java.awt.DefaultKeyboardFocusManager.postProcessKeyEvent(java.awt.event.KeyEvent)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#postProcessKeyEvent(java.awt.event.KeyEvent) public
+     * boolean java.awt.DefaultKeyboardFocusManager.postProcessKeyEvent(java.awt.event.KeyEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.DefaultKeyboardFocusManager#postProcessKeyEvent(java.awt.event.KeyEvent) public boolean
+     *      java.awt.DefaultKeyboardFocusManager.postProcessKeyEvent(java.awt.event.KeyEvent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_postProcessKeyEvent_KeyEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#dispatchEvent(java.awt.AWTEvent) public boolean
+     * java.awt.DefaultKeyboardFocusManager.dispatchEvent(java.awt.AWTEvent)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.DefaultKeyboardFocusManager#dispatchEvent(java.awt.AWTEvent) public boolean
+     * java.awt.DefaultKeyboardFocusManager.dispatchEvent(java.awt.AWTEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.DefaultKeyboardFocusManager#dispatchEvent(java.awt.AWTEvent) public boolean
+     *      java.awt.DefaultKeyboardFocusManager.dispatchEvent(java.awt.AWTEvent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dispatchEvent_AWTEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

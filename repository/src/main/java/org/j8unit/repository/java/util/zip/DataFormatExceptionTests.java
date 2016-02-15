@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.zip.DataFormatException class
- * java.util.zip.DataFormatException}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.zip.DataFormatExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.zip.DataFormatException class java.util.zip.DataFormatException}
+ * . The complementary j8unit test interface containing the class relevant aspects is
+ * {@link DataFormatExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.zip.DataFormatExceptionClassTests
+ * @see java.util.zip.DataFormatException class java.util.zip.DataFormatException (the hereby targeted class-under-test
+ *      class)
+ * @see DataFormatExceptionClassTests DataFormatExceptionClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.zip.DataFormatException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

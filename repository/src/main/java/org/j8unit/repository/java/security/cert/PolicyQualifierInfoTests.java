@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.cert.PolicyQualifierInfo class
- * java.security.cert.PolicyQualifierInfo}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.cert.PolicyQualifierInfoTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.cert.PolicyQualifierInfo class
+ * java.security.cert.PolicyQualifierInfo}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link PolicyQualifierInfoClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.cert.PolicyQualifierInfoClassTests
+ * @see java.security.cert.PolicyQualifierInfo class java.security.cert.PolicyQualifierInfo (the hereby targeted
+ *      class-under-test class)
+ * @see PolicyQualifierInfoClassTests PolicyQualifierInfoClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.cert.PolicyQualifierInfo
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,42 +30,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyQualifierInfo#getEncoded() public final byte[]
-     * java.security.cert.PolicyQualifierInfo.getEncoded()}.
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#toString() public java.lang.String
+     * java.security.cert.PolicyQualifierInfo.toString()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.cert.PolicyQualifierInfo#getEncoded()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifier() public final byte[]
-     * java.security.cert.PolicyQualifierInfo.getPolicyQualifier()}.
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#toString() public java.lang.String
+     * java.security.cert.PolicyQualifierInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyQualifierInfo#getPolicyQualifier()
+     * @see java.security.cert.PolicyQualifierInfo#toString() public java.lang.String
+     *      java.security.cert.PolicyQualifierInfo.toString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getPolicyQualifier()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,12 +61,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifierId() public final
      * java.lang.String java.security.cert.PolicyQualifierInfo.getPolicyQualifierId()}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifierId() public final
+     * java.lang.String java.security.cert.PolicyQualifierInfo.getPolicyQualifierId()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyQualifierInfo#getPolicyQualifierId()
+     * @see java.security.cert.PolicyQualifierInfo#getPolicyQualifierId() public final java.lang.String
+     *      java.security.cert.PolicyQualifierInfo.getPolicyQualifierId() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,21 +85,52 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyQualifierInfo#toString() public java.lang.String
-     * java.security.cert.PolicyQualifierInfo.toString()}.
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifier() public final byte[]
+     * java.security.cert.PolicyQualifierInfo.getPolicyQualifier()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifier() public final byte[]
+     * java.security.cert.PolicyQualifierInfo.getPolicyQualifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyQualifierInfo#toString()
+     * @see java.security.cert.PolicyQualifierInfo#getPolicyQualifier() public final byte[]
+     *      java.security.cert.PolicyQualifierInfo.getPolicyQualifier() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getPolicyQualifier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getEncoded() public final byte[]
+     * java.security.cert.PolicyQualifierInfo.getEncoded()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getEncoded() public final byte[]
+     * java.security.cert.PolicyQualifierInfo.getEncoded()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.cert.PolicyQualifierInfo#getEncoded() public final byte[]
+     *      java.security.cert.PolicyQualifierInfo.getEncoded() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

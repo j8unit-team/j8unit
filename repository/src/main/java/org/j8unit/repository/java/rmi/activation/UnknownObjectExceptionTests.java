@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.activation.UnknownObjectException class
- * java.rmi.activation.UnknownObjectException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.rmi.activation.UnknownObjectExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.activation.UnknownObjectException class
+ * java.rmi.activation.UnknownObjectException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link UnknownObjectExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.activation.UnknownObjectExceptionClassTests
+ * @see java.rmi.activation.UnknownObjectException class java.rmi.activation.UnknownObjectException (the hereby targeted
+ *      class-under-test class)
+ * @see UnknownObjectExceptionClassTests UnknownObjectExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.activation.UnknownObjectException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownObjectExceptionTests<SUT extends java.rmi.activation.UnknownObjectException>
-extends org.j8unit.repository.java.rmi.activation.ActivationExceptionTests<SUT> {
+extends ActivationExceptionTests<SUT> {
 
 }

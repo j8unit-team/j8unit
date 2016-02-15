@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.crypto.interfaces.DHPrivateKey interface
- * javax.crypto.interfaces.DHPrivateKey}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.crypto.interfaces.DHPrivateKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.crypto.interfaces.DHPrivateKey interface
+ * javax.crypto.interfaces.DHPrivateKey}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DHPrivateKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.crypto.interfaces.DHPrivateKeyClassTests
+ * @see javax.crypto.interfaces.DHPrivateKey interface javax.crypto.interfaces.DHPrivateKey (the hereby targeted
+ *      class-under-test class)
+ * @see DHPrivateKeyClassTests DHPrivateKeyClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.crypto.interfaces.DHPrivateKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DHPrivateKeyTests<SUT extends javax.crypto.interfaces.DHPrivateKey>
-extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8unit.repository.java.security.PrivateKeyTests<SUT> {
+extends DHKeyTests<SUT>, org.j8unit.repository.java.security.PrivateKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.crypto.interfaces.DHPrivateKey#getX() public abstract java.math.BigInteger
+     * javax.crypto.interfaces.DHPrivateKey.getX()}.
+     *
      * <p>
      * Test method for {@link javax.crypto.interfaces.DHPrivateKey#getX() public abstract java.math.BigInteger
      * javax.crypto.interfaces.DHPrivateKey.getX()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8uni
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.crypto.interfaces.DHPrivateKey#getX()
+     * @see javax.crypto.interfaces.DHPrivateKey#getX() public abstract java.math.BigInteger
+     *      javax.crypto.interfaces.DHPrivateKey.getX() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

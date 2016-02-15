@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.naming.InsufficientResourcesException class
- * javax.naming.InsufficientResourcesException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.naming.InsufficientResourcesExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.naming.InsufficientResourcesException class
+ * javax.naming.InsufficientResourcesException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link InsufficientResourcesExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.naming.InsufficientResourcesExceptionClassTests
+ * @see javax.naming.InsufficientResourcesException class javax.naming.InsufficientResourcesException (the hereby
+ *      targeted class-under-test class)
+ * @see InsufficientResourcesExceptionClassTests InsufficientResourcesExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.naming.InsufficientResourcesException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InsufficientResourcesExceptionTests<SUT extends javax.naming.InsufficientResourcesException>
-extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
+extends NamingExceptionTests<SUT> {
 
 }

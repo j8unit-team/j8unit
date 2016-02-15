@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.invoke.MethodHandle class java.lang.invoke.MethodHandle},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.invoke.MethodHandleTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.invoke.MethodHandle class java.lang.invoke.MethodHandle}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link MethodHandleClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.invoke.MethodHandleClassTests
+ * @see java.lang.invoke.MethodHandle class java.lang.invoke.MethodHandle (the hereby targeted class-under-test class)
+ * @see MethodHandleClassTests MethodHandleClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.invoke.MethodHandle
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,15 +28,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#asCollector(java.lang.Class, int) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asCollector(java.lang.Class,int)}.
+     * Test method for {@link java.lang.invoke.MethodHandle#asCollector(Class, int) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asCollector(java.lang.Class<?>,int)}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#asCollector(Class, int) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asCollector(java.lang.Class,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#asCollector(java.lang.Class, int)
+     * @see java.lang.invoke.MethodHandle#asCollector(Class, int) public java.lang.invoke.MethodHandle
+     *      java.lang.invoke.MethodHandle.asCollector(java.lang.Class,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,37 +55,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#asFixedArity() public java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandle.asFixedArity()}.
+     * Test method for {@link java.lang.invoke.MethodHandle#asSpreader(Class, int) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asSpreader(java.lang.Class<?>,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.invoke.MethodHandle#asFixedArity()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asFixedArity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#asSpreader(java.lang.Class, int) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asSpreader(java.lang.Class,int)}.
+     * Test method for {@link java.lang.invoke.MethodHandle#asSpreader(Class, int) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asSpreader(java.lang.Class,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#asSpreader(java.lang.Class, int)
+     * @see java.lang.invoke.MethodHandle#asSpreader(Class, int) public java.lang.invoke.MethodHandle
+     *      java.lang.invoke.MethodHandle.asSpreader(java.lang.Class,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,103 +82,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#asType(java.lang.invoke.MethodType) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asType(java.lang.invoke.MethodType)}.
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeExact(Object...) public final native java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws java.lang.Throwable}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.invoke.MethodHandle#asType(java.lang.invoke.MethodType)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asType_MethodType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#asVarargsCollector(java.lang.Class) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asVarargsCollector(java.lang.Class)}.
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeExact(Object...) public final native java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#asVarargsCollector(java.lang.Class)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asVarargsCollector_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#bindTo(java.lang.Object) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.bindTo(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.invoke.MethodHandle#bindTo(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bindTo_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invoke(java.lang.Object...) public final native
-     * java.lang.Object java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws java.lang.Throwable}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.invoke.MethodHandle#invoke(java.lang.Object...)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invoke_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invokeExact(java.lang.Object...) public final native
-     * java.lang.Object java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws java.lang.Throwable}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.invoke.MethodHandle#invokeExact(java.lang.Object...)
+     * @see java.lang.invoke.MethodHandle#invokeExact(Object...) public final native java.lang.Object
+     *      java.lang.invoke.MethodHandle.invokeExact(java.lang.Object[]) throws java.lang.Throwable (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,20 +110,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
-     * java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List) throws java.lang.Throwable}.
+     * Test method for {@link java.lang.invoke.MethodHandle#invoke(Object...) public final native java.lang.Object
+     * java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws java.lang.Throwable}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#invoke(Object...) public final native java.lang.Object
+     * java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List)
+     * @see java.lang.invoke.MethodHandle#invoke(Object...) public final native java.lang.Object
+     *      java.lang.invoke.MethodHandle.invoke(java.lang.Object[]) throws java.lang.Throwable (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invokeWithArguments_List()
+    public default void test_invoke_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -227,21 +138,106 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.lang.Object...) public
-     * java.lang.Object java.lang.invoke.MethodHandle.invokeWithArguments(java.lang.Object...) throws
-     * java.lang.Throwable}.
+     * Test method for {@link java.lang.invoke.MethodHandle#asType(java.lang.invoke.MethodType) public
+     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asType(java.lang.invoke.MethodType)}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#asType(java.lang.invoke.MethodType) public
+     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asType(java.lang.invoke.MethodType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#invokeWithArguments(java.lang.Object...)
+     * @see java.lang.invoke.MethodHandle#asType(java.lang.invoke.MethodType) public java.lang.invoke.MethodHandle
+     *      java.lang.invoke.MethodHandle.asType(java.lang.invoke.MethodType) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invokeWithArguments_ObjectArray()
+    public default void test_asType_MethodType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#asVarargsCollector(Class) public
+     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asVarargsCollector(java.lang.Class<?>)}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#asVarargsCollector(Class) public
+     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asVarargsCollector(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.lang.invoke.MethodHandle#asVarargsCollector(Class) public java.lang.invoke.MethodHandle
+     *      java.lang.invoke.MethodHandle.asVarargsCollector(java.lang.Class) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_asVarargsCollector_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#bindTo(Object) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.bindTo(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#bindTo(Object) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.bindTo(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.lang.invoke.MethodHandle#bindTo(Object) public java.lang.invoke.MethodHandle
+     *      java.lang.invoke.MethodHandle.bindTo(java.lang.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_bindTo_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#type() public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodHandle.type()}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#type() public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodHandle.type()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.lang.invoke.MethodHandle#type() public java.lang.invoke.MethodType java.lang.invoke.MethodHandle.type()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -253,12 +249,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.lang.invoke.MethodHandle#isVarargsCollector() public boolean
      * java.lang.invoke.MethodHandle.isVarargsCollector()}.
      *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#isVarargsCollector() public boolean
+     * java.lang.invoke.MethodHandle.isVarargsCollector()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#isVarargsCollector()
+     * @see java.lang.invoke.MethodHandle#isVarargsCollector() public boolean
+     *      java.lang.invoke.MethodHandle.isVarargsCollector() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -272,6 +273,66 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(Object...) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.lang.Object...) throws java.lang.Throwable}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(Object...) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.lang.Object...) throws java.lang.Throwable}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.lang.invoke.MethodHandle#invokeWithArguments(Object...) public java.lang.Object
+     *      java.lang.invoke.MethodHandle.invokeWithArguments(java.lang.Object[]) throws java.lang.Throwable (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invokeWithArguments_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List<?>) throws java.lang.Throwable}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List) throws java.lang.Throwable}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
+     *      java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List) throws java.lang.Throwable (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invokeWithArguments_List()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#toString() public java.lang.String
+     * java.lang.invoke.MethodHandle.toString()}.
+     *
+     * <p>
      * Test method for {@link java.lang.invoke.MethodHandle#toString() public java.lang.String
      * java.lang.invoke.MethodHandle.toString()}.
      *
@@ -280,12 +341,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#toString()
+     * @see java.lang.invoke.MethodHandle#toString() public java.lang.String java.lang.invoke.MethodHandle.toString()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
@@ -295,20 +357,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#type() public java.lang.invoke.MethodType
-     * java.lang.invoke.MethodHandle.type()}.
+     * Test method for {@link java.lang.invoke.MethodHandle#asFixedArity() public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asFixedArity()}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#asFixedArity() public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asFixedArity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandle#type()
+     * @see java.lang.invoke.MethodHandle#asFixedArity() public java.lang.invoke.MethodHandle
+     *      java.lang.invoke.MethodHandle.asFixedArity() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_type()
+    public default void test_asFixedArity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

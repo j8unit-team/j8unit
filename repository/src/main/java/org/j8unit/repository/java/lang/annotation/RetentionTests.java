@@ -8,26 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.annotation.Retention interface
- * java.lang.annotation.Retention}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.annotation.RetentionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.annotation.Retention interface java.lang.annotation.Retention}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link RetentionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.annotation.RetentionClassTests
+ * @see java.lang.annotation.Retention interface java.lang.annotation.Retention (the hereby targeted class-under-test
+ *      class)
+ * @see RetentionClassTests RetentionClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.annotation.Retention
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RetentionTests<SUT extends java.lang.annotation.Retention>
-extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+extends AnnotationTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.lang.annotation.Retention#value() public abstract
+     * java.lang.annotation.RetentionPolicy java.lang.annotation.Retention.value()}.
+     *
      * <p>
      * Test method for {@link java.lang.annotation.Retention#value() public abstract
      * java.lang.annotation.RetentionPolicy java.lang.annotation.Retention.value()}.
@@ -37,7 +41,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.annotation.Retention#value()
+     * @see java.lang.annotation.Retention#value() public abstract java.lang.annotation.RetentionPolicy
+     *      java.lang.annotation.Retention.value() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

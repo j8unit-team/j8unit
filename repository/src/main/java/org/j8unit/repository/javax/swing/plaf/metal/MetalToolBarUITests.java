@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.metal.MetalToolBarUI class
- * javax.swing.plaf.metal.MetalToolBarUI}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalToolBarUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.MetalToolBarUI class
+ * javax.swing.plaf.metal.MetalToolBarUI}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link MetalToolBarUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.metal.MetalToolBarUIClassTests
+ * @see javax.swing.plaf.metal.MetalToolBarUI class javax.swing.plaf.metal.MetalToolBarUI (the hereby targeted
+ *      class-under-test class)
+ * @see MetalToolBarUIClassTests MetalToolBarUIClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.metal.MetalToolBarUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,21 +30,27 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.metal.MetalToolBarUI.installUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#update(java.awt.Graphics, javax.swing.JComponent)
+     * public void javax.swing.plaf.metal.MetalToolBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#update(java.awt.Graphics, javax.swing.JComponent)
+     * public void javax.swing.plaf.metal.MetalToolBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalToolBarUI#installUI(javax.swing.JComponent)
+     * @see javax.swing.plaf.metal.MetalToolBarUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     *      javax.swing.plaf.metal.MetalToolBarUI.update(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,17 +62,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<SUT> {
      * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalToolBarUI.uninstallUI(javax.swing.JComponent)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalToolBarUI.uninstallUI(javax.swing.JComponent)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalToolBarUI#uninstallUI(javax.swing.JComponent)
+     * @see javax.swing.plaf.metal.MetalToolBarUI#uninstallUI(javax.swing.JComponent) public void
+     *      javax.swing.plaf.metal.MetalToolBarUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
@@ -75,21 +88,27 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.metal.MetalToolBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalToolBarUI.installUI(javax.swing.JComponent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalToolBarUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalToolBarUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalToolBarUI#update(java.awt.Graphics, javax.swing.JComponent)
+     * @see javax.swing.plaf.metal.MetalToolBarUI#installUI(javax.swing.JComponent) public void
+     *      javax.swing.plaf.metal.MetalToolBarUI.installUI(javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

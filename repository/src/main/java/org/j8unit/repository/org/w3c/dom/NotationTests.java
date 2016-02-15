@@ -8,25 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.Notation interface org.w3c.dom.Notation}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.org.w3c.dom.NotationTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.Notation interface org.w3c.dom.Notation}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link NotationClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.NotationClassTests
+ * @see org.w3c.dom.Notation interface org.w3c.dom.Notation (the hereby targeted class-under-test class)
+ * @see NotationClassTests NotationClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.Notation
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotationTests<SUT extends org.w3c.dom.Notation>
-extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
+extends NodeTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.w3c.dom.Notation#getPublicId() public abstract java.lang.String
+     * org.w3c.dom.Notation.getPublicId()}.
+     *
      * <p>
      * Test method for {@link org.w3c.dom.Notation#getPublicId() public abstract java.lang.String
      * org.w3c.dom.Notation.getPublicId()}.
@@ -36,7 +40,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.Notation#getPublicId()
+     * @see org.w3c.dom.Notation#getPublicId() public abstract java.lang.String org.w3c.dom.Notation.getPublicId() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,12 +58,17 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
      * Test method for {@link org.w3c.dom.Notation#getSystemId() public abstract java.lang.String
      * org.w3c.dom.Notation.getSystemId()}.
      *
+     * <p>
+     * Test method for {@link org.w3c.dom.Notation#getSystemId() public abstract java.lang.String
+     * org.w3c.dom.Notation.getSystemId()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.Notation#getSystemId()
+     * @see org.w3c.dom.Notation#getSystemId() public abstract java.lang.String org.w3c.dom.Notation.getSystemId() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

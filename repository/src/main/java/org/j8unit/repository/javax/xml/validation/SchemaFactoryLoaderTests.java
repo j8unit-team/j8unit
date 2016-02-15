@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.validation.SchemaFactoryLoader class
- * javax.xml.validation.SchemaFactoryLoader}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.validation.SchemaFactoryLoaderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.validation.SchemaFactoryLoader class
+ * javax.xml.validation.SchemaFactoryLoader}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link SchemaFactoryLoaderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.validation.SchemaFactoryLoaderClassTests
+ * @see javax.xml.validation.SchemaFactoryLoader class javax.xml.validation.SchemaFactoryLoader (the hereby targeted
+ *      class-under-test class)
+ * @see SchemaFactoryLoaderClassTests SchemaFactoryLoaderClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.validation.SchemaFactoryLoader
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +30,11 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.SchemaFactoryLoader#newFactory(java.lang.String) public abstract
+     * Test method for {@link javax.xml.validation.SchemaFactoryLoader#newFactory(String) public abstract
+     * javax.xml.validation.SchemaFactory javax.xml.validation.SchemaFactoryLoader.newFactory(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.validation.SchemaFactoryLoader#newFactory(String) public abstract
      * javax.xml.validation.SchemaFactory javax.xml.validation.SchemaFactoryLoader.newFactory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +42,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.validation.SchemaFactoryLoader#newFactory(java.lang.String)
+     * @see javax.xml.validation.SchemaFactoryLoader#newFactory(String) public abstract
+     *      javax.xml.validation.SchemaFactory javax.xml.validation.SchemaFactoryLoader.newFactory(java.lang.String)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,80 +8,37 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.ScheduledExecutorService interface
- * java.util.concurrent.ScheduledExecutorService}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.ScheduledExecutorService interface
+ * java.util.concurrent.ScheduledExecutorService}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ScheduledExecutorServiceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceClassTests
+ * @see java.util.concurrent.ScheduledExecutorService interface java.util.concurrent.ScheduledExecutorService (the
+ *      hereby targeted class-under-test class)
+ * @see ScheduledExecutorServiceClassTests ScheduledExecutorServiceClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.ScheduledExecutorService
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScheduledExecutorServiceTests<SUT extends java.util.concurrent.ScheduledExecutorService>
-extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
+extends ExecutorServiceTests<SUT> {
 
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
-     * public abstract java.util.concurrent.ScheduledFuture
-     * java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit)}
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(Runnable, long, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture<?>
+     * java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable, long,
-     *             java.util.concurrent.TimeUnit)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_schedule_Callable_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
-     * public abstract java.util.concurrent.ScheduledFuture
-     * java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.ScheduledExecutorService#schedule(java.lang.Runnable, long,
-     *             java.util.concurrent.TimeUnit)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_schedule_Runnable_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(Runnable, long, long, java.util.concurrent.TimeUnit)
      * public abstract java.util.concurrent.ScheduledFuture
      * java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
@@ -91,8 +48,10 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(java.lang.Runnable, long, long,
-     *             java.util.concurrent.TimeUnit)
+     * @see java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(Runnable, long, long,
+     *      java.util.concurrent.TimeUnit) public abstract java.util.concurrent.ScheduledFuture
+     *      java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.
+     *      concurrent.TimeUnit) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,7 +66,82 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+     * public abstract <V> java.util.concurrent.ScheduledFuture
+     * <V> java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable
+     * <V>,long,java.util.concurrent.TimeUnit)}.
+     *
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture
+     * java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable, long,
+     *      java.util.concurrent.TimeUnit) public abstract java.util.concurrent.ScheduledFuture
+     *      java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable,long,java.util.
+     *      concurrent.TimeUnit) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_schedule_Callable_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(Runnable, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture<?>
+     * java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}.
+     *
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(Runnable, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture
+     * java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.ScheduledExecutorService#schedule(Runnable, long, java.util.concurrent.TimeUnit) public
+     *      abstract java.util.concurrent.ScheduledFuture
+     *      java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable,long,java.util.concurrent.
+     *      TimeUnit) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_schedule_Runnable_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(Runnable, long, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture<?>
+     * java.util.concurrent.ScheduledExecutorService.scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
+     * .
+     *
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(Runnable, long, long, java.util.concurrent.TimeUnit)
      * public abstract java.util.concurrent.ScheduledFuture
      * java.util.concurrent.ScheduledExecutorService.scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
@@ -117,8 +151,10 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(java.lang.Runnable, long, long,
-     *             java.util.concurrent.TimeUnit)
+     * @see java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(Runnable, long, long,
+     *      java.util.concurrent.TimeUnit) public abstract java.util.concurrent.ScheduledFuture
+     *      java.util.concurrent.ScheduledExecutorService.scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.
+     *      concurrent.TimeUnit) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

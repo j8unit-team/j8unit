@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.channels.WritableByteChannel interface
- * java.nio.channels.WritableByteChannel}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.channels.WritableByteChannelTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.channels.WritableByteChannel interface
+ * java.nio.channels.WritableByteChannel}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link WritableByteChannelClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.channels.WritableByteChannelClassTests
+ * @see java.nio.channels.WritableByteChannel interface java.nio.channels.WritableByteChannel (the hereby targeted
+ *      class-under-test class)
+ * @see WritableByteChannelClassTests WritableByteChannelClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.channels.WritableByteChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WritableByteChannelTests<SUT extends java.nio.channels.WritableByteChannel>
-extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
+extends ChannelTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.nio.channels.WritableByteChannel#write(java.nio.ByteBuffer) public abstract int
+     * java.nio.channels.WritableByteChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
+     *
      * <p>
      * Test method for {@link java.nio.channels.WritableByteChannel#write(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.WritableByteChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.channels.WritableByteChannel#write(java.nio.ByteBuffer)
+     * @see java.nio.channels.WritableByteChannel#write(java.nio.ByteBuffer) public abstract int
+     *      java.nio.channels.WritableByteChannel.write(java.nio.ByteBuffer) throws java.io.IOException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

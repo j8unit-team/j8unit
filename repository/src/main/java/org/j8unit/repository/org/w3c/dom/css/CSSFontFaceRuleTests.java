@@ -8,26 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.css.CSSFontFaceRule interface
- * org.w3c.dom.css.CSSFontFaceRule}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSFontFaceRuleTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.css.CSSFontFaceRule interface org.w3c.dom.css.CSSFontFaceRule}
+ * . The complementary j8unit test interface containing the class relevant aspects is {@link CSSFontFaceRuleClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.css.CSSFontFaceRuleClassTests
+ * @see org.w3c.dom.css.CSSFontFaceRule interface org.w3c.dom.css.CSSFontFaceRule (the hereby targeted class-under-test
+ *      class)
+ * @see CSSFontFaceRuleClassTests CSSFontFaceRuleClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.css.CSSFontFaceRule
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSFontFaceRuleTests<SUT extends org.w3c.dom.css.CSSFontFaceRule>
-extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
+extends CSSRuleTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.w3c.dom.css.CSSFontFaceRule#getStyle() public abstract
+     * org.w3c.dom.css.CSSStyleDeclaration org.w3c.dom.css.CSSFontFaceRule.getStyle()}.
+     *
      * <p>
      * Test method for {@link org.w3c.dom.css.CSSFontFaceRule#getStyle() public abstract
      * org.w3c.dom.css.CSSStyleDeclaration org.w3c.dom.css.CSSFontFaceRule.getStyle()}.
@@ -37,7 +41,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.css.CSSFontFaceRule#getStyle()
+     * @see org.w3c.dom.css.CSSFontFaceRule#getStyle() public abstract org.w3c.dom.css.CSSStyleDeclaration
+     *      org.w3c.dom.css.CSSFontFaceRule.getStyle() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

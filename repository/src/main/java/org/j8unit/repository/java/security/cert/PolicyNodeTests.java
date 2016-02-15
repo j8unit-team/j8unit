@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.cert.PolicyNode interface java.security.cert.PolicyNode}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.cert.PolicyNodeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.cert.PolicyNode interface java.security.cert.PolicyNode}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link PolicyNodeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.cert.PolicyNodeClassTests
+ * @see java.security.cert.PolicyNode interface java.security.cert.PolicyNode (the hereby targeted class-under-test
+ *      class)
+ * @see PolicyNodeClassTests PolicyNodeClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.cert.PolicyNode
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,42 +30,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyNode#getChildren() public abstract java.util.Iterator
-     * java.security.cert.PolicyNode.getChildren()}.
+     * Test method for {@link java.security.cert.PolicyNode#isCritical() public abstract boolean
+     * java.security.cert.PolicyNode.isCritical()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.cert.PolicyNode#getChildren()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChildren()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyNode#getDepth() public abstract int
-     * java.security.cert.PolicyNode.getDepth()}.
+     * Test method for {@link java.security.cert.PolicyNode#isCritical() public abstract boolean
+     * java.security.cert.PolicyNode.isCritical()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyNode#getDepth()
+     * @see java.security.cert.PolicyNode#isCritical() public abstract boolean
+     *      java.security.cert.PolicyNode.isCritical() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDepth()
+    public default void test_isCritical()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,6 +58,10 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.security.cert.PolicyNode#getExpectedPolicies() public abstract java.util.Set
+     * <java.lang.String> java.security.cert.PolicyNode.getExpectedPolicies()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getExpectedPolicies() public abstract java.util.Set
      * java.security.cert.PolicyNode.getExpectedPolicies()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +69,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyNode#getExpectedPolicies()
+     * @see java.security.cert.PolicyNode#getExpectedPolicies() public abstract java.util.Set
+     *      java.security.cert.PolicyNode.getExpectedPolicies() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,27 +84,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyNode#getParent() public abstract java.security.cert.PolicyNode
-     * java.security.cert.PolicyNode.getParent()}.
+     * Test method for {@link java.security.cert.PolicyNode#getPolicyQualifiers() public abstract java.util.Set<?
+     * extends java.security.cert.PolicyQualifierInfo> java.security.cert.PolicyNode.getPolicyQualifiers()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.cert.PolicyNode#getParent()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.cert.PolicyNode#getPolicyQualifiers() public abstract java.util.Set
      * java.security.cert.PolicyNode.getPolicyQualifiers()}.
@@ -126,7 +96,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyNode#getPolicyQualifiers()
+     * @see java.security.cert.PolicyNode#getPolicyQualifiers() public abstract java.util.Set
+     *      java.security.cert.PolicyNode.getPolicyQualifiers() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,12 +114,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.security.cert.PolicyNode#getValidPolicy() public abstract java.lang.String
      * java.security.cert.PolicyNode.getValidPolicy()}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getValidPolicy() public abstract java.lang.String
+     * java.security.cert.PolicyNode.getValidPolicy()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyNode#getValidPolicy()
+     * @see java.security.cert.PolicyNode#getValidPolicy() public abstract java.lang.String
+     *      java.security.cert.PolicyNode.getValidPolicy() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,20 +138,79 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyNode#isCritical() public abstract boolean
-     * java.security.cert.PolicyNode.isCritical()}.
+     * Test method for {@link java.security.cert.PolicyNode#getDepth() public abstract int
+     * java.security.cert.PolicyNode.getDepth()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getDepth() public abstract int
+     * java.security.cert.PolicyNode.getDepth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PolicyNode#isCritical()
+     * @see java.security.cert.PolicyNode#getDepth() public abstract int java.security.cert.PolicyNode.getDepth() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isCritical()
+    public default void test_getDepth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getParent() public abstract java.security.cert.PolicyNode
+     * java.security.cert.PolicyNode.getParent()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getParent() public abstract java.security.cert.PolicyNode
+     * java.security.cert.PolicyNode.getParent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.cert.PolicyNode#getParent() public abstract java.security.cert.PolicyNode
+     *      java.security.cert.PolicyNode.getParent() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getChildren() public abstract java.util.Iterator<? extends
+     * java.security.cert.PolicyNode> java.security.cert.PolicyNode.getChildren()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getChildren() public abstract java.util.Iterator
+     * java.security.cert.PolicyNode.getChildren()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.cert.PolicyNode#getChildren() public abstract java.util.Iterator
+     *      java.security.cert.PolicyNode.getChildren() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChildren()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.net.Socket class java.net.Socket}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.net.SocketTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.net.Socket class java.net.Socket}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link SocketClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.net.SocketClassTests
+ * @see java.net.Socket class java.net.Socket (the hereby targeted class-under-test class)
+ * @see SocketClassTests SocketClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.net.Socket
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,204 +28,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#bind(java.net.SocketAddress) public void
-     * java.net.Socket.bind(java.net.SocketAddress) throws java.io.IOException}.
+     * Test method for {@link java.net.Socket#getLocalPort() public int java.net.Socket.getLocalPort()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#bind(java.net.SocketAddress)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_SocketAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#close() public synchronized void java.net.Socket.close() throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#close()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#connect(java.net.SocketAddress) public void
-     * java.net.Socket.connect(java.net.SocketAddress) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#connect(java.net.SocketAddress)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_connect_SocketAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#connect(java.net.SocketAddress, int) public void
-     * java.net.Socket.connect(java.net.SocketAddress,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#connect(java.net.SocketAddress, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_connect_SocketAddress_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getChannel() public java.nio.channels.SocketChannel
-     * java.net.Socket.getChannel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getChannel()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChannel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getInetAddress() public java.net.InetAddress
-     * java.net.Socket.getInetAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getInetAddress()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInetAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getInputStream() public java.io.InputStream
-     * java.net.Socket.getInputStream() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getInputStream()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getKeepAlive() public boolean java.net.Socket.getKeepAlive() throws
-     * java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getKeepAlive()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeepAlive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getLocalAddress() public java.net.InetAddress
-     * java.net.Socket.getLocalAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getLocalAddress()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.net.Socket#getLocalPort() public int java.net.Socket.getLocalPort()}.
      *
@@ -234,7 +38,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getLocalPort()
+     * @see java.net.Socket#getLocalPort() public int java.net.Socket.getLocalPort() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -248,20 +53,77 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#getLocalSocketAddress() public java.net.SocketAddress
-     * java.net.Socket.getLocalSocketAddress()}.
+     * Test method for {@link java.net.Socket#setReceiveBufferSize(int) public synchronized void
+     * java.net.Socket.setReceiveBufferSize(int) throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setReceiveBufferSize(int) public synchronized void
+     * java.net.Socket.setReceiveBufferSize(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getLocalSocketAddress()
+     * @see java.net.Socket#setReceiveBufferSize(int) public synchronized void java.net.Socket.setReceiveBufferSize(int)
+     *      throws java.net.SocketException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocalSocketAddress()
+    public default void test_setReceiveBufferSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#isInputShutdown() public boolean java.net.Socket.isInputShutdown()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#isInputShutdown() public boolean java.net.Socket.isInputShutdown()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#isInputShutdown() public boolean java.net.Socket.isInputShutdown() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isInputShutdown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getInetAddress() public java.net.InetAddress
+     * java.net.Socket.getInetAddress()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getInetAddress() public java.net.InetAddress
+     * java.net.Socket.getInetAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getInetAddress() public java.net.InetAddress java.net.Socket.getInetAddress() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInetAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -273,12 +135,17 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * Test method for {@link java.net.Socket#getOOBInline() public boolean java.net.Socket.getOOBInline() throws
      * java.net.SocketException}.
      *
+     * <p>
+     * Test method for {@link java.net.Socket#getOOBInline() public boolean java.net.Socket.getOOBInline() throws
+     * java.net.SocketException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getOOBInline()
+     * @see java.net.Socket#getOOBInline() public boolean java.net.Socket.getOOBInline() throws java.net.SocketException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,20 +159,25 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#getOutputStream() public java.io.OutputStream
-     * java.net.Socket.getOutputStream() throws java.io.IOException}.
+     * Test method for {@link java.net.Socket#setTcpNoDelay(boolean) public void java.net.Socket.setTcpNoDelay(boolean)
+     * throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setTcpNoDelay(boolean) public void java.net.Socket.setTcpNoDelay(boolean)
+     * throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getOutputStream()
+     * @see java.net.Socket#setTcpNoDelay(boolean) public void java.net.Socket.setTcpNoDelay(boolean) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutputStream()
+    public default void test_setTcpNoDelay_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -314,72 +186,11 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#getPort() public int java.net.Socket.getPort()}.
+     * Test method for {@link java.net.Socket#getKeepAlive() public boolean java.net.Socket.getKeepAlive() throws
+     * java.net.SocketException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getPort()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPort()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.net.Socket#getReceiveBufferSize() public synchronized int
-     * java.net.Socket.getReceiveBufferSize() throws java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getReceiveBufferSize()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReceiveBufferSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getRemoteSocketAddress() public java.net.SocketAddress
-     * java.net.Socket.getRemoteSocketAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getRemoteSocketAddress()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRemoteSocketAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getReuseAddress() public boolean java.net.Socket.getReuseAddress() throws
+     * Test method for {@link java.net.Socket#getKeepAlive() public boolean java.net.Socket.getKeepAlive() throws
      * java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -387,12 +198,13 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getReuseAddress()
+     * @see java.net.Socket#getKeepAlive() public boolean java.net.Socket.getKeepAlive() throws java.net.SocketException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getReuseAddress()
+    public default void test_getKeepAlive()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -401,20 +213,131 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#getSendBufferSize() public synchronized int
-     * java.net.Socket.getSendBufferSize() throws java.net.SocketException}.
+     * Test method for {@link java.net.Socket#isConnected() public boolean java.net.Socket.isConnected()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#isConnected() public boolean java.net.Socket.isConnected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getSendBufferSize()
+     * @see java.net.Socket#isConnected() public boolean java.net.Socket.isConnected() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSendBufferSize()
+    public default void test_isConnected()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getLocalAddress() public java.net.InetAddress
+     * java.net.Socket.getLocalAddress()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getLocalAddress() public java.net.InetAddress
+     * java.net.Socket.getLocalAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getLocalAddress() public java.net.InetAddress java.net.Socket.getLocalAddress() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#bind(java.net.SocketAddress) public void
+     * java.net.Socket.bind(java.net.SocketAddress) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#bind(java.net.SocketAddress) public void
+     * java.net.Socket.bind(java.net.SocketAddress) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#bind(java.net.SocketAddress) public void java.net.Socket.bind(java.net.SocketAddress) throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_bind_SocketAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getTcpNoDelay() public boolean java.net.Socket.getTcpNoDelay() throws
+     * java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getTcpNoDelay() public boolean java.net.Socket.getTcpNoDelay() throws
+     * java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getTcpNoDelay() public boolean java.net.Socket.getTcpNoDelay() throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTcpNoDelay()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getChannel() public java.nio.channels.SocketChannel
+     * java.net.Socket.getChannel()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getChannel() public java.nio.channels.SocketChannel
+     * java.net.Socket.getChannel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getChannel() public java.nio.channels.SocketChannel java.net.Socket.getChannel() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChannel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -426,12 +349,17 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * Test method for {@link java.net.Socket#getSoLinger() public int java.net.Socket.getSoLinger() throws
      * java.net.SocketException}.
      *
+     * <p>
+     * Test method for {@link java.net.Socket#getSoLinger() public int java.net.Socket.getSoLinger() throws
+     * java.net.SocketException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getSoLinger()
+     * @see java.net.Socket#getSoLinger() public int java.net.Socket.getSoLinger() throws java.net.SocketException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -448,12 +376,17 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * Test method for {@link java.net.Socket#getSoTimeout() public synchronized int java.net.Socket.getSoTimeout()
      * throws java.net.SocketException}.
      *
+     * <p>
+     * Test method for {@link java.net.Socket#getSoTimeout() public synchronized int java.net.Socket.getSoTimeout()
+     * throws java.net.SocketException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#getSoTimeout()
+     * @see java.net.Socket#getSoTimeout() public synchronized int java.net.Socket.getSoTimeout() throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -467,133 +400,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#getTcpNoDelay() public boolean java.net.Socket.getTcpNoDelay() throws
-     * java.net.SocketException}.
+     * Test method for {@link java.net.Socket#isOutputShutdown() public boolean java.net.Socket.isOutputShutdown()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getTcpNoDelay()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTcpNoDelay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#getTrafficClass() public int java.net.Socket.getTrafficClass() throws
-     * java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#getTrafficClass()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTrafficClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#isBound() public boolean java.net.Socket.isBound()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#isBound()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBound()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#isClosed() public boolean java.net.Socket.isClosed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#isClosed()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isClosed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#isConnected() public boolean java.net.Socket.isConnected()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#isConnected()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConnected()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#isInputShutdown() public boolean java.net.Socket.isInputShutdown()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#isInputShutdown()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isInputShutdown()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.net.Socket#isOutputShutdown() public boolean java.net.Socket.isOutputShutdown()}.
      *
@@ -602,7 +410,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#isOutputShutdown()
+     * @see java.net.Socket#isOutputShutdown() public boolean java.net.Socket.isOutputShutdown() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -616,159 +425,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#sendUrgentData(int) public void java.net.Socket.sendUrgentData(int) throws
-     * java.io.IOException}.
+     * Test method for {@link java.net.Socket#setSoLinger(boolean, int) public void
+     * java.net.Socket.setSoLinger(boolean,int) throws java.net.SocketException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#sendUrgentData(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sendUrgentData_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#setKeepAlive(boolean) public void java.net.Socket.setKeepAlive(boolean)
-     * throws java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#setKeepAlive(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setKeepAlive_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#setOOBInline(boolean) public void java.net.Socket.setOOBInline(boolean)
-     * throws java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#setOOBInline(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOOBInline_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#setPerformancePreferences(int, int, int) public void
-     * java.net.Socket.setPerformancePreferences(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#setPerformancePreferences(int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPerformancePreferences_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#setReceiveBufferSize(int) public synchronized void
-     * java.net.Socket.setReceiveBufferSize(int) throws java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#setReceiveBufferSize(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReceiveBufferSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#setReuseAddress(boolean) public void
-     * java.net.Socket.setReuseAddress(boolean) throws java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#setReuseAddress(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReuseAddress_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.Socket#setSendBufferSize(int) public synchronized void
-     * java.net.Socket.setSendBufferSize(int) throws java.net.SocketException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Socket#setSendBufferSize(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSendBufferSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.net.Socket#setSoLinger(boolean, int) public void
      * java.net.Socket.setSoLinger(boolean,int) throws java.net.SocketException}.
@@ -778,7 +437,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#setSoLinger(boolean, int)
+     * @see java.net.Socket#setSoLinger(boolean, int) public void java.net.Socket.setSoLinger(boolean,int) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -792,20 +452,26 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#setSoTimeout(int) public synchronized void
-     * java.net.Socket.setSoTimeout(int) throws java.net.SocketException}.
+     * Test method for {@link java.net.Socket#connect(java.net.SocketAddress, int) public void
+     * java.net.Socket.connect(java.net.SocketAddress,int) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#connect(java.net.SocketAddress, int) public void
+     * java.net.Socket.connect(java.net.SocketAddress,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#setSoTimeout(int)
+     * @see java.net.Socket#connect(java.net.SocketAddress, int) public void
+     *      java.net.Socket.connect(java.net.SocketAddress,int) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSoTimeout_int()
+    public default void test_connect_SocketAddress_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -814,20 +480,25 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#setTcpNoDelay(boolean) public void java.net.Socket.setTcpNoDelay(boolean)
-     * throws java.net.SocketException}.
+     * Test method for {@link java.net.Socket#connect(java.net.SocketAddress) public void
+     * java.net.Socket.connect(java.net.SocketAddress) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#connect(java.net.SocketAddress) public void
+     * java.net.Socket.connect(java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#setTcpNoDelay(boolean)
+     * @see java.net.Socket#connect(java.net.SocketAddress) public void java.net.Socket.connect(java.net.SocketAddress)
+     *      throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setTcpNoDelay_boolean()
+    public default void test_connect_SocketAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -839,12 +510,17 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * Test method for {@link java.net.Socket#setTrafficClass(int) public void java.net.Socket.setTrafficClass(int)
      * throws java.net.SocketException}.
      *
+     * <p>
+     * Test method for {@link java.net.Socket#setTrafficClass(int) public void java.net.Socket.setTrafficClass(int)
+     * throws java.net.SocketException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#setTrafficClass(int)
+     * @see java.net.Socket#setTrafficClass(int) public void java.net.Socket.setTrafficClass(int) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -858,7 +534,11 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.Socket#shutdownInput() public void java.net.Socket.shutdownInput() throws
+     * Test method for {@link java.net.Socket#close() public synchronized void java.net.Socket.close() throws
+     * java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#close() public synchronized void java.net.Socket.close() throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -866,12 +546,230 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#shutdownInput()
+     * @see java.net.Socket#close() public synchronized void java.net.Socket.close() throws java.io.IOException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setOOBInline(boolean) public void java.net.Socket.setOOBInline(boolean)
+     * throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setOOBInline(boolean) public void java.net.Socket.setOOBInline(boolean)
+     * throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#setOOBInline(boolean) public void java.net.Socket.setOOBInline(boolean) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_shutdownInput()
+    public default void test_setOOBInline_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getLocalSocketAddress() public java.net.SocketAddress
+     * java.net.Socket.getLocalSocketAddress()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getLocalSocketAddress() public java.net.SocketAddress
+     * java.net.Socket.getLocalSocketAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getLocalSocketAddress() public java.net.SocketAddress
+     *      java.net.Socket.getLocalSocketAddress() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalSocketAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getReceiveBufferSize() public synchronized int
+     * java.net.Socket.getReceiveBufferSize() throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getReceiveBufferSize() public synchronized int
+     * java.net.Socket.getReceiveBufferSize() throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getReceiveBufferSize() public synchronized int java.net.Socket.getReceiveBufferSize() throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReceiveBufferSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setReuseAddress(boolean) public void
+     * java.net.Socket.setReuseAddress(boolean) throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setReuseAddress(boolean) public void
+     * java.net.Socket.setReuseAddress(boolean) throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#setReuseAddress(boolean) public void java.net.Socket.setReuseAddress(boolean) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReuseAddress_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setSoTimeout(int) public synchronized void
+     * java.net.Socket.setSoTimeout(int) throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setSoTimeout(int) public synchronized void
+     * java.net.Socket.setSoTimeout(int) throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#setSoTimeout(int) public synchronized void java.net.Socket.setSoTimeout(int) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSoTimeout_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setKeepAlive(boolean) public void java.net.Socket.setKeepAlive(boolean)
+     * throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setKeepAlive(boolean) public void java.net.Socket.setKeepAlive(boolean)
+     * throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#setKeepAlive(boolean) public void java.net.Socket.setKeepAlive(boolean) throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setKeepAlive_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getReuseAddress() public boolean java.net.Socket.getReuseAddress() throws
+     * java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getReuseAddress() public boolean java.net.Socket.getReuseAddress() throws
+     * java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getReuseAddress() public boolean java.net.Socket.getReuseAddress() throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReuseAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getTrafficClass() public int java.net.Socket.getTrafficClass() throws
+     * java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getTrafficClass() public int java.net.Socket.getTrafficClass() throws
+     * java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getTrafficClass() public int java.net.Socket.getTrafficClass() throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTrafficClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -883,12 +781,17 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * Test method for {@link java.net.Socket#shutdownOutput() public void java.net.Socket.shutdownOutput() throws
      * java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.net.Socket#shutdownOutput() public void java.net.Socket.shutdownOutput() throws
+     * java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#shutdownOutput()
+     * @see java.net.Socket#shutdownOutput() public void java.net.Socket.shutdownOutput() throws java.io.IOException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -902,6 +805,216 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
+     * Test method for {@link java.net.Socket#getInputStream() public java.io.InputStream
+     * java.net.Socket.getInputStream() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getInputStream() public java.io.InputStream
+     * java.net.Socket.getInputStream() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getInputStream() public java.io.InputStream java.net.Socket.getInputStream() throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setPerformancePreferences(int, int, int) public void
+     * java.net.Socket.setPerformancePreferences(int,int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setPerformancePreferences(int, int, int) public void
+     * java.net.Socket.setPerformancePreferences(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#setPerformancePreferences(int, int, int) public void
+     *      java.net.Socket.setPerformancePreferences(int,int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPerformancePreferences_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getPort() public int java.net.Socket.getPort()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getPort() public int java.net.Socket.getPort()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getPort() public int java.net.Socket.getPort() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPort()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#sendUrgentData(int) public void java.net.Socket.sendUrgentData(int) throws
+     * java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#sendUrgentData(int) public void java.net.Socket.sendUrgentData(int) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#sendUrgentData(int) public void java.net.Socket.sendUrgentData(int) throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sendUrgentData_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#shutdownInput() public void java.net.Socket.shutdownInput() throws
+     * java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#shutdownInput() public void java.net.Socket.shutdownInput() throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#shutdownInput() public void java.net.Socket.shutdownInput() throws java.io.IOException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_shutdownInput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setSendBufferSize(int) public synchronized void
+     * java.net.Socket.setSendBufferSize(int) throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#setSendBufferSize(int) public synchronized void
+     * java.net.Socket.setSendBufferSize(int) throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#setSendBufferSize(int) public synchronized void java.net.Socket.setSendBufferSize(int)
+     *      throws java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSendBufferSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#isClosed() public boolean java.net.Socket.isClosed()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#isClosed() public boolean java.net.Socket.isClosed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#isClosed() public boolean java.net.Socket.isClosed() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isClosed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#isBound() public boolean java.net.Socket.isBound()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#isBound() public boolean java.net.Socket.isBound()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#isBound() public boolean java.net.Socket.isBound() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBound()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#toString() public java.lang.String java.net.Socket.toString()}.
+     *
+     * <p>
      * Test method for {@link java.net.Socket#toString() public java.lang.String java.net.Socket.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -909,13 +1022,95 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Socket#toString()
+     * @see java.net.Socket#toString() public java.lang.String java.net.Socket.toString() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getOutputStream() public java.io.OutputStream
+     * java.net.Socket.getOutputStream() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getOutputStream() public java.io.OutputStream
+     * java.net.Socket.getOutputStream() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getOutputStream() public java.io.OutputStream java.net.Socket.getOutputStream() throws
+     *      java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getOutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getSendBufferSize() public synchronized int
+     * java.net.Socket.getSendBufferSize() throws java.net.SocketException}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getSendBufferSize() public synchronized int
+     * java.net.Socket.getSendBufferSize() throws java.net.SocketException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getSendBufferSize() public synchronized int java.net.Socket.getSendBufferSize() throws
+     *      java.net.SocketException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSendBufferSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#getRemoteSocketAddress() public java.net.SocketAddress
+     * java.net.Socket.getRemoteSocketAddress()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Socket#getRemoteSocketAddress() public java.net.SocketAddress
+     * java.net.Socket.getRemoteSocketAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Socket#getRemoteSocketAddress() public java.net.SocketAddress
+     *      java.net.Socket.getRemoteSocketAddress() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRemoteSocketAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

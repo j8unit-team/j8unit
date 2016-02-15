@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicCheckBoxUI class
- * javax.swing.plaf.basic.BasicCheckBoxUI}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicCheckBoxUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicCheckBoxUI class
+ * javax.swing.plaf.basic.BasicCheckBoxUI}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link BasicCheckBoxUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicCheckBoxUIClassTests
+ * @see javax.swing.plaf.basic.BasicCheckBoxUI class javax.swing.plaf.basic.BasicCheckBoxUI (the hereby targeted
+ *      class-under-test class)
+ * @see BasicCheckBoxUIClassTests BasicCheckBoxUIClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.basic.BasicCheckBoxUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicCheckBoxUITests<SUT extends javax.swing.plaf.basic.BasicCheckBoxUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonUITests<SUT> {
+extends BasicRadioButtonUITests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicCheckBoxUI#getPropertyPrefix() public java.lang.String
+     * javax.swing.plaf.basic.BasicCheckBoxUI.getPropertyPrefix()}.
+     *
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicCheckBoxUI#getPropertyPrefix() public java.lang.String
      * javax.swing.plaf.basic.BasicCheckBoxUI.getPropertyPrefix()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonUITests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicCheckBoxUI#getPropertyPrefix()
+     * @see javax.swing.plaf.basic.BasicCheckBoxUI#getPropertyPrefix() public java.lang.String
+     *      javax.swing.plaf.basic.BasicCheckBoxUI.getPropertyPrefix() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

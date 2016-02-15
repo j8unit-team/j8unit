@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.AccessException class java.rmi.AccessException}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.AccessExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.AccessException class java.rmi.AccessException}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link AccessExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.AccessExceptionClassTests
+ * @see java.rmi.AccessException class java.rmi.AccessException (the hereby targeted class-under-test class)
+ * @see AccessExceptionClassTests AccessExceptionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.AccessException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessExceptionTests<SUT extends java.rmi.AccessException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
+extends RemoteExceptionTests<SUT> {
 
 }

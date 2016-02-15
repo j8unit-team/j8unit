@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.View class javax.swing.text.View}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.text.ViewTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.View class javax.swing.text.View}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link ViewClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.ViewClassTests
+ * @see javax.swing.text.View class javax.swing.text.View (the hereby targeted class-under-test class)
+ * @see ViewClassTests ViewClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.View
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +27,70 @@ public abstract interface ViewTests<SUT extends javax.swing.text.View>
 extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getBreakWeight(int, float, float) public int
+     * javax.swing.text.View.getBreakWeight(int,float,float)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getBreakWeight(int, float, float) public int
+     * javax.swing.text.View.getBreakWeight(int,float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getBreakWeight(int, float, float) public int
+     *      javax.swing.text.View.getBreakWeight(int,float,float) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBreakWeight_int_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.View#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.View.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.View#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.View.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *      javax.swing.text.ViewFactory) public void
+     *      javax.swing.text.View.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
+     *      ViewFactory) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertUpdate_DocumentEvent_Shape_ViewFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#append(javax.swing.text.View) public void
+     * javax.swing.text.View.append(javax.swing.text.View)}.
+     *
      * <p>
      * Test method for {@link javax.swing.text.View#append(javax.swing.text.View) public void
      * javax.swing.text.View.append(javax.swing.text.View)}.
@@ -37,7 +100,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#append(javax.swing.text.View)
+     * @see javax.swing.text.View#append(javax.swing.text.View) public void
+     *      javax.swing.text.View.append(javax.swing.text.View) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,20 +115,208 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#breakView(int, int, float, float) public javax.swing.text.View
-     * javax.swing.text.View.breakView(int,int,float,float)}.
+     * Test method for {@link javax.swing.text.View#getToolTipText(float, float, java.awt.Shape) public java.lang.String
+     * javax.swing.text.View.getToolTipText(float,float,java.awt.Shape)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getToolTipText(float, float, java.awt.Shape) public java.lang.String
+     * javax.swing.text.View.getToolTipText(float,float,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#breakView(int, int, float, float)
+     * @see javax.swing.text.View#getToolTipText(float, float, java.awt.Shape) public java.lang.String
+     *      javax.swing.text.View.getToolTipText(float,float,java.awt.Shape) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_breakView_int_int_float_float()
+    public default void test_getToolTipText_float_float_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getResizeWeight(int) public int
+     * javax.swing.text.View.getResizeWeight(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getResizeWeight(int) public int
+     * javax.swing.text.View.getResizeWeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getResizeWeight(int) public int javax.swing.text.View.getResizeWeight(int) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResizeWeight_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getElement() public javax.swing.text.Element
+     * javax.swing.text.View.getElement()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getElement() public javax.swing.text.Element
+     * javax.swing.text.View.getElement()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getElement() public javax.swing.text.Element javax.swing.text.View.getElement() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#isVisible() public boolean javax.swing.text.View.isVisible()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#isVisible() public boolean javax.swing.text.View.isVisible()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#isVisible() public boolean javax.swing.text.View.isVisible() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isVisible()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewCount() public int javax.swing.text.View.getViewCount()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewCount() public int javax.swing.text.View.getViewCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getViewCount() public int javax.swing.text.View.getViewCount() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getMinimumSpan(int) public float
+     * javax.swing.text.View.getMinimumSpan(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getMinimumSpan(int) public float
+     * javax.swing.text.View.getMinimumSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getMinimumSpan(int) public float javax.swing.text.View.getMinimumSpan(int) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimumSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getPreferredSpan(int) public abstract float
+     * javax.swing.text.View.getPreferredSpan(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getPreferredSpan(int) public abstract float
+     * javax.swing.text.View.getPreferredSpan(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getPreferredSpan(int) public abstract float
+     *      javax.swing.text.View.getPreferredSpan(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreferredSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getEndOffset() public int javax.swing.text.View.getEndOffset()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getEndOffset() public int javax.swing.text.View.getEndOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getEndOffset() public int javax.swing.text.View.getEndOffset() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEndOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,45 +326,30 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.View#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * {@link javax.swing.text.View#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
-     * javax.swing.text.View.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * javax.swing.text.View.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *             javax.swing.text.ViewFactory)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_changedUpdate_DocumentEvent_Shape_ViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.text.View#createFragment(int, int) public javax.swing.text.View
-     * javax.swing.text.View.createFragment(int,int)}.
+     * Test method for
+     * {@link javax.swing.text.View#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.View.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#createFragment(int, int)
+     * @see javax.swing.text.View#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *      javax.swing.text.ViewFactory) public void
+     *      javax.swing.text.View.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
+     *      ViewFactory) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createFragment_int_int()
+    public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,12 +361,17 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * Test method for {@link javax.swing.text.View#getAlignment(int) public float
      * javax.swing.text.View.getAlignment(int)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getAlignment(int) public float
+     * javax.swing.text.View.getAlignment(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getAlignment(int)
+     * @see javax.swing.text.View#getAlignment(int) public float javax.swing.text.View.getAlignment(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,12 +388,17 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * Test method for {@link javax.swing.text.View#getAttributes() public javax.swing.text.AttributeSet
      * javax.swing.text.View.getAttributes()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getAttributes() public javax.swing.text.AttributeSet
+     * javax.swing.text.View.getAttributes()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getAttributes()
+     * @see javax.swing.text.View#getAttributes() public javax.swing.text.AttributeSet
+     *      javax.swing.text.View.getAttributes() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +412,25 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getBreakWeight(int, float, float) public int
-     * javax.swing.text.View.getBreakWeight(int,float,float)}.
+     * Test method for {@link javax.swing.text.View#getParent() public javax.swing.text.View
+     * javax.swing.text.View.getParent()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getParent() public javax.swing.text.View
+     * javax.swing.text.View.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getBreakWeight(int, float, float)
+     * @see javax.swing.text.View#getParent() public javax.swing.text.View javax.swing.text.View.getParent() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBreakWeight_int_float_float()
+    public default void test_getParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -187,20 +439,23 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
-     * javax.swing.text.View.getChildAllocation(int,java.awt.Shape)}.
+     * Test method for {@link javax.swing.text.View#getStartOffset() public int javax.swing.text.View.getStartOffset()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getStartOffset() public int javax.swing.text.View.getStartOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getChildAllocation(int, java.awt.Shape)
+     * @see javax.swing.text.View#getStartOffset() public int javax.swing.text.View.getStartOffset() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getChildAllocation_int_Shape()
+    public default void test_getStartOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -212,12 +467,17 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * Test method for {@link javax.swing.text.View#getContainer() public java.awt.Container
      * javax.swing.text.View.getContainer()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getContainer() public java.awt.Container
+     * javax.swing.text.View.getContainer()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getContainer()
+     * @see javax.swing.text.View#getContainer() public java.awt.Container javax.swing.text.View.getContainer() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -231,6 +491,37 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.View#breakView(int, int, float, float) public javax.swing.text.View
+     * javax.swing.text.View.breakView(int,int,float,float)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#breakView(int, int, float, float) public javax.swing.text.View
+     * javax.swing.text.View.breakView(int,int,float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#breakView(int, int, float, float) public javax.swing.text.View
+     *      javax.swing.text.View.breakView(int,int,float,float) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_breakView_int_int_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getDocument() public javax.swing.text.Document
+     * javax.swing.text.View.getDocument()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.text.View#getDocument() public javax.swing.text.Document
      * javax.swing.text.View.getDocument()}.
      *
@@ -239,7 +530,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getDocument()
+     * @see javax.swing.text.View#getDocument() public javax.swing.text.Document javax.swing.text.View.getDocument()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -253,41 +545,25 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getElement() public javax.swing.text.Element
-     * javax.swing.text.View.getElement()}.
+     * Test method for {@link javax.swing.text.View#setParent(javax.swing.text.View) public void
+     * javax.swing.text.View.setParent(javax.swing.text.View)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getElement()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getEndOffset() public int javax.swing.text.View.getEndOffset()}.
+     * Test method for {@link javax.swing.text.View#setParent(javax.swing.text.View) public void
+     * javax.swing.text.View.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getEndOffset()
+     * @see javax.swing.text.View#setParent(javax.swing.text.View) public void
+     *      javax.swing.text.View.setParent(javax.swing.text.View) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEndOffset()
+    public default void test_setParent_View()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -299,61 +575,22 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * Test method for {@link javax.swing.text.View#getGraphics() public java.awt.Graphics
      * javax.swing.text.View.getGraphics()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getGraphics() public java.awt.Graphics
+     * javax.swing.text.View.getGraphics()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getGraphics()
+     * @see javax.swing.text.View#getGraphics() public java.awt.Graphics javax.swing.text.View.getGraphics() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getGraphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getMaximumSpan(int) public float
-     * javax.swing.text.View.getMaximumSpan(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getMaximumSpan(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getMinimumSpan(int) public float
-     * javax.swing.text.View.getMinimumSpan(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getMinimumSpan(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimumSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -368,13 +605,23 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * javax.swing.text.View.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.swing.text.Position$Bias[])
      * throws javax.swing.text.BadLocationException}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.View#getNextVisualPositionFrom(int, javax.swing.text.Position.Bias, java.awt.Shape, int, javax.swing.text.Position.Bias[])
+     * public int
+     * javax.swing.text.View.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.swing.text.Position$Bias[])
+     * throws javax.swing.text.BadLocationException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getNextVisualPositionFrom(int, javax.swing.text.Position.Bias, java.awt.Shape,
-     *             int, javax.swing.text.Position.Bias[])
+     * @see javax.swing.text.View#getNextVisualPositionFrom(int, javax.swing.text.Position.Bias, java.awt.Shape, int,
+     *      javax.swing.text.Position.Bias[]) public int
+     *      javax.swing.text.View.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.
+     *      swing.text.Position$Bias[]) throws javax.swing.text.BadLocationException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -388,20 +635,25 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getParent() public javax.swing.text.View
-     * javax.swing.text.View.getParent()}.
+     * Test method for {@link javax.swing.text.View#getMaximumSpan(int) public float
+     * javax.swing.text.View.getMaximumSpan(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getMaximumSpan(int) public float
+     * javax.swing.text.View.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getParent()
+     * @see javax.swing.text.View#getMaximumSpan(int) public float javax.swing.text.View.getMaximumSpan(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParent()
+    public default void test_getMaximumSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -410,85 +662,33 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getPreferredSpan(int) public abstract float
-     * javax.swing.text.View.getPreferredSpan(int)}.
+     * Test method for
+     * {@link javax.swing.text.View#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.View.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
+     * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getPreferredSpan(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreferredSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getResizeWeight(int) public int
-     * javax.swing.text.View.getResizeWeight(int)}.
+     * Test method for
+     * {@link javax.swing.text.View#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.View.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getResizeWeight(int)
+     * @see javax.swing.text.View#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *      javax.swing.text.ViewFactory) public void
+     *      javax.swing.text.View.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
+     *      ViewFactory) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getResizeWeight_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getStartOffset() public int javax.swing.text.View.getStartOffset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getStartOffset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStartOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getToolTipText(float, float, java.awt.Shape) public java.lang.String
-     * javax.swing.text.View.getToolTipText(float,float,java.awt.Shape)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getToolTipText(float, float, java.awt.Shape)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getToolTipText_float_float_Shape()
+    public default void test_changedUpdate_DocumentEvent_Shape_ViewFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -500,12 +700,17 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * Test method for {@link javax.swing.text.View#getView(int) public javax.swing.text.View
      * javax.swing.text.View.getView(int)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getView(int) public javax.swing.text.View
+     * javax.swing.text.View.getView(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#getView(int)
+     * @see javax.swing.text.View#getView(int) public javax.swing.text.View javax.swing.text.View.getView(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -519,387 +724,9 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.View#getViewCount() public int javax.swing.text.View.getViewCount()}.
+     * Test method for {@link javax.swing.text.View#setSize(float, float) public void
+     * javax.swing.text.View.setSize(float,float)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getViewCount()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getViewFactory() public javax.swing.text.ViewFactory
-     * javax.swing.text.View.getViewFactory()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getViewFactory()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getViewIndex(float, float, java.awt.Shape) public int
-     * javax.swing.text.View.getViewIndex(float,float,java.awt.Shape)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getViewIndex(float, float, java.awt.Shape)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewIndex_float_float_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#getViewIndex(int, javax.swing.text.Position.Bias) public int
-     * javax.swing.text.View.getViewIndex(int,javax.swing.text.Position$Bias)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#getViewIndex(int, javax.swing.text.Position.Bias)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewIndex_int_Bias()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#insert(int, javax.swing.text.View) public void
-     * javax.swing.text.View.insert(int,javax.swing.text.View)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#insert(int, javax.swing.text.View)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_int_View()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.View#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.View.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *             javax.swing.text.ViewFactory)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertUpdate_DocumentEvent_Shape_ViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#isVisible() public boolean javax.swing.text.View.isVisible()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#isVisible()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isVisible()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.View#modelToView(int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias, java.awt.Shape)
-     * public java.awt.Shape
-     * javax.swing.text.View.modelToView(int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias,java.awt.Shape)
-     * throws javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#modelToView(int, javax.swing.text.Position.Bias, int,
-     *             javax.swing.text.Position.Bias, java.awt.Shape)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_modelToView_int_Bias_int_Bias_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#modelToView(int, java.awt.Shape) public java.awt.Shape
-     * javax.swing.text.View.modelToView(int,java.awt.Shape) throws javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#modelToView(int, java.awt.Shape)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_modelToView_int_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
-     * public abstract java.awt.Shape
-     * javax.swing.text.View.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
-     * javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_modelToView_int_Shape_Bias()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#paint(java.awt.Graphics, java.awt.Shape) public abstract void
-     * javax.swing.text.View.paint(java.awt.Graphics,java.awt.Shape)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#paint(java.awt.Graphics, java.awt.Shape)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paint_Graphics_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#preferenceChanged(javax.swing.text.View, boolean, boolean) public
-     * void javax.swing.text.View.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#preferenceChanged(javax.swing.text.View, boolean, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_preferenceChanged_View_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#remove(int) public void javax.swing.text.View.remove(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#remove(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#removeAll() public void javax.swing.text.View.removeAll()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#removeAll()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.View#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.View.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *             javax.swing.text.ViewFactory)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#replace(int, int, javax.swing.text.View[]) public void
-     * javax.swing.text.View.replace(int,int,javax.swing.text.View[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#replace(int, int, javax.swing.text.View[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replace_int_int_ViewArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.View#setParent(javax.swing.text.View) public void
-     * javax.swing.text.View.setParent(javax.swing.text.View)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.View#setParent(javax.swing.text.View)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setParent_View()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.text.View#setSize(float, float) public void
      * javax.swing.text.View.setSize(float,float)}.
@@ -909,7 +736,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#setSize(float, float)
+     * @see javax.swing.text.View#setSize(float, float) public void javax.swing.text.View.setSize(float,float) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -923,6 +751,35 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.View#removeAll() public void javax.swing.text.View.removeAll()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#removeAll() public void javax.swing.text.View.removeAll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#removeAll() public void javax.swing.text.View.removeAll() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#viewToModel(float, float, java.awt.Shape) public int
+     * javax.swing.text.View.viewToModel(float,float,java.awt.Shape)}.
+     *
+     * <p>
      * Test method for {@link javax.swing.text.View#viewToModel(float, float, java.awt.Shape) public int
      * javax.swing.text.View.viewToModel(float,float,java.awt.Shape)}.
      *
@@ -931,7 +788,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#viewToModel(float, float, java.awt.Shape)
+     * @see javax.swing.text.View#viewToModel(float, float, java.awt.Shape) public int
+     *      javax.swing.text.View.viewToModel(float,float,java.awt.Shape) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -949,17 +807,389 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * {@link javax.swing.text.View#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[]) public
      * abstract int javax.swing.text.View.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.View#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[]) public
+     * abstract int javax.swing.text.View.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.View#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+     * @see javax.swing.text.View#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[]) public
+     *      abstract int javax.swing.text.View.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_viewToModel_float_float_Shape_BiasArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#insert(int, javax.swing.text.View) public void
+     * javax.swing.text.View.insert(int,javax.swing.text.View)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#insert(int, javax.swing.text.View) public void
+     * javax.swing.text.View.insert(int,javax.swing.text.View)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#insert(int, javax.swing.text.View) public void
+     *      javax.swing.text.View.insert(int,javax.swing.text.View) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_int_View()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#paint(java.awt.Graphics, java.awt.Shape) public abstract void
+     * javax.swing.text.View.paint(java.awt.Graphics,java.awt.Shape)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#paint(java.awt.Graphics, java.awt.Shape) public abstract void
+     * javax.swing.text.View.paint(java.awt.Graphics,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#paint(java.awt.Graphics, java.awt.Shape) public abstract void
+     *      javax.swing.text.View.paint(java.awt.Graphics,java.awt.Shape) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paint_Graphics_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.View.getChildAllocation(int,java.awt.Shape)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.View.getChildAllocation(int,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     *      javax.swing.text.View.getChildAllocation(int,java.awt.Shape) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChildAllocation_int_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#replace(int, int, javax.swing.text.View[]) public void
+     * javax.swing.text.View.replace(int,int,javax.swing.text.View[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#replace(int, int, javax.swing.text.View[]) public void
+     * javax.swing.text.View.replace(int,int,javax.swing.text.View[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#replace(int, int, javax.swing.text.View[]) public void
+     *      javax.swing.text.View.replace(int,int,javax.swing.text.View[]) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replace_int_int_ViewArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#createFragment(int, int) public javax.swing.text.View
+     * javax.swing.text.View.createFragment(int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#createFragment(int, int) public javax.swing.text.View
+     * javax.swing.text.View.createFragment(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#createFragment(int, int) public javax.swing.text.View
+     *      javax.swing.text.View.createFragment(int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createFragment_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#remove(int) public void javax.swing.text.View.remove(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#remove(int) public void javax.swing.text.View.remove(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#remove(int) public void javax.swing.text.View.remove(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
+     * public abstract java.awt.Shape
+     * javax.swing.text.View.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
+     * javax.swing.text.BadLocationException}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias)
+     * public abstract java.awt.Shape
+     * javax.swing.text.View.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
+     * javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public abstract
+     *      java.awt.Shape javax.swing.text.View.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
+     *      javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_modelToView_int_Shape_Bias()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#modelToView(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.View.modelToView(int,java.awt.Shape) throws javax.swing.text.BadLocationException}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#modelToView(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.View.modelToView(int,java.awt.Shape) throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#modelToView(int, java.awt.Shape) public java.awt.Shape
+     *      javax.swing.text.View.modelToView(int,java.awt.Shape) throws javax.swing.text.BadLocationException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_modelToView_int_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.View#modelToView(int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias, java.awt.Shape)
+     * public java.awt.Shape
+     * javax.swing.text.View.modelToView(int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias,java.awt.Shape)
+     * throws javax.swing.text.BadLocationException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.View#modelToView(int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias, java.awt.Shape)
+     * public java.awt.Shape
+     * javax.swing.text.View.modelToView(int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias,java.awt.Shape)
+     * throws javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#modelToView(int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias,
+     *      java.awt.Shape) public java.awt.Shape
+     *      javax.swing.text.View.modelToView(int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias,java
+     *      .awt.Shape) throws javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_modelToView_int_Bias_int_Bias_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewFactory() public javax.swing.text.ViewFactory
+     * javax.swing.text.View.getViewFactory()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewFactory() public javax.swing.text.ViewFactory
+     * javax.swing.text.View.getViewFactory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getViewFactory() public javax.swing.text.ViewFactory
+     *      javax.swing.text.View.getViewFactory() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewIndex(int, javax.swing.text.Position.Bias) public int
+     * javax.swing.text.View.getViewIndex(int,javax.swing.text.Position$Bias)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewIndex(int, javax.swing.text.Position.Bias) public int
+     * javax.swing.text.View.getViewIndex(int,javax.swing.text.Position$Bias)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getViewIndex(int, javax.swing.text.Position.Bias) public int
+     *      javax.swing.text.View.getViewIndex(int,javax.swing.text.Position$Bias) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewIndex_int_Bias()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewIndex(float, float, java.awt.Shape) public int
+     * javax.swing.text.View.getViewIndex(float,float,java.awt.Shape)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#getViewIndex(float, float, java.awt.Shape) public int
+     * javax.swing.text.View.getViewIndex(float,float,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#getViewIndex(float, float, java.awt.Shape) public int
+     *      javax.swing.text.View.getViewIndex(float,float,java.awt.Shape) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewIndex_float_float_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.View#preferenceChanged(javax.swing.text.View, boolean, boolean) public
+     * void javax.swing.text.View.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.View#preferenceChanged(javax.swing.text.View, boolean, boolean) public
+     * void javax.swing.text.View.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.View#preferenceChanged(javax.swing.text.View, boolean, boolean) public void
+     *      javax.swing.text.View.preferenceChanged(javax.swing.text.View,boolean,boolean) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preferenceChanged_View_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

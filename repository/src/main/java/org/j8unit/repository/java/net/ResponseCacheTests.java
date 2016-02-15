@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.net.ResponseCache class java.net.ResponseCache}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.net.ResponseCacheTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.net.ResponseCache class java.net.ResponseCache}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link ResponseCacheClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.net.ResponseCacheClassTests
+ * @see java.net.ResponseCache class java.net.ResponseCache (the hereby targeted class-under-test class)
+ * @see ResponseCacheClassTests ResponseCacheClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.net.ResponseCache
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +28,12 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.ResponseCache#get(java.net.URI, java.lang.String, java.util.Map) public abstract
+     * Test method for {@link java.net.ResponseCache#get(java.net.URI, String, java.util.Map) public abstract
+     * java.net.CacheResponse java.net.ResponseCache.get(java.net.URI,java.lang.String,java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>>) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.net.ResponseCache#get(java.net.URI, String, java.util.Map) public abstract
      * java.net.CacheResponse java.net.ResponseCache.get(java.net.URI,java.lang.String,java.util.Map) throws
      * java.io.IOException}.
      *
@@ -38,7 +42,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.ResponseCache#get(java.net.URI, java.lang.String, java.util.Map)
+     * @see java.net.ResponseCache#get(java.net.URI, String, java.util.Map) public abstract java.net.CacheResponse
+     *      java.net.ResponseCache.get(java.net.URI,java.lang.String,java.util.Map) throws java.io.IOException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +62,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * java.net.CacheRequest java.net.ResponseCache.put(java.net.URI,java.net.URLConnection) throws java.io.IOException}
      * .
      *
+     * <p>
+     * Test method for {@link java.net.ResponseCache#put(java.net.URI, java.net.URLConnection) public abstract
+     * java.net.CacheRequest java.net.ResponseCache.put(java.net.URI,java.net.URLConnection) throws java.io.IOException}
+     * .
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.ResponseCache#put(java.net.URI, java.net.URLConnection)
+     * @see java.net.ResponseCache#put(java.net.URI, java.net.URLConnection) public abstract java.net.CacheRequest
+     *      java.net.ResponseCache.put(java.net.URI,java.net.URLConnection) throws java.io.IOException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.RunnableScheduledFuture interface
- * java.util.concurrent.RunnableScheduledFuture}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.util.concurrent.RunnableScheduledFutureTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.RunnableScheduledFuture interface
+ * java.util.concurrent.RunnableScheduledFuture}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link RunnableScheduledFutureClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.RunnableScheduledFutureClassTests
+ * @see java.util.concurrent.RunnableScheduledFuture interface java.util.concurrent.RunnableScheduledFuture (the hereby
+ *      targeted class-under-test class)
+ * @see RunnableScheduledFutureClassTests RunnableScheduledFutureClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.RunnableScheduledFuture
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RunnableScheduledFutureTests<SUT extends java.util.concurrent.RunnableScheduledFuture<V>, V>
-extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, org.j8unit.repository.java.util.concurrent.ScheduledFutureTests<SUT, V> {
+extends RunnableFutureTests<SUT, V>, ScheduledFutureTests<SUT, V> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.concurrent.RunnableScheduledFuture#isPeriodic() public abstract boolean
+     * java.util.concurrent.RunnableScheduledFuture.isPeriodic()}.
+     *
      * <p>
      * Test method for {@link java.util.concurrent.RunnableScheduledFuture#isPeriodic() public abstract boolean
      * java.util.concurrent.RunnableScheduledFuture.isPeriodic()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.RunnableScheduledFuture#isPeriodic()
+     * @see java.util.concurrent.RunnableScheduledFuture#isPeriodic() public abstract boolean
+     *      java.util.concurrent.RunnableScheduledFuture.isPeriodic() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,26 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.time.chrono.MinguoEra class java.time.chrono.MinguoEra},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.time.chrono.MinguoEraTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.time.chrono.MinguoEra class java.time.chrono.MinguoEra}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link MinguoEraClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.time.chrono.MinguoEraClassTests
+ * @see java.time.chrono.MinguoEra class java.time.chrono.MinguoEra (the hereby targeted class-under-test class)
+ * @see MinguoEraClassTests MinguoEraClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.time.chrono.MinguoEra
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MinguoEraTests<SUT extends java.time.chrono.MinguoEra>
-extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.time.chrono.MinguoEra> {
+extends EraTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.time.chrono.MinguoEra> {
 
     /**
+     * <p>
+     * Test method for {@link java.time.chrono.MinguoEra#getValue() public int java.time.chrono.MinguoEra.getValue()}.
+     *
      * <p>
      * Test method for {@link java.time.chrono.MinguoEra#getValue() public int java.time.chrono.MinguoEra.getValue()}.
      *
@@ -36,12 +38,13 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.chrono.MinguoEra#getValue()
+     * @see java.time.chrono.MinguoEra#getValue() public int java.time.chrono.MinguoEra.getValue() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getValue()
     throws Exception {
         // query fresh subject-under-test

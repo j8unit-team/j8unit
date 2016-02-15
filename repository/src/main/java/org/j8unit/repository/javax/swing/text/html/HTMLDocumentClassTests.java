@@ -1,38 +1,52 @@
 package org.j8unit.repository.javax.swing.text.html;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument class
- * javax.swing.text.html.HTMLDocument}, containing all class relevant test methods (at least the test methods of
- * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
- * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests}.
+ * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument class
+ * javax.swing.text.html.HTMLDocument}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
+ * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type is
+ * verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link HTMLDocumentTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLDocumentTests}.
+ * </p>
+ *
+ * @see javax.swing.text.html.HTMLDocument class javax.swing.text.html.HTMLDocument (the hereby targeted
+ *      class-under-test class)
+ * @see HTMLDocumentTests HTMLDocumentTests (The complementary j8unit test interface containing the instance relevant
+ *      test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.html.HTMLDocument
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,992 +54,68 @@ public abstract interface HTMLDocumentClassTests<SUT extends javax.swing.text.ht
 extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<SUT> {
 
     /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.BlockElement class
-     * javax.swing.text.html.HTMLDocument$BlockElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests}.
-     * </p>
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument.BlockElement
+     * @since 0.9.2
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface BlockElementClassTests<SUT extends javax.swing.text.html.HTMLDocument.BlockElement>
-    extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.BranchElementClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.BlockElement#BlockElement(javax.swing.text.html.HTMLDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
-         * public
-         * javax.swing.text.html.HTMLDocument$BlockElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.BlockElement#BlockElement(javax.swing.text.html.HTMLDocument,
-         *             javax.swing.text.Element, javax.swing.text.AttributeSet)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_BlockElement_HTMLDocument_Element_AttributeSet()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.BlockElement sut = null; // = new
-                                                                              // BlockElement(javax.swing.text.html.HTMLDocument,
-                                                                              // javax.swing.text.Element,
-                                                                              // javax.swing.text.AttributeSet);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.BlockElement#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLDocument.BlockElement.class.isAssignableFrom(sut));
-        }
-
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.class!",
+                   javax.swing.text.html.HTMLDocument.class.isAssignableFrom(sut));
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader class
-     * javax.swing.text.html.HTMLDocument$HTMLReader}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.RunElement class
+     * javax.swing.text.html.HTMLDocument$RunElement}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link HTMLDocumentTests.RunElementTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link HTMLDocumentTests.RunElementTests}.
+     * </p>
+     *
+     * @see javax.swing.text.html.HTMLDocument.RunElement class javax.swing.text.html.HTMLDocument$RunElement (the
+     *      hereby targeted class-under-test class)
+     * @see HTMLDocumentTests.RunElementTests HTMLDocumentTests.RunElementTests (The complementary j8unit test interface
+     *      containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface HTMLReaderClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader>
-    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests<SUT> {
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction
-         * class javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}, containing all class relevant test methods
-         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface BlockActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.
-             *             HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_BlockAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction sut = null; // = new
-                                                                                            // BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction
-         * class javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction}, containing all class relevant test
-         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface CharacterActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#CharacterAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#CharacterAction(javax.swing.
-             *             text.html.HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_CharacterAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction sut = null; // = new
-                                                                                                // CharacterAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#isAssignableFrom(java.lang.
-             *             Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.FormAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.FormAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface FormActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.FormAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#FormAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#FormAction(javax.swing.text.html.
-             *             HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_FormAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.FormAction sut = null; // = new
-                                                                                           // FormAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.FormAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction
-         * class javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction}, containing all class relevant test methods
-         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface HiddenActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html
-             *             .HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_HiddenAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction sut = null; // = new
-                                                                                             // HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction
-         * class javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}, containing all class relevant test
-         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface IsindexActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#IsindexAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#IsindexAction(javax.swing.text.
-             *             html.HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_IsindexAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction sut = null; // = new
-                                                                                              // IsindexAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction
-         * class javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction}, containing all class relevant test
-         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface ParagraphActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.
-             *             text.html.HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_ParagraphAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction sut = null; // = new
-                                                                                                // ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#isAssignableFrom(java.lang.
-             *             Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.PreAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.PreAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface PreActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.PreAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#PreAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#PreAction(javax.swing.text.html.
-             *             HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_PreAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.PreAction sut = null; // = new
-                                                                                          // PreAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.PreAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction
-         * class javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction}, containing all class relevant test
-         * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface SpecialActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.
-             *             html.HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_SpecialAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction sut = null; // = new
-                                                                                              // SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.TagAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * J8Unit test interface containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
-         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-         * provides a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests
-         *
-         * @param SUT
-         *            the class' type of the subject-under-test
-         * @since 0.9.0
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.TagAction
-         */
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface TagActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.TagAction>
-        extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-            /**
-             * <p>
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#TagAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#TagAction(javax.swing.text.html.
-             *             HTMLDocument.HTMLReader)
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_TagAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.TagAction sut = null; // = new
-                                                                                          // TagAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            /**
-             * @since 0.9.2
-             *
-             * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#isAssignableFrom(java.lang.Class)
-             */
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<SUT> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.TagAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int)
-         * public javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_HTMLReader_HTMLDocument_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
-                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,
-                                                                            // int);
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int, int, int, javax.swing.text.html.HTML.Tag)
-         * public
-         * javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML$Tag)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int,
-         *             int, int, javax.swing.text.html.HTML.Tag)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_HTMLReader_HTMLDocument_int_int_int_Tag()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
-                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,
-                                                                            // int, int, int,
-                                                                            // javax.swing.text.html.HTML.Tag);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.HTMLReader#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.Iterator class
-     * javax.swing.text.html.HTMLDocument$Iterator}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument.Iterator
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface IteratorClassTests<SUT extends javax.swing.text.html.HTMLDocument.Iterator>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.html.HTMLDocument.Iterator#Iterator() public
-         * javax.swing.text.html.HTMLDocument$Iterator()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.Iterator#Iterator()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_Iterator()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.Iterator sut = null; // = new Iterator();
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.Iterator#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLDocument.Iterator.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.RunElement class
-     * javax.swing.text.html.HTMLDocument$RunElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument.RunElement
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -1033,135 +123,889 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument, javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
-         * public
-         * javax.swing.text.html.HTMLDocument$RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
-         * .
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument,
-         *             javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_RunElement_HTMLDocument_Element_AttributeSet_int_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.RunElement sut = null; // = new
-                                                                            // RunElement(javax.swing.text.html.HTMLDocument,
-                                                                            // javax.swing.text.Element,
-                                                                            // javax.swing.text.AttributeSet, int, int);
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.html.HTMLDocument.RunElement#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.text.html.HTMLDocument.RunElement.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.RunElement.class!",
+                       javax.swing.text.html.HTMLDocument.RunElement.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument() public
-     * javax.swing.text.html.HTMLDocument()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader class
+     * javax.swing.text.html.HTMLDocument$HTMLReader}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument#HTMLDocument()
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link HTMLDocumentTests.HTMLReaderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link HTMLDocumentTests.HTMLReaderTests}.
+     * </p>
+     *
+     * @see javax.swing.text.html.HTMLDocument.HTMLReader class javax.swing.text.html.HTMLDocument$HTMLReader (the
+     *      hereby targeted class-under-test class)
+     * @see HTMLDocumentTests.HTMLReaderTests HTMLDocumentTests.HTMLReaderTests (The complementary j8unit test interface
+     *      containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLDocument()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument();
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface HTMLReaderClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader>
+    extends HTMLEditorKitClassTests.ParserCallbackClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.class!",
+                       javax.swing.text.html.HTMLDocument.HTMLReader.class.isAssignableFrom(sut));
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
+         *      HTMLDocumentTests.HTMLReaderTests.SpecialActionTests (The complementary j8unit test interface containing
+         *      the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface SpecialActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.CharacterActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.CharacterActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction (the hereby targeted class-under-test
+         *      class)
+         * @see HTMLDocumentTests.HTMLReaderTests.CharacterActionTests
+         *      HTMLDocumentTests.HTMLReaderTests.CharacterActionTests (The complementary j8unit test interface
+         *      containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface CharacterActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.TagAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction}, containing all type relevant aspects (e.&thinsp;g.,
+         * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit
+         * test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.TagActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.TagActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.TagAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$TagAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.TagActionTests HTMLDocumentTests.HTMLReaderTests.TagActionTests (The
+         *      complementary j8unit test interface containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface TagActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.TagAction>
+        extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.TagAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.TagAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction (the hereby targeted class-under-test
+         *      class)
+         * @see HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
+         *      HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests (The complementary j8unit test interface
+         *      containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface ParagraphActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.BlockActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.BlockActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.BlockActionTests HTMLDocumentTests.HTMLReaderTests.BlockActionTests
+         *      (The complementary j8unit test interface containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface BlockActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.FormAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.FormActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.FormActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.FormAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$FormAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.FormActionTests HTMLDocumentTests.HTMLReaderTests.FormActionTests (The
+         *      complementary j8unit test interface containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface FormActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.FormAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.FormAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.FormAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.IsindexActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.IsindexActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.IsindexActionTests
+         *      HTMLDocumentTests.HTMLReaderTests.IsindexActionTests (The complementary j8unit test interface containing
+         *      the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface IsindexActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction
+         * class javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction}, containing all type relevant aspects
+         * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+         * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.HiddenActionTests HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
+         *      (The complementary j8unit test interface containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface HiddenActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.HTMLReader.PreAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction}, containing all type relevant aspects (e.&thinsp;g.,
+         * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit
+         * test interface's generic type is verified by {@link #verifyGenericType()}).
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit provides this reusable test interface covering type relevant aspects as
+         * well as a complementarySetup test interface containing the instance relevant aspects (see
+         * {@link HTMLDocumentTests.HTMLReaderTests.PreActionTests}).
+         * </p>
+         *
+         * <p>
+         * <strong>What? Testing the class itself? What is it good for?</strong>
+         * </p>
+         *
+         * <p>
+         * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For
+         * example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS,
+         * Sec.&thinsp;9.6.1</a>). Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+         * provides corresponding, reusable test methods:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+         * ,
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+         * , and
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}
+         * .
+         * </p>
+         *
+         * <p>
+         * The complementary j8unit test interface containing the instance relevant aspects is
+         * {@link HTMLDocumentTests.HTMLReaderTests.PreActionTests}.
+         * </p>
+         *
+         * @see javax.swing.text.html.HTMLDocument.HTMLReader.PreAction class
+         *      javax.swing.text.html.HTMLDocument$HTMLReader$PreAction (the hereby targeted class-under-test class)
+         * @see HTMLDocumentTests.HTMLReaderTests.PreActionTests HTMLDocumentTests.HTMLReaderTests.PreActionTests (The
+         *      complementary j8unit test interface containing the instance relevant test methods)
+         *
+         * @param SUT
+         *            the class' type of the subject-under-test
+         * @since 0.9.0
+         */
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface PreActionClassTests<SUT extends javax.swing.text.html.HTMLDocument.HTMLReader.PreAction>
+        extends HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
+
+            /**
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class) (the hereby targeted method-under-test)
+             *
+             * @since 0.9.2
+             */
+            @Override
+            @BeforeClass
+            public default void verifyGenericType()
+            throws Exception {
+                // create new instance
+                final Class<SUT> sut = createNewSUT();
+                // assert assignability
+                assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.HTMLReader.PreAction.class!",
+                           javax.swing.text.html.HTMLDocument.HTMLReader.PreAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
     }
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content, javax.swing.text.html.StyleSheet)
-     * public
-     * javax.swing.text.html.HTMLDocument(javax.swing.text.AbstractDocument$Content,javax.swing.text.html.StyleSheet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.BlockElement class
+     * javax.swing.text.html.HTMLDocument$BlockElement}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content,
-     *             javax.swing.text.html.StyleSheet)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link HTMLDocumentTests.BlockElementTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link HTMLDocumentTests.BlockElementTests}.
+     * </p>
+     *
+     * @see javax.swing.text.html.HTMLDocument.BlockElement class javax.swing.text.html.HTMLDocument$BlockElement (the
+     *      hereby targeted class-under-test class)
+     * @see HTMLDocumentTests.BlockElementTests HTMLDocumentTests.BlockElementTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLDocument_Content_StyleSheet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLDocument sut = null; // = new
-                                                             // HTMLDocument(javax.swing.text.AbstractDocument.Content,
-                                                             // javax.swing.text.html.StyleSheet);
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BlockElementClassTests<SUT extends javax.swing.text.html.HTMLDocument.BlockElement>
+    extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.BranchElementClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.BlockElement.class!",
+                       javax.swing.text.html.HTMLDocument.BlockElement.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet) public
-     * javax.swing.text.html.HTMLDocument(javax.swing.text.html.StyleSheet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.html.HTMLDocument.Iterator class
+     * javax.swing.text.html.HTMLDocument$Iterator}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLDocument_StyleSheet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument(javax.swing.text.html.StyleSheet);
-    }
-
-    /**
-     * @since 0.9.2
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link HTMLDocumentTests.IteratorTests}).
+     * </p>
      *
-     * @j8unit.aim javax.swing.text.html.HTMLDocument#isAssignableFrom(java.lang.Class)
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link HTMLDocumentTests.IteratorTests}.
+     * </p>
+     *
+     * @see javax.swing.text.html.HTMLDocument.Iterator class javax.swing.text.html.HTMLDocument$Iterator (the hereby
+     *      targeted class-under-test class)
+     * @see HTMLDocumentTests.IteratorTests HTMLDocumentTests.IteratorTests (The complementary j8unit test interface
+     *      containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.HTMLDocument.class.isAssignableFrom(sut));
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface IteratorClassTests<SUT extends javax.swing.text.html.HTMLDocument.Iterator>
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.html.HTMLDocument.Iterator.class!",
+                       javax.swing.text.html.HTMLDocument.Iterator.class.isAssignableFrom(sut));
+        }
+
     }
 
 }

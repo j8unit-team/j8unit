@@ -8,58 +8,43 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.table.DefaultTableModel class
- * javax.swing.table.DefaultTableModel}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.table.DefaultTableModelTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.table.DefaultTableModel class
+ * javax.swing.table.DefaultTableModel}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DefaultTableModelClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.table.DefaultTableModelClassTests
+ * @see javax.swing.table.DefaultTableModel class javax.swing.table.DefaultTableModel (the hereby targeted
+ *      class-under-test class)
+ * @see DefaultTableModelClassTests DefaultTableModelClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.table.DefaultTableModel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTableModelTests<SUT extends javax.swing.table.DefaultTableModel>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.table.AbstractTableModelTests<SUT> {
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractTableModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(java.lang.Object) public void
-     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(Object, Object[]) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.lang.Object[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(Object, Object[]) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#addColumn(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addColumn_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(java.lang.Object, java.lang.Object[]) public
-     * void javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#addColumn(java.lang.Object, java.lang.Object[])
+     * @see javax.swing.table.DefaultTableModel#addColumn(Object, Object[]) public void
+     *      javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.lang.Object[]) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,15 +58,21 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(java.lang.Object, java.util.Vector) public
-     * void javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.util.Vector)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(Object, java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.util.Vector)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(Object, java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.util.Vector)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#addColumn(java.lang.Object, java.util.Vector)
+     * @see javax.swing.table.DefaultTableModel#addColumn(Object, java.util.Vector) public void
+     *      javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.util.Vector) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,88 +86,25 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.lang.Object[]) public void
-     * javax.swing.table.DefaultTableModel.addRow(java.lang.Object[])}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(Object) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#addRow(java.lang.Object[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addRow_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.util.Vector) public void
-     * javax.swing.table.DefaultTableModel.addRow(java.util.Vector)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(Object) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#addRow(java.util.Vector)
+     * @see javax.swing.table.DefaultTableModel#addColumn(Object) public void
+     *      javax.swing.table.DefaultTableModel.addColumn(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addRow_Vector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnCount() public int
-     * javax.swing.table.DefaultTableModel.getColumnCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#getColumnCount()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnName(int) public java.lang.String
-     * javax.swing.table.DefaultTableModel.getColumnName(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#getColumnName(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnName_int()
+    public default void test_addColumn_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -188,12 +116,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.swing.table.DefaultTableModel#getDataVector() public java.util.Vector
      * javax.swing.table.DefaultTableModel.getDataVector()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getDataVector() public java.util.Vector
+     * javax.swing.table.DefaultTableModel.getDataVector()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#getDataVector()
+     * @see javax.swing.table.DefaultTableModel#getDataVector() public java.util.Vector
+     *      javax.swing.table.DefaultTableModel.getDataVector() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,6 +140,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent) public
+     * void javax.swing.table.DefaultTableModel.newRowsAdded(javax.swing.event.TableModelEvent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent) public
+     * void javax.swing.table.DefaultTableModel.newRowsAdded(javax.swing.event.TableModelEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent) public void
+     *      javax.swing.table.DefaultTableModel.newRowsAdded(javax.swing.event.TableModelEvent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newRowsAdded_TableModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getRowCount() public int
+     * javax.swing.table.DefaultTableModel.getRowCount()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.table.DefaultTableModel#getRowCount() public int
      * javax.swing.table.DefaultTableModel.getRowCount()}.
      *
@@ -215,12 +180,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#getRowCount()
+     * @see javax.swing.table.DefaultTableModel#getRowCount() public int
+     *      javax.swing.table.DefaultTableModel.getRowCount() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getRowCount()
     throws Exception {
         // query fresh subject-under-test
@@ -230,21 +196,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getValueAt(int, int) public java.lang.Object
-     * javax.swing.table.DefaultTableModel.getValueAt(int,int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent)
+     * public void javax.swing.table.DefaultTableModel.newDataAvailable(javax.swing.event.TableModelEvent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent)
+     * public void javax.swing.table.DefaultTableModel.newDataAvailable(javax.swing.event.TableModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#getValueAt(int, int)
+     * @see javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent) public void
+     *      javax.swing.table.DefaultTableModel.newDataAvailable(javax.swing.event.TableModelEvent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getValueAt_int_int()
+    public default void test_newDataAvailable_TableModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -253,7 +224,39 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#insertRow(int, java.lang.Object[]) public void
+     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnCount() public int
+     * javax.swing.table.DefaultTableModel.getColumnCount()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnCount() public int
+     * javax.swing.table.DefaultTableModel.getColumnCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#getColumnCount() public int
+     *      javax.swing.table.DefaultTableModel.getColumnCount() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#insertRow(int, Object[]) public void
+     * javax.swing.table.DefaultTableModel.insertRow(int,java.lang.Object[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#insertRow(int, Object[]) public void
      * javax.swing.table.DefaultTableModel.insertRow(int,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,7 +264,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#insertRow(int, java.lang.Object[])
+     * @see javax.swing.table.DefaultTableModel#insertRow(int, Object[]) public void
+     *      javax.swing.table.DefaultTableModel.insertRow(int,java.lang.Object[]) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,12 +283,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.swing.table.DefaultTableModel#insertRow(int, java.util.Vector) public void
      * javax.swing.table.DefaultTableModel.insertRow(int,java.util.Vector)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#insertRow(int, java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.insertRow(int,java.util.Vector)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#insertRow(int, java.util.Vector)
+     * @see javax.swing.table.DefaultTableModel#insertRow(int, java.util.Vector) public void
+     *      javax.swing.table.DefaultTableModel.insertRow(int,java.util.Vector) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -297,116 +307,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#isCellEditable(int, int) public boolean
-     * javax.swing.table.DefaultTableModel.isCellEditable(int,int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#rowsRemoved(javax.swing.event.TableModelEvent) public
+     * void javax.swing.table.DefaultTableModel.rowsRemoved(javax.swing.event.TableModelEvent)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#isCellEditable(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isCellEditable_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#moveRow(int, int, int) public void
-     * javax.swing.table.DefaultTableModel.moveRow(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#moveRow(int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_moveRow_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent)
-     * public void javax.swing.table.DefaultTableModel.newDataAvailable(javax.swing.event.TableModelEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDataAvailable_TableModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent) public
-     * void javax.swing.table.DefaultTableModel.newRowsAdded(javax.swing.event.TableModelEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newRowsAdded_TableModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#removeRow(int) public void
-     * javax.swing.table.DefaultTableModel.removeRow(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#removeRow(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeRow_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.table.DefaultTableModel#rowsRemoved(javax.swing.event.TableModelEvent) public
      * void javax.swing.table.DefaultTableModel.rowsRemoved(javax.swing.event.TableModelEvent)}.
@@ -416,7 +319,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#rowsRemoved(javax.swing.event.TableModelEvent)
+     * @see javax.swing.table.DefaultTableModel#rowsRemoved(javax.swing.event.TableModelEvent) public void
+     *      javax.swing.table.DefaultTableModel.rowsRemoved(javax.swing.event.TableModelEvent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -430,6 +335,65 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#isCellEditable(int, int) public boolean
+     * javax.swing.table.DefaultTableModel.isCellEditable(int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#isCellEditable(int, int) public boolean
+     * javax.swing.table.DefaultTableModel.isCellEditable(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#isCellEditable(int, int) public boolean
+     *      javax.swing.table.DefaultTableModel.isCellEditable(int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isCellEditable_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setRowCount(int) public void
+     * javax.swing.table.DefaultTableModel.setRowCount(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setRowCount(int) public void
+     * javax.swing.table.DefaultTableModel.setRowCount(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#setRowCount(int) public void
+     *      javax.swing.table.DefaultTableModel.setRowCount(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRowCount_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnCount(int) public void
+     * javax.swing.table.DefaultTableModel.setColumnCount(int)}.
+     *
+     * <p>
      * Test method for {@link javax.swing.table.DefaultTableModel#setColumnCount(int) public void
      * javax.swing.table.DefaultTableModel.setColumnCount(int)}.
      *
@@ -438,7 +402,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setColumnCount(int)
+     * @see javax.swing.table.DefaultTableModel#setColumnCount(int) public void
+     *      javax.swing.table.DefaultTableModel.setColumnCount(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -452,20 +417,79 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.lang.Object[]) public void
-     * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.lang.Object[])}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#setNumRows(int) public void
+     * javax.swing.table.DefaultTableModel.setNumRows(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setNumRows(int) public void
+     * javax.swing.table.DefaultTableModel.setNumRows(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.lang.Object[])
+     * @see javax.swing.table.DefaultTableModel#setNumRows(int) public void
+     *      javax.swing.table.DefaultTableModel.setNumRows(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setColumnIdentifiers_ObjectArray()
+    public default void test_setNumRows_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(Object[]) public void
+     * javax.swing.table.DefaultTableModel.addRow(java.lang.Object[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(Object[]) public void
+     * javax.swing.table.DefaultTableModel.addRow(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#addRow(Object[]) public void
+     *      javax.swing.table.DefaultTableModel.addRow(java.lang.Object[]) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addRow_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.addRow(java.util.Vector)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.addRow(java.util.Vector)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#addRow(java.util.Vector) public void
+     *      javax.swing.table.DefaultTableModel.addRow(java.util.Vector) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addRow_Vector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -477,12 +501,18 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.util.Vector) public void
      * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.util.Vector)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.util.Vector)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.util.Vector)
+     * @see javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.util.Vector) public void
+     *      javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.util.Vector) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -496,8 +526,96 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.DefaultTableModel#setDataVector(java.lang.Object[][], java.lang.Object[]) public void
+     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(Object[]) public void
+     * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.lang.Object[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(Object[]) public void
+     * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#setColumnIdentifiers(Object[]) public void
+     *      javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.lang.Object[]) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setColumnIdentifiers_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setValueAt(Object, int, int) public void
+     * javax.swing.table.DefaultTableModel.setValueAt(java.lang.Object,int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setValueAt(Object, int, int) public void
+     * javax.swing.table.DefaultTableModel.setValueAt(java.lang.Object,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#setValueAt(Object, int, int) public void
+     *      javax.swing.table.DefaultTableModel.setValueAt(java.lang.Object,int,int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setValueAt_Object_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnName(int) public java.lang.String
+     * javax.swing.table.DefaultTableModel.getColumnName(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnName(int) public java.lang.String
+     * javax.swing.table.DefaultTableModel.getColumnName(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#getColumnName(int) public java.lang.String
+     *      javax.swing.table.DefaultTableModel.getColumnName(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setDataVector(Object[][], Object[]) public void
+     * javax.swing.table.DefaultTableModel.setDataVector(java.lang.Object[][],java.lang.Object[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setDataVector(Object[][], Object[]) public void
      * javax.swing.table.DefaultTableModel.setDataVector(java.lang.Object[][],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -505,7 +623,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setDataVector(java.lang.Object[][], java.lang.Object[])
+     * @see javax.swing.table.DefaultTableModel#setDataVector(Object[][], Object[]) public void
+     *      javax.swing.table.DefaultTableModel.setDataVector(java.lang.Object[][],java.lang.Object[]) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -522,12 +642,18 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.swing.table.DefaultTableModel#setDataVector(java.util.Vector, java.util.Vector)
      * public void javax.swing.table.DefaultTableModel.setDataVector(java.util.Vector,java.util.Vector)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setDataVector(java.util.Vector, java.util.Vector)
+     * public void javax.swing.table.DefaultTableModel.setDataVector(java.util.Vector,java.util.Vector)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setDataVector(java.util.Vector, java.util.Vector)
+     * @see javax.swing.table.DefaultTableModel#setDataVector(java.util.Vector, java.util.Vector) public void
+     *      javax.swing.table.DefaultTableModel.setDataVector(java.util.Vector,java.util.Vector) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -541,65 +667,80 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setNumRows(int) public void
-     * javax.swing.table.DefaultTableModel.setNumRows(int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#getValueAt(int, int) public java.lang.Object
+     * javax.swing.table.DefaultTableModel.getValueAt(int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setNumRows(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNumRows_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setRowCount(int) public void
-     * javax.swing.table.DefaultTableModel.setRowCount(int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#getValueAt(int, int) public java.lang.Object
+     * javax.swing.table.DefaultTableModel.getValueAt(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setRowCount(int)
+     * @see javax.swing.table.DefaultTableModel#getValueAt(int, int) public java.lang.Object
+     *      javax.swing.table.DefaultTableModel.getValueAt(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRowCount_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setValueAt(java.lang.Object, int, int) public void
-     * javax.swing.table.DefaultTableModel.setValueAt(java.lang.Object,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.table.DefaultTableModel#setValueAt(java.lang.Object, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_setValueAt_Object_int_int()
+    @Test
+    @Category(Draft.class)
+    public default void test_getValueAt_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#moveRow(int, int, int) public void
+     * javax.swing.table.DefaultTableModel.moveRow(int,int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#moveRow(int, int, int) public void
+     * javax.swing.table.DefaultTableModel.moveRow(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#moveRow(int, int, int) public void
+     *      javax.swing.table.DefaultTableModel.moveRow(int,int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_moveRow_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#removeRow(int) public void
+     * javax.swing.table.DefaultTableModel.removeRow(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#removeRow(int) public void
+     * javax.swing.table.DefaultTableModel.removeRow(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.table.DefaultTableModel#removeRow(int) public void
+     *      javax.swing.table.DefaultTableModel.removeRow(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeRow_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

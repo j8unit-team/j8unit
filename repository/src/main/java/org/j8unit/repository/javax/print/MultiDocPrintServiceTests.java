@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.MultiDocPrintService interface
- * javax.print.MultiDocPrintService}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.MultiDocPrintServiceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.MultiDocPrintService interface
+ * javax.print.MultiDocPrintService}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link MultiDocPrintServiceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.MultiDocPrintServiceClassTests
+ * @see javax.print.MultiDocPrintService interface javax.print.MultiDocPrintService (the hereby targeted
+ *      class-under-test class)
+ * @see MultiDocPrintServiceClassTests MultiDocPrintServiceClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.MultiDocPrintService
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiDocPrintServiceTests<SUT extends javax.print.MultiDocPrintService>
-extends org.j8unit.repository.javax.print.PrintServiceTests<SUT> {
+extends PrintServiceTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract
+     * javax.print.MultiDocPrintJob javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
+     *
      * <p>
      * Test method for {@link javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract
      * javax.print.MultiDocPrintJob javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.MultiDocPrintService#createMultiDocPrintJob()
+     * @see javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract javax.print.MultiDocPrintJob
+     *      javax.print.MultiDocPrintService.createMultiDocPrintJob() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.time.MonthDay class java.time.MonthDay}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.time.MonthDayTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.time.MonthDay class java.time.MonthDay}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link MonthDayClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.time.MonthDayClassTests
+ * @see java.time.MonthDay class java.time.MonthDay (the hereby targeted class-under-test class)
+ * @see MonthDayClassTests MonthDayClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.time.MonthDay
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,21 +30,26 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#adjustInto(java.time.temporal.Temporal) public
-     * java.time.temporal.Temporal java.time.MonthDay.adjustInto(java.time.temporal.Temporal)}.
+     * Test method for {@link java.time.MonthDay#query(java.time.temporal.TemporalQuery) public <R> R
+     * java.time.MonthDay.query(java.time.temporal.TemporalQuery<R>)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#query(java.time.temporal.TemporalQuery) public java.lang.Object
+     * java.time.MonthDay.query(java.time.temporal.TemporalQuery)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#adjustInto(java.time.temporal.Temporal)
+     * @see java.time.MonthDay#query(java.time.temporal.TemporalQuery) public java.lang.Object
+     *      java.time.MonthDay.query(java.time.temporal.TemporalQuery) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_adjustInto_Temporal()
+    public default void test_query_TemporalQuery()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,12 +60,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.time.MonthDay#atYear(int) public java.time.LocalDate java.time.MonthDay.atYear(int)}.
      *
+     * <p>
+     * Test method for {@link java.time.MonthDay#atYear(int) public java.time.LocalDate java.time.MonthDay.atYear(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#atYear(int)
+     * @see java.time.MonthDay#atYear(int) public java.time.LocalDate java.time.MonthDay.atYear(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,160 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#compareTo(java.time.MonthDay) public int
-     * java.time.MonthDay.compareTo(java.time.MonthDay)}.
+     * Test method for {@link java.time.MonthDay#getMonthValue() public int java.time.MonthDay.getMonthValue()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#compareTo(java.time.MonthDay)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareTo_MonthDay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#equals(java.lang.Object) public boolean
-     * java.time.MonthDay.equals(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#equals(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#format(java.time.format.DateTimeFormatter) public java.lang.String
-     * java.time.MonthDay.format(java.time.format.DateTimeFormatter)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#format(java.time.format.DateTimeFormatter)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_DateTimeFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#get(java.time.temporal.TemporalField) public int
-     * java.time.MonthDay.get(java.time.temporal.TemporalField)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#get(java.time.temporal.TemporalField)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_get_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#getDayOfMonth() public int java.time.MonthDay.getDayOfMonth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#getDayOfMonth()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDayOfMonth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#getLong(java.time.temporal.TemporalField) public long
-     * java.time.MonthDay.getLong(java.time.temporal.TemporalField)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#getLong(java.time.temporal.TemporalField)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLong_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#getMonth() public java.time.Month java.time.MonthDay.getMonth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#getMonth()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMonth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.time.MonthDay#getMonthValue() public int java.time.MonthDay.getMonthValue()}.
      *
@@ -236,7 +93,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#getMonthValue()
+     * @see java.time.MonthDay#getMonthValue() public int java.time.MonthDay.getMonthValue() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,49 +108,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#hashCode() public int java.time.MonthDay.hashCode()}.
+     * Test method for {@link java.time.MonthDay#isBefore(java.time.MonthDay) public boolean
+     * java.time.MonthDay.isBefore(java.time.MonthDay)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#isAfter(java.time.MonthDay) public boolean
-     * java.time.MonthDay.isAfter(java.time.MonthDay)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#isAfter(java.time.MonthDay)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAfter_MonthDay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.time.MonthDay#isBefore(java.time.MonthDay) public boolean
      * java.time.MonthDay.isBefore(java.time.MonthDay)}.
@@ -302,7 +120,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#isBefore(java.time.MonthDay)
+     * @see java.time.MonthDay#isBefore(java.time.MonthDay) public boolean
+     *      java.time.MonthDay.isBefore(java.time.MonthDay) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -316,6 +135,37 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.MonthDay#compareTo(java.time.MonthDay) public int
+     * java.time.MonthDay.compareTo(java.time.MonthDay)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#compareTo(java.time.MonthDay) public int
+     * java.time.MonthDay.compareTo(java.time.MonthDay)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#compareTo(java.time.MonthDay) public int java.time.MonthDay.compareTo(java.time.MonthDay)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_MonthDay()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#isSupported(java.time.temporal.TemporalField) public boolean
+     * java.time.MonthDay.isSupported(java.time.temporal.TemporalField)}.
+     *
+     * <p>
      * Test method for {@link java.time.MonthDay#isSupported(java.time.temporal.TemporalField) public boolean
      * java.time.MonthDay.isSupported(java.time.temporal.TemporalField)}.
      *
@@ -324,57 +174,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#isSupported(java.time.temporal.TemporalField)
+     * @see java.time.MonthDay#isSupported(java.time.temporal.TemporalField) public boolean
+     *      java.time.MonthDay.isSupported(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_isSupported_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#isValidYear(int) public boolean java.time.MonthDay.isValidYear(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#isValidYear(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidYear_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#query(java.time.temporal.TemporalQuery) public java.lang.Object
-     * java.time.MonthDay.query(java.time.temporal.TemporalQuery)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.MonthDay#query(java.time.temporal.TemporalQuery)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_query_TemporalQuery()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -386,17 +193,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.time.MonthDay#range(java.time.temporal.TemporalField) public
      * java.time.temporal.ValueRange java.time.MonthDay.range(java.time.temporal.TemporalField)}.
      *
+     * <p>
+     * Test method for {@link java.time.MonthDay#range(java.time.temporal.TemporalField) public
+     * java.time.temporal.ValueRange java.time.MonthDay.range(java.time.temporal.TemporalField)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#range(java.time.temporal.TemporalField)
+     * @see java.time.MonthDay#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     *      java.time.MonthDay.range(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_range_TemporalField()
     throws Exception {
         // query fresh subject-under-test
@@ -406,20 +218,135 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#toString() public java.lang.String java.time.MonthDay.toString()}.
+     * Test method for {@link java.time.MonthDay#format(java.time.format.DateTimeFormatter) public java.lang.String
+     * java.time.MonthDay.format(java.time.format.DateTimeFormatter)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#format(java.time.format.DateTimeFormatter) public java.lang.String
+     * java.time.MonthDay.format(java.time.format.DateTimeFormatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#toString()
+     * @see java.time.MonthDay#format(java.time.format.DateTimeFormatter) public java.lang.String
+     *      java.time.MonthDay.format(java.time.format.DateTimeFormatter) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_format_DateTimeFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#adjustInto(java.time.temporal.Temporal) public
+     * java.time.temporal.Temporal java.time.MonthDay.adjustInto(java.time.temporal.Temporal)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#adjustInto(java.time.temporal.Temporal) public
+     * java.time.temporal.Temporal java.time.MonthDay.adjustInto(java.time.temporal.Temporal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#adjustInto(java.time.temporal.Temporal) public java.time.temporal.Temporal
+     *      java.time.MonthDay.adjustInto(java.time.temporal.Temporal) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_toString()
+    @Test
+    @Category(Draft.class)
+    public default void test_adjustInto_Temporal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#get(java.time.temporal.TemporalField) public int
+     * java.time.MonthDay.get(java.time.temporal.TemporalField)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#get(java.time.temporal.TemporalField) public int
+     * java.time.MonthDay.get(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#get(java.time.temporal.TemporalField) public int
+     *      java.time.MonthDay.get(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_TemporalField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#equals(Object) public boolean
+     * java.time.MonthDay.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#equals(Object) public boolean
+     * java.time.MonthDay.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#equals(Object) public boolean java.time.MonthDay.equals(java.lang.Object) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#hashCode() public int java.time.MonthDay.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#hashCode() public int java.time.MonthDay.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#hashCode() public int java.time.MonthDay.hashCode() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -431,12 +358,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.time.MonthDay#with(java.time.Month) public java.time.MonthDay
      * java.time.MonthDay.with(java.time.Month)}.
      *
+     * <p>
+     * Test method for {@link java.time.MonthDay#with(java.time.Month) public java.time.MonthDay
+     * java.time.MonthDay.with(java.time.Month)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#with(java.time.Month)
+     * @see java.time.MonthDay#with(java.time.Month) public java.time.MonthDay java.time.MonthDay.with(java.time.Month)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -450,6 +382,167 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.MonthDay#getLong(java.time.temporal.TemporalField) public long
+     * java.time.MonthDay.getLong(java.time.temporal.TemporalField)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#getLong(java.time.temporal.TemporalField) public long
+     * java.time.MonthDay.getLong(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#getLong(java.time.temporal.TemporalField) public long
+     *      java.time.MonthDay.getLong(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLong_TemporalField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#withMonth(int) public java.time.MonthDay
+     * java.time.MonthDay.withMonth(int)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#withMonth(int) public java.time.MonthDay
+     * java.time.MonthDay.withMonth(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#withMonth(int) public java.time.MonthDay java.time.MonthDay.withMonth(int) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_withMonth_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#isAfter(java.time.MonthDay) public boolean
+     * java.time.MonthDay.isAfter(java.time.MonthDay)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#isAfter(java.time.MonthDay) public boolean
+     * java.time.MonthDay.isAfter(java.time.MonthDay)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#isAfter(java.time.MonthDay) public boolean java.time.MonthDay.isAfter(java.time.MonthDay)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAfter_MonthDay()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#isValidYear(int) public boolean java.time.MonthDay.isValidYear(int)}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#isValidYear(int) public boolean java.time.MonthDay.isValidYear(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#isValidYear(int) public boolean java.time.MonthDay.isValidYear(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidYear_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#getDayOfMonth() public int java.time.MonthDay.getDayOfMonth()}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#getDayOfMonth() public int java.time.MonthDay.getDayOfMonth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#getDayOfMonth() public int java.time.MonthDay.getDayOfMonth() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDayOfMonth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#getMonth() public java.time.Month java.time.MonthDay.getMonth()}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#getMonth() public java.time.Month java.time.MonthDay.getMonth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.time.MonthDay#getMonth() public java.time.Month java.time.MonthDay.getMonth() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMonth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#withDayOfMonth(int) public java.time.MonthDay
+     * java.time.MonthDay.withDayOfMonth(int)}.
+     *
+     * <p>
      * Test method for {@link java.time.MonthDay#withDayOfMonth(int) public java.time.MonthDay
      * java.time.MonthDay.withDayOfMonth(int)}.
      *
@@ -458,7 +551,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#withDayOfMonth(int)
+     * @see java.time.MonthDay#withDayOfMonth(int) public java.time.MonthDay java.time.MonthDay.withDayOfMonth(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -472,20 +566,24 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#withMonth(int) public java.time.MonthDay
-     * java.time.MonthDay.withMonth(int)}.
+     * Test method for {@link java.time.MonthDay#toString() public java.lang.String java.time.MonthDay.toString()}.
+     *
+     * <p>
+     * Test method for {@link java.time.MonthDay#toString() public java.lang.String java.time.MonthDay.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.MonthDay#withMonth(int)
+     * @see java.time.MonthDay#toString() public java.lang.String java.time.MonthDay.toString() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_withMonth_int()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

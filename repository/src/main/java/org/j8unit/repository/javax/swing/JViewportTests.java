@@ -8,271 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.JViewport class javax.swing.JViewport}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.JViewportTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.JViewport class javax.swing.JViewport}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link JViewportClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.JViewportClassTests
+ * @see javax.swing.JViewport class javax.swing.JViewport (the hereby targeted class-under-test class)
+ * @see JViewportClassTests JViewportClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.JViewport
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JViewportTests<SUT extends javax.swing.JViewport>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.JComponentTests<SUT> {
+extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JViewport#addChangeListener(javax.swing.event.ChangeListener) public void
-     * javax.swing.JViewport.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for {@link javax.swing.JViewport#getViewRect() public java.awt.Rectangle
+     * javax.swing.JViewport.getViewRect()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#addChangeListener(javax.swing.event.ChangeListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JViewport.getAccessibleContext()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getAccessibleContext()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getChangeListeners() public javax.swing.event.ChangeListener[]
-     * javax.swing.JViewport.getChangeListeners()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getChangeListeners()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChangeListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getExtentSize() public java.awt.Dimension
-     * javax.swing.JViewport.getExtentSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getExtentSize()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getExtentSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getInsets() public final java.awt.Insets
-     * javax.swing.JViewport.getInsets()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getInsets()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getInsets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getInsets(java.awt.Insets) public final java.awt.Insets
-     * javax.swing.JViewport.getInsets(java.awt.Insets)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getInsets(java.awt.Insets)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getInsets_Insets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getScrollMode() public int javax.swing.JViewport.getScrollMode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getScrollMode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScrollMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getUI() public javax.swing.plaf.ViewportUI
-     * javax.swing.JViewport.getUI()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getUI()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getUIClassID() public java.lang.String
-     * javax.swing.JViewport.getUIClassID()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getUIClassID()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getView() public java.awt.Component javax.swing.JViewport.getView()}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getView()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getView()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#getViewPosition() public java.awt.Point
-     * javax.swing.JViewport.getViewPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getViewPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.JViewport#getViewRect() public java.awt.Rectangle
      * javax.swing.JViewport.getViewRect()}.
@@ -282,7 +40,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.JViewport#getViewRect()
+     * @see javax.swing.JViewport#getViewRect() public java.awt.Rectangle javax.swing.JViewport.getViewRect() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -296,140 +55,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JViewport#getViewSize() public java.awt.Dimension
-     * javax.swing.JViewport.getViewSize()}.
+     * Test method for {@link javax.swing.JViewport#repaint(long, int, int, int, int) public void
+     * javax.swing.JViewport.repaint(long,int,int,int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#getViewSize()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#isBackingStoreEnabled() public boolean
-     * javax.swing.JViewport.isBackingStoreEnabled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#isBackingStoreEnabled()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBackingStoreEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#isOptimizedDrawingEnabled() public boolean
-     * javax.swing.JViewport.isOptimizedDrawingEnabled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#isOptimizedDrawingEnabled()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isOptimizedDrawingEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#paint(java.awt.Graphics) public void
-     * javax.swing.JViewport.paint(java.awt.Graphics)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#paint(java.awt.Graphics)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#remove(java.awt.Component) public void
-     * javax.swing.JViewport.remove(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#remove(java.awt.Component)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#removeChangeListener(javax.swing.event.ChangeListener) public void
-     * javax.swing.JViewport.removeChangeListener(javax.swing.event.ChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#removeChangeListener(javax.swing.event.ChangeListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.JViewport#repaint(long, int, int, int, int) public void
      * javax.swing.JViewport.repaint(long,int,int,int,int)}.
@@ -439,12 +67,13 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.JViewport#repaint(long, int, int, int, int)
+     * @see javax.swing.JViewport#repaint(long, int, int, int, int) public void
+     *      javax.swing.JViewport.repaint(long,int,int,int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_repaint_long_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
@@ -454,221 +83,25 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JViewport#reshape(int, int, int, int) public void
-     * javax.swing.JViewport.reshape(int,int,int,int)}.
+     * Test method for {@link javax.swing.JViewport#getViewPosition() public java.awt.Point
+     * javax.swing.JViewport.getViewPosition()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#reshape(int, int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_reshape_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.JViewport#scrollRectToVisible(java.awt.Rectangle) public void
-     * javax.swing.JViewport.scrollRectToVisible(java.awt.Rectangle)}.
+     * Test method for {@link javax.swing.JViewport#getViewPosition() public java.awt.Point
+     * javax.swing.JViewport.getViewPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.JViewport#scrollRectToVisible(java.awt.Rectangle)
+     * @see javax.swing.JViewport#getViewPosition() public java.awt.Point javax.swing.JViewport.getViewPosition() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_scrollRectToVisible_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setBackingStoreEnabled(boolean) public void
-     * javax.swing.JViewport.setBackingStoreEnabled(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setBackingStoreEnabled(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBackingStoreEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setBorder(javax.swing.border.Border) public final void
-     * javax.swing.JViewport.setBorder(javax.swing.border.Border)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setBorder(javax.swing.border.Border)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setBorder_Border()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setExtentSize(java.awt.Dimension) public void
-     * javax.swing.JViewport.setExtentSize(java.awt.Dimension)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setExtentSize(java.awt.Dimension)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExtentSize_Dimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setScrollMode(int) public void
-     * javax.swing.JViewport.setScrollMode(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setScrollMode(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setScrollMode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setUI(javax.swing.plaf.ViewportUI) public void
-     * javax.swing.JViewport.setUI(javax.swing.plaf.ViewportUI)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setUI(javax.swing.plaf.ViewportUI)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_ViewportUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setView(java.awt.Component) public void
-     * javax.swing.JViewport.setView(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setView(java.awt.Component)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setView_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setViewPosition(java.awt.Point) public void
-     * javax.swing.JViewport.setViewPosition(java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setViewPosition(java.awt.Point)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setViewPosition_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JViewport#setViewSize(java.awt.Dimension) public void
-     * javax.swing.JViewport.setViewSize(java.awt.Dimension)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JViewport#setViewSize(java.awt.Dimension)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setViewSize_Dimension()
+    public default void test_getViewPosition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -680,12 +113,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * Test method for {@link javax.swing.JViewport#toViewCoordinates(java.awt.Dimension) public java.awt.Dimension
      * javax.swing.JViewport.toViewCoordinates(java.awt.Dimension)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#toViewCoordinates(java.awt.Dimension) public java.awt.Dimension
+     * javax.swing.JViewport.toViewCoordinates(java.awt.Dimension)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.JViewport#toViewCoordinates(java.awt.Dimension)
+     * @see javax.swing.JViewport#toViewCoordinates(java.awt.Dimension) public java.awt.Dimension
+     *      javax.swing.JViewport.toViewCoordinates(java.awt.Dimension) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -702,12 +140,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * Test method for {@link javax.swing.JViewport#toViewCoordinates(java.awt.Point) public java.awt.Point
      * javax.swing.JViewport.toViewCoordinates(java.awt.Point)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#toViewCoordinates(java.awt.Point) public java.awt.Point
+     * javax.swing.JViewport.toViewCoordinates(java.awt.Point)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.JViewport#toViewCoordinates(java.awt.Point)
+     * @see javax.swing.JViewport#toViewCoordinates(java.awt.Point) public java.awt.Point
+     *      javax.swing.JViewport.toViewCoordinates(java.awt.Point) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -721,6 +164,611 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JViewport#setView(java.awt.Component) public void
+     * javax.swing.JViewport.setView(java.awt.Component)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setView(java.awt.Component) public void
+     * javax.swing.JViewport.setView(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setView(java.awt.Component) public void
+     *      javax.swing.JViewport.setView(java.awt.Component) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setView_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setBorder(javax.swing.border.Border) public final void
+     * javax.swing.JViewport.setBorder(javax.swing.border.Border)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setBorder(javax.swing.border.Border) public final void
+     * javax.swing.JViewport.setBorder(javax.swing.border.Border)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setBorder(javax.swing.border.Border) public final void
+     *      javax.swing.JViewport.setBorder(javax.swing.border.Border) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setBorder_Border()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getScrollMode() public int javax.swing.JViewport.getScrollMode()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getScrollMode() public int javax.swing.JViewport.getScrollMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getScrollMode() public int javax.swing.JViewport.getScrollMode() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScrollMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setUI(javax.swing.plaf.ViewportUI) public void
+     * javax.swing.JViewport.setUI(javax.swing.plaf.ViewportUI)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setUI(javax.swing.plaf.ViewportUI) public void
+     * javax.swing.JViewport.setUI(javax.swing.plaf.ViewportUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setUI(javax.swing.plaf.ViewportUI) public void
+     *      javax.swing.JViewport.setUI(javax.swing.plaf.ViewportUI) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_ViewportUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#removeChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JViewport.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#removeChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JViewport.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#removeChangeListener(javax.swing.event.ChangeListener) public void
+     *      javax.swing.JViewport.removeChangeListener(javax.swing.event.ChangeListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getUI() public javax.swing.plaf.ViewportUI
+     * javax.swing.JViewport.getUI()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getUI() public javax.swing.plaf.ViewportUI
+     * javax.swing.JViewport.getUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getUI() public javax.swing.plaf.ViewportUI javax.swing.JViewport.getUI() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.JViewport.getAccessibleContext()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.JViewport.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getAccessibleContext() public javax.accessibility.AccessibleContext
+     *      javax.swing.JViewport.getAccessibleContext() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getExtentSize() public java.awt.Dimension
+     * javax.swing.JViewport.getExtentSize()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getExtentSize() public java.awt.Dimension
+     * javax.swing.JViewport.getExtentSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getExtentSize() public java.awt.Dimension javax.swing.JViewport.getExtentSize() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getExtentSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getInsets() public final java.awt.Insets
+     * javax.swing.JViewport.getInsets()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getInsets() public final java.awt.Insets
+     * javax.swing.JViewport.getInsets()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getInsets() public final java.awt.Insets javax.swing.JViewport.getInsets() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getInsets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getInsets(java.awt.Insets) public final java.awt.Insets
+     * javax.swing.JViewport.getInsets(java.awt.Insets)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getInsets(java.awt.Insets) public final java.awt.Insets
+     * javax.swing.JViewport.getInsets(java.awt.Insets)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getInsets(java.awt.Insets) public final java.awt.Insets
+     *      javax.swing.JViewport.getInsets(java.awt.Insets) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getInsets_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#reshape(int, int, int, int) public void
+     * javax.swing.JViewport.reshape(int,int,int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#reshape(int, int, int, int) public void
+     * javax.swing.JViewport.reshape(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#reshape(int, int, int, int) public void javax.swing.JViewport.reshape(int,int,int,int)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_reshape_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#isBackingStoreEnabled() public boolean
+     * javax.swing.JViewport.isBackingStoreEnabled()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#isBackingStoreEnabled() public boolean
+     * javax.swing.JViewport.isBackingStoreEnabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#isBackingStoreEnabled() public boolean javax.swing.JViewport.isBackingStoreEnabled()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBackingStoreEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.JViewport.getChangeListeners()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.JViewport.getChangeListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getChangeListeners() public javax.swing.event.ChangeListener[]
+     *      javax.swing.JViewport.getChangeListeners() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChangeListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#isOptimizedDrawingEnabled() public boolean
+     * javax.swing.JViewport.isOptimizedDrawingEnabled()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#isOptimizedDrawingEnabled() public boolean
+     * javax.swing.JViewport.isOptimizedDrawingEnabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#isOptimizedDrawingEnabled() public boolean
+     *      javax.swing.JViewport.isOptimizedDrawingEnabled() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isOptimizedDrawingEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getViewSize() public java.awt.Dimension
+     * javax.swing.JViewport.getViewSize()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getViewSize() public java.awt.Dimension
+     * javax.swing.JViewport.getViewSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getViewSize() public java.awt.Dimension javax.swing.JViewport.getViewSize() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getView() public java.awt.Component javax.swing.JViewport.getView()}
+     * .
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getView() public java.awt.Component javax.swing.JViewport.getView()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getView() public java.awt.Component javax.swing.JViewport.getView() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getView()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setBackingStoreEnabled(boolean) public void
+     * javax.swing.JViewport.setBackingStoreEnabled(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setBackingStoreEnabled(boolean) public void
+     * javax.swing.JViewport.setBackingStoreEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setBackingStoreEnabled(boolean) public void
+     *      javax.swing.JViewport.setBackingStoreEnabled(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBackingStoreEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setViewPosition(java.awt.Point) public void
+     * javax.swing.JViewport.setViewPosition(java.awt.Point)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setViewPosition(java.awt.Point) public void
+     * javax.swing.JViewport.setViewPosition(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setViewPosition(java.awt.Point) public void
+     *      javax.swing.JViewport.setViewPosition(java.awt.Point) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setViewPosition_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setViewSize(java.awt.Dimension) public void
+     * javax.swing.JViewport.setViewSize(java.awt.Dimension)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setViewSize(java.awt.Dimension) public void
+     * javax.swing.JViewport.setViewSize(java.awt.Dimension)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setViewSize(java.awt.Dimension) public void
+     *      javax.swing.JViewport.setViewSize(java.awt.Dimension) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setViewSize_Dimension()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#remove(java.awt.Component) public void
+     * javax.swing.JViewport.remove(java.awt.Component)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#remove(java.awt.Component) public void
+     * javax.swing.JViewport.remove(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#remove(java.awt.Component) public void
+     *      javax.swing.JViewport.remove(java.awt.Component) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JViewport.addChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JViewport.addChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#addChangeListener(javax.swing.event.ChangeListener) public void
+     *      javax.swing.JViewport.addChangeListener(javax.swing.event.ChangeListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getUIClassID() public java.lang.String
+     * javax.swing.JViewport.getUIClassID()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#getUIClassID() public java.lang.String
+     * javax.swing.JViewport.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#getUIClassID() public java.lang.String javax.swing.JViewport.getUIClassID() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getUIClassID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#updateUI() public void javax.swing.JViewport.updateUI()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.JViewport#updateUI() public void javax.swing.JViewport.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -728,13 +776,124 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.JViewport#updateUI()
+     * @see javax.swing.JViewport#updateUI() public void javax.swing.JViewport.updateUI() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_updateUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#paint(java.awt.Graphics) public void
+     * javax.swing.JViewport.paint(java.awt.Graphics)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#paint(java.awt.Graphics) public void
+     * javax.swing.JViewport.paint(java.awt.Graphics)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#paint(java.awt.Graphics) public void javax.swing.JViewport.paint(java.awt.Graphics)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_paint_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setScrollMode(int) public void
+     * javax.swing.JViewport.setScrollMode(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setScrollMode(int) public void
+     * javax.swing.JViewport.setScrollMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setScrollMode(int) public void javax.swing.JViewport.setScrollMode(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_setScrollMode_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#scrollRectToVisible(java.awt.Rectangle) public void
+     * javax.swing.JViewport.scrollRectToVisible(java.awt.Rectangle)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#scrollRectToVisible(java.awt.Rectangle) public void
+     * javax.swing.JViewport.scrollRectToVisible(java.awt.Rectangle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#scrollRectToVisible(java.awt.Rectangle) public void
+     *      javax.swing.JViewport.scrollRectToVisible(java.awt.Rectangle) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_updateUI()
+    @Test
+    @Category(Draft.class)
+    public default void test_scrollRectToVisible_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setExtentSize(java.awt.Dimension) public void
+     * javax.swing.JViewport.setExtentSize(java.awt.Dimension)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.JViewport#setExtentSize(java.awt.Dimension) public void
+     * javax.swing.JViewport.setExtentSize(java.awt.Dimension)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.JViewport#setExtentSize(java.awt.Dimension) public void
+     *      javax.swing.JViewport.setExtentSize(java.awt.Dimension) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setExtentSize_Dimension()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

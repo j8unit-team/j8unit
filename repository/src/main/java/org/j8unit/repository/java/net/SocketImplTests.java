@@ -8,25 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.net.SocketImpl class java.net.SocketImpl}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.net.SocketImplTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.net.SocketImpl class java.net.SocketImpl}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link SocketImplClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.net.SocketImplClassTests
+ * @see java.net.SocketImpl class java.net.SocketImpl (the hereby targeted class-under-test class)
+ * @see SocketImplClassTests SocketImplClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.net.SocketImpl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SocketImplTests<SUT extends java.net.SocketImpl>
-extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends SocketOptionsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.net.SocketImpl#toString() public java.lang.String java.net.SocketImpl.toString()}.
+     *
      * <p>
      * Test method for {@link java.net.SocketImpl#toString() public java.lang.String java.net.SocketImpl.toString()}.
      *
@@ -35,12 +38,13 @@ extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repos
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.SocketImpl#toString()
+     * @see java.net.SocketImpl#toString() public java.lang.String java.net.SocketImpl.toString() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

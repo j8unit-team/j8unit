@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.annotation.Native interface java.lang.annotation.Native},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.annotation.NativeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.annotation.Native interface java.lang.annotation.Native}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link NativeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.annotation.NativeClassTests
+ * @see java.lang.annotation.Native interface java.lang.annotation.Native (the hereby targeted class-under-test class)
+ * @see NativeClassTests NativeClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.annotation.Native
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NativeTests<SUT extends java.lang.annotation.Native>
-extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+extends AnnotationTests<SUT> {
 
 }

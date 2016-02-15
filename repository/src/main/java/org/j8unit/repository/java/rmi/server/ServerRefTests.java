@@ -8,28 +8,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.server.ServerRef interface java.rmi.server.ServerRef},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.server.ServerRefTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.server.ServerRef interface java.rmi.server.ServerRef}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ServerRefClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.server.ServerRefClassTests
+ * @see java.rmi.server.ServerRef interface java.rmi.server.ServerRef (the hereby targeted class-under-test class)
+ * @see ServerRefClassTests ServerRefClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.server.ServerRef
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerRefTests<SUT extends java.rmi.server.ServerRef>
-extends org.j8unit.repository.java.rmi.server.RemoteRefTests<SUT> {
+extends RemoteRefTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.ServerRef#exportObject(java.rmi.Remote, java.lang.Object) public abstract
+     * Test method for {@link java.rmi.server.ServerRef#exportObject(java.rmi.Remote, Object) public abstract
+     * java.rmi.server.RemoteStub java.rmi.server.ServerRef.exportObject(java.rmi.Remote,java.lang.Object) throws
+     * java.rmi.RemoteException}.
+     *
+     * <p>
+     * Test method for {@link java.rmi.server.ServerRef#exportObject(java.rmi.Remote, Object) public abstract
      * java.rmi.server.RemoteStub java.rmi.server.ServerRef.exportObject(java.rmi.Remote,java.lang.Object) throws
      * java.rmi.RemoteException}.
      *
@@ -38,7 +42,9 @@ extends org.j8unit.repository.java.rmi.server.RemoteRefTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.server.ServerRef#exportObject(java.rmi.Remote, java.lang.Object)
+     * @see java.rmi.server.ServerRef#exportObject(java.rmi.Remote, Object) public abstract java.rmi.server.RemoteStub
+     *      java.rmi.server.ServerRef.exportObject(java.rmi.Remote,java.lang.Object) throws java.rmi.RemoteException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,12 +61,18 @@ extends org.j8unit.repository.java.rmi.server.RemoteRefTests<SUT> {
      * Test method for {@link java.rmi.server.ServerRef#getClientHost() public abstract java.lang.String
      * java.rmi.server.ServerRef.getClientHost() throws java.rmi.server.ServerNotActiveException}.
      *
+     * <p>
+     * Test method for {@link java.rmi.server.ServerRef#getClientHost() public abstract java.lang.String
+     * java.rmi.server.ServerRef.getClientHost() throws java.rmi.server.ServerNotActiveException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.server.ServerRef#getClientHost()
+     * @see java.rmi.server.ServerRef#getClientHost() public abstract java.lang.String
+     *      java.rmi.server.ServerRef.getClientHost() throws java.rmi.server.ServerNotActiveException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

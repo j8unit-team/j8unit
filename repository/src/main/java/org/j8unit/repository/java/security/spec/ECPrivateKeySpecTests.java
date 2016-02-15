@@ -8,48 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.spec.ECPrivateKeySpec class
- * java.security.spec.ECPrivateKeySpec}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.spec.ECPrivateKeySpecTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.spec.ECPrivateKeySpec class
+ * java.security.spec.ECPrivateKeySpec}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link ECPrivateKeySpecClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.spec.ECPrivateKeySpecClassTests
+ * @see java.security.spec.ECPrivateKeySpec class java.security.spec.ECPrivateKeySpec (the hereby targeted
+ *      class-under-test class)
+ * @see ECPrivateKeySpecClassTests ECPrivateKeySpecClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.spec.ECPrivateKeySpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECPrivateKeySpecTests<SUT extends java.security.spec.ECPrivateKeySpec>
-extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends KeySpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECPrivateKeySpec#getParams() public java.security.spec.ECParameterSpec
-     * java.security.spec.ECPrivateKeySpec.getParams()}.
+     * Test method for {@link java.security.spec.ECPrivateKeySpec#getS() public java.math.BigInteger
+     * java.security.spec.ECPrivateKeySpec.getS()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.spec.ECPrivateKeySpec#getParams()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParams()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.spec.ECPrivateKeySpec#getS() public java.math.BigInteger
      * java.security.spec.ECPrivateKeySpec.getS()}.
@@ -59,12 +42,40 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.ECPrivateKeySpec#getS()
+     * @see java.security.spec.ECPrivateKeySpec#getS() public java.math.BigInteger
+     *      java.security.spec.ECPrivateKeySpec.getS() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getS()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECPrivateKeySpec#getParams() public java.security.spec.ECParameterSpec
+     * java.security.spec.ECPrivateKeySpec.getParams()}.
+     *
+     * <p>
+     * Test method for {@link java.security.spec.ECPrivateKeySpec#getParams() public java.security.spec.ECParameterSpec
+     * java.security.spec.ECPrivateKeySpec.getParams()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.spec.ECPrivateKeySpec#getParams() public java.security.spec.ECParameterSpec
+     *      java.security.spec.ECPrivateKeySpec.getParams() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParams()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.atomic.LongAccumulator class
- * java.util.concurrent.atomic.LongAccumulator}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.util.concurrent.atomic.LongAccumulatorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.atomic.LongAccumulator class
+ * java.util.concurrent.atomic.LongAccumulator}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link LongAccumulatorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.atomic.LongAccumulatorClassTests
+ * @see java.util.concurrent.atomic.LongAccumulator class java.util.concurrent.atomic.LongAccumulator (the hereby
+ *      targeted class-under-test class)
+ * @see LongAccumulatorClassTests LongAccumulatorClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.atomic.LongAccumulator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,66 +30,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#accumulate(long) public void
-     * java.util.concurrent.atomic.LongAccumulator.accumulate(long)}.
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#intValue() public int
+     * java.util.concurrent.atomic.LongAccumulator.intValue()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#accumulate(long)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_accumulate_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#doubleValue() public double
-     * java.util.concurrent.atomic.LongAccumulator.doubleValue()}.
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#intValue() public int
+     * java.util.concurrent.atomic.LongAccumulator.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#doubleValue()
+     * @see java.util.concurrent.atomic.LongAccumulator#intValue() public int
+     *      java.util.concurrent.atomic.LongAccumulator.intValue() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_doubleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#floatValue() public float
-     * java.util.concurrent.atomic.LongAccumulator.floatValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#floatValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_floatValue()
+    public default void test_intValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,12 +61,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.util.concurrent.atomic.LongAccumulator#get() public long
      * java.util.concurrent.atomic.LongAccumulator.get()}.
      *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#get() public long
+     * java.util.concurrent.atomic.LongAccumulator.get()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#get()
+     * @see java.util.concurrent.atomic.LongAccumulator#get() public long
+     *      java.util.concurrent.atomic.LongAccumulator.get() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,50 +85,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#getThenReset() public long
-     * java.util.concurrent.atomic.LongAccumulator.getThenReset()}.
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#longValue() public long
+     * java.util.concurrent.atomic.LongAccumulator.longValue()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#getThenReset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getThenReset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#intValue() public int
-     * java.util.concurrent.atomic.LongAccumulator.intValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#intValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_intValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.util.concurrent.atomic.LongAccumulator#longValue() public long
      * java.util.concurrent.atomic.LongAccumulator.longValue()}.
@@ -172,13 +97,42 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#longValue()
+     * @see java.util.concurrent.atomic.LongAccumulator#longValue() public long
+     *      java.util.concurrent.atomic.LongAccumulator.longValue() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_longValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#floatValue() public float
+     * java.util.concurrent.atomic.LongAccumulator.floatValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#floatValue() public float
+     * java.util.concurrent.atomic.LongAccumulator.floatValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.LongAccumulator#floatValue() public float
+     *      java.util.concurrent.atomic.LongAccumulator.floatValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_floatValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -190,12 +144,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.util.concurrent.atomic.LongAccumulator#reset() public void
      * java.util.concurrent.atomic.LongAccumulator.reset()}.
      *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#reset() public void
+     * java.util.concurrent.atomic.LongAccumulator.reset()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#reset()
+     * @see java.util.concurrent.atomic.LongAccumulator#reset() public void
+     *      java.util.concurrent.atomic.LongAccumulator.reset() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,6 +168,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#accumulate(long) public void
+     * java.util.concurrent.atomic.LongAccumulator.accumulate(long)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#accumulate(long) public void
+     * java.util.concurrent.atomic.LongAccumulator.accumulate(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.LongAccumulator#accumulate(long) public void
+     *      java.util.concurrent.atomic.LongAccumulator.accumulate(long) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_accumulate_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#toString() public java.lang.String
+     * java.util.concurrent.atomic.LongAccumulator.toString()}.
+     *
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.LongAccumulator#toString() public java.lang.String
      * java.util.concurrent.atomic.LongAccumulator.toString()}.
      *
@@ -217,13 +207,69 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.LongAccumulator#toString()
+     * @see java.util.concurrent.atomic.LongAccumulator#toString() public java.lang.String
+     *      java.util.concurrent.atomic.LongAccumulator.toString() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#doubleValue() public double
+     * java.util.concurrent.atomic.LongAccumulator.doubleValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#doubleValue() public double
+     * java.util.concurrent.atomic.LongAccumulator.doubleValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.LongAccumulator#doubleValue() public double
+     *      java.util.concurrent.atomic.LongAccumulator.doubleValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_doubleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#getThenReset() public long
+     * java.util.concurrent.atomic.LongAccumulator.getThenReset()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.LongAccumulator#getThenReset() public long
+     * java.util.concurrent.atomic.LongAccumulator.getThenReset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.LongAccumulator#getThenReset() public long
+     *      java.util.concurrent.atomic.LongAccumulator.getThenReset() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getThenReset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.remote.rmi.RMIIIOPServerImpl class
- * javax.management.remote.rmi.RMIIIOPServerImpl}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.management.remote.rmi.RMIIIOPServerImplTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.remote.rmi.RMIIIOPServerImpl class
+ * javax.management.remote.rmi.RMIIIOPServerImpl}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link RMIIIOPServerImplClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.remote.rmi.RMIIIOPServerImplClassTests
+ * @see javax.management.remote.rmi.RMIIIOPServerImpl class javax.management.remote.rmi.RMIIIOPServerImpl (the hereby
+ *      targeted class-under-test class)
+ * @see RMIIIOPServerImplClassTests RMIIIOPServerImplClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.remote.rmi.RMIIIOPServerImpl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIIIOPServerImplTests<SUT extends javax.management.remote.rmi.RMIIIOPServerImpl>
-extends org.j8unit.repository.javax.management.remote.rmi.RMIServerImplTests<SUT> {
+extends RMIServerImplTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIIIOPServerImpl#toStub() public java.rmi.Remote
+     * javax.management.remote.rmi.RMIIIOPServerImpl.toStub() throws java.io.IOException}.
+     *
      * <p>
      * Test method for {@link javax.management.remote.rmi.RMIIIOPServerImpl#toStub() public java.rmi.Remote
      * javax.management.remote.rmi.RMIIIOPServerImpl.toStub() throws java.io.IOException}.
@@ -37,12 +42,14 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerImplTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIIIOPServerImpl#toStub()
+     * @see javax.management.remote.rmi.RMIIIOPServerImpl#toStub() public java.rmi.Remote
+     *      javax.management.remote.rmi.RMIIIOPServerImpl.toStub() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toStub()
     throws Exception {
         // query fresh subject-under-test

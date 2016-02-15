@@ -5,23 +5,23 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.soap.SOAPBodyElement interface
- * javax.xml.soap.SOAPBodyElement}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.soap.SOAPBodyElementTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.soap.SOAPBodyElement interface javax.xml.soap.SOAPBodyElement}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link SOAPBodyElementClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.soap.SOAPBodyElementClassTests
+ * @see javax.xml.soap.SOAPBodyElement interface javax.xml.soap.SOAPBodyElement (the hereby targeted class-under-test
+ *      class)
+ * @see SOAPBodyElementClassTests SOAPBodyElementClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.soap.SOAPBodyElement
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPBodyElementTests<SUT extends javax.xml.soap.SOAPBodyElement>
-extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
+extends SOAPElementTests<SUT> {
 
 }

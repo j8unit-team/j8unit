@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.NotificationListener interface
- * javax.management.NotificationListener}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.NotificationListenerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.NotificationListener interface
+ * javax.management.NotificationListener}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link NotificationListenerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.NotificationListenerClassTests
+ * @see javax.management.NotificationListener interface javax.management.NotificationListener (the hereby targeted
+ *      class-under-test class)
+ * @see NotificationListenerClassTests NotificationListenerClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.NotificationListener
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,8 +31,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.NotificationListener#handleNotification(javax.management.Notification, java.lang.Object)
-     * public abstract void
+     * {@link javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
+     * abstract void
+     * javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
+     * abstract void
      * javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,8 +46,10 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.NotificationListener#handleNotification(javax.management.Notification,
-     *             java.lang.Object)
+     * @see javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
+     *      abstract void
+     *      javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

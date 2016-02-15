@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny.DynSequenceHelper class
- * org.omg.DynamicAny.DynSequenceHelper}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynSequenceHelperTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynSequenceHelper class
+ * org.omg.DynamicAny.DynSequenceHelper}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DynSequenceHelperClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.DynamicAny.DynSequenceHelperClassTests
+ * @see org.omg.DynamicAny.DynSequenceHelper class org.omg.DynamicAny.DynSequenceHelper (the hereby targeted
+ *      class-under-test class)
+ * @see DynSequenceHelperClassTests DynSequenceHelperClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.DynamicAny.DynSequenceHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.activation.Activator interface java.rmi.activation.Activator}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.activation.ActivatorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.activation.Activator interface java.rmi.activation.Activator}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link ActivatorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.activation.ActivatorClassTests
+ * @see java.rmi.activation.Activator interface java.rmi.activation.Activator (the hereby targeted class-under-test
+ *      class)
+ * @see ActivatorClassTests ActivatorClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.activation.Activator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +28,12 @@ public abstract interface ActivatorTests<SUT extends java.rmi.activation.Activat
 extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.rmi.activation.Activator#activate(java.rmi.activation.ActivationID, boolean) public
+     * abstract java.rmi.MarshalledObject<? extends java.rmi.Remote>
+     * java.rmi.activation.Activator.activate(java.rmi.activation.ActivationID,boolean) throws
+     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     *
      * <p>
      * Test method for {@link java.rmi.activation.Activator#activate(java.rmi.activation.ActivationID, boolean) public
      * abstract java.rmi.MarshalledObject
@@ -39,7 +45,11 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.activation.Activator#activate(java.rmi.activation.ActivationID, boolean)
+     * @see java.rmi.activation.Activator#activate(java.rmi.activation.ActivationID, boolean) public abstract
+     *      java.rmi.MarshalledObject java.rmi.activation.Activator.activate(java.rmi.activation.ActivationID,boolean)
+     *      throws
+     *      java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

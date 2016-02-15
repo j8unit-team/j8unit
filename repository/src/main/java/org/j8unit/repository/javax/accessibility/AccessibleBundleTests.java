@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.accessibility.AccessibleBundle class
- * javax.accessibility.AccessibleBundle}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleBundleTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleBundle class
+ * javax.accessibility.AccessibleBundle}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link AccessibleBundleClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests
+ * @see javax.accessibility.AccessibleBundle class javax.accessibility.AccessibleBundle (the hereby targeted
+ *      class-under-test class)
+ * @see AccessibleBundleClassTests AccessibleBundleClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.accessibility.AccessibleBundle
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleBundle#toDisplayString() public java.lang.String
      * javax.accessibility.AccessibleBundle.toDisplayString()}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleBundle#toDisplayString() public java.lang.String
+     * javax.accessibility.AccessibleBundle.toDisplayString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleBundle#toDisplayString()
+     * @see javax.accessibility.AccessibleBundle#toDisplayString() public java.lang.String
+     *      javax.accessibility.AccessibleBundle.toDisplayString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +60,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleBundle#toDisplayString(java.util.Locale) public
      * java.lang.String javax.accessibility.AccessibleBundle.toDisplayString(java.util.Locale)}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleBundle#toDisplayString(java.util.Locale) public
+     * java.lang.String javax.accessibility.AccessibleBundle.toDisplayString(java.util.Locale)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleBundle#toDisplayString(java.util.Locale)
+     * @see javax.accessibility.AccessibleBundle#toDisplayString(java.util.Locale) public java.lang.String
+     *      javax.accessibility.AccessibleBundle.toDisplayString(java.util.Locale) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,17 +88,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleBundle#toString() public java.lang.String
      * javax.accessibility.AccessibleBundle.toString()}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleBundle#toString() public java.lang.String
+     * javax.accessibility.AccessibleBundle.toString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleBundle#toString()
+     * @see javax.accessibility.AccessibleBundle#toString() public java.lang.String
+     *      javax.accessibility.AccessibleBundle.toString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

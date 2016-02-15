@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.imageio.event.IIOWriteProgressListener interface
- * javax.imageio.event.IIOWriteProgressListener}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.imageio.event.IIOWriteProgressListenerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.imageio.event.IIOWriteProgressListener interface
+ * javax.imageio.event.IIOWriteProgressListener}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link IIOWriteProgressListenerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.imageio.event.IIOWriteProgressListenerClassTests
+ * @see javax.imageio.event.IIOWriteProgressListener interface javax.imageio.event.IIOWriteProgressListener (the hereby
+ *      targeted class-under-test class)
+ * @see IIOWriteProgressListenerClassTests IIOWriteProgressListenerClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.imageio.event.IIOWriteProgressListener
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,27 +30,10 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#imageComplete(javax.imageio.ImageWriter)
-     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageComplete(javax.imageio.ImageWriter)}.
+     * Test method for
+     * {@link javax.imageio.event.IIOWriteProgressListener#imageProgress(javax.imageio.ImageWriter, float) public
+     * abstract void javax.imageio.event.IIOWriteProgressListener.imageProgress(javax.imageio.ImageWriter,float)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#imageComplete(javax.imageio.ImageWriter)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_imageComplete_ImageWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
      * {@link javax.imageio.event.IIOWriteProgressListener#imageProgress(javax.imageio.ImageWriter, float) public
@@ -60,7 +44,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#imageProgress(javax.imageio.ImageWriter, float)
+     * @see javax.imageio.event.IIOWriteProgressListener#imageProgress(javax.imageio.ImageWriter, float) public abstract
+     *      void javax.imageio.event.IIOWriteProgressListener.imageProgress(javax.imageio.ImageWriter,float) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,49 +60,10 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#imageStarted(javax.imageio.ImageWriter, int)
-     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageStarted(javax.imageio.ImageWriter,int)}.
+     * Test method for
+     * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailProgress(javax.imageio.ImageWriter, float) public
+     * abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailProgress(javax.imageio.ImageWriter,float)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#imageStarted(javax.imageio.ImageWriter, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_imageStarted_ImageWriter_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#thumbnailComplete(javax.imageio.ImageWriter)
-     * public abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailComplete(javax.imageio.ImageWriter)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#thumbnailComplete(javax.imageio.ImageWriter)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thumbnailComplete_ImageWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
      * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailProgress(javax.imageio.ImageWriter, float) public
@@ -127,7 +74,10 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#thumbnailProgress(javax.imageio.ImageWriter, float)
+     * @see javax.imageio.event.IIOWriteProgressListener#thumbnailProgress(javax.imageio.ImageWriter, float) public
+     *      abstract void
+     *      javax.imageio.event.IIOWriteProgressListener.thumbnailProgress(javax.imageio.ImageWriter,float) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,12 +95,20 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailStarted(javax.imageio.ImageWriter, int, int) public
      * abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailStarted(javax.imageio.ImageWriter,int,int)}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailStarted(javax.imageio.ImageWriter, int, int) public
+     * abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailStarted(javax.imageio.ImageWriter,int,int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#thumbnailStarted(javax.imageio.ImageWriter, int, int)
+     * @see javax.imageio.event.IIOWriteProgressListener#thumbnailStarted(javax.imageio.ImageWriter, int, int) public
+     *      abstract void
+     *      javax.imageio.event.IIOWriteProgressListener.thumbnailStarted(javax.imageio.ImageWriter,int,int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,17 +125,107 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for {@link javax.imageio.event.IIOWriteProgressListener#writeAborted(javax.imageio.ImageWriter)
      * public abstract void javax.imageio.event.IIOWriteProgressListener.writeAborted(javax.imageio.ImageWriter)}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#writeAborted(javax.imageio.ImageWriter)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.writeAborted(javax.imageio.ImageWriter)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.event.IIOWriteProgressListener#writeAborted(javax.imageio.ImageWriter)
+     * @see javax.imageio.event.IIOWriteProgressListener#writeAborted(javax.imageio.ImageWriter) public abstract void
+     *      javax.imageio.event.IIOWriteProgressListener.writeAborted(javax.imageio.ImageWriter) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_writeAborted_ImageWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#imageComplete(javax.imageio.ImageWriter)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageComplete(javax.imageio.ImageWriter)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#imageComplete(javax.imageio.ImageWriter)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageComplete(javax.imageio.ImageWriter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.event.IIOWriteProgressListener#imageComplete(javax.imageio.ImageWriter) public abstract void
+     *      javax.imageio.event.IIOWriteProgressListener.imageComplete(javax.imageio.ImageWriter) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_imageComplete_ImageWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#thumbnailComplete(javax.imageio.ImageWriter)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailComplete(javax.imageio.ImageWriter)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#thumbnailComplete(javax.imageio.ImageWriter)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailComplete(javax.imageio.ImageWriter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.event.IIOWriteProgressListener#thumbnailComplete(javax.imageio.ImageWriter) public abstract
+     *      void javax.imageio.event.IIOWriteProgressListener.thumbnailComplete(javax.imageio.ImageWriter) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thumbnailComplete_ImageWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#imageStarted(javax.imageio.ImageWriter, int)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageStarted(javax.imageio.ImageWriter,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOWriteProgressListener#imageStarted(javax.imageio.ImageWriter, int)
+     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageStarted(javax.imageio.ImageWriter,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.event.IIOWriteProgressListener#imageStarted(javax.imageio.ImageWriter, int) public abstract
+     *      void javax.imageio.event.IIOWriteProgressListener.imageStarted(javax.imageio.ImageWriter,int) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_imageStarted_ImageWriter_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

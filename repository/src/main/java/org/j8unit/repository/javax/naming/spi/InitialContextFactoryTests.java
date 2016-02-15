@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.naming.spi.InitialContextFactory interface
- * javax.naming.spi.InitialContextFactory}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.naming.spi.InitialContextFactoryTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.naming.spi.InitialContextFactory interface
+ * javax.naming.spi.InitialContextFactory}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link InitialContextFactoryClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.naming.spi.InitialContextFactoryClassTests
+ * @see javax.naming.spi.InitialContextFactory interface javax.naming.spi.InitialContextFactory (the hereby targeted
+ *      class-under-test class)
+ * @see InitialContextFactoryClassTests InitialContextFactoryClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.naming.spi.InitialContextFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,6 +30,11 @@ public abstract interface InitialContextFactoryTests<SUT extends javax.naming.sp
 extends RepositoryTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.naming.spi.InitialContextFactory#getInitialContext(java.util.Hashtable) public
+     * abstract javax.naming.Context javax.naming.spi.InitialContextFactory.getInitialContext(java.util.Hashtable<?, ?>)
+     * throws javax.naming.NamingException}.
+     *
      * <p>
      * Test method for {@link javax.naming.spi.InitialContextFactory#getInitialContext(java.util.Hashtable) public
      * abstract javax.naming.Context javax.naming.spi.InitialContextFactory.getInitialContext(java.util.Hashtable)
@@ -39,7 +45,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.spi.InitialContextFactory#getInitialContext(java.util.Hashtable)
+     * @see javax.naming.spi.InitialContextFactory#getInitialContext(java.util.Hashtable) public abstract
+     *      javax.naming.Context javax.naming.spi.InitialContextFactory.getInitialContext(java.util.Hashtable) throws
+     *      javax.naming.NamingException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

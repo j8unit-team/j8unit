@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.interfaces.DSAPublicKey interface
- * java.security.interfaces.DSAPublicKey}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.interfaces.DSAPublicKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.interfaces.DSAPublicKey interface
+ * java.security.interfaces.DSAPublicKey}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DSAPublicKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.interfaces.DSAPublicKeyClassTests
+ * @see java.security.interfaces.DSAPublicKey interface java.security.interfaces.DSAPublicKey (the hereby targeted
+ *      class-under-test class)
+ * @see DSAPublicKeyClassTests DSAPublicKeyClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.interfaces.DSAPublicKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DSAPublicKeyTests<SUT extends java.security.interfaces.DSAPublicKey>
-extends org.j8unit.repository.java.security.interfaces.DSAKeyTests<SUT>, org.j8unit.repository.java.security.PublicKeyTests<SUT> {
+extends DSAKeyTests<SUT>, org.j8unit.repository.java.security.PublicKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.interfaces.DSAPublicKey#getY() public abstract java.math.BigInteger
+     * java.security.interfaces.DSAPublicKey.getY()}.
+     *
      * <p>
      * Test method for {@link java.security.interfaces.DSAPublicKey#getY() public abstract java.math.BigInteger
      * java.security.interfaces.DSAPublicKey.getY()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.security.interfaces.DSAKeyTests<SUT>, org.j8u
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.DSAPublicKey#getY()
+     * @see java.security.interfaces.DSAPublicKey#getY() public abstract java.math.BigInteger
+     *      java.security.interfaces.DSAPublicKey.getY() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

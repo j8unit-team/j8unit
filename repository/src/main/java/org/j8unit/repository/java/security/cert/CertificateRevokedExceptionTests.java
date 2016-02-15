@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.cert.CertificateRevokedException class
- * java.security.cert.CertificateRevokedException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.security.cert.CertificateRevokedExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.cert.CertificateRevokedException class
+ * java.security.cert.CertificateRevokedException}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link CertificateRevokedExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.cert.CertificateRevokedExceptionClassTests
+ * @see java.security.cert.CertificateRevokedException class java.security.cert.CertificateRevokedException (the hereby
+ *      targeted class-under-test class)
+ * @see CertificateRevokedExceptionClassTests CertificateRevokedExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.cert.CertificateRevokedException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertificateRevokedExceptionTests<SUT extends java.security.cert.CertificateRevokedException>
-extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> {
+extends CertificateExceptionTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.cert.CertificateRevokedException#getAuthorityName() public
+     * javax.security.auth.x500.X500Principal java.security.cert.CertificateRevokedException.getAuthorityName()}.
+     *
      * <p>
      * Test method for {@link java.security.cert.CertificateRevokedException#getAuthorityName() public
      * javax.security.auth.x500.X500Principal java.security.cert.CertificateRevokedException.getAuthorityName()}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertificateRevokedException#getAuthorityName()
+     * @see java.security.cert.CertificateRevokedException#getAuthorityName() public
+     *      javax.security.auth.x500.X500Principal java.security.cert.CertificateRevokedException.getAuthorityName()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,20 +58,26 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertificateRevokedException#getExtensions() public java.util.Map
-     * java.security.cert.CertificateRevokedException.getExtensions()}.
+     * Test method for {@link java.security.cert.CertificateRevokedException#getMessage() public java.lang.String
+     * java.security.cert.CertificateRevokedException.getMessage()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.CertificateRevokedException#getMessage() public java.lang.String
+     * java.security.cert.CertificateRevokedException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertificateRevokedException#getExtensions()
+     * @see java.security.cert.CertificateRevokedException#getMessage() public java.lang.String
+     *      java.security.cert.CertificateRevokedException.getMessage() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getExtensions()
+    public default void test_getMessage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,12 +89,17 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> 
      * Test method for {@link java.security.cert.CertificateRevokedException#getInvalidityDate() public java.util.Date
      * java.security.cert.CertificateRevokedException.getInvalidityDate()}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.CertificateRevokedException#getInvalidityDate() public java.util.Date
+     * java.security.cert.CertificateRevokedException.getInvalidityDate()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertificateRevokedException#getInvalidityDate()
+     * @see java.security.cert.CertificateRevokedException#getInvalidityDate() public java.util.Date
+     *      java.security.cert.CertificateRevokedException.getInvalidityDate() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,21 +113,26 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertificateRevokedException#getMessage() public java.lang.String
-     * java.security.cert.CertificateRevokedException.getMessage()}.
+     * Test method for {@link java.security.cert.CertificateRevokedException#getExtensions() public
+     * java.util.Map<java.lang.String, java.security.cert.Extension>
+     * java.security.cert.CertificateRevokedException.getExtensions()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.CertificateRevokedException#getExtensions() public java.util.Map
+     * java.security.cert.CertificateRevokedException.getExtensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertificateRevokedException#getMessage()
+     * @see java.security.cert.CertificateRevokedException#getExtensions() public java.util.Map
+     *      java.security.cert.CertificateRevokedException.getExtensions() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getMessage()
+    public default void test_getExtensions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,12 +144,17 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> 
      * Test method for {@link java.security.cert.CertificateRevokedException#getRevocationDate() public java.util.Date
      * java.security.cert.CertificateRevokedException.getRevocationDate()}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.CertificateRevokedException#getRevocationDate() public java.util.Date
+     * java.security.cert.CertificateRevokedException.getRevocationDate()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertificateRevokedException#getRevocationDate()
+     * @see java.security.cert.CertificateRevokedException#getRevocationDate() public java.util.Date
+     *      java.security.cert.CertificateRevokedException.getRevocationDate() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,12 +171,17 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> 
      * Test method for {@link java.security.cert.CertificateRevokedException#getRevocationReason() public
      * java.security.cert.CRLReason java.security.cert.CertificateRevokedException.getRevocationReason()}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.CertificateRevokedException#getRevocationReason() public
+     * java.security.cert.CRLReason java.security.cert.CertificateRevokedException.getRevocationReason()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertificateRevokedException#getRevocationReason()
+     * @see java.security.cert.CertificateRevokedException#getRevocationReason() public java.security.cert.CRLReason
+     *      java.security.cert.CertificateRevokedException.getRevocationReason() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

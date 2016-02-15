@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.event.HyperlinkEvent class
- * javax.swing.event.HyperlinkEvent}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.event.HyperlinkEventTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.event.HyperlinkEvent class javax.swing.event.HyperlinkEvent}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link HyperlinkEventClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests
+ * @see javax.swing.event.HyperlinkEvent class javax.swing.event.HyperlinkEvent (the hereby targeted class-under-test
+ *      class)
+ * @see HyperlinkEventClassTests HyperlinkEventClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.event.HyperlinkEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,66 +29,25 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.event.HyperlinkEvent.EventType class
-     * javax.swing.event.HyperlinkEvent$EventType}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
-     * methods is {@link org.j8unit.repository.javax.swing.event.HyperlinkEventTests.EventTypeTests}.
-     * </p>
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getURL() public java.net.URL
+     * javax.swing.event.HyperlinkEvent.getURL()}.
      *
-     * @see org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests.EventTypeClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.event.HyperlinkEvent.EventType
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface EventTypeTests<SUT extends javax.swing.event.HyperlinkEvent.EventType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.event.HyperlinkEvent.EventType#toString() public java.lang.String
-         * javax.swing.event.HyperlinkEvent$EventType.toString()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.event.HyperlinkEvent.EventType#toString()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.event.HyperlinkEvent#getDescription() public java.lang.String
-     * javax.swing.event.HyperlinkEvent.getDescription()}.
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getURL() public java.net.URL
+     * javax.swing.event.HyperlinkEvent.getURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.HyperlinkEvent#getDescription()
+     * @see javax.swing.event.HyperlinkEvent#getURL() public java.net.URL javax.swing.event.HyperlinkEvent.getURL() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDescription()
+    public default void test_getURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,12 +59,17 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * Test method for {@link javax.swing.event.HyperlinkEvent#getEventType() public
      * javax.swing.event.HyperlinkEvent$EventType javax.swing.event.HyperlinkEvent.getEventType()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getEventType() public
+     * javax.swing.event.HyperlinkEvent$EventType javax.swing.event.HyperlinkEvent.getEventType()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.HyperlinkEvent#getEventType()
+     * @see javax.swing.event.HyperlinkEvent#getEventType() public javax.swing.event.HyperlinkEvent$EventType
+     *      javax.swing.event.HyperlinkEvent.getEventType() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,12 +86,17 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * Test method for {@link javax.swing.event.HyperlinkEvent#getInputEvent() public java.awt.event.InputEvent
      * javax.swing.event.HyperlinkEvent.getInputEvent()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getInputEvent() public java.awt.event.InputEvent
+     * javax.swing.event.HyperlinkEvent.getInputEvent()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.HyperlinkEvent#getInputEvent()
+     * @see javax.swing.event.HyperlinkEvent#getInputEvent() public java.awt.event.InputEvent
+     *      javax.swing.event.HyperlinkEvent.getInputEvent() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,6 +110,37 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getDescription() public java.lang.String
+     * javax.swing.event.HyperlinkEvent.getDescription()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getDescription() public java.lang.String
+     * javax.swing.event.HyperlinkEvent.getDescription()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.event.HyperlinkEvent#getDescription() public java.lang.String
+     *      javax.swing.event.HyperlinkEvent.getDescription() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDescription()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.HyperlinkEvent#getSourceElement() public javax.swing.text.Element
+     * javax.swing.event.HyperlinkEvent.getSourceElement()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.event.HyperlinkEvent#getSourceElement() public javax.swing.text.Element
      * javax.swing.event.HyperlinkEvent.getSourceElement()}.
      *
@@ -149,7 +149,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.HyperlinkEvent#getSourceElement()
+     * @see javax.swing.event.HyperlinkEvent#getSourceElement() public javax.swing.text.Element
+     *      javax.swing.event.HyperlinkEvent.getSourceElement() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,24 +164,54 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.HyperlinkEvent#getURL() public java.net.URL
-     * javax.swing.event.HyperlinkEvent.getURL()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.event.HyperlinkEvent.EventType class
+     * javax.swing.event.HyperlinkEvent$EventType}. The complementary j8unit test interface containing the class
+     * relevant aspects is {@link HyperlinkEventClassTests.EventTypeClassTests}.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.HyperlinkEvent#getURL()
+     * @see javax.swing.event.HyperlinkEvent.EventType class javax.swing.event.HyperlinkEvent$EventType (the hereby
+     *      targeted class-under-test class)
+     * @see HyperlinkEventClassTests.EventTypeClassTests HyperlinkEventClassTests.EventTypeClassTests (the complementary
+     *      j8unit test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface EventTypeTests<SUT extends javax.swing.event.HyperlinkEvent.EventType>
+    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.event.HyperlinkEvent.EventType#toString() public java.lang.String
+         * javax.swing.event.HyperlinkEvent$EventType.toString()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.event.HyperlinkEvent.EventType#toString() public java.lang.String
+         * javax.swing.event.HyperlinkEvent$EventType.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.event.HyperlinkEvent.EventType#toString() public java.lang.String
+         *      javax.swing.event.HyperlinkEvent$EventType.toString() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_toString()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
     }
 
 }

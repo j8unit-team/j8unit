@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.event.PrintEvent class javax.print.event.PrintEvent},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.event.PrintEventTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.event.PrintEvent class javax.print.event.PrintEvent}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link PrintEventClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.event.PrintEventClassTests
+ * @see javax.print.event.PrintEvent class javax.print.event.PrintEvent (the hereby targeted class-under-test class)
+ * @see PrintEventClassTests PrintEventClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.event.PrintEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,17 +31,22 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * Test method for {@link javax.print.event.PrintEvent#toString() public java.lang.String
      * javax.print.event.PrintEvent.toString()}.
      *
+     * <p>
+     * Test method for {@link javax.print.event.PrintEvent#toString() public java.lang.String
+     * javax.print.event.PrintEvent.toString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.event.PrintEvent#toString()
+     * @see javax.print.event.PrintEvent#toString() public java.lang.String javax.print.event.PrintEvent.toString() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

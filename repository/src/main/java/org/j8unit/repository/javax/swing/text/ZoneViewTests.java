@@ -8,41 +8,45 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.ZoneView class javax.swing.text.ZoneView}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.ZoneViewTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.ZoneView class javax.swing.text.ZoneView}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ZoneViewClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.ZoneViewClassTests
+ * @see javax.swing.text.ZoneView class javax.swing.text.ZoneView (the hereby targeted class-under-test class)
+ * @see ZoneViewClassTests ZoneViewClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.ZoneView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneViewTests<SUT extends javax.swing.text.ZoneView>
-extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
+extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.ZoneView#getMaximumZoneSize() public int
-     * javax.swing.text.ZoneView.getMaximumZoneSize()}.
+     * Test method for {@link javax.swing.text.ZoneView#setMaximumZoneSize(int) public void
+     * javax.swing.text.ZoneView.setMaximumZoneSize(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.ZoneView#setMaximumZoneSize(int) public void
+     * javax.swing.text.ZoneView.setMaximumZoneSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.ZoneView#getMaximumZoneSize()
+     * @see javax.swing.text.ZoneView#setMaximumZoneSize(int) public void
+     *      javax.swing.text.ZoneView.setMaximumZoneSize(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaximumZoneSize()
+    public default void test_setMaximumZoneSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,17 +58,49 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * Test method for {@link javax.swing.text.ZoneView#getMaxZonesLoaded() public int
      * javax.swing.text.ZoneView.getMaxZonesLoaded()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.ZoneView#getMaxZonesLoaded() public int
+     * javax.swing.text.ZoneView.getMaxZonesLoaded()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.ZoneView#getMaxZonesLoaded()
+     * @see javax.swing.text.ZoneView#getMaxZonesLoaded() public int javax.swing.text.ZoneView.getMaxZonesLoaded() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getMaxZonesLoaded()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.ZoneView#getMaximumZoneSize() public int
+     * javax.swing.text.ZoneView.getMaximumZoneSize()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.ZoneView#getMaximumZoneSize() public int
+     * javax.swing.text.ZoneView.getMaximumZoneSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.ZoneView#getMaximumZoneSize() public int javax.swing.text.ZoneView.getMaximumZoneSize()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximumZoneSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,18 +115,27 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * javax.swing.text.ZoneView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.ZoneView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.ZoneView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
+     * .
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.ZoneView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *             javax.swing.text.ViewFactory)
+     * @see javax.swing.text.ZoneView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *      javax.swing.text.ViewFactory) public void
+     *      javax.swing.text.ZoneView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
+     *      ViewFactory) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_insertUpdate_DocumentEvent_Shape_ViewFactory()
     throws Exception {
         // query fresh subject-under-test
@@ -106,41 +151,28 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * javax.swing.text.ZoneView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.ZoneView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *             javax.swing.text.ViewFactory)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.text.ZoneView#setMaximumZoneSize(int) public void
-     * javax.swing.text.ZoneView.setMaximumZoneSize(int)}.
+     * Test method for
+     * {@link javax.swing.text.ZoneView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.ZoneView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.ZoneView#setMaximumZoneSize(int)
+     * @see javax.swing.text.ZoneView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
+     *      javax.swing.text.ViewFactory) public void
+     *      javax.swing.text.ZoneView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
+     *      ViewFactory) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setMaximumZoneSize_int()
+    public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,12 +184,17 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * Test method for {@link javax.swing.text.ZoneView#setMaxZonesLoaded(int) public void
      * javax.swing.text.ZoneView.setMaxZonesLoaded(int)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.ZoneView#setMaxZonesLoaded(int) public void
+     * javax.swing.text.ZoneView.setMaxZonesLoaded(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.ZoneView#setMaxZonesLoaded(int)
+     * @see javax.swing.text.ZoneView#setMaxZonesLoaded(int) public void
+     *      javax.swing.text.ZoneView.setMaxZonesLoaded(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

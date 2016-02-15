@@ -5,24 +5,23 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.SendingContext.RunTime interface
- * org.omg.SendingContext.RunTime}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.SendingContext.RunTimeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.SendingContext.RunTime interface org.omg.SendingContext.RunTime}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link RunTimeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.SendingContext.RunTimeClassTests
+ * @see org.omg.SendingContext.RunTime interface org.omg.SendingContext.RunTime (the hereby targeted class-under-test
+ *      class)
+ * @see RunTimeClassTests RunTimeClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.SendingContext.RunTime
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RunTimeTests<SUT extends org.omg.SendingContext.RunTime>
-extends org.j8unit.repository.org.omg.SendingContext.RunTimeOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends RunTimeOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
 
 }

@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.file.WatchKey interface java.nio.file.WatchKey}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.file.WatchKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.file.WatchKey interface java.nio.file.WatchKey}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link WatchKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.file.WatchKeyClassTests
+ * @see java.nio.file.WatchKey interface java.nio.file.WatchKey (the hereby targeted class-under-test class)
+ * @see WatchKeyClassTests WatchKeyClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.file.WatchKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +31,16 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for {@link java.nio.file.WatchKey#cancel() public abstract void java.nio.file.WatchKey.cancel()}.
      *
+     * <p>
+     * Test method for {@link java.nio.file.WatchKey#cancel() public abstract void java.nio.file.WatchKey.cancel()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.file.WatchKey#cancel()
+     * @see java.nio.file.WatchKey#cancel() public abstract void java.nio.file.WatchKey.cancel() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,27 +54,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchKey#isValid() public abstract boolean java.nio.file.WatchKey.isValid()}
-     * .
+     * Test method for {@link java.nio.file.WatchKey#pollEvents() public abstract
+     * java.util.List<java.nio.file.WatchEvent<?>> java.nio.file.WatchKey.pollEvents()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.nio.file.WatchKey#isValid()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.nio.file.WatchKey#pollEvents() public abstract java.util.List
      * java.nio.file.WatchKey.pollEvents()}.
@@ -81,7 +66,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.file.WatchKey#pollEvents()
+     * @see java.nio.file.WatchKey#pollEvents() public abstract java.util.List java.nio.file.WatchKey.pollEvents() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,26 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchKey#reset() public abstract boolean java.nio.file.WatchKey.reset()}.
+     * Test method for {@link java.nio.file.WatchKey#watchable() public abstract java.nio.file.Watchable
+     * java.nio.file.WatchKey.watchable()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.nio.file.WatchKey#reset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.nio.file.WatchKey#watchable() public abstract java.nio.file.Watchable
      * java.nio.file.WatchKey.watchable()}.
@@ -124,12 +93,65 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.file.WatchKey#watchable()
+     * @see java.nio.file.WatchKey#watchable() public abstract java.nio.file.Watchable
+     *      java.nio.file.WatchKey.watchable() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_watchable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.WatchKey#isValid() public abstract boolean java.nio.file.WatchKey.isValid()}
+     * .
+     *
+     * <p>
+     * Test method for {@link java.nio.file.WatchKey#isValid() public abstract boolean java.nio.file.WatchKey.isValid()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.nio.file.WatchKey#isValid() public abstract boolean java.nio.file.WatchKey.isValid() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.WatchKey#reset() public abstract boolean java.nio.file.WatchKey.reset()}.
+     *
+     * <p>
+     * Test method for {@link java.nio.file.WatchKey#reset() public abstract boolean java.nio.file.WatchKey.reset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.nio.file.WatchKey#reset() public abstract boolean java.nio.file.WatchKey.reset() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

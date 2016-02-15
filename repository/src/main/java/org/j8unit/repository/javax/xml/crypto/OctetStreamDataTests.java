@@ -8,41 +8,46 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.OctetStreamData class
- * javax.xml.crypto.OctetStreamData}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.crypto.OctetStreamDataTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.OctetStreamData class javax.xml.crypto.OctetStreamData}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link OctetStreamDataClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.OctetStreamDataClassTests
+ * @see javax.xml.crypto.OctetStreamData class javax.xml.crypto.OctetStreamData (the hereby targeted class-under-test
+ *      class)
+ * @see OctetStreamDataClassTests OctetStreamDataClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.OctetStreamData
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OctetStreamDataTests<SUT extends javax.xml.crypto.OctetStreamData>
-extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends DataTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.OctetStreamData#getMimeType() public java.lang.String
-     * javax.xml.crypto.OctetStreamData.getMimeType()}.
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getURI() public java.lang.String
+     * javax.xml.crypto.OctetStreamData.getURI()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getURI() public java.lang.String
+     * javax.xml.crypto.OctetStreamData.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.OctetStreamData#getMimeType()
+     * @see javax.xml.crypto.OctetStreamData#getURI() public java.lang.String javax.xml.crypto.OctetStreamData.getURI()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMimeType()
+    public default void test_getURI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,12 +59,17 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
      * Test method for {@link javax.xml.crypto.OctetStreamData#getOctetStream() public java.io.InputStream
      * javax.xml.crypto.OctetStreamData.getOctetStream()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getOctetStream() public java.io.InputStream
+     * javax.xml.crypto.OctetStreamData.getOctetStream()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.OctetStreamData#getOctetStream()
+     * @see javax.xml.crypto.OctetStreamData#getOctetStream() public java.io.InputStream
+     *      javax.xml.crypto.OctetStreamData.getOctetStream() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,20 +83,25 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.OctetStreamData#getURI() public java.lang.String
-     * javax.xml.crypto.OctetStreamData.getURI()}.
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getMimeType() public java.lang.String
+     * javax.xml.crypto.OctetStreamData.getMimeType()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getMimeType() public java.lang.String
+     * javax.xml.crypto.OctetStreamData.getMimeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.OctetStreamData#getURI()
+     * @see javax.xml.crypto.OctetStreamData#getMimeType() public java.lang.String
+     *      javax.xml.crypto.OctetStreamData.getMimeType() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getURI()
+    public default void test_getMimeType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

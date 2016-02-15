@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.BinaryOperator interface
- * java.util.function.BinaryOperator}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.BinaryOperatorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.BinaryOperator interface
+ * java.util.function.BinaryOperator}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link BinaryOperatorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.BinaryOperatorClassTests
+ * @see java.util.function.BinaryOperator interface java.util.function.BinaryOperator (the hereby targeted
+ *      class-under-test class)
+ * @see BinaryOperatorClassTests BinaryOperatorClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.BinaryOperator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BinaryOperatorTests<SUT extends java.util.function.BinaryOperator<T>, T>
-extends org.j8unit.repository.java.util.function.BiFunctionTests<SUT, T, T, T> {
+extends BiFunctionTests<SUT, T, T, T> {
 
 }

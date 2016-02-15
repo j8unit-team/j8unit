@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.bind.util.ValidationEventCollector class
- * javax.xml.bind.util.ValidationEventCollector}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.xml.bind.util.ValidationEventCollectorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.bind.util.ValidationEventCollector class
+ * javax.xml.bind.util.ValidationEventCollector}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ValidationEventCollectorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.bind.util.ValidationEventCollectorClassTests
+ * @see javax.xml.bind.util.ValidationEventCollector class javax.xml.bind.util.ValidationEventCollector (the hereby
+ *      targeted class-under-test class)
+ * @see ValidationEventCollectorClassTests ValidationEventCollectorClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.bind.util.ValidationEventCollector
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
      * Test method for {@link javax.xml.bind.util.ValidationEventCollector#getEvents() public
      * javax.xml.bind.ValidationEvent[] javax.xml.bind.util.ValidationEventCollector.getEvents()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.bind.util.ValidationEventCollector#getEvents() public
+     * javax.xml.bind.ValidationEvent[] javax.xml.bind.util.ValidationEventCollector.getEvents()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.util.ValidationEventCollector#getEvents()
+     * @see javax.xml.bind.util.ValidationEventCollector#getEvents() public javax.xml.bind.ValidationEvent[]
+     *      javax.xml.bind.util.ValidationEventCollector.getEvents() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,17 +60,23 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
      * Test method for {@link javax.xml.bind.util.ValidationEventCollector#handleEvent(javax.xml.bind.ValidationEvent)
      * public boolean javax.xml.bind.util.ValidationEventCollector.handleEvent(javax.xml.bind.ValidationEvent)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.bind.util.ValidationEventCollector#handleEvent(javax.xml.bind.ValidationEvent)
+     * public boolean javax.xml.bind.util.ValidationEventCollector.handleEvent(javax.xml.bind.ValidationEvent)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.util.ValidationEventCollector#handleEvent(javax.xml.bind.ValidationEvent)
+     * @see javax.xml.bind.util.ValidationEventCollector#handleEvent(javax.xml.bind.ValidationEvent) public boolean
+     *      javax.xml.bind.util.ValidationEventCollector.handleEvent(javax.xml.bind.ValidationEvent) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_handleEvent_ValidationEvent()
     throws Exception {
         // query fresh subject-under-test
@@ -77,12 +89,17 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
      * Test method for {@link javax.xml.bind.util.ValidationEventCollector#hasEvents() public boolean
      * javax.xml.bind.util.ValidationEventCollector.hasEvents()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.bind.util.ValidationEventCollector#hasEvents() public boolean
+     * javax.xml.bind.util.ValidationEventCollector.hasEvents()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.util.ValidationEventCollector#hasEvents()
+     * @see javax.xml.bind.util.ValidationEventCollector#hasEvents() public boolean
+     *      javax.xml.bind.util.ValidationEventCollector.hasEvents() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,12 +116,17 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
      * Test method for {@link javax.xml.bind.util.ValidationEventCollector#reset() public void
      * javax.xml.bind.util.ValidationEventCollector.reset()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.bind.util.ValidationEventCollector#reset() public void
+     * javax.xml.bind.util.ValidationEventCollector.reset()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.util.ValidationEventCollector#reset()
+     * @see javax.xml.bind.util.ValidationEventCollector#reset() public void
+     *      javax.xml.bind.util.ValidationEventCollector.reset() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

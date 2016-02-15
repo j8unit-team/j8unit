@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny.DynAnyFactoryOperations interface
- * org.omg.DynamicAny.DynAnyFactoryOperations}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryOperationsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynAnyFactoryOperations interface
+ * org.omg.DynamicAny.DynAnyFactoryOperations}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DynAnyFactoryOperationsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryOperationsClassTests
+ * @see org.omg.DynamicAny.DynAnyFactoryOperations interface org.omg.DynamicAny.DynAnyFactoryOperations (the hereby
+ *      targeted class-under-test class)
+ * @see DynAnyFactoryOperationsClassTests DynAnyFactoryOperationsClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.DynamicAny.DynAnyFactoryOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -34,12 +35,19 @@ extends RepositoryTests<SUT> {
      * abstract org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any)
      * throws org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
      *
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any(org.omg.CORBA.Any) public
+     * abstract org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any)
+     * throws org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any(org.omg.CORBA.Any)
+     * @see org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any(org.omg.CORBA.Any) public abstract
+     *      org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any)
+     *      throws org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,12 +67,22 @@ extends RepositoryTests<SUT> {
      * org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) throws
      * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
      *
+     * <p>
+     * Test method for
+     * {@link org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) public
+     * abstract org.omg.DynamicAny.DynAny
+     * org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) throws
+     * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any_from_type_code(org.omg.CORBA.TypeCode)
+     * @see org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) public
+     *      abstract org.omg.DynamicAny.DynAny
+     *      org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) throws
+     *      org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.instrument.ClassFileTransformer interface
- * java.lang.instrument.ClassFileTransformer}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.instrument.ClassFileTransformerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.instrument.ClassFileTransformer interface
+ * java.lang.instrument.ClassFileTransformer}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ClassFileTransformerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.instrument.ClassFileTransformerClassTests
+ * @see java.lang.instrument.ClassFileTransformer interface java.lang.instrument.ClassFileTransformer (the hereby
+ *      targeted class-under-test class)
+ * @see ClassFileTransformerClassTests ClassFileTransformerClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.instrument.ClassFileTransformer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,7 +32,14 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.lang.instrument.ClassFileTransformer#transform(java.lang.ClassLoader, java.lang.String, java.lang.Class, java.security.ProtectionDomain, byte[])
+     * {@link java.lang.instrument.ClassFileTransformer#transform(ClassLoader, String, Class, java.security.ProtectionDomain, byte[])
+     * public abstract byte[]
+     * java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class
+     * <?>,java.security.ProtectionDomain,byte[]) throws java.lang.instrument.IllegalClassFormatException}.
+     *
+     * <p>
+     * Test method for
+     * {@link java.lang.instrument.ClassFileTransformer#transform(ClassLoader, String, Class, java.security.ProtectionDomain, byte[])
      * public abstract byte[]
      * java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class,java.security.ProtectionDomain,byte[])
      * throws java.lang.instrument.IllegalClassFormatException}.
@@ -41,8 +49,11 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.instrument.ClassFileTransformer#transform(java.lang.ClassLoader, java.lang.String,
-     *             java.lang.Class, java.security.ProtectionDomain, byte[])
+     * @see java.lang.instrument.ClassFileTransformer#transform(ClassLoader, String, Class,
+     *      java.security.ProtectionDomain, byte[]) public abstract byte[]
+     *      java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class,
+     *      java.security.ProtectionDomain,byte[]) throws java.lang.instrument.IllegalClassFormatException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

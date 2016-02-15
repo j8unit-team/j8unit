@@ -5,18 +5,17 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.IOP.IOR class org.omg.IOP.IOR}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.org.omg.IOP.IORTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.IOP.IOR class org.omg.IOP.IOR}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link IORClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.IOP.IORClassTests
+ * @see org.omg.IOP.IOR class org.omg.IOP.IOR (the hereby targeted class-under-test class)
+ * @see IORClassTests IORClassTests (the complementary j8unit test interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.IOP.IOR
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

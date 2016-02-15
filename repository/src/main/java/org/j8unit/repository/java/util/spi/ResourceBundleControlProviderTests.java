@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.spi.ResourceBundleControlProvider interface
- * java.util.spi.ResourceBundleControlProvider}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.util.spi.ResourceBundleControlProviderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.spi.ResourceBundleControlProvider interface
+ * java.util.spi.ResourceBundleControlProvider}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ResourceBundleControlProviderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.spi.ResourceBundleControlProviderClassTests
+ * @see java.util.spi.ResourceBundleControlProvider interface java.util.spi.ResourceBundleControlProvider (the hereby
+ *      targeted class-under-test class)
+ * @see ResourceBundleControlProviderClassTests ResourceBundleControlProviderClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.spi.ResourceBundleControlProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,7 +31,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.spi.ResourceBundleControlProvider#getControl(java.lang.String) public abstract
+     * Test method for {@link java.util.spi.ResourceBundleControlProvider#getControl(String) public abstract
+     * java.util.ResourceBundle$Control java.util.spi.ResourceBundleControlProvider.getControl(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.util.spi.ResourceBundleControlProvider#getControl(String) public abstract
      * java.util.ResourceBundle$Control java.util.spi.ResourceBundleControlProvider.getControl(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +43,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.spi.ResourceBundleControlProvider#getControl(java.lang.String)
+     * @see java.util.spi.ResourceBundleControlProvider#getControl(String) public abstract
+     *      java.util.ResourceBundle$Control java.util.spi.ResourceBundleControlProvider.getControl(java.lang.String)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

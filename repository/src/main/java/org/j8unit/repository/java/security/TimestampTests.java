@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.Timestamp class java.security.Timestamp}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.TimestampTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.Timestamp class java.security.Timestamp}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link TimestampClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.TimestampClassTests
+ * @see java.security.Timestamp class java.security.Timestamp (the hereby targeted class-under-test class)
+ * @see TimestampClassTests TimestampClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.Timestamp
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,21 +28,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.Timestamp#equals(java.lang.Object) public boolean
-     * java.security.Timestamp.equals(java.lang.Object)}.
+     * Test method for {@link java.security.Timestamp#toString() public java.lang.String
+     * java.security.Timestamp.toString()}.
+     *
+     * <p>
+     * Test method for {@link java.security.Timestamp#toString() public java.lang.String
+     * java.security.Timestamp.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.Timestamp#equals(java.lang.Object)
+     * @see java.security.Timestamp#toString() public java.lang.String java.security.Timestamp.toString() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -52,20 +56,24 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.Timestamp#getSignerCertPath() public java.security.cert.CertPath
-     * java.security.Timestamp.getSignerCertPath()}.
+     * Test method for {@link java.security.Timestamp#hashCode() public int java.security.Timestamp.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.security.Timestamp#hashCode() public int java.security.Timestamp.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.Timestamp#getSignerCertPath()
+     * @see java.security.Timestamp#hashCode() public int java.security.Timestamp.hashCode() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getSignerCertPath()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,12 +85,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.security.Timestamp#getTimestamp() public java.util.Date
      * java.security.Timestamp.getTimestamp()}.
      *
+     * <p>
+     * Test method for {@link java.security.Timestamp#getTimestamp() public java.util.Date
+     * java.security.Timestamp.getTimestamp()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.Timestamp#getTimestamp()
+     * @see java.security.Timestamp#getTimestamp() public java.util.Date java.security.Timestamp.getTimestamp() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,20 +109,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.Timestamp#hashCode() public int java.security.Timestamp.hashCode()}.
+     * Test method for {@link java.security.Timestamp#equals(Object) public boolean
+     * java.security.Timestamp.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.security.Timestamp#equals(Object) public boolean
+     * java.security.Timestamp.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.Timestamp#hashCode()
+     * @see java.security.Timestamp#equals(Object) public boolean java.security.Timestamp.equals(java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,21 +137,25 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.Timestamp#toString() public java.lang.String
-     * java.security.Timestamp.toString()}.
+     * Test method for {@link java.security.Timestamp#getSignerCertPath() public java.security.cert.CertPath
+     * java.security.Timestamp.getSignerCertPath()}.
+     *
+     * <p>
+     * Test method for {@link java.security.Timestamp#getSignerCertPath() public java.security.cert.CertPath
+     * java.security.Timestamp.getSignerCertPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.Timestamp#toString()
+     * @see java.security.Timestamp#getSignerCertPath() public java.security.cert.CertPath
+     *      java.security.Timestamp.getSignerCertPath() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getSignerCertPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

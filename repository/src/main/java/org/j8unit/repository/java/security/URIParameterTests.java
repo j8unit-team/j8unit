@@ -8,27 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.URIParameter class java.security.URIParameter},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.URIParameterTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.URIParameter class java.security.URIParameter}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link URIParameterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.URIParameterClassTests
+ * @see java.security.URIParameter class java.security.URIParameter (the hereby targeted class-under-test class)
+ * @see URIParameterClassTests URIParameterClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.URIParameter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface URIParameterTests<SUT extends java.security.URIParameter>
-extends org.j8unit.repository.java.security.PolicyTests.ParametersTests<SUT>,
-org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends PolicyTests.ParametersTests<SUT>, org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.URIParameter#getURI() public java.net.URI
+     * java.security.URIParameter.getURI()}.
+     *
      * <p>
      * Test method for {@link java.security.URIParameter#getURI() public java.net.URI
      * java.security.URIParameter.getURI()}.
@@ -38,7 +41,8 @@ org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTes
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.URIParameter#getURI()
+     * @see java.security.URIParameter#getURI() public java.net.URI java.security.URIParameter.getURI() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

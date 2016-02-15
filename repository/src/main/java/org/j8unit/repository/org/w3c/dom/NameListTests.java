@@ -9,18 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.NameList interface org.w3c.dom.NameList}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.org.w3c.dom.NameListTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.NameList interface org.w3c.dom.NameList}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link NameListClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.NameListClassTests
+ * @see org.w3c.dom.NameList interface org.w3c.dom.NameList (the hereby targeted class-under-test class)
+ * @see NameListClassTests NameListClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.NameList
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +29,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NameList#contains(java.lang.String) public abstract boolean
+     * Test method for {@link org.w3c.dom.NameList#contains(String) public abstract boolean
+     * org.w3c.dom.NameList.contains(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.w3c.dom.NameList#contains(String) public abstract boolean
      * org.w3c.dom.NameList.contains(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +41,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.NameList#contains(java.lang.String)
+     * @see org.w3c.dom.NameList#contains(String) public abstract boolean
+     *      org.w3c.dom.NameList.contains(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,15 +56,47 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NameList#containsNS(java.lang.String, java.lang.String) public abstract
-     * boolean org.w3c.dom.NameList.containsNS(java.lang.String,java.lang.String)}.
+     * Test method for {@link org.w3c.dom.NameList#getName(int) public abstract java.lang.String
+     * org.w3c.dom.NameList.getName(int)}.
+     *
+     * <p>
+     * Test method for {@link org.w3c.dom.NameList#getName(int) public abstract java.lang.String
+     * org.w3c.dom.NameList.getName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.NameList#containsNS(java.lang.String, java.lang.String)
+     * @see org.w3c.dom.NameList#getName(int) public abstract java.lang.String org.w3c.dom.NameList.getName(int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.NameList#containsNS(String, String) public abstract boolean
+     * org.w3c.dom.NameList.containsNS(java.lang.String,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.w3c.dom.NameList#containsNS(String, String) public abstract boolean
+     * org.w3c.dom.NameList.containsNS(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.w3c.dom.NameList#containsNS(String, String) public abstract boolean
+     *      org.w3c.dom.NameList.containsNS(java.lang.String,java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,12 +112,16 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for {@link org.w3c.dom.NameList#getLength() public abstract int org.w3c.dom.NameList.getLength()}.
      *
+     * <p>
+     * Test method for {@link org.w3c.dom.NameList#getLength() public abstract int org.w3c.dom.NameList.getLength()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.NameList#getLength()
+     * @see org.w3c.dom.NameList#getLength() public abstract int org.w3c.dom.NameList.getLength() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,27 +135,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NameList#getName(int) public abstract java.lang.String
-     * org.w3c.dom.NameList.getName(int)}.
+     * Test method for {@link org.w3c.dom.NameList#getNamespaceURI(int) public abstract java.lang.String
+     * org.w3c.dom.NameList.getNamespaceURI(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.w3c.dom.NameList#getName(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.w3c.dom.NameList#getNamespaceURI(int) public abstract java.lang.String
      * org.w3c.dom.NameList.getNamespaceURI(int)}.
@@ -124,7 +147,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.NameList#getNamespaceURI(int)
+     * @see org.w3c.dom.NameList#getNamespaceURI(int) public abstract java.lang.String
+     *      org.w3c.dom.NameList.getNamespaceURI(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

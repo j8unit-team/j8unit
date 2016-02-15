@@ -8,47 +8,78 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.xml.sax.ext.DefaultHandler2 class org.xml.sax.ext.DefaultHandler2}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.xml.sax.ext.DefaultHandler2Tests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.xml.sax.ext.DefaultHandler2 class org.xml.sax.ext.DefaultHandler2}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link DefaultHandler2ClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.xml.sax.ext.DefaultHandler2ClassTests
+ * @see org.xml.sax.ext.DefaultHandler2 class org.xml.sax.ext.DefaultHandler2 (the hereby targeted class-under-test
+ *      class)
+ * @see DefaultHandler2ClassTests DefaultHandler2ClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.xml.sax.ext.DefaultHandler2
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultHandler2Tests<SUT extends org.xml.sax.ext.DefaultHandler2>
-extends org.j8unit.repository.org.xml.sax.ext.LexicalHandlerTests<SUT>, org.j8unit.repository.org.xml.sax.ext.DeclHandlerTests<SUT>,
-org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerTests<SUT> {
+extends LexicalHandlerTests<SUT>, DeclHandlerTests<SUT>, EntityResolver2Tests<SUT>, org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.xml.sax.ext.DefaultHandler2#attributeDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
-     * public void
-     * org.xml.sax.ext.DefaultHandler2.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startCDATA() public void
+     * org.xml.sax.ext.DefaultHandler2.startCDATA() throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startCDATA() public void
+     * org.xml.sax.ext.DefaultHandler2.startCDATA() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#attributeDecl(java.lang.String, java.lang.String, java.lang.String,
-     *             java.lang.String, java.lang.String)
+     * @see org.xml.sax.ext.DefaultHandler2#startCDATA() public void org.xml.sax.ext.DefaultHandler2.startCDATA() throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
+    public default void test_startCDATA()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#internalEntityDecl(String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.internalEntityDecl(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#internalEntityDecl(String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.internalEntityDecl(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#internalEntityDecl(String, String) public void
+     *      org.xml.sax.ext.DefaultHandler2.internalEntityDecl(java.lang.String,java.lang.String) throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_attributeDecl_String_String_String_String_String()
+    @Test
+    @Category(Draft.class)
+    public default void test_internalEntityDecl_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -60,17 +91,23 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
      * Test method for {@link org.xml.sax.ext.DefaultHandler2#comment(char[], int, int) public void
      * org.xml.sax.ext.DefaultHandler2.comment(char[],int,int) throws org.xml.sax.SAXException}.
      *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#comment(char[], int, int) public void
+     * org.xml.sax.ext.DefaultHandler2.comment(char[],int,int) throws org.xml.sax.SAXException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#comment(char[], int, int)
+     * @see org.xml.sax.ext.DefaultHandler2#comment(char[], int, int) public void
+     *      org.xml.sax.ext.DefaultHandler2.comment(char[],int,int) throws org.xml.sax.SAXException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_comment_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
@@ -80,8 +117,46 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#elementDecl(java.lang.String, java.lang.String) public
-     * void org.xml.sax.ext.DefaultHandler2.elementDecl(java.lang.String,java.lang.String) throws
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#attributeDecl(String, String, String, String, String)
+     * public void
+     * org.xml.sax.ext.DefaultHandler2.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#attributeDecl(String, String, String, String, String)
+     * public void
+     * org.xml.sax.ext.DefaultHandler2.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#attributeDecl(String, String, String, String, String) public void
+     *      org.xml.sax.ext.DefaultHandler2.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.
+     *      String,java.lang.String) throws org.xml.sax.SAXException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_attributeDecl_String_String_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#externalEntityDecl(String, String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.externalEntityDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#externalEntityDecl(String, String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.externalEntityDecl(java.lang.String,java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,13 +164,73 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#elementDecl(java.lang.String, java.lang.String)
+     * @see org.xml.sax.ext.DefaultHandler2#externalEntityDecl(String, String, String) public void
+     *      org.xml.sax.ext.DefaultHandler2.externalEntityDecl(java.lang.String,java.lang.String,java.lang.String)
+     *      throws org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
+    public default void test_externalEntityDecl_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#elementDecl(String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.elementDecl(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#elementDecl(String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.elementDecl(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#elementDecl(String, String) public void
+     *      org.xml.sax.ext.DefaultHandler2.elementDecl(java.lang.String,java.lang.String) throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
+    @Test
+    @Category(Draft.class)
     public default void test_elementDecl_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startEntity(String) public void
+     * org.xml.sax.ext.DefaultHandler2.startEntity(java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startEntity(String) public void
+     * org.xml.sax.ext.DefaultHandler2.startEntity(java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#startEntity(String) public void
+     *      org.xml.sax.ext.DefaultHandler2.startEntity(java.lang.String) throws org.xml.sax.SAXException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_startEntity_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,18 +242,116 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
      * Test method for {@link org.xml.sax.ext.DefaultHandler2#endCDATA() public void
      * org.xml.sax.ext.DefaultHandler2.endCDATA() throws org.xml.sax.SAXException}.
      *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#endCDATA() public void
+     * org.xml.sax.ext.DefaultHandler2.endCDATA() throws org.xml.sax.SAXException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#endCDATA()
+     * @see org.xml.sax.ext.DefaultHandler2#endCDATA() public void org.xml.sax.ext.DefaultHandler2.endCDATA() throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_endCDATA()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String, String, String) public
+     * org.xml.sax.InputSource
+     * org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException,java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String, String, String) public
+     * org.xml.sax.InputSource
+     * org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String, String, String) public org.xml.sax.InputSource
+     *      org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.
+     *      String) throws org.xml.sax.SAXException,java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_resolveEntity_String_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String) public
+     * org.xml.sax.InputSource org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String) public
+     * org.xml.sax.InputSource org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String) public org.xml.sax.InputSource
+     *      org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String) throws
+     *      org.xml.sax.SAXException,java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_resolveEntity_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#endEntity(String) public void
+     * org.xml.sax.ext.DefaultHandler2.endEntity(java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#endEntity(String) public void
+     * org.xml.sax.ext.DefaultHandler2.endEntity(java.lang.String) throws org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.xml.sax.ext.DefaultHandler2#endEntity(String) public void
+     *      org.xml.sax.ext.DefaultHandler2.endEntity(java.lang.String) throws org.xml.sax.SAXException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_endEntity_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -130,17 +363,22 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
      * Test method for {@link org.xml.sax.ext.DefaultHandler2#endDTD() public void
      * org.xml.sax.ext.DefaultHandler2.endDTD() throws org.xml.sax.SAXException}.
      *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#endDTD() public void
+     * org.xml.sax.ext.DefaultHandler2.endDTD() throws org.xml.sax.SAXException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#endDTD()
+     * @see org.xml.sax.ext.DefaultHandler2#endDTD() public void org.xml.sax.ext.DefaultHandler2.endDTD() throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_endDTD()
     throws Exception {
         // query fresh subject-under-test
@@ -150,181 +388,12 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#endEntity(java.lang.String) public void
-     * org.xml.sax.ext.DefaultHandler2.endEntity(java.lang.String) throws org.xml.sax.SAXException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#endEntity(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_endEntity_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.xml.sax.ext.DefaultHandler2#externalEntityDecl(java.lang.String, java.lang.String, java.lang.String)
-     * public void
-     * org.xml.sax.ext.DefaultHandler2.externalEntityDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startDTD(String, String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.startDTD(java.lang.String,java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#externalEntityDecl(java.lang.String, java.lang.String,
-     *             java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_externalEntityDecl_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#getExternalSubset(java.lang.String, java.lang.String)
-     * public org.xml.sax.InputSource
-     * org.xml.sax.ext.DefaultHandler2.getExternalSubset(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#getExternalSubset(java.lang.String, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getExternalSubset_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#internalEntityDecl(java.lang.String, java.lang.String)
-     * public void org.xml.sax.ext.DefaultHandler2.internalEntityDecl(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#internalEntityDecl(java.lang.String, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_internalEntityDecl_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(java.lang.String, java.lang.String) public
-     * org.xml.sax.InputSource org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#resolveEntity(java.lang.String, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_resolveEntity_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
-     * public org.xml.sax.InputSource
-     * org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#resolveEntity(java.lang.String, java.lang.String, java.lang.String,
-     *             java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_resolveEntity_String_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startCDATA() public void
-     * org.xml.sax.ext.DefaultHandler2.startCDATA() throws org.xml.sax.SAXException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#startCDATA()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_startCDATA()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.xml.sax.ext.DefaultHandler2#startDTD(java.lang.String, java.lang.String, java.lang.String) public void
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startDTD(String, String, String) public void
      * org.xml.sax.ext.DefaultHandler2.startDTD(java.lang.String,java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
@@ -333,12 +402,14 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#startDTD(java.lang.String, java.lang.String, java.lang.String)
+     * @see org.xml.sax.ext.DefaultHandler2#startDTD(String, String, String) public void
+     *      org.xml.sax.ext.DefaultHandler2.startDTD(java.lang.String,java.lang.String,java.lang.String) throws
+     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_startDTD_String_String_String()
     throws Exception {
         // query fresh subject-under-test
@@ -348,21 +419,29 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.DefaultHandler2#startEntity(java.lang.String) public void
-     * org.xml.sax.ext.DefaultHandler2.startEntity(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#getExternalSubset(String, String) public
+     * org.xml.sax.InputSource org.xml.sax.ext.DefaultHandler2.getExternalSubset(java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException,java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link org.xml.sax.ext.DefaultHandler2#getExternalSubset(String, String) public
+     * org.xml.sax.InputSource org.xml.sax.ext.DefaultHandler2.getExternalSubset(java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.xml.sax.ext.DefaultHandler2#startEntity(java.lang.String)
+     * @see org.xml.sax.ext.DefaultHandler2#getExternalSubset(String, String) public org.xml.sax.InputSource
+     *      org.xml.sax.ext.DefaultHandler2.getExternalSubset(java.lang.String,java.lang.String) throws
+     *      org.xml.sax.SAXException,java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_startEntity_String()
+    public default void test_getExternalSubset_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

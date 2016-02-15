@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.text.spi.DateFormatSymbolsProvider class
- * java.text.spi.DateFormatSymbolsProvider}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.text.spi.DateFormatSymbolsProviderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.text.spi.DateFormatSymbolsProvider class
+ * java.text.spi.DateFormatSymbolsProvider}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DateFormatSymbolsProviderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.text.spi.DateFormatSymbolsProviderClassTests
+ * @see java.text.spi.DateFormatSymbolsProvider class java.text.spi.DateFormatSymbolsProvider (the hereby targeted
+ *      class-under-test class)
+ * @see DateFormatSymbolsProviderClassTests DateFormatSymbolsProviderClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.text.spi.DateFormatSymbolsProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,18 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
      * Test method for {@link java.text.spi.DateFormatSymbolsProvider#getInstance(java.util.Locale) public abstract
      * java.text.DateFormatSymbols java.text.spi.DateFormatSymbolsProvider.getInstance(java.util.Locale)}.
      *
+     * <p>
+     * Test method for {@link java.text.spi.DateFormatSymbolsProvider#getInstance(java.util.Locale) public abstract
+     * java.text.DateFormatSymbols java.text.spi.DateFormatSymbolsProvider.getInstance(java.util.Locale)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.text.spi.DateFormatSymbolsProvider#getInstance(java.util.Locale)
+     * @see java.text.spi.DateFormatSymbolsProvider#getInstance(java.util.Locale) public abstract
+     *      java.text.DateFormatSymbols java.text.spi.DateFormatSymbolsProvider.getInstance(java.util.Locale) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

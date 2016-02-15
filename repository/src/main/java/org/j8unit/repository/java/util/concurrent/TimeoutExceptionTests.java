@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.TimeoutException class
- * java.util.concurrent.TimeoutException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.concurrent.TimeoutExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.TimeoutException class
+ * java.util.concurrent.TimeoutException}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link TimeoutExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.TimeoutExceptionClassTests
+ * @see java.util.concurrent.TimeoutException class java.util.concurrent.TimeoutException (the hereby targeted
+ *      class-under-test class)
+ * @see TimeoutExceptionClassTests TimeoutExceptionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.TimeoutException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

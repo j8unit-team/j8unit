@@ -8,115 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.EnumMap class java.util.EnumMap}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.util.EnumMapTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.EnumMap class java.util.EnumMap}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link EnumMapClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.EnumMapClassTests
+ * @see java.util.EnumMap class java.util.EnumMap (the hereby targeted class-under-test class)
+ * @see EnumMapClassTests EnumMapClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.EnumMap
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumMapTests<SUT extends java.util.EnumMap<K, V>, K extends java.lang.Enum<K>, V>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
-org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
+public abstract interface EnumMapTests<SUT extends java.util.EnumMap<K, V>, K extends Enum<K>, V>
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#clear() public void java.util.EnumMap.clear()}.
+     * Test method for {@link java.util.EnumMap#entrySet() public java.util.Set<java.util.Map.java.util.Map$Entry<K, V>>
+     * java.util.EnumMap.entrySet()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.EnumMap#clear()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.EnumMap#clone() public java.util.EnumMap java.util.EnumMap.clone()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.EnumMap#clone()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.EnumMap#containsKey(java.lang.Object) public boolean
-     * java.util.EnumMap.containsKey(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.EnumMap#containsKey(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_containsKey_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.EnumMap#containsValue(java.lang.Object) public boolean
-     * java.util.EnumMap.containsValue(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.EnumMap#containsValue(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_containsValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.util.EnumMap#entrySet() public java.util.Set java.util.EnumMap.entrySet()}.
      *
@@ -125,12 +39,13 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#entrySet()
+     * @see java.util.EnumMap#entrySet() public java.util.Set java.util.EnumMap.entrySet() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_entrySet()
     throws Exception {
         // query fresh subject-under-test
@@ -140,21 +55,24 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#equals(java.lang.Object) public boolean
-     * java.util.EnumMap.equals(java.lang.Object)}.
+     * Test method for {@link java.util.EnumMap#values() public java.util.Collection<V> java.util.EnumMap.values()}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#values() public java.util.Collection java.util.EnumMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#equals(java.lang.Object)
+     * @see java.util.EnumMap#values() public java.util.Collection java.util.EnumMap.values() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_values()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,21 +81,26 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#get(java.lang.Object) public java.lang.Object
-     * java.util.EnumMap.get(java.lang.Object)}.
+     * Test method for {@link java.util.EnumMap#containsKey(Object) public boolean
+     * java.util.EnumMap.containsKey(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#containsKey(Object) public boolean
+     * java.util.EnumMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#get(java.lang.Object)
+     * @see java.util.EnumMap#containsKey(Object) public boolean java.util.EnumMap.containsKey(java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_get_Object()
+    public default void test_containsKey_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -186,20 +109,25 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#hashCode() public int java.util.EnumMap.hashCode()}.
+     * Test method for {@link java.util.EnumMap#remove(Object) public V java.util.EnumMap.remove(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#remove(Object) public java.lang.Object
+     * java.util.EnumMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#hashCode()
+     * @see java.util.EnumMap#remove(Object) public java.lang.Object java.util.EnumMap.remove(java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_remove_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,29 +136,10 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#keySet() public java.util.Set java.util.EnumMap.keySet()}.
+     * Test method for {@link java.util.EnumMap#put(Enum, Object) public V java.util.EnumMap.put(K,V)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.EnumMap#keySet()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_keySet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.util.EnumMap#put(java.lang.Enum, java.lang.Object) public java.lang.Object
+     * Test method for {@link java.util.EnumMap#put(Enum, Object) public java.lang.Object
      * java.util.EnumMap.put(java.lang.Enum,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,7 +147,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#put(java.lang.Enum, java.lang.Object)
+     * @see java.util.EnumMap#put(Enum, Object) public java.lang.Object
+     *      java.util.EnumMap.put(java.lang.Enum,java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -252,21 +162,26 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#putAll(java.util.Map) public void
-     * java.util.EnumMap.putAll(java.util.Map)}.
+     * Test method for {@link java.util.EnumMap#containsValue(Object) public boolean
+     * java.util.EnumMap.containsValue(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#containsValue(Object) public boolean
+     * java.util.EnumMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#putAll(java.util.Map)
+     * @see java.util.EnumMap#containsValue(Object) public boolean java.util.EnumMap.containsValue(java.lang.Object)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_putAll_Map()
+    public default void test_containsValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -275,21 +190,23 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#remove(java.lang.Object) public java.lang.Object
-     * java.util.EnumMap.remove(java.lang.Object)}.
+     * Test method for {@link java.util.EnumMap#clear() public void java.util.EnumMap.clear()}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#clear() public void java.util.EnumMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#remove(java.lang.Object)
+     * @see java.util.EnumMap#clear() public void java.util.EnumMap.clear() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_remove_Object()
+    public default void test_clear()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -300,17 +217,20 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
      * <p>
      * Test method for {@link java.util.EnumMap#size() public int java.util.EnumMap.size()}.
      *
+     * <p>
+     * Test method for {@link java.util.EnumMap#size() public int java.util.EnumMap.size()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#size()
+     * @see java.util.EnumMap#size() public int java.util.EnumMap.size() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_size()
     throws Exception {
         // query fresh subject-under-test
@@ -320,20 +240,157 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumMap#values() public java.util.Collection java.util.EnumMap.values()}.
+     * Test method for {@link java.util.EnumMap#get(Object) public V java.util.EnumMap.get(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#get(Object) public java.lang.Object
+     * java.util.EnumMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EnumMap#values()
+     * @see java.util.EnumMap#get(Object) public java.lang.Object java.util.EnumMap.get(java.lang.Object) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumMap#equals(Object) public boolean
+     * java.util.EnumMap.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#equals(Object) public boolean
+     * java.util.EnumMap.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.EnumMap#equals(Object) public boolean java.util.EnumMap.equals(java.lang.Object) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumMap#putAll(java.util.Map) public void
+     * java.util.EnumMap.putAll(java.util.Map<? extends K, ? extends V>)}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#putAll(java.util.Map) public void
+     * java.util.EnumMap.putAll(java.util.Map)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.EnumMap#putAll(java.util.Map) public void java.util.EnumMap.putAll(java.util.Map) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_putAll_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumMap#hashCode() public int java.util.EnumMap.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#hashCode() public int java.util.EnumMap.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.EnumMap#hashCode() public int java.util.EnumMap.hashCode() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumMap#keySet() public java.util.Set<K> java.util.EnumMap.keySet()}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#keySet() public java.util.Set java.util.EnumMap.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.EnumMap#keySet() public java.util.Set java.util.EnumMap.keySet() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_keySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumMap#clone() public java.util.EnumMap<K, V> java.util.EnumMap.clone()}.
+     *
+     * <p>
+     * Test method for {@link java.util.EnumMap#clone() public java.util.EnumMap java.util.EnumMap.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.EnumMap#clone() public java.util.EnumMap java.util.EnumMap.clone() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_values()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

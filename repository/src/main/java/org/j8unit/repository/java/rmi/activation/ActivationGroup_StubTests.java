@@ -8,27 +8,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.activation.ActivationGroup_Stub class
- * java.rmi.activation.ActivationGroup_Stub}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.activation.ActivationGroup_StubTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.activation.ActivationGroup_Stub class
+ * java.rmi.activation.ActivationGroup_Stub}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ActivationGroup_StubClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.activation.ActivationGroup_StubClassTests
+ * @see java.rmi.activation.ActivationGroup_Stub class java.rmi.activation.ActivationGroup_Stub (the hereby targeted
+ *      class-under-test class)
+ * @see ActivationGroup_StubClassTests ActivationGroup_StubClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.activation.ActivationGroup_Stub
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationGroup_StubTests<SUT extends java.rmi.activation.ActivationGroup_Stub>
-extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SUT>, org.j8unit.repository.java.rmi.RemoteTests<SUT>,
-org.j8unit.repository.java.rmi.server.RemoteStubTests<SUT> {
+extends ActivationInstantiatorTests<SUT>, org.j8unit.repository.java.rmi.RemoteTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteStubTests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link java.rmi.activation.ActivationGroup_Stub#newInstance(java.rmi.activation.ActivationID, java.rmi.activation.ActivationDesc)
+     * public java.rmi.MarshalledObject
+     * java.rmi.activation.ActivationGroup_Stub.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
+     * throws java.rmi.RemoteException,java.rmi.activation.ActivationException}.
+     *
      * <p>
      * Test method for
      * {@link java.rmi.activation.ActivationGroup_Stub#newInstance(java.rmi.activation.ActivationID, java.rmi.activation.ActivationDesc)
@@ -41,13 +48,16 @@ org.j8unit.repository.java.rmi.server.RemoteStubTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.activation.ActivationGroup_Stub#newInstance(java.rmi.activation.ActivationID,
-     *             java.rmi.activation.ActivationDesc)
+     * @see java.rmi.activation.ActivationGroup_Stub#newInstance(java.rmi.activation.ActivationID,
+     *      java.rmi.activation.ActivationDesc) public java.rmi.MarshalledObject
+     *      java.rmi.activation.ActivationGroup_Stub.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.
+     *      ActivationDesc) throws java.rmi.RemoteException,java.rmi.activation.ActivationException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_newInstance_ActivationID_ActivationDesc()
     throws Exception {
         // query fresh subject-under-test

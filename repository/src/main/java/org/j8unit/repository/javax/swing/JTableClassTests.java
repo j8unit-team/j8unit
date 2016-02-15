@@ -1,125 +1,120 @@
 package org.j8unit.repository.javax.swing;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.JTable class javax.swing.JTable}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.JTableTests}.
+ * Reusable j8unit test interface for {@linkplain javax.swing.JTable class javax.swing.JTable}, containing all type
+ * relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the
+ * runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link JTableTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.JTableTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JTableTests}.
+ * </p>
+ *
+ * @see javax.swing.JTable class javax.swing.JTable (the hereby targeted class-under-test class)
+ * @see JTableTests JTableTests (The complementary j8unit test interface containing the instance relevant test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.JTable
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTableClassTests<SUT extends javax.swing.JTable>
-extends org.j8unit.repository.javax.swing.event.TableModelListenerClassTests<SUT>, org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>,
+extends org.j8unit.repository.javax.swing.event.TableModelListenerClassTests<SUT>, ScrollableClassTests<SUT>,
 org.j8unit.repository.javax.swing.event.TableColumnModelListenerClassTests<SUT>, org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests<SUT>,
 org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
-org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, JComponentClassTests<SUT> {
 
     /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.JTable.DropLocation class
-     * javax.swing.JTable$DropLocation}, containing all class relevant test methods (at least the test methods of
-     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.JTableTests.DropLocationTests}.
-     * </p>
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.JTableTests.DropLocationTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.JTable.DropLocation
+     * @since 0.9.2
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationClassTests<SUT extends javax.swing.JTable.DropLocation>
-    extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.JTable.DropLocation#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.JTable.DropLocation.class.isAssignableFrom(sut));
-        }
-
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.JTable.class!",
+                   javax.swing.JTable.class.isAssignableFrom(sut));
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.JTable.PrintMode class javax.swing.JTable$PrintMode},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and of
-     * accessible {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test
-     * methods is {@link org.j8unit.repository.javax.swing.JTableTests.PrintModeTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.JTable.PrintMode class javax.swing.JTable$PrintMode},
+     * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link JTableTests.PrintModeTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.JTableTests.PrintModeTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link JTableTests.PrintModeTests}.
+     * </p>
+     *
+     * @see javax.swing.JTable.PrintMode class javax.swing.JTable$PrintMode (the hereby targeted class-under-test class)
+     * @see JTableTests.PrintModeTests JTableTests.PrintModeTests (The complementary j8unit test interface containing
+     *      the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.JTable.PrintMode
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -127,260 +122,93 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for {@link javax.swing.JTable.PrintMode#valueOf(java.lang.String) public static
-         * javax.swing.JTable$PrintMode javax.swing.JTable$PrintMode.valueOf(java.lang.String)}.
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.JTable.PrintMode#valueOf(java.lang.String)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.JTable.PrintMode#values() public static javax.swing.JTable$PrintMode[]
-         * javax.swing.JTable$PrintMode.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.JTable.PrintMode#values()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_values()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.JTable.PrintMode#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.JTable.PrintMode.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.JTable.PrintMode.class!",
+                       javax.swing.JTable.PrintMode.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTable#JTable() public javax.swing.JTable()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.JTable.DropLocation class
+     * javax.swing.JTable$DropLocation}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
+     * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
+     * is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.JTable#JTable()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable();
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.JTable#JTable(int, int) public javax.swing.JTable(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link JTableTests.DropLocationTests}).
      * </p>
      *
-     * @j8unit.aim javax.swing.JTable#JTable(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(int, int);
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.JTable#JTable(java.lang.Object[][], java.lang.Object[]) public
-     * javax.swing.JTable(java.lang.Object[][],java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * <strong>What? Testing the class itself? What is it good for?</strong>
      * </p>
      *
-     * @j8unit.aim javax.swing.JTable#JTable(java.lang.Object[][], java.lang.Object[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_ObjectArrayArray_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(java.lang.Object[][], java.lang.Object[]);
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.JTable#JTable(javax.swing.table.TableModel) public
-     * javax.swing.JTable(javax.swing.table.TableModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @j8unit.aim javax.swing.JTable#JTable(javax.swing.table.TableModel)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_TableModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(javax.swing.table.TableModel);
-    }
-
-    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel) public
-     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link JTableTests.DropLocationTests}.
      * </p>
      *
-     * @j8unit.aim javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel)
+     * @see javax.swing.JTable.DropLocation class javax.swing.JTable$DropLocation (the hereby targeted class-under-test
+     *      class)
+     * @see JTableTests.DropLocationTests JTableTests.DropLocationTests (The complementary j8unit test interface
+     *      containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_TableModel_TableColumnModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(javax.swing.table.TableModel,
-                                             // javax.swing.table.TableColumnModel);
-    }
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface DropLocationClassTests<SUT extends javax.swing.JTable.DropLocation>
+    extends TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel, javax.swing.ListSelectionModel)
-     * public
-     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel,
-     *             javax.swing.ListSelectionModel)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_TableModel_TableColumnModel_ListSelectionModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(javax.swing.table.TableModel,
-                                             // javax.swing.table.TableColumnModel, javax.swing.ListSelectionModel);
-    }
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.JTable.DropLocation.class!",
+                       javax.swing.JTable.DropLocation.class.isAssignableFrom(sut));
+        }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTable#JTable(java.util.Vector, java.util.Vector) public
-     * javax.swing.JTable(java.util.Vector,java.util.Vector)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JTable#JTable(java.util.Vector, java.util.Vector)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_Vector_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(java.util.Vector, java.util.Vector);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable) public static
-     * javax.swing.JScrollPane javax.swing.JTable.createScrollPaneForTable(javax.swing.JTable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createScrollPaneForTable_JTable()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * @since 0.9.2
-     *
-     * @j8unit.aim javax.swing.JTable#isAssignableFrom(java.lang.Class)
-     */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JTable.class.isAssignableFrom(sut));
     }
 
 }

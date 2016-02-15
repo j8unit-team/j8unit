@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.ImageCapabilities class java.awt.ImageCapabilities},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.ImageCapabilitiesTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.ImageCapabilities class java.awt.ImageCapabilities}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ImageCapabilitiesClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.ImageCapabilitiesClassTests
+ * @see java.awt.ImageCapabilities class java.awt.ImageCapabilities (the hereby targeted class-under-test class)
+ * @see ImageCapabilitiesClassTests ImageCapabilitiesClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.ImageCapabilities
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +31,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link java.awt.ImageCapabilities#clone() public java.lang.Object
      * java.awt.ImageCapabilities.clone()}.
      *
+     * <p>
+     * Test method for {@link java.awt.ImageCapabilities#clone() public java.lang.Object
+     * java.awt.ImageCapabilities.clone()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.ImageCapabilities#clone()
+     * @see java.awt.ImageCapabilities#clone() public java.lang.Object java.awt.ImageCapabilities.clone() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +58,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link java.awt.ImageCapabilities#isAccelerated() public boolean
      * java.awt.ImageCapabilities.isAccelerated()}.
      *
+     * <p>
+     * Test method for {@link java.awt.ImageCapabilities#isAccelerated() public boolean
+     * java.awt.ImageCapabilities.isAccelerated()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.ImageCapabilities#isAccelerated()
+     * @see java.awt.ImageCapabilities#isAccelerated() public boolean java.awt.ImageCapabilities.isAccelerated() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +85,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link java.awt.ImageCapabilities#isTrueVolatile() public boolean
      * java.awt.ImageCapabilities.isTrueVolatile()}.
      *
+     * <p>
+     * Test method for {@link java.awt.ImageCapabilities#isTrueVolatile() public boolean
+     * java.awt.ImageCapabilities.isTrueVolatile()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.ImageCapabilities#isTrueVolatile()
+     * @see java.awt.ImageCapabilities#isTrueVolatile() public boolean java.awt.ImageCapabilities.isTrueVolatile() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

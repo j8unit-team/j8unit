@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.spec.InvalidKeySpecException class
- * java.security.spec.InvalidKeySpecException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.spec.InvalidKeySpecException class
+ * java.security.spec.InvalidKeySpecException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link InvalidKeySpecExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClassTests
+ * @see java.security.spec.InvalidKeySpecException class java.security.spec.InvalidKeySpecException (the hereby targeted
+ *      class-under-test class)
+ * @see InvalidKeySpecExceptionClassTests InvalidKeySpecExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.spec.InvalidKeySpecException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

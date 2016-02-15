@@ -8,42 +8,46 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.io.BufferedOutputStream class java.io.BufferedOutputStream},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.io.BufferedOutputStreamTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.io.BufferedOutputStream class java.io.BufferedOutputStream}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link BufferedOutputStreamClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.io.BufferedOutputStreamClassTests
+ * @see java.io.BufferedOutputStream class java.io.BufferedOutputStream (the hereby targeted class-under-test class)
+ * @see BufferedOutputStreamClassTests BufferedOutputStreamClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.io.BufferedOutputStream
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedOutputStreamTests<SUT extends java.io.BufferedOutputStream>
-extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
+extends FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedOutputStream#flush() public synchronized void
-     * java.io.BufferedOutputStream.flush() throws java.io.IOException}.
+     * Test method for {@link java.io.BufferedOutputStream#write(int) public synchronized void
+     * java.io.BufferedOutputStream.write(int) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.io.BufferedOutputStream#write(int) public synchronized void
+     * java.io.BufferedOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.BufferedOutputStream#flush()
+     * @see java.io.BufferedOutputStream#write(int) public synchronized void java.io.BufferedOutputStream.write(int)
+     *      throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_flush()
+    public default void test_write_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,17 +59,23 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
      * Test method for {@link java.io.BufferedOutputStream#write(byte[], int, int) public synchronized void
      * java.io.BufferedOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.io.BufferedOutputStream#write(byte[], int, int) public synchronized void
+     * java.io.BufferedOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.BufferedOutputStream#write(byte[], int, int)
+     * @see java.io.BufferedOutputStream#write(byte[], int, int) public synchronized void
+     *      java.io.BufferedOutputStream.write(byte[],int,int) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_write_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
@@ -75,21 +85,26 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedOutputStream#write(int) public synchronized void
-     * java.io.BufferedOutputStream.write(int) throws java.io.IOException}.
+     * Test method for {@link java.io.BufferedOutputStream#flush() public synchronized void
+     * java.io.BufferedOutputStream.flush() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.io.BufferedOutputStream#flush() public synchronized void
+     * java.io.BufferedOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.BufferedOutputStream#write(int)
+     * @see java.io.BufferedOutputStream#flush() public synchronized void java.io.BufferedOutputStream.flush() throws
+     *      java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_write_int()
+    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

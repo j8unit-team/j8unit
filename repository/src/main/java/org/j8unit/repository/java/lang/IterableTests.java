@@ -14,28 +14,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.Iterable interface java.lang.Iterable}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.lang.IterableTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain Iterable interface java.lang.Iterable}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link IterableClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.IterableClassTests
+ * @see Iterable interface java.lang.Iterable (the hereby targeted class-under-test class)
+ * @see IterableClassTests IterableClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.Iterable
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IterableTests<SUT extends java.lang.Iterable<T>, T>
+public abstract interface IterableTests<SUT extends Iterable<T>, T>
 extends RepositoryTests<SUT> {
 
     /**
-     * @since 0.9.2
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Iterable#forEach(java.util.function.Consumer)
+     * @since 0.9.2
      */
     @Test
     @Category(TimeLinear.class)
@@ -47,9 +48,10 @@ extends RepositoryTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Iterable#forEach(java.util.function.Consumer)
+     * @since 0.9.2
      */
     @Test
     public default void forEachMustRelayException() {
@@ -73,9 +75,10 @@ extends RepositoryTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Iterable#forEach(java.util.function.Consumer)
+     * @since 0.9.2
      */
     @Test(expected = NullPointerException.class)
     @Category(TimeLinear.class)
@@ -93,9 +96,10 @@ extends RepositoryTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator() (the hereby
+     *      targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Iterable#spliterator()
+     * @since 0.9.2
      */
     @Test
     public default void spliteratorMustReturnNotNull() {
@@ -106,7 +110,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Iterable#forEach(java.util.function.Consumer) public default void
+     * Test method for {@link Iterable#forEach(java.util.function.Consumer) public default void
+     * java.lang.Iterable.forEach(java.util.function.Consumer<? super T>)}.
+     *
+     * <p>
+     * Test method for {@link Iterable#forEach(java.util.function.Consumer) public default void
      * java.lang.Iterable.forEach(java.util.function.Consumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,7 +122,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Iterable#forEach(java.util.function.Consumer)
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -128,20 +137,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Iterable#iterator() public abstract java.util.Iterator
-     * java.lang.Iterable.iterator()}.
+     * Test method for {@link Iterable#spliterator() public default java.util.Spliterator
+     * <T> java.lang.Iterable.spliterator()}.
+     *
+     * <p>
+     * Test method for {@link Iterable#spliterator() public default java.util.Spliterator
+     * java.lang.Iterable.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Iterable#iterator()
+     * @see Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_iterator()
+    public default void test_spliterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,20 +164,23 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Iterable#spliterator() public default java.util.Spliterator
-     * java.lang.Iterable.spliterator()}.
+     * Test method for {@link Iterable#iterator() public abstract java.util.Iterator<T> java.lang.Iterable.iterator()}.
+     *
+     * <p>
+     * Test method for {@link Iterable#iterator() public abstract java.util.Iterator java.lang.Iterable.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Iterable#spliterator()
+     * @see Iterable#iterator() public abstract java.util.Iterator java.lang.Iterable.iterator() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator()
+    public default void test_iterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

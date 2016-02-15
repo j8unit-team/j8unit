@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.XMLSignContext interface
- * javax.xml.crypto.dsig.XMLSignContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.XMLSignContext interface
+ * javax.xml.crypto.dsig.XMLSignContext}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link XMLSignContextClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextClassTests
+ * @see javax.xml.crypto.dsig.XMLSignContext interface javax.xml.crypto.dsig.XMLSignContext (the hereby targeted
+ *      class-under-test class)
+ * @see XMLSignContextClassTests XMLSignContextClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.dsig.XMLSignContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

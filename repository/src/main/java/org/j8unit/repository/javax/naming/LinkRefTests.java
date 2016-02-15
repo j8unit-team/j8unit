@@ -8,25 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.naming.LinkRef class javax.naming.LinkRef}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.naming.LinkRefTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.naming.LinkRef class javax.naming.LinkRef}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link LinkRefClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.naming.LinkRefClassTests
+ * @see javax.naming.LinkRef class javax.naming.LinkRef (the hereby targeted class-under-test class)
+ * @see LinkRefClassTests LinkRefClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.naming.LinkRef
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkRefTests<SUT extends javax.naming.LinkRef>
-extends org.j8unit.repository.javax.naming.ReferenceTests<SUT> {
+extends ReferenceTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.naming.LinkRef#getLinkName() public java.lang.String
+     * javax.naming.LinkRef.getLinkName() throws javax.naming.NamingException}.
+     *
      * <p>
      * Test method for {@link javax.naming.LinkRef#getLinkName() public java.lang.String
      * javax.naming.LinkRef.getLinkName() throws javax.naming.NamingException}.
@@ -36,7 +40,8 @@ extends org.j8unit.repository.javax.naming.ReferenceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.LinkRef#getLinkName()
+     * @see javax.naming.LinkRef#getLinkName() public java.lang.String javax.naming.LinkRef.getLinkName() throws
+     *      javax.naming.NamingException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

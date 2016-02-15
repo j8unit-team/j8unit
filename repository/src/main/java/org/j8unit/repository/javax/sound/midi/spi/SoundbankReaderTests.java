@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.midi.spi.SoundbankReader class
- * javax.sound.midi.spi.SoundbankReader}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sound.midi.spi.SoundbankReaderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sound.midi.spi.SoundbankReader class
+ * javax.sound.midi.spi.SoundbankReader}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link SoundbankReaderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.midi.spi.SoundbankReaderClassTests
+ * @see javax.sound.midi.spi.SoundbankReader class javax.sound.midi.spi.SoundbankReader (the hereby targeted
+ *      class-under-test class)
+ * @see SoundbankReaderClassTests SoundbankReaderClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.midi.spi.SoundbankReader
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.File) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.File) public abstract
+     * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.File) throws
+     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.File)
+     * @see javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.File) public abstract javax.sound.midi.Soundbank
+     *      javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.File) throws
+     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +64,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.InputStream) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.InputStream) public abstract
+     * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.InputStream) throws
+     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.InputStream)
+     * @see javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.InputStream) public abstract
+     *      javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.InputStream) throws
+     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,12 +94,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.net.URL) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.spi.SoundbankReader#getSoundbank(java.net.URL) public abstract
+     * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.net.URL) throws
+     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.spi.SoundbankReader#getSoundbank(java.net.URL)
+     * @see javax.sound.midi.spi.SoundbankReader#getSoundbank(java.net.URL) public abstract javax.sound.midi.Soundbank
+     *      javax.sound.midi.spi.SoundbankReader.getSoundbank(java.net.URL) throws
+     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

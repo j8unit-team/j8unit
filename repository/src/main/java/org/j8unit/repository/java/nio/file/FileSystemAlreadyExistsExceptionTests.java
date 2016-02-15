@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.file.FileSystemAlreadyExistsException class
- * java.nio.file.FileSystemAlreadyExistsException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.nio.file.FileSystemAlreadyExistsExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.file.FileSystemAlreadyExistsException class
+ * java.nio.file.FileSystemAlreadyExistsException}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link FileSystemAlreadyExistsExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.file.FileSystemAlreadyExistsExceptionClassTests
+ * @see java.nio.file.FileSystemAlreadyExistsException class java.nio.file.FileSystemAlreadyExistsException (the hereby
+ *      targeted class-under-test class)
+ * @see FileSystemAlreadyExistsExceptionClassTests FileSystemAlreadyExistsExceptionClassTests (the complementary j8unit
+ *      test interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.file.FileSystemAlreadyExistsException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

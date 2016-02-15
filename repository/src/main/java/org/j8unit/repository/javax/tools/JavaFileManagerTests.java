@@ -9,117 +9,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.tools.JavaFileManager interface javax.tools.JavaFileManager},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.tools.JavaFileManagerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.tools.JavaFileManager interface javax.tools.JavaFileManager}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link JavaFileManagerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.tools.JavaFileManagerClassTests
+ * @see javax.tools.JavaFileManager interface javax.tools.JavaFileManager (the hereby targeted class-under-test class)
+ * @see JavaFileManagerClassTests JavaFileManagerClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.tools.JavaFileManager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaFileManagerTests<SUT extends javax.tools.JavaFileManager>
-extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.io.FlushableTests<SUT>,
-org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
+extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.io.FlushableTests<SUT>, OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.tools.JavaFileManager.Location interface
-     * javax.tools.JavaFileManager$Location}, containing all instance relevant test methods (i.&thinsp;e., test methods
-     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
-     * is {@link org.j8unit.repository.javax.tools.JavaFileManagerTests.LocationTests}.
-     * </p>
+     * Test method for {@link javax.tools.JavaFileManager#flush() public abstract void
+     * javax.tools.JavaFileManager.flush() throws java.io.IOException}.
      *
-     * @see org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.tools.JavaFileManager.Location
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface LocationTests<SUT extends javax.tools.JavaFileManager.Location>
-    extends RepositoryTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.tools.JavaFileManager.Location#getName() public abstract java.lang.String
-         * javax.tools.JavaFileManager$Location.getName()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.tools.JavaFileManager.Location#getName()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getName()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.tools.JavaFileManager.Location#isOutputLocation() public abstract boolean
-         * javax.tools.JavaFileManager$Location.isOutputLocation()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.tools.JavaFileManager.Location#isOutputLocation()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_isOutputLocation()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.JavaFileManager#close() public abstract void
-     * javax.tools.JavaFileManager.close() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#close()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.tools.JavaFileManager#flush() public abstract void
      * javax.tools.JavaFileManager.flush() throws java.io.IOException}.
@@ -129,12 +41,13 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.JavaFileManager#flush()
+     * @see javax.tools.JavaFileManager#flush() public abstract void javax.tools.JavaFileManager.flush() throws
+     *      java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
@@ -144,82 +57,15 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.JavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public
-     * abstract java.lang.ClassLoader javax.tools.JavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClassLoader_Location()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.tools.JavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, java.lang.String, java.lang.String)
-     * public abstract javax.tools.FileObject
-     * javax.tools.JavaFileManager.getFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String)
+     * {@link javax.tools.JavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind)
+     * public abstract javax.tools.JavaFileObject
+     * javax.tools.JavaFileManager.getJavaFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind)
      * throws java.io.IOException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, java.lang.String,
-     *             java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileForInput_Location_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
-     * {@link javax.tools.JavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, java.lang.String, java.lang.String, javax.tools.FileObject)
-     * public abstract javax.tools.FileObject
-     * javax.tools.JavaFileManager.getFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String,javax.tools.FileObject)
-     * throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, java.lang.String,
-     *             java.lang.String, javax.tools.FileObject)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileForOutput_Location_String_String_FileObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.tools.JavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location, java.lang.String, javax.tools.JavaFileObject.Kind)
+     * {@link javax.tools.JavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind)
      * public abstract javax.tools.JavaFileObject
      * javax.tools.JavaFileManager.getJavaFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind)
      * throws java.io.IOException}.
@@ -229,8 +75,10 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.JavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location,
-     *             java.lang.String, javax.tools.JavaFileObject.Kind)
+     * @see javax.tools.JavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location, String,
+     *      javax.tools.JavaFileObject.Kind) public abstract javax.tools.JavaFileObject
+     *      javax.tools.JavaFileManager.getJavaFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,javax.
+     *      tools.JavaFileObject$Kind) throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,7 +93,14 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.tools.JavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, java.lang.String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
+     * {@link javax.tools.JavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
+     * public abstract javax.tools.JavaFileObject
+     * javax.tools.JavaFileManager.getJavaFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind,javax.tools.FileObject)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
      * public abstract javax.tools.JavaFileObject
      * javax.tools.JavaFileManager.getJavaFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind,javax.tools.FileObject)
      * throws java.io.IOException}.
@@ -255,8 +110,11 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.JavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location,
-     *             java.lang.String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
+     * @see javax.tools.JavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, String,
+     *      javax.tools.JavaFileObject.Kind, javax.tools.FileObject) public abstract javax.tools.JavaFileObject
+     *      javax.tools.JavaFileManager.getJavaFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,javax
+     *      .tools.JavaFileObject$Kind,javax.tools.FileObject) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,74 +128,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.JavaFileManager#handleOption(java.lang.String, java.util.Iterator) public
-     * abstract boolean javax.tools.JavaFileManager.handleOption(java.lang.String,java.util.Iterator)}.
+     * Test method for {@link javax.tools.JavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject)
+     * public abstract boolean javax.tools.JavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#handleOption(java.lang.String, java.util.Iterator)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_handleOption_String_Iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.JavaFileManager#hasLocation(javax.tools.JavaFileManager.Location) public
-     * abstract boolean javax.tools.JavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#hasLocation(javax.tools.JavaFileManager.Location)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasLocation_Location()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.tools.JavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location, javax.tools.JavaFileObject)
-     * public abstract java.lang.String
-     * javax.tools.JavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.JavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location,
-     *             javax.tools.JavaFileObject)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_inferBinaryName_Location_JavaFileObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.tools.JavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject)
      * public abstract boolean javax.tools.JavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
@@ -347,7 +140,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.JavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject)
+     * @see javax.tools.JavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject) public abstract
+     *      boolean javax.tools.JavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -362,7 +157,105 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.tools.JavaFileManager#list(javax.tools.JavaFileManager.Location, java.lang.String, java.util.Set, boolean)
+     * {@link javax.tools.JavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, String, String, javax.tools.FileObject)
+     * public abstract javax.tools.FileObject
+     * javax.tools.JavaFileManager.getFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String,javax.tools.FileObject)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, String, String, javax.tools.FileObject)
+     * public abstract javax.tools.FileObject
+     * javax.tools.JavaFileManager.getFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String,javax.tools.FileObject)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, String, String,
+     *      javax.tools.FileObject) public abstract javax.tools.FileObject
+     *      javax.tools.JavaFileManager.getFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang
+     *      .String,javax.tools.FileObject) throws java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileForOutput_Location_String_String_FileObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#close() public abstract void
+     * javax.tools.JavaFileManager.close() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#close() public abstract void
+     * javax.tools.JavaFileManager.close() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#close() public abstract void javax.tools.JavaFileManager.close() throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#handleOption(String, java.util.Iterator) public abstract
+     * boolean javax.tools.JavaFileManager.handleOption(java.lang.String,java.util.Iterator<java.lang.String>)}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#handleOption(String, java.util.Iterator) public abstract
+     * boolean javax.tools.JavaFileManager.handleOption(java.lang.String,java.util.Iterator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#handleOption(String, java.util.Iterator) public abstract boolean
+     *      javax.tools.JavaFileManager.handleOption(java.lang.String,java.util.Iterator) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_handleOption_String_Iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#list(javax.tools.JavaFileManager.Location, String, java.util.Set, boolean)
+     * public abstract java.lang.Iterable<javax.tools.JavaFileObject>
+     * javax.tools.JavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set
+     * <javax.tools.JavaFileObject$Kind>,boolean) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#list(javax.tools.JavaFileManager.Location, String, java.util.Set, boolean)
      * public abstract java.lang.Iterable
      * javax.tools.JavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set,boolean)
      * throws java.io.IOException}.
@@ -372,8 +265,10 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.JavaFileManager#list(javax.tools.JavaFileManager.Location, java.lang.String,
-     *             java.util.Set, boolean)
+     * @see javax.tools.JavaFileManager#list(javax.tools.JavaFileManager.Location, String, java.util.Set, boolean)
+     *      public abstract java.lang.Iterable
+     *      javax.tools.JavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set,
+     *      boolean) throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -383,6 +278,208 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, String, String) public
+     * abstract javax.tools.FileObject
+     * javax.tools.JavaFileManager.getFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, String, String) public
+     * abstract javax.tools.FileObject
+     * javax.tools.JavaFileManager.getFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, String, String) public
+     *      abstract javax.tools.FileObject
+     *      javax.tools.JavaFileManager.getFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.
+     *      String) throws java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileForInput_Location_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location, javax.tools.JavaFileObject)
+     * public abstract java.lang.String
+     * javax.tools.JavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.tools.JavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location, javax.tools.JavaFileObject)
+     * public abstract java.lang.String
+     * javax.tools.JavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location,
+     *      javax.tools.JavaFileObject) public abstract java.lang.String
+     *      javax.tools.JavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_inferBinaryName_Location_JavaFileObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#hasLocation(javax.tools.JavaFileManager.Location) public
+     * abstract boolean javax.tools.JavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#hasLocation(javax.tools.JavaFileManager.Location) public
+     * abstract boolean javax.tools.JavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#hasLocation(javax.tools.JavaFileManager.Location) public abstract boolean
+     *      javax.tools.JavaFileManager.hasLocation(javax.tools.JavaFileManager$Location) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasLocation_Location()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public
+     * abstract java.lang.ClassLoader javax.tools.JavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.JavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public
+     * abstract java.lang.ClassLoader javax.tools.JavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public abstract
+     *      java.lang.ClassLoader javax.tools.JavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClassLoader_Location()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.tools.JavaFileManager.Location interface
+     * javax.tools.JavaFileManager$Location}. The complementary j8unit test interface containing the class relevant
+     * aspects is {@link JavaFileManagerClassTests.LocationClassTests}.
+     * </p>
+     *
+     * @see javax.tools.JavaFileManager.Location interface javax.tools.JavaFileManager$Location (the hereby targeted
+     *      class-under-test class)
+     * @see JavaFileManagerClassTests.LocationClassTests JavaFileManagerClassTests.LocationClassTests (the complementary
+     *      j8unit test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface LocationTests<SUT extends javax.tools.JavaFileManager.Location>
+    extends RepositoryTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link javax.tools.JavaFileManager.Location#isOutputLocation() public abstract boolean
+         * javax.tools.JavaFileManager$Location.isOutputLocation()}.
+         *
+         * <p>
+         * Test method for {@link javax.tools.JavaFileManager.Location#isOutputLocation() public abstract boolean
+         * javax.tools.JavaFileManager$Location.isOutputLocation()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.tools.JavaFileManager.Location#isOutputLocation() public abstract boolean
+         *      javax.tools.JavaFileManager$Location.isOutputLocation() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_isOutputLocation()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.tools.JavaFileManager.Location#getName() public abstract java.lang.String
+         * javax.tools.JavaFileManager$Location.getName()}.
+         *
+         * <p>
+         * Test method for {@link javax.tools.JavaFileManager.Location#getName() public abstract java.lang.String
+         * javax.tools.JavaFileManager$Location.getName()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.tools.JavaFileManager.Location#getName() public abstract java.lang.String
+         *      javax.tools.JavaFileManager$Location.getName() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getName()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
     }
 
 }

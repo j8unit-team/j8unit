@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.charset.spi.CharsetProvider class
- * java.nio.charset.spi.CharsetProvider}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.charset.spi.CharsetProviderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.charset.spi.CharsetProvider class
+ * java.nio.charset.spi.CharsetProvider}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link CharsetProviderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.charset.spi.CharsetProviderClassTests
+ * @see java.nio.charset.spi.CharsetProvider class java.nio.charset.spi.CharsetProvider (the hereby targeted
+ *      class-under-test class)
+ * @see CharsetProviderClassTests CharsetProviderClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.charset.spi.CharsetProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +30,11 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.spi.CharsetProvider#charsetForName(java.lang.String) public abstract
+     * Test method for {@link java.nio.charset.spi.CharsetProvider#charsetForName(String) public abstract
+     * java.nio.charset.Charset java.nio.charset.spi.CharsetProvider.charsetForName(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.nio.charset.spi.CharsetProvider#charsetForName(String) public abstract
      * java.nio.charset.Charset java.nio.charset.spi.CharsetProvider.charsetForName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +42,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.charset.spi.CharsetProvider#charsetForName(java.lang.String)
+     * @see java.nio.charset.spi.CharsetProvider#charsetForName(String) public abstract java.nio.charset.Charset
+     *      java.nio.charset.spi.CharsetProvider.charsetForName(java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,6 +59,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.nio.charset.spi.CharsetProvider#charsets() public abstract java.util.Iterator
+     * <java.nio.charset.Charset> java.nio.charset.spi.CharsetProvider.charsets()}.
+     *
+     * <p>
+     * Test method for {@link java.nio.charset.spi.CharsetProvider#charsets() public abstract java.util.Iterator
      * java.nio.charset.spi.CharsetProvider.charsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +70,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.charset.spi.CharsetProvider#charsets()
+     * @see java.nio.charset.spi.CharsetProvider#charsets() public abstract java.util.Iterator
+     *      java.nio.charset.spi.CharsetProvider.charsets() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.lang.model.element.QualifiedNameable interface
- * javax.lang.model.element.QualifiedNameable}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.lang.model.element.QualifiedNameable interface
+ * javax.lang.model.element.QualifiedNameable}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link QualifiedNameableClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.lang.model.element.QualifiedNameableClassTests
+ * @see javax.lang.model.element.QualifiedNameable interface javax.lang.model.element.QualifiedNameable (the hereby
+ *      targeted class-under-test class)
+ * @see QualifiedNameableClassTests QualifiedNameableClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.lang.model.element.QualifiedNameable
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface QualifiedNameableTests<SUT extends javax.lang.model.element.QualifiedNameable>
-extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
+extends ElementTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.QualifiedNameable#getQualifiedName() public abstract
+     * javax.lang.model.element.Name javax.lang.model.element.QualifiedNameable.getQualifiedName()}.
+     *
      * <p>
      * Test method for {@link javax.lang.model.element.QualifiedNameable#getQualifiedName() public abstract
      * javax.lang.model.element.Name javax.lang.model.element.QualifiedNameable.getQualifiedName()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.element.QualifiedNameable#getQualifiedName()
+     * @see javax.lang.model.element.QualifiedNameable#getQualifiedName() public abstract javax.lang.model.element.Name
+     *      javax.lang.model.element.QualifiedNameable.getQualifiedName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

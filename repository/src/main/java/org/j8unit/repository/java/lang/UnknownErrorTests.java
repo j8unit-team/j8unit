@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.UnknownError class java.lang.UnknownError}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.UnknownErrorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain UnknownError class java.lang.UnknownError}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link UnknownErrorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.UnknownErrorClassTests
+ * @see UnknownError class java.lang.UnknownError (the hereby targeted class-under-test class)
+ * @see UnknownErrorClassTests UnknownErrorClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.UnknownError
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnknownErrorTests<SUT extends java.lang.UnknownError>
-extends org.j8unit.repository.java.lang.VirtualMachineErrorTests<SUT> {
+public abstract interface UnknownErrorTests<SUT extends UnknownError>
+extends VirtualMachineErrorTests<SUT> {
 
 }

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.naming.directory.SearchControls class
- * javax.naming.directory.SearchControls}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.naming.directory.SearchControlsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.naming.directory.SearchControls class
+ * javax.naming.directory.SearchControls}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link SearchControlsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.naming.directory.SearchControlsClassTests
+ * @see javax.naming.directory.SearchControls class javax.naming.directory.SearchControls (the hereby targeted
+ *      class-under-test class)
+ * @see SearchControlsClassTests SearchControlsClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.naming.directory.SearchControls
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.naming.directory.SearchControls#getCountLimit() public long
      * javax.naming.directory.SearchControls.getCountLimit()}.
      *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getCountLimit() public long
+     * javax.naming.directory.SearchControls.getCountLimit()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#getCountLimit()
+     * @see javax.naming.directory.SearchControls#getCountLimit() public long
+     *      javax.naming.directory.SearchControls.getCountLimit() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,20 +57,80 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.SearchControls#getDerefLinkFlag() public boolean
-     * javax.naming.directory.SearchControls.getDerefLinkFlag()}.
+     * Test method for {@link javax.naming.directory.SearchControls#setCountLimit(long) public void
+     * javax.naming.directory.SearchControls.setCountLimit(long)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setCountLimit(long) public void
+     * javax.naming.directory.SearchControls.setCountLimit(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#getDerefLinkFlag()
+     * @see javax.naming.directory.SearchControls#setCountLimit(long) public void
+     *      javax.naming.directory.SearchControls.setCountLimit(long) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDerefLinkFlag()
+    public default void test_setCountLimit_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setSearchScope(int) public void
+     * javax.naming.directory.SearchControls.setSearchScope(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setSearchScope(int) public void
+     * javax.naming.directory.SearchControls.setSearchScope(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.directory.SearchControls#setSearchScope(int) public void
+     *      javax.naming.directory.SearchControls.setSearchScope(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSearchScope_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setReturningAttributes(String[]) public void
+     * javax.naming.directory.SearchControls.setReturningAttributes(java.lang.String[])}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setReturningAttributes(String[]) public void
+     * javax.naming.directory.SearchControls.setReturningAttributes(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.directory.SearchControls#setReturningAttributes(String[]) public void
+     *      javax.naming.directory.SearchControls.setReturningAttributes(java.lang.String[]) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReturningAttributes_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,12 +142,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.naming.directory.SearchControls#getReturningAttributes() public java.lang.String[]
      * javax.naming.directory.SearchControls.getReturningAttributes()}.
      *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getReturningAttributes() public java.lang.String[]
+     * javax.naming.directory.SearchControls.getReturningAttributes()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#getReturningAttributes()
+     * @see javax.naming.directory.SearchControls#getReturningAttributes() public java.lang.String[]
+     *      javax.naming.directory.SearchControls.getReturningAttributes() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,6 +166,64 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setReturningObjFlag(boolean) public void
+     * javax.naming.directory.SearchControls.setReturningObjFlag(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#setReturningObjFlag(boolean) public void
+     * javax.naming.directory.SearchControls.setReturningObjFlag(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.directory.SearchControls#setReturningObjFlag(boolean) public void
+     *      javax.naming.directory.SearchControls.setReturningObjFlag(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReturningObjFlag_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getDerefLinkFlag() public boolean
+     * javax.naming.directory.SearchControls.getDerefLinkFlag()}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getDerefLinkFlag() public boolean
+     * javax.naming.directory.SearchControls.getDerefLinkFlag()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.directory.SearchControls#getDerefLinkFlag() public boolean
+     *      javax.naming.directory.SearchControls.getDerefLinkFlag() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDerefLinkFlag()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getReturningObjFlag() public boolean
+     * javax.naming.directory.SearchControls.getReturningObjFlag()}.
+     *
+     * <p>
      * Test method for {@link javax.naming.directory.SearchControls#getReturningObjFlag() public boolean
      * javax.naming.directory.SearchControls.getReturningObjFlag()}.
      *
@@ -103,7 +232,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#getReturningObjFlag()
+     * @see javax.naming.directory.SearchControls#getReturningObjFlag() public boolean
+     *      javax.naming.directory.SearchControls.getReturningObjFlag() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,12 +250,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.naming.directory.SearchControls#getSearchScope() public int
      * javax.naming.directory.SearchControls.getSearchScope()}.
      *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getSearchScope() public int
+     * javax.naming.directory.SearchControls.getSearchScope()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#getSearchScope()
+     * @see javax.naming.directory.SearchControls#getSearchScope() public int
+     *      javax.naming.directory.SearchControls.getSearchScope() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,12 +277,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link javax.naming.directory.SearchControls#getTimeLimit() public int
      * javax.naming.directory.SearchControls.getTimeLimit()}.
      *
+     * <p>
+     * Test method for {@link javax.naming.directory.SearchControls#getTimeLimit() public int
+     * javax.naming.directory.SearchControls.getTimeLimit()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#getTimeLimit()
+     * @see javax.naming.directory.SearchControls#getTimeLimit() public int
+     *      javax.naming.directory.SearchControls.getTimeLimit() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,27 +301,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.SearchControls#setCountLimit(long) public void
-     * javax.naming.directory.SearchControls.setCountLimit(long)}.
+     * Test method for {@link javax.naming.directory.SearchControls#setDerefLinkFlag(boolean) public void
+     * javax.naming.directory.SearchControls.setDerefLinkFlag(boolean)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.directory.SearchControls#setCountLimit(long)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCountLimit_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.naming.directory.SearchControls#setDerefLinkFlag(boolean) public void
      * javax.naming.directory.SearchControls.setDerefLinkFlag(boolean)}.
@@ -191,7 +313,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#setDerefLinkFlag(boolean)
+     * @see javax.naming.directory.SearchControls#setDerefLinkFlag(boolean) public void
+     *      javax.naming.directory.SearchControls.setDerefLinkFlag(boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,71 +328,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.SearchControls#setReturningAttributes(java.lang.String[]) public
-     * void javax.naming.directory.SearchControls.setReturningAttributes(java.lang.String[])}.
+     * Test method for {@link javax.naming.directory.SearchControls#setTimeLimit(int) public void
+     * javax.naming.directory.SearchControls.setTimeLimit(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.directory.SearchControls#setReturningAttributes(java.lang.String[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReturningAttributes_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.SearchControls#setReturningObjFlag(boolean) public void
-     * javax.naming.directory.SearchControls.setReturningObjFlag(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.directory.SearchControls#setReturningObjFlag(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReturningObjFlag_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.SearchControls#setSearchScope(int) public void
-     * javax.naming.directory.SearchControls.setSearchScope(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.directory.SearchControls#setSearchScope(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSearchScope_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.naming.directory.SearchControls#setTimeLimit(int) public void
      * javax.naming.directory.SearchControls.setTimeLimit(int)}.
@@ -279,7 +340,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.directory.SearchControls#setTimeLimit(int)
+     * @see javax.naming.directory.SearchControls#setTimeLimit(int) public void
+     *      javax.naming.directory.SearchControls.setTimeLimit(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

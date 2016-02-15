@@ -8,26 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.ref.SoftReference class java.lang.ref.SoftReference},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.ref.SoftReferenceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.ref.SoftReference class java.lang.ref.SoftReference}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link SoftReferenceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.ref.SoftReferenceClassTests
+ * @see java.lang.ref.SoftReference class java.lang.ref.SoftReference (the hereby targeted class-under-test class)
+ * @see SoftReferenceClassTests SoftReferenceClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.ref.SoftReference
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SoftReferenceTests<SUT extends java.lang.ref.SoftReference<T>, T>
-extends org.j8unit.repository.java.lang.ref.ReferenceTests<SUT, T> {
+extends ReferenceTests<SUT, T> {
 
     /**
+     * <p>
+     * Test method for {@link java.lang.ref.SoftReference#get() public T java.lang.ref.SoftReference.get()}.
+     *
      * <p>
      * Test method for {@link java.lang.ref.SoftReference#get() public java.lang.Object
      * java.lang.ref.SoftReference.get()}.
@@ -37,12 +39,13 @@ extends org.j8unit.repository.java.lang.ref.ReferenceTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.ref.SoftReference#get()
+     * @see java.lang.ref.SoftReference#get() public java.lang.Object java.lang.ref.SoftReference.get() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_get()
     throws Exception {
         // query fresh subject-under-test

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.KeyPairGeneratorSpi class
- * java.security.KeyPairGeneratorSpi}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.KeyPairGeneratorSpiTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.KeyPairGeneratorSpi class java.security.KeyPairGeneratorSpi}
+ * . The complementary j8unit test interface containing the class relevant aspects is
+ * {@link KeyPairGeneratorSpiClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.KeyPairGeneratorSpiClassTests
+ * @see java.security.KeyPairGeneratorSpi class java.security.KeyPairGeneratorSpi (the hereby targeted class-under-test
+ *      class)
+ * @see KeyPairGeneratorSpiClassTests KeyPairGeneratorSpiClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.KeyPairGeneratorSpi
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,27 +30,12 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.KeyPairGeneratorSpi#generateKeyPair() public abstract java.security.KeyPair
-     * java.security.KeyPairGeneratorSpi.generateKeyPair()}.
+     * Test method for
+     * {@link java.security.KeyPairGeneratorSpi#initialize(java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
+     * public void
+     * java.security.KeyPairGeneratorSpi.initialize(java.security.spec.AlgorithmParameterSpec,java.security.SecureRandom)
+     * throws java.security.InvalidAlgorithmParameterException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.KeyPairGeneratorSpi#generateKeyPair()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateKeyPair()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
      * {@link java.security.KeyPairGeneratorSpi#initialize(java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
@@ -62,8 +48,11 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.KeyPairGeneratorSpi#initialize(java.security.spec.AlgorithmParameterSpec,
-     *             java.security.SecureRandom)
+     * @see java.security.KeyPairGeneratorSpi#initialize(java.security.spec.AlgorithmParameterSpec,
+     *      java.security.SecureRandom) public void
+     *      java.security.KeyPairGeneratorSpi.initialize(java.security.spec.AlgorithmParameterSpec,java.security.
+     *      SecureRandom) throws java.security.InvalidAlgorithmParameterException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,17 +69,50 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.security.KeyPairGeneratorSpi#initialize(int, java.security.SecureRandom) public
      * abstract void java.security.KeyPairGeneratorSpi.initialize(int,java.security.SecureRandom)}.
      *
+     * <p>
+     * Test method for {@link java.security.KeyPairGeneratorSpi#initialize(int, java.security.SecureRandom) public
+     * abstract void java.security.KeyPairGeneratorSpi.initialize(int,java.security.SecureRandom)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.KeyPairGeneratorSpi#initialize(int, java.security.SecureRandom)
+     * @see java.security.KeyPairGeneratorSpi#initialize(int, java.security.SecureRandom) public abstract void
+     *      java.security.KeyPairGeneratorSpi.initialize(int,java.security.SecureRandom) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_initialize_int_SecureRandom()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.KeyPairGeneratorSpi#generateKeyPair() public abstract java.security.KeyPair
+     * java.security.KeyPairGeneratorSpi.generateKeyPair()}.
+     *
+     * <p>
+     * Test method for {@link java.security.KeyPairGeneratorSpi#generateKeyPair() public abstract java.security.KeyPair
+     * java.security.KeyPairGeneratorSpi.generateKeyPair()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.KeyPairGeneratorSpi#generateKeyPair() public abstract java.security.KeyPair
+     *      java.security.KeyPairGeneratorSpi.generateKeyPair() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generateKeyPair()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

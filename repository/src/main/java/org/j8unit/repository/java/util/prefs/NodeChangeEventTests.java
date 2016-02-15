@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.prefs.NodeChangeEvent class java.util.prefs.NodeChangeEvent}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.prefs.NodeChangeEventTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.prefs.NodeChangeEvent class java.util.prefs.NodeChangeEvent}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link NodeChangeEventClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.prefs.NodeChangeEventClassTests
+ * @see java.util.prefs.NodeChangeEvent class java.util.prefs.NodeChangeEvent (the hereby targeted class-under-test
+ *      class)
+ * @see NodeChangeEventClassTests NodeChangeEventClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.prefs.NodeChangeEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,27 +29,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.prefs.NodeChangeEvent#getChild() public java.util.prefs.Preferences
-     * java.util.prefs.NodeChangeEvent.getChild()}.
+     * Test method for {@link java.util.prefs.NodeChangeEvent#getParent() public java.util.prefs.Preferences
+     * java.util.prefs.NodeChangeEvent.getParent()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.prefs.NodeChangeEvent#getChild()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChild()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.util.prefs.NodeChangeEvent#getParent() public java.util.prefs.Preferences
      * java.util.prefs.NodeChangeEvent.getParent()}.
@@ -59,12 +41,40 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.prefs.NodeChangeEvent#getParent()
+     * @see java.util.prefs.NodeChangeEvent#getParent() public java.util.prefs.Preferences
+     *      java.util.prefs.NodeChangeEvent.getParent() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getParent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.prefs.NodeChangeEvent#getChild() public java.util.prefs.Preferences
+     * java.util.prefs.NodeChangeEvent.getChild()}.
+     *
+     * <p>
+     * Test method for {@link java.util.prefs.NodeChangeEvent#getChild() public java.util.prefs.Preferences
+     * java.util.prefs.NodeChangeEvent.getChild()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.prefs.NodeChangeEvent#getChild() public java.util.prefs.Preferences
+     *      java.util.prefs.NodeChangeEvent.getChild() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChild()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

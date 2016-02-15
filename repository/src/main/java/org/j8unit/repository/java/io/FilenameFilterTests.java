@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.io.FilenameFilter interface java.io.FilenameFilter}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.io.FilenameFilterTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.io.FilenameFilter interface java.io.FilenameFilter}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link FilenameFilterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.io.FilenameFilterClassTests
+ * @see java.io.FilenameFilter interface java.io.FilenameFilter (the hereby targeted class-under-test class)
+ * @see FilenameFilterClassTests FilenameFilterClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.io.FilenameFilter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,7 +29,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.FilenameFilter#accept(java.io.File, java.lang.String) public abstract boolean
+     * Test method for {@link java.io.FilenameFilter#accept(java.io.File, String) public abstract boolean
+     * java.io.FilenameFilter.accept(java.io.File,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.io.FilenameFilter#accept(java.io.File, String) public abstract boolean
      * java.io.FilenameFilter.accept(java.io.File,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +41,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.FilenameFilter#accept(java.io.File, java.lang.String)
+     * @see java.io.FilenameFilter#accept(java.io.File, String) public abstract boolean
+     *      java.io.FilenameFilter.accept(java.io.File,java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

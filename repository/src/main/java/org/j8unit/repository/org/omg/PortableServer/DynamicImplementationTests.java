@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.DynamicImplementation class
- * org.omg.PortableServer.DynamicImplementation}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.PortableServer.DynamicImplementationTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableServer.DynamicImplementation class
+ * org.omg.PortableServer.DynamicImplementation}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DynamicImplementationClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableServer.DynamicImplementationClassTests
+ * @see org.omg.PortableServer.DynamicImplementation class org.omg.PortableServer.DynamicImplementation (the hereby
+ *      targeted class-under-test class)
+ * @see DynamicImplementationClassTests DynamicImplementationClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableServer.DynamicImplementation
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynamicImplementationTests<SUT extends org.omg.PortableServer.DynamicImplementation>
-extends org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
+extends ServantTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest) public
+     * abstract void org.omg.PortableServer.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)}.
+     *
      * <p>
      * Test method for {@link org.omg.PortableServer.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest) public
      * abstract void org.omg.PortableServer.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.PortableServer.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest)
+     * @see org.omg.PortableServer.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest) public abstract void
+     *      org.omg.PortableServer.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

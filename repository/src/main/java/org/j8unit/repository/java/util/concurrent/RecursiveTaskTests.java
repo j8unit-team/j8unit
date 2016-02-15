@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.RecursiveTask class
- * java.util.concurrent.RecursiveTask}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.concurrent.RecursiveTaskTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.RecursiveTask class
+ * java.util.concurrent.RecursiveTask}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link RecursiveTaskClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.RecursiveTaskClassTests
+ * @see java.util.concurrent.RecursiveTask class java.util.concurrent.RecursiveTask (the hereby targeted
+ *      class-under-test class)
+ * @see RecursiveTaskClassTests RecursiveTaskClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.RecursiveTask
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RecursiveTaskTests<SUT extends java.util.concurrent.RecursiveTask<V>, V>
-extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, V> {
+extends ForkJoinTaskTests<SUT, V> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.concurrent.RecursiveTask#getRawResult() public final V
+     * java.util.concurrent.RecursiveTask.getRawResult()}.
+     *
      * <p>
      * Test method for {@link java.util.concurrent.RecursiveTask#getRawResult() public final java.lang.Object
      * java.util.concurrent.RecursiveTask.getRawResult()}.
@@ -37,12 +42,13 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, V> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.RecursiveTask#getRawResult()
+     * @see java.util.concurrent.RecursiveTask#getRawResult() public final java.lang.Object
+     *      java.util.concurrent.RecursiveTask.getRawResult() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getRawResult()
     throws Exception {
         // query fresh subject-under-test

@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.Transform interface
- * javax.xml.crypto.dsig.Transform}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.TransformTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.Transform interface javax.xml.crypto.dsig.Transform}
+ * . The complementary j8unit test interface containing the class relevant aspects is {@link TransformClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.dsig.TransformClassTests
+ * @see javax.xml.crypto.dsig.Transform interface javax.xml.crypto.dsig.Transform (the hereby targeted class-under-test
+ *      class)
+ * @see TransformClassTests TransformClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.dsig.Transform
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,17 +32,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8uni
      * Test method for {@link javax.xml.crypto.dsig.Transform#getParameterSpec() public abstract
      * java.security.spec.AlgorithmParameterSpec javax.xml.crypto.dsig.Transform.getParameterSpec()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Transform#getParameterSpec() public abstract
+     * java.security.spec.AlgorithmParameterSpec javax.xml.crypto.dsig.Transform.getParameterSpec()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Transform#getParameterSpec()
+     * @see javax.xml.crypto.dsig.Transform#getParameterSpec() public abstract java.security.spec.AlgorithmParameterSpec
+     *      javax.xml.crypto.dsig.Transform.getParameterSpec() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getParameterSpec()
     throws Exception {
         // query fresh subject-under-test
@@ -58,12 +63,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8uni
      * javax.xml.crypto.dsig.Transform.transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext) throws
      * javax.xml.crypto.dsig.TransformException}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.xml.crypto.dsig.Transform#transform(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext) public
+     * abstract javax.xml.crypto.Data
+     * javax.xml.crypto.dsig.Transform.transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext) throws
+     * javax.xml.crypto.dsig.TransformException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Transform#transform(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext)
+     * @see javax.xml.crypto.dsig.Transform#transform(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext) public
+     *      abstract javax.xml.crypto.Data
+     *      javax.xml.crypto.dsig.Transform.transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext) throws
+     *      javax.xml.crypto.dsig.TransformException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,13 +98,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8uni
      * javax.xml.crypto.dsig.Transform.transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext,java.io.OutputStream)
      * throws javax.xml.crypto.dsig.TransformException}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.xml.crypto.dsig.Transform#transform(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext, java.io.OutputStream)
+     * public abstract javax.xml.crypto.Data
+     * javax.xml.crypto.dsig.Transform.transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext,java.io.OutputStream)
+     * throws javax.xml.crypto.dsig.TransformException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.Transform#transform(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext,
-     *             java.io.OutputStream)
+     * @see javax.xml.crypto.dsig.Transform#transform(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext,
+     *      java.io.OutputStream) public abstract javax.xml.crypto.Data
+     *      javax.xml.crypto.dsig.Transform.transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext,java.io.
+     *      OutputStream) throws javax.xml.crypto.dsig.TransformException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

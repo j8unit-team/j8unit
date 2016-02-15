@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableInterceptor.IORInterceptor_3_0Helper class
- * org.omg.PortableInterceptor.IORInterceptor_3_0Helper}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HelperTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.IORInterceptor_3_0Helper class
+ * org.omg.PortableInterceptor.IORInterceptor_3_0Helper}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link IORInterceptor_3_0HelperClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HelperClassTests
+ * @see org.omg.PortableInterceptor.IORInterceptor_3_0Helper class org.omg.PortableInterceptor.IORInterceptor_3_0Helper
+ *      (the hereby targeted class-under-test class)
+ * @see IORInterceptor_3_0HelperClassTests IORInterceptor_3_0HelperClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableInterceptor.IORInterceptor_3_0Helper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

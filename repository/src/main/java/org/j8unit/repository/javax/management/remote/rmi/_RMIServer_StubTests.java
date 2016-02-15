@@ -8,49 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.remote.rmi._RMIServer_Stub class
- * javax.management.remote.rmi._RMIServer_Stub}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.management.remote.rmi._RMIServer_StubTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.remote.rmi._RMIServer_Stub class
+ * javax.management.remote.rmi._RMIServer_Stub}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link _RMIServer_StubClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.remote.rmi._RMIServer_StubClassTests
+ * @see javax.management.remote.rmi._RMIServer_Stub class javax.management.remote.rmi._RMIServer_Stub (the hereby
+ *      targeted class-under-test class)
+ * @see _RMIServer_StubClassTests _RMIServer_StubClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.remote.rmi._RMIServer_Stub
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIServer_StubTests<SUT extends javax.management.remote.rmi._RMIServer_Stub>
-extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubTests<SUT> {
+extends RMIServerTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
-     * javax.management.remote.rmi._RMIServer_Stub._ids()}.
+     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#getVersion() public java.lang.String
+     * javax.management.remote.rmi._RMIServer_Stub.getVersion() throws java.rmi.RemoteException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.remote.rmi._RMIServer_Stub#_ids()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__ids()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#getVersion() public java.lang.String
      * javax.management.remote.rmi._RMIServer_Stub.getVersion() throws java.rmi.RemoteException}.
@@ -60,12 +42,14 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi._RMIServer_Stub#getVersion()
+     * @see javax.management.remote.rmi._RMIServer_Stub#getVersion() public java.lang.String
+     *      javax.management.remote.rmi._RMIServer_Stub.getVersion() throws java.rmi.RemoteException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getVersion()
     throws Exception {
         // query fresh subject-under-test
@@ -75,7 +59,12 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#newClient(java.lang.Object) public
+     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#newClient(Object) public
+     * javax.management.remote.rmi.RMIConnection javax.management.remote.rmi._RMIServer_Stub.newClient(java.lang.Object)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#newClient(Object) public
      * javax.management.remote.rmi.RMIConnection javax.management.remote.rmi._RMIServer_Stub.newClient(java.lang.Object)
      * throws java.io.IOException}.
      *
@@ -84,13 +73,44 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi._RMIServer_Stub#newClient(java.lang.Object)
+     * @see javax.management.remote.rmi._RMIServer_Stub#newClient(Object) public
+     *      javax.management.remote.rmi.RMIConnection
+     *      javax.management.remote.rmi._RMIServer_Stub.newClient(java.lang.Object) throws java.io.IOException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_newClient_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
+     * javax.management.remote.rmi._RMIServer_Stub._ids()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
+     * javax.management.remote.rmi._RMIServer_Stub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
+     *      javax.management.remote.rmi._RMIServer_Stub._ids() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__ids()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

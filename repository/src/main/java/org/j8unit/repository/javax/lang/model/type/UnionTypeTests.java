@@ -8,26 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.lang.model.type.UnionType interface
- * javax.lang.model.type.UnionType}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.lang.model.type.UnionTypeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.lang.model.type.UnionType interface javax.lang.model.type.UnionType}
+ * . The complementary j8unit test interface containing the class relevant aspects is {@link UnionTypeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.lang.model.type.UnionTypeClassTests
+ * @see javax.lang.model.type.UnionType interface javax.lang.model.type.UnionType (the hereby targeted class-under-test
+ *      class)
+ * @see UnionTypeClassTests UnionTypeClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.lang.model.type.UnionType
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnionTypeTests<SUT extends javax.lang.model.type.UnionType>
-extends org.j8unit.repository.javax.lang.model.type.TypeMirrorTests<SUT> {
+extends TypeMirrorTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.lang.model.type.UnionType#getAlternatives() public abstract java.util.List<? extends
+     * javax.lang.model.type.TypeMirror> javax.lang.model.type.UnionType.getAlternatives()}.
+     *
      * <p>
      * Test method for {@link javax.lang.model.type.UnionType#getAlternatives() public abstract java.util.List
      * javax.lang.model.type.UnionType.getAlternatives()}.
@@ -37,7 +41,8 @@ extends org.j8unit.repository.javax.lang.model.type.TypeMirrorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.type.UnionType#getAlternatives()
+     * @see javax.lang.model.type.UnionType#getAlternatives() public abstract java.util.List
+     *      javax.lang.model.type.UnionType.getAlternatives() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

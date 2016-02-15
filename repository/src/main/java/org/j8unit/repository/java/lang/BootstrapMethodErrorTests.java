@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.BootstrapMethodError class java.lang.BootstrapMethodError},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.BootstrapMethodErrorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain BootstrapMethodError class java.lang.BootstrapMethodError}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link BootstrapMethodErrorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.BootstrapMethodErrorClassTests
+ * @see BootstrapMethodError class java.lang.BootstrapMethodError (the hereby targeted class-under-test class)
+ * @see BootstrapMethodErrorClassTests BootstrapMethodErrorClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.BootstrapMethodError
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BootstrapMethodErrorTests<SUT extends java.lang.BootstrapMethodError>
-extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
+public abstract interface BootstrapMethodErrorTests<SUT extends BootstrapMethodError>
+extends LinkageErrorTests<SUT> {
 
 }

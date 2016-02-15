@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.FunctionalInterface interface java.lang.FunctionalInterface}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.FunctionalInterfaceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain FunctionalInterface interface java.lang.FunctionalInterface}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link FunctionalInterfaceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.FunctionalInterfaceClassTests
+ * @see FunctionalInterface interface java.lang.FunctionalInterface (the hereby targeted class-under-test class)
+ * @see FunctionalInterfaceClassTests FunctionalInterfaceClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.FunctionalInterface
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FunctionalInterfaceTests<SUT extends java.lang.FunctionalInterface>
+public abstract interface FunctionalInterfaceTests<SUT extends FunctionalInterface>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
 }

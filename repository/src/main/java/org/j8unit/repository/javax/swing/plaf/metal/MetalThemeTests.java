@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.metal.MetalTheme class
- * javax.swing.plaf.metal.MetalTheme}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.MetalTheme class javax.swing.plaf.metal.MetalTheme}
+ * . The complementary j8unit test interface containing the class relevant aspects is {@link MetalThemeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.metal.MetalThemeClassTests
+ * @see javax.swing.plaf.metal.MetalTheme class javax.swing.plaf.metal.MetalTheme (the hereby targeted class-under-test
+ *      class)
+ * @see MetalThemeClassTests MetalThemeClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.metal.MetalTheme
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,467 +29,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public
-     * void javax.swing.plaf.metal.MetalTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getMenuTextFont()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#addCustomEntriesToTable(javax.swing.UIDefaults)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addCustomEntriesToTable_UIDefaults()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorForeground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getAcceleratorForeground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAcceleratorForeground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorSelectedForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorSelectedForeground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getAcceleratorSelectedForeground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAcceleratorSelectedForeground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControl() public javax.swing.plaf.ColorUIResource
-     * javax.swing.plaf.metal.MetalTheme.getControl()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControl()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControl()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlDarkShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDarkShadow()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlDarkShadow()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlDarkShadow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlDisabled() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDisabled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlDisabled()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlDisabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlHighlight() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlHighlight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlHighlight()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlHighlight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlInfo() public javax.swing.plaf.ColorUIResource
-     * javax.swing.plaf.metal.MetalTheme.getControlInfo()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlInfo()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlShadow()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlShadow()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlShadow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlTextColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlTextColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlTextColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getControlTextFont()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getControlTextFont()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlTextFont()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getDesktopColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getDesktopColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getDesktopColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDesktopColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getFocusColor() public javax.swing.plaf.ColorUIResource
-     * javax.swing.plaf.metal.MetalTheme.getFocusColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getFocusColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFocusColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getHighlightedTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getHighlightedTextColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getHighlightedTextColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHighlightedTextColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getInactiveControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveControlTextColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getInactiveControlTextColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInactiveControlTextColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getInactiveSystemTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveSystemTextColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getInactiveSystemTextColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInactiveSystemTextColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuBackground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getMenuBackground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuBackground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuDisabledForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuDisabledForeground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getMenuDisabledForeground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuDisabledForeground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuForeground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getMenuForeground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuForeground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedBackground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getMenuSelectedBackground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuSelectedBackground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedForeground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getMenuSelectedForeground()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuSelectedForeground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuTextFont() public abstract
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getMenuTextFont()}.
@@ -499,7 +41,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getMenuTextFont()
+     * @see javax.swing.plaf.metal.MetalTheme#getMenuTextFont() public abstract javax.swing.plaf.FontUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getMenuTextFont() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -513,20 +56,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getName() public abstract java.lang.String
-     * javax.swing.plaf.metal.MetalTheme.getName()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorSelectedForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorSelectedForeground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorSelectedForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorSelectedForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getName()
+     * @see javax.swing.plaf.metal.MetalTheme#getAcceleratorSelectedForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getAcceleratorSelectedForeground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getAcceleratorSelectedForeground()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -535,20 +83,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControl() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControl()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleFont()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getPrimaryControl()
+     * @see javax.swing.plaf.metal.MetalTheme#getWindowTitleFont() public abstract javax.swing.plaf.FontUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getWindowTitleFont() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryControl()
+    public default void test_getWindowTitleFont()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -557,20 +110,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlDarkShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlDarkShadow()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getUserTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getUserTextColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getUserTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getUserTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getPrimaryControlDarkShadow()
+     * @see javax.swing.plaf.metal.MetalTheme#getUserTextColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getUserTextColor() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryControlDarkShadow()
+    public default void test_getUserTextColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -579,20 +137,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlHighlight() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlHighlight()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSystemTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSystemTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getPrimaryControlHighlight()
+     * @see javax.swing.plaf.metal.MetalTheme#getSystemTextColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getSystemTextColor() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryControlHighlight()
+    public default void test_getSystemTextColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -601,20 +164,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlInfo() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlInfo()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getFocusColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getFocusColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getFocusColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getFocusColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getPrimaryControlInfo()
+     * @see javax.swing.plaf.metal.MetalTheme#getFocusColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getFocusColor() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryControlInfo()
+    public default void test_getFocusColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -623,20 +191,79 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlShadow()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlDarkShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDarkShadow()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlDarkShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDarkShadow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getPrimaryControlShadow()
+     * @see javax.swing.plaf.metal.MetalTheme#getControlDarkShadow() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlDarkShadow() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryControlShadow()
+    public default void test_getControlDarkShadow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getInactiveSystemTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveSystemTextColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getInactiveSystemTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveSystemTextColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getInactiveSystemTextColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getInactiveSystemTextColor() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInactiveSystemTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedBackground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedBackground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getMenuSelectedBackground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getMenuSelectedBackground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuSelectedBackground()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -648,12 +275,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSeparatorBackground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSeparatorBackground()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSeparatorBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSeparatorBackground()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getSeparatorBackground()
+     * @see javax.swing.plaf.metal.MetalTheme#getSeparatorBackground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getSeparatorBackground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -670,12 +302,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSeparatorForeground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSeparatorForeground()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSeparatorForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSeparatorForeground()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getSeparatorForeground()
+     * @see javax.swing.plaf.metal.MetalTheme#getSeparatorForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getSeparatorForeground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -689,20 +326,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSubTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSubTextFont()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlHighlight() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlHighlight()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlHighlight() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlHighlight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getSubTextFont()
+     * @see javax.swing.plaf.metal.MetalTheme#getControlHighlight() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlHighlight() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSubTextFont()
+    public default void test_getControlHighlight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -711,20 +353,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSystemTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextColor()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedForeground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getSystemTextColor()
+     * @see javax.swing.plaf.metal.MetalTheme#getMenuSelectedForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getMenuSelectedForeground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSystemTextColor()
+    public default void test_getMenuSelectedForeground()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -733,20 +380,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSystemTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextFont()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlShadow()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlShadow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getSystemTextFont()
+     * @see javax.swing.plaf.metal.MetalTheme#getPrimaryControlShadow() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getPrimaryControlShadow() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSystemTextFont()
+    public default void test_getPrimaryControlShadow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -755,20 +407,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getTextHighlightColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getTextHighlightColor()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControl() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControl()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControl() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getTextHighlightColor()
+     * @see javax.swing.plaf.metal.MetalTheme#getControl() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControl() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTextHighlightColor()
+    public default void test_getControl()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -777,20 +434,106 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getUserTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getUserTextColor()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getControlTextFont()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getControlTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getUserTextColor()
+     * @see javax.swing.plaf.metal.MetalTheme#getControlTextFont() public abstract javax.swing.plaf.FontUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlTextFont() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUserTextColor()
+    public default void test_getControlTextFont()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlInfo() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlInfo()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlInfo() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getControlInfo() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlInfo() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getControlInfo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorForeground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getAcceleratorForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getAcceleratorForeground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAcceleratorForeground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlInfo() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlInfo()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlInfo() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getPrimaryControlInfo() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getPrimaryControlInfo() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryControlInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -802,12 +545,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getUserTextFont() public abstract
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getUserTextFont()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getUserTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getUserTextFont()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getUserTextFont()
+     * @see javax.swing.plaf.metal.MetalTheme#getUserTextFont() public abstract javax.swing.plaf.FontUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getUserTextFont() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -821,6 +569,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public
+     * void javax.swing.plaf.metal.MetalTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public
+     * void javax.swing.plaf.metal.MetalTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public void
+     *      javax.swing.plaf.metal.MetalTheme.addCustomEntriesToTable(javax.swing.UIDefaults) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addCustomEntriesToTable_UIDefaults()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowBackground()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowBackground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowBackground()}.
      *
@@ -829,7 +609,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getWindowBackground()
+     * @see javax.swing.plaf.metal.MetalTheme#getWindowBackground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getWindowBackground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -843,20 +624,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleBackground()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSystemTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextFont()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSystemTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getWindowTitleBackground()
+     * @see javax.swing.plaf.metal.MetalTheme#getSystemTextFont() public abstract javax.swing.plaf.FontUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getSystemTextFont() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWindowTitleBackground()
+    public default void test_getSystemTextFont()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -865,20 +651,214 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleFont()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getDesktopColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getDesktopColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getDesktopColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getDesktopColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getWindowTitleFont()
+     * @see javax.swing.plaf.metal.MetalTheme#getDesktopColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getDesktopColor() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWindowTitleFont()
+    public default void test_getDesktopColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuForeground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getMenuForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getMenuForeground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuForeground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControl() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControl()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControl() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControl()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getPrimaryControl() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getPrimaryControl() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryControl()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSubTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSubTextFont()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getSubTextFont() public abstract
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSubTextFont()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getSubTextFont() public abstract javax.swing.plaf.FontUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getSubTextFont() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSubTextFont()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlTextColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlTextColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getControlTextColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlTextColor() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getControlTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuBackground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuBackground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getMenuBackground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getMenuBackground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuBackground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuDisabledForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuDisabledForeground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getMenuDisabledForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuDisabledForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getMenuDisabledForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getMenuDisabledForeground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuDisabledForeground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getTextHighlightColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getTextHighlightColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getTextHighlightColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getTextHighlightColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getTextHighlightColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getTextHighlightColor() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTextHighlightColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -890,12 +870,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleForeground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleForeground()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleForeground()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getWindowTitleForeground()
+     * @see javax.swing.plaf.metal.MetalTheme#getWindowTitleForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getWindowTitleForeground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -909,6 +894,91 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveForeground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveForeground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveForeground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWindowTitleInactiveForeground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleBackground()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleBackground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getWindowTitleBackground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getWindowTitleBackground() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWindowTitleBackground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlDarkShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlDarkShadow()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlDarkShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlDarkShadow()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getPrimaryControlDarkShadow() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getPrimaryControlDarkShadow() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryControlDarkShadow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveBackground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveBackground()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveBackground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveBackground()}.
      *
@@ -917,7 +987,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveBackground()
+     * @see javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveBackground() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveBackground() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -931,20 +1002,160 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveForeground()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlDisabled() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDisabled()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlDisabled() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDisabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveForeground()
+     * @see javax.swing.plaf.metal.MetalTheme#getControlDisabled() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlDisabled() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWindowTitleInactiveForeground()
+    public default void test_getControlDisabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getName() public abstract java.lang.String
+     * javax.swing.plaf.metal.MetalTheme.getName()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getName() public abstract java.lang.String
+     * javax.swing.plaf.metal.MetalTheme.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getName() public abstract java.lang.String
+     *      javax.swing.plaf.metal.MetalTheme.getName() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlShadow()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getControlShadow() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlShadow()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getControlShadow() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getControlShadow() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getControlShadow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getHighlightedTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getHighlightedTextColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getHighlightedTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getHighlightedTextColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getHighlightedTextColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getHighlightedTextColor() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHighlightedTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getInactiveControlTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveControlTextColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getInactiveControlTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveControlTextColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getInactiveControlTextColor() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getInactiveControlTextColor() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInactiveControlTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlHighlight() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlHighlight()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlHighlight() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlHighlight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.metal.MetalTheme#getPrimaryControlHighlight() public javax.swing.plaf.ColorUIResource
+     *      javax.swing.plaf.metal.MetalTheme.getPrimaryControlHighlight() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryControlHighlight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

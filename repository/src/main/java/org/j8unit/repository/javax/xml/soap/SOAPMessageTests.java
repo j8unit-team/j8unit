@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.soap.SOAPMessage class javax.xml.soap.SOAPMessage},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.soap.SOAPMessageTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.soap.SOAPMessage class javax.xml.soap.SOAPMessage}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link SOAPMessageClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.soap.SOAPMessageClassTests
+ * @see javax.xml.soap.SOAPMessage class javax.xml.soap.SOAPMessage (the hereby targeted class-under-test class)
+ * @see SOAPMessageClassTests SOAPMessageClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.soap.SOAPMessage
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +27,38 @@ public abstract interface SOAPMessageTests<SUT extends javax.xml.soap.SOAPMessag
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPBody() public javax.xml.soap.SOAPBody
+     * javax.xml.soap.SOAPMessage.getSOAPBody() throws javax.xml.soap.SOAPException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPBody() public javax.xml.soap.SOAPBody
+     * javax.xml.soap.SOAPMessage.getSOAPBody() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.soap.SOAPMessage#getSOAPBody() public javax.xml.soap.SOAPBody
+     *      javax.xml.soap.SOAPMessage.getSOAPBody() throws javax.xml.soap.SOAPException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSOAPBody()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#addAttachmentPart(javax.xml.soap.AttachmentPart) public
+     * abstract void javax.xml.soap.SOAPMessage.addAttachmentPart(javax.xml.soap.AttachmentPart)}.
+     *
      * <p>
      * Test method for {@link javax.xml.soap.SOAPMessage#addAttachmentPart(javax.xml.soap.AttachmentPart) public
      * abstract void javax.xml.soap.SOAPMessage.addAttachmentPart(javax.xml.soap.AttachmentPart)}.
@@ -37,7 +68,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#addAttachmentPart(javax.xml.soap.AttachmentPart)
+     * @see javax.xml.soap.SOAPMessage#addAttachmentPart(javax.xml.soap.AttachmentPart) public abstract void
+     *      javax.xml.soap.SOAPMessage.addAttachmentPart(javax.xml.soap.AttachmentPart) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,20 +84,53 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#countAttachments() public abstract int
-     * javax.xml.soap.SOAPMessage.countAttachments()}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPHeader() public javax.xml.soap.SOAPHeader
+     * javax.xml.soap.SOAPMessage.getSOAPHeader() throws javax.xml.soap.SOAPException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPHeader() public javax.xml.soap.SOAPHeader
+     * javax.xml.soap.SOAPMessage.getSOAPHeader() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#countAttachments()
+     * @see javax.xml.soap.SOAPMessage#getSOAPHeader() public javax.xml.soap.SOAPHeader
+     *      javax.xml.soap.SOAPMessage.getSOAPHeader() throws javax.xml.soap.SOAPException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_countAttachments()
+    public default void test_getSOAPHeader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#setContentDescription(String) public abstract void
+     * javax.xml.soap.SOAPMessage.setContentDescription(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#setContentDescription(String) public abstract void
+     * javax.xml.soap.SOAPMessage.setContentDescription(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.soap.SOAPMessage#setContentDescription(String) public abstract void
+     *      javax.xml.soap.SOAPMessage.setContentDescription(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setContentDescription_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,12 +142,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart() public abstract
      * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart() public abstract
+     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#createAttachmentPart()
+     * @see javax.xml.soap.SOAPMessage#createAttachmentPart() public abstract javax.xml.soap.AttachmentPart
+     *      javax.xml.soap.SOAPMessage.createAttachmentPart() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,29 +166,12 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart(javax.activation.DataHandler) public
-     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart(javax.activation.DataHandler)}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart(Object, String) public
+     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart(java.lang.Object,java.lang.String)}
+     * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#createAttachmentPart(javax.activation.DataHandler)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createAttachmentPart_DataHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart(java.lang.Object, java.lang.String) public
+     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart(Object, String) public
      * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart(java.lang.Object,java.lang.String)}
      * .
      *
@@ -126,7 +180,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#createAttachmentPart(java.lang.Object, java.lang.String)
+     * @see javax.xml.soap.SOAPMessage#createAttachmentPart(Object, String) public javax.xml.soap.AttachmentPart
+     *      javax.xml.soap.SOAPMessage.createAttachmentPart(java.lang.Object,java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,21 +196,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#getAttachment(javax.xml.soap.SOAPElement) public abstract
-     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.getAttachment(javax.xml.soap.SOAPElement) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart(javax.activation.DataHandler) public
+     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart(javax.activation.DataHandler)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#createAttachmentPart(javax.activation.DataHandler) public
+     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart(javax.activation.DataHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getAttachment(javax.xml.soap.SOAPElement)
+     * @see javax.xml.soap.SOAPMessage#createAttachmentPart(javax.activation.DataHandler) public
+     *      javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.createAttachmentPart(javax.activation.DataHandler)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttachment_SOAPElement()
+    public default void test_createAttachmentPart_DataHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#setProperty(String, Object) public void
+     * javax.xml.soap.SOAPMessage.setProperty(java.lang.String,java.lang.Object) throws javax.xml.soap.SOAPException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#setProperty(String, Object) public void
+     * javax.xml.soap.SOAPMessage.setProperty(java.lang.String,java.lang.Object) throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.soap.SOAPMessage#setProperty(String, Object) public void
+     *      javax.xml.soap.SOAPMessage.setProperty(java.lang.String,java.lang.Object) throws
+     *      javax.xml.soap.SOAPException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperty_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,12 +255,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.soap.SOAPMessage#getAttachments() public abstract java.util.Iterator
      * javax.xml.soap.SOAPMessage.getAttachments()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getAttachments() public abstract java.util.Iterator
+     * javax.xml.soap.SOAPMessage.getAttachments()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getAttachments()
+     * @see javax.xml.soap.SOAPMessage#getAttachments() public abstract java.util.Iterator
+     *      javax.xml.soap.SOAPMessage.getAttachments() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,12 +282,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.soap.SOAPMessage#getAttachments(javax.xml.soap.MimeHeaders) public abstract
      * java.util.Iterator javax.xml.soap.SOAPMessage.getAttachments(javax.xml.soap.MimeHeaders)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getAttachments(javax.xml.soap.MimeHeaders) public abstract
+     * java.util.Iterator javax.xml.soap.SOAPMessage.getAttachments(javax.xml.soap.MimeHeaders)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getAttachments(javax.xml.soap.MimeHeaders)
+     * @see javax.xml.soap.SOAPMessage#getAttachments(javax.xml.soap.MimeHeaders) public abstract java.util.Iterator
+     *      javax.xml.soap.SOAPMessage.getAttachments(javax.xml.soap.MimeHeaders) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,20 +307,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#getContentDescription() public abstract java.lang.String
-     * javax.xml.soap.SOAPMessage.getContentDescription()}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#saveChanges() public abstract void
+     * javax.xml.soap.SOAPMessage.saveChanges() throws javax.xml.soap.SOAPException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#saveChanges() public abstract void
+     * javax.xml.soap.SOAPMessage.saveChanges() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getContentDescription()
+     * @see javax.xml.soap.SOAPMessage#saveChanges() public abstract void javax.xml.soap.SOAPMessage.saveChanges()
+     *      throws javax.xml.soap.SOAPException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getContentDescription()
+    public default void test_saveChanges()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,86 +334,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#getMimeHeaders() public abstract javax.xml.soap.MimeHeaders
-     * javax.xml.soap.SOAPMessage.getMimeHeaders()}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#writeTo(java.io.OutputStream) public abstract void
+     * javax.xml.soap.SOAPMessage.writeTo(java.io.OutputStream) throws javax.xml.soap.SOAPException,java.io.IOException}
+     * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getMimeHeaders()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMimeHeaders()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#getProperty(java.lang.String) public java.lang.Object
-     * javax.xml.soap.SOAPMessage.getProperty(java.lang.String) throws javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#writeTo(java.io.OutputStream) public abstract void
+     * javax.xml.soap.SOAPMessage.writeTo(java.io.OutputStream) throws javax.xml.soap.SOAPException,java.io.IOException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getProperty(java.lang.String)
+     * @see javax.xml.soap.SOAPMessage#writeTo(java.io.OutputStream) public abstract void
+     *      javax.xml.soap.SOAPMessage.writeTo(java.io.OutputStream) throws
+     *      javax.xml.soap.SOAPException,java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProperty_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPBody() public javax.xml.soap.SOAPBody
-     * javax.xml.soap.SOAPMessage.getSOAPBody() throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getSOAPBody()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSOAPBody()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPHeader() public javax.xml.soap.SOAPHeader
-     * javax.xml.soap.SOAPMessage.getSOAPHeader() throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getSOAPHeader()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSOAPHeader()
+    public default void test_writeTo_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -320,12 +367,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPPart() public abstract javax.xml.soap.SOAPPart
      * javax.xml.soap.SOAPMessage.getSOAPPart()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getSOAPPart() public abstract javax.xml.soap.SOAPPart
+     * javax.xml.soap.SOAPMessage.getSOAPPart()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#getSOAPPart()
+     * @see javax.xml.soap.SOAPMessage#getSOAPPart() public abstract javax.xml.soap.SOAPPart
+     *      javax.xml.soap.SOAPMessage.getSOAPPart() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -342,12 +394,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.soap.SOAPMessage#removeAllAttachments() public abstract void
      * javax.xml.soap.SOAPMessage.removeAllAttachments()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#removeAllAttachments() public abstract void
+     * javax.xml.soap.SOAPMessage.removeAllAttachments()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#removeAllAttachments()
+     * @see javax.xml.soap.SOAPMessage#removeAllAttachments() public abstract void
+     *      javax.xml.soap.SOAPMessage.removeAllAttachments() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,6 +418,64 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#countAttachments() public abstract int
+     * javax.xml.soap.SOAPMessage.countAttachments()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#countAttachments() public abstract int
+     * javax.xml.soap.SOAPMessage.countAttachments()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.soap.SOAPMessage#countAttachments() public abstract int
+     *      javax.xml.soap.SOAPMessage.countAttachments() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countAttachments()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getMimeHeaders() public abstract javax.xml.soap.MimeHeaders
+     * javax.xml.soap.SOAPMessage.getMimeHeaders()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getMimeHeaders() public abstract javax.xml.soap.MimeHeaders
+     * javax.xml.soap.SOAPMessage.getMimeHeaders()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.soap.SOAPMessage#getMimeHeaders() public abstract javax.xml.soap.MimeHeaders
+     *      javax.xml.soap.SOAPMessage.getMimeHeaders() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMimeHeaders()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#removeAttachments(javax.xml.soap.MimeHeaders) public abstract
+     * void javax.xml.soap.SOAPMessage.removeAttachments(javax.xml.soap.MimeHeaders)}.
+     *
+     * <p>
      * Test method for {@link javax.xml.soap.SOAPMessage#removeAttachments(javax.xml.soap.MimeHeaders) public abstract
      * void javax.xml.soap.SOAPMessage.removeAttachments(javax.xml.soap.MimeHeaders)}.
      *
@@ -369,7 +484,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#removeAttachments(javax.xml.soap.MimeHeaders)
+     * @see javax.xml.soap.SOAPMessage#removeAttachments(javax.xml.soap.MimeHeaders) public abstract void
+     *      javax.xml.soap.SOAPMessage.removeAttachments(javax.xml.soap.MimeHeaders) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -383,20 +500,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#saveChanges() public abstract void
-     * javax.xml.soap.SOAPMessage.saveChanges() throws javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#getContentDescription() public abstract java.lang.String
+     * javax.xml.soap.SOAPMessage.getContentDescription()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getContentDescription() public abstract java.lang.String
+     * javax.xml.soap.SOAPMessage.getContentDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#saveChanges()
+     * @see javax.xml.soap.SOAPMessage#getContentDescription() public abstract java.lang.String
+     *      javax.xml.soap.SOAPMessage.getContentDescription() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_saveChanges()
+    public default void test_getContentDescription()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -408,12 +530,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.xml.soap.SOAPMessage#saveRequired() public abstract boolean
      * javax.xml.soap.SOAPMessage.saveRequired()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#saveRequired() public abstract boolean
+     * javax.xml.soap.SOAPMessage.saveRequired()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#saveRequired()
+     * @see javax.xml.soap.SOAPMessage#saveRequired() public abstract boolean javax.xml.soap.SOAPMessage.saveRequired()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -427,20 +554,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#setContentDescription(java.lang.String) public abstract void
-     * javax.xml.soap.SOAPMessage.setContentDescription(java.lang.String)}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#getAttachment(javax.xml.soap.SOAPElement) public abstract
+     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.getAttachment(javax.xml.soap.SOAPElement) throws
+     * javax.xml.soap.SOAPException}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPMessage#getAttachment(javax.xml.soap.SOAPElement) public abstract
+     * javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.getAttachment(javax.xml.soap.SOAPElement) throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#setContentDescription(java.lang.String)
+     * @see javax.xml.soap.SOAPMessage#getAttachment(javax.xml.soap.SOAPElement) public abstract
+     *      javax.xml.soap.AttachmentPart javax.xml.soap.SOAPMessage.getAttachment(javax.xml.soap.SOAPElement) throws
+     *      javax.xml.soap.SOAPException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setContentDescription_String()
+    public default void test_getAttachment_SOAPElement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -449,43 +584,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#setProperty(java.lang.String, java.lang.Object) public void
-     * javax.xml.soap.SOAPMessage.setProperty(java.lang.String,java.lang.Object) throws javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPMessage#getProperty(String) public java.lang.Object
+     * javax.xml.soap.SOAPMessage.getProperty(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#setProperty(java.lang.String, java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setProperty_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPMessage#writeTo(java.io.OutputStream) public abstract void
-     * javax.xml.soap.SOAPMessage.writeTo(java.io.OutputStream) throws javax.xml.soap.SOAPException,java.io.IOException}
-     * .
+     * Test method for {@link javax.xml.soap.SOAPMessage#getProperty(String) public java.lang.Object
+     * javax.xml.soap.SOAPMessage.getProperty(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.SOAPMessage#writeTo(java.io.OutputStream)
+     * @see javax.xml.soap.SOAPMessage#getProperty(String) public java.lang.Object
+     *      javax.xml.soap.SOAPMessage.getProperty(java.lang.String) throws javax.xml.soap.SOAPException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeTo_OutputStream()
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

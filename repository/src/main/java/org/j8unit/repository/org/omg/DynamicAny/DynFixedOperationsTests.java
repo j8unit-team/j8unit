@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.DynamicAny.DynFixedOperations interface
- * org.omg.DynamicAny.DynFixedOperations}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynFixedOperationsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynFixedOperations interface
+ * org.omg.DynamicAny.DynFixedOperations}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DynFixedOperationsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.DynamicAny.DynFixedOperationsClassTests
+ * @see org.omg.DynamicAny.DynFixedOperations interface org.omg.DynamicAny.DynFixedOperations (the hereby targeted
+ *      class-under-test class)
+ * @see DynFixedOperationsClassTests DynFixedOperationsClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.DynamicAny.DynFixedOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynFixedOperationsTests<SUT extends org.omg.DynamicAny.DynFixedOperations>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
+extends DynAnyOperationsTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynFixedOperations#get_value() public abstract java.lang.String
+     * org.omg.DynamicAny.DynFixedOperations.get_value()}.
+     *
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynFixedOperations#get_value() public abstract java.lang.String
      * org.omg.DynamicAny.DynFixedOperations.get_value()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.DynamicAny.DynFixedOperations#get_value()
+     * @see org.omg.DynamicAny.DynFixedOperations#get_value() public abstract java.lang.String
+     *      org.omg.DynamicAny.DynFixedOperations.get_value() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,7 +57,12 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynFixedOperations#set_value(java.lang.String) public abstract boolean
+     * Test method for {@link org.omg.DynamicAny.DynFixedOperations#set_value(String) public abstract boolean
+     * org.omg.DynamicAny.DynFixedOperations.set_value(java.lang.String) throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynFixedOperations#set_value(String) public abstract boolean
      * org.omg.DynamicAny.DynFixedOperations.set_value(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -60,7 +71,10 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.DynamicAny.DynFixedOperations#set_value(java.lang.String)
+     * @see org.omg.DynamicAny.DynFixedOperations#set_value(String) public abstract boolean
+     *      org.omg.DynamicAny.DynFixedOperations.set_value(java.lang.String) throws
+     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.text.Format class java.text.Format}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.text.FormatTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.text.Format class java.text.Format}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link FormatClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.text.FormatClassTests
+ * @see java.text.Format class java.text.Format (the hereby targeted class-under-test class)
+ * @see FormatClassTests FormatClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.text.Format
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,96 +29,11 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain java.text.Format.Field class java.text.Format$Field}, containing
-     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart
-     * J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.java.text.FormatTests.FieldTests}.
-     * </p>
+     * Test method for {@link java.text.Format#formatToCharacterIterator(Object) public
+     * java.text.AttributedCharacterIterator java.text.Format.formatToCharacterIterator(java.lang.Object)}.
      *
-     * @see org.j8unit.repository.java.text.FormatClassTests.FieldClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim java.text.Format.Field
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FieldTests<SUT extends java.text.Format.Field>
-    extends org.j8unit.repository.java.text.AttributedCharacterIteratorTests.AttributeTests<SUT> {
-
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.text.Format#clone() public java.lang.Object java.text.Format.clone()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.text.Format#clone()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.Format#format(java.lang.Object) public final java.lang.String
-     * java.text.Format.format(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.text.Format#format(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.Format#format(java.lang.Object, java.lang.StringBuffer, java.text.FieldPosition)
-     * public abstract java.lang.StringBuffer
-     * java.text.Format.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.text.Format#format(java.lang.Object, java.lang.StringBuffer, java.text.FieldPosition)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_Object_StringBuffer_FieldPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.Format#formatToCharacterIterator(java.lang.Object) public
+     * Test method for {@link java.text.Format#formatToCharacterIterator(Object) public
      * java.text.AttributedCharacterIterator java.text.Format.formatToCharacterIterator(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +41,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.text.Format#formatToCharacterIterator(java.lang.Object)
+     * @see java.text.Format#formatToCharacterIterator(Object) public java.text.AttributedCharacterIterator
+     *      java.text.Format.formatToCharacterIterator(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,7 +56,92 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.Format#parseObject(java.lang.String) public java.lang.Object
+     * Test method for {@link java.text.Format#clone() public java.lang.Object java.text.Format.clone()}.
+     *
+     * <p>
+     * Test method for {@link java.text.Format#clone() public java.lang.Object java.text.Format.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.text.Format#clone() public java.lang.Object java.text.Format.clone() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.Format#format(Object, StringBuffer, java.text.FieldPosition) public abstract
+     * java.lang.StringBuffer java.text.Format.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
+     *
+     * <p>
+     * Test method for {@link java.text.Format#format(Object, StringBuffer, java.text.FieldPosition) public abstract
+     * java.lang.StringBuffer java.text.Format.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.text.Format#format(Object, StringBuffer, java.text.FieldPosition) public abstract
+     *      java.lang.StringBuffer
+     *      java.text.Format.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_format_Object_StringBuffer_FieldPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.Format#format(Object) public final java.lang.String
+     * java.text.Format.format(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.text.Format#format(Object) public final java.lang.String
+     * java.text.Format.format(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.text.Format#format(Object) public final java.lang.String java.text.Format.format(java.lang.Object) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_format_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.Format#parseObject(String) public java.lang.Object
+     * java.text.Format.parseObject(java.lang.String) throws java.text.ParseException}.
+     *
+     * <p>
+     * Test method for {@link java.text.Format#parseObject(String) public java.lang.Object
      * java.text.Format.parseObject(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +149,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.text.Format#parseObject(java.lang.String)
+     * @see java.text.Format#parseObject(String) public java.lang.Object java.text.Format.parseObject(java.lang.String)
+     *      throws java.text.ParseException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,7 +164,11 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.Format#parseObject(java.lang.String, java.text.ParsePosition) public abstract
+     * Test method for {@link java.text.Format#parseObject(String, java.text.ParsePosition) public abstract
+     * java.lang.Object java.text.Format.parseObject(java.lang.String,java.text.ParsePosition)}.
+     *
+     * <p>
+     * Test method for {@link java.text.Format#parseObject(String, java.text.ParsePosition) public abstract
      * java.lang.Object java.text.Format.parseObject(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +176,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.text.Format#parseObject(java.lang.String, java.text.ParsePosition)
+     * @see java.text.Format#parseObject(String, java.text.ParsePosition) public abstract java.lang.Object
+     *      java.text.Format.parseObject(java.lang.String,java.text.ParsePosition) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,6 +188,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain java.text.Format.Field class java.text.Format$Field}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link FormatClassTests.FieldClassTests}.
+     * </p>
+     *
+     * @see java.text.Format.Field class java.text.Format$Field (the hereby targeted class-under-test class)
+     * @see FormatClassTests.FieldClassTests FormatClassTests.FieldClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FieldTests<SUT extends java.text.Format.Field>
+    extends AttributedCharacterIteratorTests.AttributeTests<SUT> {
+
     }
 
 }

@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.events.DocumentEvent interface
- * org.w3c.dom.events.DocumentEvent}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.w3c.dom.events.DocumentEventTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.events.DocumentEvent interface
+ * org.w3c.dom.events.DocumentEvent}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link DocumentEventClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.events.DocumentEventClassTests
+ * @see org.w3c.dom.events.DocumentEvent interface org.w3c.dom.events.DocumentEvent (the hereby targeted
+ *      class-under-test class)
+ * @see DocumentEventClassTests DocumentEventClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.events.DocumentEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,7 +31,12 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.events.DocumentEvent#createEvent(java.lang.String) public abstract
+     * Test method for {@link org.w3c.dom.events.DocumentEvent#createEvent(String) public abstract
+     * org.w3c.dom.events.Event org.w3c.dom.events.DocumentEvent.createEvent(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     *
+     * <p>
+     * Test method for {@link org.w3c.dom.events.DocumentEvent#createEvent(String) public abstract
      * org.w3c.dom.events.Event org.w3c.dom.events.DocumentEvent.createEvent(java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
@@ -39,7 +45,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.events.DocumentEvent#createEvent(java.lang.String)
+     * @see org.w3c.dom.events.DocumentEvent#createEvent(String) public abstract org.w3c.dom.events.Event
+     *      org.w3c.dom.events.DocumentEvent.createEvent(java.lang.String) throws org.w3c.dom.DOMException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

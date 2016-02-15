@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.ListCellRenderer interface javax.swing.ListCellRenderer},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.ListCellRendererTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.ListCellRenderer interface javax.swing.ListCellRenderer}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ListCellRendererClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.ListCellRendererClassTests
+ * @see javax.swing.ListCellRenderer interface javax.swing.ListCellRenderer (the hereby targeted class-under-test class)
+ * @see ListCellRendererClassTests ListCellRendererClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.ListCellRenderer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,7 +30,13 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.ListCellRenderer#getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)
+     * {@link javax.swing.ListCellRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
+     * public abstract java.awt.Component javax.swing.ListCellRenderer.getListCellRendererComponent(javax.swing.JList<?
+     * extends E>,E,int,boolean,boolean)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.ListCellRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
      * public abstract java.awt.Component
      * javax.swing.ListCellRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
      * .
@@ -41,8 +46,10 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.ListCellRenderer#getListCellRendererComponent(javax.swing.JList, java.lang.Object, int,
-     *             boolean, boolean)
+     * @see javax.swing.ListCellRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
+     *      public abstract java.awt.Component
+     *      javax.swing.ListCellRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,
+     *      boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

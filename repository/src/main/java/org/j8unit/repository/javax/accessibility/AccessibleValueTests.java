@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.accessibility.AccessibleValue interface
- * javax.accessibility.AccessibleValue}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleValueTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleValue interface
+ * javax.accessibility.AccessibleValue}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link AccessibleValueClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.accessibility.AccessibleValueClassTests
+ * @see javax.accessibility.AccessibleValue interface javax.accessibility.AccessibleValue (the hereby targeted
+ *      class-under-test class)
+ * @see AccessibleValueClassTests AccessibleValueClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.accessibility.AccessibleValue
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,49 +31,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleValue#getCurrentAccessibleValue() public abstract
-     * java.lang.Number javax.accessibility.AccessibleValue.getCurrentAccessibleValue()}.
+     * Test method for {@link javax.accessibility.AccessibleValue#getMinimumAccessibleValue() public abstract
+     * java.lang.Number javax.accessibility.AccessibleValue.getMinimumAccessibleValue()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleValue#getCurrentAccessibleValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurrentAccessibleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleValue#getMaximumAccessibleValue() public abstract
-     * java.lang.Number javax.accessibility.AccessibleValue.getMaximumAccessibleValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleValue#getMaximumAccessibleValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximumAccessibleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.accessibility.AccessibleValue#getMinimumAccessibleValue() public abstract
      * java.lang.Number javax.accessibility.AccessibleValue.getMinimumAccessibleValue()}.
@@ -82,7 +43,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleValue#getMinimumAccessibleValue()
+     * @see javax.accessibility.AccessibleValue#getMinimumAccessibleValue() public abstract java.lang.Number
+     *      javax.accessibility.AccessibleValue.getMinimumAccessibleValue() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,20 +58,80 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleValue#setCurrentAccessibleValue(java.lang.Number) public
-     * abstract boolean javax.accessibility.AccessibleValue.setCurrentAccessibleValue(java.lang.Number)}.
+     * Test method for {@link javax.accessibility.AccessibleValue#setCurrentAccessibleValue(Number) public abstract
+     * boolean javax.accessibility.AccessibleValue.setCurrentAccessibleValue(java.lang.Number)}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleValue#setCurrentAccessibleValue(Number) public abstract
+     * boolean javax.accessibility.AccessibleValue.setCurrentAccessibleValue(java.lang.Number)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleValue#setCurrentAccessibleValue(java.lang.Number)
+     * @see javax.accessibility.AccessibleValue#setCurrentAccessibleValue(Number) public abstract boolean
+     *      javax.accessibility.AccessibleValue.setCurrentAccessibleValue(java.lang.Number) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setCurrentAccessibleValue_Number()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleValue#getMaximumAccessibleValue() public abstract
+     * java.lang.Number javax.accessibility.AccessibleValue.getMaximumAccessibleValue()}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleValue#getMaximumAccessibleValue() public abstract
+     * java.lang.Number javax.accessibility.AccessibleValue.getMaximumAccessibleValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleValue#getMaximumAccessibleValue() public abstract java.lang.Number
+     *      javax.accessibility.AccessibleValue.getMaximumAccessibleValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximumAccessibleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleValue#getCurrentAccessibleValue() public abstract
+     * java.lang.Number javax.accessibility.AccessibleValue.getCurrentAccessibleValue()}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleValue#getCurrentAccessibleValue() public abstract
+     * java.lang.Number javax.accessibility.AccessibleValue.getCurrentAccessibleValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleValue#getCurrentAccessibleValue() public abstract java.lang.Number
+     *      javax.accessibility.AccessibleValue.getCurrentAccessibleValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurrentAccessibleValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

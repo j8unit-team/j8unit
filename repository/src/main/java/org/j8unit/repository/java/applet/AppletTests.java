@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.applet.Applet class java.applet.Applet}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.applet.AppletTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.applet.Applet class java.applet.Applet}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link AppletClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.applet.AppletClassTests
+ * @see java.applet.Applet class java.applet.Applet (the hereby targeted class-under-test class)
+ * @see AppletClassTests AppletClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.applet.Applet
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,64 +28,22 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#destroy() public void java.applet.Applet.destroy()}.
+     * Test method for {@link java.applet.Applet#stop() public void java.applet.Applet.stop()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#destroy()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_destroy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.applet.Applet#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.applet.Applet.getAccessibleContext()}.
+     * Test method for {@link java.applet.Applet#stop() public void java.applet.Applet.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#getAccessibleContext()
+     * @see java.applet.Applet#stop() public void java.applet.Applet.stop() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getAppletContext() public java.applet.AppletContext
-     * java.applet.Applet.getAppletContext()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getAppletContext()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAppletContext()
+    public default void test_stop()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,12 +55,17 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
      * Test method for {@link java.applet.Applet#getAppletInfo() public java.lang.String
      * java.applet.Applet.getAppletInfo()}.
      *
+     * <p>
+     * Test method for {@link java.applet.Applet#getAppletInfo() public java.lang.String
+     * java.applet.Applet.getAppletInfo()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#getAppletInfo()
+     * @see java.applet.Applet#getAppletInfo() public java.lang.String java.applet.Applet.getAppletInfo() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,173 +79,24 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#getAudioClip(java.net.URL) public java.applet.AudioClip
-     * java.applet.Applet.getAudioClip(java.net.URL)}.
+     * Test method for {@link java.applet.Applet#isValidateRoot() public boolean java.applet.Applet.isValidateRoot()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getAudioClip(java.net.URL)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioClip_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.applet.Applet#getAudioClip(java.net.URL, java.lang.String) public
-     * java.applet.AudioClip java.applet.Applet.getAudioClip(java.net.URL,java.lang.String)}.
+     * Test method for {@link java.applet.Applet#isValidateRoot() public boolean java.applet.Applet.isValidateRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#getAudioClip(java.net.URL, java.lang.String)
+     * @see java.applet.Applet#isValidateRoot() public boolean java.applet.Applet.isValidateRoot() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioClip_URL_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getCodeBase() public java.net.URL java.applet.Applet.getCodeBase()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getCodeBase()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCodeBase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getDocumentBase() public java.net.URL
-     * java.applet.Applet.getDocumentBase()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getDocumentBase()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDocumentBase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getImage(java.net.URL) public java.awt.Image
-     * java.applet.Applet.getImage(java.net.URL)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getImage(java.net.URL)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImage_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getImage(java.net.URL, java.lang.String) public java.awt.Image
-     * java.applet.Applet.getImage(java.net.URL,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getImage(java.net.URL, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImage_URL_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getLocale() public java.util.Locale java.applet.Applet.getLocale()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getLocale()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_getLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#getParameter(java.lang.String) public java.lang.String
-     * java.applet.Applet.getParameter(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#getParameter(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameter_String()
+    public default void test_isValidateRoot()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -294,12 +108,17 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
      * Test method for {@link java.applet.Applet#getParameterInfo() public java.lang.String[][]
      * java.applet.Applet.getParameterInfo()}.
      *
+     * <p>
+     * Test method for {@link java.applet.Applet#getParameterInfo() public java.lang.String[][]
+     * java.applet.Applet.getParameterInfo()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#getParameterInfo()
+     * @see java.applet.Applet#getParameterInfo() public java.lang.String[][] java.applet.Applet.getParameterInfo() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,62 +132,213 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#init() public void java.applet.Applet.init()}.
+     * Test method for {@link java.applet.Applet#getLocale() public java.util.Locale java.applet.Applet.getLocale()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#init()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_init()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.applet.Applet#isActive() public boolean java.applet.Applet.isActive()}.
+     * Test method for {@link java.applet.Applet#getLocale() public java.util.Locale java.applet.Applet.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#isActive()
+     * @see java.applet.Applet#getLocale() public java.util.Locale java.applet.Applet.getLocale() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isActive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#isValidateRoot() public boolean java.applet.Applet.isValidateRoot()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#isValidateRoot()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_isValidateRoot()
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getImage(java.net.URL, String) public java.awt.Image
+     * java.applet.Applet.getImage(java.net.URL,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getImage(java.net.URL, String) public java.awt.Image
+     * java.applet.Applet.getImage(java.net.URL,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getImage(java.net.URL, String) public java.awt.Image
+     *      java.applet.Applet.getImage(java.net.URL,java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImage_URL_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getImage(java.net.URL) public java.awt.Image
+     * java.applet.Applet.getImage(java.net.URL)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getImage(java.net.URL) public java.awt.Image
+     * java.applet.Applet.getImage(java.net.URL)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getImage(java.net.URL) public java.awt.Image java.applet.Applet.getImage(java.net.URL)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImage_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getParameter(String) public java.lang.String
+     * java.applet.Applet.getParameter(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getParameter(String) public java.lang.String
+     * java.applet.Applet.getParameter(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getParameter(String) public java.lang.String
+     *      java.applet.Applet.getParameter(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getDocumentBase() public java.net.URL
+     * java.applet.Applet.getDocumentBase()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getDocumentBase() public java.net.URL
+     * java.applet.Applet.getDocumentBase()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getDocumentBase() public java.net.URL java.applet.Applet.getDocumentBase() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDocumentBase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#resize(int, int) public void java.applet.Applet.resize(int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#resize(int, int) public void java.applet.Applet.resize(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#resize(int, int) public void java.applet.Applet.resize(int,int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_resize_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#resize(java.awt.Dimension) public void
+     * java.applet.Applet.resize(java.awt.Dimension)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#resize(java.awt.Dimension) public void
+     * java.applet.Applet.resize(java.awt.Dimension)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#resize(java.awt.Dimension) public void java.applet.Applet.resize(java.awt.Dimension) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_resize_Dimension()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getAppletContext() public java.applet.AppletContext
+     * java.applet.Applet.getAppletContext()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getAppletContext() public java.applet.AppletContext
+     * java.applet.Applet.getAppletContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getAppletContext() public java.applet.AppletContext java.applet.Applet.getAppletContext()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAppletContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -379,12 +349,16 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
      * <p>
      * Test method for {@link java.applet.Applet#play(java.net.URL) public void java.applet.Applet.play(java.net.URL)}.
      *
+     * <p>
+     * Test method for {@link java.applet.Applet#play(java.net.URL) public void java.applet.Applet.play(java.net.URL)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#play(java.net.URL)
+     * @see java.applet.Applet#play(java.net.URL) public void java.applet.Applet.play(java.net.URL) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -398,7 +372,11 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#play(java.net.URL, java.lang.String) public void
+     * Test method for {@link java.applet.Applet#play(java.net.URL, String) public void
+     * java.applet.Applet.play(java.net.URL,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#play(java.net.URL, String) public void
      * java.applet.Applet.play(java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -406,7 +384,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#play(java.net.URL, java.lang.String)
+     * @see java.applet.Applet#play(java.net.URL, String) public void
+     *      java.applet.Applet.play(java.net.URL,java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -420,50 +399,9 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#resize(java.awt.Dimension) public void
-     * java.applet.Applet.resize(java.awt.Dimension)}.
+     * Test method for {@link java.applet.Applet#setStub(java.applet.AppletStub) public final void
+     * java.applet.Applet.setStub(java.applet.AppletStub)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#resize(java.awt.Dimension)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_resize_Dimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.Applet#resize(int, int) public void java.applet.Applet.resize(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.applet.Applet#resize(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_resize_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.applet.Applet#setStub(java.applet.AppletStub) public final void
      * java.applet.Applet.setStub(java.applet.AppletStub)}.
@@ -473,7 +411,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#setStub(java.applet.AppletStub)
+     * @see java.applet.Applet#setStub(java.applet.AppletStub) public final void
+     *      java.applet.Applet.setStub(java.applet.AppletStub) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -487,20 +426,154 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#showStatus(java.lang.String) public void
-     * java.applet.Applet.showStatus(java.lang.String)}.
+     * Test method for {@link java.applet.Applet#init() public void java.applet.Applet.init()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#init() public void java.applet.Applet.init()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#showStatus(java.lang.String)
+     * @see java.applet.Applet#init() public void java.applet.Applet.init() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_showStatus_String()
+    public default void test_init()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getCodeBase() public java.net.URL java.applet.Applet.getCodeBase()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getCodeBase() public java.net.URL java.applet.Applet.getCodeBase()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getCodeBase() public java.net.URL java.applet.Applet.getCodeBase() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCodeBase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#isActive() public boolean java.applet.Applet.isActive()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#isActive() public boolean java.applet.Applet.isActive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#isActive() public boolean java.applet.Applet.isActive() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * java.applet.Applet.getAccessibleContext()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * java.applet.Applet.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getAccessibleContext() public javax.accessibility.AccessibleContext
+     *      java.applet.Applet.getAccessibleContext() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getAudioClip(java.net.URL) public java.applet.AudioClip
+     * java.applet.Applet.getAudioClip(java.net.URL)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getAudioClip(java.net.URL) public java.applet.AudioClip
+     * java.applet.Applet.getAudioClip(java.net.URL)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getAudioClip(java.net.URL) public java.applet.AudioClip
+     *      java.applet.Applet.getAudioClip(java.net.URL) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioClip_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#getAudioClip(java.net.URL, String) public java.applet.AudioClip
+     * java.applet.Applet.getAudioClip(java.net.URL,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#getAudioClip(java.net.URL, String) public java.applet.AudioClip
+     * java.applet.Applet.getAudioClip(java.net.URL,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#getAudioClip(java.net.URL, String) public java.applet.AudioClip
+     *      java.applet.Applet.getAudioClip(java.net.URL,java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioClip_URL_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -511,12 +584,15 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
      * <p>
      * Test method for {@link java.applet.Applet#start() public void java.applet.Applet.start()}.
      *
+     * <p>
+     * Test method for {@link java.applet.Applet#start() public void java.applet.Applet.start()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#start()
+     * @see java.applet.Applet#start() public void java.applet.Applet.start() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -530,19 +606,50 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.Applet#stop() public void java.applet.Applet.stop()}.
+     * Test method for {@link java.applet.Applet#destroy() public void java.applet.Applet.destroy()}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#destroy() public void java.applet.Applet.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.applet.Applet#stop()
+     * @see java.applet.Applet#destroy() public void java.applet.Applet.destroy() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stop()
+    public default void test_destroy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.applet.Applet#showStatus(String) public void
+     * java.applet.Applet.showStatus(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.applet.Applet#showStatus(String) public void
+     * java.applet.Applet.showStatus(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.applet.Applet#showStatus(String) public void java.applet.Applet.showStatus(java.lang.String) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_showStatus_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

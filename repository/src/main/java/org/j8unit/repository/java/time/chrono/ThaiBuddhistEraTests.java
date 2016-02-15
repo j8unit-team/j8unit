@@ -8,26 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.time.chrono.ThaiBuddhistEra class
- * java.time.chrono.ThaiBuddhistEra}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.time.chrono.ThaiBuddhistEraTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.time.chrono.ThaiBuddhistEra class java.time.chrono.ThaiBuddhistEra}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link ThaiBuddhistEraClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests
+ * @see java.time.chrono.ThaiBuddhistEra class java.time.chrono.ThaiBuddhistEra (the hereby targeted class-under-test
+ *      class)
+ * @see ThaiBuddhistEraClassTests ThaiBuddhistEraClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.time.chrono.ThaiBuddhistEra
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThaiBuddhistEraTests<SUT extends java.time.chrono.ThaiBuddhistEra>
-extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.time.chrono.ThaiBuddhistEra> {
+extends EraTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.time.chrono.ThaiBuddhistEra> {
 
     /**
+     * <p>
+     * Test method for {@link java.time.chrono.ThaiBuddhistEra#getValue() public int
+     * java.time.chrono.ThaiBuddhistEra.getValue()}.
+     *
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistEra#getValue() public int
      * java.time.chrono.ThaiBuddhistEra.getValue()}.
@@ -37,12 +41,13 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.chrono.ThaiBuddhistEra#getValue()
+     * @see java.time.chrono.ThaiBuddhistEra#getValue() public int java.time.chrono.ThaiBuddhistEra.getValue() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getValue()
     throws Exception {
         // query fresh subject-under-test

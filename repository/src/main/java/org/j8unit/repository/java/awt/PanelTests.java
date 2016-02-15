@@ -8,25 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.Panel class java.awt.Panel}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
- * containing the class relevant test methods is {@link org.j8unit.repository.java.awt.PanelTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.Panel class java.awt.Panel}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link PanelClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.PanelClassTests
+ * @see java.awt.Panel class java.awt.Panel (the hereby targeted class-under-test class)
+ * @see PanelClassTests PanelClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.Panel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PanelTests<SUT extends java.awt.Panel>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.java.awt.ContainerTests<SUT> {
+extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, ContainerTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.awt.Panel#addNotify() public void java.awt.Panel.addNotify()}.
+     *
      * <p>
      * Test method for {@link java.awt.Panel#addNotify() public void java.awt.Panel.addNotify()}.
      *
@@ -35,12 +38,12 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Panel#addNotify()
+     * @see java.awt.Panel#addNotify() public void java.awt.Panel.addNotify() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_addNotify()
     throws Exception {
         // query fresh subject-under-test
@@ -53,17 +56,22 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * Test method for {@link java.awt.Panel#getAccessibleContext() public javax.accessibility.AccessibleContext
      * java.awt.Panel.getAccessibleContext()}.
      *
+     * <p>
+     * Test method for {@link java.awt.Panel#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * java.awt.Panel.getAccessibleContext()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Panel#getAccessibleContext()
+     * @see java.awt.Panel#getAccessibleContext() public javax.accessibility.AccessibleContext
+     *      java.awt.Panel.getAccessibleContext() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getAccessibleContext()
     throws Exception {
         // query fresh subject-under-test

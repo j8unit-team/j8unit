@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.CodeSource class java.security.CodeSource}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.CodeSourceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.CodeSource class java.security.CodeSource}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link CodeSourceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.CodeSourceClassTests
+ * @see java.security.CodeSource class java.security.CodeSource (the hereby targeted class-under-test class)
+ * @see CodeSourceClassTests CodeSourceClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.CodeSource
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,21 +28,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#equals(java.lang.Object) public boolean
-     * java.security.CodeSource.equals(java.lang.Object)}.
+     * Test method for {@link java.security.CodeSource#toString() public java.lang.String
+     * java.security.CodeSource.toString()}.
+     *
+     * <p>
+     * Test method for {@link java.security.CodeSource#toString() public java.lang.String
+     * java.security.CodeSource.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.CodeSource#equals(java.lang.Object)
+     * @see java.security.CodeSource#toString() public java.lang.String java.security.CodeSource.toString() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,12 +59,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.security.CodeSource#getCertificates() public final java.security.cert.Certificate[]
      * java.security.CodeSource.getCertificates()}.
      *
+     * <p>
+     * Test method for {@link java.security.CodeSource#getCertificates() public final java.security.cert.Certificate[]
+     * java.security.CodeSource.getCertificates()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.CodeSource#getCertificates()
+     * @see java.security.CodeSource#getCertificates() public final java.security.cert.Certificate[]
+     *      java.security.CodeSource.getCertificates() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,71 +83,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#getCodeSigners() public final java.security.CodeSigner[]
-     * java.security.CodeSource.getCodeSigners()}.
+     * Test method for {@link java.security.CodeSource#implies(java.security.CodeSource) public boolean
+     * java.security.CodeSource.implies(java.security.CodeSource)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.CodeSource#getCodeSigners()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCodeSigners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.CodeSource#getLocation() public final java.net.URL
-     * java.security.CodeSource.getLocation()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.CodeSource#getLocation()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.CodeSource#hashCode() public int java.security.CodeSource.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.CodeSource#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.CodeSource#implies(java.security.CodeSource) public boolean
      * java.security.CodeSource.implies(java.security.CodeSource)}.
@@ -148,7 +95,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.CodeSource#implies(java.security.CodeSource)
+     * @see java.security.CodeSource#implies(java.security.CodeSource) public boolean
+     *      java.security.CodeSource.implies(java.security.CodeSource) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,21 +110,106 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#toString() public java.lang.String
-     * java.security.CodeSource.toString()}.
+     * Test method for {@link java.security.CodeSource#getLocation() public final java.net.URL
+     * java.security.CodeSource.getLocation()}.
+     *
+     * <p>
+     * Test method for {@link java.security.CodeSource#getLocation() public final java.net.URL
+     * java.security.CodeSource.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.CodeSource#toString()
+     * @see java.security.CodeSource#getLocation() public final java.net.URL java.security.CodeSource.getLocation() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_getLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.CodeSource#equals(Object) public boolean
+     * java.security.CodeSource.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.security.CodeSource#equals(Object) public boolean
+     * java.security.CodeSource.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.CodeSource#equals(Object) public boolean java.security.CodeSource.equals(java.lang.Object)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_toString()
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.CodeSource#hashCode() public int java.security.CodeSource.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.security.CodeSource#hashCode() public int java.security.CodeSource.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.CodeSource#hashCode() public int java.security.CodeSource.hashCode() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.CodeSource#getCodeSigners() public final java.security.CodeSigner[]
+     * java.security.CodeSource.getCodeSigners()}.
+     *
+     * <p>
+     * Test method for {@link java.security.CodeSource#getCodeSigners() public final java.security.CodeSigner[]
+     * java.security.CodeSource.getCodeSigners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.CodeSource#getCodeSigners() public final java.security.CodeSigner[]
+     *      java.security.CodeSource.getCodeSigners() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCodeSigners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

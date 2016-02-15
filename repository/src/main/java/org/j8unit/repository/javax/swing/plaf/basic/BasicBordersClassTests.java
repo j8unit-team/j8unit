@@ -1,38 +1,52 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders class
- * javax.swing.plaf.basic.BasicBorders}, containing all class relevant test methods (at least the test methods of
- * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
- * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests}.
+ * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders class
+ * javax.swing.plaf.basic.BasicBorders}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
+ * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type is
+ * verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link BasicBordersTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicBordersTests}.
+ * </p>
+ *
+ * @see javax.swing.plaf.basic.BasicBorders class javax.swing.plaf.basic.BasicBorders (the hereby targeted
+ *      class-under-test class)
+ * @see BasicBordersTests BasicBordersTests (The complementary j8unit test interface containing the instance relevant
+ *      test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.basic.BasicBorders
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,500 +54,139 @@ public abstract interface BasicBordersClassTests<SUT extends javax.swing.plaf.ba
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
+     *
+     * @since 0.9.2
+     */
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.class!",
+                   javax.swing.plaf.basic.BasicBorders.class.isAssignableFrom(sut));
+    }
+
+    /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.ButtonBorder class
-     * javax.swing.plaf.basic.BasicBorders$ButtonBorder}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder class
+     * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder}, containing all type relevant aspects (e.&thinsp;g.,
+     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.ToggleButtonBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.ToggleButtonBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder class
+     *      javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder (the hereby targeted class-under-test class)
+     * @see BasicBordersTests.ToggleButtonBorderTests BasicBordersTests.ToggleButtonBorderTests (The complementary
+     *      j8unit test interface containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.ButtonBorder
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.ButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface ToggleButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>
+    extends BasicBordersClassTests.ButtonBorderClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.ButtonBorder#ButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$ButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-         * .
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.ButtonBorder#ButtonBorder(java.awt.Color, java.awt.Color,
-         *             java.awt.Color, java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ButtonBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.ButtonBorder sut = null; // = new ButtonBorder(java.awt.Color,
-                                                                               // java.awt.Color, java.awt.Color,
-                                                                               // java.awt.Color);
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.ButtonBorder#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.ButtonBorder.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.FieldBorder class
-     * javax.swing.plaf.basic.BasicBorders$FieldBorder}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.FieldBorderTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.SplitPaneBorder class
+     * javax.swing.plaf.basic.BasicBorders$SplitPaneBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.SplitPaneBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.FieldBorderTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.SplitPaneBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.SplitPaneBorder class
+     *      javax.swing.plaf.basic.BasicBorders$SplitPaneBorder (the hereby targeted class-under-test class)
+     * @see BasicBordersTests.SplitPaneBorderTests BasicBordersTests.SplitPaneBorderTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.FieldBorder
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FieldBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.FieldBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.FieldBorder#FieldBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$FieldBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.FieldBorder#FieldBorder(java.awt.Color, java.awt.Color,
-         *             java.awt.Color, java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_FieldBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.FieldBorder sut = null; // = new FieldBorder(java.awt.Color,
-                                                                              // java.awt.Color, java.awt.Color,
-                                                                              // java.awt.Color);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.FieldBorder#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.FieldBorder.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.MarginBorder class
-     * javax.swing.plaf.basic.BasicBorders$MarginBorder}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MarginBorderTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MarginBorderTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.MarginBorder
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MarginBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.MarginBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicBorders.MarginBorder#MarginBorder() public
-         * javax.swing.plaf.basic.BasicBorders$MarginBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.MarginBorder#MarginBorder()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_MarginBorder()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.MarginBorder sut = null; // = new MarginBorder();
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.MarginBorder#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.MarginBorder.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.MenuBarBorder class
-     * javax.swing.plaf.basic.BasicBorders$MenuBarBorder}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MenuBarBorderTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MenuBarBorderTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.MenuBarBorder
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MenuBarBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.MenuBarBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.MenuBarBorder#MenuBarBorder(java.awt.Color, java.awt.Color) public
-         * javax.swing.plaf.basic.BasicBorders$MenuBarBorder(java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.MenuBarBorder#MenuBarBorder(java.awt.Color, java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_MenuBarBorder_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.MenuBarBorder sut = null; // = new MenuBarBorder(java.awt.Color,
-                                                                                // java.awt.Color);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.MenuBarBorder#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.MenuBarBorder.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.RadioButtonBorder class
-     * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RadioButtonBorderTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RadioButtonBorderTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.RadioButtonBorder
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface RadioButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#RadioButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#RadioButtonBorder(java.awt.Color,
-         *             java.awt.Color, java.awt.Color, java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_RadioButtonBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.RadioButtonBorder sut = null; // = new
-                                                                                    // RadioButtonBorder(java.awt.Color,
-                                                                                    // java.awt.Color, java.awt.Color,
-                                                                                    // java.awt.Color);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.RadioButtonBorder.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder class
-     * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit
-     * test interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface RolloverButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#RolloverButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#RolloverButtonBorder(java.awt.Color,
-         *             java.awt.Color, java.awt.Color, java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_RolloverButtonBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder sut = null; // = new
-                                                                                       // RolloverButtonBorder(java.awt.Color,
-                                                                                       // java.awt.Color,
-                                                                                       // java.awt.Color,
-                                                                                       // java.awt.Color);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.SplitPaneBorder class
-     * javax.swing.plaf.basic.BasicBorders$SplitPaneBorder}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.SplitPaneBorderTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.SplitPaneBorderTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.SplitPaneBorder
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -542,361 +195,448 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.SplitPaneBorder#SplitPaneBorder(java.awt.Color, java.awt.Color)
-         * public javax.swing.plaf.basic.BasicBorders$SplitPaneBorder(java.awt.Color,java.awt.Color)}.
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.SplitPaneBorder#SplitPaneBorder(java.awt.Color,
-         *             java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_SplitPaneBorder_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.SplitPaneBorder sut = null; // = new
-                                                                                  // SplitPaneBorder(java.awt.Color,
-                                                                                  // java.awt.Color);
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.SplitPaneBorder#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.SplitPaneBorder.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.SplitPaneBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.SplitPaneBorder.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder class
-     * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ToggleButtonBorderTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.MarginBorder class
+     * javax.swing.plaf.basic.BasicBorders$MarginBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.MarginBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ToggleButtonBorderTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.MarginBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.MarginBorder class javax.swing.plaf.basic.BasicBorders$MarginBorder (the
+     *      hereby targeted class-under-test class)
+     * @see BasicBordersTests.MarginBorderTests BasicBordersTests.MarginBorderTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ToggleButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
+    public static abstract interface MarginBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.MarginBorder>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#ToggleButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-         * .
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#ToggleButtonBorder(java.awt.Color,
-         *             java.awt.Color, java.awt.Color, java.awt.Color)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ToggleButtonBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder sut = null; // = new
-                                                                                     // ToggleButtonBorder(java.awt.Color,
-                                                                                     // java.awt.Color, java.awt.Color,
-                                                                                     // java.awt.Color);
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.MarginBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.MarginBorder.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#BasicBorders() public
-     * javax.swing.plaf.basic.BasicBorders()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder class
+     * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder}, containing all type relevant aspects (e.&thinsp;g.,
+     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#BasicBorders()
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.RolloverButtonBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.RolloverButtonBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder class
+     *      javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder (the hereby targeted class-under-test class)
+     * @see BasicBordersTests.RolloverButtonBorderTests BasicBordersTests.RolloverButtonBorderTests (The complementary
+     *      j8unit test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicBorders()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.basic.BasicBorders sut = null; // = new BasicBorders();
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface RolloverButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>
+    extends BasicBordersClassTests.ButtonBorderClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getButtonBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getButtonBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.ButtonBorder class
+     * javax.swing.plaf.basic.BasicBorders$ButtonBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getButtonBorder()
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.ButtonBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.ButtonBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.ButtonBorder class javax.swing.plaf.basic.BasicBorders$ButtonBorder (the
+     *      hereby targeted class-under-test class)
+     * @see BasicBordersTests.ButtonBorderTests BasicBordersTests.ButtonBorderTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getButtonBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.ButtonBorder>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.ButtonBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.ButtonBorder.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getInternalFrameBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getInternalFrameBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.FieldBorder class
+     * javax.swing.plaf.basic.BasicBorders$FieldBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getInternalFrameBorder()
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.FieldBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.FieldBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.FieldBorder class javax.swing.plaf.basic.BasicBorders$FieldBorder (the
+     *      hereby targeted class-under-test class)
+     * @see BasicBordersTests.FieldBorderTests BasicBordersTests.FieldBorderTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInternalFrameBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FieldBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.FieldBorder>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.FieldBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.FieldBorder.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getMenuBarBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getMenuBarBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.RadioButtonBorder class
+     * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder}, containing all type relevant aspects (e.&thinsp;g.,
+     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getMenuBarBorder()
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.RadioButtonBorderTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.RadioButtonBorderTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicBorders.RadioButtonBorder class
+     *      javax.swing.plaf.basic.BasicBorders$RadioButtonBorder (the hereby targeted class-under-test class)
+     * @see BasicBordersTests.RadioButtonBorderTests BasicBordersTests.RadioButtonBorderTests (The complementary j8unit
+     *      test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuBarBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface RadioButtonBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder>
+    extends BasicBordersClassTests.ButtonBorderClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.RadioButtonBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.RadioButtonBorder.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getProgressBarBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getProgressBarBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicBorders.MenuBarBorder class
+     * javax.swing.plaf.basic.BasicBorders$MenuBarBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getProgressBarBorder()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProgressBarBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getRadioButtonBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getRadioButtonBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link BasicBordersTests.MenuBarBorderTests}).
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getRadioButtonBorder()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRadioButtonBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getSplitPaneBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getSplitPaneBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * <strong>What? Testing the class itself? What is it good for?</strong>
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getSplitPaneBorder()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSplitPaneBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getSplitPaneDividerBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getSplitPaneDividerBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getSplitPaneDividerBorder()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSplitPaneDividerBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getTextFieldBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getTextFieldBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link BasicBordersTests.MenuBarBorderTests}.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getTextFieldBorder()
+     * @see javax.swing.plaf.basic.BasicBorders.MenuBarBorder class javax.swing.plaf.basic.BasicBorders$MenuBarBorder
+     *      (the hereby targeted class-under-test class)
+     * @see BasicBordersTests.MenuBarBorderTests BasicBordersTests.MenuBarBorderTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextFieldBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface MenuBarBorderClassTests<SUT extends javax.swing.plaf.basic.BasicBorders.MenuBarBorder>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicBorders#getToggleButtonBorder() public static
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicBorders.getToggleButtonBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#getToggleButtonBorder()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getToggleButtonBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicBorders.MenuBarBorder.class!",
+                       javax.swing.plaf.basic.BasicBorders.MenuBarBorder.class.isAssignableFrom(sut));
+        }
 
-    /**
-     * @since 0.9.2
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicBorders#isAssignableFrom(java.lang.Class)
-     */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicBorders.class.isAssignableFrom(sut));
     }
 
 }

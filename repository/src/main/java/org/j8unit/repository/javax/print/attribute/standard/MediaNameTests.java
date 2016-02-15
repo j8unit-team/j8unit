@@ -8,24 +8,25 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaName class
- * javax.print.attribute.standard.MediaName}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.attribute.standard.MediaNameTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.MediaName class
+ * javax.print.attribute.standard.MediaName}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link MediaNameClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.standard.MediaNameClassTests
+ * @see javax.print.attribute.standard.MediaName class javax.print.attribute.standard.MediaName (the hereby targeted
+ *      class-under-test class)
+ * @see MediaNameClassTests MediaNameClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.standard.MediaName
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaNameTests<SUT extends javax.print.attribute.standard.MediaName>
-extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.standard.MediaTests<SUT> {
+extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, MediaTests<SUT> {
 
     /**
      * <p>
@@ -33,21 +34,21 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * class-under-test:
      * </p>
      * <ul>
-     * <li>class javax.print.attribute.standard.Media</li>
-     * <li>interface javax.print.attribute.Attribute</li>
+     * <li>{@linkplain javax.print.attribute.standard.Media#getName() class javax.print.attribute.standard.Media}</li>
+     * <li>{@linkplain javax.print.attribute.Attribute#getName() interface javax.print.attribute.Attribute}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
      * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getCategory()
+    public default void test_getName()
     throws Exception {
     }
 
@@ -57,21 +58,22 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * class-under-test:
      * </p>
      * <ul>
-     * <li>class javax.print.attribute.standard.Media</li>
-     * <li>interface javax.print.attribute.Attribute</li>
+     * <li>{@linkplain javax.print.attribute.standard.Media#getCategory() class javax.print.attribute.standard.Media}
+     * </li>
+     * <li>{@linkplain javax.print.attribute.Attribute#getCategory() interface javax.print.attribute.Attribute}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
      * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getName()
+    public default void test_getCategory()
     throws Exception {
     }
 

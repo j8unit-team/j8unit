@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.DoubleUnaryOperator interface
- * java.util.function.DoubleUnaryOperator}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.DoubleUnaryOperatorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.DoubleUnaryOperator interface
+ * java.util.function.DoubleUnaryOperator}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DoubleUnaryOperatorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.DoubleUnaryOperatorClassTests
+ * @see java.util.function.DoubleUnaryOperator interface java.util.function.DoubleUnaryOperator (the hereby targeted
+ *      class-under-test class)
+ * @see DoubleUnaryOperatorClassTests DoubleUnaryOperatorClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.DoubleUnaryOperator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -34,12 +35,20 @@ extends RepositoryTests<SUT> {
      * public default java.util.function.DoubleUnaryOperator
      * java.util.function.DoubleUnaryOperator.andThen(java.util.function.DoubleUnaryOperator)}.
      *
+     * <p>
+     * Test method for {@link java.util.function.DoubleUnaryOperator#andThen(java.util.function.DoubleUnaryOperator)
+     * public default java.util.function.DoubleUnaryOperator
+     * java.util.function.DoubleUnaryOperator.andThen(java.util.function.DoubleUnaryOperator)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.DoubleUnaryOperator#andThen(java.util.function.DoubleUnaryOperator)
+     * @see java.util.function.DoubleUnaryOperator#andThen(java.util.function.DoubleUnaryOperator) public default
+     *      java.util.function.DoubleUnaryOperator
+     *      java.util.function.DoubleUnaryOperator.andThen(java.util.function.DoubleUnaryOperator) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +65,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.util.function.DoubleUnaryOperator#applyAsDouble(double) public abstract double
      * java.util.function.DoubleUnaryOperator.applyAsDouble(double)}.
      *
+     * <p>
+     * Test method for {@link java.util.function.DoubleUnaryOperator#applyAsDouble(double) public abstract double
+     * java.util.function.DoubleUnaryOperator.applyAsDouble(double)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.DoubleUnaryOperator#applyAsDouble(double)
+     * @see java.util.function.DoubleUnaryOperator#applyAsDouble(double) public abstract double
+     *      java.util.function.DoubleUnaryOperator.applyAsDouble(double) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,12 +93,20 @@ extends RepositoryTests<SUT> {
      * public default java.util.function.DoubleUnaryOperator
      * java.util.function.DoubleUnaryOperator.compose(java.util.function.DoubleUnaryOperator)}.
      *
+     * <p>
+     * Test method for {@link java.util.function.DoubleUnaryOperator#compose(java.util.function.DoubleUnaryOperator)
+     * public default java.util.function.DoubleUnaryOperator
+     * java.util.function.DoubleUnaryOperator.compose(java.util.function.DoubleUnaryOperator)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.DoubleUnaryOperator#compose(java.util.function.DoubleUnaryOperator)
+     * @see java.util.function.DoubleUnaryOperator#compose(java.util.function.DoubleUnaryOperator) public default
+     *      java.util.function.DoubleUnaryOperator
+     *      java.util.function.DoubleUnaryOperator.compose(java.util.function.DoubleUnaryOperator) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

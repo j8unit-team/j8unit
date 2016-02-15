@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.LayoutManager interface java.awt.LayoutManager}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.LayoutManagerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.LayoutManager interface java.awt.LayoutManager}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link LayoutManagerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.LayoutManagerClassTests
+ * @see java.awt.LayoutManager interface java.awt.LayoutManager (the hereby targeted class-under-test class)
+ * @see LayoutManagerClassTests LayoutManagerClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.LayoutManager
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,27 +29,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LayoutManager#addLayoutComponent(java.lang.String, java.awt.Component) public
-     * abstract void java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for {@link java.awt.LayoutManager#layoutContainer(java.awt.Container) public abstract void
+     * java.awt.LayoutManager.layoutContainer(java.awt.Container)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.LayoutManager#addLayoutComponent(java.lang.String, java.awt.Component)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addLayoutComponent_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.LayoutManager#layoutContainer(java.awt.Container) public abstract void
      * java.awt.LayoutManager.layoutContainer(java.awt.Container)}.
@@ -60,7 +41,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.LayoutManager#layoutContainer(java.awt.Container)
+     * @see java.awt.LayoutManager#layoutContainer(java.awt.Container) public abstract void
+     *      java.awt.LayoutManager.layoutContainer(java.awt.Container) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,6 +56,38 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.LayoutManager#addLayoutComponent(String, java.awt.Component) public abstract void
+     * java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.LayoutManager#addLayoutComponent(String, java.awt.Component) public abstract void
+     * java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.LayoutManager#addLayoutComponent(String, java.awt.Component) public abstract void
+     *      java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addLayoutComponent_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.LayoutManager#minimumLayoutSize(java.awt.Container) public abstract
+     * java.awt.Dimension java.awt.LayoutManager.minimumLayoutSize(java.awt.Container)}.
+     *
+     * <p>
      * Test method for {@link java.awt.LayoutManager#minimumLayoutSize(java.awt.Container) public abstract
      * java.awt.Dimension java.awt.LayoutManager.minimumLayoutSize(java.awt.Container)}.
      *
@@ -82,7 +96,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.LayoutManager#minimumLayoutSize(java.awt.Container)
+     * @see java.awt.LayoutManager#minimumLayoutSize(java.awt.Container) public abstract java.awt.Dimension
+     *      java.awt.LayoutManager.minimumLayoutSize(java.awt.Container) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,12 +114,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.awt.LayoutManager#preferredLayoutSize(java.awt.Container) public abstract
      * java.awt.Dimension java.awt.LayoutManager.preferredLayoutSize(java.awt.Container)}.
      *
+     * <p>
+     * Test method for {@link java.awt.LayoutManager#preferredLayoutSize(java.awt.Container) public abstract
+     * java.awt.Dimension java.awt.LayoutManager.preferredLayoutSize(java.awt.Container)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.LayoutManager#preferredLayoutSize(java.awt.Container)
+     * @see java.awt.LayoutManager#preferredLayoutSize(java.awt.Container) public abstract java.awt.Dimension
+     *      java.awt.LayoutManager.preferredLayoutSize(java.awt.Container) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,12 +141,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.awt.LayoutManager#removeLayoutComponent(java.awt.Component) public abstract void
      * java.awt.LayoutManager.removeLayoutComponent(java.awt.Component)}.
      *
+     * <p>
+     * Test method for {@link java.awt.LayoutManager#removeLayoutComponent(java.awt.Component) public abstract void
+     * java.awt.LayoutManager.removeLayoutComponent(java.awt.Component)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.LayoutManager#removeLayoutComponent(java.awt.Component)
+     * @see java.awt.LayoutManager#removeLayoutComponent(java.awt.Component) public abstract void
+     *      java.awt.LayoutManager.removeLayoutComponent(java.awt.Component) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

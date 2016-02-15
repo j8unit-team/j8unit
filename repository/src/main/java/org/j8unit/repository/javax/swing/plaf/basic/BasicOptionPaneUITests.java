@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI class
- * javax.swing.plaf.basic.BasicOptionPaneUI}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI class
+ * javax.swing.plaf.basic.BasicOptionPaneUI}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link BasicOptionPaneUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests
+ * @see javax.swing.plaf.basic.BasicOptionPaneUI class javax.swing.plaf.basic.BasicOptionPaneUI (the hereby targeted
+ *      class-under-test class)
+ * @see BasicOptionPaneUIClassTests BasicOptionPaneUIClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,70 +30,193 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener
-     * class javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests}.
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicOptionPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicOptionPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonActionListenerClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     *      javax.swing.plaf.basic.BasicOptionPaneUI.getPreferredSize(javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ButtonActionListenerTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener>
-    extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener#actionPerformed(java.awt.event.
-         *             ActionEvent)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreferredSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout class
-     * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
-     * class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonAreaLayoutTests}.
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicOptionPaneUI.installUI(javax.swing.JComponent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicOptionPaneUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI#installUI(javax.swing.JComponent) public void
+     *      javax.swing.plaf.basic.BasicOptionPaneUI.installUI(javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_installUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#containsCustomComponents(javax.swing.JOptionPane)
+     * public boolean javax.swing.plaf.basic.BasicOptionPaneUI.containsCustomComponents(javax.swing.JOptionPane)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#containsCustomComponents(javax.swing.JOptionPane)
+     * public boolean javax.swing.plaf.basic.BasicOptionPaneUI.containsCustomComponents(javax.swing.JOptionPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI#containsCustomComponents(javax.swing.JOptionPane) public boolean
+     *      javax.swing.plaf.basic.BasicOptionPaneUI.containsCustomComponents(javax.swing.JOptionPane) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_containsCustomComponents_JOptionPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#getMinimumOptionPaneSize() public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicOptionPaneUI.getMinimumOptionPaneSize()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#getMinimumOptionPaneSize() public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicOptionPaneUI.getMinimumOptionPaneSize()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI#getMinimumOptionPaneSize() public java.awt.Dimension
+     *      javax.swing.plaf.basic.BasicOptionPaneUI.getMinimumOptionPaneSize() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimumOptionPaneSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#selectInitialValue(javax.swing.JOptionPane)
+     * public void javax.swing.plaf.basic.BasicOptionPaneUI.selectInitialValue(javax.swing.JOptionPane)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#selectInitialValue(javax.swing.JOptionPane)
+     * public void javax.swing.plaf.basic.BasicOptionPaneUI.selectInitialValue(javax.swing.JOptionPane)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI#selectInitialValue(javax.swing.JOptionPane) public void
+     *      javax.swing.plaf.basic.BasicOptionPaneUI.selectInitialValue(javax.swing.JOptionPane) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_selectInitialValue_JOptionPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicOptionPaneUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicOptionPaneUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI#uninstallUI(javax.swing.JComponent) public void
+     *      javax.swing.plaf.basic.BasicOptionPaneUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout class
+     * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout}. The complementary j8unit test interface containing
+     * the class relevant aspects is {@link BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests}.
+     * </p>
+     *
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout class
+     *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout (the hereby targeted class-under-test class)
+     * @see BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests
+     *      BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests (the complementary j8unit test interface containing
+     *      the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -101,8 +225,43 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
         /**
          * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setCentersChildren(boolean)
+         * public void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setCentersChildren(boolean)}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setCentersChildren(boolean)
+         * public void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setCentersChildren(boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setCentersChildren(boolean) public void
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setCentersChildren(boolean) (the hereby
+         *      targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setCentersChildren_boolean()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#addLayoutComponent(java.lang.String, java.awt.Component)
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#addLayoutComponent(String, java.awt.Component)
+         * public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
+         * .
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#addLayoutComponent(String, java.awt.Component)
          * public void
          * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
          * .
@@ -112,14 +271,47 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#addLayoutComponent(java.lang.String,
-         *             java.awt.Component)
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#addLayoutComponent(String, java.awt.Component)
+         *      public void
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.addLayoutComponent(java.lang.String,java.awt.
+         *      Component) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_addLayoutComponent_String_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#layoutContainer(java.awt.Container) public
+         * void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.layoutContainer(java.awt.Container)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#layoutContainer(java.awt.Container) public
+         * void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.layoutContainer(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#layoutContainer(java.awt.Container) public
+         *      void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.layoutContainer(java.awt.Container) (the
+         *      hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_layoutContainer_Container()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -131,12 +323,18 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getCentersChildren() public
          * boolean javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getCentersChildren()}.
          *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getCentersChildren() public
+         * boolean javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getCentersChildren()}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getCentersChildren()
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getCentersChildren() public boolean
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getCentersChildren() (the hereby targeted
+         *      method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -150,20 +348,122 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding() public int
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getPadding()}.
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#removeLayoutComponent(java.awt.Component)
+         * public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.removeLayoutComponent(java.awt.Component)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#removeLayoutComponent(java.awt.Component)
+         * public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.removeLayoutComponent(java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding()
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#removeLayoutComponent(java.awt.Component)
+         *      public void
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.removeLayoutComponent(java.awt.Component) (the
+         *      hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_removeLayoutComponent_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setPadding(int) public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setPadding(int)}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setPadding(int) public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setPadding(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setPadding(int) public void
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setPadding(int) (the hereby targeted
+         *      method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getPadding()
+        public default void test_setPadding_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#preferredLayoutSize(java.awt.Container)
+         * public java.awt.Dimension
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.preferredLayoutSize(java.awt.Container)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#preferredLayoutSize(java.awt.Container)
+         * public java.awt.Dimension
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.preferredLayoutSize(java.awt.Container)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#preferredLayoutSize(java.awt.Container) public
+         *      java.awt.Dimension
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.preferredLayoutSize(java.awt.Container) (the
+         *      hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_preferredLayoutSize_Container()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean)
+         * public void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setSyncAllWidths(boolean)}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean)
+         * public void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setSyncAllWidths(boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean) public void
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setSyncAllWidths(boolean) (the hereby targeted
+         *      method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setSyncAllWidths_boolean()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -175,12 +475,18 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getSyncAllWidths() public
          * boolean javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getSyncAllWidths()}.
          *
+         * <p>
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getSyncAllWidths() public
+         * boolean javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getSyncAllWidths()}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getSyncAllWidths()
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getSyncAllWidths() public boolean
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getSyncAllWidths() (the hereby targeted
+         *      method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -195,28 +501,10 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#layoutContainer(java.awt.Container) public
-         * void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.layoutContainer(java.awt.Container)}.
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#minimumLayoutSize(java.awt.Container) public
+         * java.awt.Dimension
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.minimumLayoutSize(java.awt.Container)}.
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#layoutContainer(java.awt.Container)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_layoutContainer_Container()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * <p>
          * Test method for
          * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#minimumLayoutSize(java.awt.Container) public
@@ -228,12 +516,15 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#minimumLayoutSize(java.awt.Container)
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#minimumLayoutSize(java.awt.Container) public
+         *      java.awt.Dimension
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.minimumLayoutSize(java.awt.Container) (the
+         *      hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_minimumLayoutSize_Container()
         throws Exception {
             // query fresh subject-under-test
@@ -243,115 +534,26 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#preferredLayoutSize(java.awt.Container)
-         * public java.awt.Dimension
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.preferredLayoutSize(java.awt.Container)}.
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding() public int
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getPadding()}.
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#preferredLayoutSize(java.awt.Container)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_preferredLayoutSize_Container()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#removeLayoutComponent(java.awt.Component)
-         * public void
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.removeLayoutComponent(java.awt.Component)}.
+         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding() public int
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getPadding()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#removeLayoutComponent(java.awt.
-         *             Component)
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding() public int
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getPadding() (the hereby targeted
+         *      method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        @Override
-        public default void test_removeLayoutComponent_Component()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setCentersChildren(boolean)
-         * public void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setCentersChildren(boolean)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setCentersChildren(boolean)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setCentersChildren_boolean()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setPadding(int) public void
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setPadding(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setPadding(int)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setPadding_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean)
-         * public void javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setSyncAllWidths(boolean)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setSyncAllWidths_boolean()
+        public default void test_getPadding()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -362,20 +564,80 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler
-     * class javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler}, containing all instance relevant test
-     * methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
-     * containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener class
+     * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicOptionPaneUIClassTests.ButtonActionListenerClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener class
+     *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener (the hereby targeted class-under-test class)
+     * @see BasicOptionPaneUIClassTests.ButtonActionListenerClassTests
+     *      BasicOptionPaneUIClassTests.ButtonActionListenerClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ButtonActionListenerTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener>
+    extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener#actionPerformed(java.awt.event.ActionEvent)
+         *      public void
+         *      javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener.actionPerformed(java.awt.event.
+         *      ActionEvent) (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler class
+     * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler}. The complementary j8unit test interface
+     * containing the class relevant aspects is {@link BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests}.
+     * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler
+     * @see javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler class
+     *      javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler (the hereby targeted class-under-test class)
+     * @see BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests
+     *      BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -390,18 +652,26 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}
          * .
          *
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}
+         * .
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler#propertyChange(java.beans.
-         *             PropertyChangeEvent)
+         * @see javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
+         *      public void javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler.propertyChange(java.beans.
+         *      PropertyChangeEvent) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        @Override
         public default void test_propertyChange_PropertyChangeEvent()
         throws Exception {
             // query fresh subject-under-test
@@ -409,143 +679,6 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
             assert sut != null;
         }
 
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#containsCustomComponents(javax.swing.JOptionPane)
-     * public boolean javax.swing.plaf.basic.BasicOptionPaneUI.containsCustomComponents(javax.swing.JOptionPane)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI#containsCustomComponents(javax.swing.JOptionPane)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_containsCustomComponents_JOptionPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#getMinimumOptionPaneSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicOptionPaneUI.getMinimumOptionPaneSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI#getMinimumOptionPaneSize()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimumOptionPaneSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicOptionPaneUI.getPreferredSize(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI#getPreferredSize(javax.swing.JComponent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicOptionPaneUI.installUI(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI#installUI(javax.swing.JComponent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#selectInitialValue(javax.swing.JOptionPane)
-     * public void javax.swing.plaf.basic.BasicOptionPaneUI.selectInitialValue(javax.swing.JOptionPane)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI#selectInitialValue(javax.swing.JOptionPane)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_selectInitialValue_JOptionPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicOptionPaneUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicOptionPaneUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.plaf.basic.BasicOptionPaneUI#uninstallUI(javax.swing.JComponent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninstallUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
 }

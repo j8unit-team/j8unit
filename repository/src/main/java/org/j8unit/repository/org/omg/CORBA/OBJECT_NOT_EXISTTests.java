@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.OBJECT_NOT_EXIST class org.omg.CORBA.OBJECT_NOT_EXIST},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.OBJECT_NOT_EXIST class org.omg.CORBA.OBJECT_NOT_EXIST}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link OBJECT_NOT_EXISTClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests
+ * @see org.omg.CORBA.OBJECT_NOT_EXIST class org.omg.CORBA.OBJECT_NOT_EXIST (the hereby targeted class-under-test class)
+ * @see OBJECT_NOT_EXISTClassTests OBJECT_NOT_EXISTClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.OBJECT_NOT_EXIST
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OBJECT_NOT_EXISTTests<SUT extends org.omg.CORBA.OBJECT_NOT_EXIST>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
 }

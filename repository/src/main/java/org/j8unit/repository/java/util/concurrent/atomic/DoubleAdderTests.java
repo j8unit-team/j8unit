@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.atomic.DoubleAdder class
- * java.util.concurrent.atomic.DoubleAdder}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.concurrent.atomic.DoubleAdderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.atomic.DoubleAdder class
+ * java.util.concurrent.atomic.DoubleAdder}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DoubleAdderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.atomic.DoubleAdderClassTests
+ * @see java.util.concurrent.atomic.DoubleAdder class java.util.concurrent.atomic.DoubleAdder (the hereby targeted
+ *      class-under-test class)
+ * @see DoubleAdderClassTests DoubleAdderClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.atomic.DoubleAdder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,134 +30,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#add(double) public void
-     * java.util.concurrent.atomic.DoubleAdder.add(double)}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#toString() public java.lang.String
+     * java.util.concurrent.atomic.DoubleAdder.toString()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#add(double)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#doubleValue() public double
-     * java.util.concurrent.atomic.DoubleAdder.doubleValue()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#toString() public java.lang.String
+     * java.util.concurrent.atomic.DoubleAdder.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#doubleValue()
+     * @see java.util.concurrent.atomic.DoubleAdder#toString() public java.lang.String
+     *      java.util.concurrent.atomic.DoubleAdder.toString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_doubleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#floatValue() public float
-     * java.util.concurrent.atomic.DoubleAdder.floatValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#floatValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_floatValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#intValue() public int
-     * java.util.concurrent.atomic.DoubleAdder.intValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#intValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_intValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#longValue() public long
-     * java.util.concurrent.atomic.DoubleAdder.longValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#longValue()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_longValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#reset() public void
-     * java.util.concurrent.atomic.DoubleAdder.reset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#reset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reset()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,12 +61,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sum() public double
      * java.util.concurrent.atomic.DoubleAdder.sum()}.
      *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sum() public double
+     * java.util.concurrent.atomic.DoubleAdder.sum()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#sum()
+     * @see java.util.concurrent.atomic.DoubleAdder#sum() public double java.util.concurrent.atomic.DoubleAdder.sum()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,6 +85,121 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#doubleValue() public double
+     * java.util.concurrent.atomic.DoubleAdder.doubleValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#doubleValue() public double
+     * java.util.concurrent.atomic.DoubleAdder.doubleValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.DoubleAdder#doubleValue() public double
+     *      java.util.concurrent.atomic.DoubleAdder.doubleValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_doubleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#floatValue() public float
+     * java.util.concurrent.atomic.DoubleAdder.floatValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#floatValue() public float
+     * java.util.concurrent.atomic.DoubleAdder.floatValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.DoubleAdder#floatValue() public float
+     *      java.util.concurrent.atomic.DoubleAdder.floatValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_floatValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#reset() public void
+     * java.util.concurrent.atomic.DoubleAdder.reset()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#reset() public void
+     * java.util.concurrent.atomic.DoubleAdder.reset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.DoubleAdder#reset() public void java.util.concurrent.atomic.DoubleAdder.reset()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#longValue() public long
+     * java.util.concurrent.atomic.DoubleAdder.longValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#longValue() public long
+     * java.util.concurrent.atomic.DoubleAdder.longValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.DoubleAdder#longValue() public long
+     *      java.util.concurrent.atomic.DoubleAdder.longValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_longValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sumThenReset() public double
+     * java.util.concurrent.atomic.DoubleAdder.sumThenReset()}.
+     *
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sumThenReset() public double
      * java.util.concurrent.atomic.DoubleAdder.sumThenReset()}.
      *
@@ -195,7 +208,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#sumThenReset()
+     * @see java.util.concurrent.atomic.DoubleAdder#sumThenReset() public double
+     *      java.util.concurrent.atomic.DoubleAdder.sumThenReset() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,21 +223,53 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#toString() public java.lang.String
-     * java.util.concurrent.atomic.DoubleAdder.toString()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#add(double) public void
+     * java.util.concurrent.atomic.DoubleAdder.add(double)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#add(double) public void
+     * java.util.concurrent.atomic.DoubleAdder.add(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.DoubleAdder#toString()
+     * @see java.util.concurrent.atomic.DoubleAdder#add(double) public void
+     *      java.util.concurrent.atomic.DoubleAdder.add(double) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_add_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#intValue() public int
+     * java.util.concurrent.atomic.DoubleAdder.intValue()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#intValue() public int
+     * java.util.concurrent.atomic.DoubleAdder.intValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.DoubleAdder#intValue() public int
+     *      java.util.concurrent.atomic.DoubleAdder.intValue() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_toString()
+    @Test
+    @Category(Draft.class)
+    public default void test_intValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

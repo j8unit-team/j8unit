@@ -8,386 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.border.TitledBorder class javax.swing.border.TitledBorder}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.border.TitledBorderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.border.TitledBorder class javax.swing.border.TitledBorder}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link TitledBorderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.border.TitledBorderClassTests
+ * @see javax.swing.border.TitledBorder class javax.swing.border.TitledBorder (the hereby targeted class-under-test
+ *      class)
+ * @see TitledBorderClassTests TitledBorderClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.border.TitledBorder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TitledBorderTests<SUT extends javax.swing.border.TitledBorder>
-extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
+extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getBaseline(java.awt.Component, int, int) public int
-     * javax.swing.border.TitledBorder.getBaseline(java.awt.Component,int,int)}.
+     * Test method for {@link javax.swing.border.TitledBorder#setTitleJustification(int) public void
+     * javax.swing.border.TitledBorder.setTitleJustification(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getBaseline(java.awt.Component, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBaseline_Component_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getBaselineResizeBehavior(java.awt.Component) public
-     * java.awt.Component$BaselineResizeBehavior
-     * javax.swing.border.TitledBorder.getBaselineResizeBehavior(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getBaselineResizeBehavior(java.awt.Component)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBaselineResizeBehavior_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getBorder() public javax.swing.border.Border
-     * javax.swing.border.TitledBorder.getBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getBorder()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-     * public java.awt.Insets javax.swing.border.TitledBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBorderInsets_Component_Insets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getMinimumSize(java.awt.Component) public
-     * java.awt.Dimension javax.swing.border.TitledBorder.getMinimumSize(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getMinimumSize(java.awt.Component)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimumSize_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getTitle() public java.lang.String
-     * javax.swing.border.TitledBorder.getTitle()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getTitle()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getTitleColor() public java.awt.Color
-     * javax.swing.border.TitledBorder.getTitleColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getTitleColor()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitleColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getTitleFont() public java.awt.Font
-     * javax.swing.border.TitledBorder.getTitleFont()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getTitleFont()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitleFont()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getTitleJustification() public int
-     * javax.swing.border.TitledBorder.getTitleJustification()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getTitleJustification()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitleJustification()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#getTitlePosition() public int
-     * javax.swing.border.TitledBorder.getTitlePosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#getTitlePosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitlePosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#isBorderOpaque() public boolean
-     * javax.swing.border.TitledBorder.isBorderOpaque()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#isBorderOpaque()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isBorderOpaque()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.border.TitledBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-     * public void javax.swing.border.TitledBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int,
-     *             int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintBorder_Component_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#setBorder(javax.swing.border.Border) public void
-     * javax.swing.border.TitledBorder.setBorder(javax.swing.border.Border)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#setBorder(javax.swing.border.Border)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBorder_Border()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#setTitle(java.lang.String) public void
-     * javax.swing.border.TitledBorder.setTitle(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#setTitle(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#setTitleColor(java.awt.Color) public void
-     * javax.swing.border.TitledBorder.setTitleColor(java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#setTitleColor(java.awt.Color)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitleColor_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.TitledBorder#setTitleFont(java.awt.Font) public void
-     * javax.swing.border.TitledBorder.setTitleFont(java.awt.Font)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.border.TitledBorder#setTitleFont(java.awt.Font)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitleFont_Font()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.border.TitledBorder#setTitleJustification(int) public void
      * javax.swing.border.TitledBorder.setTitleJustification(int)}.
@@ -397,7 +41,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.border.TitledBorder#setTitleJustification(int)
+     * @see javax.swing.border.TitledBorder#setTitleJustification(int) public void
+     *      javax.swing.border.TitledBorder.setTitleJustification(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -411,6 +56,428 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.swing.border.TitledBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.TitledBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.border.TitledBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.TitledBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     *      public void
+     *      javax.swing.border.TitledBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_paintBorder_Component_Graphics_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitle() public java.lang.String
+     * javax.swing.border.TitledBorder.getTitle()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitle() public java.lang.String
+     * javax.swing.border.TitledBorder.getTitle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getTitle() public java.lang.String
+     *      javax.swing.border.TitledBorder.getTitle() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTitle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBaseline(java.awt.Component, int, int) public int
+     * javax.swing.border.TitledBorder.getBaseline(java.awt.Component,int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBaseline(java.awt.Component, int, int) public int
+     * javax.swing.border.TitledBorder.getBaseline(java.awt.Component,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getBaseline(java.awt.Component, int, int) public int
+     *      javax.swing.border.TitledBorder.getBaseline(java.awt.Component,int,int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getBaseline_Component_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getMinimumSize(java.awt.Component) public
+     * java.awt.Dimension javax.swing.border.TitledBorder.getMinimumSize(java.awt.Component)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getMinimumSize(java.awt.Component) public
+     * java.awt.Dimension javax.swing.border.TitledBorder.getMinimumSize(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getMinimumSize(java.awt.Component) public java.awt.Dimension
+     *      javax.swing.border.TitledBorder.getMinimumSize(java.awt.Component) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimumSize_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBaselineResizeBehavior(java.awt.Component) public
+     * java.awt.Component$BaselineResizeBehavior
+     * javax.swing.border.TitledBorder.getBaselineResizeBehavior(java.awt.Component)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBaselineResizeBehavior(java.awt.Component) public
+     * java.awt.Component$BaselineResizeBehavior
+     * javax.swing.border.TitledBorder.getBaselineResizeBehavior(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getBaselineResizeBehavior(java.awt.Component) public
+     *      java.awt.Component$BaselineResizeBehavior
+     *      javax.swing.border.TitledBorder.getBaselineResizeBehavior(java.awt.Component) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getBaselineResizeBehavior_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setBorder(javax.swing.border.Border) public void
+     * javax.swing.border.TitledBorder.setBorder(javax.swing.border.Border)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setBorder(javax.swing.border.Border) public void
+     * javax.swing.border.TitledBorder.setBorder(javax.swing.border.Border)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#setBorder(javax.swing.border.Border) public void
+     *      javax.swing.border.TitledBorder.setBorder(javax.swing.border.Border) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBorder_Border()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitleColor(java.awt.Color) public void
+     * javax.swing.border.TitledBorder.setTitleColor(java.awt.Color)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitleColor(java.awt.Color) public void
+     * javax.swing.border.TitledBorder.setTitleColor(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#setTitleColor(java.awt.Color) public void
+     *      javax.swing.border.TitledBorder.setTitleColor(java.awt.Color) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitleColor_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitle(String) public void
+     * javax.swing.border.TitledBorder.setTitle(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitle(String) public void
+     * javax.swing.border.TitledBorder.setTitle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#setTitle(String) public void
+     *      javax.swing.border.TitledBorder.setTitle(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitleFont(java.awt.Font) public void
+     * javax.swing.border.TitledBorder.setTitleFont(java.awt.Font)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitleFont(java.awt.Font) public void
+     * javax.swing.border.TitledBorder.setTitleFont(java.awt.Font)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#setTitleFont(java.awt.Font) public void
+     *      javax.swing.border.TitledBorder.setTitleFont(java.awt.Font) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitleFont_Font()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitleFont() public java.awt.Font
+     * javax.swing.border.TitledBorder.getTitleFont()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitleFont() public java.awt.Font
+     * javax.swing.border.TitledBorder.getTitleFont()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getTitleFont() public java.awt.Font
+     *      javax.swing.border.TitledBorder.getTitleFont() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTitleFont()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#isBorderOpaque() public boolean
+     * javax.swing.border.TitledBorder.isBorderOpaque()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#isBorderOpaque() public boolean
+     * javax.swing.border.TitledBorder.isBorderOpaque()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#isBorderOpaque() public boolean
+     *      javax.swing.border.TitledBorder.isBorderOpaque() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isBorderOpaque()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitlePosition() public int
+     * javax.swing.border.TitledBorder.getTitlePosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitlePosition() public int
+     * javax.swing.border.TitledBorder.getTitlePosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getTitlePosition() public int
+     *      javax.swing.border.TitledBorder.getTitlePosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTitlePosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBorder() public javax.swing.border.Border
+     * javax.swing.border.TitledBorder.getBorder()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBorder() public javax.swing.border.Border
+     * javax.swing.border.TitledBorder.getBorder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getBorder() public javax.swing.border.Border
+     *      javax.swing.border.TitledBorder.getBorder() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitleColor() public java.awt.Color
+     * javax.swing.border.TitledBorder.getTitleColor()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitleColor() public java.awt.Color
+     * javax.swing.border.TitledBorder.getTitleColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getTitleColor() public java.awt.Color
+     *      javax.swing.border.TitledBorder.getTitleColor() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTitleColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitleJustification() public int
+     * javax.swing.border.TitledBorder.getTitleJustification()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getTitleJustification() public int
+     * javax.swing.border.TitledBorder.getTitleJustification()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getTitleJustification() public int
+     *      javax.swing.border.TitledBorder.getTitleJustification() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTitleJustification()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#setTitlePosition(int) public void
+     * javax.swing.border.TitledBorder.setTitlePosition(int)}.
+     *
+     * <p>
      * Test method for {@link javax.swing.border.TitledBorder#setTitlePosition(int) public void
      * javax.swing.border.TitledBorder.setTitlePosition(int)}.
      *
@@ -419,12 +486,42 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.border.TitledBorder#setTitlePosition(int)
+     * @see javax.swing.border.TitledBorder#setTitlePosition(int) public void
+     *      javax.swing.border.TitledBorder.setTitlePosition(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setTitlePosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+     * public java.awt.Insets javax.swing.border.TitledBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.border.TitledBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+     * public java.awt.Insets javax.swing.border.TitledBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.border.TitledBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public java.awt.Insets
+     *      javax.swing.border.TitledBorder.getBorderInsets(java.awt.Component,java.awt.Insets) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorderInsets_Component_Insets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

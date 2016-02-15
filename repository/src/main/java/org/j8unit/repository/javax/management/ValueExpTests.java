@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.ValueExp interface javax.management.ValueExp},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.ValueExpTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.ValueExp interface javax.management.ValueExp}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ValueExpClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.ValueExpClassTests
+ * @see javax.management.ValueExp interface javax.management.ValueExp (the hereby targeted class-under-test class)
+ * @see ValueExpClassTests ValueExpClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.ValueExp
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -34,12 +33,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
      * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
      * .
      *
+     * <p>
+     * Test method for {@link javax.management.ValueExp#apply(javax.management.ObjectName) public abstract
+     * javax.management.ValueExp javax.management.ValueExp.apply(javax.management.ObjectName) throws
+     * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
+     * .
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.ValueExp#apply(javax.management.ObjectName)
+     * @see javax.management.ValueExp#apply(javax.management.ObjectName) public abstract javax.management.ValueExp
+     *      javax.management.ValueExp.apply(javax.management.ObjectName) throws
+     *      javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.
+     *      BadAttributeValueExpException,javax.management.InvalidApplicationException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +65,18 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
      * Test method for {@link javax.management.ValueExp#setMBeanServer(javax.management.MBeanServer) public abstract
      * void javax.management.ValueExp.setMBeanServer(javax.management.MBeanServer)}.
      *
+     * <p>
+     * Test method for {@link javax.management.ValueExp#setMBeanServer(javax.management.MBeanServer) public abstract
+     * void javax.management.ValueExp.setMBeanServer(javax.management.MBeanServer)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.ValueExp#setMBeanServer(javax.management.MBeanServer)
+     * @see javax.management.ValueExp#setMBeanServer(javax.management.MBeanServer) public abstract void
+     *      javax.management.ValueExp.setMBeanServer(javax.management.MBeanServer) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,19 +8,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.net.ssl.KeyManagerFactory class javax.net.ssl.KeyManagerFactory}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.net.ssl.KeyManagerFactoryTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.net.ssl.KeyManagerFactory class javax.net.ssl.KeyManagerFactory}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link KeyManagerFactoryClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.net.ssl.KeyManagerFactoryClassTests
+ * @see javax.net.ssl.KeyManagerFactory class javax.net.ssl.KeyManagerFactory (the hereby targeted class-under-test
+ *      class)
+ * @see KeyManagerFactoryClassTests KeyManagerFactoryClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.net.ssl.KeyManagerFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,49 +29,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.KeyManagerFactory#getAlgorithm() public final java.lang.String
-     * javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getProvider() public final java.security.Provider
+     * javax.net.ssl.KeyManagerFactory.getProvider()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.net.ssl.KeyManagerFactory#getAlgorithm()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlgorithm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.KeyManagerFactory#getKeyManagers() public final javax.net.ssl.KeyManager[]
-     * javax.net.ssl.KeyManagerFactory.getKeyManagers()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.net.ssl.KeyManagerFactory#getKeyManagers()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeyManagers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.net.ssl.KeyManagerFactory#getProvider() public final java.security.Provider
      * javax.net.ssl.KeyManagerFactory.getProvider()}.
@@ -81,7 +41,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.net.ssl.KeyManagerFactory#getProvider()
+     * @see javax.net.ssl.KeyManagerFactory#getProvider() public final java.security.Provider
+     *      javax.net.ssl.KeyManagerFactory.getProvider() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,6 +56,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getKeyManagers() public final javax.net.ssl.KeyManager[]
+     * javax.net.ssl.KeyManagerFactory.getKeyManagers()}.
+     *
+     * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getKeyManagers() public final javax.net.ssl.KeyManager[]
+     * javax.net.ssl.KeyManagerFactory.getKeyManagers()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.net.ssl.KeyManagerFactory#getKeyManagers() public final javax.net.ssl.KeyManager[]
+     *      javax.net.ssl.KeyManagerFactory.getKeyManagers() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeyManagers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#init(java.security.KeyStore, char[]) public final void
+     * javax.net.ssl.KeyManagerFactory.init(java.security.KeyStore,char[]) throws
+     * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableKeyException}.
+     *
+     * <p>
      * Test method for {@link javax.net.ssl.KeyManagerFactory#init(java.security.KeyStore, char[]) public final void
      * javax.net.ssl.KeyManagerFactory.init(java.security.KeyStore,char[]) throws
      * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableKeyException}.
@@ -104,7 +97,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.net.ssl.KeyManagerFactory#init(java.security.KeyStore, char[])
+     * @see javax.net.ssl.KeyManagerFactory#init(java.security.KeyStore, char[]) public final void
+     *      javax.net.ssl.KeyManagerFactory.init(java.security.KeyStore,char[]) throws
+     *      java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.
+     *      UnrecoverableKeyException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,17 +118,51 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * void javax.net.ssl.KeyManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
+     * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#init(javax.net.ssl.ManagerFactoryParameters) public final
+     * void javax.net.ssl.KeyManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
+     * java.security.InvalidAlgorithmParameterException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.net.ssl.KeyManagerFactory#init(javax.net.ssl.ManagerFactoryParameters)
+     * @see javax.net.ssl.KeyManagerFactory#init(javax.net.ssl.ManagerFactoryParameters) public final void
+     *      javax.net.ssl.KeyManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
+     *      java.security.InvalidAlgorithmParameterException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_init_ManagerFactoryParameters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getAlgorithm() public final java.lang.String
+     * javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
+     *
+     * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getAlgorithm() public final java.lang.String
+     * javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.net.ssl.KeyManagerFactory#getAlgorithm() public final java.lang.String
+     *      javax.net.ssl.KeyManagerFactory.getAlgorithm() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlgorithm()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

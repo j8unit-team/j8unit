@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CosNaming.NamingContextExtHolder class
- * org.omg.CosNaming.NamingContextExtHolder}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CosNaming.NamingContextExtHolder class
+ * org.omg.CosNaming.NamingContextExtHolder}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link NamingContextExtHolderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderClassTests
+ * @see org.omg.CosNaming.NamingContextExtHolder class org.omg.CosNaming.NamingContextExtHolder (the hereby targeted
+ *      class-under-test class)
+ * @see NamingContextExtHolderClassTests NamingContextExtHolderClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CosNaming.NamingContextExtHolder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,28 +30,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_read(org.omg.CORBA.portable.InputStream) public
-     * void org.omg.CosNaming.NamingContextExtHolder._read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_type() public org.omg.CORBA.TypeCode
+     * org.omg.CosNaming.NamingContextExtHolder._type()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CosNaming.NamingContextExtHolder#_read(org.omg.CORBA.portable.InputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_type() public org.omg.CORBA.TypeCode
      * org.omg.CosNaming.NamingContextExtHolder._type()}.
@@ -60,12 +42,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CosNaming.NamingContextExtHolder#_type()
+     * @see org.omg.CosNaming.NamingContextExtHolder#_type() public org.omg.CORBA.TypeCode
+     *      org.omg.CosNaming.NamingContextExtHolder._type() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test__type()
     throws Exception {
         // query fresh subject-under-test
@@ -78,18 +61,53 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_write(org.omg.CORBA.portable.OutputStream)
      * public void org.omg.CosNaming.NamingContextExtHolder._write(org.omg.CORBA.portable.OutputStream)}.
      *
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_write(org.omg.CORBA.portable.OutputStream)
+     * public void org.omg.CosNaming.NamingContextExtHolder._write(org.omg.CORBA.portable.OutputStream)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CosNaming.NamingContextExtHolder#_write(org.omg.CORBA.portable.OutputStream)
+     * @see org.omg.CosNaming.NamingContextExtHolder#_write(org.omg.CORBA.portable.OutputStream) public void
+     *      org.omg.CosNaming.NamingContextExtHolder._write(org.omg.CORBA.portable.OutputStream) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test__write_OutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_read(org.omg.CORBA.portable.InputStream) public
+     * void org.omg.CosNaming.NamingContextExtHolder._read(org.omg.CORBA.portable.InputStream)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextExtHolder#_read(org.omg.CORBA.portable.InputStream) public
+     * void org.omg.CosNaming.NamingContextExtHolder._read(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CosNaming.NamingContextExtHolder#_read(org.omg.CORBA.portable.InputStream) public void
+     *      org.omg.CosNaming.NamingContextExtHolder._read(org.omg.CORBA.portable.InputStream) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

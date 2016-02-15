@@ -8,26 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.event.WindowEvent class java.awt.event.WindowEvent},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.event.WindowEventTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.event.WindowEvent class java.awt.event.WindowEvent}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link WindowEventClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.event.WindowEventClassTests
+ * @see java.awt.event.WindowEvent class java.awt.event.WindowEvent (the hereby targeted class-under-test class)
+ * @see WindowEventClassTests WindowEventClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.event.WindowEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WindowEventTests<SUT extends java.awt.event.WindowEvent>
-extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
+extends ComponentEventTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.awt.event.WindowEvent#getNewState() public int
+     * java.awt.event.WindowEvent.getNewState()}.
+     *
      * <p>
      * Test method for {@link java.awt.event.WindowEvent#getNewState() public int
      * java.awt.event.WindowEvent.getNewState()}.
@@ -37,7 +40,8 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.WindowEvent#getNewState()
+     * @see java.awt.event.WindowEvent#getNewState() public int java.awt.event.WindowEvent.getNewState() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +58,17 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
      * Test method for {@link java.awt.event.WindowEvent#getOldState() public int
      * java.awt.event.WindowEvent.getOldState()}.
      *
+     * <p>
+     * Test method for {@link java.awt.event.WindowEvent#getOldState() public int
+     * java.awt.event.WindowEvent.getOldState()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.WindowEvent#getOldState()
+     * @see java.awt.event.WindowEvent#getOldState() public int java.awt.event.WindowEvent.getOldState() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +85,17 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
      * Test method for {@link java.awt.event.WindowEvent#getOppositeWindow() public java.awt.Window
      * java.awt.event.WindowEvent.getOppositeWindow()}.
      *
+     * <p>
+     * Test method for {@link java.awt.event.WindowEvent#getOppositeWindow() public java.awt.Window
+     * java.awt.event.WindowEvent.getOppositeWindow()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.WindowEvent#getOppositeWindow()
+     * @see java.awt.event.WindowEvent#getOppositeWindow() public java.awt.Window
+     *      java.awt.event.WindowEvent.getOppositeWindow() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,12 +112,17 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
      * Test method for {@link java.awt.event.WindowEvent#getWindow() public java.awt.Window
      * java.awt.event.WindowEvent.getWindow()}.
      *
+     * <p>
+     * Test method for {@link java.awt.event.WindowEvent#getWindow() public java.awt.Window
+     * java.awt.event.WindowEvent.getWindow()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.WindowEvent#getWindow()
+     * @see java.awt.event.WindowEvent#getWindow() public java.awt.Window java.awt.event.WindowEvent.getWindow() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,17 +139,22 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
      * Test method for {@link java.awt.event.WindowEvent#paramString() public java.lang.String
      * java.awt.event.WindowEvent.paramString()}.
      *
+     * <p>
+     * Test method for {@link java.awt.event.WindowEvent#paramString() public java.lang.String
+     * java.awt.event.WindowEvent.paramString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.WindowEvent#paramString()
+     * @see java.awt.event.WindowEvent#paramString() public java.lang.String java.awt.event.WindowEvent.paramString()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test

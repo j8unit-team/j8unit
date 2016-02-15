@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.ComponentInputMapUIResource class
- * javax.swing.plaf.ComponentInputMapUIResource}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.ComponentInputMapUIResource class
+ * javax.swing.plaf.ComponentInputMapUIResource}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ComponentInputMapUIResourceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceClassTests
+ * @see javax.swing.plaf.ComponentInputMapUIResource class javax.swing.plaf.ComponentInputMapUIResource (the hereby
+ *      targeted class-under-test class)
+ * @see ComponentInputMapUIResourceClassTests ComponentInputMapUIResourceClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.ComponentInputMapUIResource
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentInputMapUIResourceTests<SUT extends javax.swing.plaf.ComponentInputMapUIResource>
-extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.ComponentInputMapTests<SUT> {
+extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.ComponentInputMapTests<SUT> {
 
 }

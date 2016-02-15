@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.FormView class javax.swing.text.html.FormView},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.html.FormViewTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.html.FormView class javax.swing.text.html.FormView}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link FormViewClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.html.FormViewClassTests
+ * @see javax.swing.text.html.FormView class javax.swing.text.html.FormView (the hereby targeted class-under-test class)
+ * @see FormViewClassTests FormViewClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.html.FormView
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,28 +28,9 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.FormView#actionPerformed(java.awt.event.ActionEvent) public void
-     * javax.swing.text.html.FormView.actionPerformed(java.awt.event.ActionEvent)}.
+     * Test method for {@link javax.swing.text.html.FormView#getMaximumSpan(int) public float
+     * javax.swing.text.html.FormView.getMaximumSpan(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.html.FormView#actionPerformed(java.awt.event.ActionEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_actionPerformed_ActionEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.text.html.FormView#getMaximumSpan(int) public float
      * javax.swing.text.html.FormView.getMaximumSpan(int)}.
@@ -60,13 +40,43 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8uni
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.FormView#getMaximumSpan(int)
+     * @see javax.swing.text.html.FormView#getMaximumSpan(int) public float
+     *      javax.swing.text.html.FormView.getMaximumSpan(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getMaximumSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.FormView#actionPerformed(java.awt.event.ActionEvent) public void
+     * javax.swing.text.html.FormView.actionPerformed(java.awt.event.ActionEvent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.FormView#actionPerformed(java.awt.event.ActionEvent) public void
+     * javax.swing.text.html.FormView.actionPerformed(java.awt.event.ActionEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.html.FormView#actionPerformed(java.awt.event.ActionEvent) public void
+     *      javax.swing.text.html.FormView.actionPerformed(java.awt.event.ActionEvent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_actionPerformed_ActionEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

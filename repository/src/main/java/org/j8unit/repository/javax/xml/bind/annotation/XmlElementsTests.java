@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.bind.annotation.XmlElements interface
- * javax.xml.bind.annotation.XmlElements}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.XmlElements interface
+ * javax.xml.bind.annotation.XmlElements}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link XmlElementsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.bind.annotation.XmlElementsClassTests
+ * @see javax.xml.bind.annotation.XmlElements interface javax.xml.bind.annotation.XmlElements (the hereby targeted
+ *      class-under-test class)
+ * @see XmlElementsClassTests XmlElementsClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.bind.annotation.XmlElements
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * Test method for {@link javax.xml.bind.annotation.XmlElements#value() public abstract
      * javax.xml.bind.annotation.XmlElement[] javax.xml.bind.annotation.XmlElements.value()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.bind.annotation.XmlElements#value() public abstract
+     * javax.xml.bind.annotation.XmlElement[] javax.xml.bind.annotation.XmlElements.value()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.annotation.XmlElements#value()
+     * @see javax.xml.bind.annotation.XmlElements#value() public abstract javax.xml.bind.annotation.XmlElement[]
+     *      javax.xml.bind.annotation.XmlElements.value() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

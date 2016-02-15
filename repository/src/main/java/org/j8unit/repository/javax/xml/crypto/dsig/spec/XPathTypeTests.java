@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.spec.XPathType class
- * javax.xml.crypto.dsig.spec.XPathType}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.spec.XPathType class
+ * javax.xml.crypto.dsig.spec.XPathType}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link XPathTypeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests
+ * @see javax.xml.crypto.dsig.spec.XPathType class javax.xml.crypto.dsig.spec.XPathType (the hereby targeted
+ *      class-under-test class)
+ * @see XPathTypeClassTests XPathTypeClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.dsig.spec.XPathType
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,73 +30,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.spec.XPathType.Filter class
-     * javax.xml.crypto.dsig.spec.XPathType$Filter}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
-     * methods is {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests.FilterTests}.
-     * </p>
+     * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getFilter() public
+     * javax.xml.crypto.dsig.spec.XPathType$Filter javax.xml.crypto.dsig.spec.XPathType.getFilter()}.
      *
-     * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests.FilterClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.xml.crypto.dsig.spec.XPathType.Filter
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FilterTests<SUT extends javax.xml.crypto.dsig.spec.XPathType.Filter>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.xml.crypto.dsig.spec.XPathType.Filter#toString() public java.lang.String
-         * javax.xml.crypto.dsig.spec.XPathType$Filter.toString()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.xml.crypto.dsig.spec.XPathType.Filter#toString()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getExpression() public java.lang.String
-     * javax.xml.crypto.dsig.spec.XPathType.getExpression()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.crypto.dsig.spec.XPathType#getExpression()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getExpression()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getFilter() public
      * javax.xml.crypto.dsig.spec.XPathType$Filter javax.xml.crypto.dsig.spec.XPathType.getFilter()}.
@@ -105,7 +42,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.spec.XPathType#getFilter()
+     * @see javax.xml.crypto.dsig.spec.XPathType#getFilter() public javax.xml.crypto.dsig.spec.XPathType$Filter
+     *      javax.xml.crypto.dsig.spec.XPathType.getFilter() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,6 +57,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getExpression() public java.lang.String
+     * javax.xml.crypto.dsig.spec.XPathType.getExpression()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getExpression() public java.lang.String
+     * javax.xml.crypto.dsig.spec.XPathType.getExpression()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.crypto.dsig.spec.XPathType#getExpression() public java.lang.String
+     *      javax.xml.crypto.dsig.spec.XPathType.getExpression() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getExpression()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getNamespaceMap() public java.util.Map
+     * javax.xml.crypto.dsig.spec.XPathType.getNamespaceMap()}.
+     *
+     * <p>
      * Test method for {@link javax.xml.crypto.dsig.spec.XPathType#getNamespaceMap() public java.util.Map
      * javax.xml.crypto.dsig.spec.XPathType.getNamespaceMap()}.
      *
@@ -127,7 +96,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.spec.XPathType#getNamespaceMap()
+     * @see javax.xml.crypto.dsig.spec.XPathType#getNamespaceMap() public java.util.Map
+     *      javax.xml.crypto.dsig.spec.XPathType.getNamespaceMap() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,6 +107,58 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.spec.XPathType.Filter class
+     * javax.xml.crypto.dsig.spec.XPathType$Filter}. The complementary j8unit test interface containing the class
+     * relevant aspects is {@link XPathTypeClassTests.FilterClassTests}.
+     * </p>
+     *
+     * @see javax.xml.crypto.dsig.spec.XPathType.Filter class javax.xml.crypto.dsig.spec.XPathType$Filter (the hereby
+     *      targeted class-under-test class)
+     * @see XPathTypeClassTests.FilterClassTests XPathTypeClassTests.FilterClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FilterTests<SUT extends javax.xml.crypto.dsig.spec.XPathType.Filter>
+    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link javax.xml.crypto.dsig.spec.XPathType.Filter#toString() public java.lang.String
+         * javax.xml.crypto.dsig.spec.XPathType$Filter.toString()}.
+         *
+         * <p>
+         * Test method for {@link javax.xml.crypto.dsig.spec.XPathType.Filter#toString() public java.lang.String
+         * javax.xml.crypto.dsig.spec.XPathType$Filter.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.xml.crypto.dsig.spec.XPathType.Filter#toString() public java.lang.String
+         *      javax.xml.crypto.dsig.spec.XPathType$Filter.toString() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_toString()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
     }
 
 }

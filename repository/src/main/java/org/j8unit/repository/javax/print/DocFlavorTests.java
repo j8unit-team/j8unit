@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor class javax.print.DocFlavor}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.print.DocFlavorTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.DocFlavor class javax.print.DocFlavor}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link DocFlavorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.DocFlavorClassTests
+ * @see javax.print.DocFlavor class javax.print.DocFlavor (the hereby targeted class-under-test class)
+ * @see DocFlavorClassTests DocFlavorClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.DocFlavor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,182 +29,25 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.BYTE_ARRAY class
-     * javax.print.DocFlavor$BYTE_ARRAY}, containing all instance relevant test methods (i.&thinsp;e., test methods of
-     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests}.
-     * </p>
+     * Test method for {@link javax.print.DocFlavor#getRepresentationClassName() public java.lang.String
+     * javax.print.DocFlavor.getRepresentationClassName()}.
      *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.BYTE_ARRAYClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.BYTE_ARRAY
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface BYTE_ARRAYTests<SUT extends javax.print.DocFlavor.BYTE_ARRAY>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.CHAR_ARRAY class
-     * javax.print.DocFlavor$CHAR_ARRAY}, containing all instance relevant test methods (i.&thinsp;e., test methods of
-     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.CHAR_ARRAYClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.CHAR_ARRAY
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CHAR_ARRAYTests<SUT extends javax.print.DocFlavor.CHAR_ARRAY>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.INPUT_STREAM class
-     * javax.print.DocFlavor$INPUT_STREAM}, containing all instance relevant test methods (i.&thinsp;e., test methods of
-     * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.INPUT_STREAMClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.INPUT_STREAM
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface INPUT_STREAMTests<SUT extends javax.print.DocFlavor.INPUT_STREAM>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.READER class javax.print.DocFlavor$READER},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
-     * counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.READERTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.READERClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.READER
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface READERTests<SUT extends javax.print.DocFlavor.READER>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.SERVICE_FORMATTED class
-     * javax.print.DocFlavor$SERVICE_FORMATTED}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
-     * methods is {@link org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.SERVICE_FORMATTEDClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.SERVICE_FORMATTED
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface SERVICE_FORMATTEDTests<SUT extends javax.print.DocFlavor.SERVICE_FORMATTED>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.STRING class javax.print.DocFlavor$STRING},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
-     * counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.STRINGClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.STRING
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface STRINGTests<SUT extends javax.print.DocFlavor.STRING>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.DocFlavor.URL class javax.print.DocFlavor$URL},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
-     * counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.URLTests}.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.DocFlavorClassTests.URLClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.DocFlavor.URL
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface URLTests<SUT extends javax.print.DocFlavor.URL>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.DocFlavor#equals(java.lang.Object) public boolean
-     * javax.print.DocFlavor.equals(java.lang.Object)}.
+     * Test method for {@link javax.print.DocFlavor#getRepresentationClassName() public java.lang.String
+     * javax.print.DocFlavor.getRepresentationClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.DocFlavor#equals(java.lang.Object)
+     * @see javax.print.DocFlavor#getRepresentationClassName() public java.lang.String
+     *      javax.print.DocFlavor.getRepresentationClassName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getRepresentationClassName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -214,20 +56,53 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.DocFlavor#getMediaSubtype() public java.lang.String
-     * javax.print.DocFlavor.getMediaSubtype()}.
+     * Test method for {@link javax.print.DocFlavor#getParameter(String) public java.lang.String
+     * javax.print.DocFlavor.getParameter(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#getParameter(String) public java.lang.String
+     * javax.print.DocFlavor.getParameter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.DocFlavor#getMediaSubtype()
+     * @see javax.print.DocFlavor#getParameter(String) public java.lang.String
+     *      javax.print.DocFlavor.getParameter(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMediaSubtype()
+    public default void test_getParameter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#toString() public java.lang.String javax.print.DocFlavor.toString()}
+     * .
+     *
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#toString() public java.lang.String javax.print.DocFlavor.toString()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.DocFlavor#toString() public java.lang.String javax.print.DocFlavor.toString() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -239,12 +114,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.print.DocFlavor#getMediaType() public java.lang.String
      * javax.print.DocFlavor.getMediaType()}.
      *
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#getMediaType() public java.lang.String
+     * javax.print.DocFlavor.getMediaType()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.DocFlavor#getMediaType()
+     * @see javax.print.DocFlavor#getMediaType() public java.lang.String javax.print.DocFlavor.getMediaType() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,12 +141,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.print.DocFlavor#getMimeType() public java.lang.String
      * javax.print.DocFlavor.getMimeType()}.
      *
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#getMimeType() public java.lang.String
+     * javax.print.DocFlavor.getMimeType()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.DocFlavor#getMimeType()
+     * @see javax.print.DocFlavor#getMimeType() public java.lang.String javax.print.DocFlavor.getMimeType() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -280,49 +165,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.DocFlavor#getParameter(java.lang.String) public java.lang.String
-     * javax.print.DocFlavor.getParameter(java.lang.String)}.
+     * Test method for {@link javax.print.DocFlavor#hashCode() public int javax.print.DocFlavor.hashCode()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.DocFlavor#getParameter(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameter_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.DocFlavor#getRepresentationClassName() public java.lang.String
-     * javax.print.DocFlavor.getRepresentationClassName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.DocFlavor#getRepresentationClassName()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRepresentationClassName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.print.DocFlavor#hashCode() public int javax.print.DocFlavor.hashCode()}.
      *
@@ -331,12 +175,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.DocFlavor#hashCode()
+     * @see javax.print.DocFlavor#hashCode() public int javax.print.DocFlavor.hashCode() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
@@ -346,25 +191,222 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.DocFlavor#toString() public java.lang.String javax.print.DocFlavor.toString()}
-     * .
+     * Test method for {@link javax.print.DocFlavor#equals(Object) public boolean
+     * javax.print.DocFlavor.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#equals(Object) public boolean
+     * javax.print.DocFlavor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.DocFlavor#toString()
+     * @see javax.print.DocFlavor#equals(Object) public boolean javax.print.DocFlavor.equals(java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#getMediaSubtype() public java.lang.String
+     * javax.print.DocFlavor.getMediaSubtype()}.
+     *
+     * <p>
+     * Test method for {@link javax.print.DocFlavor#getMediaSubtype() public java.lang.String
+     * javax.print.DocFlavor.getMediaSubtype()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.DocFlavor#getMediaSubtype() public java.lang.String javax.print.DocFlavor.getMediaSubtype() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMediaSubtype()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.CHAR_ARRAY class
+     * javax.print.DocFlavor$CHAR_ARRAY}. The complementary j8unit test interface containing the class relevant aspects
+     * is {@link DocFlavorClassTests.CHAR_ARRAYClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.CHAR_ARRAY class javax.print.DocFlavor$CHAR_ARRAY (the hereby targeted
+     *      class-under-test class)
+     * @see DocFlavorClassTests.CHAR_ARRAYClassTests DocFlavorClassTests.CHAR_ARRAYClassTests (the complementary j8unit
+     *      test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface CHAR_ARRAYTests<SUT extends javax.print.DocFlavor.CHAR_ARRAY>
+    extends DocFlavorTests<SUT> {
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.INPUT_STREAM class
+     * javax.print.DocFlavor$INPUT_STREAM}. The complementary j8unit test interface containing the class relevant
+     * aspects is {@link DocFlavorClassTests.INPUT_STREAMClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.INPUT_STREAM class javax.print.DocFlavor$INPUT_STREAM (the hereby targeted
+     *      class-under-test class)
+     * @see DocFlavorClassTests.INPUT_STREAMClassTests DocFlavorClassTests.INPUT_STREAMClassTests (the complementary
+     *      j8unit test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface INPUT_STREAMTests<SUT extends javax.print.DocFlavor.INPUT_STREAM>
+    extends DocFlavorTests<SUT> {
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.URL class javax.print.DocFlavor$URL}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link DocFlavorClassTests.URLClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.URL class javax.print.DocFlavor$URL (the hereby targeted class-under-test class)
+     * @see DocFlavorClassTests.URLClassTests DocFlavorClassTests.URLClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface URLTests<SUT extends javax.print.DocFlavor.URL>
+    extends DocFlavorTests<SUT> {
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.STRING class javax.print.DocFlavor$STRING}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link DocFlavorClassTests.STRINGClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.STRING class javax.print.DocFlavor$STRING (the hereby targeted class-under-test class)
+     * @see DocFlavorClassTests.STRINGClassTests DocFlavorClassTests.STRINGClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface STRINGTests<SUT extends javax.print.DocFlavor.STRING>
+    extends DocFlavorTests<SUT> {
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.READER class javax.print.DocFlavor$READER}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link DocFlavorClassTests.READERClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.READER class javax.print.DocFlavor$READER (the hereby targeted class-under-test class)
+     * @see DocFlavorClassTests.READERClassTests DocFlavorClassTests.READERClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface READERTests<SUT extends javax.print.DocFlavor.READER>
+    extends DocFlavorTests<SUT> {
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.SERVICE_FORMATTED class
+     * javax.print.DocFlavor$SERVICE_FORMATTED}. The complementary j8unit test interface containing the class relevant
+     * aspects is {@link DocFlavorClassTests.SERVICE_FORMATTEDClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.SERVICE_FORMATTED class javax.print.DocFlavor$SERVICE_FORMATTED (the hereby targeted
+     *      class-under-test class)
+     * @see DocFlavorClassTests.SERVICE_FORMATTEDClassTests DocFlavorClassTests.SERVICE_FORMATTEDClassTests (the
+     *      complementary j8unit test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface SERVICE_FORMATTEDTests<SUT extends javax.print.DocFlavor.SERVICE_FORMATTED>
+    extends DocFlavorTests<SUT> {
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.print.DocFlavor.BYTE_ARRAY class
+     * javax.print.DocFlavor$BYTE_ARRAY}. The complementary j8unit test interface containing the class relevant aspects
+     * is {@link DocFlavorClassTests.BYTE_ARRAYClassTests}.
+     * </p>
+     *
+     * @see javax.print.DocFlavor.BYTE_ARRAY class javax.print.DocFlavor$BYTE_ARRAY (the hereby targeted
+     *      class-under-test class)
+     * @see DocFlavorClassTests.BYTE_ARRAYClassTests DocFlavorClassTests.BYTE_ARRAYClassTests (the complementary j8unit
+     *      test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BYTE_ARRAYTests<SUT extends javax.print.DocFlavor.BYTE_ARRAY>
+    extends DocFlavorTests<SUT> {
+
     }
 
 }

@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.event.ItemEvent class java.awt.event.ItemEvent}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.event.ItemEventTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.event.ItemEvent class java.awt.event.ItemEvent}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ItemEventClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.event.ItemEventClassTests
+ * @see java.awt.event.ItemEvent class java.awt.event.ItemEvent (the hereby targeted class-under-test class)
+ * @see ItemEventClassTests ItemEventClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.event.ItemEvent
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,20 +28,26 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.ItemEvent#getItem() public java.lang.Object
-     * java.awt.event.ItemEvent.getItem()}.
+     * Test method for {@link java.awt.event.ItemEvent#paramString() public java.lang.String
+     * java.awt.event.ItemEvent.paramString()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.event.ItemEvent#paramString() public java.lang.String
+     * java.awt.event.ItemEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.ItemEvent#getItem()
+     * @see java.awt.event.ItemEvent#paramString() public java.lang.String java.awt.event.ItemEvent.paramString() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getItem()
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,12 +59,17 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
      * Test method for {@link java.awt.event.ItemEvent#getItemSelectable() public java.awt.ItemSelectable
      * java.awt.event.ItemEvent.getItemSelectable()}.
      *
+     * <p>
+     * Test method for {@link java.awt.event.ItemEvent#getItemSelectable() public java.awt.ItemSelectable
+     * java.awt.event.ItemEvent.getItemSelectable()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.ItemEvent#getItemSelectable()
+     * @see java.awt.event.ItemEvent#getItemSelectable() public java.awt.ItemSelectable
+     *      java.awt.event.ItemEvent.getItemSelectable() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,20 +83,25 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.ItemEvent#getStateChange() public int
-     * java.awt.event.ItemEvent.getStateChange()}.
+     * Test method for {@link java.awt.event.ItemEvent#getItem() public java.lang.Object
+     * java.awt.event.ItemEvent.getItem()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.event.ItemEvent#getItem() public java.lang.Object
+     * java.awt.event.ItemEvent.getItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.ItemEvent#getStateChange()
+     * @see java.awt.event.ItemEvent#getItem() public java.lang.Object java.awt.event.ItemEvent.getItem() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStateChange()
+    public default void test_getItem()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,21 +110,25 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.ItemEvent#paramString() public java.lang.String
-     * java.awt.event.ItemEvent.paramString()}.
+     * Test method for {@link java.awt.event.ItemEvent#getStateChange() public int
+     * java.awt.event.ItemEvent.getStateChange()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.event.ItemEvent#getStateChange() public int
+     * java.awt.event.ItemEvent.getStateChange()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.event.ItemEvent#paramString()
+     * @see java.awt.event.ItemEvent#getStateChange() public int java.awt.event.ItemEvent.getStateChange() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_paramString()
+    public default void test_getStateChange()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

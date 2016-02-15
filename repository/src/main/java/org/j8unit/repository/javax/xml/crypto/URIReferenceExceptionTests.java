@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.URIReferenceException class
- * javax.xml.crypto.URIReferenceException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.URIReferenceException class
+ * javax.xml.crypto.URIReferenceException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link URIReferenceExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTests
+ * @see javax.xml.crypto.URIReferenceException class javax.xml.crypto.URIReferenceException (the hereby targeted
+ *      class-under-test class)
+ * @see URIReferenceExceptionClassTests URIReferenceExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.URIReferenceException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,17 +33,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * Test method for {@link javax.xml.crypto.URIReferenceException#getCause() public java.lang.Throwable
      * javax.xml.crypto.URIReferenceException.getCause()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.URIReferenceException#getCause() public java.lang.Throwable
+     * javax.xml.crypto.URIReferenceException.getCause()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.URIReferenceException#getCause()
+     * @see javax.xml.crypto.URIReferenceException#getCause() public java.lang.Throwable
+     *      javax.xml.crypto.URIReferenceException.getCause() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getCause()
     throws Exception {
         // query fresh subject-under-test
@@ -55,12 +61,17 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * Test method for {@link javax.xml.crypto.URIReferenceException#getURIReference() public
      * javax.xml.crypto.URIReference javax.xml.crypto.URIReferenceException.getURIReference()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.URIReferenceException#getURIReference() public
+     * javax.xml.crypto.URIReference javax.xml.crypto.URIReferenceException.getURIReference()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.URIReferenceException#getURIReference()
+     * @see javax.xml.crypto.URIReferenceException#getURIReference() public javax.xml.crypto.URIReference
+     *      javax.xml.crypto.URIReferenceException.getURIReference() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,17 +88,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * Test method for {@link javax.xml.crypto.URIReferenceException#printStackTrace() public void
      * javax.xml.crypto.URIReferenceException.printStackTrace()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.URIReferenceException#printStackTrace() public void
+     * javax.xml.crypto.URIReferenceException.printStackTrace()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.URIReferenceException#printStackTrace()
+     * @see javax.xml.crypto.URIReferenceException#printStackTrace() public void
+     *      javax.xml.crypto.URIReferenceException.printStackTrace() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_printStackTrace()
     throws Exception {
         // query fresh subject-under-test
@@ -100,17 +116,23 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * Test method for {@link javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintStream) public void
      * javax.xml.crypto.URIReferenceException.printStackTrace(java.io.PrintStream)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.crypto.URIReferenceException.printStackTrace(java.io.PrintStream)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintStream)
+     * @see javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintStream) public void
+     *      javax.xml.crypto.URIReferenceException.printStackTrace(java.io.PrintStream) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_printStackTrace_PrintStream()
     throws Exception {
         // query fresh subject-under-test
@@ -123,17 +145,23 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * Test method for {@link javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintWriter) public void
      * javax.xml.crypto.URIReferenceException.printStackTrace(java.io.PrintWriter)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.crypto.URIReferenceException.printStackTrace(java.io.PrintWriter)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintWriter)
+     * @see javax.xml.crypto.URIReferenceException#printStackTrace(java.io.PrintWriter) public void
+     *      javax.xml.crypto.URIReferenceException.printStackTrace(java.io.PrintWriter) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_printStackTrace_PrintWriter()
     throws Exception {
         // query fresh subject-under-test

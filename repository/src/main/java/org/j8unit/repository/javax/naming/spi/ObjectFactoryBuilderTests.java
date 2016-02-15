@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.naming.spi.ObjectFactoryBuilder interface
- * javax.naming.spi.ObjectFactoryBuilder}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.naming.spi.ObjectFactoryBuilderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.naming.spi.ObjectFactoryBuilder interface
+ * javax.naming.spi.ObjectFactoryBuilder}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link ObjectFactoryBuilderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.naming.spi.ObjectFactoryBuilderClassTests
+ * @see javax.naming.spi.ObjectFactoryBuilder interface javax.naming.spi.ObjectFactoryBuilder (the hereby targeted
+ *      class-under-test class)
+ * @see ObjectFactoryBuilderClassTests ObjectFactoryBuilderClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.naming.spi.ObjectFactoryBuilder
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,9 +31,14 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.naming.spi.ObjectFactoryBuilder#createObjectFactory(java.lang.Object, java.util.Hashtable) public
-     * abstract javax.naming.spi.ObjectFactory
+     * Test method for {@link javax.naming.spi.ObjectFactoryBuilder#createObjectFactory(Object, java.util.Hashtable)
+     * public abstract javax.naming.spi.ObjectFactory
+     * javax.naming.spi.ObjectFactoryBuilder.createObjectFactory(java.lang.Object,java.util.Hashtable<?, ?>) throws
+     * javax.naming.NamingException}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.spi.ObjectFactoryBuilder#createObjectFactory(Object, java.util.Hashtable)
+     * public abstract javax.naming.spi.ObjectFactory
      * javax.naming.spi.ObjectFactoryBuilder.createObjectFactory(java.lang.Object,java.util.Hashtable) throws
      * javax.naming.NamingException}.
      *
@@ -41,7 +47,10 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.spi.ObjectFactoryBuilder#createObjectFactory(java.lang.Object, java.util.Hashtable)
+     * @see javax.naming.spi.ObjectFactoryBuilder#createObjectFactory(Object, java.util.Hashtable) public abstract
+     *      javax.naming.spi.ObjectFactory
+     *      javax.naming.spi.ObjectFactoryBuilder.createObjectFactory(java.lang.Object,java.util.Hashtable) throws
+     *      javax.naming.NamingException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

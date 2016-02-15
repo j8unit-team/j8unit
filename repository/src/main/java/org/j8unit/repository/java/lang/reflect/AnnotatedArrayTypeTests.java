@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.reflect.AnnotatedArrayType interface
- * java.lang.reflect.AnnotatedArrayType}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.reflect.AnnotatedArrayTypeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.reflect.AnnotatedArrayType interface
+ * java.lang.reflect.AnnotatedArrayType}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link AnnotatedArrayTypeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.reflect.AnnotatedArrayTypeClassTests
+ * @see java.lang.reflect.AnnotatedArrayType interface java.lang.reflect.AnnotatedArrayType (the hereby targeted
+ *      class-under-test class)
+ * @see AnnotatedArrayTypeClassTests AnnotatedArrayTypeClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.reflect.AnnotatedArrayType
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedArrayTypeTests<SUT extends java.lang.reflect.AnnotatedArrayType>
-extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {
+extends AnnotatedTypeTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.lang.reflect.AnnotatedArrayType#getAnnotatedGenericComponentType() public abstract
+     * java.lang.reflect.AnnotatedType java.lang.reflect.AnnotatedArrayType.getAnnotatedGenericComponentType()}.
+     *
      * <p>
      * Test method for {@link java.lang.reflect.AnnotatedArrayType#getAnnotatedGenericComponentType() public abstract
      * java.lang.reflect.AnnotatedType java.lang.reflect.AnnotatedArrayType.getAnnotatedGenericComponentType()}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.reflect.AnnotatedArrayType#getAnnotatedGenericComponentType()
+     * @see java.lang.reflect.AnnotatedArrayType#getAnnotatedGenericComponentType() public abstract
+     *      java.lang.reflect.AnnotatedType java.lang.reflect.AnnotatedArrayType.getAnnotatedGenericComponentType() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

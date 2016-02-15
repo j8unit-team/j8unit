@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.ietf.jgss.ChannelBinding class org.ietf.jgss.ChannelBinding},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.ietf.jgss.ChannelBindingTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.ietf.jgss.ChannelBinding class org.ietf.jgss.ChannelBinding}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ChannelBindingClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.ietf.jgss.ChannelBindingClassTests
+ * @see org.ietf.jgss.ChannelBinding class org.ietf.jgss.ChannelBinding (the hereby targeted class-under-test class)
+ * @see ChannelBindingClassTests ChannelBindingClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.ietf.jgss.ChannelBinding
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,28 +28,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#equals(java.lang.Object) public boolean
-     * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
+     * Test method for {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
+     * org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.ietf.jgss.ChannelBinding#equals(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
      * org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
@@ -60,7 +40,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.ietf.jgss.ChannelBinding#getAcceptorAddress()
+     * @see org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
+     *      org.ietf.jgss.ChannelBinding.getAcceptorAddress() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,27 +55,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
-     * org.ietf.jgss.ChannelBinding.getApplicationData()}.
+     * Test method for {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
+     * org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.ietf.jgss.ChannelBinding#getApplicationData()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getApplicationData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
      * org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
@@ -104,7 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.ietf.jgss.ChannelBinding#getInitiatorAddress()
+     * @see org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
+     *      org.ietf.jgss.ChannelBinding.getInitiatorAddress() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,6 +82,65 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#equals(Object) public boolean
+     * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#equals(Object) public boolean
+     * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.ietf.jgss.ChannelBinding#equals(Object) public boolean
+     *      org.ietf.jgss.ChannelBinding.equals(java.lang.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
+     * org.ietf.jgss.ChannelBinding.getApplicationData()}.
+     *
+     * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
+     * org.ietf.jgss.ChannelBinding.getApplicationData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
+     *      org.ietf.jgss.ChannelBinding.getApplicationData() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getApplicationData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#hashCode() public int
+     * org.ietf.jgss.ChannelBinding.hashCode()}.
+     *
+     * <p>
      * Test method for {@link org.ietf.jgss.ChannelBinding#hashCode() public int
      * org.ietf.jgss.ChannelBinding.hashCode()}.
      *
@@ -126,12 +149,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.ietf.jgss.ChannelBinding#hashCode()
+     * @see org.ietf.jgss.ChannelBinding#hashCode() public int org.ietf.jgss.ChannelBinding.hashCode() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test

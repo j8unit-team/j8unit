@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.file.NotDirectoryException class
- * java.nio.file.NotDirectoryException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.file.NotDirectoryExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.file.NotDirectoryException class
+ * java.nio.file.NotDirectoryException}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link NotDirectoryExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.file.NotDirectoryExceptionClassTests
+ * @see java.nio.file.NotDirectoryException class java.nio.file.NotDirectoryException (the hereby targeted
+ *      class-under-test class)
+ * @see NotDirectoryExceptionClassTests NotDirectoryExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.file.NotDirectoryException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotDirectoryExceptionTests<SUT extends java.nio.file.NotDirectoryException>
-extends org.j8unit.repository.java.nio.file.FileSystemExceptionTests<SUT> {
+extends FileSystemExceptionTests<SUT> {
 
 }

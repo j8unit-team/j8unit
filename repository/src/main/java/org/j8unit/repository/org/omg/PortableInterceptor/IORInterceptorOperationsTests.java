@@ -8,26 +8,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableInterceptor.IORInterceptorOperations interface
- * org.omg.PortableInterceptor.IORInterceptorOperations}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperationsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.IORInterceptorOperations interface
+ * org.omg.PortableInterceptor.IORInterceptorOperations}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link IORInterceptorOperationsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperationsClassTests
+ * @see org.omg.PortableInterceptor.IORInterceptorOperations interface
+ *      org.omg.PortableInterceptor.IORInterceptorOperations (the hereby targeted class-under-test class)
+ * @see IORInterceptorOperationsClassTests IORInterceptorOperationsClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableInterceptor.IORInterceptorOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInterceptorOperationsTests<SUT extends org.omg.PortableInterceptor.IORInterceptorOperations>
-extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsTests<SUT> {
+extends InterceptorOperationsTests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.IORInterceptorOperations#establish_components(org.omg.PortableInterceptor.IORInfo)
+     * public abstract void
+     * org.omg.PortableInterceptor.IORInterceptorOperations.establish_components(org.omg.PortableInterceptor.IORInfo)}.
+     *
      * <p>
      * Test method for
      * {@link org.omg.PortableInterceptor.IORInterceptorOperations#establish_components(org.omg.PortableInterceptor.IORInfo)
@@ -39,8 +46,10 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.PortableInterceptor.IORInterceptorOperations#establish_components(org.omg.PortableInterceptor
-     *             .IORInfo)
+     * @see org.omg.PortableInterceptor.IORInterceptorOperations#establish_components(org.omg.PortableInterceptor.IORInfo)
+     *      public abstract void
+     *      org.omg.PortableInterceptor.IORInterceptorOperations.establish_components(org.omg.PortableInterceptor.
+     *      IORInfo) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

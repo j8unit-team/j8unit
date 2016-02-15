@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.spec.PSSParameterSpec class
- * java.security.spec.PSSParameterSpec}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.spec.PSSParameterSpecTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.spec.PSSParameterSpec class
+ * java.security.spec.PSSParameterSpec}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link PSSParameterSpecClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.spec.PSSParameterSpecClassTests
+ * @see java.security.spec.PSSParameterSpec class java.security.spec.PSSParameterSpec (the hereby targeted
+ *      class-under-test class)
+ * @see PSSParameterSpecClassTests PSSParameterSpecClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.spec.PSSParameterSpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PSSParameterSpecTests<SUT extends java.security.spec.PSSParameterSpec>
-extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends AlgorithmParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.spec.PSSParameterSpec#getDigestAlgorithm() public java.lang.String
+     * java.security.spec.PSSParameterSpec.getDigestAlgorithm()}.
+     *
      * <p>
      * Test method for {@link java.security.spec.PSSParameterSpec#getDigestAlgorithm() public java.lang.String
      * java.security.spec.PSSParameterSpec.getDigestAlgorithm()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.PSSParameterSpec#getDigestAlgorithm()
+     * @see java.security.spec.PSSParameterSpec#getDigestAlgorithm() public java.lang.String
+     *      java.security.spec.PSSParameterSpec.getDigestAlgorithm() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,6 +57,37 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
+     * Test method for {@link java.security.spec.PSSParameterSpec#getSaltLength() public int
+     * java.security.spec.PSSParameterSpec.getSaltLength()}.
+     *
+     * <p>
+     * Test method for {@link java.security.spec.PSSParameterSpec#getSaltLength() public int
+     * java.security.spec.PSSParameterSpec.getSaltLength()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.spec.PSSParameterSpec#getSaltLength() public int
+     *      java.security.spec.PSSParameterSpec.getSaltLength() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSaltLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.PSSParameterSpec#getMGFAlgorithm() public java.lang.String
+     * java.security.spec.PSSParameterSpec.getMGFAlgorithm()}.
+     *
+     * <p>
      * Test method for {@link java.security.spec.PSSParameterSpec#getMGFAlgorithm() public java.lang.String
      * java.security.spec.PSSParameterSpec.getMGFAlgorithm()}.
      *
@@ -59,7 +96,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.PSSParameterSpec#getMGFAlgorithm()
+     * @see java.security.spec.PSSParameterSpec#getMGFAlgorithm() public java.lang.String
+     *      java.security.spec.PSSParameterSpec.getMGFAlgorithm() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +114,17 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * Test method for {@link java.security.spec.PSSParameterSpec#getMGFParameters() public
      * java.security.spec.AlgorithmParameterSpec java.security.spec.PSSParameterSpec.getMGFParameters()}.
      *
+     * <p>
+     * Test method for {@link java.security.spec.PSSParameterSpec#getMGFParameters() public
+     * java.security.spec.AlgorithmParameterSpec java.security.spec.PSSParameterSpec.getMGFParameters()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.PSSParameterSpec#getMGFParameters()
+     * @see java.security.spec.PSSParameterSpec#getMGFParameters() public java.security.spec.AlgorithmParameterSpec
+     *      java.security.spec.PSSParameterSpec.getMGFParameters() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,27 +138,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.PSSParameterSpec#getSaltLength() public int
-     * java.security.spec.PSSParameterSpec.getSaltLength()}.
+     * Test method for {@link java.security.spec.PSSParameterSpec#getTrailerField() public int
+     * java.security.spec.PSSParameterSpec.getTrailerField()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.spec.PSSParameterSpec#getSaltLength()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSaltLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.spec.PSSParameterSpec#getTrailerField() public int
      * java.security.spec.PSSParameterSpec.getTrailerField()}.
@@ -125,7 +150,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.spec.PSSParameterSpec#getTrailerField()
+     * @see java.security.spec.PSSParameterSpec#getTrailerField() public int
+     *      java.security.spec.PSSParameterSpec.getTrailerField() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

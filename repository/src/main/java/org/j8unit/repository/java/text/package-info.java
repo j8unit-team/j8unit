@@ -1,6 +1,6 @@
 /**
  * <p>
- * This package contains all the <strong>reusable tests</strong> targeting the behaviour of types of package
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of the types of package
  * {@code java.text}.
  * </p>
  *
@@ -9,9 +9,9 @@
  * Specification (Java SE 8 Edition), Section.&nbsp;6.1</a>, some package's &quot;[&hellip;] first identifier [&hellip;]
  * should not be the identifier {@code java} [&hellip;]&quot;. Thus, this test class collection is limited to accessible
  * classes (i.&thinsp;e., top-level, <a href="http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html">nested,
- * inner</a>), accessible methods, and accessible constructors&nbsp;&ndash; simply because it cannot place test classes
- * in the class-under-test's {@code java.*} package (which otherwise would allow access to {@code protected}, resp.
- * <em>package-private</em> elements).
+ * inner</a>) and accessible methods&nbsp;&ndash; simply because it cannot place test classes in the class-under-test's
+ * {@code java.*} package (which otherwise would allow access to {@code protected}, resp. <em>package-private</em>
+ * elements).
  * </p>
  *
  * @since 0.9.0

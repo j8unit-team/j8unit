@@ -8,71 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.AbstractButton class javax.swing.AbstractButton},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.AbstractButtonTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.AbstractButton class javax.swing.AbstractButton}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link AbstractButtonClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.AbstractButtonClassTests
+ * @see javax.swing.AbstractButton class javax.swing.AbstractButton (the hereby targeted class-under-test class)
+ * @see AbstractButtonClassTests AbstractButtonClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.AbstractButton
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractButtonTests<SUT extends javax.swing.AbstractButton>
-extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>,
-org.j8unit.repository.javax.swing.JComponentTests<SUT> {
+extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#addActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.AbstractButton.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link javax.swing.AbstractButton#addItemListener(java.awt.event.ItemListener) public void
+     * javax.swing.AbstractButton.addItemListener(java.awt.event.ItemListener)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#addActionListener(java.awt.event.ActionListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addActionListener_ActionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#addChangeListener(javax.swing.event.ChangeListener) public void
-     * javax.swing.AbstractButton.addChangeListener(javax.swing.event.ChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#addChangeListener(javax.swing.event.ChangeListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.AbstractButton#addItemListener(java.awt.event.ItemListener) public void
      * javax.swing.AbstractButton.addItemListener(java.awt.event.ItemListener)}.
@@ -82,12 +40,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#addItemListener(java.awt.event.ItemListener)
+     * @see javax.swing.AbstractButton#addItemListener(java.awt.event.ItemListener) public void
+     *      javax.swing.AbstractButton.addItemListener(java.awt.event.ItemListener) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_addItemListener_ItemListener()
     throws Exception {
         // query fresh subject-under-test
@@ -97,305 +57,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#doClick() public void javax.swing.AbstractButton.doClick()}.
+     * Test method for {@link javax.swing.AbstractButton#isSelected() public boolean
+     * javax.swing.AbstractButton.isSelected()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#doClick()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doClick()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#doClick(int) public void
-     * javax.swing.AbstractButton.doClick(int)}.
+     * Test method for {@link javax.swing.AbstractButton#isSelected() public boolean
+     * javax.swing.AbstractButton.isSelected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#doClick(int)
+     * @see javax.swing.AbstractButton#isSelected() public boolean javax.swing.AbstractButton.isSelected() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doClick_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getAction() public javax.swing.Action
-     * javax.swing.AbstractButton.getAction()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getAction()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getActionCommand() public java.lang.String
-     * javax.swing.AbstractButton.getActionCommand()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getActionCommand()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getActionCommand()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getActionListeners() public java.awt.event.ActionListener[]
-     * javax.swing.AbstractButton.getActionListeners()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getActionListeners()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getActionListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getChangeListeners() public javax.swing.event.ChangeListener[]
-     * javax.swing.AbstractButton.getChangeListeners()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getChangeListeners()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChangeListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getDisabledIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getDisabledIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getDisabledIcon()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisabledIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getDisabledSelectedIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getDisabledSelectedIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getDisabledSelectedIcon()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisabledSelectedIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getDisplayedMnemonicIndex() public int
-     * javax.swing.AbstractButton.getDisplayedMnemonicIndex()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getDisplayedMnemonicIndex()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisplayedMnemonicIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getHideActionText() public boolean
-     * javax.swing.AbstractButton.getHideActionText()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getHideActionText()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHideActionText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getHorizontalAlignment() public int
-     * javax.swing.AbstractButton.getHorizontalAlignment()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getHorizontalAlignment()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHorizontalAlignment()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getHorizontalTextPosition() public int
-     * javax.swing.AbstractButton.getHorizontalTextPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getHorizontalTextPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHorizontalTextPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getIcon()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getIconTextGap() public int
-     * javax.swing.AbstractButton.getIconTextGap()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getIconTextGap()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIconTextGap()
+    public default void test_isSelected()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -407,12 +87,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#getItemListeners() public java.awt.event.ItemListener[]
      * javax.swing.AbstractButton.getItemListeners()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getItemListeners() public java.awt.event.ItemListener[]
+     * javax.swing.AbstractButton.getItemListeners()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getItemListeners()
+     * @see javax.swing.AbstractButton#getItemListeners() public java.awt.event.ItemListener[]
+     *      javax.swing.AbstractButton.getItemListeners() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -426,6 +111,1205 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.AbstractButton#getDisabledSelectedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getDisabledSelectedIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getDisabledSelectedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getDisabledSelectedIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getDisabledSelectedIcon() public javax.swing.Icon
+     *      javax.swing.AbstractButton.getDisabledSelectedIcon() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisabledSelectedIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getHorizontalTextPosition() public int
+     * javax.swing.AbstractButton.getHorizontalTextPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getHorizontalTextPosition() public int
+     * javax.swing.AbstractButton.getHorizontalTextPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getHorizontalTextPosition() public int
+     *      javax.swing.AbstractButton.getHorizontalTextPosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHorizontalTextPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#imageUpdate(java.awt.Image, int, int, int, int, int) public
+     * boolean javax.swing.AbstractButton.imageUpdate(java.awt.Image,int,int,int,int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#imageUpdate(java.awt.Image, int, int, int, int, int) public
+     * boolean javax.swing.AbstractButton.imageUpdate(java.awt.Image,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#imageUpdate(java.awt.Image, int, int, int, int, int) public boolean
+     *      javax.swing.AbstractButton.imageUpdate(java.awt.Image,int,int,int,int,int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_imageUpdate_Image_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setHideActionText(boolean) public void
+     * javax.swing.AbstractButton.setHideActionText(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setHideActionText(boolean) public void
+     * javax.swing.AbstractButton.setHideActionText(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setHideActionText(boolean) public void
+     *      javax.swing.AbstractButton.setHideActionText(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHideActionText_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getIconTextGap() public int
+     * javax.swing.AbstractButton.getIconTextGap()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getIconTextGap() public int
+     * javax.swing.AbstractButton.getIconTextGap()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getIconTextGap() public int javax.swing.AbstractButton.getIconTextGap() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIconTextGap()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#removeActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.AbstractButton.removeActionListener(java.awt.event.ActionListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#removeActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.AbstractButton.removeActionListener(java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#removeActionListener(java.awt.event.ActionListener) public void
+     *      javax.swing.AbstractButton.removeActionListener(java.awt.event.ActionListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeActionListener_ActionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isRolloverEnabled() public boolean
+     * javax.swing.AbstractButton.isRolloverEnabled()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isRolloverEnabled() public boolean
+     * javax.swing.AbstractButton.isRolloverEnabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#isRolloverEnabled() public boolean javax.swing.AbstractButton.isRolloverEnabled()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRolloverEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setBorderPainted(boolean) public void
+     * javax.swing.AbstractButton.setBorderPainted(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setBorderPainted(boolean) public void
+     * javax.swing.AbstractButton.setBorderPainted(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setBorderPainted(boolean) public void
+     *      javax.swing.AbstractButton.setBorderPainted(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBorderPainted_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setDisplayedMnemonicIndex(int) public void
+     * javax.swing.AbstractButton.setDisplayedMnemonicIndex(int) throws java.lang.IllegalArgumentException}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setDisplayedMnemonicIndex(int) public void
+     * javax.swing.AbstractButton.setDisplayedMnemonicIndex(int) throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setDisplayedMnemonicIndex(int) public void
+     *      javax.swing.AbstractButton.setDisplayedMnemonicIndex(int) throws java.lang.IllegalArgumentException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDisplayedMnemonicIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#updateUI() public void javax.swing.AbstractButton.updateUI()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#updateUI() public void javax.swing.AbstractButton.updateUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#updateUI() public void javax.swing.AbstractButton.updateUI() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_updateUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setAction(javax.swing.Action) public void
+     * javax.swing.AbstractButton.setAction(javax.swing.Action)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setAction(javax.swing.Action) public void
+     * javax.swing.AbstractButton.setAction(javax.swing.Action)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setAction(javax.swing.Action) public void
+     *      javax.swing.AbstractButton.setAction(javax.swing.Action) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAction_Action()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setMultiClickThreshhold(long) public void
+     * javax.swing.AbstractButton.setMultiClickThreshhold(long)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setMultiClickThreshhold(long) public void
+     * javax.swing.AbstractButton.setMultiClickThreshhold(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setMultiClickThreshhold(long) public void
+     *      javax.swing.AbstractButton.setMultiClickThreshhold(long) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMultiClickThreshhold_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getRolloverSelectedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getRolloverSelectedIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getRolloverSelectedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getRolloverSelectedIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getRolloverSelectedIcon() public javax.swing.Icon
+     *      javax.swing.AbstractButton.getRolloverSelectedIcon() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRolloverSelectedIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setLabel(String) public void
+     * javax.swing.AbstractButton.setLabel(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setLabel(String) public void
+     * javax.swing.AbstractButton.setLabel(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setLabel(String) public void
+     *      javax.swing.AbstractButton.setLabel(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLabel_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getActionListeners() public java.awt.event.ActionListener[]
+     * javax.swing.AbstractButton.getActionListeners()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getActionListeners() public java.awt.event.ActionListener[]
+     * javax.swing.AbstractButton.getActionListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getActionListeners() public java.awt.event.ActionListener[]
+     *      javax.swing.AbstractButton.getActionListeners() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getActionListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setText(String) public void
+     * javax.swing.AbstractButton.setText(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setText(String) public void
+     * javax.swing.AbstractButton.setText(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setText(String) public void javax.swing.AbstractButton.setText(java.lang.String)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setText_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setIconTextGap(int) public void
+     * javax.swing.AbstractButton.setIconTextGap(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setIconTextGap(int) public void
+     * javax.swing.AbstractButton.setIconTextGap(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setIconTextGap(int) public void javax.swing.AbstractButton.setIconTextGap(int)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIconTextGap_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setUI(javax.swing.plaf.ButtonUI) public void
+     * javax.swing.AbstractButton.setUI(javax.swing.plaf.ButtonUI)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setUI(javax.swing.plaf.ButtonUI) public void
+     * javax.swing.AbstractButton.setUI(javax.swing.plaf.ButtonUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setUI(javax.swing.plaf.ButtonUI) public void
+     *      javax.swing.AbstractButton.setUI(javax.swing.plaf.ButtonUI) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_ButtonUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#removeChangeListener(javax.swing.event.ChangeListener) public
+     * void javax.swing.AbstractButton.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#removeChangeListener(javax.swing.event.ChangeListener) public
+     * void javax.swing.AbstractButton.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#removeChangeListener(javax.swing.event.ChangeListener) public void
+     *      javax.swing.AbstractButton.removeChangeListener(javax.swing.event.ChangeListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setFocusPainted(boolean) public void
+     * javax.swing.AbstractButton.setFocusPainted(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setFocusPainted(boolean) public void
+     * javax.swing.AbstractButton.setFocusPainted(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setFocusPainted(boolean) public void
+     *      javax.swing.AbstractButton.setFocusPainted(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFocusPainted_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getVerticalAlignment() public int
+     * javax.swing.AbstractButton.getVerticalAlignment()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getVerticalAlignment() public int
+     * javax.swing.AbstractButton.getVerticalAlignment()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getVerticalAlignment() public int
+     *      javax.swing.AbstractButton.getVerticalAlignment() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVerticalAlignment()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getSelectedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getSelectedIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getSelectedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getSelectedIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getSelectedIcon() public javax.swing.Icon
+     *      javax.swing.AbstractButton.getSelectedIcon() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setVerticalAlignment(int) public void
+     * javax.swing.AbstractButton.setVerticalAlignment(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setVerticalAlignment(int) public void
+     * javax.swing.AbstractButton.setVerticalAlignment(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setVerticalAlignment(int) public void
+     *      javax.swing.AbstractButton.setVerticalAlignment(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setVerticalAlignment_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getRolloverIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getRolloverIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getRolloverIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getRolloverIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getRolloverIcon() public javax.swing.Icon
+     *      javax.swing.AbstractButton.getRolloverIcon() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRolloverIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setPressedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setPressedIcon(javax.swing.Icon)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setPressedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setPressedIcon(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setPressedIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setPressedIcon(javax.swing.Icon) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPressedIcon_Icon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getHorizontalAlignment() public int
+     * javax.swing.AbstractButton.getHorizontalAlignment()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getHorizontalAlignment() public int
+     * javax.swing.AbstractButton.getHorizontalAlignment()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getHorizontalAlignment() public int
+     *      javax.swing.AbstractButton.getHorizontalAlignment() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHorizontalAlignment()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getDisabledIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getDisabledIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getDisabledIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getDisabledIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getDisabledIcon() public javax.swing.Icon
+     *      javax.swing.AbstractButton.getDisabledIcon() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisabledIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getAction() public javax.swing.Action
+     * javax.swing.AbstractButton.getAction()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getAction() public javax.swing.Action
+     * javax.swing.AbstractButton.getAction()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getAction() public javax.swing.Action javax.swing.AbstractButton.getAction() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getVerticalTextPosition() public int
+     * javax.swing.AbstractButton.getVerticalTextPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getVerticalTextPosition() public int
+     * javax.swing.AbstractButton.getVerticalTextPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getVerticalTextPosition() public int
+     *      javax.swing.AbstractButton.getVerticalTextPosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVerticalTextPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setActionCommand(String) public void
+     * javax.swing.AbstractButton.setActionCommand(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setActionCommand(String) public void
+     * javax.swing.AbstractButton.setActionCommand(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setActionCommand(String) public void
+     *      javax.swing.AbstractButton.setActionCommand(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setActionCommand_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setMargin(java.awt.Insets) public void
+     * javax.swing.AbstractButton.setMargin(java.awt.Insets)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setMargin(java.awt.Insets) public void
+     * javax.swing.AbstractButton.setMargin(java.awt.Insets)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setMargin(java.awt.Insets) public void
+     *      javax.swing.AbstractButton.setMargin(java.awt.Insets) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMargin_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getIcon() public javax.swing.Icon javax.swing.AbstractButton.getIcon() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getHideActionText() public boolean
+     * javax.swing.AbstractButton.getHideActionText()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getHideActionText() public boolean
+     * javax.swing.AbstractButton.getHideActionText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getHideActionText() public boolean javax.swing.AbstractButton.getHideActionText()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHideActionText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setHorizontalTextPosition(int) public void
+     * javax.swing.AbstractButton.setHorizontalTextPosition(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setHorizontalTextPosition(int) public void
+     * javax.swing.AbstractButton.setHorizontalTextPosition(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setHorizontalTextPosition(int) public void
+     *      javax.swing.AbstractButton.setHorizontalTextPosition(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHorizontalTextPosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setRolloverSelectedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setRolloverSelectedIcon(javax.swing.Icon)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setRolloverSelectedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setRolloverSelectedIcon(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setRolloverSelectedIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setRolloverSelectedIcon(javax.swing.Icon) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRolloverSelectedIcon_Icon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getDisplayedMnemonicIndex() public int
+     * javax.swing.AbstractButton.getDisplayedMnemonicIndex()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getDisplayedMnemonicIndex() public int
+     * javax.swing.AbstractButton.getDisplayedMnemonicIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getDisplayedMnemonicIndex() public int
+     *      javax.swing.AbstractButton.getDisplayedMnemonicIndex() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisplayedMnemonicIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isBorderPainted() public boolean
+     * javax.swing.AbstractButton.isBorderPainted()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isBorderPainted() public boolean
+     * javax.swing.AbstractButton.isBorderPainted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#isBorderPainted() public boolean javax.swing.AbstractButton.isBorderPainted()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBorderPainted()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isFocusPainted() public boolean
+     * javax.swing.AbstractButton.isFocusPainted()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isFocusPainted() public boolean
+     * javax.swing.AbstractButton.isFocusPainted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#isFocusPainted() public boolean javax.swing.AbstractButton.isFocusPainted() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFocusPainted()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setSelectedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setSelectedIcon(javax.swing.Icon)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setSelectedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setSelectedIcon(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setSelectedIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setSelectedIcon(javax.swing.Icon) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedIcon_Icon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setLayout(java.awt.LayoutManager) public void
+     * javax.swing.AbstractButton.setLayout(java.awt.LayoutManager)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setLayout(java.awt.LayoutManager) public void
+     * javax.swing.AbstractButton.setLayout(java.awt.LayoutManager)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setLayout(java.awt.LayoutManager) public void
+     *      javax.swing.AbstractButton.setLayout(java.awt.LayoutManager) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setLayout_LayoutManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getSelectedObjects() public java.lang.Object[]
+     * javax.swing.AbstractButton.getSelectedObjects()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getSelectedObjects() public java.lang.Object[]
+     * javax.swing.AbstractButton.getSelectedObjects()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getSelectedObjects() public java.lang.Object[]
+     *      javax.swing.AbstractButton.getSelectedObjects() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedObjects()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.AbstractButton.addChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.AbstractButton.addChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#addChangeListener(javax.swing.event.ChangeListener) public void
+     *      javax.swing.AbstractButton.addChangeListener(javax.swing.event.ChangeListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getMnemonic() public int
+     * javax.swing.AbstractButton.getMnemonic()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getMnemonic() public int
+     * javax.swing.AbstractButton.getMnemonic()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getMnemonic() public int javax.swing.AbstractButton.getMnemonic() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMnemonic()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setRolloverEnabled(boolean) public void
+     * javax.swing.AbstractButton.setRolloverEnabled(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setRolloverEnabled(boolean) public void
+     * javax.swing.AbstractButton.setRolloverEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setRolloverEnabled(boolean) public void
+     *      javax.swing.AbstractButton.setRolloverEnabled(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRolloverEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getLabel() public java.lang.String
+     * javax.swing.AbstractButton.getLabel()}.
+     *
+     * <p>
      * Test method for {@link javax.swing.AbstractButton#getLabel() public java.lang.String
      * javax.swing.AbstractButton.getLabel()}.
      *
@@ -434,7 +1318,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getLabel()
+     * @see javax.swing.AbstractButton#getLabel() public java.lang.String javax.swing.AbstractButton.getLabel() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -451,12 +1336,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#getMargin() public java.awt.Insets
      * javax.swing.AbstractButton.getMargin()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getMargin() public java.awt.Insets
+     * javax.swing.AbstractButton.getMargin()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getMargin()
+     * @see javax.swing.AbstractButton#getMargin() public java.awt.Insets javax.swing.AbstractButton.getMargin() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -470,20 +1360,23 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#getMnemonic() public int
-     * javax.swing.AbstractButton.getMnemonic()}.
+     * Test method for {@link javax.swing.AbstractButton#doClick() public void javax.swing.AbstractButton.doClick()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#doClick() public void javax.swing.AbstractButton.doClick()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getMnemonic()
+     * @see javax.swing.AbstractButton#doClick() public void javax.swing.AbstractButton.doClick() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMnemonic()
+    public default void test_doClick()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -492,20 +1385,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#getModel() public javax.swing.ButtonModel
-     * javax.swing.AbstractButton.getModel()}.
+     * Test method for {@link javax.swing.AbstractButton#doClick(int) public void
+     * javax.swing.AbstractButton.doClick(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#doClick(int) public void
+     * javax.swing.AbstractButton.doClick(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getModel()
+     * @see javax.swing.AbstractButton#doClick(int) public void javax.swing.AbstractButton.doClick(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getModel()
+    public default void test_doClick_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -514,20 +1412,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#getMultiClickThreshhold() public long
-     * javax.swing.AbstractButton.getMultiClickThreshhold()}.
+     * Test method for {@link javax.swing.AbstractButton#setSelected(boolean) public void
+     * javax.swing.AbstractButton.setSelected(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setSelected(boolean) public void
+     * javax.swing.AbstractButton.setSelected(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getMultiClickThreshhold()
+     * @see javax.swing.AbstractButton#setSelected(boolean) public void javax.swing.AbstractButton.setSelected(boolean)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMultiClickThreshhold()
+    public default void test_setSelected_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -536,530 +1439,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#getPressedIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getPressedIcon()}.
+     * Test method for {@link javax.swing.AbstractButton#getActionCommand() public java.lang.String
+     * javax.swing.AbstractButton.getActionCommand()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getPressedIcon()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPressedIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#getRolloverIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getRolloverIcon()}.
+     * Test method for {@link javax.swing.AbstractButton#getActionCommand() public java.lang.String
+     * javax.swing.AbstractButton.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#getRolloverIcon()
+     * @see javax.swing.AbstractButton#getActionCommand() public java.lang.String
+     *      javax.swing.AbstractButton.getActionCommand() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRolloverIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getRolloverSelectedIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getRolloverSelectedIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getRolloverSelectedIcon()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRolloverSelectedIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getSelectedIcon() public javax.swing.Icon
-     * javax.swing.AbstractButton.getSelectedIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getSelectedIcon()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectedIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getSelectedObjects() public java.lang.Object[]
-     * javax.swing.AbstractButton.getSelectedObjects()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getSelectedObjects()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSelectedObjects()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getText() public java.lang.String
-     * javax.swing.AbstractButton.getText()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getText()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getUI() public javax.swing.plaf.ButtonUI
-     * javax.swing.AbstractButton.getUI()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getUI()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getVerticalAlignment() public int
-     * javax.swing.AbstractButton.getVerticalAlignment()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getVerticalAlignment()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVerticalAlignment()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#getVerticalTextPosition() public int
-     * javax.swing.AbstractButton.getVerticalTextPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#getVerticalTextPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVerticalTextPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#imageUpdate(java.awt.Image, int, int, int, int, int) public
-     * boolean javax.swing.AbstractButton.imageUpdate(java.awt.Image,int,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#imageUpdate(java.awt.Image, int, int, int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_imageUpdate_Image_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#isBorderPainted() public boolean
-     * javax.swing.AbstractButton.isBorderPainted()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#isBorderPainted()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBorderPainted()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#isContentAreaFilled() public boolean
-     * javax.swing.AbstractButton.isContentAreaFilled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#isContentAreaFilled()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isContentAreaFilled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#isFocusPainted() public boolean
-     * javax.swing.AbstractButton.isFocusPainted()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#isFocusPainted()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFocusPainted()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#isRolloverEnabled() public boolean
-     * javax.swing.AbstractButton.isRolloverEnabled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#isRolloverEnabled()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRolloverEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#isSelected() public boolean
-     * javax.swing.AbstractButton.isSelected()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#isSelected()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSelected()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#removeActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.AbstractButton.removeActionListener(java.awt.event.ActionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#removeActionListener(java.awt.event.ActionListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeActionListener_ActionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#removeChangeListener(javax.swing.event.ChangeListener) public
-     * void javax.swing.AbstractButton.removeChangeListener(javax.swing.event.ChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#removeChangeListener(javax.swing.event.ChangeListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#removeItemListener(java.awt.event.ItemListener) public void
-     * javax.swing.AbstractButton.removeItemListener(java.awt.event.ItemListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#removeItemListener(java.awt.event.ItemListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeItemListener_ItemListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#removeNotify() public void
-     * javax.swing.AbstractButton.removeNotify()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#removeNotify()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setAction(javax.swing.Action) public void
-     * javax.swing.AbstractButton.setAction(javax.swing.Action)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setAction(javax.swing.Action)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAction_Action()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setActionCommand(java.lang.String) public void
-     * javax.swing.AbstractButton.setActionCommand(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setActionCommand(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setActionCommand_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setBorderPainted(boolean) public void
-     * javax.swing.AbstractButton.setBorderPainted(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setBorderPainted(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBorderPainted_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setContentAreaFilled(boolean) public void
-     * javax.swing.AbstractButton.setContentAreaFilled(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setContentAreaFilled(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setContentAreaFilled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setDisabledIcon(javax.swing.Icon) public void
-     * javax.swing.AbstractButton.setDisabledIcon(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setDisabledIcon(javax.swing.Icon)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDisabledIcon_Icon()
+    public default void test_getActionCommand()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1071,12 +1469,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#setDisabledSelectedIcon(javax.swing.Icon) public void
      * javax.swing.AbstractButton.setDisabledSelectedIcon(javax.swing.Icon)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setDisabledSelectedIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setDisabledSelectedIcon(javax.swing.Icon)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setDisabledSelectedIcon(javax.swing.Icon)
+     * @see javax.swing.AbstractButton#setDisabledSelectedIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setDisabledSelectedIcon(javax.swing.Icon) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1090,43 +1493,26 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setDisplayedMnemonicIndex(int) public void
-     * javax.swing.AbstractButton.setDisplayedMnemonicIndex(int) throws java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.swing.AbstractButton#removeNotify() public void
+     * javax.swing.AbstractButton.removeNotify()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setDisplayedMnemonicIndex(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDisplayedMnemonicIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setEnabled(boolean) public void
-     * javax.swing.AbstractButton.setEnabled(boolean)}.
+     * Test method for {@link javax.swing.AbstractButton#removeNotify() public void
+     * javax.swing.AbstractButton.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setEnabled(boolean)
+     * @see javax.swing.AbstractButton#removeNotify() public void javax.swing.AbstractButton.removeNotify() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_setEnabled_boolean()
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1135,20 +1521,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setFocusPainted(boolean) public void
-     * javax.swing.AbstractButton.setFocusPainted(boolean)}.
+     * Test method for {@link javax.swing.AbstractButton#getMultiClickThreshhold() public long
+     * javax.swing.AbstractButton.getMultiClickThreshhold()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getMultiClickThreshhold() public long
+     * javax.swing.AbstractButton.getMultiClickThreshhold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setFocusPainted(boolean)
+     * @see javax.swing.AbstractButton#getMultiClickThreshhold() public long
+     *      javax.swing.AbstractButton.getMultiClickThreshhold() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFocusPainted_boolean()
+    public default void test_getMultiClickThreshhold()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1157,20 +1548,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setHideActionText(boolean) public void
-     * javax.swing.AbstractButton.setHideActionText(boolean)}.
+     * Test method for {@link javax.swing.AbstractButton#setModel(javax.swing.ButtonModel) public void
+     * javax.swing.AbstractButton.setModel(javax.swing.ButtonModel)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setModel(javax.swing.ButtonModel) public void
+     * javax.swing.AbstractButton.setModel(javax.swing.ButtonModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setHideActionText(boolean)
+     * @see javax.swing.AbstractButton#setModel(javax.swing.ButtonModel) public void
+     *      javax.swing.AbstractButton.setModel(javax.swing.ButtonModel) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHideActionText_boolean()
+    public default void test_setModel_ButtonModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1182,12 +1578,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#setHorizontalAlignment(int) public void
      * javax.swing.AbstractButton.setHorizontalAlignment(int)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setHorizontalAlignment(int) public void
+     * javax.swing.AbstractButton.setHorizontalAlignment(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setHorizontalAlignment(int)
+     * @see javax.swing.AbstractButton#setHorizontalAlignment(int) public void
+     *      javax.swing.AbstractButton.setHorizontalAlignment(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1201,20 +1602,134 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setHorizontalTextPosition(int) public void
-     * javax.swing.AbstractButton.setHorizontalTextPosition(int)}.
+     * Test method for {@link javax.swing.AbstractButton#setDisabledIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setDisabledIcon(javax.swing.Icon)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setDisabledIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setDisabledIcon(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setHorizontalTextPosition(int)
+     * @see javax.swing.AbstractButton#setDisabledIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setDisabledIcon(javax.swing.Icon) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHorizontalTextPosition_int()
+    public default void test_setDisabledIcon_Icon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isContentAreaFilled() public boolean
+     * javax.swing.AbstractButton.isContentAreaFilled()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#isContentAreaFilled() public boolean
+     * javax.swing.AbstractButton.isContentAreaFilled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#isContentAreaFilled() public boolean
+     *      javax.swing.AbstractButton.isContentAreaFilled() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isContentAreaFilled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setRolloverIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setRolloverIcon(javax.swing.Icon)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setRolloverIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setRolloverIcon(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setRolloverIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setRolloverIcon(javax.swing.Icon) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRolloverIcon_Icon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getUI() public javax.swing.plaf.ButtonUI
+     * javax.swing.AbstractButton.getUI()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getUI() public javax.swing.plaf.ButtonUI
+     * javax.swing.AbstractButton.getUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getUI() public javax.swing.plaf.ButtonUI javax.swing.AbstractButton.getUI() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setEnabled(boolean) public void
+     * javax.swing.AbstractButton.setEnabled(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setEnabled(boolean) public void
+     * javax.swing.AbstractButton.setEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setEnabled(boolean) public void javax.swing.AbstractButton.setEnabled(boolean)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1226,12 +1741,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#setIcon(javax.swing.Icon) public void
      * javax.swing.AbstractButton.setIcon(javax.swing.Icon)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setIcon(javax.swing.Icon) public void
+     * javax.swing.AbstractButton.setIcon(javax.swing.Icon)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setIcon(javax.swing.Icon)
+     * @see javax.swing.AbstractButton#setIcon(javax.swing.Icon) public void
+     *      javax.swing.AbstractButton.setIcon(javax.swing.Icon) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1245,87 +1765,25 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setIconTextGap(int) public void
-     * javax.swing.AbstractButton.setIconTextGap(int)}.
+     * Test method for {@link javax.swing.AbstractButton#setVerticalTextPosition(int) public void
+     * javax.swing.AbstractButton.setVerticalTextPosition(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setIconTextGap(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIconTextGap_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setLabel(java.lang.String) public void
-     * javax.swing.AbstractButton.setLabel(java.lang.String)}.
+     * Test method for {@link javax.swing.AbstractButton#setVerticalTextPosition(int) public void
+     * javax.swing.AbstractButton.setVerticalTextPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setLabel(java.lang.String)
+     * @see javax.swing.AbstractButton#setVerticalTextPosition(int) public void
+     *      javax.swing.AbstractButton.setVerticalTextPosition(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLabel_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setLayout(java.awt.LayoutManager) public void
-     * javax.swing.AbstractButton.setLayout(java.awt.LayoutManager)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setLayout(java.awt.LayoutManager)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setLayout_LayoutManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setMargin(java.awt.Insets) public void
-     * javax.swing.AbstractButton.setMargin(java.awt.Insets)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setMargin(java.awt.Insets)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMargin_Insets()
+    public default void test_setVerticalTextPosition_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1337,12 +1795,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#setMnemonic(char) public void
      * javax.swing.AbstractButton.setMnemonic(char)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setMnemonic(char) public void
+     * javax.swing.AbstractButton.setMnemonic(char)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setMnemonic(char)
+     * @see javax.swing.AbstractButton#setMnemonic(char) public void javax.swing.AbstractButton.setMnemonic(char) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1359,12 +1822,17 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * Test method for {@link javax.swing.AbstractButton#setMnemonic(int) public void
      * javax.swing.AbstractButton.setMnemonic(int)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setMnemonic(int) public void
+     * javax.swing.AbstractButton.setMnemonic(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setMnemonic(int)
+     * @see javax.swing.AbstractButton#setMnemonic(int) public void javax.swing.AbstractButton.setMnemonic(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1378,284 +1846,190 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setModel(javax.swing.ButtonModel) public void
-     * javax.swing.AbstractButton.setModel(javax.swing.ButtonModel)}.
+     * Test method for {@link javax.swing.AbstractButton#removeItemListener(java.awt.event.ItemListener) public void
+     * javax.swing.AbstractButton.removeItemListener(java.awt.event.ItemListener)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setModel(javax.swing.ButtonModel)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setModel_ButtonModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.AbstractButton#setMultiClickThreshhold(long) public void
-     * javax.swing.AbstractButton.setMultiClickThreshhold(long)}.
+     * Test method for {@link javax.swing.AbstractButton#removeItemListener(java.awt.event.ItemListener) public void
+     * javax.swing.AbstractButton.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.AbstractButton#setMultiClickThreshhold(long)
+     * @see javax.swing.AbstractButton#removeItemListener(java.awt.event.ItemListener) public void
+     *      javax.swing.AbstractButton.removeItemListener(java.awt.event.ItemListener) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMultiClickThreshhold_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setPressedIcon(javax.swing.Icon) public void
-     * javax.swing.AbstractButton.setPressedIcon(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setPressedIcon(javax.swing.Icon)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPressedIcon_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setRolloverEnabled(boolean) public void
-     * javax.swing.AbstractButton.setRolloverEnabled(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setRolloverEnabled(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRolloverEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setRolloverIcon(javax.swing.Icon) public void
-     * javax.swing.AbstractButton.setRolloverIcon(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setRolloverIcon(javax.swing.Icon)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRolloverIcon_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setRolloverSelectedIcon(javax.swing.Icon) public void
-     * javax.swing.AbstractButton.setRolloverSelectedIcon(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setRolloverSelectedIcon(javax.swing.Icon)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRolloverSelectedIcon_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setSelected(boolean) public void
-     * javax.swing.AbstractButton.setSelected(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setSelected(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelected_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setSelectedIcon(javax.swing.Icon) public void
-     * javax.swing.AbstractButton.setSelectedIcon(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setSelectedIcon(javax.swing.Icon)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectedIcon_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setText(java.lang.String) public void
-     * javax.swing.AbstractButton.setText(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setText(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setText_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setUI(javax.swing.plaf.ButtonUI) public void
-     * javax.swing.AbstractButton.setUI(javax.swing.plaf.ButtonUI)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setUI(javax.swing.plaf.ButtonUI)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_ButtonUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setVerticalAlignment(int) public void
-     * javax.swing.AbstractButton.setVerticalAlignment(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setVerticalAlignment(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setVerticalAlignment_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#setVerticalTextPosition(int) public void
-     * javax.swing.AbstractButton.setVerticalTextPosition(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#setVerticalTextPosition(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setVerticalTextPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractButton#updateUI() public void javax.swing.AbstractButton.updateUI()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.AbstractButton#updateUI()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_updateUI()
+    @Test
+    @Category(Draft.class)
+    public default void test_removeItemListener_ItemListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setContentAreaFilled(boolean) public void
+     * javax.swing.AbstractButton.setContentAreaFilled(boolean)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#setContentAreaFilled(boolean) public void
+     * javax.swing.AbstractButton.setContentAreaFilled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#setContentAreaFilled(boolean) public void
+     *      javax.swing.AbstractButton.setContentAreaFilled(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setContentAreaFilled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getPressedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getPressedIcon()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getPressedIcon() public javax.swing.Icon
+     * javax.swing.AbstractButton.getPressedIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getPressedIcon() public javax.swing.Icon
+     *      javax.swing.AbstractButton.getPressedIcon() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPressedIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getModel() public javax.swing.ButtonModel
+     * javax.swing.AbstractButton.getModel()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getModel() public javax.swing.ButtonModel
+     * javax.swing.AbstractButton.getModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getModel() public javax.swing.ButtonModel javax.swing.AbstractButton.getModel()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.AbstractButton.getChangeListeners()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.AbstractButton.getChangeListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getChangeListeners() public javax.swing.event.ChangeListener[]
+     *      javax.swing.AbstractButton.getChangeListeners() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChangeListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#addActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.AbstractButton.addActionListener(java.awt.event.ActionListener)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#addActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.AbstractButton.addActionListener(java.awt.event.ActionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#addActionListener(java.awt.event.ActionListener) public void
+     *      javax.swing.AbstractButton.addActionListener(java.awt.event.ActionListener) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addActionListener_ActionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getText() public java.lang.String
+     * javax.swing.AbstractButton.getText()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.AbstractButton#getText() public java.lang.String
+     * javax.swing.AbstractButton.getText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.AbstractButton#getText() public java.lang.String javax.swing.AbstractButton.getText() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

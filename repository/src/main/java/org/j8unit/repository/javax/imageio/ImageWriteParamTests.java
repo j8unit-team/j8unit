@@ -8,92 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.imageio.ImageWriteParam class javax.imageio.ImageWriteParam},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.imageio.ImageWriteParamTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.imageio.ImageWriteParam class javax.imageio.ImageWriteParam}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ImageWriteParamClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.imageio.ImageWriteParamClassTests
+ * @see javax.imageio.ImageWriteParam class javax.imageio.ImageWriteParam (the hereby targeted class-under-test class)
+ * @see ImageWriteParamClassTests ImageWriteParamClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.imageio.ImageWriteParam
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageWriteParamTests<SUT extends javax.imageio.ImageWriteParam>
-extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
+extends IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#canOffsetTiles() public boolean
-     * javax.imageio.ImageWriteParam.canOffsetTiles()}.
+     * Test method for {@link javax.imageio.ImageWriteParam#canWriteTiles() public boolean
+     * javax.imageio.ImageWriteParam.canWriteTiles()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#canOffsetTiles()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canOffsetTiles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#canWriteCompressed() public boolean
-     * javax.imageio.ImageWriteParam.canWriteCompressed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#canWriteCompressed()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canWriteCompressed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#canWriteProgressive() public boolean
-     * javax.imageio.ImageWriteParam.canWriteProgressive()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#canWriteProgressive()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canWriteProgressive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.imageio.ImageWriteParam#canWriteTiles() public boolean
      * javax.imageio.ImageWriteParam.canWriteTiles()}.
@@ -103,7 +40,8 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#canWriteTiles()
+     * @see javax.imageio.ImageWriteParam#canWriteTiles() public boolean javax.imageio.ImageWriteParam.canWriteTiles()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,64 +55,25 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getBitRate(float) public float
-     * javax.imageio.ImageWriteParam.getBitRate(float)}.
+     * Test method for {@link javax.imageio.ImageWriteParam#setTiling(int, int, int, int) public void
+     * javax.imageio.ImageWriteParam.setTiling(int,int,int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getBitRate(float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBitRate_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionMode() public int
-     * javax.imageio.ImageWriteParam.getCompressionMode()}.
+     * Test method for {@link javax.imageio.ImageWriteParam#setTiling(int, int, int, int) public void
+     * javax.imageio.ImageWriteParam.setTiling(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getCompressionMode()
+     * @see javax.imageio.ImageWriteParam#setTiling(int, int, int, int) public void
+     *      javax.imageio.ImageWriteParam.setTiling(int,int,int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCompressionMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQuality() public float
-     * javax.imageio.ImageWriteParam.getCompressionQuality()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getCompressionQuality()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCompressionQuality()
+    public default void test_setTiling_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -186,12 +85,17 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQualityDescriptions() public
      * java.lang.String[] javax.imageio.ImageWriteParam.getCompressionQualityDescriptions()}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQualityDescriptions() public
+     * java.lang.String[] javax.imageio.ImageWriteParam.getCompressionQualityDescriptions()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getCompressionQualityDescriptions()
+     * @see javax.imageio.ImageWriteParam#getCompressionQualityDescriptions() public java.lang.String[]
+     *      javax.imageio.ImageWriteParam.getCompressionQualityDescriptions() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,12 +112,17 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQualityValues() public float[]
      * javax.imageio.ImageWriteParam.getCompressionQualityValues()}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQualityValues() public float[]
+     * javax.imageio.ImageWriteParam.getCompressionQualityValues()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getCompressionQualityValues()
+     * @see javax.imageio.ImageWriteParam#getCompressionQualityValues() public float[]
+     *      javax.imageio.ImageWriteParam.getCompressionQualityValues() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,20 +136,79 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionType() public java.lang.String
-     * javax.imageio.ImageWriteParam.getCompressionType()}.
+     * Test method for {@link javax.imageio.ImageWriteParam#canOffsetTiles() public boolean
+     * javax.imageio.ImageWriteParam.canOffsetTiles()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#canOffsetTiles() public boolean
+     * javax.imageio.ImageWriteParam.canOffsetTiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getCompressionType()
+     * @see javax.imageio.ImageWriteParam#canOffsetTiles() public boolean javax.imageio.ImageWriteParam.canOffsetTiles()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCompressionType()
+    public default void test_canOffsetTiles()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionMode() public int
+     * javax.imageio.ImageWriteParam.getCompressionMode()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionMode() public int
+     * javax.imageio.ImageWriteParam.getCompressionMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getCompressionMode() public int
+     *      javax.imageio.ImageWriteParam.getCompressionMode() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCompressionMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#canWriteCompressed() public boolean
+     * javax.imageio.ImageWriteParam.canWriteCompressed()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#canWriteCompressed() public boolean
+     * javax.imageio.ImageWriteParam.canWriteCompressed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#canWriteCompressed() public boolean
+     *      javax.imageio.ImageWriteParam.canWriteCompressed() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canWriteCompressed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -252,12 +220,17 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * Test method for {@link javax.imageio.ImageWriteParam#getCompressionTypes() public java.lang.String[]
      * javax.imageio.ImageWriteParam.getCompressionTypes()}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionTypes() public java.lang.String[]
+     * javax.imageio.ImageWriteParam.getCompressionTypes()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getCompressionTypes()
+     * @see javax.imageio.ImageWriteParam#getCompressionTypes() public java.lang.String[]
+     *      javax.imageio.ImageWriteParam.getCompressionTypes() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,335 +244,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getLocale() public java.util.Locale
-     * javax.imageio.ImageWriteParam.getLocale()}.
+     * Test method for {@link javax.imageio.ImageWriteParam#setTilingMode(int) public void
+     * javax.imageio.ImageWriteParam.setTilingMode(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getLocale()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getLocalizedCompressionTypeName() public java.lang.String
-     * javax.imageio.ImageWriteParam.getLocalizedCompressionTypeName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getLocalizedCompressionTypeName()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalizedCompressionTypeName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getPreferredTileSizes() public java.awt.Dimension[]
-     * javax.imageio.ImageWriteParam.getPreferredTileSizes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getPreferredTileSizes()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreferredTileSizes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getProgressiveMode() public int
-     * javax.imageio.ImageWriteParam.getProgressiveMode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getProgressiveMode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProgressiveMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getTileGridXOffset() public int
-     * javax.imageio.ImageWriteParam.getTileGridXOffset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getTileGridXOffset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTileGridXOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getTileGridYOffset() public int
-     * javax.imageio.ImageWriteParam.getTileGridYOffset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getTileGridYOffset()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTileGridYOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getTileHeight() public int
-     * javax.imageio.ImageWriteParam.getTileHeight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getTileHeight()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTileHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getTileWidth() public int
-     * javax.imageio.ImageWriteParam.getTileWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getTileWidth()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTileWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#getTilingMode() public int
-     * javax.imageio.ImageWriteParam.getTilingMode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#getTilingMode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTilingMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#isCompressionLossless() public boolean
-     * javax.imageio.ImageWriteParam.isCompressionLossless()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#isCompressionLossless()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCompressionLossless()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionMode(int) public void
-     * javax.imageio.ImageWriteParam.setCompressionMode(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#setCompressionMode(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCompressionMode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionQuality(float) public void
-     * javax.imageio.ImageWriteParam.setCompressionQuality(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#setCompressionQuality(float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCompressionQuality_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionType(java.lang.String) public void
-     * javax.imageio.ImageWriteParam.setCompressionType(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#setCompressionType(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCompressionType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#setProgressiveMode(int) public void
-     * javax.imageio.ImageWriteParam.setProgressiveMode(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#setProgressiveMode(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setProgressiveMode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriteParam#setTiling(int, int, int, int) public void
-     * javax.imageio.ImageWriteParam.setTiling(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.ImageWriteParam#setTiling(int, int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTiling_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.imageio.ImageWriteParam#setTilingMode(int) public void
      * javax.imageio.ImageWriteParam.setTilingMode(int)}.
@@ -609,7 +256,8 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#setTilingMode(int)
+     * @see javax.imageio.ImageWriteParam#setTilingMode(int) public void
+     *      javax.imageio.ImageWriteParam.setTilingMode(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -623,6 +271,226 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getPreferredTileSizes() public java.awt.Dimension[]
+     * javax.imageio.ImageWriteParam.getPreferredTileSizes()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getPreferredTileSizes() public java.awt.Dimension[]
+     * javax.imageio.ImageWriteParam.getPreferredTileSizes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getPreferredTileSizes() public java.awt.Dimension[]
+     *      javax.imageio.ImageWriteParam.getPreferredTileSizes() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreferredTileSizes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileWidth() public int
+     * javax.imageio.ImageWriteParam.getTileWidth()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileWidth() public int
+     * javax.imageio.ImageWriteParam.getTileWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getTileWidth() public int javax.imageio.ImageWriteParam.getTileWidth() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTileWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileGridXOffset() public int
+     * javax.imageio.ImageWriteParam.getTileGridXOffset()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileGridXOffset() public int
+     * javax.imageio.ImageWriteParam.getTileGridXOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getTileGridXOffset() public int
+     *      javax.imageio.ImageWriteParam.getTileGridXOffset() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTileGridXOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getBitRate(float) public float
+     * javax.imageio.ImageWriteParam.getBitRate(float)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getBitRate(float) public float
+     * javax.imageio.ImageWriteParam.getBitRate(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getBitRate(float) public float javax.imageio.ImageWriteParam.getBitRate(float)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBitRate_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileGridYOffset() public int
+     * javax.imageio.ImageWriteParam.getTileGridYOffset()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileGridYOffset() public int
+     * javax.imageio.ImageWriteParam.getTileGridYOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getTileGridYOffset() public int
+     *      javax.imageio.ImageWriteParam.getTileGridYOffset() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTileGridYOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionQuality(float) public void
+     * javax.imageio.ImageWriteParam.setCompressionQuality(float)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionQuality(float) public void
+     * javax.imageio.ImageWriteParam.setCompressionQuality(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#setCompressionQuality(float) public void
+     *      javax.imageio.ImageWriteParam.setCompressionQuality(float) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCompressionQuality_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQuality() public float
+     * javax.imageio.ImageWriteParam.getCompressionQuality()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionQuality() public float
+     * javax.imageio.ImageWriteParam.getCompressionQuality()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getCompressionQuality() public float
+     *      javax.imageio.ImageWriteParam.getCompressionQuality() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCompressionQuality()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#isCompressionLossless() public boolean
+     * javax.imageio.ImageWriteParam.isCompressionLossless()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#isCompressionLossless() public boolean
+     * javax.imageio.ImageWriteParam.isCompressionLossless()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#isCompressionLossless() public boolean
+     *      javax.imageio.ImageWriteParam.isCompressionLossless() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCompressionLossless()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#unsetCompression() public void
+     * javax.imageio.ImageWriteParam.unsetCompression()}.
+     *
+     * <p>
      * Test method for {@link javax.imageio.ImageWriteParam#unsetCompression() public void
      * javax.imageio.ImageWriteParam.unsetCompression()}.
      *
@@ -631,7 +499,8 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#unsetCompression()
+     * @see javax.imageio.ImageWriteParam#unsetCompression() public void
+     *      javax.imageio.ImageWriteParam.unsetCompression() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -645,6 +514,64 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setProgressiveMode(int) public void
+     * javax.imageio.ImageWriteParam.setProgressiveMode(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setProgressiveMode(int) public void
+     * javax.imageio.ImageWriteParam.setProgressiveMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#setProgressiveMode(int) public void
+     *      javax.imageio.ImageWriteParam.setProgressiveMode(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setProgressiveMode_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getProgressiveMode() public int
+     * javax.imageio.ImageWriteParam.getProgressiveMode()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getProgressiveMode() public int
+     * javax.imageio.ImageWriteParam.getProgressiveMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getProgressiveMode() public int
+     *      javax.imageio.ImageWriteParam.getProgressiveMode() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProgressiveMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#unsetTiling() public void
+     * javax.imageio.ImageWriteParam.unsetTiling()}.
+     *
+     * <p>
      * Test method for {@link javax.imageio.ImageWriteParam#unsetTiling() public void
      * javax.imageio.ImageWriteParam.unsetTiling()}.
      *
@@ -653,12 +580,229 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.ImageWriteParam#unsetTiling()
+     * @see javax.imageio.ImageWriteParam#unsetTiling() public void javax.imageio.ImageWriteParam.unsetTiling() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_unsetTiling()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getLocale() public java.util.Locale
+     * javax.imageio.ImageWriteParam.getLocale()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getLocale() public java.util.Locale
+     * javax.imageio.ImageWriteParam.getLocale()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getLocale() public java.util.Locale javax.imageio.ImageWriteParam.getLocale()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionType(String) public void
+     * javax.imageio.ImageWriteParam.setCompressionType(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionType(String) public void
+     * javax.imageio.ImageWriteParam.setCompressionType(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#setCompressionType(String) public void
+     *      javax.imageio.ImageWriteParam.setCompressionType(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCompressionType_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileHeight() public int
+     * javax.imageio.ImageWriteParam.getTileHeight()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTileHeight() public int
+     * javax.imageio.ImageWriteParam.getTileHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getTileHeight() public int javax.imageio.ImageWriteParam.getTileHeight() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTileHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getLocalizedCompressionTypeName() public java.lang.String
+     * javax.imageio.ImageWriteParam.getLocalizedCompressionTypeName()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getLocalizedCompressionTypeName() public java.lang.String
+     * javax.imageio.ImageWriteParam.getLocalizedCompressionTypeName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getLocalizedCompressionTypeName() public java.lang.String
+     *      javax.imageio.ImageWriteParam.getLocalizedCompressionTypeName() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalizedCompressionTypeName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#canWriteProgressive() public boolean
+     * javax.imageio.ImageWriteParam.canWriteProgressive()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#canWriteProgressive() public boolean
+     * javax.imageio.ImageWriteParam.canWriteProgressive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#canWriteProgressive() public boolean
+     *      javax.imageio.ImageWriteParam.canWriteProgressive() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canWriteProgressive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionType() public java.lang.String
+     * javax.imageio.ImageWriteParam.getCompressionType()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getCompressionType() public java.lang.String
+     * javax.imageio.ImageWriteParam.getCompressionType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getCompressionType() public java.lang.String
+     *      javax.imageio.ImageWriteParam.getCompressionType() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCompressionType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionMode(int) public void
+     * javax.imageio.ImageWriteParam.setCompressionMode(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#setCompressionMode(int) public void
+     * javax.imageio.ImageWriteParam.setCompressionMode(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#setCompressionMode(int) public void
+     *      javax.imageio.ImageWriteParam.setCompressionMode(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCompressionMode_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTilingMode() public int
+     * javax.imageio.ImageWriteParam.getTilingMode()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriteParam#getTilingMode() public int
+     * javax.imageio.ImageWriteParam.getTilingMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.ImageWriteParam#getTilingMode() public int javax.imageio.ImageWriteParam.getTilingMode() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTilingMode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

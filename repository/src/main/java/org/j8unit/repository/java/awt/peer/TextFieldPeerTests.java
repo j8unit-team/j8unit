@@ -8,41 +8,45 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.peer.TextFieldPeer interface java.awt.peer.TextFieldPeer},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.peer.TextFieldPeerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.peer.TextFieldPeer interface java.awt.peer.TextFieldPeer}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link TextFieldPeerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.peer.TextFieldPeerClassTests
+ * @see java.awt.peer.TextFieldPeer interface java.awt.peer.TextFieldPeer (the hereby targeted class-under-test class)
+ * @see TextFieldPeerClassTests TextFieldPeerClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.peer.TextFieldPeer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextFieldPeerTests<SUT extends java.awt.peer.TextFieldPeer>
-extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
+extends TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextFieldPeer#getMinimumSize(int) public abstract java.awt.Dimension
-     * java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
+     * Test method for {@link java.awt.peer.TextFieldPeer#setEchoChar(char) public abstract void
+     * java.awt.peer.TextFieldPeer.setEchoChar(char)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextFieldPeer#setEchoChar(char) public abstract void
+     * java.awt.peer.TextFieldPeer.setEchoChar(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextFieldPeer#getMinimumSize(int)
+     * @see java.awt.peer.TextFieldPeer#setEchoChar(char) public abstract void
+     *      java.awt.peer.TextFieldPeer.setEchoChar(char) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinimumSize_int()
+    public default void test_setEchoChar_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,12 +58,17 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
      * Test method for {@link java.awt.peer.TextFieldPeer#getPreferredSize(int) public abstract java.awt.Dimension
      * java.awt.peer.TextFieldPeer.getPreferredSize(int)}.
      *
+     * <p>
+     * Test method for {@link java.awt.peer.TextFieldPeer#getPreferredSize(int) public abstract java.awt.Dimension
+     * java.awt.peer.TextFieldPeer.getPreferredSize(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextFieldPeer#getPreferredSize(int)
+     * @see java.awt.peer.TextFieldPeer#getPreferredSize(int) public abstract java.awt.Dimension
+     *      java.awt.peer.TextFieldPeer.getPreferredSize(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,20 +82,25 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextFieldPeer#setEchoChar(char) public abstract void
-     * java.awt.peer.TextFieldPeer.setEchoChar(char)}.
+     * Test method for {@link java.awt.peer.TextFieldPeer#getMinimumSize(int) public abstract java.awt.Dimension
+     * java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextFieldPeer#getMinimumSize(int) public abstract java.awt.Dimension
+     * java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextFieldPeer#setEchoChar(char)
+     * @see java.awt.peer.TextFieldPeer#getMinimumSize(int) public abstract java.awt.Dimension
+     *      java.awt.peer.TextFieldPeer.getMinimumSize(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEchoChar_char()
+    public default void test_getMinimumSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

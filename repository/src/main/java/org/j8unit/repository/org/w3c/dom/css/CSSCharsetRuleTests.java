@@ -8,26 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.css.CSSCharsetRule interface
- * org.w3c.dom.css.CSSCharsetRule}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSCharsetRuleTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.css.CSSCharsetRule interface org.w3c.dom.css.CSSCharsetRule}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link CSSCharsetRuleClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.css.CSSCharsetRuleClassTests
+ * @see org.w3c.dom.css.CSSCharsetRule interface org.w3c.dom.css.CSSCharsetRule (the hereby targeted class-under-test
+ *      class)
+ * @see CSSCharsetRuleClassTests CSSCharsetRuleClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.css.CSSCharsetRule
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSCharsetRuleTests<SUT extends org.w3c.dom.css.CSSCharsetRule>
-extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
+extends CSSRuleTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.w3c.dom.css.CSSCharsetRule#getEncoding() public abstract java.lang.String
+     * org.w3c.dom.css.CSSCharsetRule.getEncoding()}.
+     *
      * <p>
      * Test method for {@link org.w3c.dom.css.CSSCharsetRule#getEncoding() public abstract java.lang.String
      * org.w3c.dom.css.CSSCharsetRule.getEncoding()}.
@@ -37,7 +41,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.css.CSSCharsetRule#getEncoding()
+     * @see org.w3c.dom.css.CSSCharsetRule#getEncoding() public abstract java.lang.String
+     *      org.w3c.dom.css.CSSCharsetRule.getEncoding() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,7 +56,11 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.CSSCharsetRule#setEncoding(java.lang.String) public abstract void
+     * Test method for {@link org.w3c.dom.css.CSSCharsetRule#setEncoding(String) public abstract void
+     * org.w3c.dom.css.CSSCharsetRule.setEncoding(java.lang.String) throws org.w3c.dom.DOMException}.
+     *
+     * <p>
+     * Test method for {@link org.w3c.dom.css.CSSCharsetRule#setEncoding(String) public abstract void
      * org.w3c.dom.css.CSSCharsetRule.setEncoding(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +68,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.css.CSSCharsetRule#setEncoding(java.lang.String)
+     * @see org.w3c.dom.css.CSSCharsetRule#setEncoding(String) public abstract void
+     *      org.w3c.dom.css.CSSCharsetRule.setEncoding(java.lang.String) throws org.w3c.dom.DOMException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

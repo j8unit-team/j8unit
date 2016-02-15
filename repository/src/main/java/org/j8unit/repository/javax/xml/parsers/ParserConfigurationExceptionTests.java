@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.parsers.ParserConfigurationException class
- * javax.xml.parsers.ParserConfigurationException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.parsers.ParserConfigurationException class
+ * javax.xml.parsers.ParserConfigurationException}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link ParserConfigurationExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionClassTests
+ * @see javax.xml.parsers.ParserConfigurationException class javax.xml.parsers.ParserConfigurationException (the hereby
+ *      targeted class-under-test class)
+ * @see ParserConfigurationExceptionClassTests ParserConfigurationExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.parsers.ParserConfigurationException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

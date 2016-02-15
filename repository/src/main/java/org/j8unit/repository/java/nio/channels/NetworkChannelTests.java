@@ -8,71 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.channels.NetworkChannel interface
- * java.nio.channels.NetworkChannel}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.nio.channels.NetworkChannelTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.channels.NetworkChannel interface
+ * java.nio.channels.NetworkChannel}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link NetworkChannelClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.channels.NetworkChannelClassTests
+ * @see java.nio.channels.NetworkChannel interface java.nio.channels.NetworkChannel (the hereby targeted
+ *      class-under-test class)
+ * @see NetworkChannelClassTests NetworkChannelClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.channels.NetworkChannel
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NetworkChannelTests<SUT extends java.nio.channels.NetworkChannel>
-extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
+extends ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.NetworkChannel#bind(java.net.SocketAddress) public abstract
-     * java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.bind(java.net.SocketAddress) throws
-     * java.io.IOException}.
+     * Test method for {@link java.nio.channels.NetworkChannel#getOption(java.net.SocketOption) public abstract <T> T
+     * java.nio.channels.NetworkChannel.getOption(java.net.SocketOption<T>) throws java.io.IOException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.nio.channels.NetworkChannel#bind(java.net.SocketAddress)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_SocketAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.NetworkChannel#getLocalAddress() public abstract java.net.SocketAddress
-     * java.nio.channels.NetworkChannel.getLocalAddress() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.nio.channels.NetworkChannel#getLocalAddress()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.nio.channels.NetworkChannel#getOption(java.net.SocketOption) public abstract
      * java.lang.Object java.nio.channels.NetworkChannel.getOption(java.net.SocketOption) throws java.io.IOException}.
@@ -82,7 +42,9 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.channels.NetworkChannel#getOption(java.net.SocketOption)
+     * @see java.nio.channels.NetworkChannel#getOption(java.net.SocketOption) public abstract java.lang.Object
+     *      java.nio.channels.NetworkChannel.getOption(java.net.SocketOption) throws java.io.IOException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,8 +58,41 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.NetworkChannel#setOption(java.net.SocketOption, java.lang.Object) public
-     * abstract java.nio.channels.NetworkChannel
+     * Test method for {@link java.nio.channels.NetworkChannel#getLocalAddress() public abstract java.net.SocketAddress
+     * java.nio.channels.NetworkChannel.getLocalAddress() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.nio.channels.NetworkChannel#getLocalAddress() public abstract java.net.SocketAddress
+     * java.nio.channels.NetworkChannel.getLocalAddress() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.nio.channels.NetworkChannel#getLocalAddress() public abstract java.net.SocketAddress
+     *      java.nio.channels.NetworkChannel.getLocalAddress() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.NetworkChannel#setOption(java.net.SocketOption, Object) public abstract
+     * <T> java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.setOption(java.net.SocketOption<T>,T)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.nio.channels.NetworkChannel#setOption(java.net.SocketOption, Object) public abstract
+     * java.nio.channels.NetworkChannel
      * java.nio.channels.NetworkChannel.setOption(java.net.SocketOption,java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +100,10 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.channels.NetworkChannel#setOption(java.net.SocketOption, java.lang.Object)
+     * @see java.nio.channels.NetworkChannel#setOption(java.net.SocketOption, Object) public abstract
+     *      java.nio.channels.NetworkChannel
+     *      java.nio.channels.NetworkChannel.setOption(java.net.SocketOption,java.lang.Object) throws
+     *      java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,6 +117,40 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.channels.NetworkChannel#bind(java.net.SocketAddress) public abstract
+     * java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.bind(java.net.SocketAddress) throws
+     * java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.nio.channels.NetworkChannel#bind(java.net.SocketAddress) public abstract
+     * java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.bind(java.net.SocketAddress) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.nio.channels.NetworkChannel#bind(java.net.SocketAddress) public abstract
+     *      java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.bind(java.net.SocketAddress) throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_bind_SocketAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.NetworkChannel#supportedOptions() public abstract
+     * java.util.Set<java.net.SocketOption<?>> java.nio.channels.NetworkChannel.supportedOptions()}.
+     *
+     * <p>
      * Test method for {@link java.nio.channels.NetworkChannel#supportedOptions() public abstract java.util.Set
      * java.nio.channels.NetworkChannel.supportedOptions()}.
      *
@@ -127,7 +159,8 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.channels.NetworkChannel#supportedOptions()
+     * @see java.nio.channels.NetworkChannel#supportedOptions() public abstract java.util.Set
+     *      java.nio.channels.NetworkChannel.supportedOptions() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

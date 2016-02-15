@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.tools.Diagnostic interface javax.tools.Diagnostic}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.tools.DiagnosticTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.tools.Diagnostic interface javax.tools.Diagnostic}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link DiagnosticClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.tools.DiagnosticClassTests
+ * @see javax.tools.Diagnostic interface javax.tools.Diagnostic (the hereby targeted class-under-test class)
+ * @see DiagnosticClassTests DiagnosticClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.tools.Diagnostic
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,28 +29,116 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.tools.Diagnostic.Kind class javax.tools.Diagnostic$Kind},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
-     * counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.tools.DiagnosticTests.KindTests}.
+     * Test method for {@link javax.tools.Diagnostic#getSource() public abstract S javax.tools.Diagnostic.getSource()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getSource() public abstract java.lang.Object
+     * javax.tools.Diagnostic.getSource()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see org.j8unit.repository.javax.tools.DiagnosticClassTests.KindClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.tools.Diagnostic.Kind
+     * @see javax.tools.Diagnostic#getSource() public abstract java.lang.Object javax.tools.Diagnostic.getSource() (the
+     *      hereby targeted method-under-test)
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface KindTests<SUT extends javax.tools.Diagnostic.Kind>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.tools.Diagnostic.Kind> {
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSource()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getPosition() public abstract long
+     * javax.tools.Diagnostic.getPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getPosition() public abstract long
+     * javax.tools.Diagnostic.getPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.Diagnostic#getPosition() public abstract long javax.tools.Diagnostic.getPosition() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getStartPosition() public abstract long
+     * javax.tools.Diagnostic.getStartPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getStartPosition() public abstract long
+     * javax.tools.Diagnostic.getStartPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.Diagnostic#getStartPosition() public abstract long javax.tools.Diagnostic.getStartPosition()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStartPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getLineNumber() public abstract long
+     * javax.tools.Diagnostic.getLineNumber()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getLineNumber() public abstract long
+     * javax.tools.Diagnostic.getLineNumber()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.Diagnostic#getLineNumber() public abstract long javax.tools.Diagnostic.getLineNumber() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLineNumber()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getCode() public abstract java.lang.String
+     * javax.tools.Diagnostic.getCode()}.
+     *
      * <p>
      * Test method for {@link javax.tools.Diagnostic#getCode() public abstract java.lang.String
      * javax.tools.Diagnostic.getCode()}.
@@ -61,7 +148,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.Diagnostic#getCode()
+     * @see javax.tools.Diagnostic#getCode() public abstract java.lang.String javax.tools.Diagnostic.getCode() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,6 +163,64 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.tools.Diagnostic#getKind() public abstract javax.tools.Diagnostic$Kind
+     * javax.tools.Diagnostic.getKind()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getKind() public abstract javax.tools.Diagnostic$Kind
+     * javax.tools.Diagnostic.getKind()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.Diagnostic#getKind() public abstract javax.tools.Diagnostic$Kind
+     *      javax.tools.Diagnostic.getKind() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getMessage(java.util.Locale) public abstract java.lang.String
+     * javax.tools.Diagnostic.getMessage(java.util.Locale)}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getMessage(java.util.Locale) public abstract java.lang.String
+     * javax.tools.Diagnostic.getMessage(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.Diagnostic#getMessage(java.util.Locale) public abstract java.lang.String
+     *      javax.tools.Diagnostic.getMessage(java.util.Locale) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMessage_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getColumnNumber() public abstract long
+     * javax.tools.Diagnostic.getColumnNumber()}.
+     *
+     * <p>
      * Test method for {@link javax.tools.Diagnostic#getColumnNumber() public abstract long
      * javax.tools.Diagnostic.getColumnNumber()}.
      *
@@ -83,7 +229,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.Diagnostic#getColumnNumber()
+     * @see javax.tools.Diagnostic#getColumnNumber() public abstract long javax.tools.Diagnostic.getColumnNumber() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,12 +247,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.tools.Diagnostic#getEndPosition() public abstract long
      * javax.tools.Diagnostic.getEndPosition()}.
      *
+     * <p>
+     * Test method for {@link javax.tools.Diagnostic#getEndPosition() public abstract long
+     * javax.tools.Diagnostic.getEndPosition()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.Diagnostic#getEndPosition()
+     * @see javax.tools.Diagnostic#getEndPosition() public abstract long javax.tools.Diagnostic.getEndPosition() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,134 +271,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.Diagnostic#getKind() public abstract javax.tools.Diagnostic$Kind
-     * javax.tools.Diagnostic.getKind()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.tools.Diagnostic.Kind class javax.tools.Diagnostic$Kind}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link DiagnosticClassTests.KindClassTests}.
      * </p>
      *
-     * @j8unit.aim javax.tools.Diagnostic#getKind()
+     * @see javax.tools.Diagnostic.Kind class javax.tools.Diagnostic$Kind (the hereby targeted class-under-test class)
+     * @see DiagnosticClassTests.KindClassTests DiagnosticClassTests.KindClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKind()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface KindTests<SUT extends javax.tools.Diagnostic.Kind>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.tools.Diagnostic.Kind> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.tools.Diagnostic#getLineNumber() public abstract long
-     * javax.tools.Diagnostic.getLineNumber()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.Diagnostic#getLineNumber()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLineNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.Diagnostic#getMessage(java.util.Locale) public abstract java.lang.String
-     * javax.tools.Diagnostic.getMessage(java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.Diagnostic#getMessage(java.util.Locale)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMessage_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.Diagnostic#getPosition() public abstract long
-     * javax.tools.Diagnostic.getPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.Diagnostic#getPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.Diagnostic#getSource() public abstract java.lang.Object
-     * javax.tools.Diagnostic.getSource()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.Diagnostic#getSource()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.Diagnostic#getStartPosition() public abstract long
-     * javax.tools.Diagnostic.getStartPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.Diagnostic#getStartPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStartPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
 }

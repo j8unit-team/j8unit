@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.print.PrinterAbortException class
- * java.awt.print.PrinterAbortException}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.print.PrinterAbortExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.print.PrinterAbortException class
+ * java.awt.print.PrinterAbortException}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link PrinterAbortExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.print.PrinterAbortExceptionClassTests
+ * @see java.awt.print.PrinterAbortException class java.awt.print.PrinterAbortException (the hereby targeted
+ *      class-under-test class)
+ * @see PrinterAbortExceptionClassTests PrinterAbortExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.print.PrinterAbortException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterAbortExceptionTests<SUT extends java.awt.print.PrinterAbortException>
-extends org.j8unit.repository.java.awt.print.PrinterExceptionTests<SUT> {
+extends PrinterExceptionTests<SUT> {
 
 }

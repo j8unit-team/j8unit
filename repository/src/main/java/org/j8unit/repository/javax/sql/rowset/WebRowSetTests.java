@@ -8,63 +8,46 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sql.rowset.WebRowSet interface javax.sql.rowset.WebRowSet},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sql.rowset.WebRowSetTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sql.rowset.WebRowSet interface javax.sql.rowset.WebRowSet}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link WebRowSetClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sql.rowset.WebRowSetClassTests
+ * @see javax.sql.rowset.WebRowSet interface javax.sql.rowset.WebRowSet (the hereby targeted class-under-test class)
+ * @see WebRowSetClassTests WebRowSetClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sql.rowset.WebRowSet
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WebRowSetTests<SUT extends javax.sql.rowset.WebRowSet>
-extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
+extends CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
-     * javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException}.
+     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.Writer) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
+     *
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.Writer) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.rowset.WebRowSet#readXml(java.io.InputStream)
+     * @see javax.sql.rowset.WebRowSet#writeXml(java.io.Writer) public abstract void
+     *      javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_readXml_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.Reader) public abstract void
-     * javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sql.rowset.WebRowSet#readXml(java.io.Reader)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readXml_Reader()
+    public default void test_writeXml_Writer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,12 +59,18 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
      * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.OutputStream) public abstract void
      * javax.sql.rowset.WebRowSet.writeXml(java.io.OutputStream) throws java.sql.SQLException,java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.OutputStream) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.io.OutputStream) throws java.sql.SQLException,java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.rowset.WebRowSet#writeXml(java.io.OutputStream)
+     * @see javax.sql.rowset.WebRowSet#writeXml(java.io.OutputStream) public abstract void
+     *      javax.sql.rowset.WebRowSet.writeXml(java.io.OutputStream) throws java.sql.SQLException,java.io.IOException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,12 +88,19 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
      * abstract void javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.OutputStream) throws
      * java.sql.SQLException,java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.OutputStream) public
+     * abstract void javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.OutputStream) throws
+     * java.sql.SQLException,java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.OutputStream)
+     * @see javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.OutputStream) public abstract void
+     *      javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.OutputStream) throws
+     *      java.sql.SQLException,java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,12 +117,18 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
      * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.Writer) public abstract
      * void javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.Writer) throws java.sql.SQLException}.
      *
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.Writer) public abstract
+     * void javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.Writer) throws java.sql.SQLException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.Writer)
+     * @see javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.Writer) public abstract void
+     *      javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.Writer) throws java.sql.SQLException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,20 +142,54 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.Writer) public abstract void
-     * javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.Reader) public abstract void
+     * javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
+     *
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.Reader) public abstract void
+     * javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sql.rowset.WebRowSet#writeXml(java.io.Writer)
+     * @see javax.sql.rowset.WebRowSet#readXml(java.io.Reader) public abstract void
+     *      javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeXml_Writer()
+    public default void test_readXml_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
+     * javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
+     * javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
+     *      javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readXml_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

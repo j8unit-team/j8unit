@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.lang.model.util.AbstractElementVisitor6 class
- * javax.lang.model.util.AbstractElementVisitor6}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.lang.model.util.AbstractElementVisitor6 class
+ * javax.lang.model.util.AbstractElementVisitor6}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link AbstractElementVisitor6ClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6ClassTests
+ * @see javax.lang.model.util.AbstractElementVisitor6 class javax.lang.model.util.AbstractElementVisitor6 (the hereby
+ *      targeted class-under-test class)
+ * @see AbstractElementVisitor6ClassTests AbstractElementVisitor6ClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.lang.model.util.AbstractElementVisitor6
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +29,10 @@ public abstract interface AbstractElementVisitor6Tests<SUT extends javax.lang.mo
 extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, R, P>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element)
+     * public final R javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element)}.
+     *
      * <p>
      * Test method for {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element)
      * public final java.lang.Object
@@ -38,12 +43,14 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element)
+     * @see javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element) public final
+     *      java.lang.Object javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_visit_Element()
     throws Exception {
         // query fresh subject-under-test
@@ -54,8 +61,13 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element, java.lang.Object)
-     * public final java.lang.Object
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element, Object) public final
+     * R javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element,P)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element, Object) public final
+     * java.lang.Object
      * javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +75,15 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element,
-     *             java.lang.Object)
+     * @see javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element, Object) public final
+     *      java.lang.Object
+     *      javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element,java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_visit_Element_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -80,7 +94,12 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.AbstractElementVisitor6#visitUnknown(javax.lang.model.element.Element, java.lang.Object)
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visitUnknown(javax.lang.model.element.Element, Object)
+     * public R javax.lang.model.util.AbstractElementVisitor6.visitUnknown(javax.lang.model.element.Element,P)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visitUnknown(javax.lang.model.element.Element, Object)
      * public java.lang.Object
      * javax.lang.model.util.AbstractElementVisitor6.visitUnknown(javax.lang.model.element.Element,java.lang.Object)}.
      *
@@ -89,13 +108,15 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.util.AbstractElementVisitor6#visitUnknown(javax.lang.model.element.Element,
-     *             java.lang.Object)
+     * @see javax.lang.model.util.AbstractElementVisitor6#visitUnknown(javax.lang.model.element.Element, Object) public
+     *      java.lang.Object
+     *      javax.lang.model.util.AbstractElementVisitor6.visitUnknown(javax.lang.model.element.Element,java.lang.
+     *      Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_visitUnknown_Element_Object()
     throws Exception {
         // query fresh subject-under-test

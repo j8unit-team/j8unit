@@ -8,28 +8,59 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.html.parser.DTD class
- * javax.swing.text.html.parser.DTD}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.html.parser.DTDTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.html.parser.DTD class javax.swing.text.html.parser.DTD}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link DTDClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.html.parser.DTDClassTests
+ * @see javax.swing.text.html.parser.DTD class javax.swing.text.html.parser.DTD (the hereby targeted class-under-test
+ *      class)
+ * @see DTDClassTests DTDClassTests (the complementary j8unit test interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.html.parser.DTD
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DTDTests<SUT extends javax.swing.text.html.parser.DTD>
-extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends DTDConstantsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#defEntity(java.lang.String, int, int) public
+     * Test method for {@link javax.swing.text.html.parser.DTD#toString() public java.lang.String
+     * javax.swing.text.html.parser.DTD.toString()}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#toString() public java.lang.String
+     * javax.swing.text.html.parser.DTD.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.html.parser.DTD#toString() public java.lang.String
+     *      javax.swing.text.html.parser.DTD.toString() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#defEntity(String, int, int) public
+     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defEntity(java.lang.String,int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#defEntity(String, int, int) public
      * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defEntity(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +68,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#defEntity(java.lang.String, int, int)
+     * @see javax.swing.text.html.parser.DTD#defEntity(String, int, int) public javax.swing.text.html.parser.Entity
+     *      javax.swing.text.html.parser.DTD.defEntity(java.lang.String,int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,32 +84,14 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.parser.DTD#defineAttributes(java.lang.String, javax.swing.text.html.parser.AttributeList)
-     * public void
-     * javax.swing.text.html.parser.DTD.defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)}.
+     * {@link javax.swing.text.html.parser.DTD#defineElement(String, int, boolean, boolean, javax.swing.text.html.parser.ContentModel, java.util.BitSet, java.util.BitSet, javax.swing.text.html.parser.AttributeList)
+     * public javax.swing.text.html.parser.Element
+     * javax.swing.text.html.parser.DTD.defineElement(java.lang.String,int,boolean,boolean,javax.swing.text.html.parser.ContentModel,java.util.BitSet,java.util.BitSet,javax.swing.text.html.parser.AttributeList)}
+     * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#defineAttributes(java.lang.String,
-     *             javax.swing.text.html.parser.AttributeList)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_defineAttributes_String_AttributeList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.html.parser.DTD#defineElement(java.lang.String, int, boolean, boolean, javax.swing.text.html.parser.ContentModel, java.util.BitSet, java.util.BitSet, javax.swing.text.html.parser.AttributeList)
+     * {@link javax.swing.text.html.parser.DTD#defineElement(String, int, boolean, boolean, javax.swing.text.html.parser.ContentModel, java.util.BitSet, java.util.BitSet, javax.swing.text.html.parser.AttributeList)
      * public javax.swing.text.html.parser.Element
      * javax.swing.text.html.parser.DTD.defineElement(java.lang.String,int,boolean,boolean,javax.swing.text.html.parser.ContentModel,java.util.BitSet,java.util.BitSet,javax.swing.text.html.parser.AttributeList)}
      * .
@@ -87,9 +101,12 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#defineElement(java.lang.String, int, boolean, boolean,
-     *             javax.swing.text.html.parser.ContentModel, java.util.BitSet, java.util.BitSet,
-     *             javax.swing.text.html.parser.AttributeList)
+     * @see javax.swing.text.html.parser.DTD#defineElement(String, int, boolean, boolean,
+     *      javax.swing.text.html.parser.ContentModel, java.util.BitSet, java.util.BitSet,
+     *      javax.swing.text.html.parser.AttributeList) public javax.swing.text.html.parser.Element
+     *      javax.swing.text.html.parser.DTD.defineElement(java.lang.String,int,boolean,boolean,javax.swing.text.html.
+     *      parser.ContentModel,java.util.BitSet,java.util.BitSet,javax.swing.text.html.parser.AttributeList) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -103,71 +120,9 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#defineEntity(java.lang.String, int, char[]) public
-     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defineEntity(java.lang.String,int,char[])}.
+     * Test method for {@link javax.swing.text.html.parser.DTD#getEntity(int) public javax.swing.text.html.parser.Entity
+     * javax.swing.text.html.parser.DTD.getEntity(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#defineEntity(java.lang.String, int, char[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_defineEntity_String_int_charArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(int) public
-     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#getElement(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(java.lang.String) public
-     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#getElement(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.text.html.parser.DTD#getEntity(int) public javax.swing.text.html.parser.Entity
      * javax.swing.text.html.parser.DTD.getEntity(int)}.
@@ -177,7 +132,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#getEntity(int)
+     * @see javax.swing.text.html.parser.DTD#getEntity(int) public javax.swing.text.html.parser.Entity
+     *      javax.swing.text.html.parser.DTD.getEntity(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -191,7 +147,11 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#getEntity(java.lang.String) public
+     * Test method for {@link javax.swing.text.html.parser.DTD#getEntity(String) public
+     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.getEntity(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getEntity(String) public
      * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.getEntity(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,7 +159,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#getEntity(java.lang.String)
+     * @see javax.swing.text.html.parser.DTD#getEntity(String) public javax.swing.text.html.parser.Entity
+     *      javax.swing.text.html.parser.DTD.getEntity(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -216,12 +177,17 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
      * Test method for {@link javax.swing.text.html.parser.DTD#getName() public java.lang.String
      * javax.swing.text.html.parser.DTD.getName()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getName() public java.lang.String
+     * javax.swing.text.html.parser.DTD.getName()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#getName()
+     * @see javax.swing.text.html.parser.DTD#getName() public java.lang.String
+     *      javax.swing.text.html.parser.DTD.getName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -238,12 +204,18 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
      * Test method for {@link javax.swing.text.html.parser.DTD#read(java.io.DataInputStream) public void
      * javax.swing.text.html.parser.DTD.read(java.io.DataInputStream) throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#read(java.io.DataInputStream) public void
+     * javax.swing.text.html.parser.DTD.read(java.io.DataInputStream) throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#read(java.io.DataInputStream)
+     * @see javax.swing.text.html.parser.DTD#read(java.io.DataInputStream) public void
+     *      javax.swing.text.html.parser.DTD.read(java.io.DataInputStream) throws java.io.IOException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -257,21 +229,113 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#toString() public java.lang.String
-     * javax.swing.text.html.parser.DTD.toString()}.
+     * Test method for {@link javax.swing.text.html.parser.DTD#defineEntity(String, int, char[]) public
+     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defineEntity(java.lang.String,int,char[])}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#defineEntity(String, int, char[]) public
+     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defineEntity(java.lang.String,int,char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.html.parser.DTD#toString()
+     * @see javax.swing.text.html.parser.DTD#defineEntity(String, int, char[]) public
+     *      javax.swing.text.html.parser.Entity
+     *      javax.swing.text.html.parser.DTD.defineEntity(java.lang.String,int,char[]) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_defineEntity_String_int_charArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(int) public
+     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(int) public
+     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.html.parser.DTD#getElement(int) public javax.swing.text.html.parser.Element
+     *      javax.swing.text.html.parser.DTD.getElement(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(String) public
+     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(String) public
+     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.html.parser.DTD#getElement(String) public javax.swing.text.html.parser.Element
+     *      javax.swing.text.html.parser.DTD.getElement(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElement_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.html.parser.DTD#defineAttributes(String, javax.swing.text.html.parser.AttributeList)
+     * public void
+     * javax.swing.text.html.parser.DTD.defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.html.parser.DTD#defineAttributes(String, javax.swing.text.html.parser.AttributeList)
+     * public void
+     * javax.swing.text.html.parser.DTD.defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.swing.text.html.parser.DTD#defineAttributes(String, javax.swing.text.html.parser.AttributeList) public
+     *      void javax.swing.text.html.parser.DTD.defineAttributes(java.lang.String,javax.swing.text.html.parser.
+     *      AttributeList) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_defineAttributes_String_AttributeList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

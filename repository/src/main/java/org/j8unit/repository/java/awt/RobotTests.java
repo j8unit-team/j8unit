@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.Robot class java.awt.Robot}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
- * containing the class relevant test methods is {@link org.j8unit.repository.java.awt.RobotTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.Robot class java.awt.Robot}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link RobotClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.RobotClassTests
+ * @see java.awt.Robot class java.awt.Robot (the hereby targeted class-under-test class)
+ * @see RobotClassTests RobotClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.Robot
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,69 +28,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Robot#createScreenCapture(java.awt.Rectangle) public synchronized
-     * java.awt.image.BufferedImage java.awt.Robot.createScreenCapture(java.awt.Rectangle)}.
+     * Test method for {@link java.awt.Robot#getPixelColor(int, int) public synchronized java.awt.Color
+     * java.awt.Robot.getPixelColor(int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#createScreenCapture(java.awt.Rectangle)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createScreenCapture_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Robot#delay(int) public synchronized void java.awt.Robot.delay(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#delay(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_delay_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Robot#getAutoDelay() public synchronized int java.awt.Robot.getAutoDelay()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#getAutoDelay()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAutoDelay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.Robot#getPixelColor(int, int) public synchronized java.awt.Color
      * java.awt.Robot.getPixelColor(int,int)}.
@@ -100,7 +40,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#getPixelColor(int, int)
+     * @see java.awt.Robot#getPixelColor(int, int) public synchronized java.awt.Color
+     *      java.awt.Robot.getPixelColor(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,12 +58,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.Robot#isAutoWaitForIdle() public synchronized boolean
      * java.awt.Robot.isAutoWaitForIdle()}.
      *
+     * <p>
+     * Test method for {@link java.awt.Robot#isAutoWaitForIdle() public synchronized boolean
+     * java.awt.Robot.isAutoWaitForIdle()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#isAutoWaitForIdle()
+     * @see java.awt.Robot#isAutoWaitForIdle() public synchronized boolean java.awt.Robot.isAutoWaitForIdle() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,126 +82,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Robot#keyPress(int) public synchronized void java.awt.Robot.keyPress(int)}.
+     * Test method for {@link java.awt.Robot#getAutoDelay() public synchronized int java.awt.Robot.getAutoDelay()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#keyPress(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_keyPress_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.awt.Robot#keyRelease(int) public synchronized void java.awt.Robot.keyRelease(int)}.
+     * Test method for {@link java.awt.Robot#getAutoDelay() public synchronized int java.awt.Robot.getAutoDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#keyRelease(int)
+     * @see java.awt.Robot#getAutoDelay() public synchronized int java.awt.Robot.getAutoDelay() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_keyRelease_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Robot#mouseMove(int, int) public synchronized void
-     * java.awt.Robot.mouseMove(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#mouseMove(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseMove_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Robot#mousePress(int) public synchronized void java.awt.Robot.mousePress(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#mousePress(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mousePress_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Robot#mouseRelease(int) public synchronized void
-     * java.awt.Robot.mouseRelease(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#mouseRelease(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseRelease_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Robot#mouseWheel(int) public synchronized void java.awt.Robot.mouseWheel(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Robot#mouseWheel(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseWheel_int()
+    public default void test_getAutoDelay()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -267,12 +110,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.Robot#setAutoDelay(int) public synchronized void
      * java.awt.Robot.setAutoDelay(int)}.
      *
+     * <p>
+     * Test method for {@link java.awt.Robot#setAutoDelay(int) public synchronized void
+     * java.awt.Robot.setAutoDelay(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#setAutoDelay(int)
+     * @see java.awt.Robot#setAutoDelay(int) public synchronized void java.awt.Robot.setAutoDelay(int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,6 +134,86 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.Robot#keyRelease(int) public synchronized void java.awt.Robot.keyRelease(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#keyRelease(int) public synchronized void java.awt.Robot.keyRelease(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#keyRelease(int) public synchronized void java.awt.Robot.keyRelease(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_keyRelease_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#delay(int) public synchronized void java.awt.Robot.delay(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#delay(int) public synchronized void java.awt.Robot.delay(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#delay(int) public synchronized void java.awt.Robot.delay(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_delay_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#toString() public synchronized java.lang.String java.awt.Robot.toString()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#toString() public synchronized java.lang.String java.awt.Robot.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#toString() public synchronized java.lang.String java.awt.Robot.toString() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#setAutoWaitForIdle(boolean) public synchronized void
+     * java.awt.Robot.setAutoWaitForIdle(boolean)}.
+     *
+     * <p>
      * Test method for {@link java.awt.Robot#setAutoWaitForIdle(boolean) public synchronized void
      * java.awt.Robot.setAutoWaitForIdle(boolean)}.
      *
@@ -294,7 +222,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#setAutoWaitForIdle(boolean)
+     * @see java.awt.Robot#setAutoWaitForIdle(boolean) public synchronized void
+     *      java.awt.Robot.setAutoWaitForIdle(boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -308,20 +237,77 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Robot#toString() public synchronized java.lang.String java.awt.Robot.toString()}.
+     * Test method for {@link java.awt.Robot#mouseMove(int, int) public synchronized void
+     * java.awt.Robot.mouseMove(int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#mouseMove(int, int) public synchronized void
+     * java.awt.Robot.mouseMove(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#toString()
+     * @see java.awt.Robot#mouseMove(int, int) public synchronized void java.awt.Robot.mouseMove(int,int) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_mouseMove_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#createScreenCapture(java.awt.Rectangle) public synchronized
+     * java.awt.image.BufferedImage java.awt.Robot.createScreenCapture(java.awt.Rectangle)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#createScreenCapture(java.awt.Rectangle) public synchronized
+     * java.awt.image.BufferedImage java.awt.Robot.createScreenCapture(java.awt.Rectangle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#createScreenCapture(java.awt.Rectangle) public synchronized java.awt.image.BufferedImage
+     *      java.awt.Robot.createScreenCapture(java.awt.Rectangle) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createScreenCapture_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#mousePress(int) public synchronized void java.awt.Robot.mousePress(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#mousePress(int) public synchronized void java.awt.Robot.mousePress(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#mousePress(int) public synchronized void java.awt.Robot.mousePress(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mousePress_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -332,17 +318,98 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.Robot#waitForIdle() public synchronized void java.awt.Robot.waitForIdle()}.
      *
+     * <p>
+     * Test method for {@link java.awt.Robot#waitForIdle() public synchronized void java.awt.Robot.waitForIdle()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Robot#waitForIdle()
+     * @see java.awt.Robot#waitForIdle() public synchronized void java.awt.Robot.waitForIdle() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_waitForIdle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#mouseWheel(int) public synchronized void java.awt.Robot.mouseWheel(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#mouseWheel(int) public synchronized void java.awt.Robot.mouseWheel(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#mouseWheel(int) public synchronized void java.awt.Robot.mouseWheel(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseWheel_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#keyPress(int) public synchronized void java.awt.Robot.keyPress(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#keyPress(int) public synchronized void java.awt.Robot.keyPress(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#keyPress(int) public synchronized void java.awt.Robot.keyPress(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_keyPress_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Robot#mouseRelease(int) public synchronized void
+     * java.awt.Robot.mouseRelease(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.Robot#mouseRelease(int) public synchronized void
+     * java.awt.Robot.mouseRelease(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.Robot#mouseRelease(int) public synchronized void java.awt.Robot.mouseRelease(int) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseRelease_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

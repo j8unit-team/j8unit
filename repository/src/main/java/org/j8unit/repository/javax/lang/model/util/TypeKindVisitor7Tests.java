@@ -8,29 +8,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.lang.model.util.TypeKindVisitor7 class
- * javax.lang.model.util.TypeKindVisitor7}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.lang.model.util.TypeKindVisitor7Tests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.lang.model.util.TypeKindVisitor7 class
+ * javax.lang.model.util.TypeKindVisitor7}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link TypeKindVisitor7ClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.lang.model.util.TypeKindVisitor7ClassTests
+ * @see javax.lang.model.util.TypeKindVisitor7 class javax.lang.model.util.TypeKindVisitor7 (the hereby targeted
+ *      class-under-test class)
+ * @see TypeKindVisitor7ClassTests TypeKindVisitor7ClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.lang.model.util.TypeKindVisitor7
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeKindVisitor7Tests<SUT extends javax.lang.model.util.TypeKindVisitor7<R, P>, R, P>
-extends org.j8unit.repository.javax.lang.model.util.TypeKindVisitor6Tests<SUT, R, P> {
+extends TypeKindVisitor6Tests<SUT, R, P> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor7#visitUnion(javax.lang.model.type.UnionType, java.lang.Object)
+     * Test method for {@link javax.lang.model.util.TypeKindVisitor7#visitUnion(javax.lang.model.type.UnionType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor7.visitUnion(javax.lang.model.type.UnionType,P)}.
+     *
+     * <p>
+     * Test method for {@link javax.lang.model.util.TypeKindVisitor7#visitUnion(javax.lang.model.type.UnionType, Object)
      * public java.lang.Object
      * javax.lang.model.util.TypeKindVisitor7.visitUnion(javax.lang.model.type.UnionType,java.lang.Object)}.
      *
@@ -39,12 +43,15 @@ extends org.j8unit.repository.javax.lang.model.util.TypeKindVisitor6Tests<SUT, R
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.util.TypeKindVisitor7#visitUnion(javax.lang.model.type.UnionType, java.lang.Object)
+     * @see javax.lang.model.util.TypeKindVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public
+     *      java.lang.Object
+     *      javax.lang.model.util.TypeKindVisitor7.visitUnion(javax.lang.model.type.UnionType,java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_visitUnion_UnionType_Object()
     throws Exception {
         // query fresh subject-under-test

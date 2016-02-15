@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.ScheduledFuture interface
- * java.util.concurrent.ScheduledFuture}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.concurrent.ScheduledFutureTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.ScheduledFuture interface
+ * java.util.concurrent.ScheduledFuture}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link ScheduledFutureClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.ScheduledFutureClassTests
+ * @see java.util.concurrent.ScheduledFuture interface java.util.concurrent.ScheduledFuture (the hereby targeted
+ *      class-under-test class)
+ * @see ScheduledFutureClassTests ScheduledFutureClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.ScheduledFuture
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScheduledFutureTests<SUT extends java.util.concurrent.ScheduledFuture<V>, V>
-extends org.j8unit.repository.java.util.concurrent.DelayedTests<SUT>, org.j8unit.repository.java.util.concurrent.FutureTests<SUT, V> {
+extends DelayedTests<SUT>, FutureTests<SUT, V> {
 
 }

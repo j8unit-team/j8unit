@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.bind.annotation.DomHandler interface
- * javax.xml.bind.annotation.DomHandler}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.DomHandler interface
+ * javax.xml.bind.annotation.DomHandler}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link DomHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.bind.annotation.DomHandlerClassTests
+ * @see javax.xml.bind.annotation.DomHandler interface javax.xml.bind.annotation.DomHandler (the hereby targeted
+ *      class-under-test class)
+ * @see DomHandlerClassTests DomHandlerClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.bind.annotation.DomHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,21 +32,30 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
-     * abstract javax.xml.transform.Result
-     * javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
+     * {@link javax.xml.bind.annotation.DomHandler#marshal(Object, javax.xml.bind.ValidationEventHandler) public
+     * abstract javax.xml.transform.Source
+     * javax.xml.bind.annotation.DomHandler.marshal(ElementT,javax.xml.bind.ValidationEventHandler)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.xml.bind.annotation.DomHandler#marshal(Object, javax.xml.bind.ValidationEventHandler) public
+     * abstract javax.xml.transform.Source
+     * javax.xml.bind.annotation.DomHandler.marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler)
+     * @see javax.xml.bind.annotation.DomHandler#marshal(Object, javax.xml.bind.ValidationEventHandler) public abstract
+     *      javax.xml.transform.Source
+     *      javax.xml.bind.annotation.DomHandler.marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createUnmarshaller_ValidationEventHandler()
+    public default void test_marshal_Object_ValidationEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,6 +65,10 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.xml.bind.annotation.DomHandler#getElement(javax.xml.transform.Result) public
+     * abstract ElementT javax.xml.bind.annotation.DomHandler.getElement(ResultT)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.bind.annotation.DomHandler#getElement(javax.xml.transform.Result) public
      * abstract java.lang.Object javax.xml.bind.annotation.DomHandler.getElement(javax.xml.transform.Result)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +76,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.annotation.DomHandler#getElement(javax.xml.transform.Result)
+     * @see javax.xml.bind.annotation.DomHandler#getElement(javax.xml.transform.Result) public abstract java.lang.Object
+     *      javax.xml.bind.annotation.DomHandler.getElement(javax.xml.transform.Result) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,21 +93,29 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.bind.annotation.DomHandler#marshal(java.lang.Object, javax.xml.bind.ValidationEventHandler)
-     * public abstract javax.xml.transform.Source
-     * javax.xml.bind.annotation.DomHandler.marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler)}.
+     * {@link javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     * abstract ResultT javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     * abstract javax.xml.transform.Result
+     * javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.annotation.DomHandler#marshal(java.lang.Object, javax.xml.bind.ValidationEventHandler)
+     * @see javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     *      abstract javax.xml.transform.Result
+     *      javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_marshal_Object_ValidationEventHandler()
+    public default void test_createUnmarshaller_ValidationEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

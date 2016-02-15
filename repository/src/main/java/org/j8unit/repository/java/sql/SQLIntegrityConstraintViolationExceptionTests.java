@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.sql.SQLIntegrityConstraintViolationException class
- * java.sql.SQLIntegrityConstraintViolationException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.sql.SQLIntegrityConstraintViolationException class
+ * java.sql.SQLIntegrityConstraintViolationException}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link SQLIntegrityConstraintViolationExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionClassTests
+ * @see java.sql.SQLIntegrityConstraintViolationException class java.sql.SQLIntegrityConstraintViolationException (the
+ *      hereby targeted class-under-test class)
+ * @see SQLIntegrityConstraintViolationExceptionClassTests SQLIntegrityConstraintViolationExceptionClassTests (the
+ *      complementary j8unit test interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.sql.SQLIntegrityConstraintViolationException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLIntegrityConstraintViolationExceptionTests<SUT extends java.sql.SQLIntegrityConstraintViolationException>
-extends org.j8unit.repository.java.sql.SQLNonTransientExceptionTests<SUT> {
+extends SQLNonTransientExceptionTests<SUT> {
 
 }

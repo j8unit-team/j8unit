@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.nio.charset.IllegalCharsetNameException class
- * java.nio.charset.IllegalCharsetNameException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.nio.charset.IllegalCharsetNameExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.nio.charset.IllegalCharsetNameException class
+ * java.nio.charset.IllegalCharsetNameException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link IllegalCharsetNameExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.nio.charset.IllegalCharsetNameExceptionClassTests
+ * @see java.nio.charset.IllegalCharsetNameException class java.nio.charset.IllegalCharsetNameException (the hereby
+ *      targeted class-under-test class)
+ * @see IllegalCharsetNameExceptionClassTests IllegalCharsetNameExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.nio.charset.IllegalCharsetNameException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
      * Test method for {@link java.nio.charset.IllegalCharsetNameException#getCharsetName() public java.lang.String
      * java.nio.charset.IllegalCharsetNameException.getCharsetName()}.
      *
+     * <p>
+     * Test method for {@link java.nio.charset.IllegalCharsetNameException#getCharsetName() public java.lang.String
+     * java.nio.charset.IllegalCharsetNameException.getCharsetName()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.nio.charset.IllegalCharsetNameException#getCharsetName()
+     * @see java.nio.charset.IllegalCharsetNameException#getCharsetName() public java.lang.String
+     *      java.nio.charset.IllegalCharsetNameException.getCharsetName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

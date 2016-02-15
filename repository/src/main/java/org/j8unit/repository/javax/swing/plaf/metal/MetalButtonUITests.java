@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.metal.MetalButtonUI class
- * javax.swing.plaf.metal.MetalButtonUI}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalButtonUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.MetalButtonUI class
+ * javax.swing.plaf.metal.MetalButtonUI}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link MetalButtonUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.metal.MetalButtonUIClassTests
+ * @see javax.swing.plaf.metal.MetalButtonUI class javax.swing.plaf.metal.MetalButtonUI (the hereby targeted
+ *      class-under-test class)
+ * @see MetalButtonUIClassTests MetalButtonUIClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.metal.MetalButtonUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,20 +30,27 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#installDefaults(javax.swing.AbstractButton) public
-     * void javax.swing.plaf.metal.MetalButtonUI.installDefaults(javax.swing.AbstractButton)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#update(java.awt.Graphics, javax.swing.JComponent)
+     * public void javax.swing.plaf.metal.MetalButtonUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#update(java.awt.Graphics, javax.swing.JComponent)
+     * public void javax.swing.plaf.metal.MetalButtonUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalButtonUI#installDefaults(javax.swing.AbstractButton)
+     * @see javax.swing.plaf.metal.MetalButtonUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     *      javax.swing.plaf.metal.MetalButtonUI.update(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_installDefaults_AbstractButton()
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,12 +62,18 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
      * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#uninstallDefaults(javax.swing.AbstractButton) public
      * void javax.swing.plaf.metal.MetalButtonUI.uninstallDefaults(javax.swing.AbstractButton)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#uninstallDefaults(javax.swing.AbstractButton) public
+     * void javax.swing.plaf.metal.MetalButtonUI.uninstallDefaults(javax.swing.AbstractButton)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalButtonUI#uninstallDefaults(javax.swing.AbstractButton)
+     * @see javax.swing.plaf.metal.MetalButtonUI#uninstallDefaults(javax.swing.AbstractButton) public void
+     *      javax.swing.plaf.metal.MetalButtonUI.uninstallDefaults(javax.swing.AbstractButton) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,21 +87,26 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.metal.MetalButtonUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#installDefaults(javax.swing.AbstractButton) public
+     * void javax.swing.plaf.metal.MetalButtonUI.installDefaults(javax.swing.AbstractButton)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalButtonUI#installDefaults(javax.swing.AbstractButton) public
+     * void javax.swing.plaf.metal.MetalButtonUI.installDefaults(javax.swing.AbstractButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.metal.MetalButtonUI#update(java.awt.Graphics, javax.swing.JComponent)
+     * @see javax.swing.plaf.metal.MetalButtonUI#installDefaults(javax.swing.AbstractButton) public void
+     *      javax.swing.plaf.metal.MetalButtonUI.installDefaults(javax.swing.AbstractButton) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_installDefaults_AbstractButton()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

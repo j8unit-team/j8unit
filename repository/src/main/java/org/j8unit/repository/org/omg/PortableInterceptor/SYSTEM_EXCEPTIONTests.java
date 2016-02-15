@@ -6,19 +6,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableInterceptor.SYSTEM_EXCEPTION interface
- * org.omg.PortableInterceptor.SYSTEM_EXCEPTION}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.PortableInterceptor.SYSTEM_EXCEPTIONTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.SYSTEM_EXCEPTION interface
+ * org.omg.PortableInterceptor.SYSTEM_EXCEPTION}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link SYSTEM_EXCEPTIONClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableInterceptor.SYSTEM_EXCEPTIONClassTests
+ * @see org.omg.PortableInterceptor.SYSTEM_EXCEPTION interface org.omg.PortableInterceptor.SYSTEM_EXCEPTION (the hereby
+ *      targeted class-under-test class)
+ * @see SYSTEM_EXCEPTIONClassTests SYSTEM_EXCEPTIONClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableInterceptor.SYSTEM_EXCEPTION
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

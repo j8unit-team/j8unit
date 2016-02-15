@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.NamedValue class org.omg.CORBA.NamedValue}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.NamedValueTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.NamedValue class org.omg.CORBA.NamedValue}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link NamedValueClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.NamedValueClassTests
+ * @see org.omg.CORBA.NamedValue class org.omg.CORBA.NamedValue (the hereby targeted class-under-test class)
+ * @see NamedValueClassTests NamedValueClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.NamedValue
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,19 +28,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.NamedValue#flags() public abstract int org.omg.CORBA.NamedValue.flags()}.
+     * Test method for {@link org.omg.CORBA.NamedValue#value() public abstract org.omg.CORBA.Any
+     * org.omg.CORBA.NamedValue.value()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.NamedValue#value() public abstract org.omg.CORBA.Any
+     * org.omg.CORBA.NamedValue.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.NamedValue#flags()
+     * @see org.omg.CORBA.NamedValue#value() public abstract org.omg.CORBA.Any org.omg.CORBA.NamedValue.value() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flags()
+    public default void test_value()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -53,12 +58,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.omg.CORBA.NamedValue#name() public abstract java.lang.String
      * org.omg.CORBA.NamedValue.name()}.
      *
+     * <p>
+     * Test method for {@link org.omg.CORBA.NamedValue#name() public abstract java.lang.String
+     * org.omg.CORBA.NamedValue.name()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.NamedValue#name()
+     * @see org.omg.CORBA.NamedValue#name() public abstract java.lang.String org.omg.CORBA.NamedValue.name() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,20 +82,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.NamedValue#value() public abstract org.omg.CORBA.Any
-     * org.omg.CORBA.NamedValue.value()}.
+     * Test method for {@link org.omg.CORBA.NamedValue#flags() public abstract int org.omg.CORBA.NamedValue.flags()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.NamedValue#flags() public abstract int org.omg.CORBA.NamedValue.flags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.NamedValue#value()
+     * @see org.omg.CORBA.NamedValue#flags() public abstract int org.omg.CORBA.NamedValue.flags() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value()
+    public default void test_flags()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

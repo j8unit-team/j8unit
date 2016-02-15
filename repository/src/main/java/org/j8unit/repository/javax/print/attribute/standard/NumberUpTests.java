@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.NumberUp class
- * javax.print.attribute.standard.NumberUp}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.attribute.standard.NumberUpTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.NumberUp class
+ * javax.print.attribute.standard.NumberUp}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link NumberUpClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.standard.NumberUpClassTests
+ * @see javax.print.attribute.standard.NumberUp class javax.print.attribute.standard.NumberUp (the hereby targeted
+ *      class-under-test class)
+ * @see NumberUpClassTests NumberUpClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.standard.NumberUp
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,7 +31,11 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUp#equals(java.lang.Object) public boolean
+     * Test method for {@link javax.print.attribute.standard.NumberUp#equals(Object) public boolean
+     * javax.print.attribute.standard.NumberUp.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.NumberUp#equals(Object) public boolean
      * javax.print.attribute.standard.NumberUp.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,36 +43,14 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.NumberUp#equals(java.lang.Object)
+     * @see javax.print.attribute.standard.NumberUp#equals(Object) public boolean
+     *      javax.print.attribute.standard.NumberUp.equals(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUp#getCategory() public final java.lang.Class
-     * javax.print.attribute.standard.NumberUp.getCategory()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.attribute.standard.NumberUp#getCategory()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getCategory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,18 +62,51 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * Test method for {@link javax.print.attribute.standard.NumberUp#getName() public final java.lang.String
      * javax.print.attribute.standard.NumberUp.getName()}.
      *
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.NumberUp#getName() public final java.lang.String
+     * javax.print.attribute.standard.NumberUp.getName()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.NumberUp#getName()
+     * @see javax.print.attribute.standard.NumberUp#getName() public final java.lang.String
+     *      javax.print.attribute.standard.NumberUp.getName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.NumberUp#getCategory() public final java.lang.Class<?
+     * extends javax.print.attribute.Attribute> javax.print.attribute.standard.NumberUp.getCategory()}.
+     *
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.NumberUp#getCategory() public final java.lang.Class
+     * javax.print.attribute.standard.NumberUp.getCategory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.attribute.standard.NumberUp#getCategory() public final java.lang.Class
+     *      javax.print.attribute.standard.NumberUp.getCategory() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getCategory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

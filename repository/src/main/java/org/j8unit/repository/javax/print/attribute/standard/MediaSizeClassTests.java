@@ -1,38 +1,52 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSize class
- * javax.print.attribute.standard.MediaSize}, containing all class relevant test methods (at least the test methods of
- * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
- * the instance relevant test methods is {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests}.
+ * Reusable j8unit test interface for {@linkplain javax.print.attribute.standard.MediaSize class
+ * javax.print.attribute.standard.MediaSize}, containing all type relevant aspects (e.&thinsp;g., runtime constraints
+ * and further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
+ * is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link MediaSizeTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MediaSizeTests}.
+ * </p>
+ *
+ * @see javax.print.attribute.standard.MediaSize class javax.print.attribute.standard.MediaSize (the hereby targeted
+ *      class-under-test class)
+ * @see MediaSizeTests MediaSizeTests (The complementary j8unit test interface containing the instance relevant test
+ *      methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.standard.MediaSize
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,186 +54,67 @@ public abstract interface MediaSizeClassTests<SUT extends javax.print.attribute.
 extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.Size2DSyntaxClassTests<SUT> {
 
     /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.Engineering class
-     * javax.print.attribute.standard.MediaSize$Engineering}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.EngineeringTests}.
-     * </p>
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.EngineeringTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize.Engineering
+     * @since 0.9.2
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface EngineeringClassTests<SUT extends javax.print.attribute.standard.MediaSize.Engineering>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.print.attribute.standard.MediaSize.Engineering#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.attribute.standard.MediaSize.Engineering.class.isAssignableFrom(sut));
-        }
-
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.attribute.standard.MediaSize.class!",
+                   javax.print.attribute.standard.MediaSize.class.isAssignableFrom(sut));
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.ISO class
-     * javax.print.attribute.standard.MediaSize$ISO}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.ISOTests}.
+     * Reusable j8unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.NA class
+     * javax.print.attribute.standard.MediaSize$NA}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see {@link MediaSizeTests.NATests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.ISOTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link MediaSizeTests.NATests}.
+     * </p>
+     *
+     * @see javax.print.attribute.standard.MediaSize.NA class javax.print.attribute.standard.MediaSize$NA (the hereby
+     *      targeted class-under-test class)
+     * @see MediaSizeTests.NATests MediaSizeTests.NATests (The complementary j8unit test interface containing the
+     *      instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize.ISO
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ISOClassTests<SUT extends javax.print.attribute.standard.MediaSize.ISO>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.print.attribute.standard.MediaSize.ISO#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.attribute.standard.MediaSize.ISO.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.JIS class
-     * javax.print.attribute.standard.MediaSize$JIS}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize.JIS
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface JISClassTests<SUT extends javax.print.attribute.standard.MediaSize.JIS>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.print.attribute.standard.MediaSize.JIS#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.attribute.standard.MediaSize.JIS.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.NA class
-     * javax.print.attribute.standard.MediaSize$NA}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize.NA
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -227,50 +122,141 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
-         * @since 0.9.2
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * @j8unit.aim javax.print.attribute.standard.MediaSize.NA#isAssignableFrom(java.lang.Class)
+         * @since 0.9.2
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.print.attribute.standard.MediaSize.NA.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.attribute.standard.MediaSize.NA.class!",
+                       javax.print.attribute.standard.MediaSize.NA.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.Other class
-     * javax.print.attribute.standard.MediaSize$Other}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests}.
+     * Reusable j8unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.Engineering class
+     * javax.print.attribute.standard.MediaSize$Engineering}, containing all type relevant aspects (e.&thinsp;g.,
+     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link MediaSizeTests.EngineeringTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link MediaSizeTests.EngineeringTests}.
+     * </p>
+     *
+     * @see javax.print.attribute.standard.MediaSize.Engineering class
+     *      javax.print.attribute.standard.MediaSize$Engineering (the hereby targeted class-under-test class)
+     * @see MediaSizeTests.EngineeringTests MediaSizeTests.EngineeringTests (The complementary j8unit test interface
+     *      containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface EngineeringClassTests<SUT extends javax.print.attribute.standard.MediaSize.Engineering>
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.attribute.standard.MediaSize.Engineering.class!",
+                       javax.print.attribute.standard.MediaSize.Engineering.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.Other class
+     * javax.print.attribute.standard.MediaSize$Other}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
+     * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize.Other
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see {@link MediaSizeTests.OtherTests}
+     * ).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link MediaSizeTests.OtherTests}.
+     * </p>
+     *
+     * @see javax.print.attribute.standard.MediaSize.Other class javax.print.attribute.standard.MediaSize$Other (the
+     *      hereby targeted class-under-test class)
+     * @see MediaSizeTests.OtherTests MediaSizeTests.OtherTests (The complementary j8unit test interface containing the
+     *      instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -278,177 +264,162 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
-         * @since 0.9.2
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * @j8unit.aim javax.print.attribute.standard.MediaSize.Other#isAssignableFrom(java.lang.Class)
+         * @since 0.9.2
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.print.attribute.standard.MediaSize.Other.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.attribute.standard.MediaSize.Other.class!",
+                       javax.print.attribute.standard.MediaSize.Other.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.MediaSize#MediaSize(float, float, int) public
-     * javax.print.attribute.standard.MediaSize(float,float,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.ISO class
+     * javax.print.attribute.standard.MediaSize$ISO}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#MediaSize(float, float, int)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see {@link MediaSizeTests.ISOTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link MediaSizeTests.ISOTests}.
+     * </p>
+     *
+     * @see javax.print.attribute.standard.MediaSize.ISO class javax.print.attribute.standard.MediaSize$ISO (the hereby
+     *      targeted class-under-test class)
+     * @see MediaSizeTests.ISOTests MediaSizeTests.ISOTests (The complementary j8unit test interface containing the
+     *      instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MediaSize_float_float_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.MediaSize sut = null; // = new MediaSize(float, float, int);
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ISOClassTests<SUT extends javax.print.attribute.standard.MediaSize.ISO>
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.attribute.standard.MediaSize.ISO.class!",
+                       javax.print.attribute.standard.MediaSize.ISO.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.print.attribute.standard.MediaSize#MediaSize(float, float, int, javax.print.attribute.standard.MediaSizeName)
-     * public javax.print.attribute.standard.MediaSize(float,float,int,javax.print.attribute.standard.MediaSizeName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.print.attribute.standard.MediaSize.JIS class
+     * javax.print.attribute.standard.MediaSize$JIS}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#MediaSize(float, float, int,
-     *             javax.print.attribute.standard.MediaSizeName)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MediaSize_float_float_int_MediaSizeName()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.MediaSize sut = null; // = new MediaSize(float, float, int,
-                                                                   // javax.print.attribute.standard.MediaSizeName);
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.MediaSize#MediaSize(int, int, int) public
-     * javax.print.attribute.standard.MediaSize(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see {@link MediaSizeTests.JISTests}).
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#MediaSize(int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MediaSize_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.MediaSize sut = null; // = new MediaSize(int, int, int);
-    }
-
-    /**
      * <p>
-     * Test method for
-     * {@link javax.print.attribute.standard.MediaSize#MediaSize(int, int, int, javax.print.attribute.standard.MediaSizeName)
-     * public javax.print.attribute.standard.MediaSize(int,int,int,javax.print.attribute.standard.MediaSizeName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * <strong>What? Testing the class itself? What is it good for?</strong>
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#MediaSize(int, int, int,
-     *             javax.print.attribute.standard.MediaSizeName)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MediaSize_int_int_int_MediaSizeName()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.MediaSize sut = null; // = new MediaSize(int, int, int,
-                                                                   // javax.print.attribute.standard.MediaSizeName);
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.MediaSize#findMedia(float, float, int) public static
-     * javax.print.attribute.standard.MediaSizeName javax.print.attribute.standard.MediaSize.findMedia(float,float,int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#findMedia(float, float, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findMedia_float_float_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for
-     * {@link javax.print.attribute.standard.MediaSize#getMediaSizeForName(javax.print.attribute.standard.MediaSizeName)
-     * public static javax.print.attribute.standard.MediaSize
-     * javax.print.attribute.standard.MediaSize.getMediaSizeForName(javax.print.attribute.standard.MediaSizeName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link MediaSizeTests.JISTests}.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#getMediaSizeForName(javax.print.attribute.standard.
-     *             MediaSizeName)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMediaSizeForName_MediaSizeName()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * @since 0.9.2
+     * @see javax.print.attribute.standard.MediaSize.JIS class javax.print.attribute.standard.MediaSize$JIS (the hereby
+     *      targeted class-under-test class)
+     * @see MediaSizeTests.JISTests MediaSizeTests.JISTests (The complementary j8unit test interface containing the
+     *      instance relevant test methods)
      *
-     * @j8unit.aim javax.print.attribute.standard.MediaSize#isAssignableFrom(java.lang.Class)
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.print.attribute.standard.MediaSize.class.isAssignableFrom(sut));
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface JISClassTests<SUT extends javax.print.attribute.standard.MediaSize.JIS>
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.attribute.standard.MediaSize.JIS.class!",
+                       javax.print.attribute.standard.MediaSize.JIS.class.isAssignableFrom(sut));
+        }
+
     }
 
 }

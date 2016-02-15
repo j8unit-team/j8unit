@@ -8,71 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.midi.MetaMessage class javax.sound.midi.MetaMessage},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sound.midi.MetaMessageTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sound.midi.MetaMessage class javax.sound.midi.MetaMessage}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link MetaMessageClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.midi.MetaMessageClassTests
+ * @see javax.sound.midi.MetaMessage class javax.sound.midi.MetaMessage (the hereby targeted class-under-test class)
+ * @see MetaMessageClassTests MetaMessageClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.midi.MetaMessage
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetaMessageTests<SUT extends javax.sound.midi.MetaMessage>
-extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
+extends MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MetaMessage#clone() public java.lang.Object
-     * javax.sound.midi.MetaMessage.clone()}.
+     * Test method for {@link javax.sound.midi.MetaMessage#getType() public int javax.sound.midi.MetaMessage.getType()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MetaMessage#clone()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MetaMessage#getData() public byte[]
-     * javax.sound.midi.MetaMessage.getData()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.sound.midi.MetaMessage#getData()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.sound.midi.MetaMessage#getType() public int javax.sound.midi.MetaMessage.getType()}.
      *
@@ -81,7 +38,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MetaMessage#getType()
+     * @see javax.sound.midi.MetaMessage#getType() public int javax.sound.midi.MetaMessage.getType() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,17 +56,78 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
      * Test method for {@link javax.sound.midi.MetaMessage#setMessage(int, byte[], int) public void
      * javax.sound.midi.MetaMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.MetaMessage#setMessage(int, byte[], int) public void
+     * javax.sound.midi.MetaMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MetaMessage#setMessage(int, byte[], int)
+     * @see javax.sound.midi.MetaMessage#setMessage(int, byte[], int) public void
+     *      javax.sound.midi.MetaMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setMessage_int_byteArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.MetaMessage#getData() public byte[]
+     * javax.sound.midi.MetaMessage.getData()}.
+     *
+     * <p>
+     * Test method for {@link javax.sound.midi.MetaMessage#getData() public byte[]
+     * javax.sound.midi.MetaMessage.getData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.sound.midi.MetaMessage#getData() public byte[] javax.sound.midi.MetaMessage.getData() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.MetaMessage#clone() public java.lang.Object
+     * javax.sound.midi.MetaMessage.clone()}.
+     *
+     * <p>
+     * Test method for {@link javax.sound.midi.MetaMessage#clone() public java.lang.Object
+     * javax.sound.midi.MetaMessage.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.sound.midi.MetaMessage#clone() public java.lang.Object javax.sound.midi.MetaMessage.clone() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

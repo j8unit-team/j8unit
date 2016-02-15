@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.net.Proxy class java.net.Proxy}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
- * containing the class relevant test methods is {@link org.j8unit.repository.java.net.ProxyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.net.Proxy class java.net.Proxy}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link ProxyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.net.ProxyClassTests
+ * @see java.net.Proxy class java.net.Proxy (the hereby targeted class-under-test class)
+ * @see ProxyClassTests ProxyClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.net.Proxy
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,28 +28,61 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain java.net.Proxy.Type class java.net.Proxy$Type}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
-     * test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.java.net.ProxyTests.TypeTests}.
+     * Test method for {@link java.net.Proxy#equals(Object) public final boolean
+     * java.net.Proxy.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.net.Proxy#equals(Object) public final boolean
+     * java.net.Proxy.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see org.j8unit.repository.java.net.ProxyClassTests.TypeClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim java.net.Proxy.Type
+     * @see java.net.Proxy#equals(Object) public final boolean java.net.Proxy.equals(java.lang.Object) (the hereby
+     *      targeted method-under-test)
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface TypeTests<SUT extends java.net.Proxy.Type>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.net.Proxy.Type> {
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
+     * <p>
+     * Test method for {@link java.net.Proxy#hashCode() public final int java.net.Proxy.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.net.Proxy#hashCode() public final int java.net.Proxy.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.net.Proxy#hashCode() public final int java.net.Proxy.hashCode() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Proxy#address() public java.net.SocketAddress java.net.Proxy.address()}.
+     *
      * <p>
      * Test method for {@link java.net.Proxy#address() public java.net.SocketAddress java.net.Proxy.address()}.
      *
@@ -58,7 +91,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Proxy#address()
+     * @see java.net.Proxy#address() public java.net.SocketAddress java.net.Proxy.address() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,43 +106,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.Proxy#equals(java.lang.Object) public final boolean
-     * java.net.Proxy.equals(java.lang.Object)}.
+     * Test method for {@link java.net.Proxy#type() public java.net.Proxy$Type java.net.Proxy.type()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.net.Proxy#equals(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.net.Proxy#hashCode() public final int java.net.Proxy.hashCode()}.
+     * Test method for {@link java.net.Proxy#type() public java.net.Proxy$Type java.net.Proxy.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Proxy#hashCode()
+     * @see java.net.Proxy#type() public java.net.Proxy$Type java.net.Proxy.type() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,17 +133,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.net.Proxy#toString() public java.lang.String java.net.Proxy.toString()}.
      *
+     * <p>
+     * Test method for {@link java.net.Proxy#toString() public java.lang.String java.net.Proxy.toString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.net.Proxy#toString()
+     * @see java.net.Proxy#toString() public java.lang.String java.net.Proxy.toString() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
@@ -139,23 +157,24 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.Proxy#type() public java.net.Proxy$Type java.net.Proxy.type()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain java.net.Proxy.Type class java.net.Proxy$Type}. The complementary
+     * j8unit test interface containing the class relevant aspects is {@link ProxyClassTests.TypeClassTests}.
      * </p>
      *
-     * @j8unit.aim java.net.Proxy#type()
+     * @see java.net.Proxy.Type class java.net.Proxy$Type (the hereby targeted class-under-test class)
+     * @see ProxyClassTests.TypeClassTests ProxyClassTests.TypeClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface TypeTests<SUT extends java.net.Proxy.Type>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.net.Proxy.Type> {
+
     }
 
 }

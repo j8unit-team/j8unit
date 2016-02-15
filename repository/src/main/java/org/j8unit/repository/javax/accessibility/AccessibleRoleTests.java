@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.accessibility.AccessibleRole class
- * javax.accessibility.AccessibleRole}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleRoleTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleRole class
+ * javax.accessibility.AccessibleRole}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link AccessibleRoleClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.accessibility.AccessibleRoleClassTests
+ * @see javax.accessibility.AccessibleRole class javax.accessibility.AccessibleRole (the hereby targeted
+ *      class-under-test class)
+ * @see AccessibleRoleClassTests AccessibleRoleClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.accessibility.AccessibleRole
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleRoleTests<SUT extends javax.accessibility.AccessibleRole>
-extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
+extends AccessibleBundleTests<SUT> {
 
 }

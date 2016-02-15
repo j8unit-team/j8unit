@@ -8,26 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.EventListenerProxy class java.util.EventListenerProxy},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.EventListenerProxyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.EventListenerProxy class java.util.EventListenerProxy}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link EventListenerProxyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.EventListenerProxyClassTests
+ * @see java.util.EventListenerProxy class java.util.EventListenerProxy (the hereby targeted class-under-test class)
+ * @see EventListenerProxyClassTests EventListenerProxyClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.EventListenerProxy
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventListenerProxyTests<SUT extends java.util.EventListenerProxy<T>, T extends java.util.EventListener>
-extends org.j8unit.repository.java.util.EventListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends EventListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.EventListenerProxy#getListener() public T
+     * java.util.EventListenerProxy.getListener()}.
+     *
      * <p>
      * Test method for {@link java.util.EventListenerProxy#getListener() public java.util.EventListener
      * java.util.EventListenerProxy.getListener()}.
@@ -37,7 +40,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT>, org.j8unit.repo
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.EventListenerProxy#getListener()
+     * @see java.util.EventListenerProxy#getListener() public java.util.EventListener
+     *      java.util.EventListenerProxy.getListener() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

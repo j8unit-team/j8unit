@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.auth.login.AccountException class
- * javax.security.auth.login.AccountException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.security.auth.login.AccountExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.auth.login.AccountException class
+ * javax.security.auth.login.AccountException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link AccountExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.auth.login.AccountExceptionClassTests
+ * @see javax.security.auth.login.AccountException class javax.security.auth.login.AccountException (the hereby targeted
+ *      class-under-test class)
+ * @see AccountExceptionClassTests AccountExceptionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.auth.login.AccountException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccountExceptionTests<SUT extends javax.security.auth.login.AccountException>
-extends org.j8unit.repository.javax.security.auth.login.LoginExceptionTests<SUT> {
+extends LoginExceptionTests<SUT> {
 
 }

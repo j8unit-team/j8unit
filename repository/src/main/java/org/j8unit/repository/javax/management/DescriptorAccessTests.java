@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.DescriptorAccess interface
- * javax.management.DescriptorAccess}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.DescriptorAccessTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.DescriptorAccess interface
+ * javax.management.DescriptorAccess}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link DescriptorAccessClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.DescriptorAccessClassTests
+ * @see javax.management.DescriptorAccess interface javax.management.DescriptorAccess (the hereby targeted
+ *      class-under-test class)
+ * @see DescriptorAccessClassTests DescriptorAccessClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.DescriptorAccess
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DescriptorAccessTests<SUT extends javax.management.DescriptorAccess>
-extends org.j8unit.repository.javax.management.DescriptorReadTests<SUT> {
+extends DescriptorReadTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.management.DescriptorAccess#setDescriptor(javax.management.Descriptor) public
+     * abstract void javax.management.DescriptorAccess.setDescriptor(javax.management.Descriptor)}.
+     *
      * <p>
      * Test method for {@link javax.management.DescriptorAccess#setDescriptor(javax.management.Descriptor) public
      * abstract void javax.management.DescriptorAccess.setDescriptor(javax.management.Descriptor)}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.javax.management.DescriptorReadTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.DescriptorAccess#setDescriptor(javax.management.Descriptor)
+     * @see javax.management.DescriptorAccess#setDescriptor(javax.management.Descriptor) public abstract void
+     *      javax.management.DescriptorAccess.setDescriptor(javax.management.Descriptor) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.auth.PrivateCredentialPermission class
- * javax.security.auth.PrivateCredentialPermission}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.security.auth.PrivateCredentialPermissionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.auth.PrivateCredentialPermission class
+ * javax.security.auth.PrivateCredentialPermission}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link PrivateCredentialPermissionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.auth.PrivateCredentialPermissionClassTests
+ * @see javax.security.auth.PrivateCredentialPermission class javax.security.auth.PrivateCredentialPermission (the
+ *      hereby targeted class-under-test class)
+ * @see PrivateCredentialPermissionClassTests PrivateCredentialPermissionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.auth.PrivateCredentialPermission
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,7 +30,40 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.PrivateCredentialPermission#equals(java.lang.Object) public boolean
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#newPermissionCollection() public
+     * java.security.PermissionCollection javax.security.auth.PrivateCredentialPermission.newPermissionCollection()}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#newPermissionCollection() public
+     * java.security.PermissionCollection javax.security.auth.PrivateCredentialPermission.newPermissionCollection()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.security.auth.PrivateCredentialPermission#newPermissionCollection() public
+     *      java.security.PermissionCollection javax.security.auth.PrivateCredentialPermission.newPermissionCollection()
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_newPermissionCollection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#equals(Object) public boolean
+     * javax.security.auth.PrivateCredentialPermission.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#equals(Object) public boolean
      * javax.security.auth.PrivateCredentialPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,12 +71,14 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#equals(java.lang.Object)
+     * @see javax.security.auth.PrivateCredentialPermission#equals(Object) public boolean
+     *      javax.security.auth.PrivateCredentialPermission.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -52,21 +88,55 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.PrivateCredentialPermission#getActions() public java.lang.String
-     * javax.security.auth.PrivateCredentialPermission.getActions()}.
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#hashCode() public int
+     * javax.security.auth.PrivateCredentialPermission.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#hashCode() public int
+     * javax.security.auth.PrivateCredentialPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#getActions()
+     * @see javax.security.auth.PrivateCredentialPermission#hashCode() public int
+     *      javax.security.auth.PrivateCredentialPermission.hashCode() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#implies(java.security.Permission) public
+     * boolean javax.security.auth.PrivateCredentialPermission.implies(java.security.Permission)}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#implies(java.security.Permission) public
+     * boolean javax.security.auth.PrivateCredentialPermission.implies(java.security.Permission)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.security.auth.PrivateCredentialPermission#implies(java.security.Permission) public boolean
+     *      javax.security.auth.PrivateCredentialPermission.implies(java.security.Permission) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
-    public default void test_getActions()
+    @Test
+    @Category(Draft.class)
+    public default void test_implies_Permission()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,12 +148,17 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
      * Test method for {@link javax.security.auth.PrivateCredentialPermission#getCredentialClass() public
      * java.lang.String javax.security.auth.PrivateCredentialPermission.getCredentialClass()}.
      *
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#getCredentialClass() public
+     * java.lang.String javax.security.auth.PrivateCredentialPermission.getCredentialClass()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#getCredentialClass()
+     * @see javax.security.auth.PrivateCredentialPermission#getCredentialClass() public java.lang.String
+     *      javax.security.auth.PrivateCredentialPermission.getCredentialClass() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,12 +175,17 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
      * Test method for {@link javax.security.auth.PrivateCredentialPermission#getPrincipals() public
      * java.lang.String[][] javax.security.auth.PrivateCredentialPermission.getPrincipals()}.
      *
+     * <p>
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#getPrincipals() public
+     * java.lang.String[][] javax.security.auth.PrivateCredentialPermission.getPrincipals()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#getPrincipals()
+     * @see javax.security.auth.PrivateCredentialPermission#getPrincipals() public java.lang.String[][]
+     *      javax.security.auth.PrivateCredentialPermission.getPrincipals() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,67 +199,26 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.PrivateCredentialPermission#hashCode() public int
-     * javax.security.auth.PrivateCredentialPermission.hashCode()}.
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#getActions() public java.lang.String
+     * javax.security.auth.PrivateCredentialPermission.getActions()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.security.auth.PrivateCredentialPermission#implies(java.security.Permission) public
-     * boolean javax.security.auth.PrivateCredentialPermission.implies(java.security.Permission)}.
+     * Test method for {@link javax.security.auth.PrivateCredentialPermission#getActions() public java.lang.String
+     * javax.security.auth.PrivateCredentialPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#implies(java.security.Permission)
+     * @see javax.security.auth.PrivateCredentialPermission#getActions() public java.lang.String
+     *      javax.security.auth.PrivateCredentialPermission.getActions() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_implies_Permission()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.PrivateCredentialPermission#newPermissionCollection() public
-     * java.security.PermissionCollection javax.security.auth.PrivateCredentialPermission.newPermissionCollection()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.security.auth.PrivateCredentialPermission#newPermissionCollection()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_newPermissionCollection()
+    public default void test_getActions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

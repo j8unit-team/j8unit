@@ -8,182 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.ClassLoader class java.lang.ClassLoader}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.lang.ClassLoaderTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain ClassLoader class java.lang.ClassLoader}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link ClassLoaderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.ClassLoaderClassTests
+ * @see ClassLoader class java.lang.ClassLoader (the hereby targeted class-under-test class)
+ * @see ClassLoaderClassTests ClassLoaderClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.ClassLoader
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ClassLoaderTests<SUT extends java.lang.ClassLoader>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ClassLoaderTests<SUT extends ClassLoader>
+extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.ClassLoader#clearAssertionStatus() public void
-     * java.lang.ClassLoader.clearAssertionStatus()}.
+     * Test method for {@link ClassLoader#setDefaultAssertionStatus(boolean) public void
+     * java.lang.ClassLoader.setDefaultAssertionStatus(boolean)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#clearAssertionStatus()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clearAssertionStatus()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.lang.ClassLoader#getParent() public final java.lang.ClassLoader
-     * java.lang.ClassLoader.getParent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#getParent()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ClassLoader#getResource(java.lang.String) public java.net.URL
-     * java.lang.ClassLoader.getResource(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#getResource(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResource_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ClassLoader#getResourceAsStream(java.lang.String) public java.io.InputStream
-     * java.lang.ClassLoader.getResourceAsStream(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#getResourceAsStream(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResourceAsStream_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ClassLoader#getResources(java.lang.String) public java.util.Enumeration
-     * java.lang.ClassLoader.getResources(java.lang.String) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#getResources(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResources_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ClassLoader#loadClass(java.lang.String) public java.lang.Class
-     * java.lang.ClassLoader.loadClass(java.lang.String) throws java.lang.ClassNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#loadClass(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadClass_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ClassLoader#setClassAssertionStatus(java.lang.String, boolean) public void
-     * java.lang.ClassLoader.setClassAssertionStatus(java.lang.String,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.ClassLoader#setClassAssertionStatus(java.lang.String, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setClassAssertionStatus_String_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ClassLoader#setDefaultAssertionStatus(boolean) public void
+     * Test method for {@link ClassLoader#setDefaultAssertionStatus(boolean) public void
      * java.lang.ClassLoader.setDefaultAssertionStatus(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,7 +40,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.ClassLoader#setDefaultAssertionStatus(boolean)
+     * @see ClassLoader#setDefaultAssertionStatus(boolean) public void
+     *      java.lang.ClassLoader.setDefaultAssertionStatus(boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,7 +55,11 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.ClassLoader#setPackageAssertionStatus(java.lang.String, boolean) public void
+     * Test method for {@link ClassLoader#setPackageAssertionStatus(String, boolean) public void
+     * java.lang.ClassLoader.setPackageAssertionStatus(java.lang.String,boolean)}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#setPackageAssertionStatus(String, boolean) public void
      * java.lang.ClassLoader.setPackageAssertionStatus(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,12 +67,205 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.ClassLoader#setPackageAssertionStatus(java.lang.String, boolean)
+     * @see ClassLoader#setPackageAssertionStatus(String, boolean) public void
+     *      java.lang.ClassLoader.setPackageAssertionStatus(java.lang.String,boolean) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setPackageAssertionStatus_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#clearAssertionStatus() public void
+     * java.lang.ClassLoader.clearAssertionStatus()}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#clearAssertionStatus() public void
+     * java.lang.ClassLoader.clearAssertionStatus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#clearAssertionStatus() public void java.lang.ClassLoader.clearAssertionStatus() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clearAssertionStatus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#getResource(String) public java.net.URL
+     * java.lang.ClassLoader.getResource(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#getResource(String) public java.net.URL
+     * java.lang.ClassLoader.getResource(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#getResource(String) public java.net.URL java.lang.ClassLoader.getResource(java.lang.String) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResource_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#getParent() public final java.lang.ClassLoader
+     * java.lang.ClassLoader.getParent()}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#getParent() public final java.lang.ClassLoader
+     * java.lang.ClassLoader.getParent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#getParent() public final java.lang.ClassLoader java.lang.ClassLoader.getParent() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#setClassAssertionStatus(String, boolean) public void
+     * java.lang.ClassLoader.setClassAssertionStatus(java.lang.String,boolean)}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#setClassAssertionStatus(String, boolean) public void
+     * java.lang.ClassLoader.setClassAssertionStatus(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#setClassAssertionStatus(String, boolean) public void
+     *      java.lang.ClassLoader.setClassAssertionStatus(java.lang.String,boolean) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setClassAssertionStatus_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#loadClass(String) public java.lang.Class
+     * <?> java.lang.ClassLoader.loadClass(java.lang.String) throws java.lang.ClassNotFoundException}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#loadClass(String) public java.lang.Class
+     * java.lang.ClassLoader.loadClass(java.lang.String) throws java.lang.ClassNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#loadClass(String) public java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String)
+     *      throws java.lang.ClassNotFoundException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadClass_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#getResourceAsStream(String) public java.io.InputStream
+     * java.lang.ClassLoader.getResourceAsStream(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#getResourceAsStream(String) public java.io.InputStream
+     * java.lang.ClassLoader.getResourceAsStream(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#getResourceAsStream(String) public java.io.InputStream
+     *      java.lang.ClassLoader.getResourceAsStream(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResourceAsStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link ClassLoader#getResources(String) public java.util.Enumeration
+     * <java.net.URL> java.lang.ClassLoader.getResources(java.lang.String) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link ClassLoader#getResources(String) public java.util.Enumeration
+     * java.lang.ClassLoader.getResources(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see ClassLoader#getResources(String) public java.util.Enumeration
+     *      java.lang.ClassLoader.getResources(java.lang.String) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResources_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

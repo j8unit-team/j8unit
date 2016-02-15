@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.ws.handler.LogicalMessageContext interface
- * javax.xml.ws.handler.LogicalMessageContext}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.xml.ws.handler.LogicalMessageContextTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.ws.handler.LogicalMessageContext interface
+ * javax.xml.ws.handler.LogicalMessageContext}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link LogicalMessageContextClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.ws.handler.LogicalMessageContextClassTests
+ * @see javax.xml.ws.handler.LogicalMessageContext interface javax.xml.ws.handler.LogicalMessageContext (the hereby
+ *      targeted class-under-test class)
+ * @see LogicalMessageContextClassTests LogicalMessageContextClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.ws.handler.LogicalMessageContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LogicalMessageContextTests<SUT extends javax.xml.ws.handler.LogicalMessageContext>
-extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
+extends MessageContextTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.xml.ws.handler.LogicalMessageContext#getMessage() public abstract
+     * javax.xml.ws.LogicalMessage javax.xml.ws.handler.LogicalMessageContext.getMessage()}.
+     *
      * <p>
      * Test method for {@link javax.xml.ws.handler.LogicalMessageContext#getMessage() public abstract
      * javax.xml.ws.LogicalMessage javax.xml.ws.handler.LogicalMessageContext.getMessage()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.ws.handler.LogicalMessageContext#getMessage()
+     * @see javax.xml.ws.handler.LogicalMessageContext#getMessage() public abstract javax.xml.ws.LogicalMessage
+     *      javax.xml.ws.handler.LogicalMessageContext.getMessage() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -1,38 +1,50 @@
 package org.j8unit.repository.java.time;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.time.YearMonth class java.time.YearMonth}, containing all class
- * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
- * methods). The counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.java.time.YearMonthTests}.
+ * Reusable j8unit test interface for {@linkplain java.time.YearMonth class java.time.YearMonth}, containing all type
+ * relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the
+ * runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link YearMonthTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.java.time.YearMonthTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link YearMonthTests}.
+ * </p>
+ *
+ * @see java.time.YearMonth class java.time.YearMonth (the hereby targeted class-under-test class)
+ * @see YearMonthTests YearMonthTests (The complementary j8unit test interface containing the instance relevant test
+ *      methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.time.YearMonth
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -42,194 +54,20 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#from(java.time.temporal.TemporalAccessor) public static
-     * java.time.YearMonth java.time.YearMonth.from(java.time.temporal.TemporalAccessor)}.
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#from(java.time.temporal.TemporalAccessor)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#now() public static java.time.YearMonth java.time.YearMonth.now()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#now()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#now(java.time.Clock) public static java.time.YearMonth
-     * java.time.YearMonth.now(java.time.Clock)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#now(java.time.Clock)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_Clock()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#now(java.time.ZoneId) public static java.time.YearMonth
-     * java.time.YearMonth.now(java.time.ZoneId)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#now(java.time.ZoneId)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_ZoneId()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#of(int, int) public static java.time.YearMonth
-     * java.time.YearMonth.of(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#of(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#of(int, java.time.Month) public static java.time.YearMonth
-     * java.time.YearMonth.of(int,java.time.Month)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#of(int, java.time.Month)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_Month()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#parse(java.lang.CharSequence) public static java.time.YearMonth
-     * java.time.YearMonth.parse(java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#parse(java.lang.CharSequence)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#parse(java.lang.CharSequence, java.time.format.DateTimeFormatter)
-     * public static java.time.YearMonth
-     * java.time.YearMonth.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.time.YearMonth#parse(java.lang.CharSequence, java.time.format.DateTimeFormatter)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_CharSequence_DateTimeFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * @since 0.9.2
-     *
-     * @j8unit.aim java.time.YearMonth#isAssignableFrom(java.lang.Class)
      */
     @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @BeforeClass
+    public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue(java.time.YearMonth.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to java.time.YearMonth.class!",
+                   java.time.YearMonth.class.isAssignableFrom(sut));
     }
 
 }

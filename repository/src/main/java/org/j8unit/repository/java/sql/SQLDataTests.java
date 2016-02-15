@@ -9,18 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.sql.SQLData interface java.sql.SQLData}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.sql.SQLDataTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.sql.SQLData interface java.sql.SQLData}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link SQLDataClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.sql.SQLDataClassTests
+ * @see java.sql.SQLData interface java.sql.SQLData (the hereby targeted class-under-test class)
+ * @see SQLDataClassTests SQLDataClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.sql.SQLData
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +32,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.sql.SQLData#getSQLTypeName() public abstract java.lang.String
      * java.sql.SQLData.getSQLTypeName() throws java.sql.SQLException}.
      *
+     * <p>
+     * Test method for {@link java.sql.SQLData#getSQLTypeName() public abstract java.lang.String
+     * java.sql.SQLData.getSQLTypeName() throws java.sql.SQLException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.sql.SQLData#getSQLTypeName()
+     * @see java.sql.SQLData#getSQLTypeName() public abstract java.lang.String java.sql.SQLData.getSQLTypeName() throws
+     *      java.sql.SQLException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,27 +56,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLData#readSQL(java.sql.SQLInput, java.lang.String) public abstract void
-     * java.sql.SQLData.readSQL(java.sql.SQLInput,java.lang.String) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLData#writeSQL(java.sql.SQLOutput) public abstract void
+     * java.sql.SQLData.writeSQL(java.sql.SQLOutput) throws java.sql.SQLException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.sql.SQLData#readSQL(java.sql.SQLInput, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readSQL_SQLInput_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.sql.SQLData#writeSQL(java.sql.SQLOutput) public abstract void
      * java.sql.SQLData.writeSQL(java.sql.SQLOutput) throws java.sql.SQLException}.
@@ -81,12 +68,42 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.sql.SQLData#writeSQL(java.sql.SQLOutput)
+     * @see java.sql.SQLData#writeSQL(java.sql.SQLOutput) public abstract void
+     *      java.sql.SQLData.writeSQL(java.sql.SQLOutput) throws java.sql.SQLException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_writeSQL_SQLOutput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLData#readSQL(java.sql.SQLInput, String) public abstract void
+     * java.sql.SQLData.readSQL(java.sql.SQLInput,java.lang.String) throws java.sql.SQLException}.
+     *
+     * <p>
+     * Test method for {@link java.sql.SQLData#readSQL(java.sql.SQLInput, String) public abstract void
+     * java.sql.SQLData.readSQL(java.sql.SQLInput,java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.sql.SQLData#readSQL(java.sql.SQLInput, String) public abstract void
+     *      java.sql.SQLData.readSQL(java.sql.SQLInput,java.lang.String) throws java.sql.SQLException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readSQL_SQLInput_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

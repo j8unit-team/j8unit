@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.NO_MEMORY class org.omg.CORBA.NO_MEMORY}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.NO_MEMORYTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.NO_MEMORY class org.omg.CORBA.NO_MEMORY}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link NO_MEMORYClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.NO_MEMORYClassTests
+ * @see org.omg.CORBA.NO_MEMORY class org.omg.CORBA.NO_MEMORY (the hereby targeted class-under-test class)
+ * @see NO_MEMORYClassTests NO_MEMORYClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.NO_MEMORY
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NO_MEMORYTests<SUT extends org.omg.CORBA.NO_MEMORY>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
 }

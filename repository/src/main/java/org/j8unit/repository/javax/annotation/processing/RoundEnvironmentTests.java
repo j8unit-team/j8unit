@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.annotation.processing.RoundEnvironment interface
- * javax.annotation.processing.RoundEnvironment}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.annotation.processing.RoundEnvironmentTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.annotation.processing.RoundEnvironment interface
+ * javax.annotation.processing.RoundEnvironment}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link RoundEnvironmentClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.annotation.processing.RoundEnvironmentClassTests
+ * @see javax.annotation.processing.RoundEnvironment interface javax.annotation.processing.RoundEnvironment (the hereby
+ *      targeted class-under-test class)
+ * @see RoundEnvironmentClassTests RoundEnvironmentClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.annotation.processing.RoundEnvironment
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.annotation.processing.RoundEnvironment#errorRaised() public abstract boolean
      * javax.annotation.processing.RoundEnvironment.errorRaised()}.
      *
+     * <p>
+     * Test method for {@link javax.annotation.processing.RoundEnvironment#errorRaised() public abstract boolean
+     * javax.annotation.processing.RoundEnvironment.errorRaised()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.RoundEnvironment#errorRaised()
+     * @see javax.annotation.processing.RoundEnvironment#errorRaised() public abstract boolean
+     *      javax.annotation.processing.RoundEnvironment.errorRaised() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,16 +58,51 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(java.lang.Class)
-     * public abstract java.util.Set
-     * javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(java.lang.Class)}.
+     * Test method for {@link javax.annotation.processing.RoundEnvironment#getRootElements() public abstract
+     * java.util.Set<? extends javax.lang.model.element.Element>
+     * javax.annotation.processing.RoundEnvironment.getRootElements()}.
+     *
+     * <p>
+     * Test method for {@link javax.annotation.processing.RoundEnvironment#getRootElements() public abstract
+     * java.util.Set javax.annotation.processing.RoundEnvironment.getRootElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(java.lang.Class)
+     * @see javax.annotation.processing.RoundEnvironment#getRootElements() public abstract java.util.Set
+     *      javax.annotation.processing.RoundEnvironment.getRootElements() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRootElements()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(Class) public
+     * abstract java.util.Set<? extends javax.lang.model.element.Element>
+     * javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(java.lang.Class<? extends
+     * java.lang.annotation.Annotation>)}.
+     *
+     * <p>
+     * Test method for {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(Class) public
+     * abstract java.util.Set javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(java.lang.Class)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(Class) public abstract java.util.Set
+     *      javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(java.lang.Class) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,6 +118,12 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for
      * {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(javax.lang.model.element.TypeElement)
+     * public abstract java.util.Set<? extends javax.lang.model.element.Element>
+     * javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(javax.lang.model.element.TypeElement)}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(javax.lang.model.element.TypeElement)
      * public abstract java.util.Set
      * javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(javax.lang.model.element.TypeElement)}.
      *
@@ -85,8 +132,10 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(javax.lang.model.element.
-     *             TypeElement)
+     * @see javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(javax.lang.model.element.TypeElement)
+     *      public abstract java.util.Set
+     *      javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(javax.lang.model.element.TypeElement)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -100,27 +149,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.RoundEnvironment#getRootElements() public abstract
-     * java.util.Set javax.annotation.processing.RoundEnvironment.getRootElements()}.
+     * Test method for {@link javax.annotation.processing.RoundEnvironment#processingOver() public abstract boolean
+     * javax.annotation.processing.RoundEnvironment.processingOver()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.annotation.processing.RoundEnvironment#getRootElements()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRootElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.annotation.processing.RoundEnvironment#processingOver() public abstract boolean
      * javax.annotation.processing.RoundEnvironment.processingOver()}.
@@ -130,7 +161,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.RoundEnvironment#processingOver()
+     * @see javax.annotation.processing.RoundEnvironment#processingOver() public abstract boolean
+     *      javax.annotation.processing.RoundEnvironment.processingOver() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

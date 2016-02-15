@@ -8,141 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.dnd.DropTarget class java.awt.dnd.DropTarget}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.dnd.DropTargetTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.dnd.DropTarget class java.awt.dnd.DropTarget}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link DropTargetClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.dnd.DropTargetClassTests
+ * @see java.awt.dnd.DropTarget class java.awt.dnd.DropTarget (the hereby targeted class-under-test class)
+ * @see DropTargetClassTests DropTargetClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.dnd.DropTarget
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DropTargetTests<SUT extends java.awt.dnd.DropTarget>
-extends org.j8unit.repository.java.awt.dnd.DropTargetListenerTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends DropTargetListenerTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#addDropTargetListener(java.awt.dnd.DropTargetListener) public
-     * synchronized void java.awt.dnd.DropTarget.addDropTargetListener(java.awt.dnd.DropTargetListener) throws
-     * java.util.TooManyListenersException}.
+     * Test method for {@link java.awt.dnd.DropTarget#drop(java.awt.dnd.DropTargetDropEvent) public synchronized void
+     * java.awt.dnd.DropTarget.drop(java.awt.dnd.DropTargetDropEvent)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#addDropTargetListener(java.awt.dnd.DropTargetListener)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addDropTargetListener_DropTargetListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#addNotify(java.awt.peer.ComponentPeer) public void
-     * java.awt.dnd.DropTarget.addNotify(java.awt.peer.ComponentPeer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#addNotify(java.awt.peer.ComponentPeer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addNotify_ComponentPeer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#dragEnter(java.awt.dnd.DropTargetDragEvent) public synchronized
-     * void java.awt.dnd.DropTarget.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#dragEnter(java.awt.dnd.DropTargetDragEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragEnter_DropTargetDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#dragExit(java.awt.dnd.DropTargetEvent) public synchronized void
-     * java.awt.dnd.DropTarget.dragExit(java.awt.dnd.DropTargetEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#dragExit(java.awt.dnd.DropTargetEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragExit_DropTargetEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#dragOver(java.awt.dnd.DropTargetDragEvent) public synchronized
-     * void java.awt.dnd.DropTarget.dragOver(java.awt.dnd.DropTargetDragEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#dragOver(java.awt.dnd.DropTargetDragEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragOver_DropTargetDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.dnd.DropTarget#drop(java.awt.dnd.DropTargetDropEvent) public synchronized void
      * java.awt.dnd.DropTarget.drop(java.awt.dnd.DropTargetDropEvent)}.
@@ -152,80 +40,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#drop(java.awt.dnd.DropTargetDropEvent)
+     * @see java.awt.dnd.DropTarget#drop(java.awt.dnd.DropTargetDropEvent) public synchronized void
+     *      java.awt.dnd.DropTarget.drop(java.awt.dnd.DropTargetDropEvent) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_drop_DropTargetDropEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public
-     * synchronized void java.awt.dnd.DropTarget.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#dropActionChanged(java.awt.dnd.DropTargetDragEvent)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dropActionChanged_DropTargetDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#getComponent() public synchronized java.awt.Component
-     * java.awt.dnd.DropTarget.getComponent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#getComponent()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#getDefaultActions() public int
-     * java.awt.dnd.DropTarget.getDefaultActions()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#getDefaultActions()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultActions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,12 +59,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.dnd.DropTarget#getDropTargetContext() public java.awt.dnd.DropTargetContext
      * java.awt.dnd.DropTarget.getDropTargetContext()}.
      *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#getDropTargetContext() public java.awt.dnd.DropTargetContext
+     * java.awt.dnd.DropTarget.getDropTargetContext()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#getDropTargetContext()
+     * @see java.awt.dnd.DropTarget#getDropTargetContext() public java.awt.dnd.DropTargetContext
+     *      java.awt.dnd.DropTarget.getDropTargetContext() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -256,48 +83,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#getFlavorMap() public java.awt.datatransfer.FlavorMap
-     * java.awt.dnd.DropTarget.getFlavorMap()}.
+     * Test method for {@link java.awt.dnd.DropTarget#removeDropTargetListener(java.awt.dnd.DropTargetListener) public
+     * synchronized void java.awt.dnd.DropTarget.removeDropTargetListener(java.awt.dnd.DropTargetListener)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#getFlavorMap()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFlavorMap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#isActive() public boolean java.awt.dnd.DropTarget.isActive()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#isActive()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isActive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.dnd.DropTarget#removeDropTargetListener(java.awt.dnd.DropTargetListener) public
      * synchronized void java.awt.dnd.DropTarget.removeDropTargetListener(java.awt.dnd.DropTargetListener)}.
@@ -307,7 +95,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#removeDropTargetListener(java.awt.dnd.DropTargetListener)
+     * @see java.awt.dnd.DropTarget#removeDropTargetListener(java.awt.dnd.DropTargetListener) public synchronized void
+     *      java.awt.dnd.DropTarget.removeDropTargetListener(java.awt.dnd.DropTargetListener) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -321,42 +111,26 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#removeNotify(java.awt.peer.ComponentPeer) public void
-     * java.awt.dnd.DropTarget.removeNotify(java.awt.peer.ComponentPeer)}.
+     * Test method for {@link java.awt.dnd.DropTarget#dragEnter(java.awt.dnd.DropTargetDragEvent) public synchronized
+     * void java.awt.dnd.DropTarget.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.dnd.DropTarget#removeNotify(java.awt.peer.ComponentPeer)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNotify_ComponentPeer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#setActive(boolean) public synchronized void
-     * java.awt.dnd.DropTarget.setActive(boolean)}.
+     * Test method for {@link java.awt.dnd.DropTarget#dragEnter(java.awt.dnd.DropTargetDragEvent) public synchronized
+     * void java.awt.dnd.DropTarget.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#setActive(boolean)
+     * @see java.awt.dnd.DropTarget#dragEnter(java.awt.dnd.DropTargetDragEvent) public synchronized void
+     *      java.awt.dnd.DropTarget.dragEnter(java.awt.dnd.DropTargetDragEvent) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setActive_boolean()
+    public default void test_dragEnter_DropTargetDragEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -368,12 +142,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.dnd.DropTarget#setComponent(java.awt.Component) public synchronized void
      * java.awt.dnd.DropTarget.setComponent(java.awt.Component)}.
      *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#setComponent(java.awt.Component) public synchronized void
+     * java.awt.dnd.DropTarget.setComponent(java.awt.Component)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#setComponent(java.awt.Component)
+     * @see java.awt.dnd.DropTarget#setComponent(java.awt.Component) public synchronized void
+     *      java.awt.dnd.DropTarget.setComponent(java.awt.Component) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -387,6 +166,313 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public
+     * synchronized void java.awt.dnd.DropTarget.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public
+     * synchronized void java.awt.dnd.DropTarget.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public synchronized void
+     *      java.awt.dnd.DropTarget.dropActionChanged(java.awt.dnd.DropTargetDragEvent) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dropActionChanged_DropTargetDragEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#isActive() public boolean java.awt.dnd.DropTarget.isActive()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#isActive() public boolean java.awt.dnd.DropTarget.isActive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#isActive() public boolean java.awt.dnd.DropTarget.isActive() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#addDropTargetListener(java.awt.dnd.DropTargetListener) public
+     * synchronized void java.awt.dnd.DropTarget.addDropTargetListener(java.awt.dnd.DropTargetListener) throws
+     * java.util.TooManyListenersException}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#addDropTargetListener(java.awt.dnd.DropTargetListener) public
+     * synchronized void java.awt.dnd.DropTarget.addDropTargetListener(java.awt.dnd.DropTargetListener) throws
+     * java.util.TooManyListenersException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#addDropTargetListener(java.awt.dnd.DropTargetListener) public synchronized void
+     *      java.awt.dnd.DropTarget.addDropTargetListener(java.awt.dnd.DropTargetListener) throws
+     *      java.util.TooManyListenersException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addDropTargetListener_DropTargetListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#setFlavorMap(java.awt.datatransfer.FlavorMap) public void
+     * java.awt.dnd.DropTarget.setFlavorMap(java.awt.datatransfer.FlavorMap)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#setFlavorMap(java.awt.datatransfer.FlavorMap) public void
+     * java.awt.dnd.DropTarget.setFlavorMap(java.awt.datatransfer.FlavorMap)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#setFlavorMap(java.awt.datatransfer.FlavorMap) public void
+     *      java.awt.dnd.DropTarget.setFlavorMap(java.awt.datatransfer.FlavorMap) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFlavorMap_FlavorMap()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#getFlavorMap() public java.awt.datatransfer.FlavorMap
+     * java.awt.dnd.DropTarget.getFlavorMap()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#getFlavorMap() public java.awt.datatransfer.FlavorMap
+     * java.awt.dnd.DropTarget.getFlavorMap()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#getFlavorMap() public java.awt.datatransfer.FlavorMap
+     *      java.awt.dnd.DropTarget.getFlavorMap() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFlavorMap()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#setActive(boolean) public synchronized void
+     * java.awt.dnd.DropTarget.setActive(boolean)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#setActive(boolean) public synchronized void
+     * java.awt.dnd.DropTarget.setActive(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#setActive(boolean) public synchronized void
+     *      java.awt.dnd.DropTarget.setActive(boolean) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setActive_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#addNotify(java.awt.peer.ComponentPeer) public void
+     * java.awt.dnd.DropTarget.addNotify(java.awt.peer.ComponentPeer)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#addNotify(java.awt.peer.ComponentPeer) public void
+     * java.awt.dnd.DropTarget.addNotify(java.awt.peer.ComponentPeer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#addNotify(java.awt.peer.ComponentPeer) public void
+     *      java.awt.dnd.DropTarget.addNotify(java.awt.peer.ComponentPeer) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addNotify_ComponentPeer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#removeNotify(java.awt.peer.ComponentPeer) public void
+     * java.awt.dnd.DropTarget.removeNotify(java.awt.peer.ComponentPeer)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#removeNotify(java.awt.peer.ComponentPeer) public void
+     * java.awt.dnd.DropTarget.removeNotify(java.awt.peer.ComponentPeer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#removeNotify(java.awt.peer.ComponentPeer) public void
+     *      java.awt.dnd.DropTarget.removeNotify(java.awt.peer.ComponentPeer) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotify_ComponentPeer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#getComponent() public synchronized java.awt.Component
+     * java.awt.dnd.DropTarget.getComponent()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#getComponent() public synchronized java.awt.Component
+     * java.awt.dnd.DropTarget.getComponent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#getComponent() public synchronized java.awt.Component
+     *      java.awt.dnd.DropTarget.getComponent() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#dragOver(java.awt.dnd.DropTargetDragEvent) public synchronized
+     * void java.awt.dnd.DropTarget.dragOver(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#dragOver(java.awt.dnd.DropTargetDragEvent) public synchronized
+     * void java.awt.dnd.DropTarget.dragOver(java.awt.dnd.DropTargetDragEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#dragOver(java.awt.dnd.DropTargetDragEvent) public synchronized void
+     *      java.awt.dnd.DropTarget.dragOver(java.awt.dnd.DropTargetDragEvent) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dragOver_DropTargetDragEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#dragExit(java.awt.dnd.DropTargetEvent) public synchronized void
+     * java.awt.dnd.DropTarget.dragExit(java.awt.dnd.DropTargetEvent)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#dragExit(java.awt.dnd.DropTargetEvent) public synchronized void
+     * java.awt.dnd.DropTarget.dragExit(java.awt.dnd.DropTargetEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.dnd.DropTarget#dragExit(java.awt.dnd.DropTargetEvent) public synchronized void
+     *      java.awt.dnd.DropTarget.dragExit(java.awt.dnd.DropTargetEvent) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dragExit_DropTargetEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#setDefaultActions(int) public void
+     * java.awt.dnd.DropTarget.setDefaultActions(int)}.
+     *
+     * <p>
      * Test method for {@link java.awt.dnd.DropTarget#setDefaultActions(int) public void
      * java.awt.dnd.DropTarget.setDefaultActions(int)}.
      *
@@ -395,7 +481,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#setDefaultActions(int)
+     * @see java.awt.dnd.DropTarget#setDefaultActions(int) public void java.awt.dnd.DropTarget.setDefaultActions(int)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,20 +496,25 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTarget#setFlavorMap(java.awt.datatransfer.FlavorMap) public void
-     * java.awt.dnd.DropTarget.setFlavorMap(java.awt.datatransfer.FlavorMap)}.
+     * Test method for {@link java.awt.dnd.DropTarget#getDefaultActions() public int
+     * java.awt.dnd.DropTarget.getDefaultActions()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTarget#getDefaultActions() public int
+     * java.awt.dnd.DropTarget.getDefaultActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.dnd.DropTarget#setFlavorMap(java.awt.datatransfer.FlavorMap)
+     * @see java.awt.dnd.DropTarget#getDefaultActions() public int java.awt.dnd.DropTarget.getDefaultActions() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFlavorMap_FlavorMap()
+    public default void test_getDefaultActions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

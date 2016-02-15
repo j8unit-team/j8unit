@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.transform.stream.StreamResult class
- * javax.xml.transform.stream.StreamResult}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.transform.stream.StreamResultTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.transform.stream.StreamResult class
+ * javax.xml.transform.stream.StreamResult}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link StreamResultClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTests
+ * @see javax.xml.transform.stream.StreamResult class javax.xml.transform.stream.StreamResult (the hereby targeted
+ *      class-under-test class)
+ * @see StreamResultClassTests StreamResultClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.transform.stream.StreamResult
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,20 +30,25 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
-     * javax.xml.transform.stream.StreamResult.getOutputStream()}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
+     * javax.xml.transform.stream.StreamResult.setSystemId(java.io.File)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
+     * javax.xml.transform.stream.StreamResult.setSystemId(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#getOutputStream()
+     * @see javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
+     *      javax.xml.transform.stream.StreamResult.setSystemId(java.io.File) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutputStream()
+    public default void test_setSystemId_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -51,21 +57,27 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
-     * javax.xml.transform.stream.StreamResult.getSystemId()}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(String) public void
+     * javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(String) public void
+     * javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#getSystemId()
+     * @see javax.xml.transform.stream.StreamResult#setSystemId(String) public void
+     *      javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getSystemId()
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,12 +89,17 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * Test method for {@link javax.xml.transform.stream.StreamResult#getWriter() public java.io.Writer
      * javax.xml.transform.stream.StreamResult.getWriter()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getWriter() public java.io.Writer
+     * javax.xml.transform.stream.StreamResult.getWriter()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#getWriter()
+     * @see javax.xml.transform.stream.StreamResult#getWriter() public java.io.Writer
+     *      javax.xml.transform.stream.StreamResult.getWriter() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,12 +116,18 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * Test method for {@link javax.xml.transform.stream.StreamResult#setOutputStream(java.io.OutputStream) public void
      * javax.xml.transform.stream.StreamResult.setOutputStream(java.io.OutputStream)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setOutputStream(java.io.OutputStream) public void
+     * javax.xml.transform.stream.StreamResult.setOutputStream(java.io.OutputStream)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#setOutputStream(java.io.OutputStream)
+     * @see javax.xml.transform.stream.StreamResult#setOutputStream(java.io.OutputStream) public void
+     *      javax.xml.transform.stream.StreamResult.setOutputStream(java.io.OutputStream) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,43 +141,26 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
-     * javax.xml.transform.stream.StreamResult.setSystemId(java.io.File)}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
+     * javax.xml.transform.stream.StreamResult.getSystemId()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#setSystemId(java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSystemId_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.lang.String) public void
-     * javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String)}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
+     * javax.xml.transform.stream.StreamResult.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#setSystemId(java.lang.String)
+     * @see javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
+     *      javax.xml.transform.stream.StreamResult.getSystemId() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setSystemId_String()
+    public default void test_getSystemId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,17 +172,49 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
      * Test method for {@link javax.xml.transform.stream.StreamResult#setWriter(java.io.Writer) public void
      * javax.xml.transform.stream.StreamResult.setWriter(java.io.Writer)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setWriter(java.io.Writer) public void
+     * javax.xml.transform.stream.StreamResult.setWriter(java.io.Writer)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.transform.stream.StreamResult#setWriter(java.io.Writer)
+     * @see javax.xml.transform.stream.StreamResult#setWriter(java.io.Writer) public void
+     *      javax.xml.transform.stream.StreamResult.setWriter(java.io.Writer) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setWriter_Writer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
+     * javax.xml.transform.stream.StreamResult.getOutputStream()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
+     * javax.xml.transform.stream.StreamResult.getOutputStream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
+     *      javax.xml.transform.stream.StreamResult.getOutputStream() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

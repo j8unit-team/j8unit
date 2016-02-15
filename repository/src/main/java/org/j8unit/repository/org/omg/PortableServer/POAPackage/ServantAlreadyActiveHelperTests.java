@@ -5,20 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper class
- * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper}, containing all instance relevant test methods
- * (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the
- * class relevant test methods is
- * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelperTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper class
+ * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper}. The complementary j8unit test interface containing the
+ * class relevant aspects is {@link ServantAlreadyActiveHelperClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelperClassTests
+ * @see org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper class
+ *      org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper (the hereby targeted class-under-test class)
+ * @see ServantAlreadyActiveHelperClassTests ServantAlreadyActiveHelperClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

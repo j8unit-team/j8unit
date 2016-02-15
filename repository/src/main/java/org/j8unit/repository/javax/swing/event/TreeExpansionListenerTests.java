@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.event.TreeExpansionListener interface
- * javax.swing.event.TreeExpansionListener}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.event.TreeExpansionListenerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.event.TreeExpansionListener interface
+ * javax.swing.event.TreeExpansionListener}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link TreeExpansionListenerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.event.TreeExpansionListenerClassTests
+ * @see javax.swing.event.TreeExpansionListener interface javax.swing.event.TreeExpansionListener (the hereby targeted
+ *      class-under-test class)
+ * @see TreeExpansionListenerClassTests TreeExpansionListenerClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.event.TreeExpansionListener
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,19 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * {@link javax.swing.event.TreeExpansionListener#treeCollapsed(javax.swing.event.TreeExpansionEvent) public
      * abstract void javax.swing.event.TreeExpansionListener.treeCollapsed(javax.swing.event.TreeExpansionEvent)}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.swing.event.TreeExpansionListener#treeCollapsed(javax.swing.event.TreeExpansionEvent) public
+     * abstract void javax.swing.event.TreeExpansionListener.treeCollapsed(javax.swing.event.TreeExpansionEvent)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.TreeExpansionListener#treeCollapsed(javax.swing.event.TreeExpansionEvent)
+     * @see javax.swing.event.TreeExpansionListener#treeCollapsed(javax.swing.event.TreeExpansionEvent) public abstract
+     *      void javax.swing.event.TreeExpansionListener.treeCollapsed(javax.swing.event.TreeExpansionEvent) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,12 +63,18 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for {@link javax.swing.event.TreeExpansionListener#treeExpanded(javax.swing.event.TreeExpansionEvent)
      * public abstract void javax.swing.event.TreeExpansionListener.treeExpanded(javax.swing.event.TreeExpansionEvent)}.
      *
+     * <p>
+     * Test method for {@link javax.swing.event.TreeExpansionListener#treeExpanded(javax.swing.event.TreeExpansionEvent)
+     * public abstract void javax.swing.event.TreeExpansionListener.treeExpanded(javax.swing.event.TreeExpansionEvent)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.event.TreeExpansionListener#treeExpanded(javax.swing.event.TreeExpansionEvent)
+     * @see javax.swing.event.TreeExpansionListener#treeExpanded(javax.swing.event.TreeExpansionEvent) public abstract
+     *      void javax.swing.event.TreeExpansionListener.treeExpanded(javax.swing.event.TreeExpansionEvent) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

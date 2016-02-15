@@ -8,26 +8,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.reflect.AnnotatedParameterizedType interface
- * java.lang.reflect.AnnotatedParameterizedType}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.lang.reflect.AnnotatedParameterizedTypeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.reflect.AnnotatedParameterizedType interface
+ * java.lang.reflect.AnnotatedParameterizedType}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link AnnotatedParameterizedTypeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.reflect.AnnotatedParameterizedTypeClassTests
+ * @see java.lang.reflect.AnnotatedParameterizedType interface java.lang.reflect.AnnotatedParameterizedType (the hereby
+ *      targeted class-under-test class)
+ * @see AnnotatedParameterizedTypeClassTests AnnotatedParameterizedTypeClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.reflect.AnnotatedParameterizedType
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedParameterizedTypeTests<SUT extends java.lang.reflect.AnnotatedParameterizedType>
-extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {
+extends AnnotatedTypeTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public
+     * abstract java.lang.reflect.AnnotatedType[]
+     * java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments()}.
+     *
      * <p>
      * Test method for {@link java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public
      * abstract java.lang.reflect.AnnotatedType[]
@@ -38,7 +44,10 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments()
+     * @see java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public abstract
+     *      java.lang.reflect.AnnotatedType[]
+     *      java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

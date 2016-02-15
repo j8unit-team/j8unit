@@ -8,24 +8,25 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.bind.helpers.NotIdentifiableEventImpl class
- * javax.xml.bind.helpers.NotIdentifiableEventImpl}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.xml.bind.helpers.NotIdentifiableEventImplTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.bind.helpers.NotIdentifiableEventImpl class
+ * javax.xml.bind.helpers.NotIdentifiableEventImpl}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link NotIdentifiableEventImplClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.bind.helpers.NotIdentifiableEventImplClassTests
+ * @see javax.xml.bind.helpers.NotIdentifiableEventImpl class javax.xml.bind.helpers.NotIdentifiableEventImpl (the
+ *      hereby targeted class-under-test class)
+ * @see NotIdentifiableEventImplClassTests NotIdentifiableEventImplClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.bind.helpers.NotIdentifiableEventImpl
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotIdentifiableEventImplTests<SUT extends javax.xml.bind.helpers.NotIdentifiableEventImpl>
-extends org.j8unit.repository.javax.xml.bind.NotIdentifiableEventTests<SUT>, org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplTests<SUT> {
+extends org.j8unit.repository.javax.xml.bind.NotIdentifiableEventTests<SUT>, ValidationEventImplTests<SUT> {
 
     /**
      * <p>
@@ -33,68 +34,21 @@ extends org.j8unit.repository.javax.xml.bind.NotIdentifiableEventTests<SUT>, org
      * class-under-test:
      * </p>
      * <ul>
-     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
-     * <li>interface javax.xml.bind.ValidationEvent</li>
+     * <li>{@linkplain javax.xml.bind.ValidationEvent#getMessage() interface javax.xml.bind.ValidationEvent}</li>
+     * <li>{@linkplain javax.xml.bind.helpers.ValidationEventImpl#getMessage() class
+     * javax.xml.bind.helpers.ValidationEventImpl}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
      * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getLinkedException()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
-     * <li>interface javax.xml.bind.ValidationEvent</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLocator()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
-     * <li>interface javax.xml.bind.ValidationEvent</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
     public default void test_getMessage()
     throws Exception {
     }
@@ -105,21 +59,73 @@ extends org.j8unit.repository.javax.xml.bind.NotIdentifiableEventTests<SUT>, org
      * class-under-test:
      * </p>
      * <ul>
-     * <li>class javax.xml.bind.helpers.ValidationEventImpl</li>
-     * <li>interface javax.xml.bind.ValidationEvent</li>
+     * <li>{@linkplain javax.xml.bind.ValidationEvent#getLocator() interface javax.xml.bind.ValidationEvent}</li>
+     * <li>{@linkplain javax.xml.bind.helpers.ValidationEventImpl#getLocator() class
+     * javax.xml.bind.helpers.ValidationEventImpl}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
      * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
+    public default void test_getLocator()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@linkplain javax.xml.bind.ValidationEvent#getSeverity() interface javax.xml.bind.ValidationEvent}</li>
+     * <li>{@linkplain javax.xml.bind.helpers.ValidationEventImpl#getSeverity() class
+     * javax.xml.bind.helpers.ValidationEventImpl}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
+    @Test
+    @Category(Draft.class)
     public default void test_getSeverity()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@linkplain javax.xml.bind.ValidationEvent#getLinkedException() interface javax.xml.bind.ValidationEvent}
+     * </li>
+     * <li>{@linkplain javax.xml.bind.helpers.ValidationEventImpl#getLinkedException() class
+     * javax.xml.bind.helpers.ValidationEventImpl}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLinkedException()
     throws Exception {
     }
 

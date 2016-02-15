@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.lang.model.type.MirroredTypesException class
- * javax.lang.model.type.MirroredTypesException}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.lang.model.type.MirroredTypesExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.lang.model.type.MirroredTypesException class
+ * javax.lang.model.type.MirroredTypesException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link MirroredTypesExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.lang.model.type.MirroredTypesExceptionClassTests
+ * @see javax.lang.model.type.MirroredTypesException class javax.lang.model.type.MirroredTypesException (the hereby
+ *      targeted class-under-test class)
+ * @see MirroredTypesExceptionClassTests MirroredTypesExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.lang.model.type.MirroredTypesException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +29,10 @@ public abstract interface MirroredTypesExceptionTests<SUT extends javax.lang.mod
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.lang.model.type.MirroredTypesException#getTypeMirrors() public java.util.List<?
+     * extends javax.lang.model.type.TypeMirror> javax.lang.model.type.MirroredTypesException.getTypeMirrors()}.
+     *
      * <p>
      * Test method for {@link javax.lang.model.type.MirroredTypesException#getTypeMirrors() public java.util.List
      * javax.lang.model.type.MirroredTypesException.getTypeMirrors()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.lang.model.type.MirroredTypesException#getTypeMirrors()
+     * @see javax.lang.model.type.MirroredTypesException#getTypeMirrors() public java.util.List
+     *      javax.lang.model.type.MirroredTypesException.getTypeMirrors() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

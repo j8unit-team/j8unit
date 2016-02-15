@@ -8,26 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.w3c.dom.css.CSSValueList interface org.w3c.dom.css.CSSValueList},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSValueListTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.w3c.dom.css.CSSValueList interface org.w3c.dom.css.CSSValueList}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link CSSValueListClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.w3c.dom.css.CSSValueListClassTests
+ * @see org.w3c.dom.css.CSSValueList interface org.w3c.dom.css.CSSValueList (the hereby targeted class-under-test class)
+ * @see CSSValueListClassTests CSSValueListClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.w3c.dom.css.CSSValueList
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSValueListTests<SUT extends org.w3c.dom.css.CSSValueList>
-extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
+extends CSSValueTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link org.w3c.dom.css.CSSValueList#getLength() public abstract int
+     * org.w3c.dom.css.CSSValueList.getLength()}.
+     *
      * <p>
      * Test method for {@link org.w3c.dom.css.CSSValueList#getLength() public abstract int
      * org.w3c.dom.css.CSSValueList.getLength()}.
@@ -37,7 +40,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.css.CSSValueList#getLength()
+     * @see org.w3c.dom.css.CSSValueList#getLength() public abstract int org.w3c.dom.css.CSSValueList.getLength() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +58,17 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
      * Test method for {@link org.w3c.dom.css.CSSValueList#item(int) public abstract org.w3c.dom.css.CSSValue
      * org.w3c.dom.css.CSSValueList.item(int)}.
      *
+     * <p>
+     * Test method for {@link org.w3c.dom.css.CSSValueList#item(int) public abstract org.w3c.dom.css.CSSValue
+     * org.w3c.dom.css.CSSValueList.item(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.w3c.dom.css.CSSValueList#item(int)
+     * @see org.w3c.dom.css.CSSValueList#item(int) public abstract org.w3c.dom.css.CSSValue
+     *      org.w3c.dom.css.CSSValueList.item(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,71 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.io.CharArrayReader class java.io.CharArrayReader}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.io.CharArrayReaderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.io.CharArrayReader class java.io.CharArrayReader}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link CharArrayReaderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.io.CharArrayReaderClassTests
+ * @see java.io.CharArrayReader class java.io.CharArrayReader (the hereby targeted class-under-test class)
+ * @see CharArrayReaderClassTests CharArrayReaderClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.io.CharArrayReader
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharArrayReaderTests<SUT extends java.io.CharArrayReader>
-extends org.j8unit.repository.java.io.ReaderTests<SUT> {
+extends ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.CharArrayReader#close() public void java.io.CharArrayReader.close()}.
+     * Test method for {@link java.io.CharArrayReader#markSupported() public boolean
+     * java.io.CharArrayReader.markSupported()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.io.CharArrayReader#close()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.CharArrayReader#mark(int) public void java.io.CharArrayReader.mark(int) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.io.CharArrayReader#mark(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mark_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.io.CharArrayReader#markSupported() public boolean
      * java.io.CharArrayReader.markSupported()}.
@@ -82,13 +40,42 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.CharArrayReader#markSupported()
+     * @see java.io.CharArrayReader#markSupported() public boolean java.io.CharArrayReader.markSupported() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_markSupported()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#ready() public boolean java.io.CharArrayReader.ready() throws
+     * java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#ready() public boolean java.io.CharArrayReader.ready() throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.io.CharArrayReader#ready() public boolean java.io.CharArrayReader.ready() throws java.io.IOException
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_ready()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,17 +87,22 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * Test method for {@link java.io.CharArrayReader#read() public int java.io.CharArrayReader.read() throws
      * java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#read() public int java.io.CharArrayReader.read() throws
+     * java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.CharArrayReader#read()
+     * @see java.io.CharArrayReader#read() public int java.io.CharArrayReader.read() throws java.io.IOException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_read()
     throws Exception {
         // query fresh subject-under-test
@@ -123,17 +115,22 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * Test method for {@link java.io.CharArrayReader#read(char[], int, int) public int
      * java.io.CharArrayReader.read(char[],int,int) throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#read(char[], int, int) public int
+     * java.io.CharArrayReader.read(char[],int,int) throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.CharArrayReader#read(char[], int, int)
+     * @see java.io.CharArrayReader#read(char[], int, int) public int java.io.CharArrayReader.read(char[],int,int)
+     *      throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_read_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
@@ -143,7 +140,37 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.CharArrayReader#ready() public boolean java.io.CharArrayReader.ready() throws
+     * Test method for {@link java.io.CharArrayReader#close() public void java.io.CharArrayReader.close()}.
+     *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#close() public void java.io.CharArrayReader.close()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.io.CharArrayReader#close() public void java.io.CharArrayReader.close() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#mark(int) public void java.io.CharArrayReader.mark(int) throws
+     * java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#mark(int) public void java.io.CharArrayReader.mark(int) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,13 +178,14 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.CharArrayReader#ready()
+     * @see java.io.CharArrayReader#mark(int) public void java.io.CharArrayReader.mark(int) throws java.io.IOException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_ready()
+    public default void test_mark_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,17 +197,22 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * Test method for {@link java.io.CharArrayReader#reset() public void java.io.CharArrayReader.reset() throws
      * java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#reset() public void java.io.CharArrayReader.reset() throws
+     * java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.CharArrayReader#reset()
+     * @see java.io.CharArrayReader#reset() public void java.io.CharArrayReader.reset() throws java.io.IOException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_reset()
     throws Exception {
         // query fresh subject-under-test
@@ -192,17 +225,22 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
      * Test method for {@link java.io.CharArrayReader#skip(long) public long java.io.CharArrayReader.skip(long) throws
      * java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#skip(long) public long java.io.CharArrayReader.skip(long) throws
+     * java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.io.CharArrayReader#skip(long)
+     * @see java.io.CharArrayReader#skip(long) public long java.io.CharArrayReader.skip(long) throws java.io.IOException
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test

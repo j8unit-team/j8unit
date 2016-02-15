@@ -1,72 +1,122 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument class
- * javax.swing.text.DefaultStyledDocument}, containing all class relevant test methods (at least the test methods of
- * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface containing
- * the instance relevant test methods is {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests}.
+ * Reusable j8unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument class
+ * javax.swing.text.DefaultStyledDocument}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
+ * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type is
+ * verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link DefaultStyledDocumentTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link DefaultStyledDocumentTests}.
+ * </p>
+ *
+ * @see javax.swing.text.DefaultStyledDocument class javax.swing.text.DefaultStyledDocument (the hereby targeted
+ *      class-under-test class)
+ * @see DefaultStyledDocumentTests DefaultStyledDocumentTests (The complementary j8unit test interface containing the
+ *      instance relevant test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.DefaultStyledDocument
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultStyledDocumentClassTests<SUT extends javax.swing.text.DefaultStyledDocument>
-extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<SUT> {
+extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
+
+    /**
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
+     *
+     * @since 0.9.2
+     */
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.DefaultStyledDocument.class!",
+                   javax.swing.text.DefaultStyledDocument.class.isAssignableFrom(sut));
+    }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit class
-     * javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-     * J8Unit test interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit class
+     * javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit}, containing all type relevant aspects
+     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link DefaultStyledDocumentTests.AttributeUndoableEditTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link DefaultStyledDocumentTests.AttributeUndoableEditTests}.
+     * </p>
+     *
+     * @see javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit class
+     *      javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit (the hereby targeted class-under-test class)
+     * @see DefaultStyledDocumentTests.AttributeUndoableEditTests DefaultStyledDocumentTests.AttributeUndoableEditTests
+     *      (The complementary j8unit test interface containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -74,158 +124,70 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
     extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit#AttributeUndoableEdit(javax.swing.text.Element, javax.swing.text.AttributeSet, boolean)
-         * public
-         * javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit(javax.swing.text.Element,javax.swing.text.AttributeSet,boolean)}
-         * .
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit#AttributeUndoableEdit(javax.swing.
-         *             text.Element, javax.swing.text.AttributeSet, boolean)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_AttributeUndoableEdit_Element_AttributeSet_boolean()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit sut = null; // = new
-                                                                                           // AttributeUndoableEdit(javax.swing.text.Element,
-                                                                                           // javax.swing.text.AttributeSet,
-                                                                                           // boolean);
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit.class!",
+                       javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument.ElementBuffer class
-     * javax.swing.text.DefaultStyledDocument$ElementBuffer}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests}.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument.ElementSpec class
+     * javax.swing.text.DefaultStyledDocument$ElementSpec}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link DefaultStyledDocumentTests.ElementSpecTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link DefaultStyledDocumentTests.ElementSpecTests}.
+     * </p>
+     *
+     * @see javax.swing.text.DefaultStyledDocument.ElementSpec class javax.swing.text.DefaultStyledDocument$ElementSpec
+     *      (the hereby targeted class-under-test class)
+     * @see DefaultStyledDocumentTests.ElementSpecTests DefaultStyledDocumentTests.ElementSpecTests (The complementary
+     *      j8unit test interface containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementBuffer
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ElementBufferClassTests<SUT extends javax.swing.text.DefaultStyledDocument.ElementBuffer>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#ElementBuffer(javax.swing.text.DefaultStyledDocument, javax.swing.text.Element)
-         * public
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer(javax.swing.text.DefaultStyledDocument,javax.swing.text.Element)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementBuffer#ElementBuffer(javax.swing.text.
-         *             DefaultStyledDocument, javax.swing.text.Element)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ElementBuffer_DefaultStyledDocument_Element()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.DefaultStyledDocument.ElementBuffer sut = null; // = new
-                                                                                   // ElementBuffer(javax.swing.text.DefaultStyledDocument,
-                                                                                   // javax.swing.text.Element);
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementBuffer#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.DefaultStyledDocument.ElementBuffer.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument.ElementSpec class
-     * javax.swing.text.DefaultStyledDocument$ElementSpec}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementSpec
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -233,187 +195,93 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.DefaultStyledDocument.ElementSpec#ElementSpec(javax.swing.text.AttributeSet, short)
-         * public javax.swing.text.DefaultStyledDocument$ElementSpec(javax.swing.text.AttributeSet,short)}.
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementSpec#ElementSpec(javax.swing.text.AttributeSet,
-         *             short)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ElementSpec_AttributeSet_short()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.DefaultStyledDocument.ElementSpec sut = null; // = new
-                                                                                 // ElementSpec(javax.swing.text.AttributeSet,
-                                                                                 // short);
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.DefaultStyledDocument.ElementSpec#ElementSpec(javax.swing.text.AttributeSet, short, char[], int, int)
-         * public
-         * javax.swing.text.DefaultStyledDocument$ElementSpec(javax.swing.text.AttributeSet,short,char[],int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementSpec#ElementSpec(javax.swing.text.AttributeSet,
-         *             short, char[], int, int)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ElementSpec_AttributeSet_short_charArray_int_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.DefaultStyledDocument.ElementSpec sut = null; // = new
-                                                                                 // ElementSpec(javax.swing.text.AttributeSet,
-                                                                                 // short, char[], int, int);
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.DefaultStyledDocument.ElementSpec#ElementSpec(javax.swing.text.AttributeSet, short, int)
-         * public javax.swing.text.DefaultStyledDocument$ElementSpec(javax.swing.text.AttributeSet,short,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementSpec#ElementSpec(javax.swing.text.AttributeSet,
-         *             short, int)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ElementSpec_AttributeSet_short_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.DefaultStyledDocument.ElementSpec sut = null; // = new
-                                                                                 // ElementSpec(javax.swing.text.AttributeSet,
-                                                                                 // short, int);
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.DefaultStyledDocument.ElementSpec#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.text.DefaultStyledDocument.ElementSpec.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.DefaultStyledDocument.ElementSpec.class!",
+                       javax.swing.text.DefaultStyledDocument.ElementSpec.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultStyledDocument#DefaultStyledDocument() public
-     * javax.swing.text.DefaultStyledDocument()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.DefaultStyledDocument.ElementBuffer class
+     * javax.swing.text.DefaultStyledDocument$ElementBuffer}, containing all type relevant aspects (e.&thinsp;g.,
+     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument#DefaultStyledDocument()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultStyledDocument()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.DefaultStyledDocument sut = null; // = new DefaultStyledDocument();
-    }
-
-    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.DefaultStyledDocument#DefaultStyledDocument(javax.swing.text.AbstractDocument.Content, javax.swing.text.StyleContext)
-     * public
-     * javax.swing.text.DefaultStyledDocument(javax.swing.text.AbstractDocument$Content,javax.swing.text.StyleContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link DefaultStyledDocumentTests.ElementBufferTests}).
      * </p>
      *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument#DefaultStyledDocument(javax.swing.text.AbstractDocument.
-     *             Content, javax.swing.text.StyleContext)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultStyledDocument_Content_StyleContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.DefaultStyledDocument sut = null; // = new
-                                                                 // DefaultStyledDocument(javax.swing.text.AbstractDocument.Content,
-                                                                 // javax.swing.text.StyleContext);
-    }
-
-    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.DefaultStyledDocument#DefaultStyledDocument(javax.swing.text.StyleContext) public
-     * javax.swing.text.DefaultStyledDocument(javax.swing.text.StyleContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * <strong>What? Testing the class itself? What is it good for?</strong>
      * </p>
      *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument#DefaultStyledDocument(javax.swing.text.StyleContext)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultStyledDocument_StyleContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.DefaultStyledDocument sut = null; // = new
-                                                                 // DefaultStyledDocument(javax.swing.text.StyleContext);
-    }
-
-    /**
-     * @since 0.9.2
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
      *
-     * @j8unit.aim javax.swing.text.DefaultStyledDocument#isAssignableFrom(java.lang.Class)
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link DefaultStyledDocumentTests.ElementBufferTests}.
+     * </p>
+     *
+     * @see javax.swing.text.DefaultStyledDocument.ElementBuffer class
+     *      javax.swing.text.DefaultStyledDocument$ElementBuffer (the hereby targeted class-under-test class)
+     * @see DefaultStyledDocumentTests.ElementBufferTests DefaultStyledDocumentTests.ElementBufferTests (The
+     *      complementary j8unit test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.DefaultStyledDocument.class.isAssignableFrom(sut));
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ElementBufferClassTests<SUT extends javax.swing.text.DefaultStyledDocument.ElementBuffer>
+    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.DefaultStyledDocument.ElementBuffer.class!",
+                       javax.swing.text.DefaultStyledDocument.ElementBuffer.class.isAssignableFrom(sut));
+        }
+
     }
 
 }

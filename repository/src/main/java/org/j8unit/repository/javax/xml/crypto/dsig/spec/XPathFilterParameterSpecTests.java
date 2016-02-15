@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.crypto.dsig.spec.XPathFilterParameterSpec class
- * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameterSpecTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.spec.XPathFilterParameterSpec class
+ * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link XPathFilterParameterSpecClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameterSpecClassTests
+ * @see javax.xml.crypto.dsig.spec.XPathFilterParameterSpec class javax.xml.crypto.dsig.spec.XPathFilterParameterSpec
+ *      (the hereby targeted class-under-test class)
+ * @see XPathFilterParameterSpecClassTests XPathFilterParameterSpecClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.crypto.dsig.spec.XPathFilterParameterSpec
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XPathFilterParameterSpecTests<SUT extends javax.xml.crypto.dsig.spec.XPathFilterParameterSpec>
-extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends TransformParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getNamespaceMap() public java.util.Map
+     * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getNamespaceMap()}.
+     *
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getNamespaceMap() public java.util.Map
      * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getNamespaceMap()}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecT
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getNamespaceMap()
+     * @see javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getNamespaceMap() public java.util.Map
+     *      javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getNamespaceMap() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +61,17 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecT
      * Test method for {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getXPath() public java.lang.String
      * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getXPath()}.
      *
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getXPath() public java.lang.String
+     * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getXPath()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getXPath()
+     * @see javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getXPath() public java.lang.String
+     *      javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getXPath() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

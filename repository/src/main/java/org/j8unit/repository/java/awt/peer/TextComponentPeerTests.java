@@ -8,92 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.peer.TextComponentPeer interface
- * java.awt.peer.TextComponentPeer}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.peer.TextComponentPeerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.peer.TextComponentPeer interface java.awt.peer.TextComponentPeer}
+ * . The complementary j8unit test interface containing the class relevant aspects is
+ * {@link TextComponentPeerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.peer.TextComponentPeerClassTests
+ * @see java.awt.peer.TextComponentPeer interface java.awt.peer.TextComponentPeer (the hereby targeted class-under-test
+ *      class)
+ * @see TextComponentPeerClassTests TextComponentPeerClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.peer.TextComponentPeer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextComponentPeerTests<SUT extends java.awt.peer.TextComponentPeer>
-extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
+extends ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextComponentPeer#getCaretPosition() public abstract int
-     * java.awt.peer.TextComponentPeer.getCaretPosition()}.
+     * Test method for {@link java.awt.peer.TextComponentPeer#getSelectionStart() public abstract int
+     * java.awt.peer.TextComponentPeer.getSelectionStart()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#getCaretPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCaretPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.TextComponentPeer#getInputMethodRequests() public abstract
-     * java.awt.im.InputMethodRequests java.awt.peer.TextComponentPeer.getInputMethodRequests()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#getInputMethodRequests()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputMethodRequests()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.TextComponentPeer#getSelectionEnd() public abstract int
-     * java.awt.peer.TextComponentPeer.getSelectionEnd()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#getSelectionEnd()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionEnd()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.peer.TextComponentPeer#getSelectionStart() public abstract int
      * java.awt.peer.TextComponentPeer.getSelectionStart()}.
@@ -103,7 +42,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#getSelectionStart()
+     * @see java.awt.peer.TextComponentPeer#getSelectionStart() public abstract int
+     *      java.awt.peer.TextComponentPeer.getSelectionStart() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,27 +57,9 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextComponentPeer#getText() public abstract java.lang.String
-     * java.awt.peer.TextComponentPeer.getText()}.
+     * Test method for {@link java.awt.peer.TextComponentPeer#select(int, int) public abstract void
+     * java.awt.peer.TextComponentPeer.select(int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#getText()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.peer.TextComponentPeer#select(int, int) public abstract void
      * java.awt.peer.TextComponentPeer.select(int,int)}.
@@ -147,7 +69,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#select(int, int)
+     * @see java.awt.peer.TextComponentPeer#select(int, int) public abstract void
+     *      java.awt.peer.TextComponentPeer.select(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,27 +84,9 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextComponentPeer#setCaretPosition(int) public abstract void
-     * java.awt.peer.TextComponentPeer.setCaretPosition(int)}.
+     * Test method for {@link java.awt.peer.TextComponentPeer#setEditable(boolean) public abstract void
+     * java.awt.peer.TextComponentPeer.setEditable(boolean)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#setCaretPosition(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCaretPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.peer.TextComponentPeer#setEditable(boolean) public abstract void
      * java.awt.peer.TextComponentPeer.setEditable(boolean)}.
@@ -191,7 +96,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#setEditable(boolean)
+     * @see java.awt.peer.TextComponentPeer#setEditable(boolean) public abstract void
+     *      java.awt.peer.TextComponentPeer.setEditable(boolean) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,7 +111,146 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextComponentPeer#setText(java.lang.String) public abstract void
+     * Test method for {@link java.awt.peer.TextComponentPeer#getText() public abstract java.lang.String
+     * java.awt.peer.TextComponentPeer.getText()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getText() public abstract java.lang.String
+     * java.awt.peer.TextComponentPeer.getText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.TextComponentPeer#getText() public abstract java.lang.String
+     *      java.awt.peer.TextComponentPeer.getText() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#setCaretPosition(int) public abstract void
+     * java.awt.peer.TextComponentPeer.setCaretPosition(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#setCaretPosition(int) public abstract void
+     * java.awt.peer.TextComponentPeer.setCaretPosition(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.TextComponentPeer#setCaretPosition(int) public abstract void
+     *      java.awt.peer.TextComponentPeer.setCaretPosition(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCaretPosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getSelectionEnd() public abstract int
+     * java.awt.peer.TextComponentPeer.getSelectionEnd()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getSelectionEnd() public abstract int
+     * java.awt.peer.TextComponentPeer.getSelectionEnd()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.TextComponentPeer#getSelectionEnd() public abstract int
+     *      java.awt.peer.TextComponentPeer.getSelectionEnd() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionEnd()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getInputMethodRequests() public abstract
+     * java.awt.im.InputMethodRequests java.awt.peer.TextComponentPeer.getInputMethodRequests()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getInputMethodRequests() public abstract
+     * java.awt.im.InputMethodRequests java.awt.peer.TextComponentPeer.getInputMethodRequests()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.TextComponentPeer#getInputMethodRequests() public abstract java.awt.im.InputMethodRequests
+     *      java.awt.peer.TextComponentPeer.getInputMethodRequests() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputMethodRequests()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getCaretPosition() public abstract int
+     * java.awt.peer.TextComponentPeer.getCaretPosition()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#getCaretPosition() public abstract int
+     * java.awt.peer.TextComponentPeer.getCaretPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.peer.TextComponentPeer#getCaretPosition() public abstract int
+     *      java.awt.peer.TextComponentPeer.getCaretPosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCaretPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#setText(String) public abstract void
+     * java.awt.peer.TextComponentPeer.setText(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.peer.TextComponentPeer#setText(String) public abstract void
      * java.awt.peer.TextComponentPeer.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,7 +258,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.peer.TextComponentPeer#setText(java.lang.String)
+     * @see java.awt.peer.TextComponentPeer#setText(String) public abstract void
+     *      java.awt.peer.TextComponentPeer.setText(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

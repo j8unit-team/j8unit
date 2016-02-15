@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.concurrent.atomic.AtomicIntegerArray class
- * java.util.concurrent.atomic.AtomicIntegerArray}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerArrayTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.concurrent.atomic.AtomicIntegerArray class
+ * java.util.concurrent.atomic.AtomicIntegerArray}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link AtomicIntegerArrayClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerArrayClassTests
+ * @see java.util.concurrent.atomic.AtomicIntegerArray class java.util.concurrent.atomic.AtomicIntegerArray (the hereby
+ *      targeted class-under-test class)
+ * @see AtomicIntegerArrayClassTests AtomicIntegerArrayClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,6 +29,39 @@ public abstract interface AtomicIntegerArrayTests<SUT extends java.util.concurre
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndDecrement(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndDecrement(int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndDecrement(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndDecrement(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#getAndDecrement(int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.getAndDecrement(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAndDecrement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicIntegerArray#accumulateAndGet(int, int, java.util.function.IntBinaryOperator)
+     * public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.accumulateAndGet(int,int,java.util.function.IntBinaryOperator)}.
+     *
      * <p>
      * Test method for
      * {@link java.util.concurrent.atomic.AtomicIntegerArray#accumulateAndGet(int, int, java.util.function.IntBinaryOperator)
@@ -39,8 +73,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#accumulateAndGet(int, int,
-     *             java.util.function.IntBinaryOperator)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#accumulateAndGet(int, int,
+     *      java.util.function.IntBinaryOperator) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.accumulateAndGet(int,int,java.util.function.
+     *      IntBinaryOperator) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,93 +90,11 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#addAndGet(int, int) public final int
-     * java.util.concurrent.atomic.AtomicIntegerArray.addAndGet(int,int)}.
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndAccumulate(int, int, java.util.function.IntBinaryOperator)
+     * public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndAccumulate(int,int,java.util.function.IntBinaryOperator)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#addAndGet(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAndGet_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#compareAndSet(int, int, int) public final
-     * boolean java.util.concurrent.atomic.AtomicIntegerArray.compareAndSet(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#compareAndSet(int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareAndSet_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#decrementAndGet(int) public final int
-     * java.util.concurrent.atomic.AtomicIntegerArray.decrementAndGet(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#decrementAndGet(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decrementAndGet_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#get(int) public final int
-     * java.util.concurrent.atomic.AtomicIntegerArray.get(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#get(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
      * {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndAccumulate(int, int, java.util.function.IntBinaryOperator)
@@ -152,8 +106,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#getAndAccumulate(int, int,
-     *             java.util.function.IntBinaryOperator)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#getAndAccumulate(int, int,
+     *      java.util.function.IntBinaryOperator) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.getAndAccumulate(int,int,java.util.function.
+     *      IntBinaryOperator) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,12 +126,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndAdd(int, int) public final int
      * java.util.concurrent.atomic.AtomicIntegerArray.getAndAdd(int,int)}.
      *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndAdd(int, int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndAdd(int,int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#getAndAdd(int, int)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#getAndAdd(int, int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.getAndAdd(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,42 +150,25 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndDecrement(int) public final int
-     * java.util.concurrent.atomic.AtomicIntegerArray.getAndDecrement(int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#lazySet(int, int) public final void
+     * java.util.concurrent.atomic.AtomicIntegerArray.lazySet(int,int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#getAndDecrement(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAndDecrement_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndIncrement(int) public final int
-     * java.util.concurrent.atomic.AtomicIntegerArray.getAndIncrement(int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#lazySet(int, int) public final void
+     * java.util.concurrent.atomic.AtomicIntegerArray.lazySet(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#getAndIncrement(int)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#lazySet(int, int) public final void
+     *      java.util.concurrent.atomic.AtomicIntegerArray.lazySet(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAndIncrement_int()
+    public default void test_lazySet_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -236,12 +180,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndSet(int, int) public final int
      * java.util.concurrent.atomic.AtomicIntegerArray.getAndSet(int,int)}.
      *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndSet(int, int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndSet(int,int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#getAndSet(int, int)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#getAndSet(int, int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.getAndSet(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -260,12 +209,21 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * public final int
      * java.util.concurrent.atomic.AtomicIntegerArray.getAndUpdate(int,java.util.function.IntUnaryOperator)}.
      *
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndUpdate(int, java.util.function.IntUnaryOperator)
+     * public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndUpdate(int,java.util.function.IntUnaryOperator)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#getAndUpdate(int, java.util.function.IntUnaryOperator)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#getAndUpdate(int, java.util.function.IntUnaryOperator) public
+     *      final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.getAndUpdate(int,java.util.function.IntUnaryOperator) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,20 +237,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#incrementAndGet(int) public final int
-     * java.util.concurrent.atomic.AtomicIntegerArray.incrementAndGet(int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#toString() public java.lang.String
+     * java.util.concurrent.atomic.AtomicIntegerArray.toString()}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#toString() public java.lang.String
+     * java.util.concurrent.atomic.AtomicIntegerArray.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#incrementAndGet(int)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#toString() public java.lang.String
+     *      java.util.concurrent.atomic.AtomicIntegerArray.toString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_incrementAndGet_int()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -301,20 +265,80 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#lazySet(int, int) public final void
-     * java.util.concurrent.atomic.AtomicIntegerArray.lazySet(int,int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#addAndGet(int, int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.addAndGet(int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#addAndGet(int, int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.addAndGet(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#lazySet(int, int)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#addAndGet(int, int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.addAndGet(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lazySet_int_int()
+    public default void test_addAndGet_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#compareAndSet(int, int, int) public final
+     * boolean java.util.concurrent.atomic.AtomicIntegerArray.compareAndSet(int,int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#compareAndSet(int, int, int) public final
+     * boolean java.util.concurrent.atomic.AtomicIntegerArray.compareAndSet(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#compareAndSet(int, int, int) public final boolean
+     *      java.util.concurrent.atomic.AtomicIntegerArray.compareAndSet(int,int,int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareAndSet_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#get(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.get(int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#get(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.get(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#get(int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.get(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -326,12 +350,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#length() public final int
      * java.util.concurrent.atomic.AtomicIntegerArray.length()}.
      *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#length() public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.length()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#length()
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#length() public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.length() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,50 +374,11 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#set(int, int) public final void
-     * java.util.concurrent.atomic.AtomicIntegerArray.set(int,int)}.
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicIntegerArray#updateAndGet(int, java.util.function.IntUnaryOperator)
+     * public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.updateAndGet(int,java.util.function.IntUnaryOperator)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#set(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#toString() public java.lang.String
-     * java.util.concurrent.atomic.AtomicIntegerArray.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#toString()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for
      * {@link java.util.concurrent.atomic.AtomicIntegerArray#updateAndGet(int, java.util.function.IntUnaryOperator)
@@ -400,7 +390,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#updateAndGet(int, java.util.function.IntUnaryOperator)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#updateAndGet(int, java.util.function.IntUnaryOperator) public
+     *      final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.updateAndGet(int,java.util.function.IntUnaryOperator) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -414,6 +407,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#decrementAndGet(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.decrementAndGet(int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#decrementAndGet(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.decrementAndGet(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#decrementAndGet(int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.decrementAndGet(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_decrementAndGet_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#weakCompareAndSet(int, int, int) public
+     * final boolean java.util.concurrent.atomic.AtomicIntegerArray.weakCompareAndSet(int,int,int)}.
+     *
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#weakCompareAndSet(int, int, int) public
      * final boolean java.util.concurrent.atomic.AtomicIntegerArray.weakCompareAndSet(int,int,int)}.
      *
@@ -422,12 +446,95 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.concurrent.atomic.AtomicIntegerArray#weakCompareAndSet(int, int, int)
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#weakCompareAndSet(int, int, int) public final boolean
+     *      java.util.concurrent.atomic.AtomicIntegerArray.weakCompareAndSet(int,int,int) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_weakCompareAndSet_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndIncrement(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndIncrement(int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#getAndIncrement(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.getAndIncrement(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#getAndIncrement(int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.getAndIncrement(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAndIncrement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#set(int, int) public final void
+     * java.util.concurrent.atomic.AtomicIntegerArray.set(int,int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#set(int, int) public final void
+     * java.util.concurrent.atomic.AtomicIntegerArray.set(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#set(int, int) public final void
+     *      java.util.concurrent.atomic.AtomicIntegerArray.set(int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#incrementAndGet(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.incrementAndGet(int)}.
+     *
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#incrementAndGet(int) public final int
+     * java.util.concurrent.atomic.AtomicIntegerArray.incrementAndGet(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.concurrent.atomic.AtomicIntegerArray#incrementAndGet(int) public final int
+     *      java.util.concurrent.atomic.AtomicIntegerArray.incrementAndGet(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_incrementAndGet_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

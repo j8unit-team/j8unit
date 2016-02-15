@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.BiPredicate interface
- * java.util.function.BiPredicate}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.BiPredicateTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.BiPredicate interface java.util.function.BiPredicate}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link BiPredicateClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.BiPredicateClassTests
+ * @see java.util.function.BiPredicate interface java.util.function.BiPredicate (the hereby targeted class-under-test
+ *      class)
+ * @see BiPredicateClassTests BiPredicateClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.BiPredicate
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,49 +30,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.BiPredicate#and(java.util.function.BiPredicate) public default
-     * java.util.function.BiPredicate java.util.function.BiPredicate.and(java.util.function.BiPredicate)}.
+     * Test method for {@link java.util.function.BiPredicate#or(java.util.function.BiPredicate) public default
+     * java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.or(java.util.function.BiPredicate<? super T,
+     * ? super U>)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.function.BiPredicate#and(java.util.function.BiPredicate)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_and_BiPredicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.function.BiPredicate#negate() public default java.util.function.BiPredicate
-     * java.util.function.BiPredicate.negate()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.function.BiPredicate#negate()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_negate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.util.function.BiPredicate#or(java.util.function.BiPredicate) public default
      * java.util.function.BiPredicate java.util.function.BiPredicate.or(java.util.function.BiPredicate)}.
@@ -82,7 +43,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.BiPredicate#or(java.util.function.BiPredicate)
+     * @see java.util.function.BiPredicate#or(java.util.function.BiPredicate) public default
+     *      java.util.function.BiPredicate java.util.function.BiPredicate.or(java.util.function.BiPredicate) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,20 +59,82 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.BiPredicate#test(java.lang.Object, java.lang.Object) public abstract
-     * boolean java.util.function.BiPredicate.test(java.lang.Object,java.lang.Object)}.
+     * Test method for {@link java.util.function.BiPredicate#test(Object, Object) public abstract boolean
+     * java.util.function.BiPredicate.test(T,U)}.
+     *
+     * <p>
+     * Test method for {@link java.util.function.BiPredicate#test(Object, Object) public abstract boolean
+     * java.util.function.BiPredicate.test(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.BiPredicate#test(java.lang.Object, java.lang.Object)
+     * @see java.util.function.BiPredicate#test(Object, Object) public abstract boolean
+     *      java.util.function.BiPredicate.test(java.lang.Object,java.lang.Object) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_test_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.function.BiPredicate#and(java.util.function.BiPredicate) public default
+     * java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.and(java.util.function.BiPredicate<? super T,
+     * ? super U>)}.
+     *
+     * <p>
+     * Test method for {@link java.util.function.BiPredicate#and(java.util.function.BiPredicate) public default
+     * java.util.function.BiPredicate java.util.function.BiPredicate.and(java.util.function.BiPredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.function.BiPredicate#and(java.util.function.BiPredicate) public default
+     *      java.util.function.BiPredicate java.util.function.BiPredicate.and(java.util.function.BiPredicate) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_and_BiPredicate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.function.BiPredicate#negate() public default java.util.function.BiPredicate<T,
+     * U> java.util.function.BiPredicate.negate()}.
+     *
+     * <p>
+     * Test method for {@link java.util.function.BiPredicate#negate() public default java.util.function.BiPredicate
+     * java.util.function.BiPredicate.negate()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.function.BiPredicate#negate() public default java.util.function.BiPredicate
+     *      java.util.function.BiPredicate.negate() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_negate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

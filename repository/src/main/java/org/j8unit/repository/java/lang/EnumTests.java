@@ -9,43 +9,44 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.Enum class java.lang.Enum}, containing all instance relevant
- * test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test interface
- * containing the class relevant test methods is {@link org.j8unit.repository.java.lang.EnumTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain Enum class java.lang.Enum}. The complementary j8unit test interface
+ * containing the class relevant aspects is {@link EnumClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.EnumClassTests
+ * @see Enum class java.lang.Enum (the hereby targeted class-under-test class)
+ * @see EnumClassTests EnumClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.Enum
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EnumTests<SUT extends java.lang.Enum<E>, E extends java.lang.Enum<E>>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, E>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface EnumTests<SUT extends Enum<E>, E extends Enum<E>>
+extends ComparableTests<SUT, E>, org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
-     * @since 0.9.2
+     * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
+     *      targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Enum#getDeclaringClass()
+     * @since 0.9.2
      */
     @Test
     public default void getDeclaringClassMustBeAssignableFromGetClass() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         final Class<E> declaringClazz = sut.getDeclaringClass();
-        final @SuppressWarnings("rawtypes") Class<? extends Enum> clazz = sut.getClass();
+        final Class<? extends Enum> clazz = sut.getClass();
         assertTrue(declaringClazz.isAssignableFrom(clazz));
     }
 
     /**
-     * @since 0.9.2
+     * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
+     *      targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Enum#getDeclaringClass()
+     * @since 0.9.2
      */
     @Test
     public default void getDeclaringClassMustBeEnum() {
@@ -56,9 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Enum#ordinal() public final int java.lang.Enum.ordinal() (the hereby targeted method-under-test)
      *
-     * @j8unit.aim java.lang.Enum#ordinal()
+     * @since 0.9.2
      */
     @Test
     public default void ordinalMustBePositive()
@@ -70,20 +71,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#compareTo(java.lang.Enum) public final int
-     * java.lang.Enum.compareTo(java.lang.Enum)}.
+     * Test method for {@link Enum#hashCode() public final int java.lang.Enum.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link Enum#hashCode() public final int java.lang.Enum.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Enum#compareTo(java.lang.Enum)
+     * @see Enum#hashCode() public final int java.lang.Enum.hashCode() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_Enum()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,20 +96,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#equals(java.lang.Object) public final boolean
-     * java.lang.Enum.equals(java.lang.Object)}.
+     * Test method for {@link Enum#equals(Object) public final boolean java.lang.Enum.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link Enum#equals(Object) public final boolean java.lang.Enum.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Enum#equals(java.lang.Object)
+     * @see Enum#equals(Object) public final boolean java.lang.Enum.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -115,15 +122,19 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#getDeclaringClass() public final java.lang.Class
-     * java.lang.Enum.getDeclaringClass()}.
+     * Test method for {@link Enum#getDeclaringClass() public final java.lang.Class
+     * <E> java.lang.Enum.getDeclaringClass()}.
+     *
+     * <p>
+     * Test method for {@link Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Enum#getDeclaringClass()
+     * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,57 +148,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#hashCode() public final int java.lang.Enum.hashCode()}.
+     * Test method for {@link Enum#ordinal() public final int java.lang.Enum.ordinal()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Enum#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.lang.Enum#name() public final java.lang.String java.lang.Enum.name()}.
+     * Test method for {@link Enum#ordinal() public final int java.lang.Enum.ordinal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Enum#name()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Enum#ordinal() public final int java.lang.Enum.ordinal()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Enum#ordinal()
+     * @see Enum#ordinal() public final int java.lang.Enum.ordinal() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -201,20 +172,72 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#toString() public java.lang.String java.lang.Enum.toString()}.
+     * Test method for {@link Enum#name() public final java.lang.String java.lang.Enum.name()}.
+     *
+     * <p>
+     * Test method for {@link Enum#name() public final java.lang.String java.lang.Enum.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Enum#toString()
+     * @see Enum#name() public final java.lang.String java.lang.Enum.name() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Enum#toString() public java.lang.String java.lang.Enum.toString()}.
+     *
+     * <p>
+     * Test method for {@link Enum#toString() public java.lang.String java.lang.Enum.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Enum#toString() public java.lang.String java.lang.Enum.toString() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
+    @Test
+    @Category(Draft.class)
     public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Enum#compareTo(Enum) public final int java.lang.Enum.compareTo(E)}.
+     *
+     * <p>
+     * Test method for {@link Enum#compareTo(Enum) public final int java.lang.Enum.compareTo(java.lang.Enum)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Enum#compareTo(Enum) public final int java.lang.Enum.compareTo(java.lang.Enum) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_Enum()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

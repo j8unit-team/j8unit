@@ -8,25 +8,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.Paint interface java.awt.Paint}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.PaintTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.Paint interface java.awt.Paint}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link PaintClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.PaintClassTests
+ * @see java.awt.Paint interface java.awt.Paint (the hereby targeted class-under-test class)
+ * @see PaintClassTests PaintClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.Paint
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PaintTests<SUT extends java.awt.Paint>
-extends org.j8unit.repository.java.awt.TransparencyTests<SUT> {
+extends TransparencyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link java.awt.Paint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
+     * public abstract java.awt.PaintContext
+     * java.awt.Paint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
+     * .
+     *
      * <p>
      * Test method for
      * {@link java.awt.Paint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
@@ -39,8 +46,10 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.Paint#createContext(java.awt.image.ColorModel, java.awt.Rectangle,
-     *             java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
+     * @see java.awt.Paint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D,
+     *      java.awt.geom.AffineTransform, java.awt.RenderingHints) public abstract java.awt.PaintContext
+     *      java.awt.Paint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt
+     *      .geom.AffineTransform,java.awt.RenderingHints) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

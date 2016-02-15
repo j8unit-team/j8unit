@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.LongFunction interface
- * java.util.function.LongFunction}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.LongFunctionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.LongFunction interface java.util.function.LongFunction}
+ * . The complementary j8unit test interface containing the class relevant aspects is {@link LongFunctionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.LongFunctionClassTests
+ * @see java.util.function.LongFunction interface java.util.function.LongFunction (the hereby targeted class-under-test
+ *      class)
+ * @see LongFunctionClassTests LongFunctionClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.LongFunction
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,6 +29,10 @@ public abstract interface LongFunctionTests<SUT extends java.util.function.LongF
 extends RepositoryTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.function.LongFunction#apply(long) public abstract R
+     * java.util.function.LongFunction.apply(long)}.
+     *
      * <p>
      * Test method for {@link java.util.function.LongFunction#apply(long) public abstract java.lang.Object
      * java.util.function.LongFunction.apply(long)}.
@@ -38,7 +42,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.LongFunction#apply(long)
+     * @see java.util.function.LongFunction#apply(long) public abstract java.lang.Object
+     *      java.util.function.LongFunction.apply(long) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

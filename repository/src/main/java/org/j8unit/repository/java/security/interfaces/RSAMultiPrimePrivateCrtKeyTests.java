@@ -8,26 +8,86 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.interfaces.RSAMultiPrimePrivateCrtKey interface
- * java.security.interfaces.RSAMultiPrimePrivateCrtKey}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.security.interfaces.RSAMultiPrimePrivateCrtKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.interfaces.RSAMultiPrimePrivateCrtKey interface
+ * java.security.interfaces.RSAMultiPrimePrivateCrtKey}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link RSAMultiPrimePrivateCrtKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.interfaces.RSAMultiPrimePrivateCrtKeyClassTests
+ * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey interface
+ *      java.security.interfaces.RSAMultiPrimePrivateCrtKey (the hereby targeted class-under-test class)
+ * @see RSAMultiPrimePrivateCrtKeyClassTests RSAMultiPrimePrivateCrtKeyClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RSAMultiPrimePrivateCrtKeyTests<SUT extends java.security.interfaces.RSAMultiPrimePrivateCrtKey>
-extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
+extends RSAPrivateKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeP() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeP()}.
+     *
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeP() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeP()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeP() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeP() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimeP()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPublicExponent() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPublicExponent()}.
+     *
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPublicExponent() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPublicExponent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPublicExponent() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPublicExponent() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicExponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getCrtCoefficient() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getCrtCoefficient()}.
+     *
      * <p>
      * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getCrtCoefficient() public abstract
      * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getCrtCoefficient()}.
@@ -37,7 +97,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getCrtCoefficient()
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getCrtCoefficient() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getCrtCoefficient() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,6 +113,38 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentQ() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentQ()}.
+     *
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentQ() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentQ()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentQ() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentQ() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimeExponentQ()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getOtherPrimeInfo() public abstract
+     * java.security.spec.RSAOtherPrimeInfo[] java.security.interfaces.RSAMultiPrimePrivateCrtKey.getOtherPrimeInfo()}.
+     *
+     * <p>
      * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getOtherPrimeInfo() public abstract
      * java.security.spec.RSAOtherPrimeInfo[] java.security.interfaces.RSAMultiPrimePrivateCrtKey.getOtherPrimeInfo()}.
      *
@@ -59,7 +153,10 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getOtherPrimeInfo()
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getOtherPrimeInfo() public abstract
+     *      java.security.spec.RSAOtherPrimeInfo[]
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getOtherPrimeInfo() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +173,18 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
      * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentP() public abstract
      * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentP()}.
      *
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentP() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentP()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentP()
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentP() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentP() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,49 +198,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentQ() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeExponentQ()}.
+     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeQ() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeQ()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeExponentQ()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimeExponentQ()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeP() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeP()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeP()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimeP()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeQ() public abstract
      * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeQ()}.
@@ -147,34 +210,13 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeQ()
+     * @see java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPrimeQ() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPrimeQ() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getPrimeQ()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPublicExponent() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAMultiPrimePrivateCrtKey.getPublicExponent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.interfaces.RSAMultiPrimePrivateCrtKey#getPublicExponent()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicExponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

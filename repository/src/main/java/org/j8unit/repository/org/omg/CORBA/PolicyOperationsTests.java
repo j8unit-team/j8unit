@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.PolicyOperations interface
- * org.omg.CORBA.PolicyOperations}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.PolicyOperations interface org.omg.CORBA.PolicyOperations}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link PolicyOperationsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests
+ * @see org.omg.CORBA.PolicyOperations interface org.omg.CORBA.PolicyOperations (the hereby targeted class-under-test
+ *      class)
+ * @see PolicyOperationsClassTests PolicyOperationsClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.PolicyOperations
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,27 +30,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.PolicyOperations#copy() public abstract org.omg.CORBA.Policy
-     * org.omg.CORBA.PolicyOperations.copy()}.
+     * Test method for {@link org.omg.CORBA.PolicyOperations#destroy() public abstract void
+     * org.omg.CORBA.PolicyOperations.destroy()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.PolicyOperations#copy()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.omg.CORBA.PolicyOperations#destroy() public abstract void
      * org.omg.CORBA.PolicyOperations.destroy()}.
@@ -60,7 +42,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.PolicyOperations#destroy()
+     * @see org.omg.CORBA.PolicyOperations#destroy() public abstract void org.omg.CORBA.PolicyOperations.destroy() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,6 +57,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.CORBA.PolicyOperations#copy() public abstract org.omg.CORBA.Policy
+     * org.omg.CORBA.PolicyOperations.copy()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.PolicyOperations#copy() public abstract org.omg.CORBA.Policy
+     * org.omg.CORBA.PolicyOperations.copy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.PolicyOperations#copy() public abstract org.omg.CORBA.Policy
+     *      org.omg.CORBA.PolicyOperations.copy() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.PolicyOperations#policy_type() public abstract int
+     * org.omg.CORBA.PolicyOperations.policy_type()}.
+     *
+     * <p>
      * Test method for {@link org.omg.CORBA.PolicyOperations#policy_type() public abstract int
      * org.omg.CORBA.PolicyOperations.policy_type()}.
      *
@@ -82,7 +96,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.PolicyOperations#policy_type()
+     * @see org.omg.CORBA.PolicyOperations#policy_type() public abstract int
+     *      org.omg.CORBA.PolicyOperations.policy_type() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

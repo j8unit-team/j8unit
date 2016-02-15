@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.RowFilter class javax.swing.RowFilter}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.swing.RowFilterTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.RowFilter class javax.swing.RowFilter}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link RowFilterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.RowFilterClassTests
+ * @see javax.swing.RowFilter class javax.swing.RowFilter (the hereby targeted class-under-test class)
+ * @see RowFilterClassTests RowFilterClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.RowFilter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,42 +28,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.RowFilter.ComparisonType class
-     * javax.swing.RowFilter$ComparisonType}, containing all instance relevant test methods (i.&thinsp;e., test methods
-     * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods
-     * is {@link org.j8unit.repository.javax.swing.RowFilterTests.ComparisonTypeTests}.
+     * Test method for {@link javax.swing.RowFilter#include(javax.swing.RowFilter.Entry) public abstract boolean
+     * javax.swing.RowFilter.include(javax.swing.RowFilter.javax.swing.RowFilter$Entry<? extends M, ? extends I>)}.
+     *
+     * <p>
+     * Test method for {@link javax.swing.RowFilter#include(javax.swing.RowFilter.Entry) public abstract boolean
+     * javax.swing.RowFilter.include(javax.swing.RowFilter$Entry)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.RowFilterClassTests.ComparisonTypeClassTests
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.RowFilter.ComparisonType
+     * @see javax.swing.RowFilter#include(javax.swing.RowFilter.Entry) public abstract boolean
+     *      javax.swing.RowFilter.include(javax.swing.RowFilter$Entry) (the hereby targeted method-under-test)
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ComparisonTypeTests<SUT extends javax.swing.RowFilter.ComparisonType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.RowFilter.ComparisonType> {
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_include_Entry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.RowFilter.Entry class javax.swing.RowFilter$Entry},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
-     * counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.RowFilterTests.EntryTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.RowFilter.Entry class javax.swing.RowFilter$Entry}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link RowFilterClassTests.EntryClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.swing.RowFilterClassTests.EntryClassTests
+     * @see javax.swing.RowFilter.Entry class javax.swing.RowFilter$Entry (the hereby targeted class-under-test class)
+     * @see RowFilterClassTests.EntryClassTests RowFilterClassTests.EntryClassTests (the complementary j8unit test
+     *      interface containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.RowFilter.Entry
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -73,64 +76,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.RowFilter.Entry#getIdentifier() public abstract java.lang.Object
-         * javax.swing.RowFilter$Entry.getIdentifier()}.
+         * Test method for {@link javax.swing.RowFilter.Entry#getValueCount() public abstract int
+         * javax.swing.RowFilter$Entry.getValueCount()}.
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.RowFilter.Entry#getIdentifier()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getIdentifier()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * <p>
-         * Test method for {@link javax.swing.RowFilter.Entry#getModel() public abstract java.lang.Object
-         * javax.swing.RowFilter$Entry.getModel()}.
+         * Test method for {@link javax.swing.RowFilter.Entry#getValueCount() public abstract int
+         * javax.swing.RowFilter$Entry.getValueCount()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.RowFilter.Entry#getModel()
+         * @see javax.swing.RowFilter.Entry#getValueCount() public abstract int
+         *      javax.swing.RowFilter$Entry.getValueCount() (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getModel()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.RowFilter.Entry#getStringValue(int) public java.lang.String
-         * javax.swing.RowFilter$Entry.getStringValue(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.swing.RowFilter.Entry#getStringValue(int)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getStringValue_int()
+        public default void test_getValueCount()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -142,12 +106,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * Test method for {@link javax.swing.RowFilter.Entry#getValue(int) public abstract java.lang.Object
          * javax.swing.RowFilter$Entry.getValue(int)}.
          *
+         * <p>
+         * Test method for {@link javax.swing.RowFilter.Entry#getValue(int) public abstract java.lang.Object
+         * javax.swing.RowFilter$Entry.getValue(int)}.
+         *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.RowFilter.Entry#getValue(int)
+         * @see javax.swing.RowFilter.Entry#getValue(int) public abstract java.lang.Object
+         *      javax.swing.RowFilter$Entry.getValue(int) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -161,20 +130,79 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.RowFilter.Entry#getValueCount() public abstract int
-         * javax.swing.RowFilter$Entry.getValueCount()}.
+         * Test method for {@link javax.swing.RowFilter.Entry#getStringValue(int) public java.lang.String
+         * javax.swing.RowFilter$Entry.getStringValue(int)}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.RowFilter.Entry#getStringValue(int) public java.lang.String
+         * javax.swing.RowFilter$Entry.getStringValue(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @j8unit.aim javax.swing.RowFilter.Entry#getValueCount()
+         * @see javax.swing.RowFilter.Entry#getStringValue(int) public java.lang.String
+         *      javax.swing.RowFilter$Entry.getStringValue(int) (the hereby targeted method-under-test)
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getValueCount()
+        public default void test_getStringValue_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.RowFilter.Entry#getModel() public abstract M
+         * javax.swing.RowFilter$Entry.getModel()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.RowFilter.Entry#getModel() public abstract java.lang.Object
+         * javax.swing.RowFilter$Entry.getModel()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.RowFilter.Entry#getModel() public abstract java.lang.Object
+         *      javax.swing.RowFilter$Entry.getModel() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getModel()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.RowFilter.Entry#getIdentifier() public abstract I
+         * javax.swing.RowFilter$Entry.getIdentifier()}.
+         *
+         * <p>
+         * Test method for {@link javax.swing.RowFilter.Entry#getIdentifier() public abstract java.lang.Object
+         * javax.swing.RowFilter$Entry.getIdentifier()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @see javax.swing.RowFilter.Entry#getIdentifier() public abstract java.lang.Object
+         *      javax.swing.RowFilter$Entry.getIdentifier() (the hereby targeted method-under-test)
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getIdentifier()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -185,24 +213,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RowFilter#include(javax.swing.RowFilter.Entry) public abstract boolean
-     * javax.swing.RowFilter.include(javax.swing.RowFilter$Entry)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain javax.swing.RowFilter.ComparisonType class
+     * javax.swing.RowFilter$ComparisonType}. The complementary j8unit test interface containing the class relevant
+     * aspects is {@link RowFilterClassTests.ComparisonTypeClassTests}.
      * </p>
      *
-     * @j8unit.aim javax.swing.RowFilter#include(javax.swing.RowFilter.Entry)
+     * @see javax.swing.RowFilter.ComparisonType class javax.swing.RowFilter$ComparisonType (the hereby targeted
+     *      class-under-test class)
+     * @see RowFilterClassTests.ComparisonTypeClassTests RowFilterClassTests.ComparisonTypeClassTests (the complementary
+     *      j8unit test interface containing the class relevant test methods)
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_include_Entry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ComparisonTypeTests<SUT extends javax.swing.RowFilter.ComparisonType>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.RowFilter.ComparisonType> {
+
     }
 
 }

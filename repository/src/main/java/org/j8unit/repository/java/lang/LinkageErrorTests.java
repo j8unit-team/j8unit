@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.LinkageError class java.lang.LinkageError}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.LinkageErrorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain LinkageError class java.lang.LinkageError}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link LinkageErrorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.LinkageErrorClassTests
+ * @see LinkageError class java.lang.LinkageError (the hereby targeted class-under-test class)
+ * @see LinkageErrorClassTests LinkageErrorClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.LinkageError
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkageErrorTests<SUT extends java.lang.LinkageError>
-extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
+public abstract interface LinkageErrorTests<SUT extends LinkageError>
+extends ErrorTests<SUT> {
 
 }

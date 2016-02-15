@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.PrivilegedAction interface
- * java.security.PrivilegedAction}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.PrivilegedActionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.PrivilegedAction interface java.security.PrivilegedAction}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link PrivilegedActionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.PrivilegedActionClassTests
+ * @see java.security.PrivilegedAction interface java.security.PrivilegedAction (the hereby targeted class-under-test
+ *      class)
+ * @see PrivilegedActionClassTests PrivilegedActionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.PrivilegedAction
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,6 +29,10 @@ public abstract interface PrivilegedActionTests<SUT extends java.security.Privil
 extends RepositoryTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.PrivilegedAction#run() public abstract T
+     * java.security.PrivilegedAction.run()}.
+     *
      * <p>
      * Test method for {@link java.security.PrivilegedAction#run() public abstract java.lang.Object
      * java.security.PrivilegedAction.run()}.
@@ -38,7 +42,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.PrivilegedAction#run()
+     * @see java.security.PrivilegedAction#run() public abstract java.lang.Object java.security.PrivilegedAction.run()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

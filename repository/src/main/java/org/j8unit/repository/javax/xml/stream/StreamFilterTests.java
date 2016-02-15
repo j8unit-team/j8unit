@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.stream.StreamFilter interface javax.xml.stream.StreamFilter}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.stream.StreamFilterTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.stream.StreamFilter interface javax.xml.stream.StreamFilter}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link StreamFilterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.stream.StreamFilterClassTests
+ * @see javax.xml.stream.StreamFilter interface javax.xml.stream.StreamFilter (the hereby targeted class-under-test
+ *      class)
+ * @see StreamFilterClassTests StreamFilterClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.stream.StreamFilter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +33,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.xml.stream.StreamFilter#accept(javax.xml.stream.XMLStreamReader) public abstract
      * boolean javax.xml.stream.StreamFilter.accept(javax.xml.stream.XMLStreamReader)}.
      *
+     * <p>
+     * Test method for {@link javax.xml.stream.StreamFilter#accept(javax.xml.stream.XMLStreamReader) public abstract
+     * boolean javax.xml.stream.StreamFilter.accept(javax.xml.stream.XMLStreamReader)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.stream.StreamFilter#accept(javax.xml.stream.XMLStreamReader)
+     * @see javax.xml.stream.StreamFilter#accept(javax.xml.stream.XMLStreamReader) public abstract boolean
+     *      javax.xml.stream.StreamFilter.accept(javax.xml.stream.XMLStreamReader) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

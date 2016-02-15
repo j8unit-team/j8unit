@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.attribute.SetOfIntegerSyntax class
- * javax.print.attribute.SetOfIntegerSyntax}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.attribute.SetOfIntegerSyntax class
+ * javax.print.attribute.SetOfIntegerSyntax}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link SetOfIntegerSyntaxClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests
+ * @see javax.print.attribute.SetOfIntegerSyntax class javax.print.attribute.SetOfIntegerSyntax (the hereby targeted
+ *      class-under-test class)
+ * @see SetOfIntegerSyntaxClassTests SetOfIntegerSyntaxClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,6 +31,37 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#next(int) public int
+     * javax.print.attribute.SetOfIntegerSyntax.next(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#next(int) public int
+     * javax.print.attribute.SetOfIntegerSyntax.next(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.attribute.SetOfIntegerSyntax#next(int) public int
+     *      javax.print.attribute.SetOfIntegerSyntax.next(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_next_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#contains(int) public boolean
+     * javax.print.attribute.SetOfIntegerSyntax.contains(int)}.
+     *
+     * <p>
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#contains(int) public boolean
      * javax.print.attribute.SetOfIntegerSyntax.contains(int)}.
      *
@@ -38,7 +70,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#contains(int)
+     * @see javax.print.attribute.SetOfIntegerSyntax#contains(int) public boolean
+     *      javax.print.attribute.SetOfIntegerSyntax.contains(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,12 +88,18 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#contains(javax.print.attribute.IntegerSyntax)
      * public boolean javax.print.attribute.SetOfIntegerSyntax.contains(javax.print.attribute.IntegerSyntax)}.
      *
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#contains(javax.print.attribute.IntegerSyntax)
+     * public boolean javax.print.attribute.SetOfIntegerSyntax.contains(javax.print.attribute.IntegerSyntax)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#contains(javax.print.attribute.IntegerSyntax)
+     * @see javax.print.attribute.SetOfIntegerSyntax#contains(javax.print.attribute.IntegerSyntax) public boolean
+     *      javax.print.attribute.SetOfIntegerSyntax.contains(javax.print.attribute.IntegerSyntax) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,50 +113,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#equals(java.lang.Object) public boolean
-     * javax.print.attribute.SetOfIntegerSyntax.equals(java.lang.Object)}.
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#hashCode() public int
+     * javax.print.attribute.SetOfIntegerSyntax.hashCode()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#equals(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
-     * javax.print.attribute.SetOfIntegerSyntax.getMembers()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#getMembers()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMembers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#hashCode() public int
      * javax.print.attribute.SetOfIntegerSyntax.hashCode()}.
@@ -127,12 +125,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#hashCode()
+     * @see javax.print.attribute.SetOfIntegerSyntax#hashCode() public int
+     *      javax.print.attribute.SetOfIntegerSyntax.hashCode() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
@@ -142,20 +141,26 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#next(int) public int
-     * javax.print.attribute.SetOfIntegerSyntax.next(int)}.
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#equals(Object) public boolean
+     * javax.print.attribute.SetOfIntegerSyntax.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#equals(Object) public boolean
+     * javax.print.attribute.SetOfIntegerSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#next(int)
+     * @see javax.print.attribute.SetOfIntegerSyntax#equals(Object) public boolean
+     *      javax.print.attribute.SetOfIntegerSyntax.equals(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_next_int()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,18 +172,50 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#toString() public java.lang.String
      * javax.print.attribute.SetOfIntegerSyntax.toString()}.
      *
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#toString() public java.lang.String
+     * javax.print.attribute.SetOfIntegerSyntax.toString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.attribute.SetOfIntegerSyntax#toString()
+     * @see javax.print.attribute.SetOfIntegerSyntax#toString() public java.lang.String
+     *      javax.print.attribute.SetOfIntegerSyntax.toString() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
+     * javax.print.attribute.SetOfIntegerSyntax.getMembers()}.
+     *
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
+     * javax.print.attribute.SetOfIntegerSyntax.getMembers()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
+     *      javax.print.attribute.SetOfIntegerSyntax.getMembers() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getMembers()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

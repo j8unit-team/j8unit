@@ -9,36 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.AutoCloseable interface java.lang.AutoCloseable}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.AutoCloseableTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain AutoCloseable interface java.lang.AutoCloseable}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link AutoCloseableClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.AutoCloseableClassTests
+ * @see AutoCloseable interface java.lang.AutoCloseable (the hereby targeted class-under-test class)
+ * @see AutoCloseableClassTests AutoCloseableClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.AutoCloseable
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AutoCloseableTests<SUT extends java.lang.AutoCloseable>
+public abstract interface AutoCloseableTests<SUT extends AutoCloseable>
 extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.AutoCloseable#close() public abstract void java.lang.AutoCloseable.close()
-     * throws java.lang.Exception}.
+     * Test method for {@link AutoCloseable#close() public abstract void java.lang.AutoCloseable.close() throws
+     * java.lang.Exception}.
+     *
+     * <p>
+     * Test method for {@link AutoCloseable#close() public abstract void java.lang.AutoCloseable.close() throws
+     * java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.AutoCloseable#close()
+     * @see AutoCloseable#close() public abstract void java.lang.AutoCloseable.close() throws java.lang.Exception (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

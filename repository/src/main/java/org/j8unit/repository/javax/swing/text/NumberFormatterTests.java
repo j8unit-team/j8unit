@@ -8,26 +8,30 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.NumberFormatter class
- * javax.swing.text.NumberFormatter}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.NumberFormatterTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.text.NumberFormatter class javax.swing.text.NumberFormatter}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link NumberFormatterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.NumberFormatterClassTests
+ * @see javax.swing.text.NumberFormatter class javax.swing.text.NumberFormatter (the hereby targeted class-under-test
+ *      class)
+ * @see NumberFormatterClassTests NumberFormatterClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.NumberFormatter
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NumberFormatterTests<SUT extends javax.swing.text.NumberFormatter>
-extends org.j8unit.repository.javax.swing.text.InternationalFormatterTests<SUT> {
+extends InternationalFormatterTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.swing.text.NumberFormatter#setFormat(java.text.Format) public void
+     * javax.swing.text.NumberFormatter.setFormat(java.text.Format)}.
+     *
      * <p>
      * Test method for {@link javax.swing.text.NumberFormatter#setFormat(java.text.Format) public void
      * javax.swing.text.NumberFormatter.setFormat(java.text.Format)}.
@@ -37,12 +41,13 @@ extends org.j8unit.repository.javax.swing.text.InternationalFormatterTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.text.NumberFormatter#setFormat(java.text.Format)
+     * @see javax.swing.text.NumberFormatter#setFormat(java.text.Format) public void
+     *      javax.swing.text.NumberFormatter.setFormat(java.text.Format) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_setFormat_Format()
     throws Exception {
         // query fresh subject-under-test

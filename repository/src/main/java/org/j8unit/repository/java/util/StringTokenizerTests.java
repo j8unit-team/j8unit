@@ -8,48 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.StringTokenizer class java.util.StringTokenizer}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.StringTokenizerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.StringTokenizer class java.util.StringTokenizer}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link StringTokenizerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.StringTokenizerClassTests
+ * @see java.util.StringTokenizer class java.util.StringTokenizer (the hereby targeted class-under-test class)
+ * @see StringTokenizerClassTests StringTokenizerClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.StringTokenizer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringTokenizerTests<SUT extends java.util.StringTokenizer>
-extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends EnumerationTests<SUT, Object>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.StringTokenizer#countTokens() public int
-     * java.util.StringTokenizer.countTokens()}.
+     * Test method for {@link java.util.StringTokenizer#hasMoreElements() public boolean
+     * java.util.StringTokenizer.hasMoreElements()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.StringTokenizer#countTokens()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_countTokens()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.util.StringTokenizer#hasMoreElements() public boolean
      * java.util.StringTokenizer.hasMoreElements()}.
@@ -59,12 +40,13 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.StringTokenizer#hasMoreElements()
+     * @see java.util.StringTokenizer#hasMoreElements() public boolean java.util.StringTokenizer.hasMoreElements() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_hasMoreElements()
     throws Exception {
         // query fresh subject-under-test
@@ -74,43 +56,25 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
 
     /**
      * <p>
-     * Test method for {@link java.util.StringTokenizer#hasMoreTokens() public boolean
-     * java.util.StringTokenizer.hasMoreTokens()}.
+     * Test method for {@link java.util.StringTokenizer#nextToken(String) public java.lang.String
+     * java.util.StringTokenizer.nextToken(java.lang.String)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.util.StringTokenizer#hasMoreTokens()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasMoreTokens()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.util.StringTokenizer#nextElement() public java.lang.Object
-     * java.util.StringTokenizer.nextElement()}.
+     * Test method for {@link java.util.StringTokenizer#nextToken(String) public java.lang.String
+     * java.util.StringTokenizer.nextToken(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.StringTokenizer#nextElement()
+     * @see java.util.StringTokenizer#nextToken(String) public java.lang.String
+     *      java.util.StringTokenizer.nextToken(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_nextElement()
+    public default void test_nextToken_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,12 +86,17 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
      * Test method for {@link java.util.StringTokenizer#nextToken() public java.lang.String
      * java.util.StringTokenizer.nextToken()}.
      *
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#nextToken() public java.lang.String
+     * java.util.StringTokenizer.nextToken()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.StringTokenizer#nextToken()
+     * @see java.util.StringTokenizer#nextToken() public java.lang.String java.util.StringTokenizer.nextToken() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,20 +110,80 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
 
     /**
      * <p>
-     * Test method for {@link java.util.StringTokenizer#nextToken(java.lang.String) public java.lang.String
-     * java.util.StringTokenizer.nextToken(java.lang.String)}.
+     * Test method for {@link java.util.StringTokenizer#hasMoreTokens() public boolean
+     * java.util.StringTokenizer.hasMoreTokens()}.
+     *
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#hasMoreTokens() public boolean
+     * java.util.StringTokenizer.hasMoreTokens()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.StringTokenizer#nextToken(java.lang.String)
+     * @see java.util.StringTokenizer#hasMoreTokens() public boolean java.util.StringTokenizer.hasMoreTokens() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextToken_String()
+    public default void test_hasMoreTokens()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#countTokens() public int
+     * java.util.StringTokenizer.countTokens()}.
+     *
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#countTokens() public int
+     * java.util.StringTokenizer.countTokens()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.StringTokenizer#countTokens() public int java.util.StringTokenizer.countTokens() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countTokens()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#nextElement() public java.lang.Object
+     * java.util.StringTokenizer.nextElement()}.
+     *
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#nextElement() public java.lang.Object
+     * java.util.StringTokenizer.nextElement()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.util.StringTokenizer#nextElement() public java.lang.Object java.util.StringTokenizer.nextElement() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_nextElement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

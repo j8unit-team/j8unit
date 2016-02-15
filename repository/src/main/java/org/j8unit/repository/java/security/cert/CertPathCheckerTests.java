@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.cert.CertPathChecker interface
- * java.security.cert.CertPathChecker}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.cert.CertPathCheckerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.cert.CertPathChecker interface
+ * java.security.cert.CertPathChecker}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link CertPathCheckerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.cert.CertPathCheckerClassTests
+ * @see java.security.cert.CertPathChecker interface java.security.cert.CertPathChecker (the hereby targeted
+ *      class-under-test class)
+ * @see CertPathCheckerClassTests CertPathCheckerClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.cert.CertPathChecker
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -34,12 +35,19 @@ extends RepositoryTests<SUT> {
      * void java.security.cert.CertPathChecker.check(java.security.cert.Certificate) throws
      * java.security.cert.CertPathValidatorException}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.CertPathChecker#check(java.security.cert.Certificate) public abstract
+     * void java.security.cert.CertPathChecker.check(java.security.cert.Certificate) throws
+     * java.security.cert.CertPathValidatorException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertPathChecker#check(java.security.cert.Certificate)
+     * @see java.security.cert.CertPathChecker#check(java.security.cert.Certificate) public abstract void
+     *      java.security.cert.CertPathChecker.check(java.security.cert.Certificate) throws
+     *      java.security.cert.CertPathValidatorException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +64,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.security.cert.CertPathChecker#init(boolean) public abstract void
      * java.security.cert.CertPathChecker.init(boolean) throws java.security.cert.CertPathValidatorException}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.CertPathChecker#init(boolean) public abstract void
+     * java.security.cert.CertPathChecker.init(boolean) throws java.security.cert.CertPathValidatorException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertPathChecker#init(boolean)
+     * @see java.security.cert.CertPathChecker#init(boolean) public abstract void
+     *      java.security.cert.CertPathChecker.init(boolean) throws java.security.cert.CertPathValidatorException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,12 +92,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.security.cert.CertPathChecker#isForwardCheckingSupported() public abstract boolean
      * java.security.cert.CertPathChecker.isForwardCheckingSupported()}.
      *
+     * <p>
+     * Test method for {@link java.security.cert.CertPathChecker#isForwardCheckingSupported() public abstract boolean
+     * java.security.cert.CertPathChecker.isForwardCheckingSupported()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.CertPathChecker#isForwardCheckingSupported()
+     * @see java.security.cert.CertPathChecker#isForwardCheckingSupported() public abstract boolean
+     *      java.security.cert.CertPathChecker.isForwardCheckingSupported() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

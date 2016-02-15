@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.reflect.InvocationHandler interface
- * java.lang.reflect.InvocationHandler}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.reflect.InvocationHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.reflect.InvocationHandler interface
+ * java.lang.reflect.InvocationHandler}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link InvocationHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests
+ * @see java.lang.reflect.InvocationHandler interface java.lang.reflect.InvocationHandler (the hereby targeted
+ *      class-under-test class)
+ * @see InvocationHandlerClassTests InvocationHandlerClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.reflect.InvocationHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,8 +31,13 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.reflect.InvocationHandler#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])
+     * Test method for {@link java.lang.reflect.InvocationHandler#invoke(Object, java.lang.reflect.Method, Object[])
+     * public abstract java.lang.Object
+     * java.lang.reflect.InvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) throws
+     * java.lang.Throwable}.
+     *
+     * <p>
+     * Test method for {@link java.lang.reflect.InvocationHandler#invoke(Object, java.lang.reflect.Method, Object[])
      * public abstract java.lang.Object
      * java.lang.reflect.InvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) throws
      * java.lang.Throwable}.
@@ -41,8 +47,10 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.reflect.InvocationHandler#invoke(java.lang.Object, java.lang.reflect.Method,
-     *             java.lang.Object[])
+     * @see java.lang.reflect.InvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public abstract
+     *      java.lang.Object
+     *      java.lang.reflect.InvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
+     *      throws java.lang.Throwable (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -1,38 +1,52 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleConstants class javax.swing.text.StyleConstants}
- * , containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests}.
+ * Reusable j8unit test interface for {@linkplain javax.swing.text.StyleConstants class javax.swing.text.StyleConstants}
+ * , containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link StyleConstantsTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StyleConstantsTests}.
+ * </p>
+ *
+ * @see javax.swing.text.StyleConstants class javax.swing.text.StyleConstants (the hereby targeted class-under-test
+ *      class)
+ * @see StyleConstantsTests StyleConstantsTests (The complementary j8unit test interface containing the instance
+ *      relevant test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.text.StyleConstants
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,1170 +54,304 @@ public abstract interface StyleConstantsClassTests<SUT extends javax.swing.text.
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleConstants.CharacterConstants class
-     * javax.swing.text.StyleConstants$CharacterConstants}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests}.
-     * </p>
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants.CharacterConstants
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CharacterConstantsClassTests<SUT extends javax.swing.text.StyleConstants.CharacterConstants>
-    extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<SUT>,
-    org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.StyleConstants.CharacterConstants#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.StyleConstants.CharacterConstants.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleConstants.ColorConstants class
-     * javax.swing.text.StyleConstants$ColorConstants}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.ColorConstantsTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.ColorConstantsTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants.ColorConstants
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ColorConstantsClassTests<SUT extends javax.swing.text.StyleConstants.ColorConstants>
-    extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests<SUT>,
-    org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<SUT>,
-    org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.StyleConstants.ColorConstants#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.StyleConstants.ColorConstants.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleConstants.FontConstants class
-     * javax.swing.text.StyleConstants$FontConstants}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.FontConstantsTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.FontConstantsTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants.FontConstants
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FontConstantsClassTests<SUT extends javax.swing.text.StyleConstants.FontConstants>
-    extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests<SUT>,
-    org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<SUT>,
-    org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.StyleConstants.FontConstants#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.StyleConstants.FontConstants.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.swing.text.StyleConstants.ParagraphConstants class
-     * javax.swing.text.StyleConstants$ParagraphConstants}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants.ParagraphConstants
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ParagraphConstantsClassTests<SUT extends javax.swing.text.StyleConstants.ParagraphConstants>
-    extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ParagraphAttributeClassTests<SUT>,
-    org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.swing.text.StyleConstants.ParagraphConstants#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.StyleConstants.ParagraphConstants.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getAlignment(javax.swing.text.AttributeSet) public static
-     * int javax.swing.text.StyleConstants.getAlignment(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getAlignment(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlignment_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getBackground(javax.swing.text.AttributeSet) public static
-     * java.awt.Color javax.swing.text.StyleConstants.getBackground(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getBackground(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackground_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getBidiLevel(javax.swing.text.AttributeSet) public static
-     * int javax.swing.text.StyleConstants.getBidiLevel(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getBidiLevel(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBidiLevel_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getComponent(javax.swing.text.AttributeSet) public static
-     * java.awt.Component javax.swing.text.StyleConstants.getComponent(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getComponent(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponent_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getFirstLineIndent(javax.swing.text.AttributeSet) public
-     * static float javax.swing.text.StyleConstants.getFirstLineIndent(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getFirstLineIndent(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFirstLineIndent_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getFontFamily(javax.swing.text.AttributeSet) public static
-     * java.lang.String javax.swing.text.StyleConstants.getFontFamily(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getFontFamily(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFontFamily_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getFontSize(javax.swing.text.AttributeSet) public static
-     * int javax.swing.text.StyleConstants.getFontSize(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getFontSize(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFontSize_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getForeground(javax.swing.text.AttributeSet) public static
-     * java.awt.Color javax.swing.text.StyleConstants.getForeground(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getForeground(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getForeground_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getIcon(javax.swing.text.AttributeSet) public static
-     * javax.swing.Icon javax.swing.text.StyleConstants.getIcon(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getIcon(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIcon_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getLeftIndent(javax.swing.text.AttributeSet) public static
-     * float javax.swing.text.StyleConstants.getLeftIndent(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getLeftIndent(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLeftIndent_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getLineSpacing(javax.swing.text.AttributeSet) public
-     * static float javax.swing.text.StyleConstants.getLineSpacing(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getLineSpacing(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLineSpacing_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getRightIndent(javax.swing.text.AttributeSet) public
-     * static float javax.swing.text.StyleConstants.getRightIndent(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getRightIndent(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRightIndent_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getSpaceAbove(javax.swing.text.AttributeSet) public static
-     * float javax.swing.text.StyleConstants.getSpaceAbove(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getSpaceAbove(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpaceAbove_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getSpaceBelow(javax.swing.text.AttributeSet) public static
-     * float javax.swing.text.StyleConstants.getSpaceBelow(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getSpaceBelow(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpaceBelow_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#getTabSet(javax.swing.text.AttributeSet) public static
-     * javax.swing.text.TabSet javax.swing.text.StyleConstants.getTabSet(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#getTabSet(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTabSet_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#isBold(javax.swing.text.AttributeSet) public static
-     * boolean javax.swing.text.StyleConstants.isBold(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isBold(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBold_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#isItalic(javax.swing.text.AttributeSet) public static
-     * boolean javax.swing.text.StyleConstants.isItalic(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isItalic(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isItalic_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#isStrikeThrough(javax.swing.text.AttributeSet) public
-     * static boolean javax.swing.text.StyleConstants.isStrikeThrough(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isStrikeThrough(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isStrikeThrough_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#isSubscript(javax.swing.text.AttributeSet) public static
-     * boolean javax.swing.text.StyleConstants.isSubscript(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isSubscript(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSubscript_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#isSuperscript(javax.swing.text.AttributeSet) public static
-     * boolean javax.swing.text.StyleConstants.isSuperscript(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isSuperscript(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSuperscript_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#isUnderline(javax.swing.text.AttributeSet) public static
-     * boolean javax.swing.text.StyleConstants.isUnderline(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isUnderline(javax.swing.text.AttributeSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isUnderline_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setAlignment(javax.swing.text.MutableAttributeSet, int)
-     * public static void javax.swing.text.StyleConstants.setAlignment(javax.swing.text.MutableAttributeSet,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setAlignment(javax.swing.text.MutableAttributeSet, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAlignment_MutableAttributeSet_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setBackground(javax.swing.text.MutableAttributeSet, java.awt.Color) public
-     * static void javax.swing.text.StyleConstants.setBackground(javax.swing.text.MutableAttributeSet,java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setBackground(javax.swing.text.MutableAttributeSet, java.awt.Color)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBackground_MutableAttributeSet_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setBidiLevel(javax.swing.text.MutableAttributeSet, int)
-     * public static void javax.swing.text.StyleConstants.setBidiLevel(javax.swing.text.MutableAttributeSet,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setBidiLevel(javax.swing.text.MutableAttributeSet, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBidiLevel_MutableAttributeSet_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setBold(javax.swing.text.MutableAttributeSet, boolean)
-     * public static void javax.swing.text.StyleConstants.setBold(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setBold(javax.swing.text.MutableAttributeSet, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBold_MutableAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setComponent(javax.swing.text.MutableAttributeSet, java.awt.Component)
-     * public static void
-     * javax.swing.text.StyleConstants.setComponent(javax.swing.text.MutableAttributeSet,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setComponent(javax.swing.text.MutableAttributeSet,
-     *             java.awt.Component)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setComponent_MutableAttributeSet_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setFirstLineIndent(javax.swing.text.MutableAttributeSet, float) public
-     * static void javax.swing.text.StyleConstants.setFirstLineIndent(javax.swing.text.MutableAttributeSet,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setFirstLineIndent(javax.swing.text.MutableAttributeSet, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFirstLineIndent_MutableAttributeSet_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setFontFamily(javax.swing.text.MutableAttributeSet, java.lang.String)
-     * public static void
-     * javax.swing.text.StyleConstants.setFontFamily(javax.swing.text.MutableAttributeSet,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setFontFamily(javax.swing.text.MutableAttributeSet, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFontFamily_MutableAttributeSet_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setFontSize(javax.swing.text.MutableAttributeSet, int)
-     * public static void javax.swing.text.StyleConstants.setFontSize(javax.swing.text.MutableAttributeSet,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setFontSize(javax.swing.text.MutableAttributeSet, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFontSize_MutableAttributeSet_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setForeground(javax.swing.text.MutableAttributeSet, java.awt.Color) public
-     * static void javax.swing.text.StyleConstants.setForeground(javax.swing.text.MutableAttributeSet,java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setForeground(javax.swing.text.MutableAttributeSet, java.awt.Color)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setForeground_MutableAttributeSet_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setIcon(javax.swing.text.MutableAttributeSet, javax.swing.Icon) public
-     * static void javax.swing.text.StyleConstants.setIcon(javax.swing.text.MutableAttributeSet,javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setIcon(javax.swing.text.MutableAttributeSet, javax.swing.Icon)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIcon_MutableAttributeSet_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setItalic(javax.swing.text.MutableAttributeSet, boolean)
-     * public static void javax.swing.text.StyleConstants.setItalic(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setItalic(javax.swing.text.MutableAttributeSet, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setItalic_MutableAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setLeftIndent(javax.swing.text.MutableAttributeSet, float)
-     * public static void javax.swing.text.StyleConstants.setLeftIndent(javax.swing.text.MutableAttributeSet,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setLeftIndent(javax.swing.text.MutableAttributeSet, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLeftIndent_MutableAttributeSet_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setLineSpacing(javax.swing.text.MutableAttributeSet, float) public static
-     * void javax.swing.text.StyleConstants.setLineSpacing(javax.swing.text.MutableAttributeSet,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setLineSpacing(javax.swing.text.MutableAttributeSet, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLineSpacing_MutableAttributeSet_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setRightIndent(javax.swing.text.MutableAttributeSet, float) public static
-     * void javax.swing.text.StyleConstants.setRightIndent(javax.swing.text.MutableAttributeSet,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setRightIndent(javax.swing.text.MutableAttributeSet, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRightIndent_MutableAttributeSet_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setSpaceAbove(javax.swing.text.MutableAttributeSet, float)
-     * public static void javax.swing.text.StyleConstants.setSpaceAbove(javax.swing.text.MutableAttributeSet,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setSpaceAbove(javax.swing.text.MutableAttributeSet, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSpaceAbove_MutableAttributeSet_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#setSpaceBelow(javax.swing.text.MutableAttributeSet, float)
-     * public static void javax.swing.text.StyleConstants.setSpaceBelow(javax.swing.text.MutableAttributeSet,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setSpaceBelow(javax.swing.text.MutableAttributeSet, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSpaceBelow_MutableAttributeSet_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setStrikeThrough(javax.swing.text.MutableAttributeSet, boolean) public
-     * static void javax.swing.text.StyleConstants.setStrikeThrough(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setStrikeThrough(javax.swing.text.MutableAttributeSet, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setStrikeThrough_MutableAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setSubscript(javax.swing.text.MutableAttributeSet, boolean) public static
-     * void javax.swing.text.StyleConstants.setSubscript(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setSubscript(javax.swing.text.MutableAttributeSet, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSubscript_MutableAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setSuperscript(javax.swing.text.MutableAttributeSet, boolean) public
-     * static void javax.swing.text.StyleConstants.setSuperscript(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setSuperscript(javax.swing.text.MutableAttributeSet, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSuperscript_MutableAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setTabSet(javax.swing.text.MutableAttributeSet, javax.swing.text.TabSet)
-     * public static void
-     * javax.swing.text.StyleConstants.setTabSet(javax.swing.text.MutableAttributeSet,javax.swing.text.TabSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setTabSet(javax.swing.text.MutableAttributeSet,
-     *             javax.swing.text.TabSet)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTabSet_MutableAttributeSet_TabSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.StyleConstants#setUnderline(javax.swing.text.MutableAttributeSet, boolean) public static
-     * void javax.swing.text.StyleConstants.setUnderline(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#setUnderline(javax.swing.text.MutableAttributeSet, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUnderline_MutableAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * @since 0.9.2
-     *
-     * @j8unit.aim javax.swing.text.StyleConstants#isAssignableFrom(java.lang.Class)
      */
     @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @BeforeClass
+    public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue(javax.swing.text.StyleConstants.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.StyleConstants.class!",
+                   javax.swing.text.StyleConstants.class.isAssignableFrom(sut));
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.StyleConstants.FontConstants class
+     * javax.swing.text.StyleConstants$FontConstants}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link StyleConstantsTests.FontConstantsTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link StyleConstantsTests.FontConstantsTests}.
+     * </p>
+     *
+     * @see javax.swing.text.StyleConstants.FontConstants class javax.swing.text.StyleConstants$FontConstants (the
+     *      hereby targeted class-under-test class)
+     * @see StyleConstantsTests.FontConstantsTests StyleConstantsTests.FontConstantsTests (The complementary j8unit test
+     *      interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FontConstantsClassTests<SUT extends javax.swing.text.StyleConstants.FontConstants>
+    extends AttributeSetClassTests.FontAttributeClassTests<SUT>, AttributeSetClassTests.CharacterAttributeClassTests<SUT>, StyleConstantsClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.StyleConstants.FontConstants.class!",
+                       javax.swing.text.StyleConstants.FontConstants.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.StyleConstants.ParagraphConstants class
+     * javax.swing.text.StyleConstants$ParagraphConstants}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link StyleConstantsTests.ParagraphConstantsTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link StyleConstantsTests.ParagraphConstantsTests}.
+     * </p>
+     *
+     * @see javax.swing.text.StyleConstants.ParagraphConstants class javax.swing.text.StyleConstants$ParagraphConstants
+     *      (the hereby targeted class-under-test class)
+     * @see StyleConstantsTests.ParagraphConstantsTests StyleConstantsTests.ParagraphConstantsTests (The complementary
+     *      j8unit test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ParagraphConstantsClassTests<SUT extends javax.swing.text.StyleConstants.ParagraphConstants>
+    extends AttributeSetClassTests.ParagraphAttributeClassTests<SUT>, StyleConstantsClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.StyleConstants.ParagraphConstants.class!",
+                       javax.swing.text.StyleConstants.ParagraphConstants.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.StyleConstants.ColorConstants class
+     * javax.swing.text.StyleConstants$ColorConstants}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link StyleConstantsTests.ColorConstantsTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link StyleConstantsTests.ColorConstantsTests}.
+     * </p>
+     *
+     * @see javax.swing.text.StyleConstants.ColorConstants class javax.swing.text.StyleConstants$ColorConstants (the
+     *      hereby targeted class-under-test class)
+     * @see StyleConstantsTests.ColorConstantsTests StyleConstantsTests.ColorConstantsTests (The complementary j8unit
+     *      test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ColorConstantsClassTests<SUT extends javax.swing.text.StyleConstants.ColorConstants>
+    extends AttributeSetClassTests.ColorAttributeClassTests<SUT>, AttributeSetClassTests.CharacterAttributeClassTests<SUT>, StyleConstantsClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.StyleConstants.ColorConstants.class!",
+                       javax.swing.text.StyleConstants.ColorConstants.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface for {@linkplain javax.swing.text.StyleConstants.CharacterConstants class
+     * javax.swing.text.StyleConstants$CharacterConstants}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link StyleConstantsTests.CharacterConstantsTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link StyleConstantsTests.CharacterConstantsTests}.
+     * </p>
+     *
+     * @see javax.swing.text.StyleConstants.CharacterConstants class javax.swing.text.StyleConstants$CharacterConstants
+     *      (the hereby targeted class-under-test class)
+     * @see StyleConstantsTests.CharacterConstantsTests StyleConstantsTests.CharacterConstantsTests (The complementary
+     *      j8unit test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface CharacterConstantsClassTests<SUT extends javax.swing.text.StyleConstants.CharacterConstants>
+    extends AttributeSetClassTests.CharacterAttributeClassTests<SUT>, StyleConstantsClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.text.StyleConstants.CharacterConstants.class!",
+                       javax.swing.text.StyleConstants.CharacterConstants.class.isAssignableFrom(sut));
+        }
+
     }
 
 }

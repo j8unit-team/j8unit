@@ -8,137 +8,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.naming.Name interface javax.naming.Name}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.naming.NameTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.naming.Name interface javax.naming.Name}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link NameClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.naming.NameClassTests
+ * @see javax.naming.Name interface javax.naming.Name (the hereby targeted class-under-test class)
+ * @see NameClassTests NameClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.naming.Name
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameTests<SUT extends javax.naming.Name>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
+org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.Name#add(int, java.lang.String) public abstract javax.naming.Name
-     * javax.naming.Name.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
+     * Test method for {@link javax.naming.Name#compareTo(Object) public abstract int
+     * javax.naming.Name.compareTo(java.lang.Object)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#add(int, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.naming.Name#add(java.lang.String) public abstract javax.naming.Name
-     * javax.naming.Name.add(java.lang.String) throws javax.naming.InvalidNameException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#add(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#addAll(int, javax.naming.Name) public abstract javax.naming.Name
-     * javax.naming.Name.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#addAll(int, javax.naming.Name)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_int_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#addAll(javax.naming.Name) public abstract javax.naming.Name
-     * javax.naming.Name.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#addAll(javax.naming.Name)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#clone() public abstract java.lang.Object javax.naming.Name.clone()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#clone()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#compareTo(java.lang.Object) public abstract int
+     * Test method for {@link javax.naming.Name#compareTo(Object) public abstract int
      * javax.naming.Name.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,122 +41,14 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.Name#compareTo(java.lang.Object)
+     * @see javax.naming.Name#compareTo(Object) public abstract int javax.naming.Name.compareTo(java.lang.Object) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
+    @Test
+    @Category(Draft.class)
     public default void test_compareTo_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#endsWith(javax.naming.Name) public abstract boolean
-     * javax.naming.Name.endsWith(javax.naming.Name)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#endsWith(javax.naming.Name)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endsWith_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#get(int) public abstract java.lang.String javax.naming.Name.get(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#get(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#getAll() public abstract java.util.Enumeration
-     * javax.naming.Name.getAll()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#getAll()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#getPrefix(int) public abstract javax.naming.Name
-     * javax.naming.Name.getPrefix(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#getPrefix(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.Name#getSuffix(int) public abstract javax.naming.Name
-     * javax.naming.Name.getSuffix(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.naming.Name#getSuffix(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSuffix_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -272,12 +59,16 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
      * <p>
      * Test method for {@link javax.naming.Name#isEmpty() public abstract boolean javax.naming.Name.isEmpty()}.
      *
+     * <p>
+     * Test method for {@link javax.naming.Name#isEmpty() public abstract boolean javax.naming.Name.isEmpty()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.Name#isEmpty()
+     * @see javax.naming.Name#isEmpty() public abstract boolean javax.naming.Name.isEmpty() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -294,12 +85,17 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
      * Test method for {@link javax.naming.Name#remove(int) public abstract java.lang.Object
      * javax.naming.Name.remove(int) throws javax.naming.InvalidNameException}.
      *
+     * <p>
+     * Test method for {@link javax.naming.Name#remove(int) public abstract java.lang.Object
+     * javax.naming.Name.remove(int) throws javax.naming.InvalidNameException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.Name#remove(int)
+     * @see javax.naming.Name#remove(int) public abstract java.lang.Object javax.naming.Name.remove(int) throws
+     *      javax.naming.InvalidNameException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,6 +109,249 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
 
     /**
      * <p>
+     * Test method for {@link javax.naming.Name#getAll() public abstract java.util.Enumeration
+     * <java.lang.String> javax.naming.Name.getAll()}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#getAll() public abstract java.util.Enumeration
+     * javax.naming.Name.getAll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#getAll() public abstract java.util.Enumeration javax.naming.Name.getAll() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#getPrefix(int) public abstract javax.naming.Name
+     * javax.naming.Name.getPrefix(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#getPrefix(int) public abstract javax.naming.Name
+     * javax.naming.Name.getPrefix(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#getPrefix(int) public abstract javax.naming.Name javax.naming.Name.getPrefix(int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#add(String) public abstract javax.naming.Name
+     * javax.naming.Name.add(java.lang.String) throws javax.naming.InvalidNameException}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#add(String) public abstract javax.naming.Name
+     * javax.naming.Name.add(java.lang.String) throws javax.naming.InvalidNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#add(String) public abstract javax.naming.Name javax.naming.Name.add(java.lang.String)
+     *      throws javax.naming.InvalidNameException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#add(int, String) public abstract javax.naming.Name
+     * javax.naming.Name.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#add(int, String) public abstract javax.naming.Name
+     * javax.naming.Name.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#add(int, String) public abstract javax.naming.Name
+     *      javax.naming.Name.add(int,java.lang.String) throws javax.naming.InvalidNameException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_int_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#clone() public abstract java.lang.Object javax.naming.Name.clone()}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#clone() public abstract java.lang.Object javax.naming.Name.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#clone() public abstract java.lang.Object javax.naming.Name.clone() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#endsWith(javax.naming.Name) public abstract boolean
+     * javax.naming.Name.endsWith(javax.naming.Name)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#endsWith(javax.naming.Name) public abstract boolean
+     * javax.naming.Name.endsWith(javax.naming.Name)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#endsWith(javax.naming.Name) public abstract boolean
+     *      javax.naming.Name.endsWith(javax.naming.Name) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endsWith_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#startsWith(javax.naming.Name) public abstract boolean
+     * javax.naming.Name.startsWith(javax.naming.Name)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#startsWith(javax.naming.Name) public abstract boolean
+     * javax.naming.Name.startsWith(javax.naming.Name)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#startsWith(javax.naming.Name) public abstract boolean
+     *      javax.naming.Name.startsWith(javax.naming.Name) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_startsWith_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#getSuffix(int) public abstract javax.naming.Name
+     * javax.naming.Name.getSuffix(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#getSuffix(int) public abstract javax.naming.Name
+     * javax.naming.Name.getSuffix(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#getSuffix(int) public abstract javax.naming.Name javax.naming.Name.getSuffix(int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSuffix_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#get(int) public abstract java.lang.String javax.naming.Name.get(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#get(int) public abstract java.lang.String javax.naming.Name.get(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#get(int) public abstract java.lang.String javax.naming.Name.get(int) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#size() public abstract int javax.naming.Name.size()}.
+     *
+     * <p>
      * Test method for {@link javax.naming.Name#size() public abstract int javax.naming.Name.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -320,7 +359,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.Name#size()
+     * @see javax.naming.Name#size() public abstract int javax.naming.Name.size() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -334,20 +374,54 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.Name#startsWith(javax.naming.Name) public abstract boolean
-     * javax.naming.Name.startsWith(javax.naming.Name)}.
+     * Test method for {@link javax.naming.Name#addAll(int, javax.naming.Name) public abstract javax.naming.Name
+     * javax.naming.Name.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#addAll(int, javax.naming.Name) public abstract javax.naming.Name
+     * javax.naming.Name.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.naming.Name#startsWith(javax.naming.Name)
+     * @see javax.naming.Name#addAll(int, javax.naming.Name) public abstract javax.naming.Name
+     *      javax.naming.Name.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_startsWith_Name()
+    public default void test_addAll_int_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.Name#addAll(javax.naming.Name) public abstract javax.naming.Name
+     * javax.naming.Name.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     *
+     * <p>
+     * Test method for {@link javax.naming.Name#addAll(javax.naming.Name) public abstract javax.naming.Name
+     * javax.naming.Name.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.naming.Name#addAll(javax.naming.Name) public abstract javax.naming.Name
+     *      javax.naming.Name.addAll(javax.naming.Name) throws javax.naming.InvalidNameException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAll_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

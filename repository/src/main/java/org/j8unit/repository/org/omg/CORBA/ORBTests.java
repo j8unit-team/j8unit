@@ -8,18 +8,17 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.ORB class org.omg.CORBA.ORB}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.org.omg.CORBA.ORBTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.ORB class org.omg.CORBA.ORB}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link ORBClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.ORBClassTests
+ * @see org.omg.CORBA.ORB class org.omg.CORBA.ORB (the hereby targeted class-under-test class)
+ * @see ORBClassTests ORBClassTests (the complementary j8unit test interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.ORB
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -28,513 +27,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#connect(org.omg.CORBA.Object) public void
-     * org.omg.CORBA.ORB.connect(org.omg.CORBA.Object)}.
+     * Test method for {@link org.omg.CORBA.ORB#poll_next_response() public abstract boolean
+     * org.omg.CORBA.ORB.poll_next_response()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#connect(org.omg.CORBA.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_connect_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_abstract_interface_tc(java.lang.String, java.lang.String) public
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_abstract_interface_tc(java.lang.String,java.lang.String)}.
+     * Test method for {@link org.omg.CORBA.ORB#poll_next_response() public abstract boolean
+     * org.omg.CORBA.ORB.poll_next_response()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#create_abstract_interface_tc(java.lang.String, java.lang.String)
+     * @see org.omg.CORBA.ORB#poll_next_response() public abstract boolean org.omg.CORBA.ORB.poll_next_response() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_create_abstract_interface_tc_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ORB#create_alias_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode) public
-     * abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_alias_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_alias_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_alias_tc_String_String_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_any() public abstract org.omg.CORBA.Any
-     * org.omg.CORBA.ORB.create_any()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_any()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_array_tc(int, org.omg.CORBA.TypeCode) public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_array_tc(int,org.omg.CORBA.TypeCode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_array_tc(int, org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_array_tc_int_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_basic_dyn_any(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynAny
-     * org.omg.CORBA.ORB.create_basic_dyn_any(org.omg.CORBA.TypeCode) throws
-     * org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_basic_dyn_any(org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_basic_dyn_any_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_context_list() public abstract org.omg.CORBA.ContextList
-     * org.omg.CORBA.ORB.create_context_list()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_context_list()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_context_list()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_dyn_any(org.omg.CORBA.Any) public org.omg.CORBA.DynAny
-     * org.omg.CORBA.ORB.create_dyn_any(org.omg.CORBA.Any)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_dyn_any(org.omg.CORBA.Any)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_dyn_any_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_dyn_array(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynArray
-     * org.omg.CORBA.ORB.create_dyn_array(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_dyn_array(org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_dyn_array_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_dyn_enum(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynEnum
-     * org.omg.CORBA.ORB.create_dyn_enum(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_dyn_enum(org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_dyn_enum_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_dyn_sequence(org.omg.CORBA.TypeCode) public
-     * org.omg.CORBA.DynSequence org.omg.CORBA.ORB.create_dyn_sequence(org.omg.CORBA.TypeCode) throws
-     * org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_dyn_sequence(org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_dyn_sequence_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_dyn_struct(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynStruct
-     * org.omg.CORBA.ORB.create_dyn_struct(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_dyn_struct(org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_dyn_struct_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_dyn_union(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynUnion
-     * org.omg.CORBA.ORB.create_dyn_union(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_dyn_union(org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_dyn_union_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_enum_tc(java.lang.String, java.lang.String, java.lang.String[])
-     * public abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_enum_tc(java.lang.String,java.lang.String,java.lang.String[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_enum_tc(java.lang.String, java.lang.String, java.lang.String[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_enum_tc_String_String_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_environment() public abstract org.omg.CORBA.Environment
-     * org.omg.CORBA.ORB.create_environment()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_environment()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_environment()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_exception_list() public abstract org.omg.CORBA.ExceptionList
-     * org.omg.CORBA.ORB.create_exception_list()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_exception_list()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_exception_list()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ORB#create_exception_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])
-     * public abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_exception_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_exception_tc(java.lang.String, java.lang.String,
-     *             org.omg.CORBA.StructMember[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_exception_tc_String_String_StructMemberArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_fixed_tc(short, short) public org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_fixed_tc(short,short)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_fixed_tc(short, short)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_fixed_tc_short_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_interface_tc(java.lang.String, java.lang.String) public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_interface_tc(java.lang.String,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_interface_tc(java.lang.String, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_interface_tc_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_list(int) public abstract org.omg.CORBA.NVList
-     * org.omg.CORBA.ORB.create_list(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_list(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_list_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_named_value(java.lang.String, org.omg.CORBA.Any, int) public
-     * abstract org.omg.CORBA.NamedValue org.omg.CORBA.ORB.create_named_value(java.lang.String,org.omg.CORBA.Any,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_named_value(java.lang.String, org.omg.CORBA.Any, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_named_value_String_Any_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_native_tc(java.lang.String, java.lang.String) public
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_native_tc(java.lang.String,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_native_tc(java.lang.String, java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_native_tc_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_operation_list(org.omg.CORBA.Object) public org.omg.CORBA.NVList
-     * org.omg.CORBA.ORB.create_operation_list(org.omg.CORBA.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_operation_list(org.omg.CORBA.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_operation_list_Object()
+    public default void test_poll_next_response()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -546,12 +57,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.omg.CORBA.ORB#create_output_stream() public abstract
      * org.omg.CORBA.portable.OutputStream org.omg.CORBA.ORB.create_output_stream()}.
      *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_output_stream() public abstract
+     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.ORB.create_output_stream()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#create_output_stream()
+     * @see org.omg.CORBA.ORB#create_output_stream() public abstract org.omg.CORBA.portable.OutputStream
+     *      org.omg.CORBA.ORB.create_output_stream() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -568,12 +84,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.omg.CORBA.ORB#create_policy(int, org.omg.CORBA.Any) public org.omg.CORBA.Policy
      * org.omg.CORBA.ORB.create_policy(int,org.omg.CORBA.Any) throws org.omg.CORBA.PolicyError}.
      *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_policy(int, org.omg.CORBA.Any) public org.omg.CORBA.Policy
+     * org.omg.CORBA.ORB.create_policy(int,org.omg.CORBA.Any) throws org.omg.CORBA.PolicyError}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#create_policy(int, org.omg.CORBA.Any)
+     * @see org.omg.CORBA.ORB#create_policy(int, org.omg.CORBA.Any) public org.omg.CORBA.Policy
+     *      org.omg.CORBA.ORB.create_policy(int,org.omg.CORBA.Any) throws org.omg.CORBA.PolicyError (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -587,368 +109,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_recursive_sequence_tc(int, int) public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_recursive_sequence_tc(int,int)}.
+     * Test method for {@link org.omg.CORBA.ORB#list_initial_services() public abstract java.lang.String[]
+     * org.omg.CORBA.ORB.list_initial_services()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_recursive_sequence_tc(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_recursive_sequence_tc_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_recursive_tc(java.lang.String) public org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_recursive_tc(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_recursive_tc(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_recursive_tc_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_sequence_tc(int, org.omg.CORBA.TypeCode) public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_sequence_tc(int,org.omg.CORBA.TypeCode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_sequence_tc(int, org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_sequence_tc_int_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_string_tc(int) public abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_string_tc(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_string_tc(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_string_tc_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ORB#create_struct_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])
-     * public abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_struct_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_struct_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_struct_tc_String_String_StructMemberArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ORB#create_union_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode, org.omg.CORBA.UnionMember[])
-     * public abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_union_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.UnionMember[])}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_union_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode,
-     *             org.omg.CORBA.UnionMember[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_union_tc_String_String_TypeCode_UnionMemberArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ORB#create_value_box_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode) public
-     * org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_value_box_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_value_box_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_value_box_tc_String_String_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ORB#create_value_tc(java.lang.String, java.lang.String, short, org.omg.CORBA.TypeCode, org.omg.CORBA.ValueMember[])
-     * public org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_value_tc(java.lang.String,java.lang.String,short,org.omg.CORBA.TypeCode,org.omg.CORBA.ValueMember[])}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_value_tc(java.lang.String, java.lang.String, short, org.omg.CORBA.TypeCode,
-     *             org.omg.CORBA.ValueMember[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_value_tc_String_String_short_TypeCode_ValueMemberArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#create_wstring_tc(int) public abstract org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ORB.create_wstring_tc(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#create_wstring_tc(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_wstring_tc_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#destroy() public void org.omg.CORBA.ORB.destroy()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#destroy()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_destroy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#disconnect(org.omg.CORBA.Object) public void
-     * org.omg.CORBA.ORB.disconnect(org.omg.CORBA.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#disconnect(org.omg.CORBA.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_disconnect_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#get_current() public org.omg.CORBA.Current
-     * org.omg.CORBA.ORB.get_current()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#get_current()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_current()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#get_default_context() public abstract org.omg.CORBA.Context
-     * org.omg.CORBA.ORB.get_default_context()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#get_default_context()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_default_context()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#get_next_response() public abstract org.omg.CORBA.Request
-     * org.omg.CORBA.ORB.get_next_response() throws org.omg.CORBA.WrongTransaction}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#get_next_response()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_next_response()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#get_primitive_tc(org.omg.CORBA.TCKind) public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.get_primitive_tc(org.omg.CORBA.TCKind)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#get_primitive_tc(org.omg.CORBA.TCKind)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_primitive_tc_TCKind()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ORB#get_service_information(short, org.omg.CORBA.ServiceInformationHolder)
-     * public boolean org.omg.CORBA.ORB.get_service_information(short,org.omg.CORBA.ServiceInformationHolder)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim org.omg.CORBA.ORB#get_service_information(short, org.omg.CORBA.ServiceInformationHolder)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_service_information_short_ServiceInformationHolder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link org.omg.CORBA.ORB#list_initial_services() public abstract java.lang.String[]
      * org.omg.CORBA.ORB.list_initial_services()}.
@@ -958,7 +121,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#list_initial_services()
+     * @see org.omg.CORBA.ORB#list_initial_services() public abstract java.lang.String[]
+     *      org.omg.CORBA.ORB.list_initial_services() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -972,20 +136,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#object_to_string(org.omg.CORBA.Object) public abstract java.lang.String
-     * org.omg.CORBA.ORB.object_to_string(org.omg.CORBA.Object)}.
+     * Test method for {@link org.omg.CORBA.ORB#create_interface_tc(String, String) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_interface_tc(java.lang.String,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_interface_tc(String, String) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_interface_tc(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#object_to_string(org.omg.CORBA.Object)
+     * @see org.omg.CORBA.ORB#create_interface_tc(String, String) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_interface_tc(java.lang.String,java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_object_to_string_Object()
+    public default void test_create_interface_tc_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -994,19 +164,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#perform_work() public void org.omg.CORBA.ORB.perform_work()}.
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_struct(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynStruct
+     * org.omg.CORBA.ORB.create_dyn_struct(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}
+     * .
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_struct(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynStruct
+     * org.omg.CORBA.ORB.create_dyn_struct(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#perform_work()
+     * @see org.omg.CORBA.ORB#create_dyn_struct(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynStruct
+     *      org.omg.CORBA.ORB.create_dyn_struct(org.omg.CORBA.TypeCode) throws
+     *      org.omg.CORBA.ORBPackage.InconsistentTypeCode (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_perform_work()
+    public default void test_create_dyn_struct_TypeCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1015,20 +194,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#poll_next_response() public abstract boolean
-     * org.omg.CORBA.ORB.poll_next_response()}.
+     * Test method for {@link org.omg.CORBA.ORB#connect(org.omg.CORBA.Object) public void
+     * org.omg.CORBA.ORB.connect(org.omg.CORBA.Object)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#connect(org.omg.CORBA.Object) public void
+     * org.omg.CORBA.ORB.connect(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#poll_next_response()
+     * @see org.omg.CORBA.ORB#connect(org.omg.CORBA.Object) public void org.omg.CORBA.ORB.connect(org.omg.CORBA.Object)
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_poll_next_response()
+    public default void test_connect_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1037,21 +221,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#resolve_initial_references(java.lang.String) public abstract
-     * org.omg.CORBA.Object org.omg.CORBA.ORB.resolve_initial_references(java.lang.String) throws
-     * org.omg.CORBA.ORBPackage.InvalidName}.
+     * Test method for {@link org.omg.CORBA.ORB#create_basic_dyn_any(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynAny
+     * org.omg.CORBA.ORB.create_basic_dyn_any(org.omg.CORBA.TypeCode) throws
+     * org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_basic_dyn_any(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynAny
+     * org.omg.CORBA.ORB.create_basic_dyn_any(org.omg.CORBA.TypeCode) throws
+     * org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#resolve_initial_references(java.lang.String)
+     * @see org.omg.CORBA.ORB#create_basic_dyn_any(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynAny
+     *      org.omg.CORBA.ORB.create_basic_dyn_any(org.omg.CORBA.TypeCode) throws
+     *      org.omg.CORBA.ORBPackage.InconsistentTypeCode (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resolve_initial_references_String()
+    public default void test_create_basic_dyn_any_TypeCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1060,19 +251,84 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#run() public void org.omg.CORBA.ORB.run()}.
+     * Test method for {@link org.omg.CORBA.ORB#create_exception_list() public abstract org.omg.CORBA.ExceptionList
+     * org.omg.CORBA.ORB.create_exception_list()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_exception_list() public abstract org.omg.CORBA.ExceptionList
+     * org.omg.CORBA.ORB.create_exception_list()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#run()
+     * @see org.omg.CORBA.ORB#create_exception_list() public abstract org.omg.CORBA.ExceptionList
+     *      org.omg.CORBA.ORB.create_exception_list() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_run()
+    public default void test_create_exception_list()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_enum_tc(String, String, String[]) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_enum_tc(java.lang.String,java.lang.String,java.lang.String[])}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_enum_tc(String, String, String[]) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_enum_tc(java.lang.String,java.lang.String,java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_enum_tc(String, String, String[]) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_enum_tc(java.lang.String,java.lang.String,java.lang.String[]) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_enum_tc_String_String_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_struct_tc(String, String, org.omg.CORBA.StructMember[]) public
+     * abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_struct_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[])}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_struct_tc(String, String, org.omg.CORBA.StructMember[]) public
+     * abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_struct_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_struct_tc(String, String, org.omg.CORBA.StructMember[]) public abstract
+     *      org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_struct_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[]) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_struct_tc_String_String_StructMemberArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1084,12 +340,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link org.omg.CORBA.ORB#send_multiple_requests_deferred(org.omg.CORBA.Request[]) public abstract
      * void org.omg.CORBA.ORB.send_multiple_requests_deferred(org.omg.CORBA.Request[])}.
      *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#send_multiple_requests_deferred(org.omg.CORBA.Request[]) public abstract
+     * void org.omg.CORBA.ORB.send_multiple_requests_deferred(org.omg.CORBA.Request[])}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#send_multiple_requests_deferred(org.omg.CORBA.Request[])
+     * @see org.omg.CORBA.ORB#send_multiple_requests_deferred(org.omg.CORBA.Request[]) public abstract void
+     *      org.omg.CORBA.ORB.send_multiple_requests_deferred(org.omg.CORBA.Request[]) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1103,20 +365,26 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#send_multiple_requests_oneway(org.omg.CORBA.Request[]) public abstract
-     * void org.omg.CORBA.ORB.send_multiple_requests_oneway(org.omg.CORBA.Request[])}.
+     * Test method for {@link org.omg.CORBA.ORB#create_abstract_interface_tc(String, String) public
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_abstract_interface_tc(java.lang.String,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_abstract_interface_tc(String, String) public
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_abstract_interface_tc(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#send_multiple_requests_oneway(org.omg.CORBA.Request[])
+     * @see org.omg.CORBA.ORB#create_abstract_interface_tc(String, String) public org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_abstract_interface_tc(java.lang.String,java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_send_multiple_requests_oneway_RequestArray()
+    public default void test_create_abstract_interface_tc_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1125,19 +393,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#shutdown(boolean) public void org.omg.CORBA.ORB.shutdown(boolean)}.
+     * Test method for {@link org.omg.CORBA.ORB#create_exception_tc(String, String, org.omg.CORBA.StructMember[]) public
+     * abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_exception_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[])}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_exception_tc(String, String, org.omg.CORBA.StructMember[]) public
+     * abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_exception_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#shutdown(boolean)
+     * @see org.omg.CORBA.ORB#create_exception_tc(String, String, org.omg.CORBA.StructMember[]) public abstract
+     *      org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_exception_tc(java.lang.String,java.lang.String,org.omg.CORBA.StructMember[]) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_shutdown_boolean()
+    public default void test_create_exception_tc_String_String_StructMemberArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1146,7 +424,127 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ORB#string_to_object(java.lang.String) public abstract org.omg.CORBA.Object
+     * Test method for {@link org.omg.CORBA.ORB#create_recursive_sequence_tc(int, int) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_recursive_sequence_tc(int,int)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_recursive_sequence_tc(int, int) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_recursive_sequence_tc(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_recursive_sequence_tc(int, int) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_recursive_sequence_tc(int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_recursive_sequence_tc_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.ORB#create_value_tc(String, String, short, org.omg.CORBA.TypeCode, org.omg.CORBA.ValueMember[])
+     * public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_value_tc(java.lang.String,java.lang.String,short,org.omg.CORBA.TypeCode,org.omg.CORBA.ValueMember[])}
+     * .
+     *
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.ORB#create_value_tc(String, String, short, org.omg.CORBA.TypeCode, org.omg.CORBA.ValueMember[])
+     * public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_value_tc(java.lang.String,java.lang.String,short,org.omg.CORBA.TypeCode,org.omg.CORBA.ValueMember[])}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_value_tc(String, String, short, org.omg.CORBA.TypeCode,
+     *      org.omg.CORBA.ValueMember[]) public org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_value_tc(java.lang.String,java.lang.String,short,org.omg.CORBA.TypeCode,org.omg.
+     *      CORBA.ValueMember[]) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_value_tc_String_String_short_TypeCode_ValueMemberArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_default_context() public abstract org.omg.CORBA.Context
+     * org.omg.CORBA.ORB.get_default_context()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_default_context() public abstract org.omg.CORBA.Context
+     * org.omg.CORBA.ORB.get_default_context()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#get_default_context() public abstract org.omg.CORBA.Context
+     *      org.omg.CORBA.ORB.get_default_context() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_default_context()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_array_tc(int, org.omg.CORBA.TypeCode) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_array_tc(int,org.omg.CORBA.TypeCode)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_array_tc(int, org.omg.CORBA.TypeCode) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_array_tc(int,org.omg.CORBA.TypeCode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_array_tc(int, org.omg.CORBA.TypeCode) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_array_tc(int,org.omg.CORBA.TypeCode) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_array_tc_int_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#string_to_object(String) public abstract org.omg.CORBA.Object
+     * org.omg.CORBA.ORB.string_to_object(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#string_to_object(String) public abstract org.omg.CORBA.Object
      * org.omg.CORBA.ORB.string_to_object(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1154,7 +552,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#string_to_object(java.lang.String)
+     * @see org.omg.CORBA.ORB#string_to_object(String) public abstract org.omg.CORBA.Object
+     *      org.omg.CORBA.ORB.string_to_object(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1168,6 +567,316 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_next_response() public abstract org.omg.CORBA.Request
+     * org.omg.CORBA.ORB.get_next_response() throws org.omg.CORBA.WrongTransaction}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_next_response() public abstract org.omg.CORBA.Request
+     * org.omg.CORBA.ORB.get_next_response() throws org.omg.CORBA.WrongTransaction}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#get_next_response() public abstract org.omg.CORBA.Request
+     *      org.omg.CORBA.ORB.get_next_response() throws org.omg.CORBA.WrongTransaction (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_next_response()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_service_information(short, org.omg.CORBA.ServiceInformationHolder)
+     * public boolean org.omg.CORBA.ORB.get_service_information(short,org.omg.CORBA.ServiceInformationHolder)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_service_information(short, org.omg.CORBA.ServiceInformationHolder)
+     * public boolean org.omg.CORBA.ORB.get_service_information(short,org.omg.CORBA.ServiceInformationHolder)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#get_service_information(short, org.omg.CORBA.ServiceInformationHolder) public boolean
+     *      org.omg.CORBA.ORB.get_service_information(short,org.omg.CORBA.ServiceInformationHolder) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_service_information_short_ServiceInformationHolder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_alias_tc(String, String, org.omg.CORBA.TypeCode) public abstract
+     * org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_alias_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_alias_tc(String, String, org.omg.CORBA.TypeCode) public abstract
+     * org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_alias_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_alias_tc(String, String, org.omg.CORBA.TypeCode) public abstract
+     *      org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_alias_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_alias_tc_String_String_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_environment() public abstract org.omg.CORBA.Environment
+     * org.omg.CORBA.ORB.create_environment()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_environment() public abstract org.omg.CORBA.Environment
+     * org.omg.CORBA.ORB.create_environment()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_environment() public abstract org.omg.CORBA.Environment
+     *      org.omg.CORBA.ORB.create_environment() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_environment()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_enum(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynEnum
+     * org.omg.CORBA.ORB.create_dyn_enum(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_enum(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynEnum
+     * org.omg.CORBA.ORB.create_dyn_enum(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_dyn_enum(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynEnum
+     *      org.omg.CORBA.ORB.create_dyn_enum(org.omg.CORBA.TypeCode) throws
+     *      org.omg.CORBA.ORBPackage.InconsistentTypeCode (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_dyn_enum_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_array(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynArray
+     * org.omg.CORBA.ORB.create_dyn_array(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_array(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynArray
+     * org.omg.CORBA.ORB.create_dyn_array(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_dyn_array(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynArray
+     *      org.omg.CORBA.ORB.create_dyn_array(org.omg.CORBA.TypeCode) throws
+     *      org.omg.CORBA.ORBPackage.InconsistentTypeCode (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_dyn_array_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_union(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynUnion
+     * org.omg.CORBA.ORB.create_dyn_union(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_union(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynUnion
+     * org.omg.CORBA.ORB.create_dyn_union(org.omg.CORBA.TypeCode) throws org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_dyn_union(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynUnion
+     *      org.omg.CORBA.ORB.create_dyn_union(org.omg.CORBA.TypeCode) throws
+     *      org.omg.CORBA.ORBPackage.InconsistentTypeCode (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_dyn_union_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_list(int) public abstract org.omg.CORBA.NVList
+     * org.omg.CORBA.ORB.create_list(int)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_list(int) public abstract org.omg.CORBA.NVList
+     * org.omg.CORBA.ORB.create_list(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_list(int) public abstract org.omg.CORBA.NVList org.omg.CORBA.ORB.create_list(int)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_list_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#object_to_string(org.omg.CORBA.Object) public abstract java.lang.String
+     * org.omg.CORBA.ORB.object_to_string(org.omg.CORBA.Object)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#object_to_string(org.omg.CORBA.Object) public abstract java.lang.String
+     * org.omg.CORBA.ORB.object_to_string(org.omg.CORBA.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#object_to_string(org.omg.CORBA.Object) public abstract java.lang.String
+     *      org.omg.CORBA.ORB.object_to_string(org.omg.CORBA.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_object_to_string_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#disconnect(org.omg.CORBA.Object) public void
+     * org.omg.CORBA.ORB.disconnect(org.omg.CORBA.Object)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#disconnect(org.omg.CORBA.Object) public void
+     * org.omg.CORBA.ORB.disconnect(org.omg.CORBA.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#disconnect(org.omg.CORBA.Object) public void
+     *      org.omg.CORBA.ORB.disconnect(org.omg.CORBA.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_disconnect_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#resolve_initial_references(String) public abstract org.omg.CORBA.Object
+     * org.omg.CORBA.ORB.resolve_initial_references(java.lang.String) throws org.omg.CORBA.ORBPackage.InvalidName}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#resolve_initial_references(String) public abstract org.omg.CORBA.Object
+     * org.omg.CORBA.ORB.resolve_initial_references(java.lang.String) throws org.omg.CORBA.ORBPackage.InvalidName}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#resolve_initial_references(String) public abstract org.omg.CORBA.Object
+     *      org.omg.CORBA.ORB.resolve_initial_references(java.lang.String) throws org.omg.CORBA.ORBPackage.InvalidName
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resolve_initial_references_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#work_pending() public boolean org.omg.CORBA.ORB.work_pending()}.
+     *
+     * <p>
      * Test method for {@link org.omg.CORBA.ORB#work_pending() public boolean org.omg.CORBA.ORB.work_pending()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1175,12 +884,587 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.CORBA.ORB#work_pending()
+     * @see org.omg.CORBA.ORB#work_pending() public boolean org.omg.CORBA.ORB.work_pending() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_work_pending()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_wstring_tc(int) public abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_wstring_tc(int)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_wstring_tc(int) public abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_wstring_tc(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_wstring_tc(int) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_wstring_tc(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_wstring_tc_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_value_box_tc(String, String, org.omg.CORBA.TypeCode) public
+     * org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_value_box_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_value_box_tc(String, String, org.omg.CORBA.TypeCode) public
+     * org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_value_box_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_value_box_tc(String, String, org.omg.CORBA.TypeCode) public org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_value_box_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_value_box_tc_String_String_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_any() public abstract org.omg.CORBA.Any
+     * org.omg.CORBA.ORB.create_any()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_any() public abstract org.omg.CORBA.Any
+     * org.omg.CORBA.ORB.create_any()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_any() public abstract org.omg.CORBA.Any org.omg.CORBA.ORB.create_any() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_any()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#run() public void org.omg.CORBA.ORB.run()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#run() public void org.omg.CORBA.ORB.run()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#run() public void org.omg.CORBA.ORB.run() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_run()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_named_value(String, org.omg.CORBA.Any, int) public abstract
+     * org.omg.CORBA.NamedValue org.omg.CORBA.ORB.create_named_value(java.lang.String,org.omg.CORBA.Any,int)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_named_value(String, org.omg.CORBA.Any, int) public abstract
+     * org.omg.CORBA.NamedValue org.omg.CORBA.ORB.create_named_value(java.lang.String,org.omg.CORBA.Any,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_named_value(String, org.omg.CORBA.Any, int) public abstract
+     *      org.omg.CORBA.NamedValue org.omg.CORBA.ORB.create_named_value(java.lang.String,org.omg.CORBA.Any,int) (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_named_value_String_Any_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.ORB#create_union_tc(String, String, org.omg.CORBA.TypeCode, org.omg.CORBA.UnionMember[])
+     * public abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_union_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.UnionMember[])}
+     * .
+     *
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.ORB#create_union_tc(String, String, org.omg.CORBA.TypeCode, org.omg.CORBA.UnionMember[])
+     * public abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_union_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.UnionMember[])}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_union_tc(String, String, org.omg.CORBA.TypeCode, org.omg.CORBA.UnionMember[])
+     *      public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_union_tc(java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.
+     *      UnionMember[]) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_union_tc_String_String_TypeCode_UnionMemberArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_native_tc(String, String) public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_native_tc(java.lang.String,java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_native_tc(String, String) public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_native_tc(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_native_tc(String, String) public org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_native_tc(java.lang.String,java.lang.String) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_native_tc_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_any(org.omg.CORBA.Any) public org.omg.CORBA.DynAny
+     * org.omg.CORBA.ORB.create_dyn_any(org.omg.CORBA.Any)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_any(org.omg.CORBA.Any) public org.omg.CORBA.DynAny
+     * org.omg.CORBA.ORB.create_dyn_any(org.omg.CORBA.Any)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_dyn_any(org.omg.CORBA.Any) public org.omg.CORBA.DynAny
+     *      org.omg.CORBA.ORB.create_dyn_any(org.omg.CORBA.Any) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_dyn_any_Any()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_fixed_tc(short, short) public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_fixed_tc(short,short)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_fixed_tc(short, short) public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_fixed_tc(short,short)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_fixed_tc(short, short) public org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_fixed_tc(short,short) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_fixed_tc_short_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_sequence_tc(int, org.omg.CORBA.TypeCode) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_sequence_tc(int,org.omg.CORBA.TypeCode)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_sequence_tc(int, org.omg.CORBA.TypeCode) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_sequence_tc(int,org.omg.CORBA.TypeCode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_sequence_tc(int, org.omg.CORBA.TypeCode) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_sequence_tc(int,org.omg.CORBA.TypeCode) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_sequence_tc_int_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_sequence(org.omg.CORBA.TypeCode) public
+     * org.omg.CORBA.DynSequence org.omg.CORBA.ORB.create_dyn_sequence(org.omg.CORBA.TypeCode) throws
+     * org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_dyn_sequence(org.omg.CORBA.TypeCode) public
+     * org.omg.CORBA.DynSequence org.omg.CORBA.ORB.create_dyn_sequence(org.omg.CORBA.TypeCode) throws
+     * org.omg.CORBA.ORBPackage.InconsistentTypeCode}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_dyn_sequence(org.omg.CORBA.TypeCode) public org.omg.CORBA.DynSequence
+     *      org.omg.CORBA.ORB.create_dyn_sequence(org.omg.CORBA.TypeCode) throws
+     *      org.omg.CORBA.ORBPackage.InconsistentTypeCode (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_dyn_sequence_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#shutdown(boolean) public void org.omg.CORBA.ORB.shutdown(boolean)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#shutdown(boolean) public void org.omg.CORBA.ORB.shutdown(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#shutdown(boolean) public void org.omg.CORBA.ORB.shutdown(boolean) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_shutdown_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_recursive_tc(String) public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_recursive_tc(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_recursive_tc(String) public org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_recursive_tc(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_recursive_tc(String) public org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_recursive_tc(java.lang.String) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_recursive_tc_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_operation_list(org.omg.CORBA.Object) public org.omg.CORBA.NVList
+     * org.omg.CORBA.ORB.create_operation_list(org.omg.CORBA.Object)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_operation_list(org.omg.CORBA.Object) public org.omg.CORBA.NVList
+     * org.omg.CORBA.ORB.create_operation_list(org.omg.CORBA.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_operation_list(org.omg.CORBA.Object) public org.omg.CORBA.NVList
+     *      org.omg.CORBA.ORB.create_operation_list(org.omg.CORBA.Object) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_operation_list_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#destroy() public void org.omg.CORBA.ORB.destroy()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#destroy() public void org.omg.CORBA.ORB.destroy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#destroy() public void org.omg.CORBA.ORB.destroy() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_destroy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#perform_work() public void org.omg.CORBA.ORB.perform_work()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#perform_work() public void org.omg.CORBA.ORB.perform_work()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#perform_work() public void org.omg.CORBA.ORB.perform_work() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_perform_work()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_current() public org.omg.CORBA.Current
+     * org.omg.CORBA.ORB.get_current()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_current() public org.omg.CORBA.Current
+     * org.omg.CORBA.ORB.get_current()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#get_current() public org.omg.CORBA.Current org.omg.CORBA.ORB.get_current() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_current()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_primitive_tc(org.omg.CORBA.TCKind) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.get_primitive_tc(org.omg.CORBA.TCKind)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#get_primitive_tc(org.omg.CORBA.TCKind) public abstract
+     * org.omg.CORBA.TypeCode org.omg.CORBA.ORB.get_primitive_tc(org.omg.CORBA.TCKind)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#get_primitive_tc(org.omg.CORBA.TCKind) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.get_primitive_tc(org.omg.CORBA.TCKind) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_primitive_tc_TCKind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_string_tc(int) public abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_string_tc(int)}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_string_tc(int) public abstract org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ORB.create_string_tc(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_string_tc(int) public abstract org.omg.CORBA.TypeCode
+     *      org.omg.CORBA.ORB.create_string_tc(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_string_tc_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#send_multiple_requests_oneway(org.omg.CORBA.Request[]) public abstract
+     * void org.omg.CORBA.ORB.send_multiple_requests_oneway(org.omg.CORBA.Request[])}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#send_multiple_requests_oneway(org.omg.CORBA.Request[]) public abstract
+     * void org.omg.CORBA.ORB.send_multiple_requests_oneway(org.omg.CORBA.Request[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#send_multiple_requests_oneway(org.omg.CORBA.Request[]) public abstract void
+     *      org.omg.CORBA.ORB.send_multiple_requests_oneway(org.omg.CORBA.Request[]) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_send_multiple_requests_oneway_RequestArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_context_list() public abstract org.omg.CORBA.ContextList
+     * org.omg.CORBA.ORB.create_context_list()}.
+     *
+     * <p>
+     * Test method for {@link org.omg.CORBA.ORB#create_context_list() public abstract org.omg.CORBA.ContextList
+     * org.omg.CORBA.ORB.create_context_list()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see org.omg.CORBA.ORB#create_context_list() public abstract org.omg.CORBA.ContextList
+     *      org.omg.CORBA.ORB.create_context_list() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_context_list()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

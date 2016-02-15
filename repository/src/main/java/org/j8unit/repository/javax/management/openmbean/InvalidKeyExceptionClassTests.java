@@ -1,39 +1,52 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.openmbean.InvalidKeyException class
- * javax.management.openmbean.InvalidKeyException}, containing all class relevant test methods (at least the test
- * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
- * containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.management.openmbean.InvalidKeyExceptionTests}.
+ * Reusable j8unit test interface for {@linkplain javax.management.openmbean.InvalidKeyException class
+ * javax.management.openmbean.InvalidKeyException}, containing all type relevant aspects (e.&thinsp;g., runtime
+ * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test interface's
+ * generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link InvalidKeyExceptionTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.openmbean.InvalidKeyExceptionTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidKeyExceptionTests}.
+ * </p>
+ *
+ * @see javax.management.openmbean.InvalidKeyException class javax.management.openmbean.InvalidKeyException (the hereby
+ *      targeted class-under-test class)
+ * @see InvalidKeyExceptionTests InvalidKeyExceptionTests (The complementary j8unit test interface containing the
+ *      instance relevant test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.openmbean.InvalidKeyException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -41,62 +54,20 @@ public abstract interface InvalidKeyExceptionClassTests<SUT extends javax.manage
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> {
 
     /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.InvalidKeyException#InvalidKeyException() public
-     * javax.management.openmbean.InvalidKeyException()}.
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.openmbean.InvalidKeyException#InvalidKeyException()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidKeyException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.InvalidKeyException sut = null; // = new InvalidKeyException();
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.InvalidKeyException#InvalidKeyException(java.lang.String)
-     * public javax.management.openmbean.InvalidKeyException(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.openmbean.InvalidKeyException#InvalidKeyException(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidKeyException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.InvalidKeyException sut = null; // = new InvalidKeyException(java.lang.String);
-    }
-
-    /**
      * @since 0.9.2
-     *
-     * @j8unit.aim javax.management.openmbean.InvalidKeyException#isAssignableFrom(java.lang.Class)
      */
     @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @BeforeClass
+    public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue(javax.management.openmbean.InvalidKeyException.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.management.openmbean.InvalidKeyException.class!",
+                   javax.management.openmbean.InvalidKeyException.class.isAssignableFrom(sut));
     }
 
 }

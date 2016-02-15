@@ -1,361 +1,70 @@
 package org.j8unit.repository.java.awt;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.Color class java.awt.Color}, containing all class relevant
- * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
- * counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.java.awt.ColorTests}.
+ * Reusable j8unit test interface for {@linkplain java.awt.Color class java.awt.Color}, containing all type relevant
+ * aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
+ * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link ColorTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.ColorTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ColorTests}.
+ * </p>
+ *
+ * @see java.awt.Color class java.awt.Color (the hereby targeted class-under-test class)
+ * @see ColorTests ColorTests (The complementary j8unit test interface containing the instance relevant test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.Color
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ColorClassTests<SUT extends java.awt.Color>
-extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends PaintClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(java.awt.color.ColorSpace, float[], float) public
-     * java.awt.Color(java.awt.color.ColorSpace,float[],float)}.
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(java.awt.color.ColorSpace, float[], float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_ColorSpace_floatArray_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(java.awt.color.ColorSpace, float[], float);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(float, float, float) public java.awt.Color(float,float,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(float, float, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_float_float_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(float, float, float);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(float, float, float, float) public
-     * java.awt.Color(float,float,float,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(float, float, float, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_float_float_float_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(float, float, float, float);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(int) public java.awt.Color(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(int);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(int, boolean) public java.awt.Color(int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(int, boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(int, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(int, int, int) public java.awt.Color(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(int, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#Color(int, int, int, int) public java.awt.Color(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#Color(int, int, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_int_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(int, int, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#decode(java.lang.String) public static java.awt.Color
-     * java.awt.Color.decode(java.lang.String) throws java.lang.NumberFormatException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#decode(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decode_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getColor(java.lang.String) public static java.awt.Color
-     * java.awt.Color.getColor(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#getColor(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColor_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getColor(java.lang.String, java.awt.Color) public static java.awt.Color
-     * java.awt.Color.getColor(java.lang.String,java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#getColor(java.lang.String, java.awt.Color)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColor_String_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getColor(java.lang.String, int) public static java.awt.Color
-     * java.awt.Color.getColor(java.lang.String,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#getColor(java.lang.String, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColor_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getHSBColor(float, float, float) public static java.awt.Color
-     * java.awt.Color.getHSBColor(float,float,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#getHSBColor(float, float, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHSBColor_float_float_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#HSBtoRGB(float, float, float) public static int
-     * java.awt.Color.HSBtoRGB(float,float,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#HSBtoRGB(float, float, float)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_HSBtoRGB_float_float_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#RGBtoHSB(int, int, int, float[]) public static float[]
-     * java.awt.Color.RGBtoHSB(int,int,int,float[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.Color#RGBtoHSB(int, int, int, float[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_RGBtoHSB_int_int_int_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final Class<SUT> sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * @since 0.9.2
-     *
-     * @j8unit.aim java.awt.Color#isAssignableFrom(java.lang.Class)
      */
     @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @BeforeClass
+    public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue(java.awt.Color.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to java.awt.Color.class!",
+                   java.awt.Color.class.isAssignableFrom(sut));
     }
 
 }

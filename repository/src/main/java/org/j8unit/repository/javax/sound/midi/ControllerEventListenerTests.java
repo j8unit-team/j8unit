@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.midi.ControllerEventListener interface
- * javax.sound.midi.ControllerEventListener}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sound.midi.ControllerEventListenerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sound.midi.ControllerEventListener interface
+ * javax.sound.midi.ControllerEventListener}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ControllerEventListenerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.midi.ControllerEventListenerClassTests
+ * @see javax.sound.midi.ControllerEventListener interface javax.sound.midi.ControllerEventListener (the hereby targeted
+ *      class-under-test class)
+ * @see ControllerEventListenerClassTests ControllerEventListenerClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.midi.ControllerEventListener
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,18 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for {@link javax.sound.midi.ControllerEventListener#controlChange(javax.sound.midi.ShortMessage)
      * public abstract void javax.sound.midi.ControllerEventListener.controlChange(javax.sound.midi.ShortMessage)}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.ControllerEventListener#controlChange(javax.sound.midi.ShortMessage)
+     * public abstract void javax.sound.midi.ControllerEventListener.controlChange(javax.sound.midi.ShortMessage)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.ControllerEventListener#controlChange(javax.sound.midi.ShortMessage)
+     * @see javax.sound.midi.ControllerEventListener#controlChange(javax.sound.midi.ShortMessage) public abstract void
+     *      javax.sound.midi.ControllerEventListener.controlChange(javax.sound.midi.ShortMessage) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

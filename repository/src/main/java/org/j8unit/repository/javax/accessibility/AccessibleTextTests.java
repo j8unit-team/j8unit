@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.accessibility.AccessibleText interface
- * javax.accessibility.AccessibleText}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleTextTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleText interface
+ * javax.accessibility.AccessibleText}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link AccessibleTextClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.accessibility.AccessibleTextClassTests
+ * @see javax.accessibility.AccessibleText interface javax.accessibility.AccessibleText (the hereby targeted
+ *      class-under-test class)
+ * @see AccessibleTextClassTests AccessibleTextClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.accessibility.AccessibleText
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleText#getAfterIndex(int, int) public abstract
      * java.lang.String javax.accessibility.AccessibleText.getAfterIndex(int,int)}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getAfterIndex(int, int) public abstract
+     * java.lang.String javax.accessibility.AccessibleText.getAfterIndex(int,int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleText#getAfterIndex(int, int)
+     * @see javax.accessibility.AccessibleText#getAfterIndex(int, int) public abstract java.lang.String
+     *      javax.accessibility.AccessibleText.getAfterIndex(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,93 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleText#getAtIndex(int, int) public abstract java.lang.String
-     * javax.accessibility.AccessibleText.getAtIndex(int,int)}.
+     * Test method for {@link javax.accessibility.AccessibleText#getCharacterBounds(int) public abstract
+     * java.awt.Rectangle javax.accessibility.AccessibleText.getCharacterBounds(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleText#getAtIndex(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAtIndex_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleText#getBeforeIndex(int, int) public abstract
-     * java.lang.String javax.accessibility.AccessibleText.getBeforeIndex(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleText#getBeforeIndex(int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBeforeIndex_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleText#getCaretPosition() public abstract int
-     * javax.accessibility.AccessibleText.getCaretPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleText#getCaretPosition()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCaretPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleText#getCharacterAttribute(int) public abstract
-     * javax.swing.text.AttributeSet javax.accessibility.AccessibleText.getCharacterAttribute(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleText#getCharacterAttribute(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterAttribute_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.accessibility.AccessibleText#getCharacterBounds(int) public abstract
      * java.awt.Rectangle javax.accessibility.AccessibleText.getCharacterBounds(int)}.
@@ -148,7 +70,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleText#getCharacterBounds(int)
+     * @see javax.accessibility.AccessibleText#getCharacterBounds(int) public abstract java.awt.Rectangle
+     *      javax.accessibility.AccessibleText.getCharacterBounds(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,20 +85,79 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleText#getCharCount() public abstract int
-     * javax.accessibility.AccessibleText.getCharCount()}.
+     * Test method for {@link javax.accessibility.AccessibleText#getAtIndex(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleText.getAtIndex(int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getAtIndex(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleText.getAtIndex(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleText#getCharCount()
+     * @see javax.accessibility.AccessibleText#getAtIndex(int, int) public abstract java.lang.String
+     *      javax.accessibility.AccessibleText.getAtIndex(int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCharCount()
+    public default void test_getAtIndex_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getCaretPosition() public abstract int
+     * javax.accessibility.AccessibleText.getCaretPosition()}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getCaretPosition() public abstract int
+     * javax.accessibility.AccessibleText.getCaretPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleText#getCaretPosition() public abstract int
+     *      javax.accessibility.AccessibleText.getCaretPosition() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCaretPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getSelectionEnd() public abstract int
+     * javax.accessibility.AccessibleText.getSelectionEnd()}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getSelectionEnd() public abstract int
+     * javax.accessibility.AccessibleText.getSelectionEnd()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleText#getSelectionEnd() public abstract int
+     *      javax.accessibility.AccessibleText.getSelectionEnd() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionEnd()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -187,12 +169,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleText#getIndexAtPoint(java.awt.Point) public abstract int
      * javax.accessibility.AccessibleText.getIndexAtPoint(java.awt.Point)}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getIndexAtPoint(java.awt.Point) public abstract int
+     * javax.accessibility.AccessibleText.getIndexAtPoint(java.awt.Point)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleText#getIndexAtPoint(java.awt.Point)
+     * @see javax.accessibility.AccessibleText#getIndexAtPoint(java.awt.Point) public abstract int
+     *      javax.accessibility.AccessibleText.getIndexAtPoint(java.awt.Point) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,12 +196,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleText#getSelectedText() public abstract java.lang.String
      * javax.accessibility.AccessibleText.getSelectedText()}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getSelectedText() public abstract java.lang.String
+     * javax.accessibility.AccessibleText.getSelectedText()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleText#getSelectedText()
+     * @see javax.accessibility.AccessibleText#getSelectedText() public abstract java.lang.String
+     *      javax.accessibility.AccessibleText.getSelectedText() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -228,27 +220,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleText#getSelectionEnd() public abstract int
-     * javax.accessibility.AccessibleText.getSelectionEnd()}.
+     * Test method for {@link javax.accessibility.AccessibleText#getSelectionStart() public abstract int
+     * javax.accessibility.AccessibleText.getSelectionStart()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.accessibility.AccessibleText#getSelectionEnd()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionEnd()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.accessibility.AccessibleText#getSelectionStart() public abstract int
      * javax.accessibility.AccessibleText.getSelectionStart()}.
@@ -258,12 +232,94 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleText#getSelectionStart()
+     * @see javax.accessibility.AccessibleText#getSelectionStart() public abstract int
+     *      javax.accessibility.AccessibleText.getSelectionStart() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getSelectionStart()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getBeforeIndex(int, int) public abstract
+     * java.lang.String javax.accessibility.AccessibleText.getBeforeIndex(int,int)}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getBeforeIndex(int, int) public abstract
+     * java.lang.String javax.accessibility.AccessibleText.getBeforeIndex(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleText#getBeforeIndex(int, int) public abstract java.lang.String
+     *      javax.accessibility.AccessibleText.getBeforeIndex(int,int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBeforeIndex_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getCharacterAttribute(int) public abstract
+     * javax.swing.text.AttributeSet javax.accessibility.AccessibleText.getCharacterAttribute(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getCharacterAttribute(int) public abstract
+     * javax.swing.text.AttributeSet javax.accessibility.AccessibleText.getCharacterAttribute(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleText#getCharacterAttribute(int) public abstract javax.swing.text.AttributeSet
+     *      javax.accessibility.AccessibleText.getCharacterAttribute(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterAttribute_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getCharCount() public abstract int
+     * javax.accessibility.AccessibleText.getCharCount()}.
+     *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleText#getCharCount() public abstract int
+     * javax.accessibility.AccessibleText.getCharCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.accessibility.AccessibleText#getCharCount() public abstract int
+     *      javax.accessibility.AccessibleText.getCharCount() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.management.MemoryManagerMXBean interface
- * java.lang.management.MemoryManagerMXBean}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.management.MemoryManagerMXBeanTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.management.MemoryManagerMXBean interface
+ * java.lang.management.MemoryManagerMXBean}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link MemoryManagerMXBeanClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.management.MemoryManagerMXBeanClassTests
+ * @see java.lang.management.MemoryManagerMXBean interface java.lang.management.MemoryManagerMXBean (the hereby targeted
+ *      class-under-test class)
+ * @see MemoryManagerMXBeanClassTests MemoryManagerMXBeanClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.management.MemoryManagerMXBean
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryManagerMXBeanTests<SUT extends java.lang.management.MemoryManagerMXBean>
-extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SUT> {
+extends PlatformManagedObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.lang.management.MemoryManagerMXBean#getMemoryPoolNames() public abstract
+     * java.lang.String[] java.lang.management.MemoryManagerMXBean.getMemoryPoolNames()}.
+     *
      * <p>
      * Test method for {@link java.lang.management.MemoryManagerMXBean#getMemoryPoolNames() public abstract
      * java.lang.String[] java.lang.management.MemoryManagerMXBean.getMemoryPoolNames()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.management.MemoryManagerMXBean#getMemoryPoolNames()
+     * @see java.lang.management.MemoryManagerMXBean#getMemoryPoolNames() public abstract java.lang.String[]
+     *      java.lang.management.MemoryManagerMXBean.getMemoryPoolNames() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +60,17 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * Test method for {@link java.lang.management.MemoryManagerMXBean#getName() public abstract java.lang.String
      * java.lang.management.MemoryManagerMXBean.getName()}.
      *
+     * <p>
+     * Test method for {@link java.lang.management.MemoryManagerMXBean#getName() public abstract java.lang.String
+     * java.lang.management.MemoryManagerMXBean.getName()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.management.MemoryManagerMXBean#getName()
+     * @see java.lang.management.MemoryManagerMXBean#getName() public abstract java.lang.String
+     *      java.lang.management.MemoryManagerMXBean.getName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +87,17 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
      * Test method for {@link java.lang.management.MemoryManagerMXBean#isValid() public abstract boolean
      * java.lang.management.MemoryManagerMXBean.isValid()}.
      *
+     * <p>
+     * Test method for {@link java.lang.management.MemoryManagerMXBean#isValid() public abstract boolean
+     * java.lang.management.MemoryManagerMXBean.isValid()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.management.MemoryManagerMXBean#isValid()
+     * @see java.lang.management.MemoryManagerMXBean#isValid() public abstract boolean
+     *      java.lang.management.MemoryManagerMXBean.isValid() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

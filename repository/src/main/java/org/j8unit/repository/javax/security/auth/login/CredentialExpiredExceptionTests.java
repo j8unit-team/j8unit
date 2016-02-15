@@ -5,23 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.auth.login.CredentialExpiredException class
- * javax.security.auth.login.CredentialExpiredException}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.security.auth.login.CredentialExpiredExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.auth.login.CredentialExpiredException class
+ * javax.security.auth.login.CredentialExpiredException}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link CredentialExpiredExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.auth.login.CredentialExpiredExceptionClassTests
+ * @see javax.security.auth.login.CredentialExpiredException class javax.security.auth.login.CredentialExpiredException
+ *      (the hereby targeted class-under-test class)
+ * @see CredentialExpiredExceptionClassTests CredentialExpiredExceptionClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.auth.login.CredentialExpiredException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CredentialExpiredExceptionTests<SUT extends javax.security.auth.login.CredentialExpiredException>
-extends org.j8unit.repository.javax.security.auth.login.CredentialExceptionTests<SUT> {
+extends CredentialExceptionTests<SUT> {
 
 }

@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.ToDoubleFunction interface
- * java.util.function.ToDoubleFunction}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.ToDoubleFunctionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.ToDoubleFunction interface
+ * java.util.function.ToDoubleFunction}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link ToDoubleFunctionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.ToDoubleFunctionClassTests
+ * @see java.util.function.ToDoubleFunction interface java.util.function.ToDoubleFunction (the hereby targeted
+ *      class-under-test class)
+ * @see ToDoubleFunctionClassTests ToDoubleFunctionClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.ToDoubleFunction
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,7 +31,11 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.ToDoubleFunction#applyAsDouble(java.lang.Object) public abstract double
+     * Test method for {@link java.util.function.ToDoubleFunction#applyAsDouble(Object) public abstract double
+     * java.util.function.ToDoubleFunction.applyAsDouble(T)}.
+     *
+     * <p>
+     * Test method for {@link java.util.function.ToDoubleFunction#applyAsDouble(Object) public abstract double
      * java.util.function.ToDoubleFunction.applyAsDouble(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +43,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.ToDoubleFunction#applyAsDouble(java.lang.Object)
+     * @see java.util.function.ToDoubleFunction#applyAsDouble(Object) public abstract double
+     *      java.util.function.ToDoubleFunction.applyAsDouble(java.lang.Object) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.synth.SynthContext class
- * javax.swing.plaf.synth.SynthContext}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthContextTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.synth.SynthContext class
+ * javax.swing.plaf.synth.SynthContext}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link SynthContextClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.synth.SynthContextClassTests
+ * @see javax.swing.plaf.synth.SynthContext class javax.swing.plaf.synth.SynthContext (the hereby targeted
+ *      class-under-test class)
+ * @see SynthContextClassTests SynthContextClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.synth.SynthContext
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.synth.SynthContext#getComponent() public javax.swing.JComponent
      * javax.swing.plaf.synth.SynthContext.getComponent()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthContext#getComponent() public javax.swing.JComponent
+     * javax.swing.plaf.synth.SynthContext.getComponent()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.synth.SynthContext#getComponent()
+     * @see javax.swing.plaf.synth.SynthContext#getComponent() public javax.swing.JComponent
+     *      javax.swing.plaf.synth.SynthContext.getComponent() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +60,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.synth.SynthContext#getComponentState() public int
      * javax.swing.plaf.synth.SynthContext.getComponentState()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthContext#getComponentState() public int
+     * javax.swing.plaf.synth.SynthContext.getComponentState()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.synth.SynthContext#getComponentState()
+     * @see javax.swing.plaf.synth.SynthContext#getComponentState() public int
+     *      javax.swing.plaf.synth.SynthContext.getComponentState() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +87,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.synth.SynthContext#getRegion() public javax.swing.plaf.synth.Region
      * javax.swing.plaf.synth.SynthContext.getRegion()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthContext#getRegion() public javax.swing.plaf.synth.Region
+     * javax.swing.plaf.synth.SynthContext.getRegion()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.synth.SynthContext#getRegion()
+     * @see javax.swing.plaf.synth.SynthContext#getRegion() public javax.swing.plaf.synth.Region
+     *      javax.swing.plaf.synth.SynthContext.getRegion() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,12 +114,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.swing.plaf.synth.SynthContext#getStyle() public javax.swing.plaf.synth.SynthStyle
      * javax.swing.plaf.synth.SynthContext.getStyle()}.
      *
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthContext#getStyle() public javax.swing.plaf.synth.SynthStyle
+     * javax.swing.plaf.synth.SynthContext.getStyle()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.synth.SynthContext#getStyle()
+     * @see javax.swing.plaf.synth.SynthContext#getStyle() public javax.swing.plaf.synth.SynthStyle
+     *      javax.swing.plaf.synth.SynthContext.getStyle() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

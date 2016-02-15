@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.interfaces.ECPublicKey interface
- * java.security.interfaces.ECPublicKey}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.interfaces.ECPublicKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.interfaces.ECPublicKey interface
+ * java.security.interfaces.ECPublicKey}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link ECPublicKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.interfaces.ECPublicKeyClassTests
+ * @see java.security.interfaces.ECPublicKey interface java.security.interfaces.ECPublicKey (the hereby targeted
+ *      class-under-test class)
+ * @see ECPublicKeyClassTests ECPublicKeyClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.interfaces.ECPublicKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECPublicKeyTests<SUT extends java.security.interfaces.ECPublicKey>
-extends org.j8unit.repository.java.security.PublicKeyTests<SUT>, org.j8unit.repository.java.security.interfaces.ECKeyTests<SUT> {
+extends org.j8unit.repository.java.security.PublicKeyTests<SUT>, ECKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.interfaces.ECPublicKey#getW() public abstract java.security.spec.ECPoint
+     * java.security.interfaces.ECPublicKey.getW()}.
+     *
      * <p>
      * Test method for {@link java.security.interfaces.ECPublicKey#getW() public abstract java.security.spec.ECPoint
      * java.security.interfaces.ECPublicKey.getW()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.security.PublicKeyTests<SUT>, org.j8unit.repo
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.ECPublicKey#getW()
+     * @see java.security.interfaces.ECPublicKey#getW() public abstract java.security.spec.ECPoint
+     *      java.security.interfaces.ECPublicKey.getW() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

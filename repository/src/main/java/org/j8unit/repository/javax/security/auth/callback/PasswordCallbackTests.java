@@ -8,49 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.auth.callback.PasswordCallback class
- * javax.security.auth.callback.PasswordCallback}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.security.auth.callback.PasswordCallbackTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.auth.callback.PasswordCallback class
+ * javax.security.auth.callback.PasswordCallback}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link PasswordCallbackClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.auth.callback.PasswordCallbackClassTests
+ * @see javax.security.auth.callback.PasswordCallback class javax.security.auth.callback.PasswordCallback (the hereby
+ *      targeted class-under-test class)
+ * @see PasswordCallbackClassTests PasswordCallbackClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.auth.callback.PasswordCallback
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PasswordCallbackTests<SUT extends javax.security.auth.callback.PasswordCallback>
-extends org.j8unit.repository.javax.security.auth.callback.CallbackTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends CallbackTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.PasswordCallback#clearPassword() public void
-     * javax.security.auth.callback.PasswordCallback.clearPassword()}.
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#getPassword() public char[]
+     * javax.security.auth.callback.PasswordCallback.getPassword()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.security.auth.callback.PasswordCallback#clearPassword()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clearPassword()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.security.auth.callback.PasswordCallback#getPassword() public char[]
      * javax.security.auth.callback.PasswordCallback.getPassword()}.
@@ -60,7 +42,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.PasswordCallback#getPassword()
+     * @see javax.security.auth.callback.PasswordCallback#getPassword() public char[]
+     *      javax.security.auth.callback.PasswordCallback.getPassword() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -74,20 +57,52 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.PasswordCallback#getPrompt() public java.lang.String
-     * javax.security.auth.callback.PasswordCallback.getPrompt()}.
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#clearPassword() public void
+     * javax.security.auth.callback.PasswordCallback.clearPassword()}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#clearPassword() public void
+     * javax.security.auth.callback.PasswordCallback.clearPassword()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.PasswordCallback#getPrompt()
+     * @see javax.security.auth.callback.PasswordCallback#clearPassword() public void
+     *      javax.security.auth.callback.PasswordCallback.clearPassword() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrompt()
+    public default void test_clearPassword()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#setPassword(char[]) public void
+     * javax.security.auth.callback.PasswordCallback.setPassword(char[])}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#setPassword(char[]) public void
+     * javax.security.auth.callback.PasswordCallback.setPassword(char[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.security.auth.callback.PasswordCallback#setPassword(char[]) public void
+     *      javax.security.auth.callback.PasswordCallback.setPassword(char[]) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPassword_charArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,12 +114,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.security.auth.callback.PasswordCallback#isEchoOn() public boolean
      * javax.security.auth.callback.PasswordCallback.isEchoOn()}.
      *
+     * <p>
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#isEchoOn() public boolean
+     * javax.security.auth.callback.PasswordCallback.isEchoOn()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.PasswordCallback#isEchoOn()
+     * @see javax.security.auth.callback.PasswordCallback#isEchoOn() public boolean
+     *      javax.security.auth.callback.PasswordCallback.isEchoOn() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,20 +138,25 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.PasswordCallback#setPassword(char[]) public void
-     * javax.security.auth.callback.PasswordCallback.setPassword(char[])}.
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#getPrompt() public java.lang.String
+     * javax.security.auth.callback.PasswordCallback.getPrompt()}.
+     *
+     * <p>
+     * Test method for {@link javax.security.auth.callback.PasswordCallback#getPrompt() public java.lang.String
+     * javax.security.auth.callback.PasswordCallback.getPrompt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.callback.PasswordCallback#setPassword(char[])
+     * @see javax.security.auth.callback.PasswordCallback#getPrompt() public java.lang.String
+     *      javax.security.auth.callback.PasswordCallback.getPrompt() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPassword_charArray()
+    public default void test_getPrompt()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

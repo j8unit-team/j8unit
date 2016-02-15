@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.midi.MidiDeviceReceiver interface
- * javax.sound.midi.MidiDeviceReceiver}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sound.midi.MidiDeviceReceiverTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sound.midi.MidiDeviceReceiver interface
+ * javax.sound.midi.MidiDeviceReceiver}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link MidiDeviceReceiverClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.midi.MidiDeviceReceiverClassTests
+ * @see javax.sound.midi.MidiDeviceReceiver interface javax.sound.midi.MidiDeviceReceiver (the hereby targeted
+ *      class-under-test class)
+ * @see MidiDeviceReceiverClassTests MidiDeviceReceiverClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.midi.MidiDeviceReceiver
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MidiDeviceReceiverTests<SUT extends javax.sound.midi.MidiDeviceReceiver>
-extends org.j8unit.repository.javax.sound.midi.ReceiverTests<SUT> {
+extends ReceiverTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.sound.midi.MidiDeviceReceiver#getMidiDevice() public abstract
+     * javax.sound.midi.MidiDevice javax.sound.midi.MidiDeviceReceiver.getMidiDevice()}.
+     *
      * <p>
      * Test method for {@link javax.sound.midi.MidiDeviceReceiver#getMidiDevice() public abstract
      * javax.sound.midi.MidiDevice javax.sound.midi.MidiDeviceReceiver.getMidiDevice()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.javax.sound.midi.ReceiverTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MidiDeviceReceiver#getMidiDevice()
+     * @see javax.sound.midi.MidiDeviceReceiver#getMidiDevice() public abstract javax.sound.midi.MidiDevice
+     *      javax.sound.midi.MidiDeviceReceiver.getMidiDevice() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

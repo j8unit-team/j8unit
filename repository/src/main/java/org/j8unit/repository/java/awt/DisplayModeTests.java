@@ -8,18 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.DisplayMode class java.awt.DisplayMode}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.awt.DisplayModeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.DisplayMode class java.awt.DisplayMode}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link DisplayModeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.DisplayModeClassTests
+ * @see java.awt.DisplayMode class java.awt.DisplayMode (the hereby targeted class-under-test class)
+ * @see DisplayModeClassTests DisplayModeClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.DisplayMode
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,12 +31,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link java.awt.DisplayMode#equals(java.awt.DisplayMode) public boolean
      * java.awt.DisplayMode.equals(java.awt.DisplayMode)}.
      *
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#equals(java.awt.DisplayMode) public boolean
+     * java.awt.DisplayMode.equals(java.awt.DisplayMode)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DisplayMode#equals(java.awt.DisplayMode)
+     * @see java.awt.DisplayMode#equals(java.awt.DisplayMode) public boolean
+     *      java.awt.DisplayMode.equals(java.awt.DisplayMode) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -50,7 +55,11 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.DisplayMode#equals(java.lang.Object) public boolean
+     * Test method for {@link java.awt.DisplayMode#equals(Object) public boolean
+     * java.awt.DisplayMode.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#equals(Object) public boolean
      * java.awt.DisplayMode.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,12 +67,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DisplayMode#equals(java.lang.Object)
+     * @see java.awt.DisplayMode#equals(Object) public boolean java.awt.DisplayMode.equals(java.lang.Object) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
@@ -75,12 +85,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.DisplayMode#getBitDepth() public int java.awt.DisplayMode.getBitDepth()}.
      *
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#getBitDepth() public int java.awt.DisplayMode.getBitDepth()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DisplayMode#getBitDepth()
+     * @see java.awt.DisplayMode#getBitDepth() public int java.awt.DisplayMode.getBitDepth() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,6 +108,35 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.DisplayMode#hashCode() public int java.awt.DisplayMode.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#hashCode() public int java.awt.DisplayMode.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.awt.DisplayMode#hashCode() public int java.awt.DisplayMode.hashCode() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#getHeight() public int java.awt.DisplayMode.getHeight()}.
+     *
+     * <p>
      * Test method for {@link java.awt.DisplayMode#getHeight() public int java.awt.DisplayMode.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DisplayMode#getHeight()
+     * @see java.awt.DisplayMode#getHeight() public int java.awt.DisplayMode.getHeight() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,12 +161,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.DisplayMode#getRefreshRate() public int java.awt.DisplayMode.getRefreshRate()}.
      *
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#getRefreshRate() public int java.awt.DisplayMode.getRefreshRate()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DisplayMode#getRefreshRate()
+     * @see java.awt.DisplayMode#getRefreshRate() public int java.awt.DisplayMode.getRefreshRate() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,39 +186,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link java.awt.DisplayMode#getWidth() public int java.awt.DisplayMode.getWidth()}.
      *
+     * <p>
+     * Test method for {@link java.awt.DisplayMode#getWidth() public int java.awt.DisplayMode.getWidth()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.DisplayMode#getWidth()
+     * @see java.awt.DisplayMode#getWidth() public int java.awt.DisplayMode.getWidth() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_getWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.DisplayMode#hashCode() public int java.awt.DisplayMode.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.awt.DisplayMode#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

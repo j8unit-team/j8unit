@@ -8,26 +8,110 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.print.StreamPrintService class javax.print.StreamPrintService},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.print.StreamPrintServiceTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.print.StreamPrintService class javax.print.StreamPrintService}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link StreamPrintServiceClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.print.StreamPrintServiceClassTests
+ * @see javax.print.StreamPrintService class javax.print.StreamPrintService (the hereby targeted class-under-test class)
+ * @see StreamPrintServiceClassTests StreamPrintServiceClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.print.StreamPrintService
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StreamPrintServiceTests<SUT extends javax.print.StreamPrintService>
-extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
+     * javax.print.StreamPrintService.getOutputFormat()}.
+     *
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
+     * javax.print.StreamPrintService.getOutputFormat()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
+     *      javax.print.StreamPrintService.getOutputFormat() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
+     * javax.print.StreamPrintService.isDisposed()}.
+     *
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
+     * javax.print.StreamPrintService.isDisposed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.StreamPrintService#isDisposed() public boolean javax.print.StreamPrintService.isDisposed() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDisposed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
+     * javax.print.StreamPrintService.getOutputStream()}.
+     *
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
+     * javax.print.StreamPrintService.getOutputStream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
+     *      javax.print.StreamPrintService.getOutputStream() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#dispose() public void
+     * javax.print.StreamPrintService.dispose()}.
+     *
      * <p>
      * Test method for {@link javax.print.StreamPrintService#dispose() public void
      * javax.print.StreamPrintService.dispose()}.
@@ -37,7 +121,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.print.StreamPrintService#dispose()
+     * @see javax.print.StreamPrintService#dispose() public void javax.print.StreamPrintService.dispose() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,66 +140,22 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
      * class-under-test:
      * </p>
      * <ul>
-     * <li>class java.lang.Object</li>
-     * <li>interface javax.print.PrintService</li>
+     * <li>{@linkplain Object#hashCode() class java.lang.Object}</li>
+     * <li>{@linkplain javax.print.PrintService#hashCode() interface javax.print.PrintService}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
      * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
-     * javax.print.StreamPrintService.getOutputFormat()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.StreamPrintService#getOutputFormat()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutputFormat()
+    public default void test_hashCode()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
-     * javax.print.StreamPrintService.getOutputStream()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.StreamPrintService#getOutputStream()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -123,44 +164,22 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
      * class-under-test:
      * </p>
      * <ul>
-     * <li>class java.lang.Object</li>
-     * <li>interface javax.print.PrintService</li>
+     * <li>{@linkplain Object#equals(Object) class java.lang.Object}</li>
+     * <li>{@linkplain javax.print.PrintService#equals(Object) interface javax.print.PrintService}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test method within the super test classes. To solve this situation,
-     * this method must be overriden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
+     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
+     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
      * becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_hashCode()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
-     * javax.print.StreamPrintService.isDisposed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.print.StreamPrintService#isDisposed()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDisposed()
+    public default void test_equals_Object()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
 }

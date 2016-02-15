@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.accessibility.AccessibleKeyBinding interface
- * javax.accessibility.AccessibleKeyBinding}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleKeyBindingTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleKeyBinding interface
+ * javax.accessibility.AccessibleKeyBinding}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link AccessibleKeyBindingClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.accessibility.AccessibleKeyBindingClassTests
+ * @see javax.accessibility.AccessibleKeyBinding interface javax.accessibility.AccessibleKeyBinding (the hereby targeted
+ *      class-under-test class)
+ * @see AccessibleKeyBindingClassTests AccessibleKeyBindingClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.accessibility.AccessibleKeyBinding
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBinding(int) public abstract
      * java.lang.Object javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBinding(int)}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBinding(int) public abstract
+     * java.lang.Object javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBinding(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBinding(int)
+     * @see javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBinding(int) public abstract java.lang.Object
+     *      javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBinding(int) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,12 +62,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBindingCount() public abstract
      * int javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBindingCount()}.
      *
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBindingCount() public abstract
+     * int javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBindingCount()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBindingCount()
+     * @see javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBindingCount() public abstract int
+     *      javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBindingCount() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

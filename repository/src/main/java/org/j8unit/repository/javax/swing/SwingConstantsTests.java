@@ -6,19 +6,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.SwingConstants interface javax.swing.SwingConstants},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.swing.SwingConstantsTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.SwingConstants interface javax.swing.SwingConstants}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link SwingConstantsClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.SwingConstantsClassTests
+ * @see javax.swing.SwingConstants interface javax.swing.SwingConstants (the hereby targeted class-under-test class)
+ * @see SwingConstantsClassTests SwingConstantsClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.SwingConstants
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

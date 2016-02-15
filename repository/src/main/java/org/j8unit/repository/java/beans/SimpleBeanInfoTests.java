@@ -8,42 +8,46 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.beans.SimpleBeanInfo class java.beans.SimpleBeanInfo}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.beans.SimpleBeanInfoTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.beans.SimpleBeanInfo class java.beans.SimpleBeanInfo}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link SimpleBeanInfoClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.beans.SimpleBeanInfoClassTests
+ * @see java.beans.SimpleBeanInfo class java.beans.SimpleBeanInfo (the hereby targeted class-under-test class)
+ * @see SimpleBeanInfoClassTests SimpleBeanInfoClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.beans.SimpleBeanInfo
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleBeanInfoTests<SUT extends java.beans.SimpleBeanInfo>
-extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
-     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
+     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
+     *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
+     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getAdditionalBeanInfo()
+     * @see java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
+     *      java.beans.SimpleBeanInfo.getEventSetDescriptors() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getAdditionalBeanInfo()
+    public default void test_getEventSetDescriptors()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -52,21 +56,26 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
-     * java.beans.SimpleBeanInfo.getBeanDescriptor()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
+     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
+     *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
+     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getBeanDescriptor()
+     * @see java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
+     *      java.beans.SimpleBeanInfo.getPropertyDescriptors() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getBeanDescriptor()
+    public default void test_getPropertyDescriptors()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,17 +87,22 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
      * Test method for {@link java.beans.SimpleBeanInfo#getDefaultEventIndex() public int
      * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
      *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultEventIndex() public int
+     * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getDefaultEventIndex()
+     * @see java.beans.SimpleBeanInfo#getDefaultEventIndex() public int java.beans.SimpleBeanInfo.getDefaultEventIndex()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getDefaultEventIndex()
     throws Exception {
         // query fresh subject-under-test
@@ -98,21 +112,26 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
+     * java.beans.SimpleBeanInfo.getBeanDescriptor()}.
+     *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
+     * java.beans.SimpleBeanInfo.getBeanDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getDefaultPropertyIndex()
+     * @see java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
+     *      java.beans.SimpleBeanInfo.getBeanDescriptor() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getDefaultPropertyIndex()
+    public default void test_getBeanDescriptor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,21 +140,25 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
-     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(String) public java.awt.Image
+     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(String) public java.awt.Image
+     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getEventSetDescriptors()
+     * @see java.beans.SimpleBeanInfo#loadImage(String) public java.awt.Image
+     *      java.beans.SimpleBeanInfo.loadImage(java.lang.String) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getEventSetDescriptors()
+    public default void test_loadImage_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,17 +170,22 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
      * Test method for {@link java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image
      * java.beans.SimpleBeanInfo.getIcon(int)}.
      *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image
+     * java.beans.SimpleBeanInfo.getIcon(int)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getIcon(int)
+     * @see java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image java.beans.SimpleBeanInfo.getIcon(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getIcon_int()
     throws Exception {
         // query fresh subject-under-test
@@ -170,17 +198,22 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
      * Test method for {@link java.beans.SimpleBeanInfo#getMethodDescriptors() public java.beans.MethodDescriptor[]
      * java.beans.SimpleBeanInfo.getMethodDescriptors()}.
      *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getMethodDescriptors() public java.beans.MethodDescriptor[]
+     * java.beans.SimpleBeanInfo.getMethodDescriptors()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getMethodDescriptors()
+     * @see java.beans.SimpleBeanInfo#getMethodDescriptors() public java.beans.MethodDescriptor[]
+     *      java.beans.SimpleBeanInfo.getMethodDescriptors() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getMethodDescriptors()
     throws Exception {
         // query fresh subject-under-test
@@ -190,21 +223,26 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
-     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
+     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
+     *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
+     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#getPropertyDescriptors()
+     * @see java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
+     *      java.beans.SimpleBeanInfo.getAdditionalBeanInfo() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getPropertyDescriptors()
+    public default void test_getAdditionalBeanInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -213,20 +251,26 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(java.lang.String) public java.awt.Image
-     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
+     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
+     *
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
+     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.SimpleBeanInfo#loadImage(java.lang.String)
+     * @see java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
+     *      java.beans.SimpleBeanInfo.getDefaultPropertyIndex() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_loadImage_String()
+    public default void test_getDefaultPropertyIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

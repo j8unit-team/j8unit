@@ -5,23 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.PERSIST_STORE class org.omg.CORBA.PERSIST_STORE},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.PERSIST_STORETests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.PERSIST_STORE class org.omg.CORBA.PERSIST_STORE}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link PERSIST_STOREClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.PERSIST_STOREClassTests
+ * @see org.omg.CORBA.PERSIST_STORE class org.omg.CORBA.PERSIST_STORE (the hereby targeted class-under-test class)
+ * @see PERSIST_STOREClassTests PERSIST_STOREClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.PERSIST_STORE
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PERSIST_STORETests<SUT extends org.omg.CORBA.PERSIST_STORE>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
 }

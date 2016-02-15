@@ -5,22 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.Override interface java.lang.Override}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.lang.OverrideTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain Override interface java.lang.Override}. The complementary j8unit test
+ * interface containing the class relevant aspects is {@link OverrideClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.OverrideClassTests
+ * @see Override interface java.lang.Override (the hereby targeted class-under-test class)
+ * @see OverrideClassTests OverrideClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.Override
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OverrideTests<SUT extends java.lang.Override>
+public abstract interface OverrideTests<SUT extends Override>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
 }

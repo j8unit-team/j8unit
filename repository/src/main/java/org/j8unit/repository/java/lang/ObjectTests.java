@@ -13,28 +13,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.Object class java.lang.Object}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.lang.ObjectTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain Object class java.lang.Object}. The complementary j8unit test interface
+ * containing the class relevant aspects is {@link ObjectClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.ObjectClassTests
+ * @see Object class java.lang.Object (the hereby targeted class-under-test class)
+ * @see ObjectClassTests ObjectClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.Object
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectTests<SUT extends java.lang.Object>
+public abstract interface ObjectTests<SUT extends Object>
 extends RepositoryTests<SUT> {
 
     /**
-     * @since 0.9.2
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
      *
-     * @j8unit.aim java.lang.Object#equals(java.lang.Object)
+     * @since 0.9.2
      */
     @Test
     @Category(Should.class)
@@ -45,9 +46,10 @@ extends RepositoryTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
      *
-     * @j8unit.aim java.lang.Object#equals(java.lang.Object)
+     * @since 0.9.2
      */
     @Test
     @Category(Should.class)
@@ -58,9 +60,10 @@ extends RepositoryTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
+     *      method-under-test)
      *
-     * @j8unit.aim java.lang.Object#getClass()
+     * @since 0.9.2
      */
     @Test
     public default void getClassMustMatchIsInstance() {
@@ -72,209 +75,16 @@ extends RepositoryTests<SUT> {
     }
 
     /**
-     * @since 0.9.2
+     * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
+     *      method-under-test)
      *
-     * @j8unit.aim java.lang.Object#getClass()
+     * @since 0.9.2
      */
     @Test
     public default void getClassMustReturnNotNull() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertNotNull(sut.getClass());
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#equals(java.lang.Object) public boolean
-     * java.lang.Object.equals(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#equals(java.lang.Object)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#getClass() public final native java.lang.Class
-     * java.lang.Object.getClass()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#getClass()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#hashCode() public native int java.lang.Object.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#hashCode()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#notify() public final native void java.lang.Object.notify()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#notify()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_notify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#notifyAll() public final native void java.lang.Object.notifyAll()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#notifyAll()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_notifyAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#toString() public java.lang.String java.lang.Object.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#toString()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#wait() public final void java.lang.Object.wait() throws
-     * java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#wait()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wait()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#wait(long) public final native void java.lang.Object.wait(long) throws
-     * java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#wait(long)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wait_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Object#wait(long, int) public final void java.lang.Object.wait(long,int) throws
-     * java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Object#wait(long, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wait_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -291,15 +101,245 @@ extends RepositoryTests<SUT> {
      * computing the textual representation. It instead should be represented accordingly.
      * </p>
      *
-     * @since 0.9.2
+     * @see Object#toString() public java.lang.String java.lang.Object.toString() (the hereby targeted
+     *      method-under-test)
      *
-     * @j8unit.aim java.lang.Object#toString()
+     * @since 0.9.2
      */
     @Test
     public default void toStringMustReturnNotNull() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertNotNull(sut.toString());
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#toString() public java.lang.String java.lang.Object.toString()}.
+     *
+     * <p>
+     * Test method for {@link Object#toString() public java.lang.String java.lang.Object.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#toString() public java.lang.String java.lang.Object.toString() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#notify() public final native void java.lang.Object.notify()}.
+     *
+     * <p>
+     * Test method for {@link Object#notify() public final native void java.lang.Object.notify()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#notify() public final native void java.lang.Object.notify() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_notify()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#wait() public final void java.lang.Object.wait() throws
+     * java.lang.InterruptedException}.
+     *
+     * <p>
+     * Test method for {@link Object#wait() public final void java.lang.Object.wait() throws
+     * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#wait() public final void java.lang.Object.wait() throws java.lang.InterruptedException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wait()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#wait(long, int) public final void java.lang.Object.wait(long,int) throws
+     * java.lang.InterruptedException}.
+     *
+     * <p>
+     * Test method for {@link Object#wait(long, int) public final void java.lang.Object.wait(long,int) throws
+     * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#wait(long, int) public final void java.lang.Object.wait(long,int) throws
+     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wait_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#wait(long) public final native void java.lang.Object.wait(long) throws
+     * java.lang.InterruptedException}.
+     *
+     * <p>
+     * Test method for {@link Object#wait(long) public final native void java.lang.Object.wait(long) throws
+     * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#wait(long) public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wait_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#getClass() public final native java.lang.Class<?> java.lang.Object.getClass()}.
+     *
+     * <p>
+     * Test method for {@link Object#getClass() public final native java.lang.Class java.lang.Object.getClass()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#hashCode() public native int java.lang.Object.hashCode()}.
+     *
+     * <p>
+     * Test method for {@link Object#hashCode() public native int java.lang.Object.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#hashCode() public native int java.lang.Object.hashCode() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object)}.
+     *
+     * <p>
+     * Test method for {@link Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Object#notifyAll() public final native void java.lang.Object.notifyAll()}.
+     *
+     * <p>
+     * Test method for {@link Object#notifyAll() public final native void java.lang.Object.notifyAll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Object#notifyAll() public final native void java.lang.Object.notifyAll() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_notifyAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

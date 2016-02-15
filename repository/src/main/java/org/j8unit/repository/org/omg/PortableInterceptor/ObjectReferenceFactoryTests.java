@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableInterceptor.ObjectReferenceFactory interface
- * org.omg.PortableInterceptor.ObjectReferenceFactory}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.ObjectReferenceFactory interface
+ * org.omg.PortableInterceptor.ObjectReferenceFactory}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link ObjectReferenceFactoryClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryClassTests
+ * @see org.omg.PortableInterceptor.ObjectReferenceFactory interface org.omg.PortableInterceptor.ObjectReferenceFactory
+ *      (the hereby targeted class-under-test class)
+ * @see ObjectReferenceFactoryClassTests ObjectReferenceFactoryClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceFactory
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,8 +30,13 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactory#make_object(java.lang.String, byte[])
-     * public abstract org.omg.CORBA.Object
+     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactory#make_object(String, byte[]) public
+     * abstract org.omg.CORBA.Object
+     * org.omg.PortableInterceptor.ObjectReferenceFactory.make_object(java.lang.String,byte[])}.
+     *
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactory#make_object(String, byte[]) public
+     * abstract org.omg.CORBA.Object
      * org.omg.PortableInterceptor.ObjectReferenceFactory.make_object(java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +44,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim org.omg.PortableInterceptor.ObjectReferenceFactory#make_object(java.lang.String, byte[])
+     * @see org.omg.PortableInterceptor.ObjectReferenceFactory#make_object(String, byte[]) public abstract
+     *      org.omg.CORBA.Object org.omg.PortableInterceptor.ObjectReferenceFactory.make_object(java.lang.String,byte[])
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

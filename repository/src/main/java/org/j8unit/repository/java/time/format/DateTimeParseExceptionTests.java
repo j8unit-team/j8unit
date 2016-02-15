@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.time.format.DateTimeParseException class
- * java.time.format.DateTimeParseException}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.time.format.DateTimeParseExceptionTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.time.format.DateTimeParseException class
+ * java.time.format.DateTimeParseException}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link DateTimeParseExceptionClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.time.format.DateTimeParseExceptionClassTests
+ * @see java.time.format.DateTimeParseException class java.time.format.DateTimeParseException (the hereby targeted
+ *      class-under-test class)
+ * @see DateTimeParseExceptionClassTests DateTimeParseExceptionClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.time.format.DateTimeParseException
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +33,17 @@ extends org.j8unit.repository.java.time.DateTimeExceptionTests<SUT> {
      * Test method for {@link java.time.format.DateTimeParseException#getErrorIndex() public int
      * java.time.format.DateTimeParseException.getErrorIndex()}.
      *
+     * <p>
+     * Test method for {@link java.time.format.DateTimeParseException#getErrorIndex() public int
+     * java.time.format.DateTimeParseException.getErrorIndex()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.format.DateTimeParseException#getErrorIndex()
+     * @see java.time.format.DateTimeParseException#getErrorIndex() public int
+     *      java.time.format.DateTimeParseException.getErrorIndex() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +60,17 @@ extends org.j8unit.repository.java.time.DateTimeExceptionTests<SUT> {
      * Test method for {@link java.time.format.DateTimeParseException#getParsedString() public java.lang.String
      * java.time.format.DateTimeParseException.getParsedString()}.
      *
+     * <p>
+     * Test method for {@link java.time.format.DateTimeParseException#getParsedString() public java.lang.String
+     * java.time.format.DateTimeParseException.getParsedString()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.time.format.DateTimeParseException#getParsedString()
+     * @see java.time.format.DateTimeParseException#getParsedString() public java.lang.String
+     *      java.time.format.DateTimeParseException.getParsedString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

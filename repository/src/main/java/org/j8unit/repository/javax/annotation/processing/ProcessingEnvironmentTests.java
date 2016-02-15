@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.annotation.processing.ProcessingEnvironment interface
- * javax.annotation.processing.ProcessingEnvironment}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.annotation.processing.ProcessingEnvironmentTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.annotation.processing.ProcessingEnvironment interface
+ * javax.annotation.processing.ProcessingEnvironment}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link ProcessingEnvironmentClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.annotation.processing.ProcessingEnvironmentClassTests
+ * @see javax.annotation.processing.ProcessingEnvironment interface javax.annotation.processing.ProcessingEnvironment
+ *      (the hereby targeted class-under-test class)
+ * @see ProcessingEnvironmentClassTests ProcessingEnvironmentClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.annotation.processing.ProcessingEnvironment
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,20 +31,26 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getElementUtils() public abstract
-     * javax.lang.model.util.Elements javax.annotation.processing.ProcessingEnvironment.getElementUtils()}.
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getOptions() public abstract
+     * java.util.Map<java.lang.String, java.lang.String> javax.annotation.processing.ProcessingEnvironment.getOptions()}
+     * .
+     *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getOptions() public abstract
+     * java.util.Map javax.annotation.processing.ProcessingEnvironment.getOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getElementUtils()
+     * @see javax.annotation.processing.ProcessingEnvironment#getOptions() public abstract java.util.Map
+     *      javax.annotation.processing.ProcessingEnvironment.getOptions() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElementUtils()
+    public default void test_getOptions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,12 +62,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getFiler() public abstract
      * javax.annotation.processing.Filer javax.annotation.processing.ProcessingEnvironment.getFiler()}.
      *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getFiler() public abstract
+     * javax.annotation.processing.Filer javax.annotation.processing.ProcessingEnvironment.getFiler()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getFiler()
+     * @see javax.annotation.processing.ProcessingEnvironment#getFiler() public abstract
+     *      javax.annotation.processing.Filer javax.annotation.processing.ProcessingEnvironment.getFiler() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,12 +90,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getLocale() public abstract
      * java.util.Locale javax.annotation.processing.ProcessingEnvironment.getLocale()}.
      *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getLocale() public abstract
+     * java.util.Locale javax.annotation.processing.ProcessingEnvironment.getLocale()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getLocale()
+     * @see javax.annotation.processing.ProcessingEnvironment#getLocale() public abstract java.util.Locale
+     *      javax.annotation.processing.ProcessingEnvironment.getLocale() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -99,12 +117,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getMessager() public abstract
      * javax.annotation.processing.Messager javax.annotation.processing.ProcessingEnvironment.getMessager()}.
      *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getMessager() public abstract
+     * javax.annotation.processing.Messager javax.annotation.processing.ProcessingEnvironment.getMessager()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getMessager()
+     * @see javax.annotation.processing.ProcessingEnvironment#getMessager() public abstract
+     *      javax.annotation.processing.Messager javax.annotation.processing.ProcessingEnvironment.getMessager() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,20 +142,26 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getOptions() public abstract
-     * java.util.Map javax.annotation.processing.ProcessingEnvironment.getOptions()}.
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getElementUtils() public abstract
+     * javax.lang.model.util.Elements javax.annotation.processing.ProcessingEnvironment.getElementUtils()}.
+     *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getElementUtils() public abstract
+     * javax.lang.model.util.Elements javax.annotation.processing.ProcessingEnvironment.getElementUtils()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getOptions()
+     * @see javax.annotation.processing.ProcessingEnvironment#getElementUtils() public abstract
+     *      javax.lang.model.util.Elements javax.annotation.processing.ProcessingEnvironment.getElementUtils() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOptions()
+    public default void test_getElementUtils()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,12 +173,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getSourceVersion() public abstract
      * javax.lang.model.SourceVersion javax.annotation.processing.ProcessingEnvironment.getSourceVersion()}.
      *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getSourceVersion() public abstract
+     * javax.lang.model.SourceVersion javax.annotation.processing.ProcessingEnvironment.getSourceVersion()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getSourceVersion()
+     * @see javax.annotation.processing.ProcessingEnvironment#getSourceVersion() public abstract
+     *      javax.lang.model.SourceVersion javax.annotation.processing.ProcessingEnvironment.getSourceVersion() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,12 +201,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getTypeUtils() public abstract
      * javax.lang.model.util.Types javax.annotation.processing.ProcessingEnvironment.getTypeUtils()}.
      *
+     * <p>
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getTypeUtils() public abstract
+     * javax.lang.model.util.Types javax.annotation.processing.ProcessingEnvironment.getTypeUtils()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.annotation.processing.ProcessingEnvironment#getTypeUtils()
+     * @see javax.annotation.processing.ProcessingEnvironment#getTypeUtils() public abstract javax.lang.model.util.Types
+     *      javax.annotation.processing.ProcessingEnvironment.getTypeUtils() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

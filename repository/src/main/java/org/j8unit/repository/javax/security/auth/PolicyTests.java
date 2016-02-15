@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.security.auth.Policy class javax.security.auth.Policy},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.security.auth.PolicyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.security.auth.Policy class javax.security.auth.Policy}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link PolicyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.security.auth.PolicyClassTests
+ * @see javax.security.auth.Policy class javax.security.auth.Policy (the hereby targeted class-under-test class)
+ * @see PolicyClassTests PolicyClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.security.auth.Policy
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -34,12 +33,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * abstract java.security.PermissionCollection
      * javax.security.auth.Policy.getPermissions(javax.security.auth.Subject,java.security.CodeSource)}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.security.auth.Policy#getPermissions(javax.security.auth.Subject, java.security.CodeSource) public
+     * abstract java.security.PermissionCollection
+     * javax.security.auth.Policy.getPermissions(javax.security.auth.Subject,java.security.CodeSource)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.Policy#getPermissions(javax.security.auth.Subject, java.security.CodeSource)
+     * @see javax.security.auth.Policy#getPermissions(javax.security.auth.Subject, java.security.CodeSource) public
+     *      abstract java.security.PermissionCollection
+     *      javax.security.auth.Policy.getPermissions(javax.security.auth.Subject,java.security.CodeSource) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +64,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.security.auth.Policy#refresh() public abstract void
      * javax.security.auth.Policy.refresh()}.
      *
+     * <p>
+     * Test method for {@link javax.security.auth.Policy#refresh() public abstract void
+     * javax.security.auth.Policy.refresh()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.security.auth.Policy#refresh()
+     * @see javax.security.auth.Policy#refresh() public abstract void javax.security.auth.Policy.refresh() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

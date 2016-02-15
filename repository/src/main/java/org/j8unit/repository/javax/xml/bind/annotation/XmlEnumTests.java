@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.bind.annotation.XmlEnum interface
- * javax.xml.bind.annotation.XmlEnum}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlEnumTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.XmlEnum interface
+ * javax.xml.bind.annotation.XmlEnum}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link XmlEnumClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.bind.annotation.XmlEnumClassTests
+ * @see javax.xml.bind.annotation.XmlEnum interface javax.xml.bind.annotation.XmlEnum (the hereby targeted
+ *      class-under-test class)
+ * @see XmlEnumClassTests XmlEnumClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.bind.annotation.XmlEnum
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,6 +31,10 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.xml.bind.annotation.XmlEnum#value() public abstract java.lang.Class
+     * <?> javax.xml.bind.annotation.XmlEnum.value()}.
+     *
+     * <p>
+     * Test method for {@link javax.xml.bind.annotation.XmlEnum#value() public abstract java.lang.Class
      * javax.xml.bind.annotation.XmlEnum.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.bind.annotation.XmlEnum#value()
+     * @see javax.xml.bind.annotation.XmlEnum#value() public abstract java.lang.Class
+     *      javax.xml.bind.annotation.XmlEnum.value() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

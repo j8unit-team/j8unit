@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.relation.RelationTypeSupport class
- * javax.management.relation.RelationTypeSupport}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.management.relation.RelationTypeSupportTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.relation.RelationTypeSupport class
+ * javax.management.relation.RelationTypeSupport}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link RelationTypeSupportClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.relation.RelationTypeSupportClassTests
+ * @see javax.management.relation.RelationTypeSupport class javax.management.relation.RelationTypeSupport (the hereby
+ *      targeted class-under-test class)
+ * @see RelationTypeSupportClassTests RelationTypeSupportClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.relation.RelationTypeSupport
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationTypeSupportTests<SUT extends javax.management.relation.RelationTypeSupport>
-extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.management.relation.RelationTypeSupport#getRelationTypeName() public
+     * java.lang.String javax.management.relation.RelationTypeSupport.getRelationTypeName()}.
+     *
      * <p>
      * Test method for {@link javax.management.relation.RelationTypeSupport#getRelationTypeName() public
      * java.lang.String javax.management.relation.RelationTypeSupport.getRelationTypeName()}.
@@ -37,12 +42,13 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.relation.RelationTypeSupport#getRelationTypeName()
+     * @see javax.management.relation.RelationTypeSupport#getRelationTypeName() public java.lang.String
+     *      javax.management.relation.RelationTypeSupport.getRelationTypeName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getRelationTypeName()
     throws Exception {
         // query fresh subject-under-test
@@ -52,7 +58,12 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfo(java.lang.String) public
+     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfo(String) public
+     * javax.management.relation.RoleInfo javax.management.relation.RelationTypeSupport.getRoleInfo(java.lang.String)
+     * throws java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException}.
+     *
+     * <p>
+     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfo(String) public
      * javax.management.relation.RoleInfo javax.management.relation.RelationTypeSupport.getRoleInfo(java.lang.String)
      * throws java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException}.
      *
@@ -61,12 +72,15 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.relation.RelationTypeSupport#getRoleInfo(java.lang.String)
+     * @see javax.management.relation.RelationTypeSupport#getRoleInfo(String) public javax.management.relation.RoleInfo
+     *      javax.management.relation.RelationTypeSupport.getRoleInfo(java.lang.String) throws
+     *      java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getRoleInfo_String()
     throws Exception {
         // query fresh subject-under-test
@@ -77,6 +91,10 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, 
     /**
      * <p>
      * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfos() public java.util.List
+     * <javax.management.relation.RoleInfo> javax.management.relation.RelationTypeSupport.getRoleInfos()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfos() public java.util.List
      * javax.management.relation.RelationTypeSupport.getRoleInfos()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,12 +102,13 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, 
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.relation.RelationTypeSupport#getRoleInfos()
+     * @see javax.management.relation.RelationTypeSupport#getRoleInfos() public java.util.List
+     *      javax.management.relation.RelationTypeSupport.getRoleInfos() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getRoleInfos()
     throws Exception {
         // query fresh subject-under-test

@@ -8,30 +8,38 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.server.RemoteObjectInvocationHandler class
- * java.rmi.server.RemoteObjectInvocationHandler}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.rmi.server.RemoteObjectInvocationHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.server.RemoteObjectInvocationHandler class
+ * java.rmi.server.RemoteObjectInvocationHandler}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link RemoteObjectInvocationHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.server.RemoteObjectInvocationHandlerClassTests
+ * @see java.rmi.server.RemoteObjectInvocationHandler class java.rmi.server.RemoteObjectInvocationHandler (the hereby
+ *      targeted class-under-test class)
+ * @see RemoteObjectInvocationHandlerClassTests RemoteObjectInvocationHandlerClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.server.RemoteObjectInvocationHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteObjectInvocationHandlerTests<SUT extends java.rmi.server.RemoteObjectInvocationHandler>
-extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteObjectTests<SUT> {
+extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, RemoteObjectTests<SUT> {
 
     /**
      * <p>
      * Test method for
-     * {@link java.rmi.server.RemoteObjectInvocationHandler#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])
-     * public java.lang.Object
+     * {@link java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
+     * java.lang.Object
+     * java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
+     * throws java.lang.Throwable}.
+     *
+     * <p>
+     * Test method for
+     * {@link java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
+     * java.lang.Object
      * java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
      * throws java.lang.Throwable}.
      *
@@ -40,13 +48,15 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.server.RemoteObjectInvocationHandler#invoke(java.lang.Object, java.lang.reflect.Method,
-     *             java.lang.Object[])
+     * @see java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
+     *      java.lang.Object
+     *      java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.
+     *      Object[]) throws java.lang.Throwable (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_invoke_Object_Method_ObjectArray()
     throws Exception {
         // query fresh subject-under-test

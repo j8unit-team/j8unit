@@ -8,48 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.cert.PKIXBuilderParameters class
- * java.security.cert.PKIXBuilderParameters}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.cert.PKIXBuilderParametersTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.cert.PKIXBuilderParameters class
+ * java.security.cert.PKIXBuilderParameters}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link PKIXBuilderParametersClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.cert.PKIXBuilderParametersClassTests
+ * @see java.security.cert.PKIXBuilderParameters class java.security.cert.PKIXBuilderParameters (the hereby targeted
+ *      class-under-test class)
+ * @see PKIXBuilderParametersClassTests PKIXBuilderParametersClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.cert.PKIXBuilderParameters
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXBuilderParametersTests<SUT extends java.security.cert.PKIXBuilderParameters>
-extends org.j8unit.repository.java.security.cert.PKIXParametersTests<SUT> {
+extends PKIXParametersTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXBuilderParameters#getMaxPathLength() public int
-     * java.security.cert.PKIXBuilderParameters.getMaxPathLength()}.
+     * Test method for {@link java.security.cert.PKIXBuilderParameters#setMaxPathLength(int) public void
+     * java.security.cert.PKIXBuilderParameters.setMaxPathLength(int)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.security.cert.PKIXBuilderParameters#getMaxPathLength()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxPathLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.security.cert.PKIXBuilderParameters#setMaxPathLength(int) public void
      * java.security.cert.PKIXBuilderParameters.setMaxPathLength(int)}.
@@ -59,7 +42,8 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PKIXBuilderParameters#setMaxPathLength(int)
+     * @see java.security.cert.PKIXBuilderParameters#setMaxPathLength(int) public void
+     *      java.security.cert.PKIXBuilderParameters.setMaxPathLength(int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,6 +57,37 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.cert.PKIXBuilderParameters#getMaxPathLength() public int
+     * java.security.cert.PKIXBuilderParameters.getMaxPathLength()}.
+     *
+     * <p>
+     * Test method for {@link java.security.cert.PKIXBuilderParameters#getMaxPathLength() public int
+     * java.security.cert.PKIXBuilderParameters.getMaxPathLength()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.security.cert.PKIXBuilderParameters#getMaxPathLength() public int
+     *      java.security.cert.PKIXBuilderParameters.getMaxPathLength() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxPathLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PKIXBuilderParameters#toString() public java.lang.String
+     * java.security.cert.PKIXBuilderParameters.toString()}.
+     *
+     * <p>
      * Test method for {@link java.security.cert.PKIXBuilderParameters#toString() public java.lang.String
      * java.security.cert.PKIXBuilderParameters.toString()}.
      *
@@ -81,12 +96,13 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.cert.PKIXBuilderParameters#toString()
+     * @see java.security.cert.PKIXBuilderParameters#toString() public java.lang.String
+     *      java.security.cert.PKIXBuilderParameters.toString() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

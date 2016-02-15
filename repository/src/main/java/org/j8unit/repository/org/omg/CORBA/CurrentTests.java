@@ -5,24 +5,22 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.Current interface org.omg.CORBA.Current}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.org.omg.CORBA.CurrentTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.Current interface org.omg.CORBA.Current}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link CurrentClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.CurrentClassTests
+ * @see org.omg.CORBA.Current interface org.omg.CORBA.Current (the hereby targeted class-under-test class)
+ * @see CurrentClassTests CurrentClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.Current
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrentTests<SUT extends org.omg.CORBA.Current>
-extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends CurrentOperationsTests<SUT>, ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
 
 }

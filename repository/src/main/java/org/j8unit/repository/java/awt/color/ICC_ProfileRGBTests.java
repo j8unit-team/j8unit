@@ -8,26 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.awt.color.ICC_ProfileRGB class java.awt.color.ICC_ProfileRGB},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.awt.color.ICC_ProfileRGBTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.awt.color.ICC_ProfileRGB class java.awt.color.ICC_ProfileRGB}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ICC_ProfileRGBClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.awt.color.ICC_ProfileRGBClassTests
+ * @see java.awt.color.ICC_ProfileRGB class java.awt.color.ICC_ProfileRGB (the hereby targeted class-under-test class)
+ * @see ICC_ProfileRGBClassTests ICC_ProfileRGBClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.awt.color.ICC_ProfileRGB
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ICC_ProfileRGBTests<SUT extends java.awt.color.ICC_ProfileRGB>
-extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
+extends ICC_ProfileTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getGamma(int) public float
+     * java.awt.color.ICC_ProfileRGB.getGamma(int)}.
+     *
      * <p>
      * Test method for {@link java.awt.color.ICC_ProfileRGB#getGamma(int) public float
      * java.awt.color.ICC_ProfileRGB.getGamma(int)}.
@@ -37,7 +40,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.color.ICC_ProfileRGB#getGamma(int)
+     * @see java.awt.color.ICC_ProfileRGB#getGamma(int) public float java.awt.color.ICC_ProfileRGB.getGamma(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -51,20 +55,25 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ProfileRGB#getMatrix() public float[][]
-     * java.awt.color.ICC_ProfileRGB.getMatrix()}.
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getTRC(int) public short[]
+     * java.awt.color.ICC_ProfileRGB.getTRC(int)}.
+     *
+     * <p>
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getTRC(int) public short[]
+     * java.awt.color.ICC_ProfileRGB.getTRC(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.color.ICC_ProfileRGB#getMatrix()
+     * @see java.awt.color.ICC_ProfileRGB#getTRC(int) public short[] java.awt.color.ICC_ProfileRGB.getTRC(int) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMatrix()
+    public default void test_getTRC_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,12 +85,17 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
      * Test method for {@link java.awt.color.ICC_ProfileRGB#getMediaWhitePoint() public float[]
      * java.awt.color.ICC_ProfileRGB.getMediaWhitePoint()}.
      *
+     * <p>
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getMediaWhitePoint() public float[]
+     * java.awt.color.ICC_ProfileRGB.getMediaWhitePoint()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.color.ICC_ProfileRGB#getMediaWhitePoint()
+     * @see java.awt.color.ICC_ProfileRGB#getMediaWhitePoint() public float[]
+     *      java.awt.color.ICC_ProfileRGB.getMediaWhitePoint() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -95,20 +109,25 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ProfileRGB#getTRC(int) public short[]
-     * java.awt.color.ICC_ProfileRGB.getTRC(int)}.
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getMatrix() public float[][]
+     * java.awt.color.ICC_ProfileRGB.getMatrix()}.
+     *
+     * <p>
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getMatrix() public float[][]
+     * java.awt.color.ICC_ProfileRGB.getMatrix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.awt.color.ICC_ProfileRGB#getTRC(int)
+     * @see java.awt.color.ICC_ProfileRGB#getMatrix() public float[][] java.awt.color.ICC_ProfileRGB.getMatrix() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTRC_int()
+    public default void test_getMatrix()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

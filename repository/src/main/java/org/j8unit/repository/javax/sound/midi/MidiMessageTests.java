@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.midi.MidiMessage class javax.sound.midi.MidiMessage},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sound.midi.MidiMessageTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sound.midi.MidiMessage class javax.sound.midi.MidiMessage}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link MidiMessageClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.midi.MidiMessageClassTests
+ * @see javax.sound.midi.MidiMessage class javax.sound.midi.MidiMessage (the hereby targeted class-under-test class)
+ * @see MidiMessageClassTests MidiMessageClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.midi.MidiMessage
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -32,12 +31,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link javax.sound.midi.MidiMessage#clone() public abstract java.lang.Object
      * javax.sound.midi.MidiMessage.clone()}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.MidiMessage#clone() public abstract java.lang.Object
+     * javax.sound.midi.MidiMessage.clone()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MidiMessage#clone()
+     * @see javax.sound.midi.MidiMessage#clone() public abstract java.lang.Object javax.sound.midi.MidiMessage.clone()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,12 +58,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link javax.sound.midi.MidiMessage#getLength() public int
      * javax.sound.midi.MidiMessage.getLength()}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.MidiMessage#getLength() public int
+     * javax.sound.midi.MidiMessage.getLength()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MidiMessage#getLength()
+     * @see javax.sound.midi.MidiMessage#getLength() public int javax.sound.midi.MidiMessage.getLength() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,12 +85,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link javax.sound.midi.MidiMessage#getMessage() public byte[]
      * javax.sound.midi.MidiMessage.getMessage()}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.MidiMessage#getMessage() public byte[]
+     * javax.sound.midi.MidiMessage.getMessage()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MidiMessage#getMessage()
+     * @see javax.sound.midi.MidiMessage#getMessage() public byte[] javax.sound.midi.MidiMessage.getMessage() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -98,12 +112,17 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * Test method for {@link javax.sound.midi.MidiMessage#getStatus() public int
      * javax.sound.midi.MidiMessage.getStatus()}.
      *
+     * <p>
+     * Test method for {@link javax.sound.midi.MidiMessage#getStatus() public int
+     * javax.sound.midi.MidiMessage.getStatus()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.sound.midi.MidiMessage#getStatus()
+     * @see javax.sound.midi.MidiMessage#getStatus() public int javax.sound.midi.MidiMessage.getStatus() (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

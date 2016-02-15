@@ -1,38 +1,50 @@
 package org.j8unit.repository.javax.net.ssl;
 
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.net.ssl.SSLEngineResult class javax.net.ssl.SSLEngineResult},
- * containing all class relevant test methods (at least the test methods of accessible constructors and of accessible
- * {@code static} methods). The counterpart J8Unit test interface containing the instance relevant test methods is
- * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests}.
+ * Reusable j8unit test interface for {@linkplain javax.net.ssl.SSLEngineResult class javax.net.ssl.SSLEngineResult},
+ * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In
+ * addition, the runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself. For example,
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+ * complementarySetup test interface containing the instance relevant aspects (see {@link SSLEngineResultTests}).
+ * </p>
+ *
+ * <p>
+ * <strong>What? Testing the class itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
  * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
  * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
  * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable
- * test method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
- * constraints and further class specific requirements.
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
+ * methods:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
+ * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
  * </p>
  *
- * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests
+ * <p>
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SSLEngineResultTests}.
+ * </p>
+ *
+ * @see javax.net.ssl.SSLEngineResult class javax.net.ssl.SSLEngineResult (the hereby targeted class-under-test class)
+ * @see SSLEngineResultTests SSLEngineResultTests (The complementary j8unit test interface containing the instance
+ *      relevant test methods)
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.net.ssl.SSLEngineResult
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -40,129 +52,68 @@ public abstract interface SSLEngineResultClassTests<SUT extends javax.net.ssl.SS
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.net.ssl.SSLEngineResult.HandshakeStatus class
-     * javax.net.ssl.SSLEngineResult$HandshakeStatus}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test
-     * interface containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests}.
-     * </p>
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
+     *      hereby targeted method-under-test)
      *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     *
-     * @j8unit.aim javax.net.ssl.SSLEngineResult.HandshakeStatus
+     * @since 0.9.2
      */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface HandshakeStatusClassTests<SUT extends javax.net.ssl.SSLEngineResult.HandshakeStatus>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#valueOf(java.lang.String) public static
-         * javax.net.ssl.SSLEngineResult$HandshakeStatus
-         * javax.net.ssl.SSLEngineResult$HandshakeStatus.valueOf(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.net.ssl.SSLEngineResult.HandshakeStatus#valueOf(java.lang.String)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#values() public static
-         * javax.net.ssl.SSLEngineResult$HandshakeStatus[] javax.net.ssl.SSLEngineResult$HandshakeStatus.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.net.ssl.SSLEngineResult.HandshakeStatus#values()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_values()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * @since 0.9.2
-         *
-         * @j8unit.aim javax.net.ssl.SSLEngineResult.HandshakeStatus#isAssignableFrom(java.lang.Class)
-         */
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.net.ssl.SSLEngineResult.HandshakeStatus.class.isAssignableFrom(sut));
-        }
-
+    @Override
+    @BeforeClass
+    public default void verifyGenericType()
+    throws Exception {
+        // create new instance
+        final Class<SUT> sut = createNewSUT();
+        // assert assignability
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.net.ssl.SSLEngineResult.class!",
+                   javax.net.ssl.SSLEngineResult.class.isAssignableFrom(sut));
     }
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain javax.net.ssl.SSLEngineResult.Status class
-     * javax.net.ssl.SSLEngineResult$Status}, containing all class relevant test methods (at least the test methods of
-     * accessible constructors and of accessible {@code static} methods). The counterpart J8Unit test interface
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests}.
+     * Reusable j8unit test interface for {@linkplain javax.net.ssl.SSLEngineResult.Status class
+     * javax.net.ssl.SSLEngineResult$Status}, containing all type relevant aspects (e.&thinsp;g., runtime constraints
+     * and further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic
+     * type is verified by {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link SSLEngineResultTests.StatusTests}).
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
      * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
      * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
      * </p>
      *
-     * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link SSLEngineResultTests.StatusTests}.
+     * </p>
+     *
+     * @see javax.net.ssl.SSLEngineResult.Status class javax.net.ssl.SSLEngineResult$Status (the hereby targeted
+     *      class-under-test class)
+     * @see SSLEngineResultTests.StatusTests SSLEngineResultTests.StatusTests (The complementary j8unit test interface
+     *      containing the instance relevant test methods)
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim javax.net.ssl.SSLEngineResult.Status
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
@@ -170,106 +121,93 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
         /**
-         * <p>
-         * Test method for {@link javax.net.ssl.SSLEngineResult.Status#valueOf(java.lang.String) public static
-         * javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult$Status.valueOf(java.lang.String)}.
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
          *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.net.ssl.SSLEngineResult.Status#valueOf(java.lang.String)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.net.ssl.SSLEngineResult.Status#values() public static
-         * javax.net.ssl.SSLEngineResult$Status[] javax.net.ssl.SSLEngineResult$Status.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @j8unit.aim javax.net.ssl.SSLEngineResult.Status#values()
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_values()
-        throws Exception {
-            // query fresh subject-under-test
-            final Class<SUT> sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
          * @since 0.9.2
-         *
-         * @j8unit.aim javax.net.ssl.SSLEngineResult.Status#isAssignableFrom(java.lang.Class)
          */
         @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @BeforeClass
+        public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.net.ssl.SSLEngineResult.Status.class.isAssignableFrom(sut));
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.net.ssl.SSLEngineResult.Status.class!",
+                       javax.net.ssl.SSLEngineResult.Status.class.isAssignableFrom(sut));
         }
 
     }
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.net.ssl.SSLEngineResult#SSLEngineResult(javax.net.ssl.SSLEngineResult.Status, javax.net.ssl.SSLEngineResult.HandshakeStatus, int, int)
-     * public
-     * javax.net.ssl.SSLEngineResult(javax.net.ssl.SSLEngineResult$Status,javax.net.ssl.SSLEngineResult$HandshakeStatus,int,int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface for {@linkplain javax.net.ssl.SSLEngineResult.HandshakeStatus class
+     * javax.net.ssl.SSLEngineResult$HandshakeStatus}, containing all type relevant aspects (e.&thinsp;g., runtime
+     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
+     * interface's generic type is verified by {@link #verifyGenericType()}).
      * </p>
      *
-     * @j8unit.aim javax.net.ssl.SSLEngineResult#SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,
-     *             javax.net.ssl.SSLEngineResult.HandshakeStatus, int, int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SSLEngineResult_Status_HandshakeStatus_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.net.ssl.SSLEngineResult sut = null; // = new SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,
-                                                        // javax.net.ssl.SSLEngineResult.HandshakeStatus, int, int);
-    }
-
-    /**
-     * @since 0.9.2
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
+     * complementarySetup test interface containing the instance relevant aspects (see
+     * {@link SSLEngineResultTests.HandshakeStatusTests}).
+     * </p>
      *
-     * @j8unit.aim javax.net.ssl.SSLEngineResult#isAssignableFrom(java.lang.Class)
+     * <p>
+     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
+     * test methods:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
+     * ,
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
+     * , and
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link SSLEngineResultTests.HandshakeStatusTests}.
+     * </p>
+     *
+     * @see javax.net.ssl.SSLEngineResult.HandshakeStatus class javax.net.ssl.SSLEngineResult$HandshakeStatus (the
+     *      hereby targeted class-under-test class)
+     * @see SSLEngineResultTests.HandshakeStatusTests SSLEngineResultTests.HandshakeStatusTests (The complementary
+     *      j8unit test interface containing the instance relevant test methods)
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
      */
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<SUT> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.SSLEngineResult.class.isAssignableFrom(sut));
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface HandshakeStatusClassTests<SUT extends javax.net.ssl.SSLEngineResult.HandshakeStatus>
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.net.ssl.SSLEngineResult.HandshakeStatus.class!",
+                       javax.net.ssl.SSLEngineResult.HandshakeStatus.class.isAssignableFrom(sut));
+        }
+
     }
 
 }

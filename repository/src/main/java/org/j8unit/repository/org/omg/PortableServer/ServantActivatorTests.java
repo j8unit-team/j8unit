@@ -5,24 +5,24 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.PortableServer.ServantActivator interface
- * org.omg.PortableServer.ServantActivator}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.PortableServer.ServantActivator interface
+ * org.omg.PortableServer.ServantActivator}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link ServantActivatorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.PortableServer.ServantActivatorClassTests
+ * @see org.omg.PortableServer.ServantActivator interface org.omg.PortableServer.ServantActivator (the hereby targeted
+ *      class-under-test class)
+ * @see ServantActivatorClassTests ServantActivatorClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.PortableServer.ServantActivator
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorTests<SUT extends org.omg.PortableServer.ServantActivator>
-extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsTests<SUT>,
-org.j8unit.repository.org.omg.PortableServer.ServantManagerTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends ServantActivatorOperationsTests<SUT>, ServantManagerTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
 
 }

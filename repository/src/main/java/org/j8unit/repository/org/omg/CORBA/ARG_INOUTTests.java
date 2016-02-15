@@ -6,19 +6,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain org.omg.CORBA.ARG_INOUT interface org.omg.CORBA.ARG_INOUT}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.org.omg.CORBA.ARG_INOUTTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain org.omg.CORBA.ARG_INOUT interface org.omg.CORBA.ARG_INOUT}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link ARG_INOUTClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.org.omg.CORBA.ARG_INOUTClassTests
+ * @see org.omg.CORBA.ARG_INOUT interface org.omg.CORBA.ARG_INOUT (the hereby targeted class-under-test class)
+ * @see ARG_INOUTClassTests ARG_INOUTClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim org.omg.CORBA.ARG_INOUT
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

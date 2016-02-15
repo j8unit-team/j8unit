@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.registry.RegistryHandler interface
- * java.rmi.registry.RegistryHandler}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.registry.RegistryHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.registry.RegistryHandler interface
+ * java.rmi.registry.RegistryHandler}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link RegistryHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.registry.RegistryHandlerClassTests
+ * @see java.rmi.registry.RegistryHandler interface java.rmi.registry.RegistryHandler (the hereby targeted
+ *      class-under-test class)
+ * @see RegistryHandlerClassTests RegistryHandlerClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.registry.RegistryHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -33,12 +34,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.rmi.registry.RegistryHandler#registryImpl(int) public abstract
      * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException}.
      *
+     * <p>
+     * Test method for {@link java.rmi.registry.RegistryHandler#registryImpl(int) public abstract
+     * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.registry.RegistryHandler#registryImpl(int)
+     * @see java.rmi.registry.RegistryHandler#registryImpl(int) public abstract java.rmi.registry.Registry
+     *      java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,7 +59,12 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.registry.RegistryHandler#registryStub(java.lang.String, int) public abstract
+     * Test method for {@link java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract
+     * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
+     * java.rmi.RemoteException,java.rmi.UnknownHostException}.
+     *
+     * <p>
+     * Test method for {@link java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract
      * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
      * java.rmi.RemoteException,java.rmi.UnknownHostException}.
      *
@@ -61,7 +73,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.registry.RegistryHandler#registryStub(java.lang.String, int)
+     * @see java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract java.rmi.registry.Registry
+     *      java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
+     *      java.rmi.RemoteException,java.rmi.UnknownHostException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

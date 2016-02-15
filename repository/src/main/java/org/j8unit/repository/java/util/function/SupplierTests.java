@@ -9,19 +9,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.util.function.Supplier interface java.util.function.Supplier},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.util.function.SupplierTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.util.function.Supplier interface java.util.function.Supplier}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link SupplierClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.util.function.SupplierClassTests
+ * @see java.util.function.Supplier interface java.util.function.Supplier (the hereby targeted class-under-test class)
+ * @see SupplierClassTests SupplierClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.util.function.Supplier
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,6 +28,9 @@ public abstract interface SupplierTests<SUT extends java.util.function.Supplier<
 extends RepositoryTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.util.function.Supplier#get() public abstract T java.util.function.Supplier.get()}.
+     *
      * <p>
      * Test method for {@link java.util.function.Supplier#get() public abstract java.lang.Object
      * java.util.function.Supplier.get()}.
@@ -38,7 +40,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.util.function.Supplier#get()
+     * @see java.util.function.Supplier#get() public abstract java.lang.Object java.util.function.Supplier.get() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

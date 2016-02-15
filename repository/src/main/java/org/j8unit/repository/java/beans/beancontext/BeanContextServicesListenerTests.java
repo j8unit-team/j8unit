@@ -8,26 +8,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.beans.beancontext.BeanContextServicesListener interface
- * java.beans.beancontext.BeanContextServicesListener}, containing all instance relevant test methods (i.&thinsp;e.,
- * test methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.java.beans.beancontext.BeanContextServicesListenerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.beans.beancontext.BeanContextServicesListener interface
+ * java.beans.beancontext.BeanContextServicesListener}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link BeanContextServicesListenerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.beans.beancontext.BeanContextServicesListenerClassTests
+ * @see java.beans.beancontext.BeanContextServicesListener interface java.beans.beancontext.BeanContextServicesListener
+ *      (the hereby targeted class-under-test class)
+ * @see BeanContextServicesListenerClassTests BeanContextServicesListenerClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.beans.beancontext.BeanContextServicesListener
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextServicesListenerTests<SUT extends java.beans.beancontext.BeanContextServicesListener>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedListenerTests<SUT> {
+extends BeanContextServiceRevokedListenerTests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link java.beans.beancontext.BeanContextServicesListener#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
+     * public abstract void
+     * java.beans.beancontext.BeanContextServicesListener.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}
+     * .
+     *
      * <p>
      * Test method for
      * {@link java.beans.beancontext.BeanContextServicesListener#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
@@ -40,8 +48,10 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedLi
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.beancontext.BeanContextServicesListener#serviceAvailable(java.beans.beancontext.
-     *             BeanContextServiceAvailableEvent)
+     * @see java.beans.beancontext.BeanContextServicesListener#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
+     *      public abstract void
+     *      java.beans.beancontext.BeanContextServicesListener.serviceAvailable(java.beans.beancontext.
+     *      BeanContextServiceAvailableEvent) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

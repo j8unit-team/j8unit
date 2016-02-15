@@ -8,19 +8,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.imageio.IIOImage class javax.imageio.IIOImage}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.imageio.IIOImageTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.imageio.IIOImage class javax.imageio.IIOImage}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link IIOImageClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.imageio.IIOImageClassTests
+ * @see javax.imageio.IIOImage class javax.imageio.IIOImage (the hereby targeted class-under-test class)
+ * @see IIOImageClassTests IIOImageClassTests (the complementary j8unit test interface containing the class relevant
+ *      test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.imageio.IIOImage
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,115 +28,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.IIOImage#getMetadata() public javax.imageio.metadata.IIOMetadata
-     * javax.imageio.IIOImage.getMetadata()}.
+     * Test method for {@link javax.imageio.IIOImage#getThumbnails() public java.util.List<? extends
+     * java.awt.image.BufferedImage> javax.imageio.IIOImage.getThumbnails()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.IIOImage#getMetadata()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMetadata()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.IIOImage#getNumThumbnails() public int
-     * javax.imageio.IIOImage.getNumThumbnails()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.IIOImage#getNumThumbnails()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNumThumbnails()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.IIOImage#getRaster() public java.awt.image.Raster
-     * javax.imageio.IIOImage.getRaster()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.IIOImage#getRaster()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRaster()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.IIOImage#getRenderedImage() public java.awt.image.RenderedImage
-     * javax.imageio.IIOImage.getRenderedImage()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.IIOImage#getRenderedImage()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRenderedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.IIOImage#getThumbnail(int) public java.awt.image.BufferedImage
-     * javax.imageio.IIOImage.getThumbnail(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.imageio.IIOImage#getThumbnail(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getThumbnail_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.imageio.IIOImage#getThumbnails() public java.util.List
      * javax.imageio.IIOImage.getThumbnails()}.
@@ -147,7 +40,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.IIOImage#getThumbnails()
+     * @see javax.imageio.IIOImage#getThumbnails() public java.util.List javax.imageio.IIOImage.getThumbnails() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,12 +57,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for {@link javax.imageio.IIOImage#hasRaster() public boolean javax.imageio.IIOImage.hasRaster()}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#hasRaster() public boolean javax.imageio.IIOImage.hasRaster()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.IIOImage#hasRaster()
+     * @see javax.imageio.IIOImage#hasRaster() public boolean javax.imageio.IIOImage.hasRaster() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -185,12 +83,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.imageio.IIOImage#setMetadata(javax.imageio.metadata.IIOMetadata) public void
      * javax.imageio.IIOImage.setMetadata(javax.imageio.metadata.IIOMetadata)}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#setMetadata(javax.imageio.metadata.IIOMetadata) public void
+     * javax.imageio.IIOImage.setMetadata(javax.imageio.metadata.IIOMetadata)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.IIOImage#setMetadata(javax.imageio.metadata.IIOMetadata)
+     * @see javax.imageio.IIOImage#setMetadata(javax.imageio.metadata.IIOMetadata) public void
+     *      javax.imageio.IIOImage.setMetadata(javax.imageio.metadata.IIOMetadata) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -204,20 +108,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.IIOImage#setRaster(java.awt.image.Raster) public void
-     * javax.imageio.IIOImage.setRaster(java.awt.image.Raster)}.
+     * Test method for {@link javax.imageio.IIOImage#getMetadata() public javax.imageio.metadata.IIOMetadata
+     * javax.imageio.IIOImage.getMetadata()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getMetadata() public javax.imageio.metadata.IIOMetadata
+     * javax.imageio.IIOImage.getMetadata()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.IIOImage#setRaster(java.awt.image.Raster)
+     * @see javax.imageio.IIOImage#getMetadata() public javax.imageio.metadata.IIOMetadata
+     *      javax.imageio.IIOImage.getMetadata() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setRaster_Raster()
+    public default void test_getMetadata()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,12 +138,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for {@link javax.imageio.IIOImage#setRenderedImage(java.awt.image.RenderedImage) public void
      * javax.imageio.IIOImage.setRenderedImage(java.awt.image.RenderedImage)}.
      *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#setRenderedImage(java.awt.image.RenderedImage) public void
+     * javax.imageio.IIOImage.setRenderedImage(java.awt.image.RenderedImage)}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.IIOImage#setRenderedImage(java.awt.image.RenderedImage)
+     * @see javax.imageio.IIOImage#setRenderedImage(java.awt.image.RenderedImage) public void
+     *      javax.imageio.IIOImage.setRenderedImage(java.awt.image.RenderedImage) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,6 +164,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for {@link javax.imageio.IIOImage#setThumbnails(java.util.List) public void
+     * javax.imageio.IIOImage.setThumbnails(java.util.List<? extends java.awt.image.BufferedImage>)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#setThumbnails(java.util.List) public void
      * javax.imageio.IIOImage.setThumbnails(java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,12 +175,148 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.imageio.IIOImage#setThumbnails(java.util.List)
+     * @see javax.imageio.IIOImage#setThumbnails(java.util.List) public void
+     *      javax.imageio.IIOImage.setThumbnails(java.util.List) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_setThumbnails_List()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getRenderedImage() public java.awt.image.RenderedImage
+     * javax.imageio.IIOImage.getRenderedImage()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getRenderedImage() public java.awt.image.RenderedImage
+     * javax.imageio.IIOImage.getRenderedImage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.IIOImage#getRenderedImage() public java.awt.image.RenderedImage
+     *      javax.imageio.IIOImage.getRenderedImage() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRenderedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getNumThumbnails() public int
+     * javax.imageio.IIOImage.getNumThumbnails()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getNumThumbnails() public int
+     * javax.imageio.IIOImage.getNumThumbnails()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.IIOImage#getNumThumbnails() public int javax.imageio.IIOImage.getNumThumbnails() (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNumThumbnails()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getThumbnail(int) public java.awt.image.BufferedImage
+     * javax.imageio.IIOImage.getThumbnail(int)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getThumbnail(int) public java.awt.image.BufferedImage
+     * javax.imageio.IIOImage.getThumbnail(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.IIOImage#getThumbnail(int) public java.awt.image.BufferedImage
+     *      javax.imageio.IIOImage.getThumbnail(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getThumbnail_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getRaster() public java.awt.image.Raster
+     * javax.imageio.IIOImage.getRaster()}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#getRaster() public java.awt.image.Raster
+     * javax.imageio.IIOImage.getRaster()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.IIOImage#getRaster() public java.awt.image.Raster javax.imageio.IIOImage.getRaster() (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRaster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#setRaster(java.awt.image.Raster) public void
+     * javax.imageio.IIOImage.setRaster(java.awt.image.Raster)}.
+     *
+     * <p>
+     * Test method for {@link javax.imageio.IIOImage#setRaster(java.awt.image.Raster) public void
+     * javax.imageio.IIOImage.setRaster(java.awt.image.Raster)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.imageio.IIOImage#setRaster(java.awt.image.Raster) public void
+     *      javax.imageio.IIOImage.setRaster(java.awt.image.Raster) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRaster_Raster()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

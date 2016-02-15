@@ -8,26 +8,29 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.beans.BeanDescriptor class java.beans.BeanDescriptor}, containing
- * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.beans.BeanDescriptorTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.beans.BeanDescriptor class java.beans.BeanDescriptor}. The
+ * complementary j8unit test interface containing the class relevant aspects is {@link BeanDescriptorClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.beans.BeanDescriptorClassTests
+ * @see java.beans.BeanDescriptor class java.beans.BeanDescriptor (the hereby targeted class-under-test class)
+ * @see BeanDescriptorClassTests BeanDescriptorClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.beans.BeanDescriptor
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanDescriptorTests<SUT extends java.beans.BeanDescriptor>
-extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
+extends FeatureDescriptorTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.beans.BeanDescriptor#getBeanClass() public java.lang.Class
+     * <?> java.beans.BeanDescriptor.getBeanClass()}.
+     *
      * <p>
      * Test method for {@link java.beans.BeanDescriptor#getBeanClass() public java.lang.Class
      * java.beans.BeanDescriptor.getBeanClass()}.
@@ -37,7 +40,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.BeanDescriptor#getBeanClass()
+     * @see java.beans.BeanDescriptor#getBeanClass() public java.lang.Class java.beans.BeanDescriptor.getBeanClass()
+     *      (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,6 +56,10 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
     /**
      * <p>
      * Test method for {@link java.beans.BeanDescriptor#getCustomizerClass() public java.lang.Class
+     * <?> java.beans.BeanDescriptor.getCustomizerClass()}.
+     *
+     * <p>
+     * Test method for {@link java.beans.BeanDescriptor#getCustomizerClass() public java.lang.Class
      * java.beans.BeanDescriptor.getCustomizerClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +67,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.beans.BeanDescriptor#getCustomizerClass()
+     * @see java.beans.BeanDescriptor#getCustomizerClass() public java.lang.Class
+     *      java.beans.BeanDescriptor.getCustomizerClass() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

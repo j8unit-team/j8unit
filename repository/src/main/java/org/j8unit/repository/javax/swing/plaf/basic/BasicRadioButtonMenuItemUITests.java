@@ -8,26 +8,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.basic.BasicRadioButtonMenuItemUI class
- * javax.swing.plaf.basic.BasicRadioButtonMenuItemUI}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonMenuItemUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicRadioButtonMenuItemUI class
+ * javax.swing.plaf.basic.BasicRadioButtonMenuItemUI}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link BasicRadioButtonMenuItemUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonMenuItemUIClassTests
+ * @see javax.swing.plaf.basic.BasicRadioButtonMenuItemUI class javax.swing.plaf.basic.BasicRadioButtonMenuItemUI (the
+ *      hereby targeted class-under-test class)
+ * @see BasicRadioButtonMenuItemUIClassTests BasicRadioButtonMenuItemUIClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.basic.BasicRadioButtonMenuItemUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicRadioButtonMenuItemUITests<SUT extends javax.swing.plaf.basic.BasicRadioButtonMenuItemUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
+extends BasicMenuItemUITests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicRadioButtonMenuItemUI#processMouseEvent(javax.swing.JMenuItem, java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
+     * javax.swing.plaf.basic.BasicRadioButtonMenuItemUI.processMouseEvent(javax.swing.JMenuItem,java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
+     * .
+     *
      * <p>
      * Test method for
      * {@link javax.swing.plaf.basic.BasicRadioButtonMenuItemUI#processMouseEvent(javax.swing.JMenuItem, java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
@@ -40,8 +48,11 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.basic.BasicRadioButtonMenuItemUI#processMouseEvent(javax.swing.JMenuItem,
-     *             java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * @see javax.swing.plaf.basic.BasicRadioButtonMenuItemUI#processMouseEvent(javax.swing.JMenuItem,
+     *      java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager) public void
+     *      javax.swing.plaf.basic.BasicRadioButtonMenuItemUI.processMouseEvent(javax.swing.JMenuItem,java.awt.event.
+     *      MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

@@ -8,26 +8,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.swing.plaf.synth.SynthRadioButtonMenuItemUI class
- * javax.swing.plaf.synth.SynthRadioButtonMenuItemUI}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.synth.SynthRadioButtonMenuItemUITests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.swing.plaf.synth.SynthRadioButtonMenuItemUI class
+ * javax.swing.plaf.synth.SynthRadioButtonMenuItemUI}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link SynthRadioButtonMenuItemUIClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.swing.plaf.synth.SynthRadioButtonMenuItemUIClassTests
+ * @see javax.swing.plaf.synth.SynthRadioButtonMenuItemUI class javax.swing.plaf.synth.SynthRadioButtonMenuItemUI (the
+ *      hereby targeted class-under-test class)
+ * @see SynthRadioButtonMenuItemUIClassTests SynthRadioButtonMenuItemUIClassTests (the complementary j8unit test
+ *      interface containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.swing.plaf.synth.SynthRadioButtonMenuItemUI
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthRadioButtonMenuItemUITests<SUT extends javax.swing.plaf.synth.SynthRadioButtonMenuItemUI>
-extends org.j8unit.repository.javax.swing.plaf.synth.SynthMenuItemUITests<SUT> {
+extends SynthMenuItemUITests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.synth.SynthRadioButtonMenuItemUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
+     * javax.swing.plaf.synth.SynthRadioButtonMenuItemUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
+     * .
+     *
      * <p>
      * Test method for
      * {@link javax.swing.plaf.synth.SynthRadioButtonMenuItemUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
@@ -40,13 +48,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthMenuItemUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.swing.plaf.synth.SynthRadioButtonMenuItemUI#paintBorder(javax.swing.plaf.synth.SynthContext,
-     *             java.awt.Graphics, int, int, int, int)
+     * @see javax.swing.plaf.synth.SynthRadioButtonMenuItemUI#paintBorder(javax.swing.plaf.synth.SynthContext,
+     *      java.awt.Graphics, int, int, int, int) public void
+     *      javax.swing.plaf.synth.SynthRadioButtonMenuItemUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.
+     *      Graphics,int,int,int,int) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test

@@ -8,19 +8,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.remote.rmi.RMIConnectorServer class
- * javax.management.remote.rmi.RMIConnectorServer}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.remote.rmi.RMIConnectorServer class
+ * javax.management.remote.rmi.RMIConnectorServer}. The complementary j8unit test interface containing the class
+ * relevant aspects is {@link RMIConnectorServerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerClassTests
+ * @see javax.management.remote.rmi.RMIConnectorServer class javax.management.remote.rmi.RMIConnectorServer (the hereby
+ *      targeted class-under-test class)
+ * @see RMIConnectorServerClassTests RMIConnectorServerClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,28 +30,9 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAddress() public
-     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAttributes() public
+     * java.util.Map<java.lang.String, ?> javax.management.remote.rmi.RMIConnectorServer.getAttributes()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#getAddress()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAttributes() public java.util.Map
      * javax.management.remote.rmi.RMIConnectorServer.getAttributes()}.
@@ -60,36 +42,14 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#getAttributes()
+     * @see javax.management.remote.rmi.RMIConnectorServer#getAttributes() public java.util.Map
+     *      javax.management.remote.rmi.RMIConnectorServer.getAttributes() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
-     * javax.management.remote.rmi.RMIConnectorServer.isActive()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#isActive()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isActive()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,42 +64,28 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
      * javax.management.remote.rmi.RMIConnectorServer.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
      * .
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#setMBeanServerForwarder(javax.management.remote.
-     *             MBeanServerForwarder)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setMBeanServerForwarder_MBeanServerForwarder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#start() public synchronized void
-     * javax.management.remote.rmi.RMIConnectorServer.start() throws java.io.IOException}.
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectorServer#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
+     * public synchronized void
+     * javax.management.remote.rmi.RMIConnectorServer.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#start()
+     * @see javax.management.remote.rmi.RMIConnectorServer#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
+     *      public synchronized void
+     *      javax.management.remote.rmi.RMIConnectorServer.setMBeanServerForwarder(javax.management.remote.
+     *      MBeanServerForwarder) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_start()
+    public default void test_setMBeanServerForwarder_MBeanServerForwarder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,17 +97,23 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
      * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#stop() public void
      * javax.management.remote.rmi.RMIConnectorServer.stop() throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#stop() public void
+     * javax.management.remote.rmi.RMIConnectorServer.stop() throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#stop()
+     * @see javax.management.remote.rmi.RMIConnectorServer#stop() public void
+     *      javax.management.remote.rmi.RMIConnectorServer.stop() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_stop()
     throws Exception {
         // query fresh subject-under-test
@@ -170,6 +122,97 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
     }
 
     /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#start() public synchronized void
+     * javax.management.remote.rmi.RMIConnectorServer.start() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#start() public synchronized void
+     * javax.management.remote.rmi.RMIConnectorServer.start() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.remote.rmi.RMIConnectorServer#start() public synchronized void
+     *      javax.management.remote.rmi.RMIConnectorServer.start() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_start()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAddress() public
+     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAddress() public
+     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.remote.rmi.RMIConnectorServer#getAddress() public javax.management.remote.JMXServiceURL
+     *      javax.management.remote.rmi.RMIConnectorServer.getAddress() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
+     * javax.management.remote.rmi.RMIConnectorServer.isActive()}.
+     *
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
+     * javax.management.remote.rmi.RMIConnectorServer.isActive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
+     *      javax.management.remote.rmi.RMIConnectorServer.isActive() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#toJMXConnector(java.util.Map) public
+     * javax.management.remote.JMXConnector
+     * javax.management.remote.rmi.RMIConnectorServer.toJMXConnector(java.util.Map<java.lang.String, ?>) throws
+     * java.io.IOException}.
+     *
      * <p>
      * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#toJMXConnector(java.util.Map) public
      * javax.management.remote.JMXConnector javax.management.remote.rmi.RMIConnectorServer.toJMXConnector(java.util.Map)
@@ -180,12 +223,15 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.rmi.RMIConnectorServer#toJMXConnector(java.util.Map)
+     * @see javax.management.remote.rmi.RMIConnectorServer#toJMXConnector(java.util.Map) public
+     *      javax.management.remote.JMXConnector
+     *      javax.management.remote.rmi.RMIConnectorServer.toJMXConnector(java.util.Map) throws java.io.IOException (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toJMXConnector_Map()
     throws Exception {
         // query fresh subject-under-test

@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.invoke.MethodHandleInfo interface
- * java.lang.invoke.MethodHandleInfo}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.lang.invoke.MethodHandleInfoTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.lang.invoke.MethodHandleInfo interface
+ * java.lang.invoke.MethodHandleInfo}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link MethodHandleInfoClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests
+ * @see java.lang.invoke.MethodHandleInfo interface java.lang.invoke.MethodHandleInfo (the hereby targeted
+ *      class-under-test class)
+ * @see MethodHandleInfoClassTests MethodHandleInfoClassTests (the complementary j8unit test interface containing the
+ *      class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.invoke.MethodHandleInfo
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,27 +31,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
-     * java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getMethodType() public abstract
+     * java.lang.invoke.MethodType java.lang.invoke.MethodHandleInfo.getMethodType()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#getDeclaringClass()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDeclaringClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test method for {@link java.lang.invoke.MethodHandleInfo#getMethodType() public abstract
      * java.lang.invoke.MethodType java.lang.invoke.MethodHandleInfo.getMethodType()}.
@@ -60,7 +43,8 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#getMethodType()
+     * @see java.lang.invoke.MethodHandleInfo#getMethodType() public abstract java.lang.invoke.MethodType
+     *      java.lang.invoke.MethodHandleInfo.getMethodType() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,12 +61,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.lang.invoke.MethodHandleInfo#getModifiers() public abstract int
      * java.lang.invoke.MethodHandleInfo.getModifiers()}.
      *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getModifiers() public abstract int
+     * java.lang.invoke.MethodHandleInfo.getModifiers()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#getModifiers()
+     * @see java.lang.invoke.MethodHandleInfo#getModifiers() public abstract int
+     *      java.lang.invoke.MethodHandleInfo.getModifiers() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -96,20 +85,56 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleInfo#getName() public abstract java.lang.String
-     * java.lang.invoke.MethodHandleInfo.getName()}.
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#reflectAs(Class, java.lang.invoke.MethodHandles.Lookup)
+     * public abstract <T> T java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class
+     * <T>,java.lang.invoke.MethodHandles$Lookup)}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#reflectAs(Class, java.lang.invoke.MethodHandles.Lookup)
+     * public abstract java.lang.reflect.Member
+     * java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#getName()
+     * @see java.lang.invoke.MethodHandleInfo#reflectAs(Class, java.lang.invoke.MethodHandles.Lookup) public abstract
+     *      java.lang.reflect.Member
+     *      java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class,java.lang.invoke.MethodHandles$Lookup) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_reflectAs_Class_Lookup()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
+     * <?> java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
+     * java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
+     *      java.lang.invoke.MethodHandleInfo.getDeclaringClass() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDeclaringClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,12 +146,17 @@ extends RepositoryTests<SUT> {
      * Test method for {@link java.lang.invoke.MethodHandleInfo#getReferenceKind() public abstract int
      * java.lang.invoke.MethodHandleInfo.getReferenceKind()}.
      *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getReferenceKind() public abstract int
+     * java.lang.invoke.MethodHandleInfo.getReferenceKind()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#getReferenceKind()
+     * @see java.lang.invoke.MethodHandleInfo#getReferenceKind() public abstract int
+     *      java.lang.invoke.MethodHandleInfo.getReferenceKind() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,20 +170,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleInfo#isVarArgs() public default boolean
-     * java.lang.invoke.MethodHandleInfo.isVarArgs()}.
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getName() public abstract java.lang.String
+     * java.lang.invoke.MethodHandleInfo.getName()}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getName() public abstract java.lang.String
+     * java.lang.invoke.MethodHandleInfo.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#isVarArgs()
+     * @see java.lang.invoke.MethodHandleInfo#getName() public abstract java.lang.String
+     *      java.lang.invoke.MethodHandleInfo.getName() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isVarArgs()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,22 +197,25 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.invoke.MethodHandleInfo#reflectAs(java.lang.Class, java.lang.invoke.MethodHandles.Lookup) public
-     * abstract java.lang.reflect.Member
-     * java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)}.
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#isVarArgs() public default boolean
+     * java.lang.invoke.MethodHandleInfo.isVarArgs()}.
+     *
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#isVarArgs() public default boolean
+     * java.lang.invoke.MethodHandleInfo.isVarArgs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.invoke.MethodHandleInfo#reflectAs(java.lang.Class, java.lang.invoke.MethodHandles.Lookup)
+     * @see java.lang.invoke.MethodHandleInfo#isVarArgs() public default boolean
+     *      java.lang.invoke.MethodHandleInfo.isVarArgs() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reflectAs_Class_Lookup()
+    public default void test_isVarArgs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

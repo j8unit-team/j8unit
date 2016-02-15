@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.NotificationBroadcaster interface
- * javax.management.NotificationBroadcaster}, containing all instance relevant test methods (i.&thinsp;e., test methods
- * of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.management.NotificationBroadcasterTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.NotificationBroadcaster interface
+ * javax.management.NotificationBroadcaster}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link NotificationBroadcasterClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.NotificationBroadcasterClassTests
+ * @see javax.management.NotificationBroadcaster interface javax.management.NotificationBroadcaster (the hereby targeted
+ *      class-under-test class)
+ * @see NotificationBroadcasterClassTests NotificationBroadcasterClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.NotificationBroadcaster
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -31,7 +32,14 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.NotificationBroadcaster#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, java.lang.Object)
+     * {@link javax.management.NotificationBroadcaster#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public abstract void
+     * javax.management.NotificationBroadcaster.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * <p>
+     * Test method for
+     * {@link javax.management.NotificationBroadcaster#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
      * public abstract void
      * javax.management.NotificationBroadcaster.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws java.lang.IllegalArgumentException}.
@@ -41,8 +49,11 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.NotificationBroadcaster#addNotificationListener(javax.management.
-     *             NotificationListener, javax.management.NotificationFilter, java.lang.Object)
+     * @see javax.management.NotificationBroadcaster#addNotificationListener(javax.management.NotificationListener,
+     *      javax.management.NotificationFilter, Object) public abstract void
+     *      javax.management.NotificationBroadcaster.addNotificationListener(javax.management.NotificationListener,javax
+     *      .management.NotificationFilter,java.lang.Object) throws java.lang.IllegalArgumentException (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,12 +70,18 @@ extends RepositoryTests<SUT> {
      * Test method for {@link javax.management.NotificationBroadcaster#getNotificationInfo() public abstract
      * javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcaster.getNotificationInfo()}.
      *
+     * <p>
+     * Test method for {@link javax.management.NotificationBroadcaster#getNotificationInfo() public abstract
+     * javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcaster.getNotificationInfo()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.NotificationBroadcaster#getNotificationInfo()
+     * @see javax.management.NotificationBroadcaster#getNotificationInfo() public abstract
+     *      javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcaster.getNotificationInfo() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,13 +101,22 @@ extends RepositoryTests<SUT> {
      * javax.management.NotificationBroadcaster.removeNotificationListener(javax.management.NotificationListener) throws
      * javax.management.ListenerNotFoundException}.
      *
+     * <p>
+     * Test method for
+     * {@link javax.management.NotificationBroadcaster#removeNotificationListener(javax.management.NotificationListener)
+     * public abstract void
+     * javax.management.NotificationBroadcaster.removeNotificationListener(javax.management.NotificationListener) throws
+     * javax.management.ListenerNotFoundException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.NotificationBroadcaster#removeNotificationListener(javax.management.
-     *             NotificationListener)
+     * @see javax.management.NotificationBroadcaster#removeNotificationListener(javax.management.NotificationListener)
+     *      public abstract void
+     *      javax.management.NotificationBroadcaster.removeNotificationListener(javax.management.NotificationListener)
+     *      throws javax.management.ListenerNotFoundException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

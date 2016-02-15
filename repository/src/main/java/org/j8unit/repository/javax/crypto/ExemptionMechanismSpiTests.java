@@ -5,19 +5,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.crypto.ExemptionMechanismSpi class
- * javax.crypto.ExemptionMechanismSpi}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.crypto.ExemptionMechanismSpiTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.crypto.ExemptionMechanismSpi class
+ * javax.crypto.ExemptionMechanismSpi}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link ExemptionMechanismSpiClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.crypto.ExemptionMechanismSpiClassTests
+ * @see javax.crypto.ExemptionMechanismSpi class javax.crypto.ExemptionMechanismSpi (the hereby targeted
+ *      class-under-test class)
+ * @see ExemptionMechanismSpiClassTests ExemptionMechanismSpiClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.crypto.ExemptionMechanismSpi
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

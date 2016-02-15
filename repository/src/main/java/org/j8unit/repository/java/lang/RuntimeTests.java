@@ -8,57 +8,38 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.lang.Runtime class java.lang.Runtime}, containing all instance
- * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit test
- * interface containing the class relevant test methods is {@link org.j8unit.repository.java.lang.RuntimeTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain Runtime class java.lang.Runtime}. The complementary j8unit test interface
+ * containing the class relevant aspects is {@link RuntimeClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.lang.RuntimeClassTests
+ * @see Runtime class java.lang.Runtime (the hereby targeted class-under-test class)
+ * @see RuntimeClassTests RuntimeClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.lang.Runtime
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RuntimeTests<SUT extends java.lang.Runtime>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface RuntimeTests<SUT extends Runtime>
+extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#addShutdownHook(java.lang.Thread) public void
-     * java.lang.Runtime.addShutdownHook(java.lang.Thread)}.
+     * Test method for {@link Runtime#availableProcessors() public native int java.lang.Runtime.availableProcessors()}.
+     *
+     * <p>
+     * Test method for {@link Runtime#availableProcessors() public native int java.lang.Runtime.availableProcessors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#addShutdownHook(java.lang.Thread)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addShutdownHook_Thread()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#availableProcessors() public native int
-     * java.lang.Runtime.availableProcessors()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#availableProcessors()
+     * @see Runtime#availableProcessors() public native int java.lang.Runtime.availableProcessors() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -72,299 +53,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#exec(java.lang.String) public java.lang.Process
-     * java.lang.Runtime.exec(java.lang.String) throws java.io.IOException}.
+     * Test method for {@link Runtime#loadLibrary(String) public void java.lang.Runtime.loadLibrary(java.lang.String)}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#exec(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exec_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.lang.Runtime#exec(java.lang.String, java.lang.String[]) public java.lang.Process
-     * java.lang.Runtime.exec(java.lang.String,java.lang.String[]) throws java.io.IOException}.
+     * Test method for {@link Runtime#loadLibrary(String) public void java.lang.Runtime.loadLibrary(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#exec(java.lang.String, java.lang.String[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exec_String_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#exec(java.lang.String, java.lang.String[], java.io.File) public
-     * java.lang.Process java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#exec(java.lang.String, java.lang.String[], java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exec_String_StringArray_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#exec(java.lang.String[]) public java.lang.Process
-     * java.lang.Runtime.exec(java.lang.String[]) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#exec(java.lang.String[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exec_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#exec(java.lang.String[], java.lang.String[]) public java.lang.Process
-     * java.lang.Runtime.exec(java.lang.String[],java.lang.String[]) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#exec(java.lang.String[], java.lang.String[])
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exec_StringArray_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#exec(java.lang.String[], java.lang.String[], java.io.File) public
-     * java.lang.Process java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#exec(java.lang.String[], java.lang.String[], java.io.File)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exec_StringArray_StringArray_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#exit(int) public void java.lang.Runtime.exit(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#exit(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exit_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#freeMemory() public native long java.lang.Runtime.freeMemory()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#freeMemory()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_freeMemory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#gc() public native void java.lang.Runtime.gc()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#gc()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_gc()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#getLocalizedInputStream(java.io.InputStream) public java.io.InputStream
-     * java.lang.Runtime.getLocalizedInputStream(java.io.InputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#getLocalizedInputStream(java.io.InputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalizedInputStream_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#getLocalizedOutputStream(java.io.OutputStream) public
-     * java.io.OutputStream java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#getLocalizedOutputStream(java.io.OutputStream)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalizedOutputStream_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#halt(int) public void java.lang.Runtime.halt(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#halt(int)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_halt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#load(java.lang.String) public void
-     * java.lang.Runtime.load(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#load(java.lang.String)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_load_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Runtime#loadLibrary(java.lang.String) public void
-     * java.lang.Runtime.loadLibrary(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.lang.Runtime#loadLibrary(java.lang.String)
+     * @see Runtime#loadLibrary(String) public void java.lang.Runtime.loadLibrary(java.lang.String) (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -378,14 +78,44 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#maxMemory() public native long java.lang.Runtime.maxMemory()}.
+     * Test method for {@link Runtime#traceMethodCalls(boolean) public native void
+     * java.lang.Runtime.traceMethodCalls(boolean)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#traceMethodCalls(boolean) public native void
+     * java.lang.Runtime.traceMethodCalls(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#maxMemory()
+     * @see Runtime#traceMethodCalls(boolean) public native void java.lang.Runtime.traceMethodCalls(boolean) (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_traceMethodCalls_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#maxMemory() public native long java.lang.Runtime.maxMemory()}.
+     *
+     * <p>
+     * Test method for {@link Runtime#maxMemory() public native long java.lang.Runtime.maxMemory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#maxMemory() public native long java.lang.Runtime.maxMemory() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -399,20 +129,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#removeShutdownHook(java.lang.Thread) public boolean
-     * java.lang.Runtime.removeShutdownHook(java.lang.Thread)}.
+     * Test method for {@link Runtime#getLocalizedOutputStream(java.io.OutputStream) public java.io.OutputStream
+     * java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#getLocalizedOutputStream(java.io.OutputStream) public java.io.OutputStream
+     * java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#removeShutdownHook(java.lang.Thread)
+     * @see Runtime#getLocalizedOutputStream(java.io.OutputStream) public java.io.OutputStream
+     *      java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream) (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeShutdownHook_Thread()
+    public default void test_getLocalizedOutputStream_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -421,19 +156,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#runFinalization() public void java.lang.Runtime.runFinalization()}.
+     * Test method for {@link Runtime#addShutdownHook(Thread) public void
+     * java.lang.Runtime.addShutdownHook(java.lang.Thread)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#addShutdownHook(Thread) public void
+     * java.lang.Runtime.addShutdownHook(java.lang.Thread)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#runFinalization()
+     * @see Runtime#addShutdownHook(Thread) public void java.lang.Runtime.addShutdownHook(java.lang.Thread) (the hereby
+     *      targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_runFinalization()
+    public default void test_addShutdownHook_Thread()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -442,14 +183,43 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#totalMemory() public native long java.lang.Runtime.totalMemory()}.
+     * Test method for {@link Runtime#load(String) public void java.lang.Runtime.load(java.lang.String)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#load(String) public void java.lang.Runtime.load(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#totalMemory()
+     * @see Runtime#load(String) public void java.lang.Runtime.load(java.lang.String) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_load_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#totalMemory() public native long java.lang.Runtime.totalMemory()}.
+     *
+     * <p>
+     * Test method for {@link Runtime#totalMemory() public native long java.lang.Runtime.totalMemory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#totalMemory() public native long java.lang.Runtime.totalMemory() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -463,7 +233,302 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#traceInstructions(boolean) public native void
+     * Test method for {@link Runtime#getLocalizedInputStream(java.io.InputStream) public java.io.InputStream
+     * java.lang.Runtime.getLocalizedInputStream(java.io.InputStream)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#getLocalizedInputStream(java.io.InputStream) public java.io.InputStream
+     * java.lang.Runtime.getLocalizedInputStream(java.io.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#getLocalizedInputStream(java.io.InputStream) public java.io.InputStream
+     *      java.lang.Runtime.getLocalizedInputStream(java.io.InputStream) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalizedInputStream_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exit(int) public void java.lang.Runtime.exit(int)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exit(int) public void java.lang.Runtime.exit(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exit(int) public void java.lang.Runtime.exit(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exit_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#halt(int) public void java.lang.Runtime.halt(int)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#halt(int) public void java.lang.Runtime.halt(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#halt(int) public void java.lang.Runtime.halt(int) (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_halt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#runFinalization() public void java.lang.Runtime.runFinalization()}.
+     *
+     * <p>
+     * Test method for {@link Runtime#runFinalization() public void java.lang.Runtime.runFinalization()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#runFinalization() public void java.lang.Runtime.runFinalization() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_runFinalization()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exec(String, String[]) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String,java.lang.String[]) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exec(String, String[]) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String,java.lang.String[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exec(String, String[]) public java.lang.Process
+     *      java.lang.Runtime.exec(java.lang.String,java.lang.String[]) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exec_String_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exec(String) public java.lang.Process java.lang.Runtime.exec(java.lang.String)
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exec(String) public java.lang.Process java.lang.Runtime.exec(java.lang.String)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exec(String) public java.lang.Process java.lang.Runtime.exec(java.lang.String) throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exec_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exec(String[]) public java.lang.Process java.lang.Runtime.exec(java.lang.String[])
+     * throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exec(String[]) public java.lang.Process java.lang.Runtime.exec(java.lang.String[])
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exec(String[]) public java.lang.Process java.lang.Runtime.exec(java.lang.String[]) throws
+     *      java.io.IOException (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exec_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exec(String[], String[], java.io.File) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exec(String[], String[], java.io.File) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exec(String[], String[], java.io.File) public java.lang.Process
+     *      java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File) throws java.io.IOException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exec_StringArray_StringArray_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exec(String[], String[]) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String[],java.lang.String[]) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exec(String[], String[]) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String[],java.lang.String[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exec(String[], String[]) public java.lang.Process
+     *      java.lang.Runtime.exec(java.lang.String[],java.lang.String[]) throws java.io.IOException (the hereby
+     *      targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exec_StringArray_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#exec(String, String[], java.io.File) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File) throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link Runtime#exec(String, String[], java.io.File) public java.lang.Process
+     * java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#exec(String, String[], java.io.File) public java.lang.Process
+     *      java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File) throws java.io.IOException (the
+     *      hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exec_String_StringArray_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#freeMemory() public native long java.lang.Runtime.freeMemory()}.
+     *
+     * <p>
+     * Test method for {@link Runtime#freeMemory() public native long java.lang.Runtime.freeMemory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#freeMemory() public native long java.lang.Runtime.freeMemory() (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_freeMemory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#traceInstructions(boolean) public native void
+     * java.lang.Runtime.traceInstructions(boolean)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#traceInstructions(boolean) public native void
      * java.lang.Runtime.traceInstructions(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -471,7 +536,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#traceInstructions(boolean)
+     * @see Runtime#traceInstructions(boolean) public native void java.lang.Runtime.traceInstructions(boolean) (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -485,20 +551,49 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Runtime#traceMethodCalls(boolean) public native void
-     * java.lang.Runtime.traceMethodCalls(boolean)}.
+     * Test method for {@link Runtime#gc() public native void java.lang.Runtime.gc()}.
+     *
+     * <p>
+     * Test method for {@link Runtime#gc() public native void java.lang.Runtime.gc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.lang.Runtime#traceMethodCalls(boolean)
+     * @see Runtime#gc() public native void java.lang.Runtime.gc() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_traceMethodCalls_boolean()
+    public default void test_gc()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link Runtime#removeShutdownHook(Thread) public boolean
+     * java.lang.Runtime.removeShutdownHook(java.lang.Thread)}.
+     *
+     * <p>
+     * Test method for {@link Runtime#removeShutdownHook(Thread) public boolean
+     * java.lang.Runtime.removeShutdownHook(java.lang.Thread)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see Runtime#removeShutdownHook(Thread) public boolean java.lang.Runtime.removeShutdownHook(java.lang.Thread)
+     *      (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeShutdownHook_Thread()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

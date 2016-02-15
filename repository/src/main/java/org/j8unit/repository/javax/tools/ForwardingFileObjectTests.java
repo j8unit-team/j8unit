@@ -8,42 +8,49 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.tools.ForwardingFileObject class
- * javax.tools.ForwardingFileObject}, containing all instance relevant test methods (i.&thinsp;e., test methods of non-
- * {@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.tools.ForwardingFileObjectTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.tools.ForwardingFileObject class javax.tools.ForwardingFileObject}.
+ * The complementary j8unit test interface containing the class relevant aspects is
+ * {@link ForwardingFileObjectClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.tools.ForwardingFileObjectClassTests
+ * @see javax.tools.ForwardingFileObject class javax.tools.ForwardingFileObject (the hereby targeted class-under-test
+ *      class)
+ * @see ForwardingFileObjectClassTests ForwardingFileObjectClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.tools.ForwardingFileObject
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForwardingFileObjectTests<SUT extends javax.tools.ForwardingFileObject<F>, F extends javax.tools.FileObject>
-extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends FileObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#delete() public boolean
-     * javax.tools.ForwardingFileObject.delete()}.
+     * Test method for {@link javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
+     * javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
+     * javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.ForwardingFileObject#delete()
+     * @see javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
+     *      javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_delete()
+    public default void test_openInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,17 +62,23 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * Test method for {@link javax.tools.ForwardingFileObject#getCharContent(boolean) public java.lang.CharSequence
      * javax.tools.ForwardingFileObject.getCharContent(boolean) throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#getCharContent(boolean) public java.lang.CharSequence
+     * javax.tools.ForwardingFileObject.getCharContent(boolean) throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.ForwardingFileObject#getCharContent(boolean)
+     * @see javax.tools.ForwardingFileObject#getCharContent(boolean) public java.lang.CharSequence
+     *      javax.tools.ForwardingFileObject.getCharContent(boolean) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getCharContent_boolean()
     throws Exception {
         // query fresh subject-under-test
@@ -75,67 +88,26 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#getLastModified() public long
-     * javax.tools.ForwardingFileObject.getLastModified()}.
+     * Test method for {@link javax.tools.ForwardingFileObject#delete() public boolean
+     * javax.tools.ForwardingFileObject.delete()}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.ForwardingFileObject#getLastModified()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLastModified()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#getName() public java.lang.String
-     * javax.tools.ForwardingFileObject.getName()}.
+     * Test method for {@link javax.tools.ForwardingFileObject#delete() public boolean
+     * javax.tools.ForwardingFileObject.delete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.ForwardingFileObject#getName()
+     * @see javax.tools.ForwardingFileObject#delete() public boolean javax.tools.ForwardingFileObject.delete() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
-     * javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.ForwardingFileObject#openInputStream()
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_openInputStream()
+    public default void test_delete()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,17 +119,23 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * Test method for {@link javax.tools.ForwardingFileObject#openOutputStream() public java.io.OutputStream
      * javax.tools.ForwardingFileObject.openOutputStream() throws java.io.IOException}.
      *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#openOutputStream() public java.io.OutputStream
+     * javax.tools.ForwardingFileObject.openOutputStream() throws java.io.IOException}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.ForwardingFileObject#openOutputStream()
+     * @see javax.tools.ForwardingFileObject#openOutputStream() public java.io.OutputStream
+     *      javax.tools.ForwardingFileObject.openOutputStream() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_openOutputStream()
     throws Exception {
         // query fresh subject-under-test
@@ -170,41 +148,24 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * Test method for {@link javax.tools.ForwardingFileObject#openReader(boolean) public java.io.Reader
      * javax.tools.ForwardingFileObject.openReader(boolean) throws java.io.IOException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim javax.tools.ForwardingFileObject#openReader(boolean)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_openReader_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#openWriter() public java.io.Writer
-     * javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
+     * Test method for {@link javax.tools.ForwardingFileObject#openReader(boolean) public java.io.Reader
+     * javax.tools.ForwardingFileObject.openReader(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.ForwardingFileObject#openWriter()
+     * @see javax.tools.ForwardingFileObject#openReader(boolean) public java.io.Reader
+     *      javax.tools.ForwardingFileObject.openReader(boolean) throws java.io.IOException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_openWriter()
+    public default void test_openReader_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,18 +177,108 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
      * Test method for {@link javax.tools.ForwardingFileObject#toUri() public java.net.URI
      * javax.tools.ForwardingFileObject.toUri()}.
      *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#toUri() public java.net.URI
+     * javax.tools.ForwardingFileObject.toUri()}.
+     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.tools.ForwardingFileObject#toUri()
+     * @see javax.tools.ForwardingFileObject#toUri() public java.net.URI javax.tools.ForwardingFileObject.toUri() (the
+     *      hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toUri()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#openWriter() public java.io.Writer
+     * javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#openWriter() public java.io.Writer
+     * javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.ForwardingFileObject#openWriter() public java.io.Writer
+     *      javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_openWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#getName() public java.lang.String
+     * javax.tools.ForwardingFileObject.getName()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#getName() public java.lang.String
+     * javax.tools.ForwardingFileObject.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.ForwardingFileObject#getName() public java.lang.String
+     *      javax.tools.ForwardingFileObject.getName() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#getLastModified() public long
+     * javax.tools.ForwardingFileObject.getLastModified()}.
+     *
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#getLastModified() public long
+     * javax.tools.ForwardingFileObject.getLastModified()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see javax.tools.ForwardingFileObject#getLastModified() public long
+     *      javax.tools.ForwardingFileObject.getLastModified() (the hereby targeted method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLastModified()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

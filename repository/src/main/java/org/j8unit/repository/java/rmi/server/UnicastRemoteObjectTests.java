@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.server.UnicastRemoteObject class
- * java.rmi.server.UnicastRemoteObject}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.server.UnicastRemoteObjectTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.server.UnicastRemoteObject class
+ * java.rmi.server.UnicastRemoteObject}. The complementary j8unit test interface containing the class relevant aspects
+ * is {@link UnicastRemoteObjectClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests
+ * @see java.rmi.server.UnicastRemoteObject class java.rmi.server.UnicastRemoteObject (the hereby targeted
+ *      class-under-test class)
+ * @see UnicastRemoteObjectClassTests UnicastRemoteObjectClassTests (the complementary j8unit test interface containing
+ *      the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.server.UnicastRemoteObject
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnicastRemoteObjectTests<SUT extends java.rmi.server.UnicastRemoteObject>
-extends org.j8unit.repository.java.rmi.server.RemoteServerTests<SUT> {
+extends RemoteServerTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.rmi.server.UnicastRemoteObject#clone() public java.lang.Object
+     * java.rmi.server.UnicastRemoteObject.clone() throws java.lang.CloneNotSupportedException}.
+     *
      * <p>
      * Test method for {@link java.rmi.server.UnicastRemoteObject#clone() public java.lang.Object
      * java.rmi.server.UnicastRemoteObject.clone() throws java.lang.CloneNotSupportedException}.
@@ -37,7 +42,9 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.server.UnicastRemoteObject#clone()
+     * @see java.rmi.server.UnicastRemoteObject#clone() public java.lang.Object
+     *      java.rmi.server.UnicastRemoteObject.clone() throws java.lang.CloneNotSupportedException (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

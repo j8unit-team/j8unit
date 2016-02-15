@@ -9,19 +9,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.rmi.server.LoaderHandler interface java.rmi.server.LoaderHandler}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.rmi.server.LoaderHandlerTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.rmi.server.LoaderHandler interface java.rmi.server.LoaderHandler}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link LoaderHandlerClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.rmi.server.LoaderHandlerClassTests
+ * @see java.rmi.server.LoaderHandler interface java.rmi.server.LoaderHandler (the hereby targeted class-under-test
+ *      class)
+ * @see LoaderHandlerClassTests LoaderHandlerClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.rmi.server.LoaderHandler
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -30,29 +30,12 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.LoaderHandler#getSecurityContext(java.lang.ClassLoader) public abstract
-     * java.lang.Object java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader)}.
+     * Test method for {@link java.rmi.server.LoaderHandler#loadClass(String) public abstract java.lang.Class
+     * <?> java.rmi.server.LoaderHandler.loadClass(java.lang.String) throws
+     * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @j8unit.aim java.rmi.server.LoaderHandler#getSecurityContext(java.lang.ClassLoader)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSecurityContext_ClassLoader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.rmi.server.LoaderHandler#loadClass(java.lang.String) public abstract java.lang.Class
+     * Test method for {@link java.rmi.server.LoaderHandler#loadClass(String) public abstract java.lang.Class
      * java.rmi.server.LoaderHandler.loadClass(java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
@@ -61,7 +44,9 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.server.LoaderHandler#loadClass(java.lang.String)
+     * @see java.rmi.server.LoaderHandler#loadClass(String) public abstract java.lang.Class
+     *      java.rmi.server.LoaderHandler.loadClass(java.lang.String) throws
+     *      java.net.MalformedURLException,java.lang.ClassNotFoundException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,7 +60,12 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.LoaderHandler#loadClass(java.net.URL, java.lang.String) public abstract
+     * Test method for {@link java.rmi.server.LoaderHandler#loadClass(java.net.URL, String) public abstract
+     * java.lang.Class<?> java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
+     * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
+     *
+     * <p>
+     * Test method for {@link java.rmi.server.LoaderHandler#loadClass(java.net.URL, String) public abstract
      * java.lang.Class java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
@@ -84,12 +74,42 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.rmi.server.LoaderHandler#loadClass(java.net.URL, java.lang.String)
+     * @see java.rmi.server.LoaderHandler#loadClass(java.net.URL, String) public abstract java.lang.Class
+     *      java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
+     *      java.net.MalformedURLException,java.lang.ClassNotFoundException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     public default void test_loadClass_URL_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.LoaderHandler#getSecurityContext(ClassLoader) public abstract
+     * java.lang.Object java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader)}.
+     *
+     * <p>
+     * Test method for {@link java.rmi.server.LoaderHandler#getSecurityContext(ClassLoader) public abstract
+     * java.lang.Object java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @see java.rmi.server.LoaderHandler#getSecurityContext(ClassLoader) public abstract java.lang.Object
+     *      java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader) (the hereby targeted
+     *      method-under-test)
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSecurityContext_ClassLoader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

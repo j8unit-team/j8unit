@@ -5,19 +5,19 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.sound.sampled.AudioSystem class javax.sound.sampled.AudioSystem}
- * , containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
- * counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.sound.sampled.AudioSystemTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.sound.sampled.AudioSystem class javax.sound.sampled.AudioSystem}.
+ * The complementary j8unit test interface containing the class relevant aspects is {@link AudioSystemClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.sound.sampled.AudioSystemClassTests
+ * @see javax.sound.sampled.AudioSystem class javax.sound.sampled.AudioSystem (the hereby targeted class-under-test
+ *      class)
+ * @see AudioSystemClassTests AudioSystemClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.sound.sampled.AudioSystem
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)

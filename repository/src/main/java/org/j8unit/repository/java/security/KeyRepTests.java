@@ -5,18 +5,18 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.KeyRep class java.security.KeyRep}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.java.security.KeyRepTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.KeyRep class java.security.KeyRep}. The complementary j8unit
+ * test interface containing the class relevant aspects is {@link KeyRepClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.KeyRepClassTests
+ * @see java.security.KeyRep class java.security.KeyRep (the hereby targeted class-under-test class)
+ * @see KeyRepClassTests KeyRepClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.KeyRep
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -25,19 +25,19 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Reusable J8Unit test interface for {@linkplain java.security.KeyRep.Type class java.security.KeyRep$Type},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The
-     * counterpart J8Unit test interface containing the class relevant test methods is
-     * {@link org.j8unit.repository.java.security.KeyRepTests.TypeTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+     * non-{@code static} methods) of {@linkplain java.security.KeyRep.Type class java.security.KeyRep$Type}. The
+     * complementary j8unit test interface containing the class relevant aspects is
+     * {@link KeyRepClassTests.TypeClassTests}.
      * </p>
      *
-     * @see org.j8unit.repository.java.security.KeyRepClassTests.TypeClassTests
+     * @see java.security.KeyRep.Type class java.security.KeyRep$Type (the hereby targeted class-under-test class)
+     * @see KeyRepClassTests.TypeClassTests KeyRepClassTests.TypeClassTests (the complementary j8unit test interface
+     *      containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     *
-     * @j8unit.aim java.security.KeyRep.Type
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)

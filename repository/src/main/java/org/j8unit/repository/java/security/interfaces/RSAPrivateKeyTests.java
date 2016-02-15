@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain java.security.interfaces.RSAPrivateKey interface
- * java.security.interfaces.RSAPrivateKey}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain java.security.interfaces.RSAPrivateKey interface
+ * java.security.interfaces.RSAPrivateKey}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link RSAPrivateKeyClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.java.security.interfaces.RSAPrivateKeyClassTests
+ * @see java.security.interfaces.RSAPrivateKey interface java.security.interfaces.RSAPrivateKey (the hereby targeted
+ *      class-under-test class)
+ * @see RSAPrivateKeyClassTests RSAPrivateKeyClassTests (the complementary j8unit test interface containing the class
+ *      relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim java.security.interfaces.RSAPrivateKey
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RSAPrivateKeyTests<SUT extends java.security.interfaces.RSAPrivateKey>
-extends org.j8unit.repository.java.security.PrivateKeyTests<SUT>, org.j8unit.repository.java.security.interfaces.RSAKeyTests<SUT> {
+extends org.j8unit.repository.java.security.PrivateKeyTests<SUT>, RSAKeyTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAPrivateKey#getPrivateExponent() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAPrivateKey.getPrivateExponent()}.
+     *
      * <p>
      * Test method for {@link java.security.interfaces.RSAPrivateKey#getPrivateExponent() public abstract
      * java.math.BigInteger java.security.interfaces.RSAPrivateKey.getPrivateExponent()}.
@@ -37,7 +42,8 @@ extends org.j8unit.repository.java.security.PrivateKeyTests<SUT>, org.j8unit.rep
      * methods soon.
      * </p>
      *
-     * @j8unit.aim java.security.interfaces.RSAPrivateKey#getPrivateExponent()
+     * @see java.security.interfaces.RSAPrivateKey#getPrivateExponent() public abstract java.math.BigInteger
+     *      java.security.interfaces.RSAPrivateKey.getPrivateExponent() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

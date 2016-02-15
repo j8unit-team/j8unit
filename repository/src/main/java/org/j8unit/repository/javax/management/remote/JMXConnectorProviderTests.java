@@ -9,19 +9,20 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.management.remote.JMXConnectorProvider interface
- * javax.management.remote.JMXConnectorProvider}, containing all instance relevant test methods (i.&thinsp;e., test
- * methods of non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test
- * methods is {@link org.j8unit.repository.javax.management.remote.JMXConnectorProviderTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.management.remote.JMXConnectorProvider interface
+ * javax.management.remote.JMXConnectorProvider}. The complementary j8unit test interface containing the class relevant
+ * aspects is {@link JMXConnectorProviderClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.management.remote.JMXConnectorProviderClassTests
+ * @see javax.management.remote.JMXConnectorProvider interface javax.management.remote.JMXConnectorProvider (the hereby
+ *      targeted class-under-test class)
+ * @see JMXConnectorProviderClassTests JMXConnectorProviderClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.management.remote.JMXConnectorProvider
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
@@ -29,6 +30,13 @@ public abstract interface JMXConnectorProviderTests<SUT extends javax.management
 extends RepositoryTests<SUT> {
 
     /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.JMXConnectorProvider#newJMXConnector(javax.management.remote.JMXServiceURL, java.util.Map)
+     * public abstract javax.management.remote.JMXConnector
+     * javax.management.remote.JMXConnectorProvider.newJMXConnector(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
+     * ?>) throws java.io.IOException}.
+     *
      * <p>
      * Test method for
      * {@link javax.management.remote.JMXConnectorProvider#newJMXConnector(javax.management.remote.JMXServiceURL, java.util.Map)
@@ -41,8 +49,10 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.management.remote.JMXConnectorProvider#newJMXConnector(javax.management.remote.JMXServiceURL,
-     *             java.util.Map)
+     * @see javax.management.remote.JMXConnectorProvider#newJMXConnector(javax.management.remote.JMXServiceURL,
+     *      java.util.Map) public abstract javax.management.remote.JMXConnector
+     *      javax.management.remote.JMXConnectorProvider.newJMXConnector(javax.management.remote.JMXServiceURL,java.util
+     *      .Map) throws java.io.IOException (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test

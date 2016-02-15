@@ -8,26 +8,31 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.ws.RespectBindingFeature class
- * javax.xml.ws.RespectBindingFeature}, containing all instance relevant test methods (i.&thinsp;e., test methods of
- * non-{@code static} methods). The counterpart J8Unit test interface containing the class relevant test methods is
- * {@link org.j8unit.repository.javax.xml.ws.RespectBindingFeatureTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.ws.RespectBindingFeature class
+ * javax.xml.ws.RespectBindingFeature}. The complementary j8unit test interface containing the class relevant aspects is
+ * {@link RespectBindingFeatureClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.ws.RespectBindingFeatureClassTests
+ * @see javax.xml.ws.RespectBindingFeature class javax.xml.ws.RespectBindingFeature (the hereby targeted
+ *      class-under-test class)
+ * @see RespectBindingFeatureClassTests RespectBindingFeatureClassTests (the complementary j8unit test interface
+ *      containing the class relevant test methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.ws.RespectBindingFeature
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RespectBindingFeatureTests<SUT extends javax.xml.ws.RespectBindingFeature>
-extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
+extends WebServiceFeatureTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.xml.ws.RespectBindingFeature#getID() public java.lang.String
+     * javax.xml.ws.RespectBindingFeature.getID()}.
+     *
      * <p>
      * Test method for {@link javax.xml.ws.RespectBindingFeature#getID() public java.lang.String
      * javax.xml.ws.RespectBindingFeature.getID()}.
@@ -37,12 +42,13 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.ws.RespectBindingFeature#getID()
+     * @see javax.xml.ws.RespectBindingFeature#getID() public java.lang.String
+     *      javax.xml.ws.RespectBindingFeature.getID() (the hereby targeted method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_getID()
     throws Exception {
         // query fresh subject-under-test

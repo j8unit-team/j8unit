@@ -8,25 +8,28 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable J8Unit test interface for {@linkplain javax.xml.soap.Text interface javax.xml.soap.Text}, containing all
- * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods). The counterpart J8Unit
- * test interface containing the class relevant test methods is {@link org.j8unit.repository.javax.xml.soap.TextTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
+ * non-{@code static} methods) of {@linkplain javax.xml.soap.Text interface javax.xml.soap.Text}. The complementary
+ * j8unit test interface containing the class relevant aspects is {@link TextClassTests}.
  * </p>
  *
- * @see org.j8unit.repository.javax.xml.soap.TextClassTests
+ * @see javax.xml.soap.Text interface javax.xml.soap.Text (the hereby targeted class-under-test class)
+ * @see TextClassTests TextClassTests (the complementary j8unit test interface containing the class relevant test
+ *      methods)
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
- *
- * @j8unit.aim javax.xml.soap.Text
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextTests<SUT extends javax.xml.soap.Text>
-extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.repository.org.w3c.dom.TextTests<SUT> {
+extends NodeTests<SUT>, org.j8unit.repository.org.w3c.dom.TextTests<SUT> {
 
     /**
+     * <p>
+     * Test method for {@link javax.xml.soap.Text#isComment() public abstract boolean javax.xml.soap.Text.isComment()}.
+     *
      * <p>
      * Test method for {@link javax.xml.soap.Text#isComment() public abstract boolean javax.xml.soap.Text.isComment()}.
      *
@@ -35,7 +38,8 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @j8unit.aim javax.xml.soap.Text#isComment()
+     * @see javax.xml.soap.Text#isComment() public abstract boolean javax.xml.soap.Text.isComment() (the hereby targeted
+     *      method-under-test)
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
