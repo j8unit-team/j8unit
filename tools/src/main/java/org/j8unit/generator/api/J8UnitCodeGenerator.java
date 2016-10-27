@@ -17,6 +17,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.Set;
+import org.j8unit.generator.EnvelopedTypeModifiers;
 import org.j8unit.generator.api.control.GeneratorOutputControler;
 import org.j8unit.generator.api.control.GeneratorUseControler;
 import org.j8unit.generator.api.render.OriginRenderer;
@@ -26,7 +27,7 @@ import org.j8unit.generator.api.render.TargetRenderer;
  * TODO: JavaDoc
  */
 public abstract interface J8UnitCodeGenerator
-extends J8UnitGenerator {
+extends J8UnitGenerator, EnvelopedTypeModifiers {
 
     /**
      * <p>

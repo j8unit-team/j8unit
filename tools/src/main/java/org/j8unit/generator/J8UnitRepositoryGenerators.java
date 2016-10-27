@@ -22,7 +22,6 @@ import static org.j8unit.generator.api.RepositoryTokens.IGNORE_MESSAGE;
 import static org.j8unit.generator.api.RepositoryTokens.VERSION_REPO_INITIAL;
 import static org.j8unit.generator.api.RepositoryTokens.VERSION_REPO_UPDATE;
 import static org.j8unit.generator.util.Java.ENUMERATION_DELIMITER;
-import static org.j8unit.generator.util.Java.STATIC;
 import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.Suppliers.runtimed;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestDeclaringParents;
@@ -95,7 +94,7 @@ implements J8UnitCodeGenerator {
             // data preparations
             final String indt = indent(depth);
             final ModusOperandi modusOperandi = this.modusOperandi(type);
-            final String optionalModifier = (depth == 0) ? "" : STATIC;
+            final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = modusOperandi.getTestInterfaceGenericStatement(renderer, type);
             final List<String> j8unitSuperTypes = modusOperandi.getTestInterfaceSuperTypesDefinitions(type, control, renderer);
@@ -111,7 +110,7 @@ implements J8UnitCodeGenerator {
             // content creation: @Category(J8UnitRepository.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(J8UnitRepository.class)));
             // content creation: J8Unit Test Interface Declaration
-            out.append(format("%spublic %s abstract interface %s%s%n", indt, optionalModifier, j8unitName, j8unitGenerics));
+            out.append(format("%spublic %s abstract interface %s%s%n", indt, optionalModifiers, j8unitName, j8unitGenerics));
             out.append(format("%sextends %s%n", indt, j8unitSuperTypesStatement));
             out.append(format("%s{%n", indt));
             out.append(format("%n"));
@@ -346,7 +345,7 @@ implements J8UnitCodeGenerator {
             // data preparations
             final String indt = indent(depth);
             final ModusOperandi modusOperandi = this.modusOperandi(type);
-            final String optionalStatic = (depth == 0) ? "" : STATIC;
+            final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = modusOperandi.getTestInterfaceGenericStatement(renderer, type);
             final List<String> j8unitSuperTypes = modusOperandi.getTestInterfaceSuperTypesDefinitions(type, control, renderer);
@@ -363,7 +362,7 @@ implements J8UnitCodeGenerator {
             // 4. @Category(J8UnitRepository.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(J8UnitRepository.class)));
             // 5. J8Unit Test Interface Declaration
-            out.append(format("%spublic %s abstract interface %s%s%n", indt, optionalStatic, j8unitName, j8unitGenerics));
+            out.append(format("%spublic %s abstract interface %s%s%n", indt, optionalModifiers, j8unitName, j8unitGenerics));
             out.append(format("%sextends %s%n", indt, j8unitSuperTypesStatement));
             out.append(format("%s{%n", indt));
             out.append(format("%n"));

@@ -25,7 +25,6 @@ import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_SYNTHETIC_METHOD;
 import static org.j8unit.generator.api.RepositoryTokens.IGNORE_MESSAGE;
-import static org.j8unit.generator.util.Java.STATIC;
 import static org.j8unit.generator.util.Java.diamond;
 import static org.j8unit.generator.util.OptionalString.ofEmptyable;
 import static org.j8unit.generator.util.Optionals.optionalise;
@@ -113,8 +112,8 @@ implements J8UnitCodeGenerator {
                                                                                                     final int depth, final StringBuilder sutCreation) {
             // data preparations
             final String indent = indent(depth);
-            final ModusOperandi modusOperandi = ModusOperandi.valueOf(this.accessScope, type);
-            final String optionalStatic = (depth == 0) ? "" : STATIC;
+            final ModusOperandi modusOperandi = this.modusOperandi(type);
+            final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = diamond(renderer.listOfTypeParameterDefinitionsOf(type));
             final String testClassInterfaceType = complementaryBehaviour.targetCanonicalNameOf(type);
@@ -127,7 +126,7 @@ implements J8UnitCodeGenerator {
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Interface Declaration
-            out.append(format("%spublic %s class %s%s%n", indent, optionalStatic, j8unitName, j8unitGenerics));
+            out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
             out.append(format("%simplements %s%s%n", indent, testClassInterfaceType, testClassInterfaceGenerics));
             out.append(format("%s{%n", indent));
             out.append(format("%n"));
@@ -234,8 +233,8 @@ implements J8UnitCodeGenerator {
                                                                                                                 final StringBuilder sutCreation) {
             // data preparations
             final String indent = indent(depth);
-            final ModusOperandi modusOperandi = ModusOperandi.valueOf(this.accessScope, type);
-            final String optionalStatic = (depth == 0) ? "" : "static ";
+            final ModusOperandi modusOperandi = this.modusOperandi(type);
+            final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = diamond(renderer.listOfTypeParameterDefinitionsOf(type));
             final String testClassInterfaceType = complementaryBehaviour.targetCanonicalNameOf(type);
@@ -251,7 +250,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class),
                               renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
             // content creation: J8Unit Test Interface Declaration
-            out.append(format("%spublic %sclass %s%s%n", indent, optionalStatic, j8unitName, j8unitGenerics));
+            out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
             out.append(format("%simplements %s, %s%s%n", indent, modusOperandi.getTestClassBaseTypeDefinition(renderer, FactoryBasedJ8UnitTest.class, type),
                               testClassInterfaceType, testClassInterfaceGenerics));
             out.append(format("%s{%n", indent));
@@ -337,8 +336,8 @@ implements J8UnitCodeGenerator {
                                                                                                    final int depth) {
             // data preparations
             final String indt = indent(depth);
-            final ModusOperandi modusOperandi = ModusOperandi.valueOf(this.accessScope, type);
-            final String optionalModifier = (depth == 0) ? "" : STATIC;
+            final ModusOperandi modusOperandi = this.modusOperandi(type);
+            final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitBlueprintStatement = complementary.targetCanonicalNameOf(type) + diamond(renderer.originCanonicalNameOf(type));
             // content storage
@@ -350,7 +349,7 @@ implements J8UnitCodeGenerator {
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Class Declaration
-            out.append(format("%spublic %s class %s%n", indt, optionalModifier, j8unitName));
+            out.append(format("%spublic %s class %s%n", indt, optionalModifiers, j8unitName));
             out.append(format("%simplements %s {%n", indt, j8unitBlueprintStatement));
             out.append(format("%n"));
             // content creation: Begin Marker
@@ -404,7 +403,7 @@ implements J8UnitCodeGenerator {
                                                            // must be usable
                                                            .filter(control::useConstructor) //
                                                            // must match this access-scope
-                                                           .filter(this.accessScope::matches) //
+                                                           .filter(this.modusOperandi(type)::matches) //
                                                            // must be non-synthetic
                                                            .peek(m -> {
                                                                if (m.isSynthetic()) {
@@ -414,7 +413,7 @@ implements J8UnitCodeGenerator {
                                                            .filter(m -> !m.isSynthetic()) //
                                                            .collect(toSet());
             // finish
-            this.logger().info(METHODS_UNDER_TEST, type, this.accessScope, constructors);
+            this.logger().info(METHODS_UNDER_TEST, type, this.modusOperandi(type), constructors);
             return constructors;
         }
 
@@ -457,7 +456,7 @@ implements J8UnitCodeGenerator {
             // query all declared, relevant methods
             final Set<Method> methods = Arrays.stream(type.getDeclaredMethods()) //
                                               .filter(control::useMethod) //
-                                              .filter(this.accessScope::matches) //
+                                              .filter(this.modusOperandi(type)::matches) //
                                               .peek(m -> {
                                                   if (m.isSynthetic()) {
                                                       this.logger().warning(SKIP_SYNTHETIC_METHOD, type, m);
@@ -465,7 +464,7 @@ implements J8UnitCodeGenerator {
                                               }) //
                                               .filter(m -> !m.isSynthetic()) //
                                               .collect(toSet());
-            this.logger().info(METHODS_UNDER_TEST, type, this.accessScope, methods);
+            this.logger().info(METHODS_UNDER_TEST, type, this.modusOperandi(type), methods);
             return methods;
         }
 
@@ -489,7 +488,11 @@ implements J8UnitCodeGenerator {
 
     };
 
-    final AccessScope accessScope;
+    private final AccessScope accessScope;
+
+    protected final ModusOperandi modusOperandi(final Class<?> type) {
+        return ModusOperandi.valueOf(this.accessScope, type);
+    }
 
     private J8UnitRepositoryTestGenerators(final AccessScope accessScope) {
         this.accessScope = accessScope;
