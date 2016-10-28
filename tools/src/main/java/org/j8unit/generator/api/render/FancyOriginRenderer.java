@@ -38,4 +38,10 @@ extends ConciseOriginRenderer {
         }
     }
 
+    @Override
+    public default String javadocNameOf(final Class<?> entity) {
+        requireNonNull(entity);
+        return ConciseOriginRenderer.super.originCanonicalNameOf(entity);
+    }
+
 }
