@@ -495,8 +495,8 @@ public abstract interface OriginRenderer {
         requireNonNull(base);
         requireNonNull(executable);
         final String jdType = this.javadocNameOf(base);
-        final String jdExecutable = executable instanceof Constructor ? this.originSimpleNameOf(executable.getDeclaringClass()) : executable.getName();
-        final String jdParameters = csv(stream(executable.getParameterTypes()).map(this::originCanonicalNameOf));
+        final String jdExecutable = executable instanceof Constructor ? executable.getDeclaringClass().getSimpleName() : executable.getName();
+        final String jdParameters = csv(stream(executable.getParameterTypes()).map(this::javadocNameOf));
         return jdType + "#" + jdExecutable + "(" + (executable.isVarArgs() ? toVarArg(jdParameters) : jdParameters) + ")";
     }
 
