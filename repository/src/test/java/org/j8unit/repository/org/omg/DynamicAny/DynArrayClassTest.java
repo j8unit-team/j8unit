@@ -1,0 +1,20 @@
+package org.j8unit.repository.org.omg.DynamicAny;
+
+import org.j8unit.runners.J8Unit4;
+import org.junit.runner.RunWith;
+import org.omg.DynamicAny.DynArray;
+
+@RunWith(J8Unit4.class)
+public class DynArrayClassTest
+implements org.j8unit.repository.org.omg.DynamicAny.DynArrayClassTests<DynArray> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynArray]
+
+    @Override
+    public Class<DynArray> createNewSUT() {
+        return DynArray.class;
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynArray]
+
+}

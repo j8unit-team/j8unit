@@ -1,0 +1,66 @@
+package org.j8unit.repository.java.security;
+
+import java.security.Provider;
+import java.security.Provider.Service;
+import java.util.List;
+import java.util.Map;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class ProviderClassTest
+implements org.j8unit.repository.java.security.ProviderClassTests<Provider> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Provider]
+
+    @Override
+    public Class<Provider> createNewSUT() {
+        return Provider.class;
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider]
+
+    @RunWith(J8Unit4.class)
+    public static class ServiceClassTest
+    implements org.j8unit.repository.java.security.ProviderClassTests.ServiceClassTests<Service> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Provider$Service]
+
+        @Override
+        public Class<Service> createNewSUT() {
+            return Service.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link Service#Service(Provider, String, String, String, List, Map) public
+         * java.security.Provider$Service(java.security.Provider,java.lang.String,java.lang.String,java.lang.String,java.util.List
+         * <java.lang.String>,java.util.Map<java.lang.String, java.lang.String>)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Service_Provider_String_String_String_List_Map()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Service sut = null; // = new Service(Provider, String, String, String, List, Map);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider$Service]
+
+    }
+
+}

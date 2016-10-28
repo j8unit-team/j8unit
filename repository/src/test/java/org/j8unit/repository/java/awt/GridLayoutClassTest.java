@@ -1,0 +1,89 @@
+package org.j8unit.repository.java.awt;
+
+import java.awt.GridLayout;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class GridLayoutClassTest
+implements org.j8unit.repository.java.awt.GridLayoutClassTests<GridLayout> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.GridLayout]
+
+    @Override
+    public Class<GridLayout> createNewSUT() {
+        return GridLayout.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link GridLayout#GridLayout(int, int, int, int)
+     * public java.awt.GridLayout(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GridLayout_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final GridLayout sut = null; // = new GridLayout(int, int, int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link GridLayout#GridLayout(int, int) public
+     * java.awt.GridLayout(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GridLayout_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final GridLayout sut = null; // = new GridLayout(int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link GridLayout#GridLayout() public
+     * java.awt.GridLayout()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GridLayout()
+    throws Exception {
+        // create new instance
+        final GridLayout sut = new GridLayout();
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GridLayout]
+
+}

@@ -1,0 +1,20 @@
+package org.j8unit.repository.javax.naming;
+
+import javax.naming.Context;
+import org.j8unit.runners.J8Unit4;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class ContextClassTest
+implements org.j8unit.repository.javax.naming.ContextClassTests<Context> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.Context]
+
+    @Override
+    public Class<Context> createNewSUT() {
+        return Context.class;
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Context]
+
+}

@@ -1,0 +1,64 @@
+package org.j8unit.repository.java.net;
+
+import java.net.StandardProtocolFamily;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class StandardProtocolFamilyClassTest
+implements org.j8unit.repository.java.net.StandardProtocolFamilyClassTests<StandardProtocolFamily> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.StandardProtocolFamily]
+
+    @Override
+    public Class<StandardProtocolFamily> createNewSUT() {
+        return StandardProtocolFamily.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StandardProtocolFamily#valueOf(String) public static
+     * java.net.StandardProtocolFamily java.net.StandardProtocolFamily.valueOf(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_String()
+    throws Exception {
+        // write some test for {@link StandardProtocolFamily#valueOf(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StandardProtocolFamily#values() public static
+     * java.net.StandardProtocolFamily[] java.net.StandardProtocolFamily.values()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_values()
+    throws Exception {
+        // write some test for {@link StandardProtocolFamily#values()}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.net.StandardProtocolFamily]
+
+}

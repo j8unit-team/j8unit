@@ -1,0 +1,68 @@
+package org.j8unit.repository.java.awt;
+
+import java.awt.GraphicsDevice;
+import java.awt.Robot;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class RobotClassTest
+implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Robot]
+
+    @Override
+    public Class<Robot> createNewSUT() {
+        return Robot.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link Robot#Robot() public java.awt.Robot() throws
+     * java.awt.AWTException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Robot()
+    throws Exception {
+        // create new instance
+        final Robot sut = new Robot();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link Robot#Robot(GraphicsDevice) public
+     * java.awt.Robot(java.awt.GraphicsDevice) throws java.awt.AWTException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Robot_GraphicsDevice()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Robot sut = null; // = new Robot(GraphicsDevice);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Robot]
+
+}

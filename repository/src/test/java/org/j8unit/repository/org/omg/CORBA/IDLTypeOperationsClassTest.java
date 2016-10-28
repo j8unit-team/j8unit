@@ -1,0 +1,20 @@
+package org.j8unit.repository.org.omg.CORBA;
+
+import org.j8unit.runners.J8Unit4;
+import org.junit.runner.RunWith;
+import org.omg.CORBA.IDLTypeOperations;
+
+@RunWith(J8Unit4.class)
+public class IDLTypeOperationsClassTest
+implements org.j8unit.repository.org.omg.CORBA.IDLTypeOperationsClassTests<IDLTypeOperations> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IDLTypeOperations]
+
+    @Override
+    public Class<IDLTypeOperations> createNewSUT() {
+        return IDLTypeOperations.class;
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.IDLTypeOperations]
+
+}

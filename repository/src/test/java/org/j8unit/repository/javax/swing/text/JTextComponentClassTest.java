@@ -1,0 +1,224 @@
+package org.j8unit.repository.javax.swing.text;
+
+import static org.junit.Assert.fail;
+import javax.swing.Action;
+import javax.swing.KeyStroke;
+import javax.swing.text.JTextComponent;
+import javax.swing.text.JTextComponent.AccessibleJTextComponent;
+import javax.swing.text.JTextComponent.DropLocation;
+import javax.swing.text.JTextComponent.KeyBinding;
+import javax.swing.text.Keymap;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class JTextComponentClassTest
+implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<JTextComponent> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent]
+
+    @Override
+    public Class<JTextComponent> createNewSUT() {
+        return JTextComponent.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link JTextComponent#JTextComponent() public
+     * javax.swing.text.JTextComponent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("Cannot construct an abstract class!")
+    @Test
+    @Category(Draft.class)
+    public void create_JTextComponent()
+    throws Exception {
+        fail("Cannot construct an abstract class!");
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#loadKeymap(Keymap, KeyBinding[], Action[]) public static void
+     * javax.swing.text.JTextComponent.loadKeymap(javax.swing.text.Keymap,javax.swing.text.JTextComponent$KeyBinding[],javax.swing.Action[])}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_loadKeymap_Keymap_KeyBindingArray_ActionArray()
+    throws Exception {
+        // write some test for {@link JTextComponent#loadKeymap(Keymap, KeyBinding[], Action[])}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#addKeymap(String, Keymap) public
+     * static javax.swing.text.Keymap
+     * javax.swing.text.JTextComponent.addKeymap(java.lang.String,javax.swing.text.Keymap)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_addKeymap_String_Keymap()
+    throws Exception {
+        // write some test for {@link JTextComponent#addKeymap(String, Keymap)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#removeKeymap(String) public static
+     * javax.swing.text.Keymap javax.swing.text.JTextComponent.removeKeymap(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_removeKeymap_String()
+    throws Exception {
+        // write some test for {@link JTextComponent#removeKeymap(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getKeymap(String) public static
+     * javax.swing.text.Keymap javax.swing.text.JTextComponent.getKeymap(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getKeymap_String()
+    throws Exception {
+        // write some test for {@link JTextComponent#getKeymap(String)}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent]
+
+    @RunWith(J8Unit4.class)
+    public static class AccessibleJTextComponentClassTest
+    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.AccessibleJTextComponentClassTests<AccessibleJTextComponent> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
+        @Override
+        public Class<AccessibleJTextComponent> createNewSUT() {
+            return AccessibleJTextComponent.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link AccessibleJTextComponent#AccessibleJTextComponent(JTextComponent) public
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent(javax.swing.text.JTextComponent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_AccessibleJTextComponent_JTextComponent()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final AccessibleJTextComponent sut = null; // = new AccessibleJTextComponent(JTextComponent);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class KeyBindingClassTest
+    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.KeyBindingClassTests<KeyBinding> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
+
+        @Override
+        public Class<KeyBinding> createNewSUT() {
+            return KeyBinding.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link KeyBinding#KeyBinding(KeyStroke, String)
+         * public javax.swing.text.JTextComponent$KeyBinding(javax.swing.KeyStroke,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_KeyBinding_KeyStroke_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final KeyBinding sut = null; // = new KeyBinding(KeyStroke, String);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
+
+    }
+
+}

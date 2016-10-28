@@ -1,0 +1,36 @@
+package org.j8unit.repository.javax.security.sasl;
+
+import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import java.util.concurrent.Callable;
+import javax.security.sasl.AuthenticationException;
+import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.runners.J8Parameterized;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
+
+@RunWith(J8Parameterized.class)
+@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+public class AuthenticationExceptionTest
+implements FactoryBasedJ8UnitTest<AuthenticationException>, org.j8unit.repository.javax.security.sasl.AuthenticationExceptionTests<AuthenticationException> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
+
+    @Parameters(name = "{index}: {0}")
+    public static Iterable<Object[]> sutData() {
+        return testParametersOf(AuthenticationException::new);
+    }
+
+    @Parameter(0)
+    public Callable<AuthenticationException> sutFactory;
+
+    @Override
+    public Callable<AuthenticationException> getSUTFactory() {
+        return this.sutFactory;
+    }
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
+
+}

@@ -1,0 +1,21 @@
+package org.j8unit.repository.java.util.jar;
+
+import java.util.jar.JarInputStream;
+import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class JarInputStreamTest
+implements org.j8unit.repository.java.util.jar.JarInputStreamTests<JarInputStream> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.JarInputStream]
+
+    @Override
+    public JarInputStream createNewSUT() {
+        throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.jar.JarInputStream], j8unit does not support a generic way to provide instances.");
+    }
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.JarInputStream]
+
+}

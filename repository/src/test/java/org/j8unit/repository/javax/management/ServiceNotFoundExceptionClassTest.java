@@ -1,0 +1,68 @@
+package org.j8unit.repository.javax.management;
+
+import javax.management.ServiceNotFoundException;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class ServiceNotFoundExceptionClassTest
+implements org.j8unit.repository.javax.management.ServiceNotFoundExceptionClassTests<ServiceNotFoundException> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.ServiceNotFoundException]
+
+    @Override
+    public Class<ServiceNotFoundException> createNewSUT() {
+        return ServiceNotFoundException.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link ServiceNotFoundException#ServiceNotFoundException() public javax.management.ServiceNotFoundException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ServiceNotFoundException()
+    throws Exception {
+        // create new instance
+        final ServiceNotFoundException sut = new ServiceNotFoundException();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link ServiceNotFoundException#ServiceNotFoundException(String) public
+     * javax.management.ServiceNotFoundException(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ServiceNotFoundException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ServiceNotFoundException sut = null; // = new ServiceNotFoundException(String);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ServiceNotFoundException]
+
+}

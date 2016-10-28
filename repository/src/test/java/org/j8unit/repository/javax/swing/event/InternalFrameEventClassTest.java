@@ -1,0 +1,48 @@
+package org.j8unit.repository.javax.swing.event;
+
+import javax.swing.JInternalFrame;
+import javax.swing.event.InternalFrameEvent;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class InternalFrameEventClassTest
+implements org.j8unit.repository.javax.swing.event.InternalFrameEventClassTests<InternalFrameEvent> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.InternalFrameEvent]
+
+    @Override
+    public Class<InternalFrameEvent> createNewSUT() {
+        return InternalFrameEvent.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link InternalFrameEvent#InternalFrameEvent(JInternalFrame, int) public
+     * javax.swing.event.InternalFrameEvent(javax.swing.JInternalFrame,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InternalFrameEvent_JInternalFrame_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final InternalFrameEvent sut = null; // = new InternalFrameEvent(JInternalFrame, int);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.InternalFrameEvent]
+
+}

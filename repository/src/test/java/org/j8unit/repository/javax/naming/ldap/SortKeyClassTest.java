@@ -1,0 +1,68 @@
+package org.j8unit.repository.javax.naming.ldap;
+
+import javax.naming.ldap.SortKey;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class SortKeyClassTest
+implements org.j8unit.repository.javax.naming.ldap.SortKeyClassTests<SortKey> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.SortKey]
+
+    @Override
+    public Class<SortKey> createNewSUT() {
+        return SortKey.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link SortKey#SortKey(String) public
+     * javax.naming.ldap.SortKey(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SortKey_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final SortKey sut = null; // = new SortKey(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link SortKey#SortKey(String, boolean, String) public
+     * javax.naming.ldap.SortKey(java.lang.String,boolean,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SortKey_String_boolean_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final SortKey sut = null; // = new SortKey(String, boolean, String);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.SortKey]
+
+}

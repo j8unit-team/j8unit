@@ -1,0 +1,187 @@
+package org.j8unit.repository.java.time;
+
+import java.time.Clock;
+import java.time.Duration;
+import java.time.Instant;
+import java.time.ZoneId;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class ClockClassTest
+implements org.j8unit.repository.java.time.ClockClassTests<Clock> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.Clock]
+
+    @Override
+    public Class<Clock> createNewSUT() {
+        return Clock.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#systemUTC() public static java.time.Clock
+     * java.time.Clock.systemUTC()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_systemUTC()
+    throws Exception {
+        // write some test for {@link Clock#systemUTC()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#systemDefaultZone() public static
+     * java.time.Clock java.time.Clock.systemDefaultZone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_systemDefaultZone()
+    throws Exception {
+        // write some test for {@link Clock#systemDefaultZone()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#tickSeconds(ZoneId) public static
+     * java.time.Clock java.time.Clock.tickSeconds(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_tickSeconds_ZoneId()
+    throws Exception {
+        // write some test for {@link Clock#tickSeconds(ZoneId)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#tick(Clock, Duration) public static
+     * java.time.Clock java.time.Clock.tick(java.time.Clock,java.time.Duration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_tick_Clock_Duration()
+    throws Exception {
+        // write some test for {@link Clock#tick(Clock, Duration)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#fixed(Instant, ZoneId) public static
+     * java.time.Clock java.time.Clock.fixed(java.time.Instant,java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_fixed_Instant_ZoneId()
+    throws Exception {
+        // write some test for {@link Clock#fixed(Instant, ZoneId)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#system(ZoneId) public static java.time.Clock
+     * java.time.Clock.system(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_system_ZoneId()
+    throws Exception {
+        // write some test for {@link Clock#system(ZoneId)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#offset(Clock, Duration) public static
+     * java.time.Clock java.time.Clock.offset(java.time.Clock,java.time.Duration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_offset_Clock_Duration()
+    throws Exception {
+        // write some test for {@link Clock#offset(Clock, Duration)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Clock#tickMinutes(ZoneId) public static
+     * java.time.Clock java.time.Clock.tickMinutes(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_tickMinutes_ZoneId()
+    throws Exception {
+        // write some test for {@link Clock#tickMinutes(ZoneId)}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Clock]
+
+}

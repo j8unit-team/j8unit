@@ -1,0 +1,55 @@
+package org.j8unit.repository.org.omg.CORBA;
+
+import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import org.j8unit.runners.J8Unit4;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
+import org.omg.CORBA.DefinitionKind;
+
+@RunWith(J8Unit4.class)
+public class DefinitionKindTest
+implements org.j8unit.repository.org.omg.CORBA.DefinitionKindTests<DefinitionKind> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DefinitionKind]
+
+    @Parameters(name = "{index}: {0}")
+    public static Iterable<Object[]> sutData() {
+        return testParametersOf(DefinitionKind.dk_Sequence, //
+                                DefinitionKind.dk_String, //
+                                DefinitionKind.dk_Alias, //
+                                DefinitionKind.dk_Struct, //
+                                DefinitionKind.dk_Value, //
+                                DefinitionKind.dk_ValueMember, //
+                                DefinitionKind.dk_Attribute, //
+                                DefinitionKind.dk_Enum, //
+                                DefinitionKind.dk_Module, //
+                                DefinitionKind.dk_AbstractInterface, //
+                                DefinitionKind.dk_Interface, //
+                                DefinitionKind.dk_Operation, //
+                                DefinitionKind.dk_Repository, //
+                                DefinitionKind.dk_none, //
+                                DefinitionKind.dk_Fixed, //
+                                DefinitionKind.dk_Typedef, //
+                                DefinitionKind.dk_ValueBox, //
+                                DefinitionKind.dk_Exception, //
+                                DefinitionKind.dk_Constant, //
+                                DefinitionKind.dk_Array, //
+                                DefinitionKind.dk_Union, //
+                                DefinitionKind.dk_Primitive, //
+                                DefinitionKind.dk_Native, //
+                                DefinitionKind.dk_all, //
+                                DefinitionKind.dk_Wstring);
+    }
+
+    @Parameter(0)
+    public DefinitionKind sut;
+
+    @Override
+    public DefinitionKind createNewSUT() {
+        return this.sut;
+    }
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DefinitionKind]
+
+}

@@ -1,0 +1,48 @@
+package org.j8unit.repository.javax.net.ssl;
+
+import java.security.cert.CertPathParameters;
+import javax.net.ssl.CertPathTrustManagerParameters;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class CertPathTrustManagerParametersClassTest
+implements org.j8unit.repository.javax.net.ssl.CertPathTrustManagerParametersClassTests<CertPathTrustManagerParameters> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.CertPathTrustManagerParameters]
+
+    @Override
+    public Class<CertPathTrustManagerParameters> createNewSUT() {
+        return CertPathTrustManagerParameters.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link CertPathTrustManagerParameters#CertPathTrustManagerParameters(CertPathParameters) public
+     * javax.net.ssl.CertPathTrustManagerParameters(java.security.cert.CertPathParameters)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_CertPathTrustManagerParameters_CertPathParameters()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final CertPathTrustManagerParameters sut = null; // = new CertPathTrustManagerParameters(CertPathParameters);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.CertPathTrustManagerParameters]
+
+}

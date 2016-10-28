@@ -1,0 +1,21 @@
+package org.j8unit.repository.javax.imageio.plugins.jpeg;
+
+import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
+import org.j8unit.runners.J8Unit4;
+import org.junit.AssumptionViolatedException;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class JPEGImageWriteParamTest
+implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageWriteParamTests<JPEGImageWriteParam> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
+
+    @Override
+    public JPEGImageWriteParam createNewSUT() {
+        throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.imageio.plugins.jpeg.JPEGImageWriteParam], j8unit does not support a generic way to provide instances.");
+    }
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
+
+}

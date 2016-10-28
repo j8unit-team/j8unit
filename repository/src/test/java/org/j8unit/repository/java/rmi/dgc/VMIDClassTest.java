@@ -1,0 +1,64 @@
+package org.j8unit.repository.java.rmi.dgc;
+
+import java.rmi.dgc.VMID;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class VMIDClassTest
+implements org.j8unit.repository.java.rmi.dgc.VMIDClassTests<VMID> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.dgc.VMID]
+
+    @Override
+    public Class<VMID> createNewSUT() {
+        return VMID.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link VMID#VMID() public java.rmi.dgc.VMID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_VMID()
+    throws Exception {
+        // create new instance
+        final VMID sut = new VMID();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link VMID#isUnique() public static boolean
+     * java.rmi.dgc.VMID.isUnique()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isUnique()
+    throws Exception {
+        // write some test for {@link VMID#isUnique()}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.VMID]
+
+}

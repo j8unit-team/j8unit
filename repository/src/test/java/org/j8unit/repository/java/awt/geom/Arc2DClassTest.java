@@ -1,0 +1,234 @@
+package org.j8unit.repository.java.awt.geom;
+
+import java.awt.geom.Arc2D;
+import java.awt.geom.Arc2D.Double;
+import java.awt.geom.Arc2D.Float;
+import java.awt.geom.Rectangle2D;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class Arc2DClassTest
+implements org.j8unit.repository.java.awt.geom.Arc2DClassTests<Arc2D> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Arc2D]
+
+    @Override
+    public Class<Arc2D> createNewSUT() {
+        return Arc2D.class;
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Arc2D]
+
+    @RunWith(J8Unit4.class)
+    public static class DoubleClassTest
+    implements org.j8unit.repository.java.awt.geom.Arc2DClassTests.DoubleClassTests<Double> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Arc2D$Double]
+
+        @Override
+        public Class<Double> createNewSUT() {
+            return Double.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link Double#Double(Rectangle2D, double, double, int) public
+         * java.awt.geom.Arc2D$Double(java.awt.geom.Rectangle2D,double,double,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double_Rectangle2D_double_double_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Double sut = null; // = new Double(Rectangle2D, double, double, int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link Double#Double(double, double, double, double, double, double, int) public
+         * java.awt.geom.Arc2D$Double(double,double,double,double,double,double,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double_double_double_double_double_double_double_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Double sut = null; // = new Double(double, double, double, double, double, double, int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link Double#Double(int) public
+         * java.awt.geom.Arc2D$Double(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Double sut = null; // = new Double(int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link Double#Double() public
+         * java.awt.geom.Arc2D$Double()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double()
+        throws Exception {
+            // create new instance
+            final Double sut = new Double();
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Arc2D$Double]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class FloatClassTest
+    implements org.j8unit.repository.java.awt.geom.Arc2DClassTests.FloatClassTests<Float> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Arc2D$Float]
+
+        @Override
+        public Class<Float> createNewSUT() {
+            return Float.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link Float#Float(Rectangle2D, float, float, int)
+         * public java.awt.geom.Arc2D$Float(java.awt.geom.Rectangle2D,float,float,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Float_Rectangle2D_float_float_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Float sut = null; // = new Float(Rectangle2D, float, float, int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link Float#Float(float, float, float, float, float, float, int) public
+         * java.awt.geom.Arc2D$Float(float,float,float,float,float,float,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Float_float_float_float_float_float_float_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Float sut = null; // = new Float(float, float, float, float, float, float, int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link Float#Float(int) public
+         * java.awt.geom.Arc2D$Float(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Float_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final Float sut = null; // = new Float(int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link Float#Float() public
+         * java.awt.geom.Arc2D$Float()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Float()
+        throws Exception {
+            // create new instance
+            final Float sut = new Float();
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Arc2D$Float]
+
+    }
+
+}

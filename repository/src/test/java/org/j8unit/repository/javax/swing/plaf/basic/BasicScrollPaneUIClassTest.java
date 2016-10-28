@@ -1,0 +1,222 @@
+package org.j8unit.repository.javax.swing.plaf.basic;
+
+import javax.swing.JComponent;
+import javax.swing.plaf.basic.BasicScrollPaneUI;
+import javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener;
+import javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler;
+import javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener;
+import javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class BasicScrollPaneUIClassTest
+implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI]
+
+    @Override
+    public Class<BasicScrollPaneUI> createNewSUT() {
+        return BasicScrollPaneUI.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link BasicScrollPaneUI#BasicScrollPaneUI() public
+     * javax.swing.plaf.basic.BasicScrollPaneUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BasicScrollPaneUI()
+    throws Exception {
+        // create new instance
+        final BasicScrollPaneUI sut = new BasicScrollPaneUI();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BasicScrollPaneUI#createUI(JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicScrollPaneUI.createUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_createUI_JComponent()
+    throws Exception {
+        // write some test for {@link BasicScrollPaneUI#createUI(JComponent)}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI]
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
+        @Override
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link PropertyChangeHandler#PropertyChangeHandler(BasicScrollPaneUI) public
+         * javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PropertyChangeHandler_BasicScrollPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(BasicScrollPaneUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ViewportChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.ViewportChangeHandlerClassTests<ViewportChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
+        @Override
+        public Class<ViewportChangeHandler> createNewSUT() {
+            return ViewportChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link ViewportChangeHandler#ViewportChangeHandler(BasicScrollPaneUI) public
+         * javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ViewportChangeHandler_BasicScrollPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ViewportChangeHandler sut = null; // = new ViewportChangeHandler(BasicScrollPaneUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class HSBChangeListenerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests<HSBChangeListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+
+        @Override
+        public Class<HSBChangeListener> createNewSUT() {
+            return HSBChangeListener.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link HSBChangeListener#HSBChangeListener(BasicScrollPaneUI) public
+         * javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_HSBChangeListener_BasicScrollPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final HSBChangeListener sut = null; // = new HSBChangeListener(BasicScrollPaneUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class VSBChangeListenerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.VSBChangeListenerClassTests<VSBChangeListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
+
+        @Override
+        public Class<VSBChangeListener> createNewSUT() {
+            return VSBChangeListener.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link VSBChangeListener#VSBChangeListener(BasicScrollPaneUI) public
+         * javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_VSBChangeListener_BasicScrollPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final VSBChangeListener sut = null; // = new VSBChangeListener(BasicScrollPaneUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
+
+    }
+
+}

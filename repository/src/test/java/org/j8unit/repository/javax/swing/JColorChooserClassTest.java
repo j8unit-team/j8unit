@@ -1,0 +1,140 @@
+package org.j8unit.repository.javax.swing;
+
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.event.ActionListener;
+import javax.swing.JColorChooser;
+import javax.swing.colorchooser.ColorSelectionModel;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class JColorChooserClassTest
+implements org.j8unit.repository.javax.swing.JColorChooserClassTests<JColorChooser> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JColorChooser]
+
+    @Override
+    public Class<JColorChooser> createNewSUT() {
+        return JColorChooser.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link JColorChooser#JColorChooser(ColorSelectionModel) public
+     * javax.swing.JColorChooser(javax.swing.colorchooser.ColorSelectionModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JColorChooser_ColorSelectionModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JColorChooser sut = null; // = new JColorChooser(ColorSelectionModel);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link JColorChooser#JColorChooser() public
+     * javax.swing.JColorChooser()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JColorChooser()
+    throws Exception {
+        // create new instance
+        final JColorChooser sut = new JColorChooser();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link JColorChooser#JColorChooser(Color) public
+     * javax.swing.JColorChooser(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JColorChooser_Color()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JColorChooser sut = null; // = new JColorChooser(Color);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JColorChooser#showDialog(Component, String, Color)
+     * public static java.awt.Color
+     * javax.swing.JColorChooser.showDialog(java.awt.Component,java.lang.String,java.awt.Color) throws
+     * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showDialog_Component_String_Color()
+    throws Exception {
+        // write some test for {@link JColorChooser#showDialog(Component, String, Color)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link JColorChooser#createDialog(Component, String, boolean, JColorChooser, ActionListener, ActionListener)
+     * public static javax.swing.JDialog
+     * javax.swing.JColorChooser.createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
+     * throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_createDialog_Component_String_boolean_JColorChooser_ActionListener_ActionListener()
+    throws Exception {
+        // write some test for {@link JColorChooser#createDialog(Component, String, boolean, JColorChooser,
+        // ActionListener, ActionListener)}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JColorChooser]
+
+}

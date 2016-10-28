@@ -1,0 +1,113 @@
+package org.j8unit.repository.java.security;
+
+import java.security.InvalidKeyException;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class InvalidKeyExceptionClassTest
+implements org.j8unit.repository.java.security.InvalidKeyExceptionClassTests<InvalidKeyException> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.InvalidKeyException]
+
+    @Override
+    public Class<InvalidKeyException> createNewSUT() {
+        return InvalidKeyException.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link InvalidKeyException#InvalidKeyException(Throwable) public
+     * java.security.InvalidKeyException(java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InvalidKeyException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final InvalidKeyException sut = null; // = new InvalidKeyException(Throwable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link InvalidKeyException#InvalidKeyException(String, Throwable) public
+     * java.security.InvalidKeyException(java.lang.String,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InvalidKeyException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final InvalidKeyException sut = null; // = new InvalidKeyException(String, Throwable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link InvalidKeyException#InvalidKeyException(String)
+     * public java.security.InvalidKeyException(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InvalidKeyException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final InvalidKeyException sut = null; // = new InvalidKeyException(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link InvalidKeyException#InvalidKeyException()
+     * public java.security.InvalidKeyException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InvalidKeyException()
+    throws Exception {
+        // create new instance
+        final InvalidKeyException sut = new InvalidKeyException();
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.security.InvalidKeyException]
+
+}

@@ -1,0 +1,36 @@
+package org.j8unit.repository.java.awt;
+
+import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import java.awt.Container;
+import java.util.concurrent.Callable;
+import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.runners.J8Parameterized;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
+
+@RunWith(J8Parameterized.class)
+@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+public class ContainerTest
+implements FactoryBasedJ8UnitTest<Container>, org.j8unit.repository.java.awt.ContainerTests<Container> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Container]
+
+    @Parameters(name = "{index}: {0}")
+    public static Iterable<Object[]> sutData() {
+        return testParametersOf(Container::new);
+    }
+
+    @Parameter(0)
+    public Callable<Container> sutFactory;
+
+    @Override
+    public Callable<Container> getSUTFactory() {
+        return this.sutFactory;
+    }
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Container]
+
+}

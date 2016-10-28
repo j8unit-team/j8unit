@@ -1,0 +1,113 @@
+package org.j8unit.repository.javax.xml.soap;
+
+import javax.xml.soap.SAAJResult;
+import javax.xml.soap.SOAPElement;
+import javax.xml.soap.SOAPMessage;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class SAAJResultClassTest
+implements org.j8unit.repository.javax.xml.soap.SAAJResultClassTests<SAAJResult> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SAAJResult]
+
+    @Override
+    public Class<SAAJResult> createNewSUT() {
+        return SAAJResult.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult(SOAPElement) public
+     * javax.xml.soap.SAAJResult(javax.xml.soap.SOAPElement)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SAAJResult_SOAPElement()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final SAAJResult sut = null; // = new SAAJResult(SOAPElement);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult(SOAPMessage) public
+     * javax.xml.soap.SAAJResult(javax.xml.soap.SOAPMessage)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SAAJResult_SOAPMessage()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final SAAJResult sut = null; // = new SAAJResult(SOAPMessage);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult(String) public
+     * javax.xml.soap.SAAJResult(java.lang.String) throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SAAJResult_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final SAAJResult sut = null; // = new SAAJResult(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult() public
+     * javax.xml.soap.SAAJResult() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SAAJResult()
+    throws Exception {
+        // create new instance
+        final SAAJResult sut = new SAAJResult();
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SAAJResult]
+
+}

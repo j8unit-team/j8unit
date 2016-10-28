@@ -1,0 +1,72 @@
+package org.j8unit.repository.java.time.format;
+
+import java.time.chrono.Chronology;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.format.FormatStyle;
+import java.util.Locale;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class DateTimeFormatterBuilderClassTest
+implements org.j8unit.repository.java.time.format.DateTimeFormatterBuilderClassTests<DateTimeFormatterBuilder> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
+
+    @Override
+    public Class<DateTimeFormatterBuilder> createNewSUT() {
+        return DateTimeFormatterBuilder.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link DateTimeFormatterBuilder#DateTimeFormatterBuilder() public java.time.format.DateTimeFormatterBuilder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DateTimeFormatterBuilder()
+    throws Exception {
+        // create new instance
+        final DateTimeFormatterBuilder sut = new DateTimeFormatterBuilder();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#getLocalizedDateTimePattern(FormatStyle, FormatStyle, Chronology, Locale) public
+     * static java.lang.String
+     * java.time.format.DateTimeFormatterBuilder.getLocalizedDateTimePattern(java.time.format.FormatStyle,java.time.format.FormatStyle,java.time.chrono.Chronology,java.util.Locale)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getLocalizedDateTimePattern_FormatStyle_FormatStyle_Chronology_Locale()
+    throws Exception {
+        // write some test for {@link DateTimeFormatterBuilder#getLocalizedDateTimePattern(FormatStyle, FormatStyle,
+        // Chronology, Locale)}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
+
+}

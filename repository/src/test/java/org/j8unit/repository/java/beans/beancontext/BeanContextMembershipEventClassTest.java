@@ -1,0 +1,72 @@
+package org.j8unit.repository.java.beans.beancontext;
+
+import java.beans.beancontext.BeanContext;
+import java.beans.beancontext.BeanContextMembershipEvent;
+import java.util.Collection;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class BeanContextMembershipEventClassTest
+implements org.j8unit.repository.java.beans.beancontext.BeanContextMembershipEventClassTests<BeanContextMembershipEvent> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContextMembershipEvent]
+
+    @Override
+    public Class<BeanContextMembershipEvent> createNewSUT() {
+        return BeanContextMembershipEvent.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link BeanContextMembershipEvent#BeanContextMembershipEvent(BeanContext, Collection) public
+     * java.beans.beancontext.BeanContextMembershipEvent(java.beans.beancontext.BeanContext,java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BeanContextMembershipEvent_BeanContext_Collection()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BeanContextMembershipEvent sut = null; // = new BeanContextMembershipEvent(BeanContext, Collection);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link BeanContextMembershipEvent#BeanContextMembershipEvent(BeanContext, Object[]) public
+     * java.beans.beancontext.BeanContextMembershipEvent(java.beans.beancontext.BeanContext,java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BeanContextMembershipEvent_BeanContext_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BeanContextMembershipEvent sut = null; // = new BeanContextMembershipEvent(BeanContext, Object[]);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextMembershipEvent]
+
+}

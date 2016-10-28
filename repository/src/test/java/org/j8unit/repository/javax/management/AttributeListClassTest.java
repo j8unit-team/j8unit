@@ -1,0 +1,112 @@
+package org.j8unit.repository.javax.management;
+
+import java.util.List;
+import javax.management.AttributeList;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class AttributeListClassTest
+implements org.j8unit.repository.javax.management.AttributeListClassTests<AttributeList> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.AttributeList]
+
+    @Override
+    public Class<AttributeList> createNewSUT() {
+        return AttributeList.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link AttributeList#AttributeList(List) public
+     * javax.management.AttributeList(java.util.List<javax.management.Attribute>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AttributeList_List()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final AttributeList sut = null; // = new AttributeList(List);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link AttributeList#AttributeList(AttributeList)
+     * public javax.management.AttributeList(javax.management.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AttributeList_AttributeList()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final AttributeList sut = null; // = new AttributeList(AttributeList);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link AttributeList#AttributeList(int) public
+     * javax.management.AttributeList(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AttributeList_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final AttributeList sut = null; // = new AttributeList(int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link AttributeList#AttributeList() public
+     * javax.management.AttributeList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AttributeList()
+    throws Exception {
+        // create new instance
+        final AttributeList sut = new AttributeList();
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeList]
+
+}

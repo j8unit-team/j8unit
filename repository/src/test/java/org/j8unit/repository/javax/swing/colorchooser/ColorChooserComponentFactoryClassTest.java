@@ -1,0 +1,66 @@
+package org.j8unit.repository.javax.swing.colorchooser;
+
+import javax.swing.colorchooser.ColorChooserComponentFactory;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class ColorChooserComponentFactoryClassTest
+implements org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentFactoryClassTests<ColorChooserComponentFactory> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.colorchooser.ColorChooserComponentFactory]
+
+    @Override
+    public Class<ColorChooserComponentFactory> createNewSUT() {
+        return ColorChooserComponentFactory.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ColorChooserComponentFactory#getPreviewPanel()
+     * public static javax.swing.JComponent javax.swing.colorchooser.ColorChooserComponentFactory.getPreviewPanel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getPreviewPanel()
+    throws Exception {
+        // write some test for {@link ColorChooserComponentFactory#getPreviewPanel()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link ColorChooserComponentFactory#getDefaultChooserPanels() public static
+     * javax.swing.colorchooser.AbstractColorChooserPanel[]
+     * javax.swing.colorchooser.ColorChooserComponentFactory.getDefaultChooserPanels()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getDefaultChooserPanels()
+    throws Exception {
+        // write some test for {@link ColorChooserComponentFactory#getDefaultChooserPanels()}
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.colorchooser.ColorChooserComponentFactory]
+
+}

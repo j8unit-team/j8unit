@@ -1,0 +1,69 @@
+package org.j8unit.repository.java.io;
+
+import java.io.LineNumberReader;
+import java.io.Reader;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class LineNumberReaderClassTest
+implements org.j8unit.repository.java.io.LineNumberReaderClassTests<LineNumberReader> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.LineNumberReader]
+
+    @Override
+    public Class<LineNumberReader> createNewSUT() {
+        return LineNumberReader.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link LineNumberReader#LineNumberReader(Reader)
+     * public java.io.LineNumberReader(java.io.Reader)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LineNumberReader_Reader()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LineNumberReader sut = null; // = new LineNumberReader(Reader);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link LineNumberReader#LineNumberReader(Reader, int)
+     * public java.io.LineNumberReader(java.io.Reader,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LineNumberReader_Reader_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LineNumberReader sut = null; // = new LineNumberReader(Reader, int);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.io.LineNumberReader]
+
+}

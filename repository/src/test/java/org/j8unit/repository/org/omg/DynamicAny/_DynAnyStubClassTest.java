@@ -1,0 +1,45 @@
+package org.j8unit.repository.org.omg.DynamicAny;
+
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+import org.omg.DynamicAny._DynAnyStub;
+
+@RunWith(J8Unit4.class)
+public class _DynAnyStubClassTest
+implements org.j8unit.repository.org.omg.DynamicAny._DynAnyStubClassTests<_DynAnyStub> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynAnyStub]
+
+    @Override
+    public Class<_DynAnyStub> createNewSUT() {
+        return _DynAnyStub.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link _DynAnyStub#_DynAnyStub() public
+     * org.omg.DynamicAny._DynAnyStub()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create__DynAnyStub()
+    throws Exception {
+        // create new instance
+        final _DynAnyStub sut = new _DynAnyStub();
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynAnyStub]
+
+}

@@ -1,0 +1,153 @@
+package org.j8unit.repository.javax.management.openmbean;
+
+import javax.management.Descriptor;
+import javax.management.openmbean.OpenMBeanParameterInfoSupport;
+import javax.management.openmbean.OpenType;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.runners.J8Unit4;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
+
+@RunWith(J8Unit4.class)
+public class OpenMBeanParameterInfoSupportClassTest
+implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoSupportClassTests<OpenMBeanParameterInfoSupport> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]
+
+    @Override
+    public Class<OpenMBeanParameterInfoSupport> createNewSUT() {
+        return OpenMBeanParameterInfoSupport.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Object, Comparable, Comparable)
+     * public <T>
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
+     * <T>,T,java.lang.Comparable<T>,java.lang.Comparable<T>) throws javax.management.openmbean.OpenDataException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object_Comparable_Comparable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
+                                                        // Object, Comparable, Comparable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Object, Object[])
+     * public <T>
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
+     * <T>,T,T[]) throws javax.management.openmbean.OpenDataException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
+                                                        // Object, Object[]);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType) public
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
+     * <?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_OpenMBeanParameterInfoSupport_String_String_OpenType()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String,
+                                                        // OpenType);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Descriptor) public
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
+     * <?>,javax.management.Descriptor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Descriptor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
+                                                        // Descriptor);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Object) public <T>
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
+     * <T>,T) throws javax.management.openmbean.OpenDataException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
+                                                        // Object);
+    }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]
+
+}
