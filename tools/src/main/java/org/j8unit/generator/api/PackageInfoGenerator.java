@@ -28,7 +28,7 @@ extends J8UnitGenerator {
      * @param control
      *            the generator control
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      */
     public default <Renderer extends OriginRenderer & TargetRenderer> void generatePackageInfoFile(final Package pakkage,
                                                                                                    final GeneratorOutputControler control,
@@ -66,7 +66,7 @@ extends J8UnitGenerator {
      * @param pakkage
      *            the origin package
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      */
     public default <Renderer extends OriginRenderer & TargetRenderer> String generatePackageInfoContent(final Package pakkage, final Renderer renderer) {
         requireNonNull(pakkage);
@@ -90,7 +90,7 @@ extends J8UnitGenerator {
      * @param pakkage
      *            the origin package
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      */
     public abstract String generateJavaDoc(final Package pakkage, final OriginRenderer renderer);
 

@@ -3,17 +3,8 @@ package org.j8unit.generator;
 import static java.lang.String.format;
 import static java.lang.String.join;
 import static java.lang.reflect.Modifier.isAbstract;
-import static java.util.Collections.nCopies;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toSet;
-import static org.j8unit.generator.GeneratorTokens.BEGIN_OF_TESTS;
-import static org.j8unit.generator.GeneratorTokens.BEGIN_OF_TYPE_UNDER_TEST;
-import static org.j8unit.generator.GeneratorTokens.END_OF_TESTS;
-import static org.j8unit.generator.GeneratorTokens.END_OF_TYPE_UNDER_TEST;
-import static org.j8unit.generator.GeneratorTokens.INDENT;
-import static org.j8unit.generator.GeneratorTokens.J8UNIT_BEGIN_MARKER;
-import static org.j8unit.generator.GeneratorTokens.J8UNIT_END_MARKER;
-import static org.j8unit.generator.GeneratorTokens.NL;
 import static org.j8unit.generator.GeneratorTokens.SUT_FACTORY;
 import static org.j8unit.generator.GeneratorTokens.SUT_FACTORY_FACTORY;
 import static org.j8unit.generator.GeneratorTokens.TEST_PARAMETERS_OF;
@@ -22,6 +13,8 @@ import static org.j8unit.generator.GeneratorTokens.indent;
 import static org.j8unit.generator.J8UnitRepositoryGenerators.INSTANCE_TESTS;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
+import static org.j8unit.generator.api.GeneratorMarkers.Position.BEGIN;
+import static org.j8unit.generator.api.GeneratorMarkers.Position.END;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_SYNTHETIC_METHOD;
 import static org.j8unit.generator.api.RepositoryTokens.IGNORE_MESSAGE;
@@ -131,14 +124,14 @@ implements J8UnitCodeGenerator {
             out.append(format("%s{%n", indent));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indent, INDENT, J8UNIT_BEGIN_MARKER, BEGIN_OF_TESTS, type));
+            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Custom Body Content
             // out.append(modusOperandi.customTestInterfaceBody(depth + 1));
             // content creation: SUT Creation
             out.append(sutCreation);
             // content creation: End Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indent, INDENT, J8UNIT_END_MARKER, END_OF_TESTS, type));
+            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
@@ -162,7 +155,7 @@ implements J8UnitCodeGenerator {
             // content creation: J8Unit SUT Factory
             out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
             out.append(format("%spublic %s %s() {%n", indent, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY));
-            out.append(format("%s%sreturn this.sut;%n", indent, INDENT));
+            out.append(format("%s%sreturn this.sut;%n", indent, indent()));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
             // finalize content
@@ -178,7 +171,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indent, renderer.originCanonicalNameOf(Parameters.class)));
             out.append(format("%spublic static %s<%s> sutData() {%n", indent, renderer.originCanonicalNameOf(Iterable.class),
                               renderer.originCanonicalNameOf(Object[].class)));
-            out.append(format("%s%sreturn %s(%s);%n", indent, INDENT, renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF_ENUM_CLASS),
+            out.append(format("%s%sreturn %s(%s);%n", indent, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF_ENUM_CLASS),
                               renderer.originCanonicalClassOf(type)));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
@@ -200,8 +193,8 @@ implements J8UnitCodeGenerator {
                               renderer.originCanonicalNameOf(Object[].class)));
             final String data = instances.stream() //
                                          .map(f -> renderer.originCanonicalNameOf(type) + "." + f.getName()) //
-                                         .collect(joining(", //" + NL + indent + join("", nCopies(1 + 6, INDENT))));
-            out.append(format("%s%sreturn %s(%s);%n", indent, INDENT, renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF), data));
+                                         .collect(joining(format(", //%n%s%s", indent, indent(1 + 6))));
+            out.append(format("%s%sreturn %s(%s);%n", indent, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF), data));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
             // content creation: SUT provision
@@ -218,7 +211,7 @@ implements J8UnitCodeGenerator {
             // content creation: J8Unit SUT Factory
             out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
             out.append(format("%spublic %s %s() {%n", indent, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY));
-            out.append(format("%s%sthrow new %s(\"%s\");%n", indent, INDENT, renderer.originCanonicalNameOf(AssumptionViolatedException.class), message));
+            out.append(format("%s%sthrow new %s(\"%s\");%n", indent, indent(), renderer.originCanonicalNameOf(AssumptionViolatedException.class), message));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
             // finalize content
@@ -256,14 +249,14 @@ implements J8UnitCodeGenerator {
             out.append(format("%s{%n", indent));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indent, INDENT, J8UNIT_BEGIN_MARKER, BEGIN_OF_TESTS, type));
+            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Custom Body Content
             out.append(modusOperandi.specificTestInterfaceBody(type, depth + 1, renderer));
             // content creation: Test Data Creation
             out.append(sutCreation);
             // content creation: End Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indent, INDENT, J8UNIT_END_MARKER, END_OF_TESTS, type));
+            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
@@ -289,7 +282,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
             out.append(format("%spublic %s<%s> %s() {%n", indent, renderer.originCanonicalNameOf(Callable.class),
                               renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY_FACTORY));
-            out.append(format("%s%sreturn this.sutFactory;%n", indent, INDENT));
+            out.append(format("%s%sreturn this.sutFactory;%n", indent, indent()));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
             // finalize content
@@ -305,7 +298,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indent, renderer.originCanonicalNameOf(Parameters.class)));
             out.append(format("%spublic static %s<%s> sutData() {%n", indent, renderer.originCanonicalNameOf(Iterable.class),
                               renderer.originCanonicalNameOf(Object[].class)));
-            out.append(format("%s%sreturn %s(%s::new);%n", indent, INDENT, renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF),
+            out.append(format("%s%sreturn %s(%s::new);%n", indent, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF),
                               renderer.originCanonicalNameOf(type)));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
@@ -353,7 +346,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%simplements %s {%n", indt, j8unitBlueprintStatement));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indt, INDENT, J8UNIT_BEGIN_MARKER, BEGIN_OF_TYPE_UNDER_TEST, type));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             out.append(this.generateSUTFactoryMethod(type, renderer, depth + 1));
             out.append(format("%n"));
@@ -370,7 +363,7 @@ implements J8UnitCodeGenerator {
                 out.append(format("%n"));
             }
             // content creation: End Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indt, INDENT, J8UNIT_END_MARKER, END_OF_TYPE_UNDER_TEST, type));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
@@ -391,7 +384,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Override.class)));
             out.append(format("%spublic %s<%s> %s() {%n", indt, renderer.originCanonicalNameOf(Class.class), renderer.originCanonicalNameOf(type),
                               SUT_FACTORY));
-            out.append(format("%s%sreturn %s;%n", indt, INDENT, renderer.originCanonicalClassOf(type)));
+            out.append(format("%s%sreturn %s;%n", indt, indent(), renderer.originCanonicalClassOf(type)));
             out.append(format("%s}%n", indt));
             // finish
             return out;
@@ -432,19 +425,19 @@ implements J8UnitCodeGenerator {
                 out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Test.class)));
                 out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(Draft.class)));
                 out.append(format("%spublic void %s() throws %s {%n", indt, j8unitName, renderer.originCanonicalNameOf(Exception.class)));
-                out.append(format("%s%s%s(\"%s\");%n", indt, INDENT, renderer.originCanonicalNameOf(Assert.class, "fail"), ABSTRACT_MESSAGE));
+                out.append(format("%s%s%s(\"%s\");%n", indt, indent(), renderer.originCanonicalNameOf(Assert.class, "fail"), ABSTRACT_MESSAGE));
                 out.append(format("%s}%n", indt));
             } else {
                 out.append(format("%s@%s(\"%s\")%n", indt, renderer.originCanonicalNameOf(Ignore.class), IGNORE_MESSAGE));
                 out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Test.class)));
                 out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(Draft.class)));
                 out.append(format("%spublic void %s() throws %s {%n", indt, j8unitName, renderer.originCanonicalNameOf(Exception.class)));
-                out.append(format("%s%s// create new instance%n", indt, INDENT));
+                out.append(format("%s%s// create new instance%n", indt, indent()));
                 if (constructor.getParameterCount() == 0) {
-                    out.append(format("%s%s%s sut = new %s();", indt, INDENT, typeName, typeName));
+                    out.append(format("%s%s%s sut = new %s();", indt, indent(), typeName, typeName));
                 } else {
-                    out.append(format("%s%s@%s(\"unused\")%n", indt, INDENT, renderer.originCanonicalNameOf(SuppressWarnings.class)));
-                    out.append(format("%s%s%s sut = null; // = new %s;%n", indt, INDENT, typeName, renderer.javadocNameOf(constructor).split("#")[1]));
+                    out.append(format("%s%s@%s(\"unused\")%n", indt, indent(), renderer.originCanonicalNameOf(SuppressWarnings.class)));
+                    out.append(format("%s%s%s sut = null; // = new %s;%n", indt, indent(), typeName, renderer.javadocNameOf(constructor).split("#")[1]));
                 }
                 out.append(format("%s}%n", indt));
             }
@@ -480,7 +473,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Test.class)));
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(Draft.class)));
             out.append(format("%spublic void %s() throws %s {%n", indt, j8unitName, renderer.originCanonicalNameOf(Exception.class)));
-            out.append(format("%s%s// write some test for {@link %s}%n", indt, INDENT, renderer.javadocNameOf(method)));
+            out.append(format("%s%s// write some test for {@link %s}%n", indt, indent(), renderer.javadocNameOf(method)));
             out.append(format("%s}%n", indt));
             // finish
             return out;

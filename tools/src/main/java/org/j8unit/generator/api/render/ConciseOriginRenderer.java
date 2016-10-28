@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * An extension of {@link OriginRenderer} with concise behaviour in case of needless explicitly.
  */
-public interface ConciseOriginRenderer
+public abstract interface ConciseOriginRenderer
 extends OriginRenderer {
 
     /**
@@ -38,7 +38,7 @@ extends OriginRenderer {
     /**
      * {@inheritDoc}
      *
-     * @implNote in order to decrease verbosity the definition statement does not comprise {@link Object} as an upper
+     * @implNote In order to decrease verbosity, the definition statement does not comprise {@link Object} as an upper
      *           bound (because there is no need to declare explicitly).
      */
     @Override

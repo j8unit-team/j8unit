@@ -4,7 +4,6 @@ import static java.lang.String.format;
 import static java.util.Collections.singletonList;
 import static java.util.Objects.nonNull;
 import static java.util.Objects.requireNonNull;
-import static org.j8unit.generator.GeneratorTokens.INDENT;
 import static org.j8unit.generator.GeneratorTokens.SUT_FACTORY;
 import static org.j8unit.generator.GeneratorTokens.indent;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
@@ -118,11 +117,11 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
             out.append(format("%s// test interface (caused by the \"rawtypes\" nature of the type-under-test).%n", indent));
             out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
             out.append(format("%spublic %s %s() {%n", indent, string, SUT_FACTORY));
-            out.append(format("%s%sfinal %s sut = %s.super.%s();%n", indent, INDENT, renderer.originCanonicalNameOf(Object.class),
+            out.append(format("%s%sfinal %s sut = %s.super.%s();%n", indent, indent(), renderer.originCanonicalNameOf(Object.class),
                               renderer.originCanonicalNameOf(FactoryBasedJ8UnitTest.class), SUT_FACTORY));
-            out.append(format("%s%sassert sut != null;%n", indent, INDENT));
-            out.append(format("%s%sassert sut instanceof %s;%n", indent, INDENT, string));
-            out.append(format("%s%sreturn (%s) sut;%n", indent, INDENT, string));
+            out.append(format("%s%sassert sut != null;%n", indent, indent()));
+            out.append(format("%s%sassert sut instanceof %s;%n", indent, indent(), string));
+            out.append(format("%s%sreturn (%s) sut;%n", indent, indent(), string));
             out.append(format("%s}%n", indent));
             out.append(format("%n"));
             return out.toString();
@@ -183,7 +182,15 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
 
     private final TypeNatures typeNatures;
 
+    public final TypeNatures getTypeNatures() {
+        return this.typeNatures;
+    }
+
     private final AccessScope accessScope;
+
+    public final AccessScope getAccessScope() {
+        return this.accessScope;
+    }
 
     @Override
     public boolean matches(final Member member) {

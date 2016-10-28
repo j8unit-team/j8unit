@@ -40,7 +40,7 @@ import org.j8unit.generator.analysis.AccessLevel;
 import org.j8unit.generator.api.control.GeneratorInputControler;
 import org.j8unit.generator.api.control.GeneratorOutputControler;
 import org.j8unit.generator.api.control.GeneratorUseControler;
-import org.j8unit.generator.api.render.ConciseOriginRenderer;
+import org.j8unit.generator.api.render.FancyOriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
 import org.j8unit.generator.util.Java;
 import org.j8unit.generator.util.Optionals;
@@ -50,7 +50,19 @@ import org.j8unit.generator.util.TypeAnalysis;
  * <em>Immutable</em> container class of all {@linkplain Generator generator}-specific configuration data.
  */
 public final class GeneratorSetup
-implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputControler, ConciseOriginRenderer, TargetRenderer {
+implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputControler, FancyOriginRenderer, TargetRenderer {
+
+    private ImportMemory memory = new ImportMemory();
+
+    @Override
+    public void resetImportMemory() {
+        this.memory = new ImportMemory();
+    }
+
+    @Override
+    public ImportMemory getImportMemory() {
+        return this.memory;
+    }
 
     /**
      * The name of the root Java {@linkplain Package package} to consider when
@@ -323,12 +335,12 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     }
 
     /**
-     * Private constructor of this class. Takes every instance's value out of the given {@link Builder}.
+     * Protected constructor of this class. Takes every instance's value out of the given {@link Builder}.
      *
      * @param builder
      *            the source of all the data of the new instance
      */
-    private GeneratorSetup(final Builder builder) {
+    protected GeneratorSetup(final Builder builder) {
         requireNonNull(builder);
         this.originRootPackage = requireNonNull(builder.originRootPackage);
         this.subPackageRecursion = builder.subPackageRecursion;

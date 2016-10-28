@@ -1,5 +1,6 @@
 package org.j8unit.generator.api;
 
+import static java.lang.String.format;
 import static java.util.Arrays.stream;
 import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.toSet;
@@ -20,6 +21,7 @@ import java.util.Set;
 import org.j8unit.generator.EnvelopedTypeModifiers;
 import org.j8unit.generator.api.control.GeneratorOutputControler;
 import org.j8unit.generator.api.control.GeneratorUseControler;
+import org.j8unit.generator.api.render.FancyOriginRenderer;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
 
@@ -27,7 +29,7 @@ import org.j8unit.generator.api.render.TargetRenderer;
  * TODO: JavaDoc
  */
 public abstract interface J8UnitCodeGenerator
-extends J8UnitGenerator, EnvelopedTypeModifiers {
+extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
 
     /**
      * <p>
@@ -58,14 +60,14 @@ extends J8UnitGenerator, EnvelopedTypeModifiers {
      * @param control
      *            the generator control
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      * @param complementary
-     *            the complementary rendeRenderer renderer
+     *            the complementary type name renderer
      */
-    public default <Renderer extends OriginRenderer & TargetRenderer, C extends GeneratorUseControler & GeneratorOutputControler> void generateSourceFile(final Class<?> type,
-                                                                                                                                                          final C control,
-                                                                                                                                                          final Renderer renderer,
-                                                                                                                                                          final TargetRenderer complementary) {
+    public default <Renderer extends FancyOriginRenderer & TargetRenderer, C extends GeneratorUseControler & GeneratorOutputControler> void generateSourceFile(final Class<?> type,
+                                                                                                                                                               final C control,
+                                                                                                                                                               final Renderer renderer,
+                                                                                                                                                               final TargetRenderer complementary) {
         requireNonNull(type);
         requireNonNull(control);
         requireNonNull(renderer);
@@ -82,6 +84,7 @@ extends J8UnitGenerator, EnvelopedTypeModifiers {
                 final File target = control.targetFileFor(type).toFile();
                 if (!target.exists() || control.doOverwrite(type)) {
                     // generate test class' content
+                    renderer.resetImportMemory();
                     final String content = this.generateSourceCode(type, control, renderer, complementary);
                     // // create target folder (unless existing) and target file
                     logger().info(CREATE_FILE, type, target);
@@ -120,21 +123,23 @@ extends J8UnitGenerator, EnvelopedTypeModifiers {
      * @param control
      *            the generator control
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      * @param complementary
-     *            the complementary rendeRenderer renderer
+     *            the complementary type name renderer
      * @return the source code targeting the given {@code type}
      */
-    public default <Renderer extends OriginRenderer & TargetRenderer> String generateSourceCode(final Class<?> type, final GeneratorUseControler control,
-                                                                                                final Renderer renderer, final TargetRenderer complementary) {
+    public default <Renderer extends FancyOriginRenderer & TargetRenderer> String generateSourceCode(final Class<?> type, final GeneratorUseControler control,
+                                                                                                     final Renderer renderer,
+                                                                                                     final TargetRenderer complementary) {
         // content storage
         final StringBuilder out = new StringBuilder();
         // content creation
         final String packageDeclaration = this.generateTargetPackageDeclaration(type.getPackage(), renderer);
         final String classContent = this.generateTestContent(type, control, renderer, complementary, 0);
-        final String importDeclarations = this.generateImports(type, renderer);
+        final String importDeclarations = this.generateImports(renderer.targetPackageFor(type).orElse(""), renderer);
         out.append(packageDeclaration);
         out.append(importDeclarations);
+        out.append(importDeclarations.isEmpty() ? "" : format("%n"));
         out.append(classContent);
         // finalize content
         return out.toString();
@@ -142,18 +147,18 @@ extends J8UnitGenerator, EnvelopedTypeModifiers {
 
     /**
      * <p>
-     * Generates the source code of the required {@code import} statements according to the given target {@code type}.
+     * Generates the source code of the required {@code import} statements in relation to the given target {@code type}.
      * </p>
      *
-     * @param type
-     *            the target type
+     * @param reference
+     *            the reference package
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      *
      * @return the source code of the required {@code import} statements
      */
-    public default <Renderer extends OriginRenderer & TargetRenderer> String generateImports(final Class<?> type, final Renderer renderer) {
-        return "";
+    public default String generateImports(final String reference, final FancyOriginRenderer renderer) {
+        return renderer.renderImport(reference);
     }
 
     /**
@@ -172,9 +177,9 @@ extends J8UnitGenerator, EnvelopedTypeModifiers {
      * @param control
      *            the generator control
      * @param renderer
-     *            the rendeRenderer renderer
+     *            the type name renderer
      * @param complementary
-     *            the complementary rendeRenderer renderer
+     *            the complementary type name renderer
      * @param depth
      *            the level of type nesting
      * @return the source code of the <em>j8unit</em> test methods

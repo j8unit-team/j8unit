@@ -5,16 +5,12 @@ import static java.lang.String.join;
 import static java.util.function.UnaryOperator.identity;
 import static java.util.stream.Collectors.toMap;
 import static org.j8unit.generator.GeneratorTokens.ASSERT_TRUE;
-import static org.j8unit.generator.GeneratorTokens.BEGIN_OF_TYPE_UNDER_TEST;
-import static org.j8unit.generator.GeneratorTokens.END_OF_TYPE_UNDER_TEST;
-import static org.j8unit.generator.GeneratorTokens.INDENT;
-import static org.j8unit.generator.GeneratorTokens.J8UNIT_BEGIN_MARKER;
-import static org.j8unit.generator.GeneratorTokens.J8UNIT_END_MARKER;
-import static org.j8unit.generator.GeneratorTokens.NL;
 import static org.j8unit.generator.GeneratorTokens.SUT_FACTORY;
 import static org.j8unit.generator.GeneratorTokens.indent;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
+import static org.j8unit.generator.api.GeneratorMarkers.Position.BEGIN;
+import static org.j8unit.generator.api.GeneratorMarkers.Position.END;
 import static org.j8unit.generator.api.GlobalGeneratorConstants.SUT;
 import static org.j8unit.generator.api.LoggingMessagesKeys.MERGE_METHODS;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
@@ -98,7 +94,7 @@ implements J8UnitCodeGenerator {
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = modusOperandi.getTestInterfaceGenericStatement(renderer, type);
             final List<String> j8unitSuperTypes = modusOperandi.getTestInterfaceSuperTypesDefinitions(type, control, renderer);
-            final String j8unitSuperTypesStatement = join(ENUMERATION_DELIMITER + NL + indent(depth + 2), j8unitSuperTypes);
+            final String j8unitSuperTypesStatement = join(format("%s%n%s", ENUMERATION_DELIMITER, indent(depth + 2)), j8unitSuperTypes);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: JavaDoc
@@ -115,7 +111,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s{%n", indt));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indt, INDENT, J8UNIT_BEGIN_MARKER, BEGIN_OF_TYPE_UNDER_TEST, type));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Custom Content
             out.append(modusOperandi.customTestInterfaceBody(depth + 1, renderer));
@@ -132,7 +128,7 @@ implements J8UnitCodeGenerator {
                 out.append(format("%n"));
             }
             // content creation: End Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indt, INDENT, J8UNIT_END_MARKER, END_OF_TYPE_UNDER_TEST, type));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
@@ -177,9 +173,9 @@ implements J8UnitCodeGenerator {
             out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Test.class)));
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(Draft.class)));
             out.append(format("%spublic default void %s() throws %s {%n", indt, j8unitName, renderer.originCanonicalNameOf(Exception.class)));
-            out.append(format("%s%s// query fresh subject-under-test%n", indt, INDENT));
-            out.append(format("%s%sfinal %s sut = this.%s();%n", indt, INDENT, SUT, SUT_FACTORY));
-            out.append(format("%s%sassert sut != null;%n", indt, INDENT));
+            out.append(format("%s%s// query fresh subject-under-test%n", indt, indent()));
+            out.append(format("%s%sfinal %s sut = this.%s();%n", indt, indent(), SUT, SUT_FACTORY));
+            out.append(format("%s%sassert sut != null;%n", indt, indent()));
             out.append(format("%s}%n", indt));
             // finish
             return out;
@@ -274,7 +270,7 @@ implements J8UnitCodeGenerator {
             for (final Entry<Class<?>, Set<Class<?>>> origin : origins) {
                 final Set<Class<?>> viaParents = origin.getValue();
                 for (final Class<?> viaParent : viaParents) {
-                    out.append(format("%s%s%s.super.%s();%n", indt, INDENT, renderer.targetCanonicalNameOf(viaParent), methodName));
+                    out.append(format("%s%s%s.super.%s();%n", indt, indent(), renderer.targetCanonicalNameOf(viaParent), methodName));
                 }
             }
             out.append(format("%s}%n", indt));
@@ -349,7 +345,7 @@ implements J8UnitCodeGenerator {
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = modusOperandi.getTestInterfaceGenericStatement(renderer, type);
             final List<String> j8unitSuperTypes = modusOperandi.getTestInterfaceSuperTypesDefinitions(type, control, renderer);
-            final String j8unitSuperTypesStatement = join(ENUMERATION_DELIMITER + NL + indent(depth + 2), j8unitSuperTypes);
+            final String j8unitSuperTypesStatement = join(format("%s%n%s", ENUMERATION_DELIMITER, indent(depth + 2)), j8unitSuperTypes);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation
@@ -367,12 +363,12 @@ implements J8UnitCodeGenerator {
             out.append(format("%s{%n", indt));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indt, INDENT, J8UNIT_BEGIN_MARKER, BEGIN_OF_TYPE_UNDER_TEST, type));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(modusOperandi.customTestInterfaceBody(depth + 1, renderer));
             out.append(this.verifyGenericTypeContent(type, depth + 1, renderer));
             out.append(format("%n"));
             // content creation: End Marker
-            out.append(format("%s%s// %s: %s (%s)%n", indt, INDENT, J8UNIT_END_MARKER, END_OF_TYPE_UNDER_TEST, type));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
@@ -398,11 +394,11 @@ implements J8UnitCodeGenerator {
             out.append(format("%s */%n", indt));
             out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(BeforeClass.class)));
             out.append(format("%spublic default void %s() throws %s {%n", indt, VERIFY_METHOD_NAME, renderer.originCanonicalNameOf(Exception.class)));
-            out.append(format("%s%s// create new instance%n", indt, INDENT));
-            out.append(format("%s%s%s<%s> sut = %s();%n", indt, INDENT, renderer.originCanonicalNameOf(Class.class), SUT, SUT_FACTORY));
-            out.append(format("%s%s// assert assignability%n", indt, INDENT));
+            out.append(format("%s%s// create new instance%n", indt, indent()));
+            out.append(format("%s%s%s<%s> sut = %s();%n", indt, indent(), renderer.originCanonicalNameOf(Class.class), SUT, SUT_FACTORY));
+            out.append(format("%s%s// assert assignability%n", indt, indent()));
             out.append(format("%s%s%s(\"This j8unit test interface is used with a generic type that is illegaly not assignable to %s!\", %s.%s(sut));%n", indt,
-                              INDENT, renderer.originCanonicalNameOf(Assert.class, ASSERT_TRUE), renderer.originCanonicalClassOf(type),
+                              indent(), renderer.originCanonicalNameOf(Assert.class, ASSERT_TRUE), renderer.originCanonicalClassOf(type),
                               renderer.originCanonicalClassOf(type), mut.getName()));
             out.append(format("%s}%n", indt));
             // finish
